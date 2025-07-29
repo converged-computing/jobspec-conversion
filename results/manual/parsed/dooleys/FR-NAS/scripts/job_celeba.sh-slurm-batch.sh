@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fairnas
-#FLUX: -c=8
-#FLUX: --queue=ml_gpu-rtx2080
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=fairnas
+#SBATCH --output=logs/%j.%x.%N.out
+#SBATCH --error=logs/%j.%x.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:8
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=ml_gpu-rtx2080
 
 python src/search/search.py --dataset CelebA

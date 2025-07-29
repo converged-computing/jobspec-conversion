@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TrainYolo3D
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainYolo3D
+#SBATCH --output=./slurmlogs/train_aot_%A_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:ampere:2
+#SBATCH --mem=10240M
+#SBATCH --partition=gpu
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"
 NUM_GPUS=`echo $GPU_DEVICE_ORDINAL | tr ',' '\n' | wc -l`

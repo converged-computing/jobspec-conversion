@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-knife-2160
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-lizard-3628
+#FLUX -c=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 if [[ "$HOSTNAME" == *"tiger"* ]]
 then

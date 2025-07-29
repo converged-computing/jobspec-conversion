@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-salad-1903
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export python_env='${python_env}'
 export TEST_DATA_ROOT='${SCRATCH}/jenkins/scratch/fv3core_fortran_data/'

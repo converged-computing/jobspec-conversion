@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-underoos-2790
-#FLUX: -n=4
-#FLUX: --queue=cidsegpu1
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#FLUX --job-name=placid-general-7841
+#FLUX -n=4
+#FLUX --queue=cidsegpu1
+#FLUX -t=259920
+#FLUX --urgency=16
 
 module load tensorflow/1.8-agave-gpu
 source ~/work/code/pytorch1_0/bin/activate

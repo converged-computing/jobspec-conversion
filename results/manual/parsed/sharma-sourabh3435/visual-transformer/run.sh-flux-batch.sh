@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cnn-cifar100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=cnn-cifar100
+#FLUX -t=7200
+#FLUX --urgency=16
 
                                     # %x=job-name, %A=job ID, %a=array value, %n=node rank, %t=task rank, %N=hostname
                                     # Note: You must manually create output directory "logs" before launching job.

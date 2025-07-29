@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-taco-6559
-#FLUX: --queue=normal_q
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-earthworm-9189
+#FLUX --queue=normal_q
+#FLUX -t=14400
+#FLUX --urgency=16
 
 if [ -z ${HOME+x} ];
 then

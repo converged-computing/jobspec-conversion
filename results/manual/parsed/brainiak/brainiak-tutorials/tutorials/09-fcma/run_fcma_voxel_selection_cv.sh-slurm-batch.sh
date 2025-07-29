@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fcma_voxel_select_cv
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=fcma_voxel_select_cv
+#SBATCH --output=../logs/fcma_voxel_select_cv-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=00:20:00
 
 export OMP_NUM_THREADS='32'
 

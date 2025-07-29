@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-milkshake-0729
-#FLUX: -n=8
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-spoon-6152
+#FLUX -n=8
+#FLUX --urgency=16
 
 TWITTER=$1
 MELB_GRID=$2

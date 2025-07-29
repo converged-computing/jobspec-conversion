@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-toaster-0616
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=placid-egg-1475
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_b.py \
     --loss "triplet"  \

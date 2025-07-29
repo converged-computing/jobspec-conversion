@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hippo-3187
-#FLUX: -c=6
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-kitty-0494
+#FLUX -c=6
+#FLUX -t=1440
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export WANDB_ENTITY='<???????????????????????>'

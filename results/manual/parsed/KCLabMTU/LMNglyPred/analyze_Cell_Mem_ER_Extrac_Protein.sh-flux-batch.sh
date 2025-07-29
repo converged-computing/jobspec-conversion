@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-9509
-#FLUX: -c=18
-#FLUX: --urgency=16
+#FLUX --job-name=grated-destiny-5062
+#FLUX -c=18
+#FLUX --urgency=16
 
 export FILENAME='$(ls ${BASEDIR}/*.fasta | sed -n ${SLURM_ARRAY_TASK_ID}p)'
 

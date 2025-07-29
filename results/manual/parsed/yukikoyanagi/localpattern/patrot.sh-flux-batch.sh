@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-snack-4296
-#FLUX: -N=3
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-earthworm-8857
+#FLUX -N=3
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo Running on "$(hostname)"
 echo Available nodes: "$SLURM_NODELIST"

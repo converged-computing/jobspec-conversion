@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=BowAtLouise_drainage_database
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BowAtLouise_drainage_database
+#SBATCH --account=rpp-kshook
+#SBATCH --error=errors_BowAtLouise
+#SBATCH --mail-user=your.email@example.ca
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load StdEnv/2020 gcc/9.3.0 openmpi/4.0.3
 module load gdal/3.5.1 libspatialindex/1.8.5

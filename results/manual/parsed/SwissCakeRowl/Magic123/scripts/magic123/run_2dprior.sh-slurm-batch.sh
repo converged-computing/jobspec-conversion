@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=magic123
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=magic123
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=30G
+#SBATCH --time=03:00:00
+#SBATCH --array=0
 
 module load gcc/7.5.0
 source venv_magic123/bin/activate

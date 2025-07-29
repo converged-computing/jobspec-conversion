@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-milkshake-4907
-#FLUX: -c=4
-#FLUX: --queue=gpus
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-leader-2842
+#FLUX -c=4
+#FLUX --queue=gpus
+#FLUX --urgency=16
 
 exp_name='ukbb192_beta5_dgauss'
 parents='m_b_v_s'

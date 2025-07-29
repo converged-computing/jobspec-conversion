@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-noodle-3457
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 source /home/data/NDClab/tools/lab-devOps/scripts/monitor/tools.sh
 module load singularity-3.5.3

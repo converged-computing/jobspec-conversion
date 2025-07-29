@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=repeatmasker
+#SBATCH --output=stdout.%x.%j
+#SBATCH --error=stderr.%x.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=180G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load icc/2018.3.222-GCC-7.3.0-2.30 impi/2018.3.222 RepeatMasker/4.0.8-Perl-5.28.0-HMMER
 <<README

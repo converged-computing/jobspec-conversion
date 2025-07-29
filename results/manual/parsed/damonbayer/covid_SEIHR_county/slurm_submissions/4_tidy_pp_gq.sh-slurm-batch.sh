@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-toaster-0984
-#FLUX: -n=20
-#FLUX: --queue=stats.p
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=log/%x.%A.out
+#SBATCH --error=log/%x.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=04:00:00
+#SBATCH --partition=stats.p
 
 cd /home/abakis/git/covid_SEIHR_county
 Rscript scripts/tidy_posterior_predictive_and_generated_quantities.R

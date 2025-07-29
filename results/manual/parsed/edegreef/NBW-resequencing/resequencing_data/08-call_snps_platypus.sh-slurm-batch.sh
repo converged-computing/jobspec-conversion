@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=platypus
-#FLUX: -c=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=platypus
+#SBATCH --account=def-coling
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=edegreef@ucdavis.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
 
 module load nixpkgs/16.09  gcc/7.3.0 platypus/0.8.1
 python /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/gcc7.3/platypus/0.8.1/bin/Platypus.py callVariants \

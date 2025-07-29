@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=1
-#FLUX: -n=50
-#FLUX: --urgency=16
+#SBATCH --job-name=1
+#SBATCH --nodes=1
+#SBATCH --ntasks=50
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=200gb
 
 samples=
 for i in samples

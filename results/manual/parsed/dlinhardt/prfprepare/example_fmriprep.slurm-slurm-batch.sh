@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=24
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --output=/scratch/glerma/logs/%x-%A-%a.out
+#SBATCH --error=/scratch/glerma/logs/%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=24000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 export HOMES='/scratch/glerma'
 export SINGULARITYENV_FS_LICENSE='$BIDS_DIR/.freesurfer.txt'

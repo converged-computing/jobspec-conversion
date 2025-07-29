@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bwa-array
-#FLUX: -n=4
-#FLUX: --queue=brc
-#FLUX: -t=590700
-#FLUX: --urgency=16
+#FLUX --job-name=bwa-array
+#FLUX -n=4
+#FLUX --queue=brc
+#FLUX -t=590700
+#FLUX --urgency=16
 
 module load apps/bwa/0.7.17-singularity
 number=$SLURM_ARRAY_TASK_ID

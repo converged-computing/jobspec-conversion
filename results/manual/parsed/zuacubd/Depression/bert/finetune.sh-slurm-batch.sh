@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Finetune_imbalanced_bert_2017
-#FLUX: -c=4
-#FLUX: --queue=GPUNodes
-#FLUX: --urgency=16
+#SBATCH --job-name=Finetune_imbalanced_bert_2017
+#SBATCH --output=log/gpu_finetune_imbalanced_bert_2017.out
+#SBATCH --error=log/gpu_finetune_imbalanced_bert_2017.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=7800M
+#SBATCH --partition=GPUNodes
 
 track_year=$1
 echo "starting ..."

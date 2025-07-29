@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=POPE
-#FLUX: --queue=amilan
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=POPE
+#SBATCH --output=%x.out
+#SBATCH --mail-user=pafr7911@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amilan
+#SBATCH --constraint=ntasks-per-node=64
 
 ml gcc/11.2.0
 ml openmpi/4.1.1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-2861
-#FLUX: -n=16
-#FLUX: --queue=test
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-house-4808
+#FLUX -n=16
+#FLUX --queue=test
+#FLUX -t=240
+#FLUX --urgency=16
 
 genome="hg19"
 bam=N711_ATAC_Exp49_sample9_S1.bap.bam

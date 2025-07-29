@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=WRF
-#FLUX: -N=16
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=WRF
+#SBATCH --output=conus-%J.%t.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='6'
 export I_MPI_FABRICS='efa'

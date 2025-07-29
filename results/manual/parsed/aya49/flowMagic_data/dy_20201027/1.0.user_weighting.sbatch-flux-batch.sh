@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-5458
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-pot-1934
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

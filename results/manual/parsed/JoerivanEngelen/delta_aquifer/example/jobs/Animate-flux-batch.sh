@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pot-7973
-#FLUX: --queue=short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-leopard-5575
+#FLUX --queue=short
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/visualization/mesa/lib'
 export PATH='$HOME/visualization/mesa/bin:$PATH'

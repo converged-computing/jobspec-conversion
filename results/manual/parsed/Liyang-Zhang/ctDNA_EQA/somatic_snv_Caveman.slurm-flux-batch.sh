@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Caveman
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#FLUX --job-name=Caveman
+#FLUX --queue=small
+#FLUX --urgency=16
 
 export IAMGE_NAME='/lustre/home/acct-medkwf/medkwf4/software/CRUK/dockstore-cgpwxs_3.1.7.sif'
 export IAMGE_NAME_WRAPPER='/lustre/home/acct-medkwf/medkwf4/software/CRUK/docker-caveman_v1.0.0.sif'

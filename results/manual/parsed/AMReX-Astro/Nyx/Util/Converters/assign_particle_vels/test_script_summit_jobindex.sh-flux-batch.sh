@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-9592
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-frito-7027
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/Nyx/Util/Converters/assign_particle_vels/test_script_summit_jobindex.sh

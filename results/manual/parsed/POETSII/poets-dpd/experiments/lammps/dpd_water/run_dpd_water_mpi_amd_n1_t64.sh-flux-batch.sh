@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-destiny-2799
-#FLUX: --queue=amd
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-train-7705
+#FLUX --queue=amd
+#FLUX --urgency=16
 
 module load openmpi/4.1.1/amd-intel
 module load lammps/2020/amd-intel

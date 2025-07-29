@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TFF_ABCD_step_three
-#FLUX: -N=4
-#FLUX: -c=32
+#FLUX --job-name=TFF_ABCD_step_three
+#FLUX -N=4
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=regular
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

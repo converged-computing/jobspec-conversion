@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bike-8330
+#FLUX --job-name=fugly-toaster-8451
 #FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX -t=10800
+#FLUX --urgency=16
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

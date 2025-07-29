@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_saf
-#FLUX: -N=4
-#FLUX: -c=12
+#FLUX --job-name=amg2013_saf
+#FLUX -N=4
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCOREP_FILTERING_FILE='scorep.filt'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leopard-9034
-#FLUX: -c=20
-#FLUX: --queue=uri-cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=./err_out/%x_%A_%a.out
+#SBATCH --error=./err_out/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=10G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=uri-cpu
 
 export NXF_SINGULARITY_CACHEDIR='/home/gabriel_barrett_uri_edu/nxf-singularity-cache-dir'
 

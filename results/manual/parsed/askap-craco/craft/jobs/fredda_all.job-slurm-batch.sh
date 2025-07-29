@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-malarkey-8016
-#FLUX: -c=8
-#FLUX: --queue=gpuq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuq
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

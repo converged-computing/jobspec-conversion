@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_omp_check-multithread
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_omp_check-multithread
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:05:00
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='true'

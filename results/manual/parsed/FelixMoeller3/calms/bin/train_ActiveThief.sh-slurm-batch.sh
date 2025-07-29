@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=AcTh_Training
-#FLUX: -c=2
-#FLUX: --queue=gpu_4_a100
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=AcTh_Training
+#SBATCH --mail-user=ie2651@partner.kit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15000
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu_4_a100
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge                                       # Unload all currently loaded modules.
 module load devel/cuda/11.8

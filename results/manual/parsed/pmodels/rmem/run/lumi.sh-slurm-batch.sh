@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-2149
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=standard-g
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=project_465000723
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)'

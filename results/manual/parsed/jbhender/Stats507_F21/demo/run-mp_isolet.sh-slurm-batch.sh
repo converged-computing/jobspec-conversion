@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mp_isolet-gb0
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mp_isolet-gb0
+#SBATCH --account=cscar
+#SBATCH --output=/home/%u/logs/%x-%j-4.log
+#SBATCH --mail-user=jbhender@umich.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=5GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 n_procs=4
 module load tensorflow

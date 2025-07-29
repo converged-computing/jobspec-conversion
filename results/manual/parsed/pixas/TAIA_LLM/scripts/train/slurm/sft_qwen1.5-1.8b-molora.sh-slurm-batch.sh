@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sft_qwen
-#FLUX: -c=16
-#FLUX: --queue=partition
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=sft_qwen
+#SBATCH --output=logs/train/test.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=partition
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='ERROR'

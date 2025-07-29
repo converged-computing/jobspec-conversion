@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-general-2603
-#FLUX: -n=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-train-7843
+#FLUX -n=6
+#FLUX --queue=dgx2q
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

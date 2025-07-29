@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=md
-#FLUX: --queue=RM-shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=md
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gromacs/2020.2-cpu
 cpu=$SLURM_NPROCS

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pre_transfer
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pre_transfer
+#FLUX -t=259200
+#FLUX --urgency=16
 
 rnn_type_array=("LeakyRNN")
 activation_array=("softplus" "retanh")

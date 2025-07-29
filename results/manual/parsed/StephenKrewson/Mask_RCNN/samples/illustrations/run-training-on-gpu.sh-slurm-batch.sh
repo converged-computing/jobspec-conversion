@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bicycle-0517
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --mail-user=stephen.krewson@yale.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10g
+#SBATCH --time=05:00:00
 
 module purge
 module load Apps/Matlab/R2017b

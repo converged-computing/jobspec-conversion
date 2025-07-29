@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-milkshake-1693
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=grated-fork-4962
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MODEL_DIR='/scratch/project_2002026/bert/cased_L-12_H-768_A-12'

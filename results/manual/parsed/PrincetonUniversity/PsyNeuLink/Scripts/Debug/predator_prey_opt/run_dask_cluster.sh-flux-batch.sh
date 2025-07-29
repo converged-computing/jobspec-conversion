@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pred_prey_search
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pred_prey_search
+#FLUX -n=2
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load anaconda intel-mpi/gcc
 conda activate psyneulink2

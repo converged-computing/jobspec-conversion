@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -t=270000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=fminbnd_nll_std__%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=3-03:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load matlab/R2013a

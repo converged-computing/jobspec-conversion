@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -N=10
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=desi
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export which='sim'
 export bricks_fn='${CSCRATCH}/obiwan_out/elg_dr5_coadds/partially_done_bricks.txt'

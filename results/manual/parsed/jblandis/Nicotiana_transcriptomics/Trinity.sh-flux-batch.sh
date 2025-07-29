@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Trinity
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Trinity
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 date
 module unload perl/5.20.2

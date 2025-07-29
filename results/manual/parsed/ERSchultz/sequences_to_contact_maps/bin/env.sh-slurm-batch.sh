@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: --queue=depablo-gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=setup
+#SBATCH --account=pi-depablo
+#SBATCH --output=logFiles/setup.out
+#SBATCH --mail-user=erschultz@uchicago.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=depablo-gpu
+#SBATCH --constraint=ntasks-per-node=5
 
 envName=python3.9_pytorch2.0
 ofile=logFiles/conda_env_spectre.log

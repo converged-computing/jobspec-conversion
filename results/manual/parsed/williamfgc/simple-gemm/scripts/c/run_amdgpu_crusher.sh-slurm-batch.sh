@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=M_C_gpu_Float32
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=M_C_gpu_Float32
+#SBATCH --account=CSC383_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 PROJDIR=../../simple-gemm/c
 EXECUTABLE=$PROJDIR/gemm-dense-hip

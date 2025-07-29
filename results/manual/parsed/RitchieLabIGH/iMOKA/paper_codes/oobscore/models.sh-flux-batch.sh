@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-soup-6402
-#FLUX: -n=8
-#FLUX: -t=173420
-#FLUX: --urgency=16
+#FLUX --job-name=placid-blackbean-4481
+#FLUX -n=8
+#FLUX -t=173420
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/work/clorenzi/'

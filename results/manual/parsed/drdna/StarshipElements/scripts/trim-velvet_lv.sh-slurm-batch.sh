@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=trim-velvet
-#FLUX: -c=16
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=trim-velvet
+#SBATCH --account=coa_vaillan_uksr
+#SBATCH --mail-user=sgo293@uky.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=256GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
 
 echo "SLURM_NODELIST: "$SLURM_NODELIST
 username=$1

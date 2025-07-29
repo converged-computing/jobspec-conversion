@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=03_saf_maf_gl_all_maxdepth
-#FLUX: -c=4
-#FLUX: --queue=medium
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=03_saf_maf_gl_all_maxdepth
+#FLUX -c=4
+#FLUX --queue=medium
+#FLUX -t=604800
+#FLUX --urgency=16
 
 NB_CPU=4 #change accordingly in SLURM header
 REGIONS="" # to remove the options to focus on a limited number of regions

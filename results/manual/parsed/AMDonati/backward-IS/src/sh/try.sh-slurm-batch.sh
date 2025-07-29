@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: -c=8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --output=slurm_out/debug-j.out
+#SBATCH --error=slurm_out/debug-j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8g
+#SBATCH --time=10:00:00
+#SBATCH --qos=qos_gpu-t3
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

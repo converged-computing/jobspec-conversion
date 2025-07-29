@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DGP128
-#FLUX: -c=20
-#FLUX: --queue=CLUSTER
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=DGP128
+#FLUX -c=20
+#FLUX --queue=CLUSTER
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load python/anaconda3
 module load cuda/cuda-11.4

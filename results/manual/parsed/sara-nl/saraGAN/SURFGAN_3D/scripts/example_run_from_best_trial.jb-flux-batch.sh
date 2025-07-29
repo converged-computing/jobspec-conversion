@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-car-5381
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-onion-9552
+#FLUX -c=6
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

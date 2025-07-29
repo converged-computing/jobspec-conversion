@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-leg-6918
-#FLUX: --queue=scarf
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=scarf
 
 python2 generate_goodenough_resolution.py $SLURM_ARRAY_TASK_ID

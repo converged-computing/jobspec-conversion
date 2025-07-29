@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=net_fusion
-#FLUX: --queue=gpu2
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=net_fusion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=gpu2
+#SBATCH --nodelist=node01.chess
 
 nvidia-smi -L
 echo $CUDA_VISIBLE_DEVICES

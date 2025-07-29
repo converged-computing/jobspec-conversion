@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: --queue=skx-normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake
+#SBATCH --account=COVIRT19
+#SBATCH --output=output.%j
+#SBATCH --error=error.%j
+#SBATCH --mail-user=kternus@signaturescience.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=skx-normal
+#SBATCH --qos=vip
 
 export SINGULARITY_BINDPATH='data:/tmp'
 

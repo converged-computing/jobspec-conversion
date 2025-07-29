@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=isicle_nmr
-#FLUX: --queue=shared,slurm,short
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=isicle_nmr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=shared,slurm,short
 
 source /etc/bashrc
 module purge

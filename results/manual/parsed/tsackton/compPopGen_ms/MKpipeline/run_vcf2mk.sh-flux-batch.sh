@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sm
-#FLUX: --queue=holy-info
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=sm
+#FLUX --queue=holy-info
+#FLUX -t=540000
+#FLUX --urgency=16
 
 module purge
 module load Anaconda3/2020.11

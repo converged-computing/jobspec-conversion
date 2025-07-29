@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=parrot
-#FLUX: -c=8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=parrot
+#SBATCH --output=slurm_out/parrot-%j.out
+#SBATCH --mail-user=js11531@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32GB
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "hostname:" `hostname`
 echo "file: " $FILE

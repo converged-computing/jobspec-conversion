@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-car-3094
+#FLUX --job-name=persnickety-cupcake-6916
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export NCCL_TOPO_FILE='/workspace/bert/dgxa100_nic_affinity.xml'
 

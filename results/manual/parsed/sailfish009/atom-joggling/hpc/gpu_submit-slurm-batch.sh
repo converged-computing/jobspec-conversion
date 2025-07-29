@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lettuce-5387
-#FLUX: --queue=pascal
-#FLUX: --urgency=16
+#SBATCH --account=LEE-JR769-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=pascal
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

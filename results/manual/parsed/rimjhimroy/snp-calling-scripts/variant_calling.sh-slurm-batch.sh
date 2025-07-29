@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BQSR
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=BQSR
+#SBATCH --output=BQSR-%N-%j.out
+#SBATCH --error=BQSR-%N-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=25G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=all
 
 export PATH='/software/bin:$PATH;'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-2439
-#FLUX: --queue=short
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%x.%A.%a.out
+#SBATCH --error=slurm.%x.%A.%a.err
+#SBATCH --mail-user=jodymou@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:01:00
+#SBATCH --partition=short
+#SBATCH --array=1-5
 
 module load gcc/4.8.5
 module load rosetta 

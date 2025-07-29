@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=$2
-#FLUX: -n=7
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=$2
+#FLUX -n=7
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 if [ -e $2.out ]; then
   >&2 echo $2.out File already exists. Protectively reject submitting job

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iq_julia_job
-#FLUX: --queue=amd
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=iq_julia_job
+#SBATCH --output=logs/iq_julia_job-%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=800G
+#SBATCH --time=23:00:00
+#SBATCH --partition=amd
 
 module load SciPy-bundle
 module load mosek

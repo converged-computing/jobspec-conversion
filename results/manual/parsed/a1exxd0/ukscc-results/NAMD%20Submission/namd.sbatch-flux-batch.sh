@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=4mpi-alt
-#FLUX: -N=4
-#FLUX: -c=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=4mpi-alt
+#FLUX -N=4
+#FLUX -c=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/build/NAMD/NAMD_3.0b6_Source/tcl/lib:$HOME/build/NAMD/NAMD_3.0b6_Source/fftw/lib:$LD_LIBRARY_PATH'
 export PATH='$HOME/build/NAMD/NAMD_3.0b6_Source/charm-v7.0.0/bin:$PATH'

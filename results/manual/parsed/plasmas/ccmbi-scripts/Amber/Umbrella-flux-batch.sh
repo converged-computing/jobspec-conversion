@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-car-1085
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-butter-4332
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/plasmas/ccmbi-scripts/Amber/Umbrella

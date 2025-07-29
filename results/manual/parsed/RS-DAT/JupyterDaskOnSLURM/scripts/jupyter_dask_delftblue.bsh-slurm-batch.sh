@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-parrot-2920
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --account=innovation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=23:00:00
+#SBATCH --partition=compute
 
 source ~/.bashrc
 conda activate jupyter_dask

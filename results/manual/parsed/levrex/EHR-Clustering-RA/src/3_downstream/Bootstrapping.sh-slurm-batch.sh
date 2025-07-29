@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Bootstrapping
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Bootstrapping
+#SBATCH --mail-user=t.d.maarseveen@lumc.nl
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 module purge
 module add library/cuda/11.2/gcc.8.3.1

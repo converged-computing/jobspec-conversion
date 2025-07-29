@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=clear_wandb_cache
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=clear_wandb_cache
+#SBATCH --account=MLMI-tw581-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=skylake
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

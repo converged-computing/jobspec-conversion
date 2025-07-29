@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poo-3181
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-milkshake-2990
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 IMG=/home/software/singularity/tf26.simg:latest
 cd ~/particleflow

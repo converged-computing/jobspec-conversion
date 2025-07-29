@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=colabfold
-#FLUX: -c=44
-#FLUX: -t=259080
-#FLUX: --urgency=16
+#FLUX --job-name=colabfold
+#FLUX -c=44
+#FLUX -t=259080
+#FLUX --urgency=16
 
 PASSWORD=$1
 shift

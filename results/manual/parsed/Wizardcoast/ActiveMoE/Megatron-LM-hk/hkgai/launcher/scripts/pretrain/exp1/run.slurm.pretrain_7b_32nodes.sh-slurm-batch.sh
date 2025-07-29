@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Megatron-LM
-#FLUX: -N=32
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=megatron
-#FLUX: --urgency=16
+#SBATCH --job-name=Megatron-LM
+#SBATCH --account=root
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=1024G
+#SBATCH --partition=megatron
+#SBATCH: --exclusive
+#SBATCH --exclude=dgx-067,dgx-071,dgx-095
 
 export LOGLEVEL='INFO'
 export WANDB_API_KEY='YourOwnWandbAPIKey'

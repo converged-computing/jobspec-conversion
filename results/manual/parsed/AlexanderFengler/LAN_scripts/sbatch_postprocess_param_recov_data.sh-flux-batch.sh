@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=param_recov_postprocess
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=param_recov_postprocess
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

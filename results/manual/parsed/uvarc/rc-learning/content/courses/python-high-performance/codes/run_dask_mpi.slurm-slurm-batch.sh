@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-omelette-8346
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=hpc_build
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
 
 export OMPI_MCA_mpi_warn_on_fork='0'
 

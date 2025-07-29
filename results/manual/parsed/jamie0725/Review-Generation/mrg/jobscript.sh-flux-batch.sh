@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-7362
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-carrot-8638
+#FLUX -c=3
+#FLUX --queue=gpu_shared_course
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load 2019

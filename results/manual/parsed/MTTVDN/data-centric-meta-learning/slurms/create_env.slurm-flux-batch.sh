@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creating_env_1
-#FLUX: --queue=testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=creating_env_1
+#FLUX --queue=testing
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CWD='$(pwd)'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

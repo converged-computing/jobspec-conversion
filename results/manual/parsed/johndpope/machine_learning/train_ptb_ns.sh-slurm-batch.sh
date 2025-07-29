@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leg-7540
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/johndpope/machine_learning/train_ptb_ns.sh

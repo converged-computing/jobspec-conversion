@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-muffin-4172
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-despacito-1100
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/eikekutz/pix2pixHD/drive_train.sh

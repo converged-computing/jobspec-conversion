@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-sundae-3978
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-avocado-7976
+#FLUX -N=2
+#FLUX -c=10
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

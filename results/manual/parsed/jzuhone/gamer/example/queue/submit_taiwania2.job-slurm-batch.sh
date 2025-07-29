@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=YOUR_JOB_NAME
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=gp1d
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=YOUR_JOB_NAME
+#SBATCH --account=YOUR_ACCOUNT
+#SBATCH --output=log-%j
+#SBATCH --mail-user=YOUR_EMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:8
+#SBATCH --time=02:00:00
+#SBATCH --partition=gp1d
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge
 module load compiler/gnu/4.8.5 nvidia/cuda/10.0 openmpi/3.1.4

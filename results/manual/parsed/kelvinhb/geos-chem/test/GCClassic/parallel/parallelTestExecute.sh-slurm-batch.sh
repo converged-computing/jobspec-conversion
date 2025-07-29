@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-lamp-8735
-#FLUX: -c=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=210
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=90000
+#SBATCH --time=00:03:30
+#SBATCH --partition=REQUESTED_PARTITION
 
 ptRoot=$(cd ..; pwd)
 . "${ptRoot}/scripts/commonFunctionsForTests.sh"

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=dedicateq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=image_classification
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=dedicateq
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 set -euxo pipefail
 : "${SYSTEM:?SYSTEM not set}"

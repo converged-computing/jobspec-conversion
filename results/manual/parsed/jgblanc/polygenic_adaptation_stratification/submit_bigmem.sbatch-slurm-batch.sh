@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=2PopSplit_Plink
-#FLUX: --queue=bigmem2
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=2PopSplit_Plink
+#SBATCH --output=logs/2PopSplit_Plink.out
+#SBATCH --error=logs/2PopSplit_Plink.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=03:00:00
+#SBATCH --partition=bigmem2
+#SBATCH --constraint=ntasks-per-node=8
 
 module load python/cpython-3.7.0
 module load R

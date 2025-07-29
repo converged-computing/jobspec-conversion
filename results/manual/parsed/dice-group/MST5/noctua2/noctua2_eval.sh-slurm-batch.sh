@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pot-0812
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=eval_logs/%x_slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 set -eu
 module load lib/NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0

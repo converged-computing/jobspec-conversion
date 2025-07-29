@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bicycle-7165
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/andersthuesen/DTU-Course-Project-02466/jobs/0_100.sh

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sySTREAM
-#FLUX: --exclusive
-#FLUX: --queue=gpua100
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=sySTREAM
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpua100
+#SBATCH: --exclusive
 
 export HOME_FOLDER='/gpfs/users/millana'
 export CONTAINER_RUN='$CONTAINERSDIR/sycl-complete_latest.sif'

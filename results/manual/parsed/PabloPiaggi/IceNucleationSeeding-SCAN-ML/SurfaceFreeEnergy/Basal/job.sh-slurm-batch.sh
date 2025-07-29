@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DP-pB-144
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=7
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=DP-pB-144
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=6-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

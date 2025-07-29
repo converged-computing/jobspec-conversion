@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leopard-4719
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 module unload nvidia/cuda/10.0
 module load nvidia/cuda/10.2

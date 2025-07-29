@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dl-hw2
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=dl-hw2
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load GCC/10.2.0
 module load CUDA/11.1.1

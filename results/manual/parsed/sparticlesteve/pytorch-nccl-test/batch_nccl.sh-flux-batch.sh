@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-chip-8544
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=ornery-leopard-6408
+#FLUX -N=2
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

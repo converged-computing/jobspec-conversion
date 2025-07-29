@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-milkshake-9847
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=/projects/verhaak-lab/GLASS-III/logs/slurm/CIBERSORTx_HiRes.out
+#SBATCH --error=/projects/verhaak-lab/GLASS-III/logs/slurm/CIBERSORTx_HiRes.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=36g
+#SBATCH --time=08:00:00
 
 module load singularity
 singularity exec \

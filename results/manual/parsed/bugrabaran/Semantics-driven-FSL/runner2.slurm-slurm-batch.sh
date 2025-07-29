@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=am31s
-#FLUX: -c=16
-#FLUX: --queue=palamut-cuda
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=am31s
+#SBATCH --account=tbag88
+#SBATCH --output=/truba/home/tbag88/bugrabaran/try/slurm-%j.out
+#SBATCH --error=/truba/home/tbag88/bugrabaran/try/slurm-%j.err
+#SBATCH --mail-user=yourmail@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=palamut-cuda
 
 export PATH='/truba_scratch/eakbas/software/cuda-9.0/bin:$PATH'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/truba_scratch/eakbas/software/cuda-9.0/lib64'

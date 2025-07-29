@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS-ALLEGRO
-#FLUX: -c=2
-#FLUX: --queue=mpi
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS-ALLEGRO
+#SBATCH --output=slurm-report.out
+#SBATCH --error=slurm-report.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:20:00
+#SBATCH --partition=mpi
+#SBATCH --constraint=ntasks-per-node=32
 
 export LAMMPS_BIN='/path/to/lammps/build/bin'
 export PATH='$LAMMPS_BIN:$PATH'

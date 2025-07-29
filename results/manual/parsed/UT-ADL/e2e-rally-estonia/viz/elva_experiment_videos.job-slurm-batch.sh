@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Elva paper experiments videos
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Elva paper experiments videos
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-28
 
 DATASETS=(
     '2021-11-25-12-09-43_e2e_rec_elva-nvidia-v1-0.8' \

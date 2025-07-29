@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=streamflow
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=streamflow
+#FLUX -N=8
+#FLUX --queue=compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python
 module load mpi4py

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pi_acc
+#FLUX --job-name=pi_acc
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=600
+#FLUX --urgency=16
 
 export ALLINEA_STOP_AT_MAIN='1'
 

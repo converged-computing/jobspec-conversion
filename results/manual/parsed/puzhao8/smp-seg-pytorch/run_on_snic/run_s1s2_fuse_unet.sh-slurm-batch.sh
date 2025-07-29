@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuse-unet
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=fuse-unet
+#SBATCH --account=SNIC2021-7-104
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
 
 echo "start"
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"

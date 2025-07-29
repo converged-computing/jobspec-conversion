@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-destiny-6060
-#FLUX: -n=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-pastry-9953
+#FLUX -n=12
+#FLUX -t=36000
+#FLUX --urgency=16
 
 chmod +x workflow/genesearch.sh
 sample="$1"

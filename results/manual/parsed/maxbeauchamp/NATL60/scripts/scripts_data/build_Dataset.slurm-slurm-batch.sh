@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=build_dataset
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=build_dataset
+#SBATCH --account=yrf@cpu
+#SBATCH --output=build_dataset%j.out
+#SBATCH --error=build_dataset%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=20:00:00
 
 export PYTHONPATH='${HOME}/DINAE_keras/:${HOME}/PB_ANDA:${PYTHONPATH}:${HOME}/4DVARNN-DinAE:${HOME}/NATL60:/gpfswork/rech/yrf/uba22to/esmf/esmpy/lib/python3.7/site-packages:/gpfswork/rech/yrf/uba22to/esmf/xesmf/lib/python3.7/site-packages'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfswork/rech/yrf/uba22to/esmf/lib/libO/Linux.intel.64.openmpi.default'

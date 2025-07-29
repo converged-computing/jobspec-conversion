@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-punk-6505
-#FLUX: -c=8
-#FLUX: --queue=g100_usr_interactive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=tra23_cfd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=g100_usr_interactive
+#SBATCH --constraint=ntasks-per-node=1
 
 module load nvhpc/22.3 
 echo $HOSTNAME > hostname.dat

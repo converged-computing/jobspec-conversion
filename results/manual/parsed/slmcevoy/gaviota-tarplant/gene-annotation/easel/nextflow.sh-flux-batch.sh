@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gvtp
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=gvtp
+#FLUX -c=4
+#FLUX --queue=general
+#FLUX --urgency=16
 
 module load nextflow
 SINGULARITY_TMPDIR=$PWD/tmp

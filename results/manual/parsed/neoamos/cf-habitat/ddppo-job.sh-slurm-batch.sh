@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test-hab
-#FLUX: -c=128
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#SBATCH --job-name=test-hab
+#SBATCH --output=/home/an38gezy/thesis/cf-habitat/data/experiments/job_out/job.out.%j
+#SBATCH --error=/home/an38gezy/thesis/cf-habitat/data/experiments/job_out/job.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:a100:8
+#SBATCH --mem=7200
+#SBATCH --time=17:00:00
+#SBATCH --constraint=dgx
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

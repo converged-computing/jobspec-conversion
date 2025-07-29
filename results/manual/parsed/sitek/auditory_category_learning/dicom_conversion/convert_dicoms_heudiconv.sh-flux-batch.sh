@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lemon-2456
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-citrus-7299
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module add dcm2niix
 data_dir=/bgfs/bchandrasekaran/krs228/data/FLT/

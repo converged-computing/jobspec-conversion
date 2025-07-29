@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DOS
-#FLUX: -n=24
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=DOS
+#SBATCH --output=./std.out
+#SBATCH --error=./std.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 export VASP_CMD='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin/vasp_std'
 export OMP_NUM_THREADS='1'

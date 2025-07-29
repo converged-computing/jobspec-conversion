@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Run an UltraDark test simulation
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Run an UltraDark test simulation
+#FLUX -n=2
+#FLUX -c=2
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load openmpi
 module load fftw3

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sGW
-#FLUX: -n=4
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: -t=1799
-#FLUX: --urgency=16
+#SBATCH --job-name=sGW
+#SBATCH --account=<your-account>
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:29:59
+#SBATCH --qos=debug
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 

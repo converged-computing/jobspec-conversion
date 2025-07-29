@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-kp20k-bidirectional-TeacherForcing-IF
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=train-kp20k-bidirectional-TeacherForcing-IF
+#SBATCH --output=slurm_output/train-kp20k-bidirectional-TeacherForcing-IF.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=titanx
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export EXP_NAME='rnn.teacher_forcing.input_feeding'
 export ATTENTION='general'

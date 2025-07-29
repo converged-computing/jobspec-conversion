@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=approx
-#FLUX: -c=2
-#FLUX: --queue=long
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=approx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=18:00:00
+#SBATCH --partition=long
+#SBATCH --exclude=amdgpu[0-2]
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'
 export XLA_FLAGS='--xla_gpu_force_compilation_parallelism=1  --xla_force_host_platform_device_count=2'

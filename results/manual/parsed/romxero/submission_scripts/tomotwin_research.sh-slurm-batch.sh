@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tomotwin_lbann_integration_research
-#FLUX: -c=12
-#FLUX: --queue=cpu
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#SBATCH --job-name=tomotwin_lbann_integration_research
+#SBATCH --output=tomotwin_lbann_integration_research_%A.%a.out
+#SBATCH --error=tomotwin_lbann_integration_research_%A.%a.err
+#SBATCH --mail-user=randall.white@czbiohub.org
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=2G
+#SBATCH --time=04:10:00
+#SBATCH --partition=cpu
 
 SPACK_ENV_NAME="LBANN_experiment"
 ml purge

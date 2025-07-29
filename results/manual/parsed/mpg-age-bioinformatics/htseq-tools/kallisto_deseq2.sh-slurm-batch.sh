@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=QCplots
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --job-name=QCplots
+#SBATCH --output=${logs}qc_plots.%j.out
+#SBATCH --error=${logs}fastqc.${file%.fastq.gz}.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
 
 HOMESOURCE="source ~/.bashrc"
 SLURMPARTITION="blade,himem,hugemem"

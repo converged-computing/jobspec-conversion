@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=simsopt
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=simsopt
+#SBATCH --account=apam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=170gb
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='4'
 

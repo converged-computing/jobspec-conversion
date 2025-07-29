@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=$experiment_notes_var
-#FLUX: -n=16
-#FLUX: --queue=palamut-cuda,barbun-cuda,akya-cuda
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=$experiment_notes_var
+#SBATCH --account=akindiroglu
+#SBATCH --output=/truba_scratch/akindiroglu/Slurm/output/out-%j.out
+#SBATCH --error=/truba_scratch/akindiroglu/Slurm/error/err-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=palamut-cuda,barbun-cuda,akya-cuda
 
 experiment_notes_var=bsign_default
 module purge

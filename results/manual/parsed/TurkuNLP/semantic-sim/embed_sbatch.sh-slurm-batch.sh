@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-puppy-2215
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=Project_2000539
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1,nvme:10
+#SBATCH --mem=6G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PYTORCH_PRETRAINED_BERT_CACHE='$TMPDIR'
 

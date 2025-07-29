@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-chair-5456
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=project_2004600
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=medium
 
 export HF_DATASETS_CACHE='$CACHEDIR'
 

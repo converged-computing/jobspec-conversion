@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cinnamonbun-3606
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128GB
+#SBATCH --qos=m
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_IB_DISABLE='1'
 export CUDA_LAUNCH_BLOCKING='1'

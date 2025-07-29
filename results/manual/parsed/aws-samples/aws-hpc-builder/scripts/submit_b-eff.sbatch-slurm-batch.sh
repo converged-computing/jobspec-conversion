@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lemon-0397
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=c6gnpg
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/log/b_eff.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c6gnpg
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export B_EFF_VERSION='latest'
 

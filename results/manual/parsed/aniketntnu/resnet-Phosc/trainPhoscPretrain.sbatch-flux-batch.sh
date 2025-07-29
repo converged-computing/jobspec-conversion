@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cattywampus-5357
-#FLUX: -c=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-lamp-3764
+#FLUX -c=6
+#FLUX --queue=dgx2q
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$omp_thread          # OpenMP, Numpy'
 export MKL_NUM_THREADS='$omp_thread          # Intel MKL'

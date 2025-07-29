@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=submitit
-#FLUX: --queue=LocalQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=submitit
+#SBATCH --output=/home/kevin/gptchem/experiments/05_inverse/bandgap/random/submitit_jobs/%A_%a_0_log.out
+#SBATCH --error=/home/kevin/gptchem/experiments/05_inverse/bandgap/random/submitit_jobs/%A_%a_0_log.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=LocalQ
+#SBATCH --array=0-99%32
 
 export SUBMITIT_EXECUTOR='slurm'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=llm_hm_without_low_score
-#FLUX: --queue=gpu
-#FLUX: -t=255900
-#FLUX: --urgency=16
+#SBATCH --job-name=llm_hm_without_low_score
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50GB
+#SBATCH --time=2-23:05:00
+#SBATCH --partition=gpu
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

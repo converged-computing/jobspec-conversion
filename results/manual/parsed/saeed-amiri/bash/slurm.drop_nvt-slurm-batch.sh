@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=5Drop
-#FLUX: -N=12
-#FLUX: -n=1152
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=5Drop
+#SBATCH --account=hbp00076
+#SBATCH --nodes=12
+#SBATCH --ntasks=1152
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=turbo_on
 
 export SLURM_CPU_BIND='none'
 export SLURM_CPUS_PER_TASK='$THREADS'

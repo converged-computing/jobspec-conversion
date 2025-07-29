@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pedo-1874
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alexgraehl/TimeForScience/Config/Alex_Williams/.aliases-zsh

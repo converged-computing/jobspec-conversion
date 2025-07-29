@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cupcake-5039
-#FLUX: -N=49
-#FLUX: -n=196
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=49
+#SBATCH --ntasks=196
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

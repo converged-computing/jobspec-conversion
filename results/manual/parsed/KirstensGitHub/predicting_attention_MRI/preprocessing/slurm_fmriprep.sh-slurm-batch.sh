@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --output=../../data/bids/derivatives/fmriprep/logs/fmriprep-%A_%a.log
+#SBATCH --mail-user=kz0108@princeton.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20000
+#SBATCH --time=18:00:00
+#SBATCH --partition=all
+#SBATCH --array=001,
 
 echo "Purging modules"
 module purge

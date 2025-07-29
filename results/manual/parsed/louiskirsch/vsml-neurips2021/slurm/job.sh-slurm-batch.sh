@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=vsml
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=vsml
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 if [ -n "$WANDB_DEPENDENCY" ]
 then

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moco_800ep
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=moco_800ep
+#FLUX -N=8
+#FLUX -c=8
+#FLUX -t=252000
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leader-1901
-#FLUX: -c=6
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --account=<YOURLAB>
+#SBATCH --mail-user=<YOUREMAIL>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120G
+#SBATCH --time=18:00:00
 
 export SINGULARITY_CACHEDIR='$SLURM_TMPDIR/singularity/cache'
 export SINGULARITY_TMPDIR='$SLURM_TMPDIR/singularity/tmp'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gmx-GPU
-#FLUX: -c=4
-#FLUX: --queue=accel-2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx-GPU
+#SBATCH --output=gmx-GPU.%j.out
+#SBATCH --error=gmx-GPU.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --time=10:00:00
+#SBATCH --partition=accel-2
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

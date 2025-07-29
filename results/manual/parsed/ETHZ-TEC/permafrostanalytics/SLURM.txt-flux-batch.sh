@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lettuce-0006
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-ricecake-5709
+#FLUX --urgency=16
 
 source activate permafrost
 echo Running on host: `hostname`

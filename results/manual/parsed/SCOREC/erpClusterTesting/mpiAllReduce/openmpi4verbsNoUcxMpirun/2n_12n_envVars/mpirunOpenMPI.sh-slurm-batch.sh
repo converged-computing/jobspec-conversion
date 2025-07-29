@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=erpMpiTesting
-#FLUX: --urgency=16
+#SBATCH --job-name=erpMpiTesting
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PATH='$PATH:$ompi/bin'
 export OMPI_MCA_btl_tcp_if_include='ib0'

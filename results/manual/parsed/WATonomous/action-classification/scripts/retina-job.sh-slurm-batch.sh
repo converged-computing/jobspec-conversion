@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cinnamonbun-1603
-#FLUX: -c=3
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=12G
+#SBATCH --time=23:00:00
 
 if [ -z "$SCRIPT_DIR" ] && [ -n "$SLURM_JOB_ID" ]; then
 	# No other script has set SCRIPT_DIR and we are on slurm (i.e. we are

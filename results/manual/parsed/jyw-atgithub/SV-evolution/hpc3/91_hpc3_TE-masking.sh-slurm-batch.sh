@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TE
-#FLUX: -c=30
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#SBATCH --job-name=TE
+#SBATCH --account=jje_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=6G
+#SBATCH --partition=standard
+#SBATCH --constraint=fastscratch
+#SBATCH --array=1
 
 dmel_ref="/dfs7/jje/jenyuw/SV-project-temp/reference/dmel-all-chromosome-r6.49.fasta"
 dsim_ref="/dfs7/jje/jenyuw/SV-project-temp/result/polarizing/GCF_016746395.2_Dsim_3.1.fasta"

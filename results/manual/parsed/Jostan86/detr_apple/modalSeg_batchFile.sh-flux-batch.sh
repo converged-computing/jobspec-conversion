@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=modalSeg
-#FLUX: --queue=dgx
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=modalSeg
+#FLUX --queue=dgx
+#FLUX -t=64800
+#FLUX --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

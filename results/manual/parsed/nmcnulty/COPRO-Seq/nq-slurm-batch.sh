@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=`basename
-#FLUX: --urgency=16
+#SBATCH --job-name=`basename
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-$wc
 
 cmd=`basename $0`
 if [ ! -f $1 ]; then

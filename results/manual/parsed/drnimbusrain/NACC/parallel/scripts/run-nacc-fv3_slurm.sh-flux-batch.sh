@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nacc-test
-#FLUX: -N=12
-#FLUX: -n=73
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=nacc-test
+#FLUX -N=12
+#FLUX -n=73
+#FLUX --queue=normal
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LMOD_EXPERT='1'
 export NODES='12'

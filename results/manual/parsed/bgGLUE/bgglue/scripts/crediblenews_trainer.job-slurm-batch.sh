@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chair-0159
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=logs/crediblenews/slurm.%N.%j.out
+#SBATCH --error=logs/crediblenews/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 export WANDB_TAGS='${MODEL_NAME},${TASK_NAME}'
 

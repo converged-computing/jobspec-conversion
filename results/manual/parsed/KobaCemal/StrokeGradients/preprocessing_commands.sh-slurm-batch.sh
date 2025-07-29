@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=16
-#FLUX: --queue=plgrid
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=plgsano4-cpu
+#SBATCH --output=/net/ascratch/people/plgkoba/output1.out
+#SBATCH --error=/net/ascratch/people/plgkoba/error1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4GB
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=plgrid
+#SBATCH --constraint=ntasks-per-node=1
 
 export APPTAINERENV_TEMPLATEFLOW_HOME='$SCRATCH/templateflow'
 

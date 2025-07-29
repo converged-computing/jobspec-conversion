@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-itch-8906
-#FLUX: -c=12
-#FLUX: --queue=ccr
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=grated-taco-9371
+#FLUX -c=12
+#FLUX --queue=ccr
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load nextflow

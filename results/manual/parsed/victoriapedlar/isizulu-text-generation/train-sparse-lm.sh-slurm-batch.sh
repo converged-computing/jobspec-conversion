@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sparse_lm
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sparse_lm
+#SBATCH --account=nlpgroup
+#SBATCH --mail-user=PDLVIC001@myuct.ac.za
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100-3g-20gb:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=a100
 
 export LD_LIBRARY_PATH='/home/pdlvic001/.local/lib/python3.8/site-packages/nvidia/cublas/lib/:$LD_LIBRARY_PATH'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=minimal
-#FLUX: -n=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=minimal
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=01:00:00
+#SBATCH --qos=cbmm
+#SBATCH --chdir=./log/
+#SBATCH --array=1
 
 hostname
 cd /om/user/sanjanas/minimal-cifar/

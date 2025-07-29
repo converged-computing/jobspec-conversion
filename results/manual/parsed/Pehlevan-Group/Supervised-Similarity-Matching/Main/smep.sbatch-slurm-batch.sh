@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=recheck_adaptrerr
-#FLUX: --queue=<insert_partition>
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=recheck_adaptrerr
+#SBATCH --output=Recheck/adap_trerr_%A_%a.o
+#SBATCH --error=Recheck/adap_trerr_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=<insert_partition>
 
 module load <insert Anaconda module name>
 module load <insert cuda module name>

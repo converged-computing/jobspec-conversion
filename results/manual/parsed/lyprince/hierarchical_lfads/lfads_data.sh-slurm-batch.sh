@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poo-6357
-#FLUX: -t=18000
-#FLUX: --urgency=50
+#SBATCH --output=/network/tmp1/princelu/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=05:00:00
+#SBATCH --qos=high
 
 start=`date +%s`
 module purge

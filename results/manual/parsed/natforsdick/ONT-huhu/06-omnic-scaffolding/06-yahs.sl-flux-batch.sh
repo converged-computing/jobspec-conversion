@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=huhu-yahs
-#FLUX: -c=2
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=huhu-yahs
+#FLUX -c=2
+#FLUX -t=5400
+#FLUX --urgency=16
 
 REF_DIR='/nesi/nobackup/ga03186/Huhu_MinION/combined-trimmed-data/omnic-scaffolding/shasta-purged-polished-omnic/'
 REF='medaka-consensus.fa'

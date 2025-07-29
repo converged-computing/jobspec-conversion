@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=logs/build-mpi4jax
-#FLUX: -c=36
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=logs/build-mpi4jax
+#SBATCH --account=ffnr0871-rfi-test
+#SBATCH --output=%x-%j-%t-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --time=01:00:00
+#SBATCH --qos=rfi
 
 export ROOTDIR='/bask/projects/f/ffnr0871-rfi-test/pje39613'
 export SINGULARITY_CACHEDIR='$ROOTDIR/.singularity-cache'

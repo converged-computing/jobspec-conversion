@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=exoseq_hawk
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=exoseq_hawk
+#SBATCH --account=scw1557
+#SBATCH --output=slurm/%J.out
+#SBATCH --error=slurm/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
 
 module load nextflow/21.10.6
 cd /scratch/c.c1845715/nextflow_cellranger/exoseq_hawk # Change User ID

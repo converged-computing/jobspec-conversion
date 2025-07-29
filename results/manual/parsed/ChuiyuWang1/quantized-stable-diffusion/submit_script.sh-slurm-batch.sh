@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parsnip-5812
-#FLUX: -c=42
-#FLUX: --queue=small
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=ldm-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=42
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load pytorch/1.12.1

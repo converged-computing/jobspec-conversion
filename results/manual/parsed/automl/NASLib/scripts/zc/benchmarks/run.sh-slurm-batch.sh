@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=THE_JOB_NAME
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#SBATCH --job-name=THE_JOB_NAME
+#SBATCH --output=logs/%x.memMEM_FOR_JOB.%A-%a.%N.out
+#SBATCH --error=logs/%x.memMEM_FOR_JOB.%A-%a.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=MEM_FOR_JOB
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --array=JOB_ARRAY_RANGE
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

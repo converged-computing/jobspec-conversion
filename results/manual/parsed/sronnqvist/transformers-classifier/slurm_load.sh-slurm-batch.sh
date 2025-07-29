@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bike-2220
-#FLUX: --queue=gpu
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002026
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=01:15:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export BG_FILES='data/eacl/en/train.tsv data/eacl/fi/train.tsv data/eacl/sv/train.tsv'

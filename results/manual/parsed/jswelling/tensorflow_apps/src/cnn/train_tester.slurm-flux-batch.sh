@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-itch-8589
-#FLUX: --queue=GPU-small
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-frito-2678
+#FLUX --queue=GPU-small
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries/linux/mkl/lib/intel64_lin'
 

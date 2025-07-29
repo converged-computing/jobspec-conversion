@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-puppy-4438
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gaballench/hypostominae_networks/scripts/snaq.pbs

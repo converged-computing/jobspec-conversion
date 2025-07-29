@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cherry-4395
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=arid-peanut-butter-2608
+#FLUX -N=2
+#FLUX -c=40
+#FLUX --queue=test
+#FLUX -t=900
+#FLUX --urgency=16
 
 set -x
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")

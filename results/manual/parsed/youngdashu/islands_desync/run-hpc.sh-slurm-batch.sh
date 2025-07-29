@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=my-workload
-#FLUX: -N=5
-#FLUX: -n=120
-#FLUX: --queue=plgrid
-#FLUX: --urgency=16
+#SBATCH --job-name=my-workload
+#SBATCH --account=plgsano4-cpu
+#SBATCH --nodes=5
+#SBATCH --ntasks=120
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4GB
+#SBATCH --partition=plgrid
 
 export TMPDIR='$tmpdir'
 export RAY_TMPDIR='$tmpdir'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cinnamonbun-5151
-#FLUX: -c=10
-#FLUX: -t=309600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-peanut-2799
+#FLUX -c=10
+#FLUX -t=309600
+#FLUX --urgency=16
 
 module load singularity
 BIN_VERSION="1.1.0"

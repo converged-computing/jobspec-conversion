@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=<rN>.post.ALA
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=<rN>.post.ALA
+#SBATCH --output=log.postprocess
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=90G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lentil-9808
-#FLUX: -N=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=R-cam16.out
+#SBATCH --error=R-cam16.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_titanrtx
+#SBATCH --exclude=r34n6
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

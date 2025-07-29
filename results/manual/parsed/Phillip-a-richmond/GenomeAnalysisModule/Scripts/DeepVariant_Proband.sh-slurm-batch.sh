@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-peas-2835
-#FLUX: -c=10
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=YourEmailAddress@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=80G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=defq
 
 export SINGULARITY_CACHEDIR='$PWD'
 

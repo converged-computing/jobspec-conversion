@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-2381
-#FLUX: -t=37380
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-signal-6167
+#FLUX -t=37380
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/home/domenic/projects/def-hsajjad/domenic'
 export HF_DATASETS_OFFLINE='1 '

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=meta-TCT-simulations
-#FLUX: -c=72
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=meta-TCT-simulations
+#SBATCH --account=lp_doctoralresearch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --time=09:00:00
 
 export OMP_NUM_THREADS='1'
 

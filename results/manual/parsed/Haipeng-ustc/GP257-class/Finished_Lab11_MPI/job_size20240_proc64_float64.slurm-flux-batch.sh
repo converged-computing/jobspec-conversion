@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-house-6327
-#FLUX: -N=4
-#FLUX: -n=64
+#FLUX --job-name=eccentric-parsnip-4528
+#FLUX -N=4
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=serc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 MATSIZE=20240
 echo;

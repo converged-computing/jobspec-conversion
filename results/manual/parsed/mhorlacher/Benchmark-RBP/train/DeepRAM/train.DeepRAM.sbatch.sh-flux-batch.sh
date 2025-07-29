@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DeepRAM-snakemake
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=86400
-#FLUX: --urgency=15
+#FLUX --job-name=DeepRAM-snakemake
+#FLUX -c=4
+#FLUX --queue=gpu_p
+#FLUX -t=86400
+#FLUX --urgency=15
 
 sbatch --wait << EOF
 echo HOSTNAME=$HOSTNAME

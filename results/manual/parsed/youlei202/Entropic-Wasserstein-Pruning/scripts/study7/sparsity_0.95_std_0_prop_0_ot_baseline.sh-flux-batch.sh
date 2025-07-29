@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-1295
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-kitty-1017
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/youlei202/Entropic-Wasserstein-Pruning/scripts/study7/sparsity_0.95_std_0_prop_0_ot_baseline.sh

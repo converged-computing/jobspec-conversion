@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-9916
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=../Benchmarking_results/Threads_1/Logs/run_benchmarks_catalyst_ode_julia_explicit.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=192000MB
+#SBATCH: --exclusive
 
 JULIA_THREADS_TO_USE=1
 echo "Starts benchmark runs on the multistate model."

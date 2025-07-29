@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bicycle-4826
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=0
+#SBATCH --time=00:25:00
+#SBATCH --partition=gpu
 
 module load gcc
 module load python/3.7.6

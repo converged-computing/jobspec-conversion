@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_dino_rn50
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pretrain_dino_rn50
+#FLUX -n=4
+#FLUX -c=10
+#FLUX --queue=booster
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

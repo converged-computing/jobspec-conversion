@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=urea
-#FLUX: --queue=RM-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=urea
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=18
 
 module load plumed
 module load gcc

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reactor
-#FLUX: -N=2
-#FLUX: -t=43200
-#FLUX: --urgency=50
+#SBATCH --job-name=reactor
+#SBATCH --account=vebio
+#SBATCH --output=log.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=36
 
 module purge
 module load openmpi/1.10.7/gcc-7.3.0

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pot-7677
-#FLUX: -n=20
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
 
 source /etc/profile
 source activate nerf_pl

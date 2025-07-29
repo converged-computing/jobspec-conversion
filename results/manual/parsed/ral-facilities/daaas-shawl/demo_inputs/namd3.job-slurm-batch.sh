@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dppc-p1
-#FLUX: -n=144
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dppc-p1
+#SBATCH --output=dppc.log
+#SBATCH --error=dppc.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=24
 
 module use /apps/eb/modulefiles/all
 module load NAMD/2.14-foss-2019b-mpi

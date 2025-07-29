@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-itch-1014
-#FLUX: -c=2
-#FLUX: --queue=batch,intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=purple-plant-4211
+#FLUX -c=2
+#FLUX --queue=batch,intel
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load singularity
 cd ~/bigdata/mysql/

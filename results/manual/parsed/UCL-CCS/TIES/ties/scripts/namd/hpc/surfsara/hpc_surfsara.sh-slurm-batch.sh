@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-plant-0330
-#FLUX: -t=55230
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:20:30
 
                     # SLURM will compute the number of nodes needed
                     # 16 processes, each process can spawn 4 OpenMP

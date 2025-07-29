@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leopard-7518
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SPECFEM/scaling-benchmarks/Summit/SPECFEM3D_GLOBE/results/CPUstrong96.Dec2018.daniel/go_benchmark.summit.bash

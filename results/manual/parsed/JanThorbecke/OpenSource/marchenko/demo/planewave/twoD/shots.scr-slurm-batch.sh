@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mod2D
-#FLUX: -c=4
-#FLUX: --queue=max30m
-#FLUX: --urgency=16
+#SBATCH --job-name=mod2D
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=max30m
+#SBATCH --array=0-600
 
 export PATH='\$HOME/src/OpenSource/bin:\$PATH:'
 export OMP_NUM_THREADS='4'

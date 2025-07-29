@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-puppy-7676
-#FLUX: -n=32
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-pastry-5955
+#FLUX -n=32
+#FLUX --queue=intel
+#FLUX --urgency=16
 
 module load trinity-rnaseq/2.13.2
 MEM=256G

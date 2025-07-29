@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Metaerg_Sing
-#FLUX: -c=8
-#FLUX: --queue=intel,batch
-#FLUX: -t=87300
-#FLUX: --urgency=16
+#SBATCH --job-name=Metaerg_Sing
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=1-00:15:00
+#SBATCH --partition=intel,batch
 
 module load metaerg # This auto loads singularity
 singularity exec -B data:/data $METAERG_IMG setup_db.pl -o /data -v 132

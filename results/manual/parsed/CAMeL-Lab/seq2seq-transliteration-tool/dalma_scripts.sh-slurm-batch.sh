@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-8917
-#FLUX: --queue=nvidia
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=as10505
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nvidia
 
 module purge
 module load all

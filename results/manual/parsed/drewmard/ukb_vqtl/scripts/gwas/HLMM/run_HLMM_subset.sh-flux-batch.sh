@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=HLMM
-#FLUX: --urgency=16
+#FLUX --job-name=HLMM
+#FLUX --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=$1

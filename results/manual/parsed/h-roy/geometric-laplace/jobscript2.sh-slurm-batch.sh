@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-spoon-8268
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/h-roy/geometric-laplace/jobscript2.sh

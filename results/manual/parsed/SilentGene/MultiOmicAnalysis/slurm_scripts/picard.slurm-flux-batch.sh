@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=picard
-#FLUX: --queue=physical
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=picard
+#FLUX --queue=physical
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load picard/2.18.27
 bam_dir=$1

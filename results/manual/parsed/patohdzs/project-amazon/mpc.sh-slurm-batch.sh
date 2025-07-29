@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=id_${id}_${action_name}
-#FLUX: --queue=caslake
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=id_${id}_${action_name}
+#SBATCH --account=pi-lhansen
+#SBATCH --output=./job-outs/$job_name/${action_name}/pf_${pf}_id_${id}/run.out
+#SBATCH --error=./job-outs/$job_name/${action_name}/pf_${pf}_id_${id}/run.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=caslake
 
 pfarray=(20.76)
 idarray=($(seq 1 10))

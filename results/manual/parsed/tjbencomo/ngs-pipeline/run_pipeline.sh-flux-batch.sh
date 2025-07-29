@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parsnip-9533
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-nalgas-2884
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 cd $(pwd)

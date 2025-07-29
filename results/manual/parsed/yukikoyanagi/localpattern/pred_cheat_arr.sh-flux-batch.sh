@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-blackbean-2984
-#FLUX: -N=2
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-leg-3910
+#FLUX -N=2
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo Running on "$(hostname)"
 echo Running job: "$SLURM_JOB_NAME"

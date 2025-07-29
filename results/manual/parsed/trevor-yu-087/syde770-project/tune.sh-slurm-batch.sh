@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-onion-5154
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=def-s2mclach
+#SBATCH --mail-user=jh3chu@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64000M
+#SBATCH --time=02:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vqsr_PRI
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=vqsr_PRI
+#SBATCH --output=./log/vqsr_PRI_%J.out
+#SBATCH --error=./log/vqsr_PRI_%J.err
+#SBATCH --mail-user=ali.saadat@epfl.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=10:00:00
+#SBATCH --chdir=/scratch/saadat/pri/second_try
 
 echo "START AT $(date)"
 set -e

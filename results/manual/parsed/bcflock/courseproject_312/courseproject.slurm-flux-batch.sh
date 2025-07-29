@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=312cp
-#FLUX: --gpus-per-task=1
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=312cp
+#FLUX --gpus-per-task=1
+#FLUX -t=64800
+#FLUX --urgency=16
 
 module load cuda/8.0 singularity/3.5.1 hdf5/1.10.1 python
 mkdir $PFSDIR/course-project

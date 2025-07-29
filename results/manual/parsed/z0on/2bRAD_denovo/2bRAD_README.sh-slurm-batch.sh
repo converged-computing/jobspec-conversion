@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gt
-#FLUX: -n=40
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gt
+#SBATCH --account=mega2014
+#SBATCH --output=gt.o%j
+#SBATCH --error=gt.e%j
+#SBATCH --mail-user=matz@utexas.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 export PKG_CONFIG_PATH='/opt/apps/intel18/gsl/2.2.1/lib/pkgconfig/'
 export GENOME_FASTA='cdh_alltags_cc.fasta'

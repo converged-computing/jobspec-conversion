@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=model_trainer
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=model_trainer
+#FLUX -c=12
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 conda deactivate

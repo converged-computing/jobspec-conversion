@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chip-9419
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-cupcake-0294
+#FLUX --queue=GPU-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo 'use bridges-2'
 RC=1

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=2hm_sc_ddmd_n2t24i1_100ps
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=a100
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=2hm_sc_ddmd_n2t24i1_100ps
+#SBATCH --account=chess
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
+#SBATCH --partition=a100
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=true

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=create_env
-#FLUX: --queue=standard-g
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=create_env
+#FLUX --queue=standard-g
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load LUMI/22.08
 module load cotainr

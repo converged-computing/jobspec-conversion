@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=voltage
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=voltage
+#SBATCH --account=snic2020-1-40
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 module load Siesta/4.1-b4-nsc2-intel-2018a-eb
 mkdir cont   # read the comment at the end of this script.

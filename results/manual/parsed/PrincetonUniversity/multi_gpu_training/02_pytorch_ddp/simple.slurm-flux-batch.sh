@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ddp-torch
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=ddp-torch
+#FLUX -N=2
+#FLUX -c=8
+#FLUX -t=60
+#FLUX --urgency=16
 
 export MASTER_PORT='$(get_free_port)'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-9765
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-cat-8536
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ~/measles/code/
 module load R

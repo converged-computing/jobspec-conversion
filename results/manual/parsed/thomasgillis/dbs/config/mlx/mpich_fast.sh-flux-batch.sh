@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lentil-4129
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-carrot-9300
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "loading modules"
 module use /apps/USE/easybuild/release/2021.5/modules/all

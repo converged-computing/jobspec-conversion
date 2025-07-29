@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dask-worker
-#FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-worker
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH: --exclusive
 
 source mod_env_setup.sh
 LDIR=/local/$USER

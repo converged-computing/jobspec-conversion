@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-3966
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p40:1
+#SBATCH --mem=30000
+#SBATCH --time=2-00:00:00
 
 export PYTHONPATH='/home/zp489/miniconda3/envs/bert/lib/python3.6/site-packages:$PYTHONPATH'
 

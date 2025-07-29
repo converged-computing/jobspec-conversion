@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test_local
-#FLUX: --queue=genomics
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_local
+#SBATCH --account=b1042
+#SBATCH --output=%j-%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=04:00:00
+#SBATCH --partition=genomics
+#SBATCH --constraint=ntasks-per-node=4
 
 module load singularity
 module load mamba

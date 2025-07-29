@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=throughput_<NTASKS>
-#FLUX: -n=128
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=throughput_<NTASKS>
+#FLUX -n=128
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -c=16
-#FLUX: --queue=epyc
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=36000
+#SBATCH --partition=epyc
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

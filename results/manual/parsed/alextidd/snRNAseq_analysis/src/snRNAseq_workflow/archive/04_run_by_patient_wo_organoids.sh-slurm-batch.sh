@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peanut-butter-8576
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alextidd/snRNAseq_analysis/src/snRNAseq_workflow/archive/04_run_by_patient_wo_organoids.sh

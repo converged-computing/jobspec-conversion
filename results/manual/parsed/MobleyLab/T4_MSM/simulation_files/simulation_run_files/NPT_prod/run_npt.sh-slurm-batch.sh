@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=complex
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=complex
+#SBATCH --account=dmobley_lab_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=8gb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=12
 
 LAMBDA=$SLURM_ARRAY_TASK_ID
 nprocs=$SLURM_NTASKS

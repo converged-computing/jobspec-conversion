@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leopard-7281
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-milkshake-6956
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 cd ..

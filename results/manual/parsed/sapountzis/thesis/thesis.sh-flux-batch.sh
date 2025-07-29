@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=thesis_job
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=thesis_job
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load gcc miniconda3
 source $CONDA_PROFILE/conda.sh

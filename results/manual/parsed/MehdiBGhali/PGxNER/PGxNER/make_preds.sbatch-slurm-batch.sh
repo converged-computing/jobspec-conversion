@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Inference
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Inference
+#SBATCH --output=preds/preds.out
+#SBATCH --error=preds/preds.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_prod_long
 
 export PATH='/opt/conda/bin:$PATH'
 

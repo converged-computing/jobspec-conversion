@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buildgmx
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=buildgmx
+#SBATCH --account=pdc.staff
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 tar xvf gromacs-v2023.2.tar.gz
 cd gromacs-v2023.2

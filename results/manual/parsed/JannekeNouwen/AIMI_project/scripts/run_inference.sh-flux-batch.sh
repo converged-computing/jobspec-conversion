@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cat-3690
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=milky-milkshake-9716
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_results='/home/ljulius/algorithm/nnunet/nnUNet_results'

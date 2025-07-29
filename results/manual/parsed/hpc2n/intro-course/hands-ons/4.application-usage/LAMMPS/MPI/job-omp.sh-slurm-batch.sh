@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-diablo-5788
-#FLUX: -n=14
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
 
 export OMP_NUM_THREADS='2'
 

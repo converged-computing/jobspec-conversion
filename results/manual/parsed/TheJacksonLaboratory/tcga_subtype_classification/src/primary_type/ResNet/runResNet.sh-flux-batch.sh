@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet
-#FLUX: -c=2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=ResNet
+#FLUX -c=2
+#FLUX -t=360000
+#FLUX --urgency=16
 
 alpha=0.01
 dataSet=tumor_type

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-toaster-9785
-#FLUX: -N=32
-#FLUX: -c=4
+#FLUX --job-name=bumfuzzled-malarkey-0136
+#FLUX -N=32
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load 2021
 module load foss/2021a

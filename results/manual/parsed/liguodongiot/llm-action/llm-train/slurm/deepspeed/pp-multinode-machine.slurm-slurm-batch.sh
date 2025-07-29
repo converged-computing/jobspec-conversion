@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-deepspeed
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=a800
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode-deepspeed
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --time=20:00:00
+#SBATCH --partition=a800
 
 export GPUS_PER_NODE='2'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

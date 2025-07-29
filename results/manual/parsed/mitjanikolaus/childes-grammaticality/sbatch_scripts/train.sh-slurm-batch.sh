@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --account=eqb@a100
+#SBATCH --output=out/train_%j.out
+#SBATCH --error=out/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 module purge
 module load cpuarch/amd

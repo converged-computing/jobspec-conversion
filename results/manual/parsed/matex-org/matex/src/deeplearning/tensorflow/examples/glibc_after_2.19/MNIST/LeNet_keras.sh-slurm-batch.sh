@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=LeNet.Keras.1
-#FLUX: --urgency=16
+#SBATCH --job-name=LeNet.Keras.1
+#SBATCH --output=LeNet.Keras.1.out.%j
+#SBATCH --error=LeNet.Keras.1.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 train_batch=64
 nodes=1

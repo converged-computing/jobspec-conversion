@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pastry-5419
-#FLUX: --queue=shared
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-lettuce-8900
+#FLUX --queue=shared
+#FLUX -t=60
+#FLUX --urgency=16
 
 BATCH_NUM=$SLURM_ARRAY_TASK_ID
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scTRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad

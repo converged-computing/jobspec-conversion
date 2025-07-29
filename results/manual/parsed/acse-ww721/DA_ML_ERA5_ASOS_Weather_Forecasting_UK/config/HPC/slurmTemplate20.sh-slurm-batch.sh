@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -n=2
-#FLUX: -c=5
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=1500
+#SBATCH --time=00:04:00
+#SBATCH --constraint=ntasks-per-socket=1
 
 ww721@ese-hivemind:/raid/hivemind$ cat slurmTemplate20.sh 
 source ~/miniconda3/etc/profile.d/conda.sh

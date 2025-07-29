@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bert_finetune
-#FLUX: -c=4
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#SBATCH --job-name=bert_finetune
+#SBATCH --output=bert_finetune.out
+#SBATCH --error=bert_finetune.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=10:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec --nv --overlay /scratch/cg4174/nlp_project/env/overlay-25GB-500K.ext3:ro /scratch/work/public/singularity/cuda11.6.124-cudnn8.4.0.27-devel-ubuntu20.04.4.sif /bin/bash << EOF

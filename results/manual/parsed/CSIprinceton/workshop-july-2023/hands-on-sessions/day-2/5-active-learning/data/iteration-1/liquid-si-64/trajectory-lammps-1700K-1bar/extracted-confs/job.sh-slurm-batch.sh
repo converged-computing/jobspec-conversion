@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=si-liquid
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=si-liquid
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

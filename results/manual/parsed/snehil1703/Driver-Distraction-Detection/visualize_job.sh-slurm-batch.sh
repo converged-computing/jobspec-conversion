@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-7079
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/snehil1703/Driver-Distraction-Detection/visualize_job.sh

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-despacito-8283
-#FLUX: -c=12
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=cc-debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=0
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export gmx='/home/ppomorsk/gromacs_2024_build/gromacs-2024/build/bin/gmx'
 export GMX_ENABLE_DIRECT_GPU_COMM='1'

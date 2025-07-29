@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=metagenotate_sbatch
-#FLUX: --queue=cpu2023,cpu2022,cpu2021,cpu2019,synergy
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=metagenotate_sbatch
+#SBATCH --output=run_metagenotate.%J.out
+#SBATCH --error=run_metagenotate.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=cpu2023,cpu2022,cpu2021,cpu2019,synergy
 
 log_dir="$(pwd)"
 log_file="logs/metagenotate-analysis.log.txt"

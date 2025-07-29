@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=geobipy_synthetics
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=workq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=geobipy_synthetics
+#SBATCH --account=sas
+#SBATCH --output=%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=workq
+#SBATCH --array=8,11,14,15,16,17
 
 export OMP_NUM_THREADS='1'
 export NUMBA_CPU_NAME='skylake'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DDAtest
-#FLUX: -c=32
-#FLUX: --queue=bigmem
-#FLUX: -t=590400
-#FLUX: --urgency=16
+#SBATCH --job-name=DDAtest
+#SBATCH --account=nn9036k
+#SBATCH --output=DDAtestLog
+#SBATCH --mail-user=animesh.sharma@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=8G
+#SBATCH --time=6-20:00:00
+#SBATCH --partition=bigmem
 
 WORKDIR=$PWD
 cd ${WORKDIR}

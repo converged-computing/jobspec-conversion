@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=OpAL-Star
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=OpAL-Star
+#SBATCH --account=carney-brainstorm-condo
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=02:00:00
+#SBATCH --array=0-999
 
 echo Master process running on `hostname`
 echo Directory is `pwd`

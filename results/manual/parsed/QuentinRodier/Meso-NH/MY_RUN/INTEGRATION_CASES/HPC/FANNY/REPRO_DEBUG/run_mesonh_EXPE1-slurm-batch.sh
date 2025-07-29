@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run1_fanny
-#FLUX: -N=20
-#FLUX: -n=200
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=run1_fanny
+#SBATCH --output=run1_fanny.eo%j
+#SBATCH --error=run1_fanny.eo%j
+#SBATCH --nodes=20
+#SBATCH --ntasks=200
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 export MPIRUN='Mpirun -np 200'
 

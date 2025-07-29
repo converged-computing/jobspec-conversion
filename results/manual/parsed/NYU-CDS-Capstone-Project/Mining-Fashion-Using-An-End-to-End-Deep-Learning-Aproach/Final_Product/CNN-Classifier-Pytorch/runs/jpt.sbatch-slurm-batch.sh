@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jupyterTest2
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyterTest2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=12:00:00
 
 module purge
 module load python3/intel/3.6.3

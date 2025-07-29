@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=small_test
-#FLUX: -N=2
-#FLUX: --queue=debug1
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=small_test
+#FLUX -N=2
+#FLUX --queue=debug1
+#FLUX -t=300
+#FLUX --urgency=16
 
 export UCX_POSIX_USE_PROC_LINK='n  # enables RMA in UCX'
 export APPTAINER_BIND='$MPI_HOME:/opt/ompi,$OMPI_MCA_PARAM_FILES_PATH,$SLURM_HOME/lib:/host_slurm_lib,/usr/lib/:/host_usr_lib'

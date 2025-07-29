@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ior
-#FLUX: --exclusive
-#FLUX: --queue=sm
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ior
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=sm
+#SBATCH: --exclusive
 
 export MODULEPATH='/nopt/nrel/apps/220525b/level01/modules/lmod/linux-rocky8-x86_64/gcc/12.1.0'
 

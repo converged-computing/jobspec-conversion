@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-squidward-7613
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-nunchucks-1334
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dj-ishikura/anime_retweet/work_emo_analyze/llm-lora-classification/train_emo_polarity.sh

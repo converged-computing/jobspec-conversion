@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=S1
-#FLUX: --queue=shared
-#FLUX: -t=8640
-#FLUX: --urgency=16
+#FLUX --job-name=S1
+#FLUX --queue=shared
+#FLUX -t=8640
+#FLUX --urgency=16
 
 export R_LIBS_USER='$HOME/R-3.6.1-MKL'
 

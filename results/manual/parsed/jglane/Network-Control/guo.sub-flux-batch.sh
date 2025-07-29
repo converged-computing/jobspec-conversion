@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lettuce-9202
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-hobbit-4306
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load anaconda

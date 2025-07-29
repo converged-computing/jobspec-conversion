@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-fork-8137
-#FLUX: --queue=GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-car-6299
+#FLUX --queue=GPU
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set echo
 set -x

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=diffwave
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=diffwave
+#SBATCH --output=/scratch/work/%u/projects/ddpm/CRASH/experiments/%a/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=2-23:59:59
+#SBATCH --array=[23]
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

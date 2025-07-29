@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=meta_pipeline
-#FLUX: --queue=cpuq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=meta_pipeline
+#SBATCH --output=%j_meta_pipeline.log
+#SBATCH --mail-user=username@fht.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpuq
 
 source ~/.bashrc
 module -s load singularity/3.8.5

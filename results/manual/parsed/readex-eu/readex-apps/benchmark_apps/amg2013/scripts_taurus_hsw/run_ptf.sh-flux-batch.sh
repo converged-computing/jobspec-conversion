@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_ptf
-#FLUX: -N=5
-#FLUX: -c=12
+#FLUX --job-name=amg2013_ptf
+#FLUX -N=5
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PSC_CPU_BIND='--cpu_bind=verbose,sockets'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/lib'

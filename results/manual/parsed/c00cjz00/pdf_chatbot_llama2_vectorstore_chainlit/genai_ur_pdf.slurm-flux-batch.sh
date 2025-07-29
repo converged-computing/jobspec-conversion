@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=_t2g_
-#FLUX: -c=4
-#FLUX: --queue=gp4d
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=_t2g_
+#FLUX -c=4
+#FLUX --queue=gp4d
+#FLUX -t=3600
+#FLUX --urgency=16
 
 iam=$(whoami)
 charbot_dir=/work/${iam}/chainlit_demo

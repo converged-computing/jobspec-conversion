@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dh_hssn
-#FLUX: --urgency=16
+#SBATCH --job-name=dh_hssn
+#SBATCH --output=logs/%j_out.txt
+#SBATCH --error=logs/%j_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
 
 CONFIG=configs/deeplabv3plus/deeplabv3plus_r101-d8_480x480_60k_pascal_person_part_hiera_triplet.py
 GPUS=1

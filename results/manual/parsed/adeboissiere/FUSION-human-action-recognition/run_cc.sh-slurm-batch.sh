@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-3049
-#FLUX: -c=6
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:06:00
 
 module load python/3.7
 virtualenv --no-download $SLURM_TMPDIR/env

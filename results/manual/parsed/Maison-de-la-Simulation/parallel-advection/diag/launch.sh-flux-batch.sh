@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adv1dsycl
+#FLUX --job-name=adv1dsycl
 #FLUX: --exclusive
-#FLUX: --queue=gpua100
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#FLUX --queue=gpua100
+#FLUX -t=7140
+#FLUX --urgency=16
 
 NB_RUNS=10
 EXECUTABLE=$1

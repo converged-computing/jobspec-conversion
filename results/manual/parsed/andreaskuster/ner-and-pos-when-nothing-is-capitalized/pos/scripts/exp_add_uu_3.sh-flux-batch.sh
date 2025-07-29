@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-banana-9654
-#FLUX: -c=128
-#FLUX: --queue=amdv100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=placid-bicycle-3276
+#FLUX -c=128
+#FLUX --queue=amdv100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load python/3.7.2
 module load CMake

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=glrna_cd
-#FLUX: --queue=girirajan
-#FLUX: -t=1440000
-#FLUX: --urgency=16
+#FLUX --job-name=glrna_cd
+#FLUX --queue=girirajan
+#FLUX -t=1440000
+#FLUX --urgency=16
 
 echo `date` starting job on $HOSTNAME
 cache_dir="/data6/deepro/rna_cache" # TODO: set project dir path

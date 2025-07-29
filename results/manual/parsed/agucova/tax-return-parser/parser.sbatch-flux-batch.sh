@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tax-return-parser
-#FLUX: -c=90
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=tax-return-parser
+#FLUX -c=90
+#FLUX -t=0
+#FLUX --urgency=16
 
 export RAYPORT='$(shuf -i 10000-65500 -n 1)'
 

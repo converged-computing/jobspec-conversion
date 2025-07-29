@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=convertDataToNpy-01
-#FLUX: --queue=testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=convertDataToNpy-01
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
+#SBATCH --partition=testing
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-peanut-butter-9816
-#FLUX: -n=24
-#FLUX: --queue=fdr
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-leg-4188
+#FLUX -n=24
+#FLUX --queue=fdr
+#FLUX -t=1800
+#FLUX --urgency=16
 
 log="gchp.log"
 source runConfig.sh > ${log}

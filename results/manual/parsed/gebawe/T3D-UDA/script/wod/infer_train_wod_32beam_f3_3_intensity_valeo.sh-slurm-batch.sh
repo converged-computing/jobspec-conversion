@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-rabbit-5862
-#FLUX: -c=24
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/ST-UDA/logs/wod_32beam_infer_train_f3_3_intensity_valeo%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdgpufast
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_LL_THRESHOLD='1'
 

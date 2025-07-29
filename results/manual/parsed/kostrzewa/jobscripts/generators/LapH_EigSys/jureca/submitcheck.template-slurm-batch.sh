@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-banana-8689
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --output=D30_=L=.%j
+#SBATCH --error=D30_=L=.%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:59:00
+#SBATCH --constraint=ntasks-per-node=6
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/homec/hbn28/hbn282/code/petsc/arch-linux2-c-opt/lib/:/homec/hbn28/hbn282/code/slepc/arch-linux2-c-opt/lib/'

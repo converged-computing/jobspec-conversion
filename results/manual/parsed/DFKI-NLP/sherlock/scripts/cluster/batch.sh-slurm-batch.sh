@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=RTXA6000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --partition=RTXA6000
+#SBATCH --array=1-20%4
 
 username="$USER"
 IMAGE=/netscratch/enroot/nvcr.io_nvidia_pytorch_21.10-py3.sqsh

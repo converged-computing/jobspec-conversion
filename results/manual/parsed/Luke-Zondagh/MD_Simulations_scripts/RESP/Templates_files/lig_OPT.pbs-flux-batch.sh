@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-eagle-0271
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-earthworm-8527
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Luke-Zondagh/MD_Simulations_scripts/RESP/Templates_files/lig_OPT.pbs

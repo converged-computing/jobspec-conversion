@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-milkshake-7944
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-lettuce-2698
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export INSTANCE_DIR='/gpfs/home/lt2504/dreambooth/Dreambooth-Stable-Diffusion/training_images/Sam_Altman'
 export OUTPUT_DIR='/gpfs/scratch/lt2504/diffusers_out/dreambooth-control-8000step-prior-preserve'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WHAT.FROM.PRT
-#FLUX: --queue=campus
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=WHAT.FROM.PRT
+#FLUX --queue=campus
+#FLUX -t=86399
+#FLUX --urgency=16
 
 module purge
 module load bzip2/1.0.8  intel-compilers/2021.2.0

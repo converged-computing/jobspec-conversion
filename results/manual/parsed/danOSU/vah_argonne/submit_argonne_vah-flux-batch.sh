@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Pb_Pb_2760_MAP_VAH
-#FLUX: -N=20
-#FLUX: --queue=bdwall
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=Pb_Pb_2760_MAP_VAH
+#FLUX -N=20
+#FLUX --queue=bdwall
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module reset
 module load parallel

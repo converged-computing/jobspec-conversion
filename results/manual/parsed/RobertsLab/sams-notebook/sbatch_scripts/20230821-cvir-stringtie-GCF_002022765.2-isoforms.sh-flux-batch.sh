@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20230821-cvir-stringtie-GCF_002022765.2-isoforms
-#FLUX: --queue=srlab
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#FLUX --job-name=20230821-cvir-stringtie-GCF_002022765.2-isoforms
+#FLUX --queue=srlab
+#FLUX -t=302400
+#FLUX --urgency=16
 
 threads=28
 genome_index_name="cvir_GCF_002022765.2"

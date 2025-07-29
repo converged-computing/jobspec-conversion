@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=exc-qb_04vs_14400f-20w_naive-fine
-#FLUX: -n=21
-#FLUX: -c=4
+#FLUX --job-name=exc-qb_04vs_14400f-20w_naive-fine
+#FLUX -n=21
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export RUST_LOG='debug'
 

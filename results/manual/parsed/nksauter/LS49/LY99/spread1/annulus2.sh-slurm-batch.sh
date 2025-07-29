@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=annulus1
-#FLUX: --queue=regular
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=annulus1
+#SBATCH --account=m3562
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
+#SBATCH --licenses=SCRATCH
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

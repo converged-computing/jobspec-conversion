@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dist_training
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=dist_training
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=128G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
 
 module load 2022r1
 module load gpu

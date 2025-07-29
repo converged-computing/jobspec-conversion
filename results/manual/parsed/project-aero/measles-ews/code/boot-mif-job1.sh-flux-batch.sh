@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lamp-9055
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-peas-1148
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ~/measles/code/
 module load R

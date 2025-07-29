@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarks
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: --queue=g40x
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmarks
+#SBATCH --account=neox
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:8
+#SBATCH --mem=16GB
+#SBATCH --partition=g40x
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='WARN'
 export NCCL_TREE_THRESHOLD='0'

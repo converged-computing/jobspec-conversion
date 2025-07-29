@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=iob_p
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=/scratch/jc33471/canine_tumor/test.out
+#SBATCH --mail-user=jc33471@uga.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=iob_p
 
 CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh

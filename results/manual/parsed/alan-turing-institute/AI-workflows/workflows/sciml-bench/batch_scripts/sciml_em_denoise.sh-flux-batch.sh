@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sciml_em_denoise
-#FLUX: --queue=%partition
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=sciml_em_denoise
+#FLUX --queue=%partition
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load %modules

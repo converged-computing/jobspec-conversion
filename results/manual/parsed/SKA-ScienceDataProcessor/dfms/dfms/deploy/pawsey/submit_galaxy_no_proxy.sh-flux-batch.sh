@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=archive_deployment
-#FLUX: -N=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=archive_deployment
+#FLUX -N=10
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load python/2.7.10

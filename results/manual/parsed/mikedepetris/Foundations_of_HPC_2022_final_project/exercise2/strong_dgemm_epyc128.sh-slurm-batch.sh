@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=dgemm_epyc
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dgemm_epyc
+#SBATCH --output=dgemm_epyc_job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=490G
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=128
+#SBATCH --chdir=/u/dssc/mdepet00/assignment/exercise2
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

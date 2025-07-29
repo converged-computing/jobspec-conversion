@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mcmc_runner
-#FLUX: --queue=normal_q
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#SBATCH --job-name=mcmc_runner
+#SBATCH --account=ravt
+#SBATCH --output=R-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:30:00
+#SBATCH --partition=normal_q
 
 module load Python
 ./venv/bin/python plot_maps_helper.py --states $1 --start $SLURM_ARRAY_TASK_ID

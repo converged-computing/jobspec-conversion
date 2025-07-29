@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=events3_two
-#FLUX: --urgency=16
+#SBATCH --job-name=events3_two
+#SBATCH --mail-user=<bstadlbauer@posteo.de>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_PMI_LIBRARY='/cm/shared/apps/slurm/current/lib/libpmi.so'
 

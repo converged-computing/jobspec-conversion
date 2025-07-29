@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Hamiltonian_Solver_agrace
-#FLUX: --queue=RM-shared
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=Hamiltonian_Solver_agrace
+#FLUX --queue=RM-shared
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

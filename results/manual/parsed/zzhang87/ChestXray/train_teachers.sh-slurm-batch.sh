@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_50_small_train
-#FLUX: -n=8
-#FLUX: --queue=terramepp
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_50_small_train
+#SBATCH --account=ChestXray
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=64g
+#SBATCH --partition=terramepp
+#SBATCH --chdir=/home/n-z/zzhang52/Insight/ChestXray/
 
 MODEL_NAME=mobilenet
 TRAIN_DIR=/home/zzhang52/Insight/runs/3_teachers_100th

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=worker
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=worker
+#SBATCH --output=/scratch/ad5238/POET-20200221/UntouchableThunder/log/worker-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

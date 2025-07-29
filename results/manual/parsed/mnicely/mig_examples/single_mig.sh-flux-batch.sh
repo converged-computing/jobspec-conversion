@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-buttface-4429
-#FLUX: --queue=dgxa100-mig
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-chip-2319
+#FLUX --queue=dgxa100-mig
+#FLUX --urgency=16
 
 GID=$1
 POWER=$2

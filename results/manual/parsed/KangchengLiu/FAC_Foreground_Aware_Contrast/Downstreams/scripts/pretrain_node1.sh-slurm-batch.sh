@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FAC
-#FLUX: -c=80
-#FLUX: --queue=dev
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=FAC
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:8
+#SBATCH --mem=400G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=dev
+#SBATCH --constraint=volta32gb
 
 export PYTHONPATH='$PWD:$PYTHONPATH'
 

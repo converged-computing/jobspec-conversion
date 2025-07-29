@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fudge-2053
-#FLUX: --urgency=16
+#SBATCH --mail-user=ffj20
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export LD_LIBRARY_PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/lib/python3.10/site-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}'
 export PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/bin/:$PATH'

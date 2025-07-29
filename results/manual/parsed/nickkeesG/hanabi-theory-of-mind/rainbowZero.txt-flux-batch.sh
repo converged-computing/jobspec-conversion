@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cinnamonbun-2996
-#FLUX: --queue=gpu
-#FLUX: -t=79200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-gato-2306
+#FLUX --queue=gpu
+#FLUX -t=79200
+#FLUX --urgency=16
 
 module load CUDA/10.0.130 
 module load GCC/7.3.0-2.30

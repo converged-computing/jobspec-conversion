@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gmd_paper_dyn
+#FLUX --job-name=gmd_paper_dyn
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

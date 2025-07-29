@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cherry-8275
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-ricecake-5345
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/frankligy/SNAF/reproduce/resubmission_2023/alignment_benchmark/STAR_2.6.0_onepass_ensembl85/run_altanalyze.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hippo-4258
-#FLUX: -c=2
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX --job-name=blank-plant-8058
+#FLUX -c=2
+#FLUX -t=43140
+#FLUX --urgency=16
 
 export DATA_DIR='$SLURM_TMPDIR/data'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fesom2.0
-#FLUX: -n=288
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=fesom2.0
+#SBATCH --output=slurm-out.out
+#SBATCH --error=slurm-err.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=288
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 module load CMake Intel IntelMPI imkl netCDF netCDF-Fortran
 set -x

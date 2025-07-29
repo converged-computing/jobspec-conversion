@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Zhang_Nextflow
-#FLUX: --queue=batch
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Zhang_Nextflow
+#SBATCH --mail-user=bjl34716@uga.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=batch
 
 SUBDIR=$(pwd)
 if [[ ! -d /scratch/bjl34716/nf_dev/gg-catalog ]]; then

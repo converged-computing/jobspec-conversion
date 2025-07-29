@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-toaster-2920
-#FLUX: -c=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-platanos-3535
+#FLUX -c=16
+#FLUX --queue=AMG
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo 'JOB_NAME' $SLURM_JOB_NAME
 echo 'JOB_ID' $SLURM_JOB_ID

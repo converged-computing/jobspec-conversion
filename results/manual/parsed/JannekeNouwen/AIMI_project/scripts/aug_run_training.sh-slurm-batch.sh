@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leg-5332
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed  '

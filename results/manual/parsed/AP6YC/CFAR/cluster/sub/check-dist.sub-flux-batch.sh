@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=OAR-0CD
-#FLUX: -n=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=OAR-0CD
+#FLUX -n=32
+#FLUX -t=86400
+#FLUX --urgency=16
 
 N_TASKS=31
 PROJECT_DIR=$HOME/dev/OAR

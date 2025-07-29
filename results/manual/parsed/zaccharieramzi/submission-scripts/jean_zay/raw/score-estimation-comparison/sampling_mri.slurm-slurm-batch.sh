@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sampling_mri
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=sampling_mri
+#SBATCH --output=sampling_mri%A_%a.out
+#SBATCH --error=sampling_mri%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1
 
 export FASTMRI_DATA_DIR='$SCRATCH/'
 export CHECKPOINTS_DIR='$SCRATCH/nsec_no_sn'

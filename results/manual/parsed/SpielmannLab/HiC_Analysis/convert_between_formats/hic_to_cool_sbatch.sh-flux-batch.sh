@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hic_to_cool
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#FLUX --job-name=hic_to_cool
+#FLUX --queue=shortterm
+#FLUX --urgency=16
 
 module load nextflow/v22.04.1
 mkdir -p $WORK/hic_to_cool_nextflow_launchdir

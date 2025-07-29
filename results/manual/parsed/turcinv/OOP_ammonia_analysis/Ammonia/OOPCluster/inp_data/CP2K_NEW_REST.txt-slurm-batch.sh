@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ch102
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=cpu,scpu,bfill
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ch102
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80Gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=cpu,scpu,bfill
+#SBATCH --qos=backfill
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 input=cluster_hybrid.inp
 log=cluster_hybrid.log

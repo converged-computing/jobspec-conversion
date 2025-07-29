@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=IAP_test
-#FLUX: -n=16
-#FLUX: --queue=parallelshort
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=IAP_test
+#FLUX -n=16
+#FLUX --queue=parallelshort
+#FLUX -t=7200
+#FLUX --urgency=16
 
 rm dump*
 rm *.csv

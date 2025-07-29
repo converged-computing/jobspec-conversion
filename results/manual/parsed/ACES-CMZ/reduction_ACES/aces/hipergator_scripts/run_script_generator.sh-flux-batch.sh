@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=make_ACES_scripts
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=make_ACES_scripts
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export ACES='/orange/adamginsburg/ACES/'
 export WORK_DIR='/blue/adamginsburg/adamginsburg/ACES/workdir'

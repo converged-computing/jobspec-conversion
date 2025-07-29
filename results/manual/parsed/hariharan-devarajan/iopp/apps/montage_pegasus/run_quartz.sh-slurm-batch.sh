@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=montage-pegasus
-#FLUX: --queue=pdebug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=montage-pegasus
+#SBATCH --account=asccasc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=pdebug
 
 CPWD=$PWD
 source /usr/workspace/iopp/install_scripts/bin/iopp-init

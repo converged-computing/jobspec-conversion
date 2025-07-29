@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hope-8912
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-snack-0240
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python:$PYTHONPATH'
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1' '

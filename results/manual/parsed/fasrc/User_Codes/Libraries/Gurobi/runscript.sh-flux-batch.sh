@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gurobitest
-#FLUX: --queue=test
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=gurobitest
+#FLUX --queue=test
+#FLUX -t=30
+#FLUX --urgency=16
 
 module load python
 module load gurobi

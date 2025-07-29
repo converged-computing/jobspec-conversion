@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pyt-profiler
-#FLUX: --queue=accel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=pyt-profiler
+#FLUX --queue=accel
+#FLUX -t=600
+#FLUX --urgency=16
 
 Mydir=/cluster/projects/nn9987k/PyTorchProfiler
 MyContainer=${Mydir}/Container/pytorch_22.12-py3.sif

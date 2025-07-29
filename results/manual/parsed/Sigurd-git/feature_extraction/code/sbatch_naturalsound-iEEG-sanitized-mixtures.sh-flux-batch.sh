@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-7507
-#FLUX: -c=10
-#FLUX: --queue=doppelbock
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-leg-4708
+#FLUX -c=10
+#FLUX --queue=doppelbock
+#FLUX -t=14400
+#FLUX --urgency=16
 
 project=naturalsound-iEEG-sanitized-mixtures
 non_list=(modulus real rect)

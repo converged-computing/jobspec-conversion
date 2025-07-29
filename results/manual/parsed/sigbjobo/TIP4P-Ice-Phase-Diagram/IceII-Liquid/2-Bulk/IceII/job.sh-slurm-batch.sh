@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Eq-IceVI
-#FLUX: -n=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Eq-IceVI
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=01:00:00
+#SBATCH --constraint=haswell|broadwell|skylake|cascade
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

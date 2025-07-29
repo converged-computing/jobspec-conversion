@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-notebook
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-notebook
+#SBATCH --output=jupyter-notebook-%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=[titan-x|p100|gtx-1080ti]
 
 export XDG_RUNTIME_DIR=''
 

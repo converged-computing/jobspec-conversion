@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hi-c_hydrad
-#FLUX: --queue=commons
-#FLUX: -t=28799
-#FLUX: --urgency=16
+#SBATCH --job-name=hi-c_hydrad
+#SBATCH --mail-user=wtb2@rice.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=07:59:59
+#SBATCH --partition=commons
 
 printf -v LOOP_NUM "%06d" $SLURM_ARRAY_TASK_ID
 RESULTS_DIR=$SHARED_SCRATCH/wtb2/hi_c_simulation

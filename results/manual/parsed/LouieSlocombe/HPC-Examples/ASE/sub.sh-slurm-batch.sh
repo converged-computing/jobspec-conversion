@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=J56
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=J56
+#SBATCH --account=e89-sur
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=standard
+#SBATCH --qos=short
+#SBATCH: --exclusive
 
 export WORK='/mnt/lustre/a2fs-work3/work/e89/e89/louie/'
 export PYTHONUSERBASE='$WORK/.local'

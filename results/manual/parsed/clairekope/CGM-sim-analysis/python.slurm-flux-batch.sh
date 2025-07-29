@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ext_data
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ext_data
+#FLUX --queue=shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load parallel
 cd /scratch/kopec/job_$SLURM_JOB_ID/

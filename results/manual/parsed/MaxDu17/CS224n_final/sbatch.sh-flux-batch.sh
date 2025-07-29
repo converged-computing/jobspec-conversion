@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-chip-2315
-#FLUX: -c=8
-#FLUX: --queue=iris-hi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-cupcake-4333
+#FLUX -c=8
+#FLUX --queue=iris-hi
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate cs330

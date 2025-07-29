@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=parallel
-#FLUX: -c=16
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#SBATCH --job-name=parallel
+#SBATCH --output=parallel.out
+#SBATCH --error=parallel.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64000
+#SBATCH --time=01:05:00
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/home/dclure/hathi-mpi'
 

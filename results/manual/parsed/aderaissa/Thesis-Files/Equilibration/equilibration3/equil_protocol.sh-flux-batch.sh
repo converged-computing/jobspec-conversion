@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=equil
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=equil
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export GMX_BIN='/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/GROMACS/2023.1-foss-2022a-CUDA-11.7.0/bin/gmx'
 

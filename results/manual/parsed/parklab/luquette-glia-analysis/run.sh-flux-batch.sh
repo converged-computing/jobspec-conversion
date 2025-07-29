@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-4167
-#FLUX: --queue=priopark
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=milky-cat-4843
+#FLUX --queue=priopark
+#FLUX -t=432000
+#FLUX --urgency=16
 
 word=$1
 shift

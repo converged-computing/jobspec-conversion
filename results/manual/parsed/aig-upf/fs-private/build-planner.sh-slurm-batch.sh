@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=build-planner
-#FLUX: --queue=short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=build-planner
+#SBATCH --output=slurm.log
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000M
+#SBATCH --time=01:00:00
+#SBATCH --partition=short
+#SBATCH --qos=normal
+#SBATCH --constraint=bdw
+#SBATCH --array=1-1
 
 export LIBRARY_PATH='$LIBRARY_PATH:${HOME}/local/lib'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:${HOME}/local/lib'

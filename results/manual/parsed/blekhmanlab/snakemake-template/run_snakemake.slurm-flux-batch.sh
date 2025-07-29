@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-8473
-#FLUX: --queue=blekhman
-#FLUX: -t=162000
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-leader-1732
+#FLUX --queue=blekhman
+#FLUX -t=162000
+#FLUX --urgency=16
 
 module load python
 if [ ! -d "./venv" ]; then

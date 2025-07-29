@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=qlearning
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=qlearning
+#SBATCH --output=./hpc_output/%x_%j.out
+#SBATCH --error=./hpc_output/%x_%j.err
+#SBATCH --mail-user=rtealwitter@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
 
 singularity exec --nv --overlay $SCRATCH/OpenStreets/overlay-25GB-500K.ext3:rw /scratch/work/public/singularity/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif /bin/bash -c "
 source /ext3/env.sh

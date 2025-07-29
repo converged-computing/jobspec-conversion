@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=torch-train
-#FLUX: --queue=veryshort
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=torch-train
+#FLUX --queue=veryshort
+#FLUX -t=2700
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 

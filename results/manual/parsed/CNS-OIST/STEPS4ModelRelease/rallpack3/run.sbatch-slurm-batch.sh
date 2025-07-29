@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hope-5456
-#FLUX: --exclusive
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=15:00:00
+#SBATCH: --exclusive
+#SBATCH --array=[0-999%200]
 
 export PYTHONPATH='`spack find --paths /$SPACK_INSTALLED_HASH | tail -n 1 | grep -o "/.*"`:$PYTHONPATH'
 

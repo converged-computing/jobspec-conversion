@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sc_p_sample
-#FLUX: -c=2
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#SBATCH --job-name=sc_p_sample
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=250GB
+#SBATCH --partition=shortterm
 
 PATH=$WORK/.omics/anaconda3/bin:$PATH #add the anaconda installation path to the bash path
 source $WORK/.omics/anaconda3/etc/profile.d/conda.sh # some reason conda commands are not added by default

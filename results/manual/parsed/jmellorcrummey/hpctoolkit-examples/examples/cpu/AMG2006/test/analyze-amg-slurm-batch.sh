@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-earthworm-8755
-#FLUX: --exclusive
-#FLUX: --queue=interactive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=interactive
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 module load OpenMPI
 hpcstruct amg2006 

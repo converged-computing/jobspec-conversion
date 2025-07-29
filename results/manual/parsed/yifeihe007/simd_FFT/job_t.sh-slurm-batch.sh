@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Threads
-#FLUX: -c=14
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Threads
+#SBATCH --account=SNIC2021-22-752
+#SBATCH --output=runf.out.%j
+#SBATCH --error=runf.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=skylake
 
 module purge
 module load foss

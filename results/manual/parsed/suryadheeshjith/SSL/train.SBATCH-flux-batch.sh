@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lamp-5754
-#FLUX: -c=24
+#FLUX --job-name=peachy-lemon-3914
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=n1c24m128-v100-4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 singularity exec --nv --overlay overlay-15GB-500K.ext3:ro\
     -B data/dataset_v2.sqsh:/dataset:image-src=/\

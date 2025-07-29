@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hobbit-4603
-#FLUX: --queue=hugheslab
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/cluster/tufts/hugheslab/eharve06/slurmlog/out/log_%j.out
+#SBATCH --error=/cluster/tufts/hugheslab/eharve06/slurmlog/err/log_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hugheslab
+#SBATCH --array=0-1
 
 source ~/.bashrc
 conda activate bdl-transfer-learning

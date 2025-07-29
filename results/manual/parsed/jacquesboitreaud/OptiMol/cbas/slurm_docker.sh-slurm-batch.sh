@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=docker
-#FLUX: --urgency=16
+#SBATCH --job-name=docker
+#SBATCH --output=out_slurm/docker_%A.out
+#SBATCH --error=out_slurm/docker_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-199
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate optimol_cpu

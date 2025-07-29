@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lamp-1579
-#FLUX: -c=20
-#FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --output=%J.out
+#SBATCH --error=%J.msg
+#SBATCH --mail-user=diegodomenzain@mines.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=11:59:00
+#SBATCH: --exclusive
 
 ulimit -v unlimited
 ulimit -s unlimited

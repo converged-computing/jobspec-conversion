@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PDSGD
-#FLUX: -n=8
-#FLUX: --queue=scavenger
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=PDSGD
+#SBATCH --account=scavenger
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=64gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=scavenger
+#SBATCH --qos=normal
 
 module load openmpi
 module load cuda/11.1.1

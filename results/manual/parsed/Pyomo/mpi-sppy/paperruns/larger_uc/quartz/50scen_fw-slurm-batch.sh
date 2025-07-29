@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=50scen_fw
-#FLUX: -N=12
-#FLUX: --queue=pbatch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=50scen_fw
+#SBATCH --account=mpisppy
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=pbatch
 
 export MPICH_ASYNC_PROGRESS='1'
 

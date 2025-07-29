@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-citrus-9814
-#FLUX: -N=9
-#FLUX: -n=9
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-earthworm-9328
+#FLUX -N=9
+#FLUX -n=9
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

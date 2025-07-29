@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=br4_FPointNet
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=br4_FPointNet
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load cuda
 source ~/anaconda3/bin/activate ~/anaconda3/envs/3DOD_Env

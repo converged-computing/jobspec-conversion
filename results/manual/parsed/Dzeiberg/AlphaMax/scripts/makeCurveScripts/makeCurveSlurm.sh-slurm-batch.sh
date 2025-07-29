@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=alphamax
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=alphamax
+#SBATCH --output=logs/makeCurves.%A_%a.out
+#SBATCH --error=logs/makeCurves.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=32Gb
+#SBATCH --time=23:59:00
+#SBATCH --partition=short
+#SBATCH --constraint=E5-2690v3@2.60GHz
+#SBATCH --array=1-1000
 
 module load matlab/R2020a
 SetsPerJob=10;

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=array_5
-#FLUX: --queue=cpu_compute
-#FLUX: --urgency=16
+#SBATCH --job-name=array_5
+#SBATCH --output=outfiles/array_5_%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cpu_compute
+#SBATCH --array=1-5
 
 module load R
 Rscript R/workflow.R $SLURM_ARRAY_TASK_ID 

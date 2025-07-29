@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=NN_trainner
-#FLUX: -n=12
-#FLUX: --queue=k2-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=NN_trainner
+#SBATCH --output=./logs/visual_NN_trainner_%j.log
+#SBATCH --mail-user=arios@us.es
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=50G
+#SBATCH --time=10:00:00
+#SBATCH --partition=k2-gpu
 
 module add libs/nvidia-cuda/11.0.3/bin
 module add apps/anaconda3/5.2.0/bin

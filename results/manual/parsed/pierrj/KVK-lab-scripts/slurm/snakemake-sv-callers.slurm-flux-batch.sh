@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake-sv-callers
-#FLUX: --queue=savio
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake-sv-callers
+#FLUX --queue=savio
+#FLUX -t=259200
+#FLUX --urgency=16
 
 REFERENCE="moryzae_70-15_ref_with_mito.fasta"
 SAMPLE=ERR4757126

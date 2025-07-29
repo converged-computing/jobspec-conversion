@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_vxmask
-#FLUX: --queue=shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=run_vxmask
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=01:00:00
+#SBATCH --partition=shared
 
 source pre_processing_config.sh
 MSK_IN=${MSK_ROOT}/lat-lon

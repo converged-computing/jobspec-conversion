@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-earthworm-7348
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/akashratheesh/gsiscripts/sub_wcoss_c

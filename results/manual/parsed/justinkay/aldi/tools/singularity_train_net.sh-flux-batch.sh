@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=aldi
-#FLUX: -c=64
-#FLUX: --queue=vision-beery
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=aldi
+#FLUX -c=64
+#FLUX --queue=vision-beery
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HOME='/tmp/aldi-$USER'
 export TMPDIR='$HOME/.tmp'

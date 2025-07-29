@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-knife-9462
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=salted-poodle-6471
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export RX_QUEUE_LEN='8192 \'
 

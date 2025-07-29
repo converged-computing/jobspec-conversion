@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=SimulLenS
-#FLUX: -n=28
+#FLUX --job-name=SimulLenS
+#FLUX -n=28
 #FLUX: --exclusive
-#FLUX: --queue=cosma6
-#FLUX: -t=30000
-#FLUX: --urgency=16
+#FLUX --queue=cosma6
+#FLUX -t=30000
+#FLUX --urgency=16
 
 module purge
 module load intel_comp/2018

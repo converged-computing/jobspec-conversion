@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GPT3 - Static TopKGate MoE - MC4 100k
-#FLUX: -N=2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=GPT3 - Static TopKGate MoE - MC4 100k
+#FLUX -N=2
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

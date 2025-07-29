@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leader-2249
-#FLUX: --queue=lotus_gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --account=lotus_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000
+#SBATCH --time=16:00:00
+#SBATCH --partition=lotus_gpu
 
 set -e # fail fully on first line failure
 path_to_conda="/home/users/hyper1on/miniconda3"

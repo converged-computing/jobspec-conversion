@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=germline
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=germline
+#SBATCH --account=hpc_p_anderson
+#SBATCH --output=%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=80G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=skylake
 
 module --force purge
 module load StdEnv/2020

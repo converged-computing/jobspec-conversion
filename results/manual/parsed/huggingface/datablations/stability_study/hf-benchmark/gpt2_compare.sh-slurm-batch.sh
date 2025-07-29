@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gpt2_compare
-#FLUX: -c=40
-#FLUX: --exclusive
-#FLUX: --queue=pilot
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt2_compare
+#SBATCH --account=project_462000119
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=256G
+#SBATCH --time=12:00:00
+#SBATCH --partition=pilot
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions/'
 export NCCL_SOCKET_IFNAME='hsn0,hsn1,hsn2,hsn3'

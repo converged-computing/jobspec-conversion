@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-egg-3810
-#FLUX: -c=4
-#FLUX: -t=9296
-#FLUX: --urgency=16
+#SBATCH --account=def-rsadve
+#SBATCH --output=t-stdenv23-julia19-%N-%j.out
+#SBATCH --mail-user=<a.hebb@mail.utoronto.ca>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=02:34:56
 
 module purge
 module load StdEnv/2023

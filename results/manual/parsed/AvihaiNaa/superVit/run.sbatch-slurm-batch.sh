@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dtan_job
-#FLUX: -c=4
-#FLUX: --queue=rtx3090
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=dtan_job
+#SBATCH --output=logs/job-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=rtx_3090:1
+#SBATCH --mem=40G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=rtx3090
+#SBATCH --qos=orenfr
+#SBATCH --array=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/avihaina/.conda/envs/torch_env/lib/'
 export PATH='/opt/rh/devtoolset-9/root/usr/bin/:$PATH'

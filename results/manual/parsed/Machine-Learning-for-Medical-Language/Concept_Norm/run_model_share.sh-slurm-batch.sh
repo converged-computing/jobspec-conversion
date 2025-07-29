@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=conorm
-#FLUX: --queue=chip-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=conorm
+#SBATCH --account=chip
+#SBATCH --output=log/0.1dropout_0.85_fixed_concept_umls+train+dev%j.txt
+#SBATCH --error=log/0.1dropout_0.85_fixed_concept_umls+train+dev%j.err
+#SBATCH --mail-user=dongfang.xu@childrens.harvard.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:Titan_RTX:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=chip-gpu
 
 pwd; hostname; date
 module load singularity

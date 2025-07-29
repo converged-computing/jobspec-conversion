@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Zhang_Nextflow
-#FLUX: --queue=batch
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Zhang_Nextflow
+#FLUX --queue=batch
+#FLUX -t=345600
+#FLUX --urgency=16
 
 SUBDIR=$(pwd)
 if [[ ! -d /scratch/bjl34716/nf_dev/gg-catalog ]]; then

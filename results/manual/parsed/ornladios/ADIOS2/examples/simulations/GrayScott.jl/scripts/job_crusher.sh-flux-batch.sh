@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gs-julia-1MPI-1GPU
-#FLUX: --queue=batch
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=gs-julia-1MPI-1GPU
+#FLUX --queue=batch
+#FLUX -t=120
+#FLUX --urgency=16
 
 date
 GS_DIR=/gpfs/alpine/proj-shared/csc383/wgodoy/ADIOS2/examples/simulations/GrayScott.jl

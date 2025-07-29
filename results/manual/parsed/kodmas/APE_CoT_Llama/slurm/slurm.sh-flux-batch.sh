@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=APE_test_1
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=gp1d
-#FLUX: --urgency=16
+#FLUX --job-name=APE_test_1
+#FLUX -N=2
+#FLUX -c=4
+#FLUX --queue=gp1d
+#FLUX --urgency=16
 
 module load miniconda3
 conda info --envs

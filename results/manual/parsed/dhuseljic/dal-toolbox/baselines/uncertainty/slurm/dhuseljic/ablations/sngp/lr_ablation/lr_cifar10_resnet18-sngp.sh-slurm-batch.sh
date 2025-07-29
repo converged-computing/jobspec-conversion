@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnet18_sngp_cifar10
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet18_sngp_cifar10
+#SBATCH --output=/mnt/work/dhuseljic/logs/uncertainty_evaluation/sngp/lr/%x_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --array=1-5%10
 
 export CUDA_LAUNCH_BLOCKING='1'
 export HYDRA_FULL_ERROR='1'

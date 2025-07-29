@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dan-train
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dan-train
+#FLUX -n=6
+#FLUX --queue=a100
+#FLUX -t=600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$(ncvd)'
 export WANDB_DIR='/scratch/nrmyas001/wandb'

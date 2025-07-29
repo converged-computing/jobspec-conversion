@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quick-models
-#FLUX: --queue=general
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=quick-models
+#FLUX --queue=general
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -o errexit
 module load gcc/9.3.0

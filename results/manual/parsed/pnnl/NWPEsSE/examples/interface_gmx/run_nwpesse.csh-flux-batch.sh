@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nwps
-#FLUX: -t=14379
-#FLUX: --urgency=16
+#FLUX --job-name=nwps
+#FLUX -t=14379
+#FLUX --urgency=16
 
 date
 source /etc/profile.d/modules.sh

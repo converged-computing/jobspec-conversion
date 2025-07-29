@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pancake-8294
-#FLUX: --urgency=16
+#SBATCH --output=/vol/bitbucket/jq619/adaptor-thesis/slurm_outputs/segment-%j.out
+#SBATCH --mail-user=jq619
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PATH='/vol/bitbucket/jq619/idv/bin/:$PATH'
 export WANDB_DIR='/vol/bitbucket/jq619/'

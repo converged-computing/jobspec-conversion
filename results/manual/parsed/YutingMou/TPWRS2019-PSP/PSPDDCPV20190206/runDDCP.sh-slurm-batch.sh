@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DDCP
-#FLUX: -n=24
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=DDCP
+#SBATCH --mail-user=yuting.mou@uclouvain.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=04:30:00
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

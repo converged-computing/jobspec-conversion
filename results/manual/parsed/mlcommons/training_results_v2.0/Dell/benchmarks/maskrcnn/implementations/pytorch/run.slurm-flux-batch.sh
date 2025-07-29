@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=maskrcnn
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=maskrcnn
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export DATADIR='/mnt/data/coco2017'
 

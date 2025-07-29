@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vgg_afd
-#FLUX: --queue=nklab
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=vgg_afd
+#SBATCH --output=./output/train/%A_%a.out
+#SBATCH --mail-user=kdobs@mit.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:QUADRORTX6000:1
+#SBATCH --mem=12G
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=nklab
 
 CONFIG_FILE='./configs/vgg/face_AFD_matched_seed.yaml'
 SCRIPT=./train_new.py

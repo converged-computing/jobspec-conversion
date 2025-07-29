@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dqn-hyperparams-sweep
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dqn-hyperparams-sweep
+#SBATCH --account=class
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=96GB
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=4294967293
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 

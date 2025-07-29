@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sdp-iotest
-#FLUX: --exclusive
-#FLUX: --queue=skylake
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=sdp-iotest
+#SBATCH --account=SKA-SDP-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=skylake
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 export I_MPI_PIN_DOMAIN='omp:compact'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-general-5013
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=blank-muffin-3839
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

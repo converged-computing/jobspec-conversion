@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-fudge-6996
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SentientSchnitzel/DeepSpeechSeparation02466/code/ConvTasNet-hpc/runs/run_1c.sh

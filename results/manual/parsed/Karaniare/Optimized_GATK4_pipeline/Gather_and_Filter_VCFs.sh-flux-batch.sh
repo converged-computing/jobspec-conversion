@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Variant_calling
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Variant_calling
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 usage() {
    echo "Usage $0 or Gather_and_Filter_VCFs.sh [-ms <Gaussian model for snp>] [-mi <Gaussian model for indel>] [-v <VCF directory>]" 2>&1

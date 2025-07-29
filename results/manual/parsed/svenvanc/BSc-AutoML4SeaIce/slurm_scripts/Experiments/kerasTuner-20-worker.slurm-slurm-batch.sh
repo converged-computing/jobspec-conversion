@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kerasTuner_worker
-#FLUX: -c=2
-#FLUX: --queue=gpu-medium
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --job-name=kerasTuner_worker
+#SBATCH --output=0_worker_lots_log/%x_%a_%j.out
+#SBATCH --error=0_worker_lots_log/%x_%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=10G
+#SBATCH --time=11:59:00
+#SBATCH --partition=gpu-medium
+#SBATCH --array=1-101%3
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

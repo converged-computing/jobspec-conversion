@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Ltools
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Ltools
+#SBATCH --output=python.eo%j
+#SBATCH --error=python.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 ulimit -c 0
 ulimit -s unlimited

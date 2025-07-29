@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-3612
-#FLUX: -n=2
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pancake-6363
+#FLUX -n=2
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

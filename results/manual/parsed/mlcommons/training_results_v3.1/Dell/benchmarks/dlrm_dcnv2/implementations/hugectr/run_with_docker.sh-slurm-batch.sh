@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm.hugectr
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=dlrm.hugectr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

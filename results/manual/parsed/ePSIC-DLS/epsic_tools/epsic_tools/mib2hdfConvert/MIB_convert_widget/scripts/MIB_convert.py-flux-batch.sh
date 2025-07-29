@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=epsic_mib_convert
-#FLUX: --queue=cs04r
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=epsic_mib_convert
+#FLUX --queue=cs04r
+#FLUX -t=18000
+#FLUX --urgency=16
 
 import hyperspy.api as hs
 print(f"hyperspy version: {hs.__version__}")

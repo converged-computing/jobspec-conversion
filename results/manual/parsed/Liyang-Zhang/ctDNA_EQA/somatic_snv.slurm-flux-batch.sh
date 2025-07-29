@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=H016
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#FLUX --job-name=H016
+#FLUX --queue=small
+#FLUX --urgency=16
 
 export IAMGE_NAME='/lustre/home/acct-medkwf/medkwf4/software/CRUK/dockstore-cgpwxs_3.1.7.sif'
 

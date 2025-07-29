@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bs-code-generation-opt-175b
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=bs-code-generation-opt-175b
+#FLUX -c=64
+#FLUX --queue=gpu_p5
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

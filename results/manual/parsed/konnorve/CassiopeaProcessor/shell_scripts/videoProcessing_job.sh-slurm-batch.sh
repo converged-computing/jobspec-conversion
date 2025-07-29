@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=VP_MarilynMonroe_Baseline
-#FLUX: --queue=savio_bigmem
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=VP_MarilynMonroe_Baseline
+#SBATCH --account=fc_xenopus
+#SBATCH --mail-user=lilianzhang@berkeley.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=savio_bigmem
 
 module load gcc openmpi
 module load python

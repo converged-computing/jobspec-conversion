@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=per_problem_pass_rates
-#FLUX: -n=100
-#FLUX: -c=2
-#FLUX: --queue=express
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=per_problem_pass_rates
+#FLUX -n=100
+#FLUX -c=2
+#FLUX --queue=express
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load gnu-parallel
 PARALLEL_TASKS=$(($SLURM_NTASKS - 1))

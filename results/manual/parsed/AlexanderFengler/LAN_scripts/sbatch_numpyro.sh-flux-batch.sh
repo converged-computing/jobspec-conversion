@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=numpyro_sampler
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=numpyro_sampler
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

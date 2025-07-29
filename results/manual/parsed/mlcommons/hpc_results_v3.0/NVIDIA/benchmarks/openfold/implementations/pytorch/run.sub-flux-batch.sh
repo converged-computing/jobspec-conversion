@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold
-#FLUX: --urgency=16
+#FLUX --job-name=mlperf-hpc:openfold
+#FLUX --urgency=16
 
 export MODEL_NAME='openfold'
 export MODEL_FRAMEWORK='pytorch'

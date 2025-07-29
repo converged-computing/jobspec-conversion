@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-diablo-4700
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/MURaM_main/gust/multicore/job.gust.sh

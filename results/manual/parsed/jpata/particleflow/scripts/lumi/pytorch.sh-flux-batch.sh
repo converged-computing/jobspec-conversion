@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mlpf-train-cms
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=small-g
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=mlpf-train-cms
+#FLUX -c=32
+#FLUX --gpus-per-task=8
+#FLUX --queue=small-g
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export IMG='/scratch/project_465000301/lumi-pytorch-rocm.simg'
 export PYTHONPATH='hep_tfds'

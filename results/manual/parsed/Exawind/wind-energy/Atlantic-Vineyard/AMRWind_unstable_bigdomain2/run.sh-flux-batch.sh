@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=unstablebig
-#FLUX: -N=40
-#FLUX: --queue=standard
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#FLUX --job-name=unstablebig
+#FLUX -N=40
+#FLUX --queue=standard
+#FLUX -t=172799
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'
 export OMP_PLACES='threads'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pursuit
-#FLUX: -c=42
-#FLUX: --queue=small-g
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=pursuit
+#FLUX -c=42
+#FLUX --queue=small-g
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='/scratch/project/venv_pkgs/mujo_gfoot_env_v2; \'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=picard
-#FLUX: --queue=physical
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=picard
+#SBATCH --mail-user=your@email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=physical
 
 module load picard/2.18.27
 bam_dir=$1

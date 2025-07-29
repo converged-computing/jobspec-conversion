@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hostname
-#FLUX: --queue=allgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=hostname
+#FLUX --queue=allgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 unset LD_PRELOAD
 source /etc/profile.d/modules.sh

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MOP2_TAIL
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=MOP2_TAIL
+#SBATCH --output=$project/mop_tail/mop_tail.log
+#SBATCH --mail-user=guibletwm
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 basedir="/mnt/rnabl-work/Guiblet/CCBRRBL7/MOP2_repo"
 nextflow="/mnt/rnabl-work/Guiblet/CCBRRBL7/nextflow"

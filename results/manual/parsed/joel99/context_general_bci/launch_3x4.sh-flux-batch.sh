@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ndt2_3x_4
-#FLUX: -N=3
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=ndt2_3x_4
+#FLUX -N=3
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export SLURM_NTASKS_PER_NODE='4'

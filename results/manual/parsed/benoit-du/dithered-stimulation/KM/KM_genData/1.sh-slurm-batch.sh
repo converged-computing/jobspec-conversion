@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=KM
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=KM
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-16:16
 
 export MCR_CACHE_ROOT='$(mktemp -d)'
 

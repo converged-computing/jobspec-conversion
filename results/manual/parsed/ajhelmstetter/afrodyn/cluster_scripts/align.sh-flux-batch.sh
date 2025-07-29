@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=align_magnoliids_reduced
-#FLUX: --queue=global
-#FLUX: --urgency=16
+#FLUX --job-name=align_magnoliids_reduced
+#FLUX --queue=global
+#FLUX --urgency=16
 
 echo "JOB CONFIGURATION"
 echo "Job ID: " $SLURM_JOB_ID

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=GPU-AdvFinetune
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu_v100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=GPU-AdvFinetune
+#SBATCH --account=nrc_ict__gpu_v100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=48G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_v100
+#SBATCH --qos=normal
 
 echo "Sleeping for 10000 seconds..." 
 sleep 10000

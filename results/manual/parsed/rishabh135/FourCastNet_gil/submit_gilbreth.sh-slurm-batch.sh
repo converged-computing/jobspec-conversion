@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fourcastnet_job
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fourcastnet_job
+#SBATCH --account=gdsp-k|standby
+#SBATCH --output=/scratch/gilbreth/gupt1075/infer_fourcastnet_nov.out
+#SBATCH --error=/scratch/gilbreth/gupt1075/infer_fourcastnet_nov.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=32,v100|a100|a30
 
 export PRECXX11ABI='1'
 export CUDA='11.7'

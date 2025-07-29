@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-sundae-2448
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#FLUX --job-name=hello-citrus-2200
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX --urgency=16
 
 module load miniconda/3 cuda/11.7
 conda activate edm

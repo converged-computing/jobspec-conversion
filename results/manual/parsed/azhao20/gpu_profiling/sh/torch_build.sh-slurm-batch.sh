@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-2602
-#FLUX: -c=32
-#FLUX: --queue=seas_gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=torch_build.%j.out
+#SBATCH --error=torch_build.%j.err
+#SBATCH --mail-user=apzhao@college.harvard.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:2
+#SBATCH --mem=256000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=seas_gpu
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DI2='${HOME}/ccache'

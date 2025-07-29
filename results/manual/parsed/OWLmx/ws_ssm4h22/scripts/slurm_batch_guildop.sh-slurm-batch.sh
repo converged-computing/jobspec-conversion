@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=misinfo
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=misinfo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=icsnode05,icsnode06
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

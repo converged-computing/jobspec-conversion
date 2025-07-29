@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=VQSR
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=VQSR
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load conda
 module load GATK/4.3.0.0

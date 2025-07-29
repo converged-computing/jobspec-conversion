@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LETKF
-#FLUX: --queue=service
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=LETKF
+#SBATCH --account=gsd-fv3-dev
+#SBATCH --output=log.nemsio2nc
+#SBATCH --error=log.nemsio2nc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=service
 
 export PYTHONPATH='/work2/noaa/da/ytang/py39/lib/python3.9/site-packages'
 export __LMOD_REF_COUNT_PYTHONPATH='$PYTHONPATH'

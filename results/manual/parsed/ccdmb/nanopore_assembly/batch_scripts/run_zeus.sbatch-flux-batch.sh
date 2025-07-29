@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-motorcycle-1956
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-buttface-8329
+#FLUX --queue=workq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow
 module load java

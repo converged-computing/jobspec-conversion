@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-mdm-new
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=gpu-long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train-mdm-new
+#SBATCH --output=/your_location_here/logs/%x_%j.out
+#SBATCH --mail-user=youremail@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-long
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONPATH='.":$PYTHONPATH'
 

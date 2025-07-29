@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-blackbean-7479
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-kitty-8056
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

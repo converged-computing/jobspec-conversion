@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-squidward-1404
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 echo "# "
 echo "# Running job $SLURM_JOB_NAME - $SLURM_JOB_ID "

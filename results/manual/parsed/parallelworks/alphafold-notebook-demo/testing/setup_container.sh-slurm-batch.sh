@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-frito-7401
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --partition=gpu
 
 export ALPHAFOLD_WORK='/gs/gsfs0/users/gstefan/work/alphafold'
 

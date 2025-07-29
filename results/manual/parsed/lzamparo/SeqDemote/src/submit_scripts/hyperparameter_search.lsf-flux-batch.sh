@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-sundae-8584
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-pot-9775
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lzamparo/SeqDemote/src/submit_scripts/hyperparameter_search.lsf

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-diablo-5267
-#FLUX: -c=4
-#FLUX: --queue=epyc_ssd
-#FLUX: --urgency=16
+#FLUX --job-name=purple-carrot-0607
+#FLUX -c=4
+#FLUX --queue=epyc_ssd
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

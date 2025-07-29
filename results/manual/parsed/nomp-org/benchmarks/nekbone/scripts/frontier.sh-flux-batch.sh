@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-staircase-5106
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-taco-6648
+#FLUX --urgency=16
 
 : ${PROJ_ID:="CSC262"}
 : ${NEKBONE_INSTALL_DIR:=./install}

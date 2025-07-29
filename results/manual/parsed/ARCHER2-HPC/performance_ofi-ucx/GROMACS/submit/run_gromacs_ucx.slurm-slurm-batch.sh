@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-benchPEP
-#FLUX: -N=64
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs-benchPEP
+#SBATCH --account=z19
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export PATH='/work/z19/z19/wlucas/cug22-bench/sw/gromacs/2021.5/bin:${PATH}'

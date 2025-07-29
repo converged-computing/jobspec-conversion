@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crossmap
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=crossmap
+#SBATCH --output=/home/sodell/projects/biogemma/expression/slurm-logs/out-%A_%a.txt
+#SBATCH --error=/home/sodell/projects/biogemma/expression/slurm-logs/error-%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --chdir=/home/sodell/projects/biogemma/expression
+#SBATCH --array=1-9
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bcftools

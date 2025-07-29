@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-truffle-9898
-#FLUX: -n=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-malarkey-4953
+#FLUX -n=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PBS_NODEFILE='`/fslapps/fslutils/generate_pbs_nodefile`'
 export PBS_JOBID='$SLURM_JOB_ID'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=InstallEnvironment
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=InstallEnvironment
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e 
 module purge

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hobbit-6615
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Bachelor-Tortured-Rats/TorturedRats/src/HPC_scripts/hyperparameter_optimizer.sh

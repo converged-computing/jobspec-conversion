@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chair-4974
-#FLUX: -n=121
-#FLUX: -t=24600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-signal-3538
+#FLUX -n=121
+#FLUX -t=24600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

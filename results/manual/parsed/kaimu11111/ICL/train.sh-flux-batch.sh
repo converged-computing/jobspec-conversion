@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fiveDifTask
-#FLUX: --queue=a100-4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fiveDifTask
+#FLUX --queue=a100-4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 nvidia-smi
 METHOD=channel

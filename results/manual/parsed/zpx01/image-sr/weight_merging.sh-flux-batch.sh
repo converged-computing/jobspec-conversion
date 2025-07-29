@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-blackbean-0086
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=15
+#FLUX --job-name=salted-train-8272
+#FLUX -c=8
+#FLUX -t=259200
+#FLUX --urgency=15
 
 export PYTHONUNBUFFERED='1'
 

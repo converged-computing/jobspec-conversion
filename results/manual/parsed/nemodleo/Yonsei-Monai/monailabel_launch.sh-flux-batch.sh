@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lizard-8464
-#FLUX: -c=4
-#FLUX: --queue=bc-mig
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-leopard-3536
+#FLUX -c=4
+#FLUX --queue=bc-mig
+#FLUX -t=28800
+#FLUX --urgency=16
 
 squeue -u $USER > no_jobs.txt
 back=`wc -l no_jobs.txt`

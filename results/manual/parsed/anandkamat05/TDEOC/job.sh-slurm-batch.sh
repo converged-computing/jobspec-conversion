@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-underoos-9167
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --output=./OUT/tabular-%j.out
+#SBATCH --mail-user=anand.kamat@mail.mcgill.ca
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:2
+#SBATCH --mem=15G
+#SBATCH --time=1-00:00:00
 
 module load python/3.6
 module load cuda cudnn 

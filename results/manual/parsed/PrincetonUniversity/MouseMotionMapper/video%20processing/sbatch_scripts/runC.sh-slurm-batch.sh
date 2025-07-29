@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pedo-5680
-#FLUX: -t=194400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=2-06:00:00
+#SBATCH --array=1
 
 export MATLABPATH='$'/MouseMotionMapper/'
 

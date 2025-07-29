@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-puppy-6647
-#FLUX: --queue=gpu-h100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=BCS20003
+#SBATCH --output=job-%x-%A.out
+#SBATCH --error=job-%x-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-h100
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 

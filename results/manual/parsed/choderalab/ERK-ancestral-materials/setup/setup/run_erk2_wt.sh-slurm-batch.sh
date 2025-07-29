@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-car-5635
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/ERK-ancestral-materials/setup/setup/run_erk2_wt.sh

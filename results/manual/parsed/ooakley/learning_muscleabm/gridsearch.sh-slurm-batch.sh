@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=simulation
-#FLUX: --queue=cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=simulation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-3072
 
 config=./fileOutputs/gridsearch.txt
 superIterationCount=$(awk -v array_id=$SLURM_ARRAY_TASK_ID '$1==array_id {print $2}' $config)

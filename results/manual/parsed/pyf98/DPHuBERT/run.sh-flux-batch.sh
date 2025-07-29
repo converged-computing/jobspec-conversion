@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dphubert
-#FLUX: -c=16
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dphubert
+#FLUX -c=16
+#FLUX --queue=gpuA100x4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -x
 tsv_dir=data/librispeech        # data path

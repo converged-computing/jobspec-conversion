@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-spoon-1980
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=flair_ont.out
+#SBATCH --mail-user=du.m@wehi.edu.au
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=400G
+#SBATCH --time=2-00:00:00
 
 module load anaconda3
 source activate

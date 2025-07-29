@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu
-#FLUX: -t=91800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=train_log.%j
+#SBATCH --mail-user=nirajgoel@tamu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5120M
+#SBATCH --time=1-01:30:00
+#SBATCH --partition=gpu
 
 echo $PATH
 module list

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=TEGAN
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TEGAN
+#SBATCH --output=TEGAN-%j.out
+#SBATCH --error=TEGAN-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=32
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/extras/CUPTI/lib64:${LD_LIBRARY_PATH}'
 

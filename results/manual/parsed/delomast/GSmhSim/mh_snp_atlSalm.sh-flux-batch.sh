@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-milkshake-4469
-#FLUX: --queue=medium
-#FLUX: -t=428400
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-cat-2557
+#FLUX --queue=medium
+#FLUX -t=428400
+#FLUX --urgency=16
 
 echo "My SLURM_JOB_ID: " $SLURM_JOB_ID
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

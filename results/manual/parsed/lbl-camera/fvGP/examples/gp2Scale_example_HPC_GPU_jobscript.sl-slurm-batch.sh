@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-bits-9229
-#FLUX: -n=32
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=m4055_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 export OMP_NUM_THREADS='8'

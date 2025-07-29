@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pancake-0862
-#FLUX: --queue=cox
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#SBATCH --mail-user=you@example.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=3-00:12:00
+#SBATCH --partition=cox
 
 source new-modules.sh
 module load python/2.7.11-fasrc01

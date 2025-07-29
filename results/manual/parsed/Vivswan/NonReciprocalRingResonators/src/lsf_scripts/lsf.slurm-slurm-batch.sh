@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=@name@
-#FLUX: -c=2
-#FLUX: --queue=smp
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=@name@
+#SBATCH --output=slurm_%x_%A.log
+#SBATCH --mail-user=vis77@pitt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=smp
+#SBATCH --chdir=/ihome/nyoungblood/vis77
 
 source "${HOME}/.bashrc";
 module load intel intel-mpi lumerical;

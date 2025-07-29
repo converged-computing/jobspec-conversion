@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bicycle-9697
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=21599
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-leader-1322
+#FLUX -c=20
+#FLUX --queue=gpu
+#FLUX -t=21599
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/shanli/visnav_semantics:$PYTHONPATH'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-destiny-0451
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-chair-9242
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

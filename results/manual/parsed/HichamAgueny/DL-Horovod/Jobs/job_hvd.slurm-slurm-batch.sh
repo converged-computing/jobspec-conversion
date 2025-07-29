@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test-hdv_8gpu
-#FLUX: --exclusive
-#FLUX: --queue=dev-g
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=test-hdv_8gpu
+#SBATCH --account=project_465000096
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --time=00:15:00
+#SBATCH --partition=dev-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export LC_ALL='C'
 export PS1='\u@\h:\w\$ '

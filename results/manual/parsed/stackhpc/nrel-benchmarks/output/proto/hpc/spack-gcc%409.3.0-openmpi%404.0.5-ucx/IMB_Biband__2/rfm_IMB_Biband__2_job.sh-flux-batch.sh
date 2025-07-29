@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_IMB_Biband__2_job
-#FLUX: -n=4
+#FLUX --job-name=rfm_IMB_Biband__2_job
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=hpc
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SLURM_MPI_TYPE='pmix_v3'
 

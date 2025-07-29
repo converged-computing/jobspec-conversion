@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=g_202X.Y
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=g_202X.Y
+#SBATCH --output=benchmark_test.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export GMX_MAXBACKUP='-1'
 

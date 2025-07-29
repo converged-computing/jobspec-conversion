@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=7DODS0
-#FLUX: --queue=hung
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=7DODS0
+#SBATCH --output=pairENG.out
+#SBATCH --error=pairENG.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=hung
+#SBATCH --exclude=c[4032-4036]
 
 module load openmpi/4.0.5-skylake-gcc10.1
 module load gcc/10.1.0

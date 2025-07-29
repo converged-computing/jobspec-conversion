@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TwImgCfM
-#FLUX: -n=4
-#FLUX: --queue=gpu05,gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=TwImgCfM
+#FLUX -n=4
+#FLUX --queue=gpu05,gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PATH='$HOME/software/bin:$PATH;'
 

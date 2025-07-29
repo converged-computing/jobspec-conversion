@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NFmaster
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=NFmaster
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5g
+#SBATCH --time=20-00:00:00
 
 reads=$1
 output=$2

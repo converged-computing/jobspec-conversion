@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sbatch
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sbatch
+#FLUX -n=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source activate.sh
 module load gcc/10.2.0-zuvaafu cuda/11.3.1-z4twu5r

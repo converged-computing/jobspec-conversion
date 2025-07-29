@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --constraint=ntasks-per-node=2
 
 image="library://marcodelapierre/beta/openfoam:v2012"
 module unload xalt

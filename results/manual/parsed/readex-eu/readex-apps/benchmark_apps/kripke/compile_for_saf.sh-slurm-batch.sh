@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-destiny-9560
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=2500M
+#SBATCH --time=00:30:00
 
 export CXX='scorep --nomemory $READEX_CXX'
 

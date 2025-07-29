@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wandb-sweep
-#FLUX: --queue=gpu-8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=wandb-sweep
+#FLUX --queue=gpu-8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

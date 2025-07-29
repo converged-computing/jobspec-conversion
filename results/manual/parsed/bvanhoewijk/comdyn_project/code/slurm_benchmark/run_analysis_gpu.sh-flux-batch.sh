@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-staircase-6746
-#FLUX: -c=18
+#FLUX --job-name=chunky-pancake-6682
+#FLUX -c=18
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

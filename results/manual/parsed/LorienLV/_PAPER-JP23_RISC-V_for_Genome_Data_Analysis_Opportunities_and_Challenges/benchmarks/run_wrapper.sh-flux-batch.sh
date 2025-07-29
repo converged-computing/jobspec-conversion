@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bike-8652
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-onion-6935
+#FLUX --urgency=16
 
 if test -t 1; then
     # See if it supports colors.

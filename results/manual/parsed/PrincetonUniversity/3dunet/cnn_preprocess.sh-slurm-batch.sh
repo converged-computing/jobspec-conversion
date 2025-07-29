@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-poo-6484
-#FLUX: --queue=all
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/zmd/logs/cnn_preprocess_%j.out
+#SBATCH --error=/scratch/zmd/logs/cnn_preprocess_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=all
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

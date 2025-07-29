@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Training
-#FLUX: -c=17
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=Training
+#FLUX -c=17
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 echo ">>> start"
 echo ">>> Training"

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=dr_default
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=dr_default
+#SBATCH --account=sscheid1_deep_replication
+#SBATCH --output=/scratch/adidishe/fop/out/FOP.out
+#SBATCH --error=/scratch/adidishe/fop/out/FOP.err
+#SBATCH --mail-user=antoine.didisheim@unil.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --chdir=/scratch/adidishe/fop
 
 module purge
 module load my list of modules

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemur-5303
-#FLUX: --queue=general
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-arm-7596
+#FLUX --queue=general
+#FLUX -t=720000
+#FLUX --urgency=16
 
 source paccmann_predict/bin/activate
 python /nas/longleaf/home/qhz/paccmann_predictor/examples/IC50/train_paccmann.py \

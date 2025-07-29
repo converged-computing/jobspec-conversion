@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mfw_uq
-#FLUX: --queue=fast
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=mfw_uq
+#FLUX --queue=fast
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SYS='EAGLE'
 export MPICMD='mpirun'

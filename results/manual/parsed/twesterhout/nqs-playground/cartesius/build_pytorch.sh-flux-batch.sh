@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lentil-1251
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-latke-1495
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTORCH_VERSION='v1.8.0 # 9dfbfe9 # a7cf04ec40e487286ad3f8068fa18321f3474dd2 # master'
 export VISION_VERSION='v0.9.0 # 9dfbfe9 # a7cf04ec40e487286ad3f8068fa18321f3474dd2 # master'

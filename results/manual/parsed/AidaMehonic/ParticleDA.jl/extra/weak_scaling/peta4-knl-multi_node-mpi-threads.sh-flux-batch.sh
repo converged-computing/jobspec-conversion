@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scaling_test.jl
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: --queue=knl
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=scaling_test.jl
+#FLUX -N=16
+#FLUX -n=256
+#FLUX --queue=knl
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export JULIA_NUM_THREADS='$OMP_NUM_THREADS'

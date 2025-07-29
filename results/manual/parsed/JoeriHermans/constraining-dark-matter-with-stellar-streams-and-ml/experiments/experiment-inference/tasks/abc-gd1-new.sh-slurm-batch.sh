@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_ABC_GD1_NEW
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_INFERENCE_ABC_GD1_NEW
+#SBATCH --output=logging/abc_gd1_new.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=1-00:00:00
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 out=$BASE/out/gd1/abc-new-$suffix

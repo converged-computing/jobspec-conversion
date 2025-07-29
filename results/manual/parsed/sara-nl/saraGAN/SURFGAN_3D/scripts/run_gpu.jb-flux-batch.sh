@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-train-7712
-#FLUX: -N=3
-#FLUX: -n=12
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-dog-2830
+#FLUX -N=3
+#FLUX -n=12
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module use /home/druhe/environment-modules-lisa
 module load 2020

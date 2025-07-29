@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mvpfd_simpleae_color
-#FLUX: --queue=ampere
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=mvpfd_simpleae_color
+#SBATCH --account=OZTIRELI-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:59:59
+#SBATCH --partition=ampere
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delay-calibration
-#FLUX: -c=16
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=delay-calibration
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=5-00:00:00
+#SBATCH --constraint=intel
 
 echo Job landed on $(hostname)
 INPUT_DATA=$1#"Delay-Calibration/L??????_SB001_uv_*t_???MHz.msdpppconcat"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-eagle-3999
-#FLUX: --queue=high-mem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-spoon-4159
+#FLUX --queue=high-mem
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'
 

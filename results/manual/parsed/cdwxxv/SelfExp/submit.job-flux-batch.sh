@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=train.job
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=train.job
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TOKENIZERS_PARALLELISM='false'
 

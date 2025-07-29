@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_summarize
-#FLUX: --queue=gpu,gpuv100,gpup6000,lasti
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=hazpi_summarize
+#FLUX --queue=gpu,gpuv100,gpup6000,lasti
+#FLUX -t=18000
+#FLUX --urgency=16
 
 set -o errexit
 set -o pipefail

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50_barlowtwins
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet50_barlowtwins
+#FLUX --queue=long
+#FLUX -t=14400
+#FLUX --urgency=16
 
 . /etc/profile
 module load anaconda/3

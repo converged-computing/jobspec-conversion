@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-motorcycle-7088
-#FLUX: -c=8
-#FLUX: --queue=ztest
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --output=/workspaces/%u/thesisdlradardetection/PointNet/Pnet_pytorch/log/hal_logs/testings/slurm_inference-%j-run.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:40:00
+#SBATCH --partition=ztest
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Full Dataset Testing (DBSCAN + PointNet)"
 mkdir -p /workspaces/$USER/training/logs/

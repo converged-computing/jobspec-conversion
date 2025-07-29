@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=main_use_GMRES
-#FLUX: --queue=wacc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=main_use_GMRES
+#SBATCH --output=main_use_GMRES.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=wacc
 
 srun main_use_GMRES

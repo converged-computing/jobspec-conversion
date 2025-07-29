@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=multi-head fl
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=201600
-#FLUX: --urgency=16
+#FLUX --job-name=multi-head fl
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=201600
+#FLUX --urgency=16
 
 cd /work/LAS/jannesar-lab/yusx/MHFL
 source /work/LAS/jannesar-lab/yusx/anaconda3/bin/activate /work/LAS/jannesar-lab/yusx/anaconda3/envs/mhfl

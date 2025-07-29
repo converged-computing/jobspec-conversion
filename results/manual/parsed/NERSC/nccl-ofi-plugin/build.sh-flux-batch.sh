@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-punk-4823
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-leader-7764
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export INSTALL_DIR='${INSTALL_DIR:-`pwd`/install}'
 export PLUGIN_DIR='$INSTALL_DIR/plugin'

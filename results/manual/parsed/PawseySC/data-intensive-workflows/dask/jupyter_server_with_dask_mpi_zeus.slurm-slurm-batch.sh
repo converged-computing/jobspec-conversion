@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-ricecake-6349
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=56
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export XDG_RUNTIME_DIR=''
 

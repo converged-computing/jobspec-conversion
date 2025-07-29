@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-carrot-9457
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-5-300
+#SBATCH --output=/home/j/juliezhu/pfs/coevolve_yeast/out/%A_%a.out
+#SBATCH --error=/home/j/juliezhu/pfs/coevolve_yeast/error/%A_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=01:00:00
+#SBATCH --array=1-2
 
 ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1
 ml Python/3.6.6

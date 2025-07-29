@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t_m4_yolov5
-#FLUX: --queue=gpu-long
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=t_m4_yolov5
+#FLUX --queue=gpu-long
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export CWD='$(pwd)'
 export RUNDIR='$SCRATCH/yolov5'

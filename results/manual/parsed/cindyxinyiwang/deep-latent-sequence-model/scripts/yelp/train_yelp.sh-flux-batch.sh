@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-carrot-0786
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-lizard-4247
+#FLUX -t=0
+#FLUX --urgency=16
 
 python src/main.py \
   --dataset yelp \

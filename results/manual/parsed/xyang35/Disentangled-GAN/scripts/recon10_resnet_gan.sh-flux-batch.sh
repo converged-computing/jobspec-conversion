@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-omelette-4349
-#FLUX: --queue=bw-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-car-1569
+#FLUX --queue=bw-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ..
 name=recongan10_resnet_nyu

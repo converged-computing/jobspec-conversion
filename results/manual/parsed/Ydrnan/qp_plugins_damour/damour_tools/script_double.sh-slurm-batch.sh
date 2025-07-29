@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-3480
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=xeonv6
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=xeonv6
+#SBATCH: --exclusive
 
 export OMP_PROC_BIND='false'
 

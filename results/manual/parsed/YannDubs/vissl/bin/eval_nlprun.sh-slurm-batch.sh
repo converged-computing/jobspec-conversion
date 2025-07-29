@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=eval_$dir$sffx_$data
-#FLUX: -c=8
-#FLUX: --queue=jag-hi
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_$dir$sffx_$data
+#SBATCH --account=nlp
+#SBATCH --output=$dir/eval_logs/slurm-%j.out
+#SBATCH --error=$dir/eval_logs/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --partition=jag-hi
+#SBATCH --qos=normal
+#SBATCH --exclude=jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard18
 
 dir="$1"
 sffx="$2"

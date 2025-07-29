@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-salad-2585
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=blue-fudge-0878
+#FLUX -c=32
+#FLUX --urgency=16
 
 export TMPDIR='/dev/shm'
 export PYTHONPATH='$PYTHONPATH:$MHPCPROJECT_ROOT'

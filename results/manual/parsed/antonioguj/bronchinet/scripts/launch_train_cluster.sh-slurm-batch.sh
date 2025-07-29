@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cinnamonbun-5739
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./Logs/out_%j.log
+#SBATCH --error=./Logs/error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long
 
 export PYTHONPATH='${WORKDIR}/Code/src/:${PYTHONPATH}'
 

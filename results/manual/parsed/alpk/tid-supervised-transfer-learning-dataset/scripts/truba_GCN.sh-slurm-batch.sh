@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GCN_c_bsign
-#FLUX: -n=16
-#FLUX: --queue=barbun-cuda,akya-cuda
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=GCN_c_bsign
+#SBATCH --account=akindiroglu
+#SBATCH --output=/truba_scratch/akindiroglu/Slurm/output/out-%j.out
+#SBATCH --error=/truba_scratch/akindiroglu/Slurm/error/err-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=barbun-cuda,akya-cuda
 
 module purge
 module load centos7.3/lib/cuda/10.1

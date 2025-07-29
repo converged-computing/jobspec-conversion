@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-frito-3655
-#FLUX: --queue=josephsnodes
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=josephsnodes
+#SBATCH --mail-user=robe1195@msu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=josephsnodes
+#SBATCH --constraint=ntasks-per-node=1
 
 export XDG_CACHE_HOME='/mnt/scratch/robe1195/cache'
 

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=example_Satori_batch_2_nodes
-#FLUX: --exclusive
-#FLUX: --queue=sched_system_all_8
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=example_Satori_batch_2_nodes
+#SBATCH --output=SALIENT/job_output/%x_%j.err
+#SBATCH --error=SALIENT/job_output/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=1T
+#SBATCH --time=00:03:00
+#SBATCH --partition=sched_system_all_8
+#SBATCH: --exclusive
+#SBATCH --array=1-2
 
 export PYTHONPATH='$SALIENT_ROOT'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-snack-7000
-#FLUX: --queue=konings,owners
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=blank-signal-6664
+#FLUX --queue=konings,owners
+#FLUX -t=72000
+#FLUX --urgency=16
 
 argnames=("o1AMPM" "o6AMPM" "oAll" "o1AMPM" "o6AMPM" "oAll" "o1AMPM" "o6AMPM" "oAll" "o1and6" "o1and6" "o1and6" "o16offset" "o16offset" "o16offset")
 outnames=("o1AMPM_c1/" "o6AMPM_c1/" "oAll_c1/" "o1AMPM_c2/" "o6AMPM_c2/" "oAll_c2/" "o1AMPM_c3/" "o6AMPM_c3/" "oAll_c3/" "o1and6_c1/" "o1and6_c2/" "o1and6_c3/" "o16offset_c1/" "o16offset_c2/" "o16offset_c3/")

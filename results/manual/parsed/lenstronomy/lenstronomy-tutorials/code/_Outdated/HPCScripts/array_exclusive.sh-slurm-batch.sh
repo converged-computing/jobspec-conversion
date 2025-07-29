@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=scann
-#FLUX: --exclusive
-#FLUX: --queue=dphys_compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=scann
+#SBATCH --output=/mnt/lnec/sibirrer/Logs/%A.%a.o
+#SBATCH --error=/mnt/lnec/sibirrer/Logs/%A.%a.e
+#SBATCH --mail-user=simon.birrer@phys.ethz.ch
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=dphys_compute
+#SBATCH: --exclusive
+#SBATCH --array=0-9
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

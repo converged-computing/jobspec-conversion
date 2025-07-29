@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-parrot-4118
-#FLUX: -N=2
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-bits-0787
+#FLUX -N=2
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module use /user-environment/modules
 module --ignore-cache load blaspp camp cosma cray-mpich-gcc cuda dbcsr doxygen \

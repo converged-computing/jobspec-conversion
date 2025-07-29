@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc
+#SBATCH --output=../derivatives/logs/mriqc-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10000
+#SBATCH --time=03:00:00
+#SBATCH --partition=all
+#SBATCH --array=1-345
 
 echo "Purging modules"
 module purge

@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-truffle-0334
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --qos=TOP
+#SBATCH --exclude=biwirender12,biwirender08,biwirender05
 
 source /usr/bmicnas01/data-biwi-01/nkarani/softwares/anaconda/installation_dir/bin/activate tf_v1_15
 python /usr/bmicnas01/data-biwi-01/nkarani/projects/hpc_predict/code/code/hpc-predict/segmenter/cnn_segmenter_for_mri_4d_flow/train.py \

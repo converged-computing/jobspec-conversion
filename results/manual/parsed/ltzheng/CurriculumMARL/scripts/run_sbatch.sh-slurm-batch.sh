@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-muffin-5499
-#FLUX: -c=128
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=p200009
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=default
+#SBATCH --constraint=ntasks-per-node=1
 
 algo=$1
 teacher=$2

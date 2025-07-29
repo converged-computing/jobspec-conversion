@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leopard-8513
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: -c=2
+#FLUX --job-name=creamy-arm-4982
+#FLUX -N=2
+#FLUX -n=80
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 netpyne_m1_prefix="$(pwd)/.."
 module purge

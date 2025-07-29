@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-9729
-#FLUX: -N=2
-#FLUX: -n=49
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-leopard-1342
+#FLUX -N=2
+#FLUX -n=49
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CP2K_DATA_DIR='$AIIDA_CODE_DIR/data/cp2k/data'
 

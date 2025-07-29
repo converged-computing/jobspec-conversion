@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2PopSplit_Plink
-#FLUX: --queue=bigmem2
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=2PopSplit_Plink
+#FLUX --queue=bigmem2
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load python/cpython-3.7.0
 module load R

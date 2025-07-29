@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune_superlu_nimrod
-#FLUX: -N=16
-#FLUX: --queue=premium
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=GPTune_superlu_nimrod
+#FLUX -N=16
+#FLUX --queue=premium
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

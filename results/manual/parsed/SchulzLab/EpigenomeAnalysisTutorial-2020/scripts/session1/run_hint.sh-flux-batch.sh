@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocessing
-#FLUX: -c=48
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=preprocessing
+#FLUX -c=48
+#FLUX -t=432000
+#FLUX --urgency=16
 
 source ~/.zshrc
 conda activate nf-core-atacseq-1.2.1

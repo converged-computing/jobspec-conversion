@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=torch_bert
-#FLUX: --queue=cu-1
-#FLUX: --urgency=16
+#SBATCH --job-name=torch_bert
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cu-1
+#SBATCH --constraint=ntasks-per-node=1
 
 l=`whoami`
 CURDIR=`pwd`

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pancake-0248
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=astute-milkshake-6324
+#FLUX -c=8
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load miniconda2/4.6.14

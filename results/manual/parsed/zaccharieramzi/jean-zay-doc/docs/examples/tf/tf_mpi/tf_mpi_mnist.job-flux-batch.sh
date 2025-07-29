@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mnist_tf_mpi
-#FLUX: -n=32
-#FLUX: -c=10
+#FLUX --job-name=mnist_tf_mpi
+#FLUX -n=32
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: --queue=gpu_p1
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=gpu_p1
+#FLUX -t=60
+#FLUX --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

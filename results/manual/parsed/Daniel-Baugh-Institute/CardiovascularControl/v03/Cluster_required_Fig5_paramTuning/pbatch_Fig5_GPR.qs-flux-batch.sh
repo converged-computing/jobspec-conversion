@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Fig8_mdlStruct
-#FLUX: -n=64
-#FLUX: --queue=idle
-#FLUX: -t=12300
-#FLUX: --urgency=16
+#FLUX --job-name=Fig8_mdlStruct
+#FLUX -n=64
+#FLUX --queue=idle
+#FLUX -t=12300
+#FLUX --urgency=16
 
 vpkg_require matlab/default
 . /opt/shared/slurm/templates/libexec/openmp.sh

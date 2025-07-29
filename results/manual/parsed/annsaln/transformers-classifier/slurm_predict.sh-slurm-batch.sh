@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parrot-6688
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002026
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export OUTPUT_DIR='models'
 export PRED_DIR='predictions'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-parsnip-6836
-#FLUX: --queue=sbel_cmg
-#FLUX: -t=864090
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-avocado-2599
+#FLUX --queue=sbel_cmg
+#FLUX -t=864090
+#FLUX --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=tjpcov-clusters-run
-#FLUX: -N=8
-#FLUX: -n=16
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tjpcov-clusters-run
+#SBATCH --account=m1727
+#SBATCH --output=/pscratch/sd/m/mkwiecie/tjpcov/tjpcov-clusters-run.log-%j.txt
+#SBATCH --mail-user=youremail@yourdomain.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=256000
+#SBATCH --time=02:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
+#SBATCH --licenses=cfs,SCRATCH
 
 input=your_config.yaml
 output=your_output.sacc

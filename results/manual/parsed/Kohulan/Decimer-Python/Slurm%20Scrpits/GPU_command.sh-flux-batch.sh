@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chip-9252
-#FLUX: -c=48
-#FLUX: --queue=gpu_v100
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-citrus-1320
+#FLUX -c=48
+#FLUX --queue=gpu_v100
+#FLUX -t=720000
+#FLUX --urgency=16
 
 module load nvidia/cuda/9 #loading Modules
 module load tools/tensorflow/1.8.0

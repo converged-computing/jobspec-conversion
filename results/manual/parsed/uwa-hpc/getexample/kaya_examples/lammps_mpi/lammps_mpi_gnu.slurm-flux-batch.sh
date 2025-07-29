@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=36
-#FLUX: --queue=admin
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX -n=36
+#FLUX --queue=admin
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='36'
 

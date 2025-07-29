@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pedo-5488
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=phat-pot-2470
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

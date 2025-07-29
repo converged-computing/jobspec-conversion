@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Trimmomatic_Rifkin
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=Trimmomatic_Rifkin
+#SBATCH --account=rsbaucom0
+#SBATCH --output=STAR_pass_2-%A-%a.log
+#SBATCH --mail-user=jlrifkin@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=00:20:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-89%5
 
 module purge
 module load Bioinformatics

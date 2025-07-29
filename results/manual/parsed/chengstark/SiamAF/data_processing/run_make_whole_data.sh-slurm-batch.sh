@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-2163
-#FLUX: -c=16
-#FLUX: --queue=overflow
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=650G
+#SBATCH --time=04:00:00
+#SBATCH --partition=overflow
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moelansfig4-2d-test
-#FLUX: -N=4
+#FLUX --job-name=moelansfig4-2d-test
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cat $0
 ml load GCC/6.3.0-2.27

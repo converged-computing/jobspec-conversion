@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-ricecake-6225
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/intellectualmora/EntanglementDetection/datasets/generator/static/20qubit/gpu.lsf

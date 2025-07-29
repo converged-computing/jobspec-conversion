@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=aboron
-#FLUX: -n=4
-#FLUX: --queue=Lewis
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=aboron
+#FLUX -n=4
+#FLUX --queue=Lewis
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PSM_RANKS_PER_CONTEXT='2'
 

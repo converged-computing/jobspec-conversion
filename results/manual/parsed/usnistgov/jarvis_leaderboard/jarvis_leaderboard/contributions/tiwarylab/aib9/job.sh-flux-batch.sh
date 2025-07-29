@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AIB9
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=AIB9
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda
 module load gcc

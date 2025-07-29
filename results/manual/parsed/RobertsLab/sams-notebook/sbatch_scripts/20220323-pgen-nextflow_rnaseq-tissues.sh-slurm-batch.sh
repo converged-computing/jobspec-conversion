@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20220323-pgen-nextflow_rnaseq-tissues
-#FLUX: --queue=srlab
-#FLUX: -t=1468800
-#FLUX: --urgency=16
+#SBATCH --job-name=20220323-pgen-nextflow_rnaseq-tissues
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=17-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20220323-pgen-nextflow_rnaseq-tissues
 
 nf_core_rnaseq="/gscratch/srlab/programs/nf-core-rnaseq-3.6/workflow"
 nf_core_rnaseq_config=/gscratch/srlab/programs/nf-core-rnaseq-3.6/configs/conf/base-srlab_500GB_node.config

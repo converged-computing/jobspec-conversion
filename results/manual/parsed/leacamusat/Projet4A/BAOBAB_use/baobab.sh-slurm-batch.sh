@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=testTensorFlow
-#FLUX: --queue=shared-gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=testTensorFlow
+#SBATCH --output=slurm-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=12000
+#SBATCH --time=04:00:00
+#SBATCH --partition=shared-gpu
 
 module load GCC/10.3.0  OpenMPI/4.1.1 TensorFlow/2.6.0
 module load cuDNN/8.2.1.32-CUDA-11.3.1

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bench_insitu
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bench_insitu
+#SBATCH --account=cad14985
+#SBATCH --output=res1N_%x_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=MI250,ntasks-per-node=1
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export OMP_PLACES='cores'

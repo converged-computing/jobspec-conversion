@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=matlabjob
-#FLUX: -n=16
-#FLUX: --queue=rtx
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=matlabjob
+#SBATCH --output=jobresults/test%j.out
+#SBATCH --error=jobresults/matlabjob.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=rtx
 
 module load matlab
 matlab -nodesktop -nodisplay -nosplash < gputest.m

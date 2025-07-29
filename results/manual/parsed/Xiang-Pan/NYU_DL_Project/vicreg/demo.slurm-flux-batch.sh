@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hobbit-0087
-#FLUX: -c=24
+#FLUX --job-name=reclusive-plant-1808
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --queue=n1c24m128-v100-4
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

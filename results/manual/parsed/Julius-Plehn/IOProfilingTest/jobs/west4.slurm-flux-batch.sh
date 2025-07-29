@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-eagle-3054
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-sundae-0077
+#FLUX -N=4
+#FLUX -n=4
+#FLUX --queue=west
+#FLUX -t=7200
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

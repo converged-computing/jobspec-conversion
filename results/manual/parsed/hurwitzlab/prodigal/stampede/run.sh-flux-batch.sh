@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prodigal
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=prodigal
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$TACC_LAUNCHER_DIR/plugins'
 export LAUNCHER_WORKDIR='$PWD'

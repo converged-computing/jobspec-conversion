@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MPI-ASYNC-BENCHMARK
-#FLUX: -n=2
-#FLUX: -c=96
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI-ASYNC-BENCHMARK
+#SBATCH --output=output/job_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=96
+#SBATCH --mem-per-cpu=3800
+#SBATCH --time=00:05:00
+#SBATCH --array=1-240
 
 export OMPI_MCA_osc='ucx'
 export OMPI_MCA_pml='ucx'

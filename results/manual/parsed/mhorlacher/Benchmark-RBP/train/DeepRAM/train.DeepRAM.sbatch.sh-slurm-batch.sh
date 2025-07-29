@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=DeepRAM-snakemake
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=86400
-#FLUX: --urgency=15
+#SBATCH --job-name=DeepRAM-snakemake
+#SBATCH --output=logs/%j.job
+#SBATCH --error=logs/%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_p
+#SBATCH --qos=low
+#SBATCH --exclude=supergpu02pxe,supergpu03pxe,supergpu05,supergpu07,supergpu08
 
 sbatch --wait << EOF
 echo HOSTNAME=$HOSTNAME

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=dT
-#FLUX: -c=18
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=dT
+#SBATCH --account=c31
+#SBATCH --output=logs/mockobs_sdc3-%A.%j.out
+#SBATCH --error=logs/mockobs_sdc3-%A.%j.err
+#SBATCH --mail-user=michele.bianco@epfl.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --mem=62G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=gpu
+#SBATCH --array=0-150
 
 module load daint-gpu
 module load gcc/9.3.0

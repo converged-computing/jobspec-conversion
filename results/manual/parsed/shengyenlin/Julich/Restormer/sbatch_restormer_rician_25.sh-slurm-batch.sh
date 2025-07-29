@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=restormer-universal-rician-25
-#FLUX: -c=64
-#FLUX: --queue=dc-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=restormer-universal-rician-25
+#SBATCH --account=delia-mp
+#SBATCH --output=/p/scratch/delia-mp/lin4/experiment_result/restormer/0803-universal-rician-25/output-%j.out
+#SBATCH --error=/p/scratch/delia-mp/lin4/experiment_result/restormer/0803-universal-rician-25/error-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dc-gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(nslookup "$MASTER_ADDR" | grep -oP '(?<=Address: ).*')'

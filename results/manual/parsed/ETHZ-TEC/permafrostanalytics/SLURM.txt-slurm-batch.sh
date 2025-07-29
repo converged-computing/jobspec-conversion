@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-9803
-#FLUX: --urgency=16
+#SBATCH --account=tik
+#SBATCH --output=/itet-stor/matthmey/net_scratch/logs/log%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
 
 source activate permafrost
 echo Running on host: `hostname`

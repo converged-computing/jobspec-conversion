@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lettuce-8577
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --queue=regular
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-plant-7602
+#FLUX -N=4
+#FLUX -c=10
+#FLUX --queue=regular
+#FLUX -t=5400
+#FLUX --urgency=16
 
 DASK=$HOME/scheduler.json
 rm -f $DASK

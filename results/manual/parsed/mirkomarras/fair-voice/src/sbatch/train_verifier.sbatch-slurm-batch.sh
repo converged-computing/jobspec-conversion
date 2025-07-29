@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet34Vox
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ResNet34Vox
+#SBATCH --output=jobs/slurm_train_resnet34vox_%j.out
+#SBATCH --mail-user=m.marras19@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PRJ_PATH='${PWD}'
 export AUDIO_DIR='/beegfs/mm10572/voxceleb1/dev,/beegfs/mm10572/voxceleb2/dev'

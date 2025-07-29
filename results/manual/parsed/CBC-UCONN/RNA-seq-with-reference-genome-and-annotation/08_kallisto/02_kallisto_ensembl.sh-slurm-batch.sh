@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kallisto
-#FLUX: -c=15
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=kallisto
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=first.last@uconn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=15
+#SBATCH --mem=20G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 hostname
 date

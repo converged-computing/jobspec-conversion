@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_Gromacs_1400k_4_job
-#FLUX: -n=128
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_Gromacs_1400k_4_job
+#SBATCH --output=rfm_Gromacs_1400k_4_job.out
+#SBATCH --error=rfm_Gromacs_1400k_4_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_1:1'

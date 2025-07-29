@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=none_p4est_64_1024
-#FLUX: -N=64
-#FLUX: -n=1024
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=none_p4est_64_1024
+#SBATCH --account=Nixing-Scale-Bugs
+#SBATCH --output=none_p4est_64_1024.%j
+#SBATCH --nodes=64
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'
 

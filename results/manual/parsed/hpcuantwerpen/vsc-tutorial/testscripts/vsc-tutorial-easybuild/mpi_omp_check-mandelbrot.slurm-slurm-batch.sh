@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_omp_check-mandelbrot
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=debug
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_omp_check-mandelbrot
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:02:00
+#SBATCH --partition=debug
 
 module purge
 module load calcua/2020a

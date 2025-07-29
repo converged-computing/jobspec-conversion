@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=YAMP
-#FLUX: --queue=compute
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=YAMP
+#SBATCH --output=YAMP_%j.out
+#SBATCH --error=YAMP_%j.err
+#SBATCH --mail-user=lptolik@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=compute
 
 if test "$#" -ne 4; then
     echo "Script requires 4 parameters:"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=singularity_python_test
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=singularity_python_test
+#SBATCH --output=singularity_python_test.%j.out
+#SBATCH --error=singularity_python_test.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=24
 
 module load mvapich2_ib singularity
 CONTAINER=/cvmfs/singularity.opensciencegrid.org/sugwg/dbrown\:latest

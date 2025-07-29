@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llchem-multinode
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=g40x
-#FLUX: --urgency=16
+#SBATCH --job-name=llchem-multinode
+#SBATCH --account=topchem
+#SBATCH --output=/fsx/proj-chemnlp/experiments/logs/training_%j.out
+#SBATCH --error=/fsx/proj-chemnlp/experiments/logs/training_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=g40x
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export TOKENIZERS_PARALLELISM='false'
 export WANDB_BASE_URL='https://stability.wandb.io'

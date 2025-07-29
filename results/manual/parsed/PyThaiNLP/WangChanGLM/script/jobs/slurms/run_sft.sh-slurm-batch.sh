@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ChomGPT
-#FLUX: -c=4
-#FLUX: --queue=scads-a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ChomGPT
+#SBATCH --account=scads
+#SBATCH --output=log/task.out.%j
+#SBATCH --error=log/task.out.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=16GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=scads-a100
 
 cd /ist/users/patompornp/wangchanx/ChomGPT/script
 conda activate chat

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-spoon-2744
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-spoon-4145
+#FLUX --queue=standard
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gatk
 module load vcftools

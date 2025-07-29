@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-citrus-5967
-#FLUX: --urgency=16
+#SBATCH --output=out/out_temp/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --array=1-70:1
 
 a=$SLURM_ARRAY_TASK_ID
 j=$SLURM_JOBID

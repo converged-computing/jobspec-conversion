@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-salad-2060
-#FLUX: -n=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --mail-user=james.junker1@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
 
 pwd
 echo "This is the R-batch-job running bayesian models of stream metabolism"

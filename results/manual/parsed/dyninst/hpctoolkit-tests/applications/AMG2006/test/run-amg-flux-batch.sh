@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cattywampus-4832
+#FLUX --job-name=quirky-caramel-8549
 #FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 export OMP_WAIT_POLICY='active'

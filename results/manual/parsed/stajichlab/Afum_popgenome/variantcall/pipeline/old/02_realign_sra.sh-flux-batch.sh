@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=realign
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=realign
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module unload java
 module load java/8

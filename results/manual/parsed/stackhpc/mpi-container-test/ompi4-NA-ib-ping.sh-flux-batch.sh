@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-parsnip-2117
-#FLUX: -n=2
+#FLUX --job-name=tart-arm-3911
+#FLUX -n=2
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export UCX_NET_DEVICES='mlx5_0:1 # force IB only'
 

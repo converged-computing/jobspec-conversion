@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ast_finetuned
-#FLUX: --queue=dgxs
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ast_finetuned
+#SBATCH --output=ast_finetuned.out
+#SBATCH --error=ast_finetuned.err
+#SBATCH --mail-user=dilgrenc@oregonstate.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
+#SBATCH --partition=dgxs
+#SBATCH --constraint=v100
 
 module load python/3.12
 module load cuda/12.2

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Stock prediction training
-#FLUX: -c=28
-#FLUX: --queue=GPUQ
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Stock prediction training
+#SBATCH --account=ie-idi
+#SBATCH --output=prediction-srun.out
+#SBATCH --mail-user=hannagn@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=04:00:00
+#SBATCH --partition=GPUQ
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

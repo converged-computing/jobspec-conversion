@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-9286
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-egg-7558
+#FLUX -t=28800
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

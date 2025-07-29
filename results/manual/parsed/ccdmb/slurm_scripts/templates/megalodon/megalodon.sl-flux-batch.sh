@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pancake-1546
-#FLUX: --queue=gpuq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-lizard-7978
+#FLUX --queue=gpuq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load singularity
 module load cuda

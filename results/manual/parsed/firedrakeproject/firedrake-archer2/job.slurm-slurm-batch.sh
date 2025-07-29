@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=firedrake
-#FLUX: -N=2
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=firedrake
+#SBATCH --account=your_account
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 export FIREDRAKE_DIR='/your/firedrake/install/dir'
 export FI_OFI_RXM_SAR_LIMIT='64K'

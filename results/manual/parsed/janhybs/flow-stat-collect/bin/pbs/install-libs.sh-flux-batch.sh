@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-0355
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-lentil-0288
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/janhybs/flow-stat-collect/bin/pbs/install-libs.sh

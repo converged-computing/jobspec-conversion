@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=${dataset}-${split}-${SAVE_NAME}-s${seed}
-#FLUX: --queue=learnlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=${dataset}-${split}-${SAVE_NAME}-s${seed}
+#FLUX --queue=learnlab
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export dataset='NACS'
 export split='length'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poodle-4504
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=particles_%j.out
+#SBATCH --error=particles_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=02:00:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

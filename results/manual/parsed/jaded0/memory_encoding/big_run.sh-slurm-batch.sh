@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=memory_encoding
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=memory_encoding
+#SBATCH --mail-user=jaden.lorenc@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=16000M
+#SBATCH --time=3-00:00:00
 
 export WANDB_EXECUTABLE='$CONDA_PREFIX/bin/python'
 export WANDB_MODE='offline'

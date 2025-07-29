@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu
-#FLUX: -c=6
-#FLUX: --queue=gpuhm
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_gpu
+#SBATCH --output=/home/ofourkioti/Projects/SAD_MIL/camelyon_results/camil_rcc_dense.txt
+#SBATCH --error=/home/ofourkioti/Projects/SAD_MIL/camelyon_results/error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpuhm
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

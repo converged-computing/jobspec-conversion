@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HPCG-2-gpu
-#FLUX: -N=2
-#FLUX: --queue=condo
-#FLUX: --urgency=16
+#SBATCH --job-name=HPCG-2-gpu
+#SBATCH --mail-user=rscherbarth@unm.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=condo
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-72
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

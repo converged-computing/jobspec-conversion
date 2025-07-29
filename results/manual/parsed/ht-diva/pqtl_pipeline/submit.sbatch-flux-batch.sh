@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pqtl_pipeline
-#FLUX: --queue=cpuq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pqtl_pipeline
+#FLUX --queue=cpuq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ~/.bashrc
 module -s load singularity/3.8.5

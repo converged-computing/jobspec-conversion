@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=S2L_combineRes
-#FLUX: --queue=all
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=S2L_combineRes
+#SBATCH --output=/scratch/pb463/projects/S2L/SDM/slurm/S2L_SDMbatch_combRes_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50M
+#SBATCH --time=00:10:00
+#SBATCH --partition=all
+#SBATCH --array=1-25
 
 baseResPath='/scratch/pb463/projects/S2L/SDM/results/s20200113/All_woutGEDI/'
 specRun="ACWO AMGO BEWR BHGR BLPH BRBL BUSH CALT CAQU CBCH DEJU HOFI LEGO MODO NOFL NOMO NUWO OATI RWBL SOSP SPTO STJA WCSP WEBL WESJ"

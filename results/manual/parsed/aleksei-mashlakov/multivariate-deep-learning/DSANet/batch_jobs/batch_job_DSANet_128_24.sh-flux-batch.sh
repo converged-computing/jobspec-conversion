@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dsanet_128_24
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=57000
-#FLUX: --urgency=16
+#FLUX --job-name=dsanet_128_24
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=57000
+#FLUX --urgency=16
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.2.0

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=std_devs
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=std_devs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --qos=normal
 
 seed_displcmt=200
 num_seeds=10

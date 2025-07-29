@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_PCNN
-#FLUX: -n=8
-#FLUX: --queue=gpu8_long
-#FLUX: --urgency=16
+#SBATCH --job-name=train_PCNN
+#SBATCH --output=outputs/rq_train1_%A_%a.out
+#SBATCH --error=outputs/rq_train1_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=200GB
+#SBATCH --partition=gpu8_long
 
 echo "Starting at `date`"
 echo "Job name: $SLURM_JOB_NAME JobID: $SLURM_JOB_ID"

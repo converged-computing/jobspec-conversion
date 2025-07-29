@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pQuant_enc
-#FLUX: --queue=pe2
-#FLUX: --urgency=16
+#FLUX --job-name=pQuant_enc
+#FLUX --queue=pe2
+#FLUX --urgency=16
 
 module add gcc/9.2.0
 module add clang

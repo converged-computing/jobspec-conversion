@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rf-0-smogn
+#FLUX --job-name=rf-0-smogn
 #FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --queue=amd
+#FLUX -t=356400
+#FLUX --urgency=16
 
 hostname
 module load /sw/spack-amd/spack/modules/linux-centos8-zen2/singularity/3.7.0-gcc-10.2.0

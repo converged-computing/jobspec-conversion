@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-kitty-0539
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-gato-0263
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_stacks_1.37_ustacks_ada.sh

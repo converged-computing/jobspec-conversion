@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prepare-container
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=prepare-container
+#FLUX -t=7200
+#FLUX --urgency=16
 
 conda update -n base -c conda-forge conda
 conda install -y -c conda-forge -c nvidia merlin-core merlin-models merlin-systems nvtabular transformers4rec tensorflow

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pot-9321
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-puppy-1897
+#FLUX -n=8
+#FLUX --queue=cpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "loading modules"
 module use /apps/USE/easybuild/release/2021.5/modules/all

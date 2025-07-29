@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fairseq_moe
-#FLUX: -c=96
-#FLUX: --urgency=16
+#SBATCH --job-name=fairseq_moe
+#SBATCH --output=./stdout.%j
+#SBATCH --error=./stderr.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=1
 
 DOCKER_USERNAME="<DOCKER_USERNAME>"
 DOCKER_PASSWD="<DOCKER_PASSWORD>"

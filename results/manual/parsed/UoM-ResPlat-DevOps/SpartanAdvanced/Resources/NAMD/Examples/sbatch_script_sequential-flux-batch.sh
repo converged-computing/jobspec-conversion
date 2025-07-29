@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parrot-7562
-#FLUX: -N=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-arm-0108
+#FLUX -N=64
+#FLUX -t=345600
+#FLUX --urgency=16
 
 jobname="_A2_aspirin_ion_256_run1_"
 date=$(date +%F);

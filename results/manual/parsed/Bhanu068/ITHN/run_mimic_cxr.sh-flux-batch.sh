@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-7263
-#FLUX: -c=4
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=red-platanos-1677
+#FLUX -c=4
+#FLUX -t=518400
+#FLUX --urgency=16
 
 conda activate gpu
 python main.py \

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pointcept-semseg-swin3d-v1m1-0-small
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=pointcept-semseg-swin3d-v1m1-0-small
+#SBATCH --account=SHEIL-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=ampere
 
 export CUDA_VISIBLE_DEVICES='${CUDA_VISIBLE_DEVICES}'
 export OMP_NUM_THREADS='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cosine
-#FLUX: -N=2
+#FLUX --job-name=cosine
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#FLUX --queue=dev
+#FLUX --urgency=16
 
 export HF_HUB_ENABLE_HF_TRANSFER='1'
 export ACCELERATE_LOG_LEVEL='info'

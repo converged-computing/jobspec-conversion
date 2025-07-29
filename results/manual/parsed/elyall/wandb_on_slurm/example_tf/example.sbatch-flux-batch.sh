@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-arm-4748
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=aws
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-animal-8351
+#FLUX -N=2
+#FLUX -c=4
+#FLUX --queue=aws
+#FLUX -t=1800
+#FLUX --urgency=16
 
 date;hostname;id;pwd
 echo 'activating virtual environment'

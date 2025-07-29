@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RespTest
-#FLUX: --queue=shared
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=RespTest
+#FLUX --queue=shared
+#FLUX -t=9000
+#FLUX --urgency=16
 
 date
 module purge

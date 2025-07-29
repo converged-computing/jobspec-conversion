@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PDO
-#FLUX: -c=8
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=PDO
+#SBATCH --account=m1517
+#SBATCH --mail-user=jsnorth@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=10:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='threads'

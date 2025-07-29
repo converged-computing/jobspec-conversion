@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nalgas-8294
-#FLUX: -c=12
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-platanos-1619
+#FLUX -c=12
+#FLUX --urgency=16
 
 export SSD_DIR='$(getSSD)  # get new ssd dir from tmp/tmp_$SLURM_JOBID'
 

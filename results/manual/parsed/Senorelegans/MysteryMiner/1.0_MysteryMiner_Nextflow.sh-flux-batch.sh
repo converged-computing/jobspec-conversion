@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: -n=12
-#FLUX: --queue=short
-#FLUX: -t=57900
-#FLUX: --urgency=16
+#FLUX --job-name=NAME
+#FLUX -n=12
+#FLUX --queue=short
+#FLUX -t=57900
+#FLUX --urgency=16
 
 export PATH='biome_tools/SPAdes-3.13.1-Linux/bin:$PATH'
 

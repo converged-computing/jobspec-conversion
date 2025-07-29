@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ffs_256
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ffs_256
+#SBATCH --account=g92-1496
+#SBATCH --output=/home/kpusteln/loads/tsm_base.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:volta:4
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=volta32G
 
 module purge 2>&1 >/dev/null
 module load \

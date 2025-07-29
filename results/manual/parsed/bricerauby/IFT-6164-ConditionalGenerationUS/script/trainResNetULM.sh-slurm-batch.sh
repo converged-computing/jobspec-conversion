@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=trainResNetUlm
-#FLUX: -c=6
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=trainResNetUlm
+#SBATCH --account=def-jeproa
+#SBATCH --output=output_dir/ResNetUlm/%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=23:59:00
 
 cd ~/IFT-6164-ConditionalGenerationUS
 module load python/3.9

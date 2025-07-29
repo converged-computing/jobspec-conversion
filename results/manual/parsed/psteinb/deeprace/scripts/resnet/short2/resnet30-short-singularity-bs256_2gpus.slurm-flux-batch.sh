@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-blackbean-2725
-#FLUX: --queue=gpu2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-bits-6051
+#FLUX --queue=gpu2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

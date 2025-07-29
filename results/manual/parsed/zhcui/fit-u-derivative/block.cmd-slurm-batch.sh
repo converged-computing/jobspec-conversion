@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-punk-5082
-#FLUX: -c=28
-#FLUX: --queue=parallel
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=250000
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_MPI_TYPE='pmi2'
 export OMP_NUM_THREADS='28'

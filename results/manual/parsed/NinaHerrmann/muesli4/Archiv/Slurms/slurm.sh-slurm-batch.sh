@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Muesli2
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=express
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Muesli2
+#SBATCH --output=/scratch/tmp/kuchen/outputLena.txt
+#SBATCH --error=/scratch/tmp/kuchen/errorLena.txt
+#SBATCH --mail-user=kuchen@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=02:00:00
+#SBATCH --partition=express
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='4'
 export I_MPI_DEBUG='3'

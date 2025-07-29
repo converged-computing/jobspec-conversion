@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SpatialPHLEX
-#FLUX: --queue=cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=SpatialPHLEX
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpu
 
 export NXF_SINGULARITY_CACHEDIR='./singularity'
 

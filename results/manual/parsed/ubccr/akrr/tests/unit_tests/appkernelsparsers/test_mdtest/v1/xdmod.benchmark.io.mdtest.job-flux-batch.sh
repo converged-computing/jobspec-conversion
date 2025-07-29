@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-peas-3023
-#FLUX: -N=8
+#FLUX --job-name=crusty-car-9163
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: --queue=general-compute
-#FLUX: -t=420
-#FLUX: --urgency=16
+#FLUX --queue=general-compute
+#FLUX -t=420
+#FLUX --urgency=16
 
 export AKRR_NODES='8'
 export AKRR_CORES='96'

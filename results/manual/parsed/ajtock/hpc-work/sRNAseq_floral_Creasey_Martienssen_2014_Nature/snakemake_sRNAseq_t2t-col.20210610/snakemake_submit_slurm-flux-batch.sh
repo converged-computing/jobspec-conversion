@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sRNAseq_floral_t2t-col.20210610
-#FLUX: --queue=skylake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=sRNAseq_floral_t2t-col.20210610
+#FLUX --queue=skylake-himem
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cojo_meta
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cojo_meta
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 TRAIT="metal_ICD_ROME_EURUSA_Qonly_Qnon"
 extract_dir="/gfs/work/ceijsbouts/ibs/clump/extract"

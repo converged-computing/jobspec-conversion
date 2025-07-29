@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=w2-a10
-#FLUX: -c=4
-#FLUX: --queue=dell
-#FLUX: --urgency=16
+#SBATCH --job-name=w2-a10
+#SBATCH --output=log/job-%j.log
+#SBATCH --error=log/job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:V100:1
+#SBATCH --partition=dell
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

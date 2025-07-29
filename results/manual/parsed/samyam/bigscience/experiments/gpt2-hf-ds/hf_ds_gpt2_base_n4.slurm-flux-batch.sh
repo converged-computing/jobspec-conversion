@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hf_ds_gpt2_base_n4
-#FLUX: -N=4
-#FLUX: -c=40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hf_ds_gpt2_base_n4
+#FLUX -N=4
+#FLUX -c=40
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

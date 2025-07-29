@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PICSAR.ARMFORGE-SERIAL
+#FLUX --job-name=PICSAR.ARMFORGE-SERIAL
 #FLUX: --exclusive
-#FLUX: --queue=c6gn
-#FLUX: --urgency=16
+#FLUX --queue=c6gn
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

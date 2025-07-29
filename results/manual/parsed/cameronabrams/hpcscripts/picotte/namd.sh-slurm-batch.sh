@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TF01
-#FLUX: -N=8
-#FLUX: --queue=def
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=TF01
+#SBATCH --account=abramsPrj
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=def
+#SBATCH --constraint=ntasks-per-node=48
 
 export OMP_NUM_THREADS='${NCPU}'
 

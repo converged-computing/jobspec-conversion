@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=filter_vcfs
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=filter_vcfs
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 hostname
 date

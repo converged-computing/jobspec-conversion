@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=unfold
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=unfold
+#FLUX -c=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 WORKDIR="/home/fm02/MEG_NEOS/NEOS"
 SCRIPT1="$WORKDIR/unfold_eeg.jl"

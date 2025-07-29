@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lentil-8630
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=lammps_indent.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export PATH='$PATH:$PWD/../../../lammps-mpi-most-23Jun2022/bin'
 

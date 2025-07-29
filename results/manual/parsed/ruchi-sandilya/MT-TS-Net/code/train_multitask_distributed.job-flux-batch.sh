@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=survival-modeling
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=survival-modeling
+#FLUX -c=40
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

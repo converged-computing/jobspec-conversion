@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=3sl
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=3sl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
 
 OUTPUT_DIR="/explore/nobackup/projects/ilab/projects/Senegal/Distributed-Runs/$USER"
 CLI_PATH="/explore/nobackup/people/jacaraba/development/senegal-lcluc-tensorflow/senegal_lcluc_tensorflow/view/landcover_cnn_pipeline_cli.py"

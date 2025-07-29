@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parsnip-6311
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
 
 export STUDENT_ID='${USER}'
 export NLTK_DATA='${CLUSTER_HOME}/nltk_data/'

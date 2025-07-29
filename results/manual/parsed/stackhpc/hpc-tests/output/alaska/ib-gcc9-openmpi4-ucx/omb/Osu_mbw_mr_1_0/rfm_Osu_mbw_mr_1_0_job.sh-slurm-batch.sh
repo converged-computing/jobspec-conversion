@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_Osu_mbw_mr_1_0_job
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_Osu_mbw_mr_1_0_job
+#SBATCH --output=rfm_Osu_mbw_mr_1_0_job.out
+#SBATCH --error=rfm_Osu_mbw_mr_1_0_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_0:1'

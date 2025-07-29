@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-train-4639
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: -c=8
-#FLUX: --queue=dc-cpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-nunchucks-7759
+#FLUX -N=16
+#FLUX -n=256
+#FLUX -c=8
+#FLUX --queue=dc-cpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

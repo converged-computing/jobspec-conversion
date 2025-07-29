@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_main_yunet
-#FLUX: -n=3
-#FLUX: -c=17
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=run_main_yunet
+#FLUX -n=3
+#FLUX -c=17
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PYTHONPATH='$(pwd)'
 

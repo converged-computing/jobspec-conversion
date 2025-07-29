@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MGPU
-#FLUX: -n=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MGPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=01:00:00
+#SBATCH --qos=allgpus
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

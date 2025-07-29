@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CoelAAFTF
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=CoelAAFTF
+#SBATCH --output=logs/AAFTF.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=96G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=intel
 
 hostname
 MEM=196

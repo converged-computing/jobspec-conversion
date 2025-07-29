@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cublas-long-faults-quant
+#FLUX --job-name=cublas-long-faults-quant
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ITERS=1
 module load cuda

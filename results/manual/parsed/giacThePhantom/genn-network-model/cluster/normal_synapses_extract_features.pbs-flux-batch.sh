@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-despacito-5630
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-animal-0823
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/normal_synapses_extract_features.pbs

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hvm-env05
-#FLUX: --queue=gpu-short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=hvm-env05
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu-short
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

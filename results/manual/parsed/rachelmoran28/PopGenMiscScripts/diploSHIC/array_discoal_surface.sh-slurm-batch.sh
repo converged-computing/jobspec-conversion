@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=surf.discoal
-#FLUX: --queue=astyanax,small,amdsmall,cavefish
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=surf.discoal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=astyanax,small,amdsmall,cavefish
+#SBATCH --array=1-23
 
 cd /home/mcgaughs/shared/Software/diploSHIC
 discoal="/home/mcgaughs/shared/Software/discoal/discoal"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=prepare_R_data
-#FLUX: -c=2
-#FLUX: --queue=idle
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=prepare_R_data
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=idle
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100
 
 UD_QUIET_JOB_SETUP=YES
 echo "SLURM ARRAY TASK ID: $SLURM_ARRAY_TASK_ID"

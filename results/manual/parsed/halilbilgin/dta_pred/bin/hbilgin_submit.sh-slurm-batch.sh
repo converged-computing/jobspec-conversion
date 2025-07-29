@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Keras
-#FLUX: --queue=cuda
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Keras
+#SBATCH --account=users
+#SBATCH --output=%j-keras.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=cuda
+#SBATCH --constraint=ntasks-per-node=10
 
 export PATH='$HOME/.local/bin:$PATH'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=portal_weekly_forecast
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=portal_weekly_forecast
+#SBATCH --output=test_log.out
+#SBATCH --mail-user=jsimonis@ufl.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=hpg2-compute
 
 date;hostname;pwd
 source /etc/profile.d/modules.sh

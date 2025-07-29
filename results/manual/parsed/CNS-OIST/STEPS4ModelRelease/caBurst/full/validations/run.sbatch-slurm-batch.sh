@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-citrus-3935
-#FLUX: -N=32
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
+#SBATCH --array=[1-100%10]
 
 export PYTHONPATH='`spack find --paths /$SPACK_INSTALLED_HASH | tail -n 1 | grep -o "/.*"`:$PYTHONPATH'
 

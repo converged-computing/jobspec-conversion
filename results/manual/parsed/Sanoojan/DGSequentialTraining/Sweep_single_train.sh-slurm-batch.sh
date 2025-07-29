@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dino_feat
-#FLUX: -c=60
-#FLUX: --queue=multigpu
-#FLUX: --urgency=16
+#SBATCH --job-name=dino_feat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --gres=gpu:12
+#SBATCH --partition=multigpu
 
 for command in delete_incomplete launch
    do

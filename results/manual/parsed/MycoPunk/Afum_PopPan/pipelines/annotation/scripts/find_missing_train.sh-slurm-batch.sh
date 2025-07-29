@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-arm-7380
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
 
 CPU=1
 INDIR=annotate

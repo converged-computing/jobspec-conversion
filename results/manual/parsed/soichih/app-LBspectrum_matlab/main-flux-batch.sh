@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-signal-1048
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-leader-9438
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/soichih/app-LBspectrum_matlab/main

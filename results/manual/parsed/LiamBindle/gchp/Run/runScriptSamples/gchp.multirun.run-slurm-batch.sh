@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-puppy-3856
-#FLUX: -n=6
-#FLUX: --queue=huce_intel
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50000
+#SBATCH --time=00:00:30
+#SBATCH --partition=huce_intel
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

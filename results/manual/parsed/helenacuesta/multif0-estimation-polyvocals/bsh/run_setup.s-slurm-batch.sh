@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=setup_v2
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=setup_v2
+#SBATCH --output=setup3.out
+#SBATCH --error=setup3.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=7-00:00:00
 
 module purge
 module load rubberband/intel/1.8.1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=LeNet.TF
-#FLUX: --urgency=16
+#FLUX --job-name=LeNet.TF
+#FLUX --urgency=16
 
 train_batch=256
 nodes=1

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-butter-7967
-#FLUX: -n=2
-#FLUX: --queue=G1Part_sce
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-egg-8209
+#FLUX -n=2
+#FLUX --queue=G1Part_sce
+#FLUX --urgency=16
 
 export PATH='/es01/paratera/sce3063/lammps/lammps-2Aug2023/src:$PATH'
 

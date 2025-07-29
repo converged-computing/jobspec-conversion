@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-frito-4698
-#FLUX: -c=5
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=00:05:00
 
 export MCR_CACHE_ROOT='$TMPDIR'
 

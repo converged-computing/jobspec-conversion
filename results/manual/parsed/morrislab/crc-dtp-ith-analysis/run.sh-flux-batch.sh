@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-8180
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-buttface-9580
+#FLUX --urgency=16
 
 set -euo pipefail
 PYTHON=$HOME/.apps/miniconda3/bin/python3

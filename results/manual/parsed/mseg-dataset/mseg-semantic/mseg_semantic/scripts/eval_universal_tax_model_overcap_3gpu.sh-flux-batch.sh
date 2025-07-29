@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-dog-3760
-#FLUX: --queue=overcap
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-pastry-8215
+#FLUX --queue=overcap
+#FLUX --urgency=16
 
 base_size=$1
 model_name=$2

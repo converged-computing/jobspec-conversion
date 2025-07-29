@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama2-orig-use-7b-hf
-#FLUX: -c=4
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=llama2-orig-use-7b-hf
+#FLUX -c=4
+#FLUX -t=864000
+#FLUX --urgency=16
 
 pip install --upgrade pip
 module load python/3.11.5

@@ -1,12 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Muesli2-CPU
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Muesli2-CPU
+#SBATCH --output=/scratch/tmp/kuchen/outputAllCPU.txt
+#SBATCH --error=/scratch/tmp/kuchen/errorAllCPU.txt
+#SBATCH --mail-user=kuchen@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='4'
 export I_MPI_FABRICS='shm:ofa'

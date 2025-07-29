@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-carrot-9361
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/fverdugo/PartitionedPoisson.jl/analysis/scripts/gadi/jobtemplate.sh

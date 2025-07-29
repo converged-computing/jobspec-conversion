@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vb-cb-sens
-#FLUX: -N=2
-#FLUX: --queue=128x24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=vb-cb-sens
+#FLUX -N=2
+#FLUX --queue=128x24
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "SCRATCH_DIR: $SCRATCH_DIR"
 BATCHSIZE=2000

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-banana-0192
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-leg-0566
+#FLUX -c=12
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load singularity
 singularity exec \

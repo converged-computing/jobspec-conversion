@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-spoon-8742
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ShelleyMelchior-NOAA/smelchior/triggers/jrw4.pbs

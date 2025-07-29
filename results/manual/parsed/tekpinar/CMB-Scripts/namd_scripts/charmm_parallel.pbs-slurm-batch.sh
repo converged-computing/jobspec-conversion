@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lamp-0629
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tekpinar/CMB-Scripts/namd_scripts/charmm_parallel.pbs

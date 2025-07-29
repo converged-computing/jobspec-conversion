@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chip-1008
-#FLUX: --urgency=16
+#FLUX --job-name=tart-rabbit-8352
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UTJFritz/magpie/submission-scripts/script-msub-torque-pdsh/magpie.msub-torque-pdsh-spark-with-yarn-and-hdfs

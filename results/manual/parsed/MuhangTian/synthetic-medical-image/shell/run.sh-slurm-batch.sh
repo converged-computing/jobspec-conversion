@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=IMG-DDPM
-#FLUX: --queue=compsci-gpu
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=IMG-DDPM
+#SBATCH --output=logs/%j.out
+#SBATCH --mail-user=muhang.tian@duke.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A5000:1
+#SBATCH --mem=50G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=compsci-gpu
 
 export load_path='data/imgs/train'
 export dim='64'

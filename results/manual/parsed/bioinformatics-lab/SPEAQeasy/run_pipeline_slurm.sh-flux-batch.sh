@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cinnamonbun-4609
-#FLUX: --urgency=16
+#FLUX --job-name=fat-peanut-butter-2051
+#FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

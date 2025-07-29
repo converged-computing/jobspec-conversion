@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reconstruction
-#FLUX: --exclusive
-#FLUX: --queue=low
-#FLUX: --urgency=16
+#SBATCH --job-name=reconstruction
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=low
+#SBATCH: --exclusive
+#SBATCH --array=0
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

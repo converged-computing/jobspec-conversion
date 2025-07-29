@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=process_qdrep_resnet_train
-#FLUX: --queue=a100_shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=process_qdrep_resnet_train
+#SBATCH --account=pacer
+#SBATCH --output=oresnet_train.txt
+#SBATCH --error=eresnet_train.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=a100_shared
 
 module load cuda/11.4
 i=0

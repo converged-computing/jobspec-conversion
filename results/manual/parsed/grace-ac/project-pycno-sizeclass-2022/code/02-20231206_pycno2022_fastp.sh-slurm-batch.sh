@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20231206_pycno2022_fastp
-#FLUX: --queue=srlab
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=20231206_pycno2022_fastp
+#SBATCH --account=srlab
+#SBATCH --mail-user=graceac9@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/srlab/graceac9/analyses/pycno/20231206_PSC2022_trimming
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

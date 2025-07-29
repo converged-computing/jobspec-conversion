@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-banana-0340
-#FLUX: -N=4
-#FLUX: -c=7
+#FLUX --job-name=frigid-frito-8293
+#FLUX -N=4
+#FLUX -c=7
 #FLUX: --exclusive
-#FLUX: --queue=gpu_k80
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=gpu_k80
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='$HOME/ssd/pao_jpeg_bis/classification_part'
 export EXPERIMENTS_OUTPUT_DIRECTORY='/dlocal/run/$SLURM_JOB_ID'

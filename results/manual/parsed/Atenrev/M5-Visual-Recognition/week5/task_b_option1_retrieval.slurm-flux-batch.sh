@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-2388
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=angry-poodle-8286
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python run_retrieval.py \
     --mode text_to_image  \

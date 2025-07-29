@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-7285
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=arid-car-6910
+#FLUX -c=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load StdEnv/2020  gcc/9.3.0  cuda/11.7

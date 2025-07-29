@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-itch-6056
-#FLUX: -n=15
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-lentil-7571
+#FLUX -n=15
+#FLUX --queue=long
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load openmpi/4.0.1
 mpirun -np 15 /global/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_113_17_112_64_16_0-2_0-3_500_40000_index1.lmp

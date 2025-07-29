@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=extract2D
-#FLUX: -n=12
+#FLUX --job-name=extract2D
+#FLUX -n=12
 #FLUX: --exclusive
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX -t=9000
+#FLUX --urgency=16
 
 NB_NPROC=12 #(= 1 regions * 1 variable * 12 month)
 runcode() { srun --mpi=pmi2 -m cyclic -n $@ ; }

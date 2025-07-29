@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LA
-#FLUX: --queue=psych_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=LA
+#SBATCH --output=logs/%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=100g
+#SBATCH --time=06:00:00
+#SBATCH --partition=psych_gpu
 
 set -e
 nvidia-smi

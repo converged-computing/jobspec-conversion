@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bits-8481
-#FLUX: -c=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=90000
+#SBATCH --time=00:02:00
+#SBATCH --partition=REQUESTED_PARTITION
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=glidein
-#FLUX: -c=14
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=glidein
+#SBATCH --account=bbfw-delta-gpu
+#SBATCH --output=/u/riedel1/logs/%j.out
+#SBATCH --error=/u/riedel1/logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --mem=56G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=ntasks-per-node=1
 
 echo `date`
 echo $HOSTNAME

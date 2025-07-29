@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tara4IPS
-#FLUX: --queue=fat
-#FLUX: --urgency=16
+#SBATCH --job-name=tara4IPS
+#SBATCH --output=tara4cpusIPS.output
+#SBATCH --mail-user=haris.zafr@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fat
+#SBATCH --constraint=ntasks-per-node=40
 
 conda deactivate
 module load python/3.7.8

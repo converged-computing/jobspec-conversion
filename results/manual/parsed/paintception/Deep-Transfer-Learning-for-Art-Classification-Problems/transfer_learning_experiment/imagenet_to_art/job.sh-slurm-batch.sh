@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peanut-butter-3450
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=1-00:00:00
 
 KERAS_BACKEND=tensorflow
 declare -a tl_modes=("fine_tuning" "off_the_shelf" "random") #The three pre-training approaches investigated in the paper

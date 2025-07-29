@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=custom
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=custom
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=1GB
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=distributed_training
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=distributed_training
+#SBATCH --account=intertwin
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export OMP_NUM_THREADS='1'

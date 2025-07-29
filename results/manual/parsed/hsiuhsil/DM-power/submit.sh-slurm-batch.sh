@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job
-#FLUX: -N=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job
+#SBATCH --output=mpi_output_%j.txt
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=25
 
 cd /scratch/p/pen/hsiuhsil/DM_power
 mpirun -np 100 python DM_power.py -bw 200 -f0 550 -nchan 2048 -dt 0.00032768 -dm_start -2 -dm_end 2 -dm_steps 51 -trials 100 -rescaled False  -intensity_bootstrap True -intensity_file "/scratch/p/pen/hsiuhsil/DM_power/noiseamp_files/burst_11_noiseamp_0.npy" -save_path "/scratch/p/pen/hsiuhsil/DM_power/noiseamp_files/burst_11_noiseamp_0_bootstrap_test.npz"

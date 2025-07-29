@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=test-hpl
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=test-hpl
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SINGULARITYENV_SHELL='/bin/bash'
 

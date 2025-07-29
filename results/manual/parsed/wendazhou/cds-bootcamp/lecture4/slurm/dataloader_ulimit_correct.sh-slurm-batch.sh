@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-leopard-9682
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6GB
+#SBATCH --time=01:00:00
 
 IMAGE=${IMAGE:-/scratch/wz2247/singularity/images/pytorch_21.06-py3.sif}
 ulimit -Sn $(ulimit -Hn)

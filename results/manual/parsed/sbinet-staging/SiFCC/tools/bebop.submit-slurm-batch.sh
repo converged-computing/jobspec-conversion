@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-banana-6727
-#FLUX: -N=14
-#FLUX: --queue=bdwall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=14
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=bdwall
 
 singularityImage="../fpadsim-v1.4.img"
 files=$(find input -iname "*.promc")

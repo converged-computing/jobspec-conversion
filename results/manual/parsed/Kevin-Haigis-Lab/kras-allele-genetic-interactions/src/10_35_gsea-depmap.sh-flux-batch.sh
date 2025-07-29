@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-rabbit-6860
-#FLUX: -c=2
-#FLUX: --queue=short
-#FLUX: -t=270
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-bits-8063
+#FLUX -c=2
+#FLUX --queue=short
+#FLUX -t=270
+#FLUX --urgency=16
 
 module load gcc java
 GSEA_PATH=/home/jc604/mysoftware/gsea-3.0.jar

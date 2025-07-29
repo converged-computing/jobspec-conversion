@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-plant-6067
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 export UCX_NET_DEVICES='all'
 export IO500_CONTAINER_TAG='9d75358'

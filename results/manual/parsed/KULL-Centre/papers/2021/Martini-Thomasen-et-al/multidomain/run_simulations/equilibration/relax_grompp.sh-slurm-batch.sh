@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peanut-butter-8292
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/multidomain/run_simulations/equilibration/relax_grompp.sh

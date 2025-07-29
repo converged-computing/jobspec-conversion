@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-peanut-2732
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx:4
+#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 singularity exec -B /scratch/persistent --nv \

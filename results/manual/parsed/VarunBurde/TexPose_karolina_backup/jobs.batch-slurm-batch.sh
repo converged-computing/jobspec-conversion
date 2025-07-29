@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Texpose_training
-#FLUX: --queue=qgpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Texpose_training
+#SBATCH --account=OPEN-29-7
+#SBATCH --output=logs/002_master_chef_can.err
+#SBATCH --error=errors/002_master_chef_can.out
+#SBATCH --mail-user=varun.burde@cvut.cz
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=qgpu
 
 module purge
 source /apps/all/Anaconda3/2023.09-0/etc/profile.d/conda.sh

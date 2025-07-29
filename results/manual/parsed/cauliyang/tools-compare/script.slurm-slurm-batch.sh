@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tools
-#FLUX: --queue=amd
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=tools
+#SBATCH --output=tools_%j.log
+#SBATCH --mail-user=li002252@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=amd
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=CBISresnet_mammo
-#FLUX: -c=16
-#FLUX: --queue=m3g
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=CBISresnet_mammo
+#SBATCH --account=sq58
+#SBATCH --output=./sbatchlog/resnet/CBISresnet_mammo-%j.out
+#SBATCH --error=./sbatchlog/resnet/CBISresnet_mammo-%j.err
+#SBATCH --mail-user=enoch.mok@monash.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=16000
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=m3g
+#SBATCH --constraint=ntasks-per-node=1
 
 EPOCHS="$1"
 DATA_AUG="$2"

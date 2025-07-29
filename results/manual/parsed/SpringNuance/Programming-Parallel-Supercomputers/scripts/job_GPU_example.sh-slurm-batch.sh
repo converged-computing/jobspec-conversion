@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemon-8327
-#FLUX: --queue=courses-gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=courses
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=courses-gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge   # unload all current modules
 module load openmpi

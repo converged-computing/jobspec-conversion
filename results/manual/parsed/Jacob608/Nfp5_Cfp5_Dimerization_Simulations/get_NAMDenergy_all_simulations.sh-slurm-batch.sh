@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Collect NAMD Energy
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Collect NAMD Energy
+#SBATCH --account=p31412
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 module load vmd
 names=()

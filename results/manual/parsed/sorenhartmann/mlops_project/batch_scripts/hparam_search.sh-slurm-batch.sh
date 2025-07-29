@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-gato-7040
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sorenhartmann/mlops_project/batch_scripts/hparam_search.sh

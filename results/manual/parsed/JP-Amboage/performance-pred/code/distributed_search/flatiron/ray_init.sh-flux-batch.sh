@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-earthworm-9720
-#FLUX: -N=2
-#FLUX: -c=5
+#FLUX --job-name=muffled-snack-8553
+#FLUX -N=2
+#FLUX -c=5
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 echo "#################### Job submission script. #############################"
 cat $0

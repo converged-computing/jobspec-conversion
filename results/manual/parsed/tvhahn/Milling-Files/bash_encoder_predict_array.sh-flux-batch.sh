@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-8210
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-lentil-5245
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 DIR=$(sed -n "${SLURM_ARRAY_TASK_ID}p" input_zip_files)

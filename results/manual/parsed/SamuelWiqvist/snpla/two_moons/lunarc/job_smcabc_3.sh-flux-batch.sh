@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=smcabc
+#FLUX --job-name=smcabc
 #FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=lu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

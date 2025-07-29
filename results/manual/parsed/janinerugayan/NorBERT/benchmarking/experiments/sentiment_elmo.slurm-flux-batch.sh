@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=norelmo_sentiment
-#FLUX: -n=8
-#FLUX: --queue=accel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=norelmo_sentiment
+#FLUX -n=8
+#FLUX --queue=accel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module use -a /cluster/projects/nn9851k/software/easybuild/install/modules/all/

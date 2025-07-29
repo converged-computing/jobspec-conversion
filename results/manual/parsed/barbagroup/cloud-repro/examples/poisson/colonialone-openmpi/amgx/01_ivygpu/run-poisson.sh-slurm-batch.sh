@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=01amgx
-#FLUX: --queue=ivygpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=01amgx
+#SBATCH --output=log%j.out
+#SBATCH --error=log%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=ivygpu
+#SBATCH --constraint=ntasks-per-node=12
 
 export PATH='$AMGXWRAPPER_DIR/example/poisson/bin":$PATH'
 export LD_LIBRARY_PATH='$AMGX_DIR/lib":$LD_LIBRARY_PATH'

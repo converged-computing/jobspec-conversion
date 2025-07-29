@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=iVAE
+#SBATCH --account=Project_2002842
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=8000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=small
 
 module purge
 module load pytorch/1.4

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llm
-#FLUX: -c=16
-#FLUX: --queue=scavenger
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=llm
+#FLUX -c=16
+#FLUX --queue=scavenger
+#FLUX -t=129600
+#FLUX --urgency=16
 
 source /cmlscratch/pchiang/miniconda3/etc/profile.d/conda.sh
 conda activate hug

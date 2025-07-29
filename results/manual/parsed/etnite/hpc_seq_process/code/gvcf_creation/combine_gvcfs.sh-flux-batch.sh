@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=comb-gvcfs
-#FLUX: --queue=mem
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=comb-gvcfs
+#FLUX --queue=mem
+#FLUX -t=129600
+#FLUX --urgency=16
 
 set -e
   ##SBATCH --ntasks=22  #Number of overall tasks - overrides tasks per node

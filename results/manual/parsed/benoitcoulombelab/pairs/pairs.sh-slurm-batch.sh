@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-butter-6856
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-coulomb
+#SBATCH --output=pairs-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=7-00:00:00
 
 export NXF_OPTS='-Xms500M -Xmx8000M'
 

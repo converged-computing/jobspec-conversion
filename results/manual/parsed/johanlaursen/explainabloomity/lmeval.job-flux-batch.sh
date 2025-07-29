@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-earthworm-0268
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=44100
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-lettuce-1713
+#FLUX -c=8
+#FLUX --queue=red,brown
+#FLUX -t=44100
+#FLUX --urgency=16
 
 nvidia-smi
 module load Anaconda3

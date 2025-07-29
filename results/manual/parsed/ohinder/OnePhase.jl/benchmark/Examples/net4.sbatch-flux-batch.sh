@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=net4
-#FLUX: --queue=hns,normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=net4
+#FLUX --queue=hns,normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ml load CUTEst/linux-cutest
 ml load julia/precompiled/0.5.0

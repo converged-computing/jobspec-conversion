@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hippo-5037
-#FLUX: --queue=msismall
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-soup-0452
+#FLUX --queue=msismall
+#FLUX -t=28800
+#FLUX --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

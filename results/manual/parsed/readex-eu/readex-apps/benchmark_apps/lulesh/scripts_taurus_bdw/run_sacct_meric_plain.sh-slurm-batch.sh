@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh_sacct
-#FLUX: -c=28
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=lulesh_sacct
+#SBATCH --account=p_readex
+#SBATCH --output=meric_1_nodes_bdw_test_new_1.out
+#SBATCH --error=meric_1_nodes_bdw_test_new_1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=2200M
+#SBATCH --time=02:00:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

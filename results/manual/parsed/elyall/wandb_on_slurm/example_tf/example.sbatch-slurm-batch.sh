@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-citrus-4799
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=aws
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=/nfs/logs/slurm-%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=aws
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/nfs/code/wandb_on_slurm/
 
 date;hostname;id;pwd
 echo 'activating virtual environment'

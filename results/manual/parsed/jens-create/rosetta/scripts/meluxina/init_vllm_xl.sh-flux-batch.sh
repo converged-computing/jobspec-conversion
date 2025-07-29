@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-4062
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-poodle-7591
+#FLUX --gpus-per-task=4
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "===================================="
 echo "ARGS       = $@"

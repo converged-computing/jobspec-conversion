@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-llama2_random_scale4_16gpus
-#FLUX: -N=2
-#FLUX: -c=64
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=cpt-llama2_random_scale4_16gpus
+#FLUX -N=2
+#FLUX -c=64
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

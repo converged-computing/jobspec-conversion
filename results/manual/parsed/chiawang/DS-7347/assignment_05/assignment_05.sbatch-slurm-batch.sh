@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=assignment_05
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#SBATCH --job-name=assignment_05
+#SBATCH --output=assignment_05_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=htc
 
 module purge
 wget https://github.com/chiawang/DS-7347/blob/main/assignment_05/assignment_05.R

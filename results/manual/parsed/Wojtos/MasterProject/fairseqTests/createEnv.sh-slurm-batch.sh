@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-puppy-9553
-#FLUX: --urgency=16
+#SBATCH --output=logs/log-%j.out
+#SBATCH --error=logs/log-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module load plgrid/tools/python-intel/3.6.2
 module load plgrid/apps/cuda/10.1

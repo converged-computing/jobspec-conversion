@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hu-s1
-#FLUX: -c=8
-#FLUX: --queue=bmm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hu-s1
+#FLUX -c=8
+#FLUX --queue=bmm
+#FLUX -t=172800
+#FLUX --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate sgc

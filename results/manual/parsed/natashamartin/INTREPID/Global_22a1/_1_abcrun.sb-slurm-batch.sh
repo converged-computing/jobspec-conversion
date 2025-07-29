@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=bat1
-#FLUX: --queue=ind-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bat1
+#SBATCH --account=csd722
+#SBATCH --output=%x.run_%a.out.txt
+#SBATCH --error=%x.run_%a.err.txt
+#SBATCH --mail-user=achaillon@health.ucsd.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=48GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ind-shared
+#SBATCH --array=0-0
 
 export PATH='/expanse/lustre/scratch/jpg/temp_project/matlab_2020b/bin:$PATH'
 

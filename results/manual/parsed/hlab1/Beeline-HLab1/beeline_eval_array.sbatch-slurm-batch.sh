@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Beeline_L0
-#FLUX: -c=4
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=Beeline_L0
+#SBATCH --output=slurm/slurm-%A_%a.out
+#SBATCH --error=slurm/slurm-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16GB
+#SBATCH --time=00:01:00
 
 module purge
 echo ${CONFIG_SPLIT_FILE}

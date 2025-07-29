@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-signal-6274
-#FLUX: -N=24
-#FLUX: -n=2304
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-motorcycle-1155
+#FLUX -N=24
+#FLUX -n=2304
+#FLUX --queue=standard96
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

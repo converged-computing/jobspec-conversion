@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cloth_mass
-#FLUX: --queue=psych_gpu
-#FLUX: -t=342000
-#FLUX: --urgency=16
+#FLUX --job-name=cloth_mass
+#FLUX --queue=psych_gpu
+#FLUX -t=342000
+#FLUX --urgency=16
 
 pwd; hostname; date
 exp_cond='mass'   #stiff|mass

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fat-salad-5628
-#FLUX: -c=56
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_465000670
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=56
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITYENV_LD_LIBRARY_PATH='/opt/ompi/lib:${EBROOTAWSMINOFIMINRCCL}/lib:/opt/cray/xpmem/2.5.2-2.4_3.47__gd0f7936.shasta/lib64:/opt/aws-ofi-rccl/lib:${SINGULARITYENV_LD_LIBRARY_PATH}'
 export SINGULARITY_BIND='$(echo $SINGULARITY_BIND | sed 's|,/usr/lib64/libssh.so.4||g') # do not bind host libssh which is built against a wrong libssl for some reason'

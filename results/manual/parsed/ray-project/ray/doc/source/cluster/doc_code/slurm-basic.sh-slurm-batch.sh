@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=4
-#FLUX: -c=5
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=1GB
+#SBATCH --time=00:30:00
 
 set -x
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")

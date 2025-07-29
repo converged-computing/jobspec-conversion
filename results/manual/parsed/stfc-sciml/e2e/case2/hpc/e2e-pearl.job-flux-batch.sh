@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=PEARLIntelE2E
-#FLUX: --urgency=16
+#FLUX --job-name=PEARLIntelE2E
+#FLUX --urgency=16
 
 export SINGULARITYENV_PYTHONPATH='/work'
 

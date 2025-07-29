@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=univ_alphastable_multi_ABC_mlp_preprocessing3
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=univ_alphastable_multi_ABC_mlp_preprocessing3
+#SBATCH --account=lu2018-2-22
+#SBATCH --output=lunarc_output/univaralphastable/outputs_alphastable_multiple_mlp_preprocessing_%j.out
+#SBATCH --error=lunarc_output/univaralphastable/errors_alphastable_multiple_mlp_preprocessing_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=11000
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

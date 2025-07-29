@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-motorcycle-2908
-#FLUX: --queue=general
-#FLUX: -t=907200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-cinnamonbun-7616
+#FLUX --queue=general
+#FLUX -t=907200
+#FLUX --urgency=16
 
 module load canu/1.7
 data_d=/pine/scr/<O>/<N>/<ONYEN/ #a single fastq file (preferably zipped) containing reads

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-noodle-7499
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-motorcycle-0014
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 main_dir=/pscratch/sd/g/gstein/machine_learning/decals_self_supervised/ssl-legacysurvey-pl/scripts
 cd $main_dir

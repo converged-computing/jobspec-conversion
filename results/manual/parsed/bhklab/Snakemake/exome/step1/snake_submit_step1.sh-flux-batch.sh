@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snake_step1
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=snake_step1
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source /cluster/home/amammoli/.bashrc
 module load python3

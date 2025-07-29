@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peas-4734
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=20
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-animal-5978
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=8
+#FLUX -t=20
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='6'
 

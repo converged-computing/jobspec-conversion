@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cluster-editing
-#FLUX: --queue=ether
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=cluster-editing
+#FLUX --queue=ether
+#FLUX -t=604800
+#FLUX --urgency=16
 
 set -e
 set -u

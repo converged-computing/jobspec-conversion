@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-4323
-#FLUX: -n=10
-#FLUX: --queue=defq-48core
-#FLUX: --urgency=16
+#FLUX --job-name=angry-car-7795
+#FLUX -n=10
+#FLUX --queue=defq-48core
+#FLUX --urgency=16
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

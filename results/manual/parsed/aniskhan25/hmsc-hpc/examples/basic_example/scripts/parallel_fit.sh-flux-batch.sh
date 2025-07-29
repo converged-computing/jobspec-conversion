@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hmsc-hpc_fit
-#FLUX: -c=8
-#FLUX: --queue=standard-g
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=hmsc-hpc_fit
+#FLUX -c=8
+#FLUX --queue=standard-g
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PWD/../..:$PYTHONPATH'
 

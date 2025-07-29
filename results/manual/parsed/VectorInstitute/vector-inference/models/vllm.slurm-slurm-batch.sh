@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-muffin-3326
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
 
 module load cuda-12.3
 nvidia-smi

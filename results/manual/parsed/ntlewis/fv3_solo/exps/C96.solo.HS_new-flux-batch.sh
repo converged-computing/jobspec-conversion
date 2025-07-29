@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-muffin-1713
-#FLUX: -n=24
-#FLUX: --urgency=16
+#FLUX --job-name=angry-lentil-6956
+#FLUX -n=24
+#FLUX --urgency=16
 
 export COMPILER='gnu'
 export LAUNCHER='mpirun'

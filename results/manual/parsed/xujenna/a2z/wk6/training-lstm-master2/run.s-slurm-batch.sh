@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=happyDB12
-#FLUX: -c=3
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=happyDB12
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=jx603@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:3
+#SBATCH --mem=240GB
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load numpy/python3.6/intel/1.14.0 tensorflow/python3.6/1.5.0

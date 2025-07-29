@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-carrot-6929
-#FLUX: -c=20
-#FLUX: --queue=free-gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-bicycle-6936
+#FLUX -c=20
+#FLUX --queue=free-gpu
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load anaconda/2022.05
 . ~/.mycondaconf

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-fork-7505
-#FLUX: -c=8
-#FLUX: --queue=rtx6000
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --output=logs/attack-stylegan-%j-out.txt
+#SBATCH --error=logs/attack-stylegan-%j-err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=rtx6000
+#SBATCH --qos=normal
 
 exp_config=neurips2021-celeba.yml
 STYLEGAN_PKL=pretrained/stylegan/neurips2021-celeba-stylegan/network-snapshot-002298.pkl

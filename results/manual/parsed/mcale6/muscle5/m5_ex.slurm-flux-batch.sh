@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muscle_MSA
-#FLUX: -c=20
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=muscle_MSA
+#FLUX -c=20
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load mamba intel
 source activate main_env

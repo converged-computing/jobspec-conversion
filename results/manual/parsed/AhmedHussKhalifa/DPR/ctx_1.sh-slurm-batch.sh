@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-mango-0177
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
 
 module load python/3.6.3
 source virtual_DPR/bin/activate

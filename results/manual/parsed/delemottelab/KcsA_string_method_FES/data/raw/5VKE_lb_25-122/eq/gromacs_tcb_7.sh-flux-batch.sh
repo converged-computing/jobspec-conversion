@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=5VKE_lb_25-122_7
-#FLUX: -n=8
-#FLUX: --queue=tcb
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=5VKE_lb_25-122_7
+#FLUX -n=8
+#FLUX --queue=tcb
+#FLUX -t=84600
+#FLUX --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

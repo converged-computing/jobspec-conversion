@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=StyleGAN-2
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=StyleGAN-2
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load nixpkgs/16.09  intel/2018.3  cuda/10.0.130 cudnn/7.5
 source ~/BlissStyleGAN/StyleGAN2/pytorch/bin/activate

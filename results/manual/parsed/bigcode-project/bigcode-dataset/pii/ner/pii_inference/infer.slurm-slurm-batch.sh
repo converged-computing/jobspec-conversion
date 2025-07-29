@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-sundae-9716
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/leandro/logs/bigcode/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_DATASETS_CACHE='/fsx/leandro/.cache'
 export LAUNCHER='accelerate launch \'

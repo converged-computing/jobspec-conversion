@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cinnamonbun-1775
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-carrot-8499
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeoMop/Endorse-legacy/tests/mlmc/pbs_submit.sh

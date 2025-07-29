@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leg-3489
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/AFD-Illinois/kharma/scripts/batch/scaling_polaris.qsub

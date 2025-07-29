@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=abcd
-#FLUX: --queue=lab_fat_c
-#FLUX: --urgency=16
+#SBATCH --job-name=abcd
+#SBATCH --output=True
+#SBATCH --error=True
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --partition=lab_fat_c
 
 module purge
 module load MATLAB/R2018b

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CVs
-#FLUX: -n=5
-#FLUX: --queue=public
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CVs
+#SBATCH --output=logs/shading/o-%A.o
+#SBATCH --error=logs/shading/o-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=public
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

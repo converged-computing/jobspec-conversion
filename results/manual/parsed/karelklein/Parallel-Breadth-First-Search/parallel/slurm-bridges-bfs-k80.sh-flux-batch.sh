@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bfs-k80
-#FLUX: --queue=GPU-shared
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=bfs-k80
+#FLUX --queue=GPU-shared
+#FLUX -t=300
+#FLUX --urgency=16
 
 module use /home/tisaac/opt/modulesfiles
 module load petsc/cse6230-double

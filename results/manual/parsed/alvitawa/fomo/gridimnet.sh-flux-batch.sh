@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-2423
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=201600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-dog-6818
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=201600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-arm-7888
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-gato-7375
+#FLUX -c=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 pip install --user tensorflow

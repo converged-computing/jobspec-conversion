@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ghru_mlst
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ghru_mlst
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-ghru_mlst-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 Help() {
     echo

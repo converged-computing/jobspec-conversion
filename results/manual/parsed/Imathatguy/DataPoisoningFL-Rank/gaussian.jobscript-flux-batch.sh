@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-buttface-6800
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-signal-5805
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/3.9.4
 module load pytorch/1.8.1-py39-cuda112

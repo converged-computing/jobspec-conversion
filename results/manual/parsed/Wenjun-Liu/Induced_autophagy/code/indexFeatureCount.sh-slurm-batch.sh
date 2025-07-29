@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-9535
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=wenjun.liu@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=batch
 
 CORES=12
 module load FastQC/0.11.7

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-staircase-4718
-#FLUX: -n=96
-#FLUX: --urgency=16
+#FLUX --job-name=red-platanos-9327
+#FLUX -n=96
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='256m'
 

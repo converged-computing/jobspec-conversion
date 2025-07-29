@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-sundae-6834
-#FLUX: --queue=cox
-#FLUX: -t=864720
-#FLUX: --urgency=16
+#SBATCH --output=/n/home05/haehn/SLURM/gp/out-ip_full.txt
+#SBATCH --error=/n/home05/haehn/SLURM/gp/err-ip_full.txt
+#SBATCH --mail-user=haehn@seas.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=100000
+#SBATCH --time=10-00:12:00
+#SBATCH --partition=cox
 
 export LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LD_LIBRARY_PATH'

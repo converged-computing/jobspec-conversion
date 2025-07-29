@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nekRS
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=nekRS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100-sxm4-40gb:8
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NEKRS_HOME='${HOME}/.local/nekrs'
 export OCCA_CXX='g++'

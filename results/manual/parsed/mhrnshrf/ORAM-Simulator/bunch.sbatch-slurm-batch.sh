@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=one-nonsec
-#FLUX: --queue=smp
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=one-nonsec
+#SBATCH --account=xtang
+#SBATCH --mail-user=mhrnshrf@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16g
+#SBATCH --time=03:00:00
+#SBATCH --partition=smp
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-13
 
 cp trace/*  $SLURM_SCRATCH # Copy inputs to scratch
 mkdir $SLURM_SCRATCH/input

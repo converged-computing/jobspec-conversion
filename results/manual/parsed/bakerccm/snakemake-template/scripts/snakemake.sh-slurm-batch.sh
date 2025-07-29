@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-6080
-#FLUX: -n=8
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=snakemake.out
+#SBATCH --error=snakemake.err
+#SBATCH --mail-user=xxxxxxxx@xxxxx.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=priority
 
 module load conda2/4.2.13
 source activate snakemake

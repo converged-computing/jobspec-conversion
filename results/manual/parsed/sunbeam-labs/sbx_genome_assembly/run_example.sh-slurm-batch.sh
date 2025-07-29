@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-noodle-7505
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --output=slurm_%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=10-00:00:00
+#SBATCH: --no-requeue
 
 export SUNBEAM_DIR='/home/tuv/sunbeam/sunbeam-stable'
 export TMPDIR='/prj/dir/tmp'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=TD.filt:7of7
-#FLUX: --urgency=16
+#FLUX --job-name=TD.filt:7of7
+#FLUX --urgency=16
 
 echo ''
 date

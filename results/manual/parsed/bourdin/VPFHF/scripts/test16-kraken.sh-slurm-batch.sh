@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-house-4159
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bourdin/VPFHF/scripts/test16-kraken.sh

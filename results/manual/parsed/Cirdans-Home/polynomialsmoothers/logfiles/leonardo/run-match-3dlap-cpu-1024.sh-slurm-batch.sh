@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=3dlap
-#FLUX: -N=256
-#FLUX: -n=1024
-#FLUX: -c=4
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=3dlap
+#SBATCH --account=CNHPC_1465132
+#SBATCH --nodes=256
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --qos=boost_qos_bprod
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/leonardo/home/userexternal/pdambra0/polynomialsmoothers/install/lib'
 

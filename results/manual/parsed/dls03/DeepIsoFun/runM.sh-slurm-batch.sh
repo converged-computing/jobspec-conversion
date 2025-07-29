@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rM
-#FLUX: --queue=intel
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#SBATCH --job-name=rM
+#SBATCH --output=mytesty.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:15:00
+#SBATCH --partition=intel
 
 date
 module load caffe

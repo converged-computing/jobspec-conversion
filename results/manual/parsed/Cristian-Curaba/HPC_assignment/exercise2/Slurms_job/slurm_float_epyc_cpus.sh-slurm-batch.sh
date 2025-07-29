@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Curaba_test
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=Curaba_test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:45:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export code='/u/dssc/ccurab00/scratch/Foundations_of_HPC_2022/Assignment/exercise2'
 export OMP_PLACES='sockets'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-destiny-7960
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --output=logs/metashot_qual.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=80gb
+#SBATCH --partition=batch
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

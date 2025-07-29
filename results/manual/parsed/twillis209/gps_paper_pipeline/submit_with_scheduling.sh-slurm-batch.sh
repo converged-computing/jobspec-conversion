@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gps_paper_pipeline_scheduler
-#FLUX: -c=4
-#FLUX: --queue=cclake
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=gps_paper_pipeline_scheduler
+#SBATCH --account=MRC-BSU-SL2-CPU
+#SBATCH --output=logs/gps_paper_pipeline_scheduler/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=06:00:00
+#SBATCH --partition=cclake
 
 export OMP_NUM_THREADS='5'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

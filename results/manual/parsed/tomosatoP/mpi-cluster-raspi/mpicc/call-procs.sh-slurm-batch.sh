@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MPICC
-#FLUX: -N=3
-#FLUX: -n=9
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=MPICC
+#SBATCH --output=stdout_%J.txt
+#SBATCH --error=stderr_%J.txt
+#SBATCH --nodes=3
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=3
 
 export OMP_NUM_THREADS='1'
 export PMIX_MCA_gds='hash'

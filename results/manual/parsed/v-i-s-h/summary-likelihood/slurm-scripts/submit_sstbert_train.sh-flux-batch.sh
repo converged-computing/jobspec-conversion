@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-general-7557
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-ricecake-0711
+#FLUX -c=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export DISABLE_PBAR='1'
 

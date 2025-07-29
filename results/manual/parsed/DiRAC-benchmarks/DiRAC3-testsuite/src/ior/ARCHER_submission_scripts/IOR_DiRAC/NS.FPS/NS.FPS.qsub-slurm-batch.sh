@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-platanos-5306
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DiRAC-benchmarks/DiRAC3-testsuite/src/ior/ARCHER_submission_scripts/IOR_DiRAC/NS.FPS/NS.FPS.qsub

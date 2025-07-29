@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemur-9434
-#FLUX: -n=40
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=40
 
 module purge
 module load gromacs/2019.4-gcc-9.2.0-openmpi

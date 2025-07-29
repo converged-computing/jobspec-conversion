@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=download_bams
-#FLUX: -n=11
-#FLUX: --queue=standard
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=download_bams
+#SBATCH --account=bioinf593f23_class
+#SBATCH --output=logs/stripe_download.out
+#SBATCH --error=logs/stripe_download.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=11
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=11GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=standard
 
 snakemake -s download.smk --unlock
 snakemake -s download.smk \

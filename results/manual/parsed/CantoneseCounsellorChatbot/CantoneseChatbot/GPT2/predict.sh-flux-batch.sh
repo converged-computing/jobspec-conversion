@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-carrot-3216
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-muffin-5061
+#FLUX --urgency=16
 
 for i in 0 1 2 3 4 
 do

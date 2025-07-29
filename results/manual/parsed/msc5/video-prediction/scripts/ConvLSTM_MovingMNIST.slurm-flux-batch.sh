@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vp_mmnist
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=vp_mmnist
+#FLUX -c=4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 CWD_PATH=$(pwd)
 SCRIPT_PATH=$(dirname $(readlink -f "$0"))

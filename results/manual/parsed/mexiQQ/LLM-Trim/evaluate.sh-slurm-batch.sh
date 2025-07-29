@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llm_evaluation
-#FLUX: --exclusive
-#FLUX: --queue=a5000ada
-#FLUX: --urgency=16
+#SBATCH --job-name=llm_evaluation
+#SBATCH --output=job_logs/eval_logs_%j.out
+#SBATCH --error=job_logs/eval_logs_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=a5000ada
+#SBATCH: --exclusive
+#SBATCH --nodelist=c32
 
 export PYTHONPATH='.'
 

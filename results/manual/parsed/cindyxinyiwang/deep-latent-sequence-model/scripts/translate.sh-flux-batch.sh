@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-poodle-5318
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=arid-omelette-0282
+#FLUX -t=0
+#FLUX --urgency=16
 
 export PYTHONPATH='$(pwd)'
 

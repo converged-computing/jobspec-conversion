@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=SL-RPC
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=SL-RPC
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -e  # stop on error
 NTIME=500

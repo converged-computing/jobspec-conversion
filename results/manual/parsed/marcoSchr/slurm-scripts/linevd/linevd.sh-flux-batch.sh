@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=linevd_setup
-#FLUX: -c=2
-#FLUX: --queue=gpu-tk
-#FLUX: --urgency=16
+#FLUX --job-name=linevd_setup
+#FLUX -c=2
+#FLUX --queue=gpu-tk
+#FLUX --urgency=16
 
 export HOME='/ukp-storage-1/schroeder_e/'
 

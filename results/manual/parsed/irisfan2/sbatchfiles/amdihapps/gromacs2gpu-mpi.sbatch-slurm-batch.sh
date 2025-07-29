@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pancake-8650
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.err
+#SBATCH --error=%x-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64GB
+#SBATCH --constraint=ntasks-per-node=4
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

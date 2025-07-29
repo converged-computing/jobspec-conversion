@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sra_search
-#FLUX: -c=32
-#FLUX: --queue=bmm
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=sra_search
+#FLUX -c=32
+#FLUX --queue=bmm
+#FLUX -t=360000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source ~/.bashrc

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LCO.bulk.um_opt
-#FLUX: -n=16
-#FLUX: --queue=AMG-medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=LCO.bulk.um_opt
+#SBATCH --output=/home/a.boev//LCO//LCO.bulk.um_opt/sbatch.out
+#SBATCH --error=/home/a.boev//LCO//LCO.bulk.um_opt/sbatch.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=AMG-medium
 
 export PATH='$PATH:/home/a.boev/tools/'
 

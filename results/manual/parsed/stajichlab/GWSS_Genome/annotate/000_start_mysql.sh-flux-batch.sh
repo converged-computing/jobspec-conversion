@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mysqld
-#FLUX: -n=4
-#FLUX: --queue=batch,intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=mysqld
+#FLUX -n=4
+#FLUX --queue=batch,intel
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='bigdata'
 export SINGULARITYENV_PASACONF='pasa.config.txt'

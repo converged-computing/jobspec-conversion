@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf_test
-#FLUX: --queue=gpuq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=tf_test
+#FLUX --queue=gpuq
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load gcc/5.4.0 broadwell
 module load tensorflow

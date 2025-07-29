@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gnormal
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gnormal
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

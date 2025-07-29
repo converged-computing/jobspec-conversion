@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=matlab_p100
-#FLUX: -c=6
-#FLUX: --queue=gpup100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=matlab_p100
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpup100
+#SBATCH --constraint=ntasks-per-node=2
 
 ml cuda/8.0
 ml gcc/5.5.0

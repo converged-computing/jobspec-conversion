@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=angry-underoos-0999
-#FLUX: -n=10
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=$USER
+#SBATCH --output=conf80.txt
+#SBATCH --mail-user=dheerajreddy.p@students.iiit.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=4-00:00:00
 
 chmod +x src/train.py
 logdir='logs/cifar10-resnet110'

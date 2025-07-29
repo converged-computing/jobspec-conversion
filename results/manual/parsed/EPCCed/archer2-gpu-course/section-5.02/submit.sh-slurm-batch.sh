@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HIP
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=HIP
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-shd
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

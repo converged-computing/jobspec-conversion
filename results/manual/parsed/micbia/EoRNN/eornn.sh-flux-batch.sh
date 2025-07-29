@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-house-9881
-#FLUX: -N=4
-#FLUX: -n=12
-#FLUX: --queue=mem192
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-hippo-1064
+#FLUX -N=4
+#FLUX -n=12
+#FLUX --queue=mem192
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load Python
 module load scikit

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fork-3828
-#FLUX: -c=32
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-fork-5951
+#FLUX -c=32
+#FLUX -t=10800
+#FLUX --urgency=16
 
                                # See the comment for the cpus-per-task. One general rule could be
                                # that if you have more subjects than cores/cpus (ex, if you process 38

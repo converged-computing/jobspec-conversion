@@ -1,9 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet_SGV
-#FLUX: -c=2
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ImageNet_SGV
+#SBATCH --account=conf-gpu-2020.11.23
+#SBATCH --output=logs/ImageNet_SGV.%J.out
+#SBATCH --error=logs/ImageNet_SGV.%J.err
+#SBATCH --mail-user=alfarrm@kaust.edu.sa
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ref_32T
+#SBATCH --array=[1-500]
 
 source activate upd_pt
 nvidia-smi

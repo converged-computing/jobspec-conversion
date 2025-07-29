@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cat-8643
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --queue=west
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=west
 
 . /etc/profile.d/wr-spack.sh
 spack load --dependencies mpi

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=C_aur.HTC.GATK
-#FLUX: -n=16
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=C_aur.HTC.GATK
+#SBATCH --output=HTC.GATK.Caur.%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=18:00:00
 
 module load gatk
 module load picard

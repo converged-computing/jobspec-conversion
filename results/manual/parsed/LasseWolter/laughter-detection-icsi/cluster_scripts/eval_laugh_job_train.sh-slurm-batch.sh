@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-4758
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=14000
+#SBATCH --time=01:00:00
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 dt=$(date '+%d/%m/%Y %H:%M:%S')

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=3D_reconstruction
-#FLUX: -N=2
-#FLUX: --queue=high
-#FLUX: -t=362439
-#FLUX: --urgency=16
+#FLUX --job-name=3D_reconstruction
+#FLUX -N=2
+#FLUX --queue=high
+#FLUX -t=362439
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/gpfs/home/mli/.conda/envs/banmo-cu113/lib/:$LD_LIBRARY_PATH'
 

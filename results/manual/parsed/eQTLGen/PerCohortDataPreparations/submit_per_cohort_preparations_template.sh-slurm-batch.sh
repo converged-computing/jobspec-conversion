@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RunDataPreparations
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=RunDataPreparations
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_CACHEDIR='../../singularitycache'
 export NXF_HOME='../../nextflowcache'

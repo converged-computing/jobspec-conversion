@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gate_loss_test
-#FLUX: -c=32
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#SBATCH --job-name=gate_loss_test
+#SBATCH --output=logs/%x-%j.log
+#SBATCH --error=logs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=MoE
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='4'
 export NCCL_DEBUG='INFO'

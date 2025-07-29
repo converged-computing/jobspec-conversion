@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TerrainHusky
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=TerrainHusky
+#FLUX -c=8
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cd ~/Vulpi2021-terrain-deep-learning
 docker build -t terrain-gpu -f DockerfileGPU .

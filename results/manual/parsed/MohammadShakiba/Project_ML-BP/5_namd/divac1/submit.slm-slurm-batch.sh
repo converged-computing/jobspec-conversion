@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=namd-divac1
-#FLUX: -c=10
-#FLUX: --queue=valhalla
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=namd-divac1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=100000
+#SBATCH --time=20:00:00
+#SBATCH --partition=valhalla
+#SBATCH --qos=valhalla
+#SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 export OMP_NUM_THREADS='$omp_threads'

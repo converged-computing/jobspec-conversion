@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Lava_Wrapper
-#FLUX: -n=40
-#FLUX: --queue=C5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Lava_Wrapper
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=C5
 
 module purge
 module load gnu8

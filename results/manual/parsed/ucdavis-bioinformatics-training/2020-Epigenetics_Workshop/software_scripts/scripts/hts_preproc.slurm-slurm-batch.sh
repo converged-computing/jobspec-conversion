@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=htstream
-#FLUX: -n=9
-#FLUX: --queue=production
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=htstream
+#SBATCH --account=epigenetics
+#SBATCH --output=slurm_out/htstream_%A_%a.out
+#SBATCH --error=slurm_out/htstream_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=15000
+#SBATCH --time=12:00:00
+#SBATCH --partition=production
+#SBATCH --array=1-8
 
 start=`date +%s`
 echo $HOSTNAME

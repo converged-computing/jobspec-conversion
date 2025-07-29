@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-taco-9014
-#FLUX: -c=3
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-chip-9741
+#FLUX -c=3
+#FLUX -t=900
+#FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms3g -Xmx4g'
 

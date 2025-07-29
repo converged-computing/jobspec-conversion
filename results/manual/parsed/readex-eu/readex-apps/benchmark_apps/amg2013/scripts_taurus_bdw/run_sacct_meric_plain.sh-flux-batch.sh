@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_meric_sacct
-#FLUX: -N=4
-#FLUX: -c=14
+#FLUX --job-name=amg2013_meric_sacct
+#FLUX -N=4
+#FLUX -c=14
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

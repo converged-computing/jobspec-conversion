@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=single_stage_detector
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=r750xa
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=single_stage_detector
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=r750xa
+#SBATCH --nodelist=node043,node048
 
 module list
 module purge

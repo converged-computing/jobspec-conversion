@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-avocado-1032
-#FLUX: -c=24
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-lemon-0493
+#FLUX -c=24
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='0'
 

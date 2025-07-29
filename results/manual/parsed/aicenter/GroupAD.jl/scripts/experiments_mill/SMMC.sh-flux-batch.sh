@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bits-5073
-#FLUX: --queue=cpufast
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-lizard-0156
+#FLUX --queue=cpufast
+#FLUX --urgency=16
 
 MAX_SEED=$1
 DATASET=$2

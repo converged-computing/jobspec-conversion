@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=QR-so_STAR
-#FLUX: -n=112
-#FLUX: --queue=scb
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=QR-so_STAR
+#FLUX -n=112
+#FLUX --queue=scb
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "`date`: Beginning job execution..."
 RUN=runSim_v2.java

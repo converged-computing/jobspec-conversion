@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name={SLURM_JOB_NAME}
-#FLUX: -c=10
-#FLUX: --queue=atlas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name={SLURM_JOB_NAME}
+#SBATCH --output={SLURM_OUTPUT_LOG}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem={SLURM_MEM}
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=atlas
+#SBATCH --qos=normal
 
 echo "
 Slurm Environment Variables:

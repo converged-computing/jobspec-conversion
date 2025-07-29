@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-car-2906
-#FLUX: -c=3
-#FLUX: --queue=gpuhgx
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-animal-2328
+#FLUX -c=3
+#FLUX --queue=gpuhgx
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load palma/2021b
 module load Singularity

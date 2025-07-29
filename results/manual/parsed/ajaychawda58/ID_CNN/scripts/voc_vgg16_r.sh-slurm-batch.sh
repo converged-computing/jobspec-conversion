@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-muffin-1272
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=16G
 
 module load nvidia/11.1
 module load anaconda3/latest

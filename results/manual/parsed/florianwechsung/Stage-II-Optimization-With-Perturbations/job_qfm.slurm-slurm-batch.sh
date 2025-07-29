@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qfm
-#FLUX: -c=4
-#FLUX: --queue=cs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=qfm
+#SBATCH --output=logs/slurm_qfm_%A_%a.out
+#SBATCH --error=logs/slurm_qfm_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=25GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cs
 
 export OMP_NUM_THREADS='4'
 

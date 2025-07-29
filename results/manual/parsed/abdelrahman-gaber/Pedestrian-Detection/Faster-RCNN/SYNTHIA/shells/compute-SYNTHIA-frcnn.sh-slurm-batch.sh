@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-ricecake-1703
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/abdelrahman-gaber/Pedestrian-Detection/Faster-RCNN/SYNTHIA/shells/compute-SYNTHIA-frcnn.sh

@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-butter-9540
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=west4.out
+#SBATCH --error=west4.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

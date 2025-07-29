@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lamp-1215
-#FLUX: --queue=serial_requeue
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=/n/home15/dsussman/log/out-%a.txt
+#SBATCH --error=/n/home15/dsussman/log/err-%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000
+#SBATCH --time=10:00:00
+#SBATCH --partition=serial_requeue
+#SBATCH --array=1-40
 
 module load math/matlab-R2014b
 matlab -nojvm -nodisplay -nodesktop -r \

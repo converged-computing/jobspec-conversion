@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=24
+#FLUX --job-name=jupyter
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --queue=n1c24m128-v100-4
+#FLUX -t=57600
+#FLUX --urgency=16
 
 port=$(shuf -i 10000-65500 -n 1)
 opts="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -N -f -R $port:localhost:$port"

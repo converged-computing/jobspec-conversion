@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-4201
-#FLUX: -n=28
+#FLUX --job-name=chunky-egg-0809
+#FLUX -n=28
 #FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

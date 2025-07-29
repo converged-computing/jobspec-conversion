@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-salad-1730
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-cat-5763
+#FLUX -c=20
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module purge
 module load gcc/8.3.0

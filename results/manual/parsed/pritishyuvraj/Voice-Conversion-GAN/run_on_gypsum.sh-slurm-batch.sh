@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1-gpu-bidaf-pytorch
-#FLUX: --queue=m40-long
-#FLUX: --urgency=16
+#SBATCH --job-name=1-gpu-bidaf-pytorch
+#SBATCH --output=bidaf-pytorch-%A.out
+#SBATCH --error=bidaf-pytorch-%A.err
+#SBATCH --mail-user=pyuvraj@cs.umass.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=m40-long
 
 echo $SLURM_JOBID - `hostname` >> ~/slurm-jobs.txt
 module purge

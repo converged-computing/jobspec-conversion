@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fudge-4011
-#FLUX: --queue=regular,long7,long30
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-car-4512
+#FLUX --queue=regular,long7,long30
+#FLUX --urgency=16
 
 echo "Workstation is ${HOSTNAME}, partition is ${SLURM_JOB_PARTITION}."
 WORKDIR=/workdir/$USER/${SLURM_ARRAY_JOB_ID}-${SLURM_ARRAY_TASK_ID}

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=0nubb
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=0nubb
+#SBATCH --output=/mnt/lustre/scratch/home/usc/ie/gdl/NEXUS/logs/%A_%a.out
+#SBATCH --error=/mnt/lustre/scratch/home/usc/ie/gdl/NEXUS/logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
+#SBATCH --qos=shared_short
 
 FULLSIM=false
 NEVENTS=10

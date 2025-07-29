@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME_quark_init
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=JOBNAME_quark_init
+#FLUX -t=86400
+#FLUX --urgency=16
 
 <GPU1_CONFIG>
 <ENV_LOAD>

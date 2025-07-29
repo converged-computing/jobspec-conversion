@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pbeq_taut1_fwd_01
-#FLUX: -c=2
-#FLUX: --queue=mf_ilg2.3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pbeq_taut1_fwd_01
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=500mb
+#SBATCH --time=01:00:00
+#SBATCH --partition=mf_ilg2.3
+#SBATCH --array=1-250%1
 
 export PATH='$PATH:/beegfs/DATA/mobley/limvt/local/vmd'
 

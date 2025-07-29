@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pUKBB_10
-#FLUX: --queue=skylake
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=pUKBB_10
+#SBATCH --account=CWALLACE-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=skylake
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

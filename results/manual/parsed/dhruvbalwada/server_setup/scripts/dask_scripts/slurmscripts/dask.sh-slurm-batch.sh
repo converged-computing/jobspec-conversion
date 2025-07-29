@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dask_host
-#FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_host
+#SBATCH --account=geo
+#SBATCH --mail-user=jbusecke@princeton.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export XDG_RUNTIME_DIR=''
 

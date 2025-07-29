@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=32
+#FLUX --job-name=eval
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX -t=36000
+#FLUX --urgency=16
 
 MODEL_NAME="Yi-9B"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

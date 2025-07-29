@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NNP-mpi
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: -t=258600
-#FLUX: --urgency=16
+#FLUX --job-name=NNP-mpi
+#FLUX -N=2
+#FLUX -n=56
+#FLUX -t=258600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

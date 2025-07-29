@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=matmul
-#FLUX: -N=4
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=matmul
+#FLUX -N=4
+#FLUX -t=180
+#FLUX --urgency=16
 
 export CC='`which cc`'
 export CXX='`which CC`'

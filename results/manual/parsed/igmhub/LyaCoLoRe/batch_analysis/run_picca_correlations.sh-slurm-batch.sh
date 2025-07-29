@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_make_deltas_v${V_CODE_MAJOR}.${V_CODE_MINOR}
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=run_make_deltas_v${V_CODE_MAJOR}.${V_CODE_MINOR}
+#SBATCH --account=desi
+#SBATCH --output=${OUTDIRNAME}/run-make-deltas-%j.out
+#SBATCH --error=${OUTDIRNAME}/run-make-deltas-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='64'
 

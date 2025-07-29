@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bash
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=bash
+#SBATCH --output=./jobs/train_ranker/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a100
+#SBATCH --qos=a100_wenhuchen
 
 module load cuda-11.8
 nvidia-smi

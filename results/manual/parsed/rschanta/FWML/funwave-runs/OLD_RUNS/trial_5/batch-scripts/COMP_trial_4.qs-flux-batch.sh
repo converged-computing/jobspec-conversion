@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=COMP_trial_4
-#FLUX: --queue=thsu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=COMP_trial_4
+#FLUX --queue=thsu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 . /work/thsu/rschanta/RTS/functions/utility/bash-utils.sh
 vpkg_require matlab

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-knife-0590
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-fork-3163
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load openmpi/gcc/64/4.0.2
 module load julia/1.7.3

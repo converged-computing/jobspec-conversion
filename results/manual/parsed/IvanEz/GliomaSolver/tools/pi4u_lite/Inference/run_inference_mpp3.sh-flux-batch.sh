@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PI
-#FLUX: -N=8
-#FLUX: -n=512
-#FLUX: --queue=mpp3_batch
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=PI
+#FLUX -N=8
+#FLUX -n=512
+#FLUX --queue=mpp3_batch
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export LANG='C'
 export LC_ALL='C'

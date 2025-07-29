@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=my_pfn
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=my_pfn
+#SBATCH --account=higgsgpu
+#SBATCH --output=/hpcfs/cepc/higgsgpu/wuzuofei/My_Net/ParticleFlowNetwork/output/my_log/PFN_gputest.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem-per-cpu=4096
+#SBATCH --partition=gpu
+#SBATCH --qos=debug
 
  ulimit -d unlimited
  ulimit -f unlimited

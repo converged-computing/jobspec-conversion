@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amr_alm
-#FLUX: -N=114
-#FLUX: -t=54900
-#FLUX: --urgency=16
+#SBATCH --job-name=amr_alm
+#SBATCH --account=hfm
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=114
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:15:00
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=multitask.example
-#FLUX: -n=5
-#FLUX: --queue=serial_requeue
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=multitask.example
+#FLUX -n=5
+#FLUX --queue=serial_requeue
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge > /dev/null 2>&1
 module load gcc/7.1.0-fasrc01 R/3.5.0-fasrc01

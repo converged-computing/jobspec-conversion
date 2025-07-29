@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-car-0702
-#FLUX: -c=40
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-adagher
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=0
+#SBATCH --time=7-00:00:00
 
 export NXF_CLUSTER_SEED='$(shuf -i 0-16777216 -n 1)'
 

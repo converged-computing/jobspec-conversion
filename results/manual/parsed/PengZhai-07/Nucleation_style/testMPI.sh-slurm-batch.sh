@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test_MPI
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=test_MPI
+#SBATCH --account=yiheh1
+#SBATCH --output=log/%x-%a.log
+#SBATCH --error=log/error-%x-%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=5gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=20
 
 export MPIRUN_OPTIONS='--bind-to core --map-by node:PE=${SLURM_CPUS_PER_TASK} -report-bindings'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

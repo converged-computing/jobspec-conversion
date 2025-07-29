@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pastry-9358
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-kmj477
+#SBATCH --mail-user=thorstem@myumanitoba.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80000M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-48
 
 module load nixpkgs/16.09 intel/2018.3
 module load gatk/4.0.8.1

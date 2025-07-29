@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-mango-1939
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --output=${PWD}/snakemake.%j.out
+#SBATCH --error=${PWD}/snakemake.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=8-08:00:00
 
 export TMPDIR='TMP'
 

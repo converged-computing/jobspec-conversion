@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pancake-9842
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --account=ajoshi_27
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=23:00:00
+#SBATCH --partition=gpu
 
 eval "$(conda shell.bash hook)"
 cd /scratch1/ajoshi/projects/macbse

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pedo-0237
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/phil-hawkins/text_objseg/build_training_batches_seg.sh

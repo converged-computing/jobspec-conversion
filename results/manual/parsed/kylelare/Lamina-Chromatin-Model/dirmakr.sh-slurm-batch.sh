@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chromatin
-#FLUX: -n=8
-#FLUX: --queue=
-#FLUX: -t=86100
-#FLUX: --urgency=16
+#SBATCH --job-name=chromatin
+#SBATCH --account=
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2GB
+#SBATCH --time=23:55:00
+#SBATCH --partition=
+#SBATCH --constraint=opath
 
 export OMP_NUM_THREADS='1'
 

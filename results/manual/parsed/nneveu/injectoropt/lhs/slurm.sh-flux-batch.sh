@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=shared
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=shared
+#FLUX -t=2400
+#FLUX --urgency=16
 
 export PYTHONPATH='/gpfs/slac/staas/fs1/g/accelerator_modeling/nneveu/software/distgen/:$PYTHONPATH'
 export PATH='/gpfs/slac/staas/fs1/g/accelerator_modeling/nneveu/software/OPAL/opal_mpich/bin/:$PATH'

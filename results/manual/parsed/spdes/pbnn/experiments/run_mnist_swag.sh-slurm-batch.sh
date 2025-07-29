@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-nunchucks-1427
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=Berzelius-2023-194
+#SBATCH --output=./logs/mnist_swag_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=fat
+#SBATCH --array=0-9
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

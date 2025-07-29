@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cat-2922
-#FLUX: --urgency=16
+#FLUX --job-name=purple-car-9975
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tiffbogich/Japan-hfmd-ev71-ca16/model-files/hfmd_siqri_hbrs/model/results/lhs_simplex/design.sh

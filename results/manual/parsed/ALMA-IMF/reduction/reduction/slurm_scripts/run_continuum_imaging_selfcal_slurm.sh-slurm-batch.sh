@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cat-5945
-#FLUX: -n=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=adamginsburg
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export ALMAIMF_ROOTDIR='/orange/adamginsburg/ALMA_IMF/reduction/reduction'
 export CASA='/orange/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'

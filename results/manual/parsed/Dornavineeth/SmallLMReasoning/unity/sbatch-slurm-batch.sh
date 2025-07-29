@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=phi-2
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=phi-2
+#SBATCH --account=pi_dhruveshpate_umass_edu
+#SBATCH --output=unity/logs/phi-2.txt
+#SBATCH --error=unity/logs/phi-2.err
+#SBATCH --mail-user=vdorna@umass.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load miniconda/22.11.1-1
 conda activate harness

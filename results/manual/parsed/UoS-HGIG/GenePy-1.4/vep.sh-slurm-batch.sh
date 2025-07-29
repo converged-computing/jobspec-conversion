@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lamp-1537
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 module load ensembl-vep

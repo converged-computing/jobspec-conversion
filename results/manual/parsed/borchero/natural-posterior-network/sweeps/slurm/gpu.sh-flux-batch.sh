@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-cupcake-9452
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-muffin-1007
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo Starting job ${SLURM_JOBID}
 echo SLURM assigned me these nodes:

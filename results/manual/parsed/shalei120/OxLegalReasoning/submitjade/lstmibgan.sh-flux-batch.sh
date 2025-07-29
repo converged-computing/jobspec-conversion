@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=LegalReasoning
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#FLUX --job-name=LegalReasoning
+#FLUX --queue=small
+#FLUX --urgency=16
 
 module load cuda/9.2
 echo $PWD

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Profile PyTorch
-#FLUX: --queue=alvis
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Profile PyTorch
+#SBATCH --account=NAISS2024-22-219
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=alvis
 
 module purge
 module load PyTorch-bundle/1.12.1-foss-2022a-CUDA-11.7.0

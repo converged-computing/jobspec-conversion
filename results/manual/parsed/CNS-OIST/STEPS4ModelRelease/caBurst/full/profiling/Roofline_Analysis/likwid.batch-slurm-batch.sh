@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-staircase-5768
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=clx
 
 export PYTHONPATH='$STEPS_INSTALL_DIR:$PYTHONPATH'
 export STEPS_INSTRUMENTOR_MPI_BARRIER='before;after'

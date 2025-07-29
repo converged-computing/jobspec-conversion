@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-pancake-6594
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-general-1218
+#FLUX -t=3600
+#FLUX --urgency=16
 
 workdir=$(pwd)
 echo $workdir

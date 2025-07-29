@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=4g_lstm_low_batch
-#FLUX: -t=342000
-#FLUX: --urgency=16
+#SBATCH --job-name=4g_lstm_low_batch
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=48G
+#SBATCH --time=3-23:00:00
+#SBATCH --constraint=rtx_8000
 
 if [ -f "model-final" ] || [ -d "model-final" ]
 then

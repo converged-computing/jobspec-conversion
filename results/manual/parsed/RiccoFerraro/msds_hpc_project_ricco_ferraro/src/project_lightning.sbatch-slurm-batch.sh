@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-toaster-6564
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --queue=gpgpu-1
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --partition=gpgpu-1
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

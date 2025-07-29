@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_task
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=sweep_task
+#FLUX -t=43200
+#FLUX --urgency=16
 
 rnn_type_array=("LeakyRNN")
 activation_array=("softplus")

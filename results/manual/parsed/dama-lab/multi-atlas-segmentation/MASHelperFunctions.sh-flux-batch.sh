@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-dog-5359
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-poo-7191
+#FLUX --urgency=16
 
 source $HOME/.bashrc
 mas_script_path="$BASH_SOURCE"

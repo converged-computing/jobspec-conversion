@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=main_best_hier
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=main_best_hier
+#SBATCH --output=logs/slurm_%j.log
+#SBATCH --error=logs/slurm_%j.log
+#SBATCH --mail-user=bsantraigi@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6000
+#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-train-8215
-#FLUX: -n=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-fudge-4082
+#FLUX -n=3
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -e
 eval "$(conda shell.bash hook)"

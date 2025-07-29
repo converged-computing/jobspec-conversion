@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py-import-cori-haswell-shifter-150
-#FLUX: -N=150
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=mpi4py-import-cori-haswell-shifter-150
+#FLUX -N=150
+#FLUX --queue=regular
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

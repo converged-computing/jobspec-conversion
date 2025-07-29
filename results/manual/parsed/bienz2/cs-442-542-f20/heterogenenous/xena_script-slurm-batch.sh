@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hw6
-#FLUX: -N=2
-#FLUX: --queue=dualGPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=hw6
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=01:00:00
+#SBATCH --partition=dualGPU
+#SBATCH --constraint=ntasks-per-node=8
 
 source ~/.bashrc
 module load cuda

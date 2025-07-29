@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval-srl
-#FLUX: -c=8
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=eval-srl
+#SBATCH --output=./logs/%j-eval.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128000MB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=amd_a100nv_8
 
 export OMP_NUM_THREADS='1      '
 

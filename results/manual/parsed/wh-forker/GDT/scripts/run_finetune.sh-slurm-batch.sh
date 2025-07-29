@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-mango-6021
-#FLUX: -c=10
-#FLUX: --queue=learnfair
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --output=/checkpoint/%u/jobs/%j.out
+#SBATCH --error=/checkpoint/%u/jobs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=450GB
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=learnfair
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

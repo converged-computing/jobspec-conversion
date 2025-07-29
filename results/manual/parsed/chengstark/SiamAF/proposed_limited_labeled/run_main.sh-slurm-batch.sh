@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-itch-0307
-#FLUX: --queue=overflow
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --output=/home/zguo30/ppg_ecg_proj/proposed_limited_labeled/slurm_outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=230G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=overflow
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

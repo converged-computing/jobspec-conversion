@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-2965
-#FLUX: -c=20
-#FLUX: -t=480000
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/score_models_%A_%a.out
+#SBATCH --error=slurm_logs/score_models_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:QUADRORTX6000:1
+#SBATCH --mem=40g
+#SBATCH --time=5-13:20:00
+#SBATCH --array=0-6
 
 export HOME='/om2/user/dapello/'
 

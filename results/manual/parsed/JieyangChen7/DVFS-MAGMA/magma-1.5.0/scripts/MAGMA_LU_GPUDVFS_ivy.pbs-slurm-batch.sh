@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chair-0165
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/JieyangChen7/DVFS-MAGMA/magma-1.5.0/scripts/MAGMA_LU_GPUDVFS_ivy.pbs

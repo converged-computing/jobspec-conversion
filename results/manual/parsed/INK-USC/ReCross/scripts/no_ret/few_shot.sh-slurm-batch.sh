@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=few_shot_only
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=few_shot_only
+#SBATCH --output=jobs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --qos=general-8000
 
 EARLY_STOPPING=True
 TASKS_IN=$1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-squidward-2494
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lizard-0514
+#FLUX -t=43200
+#FLUX --urgency=16
 
 BASE="/bask/projects/x/xngs6460-languages/gnail/enfr"
 . ${BASE}/software/env.sh

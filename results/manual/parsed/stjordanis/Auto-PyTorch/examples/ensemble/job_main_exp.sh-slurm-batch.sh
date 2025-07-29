@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=apt_test
-#FLUX: -c=2
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=172860
-#FLUX: --urgency=16
+#SBATCH --job-name=apt_test
+#SBATCH --output=logs/cluster/%x.%N.%j.out
+#SBATCH --error=logs/cluster/%x.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=2-00:01:00
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --array=1-3
 
 export PYTHONPATH='$PWD'
 

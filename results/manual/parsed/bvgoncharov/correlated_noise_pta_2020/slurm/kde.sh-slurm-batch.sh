@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=kde_ppta
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=kde_ppta
+#SBATCH --output=/fred/oz002/bgoncharov/correlated_noise_logs/ppta_kde_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:12:00
+#SBATCH --array=0
 
 pyv="$(python -c 'import sys; print(sys.version_info[0])')"
 if [ "$pyv" == 2 ]

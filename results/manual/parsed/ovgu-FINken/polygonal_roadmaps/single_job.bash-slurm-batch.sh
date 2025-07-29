@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-house-8430
-#FLUX: --queue=ci
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=logs/slurm.out
+#SBATCH --error=logs/slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4Gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=ci
 
 SCENARIO=$1
 N_AGENTS=$2

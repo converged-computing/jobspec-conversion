@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-malarkey-5886
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-gato-0235
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

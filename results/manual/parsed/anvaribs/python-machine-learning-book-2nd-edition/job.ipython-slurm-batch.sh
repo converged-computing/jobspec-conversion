@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_ipython
-#FLUX: -n=20
-#FLUX: --queue=vis
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=tvp_ipython
+#SBATCH --account=cs395t_f17
+#SBATCH --output=ipython.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=vis
 
 echo job $JOB_ID execution at: `date`
 NODE_HOSTNAME=`hostname -s`

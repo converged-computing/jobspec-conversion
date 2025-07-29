@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SegFormer_B5_synthia-train-split_base_train_a
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=SegFormer_B5_synthia-train-split_base_train_a
+#FLUX -c=2
+#FLUX --queue=gpu,gpub
+#FLUX -t=604800
+#FLUX --urgency=16
 
 max_iters=40000
 main_config="./local_configs/segformer/B5/segformer.b5.512x512.gta2cs.40k.batch2.py"

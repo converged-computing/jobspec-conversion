@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-6077
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-parrot-9751
+#FLUX --urgency=16
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=md1
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=3090
-#FLUX: --urgency=16
+#SBATCH --job-name=md1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=3090
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='/data/home/wuxingxing/codespace/lammps_nep/src:$PATH'
 export PYTHONPATH='/data/home/wuxingxing/codespace/PWMLFF_nep/src/:$PYTHONPATH'

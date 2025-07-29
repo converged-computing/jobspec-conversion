@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GEN_debug
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=GEN_debug
+#SBATCH --output=./debug/slurm_logs/GEN_out.out
+#SBATCH --error=./debug/slurm_logs/GEN_err.out
+#SBATCH --mail-user=rschanta@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

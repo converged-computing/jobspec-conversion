@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hobbit-7661
-#FLUX: -c=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-punk-7231
+#FLUX -c=32
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo -e "\n\nBuilding and running Babelstream..."
 ./BabelStream_build_script.sh

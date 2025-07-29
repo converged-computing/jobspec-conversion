@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-arm-9718
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --queue=regular
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=01:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=8
 
 DASK=$HOME/scheduler.json
 rm -f $DASK

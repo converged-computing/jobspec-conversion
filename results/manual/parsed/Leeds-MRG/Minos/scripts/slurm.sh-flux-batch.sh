@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_minos_job
-#FLUX: -c=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=parallel_minos_job
+#FLUX -c=2
+#FLUX -t=900
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "Running Minos task $SLURM_JOBID on $SLURM_CPUS_ON_NODE CPU cores"

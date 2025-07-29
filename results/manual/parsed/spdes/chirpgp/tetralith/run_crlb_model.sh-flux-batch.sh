@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chair-4593
-#FLUX: -n=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-avocado-9333
+#FLUX -n=20
+#FLUX -t=3600
+#FLUX --urgency=16
 
 lam=$1
 b=$2

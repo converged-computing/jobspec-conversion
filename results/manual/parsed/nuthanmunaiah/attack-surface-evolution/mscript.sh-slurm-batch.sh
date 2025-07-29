@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ase-mscript
-#FLUX: --queue=work
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ase-mscript
+#SBATCH --output=slurm/mscript.slurm.%a.out
+#SBATCH --error=slurm/mscript.slurm.%a.err
+#SBATCH --mail-user=nm6061@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024
+#SBATCH --time=01:00:00
+#SBATCH --partition=work
+#SBATCH --qos=free
 
 export LD_LIBRARY_PATH='$HOME/lib:$HOME/lib64'
 export PKG_CONFIG_PATH='$HOME/lib/pkgconfig:$HOME/lib64/pkgconfig'

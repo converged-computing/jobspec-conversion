@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=c5n-intel-lj
-#FLUX: -n=1152
-#FLUX: --queue=c5n-od
-#FLUX: --urgency=16
+#FLUX --job-name=c5n-intel-lj
+#FLUX -n=1152
+#FLUX --queue=c5n-od
+#FLUX --urgency=16
 
 export I_MPI_OFI_LIBRARY_INTERNAL='0'
 export I_MPI_OFI_PROVIDER='efa'

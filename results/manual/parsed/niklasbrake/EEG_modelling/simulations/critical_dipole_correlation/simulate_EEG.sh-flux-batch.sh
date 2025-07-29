@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-2242
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-fork-8275
+#FLUX -t=108000
+#FLUX --urgency=16
 
 folder=$1
 S=$2

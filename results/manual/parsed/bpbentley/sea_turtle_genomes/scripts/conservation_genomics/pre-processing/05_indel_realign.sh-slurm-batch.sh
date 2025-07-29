@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lamp-0349
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpbentley/sea_turtle_genomes/scripts/conservation_genomics/pre-processing/05_indel_realign.sh

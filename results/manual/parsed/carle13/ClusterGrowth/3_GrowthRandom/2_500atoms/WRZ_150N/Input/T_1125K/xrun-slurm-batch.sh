@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-omelette-6818
-#FLUX: -n=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=nyu@cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=40
 
 module purge
 module load lammps/20210929-mpi

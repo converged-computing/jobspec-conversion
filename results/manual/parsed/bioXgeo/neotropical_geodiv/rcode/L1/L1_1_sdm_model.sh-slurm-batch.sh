@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lettuce-9001
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=joboutput/%x-%a-output-%j.txt
+#SBATCH --error=joboutput/%x-%a-error-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32gb
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=1,[intel16|intel18|amd20|amd22]
+#SBATCH --array=1-3
 
 export RVER='4.2.2-GCC-11.2.0'
 export R_LIBS_USER='$HOME/R/$RVER'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pyt_sand3d_train
-#FLUX: --queue=gpu-a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pyt_sand3d_train
+#SBATCH --account=OTH21021
+#SBATCH --output=pyt_sand3d_train.o%j
+#SBATCH --error=pyt_sand3d_train.e%j
+#SBATCH --mail-user=jvantassel@tacc.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-a100
 
 set -e
 cd ..

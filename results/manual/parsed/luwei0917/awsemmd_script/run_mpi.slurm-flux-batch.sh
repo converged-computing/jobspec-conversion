@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CTBP_WL
-#FLUX: -n=2
-#FLUX: --queue=commons
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=CTBP_WL
+#FLUX -n=2
+#FLUX --queue=commons
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "My job ran on:"
 echo $SLURM_NODELIST

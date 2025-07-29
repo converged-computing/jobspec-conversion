@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=RAFT
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=RAFT
+#FLUX -n=4
+#FLUX --urgency=16
 
 module load python/anaconda3
 conda activate raft

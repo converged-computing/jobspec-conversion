@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lentil-6265
-#FLUX: -c=2
+#FLUX --job-name=sticky-staircase-2288
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export HOC_LIBRARY_PATH='$BASE_DIR/channels/lib/hoclib'
 export PYTHONPATH='$INSTALL_DIR/NRN/lib/python:$PYTHONPATH'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=ImageNet
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
 
 source ~/.bashrc
 source $PREAMBLE

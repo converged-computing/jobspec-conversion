@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpu01
-#FLUX: -n=4
-#FLUX: --queue=nssc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cpu01
+#FLUX -n=4
+#FLUX --queue=nssc
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load pmi/pmix-x86_64     # [P]rocess [M]anagement [I]nterface (required by MPI-Implementation)
 module load mpi/openmpi-x86_64  # MPI implementation (including compiler-wrappers mpicc/mpic++)

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cherry-8848
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=20480
+#SBATCH --time=03:00:00
+#SBATCH --partition=general
+#SBATCH --qos=medium
 
 /usr/bin/nvidia-smi -L
 /usr/bin/scontrol show job -d "$SLURM_JOB_ID"

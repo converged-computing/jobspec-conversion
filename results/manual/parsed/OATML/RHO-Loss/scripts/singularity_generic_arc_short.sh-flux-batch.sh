@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lentil-4036
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-cattywampus-6850
+#FLUX -c=4
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -e # fail fully on first line failure
 echo "Running on $(hostname)"

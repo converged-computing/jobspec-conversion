@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-9495
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-underoos-7485
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 PREDICT=false
 TRACK=false

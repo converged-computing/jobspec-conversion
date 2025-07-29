@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-butter-2323
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-frito-0536
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/ecf_dev/generate_LSF.sh

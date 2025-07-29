@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hobbit-3559
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=red-signal-9608
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_test
-#FLUX: -N=2
-#FLUX: --queue=main
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_test
+#FLUX -N=2
+#FLUX --queue=main
+#FLUX -t=300
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cray/pe/lib64:/usr/lib64:$LD_LIBRARY_PATH'
 export SINGULARITYENV_LD_LIBRARY_PATH='$LD_LIBRARY_PATH'

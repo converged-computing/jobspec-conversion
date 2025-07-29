@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CA1
-#FLUX: -n=60
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=CA1
+#SBATCH --output=CA1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=60
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:12:00
+#SBATCH --qos=normal
 
 START=$(date)
 mpiexec nrniv -mpi -quiet -python run_network.py simulation_config.json

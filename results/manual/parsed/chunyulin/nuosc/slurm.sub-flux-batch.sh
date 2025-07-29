@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nuosc
-#FLUX: -c=4
-#FLUX: --queue=gtest
-#FLUX: --urgency=16
+#FLUX --job-name=nuosc
+#FLUX -c=4
+#FLUX --queue=gtest
+#FLUX --urgency=16
 
 module purge
 module load nvhpc/21.7

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=transformer-xl
-#FLUX: -c=40
-#FLUX: --queue=akya-cuda
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=transformer-xl
+#SBATCH --account=umutlu
+#SBATCH --output=transformer-%j.out
+#SBATCH --mail-user=urasmutlu@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=akya-cuda
 
 module load /truba/home/umutlu/cuda_9.0_module
 srun bash run_papers_base.sh train --work_dir experiments

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=npTranscript
-#FLUX: -c=8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=npTranscript
+#SBATCH --output=corona1.stdout
+#SBATCH --error=corona1.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=31800
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export JSA_MEM='30000m'
 export coord_file='$(pwd)"/gencode.v28.annotation.gff3.gz'

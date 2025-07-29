@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parrot-2088
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-carrot-2560
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export HF_HOME='/scratch/fhoels2s/huggingface'
 export MASTER_ADDR='localhost'

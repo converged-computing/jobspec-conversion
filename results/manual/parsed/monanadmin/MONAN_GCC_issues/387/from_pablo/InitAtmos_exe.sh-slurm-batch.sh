@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ic_mpas
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ic_mpas
+#SBATCH --output=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_ic.o%j
+#SBATCH --error=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_ic.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 export OMP_NUM_THREADS='1'
 export PMIX_MCA_gds='hash'

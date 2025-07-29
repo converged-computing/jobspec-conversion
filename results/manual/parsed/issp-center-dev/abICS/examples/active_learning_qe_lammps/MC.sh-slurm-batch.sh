@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cherry-9326
-#FLUX: -n=8
-#FLUX: --queue=i8cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=i8cpu
 
 srun -n 8 abics_sampling input.toml >> abics_sampling.out
 echo Done

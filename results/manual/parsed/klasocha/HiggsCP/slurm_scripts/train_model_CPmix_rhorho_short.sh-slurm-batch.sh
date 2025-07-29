@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TrainTauVertexRHORHO
-#FLUX: --queue=plgrid
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainTauVertexRHORHO
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=16:00:00
+#SBATCH --partition=plgrid
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-0
 
 export PYTHONPATH='$ANACONDA_PYTHON_PATH'
 

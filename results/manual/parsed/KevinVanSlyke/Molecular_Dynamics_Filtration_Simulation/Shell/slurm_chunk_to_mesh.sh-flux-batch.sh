@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-earthworm-5533
-#FLUX: --queue=general-compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-fork-9297
+#FLUX --queue=general-compute
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HOME='$SLURMTMPDIR'
 export TMP='$SLURMTMPDIR'

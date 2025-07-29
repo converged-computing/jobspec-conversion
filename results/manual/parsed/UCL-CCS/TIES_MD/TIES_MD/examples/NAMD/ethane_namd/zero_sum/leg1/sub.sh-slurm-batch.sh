@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LIGPAIR
-#FLUX: -N=4
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=LIGPAIR
+#SBATCH --account=XXX
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 module load namd/2.14-nosmp
 nodes_per_namd=1

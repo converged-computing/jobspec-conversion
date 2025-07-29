@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=${nbname}
-#FLUX: -n=16
-#FLUX: --queue=dav
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=${nbname}
+#SBATCH --account=P93300606
+#SBATCH --output=logs/${nbname}.out.%J
+#SBATCH --error=logs/${nbname}.err.%J
+#SBATCH --mail-user=${USER}@ucar.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=06:00:00
+#SBATCH --partition=dav
+#SBATCH --constraint=ntasks-per-node=16
 
 usage () {
   echo "$0 NOTEBOOK [NOTEBOOK2 ... NOTEBOOKN]"

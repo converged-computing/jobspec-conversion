@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PMDA_BM
-#FLUX: --queue=compute
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=PMDA_BM
+#FLUX --queue=compute
+#FLUX -t=28800
+#FLUX --urgency=16
 
 bash /home/sfan19/.bashrc
 echo $SLURM_JOB_ID

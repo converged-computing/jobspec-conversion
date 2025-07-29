@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-motorcycle-8167
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:02:00
+#SBATCH --array=1-2
 
 dataset=delicious
 cuda_on=$true

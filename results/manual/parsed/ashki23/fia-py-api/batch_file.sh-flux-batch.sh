@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=API_Runner
-#FLUX: --urgency=16
+#FLUX --job-name=API_Runner
+#FLUX --urgency=16
 
 echo ============ Local environments ============ $(hostname) $(date)
 source environment.sh

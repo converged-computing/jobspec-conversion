@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-lab
-#FLUX: -c=2
-#FLUX: --queue=accel_ai
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-lab
+#SBATCH --account=scw1901
+#SBATCH --output=$(pwd)/output.txt
+#SBATCH --error=$(pwd)/error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --time=05:00:00
+#SBATCH --partition=accel_ai
 
 port=8888
 node=$(hostname -s)

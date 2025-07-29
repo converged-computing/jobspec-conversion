@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-plant-8295
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
 
 module add freesurfer
 module add fsl

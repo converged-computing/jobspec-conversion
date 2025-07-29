@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-general-6964
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=red-noodle-9097
+#FLUX -n=2
+#FLUX --queue=batch
+#FLUX -t=172800
+#FLUX --urgency=16
 
 CORES=12
 module load FastQC/0.11.7

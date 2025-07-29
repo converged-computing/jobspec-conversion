@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=emb_nd_5
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=emb_nd_5
+#SBATCH --output=/homedtic/rgong/phoneEmbeddingModelsTraining/out/emb_siamese_nd_5.%N.%J.%u.out
+#SBATCH --error=/homedtic/rgong/phoneEmbeddingModelsTraining/out/emb_siamese_nd_5.%N.%J.%u.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/rgong/phoneEmbeddingModelsTraining
+#SBATCH --nodelist=node021
 
 export PATH='/homedtic/rgong/anaconda2/bin:$PATH'
 

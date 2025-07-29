@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chair-3139
-#FLUX: -c=4
-#FLUX: -t=9600
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/logs/r2/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=210G
+#SBATCH --time=02:40:00
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

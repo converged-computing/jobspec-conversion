@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eady
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=eady
+#SBATCH --output=slurm-eady-%j.out
+#SBATCH --error=slurm-eady-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge > /dev/null 2>&1
 module load spack/0.1

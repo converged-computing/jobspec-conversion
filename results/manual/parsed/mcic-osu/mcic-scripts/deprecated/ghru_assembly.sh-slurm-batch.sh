@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ghru_assembly
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ghru_assembly
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-ghru_assembly-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=05:00:00
 
 export TOOL_NAME='nextflow'
 

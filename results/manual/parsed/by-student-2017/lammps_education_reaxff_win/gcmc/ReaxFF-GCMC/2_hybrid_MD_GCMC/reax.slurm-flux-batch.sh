@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -n=24
-#FLUX: --queue=scavenge
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=hybrid
+#FLUX -n=24
+#FLUX --queue=scavenge
+#FLUX -t=1200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module purge

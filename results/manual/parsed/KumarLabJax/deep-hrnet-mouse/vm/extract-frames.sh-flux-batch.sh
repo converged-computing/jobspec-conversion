@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=extract-frames
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=extract-frames
+#FLUX -c=4
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PATH='/opt/singularity/bin:${PATH}'
 

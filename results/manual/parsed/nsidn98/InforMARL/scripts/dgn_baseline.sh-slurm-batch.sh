@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dgn
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=dgn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --array=0-7
 
 source /etc/profile
 module load anaconda/2022b

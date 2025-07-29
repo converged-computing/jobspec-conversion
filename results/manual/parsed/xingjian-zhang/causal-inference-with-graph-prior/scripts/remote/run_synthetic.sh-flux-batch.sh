@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=syn_causal_graph
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=syn_causal_graph
+#FLUX --queue=standard
+#FLUX -t=1200
+#FLUX --urgency=16
 
 PYTHON=/home/jimmyzxj/miniconda3/envs/causal_graph_prior/bin/python3
 RANDOM_SEED=${SLURM_ARRAY_TASK_ID}

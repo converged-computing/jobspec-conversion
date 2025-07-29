@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eval-mn5
-#FLUX: -c=80
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=eval-mn5
+#SBATCH --account=bsc70
+#SBATCH --output=slurm_output/err.txt
+#SBATCH --error=slurm_output/out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:4
+#SBATCH --time=02:00:00
+#SBATCH --qos=acc_bsccs
 
 MODEL_NAME="c4ai-command-r-v01"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

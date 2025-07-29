@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=list06
-#FLUX: --exclusive
-#FLUX: --queue=cpu_dev
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=list06
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=cpu_dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

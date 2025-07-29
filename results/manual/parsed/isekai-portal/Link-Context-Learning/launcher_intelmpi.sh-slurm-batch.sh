@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=unify_mm_v100
-#FLUX: -N=8
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: --queue=mm_v100_32g
-#FLUX: --urgency=16
+#SBATCH --job-name=unify_mm_v100
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --partition=mm_v100_32g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

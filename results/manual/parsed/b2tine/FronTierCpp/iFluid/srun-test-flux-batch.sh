@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -n=2
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_job_test
+#FLUX -n=2
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/petsc/petsc-3.13.4-dbg/lib:/usr/lib64:$LD_LIBRARY_PATH'
 

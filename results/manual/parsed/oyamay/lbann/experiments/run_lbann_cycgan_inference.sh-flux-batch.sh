@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lentil-6640
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-onion-7078
+#FLUX --urgency=16
 
 EXPERIMENT=$1
 EXPERIMENT_NAME=lbann_cycgan_jag_inference

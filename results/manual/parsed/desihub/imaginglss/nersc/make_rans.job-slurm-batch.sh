@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=make_rans
-#FLUX: -n=512
-#FLUX: --queue=debug
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=make_rans
+#SBATCH --account=desi
+#SBATCH --output=make_rans.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:29:00
+#SBATCH --partition=debug
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

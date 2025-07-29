@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bt
-#FLUX: -c=12
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=bt
+#FLUX -c=12
+#FLUX -t=216000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(hostname -s)  # Store the master node’s IP address in the MASTER_ADDR environment variable.'

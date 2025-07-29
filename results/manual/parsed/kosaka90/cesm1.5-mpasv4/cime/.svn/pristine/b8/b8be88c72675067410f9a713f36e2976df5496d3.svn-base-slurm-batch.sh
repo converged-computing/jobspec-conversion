@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-onion-7903
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/kosaka90/cesm1.5-mpasv4/cime/.svn/pristine/b8/b8be88c72675067410f9a713f36e2976df5496d3.svn-base

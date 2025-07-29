@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-gato-1463
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/FluidityProject/buildscripts/uk/ac/archer/top_hat.pbs

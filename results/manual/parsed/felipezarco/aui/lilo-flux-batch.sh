@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lamp-9308
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-motorcycle-9309
+#FLUX --urgency=16
 

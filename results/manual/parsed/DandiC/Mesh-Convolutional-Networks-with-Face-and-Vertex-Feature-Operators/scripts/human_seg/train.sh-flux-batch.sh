@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=HSeg_original
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=HSeg_original
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 enable_lmod
 module load python/3.6

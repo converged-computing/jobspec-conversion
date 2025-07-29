@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=MPI_JOB
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=MPI_JOB
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/projects/nesi00119/code/JWR_petsc/petsc-3.5.4/linux-intel/lib:$LD_LIBRARY_PATH'
 

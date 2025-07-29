@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=featureCounts
-#FLUX: --queue=standard
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#FLUX --job-name=featureCounts
+#FLUX --queue=standard
+#FLUX -t=691200
+#FLUX --urgency=16
 
 echo $SLURM_JOB_NODELIST
 if [ -n "$SLURM_SUBMIT_DIR" ]; then cd $SLURM_SUBMIT_DIR; fi

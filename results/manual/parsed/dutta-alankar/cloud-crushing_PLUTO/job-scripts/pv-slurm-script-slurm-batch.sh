@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=paraview
-#FLUX: -n=48
-#FLUX: --queue=debug
-#FLUX: -t=244800
-#FLUX: --urgency=16
+#SBATCH --job-name=paraview
+#SBATCH --output=%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-20:00:00
+#SBATCH --partition=debug
 
 export PROG='pvserver --force-offscreen-rendering'
 

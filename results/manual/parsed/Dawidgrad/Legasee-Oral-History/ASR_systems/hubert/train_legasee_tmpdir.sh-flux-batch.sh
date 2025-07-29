@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-motorcycle-0478
-#FLUX: --queue=dcs-gpu
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=milky-lemon-5852
+#FLUX --queue=dcs-gpu
+#FLUX -t=288000
+#FLUX --urgency=16
 
 export CXX='g++'
 

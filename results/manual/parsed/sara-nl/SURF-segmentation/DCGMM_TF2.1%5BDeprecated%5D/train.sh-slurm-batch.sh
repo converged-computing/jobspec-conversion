@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-squidward-1381
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_titanrtx
 
 module purge
 module load 2020

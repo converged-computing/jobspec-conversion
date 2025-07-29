@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-eagle-0845
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-animal-9159
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/avg_pixel_intensity.sh

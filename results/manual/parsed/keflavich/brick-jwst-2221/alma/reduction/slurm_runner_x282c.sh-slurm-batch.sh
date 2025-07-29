@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cloudc00363_282c
-#FLUX: -n=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cloudc00363_282c
+#SBATCH --account=adamginsburg
+#SBATCH --output=/blue/adamginsburg/adamginsburg/brick_logs/cloudc00363_282c_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=512gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export CASA='${CASAPATH}/bin/casa'
 export CASAPATH='/orange/adamginsburg/casa/${CASAVERSION}'

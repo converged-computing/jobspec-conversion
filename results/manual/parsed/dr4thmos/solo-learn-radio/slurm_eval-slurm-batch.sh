@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-poo-0625
-#FLUX: -c=16
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=IscrC_RaConSSL
+#SBATCH --output=eval_%j.out
+#SBATCH --error=eval_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$master_addr'
 export WORLD_SIZE='$((GPUS_PER_NODE * SLURM_NNODES))'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-kitty-4512
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=C:/Users/thiba/OneDrive/Bureau/emg1
 
 slmodules -s x86_E5v2_Mellanox_GPU
 module load gcc cuda cudnn mvapich2 openblas

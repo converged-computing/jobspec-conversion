@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export HF_HOME='~/scratch/.cache/huggingface'
 export TOKENIZERS_PARALLELISM='false'

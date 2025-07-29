@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_spread
-#FLUX: -N=24
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=test_spread
+#FLUX -N=24
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

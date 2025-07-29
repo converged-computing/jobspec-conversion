@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kerfuffle-7404
-#FLUX: -c=4
-#FLUX: --queue=edu-20h
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1024M
+#SBATCH --time=00:20:00
+#SBATCH --partition=edu-20h
 
 module load cuda/12.1
 source /home/davide.cavicchini/.bashrc

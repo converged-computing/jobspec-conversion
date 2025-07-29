@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_Run5_28
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN_Run5_28
+#SBATCH --output=./Run5_28/slurm_logs/RUN_out_%a.out
+#SBATCH --error=./Run5_28/slurm_logs/RUN_err_%a.out
+#SBATCH --mail-user=rschanta@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-4
+#SBATCH --dependency=27679660
 
 		## Load in bash functions and VALET packages
 			. "/work/thsu/rschanta/RTS/functions/bash-utility/get_bash.sh"

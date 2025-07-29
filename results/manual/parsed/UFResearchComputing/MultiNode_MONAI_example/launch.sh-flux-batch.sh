@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=multinode_pytorch
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=multinode_pytorch
+#FLUX -N=2
+#FLUX -n=16
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=hpg-ai
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

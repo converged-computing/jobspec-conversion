@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=automate_ablations
-#FLUX: --queue=long
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=automate_ablations
+#SBATCH --output=sbatch_out/automate_ablations.%A.%a.out
+#SBATCH --error=sbatch_err/automate_ablations.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128Gb
+#SBATCH --time=00:50:00
+#SBATCH --partition=long
+#SBATCH --array=0-9
 
 module load anaconda/3
 module load cuda/11.7

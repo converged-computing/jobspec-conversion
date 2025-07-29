@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purecn
-#FLUX: --queue=priority
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=purecn
+#FLUX --queue=priority
+#FLUX -t=36000
+#FLUX --urgency=16
 
 date
 . .profile

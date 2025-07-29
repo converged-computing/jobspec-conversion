@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lemur-2621
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
+#SBATCH --partition=priority
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 minimum=10

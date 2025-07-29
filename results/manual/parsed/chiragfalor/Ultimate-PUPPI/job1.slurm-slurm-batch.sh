@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=sluma_4GPUs
-#FLUX: --exclusive
-#FLUX: --queue=sched_system_all_8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sluma_4GPUs
+#SBATCH --output=sluma_4GPUs_%j.out
+#SBATCH --error=sluma_4GPUs_%j.err
+#SBATCH --mail-user=cfalor@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=sched_system_all_8
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export NODELIST='nodelist.$'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-punk-8747
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/submit_multi_test.lsf

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-0775
-#FLUX: --urgency=16
+#FLUX --job-name=fat-squidward-9061
+#FLUX --urgency=16
 
 OUTPUT=../output1
 derepout= ../derep_out

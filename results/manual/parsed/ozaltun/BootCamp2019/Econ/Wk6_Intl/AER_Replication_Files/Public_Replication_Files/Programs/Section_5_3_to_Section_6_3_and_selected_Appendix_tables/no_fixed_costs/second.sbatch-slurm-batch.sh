@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=second
-#FLUX: -c=12
-#FLUX: --queue=sandyb
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=second
+#SBATCH --output=second_%A.out
+#SBATCH --error=second_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=sandyb
+#SBATCH --constraint=ib
 
 module load matlab/2013b
 mkdir -p /tmp/tintelnot/$SLURM_JOB_ID

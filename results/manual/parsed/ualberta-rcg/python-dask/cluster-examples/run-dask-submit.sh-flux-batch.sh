@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cherry-1347
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-punk-7084
+#FLUX -t=900
+#FLUX --urgency=16
 
 export NUM_WORKERS='8'
 export THREADS_PER_WORKER='1'

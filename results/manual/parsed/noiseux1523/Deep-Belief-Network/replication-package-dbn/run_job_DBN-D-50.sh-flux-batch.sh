@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bicycle-6973
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-avocado-1603
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/noiseux1523/Deep-Belief-Network/replication-package-dbn/run_job_DBN-D-50.sh

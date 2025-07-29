@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test.hip
-#FLUX: --queue=eap
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test.hip
+#SBATCH --account=project_465000485
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=eap
+#SBATCH --constraint=ntasks-per-node=1
 
 module load CrayEnv
 module load PrgEnv-cray

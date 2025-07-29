@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-9501
-#FLUX: -N=5
-#FLUX: --queue=a100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=a100
 
 export PYTHONNOUSERSITE='true'
 export MV2_HOME='/home/gulhane.2/mvapich2-installation/nvidia/gdr2.3.7_cuda11.6_gcc10.3.0'

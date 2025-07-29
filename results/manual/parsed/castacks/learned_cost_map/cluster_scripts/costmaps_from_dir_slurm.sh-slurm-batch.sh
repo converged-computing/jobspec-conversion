@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=costmaps_from_dir
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=costmaps_from_dir
+#SBATCH --output=/home/mguamanc/job_%j.out
+#SBATCH --error=/home/mguamanc/job_%j.err
+#SBATCH --mail-user=mguamanc@andrew.cmu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=65536
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=roberto
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

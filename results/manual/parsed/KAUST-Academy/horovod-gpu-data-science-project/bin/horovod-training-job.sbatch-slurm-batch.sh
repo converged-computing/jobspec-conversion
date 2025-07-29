@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=confused-spoon-8428
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=../results/%x/slurm-%j.out
+#SBATCH --error=../results/%x/slurm-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=2,gpu_ai
 
 export NCCL_DEBUG='INFO'
 

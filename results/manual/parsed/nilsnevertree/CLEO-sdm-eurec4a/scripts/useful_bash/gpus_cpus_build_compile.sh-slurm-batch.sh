@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=buildgpu
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=buildgpu
+#SBATCH --account=mh1126
+#SBATCH --output=./build/bin/buildgpu_out.%j.out
+#SBATCH --error=./build/bin/buildgpu_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=30G
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=128
 
 module load gcc/11.2.0-gcc-11.2.0
 module load nvhpc/23.9-gcc-11.2.0

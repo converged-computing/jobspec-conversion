@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nequip
-#FLUX: -n=2
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=nequip
+#FLUX -n=2
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

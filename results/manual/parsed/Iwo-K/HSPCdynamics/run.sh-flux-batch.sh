@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test3
-#FLUX: -n=40
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=test3
+#FLUX -n=40
+#FLUX --queue=icelake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 container="PATH TO THE CONTAINER"
 container="/home/idk25/ik_rds/containers/rpy_v4/rpy_v4_p3_fix2.sif"

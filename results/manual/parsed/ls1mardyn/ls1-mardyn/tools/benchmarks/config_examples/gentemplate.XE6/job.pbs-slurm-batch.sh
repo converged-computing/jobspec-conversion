@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-onion-4210
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ls1mardyn/ls1-mardyn/tools/benchmarks/config_examples/gentemplate.XE6/job.pbs

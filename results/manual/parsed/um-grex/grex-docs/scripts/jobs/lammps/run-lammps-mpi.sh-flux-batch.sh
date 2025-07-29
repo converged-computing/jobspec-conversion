@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Lammps-Test
-#FLUX: -n=16
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=Lammps-Test
+#FLUX -n=16
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load intel/2019.5 ompi/3.1.4 lammps/29Sep21
 echo "Starting run at: `date`"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-eagle-4249
+#FLUX --job-name=anxious-knife-5388
 #FLUX: --exclusive
-#FLUX: --queue=spider
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=spider
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SCRATCH='/lus/scratch/jbalma'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

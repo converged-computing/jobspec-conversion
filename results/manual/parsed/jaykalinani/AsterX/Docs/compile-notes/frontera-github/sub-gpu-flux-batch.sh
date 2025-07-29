@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lettuce-1240
-#FLUX: -n=4
-#FLUX: --queue=rtx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-chip-5710
+#FLUX -n=4
+#FLUX --queue=rtx-dev
+#FLUX -t=7200
+#FLUX --urgency=16
 
 ml
 source $SPACK_DIR/share/spack/setup-env.sh

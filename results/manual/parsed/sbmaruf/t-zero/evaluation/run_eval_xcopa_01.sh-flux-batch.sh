@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-itch-1605
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-latke-7891
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

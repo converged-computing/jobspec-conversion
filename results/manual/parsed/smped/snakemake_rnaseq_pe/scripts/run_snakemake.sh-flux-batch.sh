@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemon-8059
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-diablo-4827
+#FLUX -n=8
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 CORES=8
 if [ -d "/hpcfs" ]; then

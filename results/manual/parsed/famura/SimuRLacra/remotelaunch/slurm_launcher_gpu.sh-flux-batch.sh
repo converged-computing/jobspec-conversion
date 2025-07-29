@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=single_run_gpu
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=single_run_gpu
+#FLUX -c=8
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "Starting Job $SLURM_JOB_ID, Array Job $SLURM_ARRAY_JOB_ID Index $SLURM_ARRAY_TASK_ID"
 eval "$($HOME/Software/anaconda3/bin/conda shell.bash hook)"

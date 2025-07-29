@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-6363
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-poo-2352
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mchandra/Bolt/examples/electronic_boltzmann/magnetic_field/calibration_run/job_script_newriver.qsub

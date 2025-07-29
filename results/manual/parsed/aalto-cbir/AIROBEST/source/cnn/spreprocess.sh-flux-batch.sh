@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=preprocess
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module purge
 module load pytorch

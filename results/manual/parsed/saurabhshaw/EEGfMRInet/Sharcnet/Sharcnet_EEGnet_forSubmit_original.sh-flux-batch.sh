@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-butter-4773
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-blackbean-2589
+#FLUX --urgency=16
 
 base_path_rc="/home/shaws5/Research_code"
 base_path_rd="/scratch/shaws5/Research_data"

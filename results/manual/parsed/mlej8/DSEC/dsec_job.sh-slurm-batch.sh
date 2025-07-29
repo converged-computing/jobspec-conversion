@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dsec
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=dsec
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --mail-user=er.li@mail.mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

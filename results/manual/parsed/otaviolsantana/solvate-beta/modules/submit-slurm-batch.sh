@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pancake-9271
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 TEST_SLUR=`echo $(which sbatch)`     # SLURM System
 TEST_PBSS=`echo $(which qsub)`       # Torque/PBS (Portable Batch System)

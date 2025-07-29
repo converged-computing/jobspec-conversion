@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=astute-underoos-2361
-#FLUX: --queue=gpuq
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpuq
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 module load singularity
 module load cuda

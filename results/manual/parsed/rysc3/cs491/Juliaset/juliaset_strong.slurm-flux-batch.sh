@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strong_julia
-#FLUX: --queue=debug
-#FLUX: -t=1
-#FLUX: --urgency=16
+#FLUX --job-name=strong_julia
+#FLUX --queue=debug
+#FLUX -t=1
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SCALE_FACTOR'
 

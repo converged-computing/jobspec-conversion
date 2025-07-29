@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WMC_0
-#FLUX: -N=6
-#FLUX: --queue=bdwall
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=WMC_0
+#SBATCH --account=TURBDRL
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=bdwall
+#SBATCH --constraint=ntasks-per-node=36
 
 export LD_LIBRARY_PATH='/gpfs/fs1/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-7.3.0/python-3.6.7-7eq7ubsfsxwib5oi7yk5ek7edv3cr7vt/lib:$LD_LIBRARY_PATH'
 export I_MPI_FABRICS='shm:tmi'

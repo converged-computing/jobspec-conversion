@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-4673
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=slurm_outfiles/%A_%a.out
+#SBATCH --error=slurm_outfiles/%A_%a.err;
+#SBATCH --mail-user=abondy@princeton.edu
+#SBATCH --mail-type=FAIL,TIME_LIMIT,ARRAY_TASKS,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=7G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0
 
 pwd; hostname; date
 env | sort

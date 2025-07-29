@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-truffle-5230
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=grated-poodle-5343
+#FLUX -c=32
+#FLUX --queue=csmpi_fpga_long
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=generate_kitti_samples
-#FLUX: -c=48
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_kitti_samples
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
 
 cd ~/mask_bev
 docker build -t mask_bev .

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pensacola
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pensacola
+#SBATCH --account=bphl-umbrella
+#SBATCH --output=pensacola.%j.out
+#SBATCH --error=pensacola.err
+#SBATCH --mail-user=<EMAIL>
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=300gb
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=bphl-umbrella
 
 module load nextflow
 module load longqc

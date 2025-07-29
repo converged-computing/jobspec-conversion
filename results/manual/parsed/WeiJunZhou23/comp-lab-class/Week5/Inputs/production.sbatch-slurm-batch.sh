@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=04:00:00
 
 module purge
 module load gromacs/openmpi/intel/2018.3

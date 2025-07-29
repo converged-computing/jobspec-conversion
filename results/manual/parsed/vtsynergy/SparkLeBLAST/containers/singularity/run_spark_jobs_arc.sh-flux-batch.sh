@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-0216
+#FLUX --job-name=joyous-citrus-3105
 #FLUX: --exclusive
-#FLUX: --queue=p100_dev_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=p100_dev_q
+#FLUX -t=3600
+#FLUX --urgency=16
 
 DBFILE=$1
 QUERYFILE=$2

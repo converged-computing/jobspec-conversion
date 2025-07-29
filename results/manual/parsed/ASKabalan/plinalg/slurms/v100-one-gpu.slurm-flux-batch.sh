@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=V100-One-GPU-host
-#FLUX: -c=10
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=V100-One-GPU-host
+#FLUX -c=10
+#FLUX -t=240
+#FLUX --urgency=16
 
 export MODULEPATH='$NVHPC/modulefiles:$MODULEPATH'
 

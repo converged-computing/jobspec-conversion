@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Trp_cage_AMBER
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Trp_cage_AMBER
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
 
 module load gromacs/openmpi/intel/2020.4
 init=step3_input

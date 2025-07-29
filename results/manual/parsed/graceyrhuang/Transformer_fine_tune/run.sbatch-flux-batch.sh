@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nlu_hw4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=nlu_hw4
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONPATH='/scratch/${NETID}/nlu/code/transformers/src:$PYTHONPATH'
 

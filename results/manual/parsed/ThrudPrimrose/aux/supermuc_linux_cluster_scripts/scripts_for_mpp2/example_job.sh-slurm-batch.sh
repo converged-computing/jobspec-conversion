@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=debug-test
-#FLUX: -N=2
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=debug-test
+#SBATCH --output=${SCRATCH}/testdir/debug-test/%x.%j.out
+#SBATCH --error=${SCRATCH}/testdir/debug-test/%x.%j.err
+#SBATCH --mail-user=yakup.paradox@gmail.com
+#SBATCH --mail-type=end,fail,timeout
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=28
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 export UPCXX_INSTALL='/dss/dsshome1/lxc05/ge69xij2/upcxx-intel-mpp2'
 export PATH='$PATH:~/upcxx-intel-mpp2/bin'

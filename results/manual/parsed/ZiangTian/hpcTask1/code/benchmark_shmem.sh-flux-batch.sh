@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-gato-0697
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=arid-eagle-4631
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$(grep -c ^processor /proc/cpuinfo)'
 

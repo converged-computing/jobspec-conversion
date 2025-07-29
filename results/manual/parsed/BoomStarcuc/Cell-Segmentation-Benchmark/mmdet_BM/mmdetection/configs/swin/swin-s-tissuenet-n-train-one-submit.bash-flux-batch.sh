@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-car-8442
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-spoon-7296
+#FLUX --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin'

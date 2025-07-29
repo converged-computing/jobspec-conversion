@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-buttface-2272
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fat-hobbit-3245
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

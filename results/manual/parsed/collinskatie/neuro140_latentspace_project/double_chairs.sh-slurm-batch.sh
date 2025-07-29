@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-poodle-9532
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/om/user/katiemc/complex_priors_logs/outputs/chairs_%A_%a.out
+#SBATCH --error=/om/user/katiemc/complex_priors_logs/outputs/chairs_%A_%a.err
+#SBATCH --mail-user=katiemc@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titan-x:1
+#SBATCH --mem=128G
+#SBATCH --time=2-00:00:00
 
 module load openmind/anaconda/3-2019.10; module load openmind/cuda/9.1;
 source activate mesh_funcspace;

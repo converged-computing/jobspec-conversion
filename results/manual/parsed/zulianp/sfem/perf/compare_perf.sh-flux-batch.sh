@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PerfHydroS
-#FLUX: -n=20
+#FLUX --job-name=PerfHydroS
+#FLUX -n=20
 #FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX -t=2400
+#FLUX --urgency=16
 
 set -e
 sfemfp32=1

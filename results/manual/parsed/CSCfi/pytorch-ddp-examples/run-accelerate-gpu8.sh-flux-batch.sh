@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-rabbit-5807
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-platanos-4060
+#FLUX -N=2
+#FLUX -c=40
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge
 module load pytorch

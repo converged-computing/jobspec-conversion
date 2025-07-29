@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=classifier-job
-#FLUX: --queue=gpu-8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=classifier-job
+#SBATCH --output=jobs/cls_%A_%a.stdout
+#SBATCH --error=jobs/cls_%A_%a.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a6000:2
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu-8
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

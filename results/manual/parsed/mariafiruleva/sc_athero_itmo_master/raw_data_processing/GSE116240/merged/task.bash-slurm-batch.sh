@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GSE116240
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=GSE116240
+#SBATCH --output=pipeline.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=80G
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=1
 
 sbatch << ENDINPUT
 cd /mnt/tank/scratch/mfiruleva/scn/data/GSE116240/merged

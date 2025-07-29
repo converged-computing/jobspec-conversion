@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=M3F
-#FLUX: -c=4
-#FLUX: --queue=normal
-#FLUX: -t=240
-#FLUX: --urgency=50
+#SBATCH --job-name=M3F
+#SBATCH --output=M3F_outputs/out_%a.txt
+#SBATCH --error=M3F_errors/err_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=00:04:00
+#SBATCH --partition=normal
+#SBATCH --qos=high
+#SBATCH --constraint=xeon-g6
+#SBATCH --array=2340-2639%4
 
 source /etc/profile ; 
 module load julia/1.4.2

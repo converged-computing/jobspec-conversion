@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=git_train
-#FLUX: --queue=gypsum-titanx
-#FLUX: --urgency=16
+#SBATCH --job-name=git_train
+#SBATCH --output=output.txt
+#SBATCH --error=error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=240000
+#SBATCH --partition=gypsum-titanx
+#SBATCH --array=2
 
 module load conda
 conda create --name transCoder_env python=3.7.6

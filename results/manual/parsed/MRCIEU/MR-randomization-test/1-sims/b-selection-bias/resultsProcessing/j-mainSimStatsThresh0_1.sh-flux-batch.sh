@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=j-mainSimStatsThresh0_1
-#FLUX: --queue=veryshort
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=j-mainSimStatsThresh0_1
+#FLUX --queue=veryshort
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export RES_DIR='${HOME}/2021-randomization-test/results'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lemur-7878
-#FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-latke-6920
+#FLUX --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set -e
 set -o pipefail

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-latke-9185
-#FLUX: --queue=teaching
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-chair-7566
+#FLUX --queue=teaching
+#FLUX --urgency=16
 
 toanalyze="att10_unmaskedgood"
 model_name="model"

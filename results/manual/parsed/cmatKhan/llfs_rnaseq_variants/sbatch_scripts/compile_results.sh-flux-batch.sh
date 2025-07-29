@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=compile_results
-#FLUX: -n=11
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=compile_results
+#FLUX -n=11
+#FLUX -t=7200
+#FLUX --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/software/llfs_rnaseq_latest.sif

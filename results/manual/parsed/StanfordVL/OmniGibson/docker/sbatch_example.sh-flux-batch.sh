@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-taco-3055
-#FLUX: -c=8
-#FLUX: --queue=svl
-#FLUX: --urgency=16
+#FLUX --job-name=hello-egg-4822
+#FLUX -c=8
+#FLUX --queue=svl
+#FLUX --urgency=16
 
 set -e -o pipefail
 IMAGE_PATH="/cvgl2/u/cgokmen/omnigibson.sqsh"

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=jk_spine_model
-#FLUX: -c=2
-#FLUX: --queue=titans
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=jk_spine_model
+#SBATCH --output=jk_spine_model_%J.out
+#SBATCH --mail-user=s214725@dtu.dk
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=32gb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=titans
 
 echo "Node: $(hostname)"
 echo "Start: $(date +%F-%R:%S)"

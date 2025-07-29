@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=xmeshfem3D
-#FLUX: -N=2
-#FLUX: -n=88
-#FLUX: --queue=nesi_research
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=xmeshfem3D
+#FLUX -N=2
+#FLUX -n=88
+#FLUX --queue=nesi_research
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load gcc/8.3.0
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Embed
-#FLUX: -c=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Embed
+#FLUX -c=10
+#FLUX -t=7200
+#FLUX --urgency=16
 
 PYTHON=/gpfswork/rech/mjp/uzj43um/conda-envs/audio_retrieval/bin/python
 set -x

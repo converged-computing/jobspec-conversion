@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leg-4726
-#FLUX: -n=32
-#FLUX: --queue=intel,batch
-#FLUX: --urgency=16
+#SBATCH --output=logs/STAR.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=128gb
+#SBATCH --partition=intel,batch
+#SBATCH --array=1-32
 
 module load STAR
 module load subread

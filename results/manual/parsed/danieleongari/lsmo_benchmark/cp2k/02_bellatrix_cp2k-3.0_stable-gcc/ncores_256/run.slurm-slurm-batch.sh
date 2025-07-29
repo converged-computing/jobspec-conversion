@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-0038
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=16
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export OMP_NUM_THREADS='1'
 

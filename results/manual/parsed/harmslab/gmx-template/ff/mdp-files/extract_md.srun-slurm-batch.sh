@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=extract
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=extract
+#SBATCH --account=harmslab
+#SBATCH --output=hostname.out
+#SBATCH --error=hostname.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 module load intel/19
 module load gromacs/2019.4

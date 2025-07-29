@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-9609
-#FLUX: -c=40
-#FLUX: --queue=develgpus
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-puppy-1500
+#FLUX -c=40
+#FLUX --queue=develgpus
+#FLUX -t=7200
+#FLUX --urgency=16
 
 WORK_DIR=$(pwd)
 BASE_DIR=$(dirname "${WORK_DIR}")

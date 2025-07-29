@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-caramel-2469
-#FLUX: --queue=test
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=./output%j.txt
+#SBATCH --error=./error%j.txt
+#SBATCH --mail-user=diego.aliaga@helsinki.fi
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=00:20:00
+#SBATCH --partition=test
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'
 export WRFIO_NCD_LARGE_FILE_SUPPORT='1'

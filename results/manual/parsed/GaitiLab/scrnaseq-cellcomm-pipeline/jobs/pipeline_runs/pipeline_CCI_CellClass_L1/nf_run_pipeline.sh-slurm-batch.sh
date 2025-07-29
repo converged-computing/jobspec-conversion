@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=launch_cci_pipeline_CCI_CellClass_L1
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=launch_cci_pipeline_CCI_CellClass_L1
+#SBATCH --output=slurm_out/%x_%j.out
+#SBATCH --error=slurm_out/%x_%j.out
+#SBATCH --mail-user=joan.kant@uhn.ca
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

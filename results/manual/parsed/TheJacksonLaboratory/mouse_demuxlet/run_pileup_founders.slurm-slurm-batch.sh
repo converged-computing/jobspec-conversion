@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run_pileup_founders
-#FLUX: --queue=compute
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_pileup_founders
+#SBATCH --output=%x.o%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60GB
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=compute
+#SBATCH --array=1
 
 module load singularity
 REPO_BASE=$(pwd)

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=multi_run_task
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=multi_run_task
+#SBATCH --account=aub101
+#SBATCH --output=testgpu.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --mem=96G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=10
+#SBATCH: --no-requeue
 
 DATASET=$1
 NUM_OF_RUNS=${2:-30}

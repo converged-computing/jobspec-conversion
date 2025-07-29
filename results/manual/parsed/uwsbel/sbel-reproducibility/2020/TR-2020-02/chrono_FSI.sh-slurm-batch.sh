@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-8010
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=10-00:00:00
 
 module load gcc/7.3.0
 module load cmake/3.15.4

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -c=32
-#FLUX: --queue=wildfire
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=main
+#SBATCH --output=/scratch/lsaldyt/experiments/main/%j.out
+#SBATCH --error=/scratch/lsaldyt/experiments/main/%j.err
+#SBATCH --mail-user=lsaldyt@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=wildfire
+#SBATCH --constraint=V100
 
 export INCLUDEPATH='$INCLUDEPATH:$HOME/cuda/include'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/cuda/lib64'

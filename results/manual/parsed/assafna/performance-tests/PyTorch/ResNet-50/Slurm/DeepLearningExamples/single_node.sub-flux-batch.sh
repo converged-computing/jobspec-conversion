@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50
-#FLUX: --urgency=16
+#FLUX --job-name=resnet50
+#FLUX --urgency=16
 
 srun --container-image $1 \
  --container-mounts $2:/imagenet \

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ThunderCast
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --queue=salvador
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#SBATCH --job-name=ThunderCast
+#SBATCH --output=/home/%u/output/sb_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --time=23:50:00
+#SBATCH --partition=salvador
+#SBATCH --constraint=ntasks-per-node=2
 
 nvidia-smi
 hostname

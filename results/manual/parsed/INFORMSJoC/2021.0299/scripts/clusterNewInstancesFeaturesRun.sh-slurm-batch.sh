@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=newInstancesFeatures
-#FLUX: --queue=snowy
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=newInstancesFeatures
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=snowy
+#SBATCH --array=1-810
 
 module load gcccore/10.2.0
 module load cmake/3.18.4

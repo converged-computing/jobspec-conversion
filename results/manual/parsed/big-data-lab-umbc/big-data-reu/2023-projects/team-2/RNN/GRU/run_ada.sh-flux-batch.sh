@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=4g_gru
-#FLUX: -t=342000
-#FLUX: --urgency=16
+#FLUX --job-name=4g_gru
+#FLUX -t=342000
+#FLUX --urgency=16
 
 if [ -f "model-final" ] || [ -d "model-final" ]
 then

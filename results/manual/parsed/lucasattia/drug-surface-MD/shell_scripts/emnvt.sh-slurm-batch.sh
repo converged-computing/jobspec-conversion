@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-8162
-#FLUX: -n=20
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
 
 source /etc/profile
 source $HOME/gromacs/gromacs-2021/install/bin/GMXRC

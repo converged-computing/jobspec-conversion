@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bbo-exps
-#FLUX: --queue=bosch_gpu-rtx2080
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --job-name=bbo-exps
+#SBATCH --output=slurmlog/%A.%N.out
+#SBATCH --error=slurmlog/%A.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:07:00
+#SBATCH --partition=bosch_gpu-rtx2080
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

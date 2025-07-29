@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-mango-9839
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-leader-5556
+#FLUX -c=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

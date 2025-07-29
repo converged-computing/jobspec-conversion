@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Preprocess-Megatron-BERT
-#FLUX: -c=128
-#FLUX: --queue=cpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Preprocess-Megatron-BERT
+#SBATCH --output=logs/sbatch.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=512G
+#SBATCH --time=12:00:00
+#SBATCH --partition=cpu
 
 export MASTER_ADDR='$addr'
 export MASTER_PORT='56781'

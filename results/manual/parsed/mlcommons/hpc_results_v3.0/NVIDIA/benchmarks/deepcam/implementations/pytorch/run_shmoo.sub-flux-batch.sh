@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mlperft-hpc.deepcam-shmoo
-#FLUX: --urgency=16
+#FLUX --job-name=mlperft-hpc.deepcam-shmoo
+#FLUX --urgency=16
 
 export MODEL_NAME='deepcam'
 export MODEL_FRAMEWORK='pytorch'

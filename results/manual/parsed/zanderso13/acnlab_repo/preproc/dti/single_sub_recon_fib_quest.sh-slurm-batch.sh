@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=QSDR_reconstruction_single_sub
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=QSDR_reconstruction_single_sub
+#SBATCH --account=p30954
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 param0="1.25"
 record_odf="1"

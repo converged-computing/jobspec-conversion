@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BSNLP-eval
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=BSNLP-eval
+#FLUX -c=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 CONTAINER_IMAGE_PATH="$PWD/containers/pytorch-image-new.sqfs"
 echo "$SLURM_JOB_ID -> Generating the clusters for the model..."

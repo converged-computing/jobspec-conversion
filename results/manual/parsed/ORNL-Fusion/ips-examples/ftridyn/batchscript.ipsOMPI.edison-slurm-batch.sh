@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-parsnip-7857
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=atom
+#SBATCH --output=log.slurm.stdOut
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=regular
 
 export OMPI_ROOT='/project/projectdirs/atom/users/elwasif/ompi/install_4.0'
 export PATH='$OMPI_ROOT/bin:$PATH'

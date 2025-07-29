@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-train-9488
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DrJupiter/diffusers-joint-optimization/expansion/gbarv100.sh

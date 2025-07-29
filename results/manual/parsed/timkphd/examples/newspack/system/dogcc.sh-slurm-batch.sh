@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buildgcc
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=buildgcc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export WORKDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220525b/level00'

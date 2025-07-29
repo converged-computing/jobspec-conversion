@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-buttface-0298
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=deepacf
+#SBATCH --output=demo_tfdataset_ap5-out.%j
+#SBATCH --error=demo_tfdataset_ap5-err.%j
+#SBATCH --mail-user=m.langguth@fz-juelich.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export MALLOC_MMAP_MAX_='40960'
 

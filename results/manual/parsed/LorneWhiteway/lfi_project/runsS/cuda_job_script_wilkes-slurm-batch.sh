@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pgr3_010
-#FLUX: --queue=ampere
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#SBATCH --job-name=pgr3_010
+#SBATCH --account=DIRAC-DP153-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=36000
+#SBATCH --time=1-11:59:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='32'
 

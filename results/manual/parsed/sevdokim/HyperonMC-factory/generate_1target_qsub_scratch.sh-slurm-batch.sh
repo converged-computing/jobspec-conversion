@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cat-2656
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sevdokim/HyperonMC-factory/generate_1target_qsub_scratch.sh

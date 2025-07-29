@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=65536M_julia_32_16
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=65536M_julia_32_16
+#SBATCH --account=CSC383_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
 
 M=65536 # 2^16
 PROJDIR=../../julia/GemmDenseThreads

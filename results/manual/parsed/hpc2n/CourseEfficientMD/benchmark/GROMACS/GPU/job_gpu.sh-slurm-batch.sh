@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=faux-muffin-5201
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=SNICyyyy-xx-yy
+#SBATCH --output=job_str.out
+#SBATCH --error=job_str.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:k80:2
+#SBATCH --time=00:20:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 10000 -nsteps 20000'

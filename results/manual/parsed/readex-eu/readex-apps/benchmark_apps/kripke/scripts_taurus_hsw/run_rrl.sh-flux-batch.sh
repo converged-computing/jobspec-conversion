@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-plant-0170
+#FLUX --job-name=tart-snack-4037
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

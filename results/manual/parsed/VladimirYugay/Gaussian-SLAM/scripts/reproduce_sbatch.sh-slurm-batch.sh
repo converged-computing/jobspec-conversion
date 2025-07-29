@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-9603
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=output/logs/%A_%a.log
+#SBATCH --error=output/logs/%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-4
 
 dataset="Replica" # set dataset
 if [ "$dataset" == "Replica" ]; then

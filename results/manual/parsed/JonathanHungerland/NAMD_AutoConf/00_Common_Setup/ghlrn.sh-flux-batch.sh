@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-caramel-7126
-#FLUX: -N=2
-#FLUX: --queue=standard96
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-malarkey-4453
+#FLUX -N=2
+#FLUX --queue=standard96
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='none'
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'

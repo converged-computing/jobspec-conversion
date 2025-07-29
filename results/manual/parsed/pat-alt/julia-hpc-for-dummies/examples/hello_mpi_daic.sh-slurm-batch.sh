@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-car-4724
-#FLUX: -n=8
-#FLUX: --queue=general
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:01:00
+#SBATCH --partition=general
+#SBATCH --qos=short
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-signal-5907
-#FLUX: -c=80
-#FLUX: --queue=milan
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=nesi99999
+#SBATCH --output=logs/%j-%x.out
+#SBATCH --error=logs/%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --mem=80GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=milan
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

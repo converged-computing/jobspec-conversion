@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dask-cuda-bench
-#FLUX: -c=16
-#FLUX: --queue=batch_dgx1_m2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-cuda-bench
+#SBATCH --account=sw_rapids_testing
+#SBATCH --output=slurm-%x-%J.out
+#SBATCH --error=slurm-%x-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch_dgx1_m2
+#SBATCH --constraint=ntasks-per-node=1
 
 export RUNDIR_HOST='$(readlink -f $(pwd))'
 export OUTDIR_HOST='$(readlink -f $(pwd)/outputs/${DATE})'

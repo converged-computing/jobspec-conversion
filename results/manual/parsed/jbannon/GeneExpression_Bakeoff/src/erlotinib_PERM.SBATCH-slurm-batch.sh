@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Erl_perm
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Erl_perm
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20GB
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=0-3
 
 module purge
 models=(BROAD.True BROAD.False LUAD.False LUAD.True)

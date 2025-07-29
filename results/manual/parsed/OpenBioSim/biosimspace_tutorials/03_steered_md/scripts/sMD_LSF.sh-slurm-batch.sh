@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-punk-8529
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/OpenBioSim/biosimspace_tutorials/03_steered_md/scripts/sMD_LSF.sh

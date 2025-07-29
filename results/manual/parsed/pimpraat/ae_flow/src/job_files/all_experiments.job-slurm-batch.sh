@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RunAE_Normalized_Flow_Development
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=RunAE_Normalized_Flow_Development
+#SBATCH --output=job_files/train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2021

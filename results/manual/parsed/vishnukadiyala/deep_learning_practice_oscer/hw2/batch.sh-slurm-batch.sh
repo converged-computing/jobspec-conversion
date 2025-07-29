@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=hw2_run2
-#FLUX: -c=10
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hw2_run2
+#SBATCH --output=results/r2/hw2_%j_stdout.txt
+#SBATCH --error=results/r2/hw2_%j_stderr.txt
+#SBATCH --mail-user=vishnupk@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=2048
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
+#SBATCH --chdir=/home/cs504305/deep_learning_practice/homework/hw2
+#SBATCH --array=0-160
 
 . /home/fagg/tf_setup.sh
 conda activate tf

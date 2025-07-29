@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-fudge-7705
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=output.%j.test.out
+#SBATCH --mail-user=qfeng10@sheffield.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=6G
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 module load Anaconda3/5.3.0
 module load cuDNN/7.6.4.38-gcccuda-2019b

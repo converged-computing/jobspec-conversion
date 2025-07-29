@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=matrix_testing_bwe_blind_1000
-#FLUX: -t=3599
-#FLUX: --urgency=16
+#SBATCH --job-name=matrix_testing_bwe_blind_1000
+#SBATCH --output=/scratch/work/%u/projects/ddpm/blind_bwe_diffusion/blind_bwe_evaluation/test_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=00:59:59
+#SBATCH --constraint=volta
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export CUDA_LAUNCH_BLOCKING='1'

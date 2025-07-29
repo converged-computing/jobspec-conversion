@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Meme_motif
-#FLUX: --queue=highmem_p
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=Meme_motif
+#FLUX --queue=highmem_p
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load MEME/5.5.0-gompi-2021b
 module load BEDTools/2.30.0-GCC-11.3.0

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LLSWEEP
-#FLUX: -c=24
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=LLSWEEP
+#SBATCH --output=LLSWEEP-%j.log
+#SBATCH --mail-user=jos.vandewolfshaar@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=4000
+#SBATCH --time=06:00:00
 
 module load tensorflow
 source $HOME/envs/ll/bin/activate

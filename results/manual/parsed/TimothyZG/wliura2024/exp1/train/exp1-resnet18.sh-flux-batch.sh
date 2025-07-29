@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-arm-6259
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-onion-1049
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

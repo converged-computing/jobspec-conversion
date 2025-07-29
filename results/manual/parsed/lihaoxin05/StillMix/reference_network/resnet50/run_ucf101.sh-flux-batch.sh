@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hippo-6712
-#FLUX: --queue=DGXq
-#FLUX: --urgency=16
+#FLUX --job-name=arid-earthworm-9854
+#FLUX --queue=DGXq
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'
 

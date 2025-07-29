@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=extraction
-#FLUX: -c=40
-#FLUX: --queue=xxx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=extraction
+#SBATCH --output=/mnt/home/slurmlogs/vctk/extraction/symAD_vctk.out
+#SBATCH --error=/mnt/home/slurmlogs/vctk/extraction/symAD_vctk.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=124g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=xxx
 
 tag_name=statistic/symAD_vctk_48000_hop300_clean
 subset=train

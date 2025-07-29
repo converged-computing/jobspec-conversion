@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=placid-underoos-4068
-#FLUX: -N=4
-#FLUX: -c=7
-#FLUX: --queue=smallmem,serial,parallel
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=run_dmft.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=126000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=smallmem,serial,parallel
+#SBATCH --constraint=ntasks-per-node=4
 
 srun hostname
 MKL_NUM_THREADS=7 OMP_NUM_THREADS=7 mpirun -np 16 python -u run_dmft.py

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DLmodels
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=DLmodels
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo "Download ImageNet pretrained models from pytorch-ensembles"
 echo "See https://github.com/bayesgroup/pytorch-ensembles"

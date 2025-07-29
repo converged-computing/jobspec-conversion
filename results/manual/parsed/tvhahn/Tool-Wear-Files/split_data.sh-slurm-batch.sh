@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blue-snack-4154
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --mail-user=18tcvh@queensu.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH --array=1-3
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 DIR=$(sed -n "${SLURM_ARRAY_TASK_ID}p" input_folders)

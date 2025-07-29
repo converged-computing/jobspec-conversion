@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=make_rans
-#FLUX: -n=512
-#FLUX: --queue=debug
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#FLUX --job-name=make_rans
+#FLUX -n=512
+#FLUX --queue=debug
+#FLUX -t=1740
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=LearnPreferences_pong
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=LearnPreferences_pong
+#SBATCH --account=Deep-supervised-inve
+#SBATCH --output=/work/05933/dsbrown/maverick/output/logs/LearnPreference_25_15pong.o%j
+#SBATCH --mail-user=dsbrown@cs.utexas.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 export TACC_LAUNCHER_PPN='1'
 export EXECUTABLE='$TACC_LAUNCHER_DIR/init_launcher'

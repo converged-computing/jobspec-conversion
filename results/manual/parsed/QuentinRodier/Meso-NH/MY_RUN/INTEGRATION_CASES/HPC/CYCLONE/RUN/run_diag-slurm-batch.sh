@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=diagA_cyc
-#FLUX: -N=4
-#FLUX: -n=256
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=diagA_cyc
+#SBATCH --output=diagA_cyc.eo%j
+#SBATCH --error=diagA_cyc.eo%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MPIRUN='Mpirun -np 256'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=BEVEL_BIDS
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=BEVEL_BIDS
+#FLUX -t=7200
+#FLUX --urgency=16
 
 if [ ${SLURM_ARRAY_TASK_ID} -lt 10 ]; then
     sub="sub-00${SLURM_ARRAY_TASK_ID}"

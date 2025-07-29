@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=diabla
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=diabla
+#SBATCH --account=ncm@a100
+#SBATCH --output=diabla_opt_%j.out
+#SBATCH --error=diabla_opt_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 

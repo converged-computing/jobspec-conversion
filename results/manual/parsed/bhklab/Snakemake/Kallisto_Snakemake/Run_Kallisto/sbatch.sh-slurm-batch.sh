@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=run_kallisto
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_kallisto
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000M
+#SBATCH --time=10:00:00
 
 source /cluster/home/sjahangi/.bashrc
 module load python3

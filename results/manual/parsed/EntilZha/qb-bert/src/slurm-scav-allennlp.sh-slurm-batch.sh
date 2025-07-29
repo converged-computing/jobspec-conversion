@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=qb-bert
-#FLUX: -c=2
-#FLUX: --queue=scavenger
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=qb-bert
+#SBATCH --account=scavenger
+#SBATCH --output=/fs/www-users/entilzha/logs/%A.log
+#SBATCH --error=/fs/www-users/entilzha/logs/%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16g
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=scavenger
+#SBATCH --qos=scavenger
+#SBATCH --chdir=/fs/clip-quiz/entilzha/code/qb-bert/src
+#SBATCH --exclude=materialgpu00
 
 export SLURM_LOG_FILE='/fs/www-users/entilzha/logs/${SLURM_JOB_ID}.log'
 export MODEL_CONFIG_FILE='$2'

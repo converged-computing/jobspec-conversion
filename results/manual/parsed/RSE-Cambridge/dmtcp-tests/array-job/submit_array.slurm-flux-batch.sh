@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dmtcp_array
-#FLUX: --queue=skylake
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=dmtcp_array
+#FLUX --queue=skylake
+#FLUX -t=60
+#FLUX --urgency=16
 
 export DMTCP_QUIET='2'
 

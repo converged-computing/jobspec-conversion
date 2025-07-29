@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test_mpi_kokkos_gpu
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=gpua30
-#FLUX: --urgency=16
+#SBATCH --job-name=test_mpi_kokkos_gpu
+#SBATCH --output=test_mpi_kokkos_gpu.%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a30:4
+#SBATCH --partition=gpua30
 
 export OMP_NUM_THREADS='$omp_threads'
 export OMP_PROC_BIND='spread'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-9454
-#FLUX: -t=172815
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-car-5693
+#FLUX -t=172815
+#FLUX --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

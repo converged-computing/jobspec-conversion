@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train-resnet
-#FLUX: -c=4
-#FLUX: --queue=skylake-gpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=train-resnet
+#FLUX -c=4
+#FLUX --queue=skylake-gpu
+#FLUX -t=9000
+#FLUX --urgency=16
 
 module load openmpi/4.0.0
 module load cudnn/7.6.5-cuda-10.2.89

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=en_train
-#FLUX: -c=20
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=dev
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=en_train
+#FLUX -c=20
+#FLUX --gpus-per-task=2
+#FLUX --queue=dev
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source /private/home/%u/.bashrc
 conda deactivate

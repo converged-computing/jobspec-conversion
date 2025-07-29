@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ATACanalysis
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ATACanalysis
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=32G
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

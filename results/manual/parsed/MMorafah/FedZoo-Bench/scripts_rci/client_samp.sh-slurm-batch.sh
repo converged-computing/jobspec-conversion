@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fedavg_cifar10_client_samp_niid_labelskew
-#FLUX: --queue=gpulong
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=fedavg_cifar10_client_samp_niid_labelskew
+#SBATCH --output=results/fedavg_cifar10_client_samp_niid_labelskew.out
+#SBATCH --error=results/fedavg_cifar10_client_samp_niid_labelskew.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50G
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=gpulong
+#SBATCH --constraint=ntasks-per-node=4
 
 ml TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4
 ml matplotlib/3.1.1-fosscuda-2019b-Python-3.7.4

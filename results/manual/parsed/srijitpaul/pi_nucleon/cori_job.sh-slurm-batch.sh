@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fudge-6852
-#FLUX: -N=12
-#FLUX: -n=768
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=cori_seq.out
+#SBATCH --error=cori_error.out
+#SBATCH --mail-user=s.paul@cyi.ac.cy
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=12
+#SBATCH --ntasks=768
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
 
 export OMP_NUM_THREADS='1'
 

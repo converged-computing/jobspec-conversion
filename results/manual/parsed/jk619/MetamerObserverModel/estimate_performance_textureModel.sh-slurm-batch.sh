@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=performance_estimation_texture
-#FLUX: -c=16
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=performance_estimation_texture
+#SBATCH --output=/scratch/jk7127/logs/performance_est_out_ses_%x-%a.txt
+#SBATCH --error=/scratch/jk7127/logs/performance_est_err_ses_%x-%a.txt
+#SBATCH --mail-user=jk7127@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64gb
+#SBATCH --time=2-02:00:00
+#SBATCH --array=0-19
 
 all_subjects=(azulejos bike boats gnarled graffiti grooming highway ivy leaves lettuce llama nyc palm portrait quad rocks terraces tiles treetop troop)
 module load matlab/2020b

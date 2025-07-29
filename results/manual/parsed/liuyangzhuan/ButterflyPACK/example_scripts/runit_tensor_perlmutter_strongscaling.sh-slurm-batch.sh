@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tensorbf
-#FLUX: -N=16
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorbf
+#SBATCH --account=mp127
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

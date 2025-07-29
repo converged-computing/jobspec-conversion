@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HNT-ESOL
-#FLUX: -c=4
-#FLUX: --queue=GPU
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=HNT-ESOL
+#SBATCH --output=outputs/esol-0821.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 python train_esol.py --seed 16880611 --pos 0
 python train_esol.py --seed 17760704 --pos 0

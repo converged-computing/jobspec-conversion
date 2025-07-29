@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dataaug-ger
-#FLUX: --queue=gpu_4
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#FLUX --job-name=dataaug-ger
+#FLUX --queue=gpu_4
+#FLUX -t=100800
+#FLUX --urgency=16
 
 echo "Starting ..."
 module load devel/cuda/11.8

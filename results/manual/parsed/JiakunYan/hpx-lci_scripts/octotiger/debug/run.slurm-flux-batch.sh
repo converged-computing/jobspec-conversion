@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cupcake-0537
-#FLUX: -c=128
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=debug
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-caramel-5347
+#FLUX -c=128
+#FLUX --gpus-per-task=4
+#FLUX --queue=debug
+#FLUX -t=180
+#FLUX --urgency=16
 
 export LCI_SERVER_MAX_SENDS='1024'
 export LCI_SERVER_MAX_RECVS='4096'

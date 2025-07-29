@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Lotus
-#FLUX: --queue=batch
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=Lotus
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=2
 
 module load openmpi/3.0.0/gcc-6.4.0
 module load gcc/6.4.0

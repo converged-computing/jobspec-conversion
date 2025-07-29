@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-8564
-#FLUX: -n=14
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-milkshake-7114
+#FLUX -n=14
+#FLUX -t=1500
+#FLUX --urgency=16
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'
 export init='step3_charmm2amber'

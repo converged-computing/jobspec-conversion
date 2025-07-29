@@ -1,11 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=demo_vector
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=rtx6000
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --job-name=demo_vector
+#SBATCH --output=slurm-%j_out.txt
+#SBATCH --error=slurm-%j_err.txt
+#SBATCH --mail-user=yanq@student.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=00:00:20
+#SBATCH --partition=rtx6000
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=notes2parquet
-#FLUX: -c=2
-#FLUX: --queue=cpu-t3
-#FLUX: --urgency=16
+#FLUX --job-name=notes2parquet
+#FLUX -c=2
+#FLUX --queue=cpu-t3
+#FLUX --urgency=16
 
 printf 'Load modules\n'
 module load R/4.2.1-foss-2022a

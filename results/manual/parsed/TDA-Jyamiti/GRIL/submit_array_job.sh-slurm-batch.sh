@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mega_array
-#FLUX: -c=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mega_array
+#SBATCH --output=array_%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=1gb
+#SBATCH --time=02:00:00
 
 pwd; hostname; date
 PER_TASK=100

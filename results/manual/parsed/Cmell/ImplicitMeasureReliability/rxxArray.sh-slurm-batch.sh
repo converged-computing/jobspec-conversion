@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Run_3-MPI
-#FLUX: -N=10
-#FLUX: --queue=shas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Run_3-MPI
+#SBATCH --output=mpiRun_%j.out
+#SBATCH --mail-user=chme2908@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=24
 
 module purge
 module load R/3.3.0

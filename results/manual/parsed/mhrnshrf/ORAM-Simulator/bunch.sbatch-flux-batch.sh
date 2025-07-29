@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=one-nonsec
-#FLUX: --queue=smp
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=one-nonsec
+#FLUX --queue=smp
+#FLUX -t=10800
+#FLUX --urgency=16
 
 cp trace/*  $SLURM_SCRATCH # Copy inputs to scratch
 mkdir $SLURM_SCRATCH/input

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-earthworm-3820
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-earthworm-9922
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread '

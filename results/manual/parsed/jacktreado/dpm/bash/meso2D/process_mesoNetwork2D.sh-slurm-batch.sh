@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-train-0618
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 outputdir=/gpfs/loomis/project/fas/ohern/jdt45/dpm
 simtypedir=$outputdir/meso2D

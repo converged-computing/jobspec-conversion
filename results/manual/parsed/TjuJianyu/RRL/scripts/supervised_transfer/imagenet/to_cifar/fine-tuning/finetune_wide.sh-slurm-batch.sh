@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_supervised_resnet50_lineareval
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_supervised_resnet50_lineareval
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-95
 
 i=0;
 for lr in 0.005 0.01 0.05; 

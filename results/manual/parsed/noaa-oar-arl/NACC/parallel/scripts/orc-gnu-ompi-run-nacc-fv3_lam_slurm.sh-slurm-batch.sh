@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nacc-test
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=contrib
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=nacc-test
+#SBATCH --output=nacc-test-%j.out
+#SBATCH --error=nacc-test-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=contrib
+#SBATCH --qos=qtong
 
 export NODES='2'
 export IOAPI_CHECK_HEADERS='T'

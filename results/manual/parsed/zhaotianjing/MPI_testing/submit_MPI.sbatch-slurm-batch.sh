@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MPI
-#FLUX: -n=3
-#FLUX: --queue=high
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI
+#SBATCH --mail-user=tjzhao@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100
+#SBATCH --time=00:10:00
+#SBATCH --partition=high
 
 module load julia
 srun julia reduction.jl

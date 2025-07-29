@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=neox
-#FLUX: -c=32
+#FLUX --job-name=neox
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=compute-od-gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=compute-od-gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/aws-ofi-nccl/lib:/opt/amazon/efa/lib64:/usr/local/cuda-11.0/efa/lib:/usr/local/cuda-11.0/lib:/usr/local/cuda-11.0/lib64:/usr/local/cuda-11.0:/opt/nccl/build/lib:/opt/aws-ofi-nccl-install/lib:/opt/aws-ofi-nccl/lib:$LD_LIBRARY_PATH'
 export PATH='/opt/amazon/efa/bin:$PATH'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resne_50
-#FLUX: -c=14
-#FLUX: --queue=gpu_veryshort
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=resne_50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:59:00
+#SBATCH --partition=gpu_veryshort
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$HOME/.conda/envs/keras_gpu/bin:$PATH'
 export PYTHONPATH='/mnt/storage/home/csapo/git_repositories/keras_segmentation:\$PYTHONPATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bits-1659
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-rabbit-0056
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UO-OACISS/tau2/tools/src/ToM/scripts/craycnl/jobscript_mpi.sh

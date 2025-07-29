@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=multi-node-test
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=16
-#FLUX: --queue=palamut-cuda
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=multi-node-test
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -c=16
+#FLUX --queue=palamut-cuda
+#FLUX -t=3600
+#FLUX --urgency=16
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

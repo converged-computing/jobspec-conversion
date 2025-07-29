@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lentil-7670
-#FLUX: -c=4
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000M
+#SBATCH --time=02:30:00
 
 module load StdEnv/2020 python/3.7
 module load gurobi

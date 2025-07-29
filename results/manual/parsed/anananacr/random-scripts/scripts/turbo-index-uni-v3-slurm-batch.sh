@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-butter-4687
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 SPLIT=10000  # Size of job chunks
 ROOT=/asap3/petra3/gpfs/p09/2023/data/11016752/processed/rodria

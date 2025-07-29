@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-5662
-#FLUX: --queue=Your_partition
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-cat-6592
+#FLUX --queue=Your_partition
+#FLUX -t=720
+#FLUX --urgency=16
 
 T=8
 BUDGET=4

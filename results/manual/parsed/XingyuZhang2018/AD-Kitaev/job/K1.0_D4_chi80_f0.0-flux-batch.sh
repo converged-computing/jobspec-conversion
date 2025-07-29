@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-arm-2305
-#FLUX: --queue=a100
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-leg-6642
+#FLUX --queue=a100
+#FLUX -t=35996400
+#FLUX --urgency=16
 
 module load julia-1.7.1
 project_dir=~/research/AD_Kitaev

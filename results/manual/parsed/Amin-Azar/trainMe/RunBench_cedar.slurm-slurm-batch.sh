@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-buttface-5610
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=your-account
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16gb
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-10%1
 
 echo "started the RunBench at $(date)"
 module load python/3.6

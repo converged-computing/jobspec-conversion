@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: --queue=new
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=log_dir/eval.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=new
+#SBATCH --nodelist=hlt06
 
 export dataset='empathetic'
 export dataset_dir='data/${dataset}'

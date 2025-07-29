@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-toaster-1641
-#FLUX: -c=24
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/T-UDA/logs/train_uda_livoxsim_train90_val10_f0_0_time_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_LL_THRESHOLD='0'
 

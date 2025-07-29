@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run-detect
-#FLUX: -n=4
-#FLUX: --queue=scavenger
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=run-detect
+#FLUX -n=4
+#FLUX --queue=scavenger
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate watermarking-dev

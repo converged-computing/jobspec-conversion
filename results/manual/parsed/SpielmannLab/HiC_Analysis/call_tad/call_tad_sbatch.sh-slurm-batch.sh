@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=call_tad
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#SBATCH --job-name=call_tad
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --partition=shortterm
 
 module load nextflow/v22.04.1
 mkdir -p "${WORK}/call_tad_nextflow_launchdir"

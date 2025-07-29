@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain
+#SBATCH --output=outputs/pretrain/%j.out
+#SBATCH --error=errors/pretrain/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MASTER_ADDR='$(/usr/sbin/ip a show | grep inet | grep 192.168.205 | head -1 | cut -d " " -f 6 | cut -d "/" -f 1)'
 export MASTER_PORT='$((10000 + ($SLURM_JOBID % 50000)))'

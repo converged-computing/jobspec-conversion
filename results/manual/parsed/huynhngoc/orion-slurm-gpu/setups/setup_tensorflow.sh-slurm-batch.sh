@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=singularity
-#FLUX: --queue=smallmem
-#FLUX: --urgency=16
+#SBATCH --job-name=singularity
+#SBATCH --output=outputs/singularity-%A.out
+#SBATCH --error=outputs/singularity-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --partition=smallmem
 
 module load singularity
 if [ ! "tensorflow_gpu.sif" ]

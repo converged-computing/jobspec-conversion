@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leg-1779
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/chadvanderbilt/MSI_COAD/microbiome_generate_subscript__LSF.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-soup-8086
-#FLUX: -c=48
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-salad-1128
+#FLUX -c=48
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=big_train
-#FLUX: -N=2
-#FLUX: --queue=big_suma_rtx3090
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=big_train
+#SBATCH --output=multinode-o-%x.%j
+#SBATCH --error=multinode-e-%x.%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=big_suma_rtx3090
+#SBATCH --qos=big_qos
 
 export NCCL_P2P_DISABLE='1'
 export NCCL_ASYNC_ERROR_HANDLING='1'

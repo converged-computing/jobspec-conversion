@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-leader-4295
-#FLUX: -c=4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --mail-user=mengwei.ren@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=16G
+#SBATCH --time=20:00:00
 
 export PATH='/ext3/miniconda3/bin:$PATH'
 

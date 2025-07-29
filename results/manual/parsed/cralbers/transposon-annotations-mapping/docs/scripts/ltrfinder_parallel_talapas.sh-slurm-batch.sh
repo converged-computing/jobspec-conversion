@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=kimltrfindp
-#FLUX: --queue=short
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=kimltrfindp
+#SBATCH --account=libudalab
+#SBATCH --output=kimltrfindp.out
+#SBATCH --error=kimltrfindp.err
+#SBATCH --mail-user=calbers@uoregon.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=20
 
 module load easybuild
 module load GCC/6.3.0-2.27  OpenMPI/2.0.2

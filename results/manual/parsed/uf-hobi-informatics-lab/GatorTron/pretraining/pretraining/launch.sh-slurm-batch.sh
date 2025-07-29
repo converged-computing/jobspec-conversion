@@ -1,12 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pretraining
-#FLUX: -N=124
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=pretraining
+#SBATCH --output=./log/full_%j.out
+#SBATCH --mail-user=alexgre@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=124
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=2000gb
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 VOCAB_FILE=./vocab.txt
 CHECKPOINT_PATH=./gatortron_4b_uf30kcased

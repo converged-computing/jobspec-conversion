@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-1928
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=/home/shawa/venka210/simMutualism/reports/plotjob-%j.out
+#SBATCH --mail-user=venka210@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
 
 cd /home/shawa/venka210/simMutualism || return
 module purge

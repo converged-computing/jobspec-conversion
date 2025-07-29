@@ -1,10 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_ani
-#FLUX: -N=124
-#FLUX: -n=992
-#FLUX: --queue=hpg-ai
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps_ani
+#SBATCH --account=roitberg
+#SBATCH --output=lammps_ani_22M_1024gpu_%j.log
+#SBATCH --mail-user=jinzexue@ufl.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=124
+#SBATCH --ntasks=992
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem-per-cpu=120gb
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --qos=roitberg
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --exclude=c0900a-s11
 
 export LAMMPS_ANI_ROOT='/home/jinzexue/program/lammps-ani'
 export LAMMPS_ROOT='${LAMMPS_ANI_ROOT}/external/lammps/'

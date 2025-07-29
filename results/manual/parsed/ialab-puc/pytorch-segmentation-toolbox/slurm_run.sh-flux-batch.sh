@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pspCityscapes
-#FLUX: -c=8
-#FLUX: --queue=ialab-high
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=pspCityscapes
+#FLUX -c=8
+#FLUX --queue=ialab-high
+#FLUX -t=7200
+#FLUX --urgency=16
 
 CS_PATH=$1
 MODEL=pspnet

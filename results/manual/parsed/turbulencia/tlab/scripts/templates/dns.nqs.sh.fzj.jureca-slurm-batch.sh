@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-muffin-4633
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --account=hku24
+#SBATCH --mail-user=cedrick@posteo.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
 
 export TOOLS_HOME='$HOME/bin'
 export PATH='$PATH:$TOOLS_HOME'

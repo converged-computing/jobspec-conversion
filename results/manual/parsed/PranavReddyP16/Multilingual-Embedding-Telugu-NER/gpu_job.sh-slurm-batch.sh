@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=range_test
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=range_test
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --mail-user=f20170515@hyderabad.bits-pilani.ac.in
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load python-3.8.6-gcc-10.2.0-csfajta

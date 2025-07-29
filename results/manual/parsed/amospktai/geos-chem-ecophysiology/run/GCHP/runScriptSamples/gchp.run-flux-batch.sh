@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-kerfuffle-7371
-#FLUX: -n=30
-#FLUX: --queue=huce_intel
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-spoon-8710
+#FLUX -n=30
+#FLUX --queue=huce_intel
+#FLUX -t=10
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

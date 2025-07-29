@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=graphcast
-#FLUX: -c=40
-#FLUX: --queue=hera
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=graphcast
+#SBATCH --account=nems
+#SBATCH --output=gc_output.txt
+#SBATCH --error=gc_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=04:00:00
+#SBATCH --partition=hera
 
 module use /scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.6.0/envs/unified-env/install/modulefiles/Core
 module load stack-intel

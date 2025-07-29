@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemon-4460
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=salted-lentil-3870
+#FLUX -t=60
+#FLUX --urgency=16
 
 {# Template parameters - schema for the template is in openapi spec
 params = {

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-2092
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/emmomp/MITgcm/tools/example_scripts/ACESgrid/test_aces_ifc_adm

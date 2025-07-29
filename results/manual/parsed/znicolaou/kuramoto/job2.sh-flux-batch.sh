@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-snack-1772
-#FLUX: --queue=ckpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-buttface-6324
+#FLUX --queue=ckpt
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda
 seed=$SLURM_ARRAY_TASK_ID

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-caramel-3724
-#FLUX: -n=4
-#FLUX: -c=6
-#FLUX: --queue=cola-corta
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=6
+#SBATCH --time=00:05:00
+#SBATCH --partition=cola-corta
+#SBATCH --constraint=ntasks-per-node=4
 
 export TFSERVER=''
 export GRPC_POLL_STRATEGY='poll'

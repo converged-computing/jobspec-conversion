@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-1221
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module purge
 module use /software/spack_v20d1/spack/share/spack/modules/linux-rhel7-x86_64/

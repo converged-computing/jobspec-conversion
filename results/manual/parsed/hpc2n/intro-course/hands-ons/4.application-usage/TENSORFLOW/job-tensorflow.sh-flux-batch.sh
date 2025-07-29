@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-knife-9767
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-pancake-3166
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5
 ml TensorFlow/2.4.1 

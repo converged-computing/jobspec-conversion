@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nuosc_12D
-#FLUX: -c=252
-#FLUX: --urgency=16
+#FLUX --job-name=nuosc_12D
+#FLUX -c=252
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

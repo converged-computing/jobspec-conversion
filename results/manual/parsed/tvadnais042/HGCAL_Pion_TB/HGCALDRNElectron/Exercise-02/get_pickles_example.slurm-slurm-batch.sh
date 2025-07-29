@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=picklesauce
-#FLUX: --queue=amd2tb
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=picklesauce
+#SBATCH --output=./slurm_logs/hgcal_electron_pickles.log
+#SBATCH --mail-user=evans908@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50g
+#SBATCH --time=04:00:00
+#SBATCH --partition=amd2tb
 
 export PYTHONUNBUFFERED='1'
 

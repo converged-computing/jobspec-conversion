@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-nunchucks-0373
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pulkitag/matlab-utils/unit_test/data/test.sh

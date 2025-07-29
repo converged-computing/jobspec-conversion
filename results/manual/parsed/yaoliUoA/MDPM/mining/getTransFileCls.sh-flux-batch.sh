@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-earthworm-0874
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-butter-6179
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yaoliUoA/MDPM/mining/getTransFileCls.sh

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=runMrBayes
-#FLUX: -c=4
-#FLUX: --queue=broadwl
-#FLUX: --urgency=16
+#SBATCH --job-name=runMrBayes
+#SBATCH --output=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runMrBayes/runMrBayes_%A_%a.out
+#SBATCH --error=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runMrBayes/runMrBayes_%A_%a.err
+#SBATCH --mail-user=bend@uchicago.edu
+#SBATCH --mail-type=START,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --partition=broadwl
+#SBATCH --array=193-288%30
 
 ulimit -u 10000
 module load julia/1.7.2

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=dnbinf
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dnbinf
+#SBATCH --output=/lustre/groups/epigenereg01/workspace/projects/vale/mlm/slurm_logs/%x-%A_%a.o
+#SBATCH --error=/lustre/groups/epigenereg01/workspace/projects/vale/mlm/slurm_logs/%x-%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_p
+#SBATCH --qos=gpu_normal
+#SBATCH --constraint=GPU_Nvidia_Tesla_A100
+#SBATCH --exclude=gpusrv[26,28-35,38-52]
 
 export LD_LIBRARY_PATH='~/miniconda3/lib'
 

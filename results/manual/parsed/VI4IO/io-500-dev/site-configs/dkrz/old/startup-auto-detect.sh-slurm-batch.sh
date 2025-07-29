@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=10
-#FLUX: -t=10200
-#FLUX: --urgency=16
+#SBATCH --job-name=IO-500
+#SBATCH --output=io_500_out_%J
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:50:00
+#SBATCH --constraint=ntasks-per-node=10
 
 module load bullxmpi
 module load intel

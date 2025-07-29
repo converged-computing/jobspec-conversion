@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lemur-7207
+#FLUX --job-name=adorable-chip-3766
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"
 readonly checkpointdir="$PWD/B4_mulitnode_AMP/"

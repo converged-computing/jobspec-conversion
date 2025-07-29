@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-poodle-9177
-#FLUX: -n=40
-#FLUX: --queue=ccs6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ccs6
+#SBATCH --constraint=ntasks-per-node=40
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

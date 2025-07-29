@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_fastsim_mlp
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_fastsim_mlp
+#SBATCH --account=m3246
+#SBATCH --mail-user=mingfong@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

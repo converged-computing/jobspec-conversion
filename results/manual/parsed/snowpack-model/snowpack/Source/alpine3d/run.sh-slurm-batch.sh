@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=urumqi
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=urumqi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --constraint=ntasks-per-node=1
 
 export DYLD_FALLBACK_LIBRARY_PATH='${PROG_ROOTDIR}:${DYLD_FALLBACK_LIBRARY_PATH}	#for osX'
 export LD_LIBRARY_PATH='${PROG_ROOTDIR}:${LD_LIBRARY_PATH}	#for Linux'

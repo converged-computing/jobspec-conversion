@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-buttface-0198
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=logs/make_gvcf.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32gb
+#SBATCH --partition=short
+#SBATCH --constraint=xeon
 
 module load picard
 module load gatk/4

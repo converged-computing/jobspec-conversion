@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=cbai_guppy_nanopore_20102558-2729
-#FLUX: --queue=ckpt
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cbai_guppy_nanopore_20102558-2729
+#SBATCH --account=srlab-ckpt
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P100:1
+#SBATCH --mem=120G
+#SBATCH --time=01:00:00
+#SBATCH --partition=ckpt
+#SBATCH --constraint=gpu_default
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20200110_cbai_guppy_nanopore_20102558-2729
 
 wd=$(pwd)
 declare -A programs_array

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SPICE-MERGE
-#FLUX: -n=1000
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=SPICE-MERGE
+#FLUX -n=1000
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export SINGULARITY_BINDPATH='$(pwd),/group'

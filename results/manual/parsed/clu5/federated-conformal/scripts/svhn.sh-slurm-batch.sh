@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-malarkey-4988
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --output=outputs/svhn.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:volta:1
 
 source /etc/profile
 module load anaconda cuda

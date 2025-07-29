@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_check
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_check
+#SBATCH --output=logs/gpu.%j.out
+#SBATCH --error=errors/gpu.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:01:00
 
 module load anaconda/3
 conda env list

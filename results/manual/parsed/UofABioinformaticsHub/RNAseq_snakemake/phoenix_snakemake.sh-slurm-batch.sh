@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lizard-9105
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=/path/slurm/output/directory/slurm_%j.out
+#SBATCH --error=/path/slurm/output/directory/slurm_%j.err
+#SBATCH --mail-user=user.email@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 module load Python/3.6.1-foss-2016b
 module load AdapterRemoval/2.2.1-foss-2016b

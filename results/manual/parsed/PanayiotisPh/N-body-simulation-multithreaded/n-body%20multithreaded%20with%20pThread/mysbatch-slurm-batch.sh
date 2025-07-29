@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=count3
-#FLUX: -c=40
-#FLUX: --queue=CSUG
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=count3
+#SBATCH --output=output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=00:20:00
+#SBATCH --partition=CSUG
+#SBATCH --constraint=ntasks-per-node=1
 
 module use /share/apps/eb/modules/all
 module load EasyBuild

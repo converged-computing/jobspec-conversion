@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purity_07
-#FLUX: -c=16
-#FLUX: --queue=dept_gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=purity_07
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --partition=dept_gpu
 
 echo
 echo $SLURM_JOB_NODELIST

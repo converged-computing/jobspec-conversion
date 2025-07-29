@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TrainCNN
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainCNN
+#SBATCH --output=out.txt
+#SBATCH --error=err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=3-00:00:00
 
 module purge
 module load apps/python3

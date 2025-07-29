@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus
+#SBATCH --output=../dataset/outputs/pegasus/shard_%A_%a.out
+#SBATCH --error=../dataset/outputs/pegasus/shard_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-4
 
 module purge
 singularity exec $nv \

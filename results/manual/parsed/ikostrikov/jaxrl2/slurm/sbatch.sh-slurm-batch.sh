@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=sac
-#FLUX: -c=4
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sac
+#SBATCH --account=co_rail
+#SBATCH --output=logs/out/%x_%j.txt
+#SBATCH --error=logs/err/%x_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:TITAN:1
+#SBATCH --mem=24G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=savio3_gpu
+#SBATCH --qos=rail_gpu3_normal
 
 ENV_ID=$((SLURM_ARRAY_TASK_ID-1))
 arrENVS=(${ENVS//;/ })

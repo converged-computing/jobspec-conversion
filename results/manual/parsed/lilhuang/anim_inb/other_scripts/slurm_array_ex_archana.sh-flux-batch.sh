@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=det_training
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=det_training
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ​
 ​

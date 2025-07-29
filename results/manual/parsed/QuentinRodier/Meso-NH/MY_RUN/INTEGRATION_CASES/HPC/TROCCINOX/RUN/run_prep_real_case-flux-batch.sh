@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prep_troc
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=prep_troc
+#FLUX -N=2
+#FLUX -n=64
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 64'
 

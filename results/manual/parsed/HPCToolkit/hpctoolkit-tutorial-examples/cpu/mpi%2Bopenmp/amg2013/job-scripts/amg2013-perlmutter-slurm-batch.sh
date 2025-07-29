@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-noodle-1392
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH --constraint=cpu
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

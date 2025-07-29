@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=16
-#FLUX: --queue=standard
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=16
+#FLUX --queue=standard
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

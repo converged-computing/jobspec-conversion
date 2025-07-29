@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-poodle-0274
-#FLUX: --queue=naples
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=/nfs/home/student.aau.dk/jmdh19/slurm-output/fd_runner-%A.out
+#SBATCH --error=/nfs/home/student.aau.dk/jmdh19/slurm-output/fd_runner-%A.err
+#SBATCH --mail-user=jmdh19@student.aau.dk
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:30:00
+#SBATCH --partition=naples
 
 FD_PATH="$1"
 DOMAIN="$2"

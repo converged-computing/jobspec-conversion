@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-punk-9529
-#FLUX: -N=16
-#FLUX: --queue=gpu
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-bike-7506
+#FLUX -N=16
+#FLUX --queue=gpu
+#FLUX -t=7800
+#FLUX --urgency=16
 
 export SPARK_HOME='/home/tahmad/tahmad/spark-3.0.0-bin-hadoop2.7'
 export MASTER='$MASTER'

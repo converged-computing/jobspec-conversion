@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lemon-4991
-#FLUX: -n=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=log/%j-resnet101-ocr-contrast-40k-t0.07.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --time=2-00:00:00
 
 source /home/jc3/miniconda2/etc/profile.d/conda.sh
 conda activate pytorch-0.4.1

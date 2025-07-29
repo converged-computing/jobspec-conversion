@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nalgas-1203
-#FLUX: --queue=hugheslab
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-buttface-5831
+#FLUX --queue=hugheslab
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate bdl-transfer-learning

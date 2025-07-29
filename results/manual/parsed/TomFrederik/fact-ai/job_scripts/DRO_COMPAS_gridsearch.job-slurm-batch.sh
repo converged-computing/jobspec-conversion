@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DRO_compas_gridsearch
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=DRO_compas_gridsearch
+#SBATCH --output=outputs/DRO_COMPAS_gridsearch_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:0
+#SBATCH --mem=32000M
+#SBATCH --time=04:30:00
+#SBATCH --partition=gpu_shared_course
 
 module purge
 module load 2019

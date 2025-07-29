@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pvserver
-#FLUX: --queue=k2-medpri,medpri
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pvserver
+#FLUX --queue=k2-medpri,medpri
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load apps/paraview/5.11.2
 echo starting xvfb

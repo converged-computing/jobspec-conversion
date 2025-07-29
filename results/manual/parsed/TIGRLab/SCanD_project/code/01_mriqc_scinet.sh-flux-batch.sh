@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -c=80
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=mriqc
+#FLUX -c=80
+#FLUX -t=64800
+#FLUX --urgency=16
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-staircase-4384
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=csmpi
+#SBATCH --output=mt.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:nvidia_a30:1
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=csmpi_fpga_long
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

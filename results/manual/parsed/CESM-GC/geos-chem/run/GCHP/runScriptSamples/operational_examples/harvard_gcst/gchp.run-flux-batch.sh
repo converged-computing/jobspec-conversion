@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-egg-8794
-#FLUX: -n=24
-#FLUX: --queue=huce_cascade
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-staircase-1121
+#FLUX -n=24
+#FLUX --queue=huce_cascade
+#FLUX -t=10
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

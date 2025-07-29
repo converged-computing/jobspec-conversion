@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-truffle-9373
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5g
+#SBATCH --partition=high
+#SBATCH --constraint=intel
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

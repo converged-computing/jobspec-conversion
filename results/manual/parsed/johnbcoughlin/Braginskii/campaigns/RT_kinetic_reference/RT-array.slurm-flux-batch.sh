@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RT-kinetic-reference
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=ckpt
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=RT-kinetic-reference
+#FLUX --gpus-per-task=1
+#FLUX --queue=ckpt
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'
 

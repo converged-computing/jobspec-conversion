@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eq310i
-#FLUX: -n=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eq310i
+#FLUX -n=2
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

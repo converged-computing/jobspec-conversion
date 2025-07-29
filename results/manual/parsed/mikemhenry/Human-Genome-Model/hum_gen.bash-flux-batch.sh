@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hope-5164
-#FLUX: --queue=gpuq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-staircase-3784
+#FLUX --queue=gpuq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ulimit -u 9999
 ulimit -s unlimited

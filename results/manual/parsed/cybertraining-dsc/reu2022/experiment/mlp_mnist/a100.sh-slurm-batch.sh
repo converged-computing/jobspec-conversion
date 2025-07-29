@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=a100.sh
-#FLUX: --queue=gpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=a100.sh
+#SBATCH --output=a100.log
+#SBATCH --error=a100.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=4GB
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu
 
 echo "# cloudmesh status=running progress=1 pid=$SLURM_JOB_ID"
 nvidia-smi

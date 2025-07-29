@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cls
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=cls
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=06:00:00
+#SBATCH --array=0
 
 module load cuda/11.1.1
 module load gcc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lettuce-1891
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lentil-5633
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pentschev/nvrapids_olcf/dask-cuda-cupy-batch/launch_dask_cuda_cupy_workers.lsf

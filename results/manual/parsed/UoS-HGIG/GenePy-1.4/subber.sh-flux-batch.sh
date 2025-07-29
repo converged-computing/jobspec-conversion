@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-carrot-4202
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-lizard-2354
+#FLUX -t=14400
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load conda/py2-latest

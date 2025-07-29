@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=longf-tune
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=longf-tune
+#FLUX -n=6
+#FLUX --queue=a100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$(ncvd)'
 export TOKENIZERS_PARALLELISM='false'

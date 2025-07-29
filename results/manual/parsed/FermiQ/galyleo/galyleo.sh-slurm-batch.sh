@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hippo-1182
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 declare -xr GALYLEO_INSTALL_DIR="${PWD}"
 declare -xr GALYLEO_CACHE_DIR="${HOME}/.galyleo"

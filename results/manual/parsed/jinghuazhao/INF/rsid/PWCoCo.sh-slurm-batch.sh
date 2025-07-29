@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_pwcoco
-#FLUX: --queue=cardio
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=_pwcoco
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=DIR/_gwasglue.o
+#SBATCH --error=DIR/_gwasglue.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=12:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
 
 function gwasglue()
 {

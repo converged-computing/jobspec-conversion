@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=AE_NF_UE_Model1
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=AE_NF_UE_Model1
+#SBATCH --output=job_files/train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=14:00:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2021

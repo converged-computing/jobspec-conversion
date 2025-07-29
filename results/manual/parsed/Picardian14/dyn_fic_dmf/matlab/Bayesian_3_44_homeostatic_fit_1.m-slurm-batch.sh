@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BigGHomFit1
-#FLUX: -c=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=BigGHomFit1
+#SBATCH --output=outputs/BigGHomFit1.out
+#SBATCH --error=outputs/BigGHomFit1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
 
 ml MATLAB/R2022b
 matlab -nodisplay<<-EOF

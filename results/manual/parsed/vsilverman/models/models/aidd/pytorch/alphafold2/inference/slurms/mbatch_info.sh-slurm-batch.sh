@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iaf2info
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#SBATCH --job-name=iaf2info
+#SBATCH --output=mbatchinfo_out_%j.txt
+#SBATCH --error=mbatchinfo_err_%j.txt
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=64c512g
+#SBATCH: --exclusive
 
 echo "----"
 echo jobid=$SLURM_JOB_ID # job index

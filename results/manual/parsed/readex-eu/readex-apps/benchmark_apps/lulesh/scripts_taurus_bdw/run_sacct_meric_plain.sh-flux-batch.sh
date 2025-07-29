@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh_sacct
-#FLUX: -c=28
+#FLUX --job-name=lulesh_sacct
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

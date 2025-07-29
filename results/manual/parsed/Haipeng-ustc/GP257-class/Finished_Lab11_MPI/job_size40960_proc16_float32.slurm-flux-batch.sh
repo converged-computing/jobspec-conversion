@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-knife-4042
-#FLUX: -N=2
-#FLUX: -n=16
+#FLUX --job-name=bumfuzzled-butter-1965
+#FLUX -N=2
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=serc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 MATSIZE=40960
 echo;

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-platanos-5006
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-rabbit-3460
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load python/3.6.3
 source /home/ahamsala/torch_DPR/bin/activate

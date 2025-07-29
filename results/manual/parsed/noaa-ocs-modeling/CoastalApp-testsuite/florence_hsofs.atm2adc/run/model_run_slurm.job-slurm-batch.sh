@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FLOFS_atm2adc_RUN
-#FLUX: -n=150
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=FLOFS_atm2adc_RUN
+#SBATCH --account=coastal
+#SBATCH --output=FLOFS_atm2adc_RUN.out.log
+#SBATCH --error=FLOFS_atm2adc_RUN.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=150
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

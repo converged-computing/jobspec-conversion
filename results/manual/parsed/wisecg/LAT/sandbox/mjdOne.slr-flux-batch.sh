@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mjr-cori
-#FLUX: -c=64
-#FLUX: --queue=debug
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=mjr-cori
+#FLUX -c=64
+#FLUX --queue=debug
+#FLUX -t=1500
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PROC_BIND='true'

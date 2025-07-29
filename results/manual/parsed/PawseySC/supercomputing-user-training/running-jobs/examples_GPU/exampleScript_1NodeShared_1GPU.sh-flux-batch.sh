@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1GPUSharedNode
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=1GPUSharedNode
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1           #This controls the real CPU-cores per task for the executable'
 

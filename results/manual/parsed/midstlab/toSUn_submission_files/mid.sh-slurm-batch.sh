@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FEP
-#FLUX: --queue=mid_mdbf
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=FEP
+#SBATCH --account=mdbf
+#SBATCH --output=%j-log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=mid_mdbf
+#SBATCH --qos=mid_mdbf
+#SBATCH --constraint=ntasks-per-node=24
 
 INPUT_FILE="tmpp_i94l-a26t-w30g_50ns_eq.conf"
 source /etc/profile.d/modules.sh

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=526_infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=526_infer
+#SBATCH --account=miran045
+#SBATCH --output=infer_526-%j.out
+#SBATCH --error=infer_526-%j.err
+#SBATCH --mail-user=reine097@umn.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64g
+#SBATCH --time=02:00:00
 
 export nnUNet_raw_data_base='/scratch.global/reine097/nnUNet/nnUNet_raw_data_base'
 export nnUNet_preprocessed='/scratch.global/reine097/nnUNet/nnUNet_raw_data_base/nnUNet_preprocessed'

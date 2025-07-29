@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-bm-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch-bm-cgpu
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 export BENCHMARK_RESULTS_PATH='$SCRATCH/pytorch-benchmarks/results/gpu-$version-$backend-n$SLURM_NTASKS'
 

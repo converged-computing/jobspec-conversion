@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-1668
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/labordynamicsinstitute/code-fragments/qtility/census/qgauss

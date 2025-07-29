@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mut_gatk_ptpn11
-#FLUX: -N=3
-#FLUX: -c=32
-#FLUX: -t=169800
-#FLUX: --urgency=16
+#SBATCH --job-name=mut_gatk_ptpn11
+#SBATCH --output=slurm.%N.%J.%u.%a.out
+#SBATCH --error=slurm.%N.%J.%u.%a.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64gb
+#SBATCH --time=1-23:10:00
+#SBATCH --array=1-99
 
 echo "Starting at $(date)"
 echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partition on ${SLURM_CLUSTER_NAME}"

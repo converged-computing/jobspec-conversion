@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cylStudy_MA1P1_greasy_PCA_RNN
-#FLUX: -N=112
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cylStudy_MA1P1_greasy_PCA_RNN
+#SBATCH --account=s929
+#SBATCH --output=/scratch/snx3000/pvlachas/LED/Code/Results/cylReLEDStudyHR/Logs/cylStudy_MA1P1_greasy_PCA_RNN_outputfile_JID%j_A%a.txt
+#SBATCH --error=/scratch/snx3000/pvlachas/LED/Code/Results/cylReLEDStudyHR/Logs/cylStudy_MA1P1_greasy_PCA_RNN_errorfile_JID%j_A%a.txt
+#SBATCH --nodes=112
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export HYPRE_ROOT='/users/novatig/hypre/build'
 export GSL_ROOT='/apps/daint/UES/jenkins/7.0.UP02/gpu/easybuild/software/GSL/2.5-CrayGNU-20.08'

@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-despacito-0152
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=hpc6anpg
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/log/wrf.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=hpc6anpg
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=24
 
 export WRF_VERSION='3.9.1'
 export JOB_DIR='${PREFIX}/spooler/wrf_sample_3.9'

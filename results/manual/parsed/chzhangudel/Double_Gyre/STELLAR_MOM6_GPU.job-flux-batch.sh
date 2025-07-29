@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=MOM6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=MOM6
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/lib64:/home/cz3321/torch_gpu/lib'
 

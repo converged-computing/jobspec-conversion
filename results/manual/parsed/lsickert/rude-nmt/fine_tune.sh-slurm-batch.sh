@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fine_tune_model
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=fine_tune_model
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64GB
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 export TRANSFORMERS_CACHE='/scratch/$USER/.cache/huggingface/transformers'

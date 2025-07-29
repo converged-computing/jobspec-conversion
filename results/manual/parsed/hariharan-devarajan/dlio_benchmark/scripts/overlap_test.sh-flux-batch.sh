@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-6810
-#FLUX: --urgency=16
+#FLUX --job-name=phat-arm-8451
+#FLUX --urgency=16
 

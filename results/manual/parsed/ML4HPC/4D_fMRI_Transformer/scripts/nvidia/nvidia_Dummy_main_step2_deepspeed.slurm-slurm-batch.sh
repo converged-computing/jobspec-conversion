@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-5011
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=../
 
 export OMPI_MCA_btl_openib_warn_default_gid_prefix='0'
 export OMPI_MCA_btl_openib_cpc_exclude='rdmacm'

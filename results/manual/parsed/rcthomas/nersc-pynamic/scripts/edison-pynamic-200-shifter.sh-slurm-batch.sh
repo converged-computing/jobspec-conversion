@@ -1,12 +1,22 @@
 #!/bin/bash
-#FLUX: --job-name=edison-pynamic-200-shifter
-#FLUX: -N=200
-#FLUX: --queue=regular
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=edison-pynamic-200-shifter
+#SBATCH --account=mpccc
+#SBATCH --output=logs/slurm-edison-pynamic-200-shifter-%j.out
+#SBATCH --mail-user=rcthomas@lbl.gov
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=200
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --partition=regular
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=24
 
 export PMI_MMAP_SYNC_WAIT_TIME='300'
 
+singularity
+exec
+docker:registry.services.nersc.gov/pynamic:2.6a1
 commit=true
 debug=false
 if [ $debug = true ]; then

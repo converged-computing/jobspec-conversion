@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RabbitThickness
-#FLUX: -c=20
-#FLUX: --queue=small
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=RabbitThickness
+#FLUX -c=20
+#FLUX --queue=small
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.4

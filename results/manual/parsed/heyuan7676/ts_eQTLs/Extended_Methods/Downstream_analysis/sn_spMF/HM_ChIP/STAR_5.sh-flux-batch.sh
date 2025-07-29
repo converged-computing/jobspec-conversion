@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-frito-9803
-#FLUX: -n=6
-#FLUX: --queue=lrgmem
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-plant-1913
+#FLUX -n=6
+#FLUX --queue=lrgmem
+#FLUX -t=180000
+#FLUX --urgency=16
 
 cd /home-4/yhe23@jhu.edu/work/yuan/tools/STAR-2.7.1a/bin/Linux_x86_64_static
 genome_index_idr=/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/STAR/genome_index

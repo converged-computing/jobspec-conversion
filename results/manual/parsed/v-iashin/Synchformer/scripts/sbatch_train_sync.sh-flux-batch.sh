@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-2942
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-bits-9949
+#FLUX --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'
 export MASTER_ADDR='$MASTER_ADDR'

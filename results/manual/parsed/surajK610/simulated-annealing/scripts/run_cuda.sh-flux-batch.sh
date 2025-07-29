@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-taco-0092
-#FLUX: --queue=3090-gcondo
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-blackbean-8647
+#FLUX --queue=3090-gcondo
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Current Working Directory (CWD): $(pwd)"
 module load cuda/12.2.2  gcc/10.2   

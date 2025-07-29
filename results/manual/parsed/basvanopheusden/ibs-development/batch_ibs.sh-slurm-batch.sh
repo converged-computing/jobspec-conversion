@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ibs
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ibs
+#SBATCH --output=ibs_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-120
 
 PROJECT_FOLDER="ibs-dev"
 model=fourinarow

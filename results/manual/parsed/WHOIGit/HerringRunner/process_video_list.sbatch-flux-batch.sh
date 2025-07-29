@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=framelist
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=framelist
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME", ArrayTask: $SLURM_ARRAY_TASK_ID
 echo "Command: $0 $@"

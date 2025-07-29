@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pastry-3129
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --mail-user=hannah.blau@jax.org
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=23:00:00
+#SBATCH --qos=batch
 
 module load singularity
 singularity exec marea_python.sif python ../scripts/post_process.py \

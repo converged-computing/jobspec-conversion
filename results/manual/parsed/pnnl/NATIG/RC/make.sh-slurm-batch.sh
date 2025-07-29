@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-7474
-#FLUX: -t=231300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-16:15:00
 
 export RD2C='${PWD}'
 export FNCS_INSTALL='${RD2C}'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chip-5904
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-gato-2016
+#FLUX -c=10
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-fork-0954
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=20:00:00
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

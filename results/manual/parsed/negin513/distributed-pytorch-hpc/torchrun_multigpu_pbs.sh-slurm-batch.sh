@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-salad-5265
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/negin513/distributed-pytorch-hpc/torchrun_multigpu_pbs.sh

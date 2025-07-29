@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=comsol_runex
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=highmem
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=comsol_runex
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=7500MB
+#SBATCH --time=01:00:00
+#SBATCH --partition=highmem
+#SBATCH: --exclusive
 
 inp=$1  # First input argument: Name of input without extention
 std=$2  # Second input argument: Type of study

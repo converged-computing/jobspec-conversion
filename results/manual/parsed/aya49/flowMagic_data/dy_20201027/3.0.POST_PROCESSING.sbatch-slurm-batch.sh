@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leg-1246
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=./3.0.post_processing/POSTPROC_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \
 -B /mnt/f/Brinkman\ group/COVID/data/code/:/code/ \

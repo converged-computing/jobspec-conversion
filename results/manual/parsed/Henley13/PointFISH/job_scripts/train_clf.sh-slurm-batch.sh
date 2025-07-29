@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=features
-#FLUX: -c=6
-#FLUX: --queue=cbio-gpu
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#SBATCH --job-name=features
+#SBATCH --output=/cluster/CBIO/home/aimbert/logs/log-%A_%a.log
+#SBATCH --error=/cluster/CBIO/home/aimbert/logs/log-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:P100:1
+#SBATCH --mem=28000
+#SBATCH --time=01:40:00
+#SBATCH --partition=cbio-gpu
+#SBATCH --array=1-4%4
 
 echo 'Running train_clf.sh...'
 echo "SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID

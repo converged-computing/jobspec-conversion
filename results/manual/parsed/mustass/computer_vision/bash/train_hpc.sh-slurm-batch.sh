@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-9914
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mustass/computer_vision/bash/train_hpc.sh

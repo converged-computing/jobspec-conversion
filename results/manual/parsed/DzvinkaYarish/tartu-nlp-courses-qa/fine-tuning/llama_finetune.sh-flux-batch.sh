@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-earthworm-0293
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-diablo-2503
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=240000
+#FLUX --urgency=16
 
 module load cuda/11.7.0
 module load any/python/3.8.3-conda

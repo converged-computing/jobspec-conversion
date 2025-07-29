@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-4036
-#FLUX: --queue=pbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-bike-8246
+#FLUX --queue=pbatch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -u
 shopt -s globstar

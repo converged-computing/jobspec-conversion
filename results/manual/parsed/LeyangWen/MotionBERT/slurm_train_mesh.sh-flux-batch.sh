@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MB_train_mesh
-#FLUX: -c=4
-#FLUX: --queue=spgpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=MB_train_mesh
+#FLUX -c=4
+#FLUX --queue=spgpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 my_job_header
 module load python3.10-anaconda

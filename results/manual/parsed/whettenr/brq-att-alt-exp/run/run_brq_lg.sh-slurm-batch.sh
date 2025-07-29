@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=b_l
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=gpu_p2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=b_l
+#SBATCH --account=nkp@v100
+#SBATCH --output=log/lg_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p2
+#SBATCH: --exclusive
+#SBATCH --constraint=v100
 
 module load pytorch-gpu/py3/2.1.1
 conda activate aa

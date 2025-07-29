@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_ad
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=run_ad
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo `date`
 echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID

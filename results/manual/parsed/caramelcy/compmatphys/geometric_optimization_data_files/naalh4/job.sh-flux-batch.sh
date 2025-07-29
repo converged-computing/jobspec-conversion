@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=19280
-#FLUX: -N=3
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=19280
+#FLUX -N=3
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 hostname
 module load DL-CondaPy/3.7

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hope-4106
-#FLUX: -c=7
-#FLUX: --queue=small-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_465000934
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=00:10:00
+#SBATCH --partition=small-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

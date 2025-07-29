@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-staircase-6564
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=blank-pancake-7409
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

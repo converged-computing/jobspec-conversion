@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=genedisco_special_acquisition
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=genedisco_special_acquisition
+#SBATCH --output=/home/mila/c/chris.emezue/genedisco/slurmoutput_special_acquisition_test.txt
+#SBATCH --error=/home/mila/c/chris.emezue/genedisco/slurmerror_special_acquisition_test.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:20GB:1
+#SBATCH --mem=100G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:8'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mila/c/chris.emezue/genedisco/genv/lib'

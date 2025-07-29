@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=exago_spack
-#FLUX: -n=128
-#FLUX: --queue=newell8
-#FLUX: --urgency=16
+#SBATCH --job-name=exago_spack
+#SBATCH --account=earthshot
+#SBATCH --output=spack_install.%J.output
+#SBATCH --error=spack_install.%J.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=newell8
 
 export MY_CLUSTER='newell'
 

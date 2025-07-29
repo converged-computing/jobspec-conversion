@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-egg-3806
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/slaclab/singularity-modules/images/relion/3.0.4/lsf/lsf-batch-submission_cpu.script

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Atari
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=36
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Atari
+#SBATCH --mail-user=paul.templier@isae-supaero.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=36
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 

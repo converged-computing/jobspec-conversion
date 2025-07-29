@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-animal-2940
-#FLUX: -n=18
-#FLUX: --queue=gpu
-#FLUX: -t=6900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=18
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10000
+#SBATCH --time=01:55:00
+#SBATCH --partition=gpu
+#SBATCH --qos=medium
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

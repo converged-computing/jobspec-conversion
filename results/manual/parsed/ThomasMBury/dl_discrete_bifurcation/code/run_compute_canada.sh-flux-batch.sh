@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reproducible_run
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=reproducible_run
+#FLUX -c=4
+#FLUX -t=28800
+#FLUX --urgency=16
 
 echo Job $SLURM_JOB_ID released
 echo Load modules

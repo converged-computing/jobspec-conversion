@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=JobName
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=JobName
+#SBATCH --output=output.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:30:00
 
 processes=$1
 size=$2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=afhp-setup
-#FLUX: --queue=nvidia_small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=afhp-setup
+#FLUX --queue=nvidia_small
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

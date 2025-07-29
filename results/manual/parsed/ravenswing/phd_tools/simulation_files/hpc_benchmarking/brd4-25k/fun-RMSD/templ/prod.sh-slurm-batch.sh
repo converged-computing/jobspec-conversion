@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-6218
-#FLUX: -c=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=%j_%i.out
+#SBATCH --error=%j_%i.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=3G
+#SBATCH --time=02:00:00
 
 export GMX='gmx_mpi'
 

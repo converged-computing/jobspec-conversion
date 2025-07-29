@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=docker
-#FLUX: --urgency=16
+#FLUX --job-name=docker
+#FLUX --urgency=16
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate optimol_cpu

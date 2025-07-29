@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-plant-8068
-#FLUX: -c=4
-#FLUX: -t=9600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-pancake-5640
+#FLUX -c=4
+#FLUX -t=9600
+#FLUX --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

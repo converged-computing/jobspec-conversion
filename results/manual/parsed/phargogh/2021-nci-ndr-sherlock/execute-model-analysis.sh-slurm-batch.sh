@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NCI-NOXN-model-analysis
-#FLUX: -c=20
-#FLUX: --queue=hns,normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NCI-NOXN-model-analysis
+#SBATCH --output=/scratch/users/jadoug06/slurm-logfiles/slurm-%j.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hns,normal
 
 set -ex
 MODEL_ANALYSIS_WORKSPACE="${NOXN_WORKSPACE:-$1}"  # final location of pipeline outputs

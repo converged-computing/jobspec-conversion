@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nalgas-2716
-#FLUX: -c=4
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=1000
+#SBATCH --time=00:24:00
 
 FILE="$(readlink -f $1)"
 OUTDIR="$(readlink -f $2)"

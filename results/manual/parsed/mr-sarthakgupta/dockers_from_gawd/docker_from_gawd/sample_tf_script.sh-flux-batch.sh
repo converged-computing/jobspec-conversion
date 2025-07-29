@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf_job_test
-#FLUX: --queue=dgx
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=tf_job_test
+#FLUX --queue=dgx
+#FLUX -t=1500
+#FLUX --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 echo "SLURM_JOBID="$SLURM_JOBID

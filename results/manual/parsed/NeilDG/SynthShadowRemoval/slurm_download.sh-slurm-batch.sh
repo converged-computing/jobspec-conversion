@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DOWNLOAD
-#FLUX: --queue=serial
-#FLUX: --urgency=16
+#SBATCH --job-name=DOWNLOAD
+#SBATCH --output=script_download.out
+#SBATCH --mail-user=neil.delgallego@dlsu.edu.ph
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=serial
+#SBATCH --qos=84c-1d_serial
 
 SERVER_CONFIG=$1
 module load anaconda/3-2021.11

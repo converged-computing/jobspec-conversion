@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-toaster-3193
-#FLUX: -c=12
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#SBATCH --account=def-franlp
+#SBATCH --output=outputs/%x-%A-%a.out
+#SBATCH --mail-user=sebastien.henwood@polymtl.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120G
+#SBATCH --time=3-00:12:00
 
 module load StdEnv/2020 python/3.9 cuda cudnn
 u=${u:-sebwood}

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=KerasMLP
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=KerasMLP
+#SBATCH --output=/OSM/CBR/AF_WQ/source/Franz/Log/Keras/kerasmlp2_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
 
 module load python/3.6.1
 module load keras/2.1.3-py36

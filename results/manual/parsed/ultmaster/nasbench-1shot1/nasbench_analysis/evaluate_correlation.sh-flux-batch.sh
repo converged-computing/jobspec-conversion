@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=correlation
-#FLUX: -c=2
-#FLUX: --queue=ml_gpu-rtx2080
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#FLUX --job-name=correlation
+#FLUX -c=2
+#FLUX --queue=ml_gpu-rtx2080
+#FLUX -t=950400
+#FLUX --urgency=16
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

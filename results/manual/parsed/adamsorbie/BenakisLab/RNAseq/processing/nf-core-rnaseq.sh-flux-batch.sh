@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=str_sh_rnaseq
-#FLUX: -c=24
-#FLUX: --queue=teramem_inter
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=str_sh_rnaseq
+#FLUX -c=24
+#FLUX --queue=teramem_inter
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 

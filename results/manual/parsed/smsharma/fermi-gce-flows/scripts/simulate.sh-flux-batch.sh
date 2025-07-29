@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=simulate
-#FLUX: -t=39540
-#FLUX: --urgency=16
+#FLUX --job-name=simulate
+#FLUX -t=39540
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate sbi-fermi

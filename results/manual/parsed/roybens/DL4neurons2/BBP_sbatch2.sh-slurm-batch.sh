@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DL4N_full_prod
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=DL4N_full_prod
+#SBATCH --output=logs/%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl
+#SBATCH --array=1-1
+#SBATCH --licenses=SCRATCH,cfs
 
 export OMP_NUM_THREADS='1'
 export THREADS_PER_NODE='1'
@@ -13,6 +19,9 @@ export stimname3='ramp'
 export stimname4='chirp'
 export stimname5='step_500'
 
+singularity
+exec
+balewski/ubu20-neuron8:v3
 export OMP_NUM_THREADS=1
 module unload craype-hugepages2M
 OUT_DIR=/global/cscratch1/sd/roybens/bbpexcv3/wrk/

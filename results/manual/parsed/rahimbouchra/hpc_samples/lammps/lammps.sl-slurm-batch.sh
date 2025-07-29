@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LMP
-#FLUX: -n=16
-#FLUX: --queue=shortq
-#FLUX: --urgency=16
+#SBATCH --job-name=LMP
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=shortq
 
 export WORK_DIR='/data/$USER/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/myInput'

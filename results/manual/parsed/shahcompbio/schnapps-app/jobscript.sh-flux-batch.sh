@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-pancake-4210
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-parsnip-6849
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shahcompbio/schnapps-app/jobscript.sh

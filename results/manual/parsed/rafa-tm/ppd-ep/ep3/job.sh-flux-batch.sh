@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lap_opm
-#FLUX: -c=96
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=lap_opm
+#FLUX -c=96
+#FLUX --queue=fast
+#FLUX -t=5400
+#FLUX --urgency=16
 
     lscpu
     echo "    "

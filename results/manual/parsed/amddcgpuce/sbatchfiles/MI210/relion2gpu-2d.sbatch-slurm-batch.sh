@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-car-2284
-#FLUX: -c=7
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.err
+#SBATCH --error=%x-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:2
+#SBATCH --mem=128GB
+#SBATCH --constraint=ntasks-per-node=17
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

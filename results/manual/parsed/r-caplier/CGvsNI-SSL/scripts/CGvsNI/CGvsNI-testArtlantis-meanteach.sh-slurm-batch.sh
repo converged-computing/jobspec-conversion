@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-earthworm-8081
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/r-caplier/CGvsNI-SSL/scripts/CGvsNI/CGvsNI-testArtlantis-meanteach.sh

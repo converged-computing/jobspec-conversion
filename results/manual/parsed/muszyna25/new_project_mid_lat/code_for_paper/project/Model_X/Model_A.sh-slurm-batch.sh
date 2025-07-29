@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-eagle-6663
-#FLUX: -N=5
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --mail-user=gmuszynski@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --qos=premium
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH
 
 set -u
 BATCH_START_TIME=$(date)

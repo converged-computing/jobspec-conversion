@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RNAseq
-#FLUX: -n=2
-#FLUX: --queue=medium
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=RNAseq
+#FLUX -n=2
+#FLUX --queue=medium
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export LOGDIR='${HOME}/scratch/slogs/${SLURM_JOB_NAME}-${SLURM_JOB_ID}'
 export TMPDIR='/fast/users/${USER}/scratch/tmp;'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-blackbean-8551
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/SAMPL6_logP_ref_calc/wet_octanol_GAFF_tip3pFB/t1/yank_run-lsf.sh

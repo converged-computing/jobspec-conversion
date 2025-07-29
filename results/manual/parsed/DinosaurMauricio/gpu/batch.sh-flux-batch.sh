@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=edu5
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=edu5
+#FLUX -t=300
+#FLUX --urgency=16
 
 if [ "$#" -eq 2 ]; then
     srun ./bin/gpu_transpose "$1" "$2"

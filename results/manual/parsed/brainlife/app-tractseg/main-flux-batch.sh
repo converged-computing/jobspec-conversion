@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chip-0989
-#FLUX: --urgency=16
+#FLUX --job-name=blank-general-7019
+#FLUX --urgency=16
 
 module load cuda/10.0
 set -x

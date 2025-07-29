@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-kerfuffle-2999
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-milkshake-5633
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load python/3.6
 source ~/projects/def-jrouat/lucacehe/denv2/bin/activate

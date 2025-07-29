@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prior_mc
-#FLUX: --queue=CPUQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=prior_mc
+#FLUX --queue=CPUQ
+#FLUX -t=259200
+#FLUX --urgency=16
 
 call="source('$1')"
 WORKDIR=${SLURM_SUBMIT_DIR}

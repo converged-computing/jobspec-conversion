@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CNN-learn
-#FLUX: --queue=gpumedium
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=CNN-learn
+#FLUX --queue=gpumedium
+#FLUX -t=3600
+#FLUX --urgency=16
 
 timer=`date +%s`
 function log {

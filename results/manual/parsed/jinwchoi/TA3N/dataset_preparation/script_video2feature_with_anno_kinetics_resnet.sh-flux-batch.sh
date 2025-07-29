@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet-ktr
-#FLUX: -c=9
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet-ktr
+#FLUX -c=9
+#FLUX -t=518400
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo $CUDA_VISIBLE_DEVICES

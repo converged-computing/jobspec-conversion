@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pastry-3676
-#FLUX: -N=2
+#FLUX --job-name=dinosaur-kerfuffle-6135
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=gxlarge
-#FLUX: --urgency=16
+#FLUX --queue=gxlarge
+#FLUX --urgency=16
 
 export IOR_VERSION='4.0.0rc1'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=robustness_resnet
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=robustness_resnet
+#SBATCH --output=/home/%u/job_logs/%x_%A_%u.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000M
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_shared_course
 
 module purge
 module load 2021

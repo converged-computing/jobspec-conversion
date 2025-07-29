@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pancake-9030
-#FLUX: --urgency=16
+#FLUX --job-name=angry-puppy-2219
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UKPLab/arxiv2018-bayesian-ensembles/batch_scripts/PBSPro/run_FAM.sh

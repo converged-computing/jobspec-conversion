@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Rans4-AMR
-#FLUX: -n=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Rans4-AMR
+#SBATCH --account=open
+#SBATCH --output=Rans4-AMR.out
+#SBATCH --error=Rans4-AMR.err
+#SBATCH --mail-user=sjc6663@psu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=2-00:00:00
 
 export NXF_WORK='/storage/home/sjc6663/scratch/nf-work-rans/b4'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-8676
-#FLUX: -n=20
-#FLUX: --queue=_______
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-egg-0043
+#FLUX -n=20
+#FLUX --queue=_______
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load gcc/9.2.0 openmpi/3.1.6 R/4.2.1
 for i in $(ls ../mapped/*.bam)

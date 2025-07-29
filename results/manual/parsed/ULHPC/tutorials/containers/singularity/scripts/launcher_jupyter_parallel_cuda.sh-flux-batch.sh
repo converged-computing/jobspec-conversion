@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Singularity_Jupyter_parallel_cuda
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Singularity_Jupyter_parallel_cuda
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export VENV='$HOME/.envs/venv_cuda_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'

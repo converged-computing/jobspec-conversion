@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poo-1382
-#FLUX: -N=24
-#FLUX: -n=768
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-cattywampus-8424
+#FLUX -N=24
+#FLUX -n=768
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load autohbw/default
 module swap craype-haswell craype-mic-knl

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sample
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=sample
+#SBATCH --output=%J.out
+#SBATCH --error=%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='6   '
 

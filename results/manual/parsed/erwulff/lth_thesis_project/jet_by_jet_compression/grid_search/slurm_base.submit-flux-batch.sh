@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-earthworm-6223
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-nunchucks-4139
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cat $0
 ml GCCcore/5.4.0

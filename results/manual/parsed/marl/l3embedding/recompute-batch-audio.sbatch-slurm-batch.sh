@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=recompute-batch-audio
-#FLUX: -c=20
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=recompute-batch-audio
+#SBATCH --output=recompute-batch-audio_%j.out
+#SBATCH --error=recompute-batch-audio_%j.err
+#SBATCH --mail-user=jtc440@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=62GB
+#SBATCH --time=7-00:00:00
 
 source ~/.bashrc
 cd /home/$USER/dev

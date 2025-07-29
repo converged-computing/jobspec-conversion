@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=covid-19_x0072
-#FLUX: --queue=pascal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=covid-19_x0072
+#FLUX --queue=pascal
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

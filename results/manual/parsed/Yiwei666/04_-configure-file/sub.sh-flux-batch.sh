@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-snack-2265
-#FLUX: -n=64
-#FLUX: --queue=amd_256
-#FLUX: --urgency=16
+#FLUX --job-name=confused-fudge-9678
+#FLUX -n=64
+#FLUX --queue=amd_256
+#FLUX --urgency=16
 
 export PATH='/public21/soft/cp2k/8.1/exe/local:$PATH'
 export CP2K_DATA_DIR='/public21/soft/cp2k/8.1/data'

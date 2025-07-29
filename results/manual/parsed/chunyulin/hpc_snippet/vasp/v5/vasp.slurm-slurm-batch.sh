@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vasp
-#FLUX: -t=88200
-#FLUX: --urgency=16
+#SBATCH --job-name=vasp
+#SBATCH --account=GOV108008
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=1-00:30:00
+#SBATCH --constraint=ntasks-per-node=32,ntasks-per-socket=16
 
 export I_MPI_PMI_LIBRARY='/lib64/libpmi.so'
 

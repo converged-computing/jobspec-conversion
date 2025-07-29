@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chair-0101
-#FLUX: -n=6
-#FLUX: --queue=GPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=placid-lettuce-2491
+#FLUX -n=6
+#FLUX --queue=GPU
+#FLUX -t=3600
+#FLUX --urgency=16
 
 MY_TMP_DIR=/slurmtmp/${SLURM_JOB_USER}.${SLURM_JOB_ID}
 mv <path/to/your/data/> ${MY_TMP_DIR}

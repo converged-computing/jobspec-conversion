@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-mango-1207
-#FLUX: --queue=nextflow
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-toaster-9109
+#FLUX --queue=nextflow
+#FLUX --urgency=16
 
 echo $1
 echo $2

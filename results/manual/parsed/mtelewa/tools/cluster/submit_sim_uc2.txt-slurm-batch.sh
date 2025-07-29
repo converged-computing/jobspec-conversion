@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Pump
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Pump
+#SBATCH --output=cluster.out
+#SBATCH --error=cluster.err
+#SBATCH --mail-user=mohamed.hassan@kit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=single
+#SBATCH --constraint=ntasks-per-node=32
 
 export KMP_AFFINITY='compact,1,0'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mu_fzl5
-#FLUX: -c=43
-#FLUX: -t=345540
-#FLUX: --urgency=16
+#FLUX --job-name=mu_fzl5
+#FLUX -c=43
+#FLUX -t=345540
+#FLUX --urgency=16
 
 source /N/u/baotruon/BigRed200/conda/etc/profile.d/conda.sh
 conda activate simsommodel

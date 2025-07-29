@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=main_srun
-#FLUX: -N=4
-#FLUX: -n=12
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#SBATCH --job-name=main_srun
+#SBATCH --output=/scratch/jw2636/bgc_md2/prototypes/working_group_2021/jon_yib/dask.out.%J
+#SBATCH --error=/scratch/jw2636/bgc_md2/prototypes/working_group_2021/jon_yib/dask.err.%J
+#SBATCH --nodes=4
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10GB
+#SBATCH --time=3-18:00:00
+#SBATCH --constraint=amd
+#SBATCH --chdir=/scratch/jw2636/bgc_md2/prototypes/working_group_2021/jon_yib
 
 module purge
 module load anaconda3/2021.05 #has to match the currently activated anaconda version in the shell

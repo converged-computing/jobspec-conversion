@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-spoon-9088
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-puppy-1006
+#FLUX -c=18
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/h14.1.log \

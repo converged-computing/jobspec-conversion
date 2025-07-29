@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=filip90-4
-#FLUX: -N=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=filip90-4
+#FLUX -N=4
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source /cluster/bin/jobsetup
 module load intel

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leopard-9969
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --output=jobname.job.%A.out
+#SBATCH --error=jobname.job.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048
+#SBATCH --time=11:30:00
+#SBATCH --partition=sched_mit_hill
+#SBATCH --constraint=centos7
 
 filename=jobname
 set -x

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-animal-3174
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-latke-7915
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export PATH='~/.local/bin:$PATH'
 

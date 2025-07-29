@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-despacito-4330
-#FLUX: --queue=True
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=True
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=True
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1
 
 export IBM_QUANTUM_TOKEN=''
 

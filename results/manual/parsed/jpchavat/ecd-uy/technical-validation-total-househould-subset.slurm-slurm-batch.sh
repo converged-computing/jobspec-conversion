@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dataset-processing
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=dataset-processing
+#SBATCH --mail-user=juan.pablo.chavat
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=120G
+#SBATCH --time=12:00:00
+#SBATCH --partition=normal
+#SBATCH --qos=normal
 
 source /etc/profile.d/modules.sh
 date

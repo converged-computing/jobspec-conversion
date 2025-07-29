@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-noodle-7659
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_2000599
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
 
 module load geoconda
 datadir=/appl/data/geo/sentinel/s2_example_data/L2A

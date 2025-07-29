@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-animal-0404
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source activate PopCOGenT
 source /home/parevalo/apps/mugsy_trunk/mugsyenv.sh

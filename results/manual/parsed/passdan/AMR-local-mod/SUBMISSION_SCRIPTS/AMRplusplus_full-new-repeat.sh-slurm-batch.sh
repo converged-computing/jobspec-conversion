@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-frito-3172
-#FLUX: -c=2
-#FLUX: --queue=epyc_ssd
-#FLUX: --urgency=16
+#SBATCH --output=logs/%J.out
+#SBATCH --error=logs/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4000
+#SBATCH --partition=epyc_ssd
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

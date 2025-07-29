@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-citrus-5970
-#FLUX: --queue=a100q
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-cat-2394
+#FLUX --queue=a100q
+#FLUX -t=900
+#FLUX --urgency=16
 
 nvidia-smi
 nvcc --version

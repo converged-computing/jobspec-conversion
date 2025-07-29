@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=n_3
-#FLUX: -n=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=n_3
+#FLUX -n=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export UCX_TLS='self, tcp'
 

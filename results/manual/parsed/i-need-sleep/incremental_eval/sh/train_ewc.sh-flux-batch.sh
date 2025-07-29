@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_ewc
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=train_ewc
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 export HF_HOME='/l/users/yichen.huang/misc/cache'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=biLouvainMethod
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=biLouvainMethod
+#FLUX --queue=debug
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load gcc/6.1.0
 folder="/global/homes/p/ppesante/biLouvain/inputData/"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=propulate-optuna-sphere
-#FLUX: --queue=accelerated
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=propulate-optuna-sphere
+#FLUX --queue=accelerated
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export DATA_DIR='/hkfs/work/workspace/scratch/qv2382-bigearthnet/'
 export BASE_DIR='/hkfs/work/workspace/scratch/qv2382-propulate/'

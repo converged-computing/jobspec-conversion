@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=purple-spoon-5874
-#FLUX: -c=6
-#FLUX: --queue=alpha
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --mail-user=dannell.quesada@tu-dresden.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=alpha
 
 module --force purge
 mkdir -p V-"$1"_d-"$3"/Data/precip V-"$1"_d-"$3"/models/precip

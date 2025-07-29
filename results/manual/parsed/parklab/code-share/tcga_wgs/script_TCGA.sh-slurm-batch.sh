@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-caramel-9788
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=park
+#SBATCH --output=log/TCGA_%A_%a.out
+#SBATCH --error=log/TCGA_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=medium
+#SBATCH --array=2-8
 
 export LD_LIBRARY_PATH='/n/data1/hms/dbmi/park/SOFTWARE/Sentieon/sentieon-genomics-202112.06/lib:$LD_LIBRARY_PATH'
 export SENTIEON_LICENSE='license.rc.hms.harvard.edu:8990'

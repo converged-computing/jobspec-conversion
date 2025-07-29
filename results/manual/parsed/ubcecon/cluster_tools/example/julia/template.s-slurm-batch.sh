@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Julia
-#FLUX: -c=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Julia
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
 
 module purge
 module load gcc/7.3.0 julia/1.2.0

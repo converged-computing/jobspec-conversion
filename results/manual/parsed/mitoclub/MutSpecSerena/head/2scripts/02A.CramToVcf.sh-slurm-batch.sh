@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Cram2Vcf
-#FLUX: -N=4
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=Cram2Vcf
+#SBATCH --output=CramToVcf.%J.out
+#SBATCH --error=CramToVcf.%J.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10gb
+#SBATCH --time=2-02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$PATH:/work/gr-fe/kostya/Serena/body/bcftools-1.9 # export bcftools'
 

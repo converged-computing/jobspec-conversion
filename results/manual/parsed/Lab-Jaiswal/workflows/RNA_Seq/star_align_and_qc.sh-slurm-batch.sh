@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=STAR_align_and_QC
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=STAR_align_and_QC
+#SBATCH --account=sjaiswal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=haswell|amd
 
 module load star #Load STAR into path
 module load picard #Load Picard into path

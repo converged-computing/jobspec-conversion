@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dask_host
+#FLUX --job-name=dask_host
 #FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

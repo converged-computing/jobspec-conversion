@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spm_xy_1e6_all_queries
-#FLUX: --queue=amd
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#FLUX --job-name=spm_xy_1e6_all_queries
+#FLUX --queue=amd
+#FLUX -t=14399
+#FLUX --urgency=16
 
 user="`whoami`"
 stars=$(printf '%*s' 100 '')

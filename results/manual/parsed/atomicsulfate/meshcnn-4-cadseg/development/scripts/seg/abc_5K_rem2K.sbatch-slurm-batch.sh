@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=MeshCNNABC5KRem2K
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=MeshCNNABC5KRem2K
+#SBATCH --output=%x_%j_%N.out
+#SBATCH --error=%x_%j_%N.out
+#SBATCH --mail-user=mandadoalmajano@campus.tu-berlin.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --chdir=/home/users/m/mandadoalmajano/dev
 
 echo $PWD
 echo "Entering working directory"

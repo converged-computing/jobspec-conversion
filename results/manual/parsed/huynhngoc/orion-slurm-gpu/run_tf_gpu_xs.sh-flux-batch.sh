@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_tf
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_tf
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load singularity
 nvidia-modprobe -u -c=0

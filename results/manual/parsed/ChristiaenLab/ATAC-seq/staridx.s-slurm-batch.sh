@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=staridx
-#FLUX: -n=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=staridx
+#SBATCH --output=staridx.out
+#SBATCH --error=staridx.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=10:00:00
 
 module purge
 module load star/intel

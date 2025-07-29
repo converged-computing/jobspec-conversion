@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-noodle-4955
-#FLUX: --queue=shared
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=/n/home11/mjzhang/gwas_informed_scRNAseq/scTRS/experiments/job_info/job_%A_%a.out
+#SBATCH --error=/n/home11/mjzhang/gwas_informed_scRNAseq/scTRS/experiments/job_info/job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=00:01:00
+#SBATCH --partition=shared
+#SBATCH --array=0-55
 
 BATCH_NUM=$SLURM_ARRAY_TASK_ID
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scTRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad

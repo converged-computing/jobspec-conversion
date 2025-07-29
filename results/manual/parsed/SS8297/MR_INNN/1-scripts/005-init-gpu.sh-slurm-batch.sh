@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leopard-5379
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=sens2022521
+#SBATCH --output=/proj/sens2022521/1-shuai/9-logs/%u-slurm-%j.out
+#SBATCH --mail-user=shuai1997@hotmail.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=core
+#SBATCH --constraint=gpu
 
 cd /proj/sens2022521/MindReader
 julia --project "/proj/sens2022521/MindReader/src/ReadMind.jl" \

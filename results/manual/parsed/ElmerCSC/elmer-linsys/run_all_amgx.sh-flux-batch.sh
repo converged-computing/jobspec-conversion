@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=amgx_all
-#FLUX: --queue=gpumedium
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=amgx_all
+#FLUX --queue=gpumedium
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 

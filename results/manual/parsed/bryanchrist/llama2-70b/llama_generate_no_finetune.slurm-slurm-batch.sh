@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama_generate_no_finetune
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_generate_no_finetune
+#SBATCH --account=sds-phd-2022
+#SBATCH --output=generate_no_finetune-%A.out
+#SBATCH --error=generate_no_finetune-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=200G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

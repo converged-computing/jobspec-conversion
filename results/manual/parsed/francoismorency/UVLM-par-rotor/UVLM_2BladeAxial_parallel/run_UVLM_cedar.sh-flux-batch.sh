@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=6
-#FLUX: -c=48
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=6
+#FLUX -c=48
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$MATLABHOME/bin/glnxa64'
 export OMP_NUM_THREADS='6'

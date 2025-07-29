@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=script_list.txt
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=script_list.txt
+#SBATCH --output=/external/rprshnas01/kcni/jxia/chromatin-accessibility/logs/slurm-script_list.txt-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --chdir=/external/rprshnas01/kcni/jxia/chromatin-accessibility
+#SBATCH --array=1-342
 
 export __Init_Default_Modules='1'
 export TMOUT='7200'

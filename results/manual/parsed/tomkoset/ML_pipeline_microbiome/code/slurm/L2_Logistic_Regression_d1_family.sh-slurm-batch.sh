@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=L2_logit-d1_family
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=L2_logit-d1_family
+#SBATCH --account=pschloss1
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=tomkoset@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
+#SBATCH --time=05:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-100
 
 seed=$(($SLURM_ARRAY_TASK_ID - 1))
 mkdir -p logs/slurm/

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-earthworm-1678
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-arm-1148
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load system py-globus-cli/1.9.0_py36
 if [ $# -ne 3 ]; then

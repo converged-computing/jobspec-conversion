@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-malarkey-6544
-#FLUX: -n=4
-#FLUX: --queue=shas
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=python_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
 
 module purge
 module load python/3.5.1

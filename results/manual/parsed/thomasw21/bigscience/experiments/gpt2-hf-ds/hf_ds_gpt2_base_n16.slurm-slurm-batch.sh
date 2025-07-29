@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hf_ds_gpt2_base_n16
-#FLUX: -N=16
-#FLUX: -c=40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hf_ds_gpt2_base_n16
+#SBATCH --account=six@gpu
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
 
 export PYTHONUNBUFFERED='1'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

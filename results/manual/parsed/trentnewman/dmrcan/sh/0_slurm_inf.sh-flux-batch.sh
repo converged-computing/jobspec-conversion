@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-earthworm-2139
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-fork-4703
+#FLUX --urgency=16
 
 SECONDS=0
 echo -e "~~~   ***   ~~~"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=find_lr
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=find_lr
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100
 
 echo "#################### Job submission script. #############################"
 cat $0

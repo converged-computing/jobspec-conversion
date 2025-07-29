@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-9927
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=amowli_lab_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:A30:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load anaconda/2022.05
 . ~/.mycondaconf

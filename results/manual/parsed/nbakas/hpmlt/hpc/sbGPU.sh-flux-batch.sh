@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-3745
-#FLUX: -n=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-hope-0531
+#FLUX -n=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load env/staging/2022.1
 module load Python/3.10.4-GCCcore-11.3.0

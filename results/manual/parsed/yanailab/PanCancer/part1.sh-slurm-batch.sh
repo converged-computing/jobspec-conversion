@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Gyn_part1
-#FLUX: -c=40
-#FLUX: --queue=cpu_short
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Gyn_part1
+#SBATCH --output=serial_test_%j.log
+#SBATCH --mail-user=db3562@nyulangone.org
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=100gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=cpu_short
 
 source ~/.bashrc
 if [ "$#" == 3 ]; then

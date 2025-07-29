@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vqvae
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=vqvae
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --queue=dev-g
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --queue=dev-g
+#FLUX -t=900
+#FLUX --urgency=16
 
 export EBU_USER_PREFIX='/project/project_462000559/EasyBuild'
 export PYTHONPATH='$PYTHONPATH:/scratch/project_462000559/kostis/libs/analysator'

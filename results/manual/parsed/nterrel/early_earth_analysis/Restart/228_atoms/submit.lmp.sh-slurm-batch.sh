@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_ani
-#FLUX: --queue=hpg-ai
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps_ani
+#SBATCH --account=roitberg
+#SBATCH --output=lammps_ani_%j_1.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --qos=roitberg
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAMMPS_ANI_ROOT='/blue/roitberg/apps/lammps-ani'
 export LAMMPS_ROOT='${LAMMPS_ANI_ROOT}/external/lammps/'

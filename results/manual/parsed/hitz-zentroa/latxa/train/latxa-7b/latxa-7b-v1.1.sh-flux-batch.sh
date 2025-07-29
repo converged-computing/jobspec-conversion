@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-6969
-#FLUX: -N=8
+#FLUX --job-name=creamy-parsnip-0232
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=boost_usr_prod
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export HOSTNAMES='$(scontrol show hostnames "$SLURM_JOB_NODELIST")'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

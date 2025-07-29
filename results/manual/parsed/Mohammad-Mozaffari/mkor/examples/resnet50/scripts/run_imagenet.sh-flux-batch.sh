@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-frito-9090
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=gpu-a100
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-truffle-0784
+#FLUX -N=8
+#FLUX -n=8
+#FLUX --queue=gpu-a100
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_rdf_slab-z_OE
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_rdf_slab-z_OE
+#SBATCH --output=gmx_rdf_slab-z_OE_slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=7-00:00:00
 
 analysis="rdf_slab-z_OE"
 thisfile=$(basename "${BASH_SOURCE[0]}")

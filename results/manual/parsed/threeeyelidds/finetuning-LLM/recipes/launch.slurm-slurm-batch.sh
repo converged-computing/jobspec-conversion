@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pendulum-llama
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pendulum-llama
+#SBATCH --output=/home/quantinx/finetuning-LLM/logs/llama2-pendulum.out
+#SBATCH --error=/home/quantinx/finetuning-LLM/logs/llama2-pendulum.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_HOME='/usr/local/cuda-12.2/'
 export PYTHONUNBUFFERED='1'

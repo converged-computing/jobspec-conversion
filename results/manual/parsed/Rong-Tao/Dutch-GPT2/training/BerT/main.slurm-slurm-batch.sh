@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=TR-for
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=kshdexclu04
-#FLUX: --urgency=16
+#SBATCH --job-name=TR-for
+#SBATCH --output=$base_log_dir/j.o
+#SBATCH --error=$base_log_dir/j.e
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:4
+#SBATCH --mem=0
+#SBATCH --partition=kshdexclu04
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export NCCL_IB_HCA='mlx5_0'
 export NCCL_SOCKET_IFNAME='ib0'

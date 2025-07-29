@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=genetic_algo
-#FLUX: -N=8
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#SBATCH --job-name=genetic_algo
+#SBATCH --mail-user=your@email.here
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=11:50:00
+#SBATCH --constraint=ntasks-per-node=40
 
 set -x
 module load cmake/3.23.1

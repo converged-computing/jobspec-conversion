@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-2455
-#FLUX: -c=42
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-bike-1709
+#FLUX -c=42
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5

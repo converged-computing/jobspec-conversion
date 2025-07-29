@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-2520
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DiRAC-benchmarks/DiRAC3-testsuite/src/ior/COSMA_submission_scripts/IOR_DiRAC/NW.FPS/NW.FPS.qsub

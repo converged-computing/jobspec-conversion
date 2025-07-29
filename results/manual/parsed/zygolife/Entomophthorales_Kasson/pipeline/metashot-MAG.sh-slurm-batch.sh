@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-0387
-#FLUX: -c=32
-#FLUX: --queue=intel
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --output=logs/mag.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128gb
+#SBATCH --time=8-00:00:00
+#SBATCH --partition=intel
+#SBATCH --array=1-14
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

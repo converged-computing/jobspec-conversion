@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-egg-8421
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --output=${PWD}/snakemake.%j.out
+#SBATCH --error=${PWD}/snakemake.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=8-08:00:00
 
 export TMPDIR='TMP'
 export REF_PATH='/data/DCEG_Trios/new_cgr_data/TriosCompass_v2/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pastry-8137
-#FLUX: --exclusive
-#FLUX: --queue=pvc
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
+#SBATCH --partition=pvc
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export ZE_FLAT_DEVICE_HIERARCHY='FLAT'
 

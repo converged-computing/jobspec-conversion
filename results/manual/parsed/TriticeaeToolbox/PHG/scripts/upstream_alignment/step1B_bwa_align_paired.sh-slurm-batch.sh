@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bwa-align-paired
-#FLUX: -n=20
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bwa-align-paired
+#SBATCH --output=stdout.%j.%N
+#SBATCH --error=stderr.%j.%N
+#SBATCH --mail-user=bpward2@ncsu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 module load samtools/1.9
 module load miniconda/3.6

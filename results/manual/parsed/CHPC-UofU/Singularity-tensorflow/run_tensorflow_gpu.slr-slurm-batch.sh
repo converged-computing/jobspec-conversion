@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-blackbean-5609
-#FLUX: --queue=kingspeak-gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=kingspeak-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=kingspeak-gpu
 
 nvidia-smi
 ml purge

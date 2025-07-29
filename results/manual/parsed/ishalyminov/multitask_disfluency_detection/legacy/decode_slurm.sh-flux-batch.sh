@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lentil-4893
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-lemon-2666
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 module purge
 module load shared

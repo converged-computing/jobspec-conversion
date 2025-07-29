@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=STAR
-#FLUX: -n=3
-#FLUX: --queue=core
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=STAR
+#SBATCH --account=naiss2023-5-52
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools 
 module load star/2.7.9a

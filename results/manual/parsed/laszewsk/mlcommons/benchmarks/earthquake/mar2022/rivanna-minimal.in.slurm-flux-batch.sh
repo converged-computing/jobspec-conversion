@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlcommons-science-eq-%u-%j
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=mlcommons-science-eq-%u-%j
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 PYTHON_VERSION="3.10.2"
 RUNSTAMP={job_run_name}

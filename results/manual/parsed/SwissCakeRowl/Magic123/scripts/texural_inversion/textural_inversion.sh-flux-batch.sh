@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dreamfusion
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=dreamfusion
+#FLUX -t=32400
+#FLUX --urgency=16
 
 module load gcc/7.5.0
 echo "===> Anaconda env loaded"

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=face_extract
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=face_extract
+#SBATCH --account=project_462000139
+#SBATCH --output=logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000
+#SBATCH --time=03:00:00
+#SBATCH --partition=small-g
+#SBATCH --array=0-99
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPICH_GPU_SUPPORT_ENABLED='1'

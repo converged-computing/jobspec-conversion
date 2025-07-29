@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NWSimImp
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=217800
-#FLUX: --urgency=16
+#SBATCH --job-name=NWSimImp
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-12:30:00
+#SBATCH --constraint=el7
+#SBATCH --array=1-16
 
 config=/nfs/stak/users/phatakg/ResearchCode/Sunbelt23/Code/bashScripts/config.txt
 sim=$(awk -v ArrayTaskID=$SLURM_ARRAY_TASK_ID '$1==ArrayTaskID {print $2}' $config)

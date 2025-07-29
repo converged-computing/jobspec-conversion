@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ndl-pytest
-#FLUX: -c=6
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=ndl-pytest
+#FLUX -c=6
+#FLUX -t=1200
+#FLUX --urgency=16
 
 SOURCEDIR=~/ndl
 VENV_DIR=~/pytorch_gpu

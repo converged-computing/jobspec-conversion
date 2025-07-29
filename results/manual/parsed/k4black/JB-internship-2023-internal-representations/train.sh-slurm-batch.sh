@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jb
-#FLUX: --queue=gpushort
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=jb
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpushort
 
 export NEPTUNE_PROJECT='k4black/jb-internal-representations'
 export TOKENIZERS_PARALLELISM='false'

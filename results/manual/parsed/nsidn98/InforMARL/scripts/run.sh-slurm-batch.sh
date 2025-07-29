@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-animal-6014
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-15
 
 source /etc/profile
 module load anaconda/2021a

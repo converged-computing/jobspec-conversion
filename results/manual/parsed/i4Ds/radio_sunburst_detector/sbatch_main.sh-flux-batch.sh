@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-punk-3506
-#FLUX: --queue=top6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-underoos-0062
+#FLUX --queue=top6
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH'
 export PATH='${PATH}:/usr/local/nvidia/bin:/usr/local/cuda/bin'

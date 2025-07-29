@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-notebook
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-notebook
+#SBATCH --output=jupyter-log-%j.txt
+#SBATCH --error=jupyter-log-%j.txt
+#SBATCH --mail-user=xxx.yyy@isae.fr
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 export XDG_RUNTIME_DIR=''
 

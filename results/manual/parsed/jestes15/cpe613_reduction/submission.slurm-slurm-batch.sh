@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=confused-blackbean-2700
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --partition=gpu
 
 lspci -vvv |& grep "NVIDIA" |& tee slurm-lspci.out
 make A100 && \

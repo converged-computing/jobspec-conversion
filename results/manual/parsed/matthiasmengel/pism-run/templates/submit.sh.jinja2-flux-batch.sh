@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name={{settings.experiment}}
-#FLUX: -n=160
-#FLUX: --queue=broadwell
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#FLUX --job-name={{settings.experiment}}
+#FLUX -n=160
+#FLUX --queue=broadwell
+#FLUX -t=85800
+#FLUX --urgency=16
 
 export PISM_ON_CLUSTER='1'
 export PATH='$NETCDF_ROOT/bin:$PATH'

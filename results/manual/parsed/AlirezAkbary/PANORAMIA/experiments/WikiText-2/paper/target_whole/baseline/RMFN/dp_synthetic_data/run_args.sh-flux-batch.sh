@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-plant-7377
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=milky-chair-5157
+#FLUX -t=240
+#FLUX --urgency=16
 
 module load StdEnv/2023 arrow/15.0.1 rust/1.76.0 python scipy-stack
 source ../../test-priv/test-priv-env/bin/activate

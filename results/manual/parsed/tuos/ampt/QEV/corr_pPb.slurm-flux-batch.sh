@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-salad-1208
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-buttface-8882
+#FLUX -t=16200
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

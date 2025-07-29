@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ATACseq
-#FLUX: --queue=amd-ep2
-#FLUX: --urgency=16
+#FLUX --job-name=ATACseq
+#FLUX --queue=amd-ep2
+#FLUX --urgency=16
 
 export PATH=':$PATH:/storage/zhangyanxiaoLab/share/bin'
 

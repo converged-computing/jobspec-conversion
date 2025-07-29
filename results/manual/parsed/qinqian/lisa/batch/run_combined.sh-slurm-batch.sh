@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lisa_GEO
-#FLUX: -n=8
-#FLUX: --queue=serial_requeue
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=lisa_GEO
+#SBATCH --output=lisa_%A_%a.out
+#SBATCH --error=lisa_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10000
+#SBATCH --time=00:08:00
+#SBATCH --partition=serial_requeue
 
 export PATH='/n/home08/cliffmeyer/Jingyu/miniconda3/bin:$PATH'
 

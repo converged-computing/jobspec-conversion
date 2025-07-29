@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=obi_process
-#FLUX: --queue=b1057
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=obi_process
+#SBATCH --account=b1057
+#SBATCH --output=/home/ekm9460/obi_process_plant.out
+#SBATCH --error=/home/ekm9460/obi_process_plant.err
+#SBATCH --mail-user=elizabeth.mallott@northwestern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=b1057
 
 module purge all
 module load python

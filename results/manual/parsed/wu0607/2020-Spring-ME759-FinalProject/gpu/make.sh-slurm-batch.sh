@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-house-2588
-#FLUX: --queue=wacc
-#FLUX: --urgency=16
+#SBATCH --output=make.out
+#SBATCH --error=make.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=wacc
 
 rm md5_gpu
 make

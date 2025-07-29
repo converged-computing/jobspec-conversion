@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-soup-8126
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-despacito-4996
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cd ~/measles/code/
 module load R

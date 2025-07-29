@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evolinc
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=evolinc
+#FLUX -n=2
+#FLUX -c=2
+#FLUX -t=604800
+#FLUX --urgency=16
 
 cd /blue/meixiazhao/lee.gwonjin/Soybean_project/lncRNA/evolinc
 module load singularity

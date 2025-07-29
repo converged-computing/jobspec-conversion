@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=u50s0d1
-#FLUX: -c=32
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=u50s0d1
+#SBATCH --output=output/slurm_%A_%a.out
+#SBATCH --error=output/slurm_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=192G
+#SBATCH --time=5-00:00:00
+#SBATCH --array=0-6
 
 set -euo pipefail
 num_cpus=${SLURM_CPUS_PER_TASK}

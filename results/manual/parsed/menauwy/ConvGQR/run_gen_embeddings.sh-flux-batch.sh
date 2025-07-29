@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gen_topic_adapt_embeddiings
-#FLUX: -c=10
-#FLUX: --queue=amd-gpu-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=gen_topic_adapt_embeddiings
+#FLUX -c=10
+#FLUX --queue=amd-gpu-long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 conda init bash
 source ~/.bashrc

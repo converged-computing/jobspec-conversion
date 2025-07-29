@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PI
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PI
+#FLUX -N=2
+#FLUX -n=56
+#FLUX --queue=cm2_tiny
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LANG='C'
 export LC_ALL='C'

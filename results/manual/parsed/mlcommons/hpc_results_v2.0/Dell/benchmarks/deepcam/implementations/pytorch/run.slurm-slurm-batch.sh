@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:deepcam
-#FLUX: -N=32
-#FLUX: -n=128
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:deepcam
+#SBATCH --account=mlperf-hpc
+#SBATCH --nodes=32
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --nodelist=node[009-019,021-040,046]
 
 module purge
 module load shared

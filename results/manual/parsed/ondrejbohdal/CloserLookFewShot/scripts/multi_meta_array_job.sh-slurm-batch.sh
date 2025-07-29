@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=multi_meta_array
-#FLUX: -t=133200
-#FLUX: --urgency=16
+#SBATCH --job-name=multi_meta_array
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=14000
+#SBATCH --time=1-13:00:00
+#SBATCH --array=1-1%1
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

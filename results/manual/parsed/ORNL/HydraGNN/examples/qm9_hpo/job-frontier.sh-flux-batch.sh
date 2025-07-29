@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HydraGNN
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=HydraGNN
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 export TRANSFORMERS_OFFLINE='1'

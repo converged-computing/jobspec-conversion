@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=h5write
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=h5write
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export LD_PRELOAD='/opt/cray/pe/mpt/7.4.4/gni/mpich-gnu/5.1/lib/libmpich.so:/usr/common/software/darshan/3.0.1/lib/libdarshan.so:$LD_PRELOAD'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-destiny-3861
-#FLUX: --queue=medium
-#FLUX: -t=173520
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3G
+#SBATCH --time=2-00:12:00
+#SBATCH --partition=medium
 
 user_name='ccr13'
 data_dir=/n/scratch3/users/c/ccr13/Chi_CyCIF/DATA/

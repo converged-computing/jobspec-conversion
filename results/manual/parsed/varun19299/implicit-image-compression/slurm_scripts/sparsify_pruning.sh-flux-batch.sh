@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=masking
-#FLUX: -c=4
-#FLUX: --queue=batch_default
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=masking
+#FLUX -c=4
+#FLUX --queue=batch_default
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOB_ID}"

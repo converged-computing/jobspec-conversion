@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage_1
-#FLUX: -N=16
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stage_1
+#FLUX -N=16
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/yb_lyso/${1}/out/ly99sim_all.mtz'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mcstracking
-#FLUX: -N=5
-#FLUX: -c=2
+#FLUX --job-name=mcstracking
+#FLUX -N=5
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__CONNECT='360s'
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__TCP='360s'

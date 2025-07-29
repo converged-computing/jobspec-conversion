@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-muffin-6309
-#FLUX: -n=48
-#FLUX: --queue=skl_fua_dbg
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-leader-9338
+#FLUX -n=48
+#FLUX --queue=skl_fua_dbg
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 cd $SLURM_SUBMIT_DIR

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-3968
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=red-cherry-9994
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=540000
+#FLUX --urgency=16
 
 nvidia-smi
 module load miniconda3

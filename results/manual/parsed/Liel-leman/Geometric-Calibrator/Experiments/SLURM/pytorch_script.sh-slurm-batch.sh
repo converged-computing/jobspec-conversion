@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=${i}CNN_${dataset}
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=${i}CNN_${dataset}
+#SBATCH --output=/home/leman/Sep/cluster/outputFiles/$CNN_${dataset}_${i}_%J.out
+#SBATCH --mail-user=leman@post.bgu.ac.il
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=${RAM}G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=main
 
 norm="L2"
 START=0

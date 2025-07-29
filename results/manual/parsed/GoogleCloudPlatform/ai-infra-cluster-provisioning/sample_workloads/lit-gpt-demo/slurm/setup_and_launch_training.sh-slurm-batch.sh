@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-earthworm-7233
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=a3
+#SBATCH: --exclusive
 
 export MODEL_NAME='                               #'Llama-2-70b-hf'
 export GCS_EXPERIMENT_BUCKET='                    # myBucket'

@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-4368
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -c=8
-#FLUX: --queue=nodes
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=project0000
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=256G
+#SBATCH --time=12:00:00
+#SBATCH --partition=nodes
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='8'

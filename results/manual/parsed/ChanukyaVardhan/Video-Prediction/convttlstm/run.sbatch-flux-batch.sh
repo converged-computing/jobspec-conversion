@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=convttlst
-#FLUX: -c=24
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=convttlst
+#FLUX -c=24
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

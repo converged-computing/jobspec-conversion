@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_p4
-#FLUX: -n=128
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_p4
+#SBATCH --output=full_mpi/full_MPI-p4_q32-NB224-N168448.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=250G
+#SBATCH --time=02:00:00
 
 export UCX_TLS='self, tcp'
 

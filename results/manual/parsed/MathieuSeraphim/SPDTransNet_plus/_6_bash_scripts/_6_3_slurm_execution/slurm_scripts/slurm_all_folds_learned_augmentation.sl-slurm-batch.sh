@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=all_folds_learned_augmentation
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=all_folds_learned_augmentation
+#SBATCH --account=wpd@a100
+#SBATCH --output=log/index_%a.job_%x.job_id_%j.master_id_%A.array_id_%a.out
+#SBATCH --error=log/index_%a.job_%x.job_id_%j.master_id_%A.array_id_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=a100
+#SBATCH --array=100-130
 
 fold=$((${SLURM_ARRAY_TASK_ID}-100))
 module purge

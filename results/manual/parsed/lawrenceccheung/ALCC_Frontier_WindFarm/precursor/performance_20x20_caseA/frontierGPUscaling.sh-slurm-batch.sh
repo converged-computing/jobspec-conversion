@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20x20_scaling
-#FLUX: -N=400
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=20x20_scaling
+#SBATCH --account=CFD162
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=lcheung@sandia.gov
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=400
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
 
 export rocm_version='5.4.3'
 export MPICH_GPU_SUPPORT_ENABLED='1'

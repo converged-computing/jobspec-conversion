@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-8748
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleStoNonlinDiffReacSquareInclusionsIso.pbs

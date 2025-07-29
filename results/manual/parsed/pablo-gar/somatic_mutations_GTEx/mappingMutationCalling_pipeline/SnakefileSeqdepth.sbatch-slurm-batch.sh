@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=s_seq_depth
-#FLUX: --queue=hbfraser
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=s_seq_depth
+#SBATCH --output=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_seq_depth.out
+#SBATCH --error=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_seq_depth.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=09:00:00
+#SBATCH --partition=hbfraser
 
 module load fraserconda
 source activate fraserconda

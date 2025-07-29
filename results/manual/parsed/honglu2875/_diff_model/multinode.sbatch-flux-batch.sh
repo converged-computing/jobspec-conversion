@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=elm
-#FLUX: -N=8
-#FLUX: -c=6
+#FLUX --job-name=elm
+#FLUX -N=8
+#FLUX -c=6
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export HOSTNAMES='`scontrol show hostnames "$SLURM_JOB_NODELIST"`'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

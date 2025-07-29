@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-0233
-#FLUX: -n=40
-#FLUX: --queue=small
-#FLUX: -t=54610
-#FLUX: --urgency=16
+#SBATCH --account=project_xxxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:10:10
+#SBATCH --partition=small
 
 module load maestro parallel
 find /scratch/project_xxxx/yetukuri/results_1000k_splits  -name '*.smi' | \

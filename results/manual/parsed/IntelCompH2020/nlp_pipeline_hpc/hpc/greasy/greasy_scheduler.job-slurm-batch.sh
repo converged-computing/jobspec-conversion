@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=greasy
-#FLUX: -n=201
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=greasy
+#SBATCH --output=greasy-%j.out
+#SBATCH --error=greasy-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=201
+#SBATCH --cpus-per-task=2
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=hpc/greasy/logs
 
 export I_MPI_PMI_VALUE_LENGTH_MAX='512'
 

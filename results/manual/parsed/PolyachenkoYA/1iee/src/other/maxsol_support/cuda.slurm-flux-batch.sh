@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: --queue=max1n
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs
+#FLUX --queue=max1n
+#FLUX --urgency=16
 
 mpi=$1
 omp=$2

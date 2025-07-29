@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=notes2parquet
-#FLUX: -c=2
-#FLUX: --queue=cpu-t3
-#FLUX: --urgency=16
+#SBATCH --job-name=notes2parquet
+#SBATCH --output=slurm-%A-%a.out
+#SBATCH --error=slurm-%A-%a.err
+#SBATCH --mail-user=ashah282@uic.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --partition=cpu-t3
+#SBATCH --array=5
 
 printf 'Load modules\n'
 module load R/4.2.1-foss-2022a

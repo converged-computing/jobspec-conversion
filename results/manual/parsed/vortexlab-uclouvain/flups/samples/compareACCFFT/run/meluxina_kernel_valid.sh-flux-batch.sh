@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-poodle-1290
-#FLUX: --queue=cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-mango-1708
+#FLUX --queue=cpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 cd ${SCRATCH_FLUPS}

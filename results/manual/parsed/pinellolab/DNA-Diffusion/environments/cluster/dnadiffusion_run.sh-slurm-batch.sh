@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=openbioml
-#FLUX: --queue=g40
-#FLUX: --urgency=16
+#SBATCH --job-name=openbioml
+#SBATCH --account=openbioml
+#SBATCH --output=./logs/dnadiffusion_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=g40
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_PROTO='simple'
 export NCCL_DEBUG='WARN'

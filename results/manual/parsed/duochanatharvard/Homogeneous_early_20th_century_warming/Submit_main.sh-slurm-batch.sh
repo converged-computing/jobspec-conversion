@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cor_glb
-#FLUX: --queue=${partition_main}
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=cor_glb
+#SBATCH --account=${group_account}
+#SBATCH --output=logs/log_step_07_cor_glb.%A.%a
+#SBATCH --error=logs/err_step_07_cor_glb.%A.%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=1-01:00:00
+#SBATCH --partition=${partition_main}
+#SBATCH --array=1-4
+#SBATCH --dependency=${JOB_cor_stats}
 
 export partition_main='huce_intel"                # TODO'
 export group_account='huybers_lab"                  # TODO'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=kerasTunerTest-r2_large_res
-#FLUX: --queue=cpu-short
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=kerasTunerTest-r2_large_res
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:05:00
+#SBATCH --partition=cpu-short
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

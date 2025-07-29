@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tart-plant-1417
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=train-%A_%a.out
+#SBATCH --mail-user=arturs.polis@aalto.fi
+#SBATCH --mail-type=FAIL,REQUEUE,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=16GB
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu
 
 module purge
 module load python-env/intelpython3.6-2018.3

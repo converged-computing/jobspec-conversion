@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cat-9551
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=aauhpc_slim
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:00:00
 
 echo Running on "$(hostname)"
 echo Available nodes: "$SLURM_NODELIST"

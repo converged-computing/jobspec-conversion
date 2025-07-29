@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-sundae-4326
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-caramel-9090
+#FLUX -c=12
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load daint-gpu
 module load cudatoolkit/10.2.89_3.29-7.0.2.1_3.27__g67354b4

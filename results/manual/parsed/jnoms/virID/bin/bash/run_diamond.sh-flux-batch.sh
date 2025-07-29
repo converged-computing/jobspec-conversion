@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bits-6943
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-eagle-5387
+#FLUX -c=2
+#FLUX --queue=priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load gcc
 usage() {

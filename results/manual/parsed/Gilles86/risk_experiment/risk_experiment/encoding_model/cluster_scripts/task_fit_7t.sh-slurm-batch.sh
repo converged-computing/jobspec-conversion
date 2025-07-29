@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fit_nprf_7t_unsmoothed
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=fit_nprf_7t_unsmoothed
+#SBATCH --output=/home/gdehol/logs/task_fit_7t_%A-%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96G
+#SBATCH --time=00:10:00
 
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'
 

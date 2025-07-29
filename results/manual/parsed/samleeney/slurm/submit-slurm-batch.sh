@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=frb
-#FLUX: -n=32
-#FLUX: --queue=icelake-himem
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=frb
+#SBATCH --account=ACEDO-SL2-CPU
+#SBATCH --output=slurm-files/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=icelake-himem
+#SBATCH --array=1-20
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

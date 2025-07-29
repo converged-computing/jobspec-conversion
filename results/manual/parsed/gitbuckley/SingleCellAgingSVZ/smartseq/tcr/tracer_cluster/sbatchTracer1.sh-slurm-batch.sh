@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tracerConda
-#FLUX: -t=86401
-#FLUX: --urgency=16
+#SBATCH --job-name=tracerConda
+#SBATCH --account=abrunet1
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --mail-user=buckley7@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:01
 
 date
 module load anaconda

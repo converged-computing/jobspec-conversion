@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sft
-#FLUX: --queue=llm
-#FLUX: --urgency=16
+#SBATCH --job-name=sft
+#SBATCH --output=sft.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=llm
 
 export LOGLEVEL='ERROR'
 export NCCL_DEBUG='ERROR   # INFO #TRACE'

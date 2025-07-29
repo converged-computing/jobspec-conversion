@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-nunchucks-2460
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/natbutter/juicer/PBS/scripts/juicer.sh.edits

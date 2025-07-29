@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-knife-6690
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60000
+#SBATCH --time=00:30:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
 
 cd ../build
 . ../readex_env/set_env_plain.source

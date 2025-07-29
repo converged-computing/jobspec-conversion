@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=TD.filt:7of7
-#FLUX: --urgency=16
+#SBATCH --job-name=TD.filt:7of7
+#SBATCH --output=slurm/TD_filt-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-$SPLIT
 
 echo ''
 date

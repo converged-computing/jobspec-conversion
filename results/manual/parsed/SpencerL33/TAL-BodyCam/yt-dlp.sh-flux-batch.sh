@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yt-dlp
-#FLUX: -n=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=yt-dlp
+#FLUX -n=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load python/3.10
 module list

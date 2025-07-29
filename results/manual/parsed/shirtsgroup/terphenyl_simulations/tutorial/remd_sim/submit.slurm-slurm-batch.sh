@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cinnamonbun-9039
-#FLUX: -N=5
-#FLUX: --queue=sgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=sgpu
 
 module load intel
 module load impi

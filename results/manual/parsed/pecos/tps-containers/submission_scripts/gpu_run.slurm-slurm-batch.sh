@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tps_cylinder
-#FLUX: -N=2
-#FLUX: -n=6
-#FLUX: --queue=gpu-a100
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=tps_cylinder
+#SBATCH --account=FTA-SUB-Ghattas
+#SBATCH --output=tps_cylinder.o%j
+#SBATCH --error=tps_cylinder.e%j
+#SBATCH --mail-user=uvilla@oden.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=2
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu-a100
 
 export ORG='uvilla'
 export IMAGE_NAME='tps_env_parla'

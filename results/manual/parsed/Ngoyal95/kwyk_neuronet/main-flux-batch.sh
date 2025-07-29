@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-muffin-4965
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-puppy-2349
+#FLUX --urgency=16
 
 export SINGULARITYENV_OMP_NUM_THREADS='1'
 

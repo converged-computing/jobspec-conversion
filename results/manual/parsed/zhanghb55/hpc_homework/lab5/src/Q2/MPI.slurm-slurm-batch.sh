@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=zhb
-#FLUX: -N=8
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#SBATCH --job-name=zhb
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=work
+#SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_FAVRICS='shm:dapl'
 export OMP_NUM_THREADS='20         # 设置全局 OpenMP 线程为 20'

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gps_100
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gps_100
+#SBATCH --output=gps_100%j.txt
+#SBATCH --error=gps_100%j.txt
+#SBATCH --mail-user=yalan@stanford.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/doppler_prn'
 

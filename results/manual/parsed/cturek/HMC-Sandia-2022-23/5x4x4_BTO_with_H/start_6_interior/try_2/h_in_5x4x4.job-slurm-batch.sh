@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-eagle-6549
-#FLUX: --queue=RM
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=128
 
 module load intel/20.4
 module load intelmpi/20.4-intel20.4

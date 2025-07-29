@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=qcfc
-#FLUX: -c=4
-#FLUX: --queue=bluemoon
-#FLUX: -t=104400
-#FLUX: --urgency=16
+#FLUX --job-name=qcfc
+#FLUX -c=4
+#FLUX --queue=bluemoon
+#FLUX -t=104400
+#FLUX --urgency=16
 
 pwd; hostname; date
 set -e

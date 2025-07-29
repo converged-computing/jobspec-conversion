@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-arm-1390
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-taco-9727
+#FLUX --urgency=16
 
 read INPUTFILE SEGMENTSPICKLE QUERYSEGMENTSPICKLE LINKSPICKLE UpstreamLinksArrayFile DownstreamLinksArrayFile DoubleAnchorsFile < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )
 echo "Loading software..."

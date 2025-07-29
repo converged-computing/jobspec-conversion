@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-toaster-4134
-#FLUX: -c=24
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/T-UDA/logs/train_usl_f2_2_time_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_LL_THRESHOLD='0'
 

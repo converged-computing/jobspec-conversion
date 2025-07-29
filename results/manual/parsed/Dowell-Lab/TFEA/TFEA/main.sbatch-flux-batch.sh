@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TFEA
-#FLUX: -n=10
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=TFEA
+#FLUX -n=10
+#FLUX --queue=short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load python/3.6.3

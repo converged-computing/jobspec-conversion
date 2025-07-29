@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-staircase-2400
-#FLUX: -n=16
-#FLUX: --queue=parallel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=tokenjob.o
+#SBATCH --error=tokenjob.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=parallel
 
 module purge
 module load anaconda3/5.2.0

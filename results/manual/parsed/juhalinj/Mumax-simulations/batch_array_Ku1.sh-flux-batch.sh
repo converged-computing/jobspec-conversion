@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-motorcycle-7517
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-omelette-7885
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module --ignore-cache load cuda/11.0
 SID=$SLURM_ARRAY_TASK_ID

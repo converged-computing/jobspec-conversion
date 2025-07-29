@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sentencepiece
-#FLUX: -n=8
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#FLUX --job-name=sentencepiece
+#FLUX -n=8
+#FLUX -t=7800
+#FLUX --urgency=16
 
 source ${HOME}/.bashrc
 set -o errexit  # Recommended for easier debugging

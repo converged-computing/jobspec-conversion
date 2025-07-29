@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-destiny-2474
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-ricecake-1443
+#FLUX --urgency=16
 
 declare -a ksp_pc_map
 function setKspPc(){

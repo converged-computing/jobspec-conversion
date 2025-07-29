@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-rabbit-9919
-#FLUX: -c=6
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-cupcake-1474
+#FLUX -c=6
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='/cs/labs/daphna/avihu.dekel/DALLE-pytorch:/cs/labs/daphna/avihu.dekel/stylegan2'
 

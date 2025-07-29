@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=4.3_LK_SB_2p.sh
-#FLUX: -c=10
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=4.3_LK_SB_2p.sh
+#FLUX -c=10
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load STAR/2.7.10b-GCC-11.3.0
 LK_trimmed_fq="/scratch/ahw22099/FireAnt_GRN/LK_trimmed_fq"

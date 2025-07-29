@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MRtoCT
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MRtoCT
+#SBATCH --account=PRJ-BWsCT
+#SBATCH --output=MRtoCT_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load python/3.9.15
 VENV_PATH="$HOME/.virtualenvs/MRCT"

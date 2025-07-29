@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=normal
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=normal
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load numlib/GSL/2.7-GCC-11.3.0
 module load toolchain/intel/2022.00

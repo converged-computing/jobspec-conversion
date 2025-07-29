@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-citrus-7409
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-lamp-7991
+#FLUX --urgency=16
 

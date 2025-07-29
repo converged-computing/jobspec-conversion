@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ivon
-#FLUX: --urgency=16
+#SBATCH --job-name=ivon
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PYTHONPATH='$PYTHONPATH:$HOME/asdfghjkl:$PYTHONPATH:$HOME/common:$HOME/sam:$HOME/vit-pytorch'
 

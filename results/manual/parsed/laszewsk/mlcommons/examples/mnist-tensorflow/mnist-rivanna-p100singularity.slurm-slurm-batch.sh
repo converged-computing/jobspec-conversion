@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mnist
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=mnist
+#SBATCH --account=bii_dsc
+#SBATCH --output=mnist-p100.out
+#SBATCH --error=mnist-p100.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu
 
 module purge
 module load singularity

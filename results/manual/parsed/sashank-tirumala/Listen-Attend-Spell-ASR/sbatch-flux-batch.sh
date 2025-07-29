@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-destiny-6309
-#FLUX: --queue=GPU
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-poodle-5879
+#FLUX --queue=GPU
+#FLUX -t=345600
+#FLUX --urgency=16
 
 set -x
 set -u

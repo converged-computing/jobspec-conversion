@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=climseg-cgpu
+#FLUX --job-name=climseg-cgpu
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

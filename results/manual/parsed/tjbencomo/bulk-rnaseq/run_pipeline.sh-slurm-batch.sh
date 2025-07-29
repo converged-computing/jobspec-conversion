@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poo-6399
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6000
+#SBATCH --time=12:00:00
 
 set -e
 cd $(pwd)

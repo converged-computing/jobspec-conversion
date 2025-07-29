@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hu-s1
-#FLUX: -c=8
-#FLUX: --queue=bmm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=hu-s1
+#SBATCH --mail-user=titus@idyll.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=200000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=bmm
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate sgc

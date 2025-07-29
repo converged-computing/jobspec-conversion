@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=df-parallel-benchmark
-#FLUX: --queue=gpu-shared
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=df-parallel-benchmark
+#SBATCH --account=crl155
+#SBATCH --output=df-parallel-benchmark.%j.%N.out
+#SBATCH --error=df-parallel-benchmark.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=92G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=16
 
 export LOCAL_SCRATCH_DIR='/scratch/${USER}/job_${SLURM_JOB_ID}'
 export CONDA_INSTALL_PATH='${LOCAL_SCRATCH_DIR}/miniconda3'

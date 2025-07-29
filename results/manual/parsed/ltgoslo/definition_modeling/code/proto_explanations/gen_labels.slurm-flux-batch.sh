@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=definition_labels
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=definition_labels
+#FLUX -c=8
+#FLUX --queue=accel
+#FLUX -t=18000
+#FLUX --urgency=16
 
 source ${HOME}/.bashrc
 module purge

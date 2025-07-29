@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-dog-5016
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/aicenter/TensorCFR/src/nn/data/generate_50_datapoints_of_IIGS6_6cards_as_metacentrum_batch_job.sh

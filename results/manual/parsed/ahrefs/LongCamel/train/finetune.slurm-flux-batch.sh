@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -N=8
-#FLUX: -c=96
+#FLUX --job-name=finetune
+#FLUX -N=8
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export LAUNCHER='python -u -m torch.distributed.run \'

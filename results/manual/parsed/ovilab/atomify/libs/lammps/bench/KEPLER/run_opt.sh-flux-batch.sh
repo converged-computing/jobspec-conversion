@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pancake-4114
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-peas-1989
+#FLUX -t=43200
+#FLUX --urgency=16
 
 mpirun -np 1 lmp_opt -sf opt -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.opt.128K.1

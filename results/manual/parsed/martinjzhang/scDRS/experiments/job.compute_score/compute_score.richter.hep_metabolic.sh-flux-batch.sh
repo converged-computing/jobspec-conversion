@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poo-5439
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-salad-2009
+#FLUX -n=4
+#FLUX --queue=shared
+#FLUX -t=60
+#FLUX --urgency=16
 
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad
 GS_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/gs_file/ploidy.gs

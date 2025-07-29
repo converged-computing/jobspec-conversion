@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=brown
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=brown
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 module --ignore-cache load CUDA

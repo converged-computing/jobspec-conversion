@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nanome.google_demo
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=nanome.google_demo
+#SBATCH --output=log/%x.%j.log
+#SBATCH --mail-user=yang.liu@jax.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=batch
 
 set -e
 baseDir=${1:-/fastscratch/$USER/nanome}

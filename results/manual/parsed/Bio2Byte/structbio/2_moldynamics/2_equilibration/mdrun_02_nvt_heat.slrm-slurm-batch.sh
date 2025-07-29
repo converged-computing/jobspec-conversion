@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nvt_heat
-#FLUX: --queue=ampere_gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=nvt_heat
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=00:10:00
+#SBATCH --partition=ampere_gpu
 
 export OMP_PROC_BIND='TRUE'
 

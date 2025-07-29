@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sn-sg
-#FLUX: -c=10
+#FLUX --job-name=sn-sg
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: --queue=nvidia_small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=nvidia_small
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo '========================================'
 echo '- Job ID:' $SLURM_JOB_ID

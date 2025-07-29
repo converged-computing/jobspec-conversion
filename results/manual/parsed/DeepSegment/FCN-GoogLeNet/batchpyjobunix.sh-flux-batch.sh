@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mypyjob
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=mypyjob
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

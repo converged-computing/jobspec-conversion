@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=baby-lm
-#FLUX: --exclusive
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=baby-lm
+#SBATCH --account=CAINES-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=ampere
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

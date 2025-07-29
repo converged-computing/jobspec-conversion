@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lamp-4074
-#FLUX: --queue=normal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-mango-6045
+#FLUX --queue=normal
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='none'
 

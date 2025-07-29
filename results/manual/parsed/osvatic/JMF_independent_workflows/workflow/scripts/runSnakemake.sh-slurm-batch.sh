@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run_snakemake
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_snakemake
+#SBATCH --output=snakemake.out
+#SBATCH --error=snakemake.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=30-00:00:00
 
 module load snakemake/7.32.4-3.12.1
 module load conda

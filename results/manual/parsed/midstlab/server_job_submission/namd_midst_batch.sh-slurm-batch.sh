@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=1fcc_MuMi
-#FLUX: -N=2
-#FLUX: --queue=midst
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=1fcc_MuMi
+#SBATCH --account=midst
+#SBATCH --output=%j-log.out
+#SBATCH --mail-user=tguclu@sabanciuniv.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=midst
+#SBATCH --qos=midst
+#SBATCH --constraint=ntasks-per-node=48
 
 INPUT_FILE="1pga_autopsf_wb_ionized_config.conf"
 source /etc/profile.d/modules.sh

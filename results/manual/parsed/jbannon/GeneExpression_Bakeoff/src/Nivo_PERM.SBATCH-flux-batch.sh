@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Nivo_Perm
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Nivo_Perm
+#FLUX -N=2
+#FLUX -c=2
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 settings=(KIRC.False KIRC.True SKCM.False SKCM.True PANCAN.True PANCAN.False)

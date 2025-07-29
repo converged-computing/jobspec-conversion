@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-plant-8689
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-platanos-0514
+#FLUX --queue=defq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load SAMtools/1.12-GCC-10.2.0;
 mkdir alignment_stats/;

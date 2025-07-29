@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-despacito-8981
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-onion-4972
+#FLUX -t=86400
+#FLUX --urgency=16
 
 function launch_node {
 cat << _EOF_ > launch.cmd

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cudatoolkit/10.2
 module load anaconda/python3.8/2020.07

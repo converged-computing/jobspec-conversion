@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=metagwastoolkit
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=metagwastoolkit
+#SBATCH --output=path_to_projectdir/subdir/metagwastoolkit.prep.log
+#SBATCH --error=path_to_projectdir/subdir/metagwastoolkit.prep.errors
+#SBATCH --mail-user=s.w.vanderlaan-2@umcutrecht.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:128G
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
 
                                                                     														# or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     														# Multiple type values may be specified in a comma separated list. 

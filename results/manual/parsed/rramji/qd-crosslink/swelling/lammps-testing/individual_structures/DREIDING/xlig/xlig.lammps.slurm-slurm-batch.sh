@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xlig
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=xlig
+#SBATCH --account=ddp381
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=16
 
 prefix=xlig
 rtemp=298

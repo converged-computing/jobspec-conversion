@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ClusterCountCpu
-#FLUX: -c=80
+#FLUX --job-name=ClusterCountCpu
+#FLUX -c=80
 #FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --queue=defq
+#FLUX -t=82800
+#FLUX --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'
 export KMP_AFFINITY='verbose,compact'

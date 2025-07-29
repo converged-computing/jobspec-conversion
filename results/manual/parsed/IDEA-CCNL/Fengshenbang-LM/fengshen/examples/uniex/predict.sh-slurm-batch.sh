@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval_llama-7B
-#FLUX: -c=12
-#FLUX: --queue=pol-preempted
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_llama-7B
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:hgx:1
+#SBATCH --mem=16G
+#SBATCH --partition=pol-preempted
+#SBATCH --constraint=ntasks-per-node=1
 
 ROOT_PATH=cognitive_comp
 DATA_DIR=/cognitive_comp/yangping/data/unidata/spandata/preprocessing_data/ner/cluener

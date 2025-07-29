@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leader-2840
-#FLUX: -N=81
-#FLUX: -n=324
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=81
+#SBATCH --ntasks=324
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:30:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

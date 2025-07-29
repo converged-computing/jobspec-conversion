@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-taco-6669
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/geo_opt/dft/c2/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20/run.slurm

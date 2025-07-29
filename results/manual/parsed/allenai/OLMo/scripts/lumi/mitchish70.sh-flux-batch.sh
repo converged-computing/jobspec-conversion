@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mitchish70
-#FLUX: -N=64
-#FLUX: -c=6
-#FLUX: --queue=standard-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=mitchish70
+#FLUX -N=64
+#FLUX -c=6
+#FLUX --queue=standard-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OLMO_CONTAINER='llm-lumi-torch21_latest.sif'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

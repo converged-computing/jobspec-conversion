@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leopard-5792
-#FLUX: -c=10
-#FLUX: --queue=all
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=logs/step2_%a.out
+#SBATCH --error=logs/step2_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=00:20:00
+#SBATCH --partition=all
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

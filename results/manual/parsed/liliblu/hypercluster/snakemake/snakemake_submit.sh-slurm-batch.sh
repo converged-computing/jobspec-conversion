@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakeautocluster
-#FLUX: -c=2
-#FLUX: --queue=cpu_long
-#FLUX: -t=2419199
-#FLUX: --urgency=16
+#SBATCH --job-name=snakeautocluster
+#SBATCH --output=logs/sbatchSnakefile_progress_out.log
+#SBATCH --error=logs/sbatchSnakefile_progress_err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=27-23:59:59
+#SBATCH --partition=cpu_long
 
 module purge
 module add slurm

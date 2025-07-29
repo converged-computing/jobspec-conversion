@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=logp_chemprop
-#FLUX: -n=20
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=logp_chemprop
+#FLUX -n=20
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "Date              = $$(date)"
 echo "Hostname          = $$(hostname -s)"

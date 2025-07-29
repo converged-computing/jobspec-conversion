@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_linear
-#FLUX: -c=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=eval_linear
+#FLUX -c=20
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 srun \

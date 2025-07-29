@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-salad-8290
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-taco-3898
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load Anaconda3/5.3.0
 module load fosscuda/2019b  # includes GCC 8.3

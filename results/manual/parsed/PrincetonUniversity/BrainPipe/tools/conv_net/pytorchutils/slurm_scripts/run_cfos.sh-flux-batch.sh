@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-hobbit-5101
-#FLUX: --queue=all
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-taco-2594
+#FLUX --queue=all
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1
 . activate 3dunet

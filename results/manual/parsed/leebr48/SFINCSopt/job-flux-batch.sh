@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sfincsOpt
-#FLUX: -N=18
-#FLUX: -n=720
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sfincsOpt
+#FLUX -N=18
+#FLUX -n=720
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load intel/19.1.2

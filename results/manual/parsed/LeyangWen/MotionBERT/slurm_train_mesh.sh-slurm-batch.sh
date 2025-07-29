@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=MB_train_mesh
-#FLUX: -c=4
-#FLUX: --queue=spgpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=MB_train_mesh
+#SBATCH --account=shdpm0
+#SBATCH --output=output_slurm/train_log_mesh.txt
+#SBATCH --error=output_slurm/train_error_mesh.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:3
+#SBATCH --mem=60g
+#SBATCH --time=12:00:00
+#SBATCH --partition=spgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 my_job_header
 module load python3.10-anaconda

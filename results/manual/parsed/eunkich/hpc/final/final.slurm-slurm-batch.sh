@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=final
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=final
+#SBATCH --account=amath
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --mail-user=eunkich@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=5G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu-rtx6k
+#SBATCH --constraint=ntasks-per-node=6
 
 module load cuda
 rm *.csv

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TaxoComplete
-#FLUX: --queue=nodes
-#FLUX: -t=882000
-#FLUX: --urgency=16
+#FLUX --job-name=TaxoComplete
+#FLUX --queue=nodes
+#FLUX -t=882000
+#FLUX --urgency=16
 
 echo $(pwd)
 module load miniconda/3

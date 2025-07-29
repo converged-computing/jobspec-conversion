@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dt
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=dt
+#SBATCH --output=slurm_logs/dt_offline_%j.txt
+#SBATCH --error=slurm_errors/dt_offline_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

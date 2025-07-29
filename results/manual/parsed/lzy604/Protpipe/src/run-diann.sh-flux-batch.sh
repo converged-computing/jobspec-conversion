@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-0692
-#FLUX: --queue=norm
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-cat-6481
+#FLUX --queue=norm
+#FLUX -t=14400
+#FLUX --urgency=16
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 SRC_DIR='./src'

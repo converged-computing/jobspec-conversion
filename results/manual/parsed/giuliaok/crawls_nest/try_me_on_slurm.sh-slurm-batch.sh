@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=postcode_finder
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=postcode_finder
+#SBATCH --account=geog029585
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=256G
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 cd "${SLURM_SUBMIT_DIR}"
 echo Running on host "$(hostname)"

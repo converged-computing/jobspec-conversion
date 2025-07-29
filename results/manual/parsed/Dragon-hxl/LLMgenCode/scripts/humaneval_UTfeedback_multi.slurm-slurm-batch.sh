@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SBP10_164
-#FLUX: -c=32
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=SBP10_164
+#SBATCH --output=../log/humaneval_UTfeedback_multiSBP10_7b16k_tT_164.out
+#SBATCH --error=../log/humaneval_UTfeedback_multiSBP10_7b16k_tT_164.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=r8nv-gpu-hw
+#SBATCH --qos=gpu-normal
+#SBATCH --constraint=80G
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

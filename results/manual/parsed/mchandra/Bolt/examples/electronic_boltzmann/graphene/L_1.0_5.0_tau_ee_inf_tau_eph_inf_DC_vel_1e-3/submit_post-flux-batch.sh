@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-0143
-#FLUX: -N=8
-#FLUX: -n=32
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-cherry-3807
+#FLUX -N=8
+#FLUX -n=32
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export AF_PATH='/usr/projects/p18_ebhlight3d/arrayfire/arrayfire_install          '
 export PETSC_DIR='/usr/projects/p18_ebhlight3d/petsc_3.10.0_install               '

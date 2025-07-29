@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pot-2481
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/daily.hi.pm.plot_max

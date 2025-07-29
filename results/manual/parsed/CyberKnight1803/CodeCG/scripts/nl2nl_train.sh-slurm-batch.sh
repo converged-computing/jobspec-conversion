@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=CodeCG
-#FLUX: -c=4
-#FLUX: --queue=gpu_a100_8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=CodeCG
+#SBATCH --output=/scratch/bhanu/CodeCG/outs/nl2nl-%j.out
+#SBATCH --error=/scratch/bhanu/CodeCG/outs/nl2nl-%j.err
+#SBATCH --mail-user=f20190083@hyderabad.bits-pilani.ac.in
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu_a100_8
+#SBATCH --constraint=ntasks-per-node=1
 
 spack unload 
 spack load gcc@11.2.0

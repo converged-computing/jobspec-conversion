@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gptneox
-#FLUX: -c=2
-#FLUX: --queue=jag-standard
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#FLUX --job-name=gptneox
+#FLUX -c=2
+#FLUX --queue=jag-standard
+#FLUX -t=14340
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=brute
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=brute
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='128'

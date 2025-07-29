@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=all_settlement_test
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=all_settlement_test
+#FLUX -c=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 export HDF5_USE_FILE_LOCKING='FALSE'

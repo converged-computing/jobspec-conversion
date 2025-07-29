@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-0487
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-rabbit-2957
+#FLUX --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/rfnext'

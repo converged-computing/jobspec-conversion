@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PacLearn
-#FLUX: -n=32
-#FLUX: --queue=gpu,preempt
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=PacLearn
+#SBATCH --output=pacbot-learn.%j.out
+#SBATCH --error=pacbot-learn.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=16g
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu,preempt
 
 module purge
 hostname

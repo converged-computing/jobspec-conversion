@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TaxoComplete
-#FLUX: --queue=nodes
-#FLUX: -t=882000
-#FLUX: --urgency=16
+#SBATCH --job-name=TaxoComplete
+#SBATCH --output=./TaxoComplete/%x-%j.out
+#SBATCH --error=./TaxoComplete/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=10-05:00:00
+#SBATCH --partition=nodes
 
 echo $(pwd)
 module load miniconda/3

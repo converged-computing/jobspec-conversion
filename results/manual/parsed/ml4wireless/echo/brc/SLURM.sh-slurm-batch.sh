@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=jobs_echo
-#FLUX: -N=8
-#FLUX: --queue=savio2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=jobs_echo
+#SBATCH --account=fc_ocow
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio2
+#SBATCH --constraint=ntasks-per-node=24
 
 JOBSJSON=$1
 ECHO_DIR=$(pwd)

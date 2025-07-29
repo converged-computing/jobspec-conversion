@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=trueE_full
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=trueE_full
+#SBATCH --output=pytorch_gpu_%j.out
+#SBATCH --error=pytorch_gpu_%j.err
+#SBATCH --mail-user=bhumika.kansal@students.iiserpune.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=10
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3  ## this line is to use 4 GPU nodes'
 

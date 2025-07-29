@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=race_nli-%j
-#FLUX: -c=2
-#FLUX: --queue=m40-long
-#FLUX: --urgency=16
+#SBATCH --job-name=race_nli-%j
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=70000
+#SBATCH --partition=m40-long
 
 python run_nli.py \
     --model_type roberta-nli \

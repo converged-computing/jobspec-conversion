@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ivae-gpu
-#FLUX: --queue=gpu
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=ivae-gpu
+#FLUX --queue=gpu
+#FLUX -t=360
+#FLUX --urgency=16
 
 module add nvidia/9.0
 source ~/.bashrc

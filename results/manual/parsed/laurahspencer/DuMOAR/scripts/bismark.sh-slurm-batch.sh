@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bismark-mbd
-#FLUX: -c=20
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#SBATCH --job-name=bismark-mbd
+#SBATCH --output=/home/lspencer/DuMOAR/sbatch/bismark-20230422.txt
+#SBATCH --mail-user=laura.spencer@noaa.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=21-00:00:00
 
 module load bio/bismark/0.24.0
 source /home/lspencer/venv/bin/activate

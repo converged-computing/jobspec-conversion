@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-threadmpi
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs-threadmpi
+#SBATCH --output=/shared-non-cache/logs/%x_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 NTOMP=1
 mkdir -p /shared-non-cache/output/jobs/${SLURM_JOBID}

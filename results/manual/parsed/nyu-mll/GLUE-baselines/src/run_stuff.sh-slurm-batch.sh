@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-onion-0038
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=aw3272@nyu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1080ti:1
+#SBATCH --time=2-00:00:00
 
 SCRATCH_PREFIX='/misc/vlgscratch4/BowmanGroup/awang/'
 PROJECT_NAME='glue-baselines'

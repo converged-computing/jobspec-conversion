@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_L0_rnn_a0
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train_L0_rnn_a0
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 RUN_ID=a0
 TRAIN_FILE_NAME=train_L0_rnn

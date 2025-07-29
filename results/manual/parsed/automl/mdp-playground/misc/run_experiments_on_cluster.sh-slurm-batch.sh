@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mdp-playground-job-array
-#FLUX: -c=2
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --job-name=mdp-playground-job-array
+#SBATCH --output=log/%x.%A_%a.out
+#SBATCH --error=log/%x.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:00:10
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --chdir=/work/dlclarge2/rajanr-mdpp
+#SBATCH --array=0-199
 
 export EXP_NAME='dqn_seq_del' # Ideally contains Area of research + algorithm + dataset # Could just pass this as job name?'
 

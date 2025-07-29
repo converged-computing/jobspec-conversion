@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-carrot-2053
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-mango-0681
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 module purge

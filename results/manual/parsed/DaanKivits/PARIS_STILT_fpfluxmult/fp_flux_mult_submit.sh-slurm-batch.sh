@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=STILT_fpflux
-#FLUX: --queue=genoa
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=STILT_fpflux
+#SBATCH --output=fp_mult.out
+#SBATCH --error=fp_mult.err
+#SBATCH --mail-user=daan.kivits@wur.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000M
+#SBATCH --time=00:15:00
+#SBATCH --partition=genoa
 
 export OPENBLAS_NUM_TRHEADS='1'
 export OMP_NUM_THREADS='1'

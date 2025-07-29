@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=diffusion_ising
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=diffusion_ising
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

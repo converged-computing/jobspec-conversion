@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parrot-8595
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-lettuce-9610
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load devel/protobuf-python/3.14.0-GCCcore-10.2.0 

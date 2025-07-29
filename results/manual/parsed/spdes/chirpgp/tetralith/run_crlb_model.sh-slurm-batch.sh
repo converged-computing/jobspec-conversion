@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pedo-4086
-#FLUX: -n=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=130G
+#SBATCH --time=01:00:00
 
 lam=$1
 b=$2

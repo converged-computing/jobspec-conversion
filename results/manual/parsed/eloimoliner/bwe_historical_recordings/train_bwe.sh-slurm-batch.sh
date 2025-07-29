@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bwe_progressive_half_size
-#FLUX: -c=4
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=bwe_progressive_half_size
+#SBATCH --output=/scratch/work/%u/unet_dir/bwe_historical_recordings/experiments/%a_training_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=2-23:59:59
+#SBATCH --array=[2]
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=webapp
-#FLUX: -c=8
-#FLUX: --queue=nodes
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=webapp
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=nodes
+#SBATCH --chdir=/cluster/raid/home/vacy/LLM_playground
 
 eval "$(conda shell.bash hook)"
 conda activate llm-playground

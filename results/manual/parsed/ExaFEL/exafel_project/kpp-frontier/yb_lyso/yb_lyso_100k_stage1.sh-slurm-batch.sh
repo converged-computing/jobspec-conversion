@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stage_1
-#FLUX: -N=95
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=stage_1
+#SBATCH --account=CHM137
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=95
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

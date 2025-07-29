@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-muffin-7208
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lizard-3625
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 DATASET=$1
 module load Julia/1.5.1-linux-x86_64

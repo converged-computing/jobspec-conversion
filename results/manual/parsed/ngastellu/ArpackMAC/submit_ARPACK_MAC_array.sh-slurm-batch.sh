@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-carrot-9740
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=def-simine
+#SBATCH --output=slurm_%A-%a.out
+#SBATCH --error=slurm_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --array=1-300
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export KMP_BLOCKTIME='0'

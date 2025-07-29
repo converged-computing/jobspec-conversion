@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-underoos-3015
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 pipe="fastq2bam"
 cwd=$1

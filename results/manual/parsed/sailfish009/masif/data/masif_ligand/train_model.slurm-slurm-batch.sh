@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-3650
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16384
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export MONET_DIR='/home/gainza/lpdi_fs/seednet/monet_seeder/'
 export PYTHONPATH='$PYTHONPATH:$masif_source'

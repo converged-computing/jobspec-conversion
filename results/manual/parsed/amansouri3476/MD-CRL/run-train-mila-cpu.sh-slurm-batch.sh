@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-ricecake-4049
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --output=./slurm_out/mdcrl-%j.out
+#SBATCH --error=./slurm_err/mdcrl-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=30G
+#SBATCH --time=03:59:00
+#SBATCH --partition=long
 
 export WANDB_API_KEY='1406ef3255ef2806f2ecc925a5e845e7164b5eef'
 export LD_PRELOAD='/home/mila/s/sayed.mansouri-tehrani/MD-CRL/hack.so'

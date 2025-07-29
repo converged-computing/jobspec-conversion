@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=streamvc
-#FLUX: --queue=studentbatch
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#FLUX --job-name=streamvc
+#FLUX --queue=studentbatch
+#FLUX -t=240000
+#FLUX --urgency=16
 
 export HF_HOME='/home/yandex/APDL2324a/group_4/newcache'
 export TORCH_HOME='/home/yandex/APDL2324a/group_4'

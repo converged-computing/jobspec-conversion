@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dask-worker
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=dask-worker
+#FLUX --queue=boost_usr_prod
+#FLUX -t=900
+#FLUX --urgency=16
 
 source $HOME/Conda_init.txt
 module load profile/deeplrn

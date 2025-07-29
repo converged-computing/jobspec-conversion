@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=in-context-learning
-#FLUX: -c=4
-#FLUX: --queue=savio4_gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=in-context-learning
+#SBATCH --account=fc_ocow
+#SBATCH --output=icl-%A_%a.out
+#SBATCH --error=icl-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:A5000:2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=savio4_gpu
+#SBATCH --qos=a5k_gpu4_normal
+#SBATCH --array=1-1
 
 TASK_ID=$((SLURM_ARRAY_TASK_ID-1))
 PARALLEL_N=4

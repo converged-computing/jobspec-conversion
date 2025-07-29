@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vgg
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=vgg
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load cuda/8.0 cudnn/5.1
 module load tensorflow-gpu

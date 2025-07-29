@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=debug_sft_small
-#FLUX: -c=4
-#FLUX: --queue=dev-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=debug_sft_small
+#SBATCH --account=project_462000241
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=200G
+#SBATCH --time=01:00:00
+#SBATCH --partition=dev-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions'
 export CACHE='/scratch/project_462000241/$USER/cache'

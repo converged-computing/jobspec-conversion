@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-snack-4226
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-toaster-8299
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export SINGULARITY_BIND='/nesi/nobackup,/nesi/project'

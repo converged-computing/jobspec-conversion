@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=baseline_landscape_job
-#FLUX: -n=2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=baseline_landscape_job
+#FLUX -n=2
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source ~/.bashrc
 module load cuda/11.8

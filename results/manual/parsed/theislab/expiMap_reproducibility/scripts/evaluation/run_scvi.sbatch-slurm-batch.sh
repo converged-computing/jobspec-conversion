@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=integration_scVI
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=integration_scVI
+#SBATCH --output=/storage/groups/ml01/workspace/sergei.rybakov/data_integr/integration_scVI_%j.job
+#SBATCH --error=/storage/groups/ml01/workspace/sergei.rybakov/data_integr/integration_scVI_%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_p
+#SBATCH --qos=gpu
 
 source $HOME/.bashrc
 source activate work-gpu

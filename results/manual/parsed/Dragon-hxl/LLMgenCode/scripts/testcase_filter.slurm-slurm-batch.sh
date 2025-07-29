@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SBSP10_pT
-#FLUX: -c=64
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=SBSP10_pT
+#SBATCH --output=../log/TF_SBSP10_7b16k_pT.out
+#SBATCH --error=../log/TF_SBSP10_7b16k_pT.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=12:00:00
+#SBATCH --partition=r8nv-gpu-hw
+#SBATCH --qos=gpu-short
+#SBATCH --constraint=80G
+#SBATCH --nodelist=r8a100-d03
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

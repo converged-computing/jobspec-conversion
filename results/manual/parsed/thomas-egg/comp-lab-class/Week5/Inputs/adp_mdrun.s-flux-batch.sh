@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=trp-cage_AMBER_CHARMM
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=trp-cage_AMBER_CHARMM
+#FLUX -c=20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load gromacs/openmpi/intel/2020.4

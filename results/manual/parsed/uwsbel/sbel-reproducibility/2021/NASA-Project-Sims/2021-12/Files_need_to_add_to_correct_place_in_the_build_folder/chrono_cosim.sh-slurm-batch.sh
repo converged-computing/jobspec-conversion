@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leopard-3542
-#FLUX: -c=2
-#FLUX: --queue=research
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=research
 
 module load nvidia/cuda/11.3.1
 module load mpi/openmpi/4.1.1

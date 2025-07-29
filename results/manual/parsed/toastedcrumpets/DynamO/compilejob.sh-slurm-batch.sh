@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DynamO_compile
-#FLUX: --queue=laird,sixhour,cebc
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=DynamO_compile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5gb
+#SBATCH --time=06:00:00
+#SBATCH --partition=laird,sixhour,cebc
+#SBATCH --constraint=intel
 
 export BOOST_ROOT='$WORK/boost_1_64_0/'
 export BOOST_LIBRARYDIR='$WORK/boost_1_64_0/stage/lib'

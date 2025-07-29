@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-frito-2826
-#FLUX: --queue=park
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --account=park_contrib
+#SBATCH --output=%j.generate_lesion_sequence.txt
+#SBATCH --error=%j.generate_lesion_sequence.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=00:12:00
+#SBATCH --partition=park
 
 module load \
 bedtools/2.27.1 \

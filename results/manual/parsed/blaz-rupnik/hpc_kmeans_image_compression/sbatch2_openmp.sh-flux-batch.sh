@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-8950
-#FLUX: -c=64
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=fat-bits-3894
+#FLUX -c=64
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='TRUE'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-1281
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-salad-8995
+#FLUX --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

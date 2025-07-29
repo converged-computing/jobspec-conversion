@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=invertRandArray
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=invertRandArray
+#SBATCH --output=parallel.%J.out
+#SBATCH --error=parallel.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module load matlab/r2020a
 mkdir -p /tmp/$SLURM_JOB_ID

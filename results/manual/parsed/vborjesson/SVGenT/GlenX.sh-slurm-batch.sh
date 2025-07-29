@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GlenX
-#FLUX: -n=16
-#FLUX: --queue=core
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=GlenX
+#SBATCH --account=b2014152
+#SBATCH --mail-user=vanja.borjesson@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools
 module load bwa

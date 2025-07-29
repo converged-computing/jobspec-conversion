@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GVI_calculation
-#FLUX: --queue=serial
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=GVI_calculation
+#FLUX --queue=serial
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module purge
 module load gcc/4.9.3

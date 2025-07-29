@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=big
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --mail-user=jrs596@york.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=big
 
 export CODE_DIR='/jmain02/home/J2AD016/jjw02/jjs00-jjw02/scripts'      #PATH_TO_CODE_DIR'
 

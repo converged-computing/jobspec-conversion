@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LS49_IOTA
-#FLUX: -N=64
-#FLUX: --queue=premium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=LS49_IOTA
+#FLUX -N=64
+#FLUX --queue=premium
+#FLUX -t=172800
+#FLUX --urgency=16
 
 NODES=64
 NUM_RANKS=$((NODES*68))

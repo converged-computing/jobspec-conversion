@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=domainnet
-#FLUX: -c=6
-#FLUX: --queue=ShangHAI
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=domainnet
+#SBATCH --output=output/%j.out
+#SBATCH --error=output/%j.err
+#SBATCH --mail-user=YOU@MAIL.COM
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ShangHAI
 
 cd ..
 py_main='main'

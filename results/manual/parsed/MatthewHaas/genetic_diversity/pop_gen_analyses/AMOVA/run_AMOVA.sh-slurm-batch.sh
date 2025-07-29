@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-truffle-6371
-#FLUX: -n=32
-#FLUX: --queue=amdsmall
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=jkimball
+#SBATCH --output=run_AMOVA.out
+#SBATCH --error=run_AMOVA.err
+#SBATCH --mail-user=haasx092@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdsmall
 
 cd /home/jkimball/haasx092/AMOVA
 module load gcc/8.1.0

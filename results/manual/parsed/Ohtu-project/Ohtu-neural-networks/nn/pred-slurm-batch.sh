@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pred
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=pred
+#SBATCH --output=pred_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1000
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load Python cuDNN

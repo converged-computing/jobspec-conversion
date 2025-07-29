@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=msweep
-#FLUX: --queue=big
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=msweep
+#SBATCH --mail-user=guillefix@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=big
 
 dataset=$1
 network=$2

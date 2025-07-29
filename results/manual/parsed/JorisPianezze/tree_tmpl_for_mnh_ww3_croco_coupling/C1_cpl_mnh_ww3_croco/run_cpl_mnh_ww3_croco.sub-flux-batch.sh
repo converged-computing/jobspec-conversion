@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=C1_cpl_mnh_ww3_croco
-#FLUX: -N=10
-#FLUX: -n=938
+#FLUX --job-name=C1_cpl_mnh_ww3_croco
+#FLUX -N=10
+#FLUX -n=938
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export dir_exe_croco='/home/piaj/03_workdir/2J_devel_MNH_WW3_CROCO/models/croco/exe_IROISE_1core_CPLOA_CPLOW'
 

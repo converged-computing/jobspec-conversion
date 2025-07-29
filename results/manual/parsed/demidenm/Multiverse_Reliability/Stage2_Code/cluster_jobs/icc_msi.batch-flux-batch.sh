@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=icc_abcd
-#FLUX: -c=6
-#FLUX: --queue=agsmall,msismall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=icc_abcd
+#FLUX -c=6
+#FLUX --queue=agsmall,msismall
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

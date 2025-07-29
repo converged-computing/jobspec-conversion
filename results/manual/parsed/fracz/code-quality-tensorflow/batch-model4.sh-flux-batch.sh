@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-eagle-1666
-#FLUX: --queue=plgrid-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lettuce-4519
+#FLUX --queue=plgrid-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export DATASET1='100-diff10-java-strict'
 export DATASET2='100-diff10to50-java-strict'

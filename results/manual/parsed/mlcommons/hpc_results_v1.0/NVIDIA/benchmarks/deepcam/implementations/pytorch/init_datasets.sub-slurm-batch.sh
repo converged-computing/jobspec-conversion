@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:deepcam
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:deepcam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export CONTAINER_IMAGE='mlperf-deepcam:v1.0'
 export DATASET_INPUT_DIR='<hdf5-dataset-path>'

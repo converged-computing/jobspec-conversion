@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cov2_msglm_parsars_ptm
-#FLUX: -N=60
-#FLUX: -c=7
-#FLUX: --queue=cm2_large
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#FLUX --job-name=cov2_msglm_parsars_ptm
+#FLUX -N=60
+#FLUX -c=7
+#FLUX --queue=cm2_large
+#FLUX -t=691200
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load slurm_setup

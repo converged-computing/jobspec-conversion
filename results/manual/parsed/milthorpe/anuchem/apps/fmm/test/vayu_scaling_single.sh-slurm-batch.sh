@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-fork-9967
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/milthorpe/anuchem/apps/fmm/test/vayu_scaling_single.sh

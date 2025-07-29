@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=XAIATTACK-RTE
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=XAIATTACK-RTE
+#FLUX -c=4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export DATASET='rte'
 export MODEL='distilbert-base-uncased'

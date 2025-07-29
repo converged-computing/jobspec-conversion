@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=p53
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: --queue=fast
-#FLUX: --urgency=16
+#SBATCH --job-name=p53
+#SBATCH --output=job%j.log
+#SBATCH --error=job%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=fast
 
 export PATH='/home/zgjia/Software/openmpi/2.1.0/bin:$PATH'
 export LD_LIBRARY_PATH='/home/zgjia/Software/openmpi/2.1.0/lib:$LD_LIBRARY_PATH'

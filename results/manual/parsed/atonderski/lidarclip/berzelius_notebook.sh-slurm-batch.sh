@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-latke-3764
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=berzelius-2022-117
+#SBATCH --output=/proj/nlp4adas/users/%u/logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=1-00:00:00
 
 singularity exec --nv \
   --bind /proj/nlp4adas/users/$USER:/workspace \

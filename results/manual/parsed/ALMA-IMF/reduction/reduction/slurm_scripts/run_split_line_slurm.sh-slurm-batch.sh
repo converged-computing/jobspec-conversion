@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=split_line
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=split_line
+#SBATCH --output=split_line_windows_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4gb
+#SBATCH --time=7-00:00:00
 
 export ALMAIMF_ROOTDIR='/orange/adamginsburg/ALMA_IMF/reduction/reduction'
 export SCRIPT_DIR='$ALMAIMF_ROOTDIR'

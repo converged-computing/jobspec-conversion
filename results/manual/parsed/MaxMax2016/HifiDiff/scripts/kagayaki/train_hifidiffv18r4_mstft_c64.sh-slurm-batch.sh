@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peanut-butter-3700
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MaxMax2016/HifiDiff/scripts/kagayaki/train_hifidiffv18r4_mstft_c64.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peanut-butter-9968
+#FLUX --job-name=moolicious-lettuce-3331
 #FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=normal_q
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export ERROR='${OUTFILE%%.*}.error'
 export TEMP='$LEVEL/"$OUTFILE.reap'

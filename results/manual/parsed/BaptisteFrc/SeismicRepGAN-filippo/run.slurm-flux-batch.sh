@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RepGAN
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=RepGAN
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export thisuser='$(whoami)'
 export hmd='/gpfs/users'

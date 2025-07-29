@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-buttface-5675
-#FLUX: --urgency=16
+#SBATCH --output=log/%j_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-191%10
 
 export task='$1'
 export model='$2'

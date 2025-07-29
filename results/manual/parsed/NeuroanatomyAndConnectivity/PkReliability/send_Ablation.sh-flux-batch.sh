@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AblationAnalysis
-#FLUX: -c=3
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=AblationAnalysis
+#FLUX -c=3
+#FLUX --queue=short
+#FLUX --urgency=16
 
 SUBJECT_LIST=./text_files/subjectsWithParietalPeak.txt
 module load Python/3.9.6-GCCcore-11.2.0

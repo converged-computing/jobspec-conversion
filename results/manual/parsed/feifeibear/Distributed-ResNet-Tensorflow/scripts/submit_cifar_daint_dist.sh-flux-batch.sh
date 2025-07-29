@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cifar
-#FLUX: -N=9
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=cifar
+#FLUX -N=9
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export WORKON_HOME='~/Envs'
 export WORK_DIR='`pwd`/..'

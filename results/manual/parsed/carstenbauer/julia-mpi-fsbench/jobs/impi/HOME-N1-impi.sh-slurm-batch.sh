@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-muffin-6391
-#FLUX: -n=64
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=HOME-N1-impi.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
+#SBATCH --partition=cont
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

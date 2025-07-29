@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sm
-#FLUX: --queue=shared
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=sm
+#SBATCH --output=out
+#SBATCH --error=err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=shared
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh

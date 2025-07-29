@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peanut-8997
-#FLUX: --urgency=16
+#FLUX --job-name=confused-fork-0068
+#FLUX --urgency=16
 
 genus_species=$1
 module load bioinfo

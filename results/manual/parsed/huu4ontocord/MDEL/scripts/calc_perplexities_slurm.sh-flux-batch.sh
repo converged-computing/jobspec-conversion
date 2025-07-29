@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-staircase-3984
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-butter-3580
+#FLUX -c=4
+#FLUX --queue=small-g
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export WANDB_MODE='offline'
 export HF_HOME='/scratch/project_462000259/jstillerman/hf_cache'

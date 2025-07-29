@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=BNC_TST
-#FLUX: -N=16
-#FLUX: -c=8
-#FLUX: --queue=pilot
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=BNC_TST
+#FLUX -N=16
+#FLUX -c=8
+#FLUX --queue=pilot
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PS1='\$'
 export NCCL_SOCKET_IFNAME='hsn'

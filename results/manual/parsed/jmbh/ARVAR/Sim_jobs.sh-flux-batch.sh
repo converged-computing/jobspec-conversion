@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nalgas-8196
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-peanut-9441
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load 2019 Anaconda3
 source activate my_root

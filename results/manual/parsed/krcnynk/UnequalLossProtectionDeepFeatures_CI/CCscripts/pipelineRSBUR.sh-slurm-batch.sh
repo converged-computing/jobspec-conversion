@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pancake-5695
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=def-ibajic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=04:00:00
+#SBATCH --array=1-11
 
 module restore uneq
 cd ..

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FCAST_SPA1
-#FLUX: --queue=intel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=FCAST_SPA1
+#FLUX --queue=intel
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export MPIRUN='mpirun -np 20'
 

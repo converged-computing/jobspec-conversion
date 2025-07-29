@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rsoccer-isaac-training
-#FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=rsoccer-isaac-training
+#SBATCH --output=/home/CIN/fbm2/logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=all
+#SBATCH: --exclusive
 
 eval "$('/usr/local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 conda activate rlgpu

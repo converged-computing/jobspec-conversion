@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bicycle-6408
-#FLUX: -c=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/projects/verhaak-lab/GLASS-III/logs/slurm/CIBERSORTx_HiRes.out
+#SBATCH --error=/projects/verhaak-lab/GLASS-III/logs/slurm/CIBERSORTx_HiRes.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=72g
+#SBATCH --time=3-00:00:00
 
 module load singularity
 singularity exec \

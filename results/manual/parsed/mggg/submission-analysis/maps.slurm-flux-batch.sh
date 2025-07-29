@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=State_Report_Maps
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=State_Report_Maps
+#FLUX -t=432000
+#FLUX --urgency=16
 
 ​
 source ~/.bashrc  # need to set up the normal environment.

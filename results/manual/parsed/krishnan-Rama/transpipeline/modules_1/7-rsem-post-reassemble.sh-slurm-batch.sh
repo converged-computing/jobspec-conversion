@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -c=4
-#FLUX: --queue=jumbo
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16
+#SBATCH --partition=jumbo
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

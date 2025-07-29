@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-signal-8567
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cdglissov/recurrent-flows-msc/RFN/default_rfn_job.sh

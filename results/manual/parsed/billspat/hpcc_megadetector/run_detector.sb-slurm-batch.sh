@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-staircase-0136
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=general
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --mem=16gb
+#SBATCH --time=02:00:00
 
 USAGE='PHOTOFOLDER=path/to/photos; sbatch --export=INPUT_FOLDER=$PHOTOFOLDER --job-name=detector-$(basename $PHOTOFOLDER) run_detector.sb'
 if [ -z ${PYTHON_FOLDER} ]; then     

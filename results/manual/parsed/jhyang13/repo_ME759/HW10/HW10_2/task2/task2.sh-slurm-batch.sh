@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=task2
-#FLUX: -N=2
-#FLUX: -c=20
-#FLUX: --queue=instruction
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=task2
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=00:30:00
+#SBATCH --partition=instruction
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

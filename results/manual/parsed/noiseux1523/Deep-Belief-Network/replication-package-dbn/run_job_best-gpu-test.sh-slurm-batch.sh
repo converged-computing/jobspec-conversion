@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-8069
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/noiseux1523/Deep-Belief-Network/replication-package-dbn/run_job_best-gpu-test.sh

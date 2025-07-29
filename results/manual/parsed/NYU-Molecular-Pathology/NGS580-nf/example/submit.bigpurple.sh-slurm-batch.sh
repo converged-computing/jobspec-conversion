@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NGS580-run-2
-#FLUX: -c=8
-#FLUX: --queue=intellispace
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=NGS580-run-2
+#SBATCH --output=/gpfs/data/molecpathlab/development/NGS580-development-runs/run-2/logs/slurm-%j.log.1567000969.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=48G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=intellispace
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/gpfs/data/molecpathlab/development/NGS580-development-runs/run-2
 
 touch .nextflow.submitted
 get_pid(){ head -1 .nextflow.pid; }

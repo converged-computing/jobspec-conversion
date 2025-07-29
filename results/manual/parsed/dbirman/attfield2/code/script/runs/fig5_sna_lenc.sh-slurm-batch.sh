@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=f5_sna_lenc
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=f5_sna_lenc
+#SBATCH --output=/scratch/users/kaifox/attfield/data/runs/fig5/logs/sna_lenc_%a.out
+#SBATCH --error=/scratch/users/kaifox/attfield/data/runs/fig5/logs/sna_lenc_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=GPU_MEM:16GB
+#SBATCH --array=0,1,2,3
 
 source ~/.bash_profile
 ml python/3.6.1

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-arm-9832
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-knife-7551
+#FLUX --queue=normal
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DP
-#FLUX: -c=16
-#FLUX: --queue=rtx8000
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=DP
+#FLUX -c=16
+#FLUX --queue=rtx8000
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

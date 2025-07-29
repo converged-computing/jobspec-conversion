@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cinnamonbun-9336
-#FLUX: -c=7
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-lizard-7946
+#FLUX -c=7
+#FLUX --queue=short
+#FLUX --urgency=16
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

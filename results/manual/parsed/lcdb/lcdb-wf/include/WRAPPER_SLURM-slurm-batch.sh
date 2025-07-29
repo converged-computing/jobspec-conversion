@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lcdb-wf
-#FLUX: --queue=norm
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=lcdb-wf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=lscratch:5
+#SBATCH --time=12:00:00
+#SBATCH --partition=norm
 
 if [[ ! -e logs ]]; then mkdir -p logs; fi
 if [ -z "$LCDBWF_SNAKEMAKE_PROFILE" ]; then

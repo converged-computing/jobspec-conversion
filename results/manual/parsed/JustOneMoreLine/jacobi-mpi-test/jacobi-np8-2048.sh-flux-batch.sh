@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-car-8831
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-banana-0718
+#FLUX -N=8
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 mpirun --mca btl_tcp_if_exclude docker0,lo -np 8 jacobi-np8-2048 -- 2048 10000

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=OptimizePR_BENCH
-#FLUX: -c=4
-#FLUX: --queue=boomsma
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=OptimizePR_BENCH
+#FLUX -c=4
+#FLUX --queue=boomsma
+#FLUX -t=43200
+#FLUX --urgency=16
 
 OUTPUT_LOG=/home/pcq275/protein_regression/slurm_experiment_optimize.log
 CONDA_BASE=$(conda info --base)

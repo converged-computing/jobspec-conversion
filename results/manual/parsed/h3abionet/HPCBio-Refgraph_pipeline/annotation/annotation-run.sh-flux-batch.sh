@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=annotation
-#FLUX: -n=2
-#FLUX: --urgency=16
+#FLUX --job-name=annotation
+#FLUX -n=2
+#FLUX --urgency=16
 
 cd /home/groups/h3abionet/RefGraph/results/NeginV_Test_Summer2021
 module load nextflow/21.04.1-Java-1.8.0_152

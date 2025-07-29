@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phylo
-#FLUX: -n=2
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=phylo
+#FLUX -n=2
+#FLUX --queue=quanah
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel java bcftools
 module load intel R

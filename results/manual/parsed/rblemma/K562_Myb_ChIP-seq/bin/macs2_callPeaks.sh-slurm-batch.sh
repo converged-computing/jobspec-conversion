@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Myb_ChIP_macs2_hg19
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Myb_ChIP_macs2_hg19
+#SBATCH --account=nn9632k
+#SBATCH --mail-user=user@domain
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=6000M
+#SBATCH --time=2-00:00:00
 
 source /cluster/bin/jobsetup
 set -o errexit

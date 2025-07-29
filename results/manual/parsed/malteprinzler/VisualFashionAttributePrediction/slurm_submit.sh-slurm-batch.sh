@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nunchucks-2780
-#FLUX: --queue=2080ti-long
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=5000
+#SBATCH --partition=2080ti-long
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

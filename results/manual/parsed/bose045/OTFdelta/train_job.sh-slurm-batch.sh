@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=macetrn
-#FLUX: --queue=npl
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=macetrn
+#SBATCH --output=train.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6
+#SBATCH --time=06:00:00
+#SBATCH --partition=npl
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:1280'

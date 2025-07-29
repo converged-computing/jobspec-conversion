@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-signal-4361
-#FLUX: --urgency=16
+#FLUX --job-name=grated-kitty-2584
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/simongravelle/polymer-in-water/polymer-in-water/raw-data/NPEG32/run_dahu_UGA.sh

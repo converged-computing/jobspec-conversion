@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=plsareal
-#FLUX: -c=20
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=plsareal
+#FLUX -c=20
+#FLUX --queue=shared
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MODULEPATH='$MODULEPATH:/share/apps/compute/modulefiles && module purge && module load gnu/7.2.0 cmake/3.12.1 && /home/oleksanf/miniconda3/bin/python3 /oasis/projects/nsf/csd635/oleksanf/github/mixer_private/precimed/mixer.py snps \'
 

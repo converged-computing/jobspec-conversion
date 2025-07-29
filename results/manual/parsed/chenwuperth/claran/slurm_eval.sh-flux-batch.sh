@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lettuce-7996
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-eagle-1735
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

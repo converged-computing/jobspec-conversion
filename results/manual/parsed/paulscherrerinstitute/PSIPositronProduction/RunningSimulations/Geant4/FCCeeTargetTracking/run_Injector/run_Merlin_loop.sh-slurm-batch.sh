@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lamp-0322
-#FLUX: -c=32
-#FLUX: --queue=hourly,daily,general
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:15:00
+#SBATCH --partition=hourly,daily,general
 
 ncore=$SLURM_CPUS_PER_TASK
 config_file=config_loop.mac

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-platanos-2746
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-caramel-9842
+#FLUX -n=4
+#FLUX --urgency=16
 
 pipe="CUTnTag"
 cwd=$1

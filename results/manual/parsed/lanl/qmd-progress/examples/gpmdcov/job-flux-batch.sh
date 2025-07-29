@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hobbit-4827
-#FLUX: -N=16
-#FLUX: -n=40
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-pot-3384
+#FLUX -N=16
+#FLUX -n=40
+#FLUX --queue=general
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

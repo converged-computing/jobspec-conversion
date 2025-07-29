@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-banana-2391
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=analyzejlds-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --array=1,2,6,9,10,11,12,13,14,15,16,17
 
 export sg='$SLURM_ARRAY_TASK_ID'
 

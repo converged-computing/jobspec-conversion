@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MaSuRCA
-#FLUX: --queue=long
-#FLUX: -t=298820
-#FLUX: --urgency=16
+#SBATCH --job-name=MaSuRCA
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200GB
+#SBATCH --time=3-11:00:20
+#SBATCH --partition=long
 
 module use /beegfs/easybuild/CentOS/7.6.1810/Skylake/modules/all
 module use /beegfs/easybuild/common/modules/all

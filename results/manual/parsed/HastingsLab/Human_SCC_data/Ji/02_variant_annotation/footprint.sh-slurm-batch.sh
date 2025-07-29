@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=footprint
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=footprint
+#SBATCH --mail-user=eknodel@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=public
 
 source activate cancergenomics
 module load bedtools2-2.30.0-gcc-11.2.0

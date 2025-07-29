@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lizard-6685
-#FLUX: -n=16
-#FLUX: --queue=batch,intel
-#FLUX: --urgency=16
+#SBATCH --output=logs/antismash.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64gb
+#SBATCH --partition=batch,intel
 
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then

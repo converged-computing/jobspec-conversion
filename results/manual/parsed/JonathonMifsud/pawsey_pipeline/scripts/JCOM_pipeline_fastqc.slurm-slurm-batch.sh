@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fastqc
-#FLUX: --queue=work
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=fastqc
+#SBATCH --mail-user=$user@uni.sydney.edu.au
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=work
+#SBATCH --constraint=ntasks-per-node=4
 
 export library_run='${myarray["$SLURM_ARRAY_TASK_ID"]}'
 

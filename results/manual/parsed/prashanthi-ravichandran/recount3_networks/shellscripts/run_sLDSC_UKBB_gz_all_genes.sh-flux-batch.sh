@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_ldsc_UKBB_gz_all_genes
-#FLUX: --queue=defq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=run_ldsc_UKBB_gz_all_genes
+#FLUX --queue=defq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load anaconda
 conda activate ldsc 

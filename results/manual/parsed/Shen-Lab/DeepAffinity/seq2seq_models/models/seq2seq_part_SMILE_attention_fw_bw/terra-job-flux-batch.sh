@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=seq2seq_SMILE_attention_fw_bw
-#FLUX: -n=28
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=seq2seq_SMILE_attention_fw_bw
+#FLUX -n=28
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load Anaconda/3-5.0.0.1
 source activate tensorflow-gpu-1.3.0

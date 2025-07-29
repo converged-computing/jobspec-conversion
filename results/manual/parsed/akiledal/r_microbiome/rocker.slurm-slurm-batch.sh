@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pedo-0986
-#FLUX: -n=8
-#FLUX: -c=2
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/rstudio-server.job.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=500G
+#SBATCH --time=5-00:00:00
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/R/rocker-rstudio/4.0'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ddnet
-#FLUX: -c=8
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=88200
-#FLUX: --urgency=16
+#SBATCH --job-name=ddnet
+#SBATCH --account=HPCBIGDATA2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8384
+#SBATCH --time=1-00:30:00
+#SBATCH --partition=dgx_normal_q
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='8888'
 export MASTER_ADDR='$master_addr'

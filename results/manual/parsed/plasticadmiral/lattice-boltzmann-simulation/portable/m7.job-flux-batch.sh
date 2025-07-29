@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hpc
-#FLUX: -N=90
-#FLUX: --queue=multiple
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hpc
+#FLUX -N=90
+#FLUX --queue=multiple
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load devel/python/3.8.6_gnu_10.2
 module load mpi/openmpi/4.1

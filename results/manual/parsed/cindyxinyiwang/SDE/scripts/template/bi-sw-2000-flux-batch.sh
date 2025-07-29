@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-motorcycle-0142
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-plant-0441
+#FLUX -t=0
+#FLUX --urgency=16
 
 python src/main.py \
   --clean_mem_every 5 \

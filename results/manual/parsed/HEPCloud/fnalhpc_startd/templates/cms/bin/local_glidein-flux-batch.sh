@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-platanos-0476
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-nunchucks-7294
+#FLUX --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Color_Palette
-#FLUX: -n=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=Color_Palette
+#FLUX -n=8
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e
 INPUT_DATA_DIR=$1

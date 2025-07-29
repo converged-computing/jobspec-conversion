@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BERT-RBP-snakemake
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=115200
-#FLUX: --urgency=15
+#FLUX --job-name=BERT-RBP-snakemake
+#FLUX -c=4
+#FLUX --queue=gpu_p
+#FLUX -t=115200
+#FLUX --urgency=15
 
 sbatch --wait << EOF
 source $HOME/.bashrc

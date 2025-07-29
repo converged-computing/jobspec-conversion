@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-9874
-#FLUX: --urgency=16
+#FLUX --job-name=phat-fork-7992
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/minkichunm/master_thesis/run.sh

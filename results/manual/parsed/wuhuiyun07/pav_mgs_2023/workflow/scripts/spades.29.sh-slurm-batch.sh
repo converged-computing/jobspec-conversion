@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pav-mgs
-#FLUX: --queue=workq
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pav-mgs
+#SBATCH --account=loni_virus2023
+#SBATCH --output=slurm-%j.out-%N
+#SBATCH --error=slurm-%j.err-%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=workq
+#SBATCH --constraint=ntasks-per-node=48
 
 export OMP_NUM_THREADS='48'
 export WORK_DIR='/project/awlab/wuhuiyun/pav_mgs_2023'

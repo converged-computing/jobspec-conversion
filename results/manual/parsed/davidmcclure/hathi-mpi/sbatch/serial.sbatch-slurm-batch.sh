@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=serial
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#SBATCH --job-name=serial
+#SBATCH --output=serial.out
+#SBATCH --error=serial.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=01:05:00
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/home/dclure/hathi-mpi'
 

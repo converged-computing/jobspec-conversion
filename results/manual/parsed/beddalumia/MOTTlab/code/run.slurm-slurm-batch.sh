@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=TMIT
-#FLUX: -c=32
-#FLUX: --queue=queue.name
-#FLUX: -t=11107
-#FLUX: --urgency=16
+#SBATCH --job-name=TMIT
+#SBATCH --output=sLOG_%x_out%A_%a
+#SBATCH --error=sLOG_%x_err%A_%a
+#SBATCH --mail-user=user@hpc.it
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=0
+#SBATCH --time=03:05:07
+#SBATCH --partition=queue.name
+#SBATCH --array=01-60%1
 
     module load matlab
     cd $SLURM_SUBMIT_DIR

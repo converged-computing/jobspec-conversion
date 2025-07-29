@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hope-5344
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-malarkey-4692
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cat cifar100-noise.sh
 logdir='logs/Final-cifar100-resnet110'

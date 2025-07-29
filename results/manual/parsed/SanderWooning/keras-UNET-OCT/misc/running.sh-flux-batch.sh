@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pancake-6949
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-blackbean-5503
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load 2019
 module load Miniconda2

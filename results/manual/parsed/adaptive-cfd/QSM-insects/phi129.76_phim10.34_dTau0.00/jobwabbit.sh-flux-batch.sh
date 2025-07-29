@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fly-kine-compensation
-#FLUX: -n=80
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=fly-kine-compensation
+#FLUX -n=80
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export MAKEFLAGS='-j8'
 export HDF_ROOT='/gpfslocalsup/spack_soft/hdf5/1.10.5/intel-19.0.4-lnysdcbocfokaq4yxc72wiplpfknw7e6'

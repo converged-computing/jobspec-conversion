@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cinnamonbun-4259
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-parsnip-8878
+#FLUX -c=2
+#FLUX --queue=general
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

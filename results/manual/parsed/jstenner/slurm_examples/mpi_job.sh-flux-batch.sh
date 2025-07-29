@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -N=2
-#FLUX: -n=24
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_job_test
+#FLUX -N=2
+#FLUX -n=24
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Date start        = $(date)"
 echo "Hostname          = $(hostname -s)"

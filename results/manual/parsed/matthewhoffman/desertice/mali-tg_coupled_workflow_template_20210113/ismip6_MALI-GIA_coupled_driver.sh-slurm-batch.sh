@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mali-tg-wft
-#FLUX: -n=68
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mali-tg-wft
+#SBATCH --account=m1795
+#SBATCH --nodes=1
+#SBATCH --ntasks=68
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=knl
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

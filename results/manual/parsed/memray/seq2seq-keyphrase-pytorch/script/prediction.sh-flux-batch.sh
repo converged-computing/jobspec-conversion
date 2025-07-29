@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prediction
-#FLUX: --queue=titanx
-#FLUX: --urgency=16
+#FLUX --job-name=prediction
+#FLUX --queue=titanx
+#FLUX --urgency=16
 
 directory_exp='/ihome/pbrusilosky/rum20/seq2seq-keyphrase-pytorch/exp/'
 directory_data='/ihome/pbrusilosky/rum20/seq2seq-keyphrase-pytorch/data/'

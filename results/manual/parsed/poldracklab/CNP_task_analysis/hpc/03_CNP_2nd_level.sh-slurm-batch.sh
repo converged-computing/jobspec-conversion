@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=placid-nalgas-7504
-#FLUX: --queue=hns,normal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=logs/CNP.group.%a.txt
+#SBATCH --error=logs/CNP.group.%a.txt
+#SBATCH --mail-user=joke.durnez@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=10:00:00
+#SBATCH --partition=hns,normal
 
 source $HOME/CNP_analysis/config.sh
 unset PYTHONPATH

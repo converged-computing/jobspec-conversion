@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cifti_parcellate
-#FLUX: -n=80
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cifti_parcellate
+#SBATCH --output=logs/cifti_parcellate_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export parcellation_dir='${BASEDIR}/templates/parcellations'
 export dlabel_file='tpl-fsLR_res-91k_atlas-GlasserTianS2_dseg.dlabel.nii'

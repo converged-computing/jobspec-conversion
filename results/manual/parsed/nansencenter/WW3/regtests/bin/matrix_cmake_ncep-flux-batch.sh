@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pancake-6569
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-lamp-2180
+#FLUX --urgency=16
 
 usage ()
 {

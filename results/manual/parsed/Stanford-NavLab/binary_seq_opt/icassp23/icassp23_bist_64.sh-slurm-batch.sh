@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=bcd_icassp23
-#FLUX: -c=4
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bcd_icassp23
+#SBATCH --output=bcd_icassp23_e%j.txt
+#SBATCH --error=FAILURE_bcd_icassp23_e%j.txt
+#SBATCH --mail-user=yalan@stanford.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_SUBMIT_DIR='/home/users/yalan/binary_seq_opt/icassp23'
 export GUROBI_HOME='/share/software/user/restricted/gurobi/9.0.3_py36'

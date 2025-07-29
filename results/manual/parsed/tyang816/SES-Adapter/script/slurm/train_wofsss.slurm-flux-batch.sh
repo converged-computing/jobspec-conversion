@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SES-Adapter
-#FLUX: -c=16
-#FLUX: --queue=NvidiaA800
-#FLUX: -t=15552000
-#FLUX: --urgency=16
+#FLUX --job-name=SES-Adapter
+#FLUX -c=16
+#FLUX --queue=NvidiaA800
+#FLUX -t=15552000
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='0'
 export NCCL_DEBUG='INFO'

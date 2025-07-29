@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tf2-test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=tf2-test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=00:01:00
 
 module purge
 module load anaconda3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_as
-#FLUX: --queue=genomicsguestA
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=test_as
+#FLUX --queue=genomicsguestA
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 nextflow run main.nf -profile simulations \

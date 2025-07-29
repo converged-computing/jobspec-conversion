@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-taco-6342
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=phat-ricecake-2280
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export DATADIR='$LOCAL_SCRATCH'
 

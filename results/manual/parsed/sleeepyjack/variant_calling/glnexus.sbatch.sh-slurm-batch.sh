@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=glnexus
-#FLUX: --exclusive
-#FLUX: --queue=nodelong
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=glnexus
+#SBATCH --account=pararch
+#SBATCH --mail-user=juenger@uni-mainz.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=470G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=nodelong
+#SBATCH: --exclusive
 
 set -e
 GVCFDIR=$1

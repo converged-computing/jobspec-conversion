@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bikenwgrowth
-#FLUX: --queue=red
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#SBATCH --job-name=bikenwgrowth
+#SBATCH --output=../outs/job.%j.out
+#SBATCH --error=../outs/job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80000
+#SBATCH --time=2-23:59:00
+#SBATCH --partition=red
+#SBATCH --array=0-5
 
 module load Anaconda3
 . $(conda info --base)/etc/profile.d/conda.sh

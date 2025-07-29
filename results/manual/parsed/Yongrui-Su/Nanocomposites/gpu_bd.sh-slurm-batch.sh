@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=att_tauss_0.5
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=att_tauss_0.5
+#SBATCH --output=outputfile.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,k20m|k40m
 
 module load cuda/6.5
 module load boost/1.55+python-2.7-2014q1

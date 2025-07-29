@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=osmi-a100-nvidia
-#FLUX: --queue=bii-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=osmi-a100-nvidia
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=osmi-a100-nvidia-%u-%j.out
+#SBATCH --error=osmi-a100-nvidia-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=bii-gpu
+#SBATCH --constraint=a100_80gb
 
 echo "# cloudmesh status=running progress=1 pid=$$"
 nvidia-smi

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rfmix
-#FLUX: --queue=normal,owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=rfmix
+#FLUX --queue=normal,owners
+#FLUX -t=172800
+#FLUX --urgency=16
 
 if [ "$#" -lt 1 ]; then 
 	echo "usage: bash do_rf.sh input.vcf [out_prefix]"

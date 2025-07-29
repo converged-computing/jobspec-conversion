@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-0109
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-underoos-8093
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/flass/pantagruel/scripts/ale_array_PBS.qsub

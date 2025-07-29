@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=compile_results
-#FLUX: -n=11
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=compile_results
+#SBATCH --output=compiles_results_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=11
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=02:00:00
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/software/llfs_rnaseq_latest.sif

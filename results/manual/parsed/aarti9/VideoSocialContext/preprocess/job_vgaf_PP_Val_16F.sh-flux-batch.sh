@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bicycle-7665
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-cat-5788
+#FLUX -c=6
+#FLUX -t=600
+#FLUX --urgency=16
 
 nvidia-smi
 SOURCEDIR=/scratch/aarti9

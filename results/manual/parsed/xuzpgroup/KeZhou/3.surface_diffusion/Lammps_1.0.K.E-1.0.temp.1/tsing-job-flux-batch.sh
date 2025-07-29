@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hobbit-4060
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-hope-1177
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xuzpgroup/KeZhou/3.surface_diffusion/Lammps_1.0.K.E-1.0.temp.1/tsing-job

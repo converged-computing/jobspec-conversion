@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mamba
-#FLUX: -n=4
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=mamba
+#FLUX -n=4
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export WANDB_API_KEY='your-api-key'
 

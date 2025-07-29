@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-animal-8134
-#FLUX: --queue=stud-ewi
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-hippo-4645
+#FLUX --queue=stud-ewi
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.1 cudnn/10.1-7.6.0.64

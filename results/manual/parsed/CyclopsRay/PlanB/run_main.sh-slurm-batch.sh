@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_main
-#FLUX: --queue=gpu
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_main
+#SBATCH --output=Run_main-%J.out
+#SBATCH --error=Run_main-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=gpu
 
 module load cuda/11.3.1
 module load cudnn/8.2.0

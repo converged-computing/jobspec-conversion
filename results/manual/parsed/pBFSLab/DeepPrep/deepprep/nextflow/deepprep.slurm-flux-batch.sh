@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multi
-#FLUX: -c=4
-#FLUX: --queue=cpu1,cpu2,fat,amd1,gpu1,gpu2
-#FLUX: --urgency=16
+#FLUX --job-name=multi
+#FLUX -c=4
+#FLUX --queue=cpu1,cpu2,fat,amd1,gpu1,gpu2
+#FLUX --urgency=16
 
 nextflow run /lustre/grp/lhslab/sunzy/anning/workspace/DeepPrep/deepprep/nextflow/deepprep.nf \
 -resume \

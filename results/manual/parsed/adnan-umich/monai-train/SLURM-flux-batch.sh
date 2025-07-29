@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fudge-5087
-#FLUX: --queue=gpu
-#FLUX: -t=72300
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-latke-7660
+#FLUX --queue=gpu
+#FLUX -t=72300
+#FLUX --urgency=16
 
 cd /home/adnanzai/project/monai-train
 ml purge

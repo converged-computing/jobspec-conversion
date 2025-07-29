@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=emi2023_3d_floating_tld
-#FLUX: -N=8
-#FLUX: -n=384
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=emi2023_3d_floating_tld
+#SBATCH --account=hpc_proteus02o
+#SBATCH --output=o.out
+#SBATCH --error=e.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=384
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=workq
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

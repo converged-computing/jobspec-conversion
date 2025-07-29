@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VAE
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=VAE
+#SBATCH --output=VAE_%j.out
+#SBATCH --error=VAE_%j.err
+#SBATCH --mail-user=Jean-Luc.Parouty@grenoble-inp.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
 
 export FIDLE_OVERRIDE_VAE8_run_dir='./run/CelebA.$SLURM_JOB_ID'
 export FIDLE_OVERRIDE_VAE8_scale='1'

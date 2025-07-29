@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-squidward-0917
-#FLUX: -N=2
-#FLUX: --queue=singleGPU
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=singleGPU
 
 export CONT='$(pwd)/nvidia-benchmarks-24.03.sif'
 export MOUNT='$(pwd)/HPL.dat'

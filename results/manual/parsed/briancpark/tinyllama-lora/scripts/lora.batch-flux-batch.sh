@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lora-tune
-#FLUX: -N=6
-#FLUX: -c=16
-#FLUX: --queue=max
-#FLUX: --urgency=16
+#FLUX --job-name=lora-tune
+#FLUX -N=6
+#FLUX -c=16
+#FLUX --queue=max
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate csc542

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemon-1343
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source $HOME/.bashrc
 mas_script_path="$BASH_SOURCE"

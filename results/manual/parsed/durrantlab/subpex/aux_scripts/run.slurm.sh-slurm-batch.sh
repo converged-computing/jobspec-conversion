@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=subpex_1
-#FLUX: -N=2
-#FLUX: --queue=opa-high-mem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=subpex_1
+#SBATCH --output=job_logs/slurm.out
+#SBATCH --error=job_logs/slurm.err
+#SBATCH --mail-user=user@email.domain
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=opa-high-mem
+#SBATCH --constraint=ntasks-per-node=28
 
 source env.sh
 SERVER_INFO=$WEST_SIM_ROOT/west_zmq_info-$SLURM_JOBID.json

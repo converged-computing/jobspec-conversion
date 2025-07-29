@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phables
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phables
+#FLUX -c=32
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -euo pipefail
 ACCLIST="SRR_Acc_List.txt"

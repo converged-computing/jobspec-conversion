@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-knife-2643
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=hpc_build
+#SBATCH --output=run_gpu_%A.out
+#SBATCH --error=run_gpu_%A.err
+#SBATCH --mail-user=teh1m@virginia.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 echo 'slurm allocates gpus ' $CUDA_VISIBLE_DEVICES
 module purge

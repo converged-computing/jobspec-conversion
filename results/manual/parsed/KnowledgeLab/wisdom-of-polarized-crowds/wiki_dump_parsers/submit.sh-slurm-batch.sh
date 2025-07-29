@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wikiparser
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=wikiparser
+#SBATCH --output=%A_%a.out
+#SBATCH --error=%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=05:00:00
 
 module add python
 mapfile -t FILES < $1

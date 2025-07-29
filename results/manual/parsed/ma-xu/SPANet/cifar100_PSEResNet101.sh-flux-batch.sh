@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-citrus-3011
-#FLUX: -n=4
-#FLUX: --queue=public
-#FLUX: -t=1800000
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-despacito-3466
+#FLUX -n=4
+#FLUX --queue=public
+#FLUX -t=1800000
+#FLUX --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-salad-4040
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=logs/R-%j-b$BATCH_SIZE-g$NUM_GPU-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
 
 BATCH_SIZE=4
 NUM_GPU=8

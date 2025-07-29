@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goes_hyper
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=goes_hyper
+#SBATCH --account=NAML0001
+#SBATCH --output=goes_hyper.out
+#SBATCH --error=goes_hyper.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem-per-cpu=768G
+#SBATCH --time=1-00:00:00
 
 module load ncarenv/1.3 gnu/8.3.0 openmpi/3.1.4 python/3.7.5 cuda/10.1
 ncar_pylib /glade/work/schreck/py37

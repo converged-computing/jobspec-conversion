@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_bench
-#FLUX: -n=12
-#FLUX: --queue=pascal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_bench
+#SBATCH --account=T2BENCH-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=03:00:00
+#SBATCH --partition=pascal
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='${cpucores}'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pedo-6917
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH: --exclusive
 
 : "${APPS_PATH:=/fsx}"
 : "${MODEL_PATH:=/fsx}"

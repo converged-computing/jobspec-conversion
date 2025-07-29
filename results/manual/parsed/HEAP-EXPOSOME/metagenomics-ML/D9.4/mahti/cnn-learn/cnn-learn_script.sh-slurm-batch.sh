@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=CNN-learn
-#FLUX: --queue=gpumedium
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CNN-learn
+#SBATCH --account=project_2002659
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=480000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpumedium
+#SBATCH --constraint=ntasks-per-node=1
 
 timer=`date +%s`
 function log {

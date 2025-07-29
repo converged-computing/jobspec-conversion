@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-8112
-#FLUX: --queue=dpart
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=red-butter-3335
+#FLUX --queue=dpart
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export WORK_DIR='/cfarhomes/psando/Documents/UAPs/gd-uap-pytorch/'
 

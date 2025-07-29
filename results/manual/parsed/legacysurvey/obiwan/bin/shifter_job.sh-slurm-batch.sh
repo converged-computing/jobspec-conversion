@@ -1,13 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=docker
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=docker
+#SBATCH --account=desi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project,projecta
 
 export brick='1238p245'
 export PYTHONPATH='.:${PYTHONPATH}'
 export MKL_NUM_THREADS='1'
 
+singularity
+exec
+docker:tskisner/desiconda:1.1.9-imaging-py27
 export brick=1238p245
 module use /global/cscratch1/sd/kaylanb/test/obiwan/etc/modulefiles
 for name in obiwan dust  legacysurvey  unwise_coadds  unwise_coadds_timeresolved; do

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Tony_DPRV
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=Tony_DPRV
+#FLUX --queue=ampere
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

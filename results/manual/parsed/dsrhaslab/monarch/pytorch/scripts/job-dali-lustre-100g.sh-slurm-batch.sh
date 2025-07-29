@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=job-dali-lustre
-#FLUX: --queue=rtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=job-dali-lustre
+#SBATCH --output=job-dali-lustre.o%j
+#SBATCH --error=job-dali-lustre.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=rtx
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 export MONARCH_CONFIGS_PATH='${HOME}/maypaper/thesis/configurations/frontera/tf_placement_100g_disk.yaml'

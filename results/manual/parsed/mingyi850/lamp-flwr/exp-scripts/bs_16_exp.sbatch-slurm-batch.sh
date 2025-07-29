@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bs_16_exp
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bs_16_exp
+#SBATCH --output=bs_16_exp.out
+#SBATCH --mail-user=ml9027@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_HOME='/scratch/ml9027/.cache'
 export HF_DATASETS_CACHE='/scratch/ml9027/.cache'

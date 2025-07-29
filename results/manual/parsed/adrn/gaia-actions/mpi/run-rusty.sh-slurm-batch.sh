@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=actions
-#FLUX: -N=12
-#FLUX: --queue=cca
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=actions
+#SBATCH --output=logs/actions.o%j
+#SBATCH --error=logs/actions.e%j
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=cca
 
 source ~/.bash_profile
 cd /mnt/ceph/users/apricewhelan/projects/gaia-actions/scripts

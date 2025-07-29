@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_test
-#FLUX: -n=2
-#FLUX: --queue=gpu-el8
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_test
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=23:00:00
+#SBATCH --partition=gpu-el8
+#SBATCH --exclude=gpu[38-39]
 
 python integrate_hamsters_direct.py
 echo "Done"

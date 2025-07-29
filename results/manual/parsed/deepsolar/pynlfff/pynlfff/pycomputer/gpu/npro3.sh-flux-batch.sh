@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pro2
-#FLUX: -N=8
-#FLUX: -t=173400
-#FLUX: --urgency=16
+#FLUX --job-name=pro2
+#FLUX -N=8
+#FLUX -t=173400
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='4'
 export NCCL_ALGO='Ring'

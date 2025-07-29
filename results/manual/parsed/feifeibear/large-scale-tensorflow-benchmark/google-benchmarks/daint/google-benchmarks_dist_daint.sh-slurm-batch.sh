@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dist_google_benchmark
-#FLUX: -N=128
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=dist_google_benchmark
+#SBATCH --output=dist_benchmark_daint.%j.log
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=gpu
 
 export WORKON_HOME='~/Envs'
 export ROOT_DIR='/scratch/snx3000/youyang9/fjr/tf_workspace/large-scale-tensorflow-benchmark'

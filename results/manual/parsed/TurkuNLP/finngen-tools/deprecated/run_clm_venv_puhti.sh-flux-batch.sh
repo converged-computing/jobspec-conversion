@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lemur-6145
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-motorcycle-5949
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 OUTPUT_DIR=output_dir
 rm -rf "$OUTPUT_DIR"

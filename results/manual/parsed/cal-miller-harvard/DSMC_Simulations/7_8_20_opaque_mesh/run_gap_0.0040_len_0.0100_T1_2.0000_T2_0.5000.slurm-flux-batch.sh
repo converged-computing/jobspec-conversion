@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-animal-3498
-#FLUX: -n=24
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-kitty-4639
+#FLUX -n=24
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

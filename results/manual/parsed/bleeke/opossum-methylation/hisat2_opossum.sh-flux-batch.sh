@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HISATmap
-#FLUX: -n=4
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=HISATmap
+#FLUX -n=4
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "start"
 date

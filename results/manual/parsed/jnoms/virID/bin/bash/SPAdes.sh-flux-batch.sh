@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-5395
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-pancake-1207
+#FLUX -c=2
+#FLUX --queue=priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
 usage() {
         echo "

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tsv2jsonl
-#FLUX: -c=2
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=tsv2jsonl
+#SBATCH --output=logs/%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1750
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=small
 
 module load cray-python/3.9.12.1
 set -euo pipefail

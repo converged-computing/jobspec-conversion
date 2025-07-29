@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lentil-4251
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-punk-2131
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load intel_pac/19.2.0_usm

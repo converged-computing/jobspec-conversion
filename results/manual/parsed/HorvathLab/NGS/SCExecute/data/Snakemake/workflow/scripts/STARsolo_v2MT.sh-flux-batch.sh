@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-avocado-1612
-#FLUX: -n=16
-#FLUX: --queue=defq
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=grated-lemur-6853
+#FLUX -n=16
+#FLUX --queue=defq
+#FLUX -t=360000
+#FLUX --urgency=16
 
 GENOME_DIR="/data/lab/Homo_sapiens/genome"
 GTF_FILE="/data/lab/Homo_sapiens/genome/Homo_sapiens.GRCh38.79.gtf"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tfhvd-cpu
-#FLUX: -N=2
-#FLUX: --queue=compute
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=tfhvd-cpu
+#FLUX -N=2
+#FLUX --queue=compute
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export UCX_TLS='shm,rc,ud,dc'

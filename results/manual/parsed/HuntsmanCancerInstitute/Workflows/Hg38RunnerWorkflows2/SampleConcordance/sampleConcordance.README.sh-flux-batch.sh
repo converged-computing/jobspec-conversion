@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-2711
-#FLUX: --queue=hci-rw
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-puppy-2874
+#FLUX --queue=hci-rw
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED STARTED
 module load singularity

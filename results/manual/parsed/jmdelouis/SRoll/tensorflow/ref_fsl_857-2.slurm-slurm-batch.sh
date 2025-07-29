@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=857_2
-#FLUX: -N=10
-#FLUX: -n=240
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=857_2
+#SBATCH --nodes=10
+#SBATCH --ntasks=240
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=118000
+#SBATCH --time=00:30:00
+#SBATCH --constraint=HSW24,ntasks-per-node=24
 
 export OMP_NUM_THREADS='1'
 export MXM_TLS='self,shm,rc'

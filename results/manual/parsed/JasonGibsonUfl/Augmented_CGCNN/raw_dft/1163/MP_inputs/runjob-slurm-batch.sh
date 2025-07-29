@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=1163
-#FLUX: -n=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=1163
+#SBATCH --error=err_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000mb
+#SBATCH --time=06:00:00
+#SBATCH --qos=hennig
+#SBATCH --constraint=ntasks-per-socket=16,ntasks-per-node=16
 
 cd $SLURM_SUBMIT_DIR
 module purge

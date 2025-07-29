@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=WASABI_boldmeans
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=WASABI_boldmeans
+#SBATCH --account=DBIC
+#SBATCH --output=boldmeans_%A_%a.o
+#SBATCH --error=boldmeans_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=100gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=0-780
 
 export MATLAB_NUM_THREADS='1'
 

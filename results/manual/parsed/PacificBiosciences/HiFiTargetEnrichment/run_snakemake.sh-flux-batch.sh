@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-underoos-0608
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-bicycle-6370
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 umask 002
 BATCH=$1

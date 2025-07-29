@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=kaiju
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=kaiju
+#SBATCH --output=/data/ssmith/logs/kaiju_%A_%a.out
+#SBATCH --error=/data/ssmith/logs/kaiju_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=0
+#SBATCH --array=214
 
 module load Anaconda3
 source activate microbiome

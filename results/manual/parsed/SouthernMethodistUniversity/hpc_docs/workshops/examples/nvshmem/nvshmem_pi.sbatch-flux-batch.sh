@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvshmem_pi
-#FLUX: --queue=amd
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=nvshmem_pi
+#FLUX --queue=amd
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo $SLURM_JOB_PARTITION
 module purge

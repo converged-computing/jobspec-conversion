@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-6595
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-leopard-7330
+#FLUX --queue=GPU-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set +x
 cd  ${PROJECT}/${USER}/mlstamps_oltr/

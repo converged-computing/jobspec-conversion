@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=10
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --account=Project_2001426
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=8000
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 set -euo pipefail
 module purge

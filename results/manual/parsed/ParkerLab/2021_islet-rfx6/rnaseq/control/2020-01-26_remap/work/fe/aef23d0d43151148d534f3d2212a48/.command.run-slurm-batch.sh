@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nf-bam_to_fastq_(21)
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-bam_to_fastq_(21)
+#SBATCH --output=/home/vivekrai/analyses/2020-01_vanderbilt_rna/control/2020-01-26_remap/work/fe/aef23d0d43151148d534f3d2212a48/.command.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8192M
+#SBATCH --time=04:00:00
+#SBATCH --chdir=/home/vivekrai/analyses/2020-01_vanderbilt_rna/control/2020-01-26_remap/work/fe/aef23d0d43151148d534f3d2212a48
+#SBATCH: --no-requeue
 
 set -e
 set -u

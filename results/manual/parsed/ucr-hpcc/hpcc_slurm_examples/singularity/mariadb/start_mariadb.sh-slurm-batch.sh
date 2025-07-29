@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-poodle-0634
-#FLUX: -c=2
-#FLUX: --queue=batch,intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10g
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=batch,intel
 
 module load singularity
 cd ~/bigdata/mysql/

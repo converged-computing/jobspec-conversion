@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=2-Bulk
-#FLUX: -n=128
-#FLUX: --queue=compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=2-Bulk
+#SBATCH --account=SLC103
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=compute
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

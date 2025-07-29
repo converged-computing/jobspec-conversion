@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-milkshake-9496
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-arm-8614
+#FLUX --urgency=16
 
 module purge
 module load matlab

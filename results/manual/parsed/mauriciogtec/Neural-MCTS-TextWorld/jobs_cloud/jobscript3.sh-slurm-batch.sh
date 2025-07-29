@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gnormal
-#FLUX: -n=2
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gnormal
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=count_num_objects
-#FLUX: -c=2
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=count_num_objects
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=30GB
+#SBATCH --time=2-12:00:00
 
 ext3_path=/scratch/lg3490/tfv/overlay-25GB-500K.ext3
 sif_path=/scratch/work/public/singularity/cuda11.6.124-cudnn8.4.0.27-devel-ubuntu20.04.4.sif

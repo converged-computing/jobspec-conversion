@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nas
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=nas
+#SBATCH --output=nas5.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 conda deactivate

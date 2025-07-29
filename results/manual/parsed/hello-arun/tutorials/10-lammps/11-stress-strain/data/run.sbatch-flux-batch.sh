@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-0861
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-despacito-2603
+#FLUX -N=8
+#FLUX --queue=batch
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

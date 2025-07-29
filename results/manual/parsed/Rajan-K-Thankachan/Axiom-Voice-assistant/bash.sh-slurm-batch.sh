@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NLUModel-Run1
-#FLUX: -c=2
-#FLUX: --queue=ug-gpu-small
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=NLUModel-Run1
+#SBATCH --mail-user=ncwn67@durham.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --time=05:00:00
+#SBATCH --partition=ug-gpu-small
+#SBATCH --qos=short
 
 source /etc/profile
 module load cuda/8.0

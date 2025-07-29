@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-0250
-#FLUX: --urgency=16
+#FLUX --job-name=grated-lemur-7218
+#FLUX --urgency=16
 
 function write_comment()
 {

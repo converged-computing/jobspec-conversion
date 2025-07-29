@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cil_train
-#FLUX: -n=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cil_train
+#SBATCH --output=cil_train.out
+#SBATCH --error=paperX.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem-per-cpu=4096
+#SBATCH --time=1-00:00:00
 
 source startup.sh
 python train.py --lr 0.0001 --data './data_google/training' --model 'fpn' --epochs 17 --full True --augmentations True

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=move_hf_cache
-#FLUX: --queue=skylake,cclake
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=move_hf_cache
+#SBATCH --account=MLMI-tw581-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=skylake,cclake
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

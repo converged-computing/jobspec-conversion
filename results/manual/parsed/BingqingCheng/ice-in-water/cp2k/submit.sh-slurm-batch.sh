@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cp2k
-#FLUX: -N=8
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cp2k
+#SBATCH --account=s957
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export CRAY_CUDA_MPS='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

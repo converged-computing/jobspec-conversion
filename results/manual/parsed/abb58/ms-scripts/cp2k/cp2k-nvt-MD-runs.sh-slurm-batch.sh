@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=${2}-${j}-${1}-$i
-#FLUX: -N=2
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=${2}-${j}-${1}-$i
+#SBATCH --error=${2}-${j}k-${1}-%j.err
+#SBATCH --mail-user=abb58@pitt.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=6-00:00:00
+#SBATCH --qos=long
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

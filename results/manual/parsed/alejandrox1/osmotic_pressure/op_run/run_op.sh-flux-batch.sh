@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=OSMOTIC
+#FLUX --job-name=OSMOTIC
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 help=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)
 opt_h() 

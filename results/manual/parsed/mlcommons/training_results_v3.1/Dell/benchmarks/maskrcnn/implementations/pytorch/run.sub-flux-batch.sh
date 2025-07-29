@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=object_detection
-#FLUX: --urgency=16
+#FLUX --job-name=object_detection
+#FLUX --urgency=16
 
 export MODEL_NAME='object_detection'
 export MODEL_FRAMEWORK='pytorch'

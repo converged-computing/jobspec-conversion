@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=clipping1
-#FLUX: --queue=common
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=clipping1
+#FLUX --queue=common
+#FLUX -t=255600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

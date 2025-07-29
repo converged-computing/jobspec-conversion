@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=deeplabv3plus_r50_gta_train-split_base_train_b
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=deeplabv3plus_r50_gta_train-split_base_train_b
+#FLUX -c=2
+#FLUX --queue=gpu,gpub
+#FLUX -t=604800
+#FLUX --urgency=16
 
 max_iters=60000
 main_config="./local_configs/ResNet/50/deeplabv3plus_r50.b5.512x512.gta2cs.40k.batch2_faster_head_training.py"

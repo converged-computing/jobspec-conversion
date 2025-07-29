@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Deep-RBM_DBM_4_dec_bin_CD1_base
-#FLUX: --queue=mono
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Deep-RBM_DBM_4_dec_bin_CD1_base
+#SBATCH --output=Deep-RBM_DBM_4_dec_bin_CD1_base.out.txt
+#SBATCH --error=Deep-RBM_DBM_4_dec_bin_CD1_base.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=mono
 
 source /etc/profile.modules
 module load gcc

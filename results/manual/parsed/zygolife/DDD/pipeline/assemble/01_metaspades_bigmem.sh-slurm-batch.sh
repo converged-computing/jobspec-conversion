@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=metaspades
-#FLUX: -n=32
-#FLUX: --queue=intel,batch,highmem
-#FLUX: --urgency=16
+#SBATCH --job-name=metaspades
+#SBATCH --output=logs/metaspades_bigmem.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --partition=intel,batch,highmem
 
 module load spades/3.15.2
 MEM=256

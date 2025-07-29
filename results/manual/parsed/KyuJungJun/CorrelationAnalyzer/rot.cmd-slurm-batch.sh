@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rot
-#FLUX: -n=48
-#FLUX: --queue=skx-normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=rot
+#SBATCH --account=TG-DMR970008S
+#SBATCH --output=out.%j
+#SBATCH --error=error.%j
+#SBATCH --mail-user=computation.management@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=skx-normal
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=nvt
+#FLUX -c=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

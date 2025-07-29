@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_cont_norm_kq
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain_cont_norm_kq
+#SBATCH --output=sbatch_logs/%A_%x.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=06:00:00
 
 singularity exec \
     --nv --overlay /scratch/nv2099/images/overlay-50G-10M.ext3:ro \

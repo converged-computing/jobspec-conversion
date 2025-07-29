@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=runATCS
-#FLUX: -c=18
-#FLUX: --queue=gpu_mig
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#SBATCH --job-name=runATCS
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=2
+#SBATCH --mem=64000M
+#SBATCH --time=1-11:59:00
+#SBATCH --partition=gpu_mig
 
 module purge
 module load 2022

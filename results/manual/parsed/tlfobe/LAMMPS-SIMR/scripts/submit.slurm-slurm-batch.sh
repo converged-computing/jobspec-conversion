@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-parsnip-5923
-#FLUX: --queue=RM-shared
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --output=logfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=4
 
 export lmp_mpi='/home/tfobe/Programs/lammps-22Aug18/src/lmp_mpi'
 

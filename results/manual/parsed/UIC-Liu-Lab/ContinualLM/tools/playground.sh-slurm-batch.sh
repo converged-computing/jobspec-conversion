@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chip-1301
-#FLUX: --queue=gpu20
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=posttrain_procy_qa-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu20
 
 export HF_DATASETS_CACHE='/sdb/zke4/dataset_cache'
 export TRANSFORMERS_CACHE='/sdb/zke4/model_cache'

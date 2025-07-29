@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nlp-baseline
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=nlp-baseline
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 FILE=baseline.py
 module load CUDA/12.1.1

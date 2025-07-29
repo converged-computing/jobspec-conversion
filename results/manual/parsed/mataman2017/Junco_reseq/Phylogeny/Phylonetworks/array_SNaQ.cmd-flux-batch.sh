@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runsnaq
-#FLUX: -c=30
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=runsnaq
+#FLUX -c=30
+#FLUX -t=216000
+#FLUX --urgency=16
 
 echo "slurm task ID = $SLURM_ARRAY_TASK_ID used as hmax"
 echo "start of SNaQ parallel runs on $(hostname)"

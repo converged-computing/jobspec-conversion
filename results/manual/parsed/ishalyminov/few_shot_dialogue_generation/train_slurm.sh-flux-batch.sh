@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-8772
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-earthworm-6444
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda10.0
 CUDA_VERSION_LONG=10.0.130

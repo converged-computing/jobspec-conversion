@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=seasfst
-#FLUX: -c=40
-#FLUX: --queue=bluemoon
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=seasfst
+#SBATCH --output=./slurmOut/spacfst.%A_%a.out
+#SBATCH --error=./slurmOut/spacfst.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=bluemoon
+#SBATCH --array=1-469
 
 module load spack/spack-0.18.1
 spack load r@4.2.1 r-sf

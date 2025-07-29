@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-train-2421
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=red-sundae-2288
+#FLUX -t=172800
+#FLUX --urgency=16
 
 dir_output=.
 use_spark=0

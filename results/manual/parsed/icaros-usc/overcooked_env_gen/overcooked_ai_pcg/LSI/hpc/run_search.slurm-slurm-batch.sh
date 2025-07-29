@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run-lsi-search
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=run-lsi-search
+#SBATCH --account=nikolaid_548
+#SBATCH --output=./hpc/logs/slurm-%j.out
+#SBATCH --error=./hpc/logs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4GB
+#SBATCH --time=02:00:00
 
 echo "========== SLURM JOB INFO =========="
 echo

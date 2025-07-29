@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-taco-5071
-#FLUX: --queue=small
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-caramel-3519
+#FLUX --queue=small
+#FLUX -t=4800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "Dir in slurm: " $PWD

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cinnamonbun-0695
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --account=csci_ga_2572_2022sp_09
+#SBATCH --output=multiple_demo_%j.out
+#SBATCH --error=multiple_demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --time=15:00:00
+#SBATCH --partition=n1c24m128-v100-4
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

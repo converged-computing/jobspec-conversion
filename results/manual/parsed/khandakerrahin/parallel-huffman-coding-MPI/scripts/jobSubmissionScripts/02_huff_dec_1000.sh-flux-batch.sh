@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lettuce-8458
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-salad-5736
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/khandakerrahin/parallel-huffman-coding-MPI/scripts/jobSubmissionScripts/02_huff_dec_1000.sh

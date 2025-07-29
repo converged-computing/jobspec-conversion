@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mhd_merge
-#FLUX: --queue=general
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=mhd_merge
+#SBATCH --output=Out_files/mhd_merge%j.out
+#SBATCH --error=Err_files/mhd_merge%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=general
+#SBATCH --qos=high_wangj
+#SBATCH --constraint=ntasks-per-node=64
 
 module purge > /dev/null 2>&1
 module load wulver

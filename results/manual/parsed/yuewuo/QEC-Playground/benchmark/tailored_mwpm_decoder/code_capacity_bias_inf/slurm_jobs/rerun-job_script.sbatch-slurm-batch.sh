@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=QEC-Playground=04-01-2022=14:24:56
-#FLUX: -c=12
-#FLUX: --queue=scavenge
-#FLUX: -t=44400
-#FLUX: --urgency=16
+#SBATCH --job-name=QEC-Playground=04-01-2022=14:24:56
+#SBATCH --output=/gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/tailored_mwpm_decoder/code_capacity_bias_inf/slurm_jobs/%a.jobout
+#SBATCH --error=/gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/tailored_mwpm_decoder/code_capacity_bias_inf/slurm_jobs/%a.joberror
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=8G
+#SBATCH --time=12:20:00
+#SBATCH --partition=scavenge
+#SBATCH --array=86,106,107
 
 if [ "$SLURM_ARRAY_TASK_ID" == "0" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool benchmark '[3]' --djs '[3]' '[0]' -m100000000 -e40000 '[4.00000000e-01]' -p12 --time_budget 3600 --code_type RotatedTailoredCode --bias_eta 1e200 --decoder tailored-mwpm --decoder_config '{"pcmg":true}' || exit 91; fi
 if [ "$SLURM_ARRAY_TASK_ID" == "1" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool benchmark '[3]' --djs '[3]' '[0]' -m100000000 -e40000 '[3.15478672e-01]' -p12 --time_budget 3600 --code_type RotatedTailoredCode --bias_eta 1e200 --decoder tailored-mwpm --decoder_config '{"pcmg":true}' || exit 91; fi

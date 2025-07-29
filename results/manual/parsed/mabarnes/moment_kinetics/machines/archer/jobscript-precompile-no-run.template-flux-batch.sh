@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lamp-1610
-#FLUX: -n=16
-#FLUX: --queue=serial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=red-blackbean-9347
+#FLUX -n=16
+#FLUX --queue=serial
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

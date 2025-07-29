@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ekp_bomex
-#FLUX: -n=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ekp_bomex
+#FLUX -n=10
+#FLUX -t=7200
+#FLUX --urgency=16
 
 config=${1?Error: no config file given}
 module purge

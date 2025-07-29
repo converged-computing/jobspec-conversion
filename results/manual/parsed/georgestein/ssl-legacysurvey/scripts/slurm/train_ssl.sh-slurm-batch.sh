@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leopard-0816
-#FLUX: -N=32
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=m3900
+#SBATCH --output=sout/decals_grrrssgbjcgnr_%x-%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=128
+#SBATCH --time=12:00:00
+#SBATCH --qos=early_science
+#SBATCH --constraint=gpu
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=torchlight
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=torchlight
+#SBATCH --account=ict23_smr3872
+#SBATCH --output=run.out
+#SBATCH --error=run.err
+#SBATCH --mail-user=sdigioia@sissa.it
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=4G
+#SBATCH --time=00:10:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge
 module load gcc

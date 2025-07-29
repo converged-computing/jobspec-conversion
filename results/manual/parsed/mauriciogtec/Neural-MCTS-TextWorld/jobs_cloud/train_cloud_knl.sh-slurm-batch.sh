@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=skx-normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=skx-normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='272'

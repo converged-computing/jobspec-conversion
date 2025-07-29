@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MethPipe
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=MethPipe
+#SBATCH --output=MethPipe.out
+#SBATCH --error=MethPipe.error
+#SBATCH --mail-user=yourEmail@university.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=16:00:00
 
 export LC_ALL='C'
 

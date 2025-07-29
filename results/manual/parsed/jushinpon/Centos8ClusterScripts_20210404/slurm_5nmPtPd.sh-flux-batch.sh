@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=5nmPtPd
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=5nmPtPd
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/mpich-3.4.1/lib:$LD_LIBRARY_PATH'
 export PATH='/opt/mpich-3.4.1/bin:$PATH'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cherry-9507
-#FLUX: -n=4
-#FLUX: --queue=part1
-#FLUX: --urgency=16
+#SBATCH --output=slurm_log/%j_out.txt
+#SBATCH --error=slurm_log/%j_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=part1
 
 CONFIG=configs/deeplabv3plus/deeplabv3plus_r101-d8_480x480_60k_pascal_person_part_hiera_triplet.py
 GPUS=2

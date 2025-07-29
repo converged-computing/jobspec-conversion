@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cinnamonbun-0586
-#FLUX: -n=40
-#FLUX: --queue=small
-#FLUX: -t=54610
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-lemon-4084
+#FLUX -n=40
+#FLUX --queue=small
+#FLUX -t=54610
+#FLUX --urgency=16
 
 module load maestro parallel
 find /scratch/project_xxxx/yetukuri/results_1000k_splits  -name '*.smi' | \

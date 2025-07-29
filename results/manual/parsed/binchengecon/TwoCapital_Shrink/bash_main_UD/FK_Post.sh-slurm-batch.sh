@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=${xi_a[$j]}_${xi_c[$j]}_${xi_d[$j]}_${xi_g[$j]}_${PSI_0}_${PSI_1}_${varrho}_${i}_${epsilon}
-#FLUX: -c=5
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=${xi_a[$j]}_${xi_c[$j]}_${xi_d[$j]}_${xi_g[$j]}_${PSI_0}_${PSI_1}_${varrho}_${i}_${epsilon}
+#SBATCH --account=pi-lhansen
+#SBATCH --output=./job-outs/${action_name}/FK_Post/xia_${xi_a[$j]}_xic_${xi_c[$j]}_xid_${xi_d[$j]}_xig_${xi_g[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}_varrho_${varrho}/mercury_post_$i.out
+#SBATCH --error=./job-outs/${action_name}/FK_Post/xia_${xi_a[$j]}_xic_${xi_c[$j]}_xid_${xi_d[$j]}_xig_${xi_g[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}_varrho_${varrho}/mercury_post_$i.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=10G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
+#SBATCH --exclude=mcn53,mcn51,mcn05
 
 epsilonarray=(0.05) 
 python_name="FK_postdamage_2jump_CRS_PETSC.py" # 3 dmg

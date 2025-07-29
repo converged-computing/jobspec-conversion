@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wmt-en2de
-#FLUX: -c=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=wmt-en2de
+#FLUX -c=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load anaconda-py3/2019.03

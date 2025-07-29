@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cox_2D_HD_r1
-#FLUX: -N=16
-#FLUX: -n=768
-#FLUX: --queue=workq
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=cox_2D_HD_r1
+#SBATCH --account=loni_ceds3d
+#SBATCH --output=o.out
+#SBATCH --error=e.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=768
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=workq
 
 date
 module purge

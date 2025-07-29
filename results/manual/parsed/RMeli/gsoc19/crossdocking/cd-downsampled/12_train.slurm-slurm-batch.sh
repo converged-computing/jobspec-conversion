@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=stat-ecr
+#SBATCH --output=slurm/train/%x.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-2
 
 hostname
 nvidia-smi

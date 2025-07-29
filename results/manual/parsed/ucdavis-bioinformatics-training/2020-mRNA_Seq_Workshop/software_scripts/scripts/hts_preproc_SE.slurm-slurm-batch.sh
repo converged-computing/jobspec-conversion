@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=htstream
-#FLUX: -n=9
-#FLUX: --queue=production
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=htstream
+#SBATCH --account=mrnaseq_workshop
+#SBATCH --output=slurmout/htstream_%A_%a.out
+#SBATCH --error=slurmout/htstream_%A_%a.err
+#SBATCH --mail-user=myemail@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3000
+#SBATCH --time=01:00:00
+#SBATCH --partition=production
+#SBATCH --array=1-22
 
 start=`date +%s`
 echo $HOSTNAME

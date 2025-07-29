@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=simdata
-#FLUX: -c=24
-#FLUX: --queue=research
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=simdata
+#SBATCH --output=log/slurm.%j.%N.out
+#SBATCH --error=log/slurm.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=research
 
 module load anaconda/mini/4.9.2
 module load nvidia/cuda/11.3.1

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=myjobtest
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpuA100x8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=myjobtest
+#SBATCH --account=bbpj-delta-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=250g
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuA100x8
+#SBATCH --constraint=ntasks-per-node=1
 
 module reset # drop modules and explicitly load the ones needed
              # (good job metadata and reproducibility)

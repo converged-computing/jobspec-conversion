@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NLG
-#FLUX: --queue=2080ti
-#FLUX: --urgency=16
+#SBATCH --job-name=NLG
+#SBATCH --output=log/nlg_%A_%a.out
+#SBATCH --error=log/nlg_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=2080ti
+#SBATCH --array=0-11
 
 dataset=(atis snips)
 ratio=(0.05 0.1 1.0)

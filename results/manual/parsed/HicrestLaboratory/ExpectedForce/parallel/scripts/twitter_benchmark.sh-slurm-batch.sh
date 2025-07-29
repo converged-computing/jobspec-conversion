@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cuda
-#FLUX: --queue=training
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hello-cuda
+#SBATCH --output=hello-cuda-%j.out
+#SBATCH --error=hello-cuda-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=02:00:00
+#SBATCH --partition=training
 
 module load cuda-11.2.1
 module load gcc-6.5.0

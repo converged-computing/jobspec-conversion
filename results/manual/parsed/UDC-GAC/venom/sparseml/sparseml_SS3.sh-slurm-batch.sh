@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sparsifier
-#FLUX: --queue=amdrtx
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#SBATCH --job-name=sparsifier
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128GB
+#SBATCH --time=21-00:00:00
+#SBATCH --partition=amdrtx
 
 module load cuda/11.7.1
 source activate sparseml_artf

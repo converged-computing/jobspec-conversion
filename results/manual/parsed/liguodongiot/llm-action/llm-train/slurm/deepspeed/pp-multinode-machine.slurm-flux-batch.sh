@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-deepspeed
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=a800
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=multinode-deepspeed
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=a800
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='2'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

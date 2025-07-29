@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-description-mixtral-gpu
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=llama-cpp-description-mixtral-gpu
+#FLUX -c=20
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 spack load cuda@11.8.0
 spack load --first py-pandas

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-underoos-9256
-#FLUX: -c=6
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-parsnip-9671
+#FLUX -c=6
+#FLUX -t=64800
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=timAhcal_valid
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=timAhcal_valid
+#FLUX -n=4
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 folder="/home/chirayugupta/test"
 module load cdac/spack/0.17

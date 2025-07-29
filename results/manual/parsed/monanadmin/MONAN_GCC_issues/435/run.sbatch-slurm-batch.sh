@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ISO
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ISO
+#SBATCH --output=./sbatch.o%j
+#SBATCH --error=./sbatch.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export PMIX_MCA_gds='hash'
 export LD_LIBRARY_PATH='\$LD_LIBRARY_PATH:${HOME}/local/lib64'

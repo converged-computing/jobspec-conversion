@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rlx_experiment
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=rlx_experiment
+#FLUX -t=1800
+#FLUX --urgency=16
 
 eval "$(/home/bohlinger/miniconda3/bin/conda shell.bash hook)"
 conda activate rlx

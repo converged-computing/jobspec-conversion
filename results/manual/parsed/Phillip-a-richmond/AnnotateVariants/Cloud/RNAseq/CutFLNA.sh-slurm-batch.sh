@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=angry-knife-6966
-#FLUX: -c=10
-#FLUX: -t=309600
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=80G
+#SBATCH --time=3-14:00:00
+#SBATCH --array=1-28%6
 
 module load singularity
 BIN_VERSION="1.1.0"

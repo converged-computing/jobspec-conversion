@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=D-DETR_test
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=D-DETR_test
+#SBATCH --output=myjobresults-%J.out
+#SBATCH --error=myjobresults-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 conda create -n deformable_detr python=3.7 pip
 conda activate deformable_detr

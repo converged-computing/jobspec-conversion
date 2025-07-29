@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nonlin_sim
-#FLUX: -n=64
-#FLUX: --queue=amilan
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=nonlin_sim
+#SBATCH --output=nonlin_sim.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=amilan
 
 export CC='gcc'
 export CXX='g++'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=exspect_psb
-#FLUX: --queue=conroy,shared
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=exspect_psb
+#SBATCH --output=/n/holyscratch01/conroy_lab/bdjohnson/exspect/fitting/logs/exspect_psb_%A.out
+#SBATCH --error=/n/holyscratch01/conroy_lab/bdjohnson/exspect/fitting/logs/exspect_psb_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=conroy,shared
+#SBATCH --constraint=intel
 
 export GROUP='conroy_lab'
 export MYSCRATCH='$SCRATCH/$GROUP/$USER'

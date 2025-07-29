@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=C96_enkf_psonly
-#FLUX: -N=20
-#FLUX: --queue=hercules
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=C96_enkf_psonly
+#SBATCH --account=da-cpu
+#SBATCH --output=C96_enkf_psonly.out
+#SBATCH --error=C96_enkf_psonly.err
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=hercules
+#SBATCH --constraint=ntasks-per-node=80
 
 export NODES='$SLURM_NNODES'
 export corespernode='$SLURM_CPUS_ON_NODE'

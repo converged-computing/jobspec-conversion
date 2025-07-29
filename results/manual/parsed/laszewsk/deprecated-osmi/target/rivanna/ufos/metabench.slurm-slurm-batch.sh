@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train-osmi
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j.out
+#SBATCH --error=%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100
+#SBATCH --time=12:00:00
+#SBATCH --partition=bii-gpu
 
 nvidia-smi
 dir="/project/bii_dsc_community/$USER/osmi-scratch/osmi"

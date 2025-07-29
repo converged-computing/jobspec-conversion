@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-despacito-4058
-#FLUX: -c=8
-#FLUX: --queue=gpuq-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-hope-7755
+#FLUX -c=8
+#FLUX --queue=gpuq-dev
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/3.6.3
 module load cuda/11.4.2

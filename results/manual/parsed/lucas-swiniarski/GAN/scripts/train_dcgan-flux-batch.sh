@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=acwg-clamp-b
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=acwg-clamp-b
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load python/intel/2.7.12

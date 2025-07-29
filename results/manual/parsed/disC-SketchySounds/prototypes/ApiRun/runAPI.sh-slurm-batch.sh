@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sd-usage
-#FLUX: -c=8
-#FLUX: --queue=p0
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=sd-usage
+#SBATCH --mail-user=kremlingph95027@th-nuernberg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --partition=p0
+#SBATCH --qos=basic
 
 export PIP_CACHE_DIR='$CACHE_DIR'
 export TRANSFORMERS_CACHE='$CACHE_DIR'

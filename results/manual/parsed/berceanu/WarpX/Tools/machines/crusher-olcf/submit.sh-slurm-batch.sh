@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=warpx
-#FLUX: -c=7
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=warpx
+#SBATCH --account=<project
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=8
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export MPICH_SMP_SINGLE_COPY_MODE='NONE'

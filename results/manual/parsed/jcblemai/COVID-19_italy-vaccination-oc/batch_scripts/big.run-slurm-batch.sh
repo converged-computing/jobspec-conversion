@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=red-truffle-1324
-#FLUX: -c=36
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=180G
+#SBATCH --time=15-00:00:00
+#SBATCH --qos=fortnight
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-11
 
 export MDL_DAYS='150'
 export MDL_NNODES='107'

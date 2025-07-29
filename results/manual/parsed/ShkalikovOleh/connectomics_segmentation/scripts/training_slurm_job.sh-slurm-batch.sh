@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=training
-#FLUX: -c=16
-#FLUX: --queue=alpha
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=training
+#SBATCH --account=p_pixel
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --time=12:00:00
+#SBATCH --partition=alpha
+#SBATCH --constraint=ntasks-per-node=1
 
 export $(cut -d=' -f1 "$CFG_FILE")'
 

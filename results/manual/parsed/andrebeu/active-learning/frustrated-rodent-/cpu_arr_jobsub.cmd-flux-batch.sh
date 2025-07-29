@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-earthworm-0956
-#FLUX: -c=4
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#FLUX --job-name=grated-destiny-8599
+#FLUX -c=4
+#FLUX -t=14340
+#FLUX --urgency=16
 
 module load pyger/0.9
 conda init bash

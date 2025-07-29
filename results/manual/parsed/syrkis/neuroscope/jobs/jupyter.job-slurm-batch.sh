@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-notebook
-#FLUX: --queue=brown,red
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-notebook
+#SBATCH --account=students
+#SBATCH --output=logs/jupyter.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120G
+#SBATCH --time=06:00:00
+#SBATCH --partition=brown,red
 
 XDG_RUNTIME_DIR=""
 slurmctld_port=$(grep "^SlurmctldPort" /etc/slurm/slurm.conf | awk '{print $2}')

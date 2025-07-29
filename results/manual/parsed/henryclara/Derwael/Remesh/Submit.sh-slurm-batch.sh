@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Remesh
-#FLUX: --queue=compute
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --job-name=Remesh
+#SBATCH --account=bm1164
+#SBATCH --output=/work/bm1164/m300832/Derwael/Remesh/Logs/SLURM_job.%j.%N.out
+#SBATCH --error=/work/bm1164/m300832/Derwael/Remesh/Logs/SLURM_job.%j.%N.err
+#SBATCH --mail-user=clara.henry@mpimet.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:07:00
+#SBATCH --partition=compute
+#SBATCH --chdir=/work/bm1164/m300832/Derwael/Remesh/
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

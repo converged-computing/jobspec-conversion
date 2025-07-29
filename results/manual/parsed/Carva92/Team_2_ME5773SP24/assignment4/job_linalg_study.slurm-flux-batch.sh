@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=linalg_study
-#FLUX: -c=80
-#FLUX: --queue=compute1
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=linalg_study
+#FLUX -c=80
+#FLUX --queue=compute1
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Starting job_linalg_study.slurm"
 module load anaconda3

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-8537
-#FLUX: -c=10
-#FLUX: --queue=akya-cuda
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-lemon-7991
+#FLUX -c=10
+#FLUX --queue=akya-cuda
+#FLUX -t=28800
+#FLUX --urgency=16
 
 echo "SLURM_NODELIST $SLURM_NODELIST"
 echo "NUMBER OF CORES $SLURM_NTASKS"

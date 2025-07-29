@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-noodle-1635
+#FLUX --job-name=creamy-destiny-6063
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)

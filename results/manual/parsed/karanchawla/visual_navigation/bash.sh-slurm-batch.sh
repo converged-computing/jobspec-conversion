@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=behavior_cloning
-#FLUX: --queue=terramepp
-#FLUX: --urgency=16
+#SBATCH --job-name=behavior_cloning
+#SBATCH --mail-user=karangc2@illinois.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=terramepp
 
 module load OpenCV/3.3.0-IGB-gcc-4.9.4-Python-3.6.1
 module load Keras/2.0.8-IGB-gcc-4.9.4-Python-3.6.1

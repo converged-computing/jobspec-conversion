@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-5769
-#FLUX: -n=8
-#FLUX: --queue=nvidia
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-train-2307
+#FLUX -n=8
+#FLUX --queue=nvidia
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 module load all

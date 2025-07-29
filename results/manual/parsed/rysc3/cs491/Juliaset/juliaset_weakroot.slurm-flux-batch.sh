@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=weakroot_julia
-#FLUX: -c=32
-#FLUX: --queue=general
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=weakroot_julia
+#FLUX -c=32
+#FLUX --queue=general
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SCALE_FACTOR'
 

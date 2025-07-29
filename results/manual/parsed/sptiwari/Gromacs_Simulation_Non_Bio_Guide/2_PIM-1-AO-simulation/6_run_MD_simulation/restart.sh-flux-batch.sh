@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mmm
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=mmm
+#FLUX --queue=general
+#FLUX --urgency=16
 
 module ()
 {

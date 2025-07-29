@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ex50
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: -t=2
-#FLUX: --urgency=16
+#SBATCH --job-name=ex50
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:02
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export MV2_HOMOGENEOUS_CLUSTER='1'
 export MV2_SUPPRESS_JOB_STARTUP_PERFORMANCE_WARNING='1'

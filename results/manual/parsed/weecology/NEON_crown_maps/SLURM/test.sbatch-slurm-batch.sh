@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dask-worker
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-worker
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/dask-worker-%j.out
+#SBATCH --error=/home/b.weinstein/logs/dask-worker-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=19G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/crowns/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/crowns/lib/python3.7/site-packages/'

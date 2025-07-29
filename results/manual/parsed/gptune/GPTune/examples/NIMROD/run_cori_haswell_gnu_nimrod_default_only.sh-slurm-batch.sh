@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune_nimrod
-#FLUX: -N=9
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=GPTune_nimrod
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=9
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=haswell
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

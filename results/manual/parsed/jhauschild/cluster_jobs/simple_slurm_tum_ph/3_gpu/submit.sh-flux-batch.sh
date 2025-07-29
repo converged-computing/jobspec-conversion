@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=MyJob
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK  # number of CPUs per node, total for all the tasks below.'
 

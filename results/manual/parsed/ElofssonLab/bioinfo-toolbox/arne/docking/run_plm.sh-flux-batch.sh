@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-house-5290
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-onion-7141
+#FLUX -c=6
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export JULIA_PKGDIR='$myjulia'
 export PATH='$myjulia/bin/:$PATH'

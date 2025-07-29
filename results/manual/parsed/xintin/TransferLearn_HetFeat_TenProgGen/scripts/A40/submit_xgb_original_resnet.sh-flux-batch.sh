@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fat-staircase-3266
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-itch-9789
+#FLUX --urgency=16
 

@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bike-7728
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu_4090
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=gpu_4090
+#SBATCH --qos=gpugpu
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

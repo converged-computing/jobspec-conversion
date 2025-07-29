@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MD_tension
-#FLUX: --queue=course
-#FLUX: --urgency=16
+#SBATCH --job-name=MD_tension
+#SBATCH --output=stdout.%j
+#SBATCH --error=stderr.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=course
+#SBATCH --constraint=ntasks-per-node=28
+#SBATCH: --no-requeue
 
 module load compiles/intel/2019/u4/config
 exe="/apps/soft/lammps/lammps-7Aug19/e5_2680v4/opa/lammps-7Aug19/src/lmp_mpi"

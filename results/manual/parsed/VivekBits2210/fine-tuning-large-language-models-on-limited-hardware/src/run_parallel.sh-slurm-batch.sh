@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=trainer
-#FLUX: -c=8
-#FLUX: -t=86100
-#FLUX: --urgency=16
+#SBATCH --job-name=trainer
+#SBATCH --output=fsdp_output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:2
+#SBATCH --mem=64G
+#SBATCH --time=23:55:00
 
 echo "Hostname: $(hostname)"
 echo "Processor: $(lscpu | grep 'Model name' | awk -F ':' '{print $2}' | xargs)"

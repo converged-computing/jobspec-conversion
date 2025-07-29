@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TD_TL_model_pred
-#FLUX: -t=208800
-#FLUX: --urgency=16
+#SBATCH --job-name=TD_TL_model_pred
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=alm652@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=2-10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export MATLABPATH='${MATLABPATH}:/${HOME}/${NAME}/matlab:${HOME}/MATLAB'
 

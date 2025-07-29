@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hx4_pet_pix2pix
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=hx4_pet_pix2pix
+#FLUX -c=8
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load cuda
 echo; echo

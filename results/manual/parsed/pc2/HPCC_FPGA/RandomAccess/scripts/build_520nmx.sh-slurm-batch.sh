@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-mango-0717
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fpgasyn
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

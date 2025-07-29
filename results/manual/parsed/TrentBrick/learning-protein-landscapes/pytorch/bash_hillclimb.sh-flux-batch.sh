@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-animal-8694
-#FLUX: -c=20
-#FLUX: --queue=short
-#FLUX: -t=719
-#FLUX: --urgency=16
+#FLUX --job-name=salted-peanut-butter-0424
+#FLUX -c=20
+#FLUX --queue=short
+#FLUX -t=719
+#FLUX --urgency=16
 
                                            # -N 1 means all cores will be on th$
 hostname

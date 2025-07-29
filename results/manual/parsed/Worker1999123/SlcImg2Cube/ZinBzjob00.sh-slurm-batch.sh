@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BzBone00
-#FLUX: -n=4
-#FLUX: --queue=cpu-3g
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=BzBone00
+#SBATCH --output=cout.txt
+#SBATCH --error=cerr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cpu-3g
 
 echo
 echo "============================ Messages from Goddess ============================"

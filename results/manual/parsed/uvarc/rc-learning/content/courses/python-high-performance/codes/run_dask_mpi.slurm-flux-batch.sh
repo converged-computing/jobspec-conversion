@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-banana-9466
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-citrus-0922
+#FLUX -n=4
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=panexplorer
-#FLUX: -c=18
-#FLUX: --queue=supermem
-#FLUX: --urgency=16
+#FLUX --job-name=panexplorer
+#FLUX -c=18
+#FLUX --queue=supermem
+#FLUX --urgency=16
 
 export PANEX_PATH='$PWD'
 

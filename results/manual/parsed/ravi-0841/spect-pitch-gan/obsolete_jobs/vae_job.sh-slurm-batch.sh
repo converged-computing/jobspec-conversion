@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peanut-6896
-#FLUX: -c=6
-#FLUX: --queue=gpuk80
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=gpuk80
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_HOME='$PWD:/home/$USER'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=abc123
-#FLUX: -c=2
-#FLUX: --queue=t4v1
-#FLUX: --urgency=16
+#SBATCH --job-name=abc123
+#SBATCH --output=./%j_testJob.out
+#SBATCH --error=./%j_testJob.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=t4v1
+#SBATCH --qos=normal
 
 if [ -z "$SLURM_JOB_ID" ]
 then

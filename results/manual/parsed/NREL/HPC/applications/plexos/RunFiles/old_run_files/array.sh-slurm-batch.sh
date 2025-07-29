@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PLEXOS
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=PLEXOS
+#SBATCH --output=%J.out
+#SBATCH --error=%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 export model='`head -n $SUB_ID $SLURM_SUBMIT_DIR/$LIST | tail -1`'
 export MAX_TEMP_FILE_AGE='50'

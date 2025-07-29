@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hope-6678
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=c6ipg
-#FLUX: --urgency=16
+#SBATCH --output=XXPREFIXXX/log/lammps.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c6ipg
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64
 
 export LAMMPS_VERSION='git'
 export OMP_NUM_THREADS='1'

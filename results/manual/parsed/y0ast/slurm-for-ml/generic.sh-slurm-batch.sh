@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pastry-2871
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
 
 set -e # fail fully on first line failure
 path_to_conda="./miniconda3"

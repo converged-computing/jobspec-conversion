@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GraphIPA
-#FLUX: -c=12
-#FLUX: --queue=bio_s1
-#FLUX: --urgency=16
+#FLUX --job-name=GraphIPA
+#FLUX -c=12
+#FLUX --queue=bio_s1
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export NCCL_IB_HCA='mlx5_0 '

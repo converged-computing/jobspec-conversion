@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=couldrun
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=couldrun
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=4-04:00:00
 
 module purge
 module load bcftools/intel/1.14

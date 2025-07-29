@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-platanos-6279
+#FLUX --job-name=anxious-gato-4536
 #FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=normal_q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load singularity/3.3.0

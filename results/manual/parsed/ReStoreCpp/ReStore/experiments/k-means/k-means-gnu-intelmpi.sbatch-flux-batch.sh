@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chair-4584
-#FLUX: -N=4
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-peanut-butter-3406
+#FLUX -N=4
+#FLUX --queue=test
+#FLUX -t=1800
+#FLUX --urgency=16
 
 RUN_FT_ON=${RUN_FT_ON:-true}
 RUN_FT_OFF=${RUN_FT_OFF:-true}

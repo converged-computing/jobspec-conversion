@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-milkshake-5953
-#FLUX: -N=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-avocado-5545
+#FLUX -N=3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TMPDIR='$SCRATCH'
 

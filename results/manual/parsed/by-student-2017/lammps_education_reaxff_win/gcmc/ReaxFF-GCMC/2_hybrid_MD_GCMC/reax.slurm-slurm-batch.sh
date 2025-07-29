@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -n=24
-#FLUX: --queue=scavenge
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --output=logfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=00:20:00
+#SBATCH --partition=scavenge
 
 cd $SLURM_SUBMIT_DIR
 module purge

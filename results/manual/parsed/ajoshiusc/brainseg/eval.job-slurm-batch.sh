@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=faux-punk-4480
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=ajoshi_27
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load nvidia-hpc-sdk

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fourcastnet_gpu_job
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=fourcastnet_gpu_job
+#SBATCH --output=fourcastnet_job.log
+#SBATCH --error=fourcastnet_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
 
 cd $SCRATCH
 singularity pull docker://nvcr.io/nvidia/modulus/modulus:23.08

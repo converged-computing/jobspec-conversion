@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ANNRP_hparam_search
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ANNRP_hparam_search
+#FLUX -t=72000
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load tensorflow/2.4.1

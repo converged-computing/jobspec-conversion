@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HIDA-20
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: --queue=pGPU
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=HIDA-20
+#SBATCH --account=machnitz
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=pGPU
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0'
 

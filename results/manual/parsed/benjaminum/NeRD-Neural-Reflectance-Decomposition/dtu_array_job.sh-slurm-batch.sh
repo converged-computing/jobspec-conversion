@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerd_dtu
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=nerd_dtu
+#SBATCH --output=./dtu_bmvs_logs/dtu_bmvs-%a-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --qos=normal
+#SBATCH --array=0-22
 
 scenes=(
 split16_dtu_scan122

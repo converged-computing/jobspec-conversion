@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=decode
-#FLUX: -n=4
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=decode
+#SBATCH --account=BYRNE-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=12:00:00
+#SBATCH --partition=ampere
+#SBATCH --array=0-4
 
 export OMP_NUM_THREADS='1'
 

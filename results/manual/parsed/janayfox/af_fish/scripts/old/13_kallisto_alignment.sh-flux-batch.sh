@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-plant-6702
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-avocado-9803
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load singularity/3.8
 module load nixpkgs/16.09

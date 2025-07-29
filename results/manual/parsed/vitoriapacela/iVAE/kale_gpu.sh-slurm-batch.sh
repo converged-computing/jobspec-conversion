@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=4
-#FLUX: --queue=gpu-short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iVAE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-short
+#SBATCH --chdir=/proj/barimpac/beyond-NonSENS/iVAE/
 
 export LC_ALL='en_US.utf-8'
 export LANG='en_US.utf-8'

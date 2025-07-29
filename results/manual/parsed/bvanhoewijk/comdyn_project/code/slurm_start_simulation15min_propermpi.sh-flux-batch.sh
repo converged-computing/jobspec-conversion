@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-nunchucks-5772
-#FLUX: -n=64
-#FLUX: --queue=genoa
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=astute-omelette-3529
+#FLUX -n=64
+#FLUX --queue=genoa
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

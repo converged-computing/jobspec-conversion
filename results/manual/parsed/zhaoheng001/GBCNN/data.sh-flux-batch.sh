@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ip
-#FLUX: -n=8
-#FLUX: --queue=volta
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=ip
+#FLUX -n=8
+#FLUX --queue=volta
+#FLUX -t=345600
+#FLUX --urgency=16
 
 hostname
 module add cudatoolkit/11.6

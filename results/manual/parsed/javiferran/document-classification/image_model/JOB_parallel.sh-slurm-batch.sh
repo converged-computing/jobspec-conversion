@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=b0-1
-#FLUX: -c=40
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=b0-1
+#SBATCH --output=/gpfs/home/bsc31/bsc31275/logs/%j.out
+#SBATCH --error=/gpfs/home/bsc31/bsc31275/logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --chdir=/gpfs/home/bsc31/bsc31275
 
 export PYTHONUNBUFFERED='1'
 export SLURM_MPI_TYPE='openmpi'

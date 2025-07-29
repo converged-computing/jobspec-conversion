@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=align_magnoliids_reduced
-#FLUX: --queue=global
-#FLUX: --urgency=16
+#SBATCH --job-name=align_magnoliids_reduced
+#SBATCH --account=global
+#SBATCH --mail-user=andrew.j.helmstetter@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=global
+#SBATCH --constraint=ntasks-per-node=20
 
 echo "JOB CONFIGURATION"
 echo "Job ID: " $SLURM_JOB_ID

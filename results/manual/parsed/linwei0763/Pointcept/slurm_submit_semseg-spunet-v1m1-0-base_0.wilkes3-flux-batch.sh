@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pointcept-semseg-spunet-v1m1-0-base
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=pointcept-semseg-spunet-v1m1-0-base
+#FLUX --queue=ampere
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='${CUDA_VISIBLE_DEVICES}'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ICTV_NCBI_efetch_fasta_files
-#FLUX: --queue=amd-hdr100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ICTV_NCBI_efetch_fasta_files
+#SBATCH --output=logs/log.%J.%x.out
+#SBATCH --error=logs/log.%J.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=12:00:00
+#SBATCH --partition=amd-hdr100
 
 VMR_XLSX=$(ls -rt VMRs/VMR_MSL*.xlsx | tail -1)
 if [ ! -z "$1" ]; then 

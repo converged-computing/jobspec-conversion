@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=workq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --account=pawsey0315
+#SBATCH --output=jupyter-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=03:00:00
+#SBATCH --partition=workq
 
 module load singularity
 kill_server() {

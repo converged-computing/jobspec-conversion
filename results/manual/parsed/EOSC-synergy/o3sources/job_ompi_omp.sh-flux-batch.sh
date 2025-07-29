@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=o3sources
-#FLUX: -c=10
-#FLUX: --queue=cpuonly
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=o3sources
+#FLUX -c=10
+#FLUX --queue=cpuonly
+#FLUX -t=36000
+#FLUX --urgency=16
 
 echo "========================================================================"
 echo "=> Account name: $SLURM_JOB_ACCOUNT"

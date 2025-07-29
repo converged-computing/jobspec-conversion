@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=polyomino
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=polyomino
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /users/amaesumi/pack_poly
 module load anaconda/2022.05

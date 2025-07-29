@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=EB-install
+#SBATCH --account=easybuild
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --constraint=broadwell
 
 export SBATCH_CONSTRAINT='broadwell'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

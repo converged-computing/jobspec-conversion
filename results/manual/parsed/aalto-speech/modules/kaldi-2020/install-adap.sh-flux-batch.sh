@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lentil-1149
-#FLUX: -c=20
-#FLUX: --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-chair-9145
+#FLUX -c=20
+#FLUX --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source ../common/common.sh
 PROFILE=${1:-triton-gcc-openblas-adap}

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-motorcycle-8900
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=build.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=debug
 
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
 source ../activate.sh 

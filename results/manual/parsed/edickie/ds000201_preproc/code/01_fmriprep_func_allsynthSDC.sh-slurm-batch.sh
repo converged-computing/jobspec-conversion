@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_funcs
-#FLUX: -c=40
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep_funcs
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=23:30:00
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${SCRATCH}/${STUDY}/data/input/bids'

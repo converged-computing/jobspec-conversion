@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-underoos-4350
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
 
 export PRODUCT_DIRECTORY='/orange/adamginsburg/ALMA_IMF/2017.1.01355.L/imaging_results/'
 export IPYTHONDIR='/tmp'

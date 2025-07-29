@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Contrastive_VIT
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Contrastive_VIT
+#SBATCH --account=lsfb
+#SBATCH --output=./output/Contrastive_500.out
+#SBATCH --mail-user=jerome.fink@unamur.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4096
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load PyTorch

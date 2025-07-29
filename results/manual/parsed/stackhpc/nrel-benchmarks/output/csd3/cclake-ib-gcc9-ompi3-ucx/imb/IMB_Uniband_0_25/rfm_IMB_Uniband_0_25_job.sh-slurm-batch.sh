@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_IMB_Uniband_0_25_job
-#FLUX: -n=28
-#FLUX: --exclusive
-#FLUX: --queue=cclake
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_IMB_Uniband_0_25_job
+#SBATCH --account=support-cpu
+#SBATCH --output=rfm_IMB_Uniband_0_25_job.out
+#SBATCH --error=rfm_IMB_Uniband_0_25_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=cclake
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=14
+#SBATCH --exclude=cpu-p-[1-280,337-672]
 
 export SLURM_MPI_TYPE='pmix_v3'
 export UCX_NET_DEVICES='mlx5_0:1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ekp_call
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=ekp_call
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MODULEPATH='/groups/esm/modules:$MODULEPATH'
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'

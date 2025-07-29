@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=td_mass
-#FLUX: -n=32
-#FLUX: --queue=conroy,general,conroy-intel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=td_mass
+#FLUX -n=32
+#FLUX --queue=conroy,general,conroy-intel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_massive.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

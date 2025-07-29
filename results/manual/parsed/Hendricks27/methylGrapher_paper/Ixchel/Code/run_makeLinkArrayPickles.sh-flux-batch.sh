@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fork-4391
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-kerfuffle-5226
+#FLUX --urgency=16
 
 echo "Loading software..."
 eval $( spack load --sh python@3 )

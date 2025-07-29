@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-butter-5305
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"               
 module load lammps/29Sep2021                                                    

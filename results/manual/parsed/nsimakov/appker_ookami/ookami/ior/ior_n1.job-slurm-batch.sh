@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cinnamonbun-1246
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=/lustre/home/xdmod/scratch/akrr_data/Ookami-Cray/ior/2020.12.02.04.08.23.105788/stdout
+#SBATCH --error=/lustre/home/xdmod/scratch/akrr_data/Ookami-Cray/ior/2020.12.02.04.08.23.105788/stderr
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=short
+#SBATCH --qos=short
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=48
 
 export AKRR_NODES='1'
 export AKRR_CORES='48'

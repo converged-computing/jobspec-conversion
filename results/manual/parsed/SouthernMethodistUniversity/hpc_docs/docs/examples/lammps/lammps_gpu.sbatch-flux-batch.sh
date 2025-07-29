@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 module purge                           # Unload all modules
 module load lammps/may22               # Load LAMMPS

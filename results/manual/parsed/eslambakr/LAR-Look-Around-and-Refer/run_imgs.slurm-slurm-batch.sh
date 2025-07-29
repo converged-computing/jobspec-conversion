@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Nips_LAR_1_Imgaug_128_Nr3d_2048_cuda2_8gpus
-#FLUX: --queue=batch
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#SBATCH --job-name=Nips_LAR_1_Imgaug_128_Nr3d_2048_cuda2_8gpus
+#SBATCH --output=Nips_LAR_1_Imgaug_128_Nr3d_2048_cuda2_8gpus.out
+#SBATCH --mail-user=eslam.abdelrahman@kaust.edu.sa
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=1-12:30:00
+#SBATCH --partition=batch
+#SBATCH --constraint=[v100]
 
 module load cuda/10.1.243
 module load gcc/6.4.0

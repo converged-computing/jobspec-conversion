@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-destiny-3083
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/halved_synapses_poisson_correlation.pbs

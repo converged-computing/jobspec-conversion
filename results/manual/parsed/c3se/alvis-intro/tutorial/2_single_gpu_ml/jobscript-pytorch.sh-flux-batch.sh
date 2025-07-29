@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=regr-torch
-#FLUX: --queue=alvis
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=regr-torch
+#FLUX --queue=alvis
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load PyTorch-bundle/1.12.1-foss-2022a-CUDA-11.7.0

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-puppy-2454
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/vinnydavies/left-ventricle-jrss-c/method-localgp/Cluster/EmulationLoss/job_hessianHV.qsub

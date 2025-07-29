@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-itch-3628
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-house-1604
+#FLUX -N=2
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX -t=600
+#FLUX --urgency=16
 
 export ASAN_OPTIONS='protect_shadow_gap=0:use_sigaltstack=0'
 export FI_HMEM_CUDA_USE_GDRCOPY='1'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=InLocCIIRC_demo
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=InLocCIIRC_demo
+#SBATCH --output=InLocCIIRC_demo.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/lucivpav/gflags-2.2.2/build/lib:/home/lucivpav/InLoc_demo/functions/vlfeat/toolbox/mex/mexa64'
 

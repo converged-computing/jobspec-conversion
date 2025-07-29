@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-gato-2830
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-nunchucks-5800
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load python/3.8
 module load scipy-stack

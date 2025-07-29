@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-citrus-6189
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shawnzhangyx/cvdc_scripts/HiCProcessing/hiccups_on_merged_loops.sh

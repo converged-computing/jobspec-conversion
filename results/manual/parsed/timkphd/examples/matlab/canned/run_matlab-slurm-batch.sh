@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=invert
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=invert
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='1'
 

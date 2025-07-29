@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-carrot-3399
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-dog-2489
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module --ignore-cache load cuda/11.0
 SID=$SLURM_ARRAY_TASK_ID

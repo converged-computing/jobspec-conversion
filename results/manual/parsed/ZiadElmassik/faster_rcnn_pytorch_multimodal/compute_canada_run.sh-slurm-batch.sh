@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mat-job
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mat-job
+#SBATCH --account=rrg-swasland
+#SBATCH --output=./output/log/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000M
+#SBATCH --time=02:00:00
 
 SING_IMG=/home/$USER/projects/def-swasland-ab/$USER/mat_pytorch_5.sif
 NUM_ITERATIONS=0

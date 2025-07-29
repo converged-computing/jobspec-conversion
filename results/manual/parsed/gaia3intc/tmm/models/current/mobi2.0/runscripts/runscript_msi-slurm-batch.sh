@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-caramel-4988
-#FLUX: -N=2
-#FLUX: --queue=small
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --mail-user=tatsurobkkuk@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=24
 
 cd $SLURM_SUBMIT_DIR
 module load intel

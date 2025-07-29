@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-milkshake-7427
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=learnlab
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-toaster-8092
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=learnlab
+#FLUX -t=10800
+#FLUX --urgency=16
 
 dirs=(
     # "codellama-7b"

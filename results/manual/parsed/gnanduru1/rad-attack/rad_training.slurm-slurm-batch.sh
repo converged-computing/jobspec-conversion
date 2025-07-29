@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=rad-training
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=rad-training
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j-rad-train.out
+#SBATCH --error=%u-%j-rad-train.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=256G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=bii-gpu
+#SBATCH --array=0-3
 
 date
 nvidia-smi

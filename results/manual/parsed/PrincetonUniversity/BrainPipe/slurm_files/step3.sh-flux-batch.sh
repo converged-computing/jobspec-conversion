@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-fudge-6454
-#FLUX: -c=14
-#FLUX: --queue=all
-#FLUX: -t=42000
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-general-3888
+#FLUX -c=14
+#FLUX --queue=all
+#FLUX -t=42000
+#FLUX --urgency=16
 
 module load anacondapy/2020.11
 module load elastix/4.8

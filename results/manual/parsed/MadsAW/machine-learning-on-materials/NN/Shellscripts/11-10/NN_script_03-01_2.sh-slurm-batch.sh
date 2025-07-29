@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cupcake-9005
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/11-10/NN_script_03-01_2.sh

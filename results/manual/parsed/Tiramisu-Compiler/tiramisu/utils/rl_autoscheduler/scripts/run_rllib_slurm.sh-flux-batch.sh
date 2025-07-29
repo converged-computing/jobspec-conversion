@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-kerfuffle-6590
-#FLUX: -N=4
-#FLUX: -c=28
+#FLUX --job-name=spicy-puppy-4216
+#FLUX -N=4
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=604800
+#FLUX --urgency=16
 
 . scripts/env.sh
 . $CONDA_DIR/bin/activate

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leg-2646
-#FLUX: -n=100
-#FLUX: -c=46
-#FLUX: --exclusive
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --output=job4.o
+#SBATCH --error=job4.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=46
+#SBATCH --gres=gpu:8
+#SBATCH --time=6-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 /bin/bash
 conda activate hetero_mod

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leg-8982
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-onion-5999
+#FLUX --urgency=16
 
 export PATH='/home/esandstroem/scratch/venvs/point_slam_env_github/bin:$PATH'
 

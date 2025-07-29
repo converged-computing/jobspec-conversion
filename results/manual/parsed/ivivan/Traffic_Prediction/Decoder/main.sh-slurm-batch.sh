@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_BLOCKATTENTION
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_BLOCKATTENTION
+#SBATCH --output=/OSM/CBR/AF_WQ/source/ML/Log/Pytorch/Pytorch_BLOCKATTENTION__%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=08:00:00
 
 module load cuda/9.0.176
 module load pytorch/1.1.0-py36-cuda90

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SoluteTemp
-#FLUX: -n=12
-#FLUX: --queue=GTX
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=SoluteTemp
+#FLUX -n=12
+#FLUX --queue=GTX
+#FLUX -t=172800
+#FLUX --urgency=16
 
 mkdir solutetemp
 cd solutetemp

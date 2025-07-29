@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Impact_Pretraining_CodeT5_Large
-#FLUX: -t=34200
-#FLUX: --urgency=16
+#SBATCH --job-name=Impact_Pretraining_CodeT5_Large
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=248G
+#SBATCH --time=09:30:00
+#SBATCH --constraint=ntasks-per-node=1,GPUMEM80GB
 
 module purge all
 module load multigpu

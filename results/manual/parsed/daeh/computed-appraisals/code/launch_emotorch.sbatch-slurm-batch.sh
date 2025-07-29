@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=camTorchWpr
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=camTorchWpr
+#SBATCH --output=../logs/sbatchlog-camTorchWpr_%J_stdout.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8GB
+#SBATCH --time=10:00:00
 
 task_id=$(($SLURM_ARRAY_TASK_ID))
 task_num=$((task_id))

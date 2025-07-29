@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=TORCH-GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TORCH-GPU
+#SBATCH --output=$HOME_DIR/log/mri_sr.out.%j
+#SBATCH --error=$HOME_DIR/log/mri_sr.err.%j
+#SBATCH --mail-user=qi.wang@tuebingen.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx5000:2
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
+#SBATCH --chdir=$SRC_DIR
 
 HOME_DIR='/u/wangqi'
 SRC_DIR='/u/wangqi/git_wq/3d_super-resolution_mri/mains'

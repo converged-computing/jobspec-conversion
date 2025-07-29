@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tom_childsum
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=tom_childsum
+#SBATCH --output=./job_outputs/childsum_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000M
+#SBATCH --time=00:45:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-1%2
 
 module purge
 module load 2019

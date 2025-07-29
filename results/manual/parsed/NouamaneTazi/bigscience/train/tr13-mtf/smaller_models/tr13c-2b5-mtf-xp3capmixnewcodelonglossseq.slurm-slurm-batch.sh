@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=2b5xp3capmixnewcodelong
-#FLUX: -N=32
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=2b5xp3capmixnewcodelong
+#SBATCH --account=six@v100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

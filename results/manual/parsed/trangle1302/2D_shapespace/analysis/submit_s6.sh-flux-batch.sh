@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pc_var
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=pc_var
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load python/3.9
 module load py-pandas/1.3.1_py39

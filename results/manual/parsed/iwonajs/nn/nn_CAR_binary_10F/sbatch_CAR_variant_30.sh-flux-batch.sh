@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-citrus-2928
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-punk-7337
+#FLUX -c=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 cp *.json $SLURM_TMPDIR
 cp *.py $SLURM_TMPDIR

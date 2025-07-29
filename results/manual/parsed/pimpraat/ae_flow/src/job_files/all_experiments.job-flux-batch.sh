@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RunAE_Normalized_Flow_Development
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=RunAE_Normalized_Flow_Development
+#FLUX -c=3
+#FLUX --queue=gpu_titanrtx_shared_course
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 module load 2021

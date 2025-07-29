@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pps
-#FLUX: -n=32
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pps
+#SBATCH --output=ppr-%j.out
+#SBATCH --error=ppr-%j.err
+#SBATCH --mail-user=youremail@email.org
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=3,7,9,38,50,51,52,53,54,55,56,58,72,74,76,77
 
 cd $SLURM_SUBMIT_DIR/fastq_$SLURM_ARRAY_TASK_ID
 module load singularity

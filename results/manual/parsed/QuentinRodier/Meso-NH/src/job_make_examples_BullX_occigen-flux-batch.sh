@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Examples
-#FLUX: -N=2
-#FLUX: -n=4
+#FLUX --job-name=Examples
+#FLUX -N=2
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MONORUN='Mpirun -prepend-rank -np 1 '
 export MPIRUN='Mpirun -prepend-rank -np 4 '

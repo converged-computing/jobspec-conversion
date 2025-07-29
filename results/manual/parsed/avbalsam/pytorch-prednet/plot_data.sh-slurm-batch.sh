@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemon-2784
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=1-00:00:00
+#SBATCH --chdir=/om2/user/avbalsam/prednet/logs
+#SBATCH --array=1
 
 cd /om2/user/avbalsam/prednet
 hostname

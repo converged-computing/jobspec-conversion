@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DA
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=DA
+#FLUX -c=8
+#FLUX --queue=batch
+#FLUX -t=172740
+#FLUX --urgency=16
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOBID}, Task ID: ${SLURM_ARRAY_TASK_ID}"

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SDv2_Baseline
-#FLUX: --queue=a100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SDv2_Baseline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=a100
+#SBATCH --constraint=a100_80
 
 export http_proxy='http://proxy.rrze.uni-erlangen.de:80'
 export https_proxy='http://proxy.rrze.uni-erlangen.de:80'

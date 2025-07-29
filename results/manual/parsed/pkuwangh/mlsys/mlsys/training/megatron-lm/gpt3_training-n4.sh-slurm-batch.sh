@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt3-15b-8t-n4
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt3-15b-8t-n4
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_IB_SL='1'
 export NCCL_IB_TIMEOUT='19'

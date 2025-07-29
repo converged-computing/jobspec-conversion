@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocessing
-#FLUX: -n=4
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=preprocessing
+#FLUX -n=4
+#FLUX -t=86340
+#FLUX --urgency=16
 
 umask 0007
 module purge   # Recommended for reproducibility

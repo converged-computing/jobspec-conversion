@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pot-8345
-#FLUX: -n=32
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#SBATCH --output=logs/trinity.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --partition=intel
+#SBATCH --array=1
 
 module load trinity-rnaseq/2.13.2
 MEM=256G

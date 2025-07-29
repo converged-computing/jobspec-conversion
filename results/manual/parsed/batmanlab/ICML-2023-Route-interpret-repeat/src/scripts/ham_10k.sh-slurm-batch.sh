@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-kerfuffle-5576
-#FLUX: --urgency=16
+#SBATCH --output=path/ham_inception_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 pwd; hostname; date
 CURRENT=`date +"%Y-%m-%d_%T"`

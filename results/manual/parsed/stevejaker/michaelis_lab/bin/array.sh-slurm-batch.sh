@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-pot-6696
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --mail-user=jparkman@byu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=400M
+#SBATCH --time=00:00:30
+#SBATCH --constraint=avx2,ntasks-per-node=16
+#SBATCH --array=1-16%1
 
 LAST_PIECE=16
 if [[ "${SLURM_ARRAY_TASK_ID}" -eq "1" ]]; then

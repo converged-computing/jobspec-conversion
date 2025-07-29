@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=apoa1benchmark
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#SBATCH --job-name=apoa1benchmark
+#SBATCH --account=__ACCOUNTID__
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:10:00
 
 declare -r SCRATCH_DIR=__SCRATCHSPACE__
 declare -r NAMD_BINARY=__NAMD3BINARY__

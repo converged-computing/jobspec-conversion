@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpnn
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --job-name=mpnn
+#SBATCH --output=mpnn_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --array=0-3
 
 source /etc/profile
 module load anaconda/2022a

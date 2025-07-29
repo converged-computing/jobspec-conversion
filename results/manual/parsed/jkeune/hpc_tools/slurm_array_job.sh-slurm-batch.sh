@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=jobname
+#SBATCH --output=output.log
+#SBATCH --mail-user=<email>@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100
+#SBATCH --time=00:05:00
 
 set -u # fail when using an undefined variable
 set -x # echo script lines as they are executedi

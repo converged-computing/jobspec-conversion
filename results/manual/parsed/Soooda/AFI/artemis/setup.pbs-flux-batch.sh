@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-motorcycle-6058
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-poo-5979
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Soooda/AFI/artemis/setup.pbs

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-snack-8129
-#FLUX: --queue=RM
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-pancake-0146
+#FLUX --queue=RM
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load openmpi/3.1.6-gcc8.3.1
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

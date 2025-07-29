@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-butter-9269
-#FLUX: -c=28
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-lizard-9741
+#FLUX -c=28
+#FLUX --queue=workq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/18.10.1-bin
 nextflow run \

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lemon-6161
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=output/slurm-%j.out
+#SBATCH --mail-user=<tiange.zhou@outlook.com>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=32G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 cp -a data/. $SLURM_TMPDIR/data
 module purge

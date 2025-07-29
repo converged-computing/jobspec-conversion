@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_4xA100_4tp
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune_4xA100_4tp
+#SBATCH --account=TODO_YOUR_ACCOUNT
+#SBATCH --output=logs/%j.%N.finetune_4xA100_4tp.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=208G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,scratch&projects
+#SBATCH: --no-requeue
 
 module reset # drop modules and explicitly load the ones needed
              # (good job metadata and reproducibility)

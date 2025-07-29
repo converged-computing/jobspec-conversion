@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=special_permitl
-#FLUX: -c=2
-#FLUX: --queue=amd
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#FLUX --job-name=special_permitl
+#FLUX -c=2
+#FLUX --queue=amd
+#FLUX -t=691200
+#FLUX --urgency=16
 
 module load any/python/3.8.3-conda
 conda activate lstm-caise23

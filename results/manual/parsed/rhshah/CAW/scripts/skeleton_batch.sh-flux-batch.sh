@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-motorcycle-8238
-#FLUX: --queue=node
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-chip-6596
+#FLUX --queue=node
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export NXF_TEMP='/scratch'
 export NXF_LAUNCHBASE='/scratch'

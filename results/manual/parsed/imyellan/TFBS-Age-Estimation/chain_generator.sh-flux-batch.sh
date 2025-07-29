@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-rabbit-7526
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-caramel-5426
+#FLUX -c=12
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load StdEnv/2020 gcc/9.3.0 hal/2.2 kentutils/453
 target_spec=$1

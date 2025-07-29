@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Production_Run
-#FLUX: -c=24
-#FLUX: --queue=ampere
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=Production_Run
+#FLUX -c=24
+#FLUX --queue=ampere
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

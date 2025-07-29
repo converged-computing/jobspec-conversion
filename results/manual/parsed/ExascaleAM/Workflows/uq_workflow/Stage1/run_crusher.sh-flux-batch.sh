@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=workflow
-#FLUX: -N=20
+#FLUX --job-name=workflow
+#FLUX -N=20
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export WM_MPLIB='SYSTEMMPI'

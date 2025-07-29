@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s1_align.sl
-#FLUX: -c=8
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#FLUX --job-name=s1_align.sl
+#FLUX -c=8
+#FLUX -t=21540
+#FLUX --urgency=16
 
 export OPENBLAS_MAIN_FREE='1'
 

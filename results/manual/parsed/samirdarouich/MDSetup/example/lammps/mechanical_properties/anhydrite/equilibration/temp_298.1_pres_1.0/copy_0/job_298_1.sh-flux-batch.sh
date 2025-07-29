@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peanut-8418
-#FLUX: --urgency=16
+#FLUX --job-name=milky-muffin-7675
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/samirdarouich/MDSetup/example/lammps/mechanical_properties/anhydrite/equilibration/temp_298.1_pres_1.0/copy_0/job_298_1.sh

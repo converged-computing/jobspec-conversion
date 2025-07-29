@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=VADtest
-#FLUX: -c=40
-#FLUX: --queue=gpu-all
-#FLUX: --urgency=16
+#SBATCH --job-name=VADtest
+#SBATCH --account=shchowdhury@hbku.edu.qa
+#SBATCH --output=vad_out.txt
+#SBATCH --error=vad_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:0
+#SBATCH --partition=gpu-all
 
 module load cuda10.1/toolkit gcc6 slurm cmake
 source ~/anaconda3/bin/activate ~/anaconda3/envs/vad

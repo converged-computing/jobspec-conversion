@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lentil-7970
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=project_462000119
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=256G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-node=1
+#SBATCH --exclude=nid005159
 
 export HF_DATASETS_OFFLINE='1'
 export HF_DATASETS_CACHE='/scratch/project_462000119/ds_cache'

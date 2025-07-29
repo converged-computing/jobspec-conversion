@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=m2_valid
-#FLUX: --queue=gpus
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=m2_valid
+#SBATCH --output=m2_valid.out
+#SBATCH --error=m2_valid.err
+#SBATCH --mail-user=james.casey-clyde@sjsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=gpus
 
 module purge
 module load intel-python3

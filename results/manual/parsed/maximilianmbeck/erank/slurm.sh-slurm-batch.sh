@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=purple-truffle-2794
-#FLUX: -c=32
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --mail-user=beck@ml.jku.at
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:3
+#SBATCH --mem=200G
+#SBATCH --partition=compute
+#SBATCH --constraint=T4
 
 export MKL_NUM_THREADS='$NUM_CORES OMP_NUM_THREADS=$NUM_CORES'
 

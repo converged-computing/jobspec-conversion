@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-taco-2014
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/vgutta/Benchmarks/Pilot3/P3B6/launch/launch_single.lsf

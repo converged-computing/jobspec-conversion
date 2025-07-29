@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gene_fidelity_snakemaster
-#FLUX: --urgency=16
+#SBATCH --job-name=gene_fidelity_snakemaster
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module load python
 (snakemake -s Snakefile_vcf \

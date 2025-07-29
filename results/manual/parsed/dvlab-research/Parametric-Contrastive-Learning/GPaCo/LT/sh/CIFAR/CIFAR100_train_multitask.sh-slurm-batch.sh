@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cifar100-r50-multitask
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar100-r50-multitask
+#SBATCH --output=r32.log
+#SBATCH --mail-user=jqcui@cse.cuhk.edu.hk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
 
 PORT=$[$RANDOM + 10000]
 source /mnt/proj2/jqcui/ENV/py3.6pt1.81/bin/activate

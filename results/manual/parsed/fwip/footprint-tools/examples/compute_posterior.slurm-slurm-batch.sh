@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-buttface-2225
-#FLUX: --urgency=16
+#SBATCH --output=${output_dir}/logs/%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
 
 set -o pipefail
 interval_file=/home/jvierstra/proj/ftd/results.slurm/regions.bed

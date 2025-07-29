@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gan
-#FLUX: -t=1123200
-#FLUX: --urgency=16
+#SBATCH --job-name=gan
+#SBATCH --output=out/gan_train_%A_%a_%j.out
+#SBATCH --error=error/gan_train_%A_%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=13-00:00:00
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64:/usr/local/lib'
 export CFLAGS='-I/usr/local/cuda-9.0/include'

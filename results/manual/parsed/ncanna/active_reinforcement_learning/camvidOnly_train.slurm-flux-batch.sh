@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Ralis_CAMVID_Only
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=Train_Ralis_CAMVID_Only
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module --ignore-cache load anaconda/2019.10-py3.7

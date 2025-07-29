@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-8515
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=astute-onion-8272
+#FLUX -N=2
+#FLUX -c=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

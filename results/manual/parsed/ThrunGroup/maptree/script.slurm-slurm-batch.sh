@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bdt-map
-#FLUX: --queue=thrun
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bdt-map
+#SBATCH --account=thrun
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=thrun
+#SBATCH --array=0-51
 
 python -u run_experiment.py -j ${SLURM_ARRAY_TASK_ID}

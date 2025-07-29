@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STILT_fpflux
-#FLUX: --queue=genoa
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=STILT_fpflux
+#FLUX --queue=genoa
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OPENBLAS_NUM_TRHEADS='1'
 export OMP_NUM_THREADS='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-leopard-1793
-#FLUX: -N=16
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=salted-peanut-butter-1512
+#FLUX -N=16
+#FLUX --queue=test
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PMIX_MCA_gds='hash'
 

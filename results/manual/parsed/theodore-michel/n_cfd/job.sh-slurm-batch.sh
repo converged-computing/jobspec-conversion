@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=N_CFD
-#FLUX: -n=64
-#FLUX: --queue=MAIN
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=N_CFD
+#SBATCH --output=log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=MAIN
+#SBATCH --qos=calcul
 
 module load gcc openmpi vtk/latest felicia/latest mtc/tsv eigen/latest hdf5/latest cmake/latest git/latest petsc/latest mtc/latest
 module load cimlibxx/master

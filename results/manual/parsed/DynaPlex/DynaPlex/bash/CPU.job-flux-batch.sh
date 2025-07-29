@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-snack-0011
-#FLUX: -c=128
+#FLUX --job-name=adorable-noodle-8295
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=genoa
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=genoa
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

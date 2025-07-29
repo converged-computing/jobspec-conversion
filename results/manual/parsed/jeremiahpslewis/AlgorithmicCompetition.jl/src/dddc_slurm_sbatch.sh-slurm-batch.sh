@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: --queue=normal
-#FLUX: -t=173520
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --output=log/array_job_%A_%a.out
+#SBATCH --error=log/array_job_%A_%a.err
+#SBATCH --mail-user=irddcc1@mail.uni-paderborn.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1500M
+#SBATCH --time=2-00:12:00
+#SBATCH --partition=normal
+#SBATCH --array=1-1000
 
 export N_ITERATIONS='1 '
 export DEBUG='0'

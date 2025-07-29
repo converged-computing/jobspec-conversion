@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IORtest
-#FLUX: -n=100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=IORtest
+#FLUX -n=100
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCRATCH='/scratch/$USER/${SLURM_JOB_NAME:?}'
 

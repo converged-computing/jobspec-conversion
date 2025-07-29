@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-1052
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/brendanjohnharris/Criticality/PBS/Torque/PBS_array_TS_compute.sh

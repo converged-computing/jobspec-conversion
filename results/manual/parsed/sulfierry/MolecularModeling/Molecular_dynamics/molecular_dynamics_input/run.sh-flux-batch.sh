@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=molecular_dynamics
+#FLUX --job-name=molecular_dynamics
 #FLUX: --exclusive
-#FLUX: --queue=sequana_dockvs
-#FLUX: --urgency=16
+#FLUX --queue=sequana_dockvs
+#FLUX --urgency=16
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

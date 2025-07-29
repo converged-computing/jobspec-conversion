@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_model_%A_%a
-#FLUX: --queue=babel-shared-long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_model_%A_%a
+#SBATCH --output=train_model_%A_%a.out
+#SBATCH --mail-user=emmy@cmu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A6000:4
+#SBATCH --mem=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=babel-shared-long
+#SBATCH --array=1-10%3
 
 export CUDA_DEVICE_MAX_CONNECTIONS='1'
 

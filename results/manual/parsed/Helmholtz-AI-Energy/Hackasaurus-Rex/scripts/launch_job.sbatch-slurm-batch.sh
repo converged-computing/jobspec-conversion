@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hackasaurous
-#FLUX: --exclusive
-#FLUX: --queue=accelerated
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=hackasaurous
+#SBATCH --account=hk-project-test-aihero2
+#SBATCH --output=/hkfs/work/workspace/scratch/ih5525-E2/slurm_logs/slurm-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=04:00:00
+#SBATCH --partition=accelerated
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export TOMOUNT='${TOMOUNT}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

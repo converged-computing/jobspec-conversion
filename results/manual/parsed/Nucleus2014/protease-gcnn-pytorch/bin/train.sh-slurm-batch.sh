@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tt1
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=tt1
+#SBATCH --output=tt.HCV_binary_10_ang_aa_energy_7_energyedge_5_hbond.%a.%N.%j.out
+#SBATCH --error=tt.HCV_binary_10_ang_aa_energy_7_energyedge_5_hbond.%a.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-167
 
 data=$1
 seed=$2

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=humann2_results
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=humann2_results
+#SBATCH --account=e31333
+#SBATCH --output=humann2_array_%A_%a.txt
+#SBATCH --error=humann2_array_%A_%a.txt
+#SBATCH --mail-user=mckennafarmer2023@u.northwestern.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=48G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=1-15%4
 
 module purge all
 module load singularity

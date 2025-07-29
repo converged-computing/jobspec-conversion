@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pedo-9862
-#FLUX: --urgency=16
+#FLUX --job-name=milky-lentil-3745
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/spmv/tests/suitesparse/test_dielFilterV3clx

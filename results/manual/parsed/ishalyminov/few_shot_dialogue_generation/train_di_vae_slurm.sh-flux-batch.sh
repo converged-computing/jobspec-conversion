@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-peanut-butter-6492
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-despacito-8389
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pancake-1805
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=robinson
+#SBATCH --mail-user=a1742674@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=00:05:00
+#SBATCH --partition=batch
 
 INDIR=/fast/users/a1742674/SV_VZ
 OUTDIR=/fast/users/a1742674/SV_VZ/V3726_2407

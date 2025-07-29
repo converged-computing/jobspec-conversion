@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sampler
-#FLUX: --queue=c7desktop
-#FLUX: --urgency=16
+#SBATCH --job-name=sampler
+#SBATCH --output=out_slurm/sampler_%A.out
+#SBATCH --error=out_slurm/sampler_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c7desktop
+#SBATCH --nodelist=ld18-1007
 
 module load cuda/10.1.243_418.87.00
 module load cudnn/v7.6.5.32/cuda-10.1

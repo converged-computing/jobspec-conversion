@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hope-3292
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-chip-4195
+#FLUX --urgency=16
 
 CURDIR=`pwd`
 CODEDIR=`mktemp -d -p ${CURDIR}/tmp`

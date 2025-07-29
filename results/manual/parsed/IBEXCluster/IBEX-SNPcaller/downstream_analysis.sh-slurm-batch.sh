@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GenomicDBImport
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=GenomicDBImport
+#SBATCH --output=logs/Chr-%A.%a.out
+#SBATCH --error=logs/Chr-%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=115gb
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-19
 
 export REF='/ibex/scratch/kathirn/work/project/for_elodie/ref/CQ41.fa'
 export PROJECT='/ibex/scratch/reyel/1000quinoa/naga/GenomicDB/import'

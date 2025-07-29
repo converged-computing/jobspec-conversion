@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Duck
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Duck
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/gpfsdswork/projects/rech/pch/ulz67kb/SMATE_MTS/Baselines/mtsc_nmsu_ijcai2020/src'
 

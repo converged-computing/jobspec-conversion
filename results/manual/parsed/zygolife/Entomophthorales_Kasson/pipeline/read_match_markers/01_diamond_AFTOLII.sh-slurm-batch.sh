@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cupcake-2626
-#FLUX: -c=96
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=logs/diamond_blastx.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=24gb
+#SBATCH --partition=short
+#SBATCH --array=1-14
 
 module load diamond
 module load workspace/scratch

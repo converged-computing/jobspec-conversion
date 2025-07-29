@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-platanos-8141
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=blue-banana-0484
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load PrgEnv-cray
 module load craype-accel-amd-gfx90a

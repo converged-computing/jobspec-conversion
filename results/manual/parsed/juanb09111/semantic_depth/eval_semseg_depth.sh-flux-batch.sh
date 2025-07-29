@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lagosben
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#FLUX --job-name=lagosben
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=259140
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

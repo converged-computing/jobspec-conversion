@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=train_cac
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=gpu_high
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=train_cac
+#FLUX -N=2
+#FLUX -c=2
+#FLUX --queue=gpu_high
+#FLUX -t=259200
+#FLUX --urgency=16
 
 NODE_LIST=$( scontrol show hostname $SLURM_JOB_NODELIST | sed -z 's/\n/\:4,/g' )
 NODE_LIST=${NODE_LIST%?}

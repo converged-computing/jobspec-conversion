@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tox_meter_red
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=tox_meter_red
+#SBATCH --output=/home1/p313544/slurm_logs/%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=03:00:00
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/ret_toxicity'
 

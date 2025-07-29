@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dnf_gan2d_eval
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dnf_gan2d_eval
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /storage/homefs/ch19g182/Python/estimate_d/images/experiments
 nvcc --version

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST_CNN_EPOCHS
-#FLUX: -c=20
-#FLUX: --exclusive
-#FLUX: --queue=ml
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=MNIST_CNN_EPOCHS
+#SBATCH --account=p_hpdlf_itwm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:30:00
+#SBATCH --partition=ml
+#SBATCH: --exclusive
 
 module load modenv/ml
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4

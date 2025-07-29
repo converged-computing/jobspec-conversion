@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-train-8147
-#FLUX: -n=96
-#FLUX: --queue=genoa
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-blackbean-3405
+#FLUX -n=96
+#FLUX --queue=genoa
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

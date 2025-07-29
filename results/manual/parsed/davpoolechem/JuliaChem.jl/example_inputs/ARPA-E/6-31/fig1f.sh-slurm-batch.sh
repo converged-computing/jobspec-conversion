@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example_inputs/ARPA-E/6-31/fig1f
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --job-name=example_inputs/ARPA-E/6-31/fig1f
+#SBATCH --output=example_inputs/ARPA-E/6-31/fig1f.log
+#SBATCH --error=example_inputs/ARPA-E/6-31/fig1f.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=6
 
 export JULIA_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

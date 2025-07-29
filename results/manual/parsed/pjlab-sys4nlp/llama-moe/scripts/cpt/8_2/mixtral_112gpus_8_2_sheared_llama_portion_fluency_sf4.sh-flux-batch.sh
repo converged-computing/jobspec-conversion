@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mixtral_random_split_112gpus_8_2
-#FLUX: -N=14
-#FLUX: -c=26
-#FLUX: --queue=MoE_T
-#FLUX: --urgency=16
+#FLUX --job-name=mixtral_random_split_112gpus_8_2
+#FLUX -N=14
+#FLUX -c=26
+#FLUX --queue=MoE_T
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

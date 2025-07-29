@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stage_II_port_size
-#FLUX: -t=1439
-#FLUX: --urgency=16
+#SBATCH --job-name=stage_II_port_size
+#SBATCH --account=apam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:23:59
+#SBATCH --constraint=ntasks-per-node=12
 
 export OMP_NUM_THREADS='1'
 

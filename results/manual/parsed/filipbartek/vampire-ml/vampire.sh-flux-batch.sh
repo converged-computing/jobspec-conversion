@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-omelette-7169
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-rabbit-3748
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -euo pipefail
 echo Git commit: "$(git rev-parse --verify HEAD)"

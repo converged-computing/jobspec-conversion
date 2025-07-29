@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CNVkit_plot
-#FLUX: -c=15
-#FLUX: --queue=main
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=CNVkit_plot
+#SBATCH --output=/scratch/kerenxu/output/CNVkit_plot_%A_%a.out
+#SBATCH --error=/scratch/kerenxu/error/CNVkit_plot_%A_%a.errcd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=15
+#SBATCH --mem=59G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=main
+#SBATCH --array=1-25
 
 export PATH='/dir/kerenxu/SINGULARITY_CACHEDIR/:$PATH'
 

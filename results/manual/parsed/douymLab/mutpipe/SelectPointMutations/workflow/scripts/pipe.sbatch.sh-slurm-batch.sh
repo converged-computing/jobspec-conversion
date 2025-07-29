@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=YC-variants
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=YC-variants
+#SBATCH --output=/storage/douyanmeiLab/lujinhong/logs/22_4_16/YC_filter/%x_%J_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000M
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 import socket
 set +u

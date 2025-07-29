@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-arm-6444
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-plant-5346
+#FLUX -c=32
+#FLUX --queue=normal
+#FLUX -t=460800
+#FLUX --urgency=16
 
 export INSTALL_DIR='/home/azimuth/software'
 export VLBIDIR='${INSTALL_DIR}/VLBI-cwl'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rnn1d-tf1-noxla
-#FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=rnn1d-tf1-noxla
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=special
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 export PROFILER='cupy'
 export enable_xla='noxla'

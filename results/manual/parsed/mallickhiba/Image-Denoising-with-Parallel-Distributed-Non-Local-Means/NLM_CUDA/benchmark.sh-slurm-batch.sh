@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=non-local-means
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=non-local-means
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpu
 
 module load gcc
 module load cuda

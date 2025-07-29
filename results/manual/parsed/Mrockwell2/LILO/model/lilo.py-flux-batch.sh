@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-taco-7855
-#FLUX: --queue=RM
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=fat-squidward-6833
+#FLUX --queue=RM
+#FLUX -t=18000
+#FLUX --urgency=16
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D

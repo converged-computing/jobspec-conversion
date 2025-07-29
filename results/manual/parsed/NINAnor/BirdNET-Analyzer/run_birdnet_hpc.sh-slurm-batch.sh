@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-peanut-butter-7817
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NINAnor/BirdNET-Analyzer/run_birdnet_hpc.sh

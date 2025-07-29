@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=subpex_1
-#FLUX: -N=2
-#FLUX: --queue=opa-high-mem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=subpex_1
+#FLUX -N=2
+#FLUX --queue=opa-high-mem
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source env.sh
 SERVER_INFO=$WEST_SIM_ROOT/west_zmq_info-$SLURM_JOBID.json

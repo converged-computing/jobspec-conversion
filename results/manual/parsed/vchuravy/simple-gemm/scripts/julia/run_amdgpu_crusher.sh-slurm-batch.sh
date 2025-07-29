@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=60000M_julia_gpu
-#FLUX: --queue=batch
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=60000M_julia_gpu
+#SBATCH --account=CSC383_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=batch
 
 export JULIA_MPIEXEC='srun'
 export JULIA_AMDGPU_DISABLE_ARTIFACTS='1 '

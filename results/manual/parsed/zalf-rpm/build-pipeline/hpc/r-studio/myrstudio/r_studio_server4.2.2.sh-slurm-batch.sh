@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-gato-1034
-#FLUX: -c=40
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/rstudio-server.job.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=08:00:00
 
 export SINGULARITY_HOME='${HOMEDIR}'
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'

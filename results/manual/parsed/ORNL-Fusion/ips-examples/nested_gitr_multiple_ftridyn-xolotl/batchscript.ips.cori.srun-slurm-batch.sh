@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-staircase-6490
-#FLUX: -N=8
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=atom
+#SBATCH --output=log.slurm.stdOut
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export PYTHONPATH='$SLURM_SUBMIT_DIR:$PYTHONPATH'
 export OMP_PLACES='threads'

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=flex_ecmwf_oper
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=flex_ecmwf_oper
+#SBATCH --output=ms_sms_output_V6.0/CTBTO_ops.out
+#SBATCH --error=ms_sms_output_V6.0/CTBTO_ops.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=normal
+#SBATCH --chdir=/scratch/ms/spatlh00/lh0
 
 export OMP_NUM_THREADS='1'
 export VERSION='6.0'

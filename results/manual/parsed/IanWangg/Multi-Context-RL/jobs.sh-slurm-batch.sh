@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cattywampus-2272
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=storage/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=20:00:00
+#SBATCH --partition=long
+#SBATCH --exclude=rtx3,rtx5
 
 module load anaconda
 conda activate conda_env

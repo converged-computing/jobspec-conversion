@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-0231
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=purple-truffle-2139
+#FLUX -c=4
+#FLUX --queue=short
+#FLUX --urgency=16
 
 java -Xmx16G -jar /projects1/tools/multivcfanalyzer/0.0.87/MultiVCFanalyzer_0-87.jar \
 NA \

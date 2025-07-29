@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PermutedDistPk
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=PermutedDistPk
+#SBATCH --output=./logs/PermutedDistPk-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
+#SBATCH --constraint=skl-compat
+#SBATCH --array=1-912:1
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt
 module load Python/3.9.6-GCCcore-11.2.0

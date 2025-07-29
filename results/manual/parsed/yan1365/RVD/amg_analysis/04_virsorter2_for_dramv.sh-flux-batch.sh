@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=virsorter2_%j
-#FLUX: -n=48
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=virsorter2_%j
+#FLUX -n=48
+#FLUX -t=9000
+#FLUX --urgency=16
 
 START=$SECONDS
 part=${1}

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-3534
-#FLUX: --queue=aquila,parallel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-lamp-2823
+#FLUX --queue=aquila,parallel
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/workspace/.mujoco/mujoco210/bin'
 export MUJOCO_PY_MUJOCO_PATH='/workspace/.mujoco/mujoco210/'

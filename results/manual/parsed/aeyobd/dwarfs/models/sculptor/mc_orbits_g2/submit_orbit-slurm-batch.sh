@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sculptor_mc_orbit
-#FLUX: --queue=cosma
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=sculptor_mc_orbit
+#SBATCH --account=durham
+#SBATCH --output=%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=cosma
 
 module unload gnu_comp
 module load intel_comp/2019

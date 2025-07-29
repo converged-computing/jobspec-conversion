@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-plant-6111
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-milkshake-2540
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/intel2016.4/cuda/10.0.130/extras/CUPTI/lib64'
 

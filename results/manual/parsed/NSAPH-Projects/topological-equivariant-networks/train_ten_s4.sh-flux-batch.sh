@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-egg-7836
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-signal-7378
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load ncf/1.0.0-fasrc01
 module load miniconda3/py310_22.11.1-1-linux_x64-ncf

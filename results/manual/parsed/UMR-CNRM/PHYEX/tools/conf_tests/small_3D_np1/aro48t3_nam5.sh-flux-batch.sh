@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-8794
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-pastry-9508
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

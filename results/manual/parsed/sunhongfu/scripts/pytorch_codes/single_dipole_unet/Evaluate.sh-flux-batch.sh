@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_single_dipole_unet
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=eval_single_dipole_unet
+#FLUX -c=3
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

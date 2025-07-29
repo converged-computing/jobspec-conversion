@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_ple
-#FLUX: -c=8
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_ple
+#SBATCH --output=output/resnet_ple.log
+#SBATCH --error=output/resnet_ple-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --time=03:20:00
 
 export PYTHONPATH='$(pwd)'
 

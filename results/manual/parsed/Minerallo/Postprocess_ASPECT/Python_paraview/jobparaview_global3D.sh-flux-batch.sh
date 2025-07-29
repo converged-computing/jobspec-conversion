@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-mango-6709
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-cupcake-8308
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

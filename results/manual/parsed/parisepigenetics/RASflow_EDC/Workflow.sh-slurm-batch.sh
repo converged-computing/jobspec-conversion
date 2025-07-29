@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RASflow
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=RASflow
+#SBATCH --output=RASflow-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)

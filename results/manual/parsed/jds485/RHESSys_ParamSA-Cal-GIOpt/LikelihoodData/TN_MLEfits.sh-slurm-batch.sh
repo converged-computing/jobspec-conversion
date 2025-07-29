@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lentil-1394
-#FLUX: -N=15
-#FLUX: --queue=parallel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=/scratch/js4yd/LikelihoodAnalysis/TN_MLEfits.out
+#SBATCH --mail-user=js4yd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=15
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=20
+#SBATCH --chdir=/scratch/js4yd/LikelihoodAnalysis/
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 python/3.6.6 mpi4py

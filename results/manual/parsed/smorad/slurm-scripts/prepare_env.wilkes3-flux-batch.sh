@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rllib_prepare_env
-#FLUX: -c=3
-#FLUX: --queue=ampere
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=rllib_prepare_env
+#FLUX -c=3
+#FLUX --queue=ampere
+#FLUX -t=2700
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

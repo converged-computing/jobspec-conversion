@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS.GPU
-#FLUX: --queue=gpu
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=GROMACS.GPU
+#SBATCH --output=GROMACS.GPU.%j.out
+#SBATCH --error=GROMACS.GPU.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:59:00
+#SBATCH --partition=gpu
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a-CUDA-11.7.0

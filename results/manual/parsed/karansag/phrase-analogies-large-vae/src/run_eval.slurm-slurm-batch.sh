@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=optimus-analogy-eval
-#FLUX: -c=12
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=optimus-analogy-eval
+#SBATCH --output=/scratch/${USER}/logs-project/%j_%x.out
+#SBATCH --error=/scratch/${USER}/logs-project/%j_%x.err
+#SBATCH --mail-user=${USER}@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
 
 singularity exec --nv --overlay $SCRATCH/overlay-25GB-500K-2.ext3:rw /scratch/work/public/singularity/cuda10.1-cudnn7-devel-ubuntu18.04-20201207.sif /bin/bash -c "
 source /ext3/env.sh

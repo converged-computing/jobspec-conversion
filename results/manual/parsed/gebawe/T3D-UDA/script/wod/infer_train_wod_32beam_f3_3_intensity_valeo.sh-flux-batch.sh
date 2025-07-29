@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bits-3240
-#FLUX: -c=24
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-plant-4968
+#FLUX -c=24
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='1'
 

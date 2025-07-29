@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-frito-9824
-#FLUX: -c=10
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2003528
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 PYTHON=python3
 if [ -n "$SING_IMAGE" ]; then

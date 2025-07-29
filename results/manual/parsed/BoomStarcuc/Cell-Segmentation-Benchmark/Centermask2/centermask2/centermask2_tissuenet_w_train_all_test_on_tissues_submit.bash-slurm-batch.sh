@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lamp-2604
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 declare -a arr=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 RESNEST_ROOT_DIR='centermask2'

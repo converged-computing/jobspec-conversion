@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pancake-4785
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-cat-9323
+#FLUX -c=128
+#FLUX --queue=medium
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='$CACHEDIR'
 

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-train-5162
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-frito-3409
+#FLUX --urgency=16
 

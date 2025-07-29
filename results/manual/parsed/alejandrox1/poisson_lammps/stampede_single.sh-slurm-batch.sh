@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-carrot-1344
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --mail-user=alarcj137@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
 
 module load lammps
 procs=$1

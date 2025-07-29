@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-omelette-2236
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-itch-1855
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=540000
+#FLUX --urgency=16
 
 nvidia-smi
 module load miniconda3

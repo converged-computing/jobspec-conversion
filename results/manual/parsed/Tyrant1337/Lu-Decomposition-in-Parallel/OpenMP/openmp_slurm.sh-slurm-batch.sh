@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=openmpcode
-#FLUX: -c=48
-#FLUX: --exclusive
-#FLUX: --queue=day-long-cpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=openmpcode
+#SBATCH --output=slurm_output.%j
+#SBATCH --error=slurm_error.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=00:01:00
+#SBATCH --partition=day-long-cpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_PROC_BIND='close'
 

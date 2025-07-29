@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-eagle-6582
-#FLUX: -c=128
+#FLUX --job-name=hanky-taco-8746
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=romeo
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=romeo
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

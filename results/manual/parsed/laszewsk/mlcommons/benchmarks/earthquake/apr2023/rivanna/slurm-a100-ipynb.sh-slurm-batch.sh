@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=earthquake-a100
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=earthquake-a100
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j-a100.out
+#SBATCH --error=%u-%j-a100.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=bii-gpu
 
 echo "###############################################################"
 echo "# ENVIRONMENT                                                 #"

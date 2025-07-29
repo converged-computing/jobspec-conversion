@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-noodle-9900
-#FLUX: --queue=sbel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=sbel
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx2080ti:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=sbel
+#SBATCH --qos=sbel_owner
 
 module load gcc/9.2.0
 module load cmake/3.18.1

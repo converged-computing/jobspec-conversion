@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=12k
-#FLUX: -N=4
-#FLUX: -n=256
-#FLUX: --queue=amd
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=12k
+#FLUX -N=4
+#FLUX -n=256
+#FLUX --queue=amd
+#FLUX -t=18000
+#FLUX --urgency=16
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

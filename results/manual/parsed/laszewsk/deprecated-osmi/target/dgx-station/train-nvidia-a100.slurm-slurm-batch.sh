@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=train-osmi
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=train-osmi-%u-%j.out
+#SBATCH --error=train-osmi-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
+#SBATCH --partition=bii-gpu
+#SBATCH --constraint=a100_80gb
 
 NAME=cloudmesh-nvidia
 PROJECT_DIR="$PROJECT/osmi"

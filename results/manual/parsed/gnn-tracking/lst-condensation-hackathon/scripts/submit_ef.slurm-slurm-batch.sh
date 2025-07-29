@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pl-run
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pl-run
+#SBATCH --output=slurm_logs/pl-run-%j.log
+#SBATCH --mail-user=kl5675@princeton.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

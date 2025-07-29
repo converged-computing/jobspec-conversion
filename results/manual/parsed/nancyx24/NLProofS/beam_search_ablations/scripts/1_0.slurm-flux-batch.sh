@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=1_0
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=1_0
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module purge
 conda init bash

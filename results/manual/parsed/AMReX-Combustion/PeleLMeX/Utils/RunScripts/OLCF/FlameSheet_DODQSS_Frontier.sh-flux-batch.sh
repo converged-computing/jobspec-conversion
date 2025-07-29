@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=LMEX_FSDODQSS
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=LMEX_FSDODQSS
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export https_proxy='http://proxy.ccs.ornl.gov:3128'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-5666
-#FLUX: --urgency=16
+#FLUX --job-name=grated-egg-0258
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lsqshr/Neuveal/legacy/dataprep.pbs

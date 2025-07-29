@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=diff2D
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=diff2D
+#SBATCH --account=class04
+#SBATCH --output=diff2D.%j.o
+#SBATCH --error=diff2D.%j.e
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export MPICH_RDMA_ENABLED_CUDA='0'
 export IGG_CUDAAWARE_MPI='0'

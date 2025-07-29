@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=m1ms_evol_islands
-#FLUX: --queue=compute
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=m1ms_evol_islands
+#FLUX --queue=compute
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MODULEPATH='/share/apps/compute/modulefiles/mpi:$MODULEPATH'
 export PATH='~nsguser/applications/neuron7.4/installdir/x86_64/bin:~nsguser/.local/bin:$PATH'

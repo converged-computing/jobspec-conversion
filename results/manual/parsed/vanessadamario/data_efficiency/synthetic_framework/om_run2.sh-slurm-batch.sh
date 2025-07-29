@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=synthetic
-#FLUX: --queue=use-everything
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=synthetic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=40GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=use-everything
+#SBATCH --chdir=/om/user/vanessad/synthetic_framework/slurm_output/scenario_4
+#SBATCH --array=40-59,347-527,840-995
 
 hostname
 module add openmind/singularity/3.4.1

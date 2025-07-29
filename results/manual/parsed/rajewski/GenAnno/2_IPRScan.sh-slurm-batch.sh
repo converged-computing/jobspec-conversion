@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-citrus-3241
-#FLUX: -n=16
-#FLUX: --urgency=16
+#SBATCH --output=./history/IPRScan-%A.out
+#SBATCH --mail-user=araje002@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=200G
 
 set -euv
 module load interproscan

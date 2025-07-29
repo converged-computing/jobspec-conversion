@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-download
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-download
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=24G
+#SBATCH --time=01:00:00
 
 export PATH='$(realpath $RELEASE_DIR/bin/)":$PATH'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

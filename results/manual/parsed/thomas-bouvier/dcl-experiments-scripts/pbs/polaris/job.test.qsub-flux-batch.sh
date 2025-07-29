@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-dog-0219
-#FLUX: --urgency=16
+#FLUX --job-name=placid-motorcycle-1847
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/job.test.qsub

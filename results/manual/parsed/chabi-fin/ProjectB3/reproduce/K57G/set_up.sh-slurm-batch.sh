@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mut1
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mut1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

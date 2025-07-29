@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=OPT-1
-#FLUX: --queue=ccm_gillespi
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=OPT-1
+#SBATCH --output=/lustre/scratch/daksha/202002-ZnO-results/base_case/1/run.out
+#SBATCH --error=/lustre/scratch/daksha/202002-ZnO-results/base_case/1/run_error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ccm_gillespi
 
 . /opt/shared/slurm/templates/libexec/common.sh
 vpkg_require reaxff/2.0.1:intel

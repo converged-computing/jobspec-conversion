@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=XZRot
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=XZRot
+#SBATCH --output=logs/%x_%A_%a.out
+#SBATCH --error=logs/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=rtx2080ti
+#SBATCH --chdir=/home/santamgp/Documents/CertifyingAffineTransformationsOnPointClouds/3D-RS-PointCloudCertifying/
+#SBATCH --array=1-80
 
 module load gcc
 echo "######################### SLURM JOB ########################"

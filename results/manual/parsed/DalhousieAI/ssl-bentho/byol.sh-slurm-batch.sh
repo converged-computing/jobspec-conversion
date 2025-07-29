@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=byol
-#FLUX: -c=12
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=byol
+#SBATCH --account=def-ttt
+#SBATCH --output=logs/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=498G
+#SBATCH --time=2-12:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(hostname -s)  # Store the master node’s IP address in the MASTER_ADDR environment variable.'

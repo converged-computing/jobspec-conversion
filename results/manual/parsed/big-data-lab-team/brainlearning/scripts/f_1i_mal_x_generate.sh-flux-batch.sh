@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-poo-0070
-#FLUX: -c=6
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=astute-ricecake-4061
+#FLUX -c=6
+#FLUX -t=30
+#FLUX --urgency=16
 
 model=f_1i_mal_x
 module load cuda cudnn python/3.6.3

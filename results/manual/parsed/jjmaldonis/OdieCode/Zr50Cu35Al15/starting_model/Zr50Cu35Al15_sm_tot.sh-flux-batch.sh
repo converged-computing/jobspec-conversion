@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MD_Vol
-#FLUX: -n=16
-#FLUX: --queue=univ
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=MD_Vol
+#FLUX -n=16
+#FLUX --queue=univ
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "Using ACI / HCP / Slurm cluster."
 echo "JobID = $SLURM_JOB_ID"

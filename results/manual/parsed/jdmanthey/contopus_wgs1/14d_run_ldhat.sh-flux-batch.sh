@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ldhat
-#FLUX: -n=2
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ldhat
+#FLUX -n=2
+#FLUX --queue=quanah
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel R
 source activate bcftools

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lemon-1058
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --time=7-00:00:00
 
 FEATURE_MANIFEST_ROOT=/disk/nfs/ostrom/s2324992/data/yoruba/feature_manifest
 MAX_TOKENS=24000 #,30000(transformertts)

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-gato-4002
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-latke-9983
+#FLUX -t=1800
+#FLUX --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

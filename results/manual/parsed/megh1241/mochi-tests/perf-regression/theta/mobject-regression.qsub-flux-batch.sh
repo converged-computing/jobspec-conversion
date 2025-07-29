@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=purple-despacito-0340
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-lettuce-1712
+#FLUX --urgency=16
 

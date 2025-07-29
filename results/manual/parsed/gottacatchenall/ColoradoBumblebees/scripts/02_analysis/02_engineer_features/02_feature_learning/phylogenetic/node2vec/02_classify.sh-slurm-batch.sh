@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=node2vec_fits
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=node2vec_fits
+#SBATCH --account=def-gonzalez
+#SBATCH --output=slurm-node2vec_fits-%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-48
 
 export JULIA_DEPOT_PATH='/project/def-gonzalez/mcatchen/JuliaEnvironments/COBees'
 export CLUSTER='true'

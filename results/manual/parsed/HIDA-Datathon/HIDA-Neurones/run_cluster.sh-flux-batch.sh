@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=HIDA-20
-#FLUX: -N=3
+#FLUX --job-name=HIDA-20
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: --queue=pGPU
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=pGPU
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

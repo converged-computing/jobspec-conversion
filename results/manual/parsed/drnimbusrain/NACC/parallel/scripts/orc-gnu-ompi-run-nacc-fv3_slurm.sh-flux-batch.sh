@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nacc-test
-#FLUX: -N=12
-#FLUX: -n=73
-#FLUX: --queue=contrib
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=nacc-test
+#FLUX -N=12
+#FLUX -n=73
+#FLUX --queue=contrib
+#FLUX -t=600
+#FLUX --urgency=16
 
 export NODES='12'
 export IOAPI_CHECK_HEADERS='T'

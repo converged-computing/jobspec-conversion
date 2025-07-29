@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2DGCNNPOINT++
-#FLUX: -c=2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=2DGCNNPOINT++
+#FLUX -c=2
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load gcc
 echo "######################### SLURM JOB ########################"

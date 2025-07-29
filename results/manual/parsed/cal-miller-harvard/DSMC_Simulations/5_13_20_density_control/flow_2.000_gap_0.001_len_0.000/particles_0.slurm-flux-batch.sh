@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parrot-3409
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=purple-taco-1801
+#FLUX -n=8
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 cd data
 pwd

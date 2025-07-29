@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=GWMC_gtdbtk
-#FLUX: -c=32
-#FLUX: --queue=ieg_lm,ieg_128g,ieg_64g
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=GWMC_gtdbtk
+#SBATCH --output=/condo/ieg/jianshu/log/jarray.%j.%N.out
+#SBATCH --error=/condo/ieg/jianshu/log/jarray.%j.%N.err
+#SBATCH --mail-user=jianshuzhao@yahoo.com.
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=240G
+#SBATCH --time=08:00:00
+#SBATCH --partition=ieg_lm,ieg_128g,ieg_64g
 
 module purge
 source ~/.bashrc

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cattywampus-5575
-#FLUX: --queue=conroy_priority,test,shared,itc_cluster
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --account=conroy_lab
+#SBATCH --output=xmatch_phot.out
+#SBATCH --error=xmatch_phot.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=00:02:00
+#SBATCH --partition=conroy_priority,test,shared,itc_cluster
 
 module load python
 source ~/.bashrc

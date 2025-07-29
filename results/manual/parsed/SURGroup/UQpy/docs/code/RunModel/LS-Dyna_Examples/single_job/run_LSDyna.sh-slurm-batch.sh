@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=UQpy_LSDyna_Test_Parallel
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=UQpy_LSDyna_Test_Parallel
+#SBATCH --mail-user=michael.shields@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=24
 
 module load ls-dyna/10.1.0
 module load python

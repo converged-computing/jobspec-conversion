@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=camTorchWpr
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=camTorchWpr
+#FLUX -c=2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 task_id=$(($SLURM_ARRAY_TASK_ID))
 task_num=$((task_id))

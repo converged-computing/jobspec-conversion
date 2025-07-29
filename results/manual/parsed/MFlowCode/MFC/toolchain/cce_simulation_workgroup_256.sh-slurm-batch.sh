@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-sundae-2908
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 CCE_LLVM_PATH=${CRAY_CCE_CLANGSHARE}/../
 WGSIZE=256

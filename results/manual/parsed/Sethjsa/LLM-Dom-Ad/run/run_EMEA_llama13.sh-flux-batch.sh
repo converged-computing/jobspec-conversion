@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=EMEA
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=EMEA
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

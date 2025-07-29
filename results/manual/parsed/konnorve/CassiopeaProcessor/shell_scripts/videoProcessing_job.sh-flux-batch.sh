@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VP_MarilynMonroe_Baseline
-#FLUX: --queue=savio_bigmem
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=VP_MarilynMonroe_Baseline
+#FLUX --queue=savio_bigmem
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load gcc openmpi
 module load python

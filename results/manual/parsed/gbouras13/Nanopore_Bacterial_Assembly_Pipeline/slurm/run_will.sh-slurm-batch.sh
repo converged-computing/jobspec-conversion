@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=will_bact_assembly
-#FLUX: --queue=batch
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=will_bact_assembly
+#SBATCH --output=will_bact_assembly_snk.out
+#SBATCH --error=will_bact_assembly_snk.err
+#SBATCH --mail-user=george.bouras@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=batch
 
 SNK_DIR="/hpcfs/users/a1667917/Bacteria_Multiplex/Nanopore_Bacterial_Assembly_Pipeline"
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"

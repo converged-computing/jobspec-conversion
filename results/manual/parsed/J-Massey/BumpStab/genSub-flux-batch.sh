@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RA
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#FLUX --job-name=RA
+#FLUX -n=64
+#FLUX --queue=amd
+#FLUX -t=16200
+#FLUX --urgency=16
 
 module load texlive
 module load conda

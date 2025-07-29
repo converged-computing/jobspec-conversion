@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=e-gamf-p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=e-gamf-p
+#SBATCH --output=log_evaluate_gamf_power_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=2-00:00:00
 
 export OMP_NUM_THREADS='1'
 

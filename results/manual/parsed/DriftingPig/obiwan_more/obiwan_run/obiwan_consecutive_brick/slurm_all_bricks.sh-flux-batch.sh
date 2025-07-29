@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=obiwan
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=obiwan
+#FLUX --queue=regular
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export name_for_run='elg_eight_bricks'
 export randoms_db='None #run from a fits file'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=init
-#FLUX: --queue=short
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=init
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --mail-user=jschulze@mpi-magdeburg.mpg.de
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=short
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export MKL_ENABLE_INSTRUCTIONS='AVX2'

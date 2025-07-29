@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gaussian_kde_run
-#FLUX: --queue=general-compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gaussian_kde_run
+#FLUX --queue=general-compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

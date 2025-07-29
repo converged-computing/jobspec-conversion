@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-5404
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=blank-kerfuffle-6926
+#FLUX -n=4
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia/1.8.5

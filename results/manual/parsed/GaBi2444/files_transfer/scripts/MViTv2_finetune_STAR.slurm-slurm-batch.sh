@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=MViTv2_finetune_STAR
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MViTv2_finetune_STAR
+#SBATCH --output=../exp/%x/%j_%x.out
+#SBATCH --error=../exp/%x/%j_%x.err
+#SBATCH --mail-user=yushoubin26@163.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200G
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=sched_level_2
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export HOROVOD_GPU_ALLREDUCE='MPI'
 export HOROVOD_GPU_ALLGATHER='MPI'

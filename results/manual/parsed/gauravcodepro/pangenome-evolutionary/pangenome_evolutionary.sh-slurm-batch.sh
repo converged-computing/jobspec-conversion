@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-taco-9258
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "adding the support for the name process:"
 read -r -p "please provide the batch:" batch

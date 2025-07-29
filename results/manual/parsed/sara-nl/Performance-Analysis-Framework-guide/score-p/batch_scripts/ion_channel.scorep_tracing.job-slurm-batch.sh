@@ -1,11 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-scorep
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=4
-#FLUX: --queue=broadwell
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs-scorep
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --partition=broadwell
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install_scorep'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-butter-5123
-#FLUX: -c=4
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=amd_a100nv_8
+#SBATCH --constraint=ntasks-per-node=1
 
 if [ -e flask_port_forwarding_command ]
 then

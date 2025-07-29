@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GPU_matrix_mult
-#FLUX: --queue=dav
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=GPU_matrix_mult
+#FLUX --queue=dav
+#FLUX -t=900
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${NCAR_ROOT_CUDA}/lib64:${LD_LIBRARY_PATH}'
 

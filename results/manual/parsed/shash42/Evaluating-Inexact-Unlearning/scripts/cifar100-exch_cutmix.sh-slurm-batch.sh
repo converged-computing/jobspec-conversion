@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-underoos-7163
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --mail-user=shashwat.goel@research.iiit.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=4-00:00:00
+#SBATCH --exclude=gnode58,gnode17
 
 cat cifar100-exch.sh
 logdir='logs3/Final-cifar100-resnet110'

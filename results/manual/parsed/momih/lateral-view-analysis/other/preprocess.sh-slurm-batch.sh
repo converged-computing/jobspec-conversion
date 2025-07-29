@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-banana-1194
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 DATADIR=/lustre04/scratch/cohenjos/PC/images-224/
 LABELSDIR=$HOME/projects/rpp-bengioy/jpcohen/PADCHEST_SJ/labels_csv/

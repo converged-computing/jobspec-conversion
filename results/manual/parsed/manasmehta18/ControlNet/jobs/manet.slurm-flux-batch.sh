@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=manet-run
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=manet-run
+#FLUX --queue=GPU-shared
+#FLUX -t=172740
+#FLUX --urgency=16
 
 set -x
 cd /ocean/projects/iri180005p/mmehta1/ControlNet

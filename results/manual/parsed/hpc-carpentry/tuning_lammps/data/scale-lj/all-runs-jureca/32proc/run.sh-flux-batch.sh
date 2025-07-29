@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-0448
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-taco-9117
+#FLUX --queue=devel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

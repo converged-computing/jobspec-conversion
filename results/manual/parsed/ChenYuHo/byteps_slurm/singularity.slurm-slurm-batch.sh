@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=byteps_singularity
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=299
-#FLUX: --urgency=16
+#SBATCH --job-name=byteps_singularity
+#SBATCH --output=logs/%J.out
+#SBATCH --error=logs/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem-per-cpu=64g
+#SBATCH --time=00:04:59
+#SBATCH --partition=batch
+#SBATCH --constraint=v100,gpu_ai
 
 export INTERFACE='ib0'
 export interface_addr='$(ifconfig $INTERFACE 2>/dev/null | grep "inet " | awk '{print $2}')'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-spoon-2465
-#FLUX: -c=3
-#FLUX: --queue=gpuhgx
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --mail-user=n_jaku01@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpuhgx
 
 module load palma/2021b
 module load Singularity

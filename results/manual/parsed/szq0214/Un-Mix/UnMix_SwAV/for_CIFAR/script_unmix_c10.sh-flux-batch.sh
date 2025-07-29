@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=c10
-#FLUX: -c=2
-#FLUX: --queue=default
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=c10
+#FLUX -c=2
+#FLUX --queue=default
+#FLUX -t=43200
+#FLUX --urgency=16
 
 port=$RANDOM
 ARCH="resnet18"

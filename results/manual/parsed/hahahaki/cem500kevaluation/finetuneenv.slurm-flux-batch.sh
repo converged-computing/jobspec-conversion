@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=randomfreezeencoder
-#FLUX: -c=6
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=randomfreezeencoder
+#FLUX -c=6
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load python/3.10
 virtualenv --no-download $SLURM_TMPDIR/env

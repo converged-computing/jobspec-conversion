@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=job_bmg
-#FLUX: --queue=x86
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=job_bmg
+#SBATCH --output=main.sh.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=4000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=x86
+#SBATCH --constraint=ntasks-per-node=32
 
 srun --partition=x86 --time=48:00:00 --pty /bin/bash
 srun --partition=x86 --time=48:00:00 --nodes=1 --ntasks-per-node=32 --sockets-per-node=1 --cores-per-socket=16 --threads-per-core=2 --mem-per-cpu=4000 --wait=0 --export=ALL --pty /bin/bash

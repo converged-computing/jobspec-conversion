@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Profiler
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=Profiler
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepForest/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepForest/lib/python3.7/site-packages/'

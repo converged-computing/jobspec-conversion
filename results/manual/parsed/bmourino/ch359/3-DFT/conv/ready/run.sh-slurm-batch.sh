@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=<your-job-name>
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=<your-job-name>
+#SBATCH --mail-user=<your-email>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=36
+#SBATCH: --no-requeue
 
 module load intel
 module load gcc/11.3.0

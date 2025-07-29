@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-1011
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-butter-7470
+#FLUX --urgency=16
 
 DT=$(date '+%d-%m_%H-%M')
 BASEDIR=/mnt/scratchb/jmlab/morgan02/Covid/

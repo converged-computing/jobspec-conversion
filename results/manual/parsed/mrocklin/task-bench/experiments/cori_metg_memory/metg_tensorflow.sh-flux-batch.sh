@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-peanut-butter-2099
+#FLUX --job-name=milky-general-8049
 #FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cherry-5760
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/coreyjadams/CosmicTagger/example_submission_scripts/polaris/run_ct_pytorch_synthetic_data_hvd.sh

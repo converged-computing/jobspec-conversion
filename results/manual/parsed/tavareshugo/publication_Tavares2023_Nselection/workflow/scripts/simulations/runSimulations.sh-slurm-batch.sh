@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=simulations
-#FLUX: --queue=skylake
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=simulations
+#SBATCH --account=LEYSER-SL2-CPU
+#SBATCH --output=logs/simulations.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000MB
+#SBATCH --time=00:50:00
+#SBATCH --partition=skylake
+#SBATCH --chdir=/rds/project/ol235/rds-ol235-leyser-hpc/projects/2020_Tavares_NitrateSelection/supplementary_data/
+#SBATCH --array=1-100
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate simupop

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter_cpu
-#FLUX: -c=4
-#FLUX: --queue=genx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter_cpu
+#FLUX -c=4
+#FLUX --queue=genx
+#FLUX -t=172800
+#FLUX --urgency=16
 
 port=$(shuf -i 10000-65500 -n 1)
 /usr/bin/ssh -N -f -R $port:localhost:$port rusty1

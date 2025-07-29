@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-ricecake-4047
-#FLUX: -c=20
-#FLUX: --queue=medium
-#FLUX: -t=259205
-#FLUX: --urgency=16
+#SBATCH --output=opt_%j.out
+#SBATCH --error=opt_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=100G
+#SBATCH --time=3-00:00:05
+#SBATCH --partition=medium
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 basedir=/n/scratch/users/b/bek321/phageIP/

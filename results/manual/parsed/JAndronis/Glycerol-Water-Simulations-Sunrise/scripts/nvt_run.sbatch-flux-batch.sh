@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NVT_equilibration
-#FLUX: -n=64
-#FLUX: -c=2
-#FLUX: --queue=cops
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=NVT_equilibration
+#FLUX -n=64
+#FLUX -c=2
+#FLUX --queue=cops
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export GMX_ENABLE_DIRECT_GPU_COMM='1'
 export OMP_NUM_THREADS='$ntomp'

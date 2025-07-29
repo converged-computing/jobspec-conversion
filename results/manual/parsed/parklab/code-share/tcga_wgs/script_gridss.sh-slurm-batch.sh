@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-spoon-7862
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=log/gridss_%j.out
+#SBATCH --error=log/gridss_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=48G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=medium
+#SBATCH --array=2-2
 
 GRIDSS_JAR_PATH=/usr/local/bin/gridss-2.13.2.jar
 TUMOR_ID='TCGA-HC-A6HX-01A-11D-A755-36'

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_CostFourierVelModel_balanced
-#FLUX: --queue=dgx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_CostFourierVelModel_balanced
+#SBATCH --output=/home/mguamanc/job_%j.out
+#SBATCH --error=/home/mguamanc/job_%j.err
+#SBATCH --mail-user=mguamanc@andrew.cmu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=65536
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dgx
+#SBATCH --nodelist=calculon
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

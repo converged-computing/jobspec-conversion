@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dimer
-#FLUX: -c=2
-#FLUX: --queue=parallel
-#FLUX: --urgency=16
+#FLUX --job-name=dimer
+#FLUX -c=2
+#FLUX --queue=parallel
+#FLUX --urgency=16
 
 export VASP='/lustre/home/tccourse/vasp46-da/vasp'
 export VASPGAMMA='/lustre/home/tccourse/vasp46-da.gamma/vasp'

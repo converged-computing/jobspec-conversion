@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-eagle-6032
-#FLUX: -c=12
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=40G
+#SBATCH --time=02:00:00
 
 module load bowtie/1.2.3
 module load samtools/1.10

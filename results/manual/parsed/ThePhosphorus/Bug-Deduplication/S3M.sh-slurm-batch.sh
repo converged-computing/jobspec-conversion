@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=S3M
-#FLUX: -c=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=S3M
+#SBATCH --account=def-aloise
+#SBATCH --output=/home/phos/projects/def-aloise/phos/logs/S3M/%x_%a-%j.out
+#SBATCH --mail-user=adem.aber-aouni@polymtl.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=16G
+#SBATCH --time=00:30:00
 
 export PYTHONPATH='${PYTHONPATH}:${BASE_DIR}'
 

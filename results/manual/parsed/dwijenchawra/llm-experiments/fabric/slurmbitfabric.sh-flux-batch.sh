@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fabrictraining
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=gilbreth-k
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fabrictraining
+#FLUX -N=2
+#FLUX -c=32
+#FLUX --queue=gilbreth-k
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

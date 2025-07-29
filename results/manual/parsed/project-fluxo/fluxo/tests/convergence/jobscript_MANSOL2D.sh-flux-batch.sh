@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=convtest_MANSOL
-#FLUX: --queue=express
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=convtest_MANSOL
+#FLUX --queue=express
+#FLUX -t=1800
+#FLUX --urgency=16
 
 LOGFILE=log.$SLURM_JOB_ID.$SLURM_JOB_NAME
 CASEDIR=/u/ipphinde/GIT/fluxo/tests/convergence

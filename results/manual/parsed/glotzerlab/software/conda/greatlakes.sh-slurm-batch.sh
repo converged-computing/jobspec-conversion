@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=glotzerlab-software build
-#FLUX: -c=36
-#FLUX: --queue=standard
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=glotzerlab-software build
+#SBATCH --account=sglotzer9
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=144g
+#SBATCH --time=08:00:00
+#SBATCH --partition=standard
 
 export OUTPUT_FOLDER='/nfs/turbo/glotzer/software/conda'
 export TMPDIR='/tmpssd'

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=12
-#FLUX: --queue=normal12
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal12
 
 export OMP_NUM_THREADS='1'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=waom10_shflim_S
-#FLUX: -N=7
-#FLUX: -n=256
-#FLUX: --queue=large
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=waom10_shflim_S
+#FLUX -N=7
+#FLUX -n=256
+#FLUX --queue=large
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load intel-oneapi-compilers-classic/2021.6.0 intel-oneapi-mpi/2021.6.0 intel-oneapi-mkl/2022.1.0

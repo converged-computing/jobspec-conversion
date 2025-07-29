@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hope-7212
-#FLUX: -c=128
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/home/rmk7/ARP_Research/job.ideal1.out
+#SBATCH --error=/home/rmk7/ARP_Research/job.ideal1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=3-00:00:00
 
 export FITTYPE='${SLURM_ARRAY_TASK_ID}'
 export DATATYPE='all'

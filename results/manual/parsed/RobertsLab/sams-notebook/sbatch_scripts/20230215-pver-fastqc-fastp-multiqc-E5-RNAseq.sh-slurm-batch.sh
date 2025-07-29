@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20230215-pver-fastqc-fastp-multiqc-E5-RNAseq
-#FLUX: --queue=srlab
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=20230215-pver-fastqc-fastp-multiqc-E5-RNAseq
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230215-pver-fastqc-fastp-multiqc-E5-RNAseq
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*R1_001.fastq.gz'

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=b2_lc
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=booster
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=b2_lc
+#SBATCH --output=srun_outputs/B2_lc_vit_s_8_crop_100_%j.out
+#SBATCH --error=srun_outputs/B2_lc_vit_s_8_crop_100_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --time=08:00:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

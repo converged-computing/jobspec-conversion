@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leader-3318
-#FLUX: --queue=plgrid-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=scqfracz
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=plgrid-gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=12
 
 export DATASET1='100-diff10-java-strict'
 export DATASET2='100-diff10to50-java-strict'

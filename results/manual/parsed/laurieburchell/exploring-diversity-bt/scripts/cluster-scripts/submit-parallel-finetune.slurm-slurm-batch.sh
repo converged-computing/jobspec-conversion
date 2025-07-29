@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=par-finetune
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=par-finetune
+#SBATCH --account=NLP-CDT-SL2-GPU
+#SBATCH --output=/home/%u/logs/parallel-finetune_%A.out
+#SBATCH --error=/home/%u/logs/parallel-finetune_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=ampere
 
 . /etc/profile.d/modules.sh 
 module purge               

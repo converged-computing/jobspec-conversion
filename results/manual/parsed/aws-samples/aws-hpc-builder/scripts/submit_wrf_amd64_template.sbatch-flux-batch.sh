@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leg-2715
-#FLUX: -N=2
-#FLUX: -c=4
+#FLUX --job-name=cowy-buttface-5950
+#FLUX -N=2
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=hpc6anpg
-#FLUX: --urgency=16
+#FLUX --queue=hpc6anpg
+#FLUX --urgency=16
 
 export WRF_VERSION='4.4.2'
 export JOB_DIR='${PREFIX}/spooler/v4.4_bench_conus12km'

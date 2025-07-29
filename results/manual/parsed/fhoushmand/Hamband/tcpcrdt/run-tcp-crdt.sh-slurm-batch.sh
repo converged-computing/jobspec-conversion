@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-2306
-#FLUX: -N=7
-#FLUX: -n=7
-#FLUX: -c=7
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=result.log
+#SBATCH --nodes=7
+#SBATCH --ntasks=7
+#SBATCH --cpus-per-task=7
+#SBATCH --mem-per-cpu=50G
+#SBATCH --partition=short
+#SBATCH --constraint=amd
 
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))
 nnodes=${#nodes[@]}

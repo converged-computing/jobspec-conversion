@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rl_test
-#FLUX: -c=10
-#FLUX: --queue=es1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=rl_test
+#FLUX -c=10
+#FLUX --queue=es1
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo current conda env is $CONDA_DEFAULT_ENV
 echo "================"

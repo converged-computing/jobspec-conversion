@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-1205
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-parsnip-8597
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

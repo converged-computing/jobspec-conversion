@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tox_meter_red
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=tox_meter_red
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/ret_toxicity'
 

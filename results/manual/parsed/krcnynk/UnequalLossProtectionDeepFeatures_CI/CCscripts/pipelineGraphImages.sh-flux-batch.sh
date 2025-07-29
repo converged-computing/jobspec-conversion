@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-knife-4291
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=fat-omelette-0217
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module restore uneq
 cd ..

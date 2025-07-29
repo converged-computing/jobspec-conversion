@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=smd
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=9
-#FLUX: --urgency=16
+#SBATCH --job-name=smd
+#SBATCH --output=smd_%j.out
+#SBATCH --error=smd_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=9
 
 spack load openmpi@4.1.6
 module load openmpi

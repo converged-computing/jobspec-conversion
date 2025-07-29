@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lentil-9079
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=result.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=50G
+#SBATCH --partition=short
+#SBATCH: --exclusive
+#SBATCH --constraint=amd
 
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))
 nnodes=${#nodes[@]}

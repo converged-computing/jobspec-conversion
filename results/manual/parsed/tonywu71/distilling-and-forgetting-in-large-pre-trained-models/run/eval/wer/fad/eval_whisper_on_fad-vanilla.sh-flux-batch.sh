@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_whisper_on_fad-vanilla
-#FLUX: --queue=ampere
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=eval_whisper_on_fad-vanilla
+#FLUX --queue=ampere
+#FLUX -t=2400
+#FLUX --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-eagle-8181
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module load opencl-intel/16.4 
 module load opencl-nvidia/9.0

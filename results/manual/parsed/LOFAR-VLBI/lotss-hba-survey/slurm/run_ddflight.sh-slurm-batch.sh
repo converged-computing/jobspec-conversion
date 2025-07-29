@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test_ddf
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_ddf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=3-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 OBSID=${1}
 echo "Starting up, field is " ${OBSID}

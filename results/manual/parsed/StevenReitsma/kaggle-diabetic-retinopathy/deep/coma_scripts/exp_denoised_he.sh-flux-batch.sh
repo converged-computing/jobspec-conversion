@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=exp_denoised_he
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=exp_denoised_he
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/sreitsma/cudnn-6.5-linux-x64-v2:/usr/local/cuda-6.5/lib64:$LD_LIBRARY_PATH'
 export PATH='/usr/local/cuda-6.5/bin:$PATH'

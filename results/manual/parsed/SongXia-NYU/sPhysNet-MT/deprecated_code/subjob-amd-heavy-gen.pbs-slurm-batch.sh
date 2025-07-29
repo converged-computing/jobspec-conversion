@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=heavy-gen
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=heavy-gen
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:mi50:1
+#SBATCH --mem=30GB
+#SBATCH --time=03:00:00
 
 module purge
 singularity exec --nv \

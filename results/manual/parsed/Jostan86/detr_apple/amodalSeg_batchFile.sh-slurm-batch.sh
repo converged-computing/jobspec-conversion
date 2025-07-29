@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=amodalSeg
-#FLUX: --queue=dgx
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=amodalSeg
+#SBATCH --output=/nfs/hpc/share/browjost/detr_apple/logdirs/amodalSeg/amodalSeg-%a.out
+#SBATCH --error=/nfs/hpc/share/browjost/detr_apple/logdirs/amodalSeg/amodalSeg-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=18:00:00
+#SBATCH --partition=dgx
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv_amodal/bin/activate

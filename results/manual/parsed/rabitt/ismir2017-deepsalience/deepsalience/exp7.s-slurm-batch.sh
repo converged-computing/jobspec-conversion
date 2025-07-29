@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=e7
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=e7
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=14:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load cuda/8.0.44

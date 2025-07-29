@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nccl-benchmarking
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu,gpu_test
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=nccl-benchmarking
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=gpu,gpu_test
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MASTER_PORT='12340'
 export WORLD_SIZE='2'

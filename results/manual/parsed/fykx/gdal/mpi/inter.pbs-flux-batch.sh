@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-parsnip-8522
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-bicycle-0968
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fykx/gdal/mpi/inter.pbs

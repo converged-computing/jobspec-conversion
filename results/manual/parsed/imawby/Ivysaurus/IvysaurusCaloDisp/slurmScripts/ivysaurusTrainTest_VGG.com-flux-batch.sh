@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-train-4855
-#FLUX: -c=5
-#FLUX: --queue=astro
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=confused-blackbean-9635
+#FLUX -c=5
+#FLUX --queue=astro
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

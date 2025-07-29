@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=na-ves-350
-#FLUX: -n=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=na-ves-350
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=500M
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=haswell|broadwell|skylake|cascade
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

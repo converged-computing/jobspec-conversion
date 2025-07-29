@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gouttham-LISA-export
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=gouttham-LISA-export
+#SBATCH --account=def-amahdavi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem=187G
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
 
 cd ~/$projects/projects/def-amahdavi/gna23/LISA/
 source ./lisa_env/bin/activate

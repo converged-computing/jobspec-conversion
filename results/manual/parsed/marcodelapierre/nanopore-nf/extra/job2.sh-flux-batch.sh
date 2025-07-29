@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow-master-nanopore
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Nextflow-master-nanopore
+#FLUX --queue=workq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow
 nextflow run marcodelapierre/nanopore-nf \

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sw51lb_b3_feb2022_lb
-#FLUX: -n=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=sw51lb_b3_feb2022_lb
+#SBATCH --account=adamginsburg
+#SBATCH --output=w51lb_b3_feb2022_lb_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export FIELD_ID='W51_LB'
 export BAND_TO_IMAGE='VLA'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-motorcycle-5627
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lmoustakas/fot/deprecated/python/pbs_rung4.sh

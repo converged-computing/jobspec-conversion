@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ARTMS
-#FLUX: --queue=regular
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=ARTMS
+#FLUX --queue=regular
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load python
 mamba env create -n Titania -f envs/Titania.yaml

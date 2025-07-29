@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hvm-env-xarray
-#FLUX: --queue=testing
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hvm-env-xarray
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:30:00
+#SBATCH --partition=testing
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

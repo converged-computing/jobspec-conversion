@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -c=32
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=test_job
+#FLUX -c=32
+#FLUX -t=36000
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "SLURM_ARRAY JOB ID is $SLURM_ARRAY_JOB_ID."

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ggr
-#FLUX: -c=16
+#FLUX --job-name=ggr
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=akundaje,khavari
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=akundaje,khavari
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load R/3.4.0 
 module load java/1.8.0_131

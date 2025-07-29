@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1RST_fe_complex
-#FLUX: -n=24
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=1RST_fe_complex
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=12:00:00
+#SBATCH --array=00-19
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export COMPLEX='1RST_pep'

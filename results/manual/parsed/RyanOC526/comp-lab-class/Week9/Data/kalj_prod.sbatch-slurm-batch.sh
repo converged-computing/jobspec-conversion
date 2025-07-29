@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kalj_prod
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=kalj_prod
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge 
 source /scratch/work/courses/CHEM-GA-2671-2022fa/software/lammps-gcc-30Oct2022/setup_lammps.bash

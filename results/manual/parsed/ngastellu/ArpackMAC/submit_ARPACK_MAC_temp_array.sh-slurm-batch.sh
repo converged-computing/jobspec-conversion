@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-plant-8626
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=def-simine
+#SBATCH --output=slurm-%a.out
+#SBATCH --error=slurm-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=249G
+#SBATCH --time=00:10:00
+#SBATCH --array=0-4
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export KMP_BLOCKTIME='0'

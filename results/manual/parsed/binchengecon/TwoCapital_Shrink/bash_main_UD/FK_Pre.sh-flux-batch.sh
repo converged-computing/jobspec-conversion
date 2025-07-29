@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=${xi_a[$j]}_${xi_c[$j]}_${xi_d[$j]}_${xi_g[$j]}_${PSI_0}_${PSI_1}_${varrho}_${epsilon}
-#FLUX: -c=5
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=${xi_a[$j]}_${xi_c[$j]}_${xi_d[$j]}_${xi_g[$j]}_${PSI_0}_${PSI_1}_${varrho}_${epsilon}
+#FLUX -c=5
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 actiontime=1
 epsilonarraypost=(0.05) # Computation of fine grid and psi10.8, post

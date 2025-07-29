@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Ic-REPLACE
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Ic-REPLACE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=500M
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=rh8
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

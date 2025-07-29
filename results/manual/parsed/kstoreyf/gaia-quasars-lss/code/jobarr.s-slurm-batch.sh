@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sel_func_G20.5_zsplit2
-#FLUX: -c=4
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=sel_func_G20.5_zsplit2
+#SBATCH --output=logs/%x_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2GB
+#SBATCH --time=18:00:00
+#SBATCH --array=0-1
 
 n_zbins=2
 tag_cat_extra=""

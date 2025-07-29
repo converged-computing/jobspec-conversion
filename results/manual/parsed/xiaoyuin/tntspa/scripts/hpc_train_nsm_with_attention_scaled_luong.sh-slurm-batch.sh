@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpc_nsm_att_sluo
-#FLUX: -c=8
-#FLUX: --queue=gpu1,gpu2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpc_nsm_att_sluo
+#SBATCH --account=p_adm
+#SBATCH --output=train_nsm_attention_scaled_luong-%j.out
+#SBATCH --mail-user=xiaoyu.yin@mailbox.tu-dresden.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu1,gpu2
 
 module load TensorFlow/1.8.0-foss-2018a-Python-3.6.4-CUDA-9.2.88
 DDIR=data/monument_600

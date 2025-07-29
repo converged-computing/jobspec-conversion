@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter_notebook
-#FLUX: -n=8
-#FLUX: --queue=work
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter_notebook
+#FLUX -n=8
+#FLUX --queue=work
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PYTHONPATH='$MYSOFTWARE/code/sfoda'
 

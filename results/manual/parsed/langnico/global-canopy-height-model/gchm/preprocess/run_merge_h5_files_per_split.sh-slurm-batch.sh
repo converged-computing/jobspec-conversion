@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=merge_h5
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=merge_h5
+#SBATCH --output=/cluster/work/igp_psr/nlang/experiments/gchm/slurm_logs/slurm-%A_%a_%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0
 
 module load gcc/6.3.0 openblas/0.2.20 nccl/2.7.8-1 python_gpu/3.8.5 cuda/11.7.0 cudnn/8.4.0.27 gdal/3.5.3
 PYTHON="$HOME/venvs/gchm/bin/python"

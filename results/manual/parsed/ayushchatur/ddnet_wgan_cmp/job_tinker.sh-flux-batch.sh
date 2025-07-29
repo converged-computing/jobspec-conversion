@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=WGAN
-#FLUX: -c=48
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=165600
-#FLUX: --urgency=16
+#FLUX --job-name=WGAN
+#FLUX -c=48
+#FLUX --queue=dgx_normal_q
+#FLUX -t=165600
+#FLUX --urgency=16
 
 export MASTER_PORT='8888'
 export weight_path='./$SLURM_JOBID/'

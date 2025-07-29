@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=precond
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=precond
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=02:00:00
 
 module load julia/1.10.1
 iteration_=${1?Error: no iteration given}

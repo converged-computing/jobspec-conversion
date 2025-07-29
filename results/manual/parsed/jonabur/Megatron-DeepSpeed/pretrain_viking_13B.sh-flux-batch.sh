@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=viking_v2_13B_high_eps
-#FLUX: -N=128
-#FLUX: -c=7
+#FLUX --job-name=viking_v2_13B_high_eps
+#FLUX -N=128
+#FLUX -c=7
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export MASTER_PORT='9999'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-arm-1095
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-spoon-4073
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/workspace/.mujoco/mujoco210/bin'
 export MUJOCO_PY_MUJOCO_PATH='/workspace/.mujoco/mujoco210/'

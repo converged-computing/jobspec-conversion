@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=maxtext:test
-#FLUX: --exclusive
-#FLUX: --queue=partition
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=maxtext:test
+#SBATCH --account=example
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH --partition=partition
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export XLA_PYTHON_CLIENT_MEM_FRACTION='0.90'
 export CUDA_DEVICE_MAX_CONNECTIONS='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hobbit-2037
-#FLUX: --urgency=16
+#FLUX --job-name=confused-nalgas-5880
+#FLUX --urgency=16
 
 set -e
 MODULE="Apptainer/1.1.6"

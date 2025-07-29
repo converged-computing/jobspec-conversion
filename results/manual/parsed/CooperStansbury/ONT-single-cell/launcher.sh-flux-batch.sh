@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bicycle-2156
-#FLUX: --queue=standard
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=red-muffin-1098
+#FLUX --queue=standard
+#FLUX -t=129600
+#FLUX --urgency=16
 
 CONFIG='config/cluster'
 CORES=36

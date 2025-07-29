@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-nalgas-1776
-#FLUX: -c=6
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:24:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export WANDB_ENTITY='<???????????????????????>'

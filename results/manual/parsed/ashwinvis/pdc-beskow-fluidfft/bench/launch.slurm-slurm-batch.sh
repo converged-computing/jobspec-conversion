@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bench
-#FLUX: -n=32
-#FLUX: -t=3658
-#FLUX: --urgency=16
+#SBATCH --job-name=bench
+#SBATCH --account=2017-12-20
+#SBATCH --output=SLURM.bench.%J.stdout
+#SBATCH --error=SLURM.bench.%J.stderr
+#SBATCH --mail-user=avmo@kth.se
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:58
+#SBATCH --constraint=ntasks-per-node=32
 
 export FLUID_PROC_MESH='2x32'
 

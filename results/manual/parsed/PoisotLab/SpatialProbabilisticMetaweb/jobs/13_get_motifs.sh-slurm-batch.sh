@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=13_get_S4
-#FLUX: -c=64
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=13_get_S4
+#SBATCH --account=ctb-tpoisot
+#SBATCH --output=jobs/out/%x-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=248G
+#SBATCH --time=02:00:00
+#SBATCH --array=1-500
 
 module load StdEnv/2020
 module load julia/1.9.1

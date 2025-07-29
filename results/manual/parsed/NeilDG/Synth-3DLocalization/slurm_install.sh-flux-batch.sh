@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=INSTALL
-#FLUX: -c=2
-#FLUX: --queue=serial
-#FLUX: --urgency=16
+#FLUX --job-name=INSTALL
+#FLUX -c=2
+#FLUX --queue=serial
+#FLUX --urgency=16
 
 module load anaconda/3-2021.11
 module load cuda/10.1_cudnn-7.6.5

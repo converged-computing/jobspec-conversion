@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tgi-compile
+#FLUX -c=8
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export MAX_JOBS='10'
 export CC='$(which gcc)'

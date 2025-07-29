@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multilingual-smlmt
-#FLUX: --queue=ampere
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#SBATCH --job-name=multilingual-smlmt
+#SBATCH --account=BUTTERY-SL3-GPU
+#SBATCH --output=/home/rd654/rds/hpc-work/multilingual-smlmt/scripts/logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=11:50:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

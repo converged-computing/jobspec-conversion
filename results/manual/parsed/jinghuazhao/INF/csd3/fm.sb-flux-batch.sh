@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_fm_INF1
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=_fm_INF1
+#FLUX --queue=skylake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export job='${SLURM_ARRAY_TASK_ID}'
 export INF='/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF'

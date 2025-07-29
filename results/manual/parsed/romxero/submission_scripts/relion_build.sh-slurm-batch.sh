@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=relion_build
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=preempted,gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=relion_build
+#SBATCH --output=relion_build_%j.out
+#SBATCH --error=relion_build_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=01:30:00
+#SBATCH --partition=preempted,gpu
 
 MY_CUDA_ARCH=(80 86)
 MY_BUILD_BASE=$MYDATA/relion_build_v2

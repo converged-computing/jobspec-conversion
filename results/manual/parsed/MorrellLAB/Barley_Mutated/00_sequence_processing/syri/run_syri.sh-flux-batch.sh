@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-leopard-7940
-#FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-pot-2926
+#FLUX --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='${PATH}:/panfs/jay/groups/9/morrellp/shared/Software/syri'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lettuce-3027
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=4G
+#SBATCH --partition=gpu
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

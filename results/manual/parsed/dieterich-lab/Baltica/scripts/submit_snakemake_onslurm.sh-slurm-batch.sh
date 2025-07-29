@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=smk-parent
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=smk-parent
+#SBATCH --mail-user=thiago.brittoborges@uni-heidelberg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=long
 
 source ~/bin/snakemake/bin/activate
 snakemake -s $1 --unlock

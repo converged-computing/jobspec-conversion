@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-butter-8248
-#FLUX: -c=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%x.e%j
+#SBATCH --error=%x.e%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=AMG
+#SBATCH --constraint=ntasks-per-node=1
 
 export SCR='/scr/$SLURM_JOB_USER/$SLURM_JOB_ID'
 

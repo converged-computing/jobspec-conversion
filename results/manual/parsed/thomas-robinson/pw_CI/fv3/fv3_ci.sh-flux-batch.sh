@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FV3_container
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=FV3_container
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -t=900
+#FLUX --urgency=16
 
 dirRoot=/contrib/fv3
 intelVersion=2022.1.1

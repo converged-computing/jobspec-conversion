@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-butter-5142
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CR-Gjx/LTF-Label-Transformation-Framework/Classification/scripts/LTF_cifar.pbs

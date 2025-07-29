@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=glotzerlab-software build
-#FLUX: -c=16
-#FLUX: --queue=cpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=glotzerlab-software build
+#SBATCH --account=bbgw-delta-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=2000M
+#SBATCH --time=08:00:00
+#SBATCH --partition=cpu
 
 export OUTPUT_FOLDER='/projects/bbgw/software/conda'
 

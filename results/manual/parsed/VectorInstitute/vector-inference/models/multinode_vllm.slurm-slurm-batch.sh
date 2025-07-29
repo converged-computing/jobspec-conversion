@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-spoon-9270
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 module load cuda-12.3
 nvidia-smi

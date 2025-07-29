@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_t5
-#FLUX: -c=6
-#FLUX: --queue=gpu-h100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=train_t5
+#FLUX -c=6
+#FLUX --queue=gpu-h100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WANDB_PROJECT='train_t5'
 export TRANSFORMERS_CACHE='/mnt/parscratch/users/$USERNAME/cache'

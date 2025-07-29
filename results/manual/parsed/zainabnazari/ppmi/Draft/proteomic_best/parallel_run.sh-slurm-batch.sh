@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dask_job
-#FLUX: -c=7
-#FLUX: --queue=long1
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=long1
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/znazari/.bashrc
 conda activate Zainab-env

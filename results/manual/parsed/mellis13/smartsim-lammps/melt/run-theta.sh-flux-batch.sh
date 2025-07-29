@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-1010
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-platanos-8816
+#FLUX --urgency=16
 

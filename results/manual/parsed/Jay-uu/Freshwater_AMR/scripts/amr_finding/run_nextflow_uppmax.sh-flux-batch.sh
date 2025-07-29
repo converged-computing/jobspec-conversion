@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_amr
-#FLUX: -n=2
-#FLUX: --queue=core
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=nextflow_amr
+#FLUX -n=2
+#FLUX --queue=core
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export CONDA_ENVS_PATH='/proj/fume/nobackup/private/jay/Freshwater_AMR/conda_envs'
 

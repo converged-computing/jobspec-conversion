@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=skx_potc_bench
+#FLUX --job-name=skx_potc_bench
 #FLUX: --exclusive
-#FLUX: --queue=c18m
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=c18m
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 set -u

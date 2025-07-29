@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cat-2442
-#FLUX: --urgency=16
+#SBATCH --output=%J.dask.out
+#SBATCH --error=%J.dask.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"
 baseport=$(shuf -i 8786-60000 -n 1)

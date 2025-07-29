@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=opuntia-repeatannotation
-#FLUX: -c=32
-#FLUX: --queue=cpu-s1-pgl-0
-#FLUX: --urgency=16
+#SBATCH --job-name=opuntia-repeatannotation
+#SBATCH --account=cpu-s1-pgl-0
+#SBATCH --output=sbatch.out
+#SBATCH --error=sbatch.err
+#SBATCH --mail-user=wyim@unr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=120g
+#SBATCH --partition=cpu-s1-pgl-0
 
  #conda activate base
 NCPU=32

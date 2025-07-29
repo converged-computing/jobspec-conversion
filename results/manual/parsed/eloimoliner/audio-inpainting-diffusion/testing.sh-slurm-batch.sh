@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=freq_convs_everywhere
-#FLUX: -c=4
-#FLUX: -t=3599
-#FLUX: --urgency=16
+#SBATCH --job-name=freq_convs_everywhere
+#SBATCH --output=/scratch/work/%u/projects/ddpm/diffusion_autumn_2022/A-diffusion/experiments/%a/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=00:59:59
+#SBATCH --constraint=volta
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

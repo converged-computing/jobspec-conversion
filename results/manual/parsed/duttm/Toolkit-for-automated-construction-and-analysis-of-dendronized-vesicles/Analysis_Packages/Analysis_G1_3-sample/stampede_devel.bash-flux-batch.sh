@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=G2_basic_ves
-#FLUX: -n=64
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=G2_basic_ves
+#FLUX -n=64
+#FLUX --queue=development
+#FLUX -t=7200
+#FLUX --urgency=16
 
 gro=*.gro
 xtc=*.xtc

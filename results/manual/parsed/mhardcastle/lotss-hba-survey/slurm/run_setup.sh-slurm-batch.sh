@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-1270
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#SBATCH --output=/project/lofarvlbi/Share/surveys/logs/R-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=5-08:00:00
+#SBATCH --partition=normal
 
 export INSTALL_DIR='/home/azimuth/software'
 export VLBIDIR='${INSTALL_DIR}/VLBI-cwl'

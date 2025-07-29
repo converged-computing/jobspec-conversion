@@ -1,6 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-car-5740
-#FLUX: --urgency=16
+#SBATCH --account=t3
+#SBATCH --output=%x-%A-%a.out
+#SBATCH --error=%x-%A-%a.err
+#SBATCH --mail-user=arne.reimers@physik.uzh.ch
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --chdir=/work/areimers/workdir_slurm
 
 export PYTHONPATH='$PYTHONPATH:$CODEFOLDER'
 export TMPDIR='/scratch/$USER/tmpdir_${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}'

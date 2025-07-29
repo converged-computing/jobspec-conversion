@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemur-5111
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-nunchucks-2570
+#FLUX -t=600
+#FLUX --urgency=16
 
 OUT=hpctoolkit-amg2013
 module use /global/common/software/m3977/hpctoolkit/2021-11/modules

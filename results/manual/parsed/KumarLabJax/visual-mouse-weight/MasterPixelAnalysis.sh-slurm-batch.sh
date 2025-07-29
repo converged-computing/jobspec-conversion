@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=name=master_pixel_analysis
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#SBATCH --job-name=name=master_pixel_analysis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=06:00:00
+#SBATCH --qos=low
 
 trim_sp() {
     local var="$*"

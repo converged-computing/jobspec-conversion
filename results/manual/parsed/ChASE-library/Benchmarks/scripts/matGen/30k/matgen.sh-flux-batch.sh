@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lamp-6822
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -c=8
-#FLUX: --queue=dc-cpu-devel
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=purple-bits-4545
+#FLUX -N=4
+#FLUX -n=64
+#FLUX -c=8
+#FLUX --queue=dc-cpu-devel
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gierlinski_data_gen
-#FLUX: --queue=angsd_class
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=gierlinski_data_gen
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=06:00:00
+#SBATCH --partition=angsd_class
 
 spack load fastqc
 spack load -r py-multiqc

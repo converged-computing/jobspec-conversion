@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow
-#FLUX: --queue=v100x8
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow
+#SBATCH --output=tensorflow_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6G
+#SBATCH --time=00:01:00
+#SBATCH --partition=v100x8
 
 module purge
 module load tensorflow

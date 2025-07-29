@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=oss-2-ee
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=oss-2-ee
+#FLUX -n=2
+#FLUX -c=8
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OSS2EE_MPI_LIB_DIR='/apps/INTEL/2017.2-028/impi/2017.2.191/lib64'
 export OSS2EE_MPI_INC_DIR='/apps/INTEL/2017.2-028/impi/2017.2.191/include64'

@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-nalgas-9967
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=physical
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=physical
 
 module load Python/3.5.2-goolf-2015a
 echo "Cluster and Cloud Computing Assignment1 using 2 nodes and 8 cores"

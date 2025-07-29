@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=xarray
-#FLUX: -c=2
-#FLUX: --queue=prepost
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=xarray
+#FLUX -c=2
+#FLUX --queue=prepost
+#FLUX -t=72000
+#FLUX --urgency=16
 
 cd /path/to/your/scratch/folder
 module purge

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lemon-4382
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --mail-user=aming@ece.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:8
+#SBATCH --mem=192gb
+#SBATCH --array=1-10%1
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 rs='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'

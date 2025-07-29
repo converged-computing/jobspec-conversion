@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-motorcycle-1315
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-earthworm-9584
+#FLUX --urgency=16
 

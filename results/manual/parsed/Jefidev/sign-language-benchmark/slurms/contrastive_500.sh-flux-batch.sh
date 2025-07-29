@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Contrastive_VIT
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=Contrastive_VIT
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load PyTorch

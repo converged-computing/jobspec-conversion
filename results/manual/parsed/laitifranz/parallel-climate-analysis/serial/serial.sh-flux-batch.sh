@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lentil-4661
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-peas-1022
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/laitifranz/parallel-climate-analysis/serial/serial.sh

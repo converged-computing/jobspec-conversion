@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-arm-4855
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/markmartorilopez/OChemR/DETR/detr/train_baseline_DETR.lsf

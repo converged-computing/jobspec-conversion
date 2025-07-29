@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cupcake-4087
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
 
 set -e
 MODULE="TensorFlow/2.11.0-foss-2022a-CUDA-11.7.0"

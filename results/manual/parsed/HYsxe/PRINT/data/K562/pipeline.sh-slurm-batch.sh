@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-8764
-#FLUX: -n=16
-#FLUX: --queue=test
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=run_%j.out
+#SBATCH --error=run_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=80G
+#SBATCH --time=00:04:00
+#SBATCH --partition=test
 
 genome="hg19"
 bam=N711_ATAC_Exp49_sample9_S1.bap.bam

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=my-job
-#FLUX: --queue=salvador
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=my-job
+#SBATCH --output=/home/%u/output/sb_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:20:00
+#SBATCH --partition=salvador
 
 nvidia-smi
 hostname

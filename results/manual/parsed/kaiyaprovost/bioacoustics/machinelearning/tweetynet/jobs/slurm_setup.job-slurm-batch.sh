@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=parallelSlurm
-#FLUX: -N=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=parallelSlurm
+#SBATCH --account=PAA0202
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=28
 
 cd $SLURM_SUBMIT_DIR
 module load miniconda3

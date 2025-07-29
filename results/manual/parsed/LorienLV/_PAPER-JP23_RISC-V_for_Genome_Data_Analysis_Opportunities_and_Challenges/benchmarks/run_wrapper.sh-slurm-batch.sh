@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-0559
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if test -t 1; then
     # See if it supports colors.

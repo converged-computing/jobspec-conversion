@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=paraview
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=paraview
+#FLUX -t=43200
+#FLUX --urgency=16
 
 tmux_update ()
 {

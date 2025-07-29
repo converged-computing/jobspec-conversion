@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=raysgd_2gpu
-#FLUX: -c=80
+#FLUX --job-name=raysgd_2gpu
+#FLUX -c=80
 #FLUX: --exclusive
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

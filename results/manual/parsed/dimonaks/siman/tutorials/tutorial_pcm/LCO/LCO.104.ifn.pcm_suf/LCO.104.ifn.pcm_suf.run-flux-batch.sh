@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LCO.104.ifn.pcm_suf
-#FLUX: -n=16
-#FLUX: --queue=AMG-medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=LCO.104.ifn.pcm_suf
+#FLUX -n=16
+#FLUX --queue=AMG-medium
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dd
-#FLUX: --queue=General_Usage
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=dd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=General_Usage
+#SBATCH --array=1-6%6
 
 export CUDA_HOME='/opt/cuda-10.0.130/'
 export CUDNN_HOME='/opt/cuDNN-7.6.0.64_10.0/'

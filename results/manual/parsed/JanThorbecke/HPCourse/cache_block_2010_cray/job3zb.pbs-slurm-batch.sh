@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chair-7287
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/JanThorbecke/HPCourse/cache_block_2010_cray/job3zb.pbs

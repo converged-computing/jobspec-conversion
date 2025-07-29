@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=StatsR3
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=StatsR3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load easybuild intel/2017a Python/3.6.1; which python

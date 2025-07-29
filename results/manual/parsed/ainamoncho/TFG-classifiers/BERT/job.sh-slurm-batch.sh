@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=my_job
-#FLUX: -c=8
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=my_job
+#SBATCH --output=output.out
+#SBATCH --error=error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16G
+#SBATCH --time=01:30:00
 
 ml scikit-learn/0.23.2-foss-2020b
 ml NLTK/3.7-foss-2020b

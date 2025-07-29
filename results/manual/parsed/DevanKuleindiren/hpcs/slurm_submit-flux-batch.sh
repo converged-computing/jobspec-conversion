@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=language_modelling
-#FLUX: --urgency=16
+#FLUX --job-name=language_modelling
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib:$CUDA_INSTALL_PATH/lib64;'
 

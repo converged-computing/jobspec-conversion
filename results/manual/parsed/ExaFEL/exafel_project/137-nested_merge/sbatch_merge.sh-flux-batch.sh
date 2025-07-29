@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=merge_phase1_<tag_template>
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=merge_phase1_<tag_template>
+#FLUX --queue=debug
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export TARDATA='$DW_JOB_STRIPED/subsel/*.tar'
 export MERGE_ROOT='$DW_JOB_STRIPED/merge_multi'

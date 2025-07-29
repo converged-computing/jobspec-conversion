@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=D_Cl_water_parsley
-#FLUX: -c=8
-#FLUX: --queue=gpu-biggin
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=D_Cl_water_parsley
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=gpu-biggin
+#SBATCH --constraint=ntasks-per-socket=1
+#SBATCH --array=0-23:1%2
 
 export OMP_NUM_THREADS='${​​​​SLURM_CPUS_PER_TASK}'
 

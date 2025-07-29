@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-3495
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=gpu-a100
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu-a100
 
 export OMP_NUM_THREADS='8'
 

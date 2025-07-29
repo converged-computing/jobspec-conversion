@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -N=24
-#FLUX: -c=256
-#FLUX: --exclusive
-#FLUX: --queue=dc-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=raytune
+#SBATCH --account=raise-ctp2
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=256
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dc-gpu
+#SBATCH: --exclusive
 
 export TUNE_RESULT_DIR='/p/project/raise-ctp2/cern/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='$(($SLURM_NNODES * 4))'

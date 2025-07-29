@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parrot-1707
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=project
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=faux-rabbit-4380
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=project
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='^docker0,lo,bond0'

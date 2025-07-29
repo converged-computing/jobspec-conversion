@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=M1_H_sim
-#FLUX: -n=80
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=M1_H_sim
+#FLUX -n=80
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

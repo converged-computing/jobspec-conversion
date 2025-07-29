@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-dog-7796
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=out
+#SBATCH --error=err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

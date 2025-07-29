@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tutorial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tutorial
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export MASTER_PORT='13579'

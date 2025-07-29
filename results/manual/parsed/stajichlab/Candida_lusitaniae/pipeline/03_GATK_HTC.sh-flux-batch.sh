@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HTC
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=HTC
+#FLUX -n=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load java/8
 module load gatk/3.7

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-itch-3502
-#FLUX: -c=32
-#FLUX: --queue=broadwell
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-animal-9121
+#FLUX -c=32
+#FLUX --queue=broadwell
+#FLUX --urgency=16
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdis"

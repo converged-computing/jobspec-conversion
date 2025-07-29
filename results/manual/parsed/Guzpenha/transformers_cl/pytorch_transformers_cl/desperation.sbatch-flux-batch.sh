@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-latke-6529
-#FLUX: --queue=general
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-hope-9741
+#FLUX --queue=general
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

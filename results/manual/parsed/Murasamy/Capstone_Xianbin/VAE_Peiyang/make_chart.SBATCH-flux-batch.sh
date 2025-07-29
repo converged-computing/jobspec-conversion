@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=torch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

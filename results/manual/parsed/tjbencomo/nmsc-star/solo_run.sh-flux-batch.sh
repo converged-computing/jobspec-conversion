@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=star-rsem
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=star-rsem
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 cd $(pwd)

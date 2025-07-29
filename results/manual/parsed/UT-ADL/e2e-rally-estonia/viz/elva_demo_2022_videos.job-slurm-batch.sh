@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Elva demo experiments videos
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Elva demo experiments videos
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-8
 
 DATASETS=(
     '2022-06-17-13-21-37_e2e_elva__steering' \

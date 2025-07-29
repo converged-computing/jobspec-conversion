@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-citrus-2624
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-citrus-7534
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/elmerfem/scripts_salomon/run_plain.sh

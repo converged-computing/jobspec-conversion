@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=synergia2
+#FLUX --job-name=synergia2
 #FLUX: --exclusive
-#FLUX: --queue=gpu_gce
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gpu_gce
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge > /dev/null 2>&1
 module load gcc/12.3.0

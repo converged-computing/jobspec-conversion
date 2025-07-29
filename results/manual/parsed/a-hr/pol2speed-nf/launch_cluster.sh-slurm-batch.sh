@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-platanos-3217
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=20:00:00
 
 export NXF_OPTS='-Xms500M -Xmx8G'
 

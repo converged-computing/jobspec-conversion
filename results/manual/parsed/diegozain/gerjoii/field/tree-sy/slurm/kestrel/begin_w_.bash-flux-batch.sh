@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-plant-0592
-#FLUX: -c=10
+#FLUX --job-name=milky-punk-8457
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

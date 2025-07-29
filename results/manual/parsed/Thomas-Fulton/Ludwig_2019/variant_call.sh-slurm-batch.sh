@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-itch-7842
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=clsclmr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=defq
+#SBATCH --chdir=/nobackup/proj/clsclmr/Ludwig_2019
 
 export PATH='`pwd`/software/bin/:$PATH'
 

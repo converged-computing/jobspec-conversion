@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-house-8665
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=def-someuser
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000M
+#SBATCH --time=00:03:00
 
 module load python
 module list

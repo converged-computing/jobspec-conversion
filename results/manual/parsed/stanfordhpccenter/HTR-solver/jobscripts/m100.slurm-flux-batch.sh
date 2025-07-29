@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=prometeo
-#FLUX: --urgency=16
+#FLUX --job-name=prometeo
+#FLUX --urgency=16
 
 CORES_PER_NODE=32
 NUMA_PER_RANK=2

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_with_tp
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: --queue=pol
-#FLUX: --urgency=16
+#FLUX --job-name=finetune_with_tp
+#FLUX -N=3
+#FLUX -c=4
+#FLUX --queue=pol
+#FLUX --urgency=16
 
 export TORCH_EXTENSIONS_DIR='${ROOT_DIR}/torch_extendsions'
 export PL_DEEPSPEED_CONFIG_PATH='$CONFIG_JSON'

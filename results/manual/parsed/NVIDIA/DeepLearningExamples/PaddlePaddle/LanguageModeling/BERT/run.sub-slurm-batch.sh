@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-pot-6571
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 set -eux
 IMAGE_VERSION=${IMAGE_VERSION:-"22.12-py3"}

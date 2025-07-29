@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Concordance_${concordanceCheckId}
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Concordance_${concordanceCheckId}
+#SBATCH --output=${concordanceDir}/jobs/${concordanceCheckId}/${concordanceCheckId}.out
+#SBATCH --error=${concordanceDir}/jobs/${concordanceCheckId}/${concordanceCheckId}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=00:30:00
 
 export TMPDIR='${TMPDIR:-/tmp}" # Default to /tmp if "${TMPDIR}" was not defined.'
 

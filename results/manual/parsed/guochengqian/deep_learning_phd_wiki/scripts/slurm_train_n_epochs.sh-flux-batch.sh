@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-malarkey-2169
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-peas-0900
+#FLUX --urgency=16
 
 export PRETRAIN='$OUTPUT_DIR/$JOB_NAME/checkpoint/$JOB_NAME_${CURRENT_EPOCH}.pth'
 

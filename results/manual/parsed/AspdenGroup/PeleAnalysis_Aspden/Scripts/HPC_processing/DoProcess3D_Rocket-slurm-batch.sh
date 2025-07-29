@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=PROC_20-300-40
-#FLUX: -n=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=PROC_20-300-40
+#SBATCH --mail-user=email@ncl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 export PLT='${1?Error}'
 export NCELLSPERLF='${2?Error}'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow
+#SBATCH --output=/scratch/Users/allenma/e_and_o/nextflow.%j.out
+#SBATCH --error=/scratch/Users/allenma/e_and_o/nextflow.%j.err
+#SBATCH --mail-user=allenma@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=long
 
 mkdir -p /scratch/Users/allenma/nexttemp4/
 mkdir -p /scratch/Shares/dowell/down/temp/Nascentflow6/

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bicycle-1013
-#FLUX: -n=10
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-earthworm-4750
+#FLUX -n=10
+#FLUX -t=345600
+#FLUX --urgency=16
 
 chmod +x src/train.py
 logdir='logs/cifar10-resnet110'

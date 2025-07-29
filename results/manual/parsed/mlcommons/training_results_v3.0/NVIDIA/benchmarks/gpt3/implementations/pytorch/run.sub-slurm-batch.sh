@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-gato-2536
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 export SHARE_RERUNS='${SHARE_RERUNS:=0}'
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'

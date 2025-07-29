@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-spoon-6486
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-soup-2390
+#FLUX --urgency=16
 
 source ~/.bashrc 
 source /opt/conda/etc/profile.d/conda.sh 

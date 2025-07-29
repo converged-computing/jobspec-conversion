@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-9549
-#FLUX: --urgency=16
+#FLUX --job-name=salted-house-6242
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JonathonMifsud/BatchArtemisSRAMiner/scripts/JCOM_pipeline_iqtree.pbs

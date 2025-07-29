@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dockerMap
-#FLUX: -c=10
-#FLUX: --queue=instructional
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=dockerMap
+#SBATCH --account=biol4559-aob2x
+#SBATCH --output=/project/biol4559-aob2x/mapping_scripts/COMPUTEID/logs/RunDest.%A_%a.out
+#SBATCH --error=/project/biol4559-aob2x/mapping_scripts/COMPUTEID/logs/RunDest.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=90G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=instructional
 
   module load singularity
   #SLURM_ARRAY_TASK_ID=1

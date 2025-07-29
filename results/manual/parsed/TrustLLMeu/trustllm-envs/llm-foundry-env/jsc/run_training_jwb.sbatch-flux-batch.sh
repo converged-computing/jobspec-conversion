@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-hobbit-9399
-#FLUX: -c=48
-#FLUX: --queue=develbooster
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=fat-pancake-2088
+#FLUX -c=48
+#FLUX --queue=develbooster
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

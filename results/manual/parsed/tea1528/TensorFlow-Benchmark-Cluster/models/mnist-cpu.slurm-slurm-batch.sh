@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-nunchucks-9068
-#FLUX: --queue=maxwell
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=sc3260
+#SBATCH --output=mnist_cpu.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=10G
+#SBATCH --time=20:00:00
+#SBATCH --partition=maxwell
 
 module load GCC Singularity git
 singularity exec --nv docker://tensorflow/tensorflow:latest \

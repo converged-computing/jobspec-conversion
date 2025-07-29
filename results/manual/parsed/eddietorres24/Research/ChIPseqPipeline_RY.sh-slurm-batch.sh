@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ChIPSeqPipeline
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ChIPSeqPipeline
+#SBATCH --output=../ChIPSeqPipeline131.%j.out
+#SBATCH --error=../ChIPSeqPipeline131.%j.err
+#SBATCH --mail-user=ry00555@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=500gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 source config.txt

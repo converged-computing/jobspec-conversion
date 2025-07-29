@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -n=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo slurm_job_id:$SLURM_JOB_ID
 echo slurm_job_name:$SLURM_JOB_NAME

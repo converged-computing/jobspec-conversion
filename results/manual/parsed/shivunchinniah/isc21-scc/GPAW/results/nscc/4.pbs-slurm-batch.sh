@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-diablo-8182
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shivunchinniah/isc21-scc/GPAW/results/nscc/4.pbs

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rpllfp
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rpllfp
+#SBATCH --output=rpllfp-slurm.%N.%j.out
+#SBATCH --error=rpllfp-slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 <<<<<<< HEAD
 =======

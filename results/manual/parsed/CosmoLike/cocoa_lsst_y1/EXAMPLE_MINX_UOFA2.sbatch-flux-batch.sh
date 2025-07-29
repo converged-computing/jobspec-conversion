@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RY1_MIN1
-#FLUX: -n=28
-#FLUX: -c=3
+#FLUX --job-name=RY1_MIN1
+#FLUX -n=28
+#FLUX -c=3
 #FLUX: --exclusive
-#FLUX: --queue=high_priority
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --queue=high_priority
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='close'
 

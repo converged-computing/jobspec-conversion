@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-map
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=llama-cpp-map
+#FLUX -c=20
+#FLUX -t=1800
+#FLUX --urgency=16
 
 if [ "$USER" == "filippo.bistaffa" ]
 then

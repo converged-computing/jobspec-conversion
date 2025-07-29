@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpt
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt
+#SBATCH --output=out/gpt_test_%A_%a_%j.out
+#SBATCH --error=error/gpt_test_%A_%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64:/usr/local/lib'
 export CFLAGS='-I/usr/local/cuda-9.0/include'

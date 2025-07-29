@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=simcov-tutorial
-#FLUX: -N=2
-#FLUX: --queue=general
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=simcov-tutorial
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=32
 
 export GASNET_MAX_SEGSIZE='128MB/P'
 export UPCXX_SHARED_HEAP_SIZE='128 MB'

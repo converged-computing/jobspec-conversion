@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=composition-eastern-moretaxa
-#FLUX: --queue=savio2
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=composition-eastern-moretaxa
+#SBATCH --account=co_stat
+#SBATCH --mail-user=paciorek@stat.berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=savio2
 
 module load r r-packages r-spatial netcdf/4.4.1.1-gcc-s
 source config-0.2-0

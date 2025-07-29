@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-despacito-8636
-#FLUX: -N=72
-#FLUX: --queue=batch
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-peanut-7060
+#FLUX -N=72
+#FLUX --queue=batch
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

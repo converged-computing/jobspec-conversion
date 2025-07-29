@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=clump
-#FLUX: --queue=dphys_compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=clump
+#SBATCH --output=/users/sibirrer/Logs/%A.%a.o
+#SBATCH --error=/users/sibirrer/Logs/%A.%a.e
+#SBATCH --mail-user=simon.birrer@phys.ethz.ch
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dphys_compute
+#SBATCH --array=0-320
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

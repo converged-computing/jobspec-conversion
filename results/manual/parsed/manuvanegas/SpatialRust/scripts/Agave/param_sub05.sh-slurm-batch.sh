@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spatialR
-#FLUX: -n=40
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#SBATCH --job-name=spatialR
+#SBATCH --output=%x-%j.o
+#SBATCH --error=%x-%j.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:59:59
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

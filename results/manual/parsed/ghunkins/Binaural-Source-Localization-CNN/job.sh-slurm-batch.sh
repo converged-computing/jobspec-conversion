@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=binaural
-#FLUX: -N=25
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=binaural
+#SBATCH --output=binaural.txt
+#SBATCH --error=error.txt
+#SBATCH --mail-user=ghunkins@u.rochester.edu
+#SBATCH --mail-type=begin
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=125gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 source activate keras
 python neuralnet.py

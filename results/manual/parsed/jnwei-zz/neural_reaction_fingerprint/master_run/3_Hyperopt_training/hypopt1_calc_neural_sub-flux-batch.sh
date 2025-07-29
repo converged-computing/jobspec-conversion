@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=neural1_bal_200each
-#FLUX: --queue=aspuru-guzik
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=neural1_bal_200each
+#FLUX --queue=aspuru-guzik
+#FLUX -t=172800
+#FLUX --urgency=16
 
 scfolder="/scratch/$(date +%Y%m%d%H%M)_neural_bal_200each_1/"
 curr=$(pwd)

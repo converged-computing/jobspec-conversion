@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=build_fgpu2_nb
-#FLUX: --queue=plgrid
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=build_fgpu2_nb
+#SBATCH --account=plgprimage4-cpu
+#SBATCH --output=build_output.out
+#SBATCH --error=build_error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=plgrid
+#SBATCH --constraint=ntasks-per-node=4
 
 cd $SLURM_SUBMIT_DIR
 module load cmake/3.20.1-gcccore-10.3.0

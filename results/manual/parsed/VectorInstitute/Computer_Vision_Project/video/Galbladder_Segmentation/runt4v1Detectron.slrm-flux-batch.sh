@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=abc123
-#FLUX: -c=2
-#FLUX: --queue=t4v1
-#FLUX: --urgency=16
+#FLUX --job-name=abc123
+#FLUX -c=2
+#FLUX --queue=t4v1
+#FLUX --urgency=16
 
 if [ -z "$SLURM_JOB_ID" ]
 then

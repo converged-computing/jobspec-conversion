@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PDO
-#FLUX: -c=8
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=PDO
+#FLUX -c=8
+#FLUX --queue=regular
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='threads'

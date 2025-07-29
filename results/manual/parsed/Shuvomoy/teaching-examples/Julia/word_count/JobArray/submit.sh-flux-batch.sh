@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-animal-2998
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-mango-2923
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia-1.0

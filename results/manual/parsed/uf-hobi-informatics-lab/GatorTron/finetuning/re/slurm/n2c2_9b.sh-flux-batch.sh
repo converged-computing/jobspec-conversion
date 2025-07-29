@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=re
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
+#FLUX --job-name=re
+#FLUX -c=128
+#FLUX --gpus-per-task=8
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "start RE..."

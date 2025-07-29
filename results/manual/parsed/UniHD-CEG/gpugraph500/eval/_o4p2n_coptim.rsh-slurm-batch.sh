@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test_reduce
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --job-name=test_reduce
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --constraint=ntasks-per-node=2
 
 export mpirun='/home/jromera/openmpi/bin/mpirun'
 

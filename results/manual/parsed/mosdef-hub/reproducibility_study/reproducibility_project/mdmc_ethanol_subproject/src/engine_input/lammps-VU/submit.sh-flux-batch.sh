@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -n=8
-#FLUX: --queue=week-long-std
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=test_job
+#FLUX -n=8
+#FLUX --queue=week-long-std
+#FLUX -t=345600
+#FLUX --urgency=16
 
 echo $SLURM_SUBMIT_DIR
 cd $SLURM_SUBMIT_DIR

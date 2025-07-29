@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hippo-2085
+#FLUX --job-name=ornery-taco-5503
 #FLUX: --exclusive
-#FLUX: --queue=pvc
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --queue=pvc
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export CCL_ZE_IPC_EXCHANGE='sockets'
 export ZE_FLAT_DEVICE_HIERARCHY='FLAT'

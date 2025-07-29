@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=demo_cifar
-#FLUX: --queue=ampere
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=demo_cifar
+#SBATCH --account=<YOUR_PROJECT>-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

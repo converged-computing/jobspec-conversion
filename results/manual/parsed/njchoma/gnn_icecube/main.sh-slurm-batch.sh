@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=IceCube_GNN
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=IceCube_GNN
+#SBATCH --output=slurm_out/GCNN_%A_%a.out
+#SBATCH --mail-user=nc2201@courant.nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=14000
+#SBATCH --time=2-00:00:00
 
 mkdir -p slurm_out
 TRAINFILE='/misc/vlgscratch4/BrunaGroup/choma/icecube/train.pickle'

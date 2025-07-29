@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-truffle-3131
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-knife-4766
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

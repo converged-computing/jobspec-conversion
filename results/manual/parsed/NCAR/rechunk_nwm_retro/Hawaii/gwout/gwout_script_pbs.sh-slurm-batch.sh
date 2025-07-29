@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-frito-7921
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/rechunk_nwm_retro/Hawaii/gwout/gwout_script_pbs.sh

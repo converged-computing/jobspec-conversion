@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stpipe_ts
-#FLUX: -n=8
-#FLUX: --queue=basic
-#FLUX: -t=2160
-#FLUX: --urgency=16
+#SBATCH --job-name=stpipe_ts
+#SBATCH --output=stacpipe_ts.%N.%a.%j.out
+#SBATCH --error=stacpipe_ts.%N.%a.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:36:00
+#SBATCH --partition=basic
+#SBATCH --array=524,543
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

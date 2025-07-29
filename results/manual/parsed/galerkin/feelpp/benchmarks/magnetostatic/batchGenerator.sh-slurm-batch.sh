@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-train-6742
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 declare -a ksp_pc_map
 function setKspPc(){

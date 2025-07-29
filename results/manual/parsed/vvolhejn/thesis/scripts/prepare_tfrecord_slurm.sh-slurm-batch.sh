@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-butter-3477
-#FLUX: -c=16
-#FLUX: --queue=amdv100,intelv100,amdrtx,amda100
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=vvolhejn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=128G
+#SBATCH --time=08:00:00
+#SBATCH --partition=amdv100,intelv100,amdrtx,amda100
+#SBATCH --constraint=gpu
 
 export CUDA_VISIBLE_DEVICES='0'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/users/vvolhejn/miniconda3/envs/nas/lib'

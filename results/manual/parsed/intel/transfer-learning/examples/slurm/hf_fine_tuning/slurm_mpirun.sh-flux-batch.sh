@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hf_pytorch
-#FLUX: -N=2
+#FLUX --job-name=hf_pytorch
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 CMD=$@
 if [ -z "${CMD}" ]; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-6159
-#FLUX: -n=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-hope-3882
+#FLUX -n=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

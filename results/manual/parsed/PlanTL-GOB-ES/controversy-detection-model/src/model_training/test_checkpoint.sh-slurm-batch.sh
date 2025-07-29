@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bne-controversy
-#FLUX: -c=128
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=bne-controversy
+#SBATCH --output=./slurm_logs/test-%j.out
+#SBATCH --error=./slurm_logs/test-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:2
+#SBATCH --time=06:00:00
+#SBATCH --chdir=.
 
 CACHE_DIR='cache'
 DIR_NAME=./output/$1

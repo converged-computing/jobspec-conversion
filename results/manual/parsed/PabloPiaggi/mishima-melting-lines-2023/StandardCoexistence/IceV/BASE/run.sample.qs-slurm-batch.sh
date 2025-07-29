@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-caramel-4677
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=tgartner@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

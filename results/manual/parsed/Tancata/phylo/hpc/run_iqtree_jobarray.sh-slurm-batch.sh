@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-3822
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Tancata/phylo/hpc/run_iqtree_jobarray.sh

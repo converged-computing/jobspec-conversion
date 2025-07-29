@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-5561
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --mail-user=a1699138@student.delaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=00:05:00
+#SBATCH --partition=batch
 
 module load tensorflow/1.0.1-cuda-foss-2016b
 module load Python/3.6.1-foss-2016b

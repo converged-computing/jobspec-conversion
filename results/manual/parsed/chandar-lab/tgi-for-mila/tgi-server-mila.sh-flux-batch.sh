@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-server
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#FLUX --job-name=tgi-server
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX -t=10740
+#FLUX --urgency=16
 
 export PATH='$(realpath $RELEASE_DIR/bin/)":$PATH'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

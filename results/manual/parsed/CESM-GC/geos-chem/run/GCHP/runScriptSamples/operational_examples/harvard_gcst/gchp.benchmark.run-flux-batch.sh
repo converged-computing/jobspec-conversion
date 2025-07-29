@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cinnamonbun-8866
-#FLUX: -N=2
-#FLUX: -n=48
+#FLUX --job-name=tart-platanos-0377
+#FLUX -N=2
+#FLUX -n=48
 #FLUX: --exclusive
-#FLUX: --queue=huce_cascade
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=huce_cascade
+#FLUX -t=1200
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

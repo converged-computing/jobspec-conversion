@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GraNet-cifar10-80epochs
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=GraNet-cifar10-80epochs
+#SBATCH --account=test
+#SBATCH --output=GraNet-cifar10-80epochs.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 source /public/data2/software/software/anaconda3/bin/activate
 conda activate torch151               # 激活的虚拟环境名称

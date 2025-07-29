@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-gato-4590
-#FLUX: -n=4
-#FLUX: --queue=GPU
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-avocado-4082
+#FLUX -n=4
+#FLUX --queue=GPU
+#FLUX --urgency=16
 
 SINGULARITYENV_LD_LIBRARY_PATH=/opt/openmpi/lib
 SINGULARITYENV_PREPEND_PATH=/opt/openmpi/bin

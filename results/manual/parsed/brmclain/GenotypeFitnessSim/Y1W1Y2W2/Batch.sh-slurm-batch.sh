@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bmmclainMPCY1W1Y2W2
-#FLUX: -n=48
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=bmmclainMPCY1W1Y2W2
+#SBATCH --output=JobOutputDump/20231023/job_name.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3750mb
+#SBATCH --time=1-01:00:00
 
 module load python/3.9
 cd /project/meisel/users/bmmclain/Y1W1Y2W2

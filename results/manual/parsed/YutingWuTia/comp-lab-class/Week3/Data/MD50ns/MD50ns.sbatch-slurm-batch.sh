@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=run-gromacs
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=run-gromacs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --time=3-00:00:00
 
 cd /scratch/work/courses/CHEM-GA-2671-2022fa/yw5806/comp-lab-class/Week3/Data/MD50ns 
 module purge

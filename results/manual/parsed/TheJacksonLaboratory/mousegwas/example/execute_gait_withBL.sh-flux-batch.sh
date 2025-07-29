@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cupcake-9883
-#FLUX: --queue=compute
-#FLUX: -t=87300
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-bicycle-5457
+#FLUX --queue=compute
+#FLUX -t=87300
+#FLUX --urgency=16
 
 export G='https://raw.githubusercontent.com/TheJacksonLaboratory/mousegwas'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-parsnip-6368
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lnsmith54/hyperParam1/Imagenet/resnet/bqsub35.pbs

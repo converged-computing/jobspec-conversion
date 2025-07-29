@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-7300
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#SBATCH --mail-user=leyang.xue@ed.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=small
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 dt=$(date '+%d/%m/%Y %H:%M:%S')

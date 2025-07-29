@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=clair3_gvcf
-#FLUX: -c=4
-#FLUX: --queue=xeon
-#FLUX: --urgency=16
+#FLUX --job-name=clair3_gvcf
+#FLUX -c=4
+#FLUX --queue=xeon
+#FLUX --urgency=16
 
 hostname
 date

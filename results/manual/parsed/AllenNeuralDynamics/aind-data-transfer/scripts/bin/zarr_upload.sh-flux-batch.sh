@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-toaster-1285
-#FLUX: -n=64
-#FLUX: --queue=aind
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-butter-1194
+#FLUX -n=64
+#FLUX --queue=aind
+#FLUX -t=108000
+#FLUX --urgency=16
 
 set -e
 pwd; date

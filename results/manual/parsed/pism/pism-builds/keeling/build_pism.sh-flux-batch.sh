@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-malarkey-2831
-#FLUX: --queue=t1small
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-leader-6162
+#FLUX --queue=t1small
+#FLUX --urgency=16
 
 export PATH='$PATH:.'
 

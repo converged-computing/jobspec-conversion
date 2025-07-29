@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sim_${year}
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=sim_${year}
+#SBATCH --account=pi-lhansen
+#SBATCH --output=./job-outs/${action_name}/Graph_SimulatePost/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/xia_${xi_a[$j]}_xip_${xi_p[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}/graph_simulate_${year}_$i.out
+#SBATCH --error=./job-outs/${action_name}/Graph_SimulatePost/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/xia_${xi_a[$j]}_xip_${xi_p[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}/graph_simulate_${year}_$i.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
 
 actiontime=1
 epsilonarraypost=(0.1) # Computation of fine grid and psi10.8, post

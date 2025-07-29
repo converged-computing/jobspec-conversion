@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-punk-3050
-#FLUX: -N=4
-#FLUX: -c=16
+#FLUX --job-name=frigid-leader-6304
+#FLUX -N=4
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'
 export FI_LOG_LEVEL='1'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_TRAIN_ROC_RESNET_18_MARGINALIZED
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_INFERENCE_TRAIN_ROC_RESNET_18_MARGINALIZED
+#SBATCH --output=logging/train_roc_resnet_18_marginalized_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5000
+#SBATCH --time=7-00:00:00
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 out=$BASE/out/roc/$EXPERIMENT_BATCH_SIZE/marginalized/$EXPERIMENT_ACTIVATION/ratio-estimator-resnet-18-$EXPERIMENT_EPOCHS-dropout-$EXPERIMENT_DROPOUT-wd-$EXPERIMENT_WEIGHT_DECAY-batchnorm-$EXPERIMENT_TASK_BATCHNORM-$suffix

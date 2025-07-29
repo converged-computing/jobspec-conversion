@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-latke-5057
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MiiiRiii/FedMPI/KISTI_jobscript/cifar10_jobscript.sh

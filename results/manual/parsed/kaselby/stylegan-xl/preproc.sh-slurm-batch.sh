@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stylegan-xl
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#SBATCH --job-name=stylegan-xl
+#SBATCH --output=logs/slurm-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=50GB
+#SBATCH --partition=a40
 
 src=$1
 tgt=$2

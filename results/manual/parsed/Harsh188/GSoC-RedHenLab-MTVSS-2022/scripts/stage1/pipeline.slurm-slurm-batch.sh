@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-despacito-4498
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/hxm471/jobs/arrayjob_%A_%a.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpu4v100
 
 module load singularity/3.8.1
 cd $TMPDIR

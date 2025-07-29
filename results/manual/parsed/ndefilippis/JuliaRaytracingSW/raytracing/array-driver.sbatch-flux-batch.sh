@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2Lray
-#FLUX: -c=48
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#FLUX --job-name=2Lray
+#FLUX -c=48
+#FLUX -t=601200
+#FLUX --urgency=16
 
 export NUM_JULIA_THREADS='`nproc`'
 

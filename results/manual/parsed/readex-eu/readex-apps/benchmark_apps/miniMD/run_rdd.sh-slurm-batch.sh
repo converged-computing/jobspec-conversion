@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_rdd
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=amg2013_rdd
+#SBATCH --account=p_readex
+#SBATCH --output=amg2013_rdd.out
+#SBATCH --error=amg2013_rdd.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=2500M
+#SBATCH --time=01:00:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'
 export SCOREP_METRIC_PAPI='PAPI_TOT_INS,PAPI_L3_TCM'

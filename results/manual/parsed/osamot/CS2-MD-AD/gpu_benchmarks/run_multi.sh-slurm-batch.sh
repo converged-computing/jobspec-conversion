@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarking
-#FLUX: -N=32
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmarking
+#SBATCH --account=xxx
+#SBATCH --output=lammps_snap.%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export MPICH_GPU_SUPPORT_ENABLED='1'

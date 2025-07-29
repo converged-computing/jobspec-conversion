@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=downsample
-#FLUX: -c=10
-#FLUX: --queue=cpu_p
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=downsample
+#FLUX -c=10
+#FLUX --queue=cpu_p
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TMPDIR='/localscratch'
 

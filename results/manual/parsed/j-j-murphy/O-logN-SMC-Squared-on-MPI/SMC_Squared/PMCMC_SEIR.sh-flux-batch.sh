@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_PMCMC_SEIR
+#FLUX --job-name=test_PMCMC_SEIR
 #FLUX: --exclusive
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=nodes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

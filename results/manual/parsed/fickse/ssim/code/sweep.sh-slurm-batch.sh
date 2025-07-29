@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sweep
-#FLUX: --queue=normal,UV
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=sweep
+#SBATCH --account=swbsc
+#SBATCH --output=log/job%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:59:00
+#SBATCH --partition=normal,UV
+#SBATCH --array=1
 
 echo "SLURM_JOBID: " $SLURM_JOBID
 echo "SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

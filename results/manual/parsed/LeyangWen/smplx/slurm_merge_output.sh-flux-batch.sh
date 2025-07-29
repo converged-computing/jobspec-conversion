@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=smplx-merge
-#FLUX: -c=2
-#FLUX: --queue=spgpu,gpu_mig40,gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=smplx-merge
+#FLUX -c=2
+#FLUX --queue=spgpu,gpu_mig40,gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 my_job_header
 conda activate soma3.7

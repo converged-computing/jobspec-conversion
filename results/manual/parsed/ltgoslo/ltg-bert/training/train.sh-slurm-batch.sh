@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BNC_TST
-#FLUX: -N=16
-#FLUX: -c=8
-#FLUX: --queue=pilot
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=BNC_TST
+#SBATCH --account=project_465000157
+#SBATCH --output=report/%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=7G
+#SBATCH --time=12:00:00
+#SBATCH --partition=pilot
+#SBATCH --constraint=ntasks-per-node=8
 
 export PS1='\$'
 export NCCL_SOCKET_IFNAME='hsn'

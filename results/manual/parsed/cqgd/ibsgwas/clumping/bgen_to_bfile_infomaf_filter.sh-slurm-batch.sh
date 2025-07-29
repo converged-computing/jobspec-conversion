@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bgen2bfile_infomaf
-#FLUX: -c=20
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bgen2bfile_infomaf
+#SBATCH --output=/gfs/work/ceijsbouts/ibs/jobs/stream/job_%A_%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH --array=4-22
 
 CHR=${SLURM_ARRAY_TASK_ID}
 /gfs/work/ceijsbouts/app/plink2 \

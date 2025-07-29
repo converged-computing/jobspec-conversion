@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-peas-5487
-#FLUX: -N=3
-#FLUX: --queue=RM
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-car-5211
+#FLUX -N=3
+#FLUX --queue=RM
+#FLUX -t=115200
+#FLUX --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

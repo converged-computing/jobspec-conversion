@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HydraGNN
-#FLUX: -N=5
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=HydraGNN
+#SBATCH --account=CPH161
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.out
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=debug
+#SBATCH --constraint=nvme
 
 export MPICH_ENV_DISPLAY='1'
 export MPICH_VERSION_DISPLAY='1'

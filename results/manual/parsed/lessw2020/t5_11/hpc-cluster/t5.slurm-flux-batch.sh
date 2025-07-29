@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=T5-trainer
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --gpus-per-task=8
-#FLUX: --urgency=16
+#FLUX --job-name=T5-trainer
+#FLUX -N=3
+#FLUX -n=3
+#FLUX --gpus-per-task=8
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='INFO'

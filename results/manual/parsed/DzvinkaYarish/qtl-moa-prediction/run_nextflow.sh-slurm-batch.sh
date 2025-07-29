@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moa
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=moa
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=1
 
 export root='/gpfs/space/home/dzvenymy'
 

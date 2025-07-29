@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MoNA-Bench
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=MoNA-Bench
+#SBATCH --output=benchmark-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
 
 export MPICH_GNI_NDREG_ENTRIES='1024'
 

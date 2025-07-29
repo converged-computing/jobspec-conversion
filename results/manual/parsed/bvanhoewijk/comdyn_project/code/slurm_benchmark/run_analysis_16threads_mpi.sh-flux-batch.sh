@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leg-7555
-#FLUX: -c=16
+#FLUX --job-name=bloated-peanut-butter-3177
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=rome
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

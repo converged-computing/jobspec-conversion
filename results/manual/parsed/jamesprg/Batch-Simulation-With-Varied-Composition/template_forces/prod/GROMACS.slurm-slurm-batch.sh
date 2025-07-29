@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=JNAME
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=JNAME
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60GB
+#SBATCH --time=1-12:00:00
+#SBATCH --constraint=broadwell
 
 cd $SLURM_SUBMIT_DIR
 imodule load icc_17-impi_2017

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-signal-2598
-#FLUX: --queue=ccb
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=angry-malarkey-5512
+#FLUX --queue=ccb
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

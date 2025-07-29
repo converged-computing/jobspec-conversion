@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=astute-puppy-4432
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/fast/users/a1647910/20190122_Q96K97_NoStress_RNASeq/slurm/%x_%j.out
+#SBATCH --error=/fast/users/a1647910/20190122_Q96K97_NoStress_RNASeq/slurm/%x_%j.err
+#SBATCH --mail-user=lachlan.baer@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 CORES=16
 module load FastQC/0.11.7

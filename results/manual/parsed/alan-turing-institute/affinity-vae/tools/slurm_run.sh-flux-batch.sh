@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-2609
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=arid-squidward-4070
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-3117
-#FLUX: --queue=seas_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=/n/home10/hongjinlin/outputs/cs288_pct_%j.out
+#SBATCH --error=/n/home10/hongjinlin/outputs/cs288_pct_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=6000
+#SBATCH --time=06:00:00
+#SBATCH --partition=seas_gpu
 
 set -x
 module load Anaconda3/2020.11

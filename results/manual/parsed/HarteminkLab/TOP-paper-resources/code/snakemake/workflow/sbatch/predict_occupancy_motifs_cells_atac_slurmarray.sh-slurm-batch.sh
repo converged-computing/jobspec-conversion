@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=predict_atac
-#FLUX: --queue=scavenger
-#FLUX: --urgency=16
+#SBATCH --job-name=predict_atac
+#SBATCH --output=predict_atac_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15G
+#SBATCH --partition=scavenger
 
 module load R/4.1.1-rhel8
 METADATA='/datacommons/harteminklab/kl124/TOP/data/ENCODE/metadata/predictions/hg38/ATAC_JASPAR2022NR_all_motifs_predict_data_table.tsv'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ycb_demo
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ycb_demo
+#SBATCH --mail-user=cc6858@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=02:00:00
 
 cd /scratch/$USER/YCB_demo
 module purge

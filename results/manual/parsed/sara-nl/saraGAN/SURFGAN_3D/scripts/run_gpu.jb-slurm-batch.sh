@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-muffin-9910
-#FLUX: -N=3
-#FLUX: -n=12
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_titanrtx
 
 module use /home/druhe/environment-modules-lisa
 module load 2020

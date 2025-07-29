@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=matlab
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#FLUX --job-name=matlab
+#FLUX --queue=htc
+#FLUX --urgency=16
 
 module purge
 module load matlab

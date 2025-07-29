@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mistral-7b-chat-pdf
-#FLUX: --queue=spgpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=mistral-7b-chat-pdf
+#FLUX --queue=spgpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module purge
 module load python3.10-anaconda

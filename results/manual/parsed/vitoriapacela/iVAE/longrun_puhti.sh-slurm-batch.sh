@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=10
-#FLUX: --queue=longrun
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iVAE
+#SBATCH --account=Project_2002842
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=longrun
 
 module purge
 module load pytorch/1.4

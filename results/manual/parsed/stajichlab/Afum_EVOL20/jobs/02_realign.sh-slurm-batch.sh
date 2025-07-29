@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-parrot-8926
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/stajichlab/Afum_EVOL20/jobs/02_realign.sh

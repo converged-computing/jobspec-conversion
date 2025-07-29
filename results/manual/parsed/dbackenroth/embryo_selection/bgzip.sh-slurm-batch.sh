@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-noodle-1249
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6g
+#SBATCH --time=02:20:00
 
 parentdir=/vol/sci/bio/data/shai.carmi/db2175/embryo_selection/
 dir=${parentdir}/LIJMC

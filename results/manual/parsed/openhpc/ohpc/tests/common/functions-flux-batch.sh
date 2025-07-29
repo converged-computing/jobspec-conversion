@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-bicycle-4799
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-parsnip-3389
+#FLUX --urgency=16
 
 ERROR () {
     echo "[OHPC-TEST:ERROR]: $1" >&2

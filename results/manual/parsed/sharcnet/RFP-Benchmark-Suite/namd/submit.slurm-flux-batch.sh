@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-toaster-2062
-#FLUX: -N=4
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-knife-6370
+#FLUX -N=4
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export NAMD_BIN='/home/ppomorsk/projects/def-ppomorsk/benchmarks/stmv/Linux-x86_64-g++-memopt'
 

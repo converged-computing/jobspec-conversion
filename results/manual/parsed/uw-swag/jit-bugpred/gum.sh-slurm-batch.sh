@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-avocado-1718
-#FLUX: -c=8
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --account=def-m2nagapp
+#SBATCH --mail-user=hosseinkeshavarz1997@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=23:00:00
 
 source /home/hkshvrz/projects/def-m2nagapp/hkshvrz/jit-bugpred/venv/bin/activate
 which python

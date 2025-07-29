@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cm-eq-30k
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cm-eq-30k
+#SBATCH --account=p_biomolecules
+#SBATCH --output=withdft/eq/dip.out
+#SBATCH --error=withdft/eq/dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

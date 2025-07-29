@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ASpot
-#FLUX: -c=6
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=ASpot
+#FLUX -c=6
+#FLUX -t=432000
+#FLUX --urgency=16
 
 date
 echo "Loading anaconda..."

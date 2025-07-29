@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dp2
-#FLUX: -c=12
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#SBATCH --job-name=dp2
+#SBATCH --output=dp1-5.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100
+#SBATCH --mem=40GB
+#SBATCH --time=05:20:00
 
 module purge
 module load python/intel/3.8.6

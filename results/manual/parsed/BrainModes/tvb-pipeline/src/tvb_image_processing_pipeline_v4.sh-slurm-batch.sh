@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-knife-6586
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SINGULARITY_CACHEDIR='$containerstore"/tmp-singularity-cache'
 export SINGULARITY_TMPDIR='$containerstore"/tmp-singularity'

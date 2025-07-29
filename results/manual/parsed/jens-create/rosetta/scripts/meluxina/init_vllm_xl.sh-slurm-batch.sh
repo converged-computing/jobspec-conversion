@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hello-underoos-8723
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=p200149
+#SBATCH --output=job/%J.out
+#SBATCH --error=job/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=4
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=default
 
 echo "===================================="
 echo "ARGS       = $@"

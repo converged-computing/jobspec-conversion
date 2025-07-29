@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conv2d-tf2-xla
+#FLUX --job-name=conv2d-tf2-xla
 #FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=special
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='xla'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=grated-despacito-7701
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 module purge
 module load anaconda/py3

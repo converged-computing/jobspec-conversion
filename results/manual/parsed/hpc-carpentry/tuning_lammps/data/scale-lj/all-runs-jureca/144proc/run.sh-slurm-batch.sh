@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cat-5598
-#FLUX: -N=3
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=devel
+#SBATCH --constraint=ntasks-per-node=48
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

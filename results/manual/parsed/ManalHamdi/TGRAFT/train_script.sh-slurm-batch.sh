@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RAFT
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --job-name=RAFT
+#SBATCH --mail-user=manal.hamdi@tum.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=c1-node01
 
 module load python/anaconda3
 conda activate raft

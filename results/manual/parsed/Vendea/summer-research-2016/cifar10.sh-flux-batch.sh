@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-4971
-#FLUX: -n=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-fork-5208
+#FLUX -n=20
+#FLUX -t=600
+#FLUX --urgency=16
 
 . ~/.profile
 module load gcc/6.1.0

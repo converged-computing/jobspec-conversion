@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-4386
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=82G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 APPTAINER_IMAGE_PATH=/mnt/parscratch/users/$USER/pytorch-transformers-wikitext2-benchmark/transformers-benchmark-23.07.sif 
 echo "HOSTNAME=${HOSTNAME}"

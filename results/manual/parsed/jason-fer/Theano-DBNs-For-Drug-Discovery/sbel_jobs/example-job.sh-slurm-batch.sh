@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cherry-2351
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jason-fer/Theano-DBNs-For-Drug-Discovery/sbel_jobs/example-job.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-6801
-#FLUX: --urgency=16
+#FLUX --job-name=faux-egg-0696
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/team113sanger/Fumarate_Hydratase_FH_CRISPR/scripts/run_pFH_vs_cl1_combine_counts.sh

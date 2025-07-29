@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leopard-7746
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-bike-6669
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SRDIR='out/sampler_rw'
 export SDIR='out/counterfactual/samples'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dask_exp
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=5
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dask_exp
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=5
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2020.11

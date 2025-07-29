@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_ctran_bcepoly2
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=train_ctran_bcepoly2
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load gcc/9.3

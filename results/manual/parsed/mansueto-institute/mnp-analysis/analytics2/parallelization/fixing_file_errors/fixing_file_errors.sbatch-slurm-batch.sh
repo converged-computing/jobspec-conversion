@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fiona_error
-#FLUX: --queue=broadwl
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=fiona_error
+#SBATCH --output=fiona_error.out
+#SBATCH --error=fiona_error.err
+#SBATCH --mail-user=alexfeistritzer@uchicago.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:30:00
+#SBATCH --partition=broadwl
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load python

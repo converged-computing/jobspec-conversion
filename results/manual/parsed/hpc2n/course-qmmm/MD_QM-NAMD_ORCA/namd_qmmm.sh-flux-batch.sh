@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=qmmm
-#FLUX: -n=14
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=qmmm
+#FLUX -n=14
+#FLUX -t=1800
+#FLUX --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml GCC/10.3.0  OpenMPI/4.1.1

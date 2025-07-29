@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-3240
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-cinnamonbun-6330
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

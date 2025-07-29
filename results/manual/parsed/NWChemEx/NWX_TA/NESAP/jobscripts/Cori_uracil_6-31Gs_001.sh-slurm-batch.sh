@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cori_nwx_uracil_6-31gs_000020
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cori_nwx_uracil_6-31gs_000020
+#SBATCH --account=m1759
+#SBATCH --output=cori_nwx_uracil_6-31gs_000020.o%j
+#SBATCH --error=cori_nwx_uracil_6-31gs_000020.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=20,gpu
+#SBATCH --licenses=SCRATCH
 
 export SCRATCH_DIR='$SCRATCH/$SLURM_JOB_NAME.$SLURM_JOB_ID'
 export PERMANENT_DIR='$SCRATCH_DIR'

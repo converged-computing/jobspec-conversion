@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -N=8
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export LAUNCHER='python -u -m torch.distributed.run \'

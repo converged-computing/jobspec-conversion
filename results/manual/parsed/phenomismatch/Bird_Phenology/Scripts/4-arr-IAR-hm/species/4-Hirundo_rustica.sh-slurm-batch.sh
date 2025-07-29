@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hm-2020-07-21-Hirundo_rustica
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=hm-2020-07-21-Hirundo_rustica
+#SBATCH --output=/labs/Tingley/phenomismatch/Bird_Phenology/Data/Processed/arrival_IAR_hm_2020-07-21/Hirundo_rustica-iar-hm.out
+#SBATCH --error=/labs/Tingley/phenomismatch/Bird_Phenology/Data/Processed/arrival_IAR_hm_2020-07-21/Hirundo_rustica-iar-hm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 echo `hostname`
 module load gcc/6.4.0

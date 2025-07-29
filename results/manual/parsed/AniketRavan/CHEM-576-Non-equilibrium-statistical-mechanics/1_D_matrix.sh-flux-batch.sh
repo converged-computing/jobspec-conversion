@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=langevin_overdamped
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=langevin_overdamped
+#FLUX -n=4
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 echo "Loading module"
 echo "Loaded module. Running python"

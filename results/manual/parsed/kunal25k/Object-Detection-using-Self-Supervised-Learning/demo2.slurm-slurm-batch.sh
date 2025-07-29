@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=demo
+#SBATCH --output=demo.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6GB
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

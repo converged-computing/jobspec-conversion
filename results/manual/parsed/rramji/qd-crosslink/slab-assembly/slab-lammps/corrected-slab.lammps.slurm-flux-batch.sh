@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=corrected-slab
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=corrected-slab
+#FLUX --queue=shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 prefix=corrected-slab
 rtemp=298

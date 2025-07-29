@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_summarize
-#FLUX: --queue=gpu,gpuv100,gpup6000,lasti
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=hazpi_summarize
+#SBATCH --mail-user=gael.de-chalendar@cea.fr
+#SBATCH --mail-type=start,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu,gpuv100,gpup6000,lasti
 
 set -o errexit
 set -o pipefail

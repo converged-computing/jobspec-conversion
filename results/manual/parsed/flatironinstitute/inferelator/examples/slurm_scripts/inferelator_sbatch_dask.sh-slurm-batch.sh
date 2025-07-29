@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=inferelator
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=inferelator
+#SBATCH --output=inferelator-%j.out
+#SBATCH --error=inferelator-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export RUNDIR='${SCRATCH}/inferelator/run-${SLURM_JOB_ID}/'
 export DATADIR='${SCRATCH}/inferelator/data'

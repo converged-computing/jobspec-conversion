@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-buttface-1797
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-poo-8278
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aspenyoo/wordrecognitionmemory/model/4_fitdata/testing.sh

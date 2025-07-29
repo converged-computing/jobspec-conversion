@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Si
-#FLUX: --queue=short
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=Si
+#FLUX --queue=short
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export QE='/lustre/home/ilias/work/qch/software/quantum-espresso/qe-7.0/build_intelmpi/bin'
 

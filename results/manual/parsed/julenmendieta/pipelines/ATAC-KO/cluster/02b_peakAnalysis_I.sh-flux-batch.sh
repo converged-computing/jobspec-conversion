@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ATACanalysis
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=ATACanalysis
+#FLUX -c=32
+#FLUX --queue=short
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

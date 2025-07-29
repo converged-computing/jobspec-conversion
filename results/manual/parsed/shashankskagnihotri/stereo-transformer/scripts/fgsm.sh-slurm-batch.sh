@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chair-8928
-#FLUX: -c=64
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --output=slurm/new_neurips/fgsm_vanilla_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:4
+#SBATCH --mem=230G
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
 
 CUDA_VISIBLE_DEVICES=0
 python main_fgsm.py  --epochs 15\

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=irace_mpi_tuning2
-#FLUX: -n=21
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=irace_mpi_tuning2
+#SBATCH --output=res_irace_mpi_tuning2.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=21
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=23:59:59
 
 module load OpenMPI
 module load R

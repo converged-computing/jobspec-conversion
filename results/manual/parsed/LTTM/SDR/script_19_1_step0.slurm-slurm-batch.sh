@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=C_19_1
-#FLUX: -n=2
-#FLUX: --queue=allgroups
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=C_19_1
+#SBATCH --output=C_19_1.%j.out
+#SBATCH --error=C_19_1.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titan_rtx:1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=10:00:00
+#SBATCH --partition=allgroups
 
 batch_size=8
 task='19-1'

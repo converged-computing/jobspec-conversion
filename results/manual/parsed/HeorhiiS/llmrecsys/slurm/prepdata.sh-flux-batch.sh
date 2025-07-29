@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-blackbean-7647
-#FLUX: -c=40
-#FLUX: --queue=nvidia
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-puppy-6099
+#FLUX -c=40
+#FLUX --queue=nvidia
+#FLUX -t=19800
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

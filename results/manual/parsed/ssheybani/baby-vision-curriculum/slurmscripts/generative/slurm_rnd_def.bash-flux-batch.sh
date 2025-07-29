@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job_r_d284
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: -t=104400
-#FLUX: --urgency=16
+#FLUX --job-name=job_r_d284
+#FLUX -c=40
+#FLUX --queue=gpu
+#FLUX -t=104400
+#FLUX --urgency=16
 
 module load python/gpu
 ulimit -u 20000

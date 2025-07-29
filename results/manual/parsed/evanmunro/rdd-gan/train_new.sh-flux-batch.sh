@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-egg-4618
-#FLUX: --queue=athey
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-fork-8199
+#FLUX --queue=athey
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load python/3.6.1
 module load cuda/11.2.0

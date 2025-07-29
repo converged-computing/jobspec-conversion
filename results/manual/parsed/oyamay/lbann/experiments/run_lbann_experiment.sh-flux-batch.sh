@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cat-3541
-#FLUX: --urgency=16
+#FLUX --job-name=grated-animal-4215
+#FLUX --urgency=16
 
 EXPERIMENT_NAME=lbann_alexnet
 LBANN_DIR=$(git rev-parse --show-toplevel)

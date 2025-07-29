@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=1
-#FLUX: -n=50
-#FLUX: --urgency=16
+#FLUX --job-name=1
+#FLUX -n=50
+#FLUX --urgency=16
 
 samples=
 for i in samples

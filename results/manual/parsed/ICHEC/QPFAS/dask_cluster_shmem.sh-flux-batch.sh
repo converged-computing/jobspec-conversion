@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-7826
-#FLUX: --queue=ShmemQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=faux-latke-0157
+#FLUX --queue=ShmemQ
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

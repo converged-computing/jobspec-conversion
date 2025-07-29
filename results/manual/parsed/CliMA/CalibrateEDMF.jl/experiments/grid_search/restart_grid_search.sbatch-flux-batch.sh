@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=r_grid
-#FLUX: -n=25
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=r_grid
+#FLUX -n=25
+#FLUX -t=108000
+#FLUX --urgency=16
 
 outdir=${1?Error: no output directory given}
 module purge

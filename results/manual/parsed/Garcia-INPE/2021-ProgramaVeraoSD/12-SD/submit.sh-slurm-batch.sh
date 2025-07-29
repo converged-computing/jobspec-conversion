@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DCTST
-#FLUX: -N=16
-#FLUX: -n=384
-#FLUX: --exclusive
-#FLUX: --queue=cpu_small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=DCTST
+#SBATCH --output=log/slurm-%j.out
+#SBATCH --error=log/slurm-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=384
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=cpu_small
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=24
 
 mkdir -p log tmp
 NETINFO=log/netinfo.$SLURM_JOBID.log

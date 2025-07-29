@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=automate_ablations
-#FLUX: --queue=long
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=automate_ablations
+#FLUX --queue=long
+#FLUX -t=3000
+#FLUX --urgency=16
 
 module load anaconda/3
 module load cuda/11.7

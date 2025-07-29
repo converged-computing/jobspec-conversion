@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-train-2624
-#FLUX: -c=256
-#FLUX: --queue=ai-jumpstart
-#FLUX: --urgency=16
+#SBATCH --output=sbatch_outputs/3D_inference_resmcnet_%j.out
+#SBATCH --error=sbatch_outputs/3D_inference_resmcnet_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=256
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10000
+#SBATCH --partition=ai-jumpstart
 
 source ~/modules/pytorch/latest
 python model_inference.py --config-file configs/3D/inference/resmcnet/absorb-64x64x64.yaml

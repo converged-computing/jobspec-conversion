@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-egg-5422
-#FLUX: --urgency=16
+#FLUX --job-name=fat-chip-2684
+#FLUX --urgency=16
 

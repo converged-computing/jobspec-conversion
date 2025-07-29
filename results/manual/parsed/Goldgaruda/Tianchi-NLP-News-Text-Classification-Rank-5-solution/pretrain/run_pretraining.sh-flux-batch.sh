@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-1750
-#FLUX: -n=14
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-fudge-9192
+#FLUX -n=14
+#FLUX --queue=nvidia
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

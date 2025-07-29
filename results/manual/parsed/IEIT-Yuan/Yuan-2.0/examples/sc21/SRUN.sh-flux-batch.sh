@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-banana-9028
+#FLUX --job-name=rainbow-staircase-6108
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 THIS_DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

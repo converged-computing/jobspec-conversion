@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-2493
-#FLUX: -n=2
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-train-9210
+#FLUX -n=2
+#FLUX --queue=gpu_requeue
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo `date`
 echo $HOSTNAME

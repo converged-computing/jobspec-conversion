@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chip-2520
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-motorcycle-1436
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 . /home/tscherli/.bash_profile
 echo "Starting Docker Image"

@@ -1,15 +1,24 @@
 #!/bin/bash
-#FLUX: --job-name=mjr-cori
-#FLUX: -c=64
-#FLUX: --queue=debug
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=mjr-cori
+#SBATCH --account=majorana
+#SBATCH --output=./logs/pulse1-haswell.o%j
+#SBATCH --mail-user=mbuuck@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=00:25:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell,haswell
 
 export OMP_NUM_THREADS='64'
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'
 export RUN2='${1-16846}'
 
+singularity
+exec
+custom:pdsf-chos-sl64:v2
 job_sh=./mjdInShifter.sh
 echo start-A
 env|grep  SHIFTER_RUNTIME

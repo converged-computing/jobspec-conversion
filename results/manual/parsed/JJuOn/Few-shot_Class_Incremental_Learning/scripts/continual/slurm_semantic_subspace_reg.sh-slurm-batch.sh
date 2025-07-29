@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cont5semsubmem
-#FLUX: -c=4
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=cont5semsubmem
+#SBATCH --output=dumped/%A_%a.out
+#SBATCH --error=dumped/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=15-00:00:00
+#SBATCH --constraint=xeon-g6,ntasks-per-node=1
+#SBATCH --array=1-10
 
 CURRENT="$PWD"
 DUMPED_PATH="$CURRENT/dumped"

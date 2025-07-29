@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cpu30
-#FLUX: -n=30
-#FLUX: --queue=nssc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu30
+#SBATCH --output=stdout-%x.%j.log
+#SBATCH --error=stderr-%x.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=nssc
 
 module load pmi/pmix-x86_64     # [P]rocess [M]anagement [I]nterface (required by MPI-Implementation)
 module load mpi/openmpi-x86_64  # MPI implementation (including compiler-wrappers mpicc/mpic++)

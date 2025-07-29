@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_HOI
-#FLUX: --queue=lgns
-#FLUX: -t=2910000
-#FLUX: --urgency=16
+#FLUX --job-name=train_HOI
+#FLUX --queue=lgns
+#FLUX -t=2910000
+#FLUX --urgency=16
 
 export TORCH_HOME='/z/home/mkhoshle/Human_object_transform/trained_models'
 export WANDB_API_KEY='79be3522200691f5f2e70b838fb23f90d4577836'

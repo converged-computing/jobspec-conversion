@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cat-3787
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-kerfuffle-7673
+#FLUX -c=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 singularity exec --nv \
   --overlay /scratch/wz1492/overlay-25GB-500K.ext3:ro \

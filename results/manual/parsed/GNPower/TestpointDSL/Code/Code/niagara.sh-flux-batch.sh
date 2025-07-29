@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=project
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=project
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load intel/2019u4
 module load cmake/3.21.4

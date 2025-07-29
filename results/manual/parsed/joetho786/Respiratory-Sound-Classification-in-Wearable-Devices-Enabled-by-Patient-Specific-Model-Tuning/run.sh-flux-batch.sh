@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RespiratorySoundClassification
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=RespiratorySoundClassification
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/usr/bin/python3 #set your corresponding python path here'
 

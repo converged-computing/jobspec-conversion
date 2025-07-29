@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=slice.GVCFGeno
-#FLUX: -n=2
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#FLUX --job-name=slice.GVCFGeno
+#FLUX -n=2
+#FLUX --queue=intel
+#FLUX --urgency=16
 
 hostname
 MEM=24g

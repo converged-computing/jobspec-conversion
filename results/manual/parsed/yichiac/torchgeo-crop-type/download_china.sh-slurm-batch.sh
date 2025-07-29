@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=china_download
-#FLUX: --queue=dali
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=china_download
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=yichia3@illinois.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=dali
+#SBATCH --constraint=ntasks-per-node=32
 
 . /projects/dali/spack/share/spack/setup-env.sh
 spack env activate dali

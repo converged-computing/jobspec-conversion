@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-7626
-#FLUX: --urgency=16
+#FLUX --job-name=placid-diablo-5769
+#FLUX --urgency=16
 
 cc=0
 for wopt in opt pess;

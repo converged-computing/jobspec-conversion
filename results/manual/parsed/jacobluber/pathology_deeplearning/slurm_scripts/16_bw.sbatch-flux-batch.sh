@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lentil-7859
-#FLUX: -N=3
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-general-9219
+#FLUX -N=3
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 function fail {
     echo "FAIL: $@" >&2

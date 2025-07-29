@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rnavar
-#FLUX: --urgency=16
+#FLUX --job-name=rnavar
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='singularity'
 export SINGULARITY_TMPDIR='$tmp'

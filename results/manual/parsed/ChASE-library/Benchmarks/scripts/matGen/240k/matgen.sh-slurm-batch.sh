@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-7483
-#FLUX: -N=64
-#FLUX: -n=1024
-#FLUX: -c=8
-#FLUX: --queue=dc-cpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=64
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dc-cpu
+#SBATCH --constraint=ntasks-per-node=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

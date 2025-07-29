@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=exonerate_CNV
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=exonerate_CNV
+#FLUX -c=8
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load Exonerate/2.4.0-GCC-12.2.0
 cd /scratch/ahw22099/FireAnt_GRN/Fontana2020_CNV

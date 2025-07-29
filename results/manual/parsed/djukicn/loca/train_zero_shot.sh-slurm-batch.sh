@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loca_zero_shot
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=loca_zero_shot
+#SBATCH --output=loca_zero_shot_out.txt
+#SBATCH --error=loca_zero_shot_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_ADDR='$master_addr'
 export MASTER_PORT='50188'

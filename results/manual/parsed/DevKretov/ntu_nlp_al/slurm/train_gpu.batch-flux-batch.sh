@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-4020
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-spoon-6112
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 while getopts d:r:a:p:s:i:f:l:e: flag
 do

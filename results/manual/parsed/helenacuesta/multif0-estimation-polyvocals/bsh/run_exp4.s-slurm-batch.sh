@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=exp7
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=exp7
+#SBATCH --output=exp7.out
+#SBATCH --error=exp7.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=7-00:00:00
 
 module purge
 module load cudnn/7.0v4.0

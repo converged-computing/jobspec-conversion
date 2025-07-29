@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-3976
-#FLUX: -n=20
+#FLUX --job-name=blank-toaster-2143
+#FLUX -n=20
 #FLUX: --exclusive
-#FLUX: --queue=sapphire
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --queue=sapphire
+#FLUX -t=5400
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh  
 function load_modules() {

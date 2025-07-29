@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GFP
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#FLUX --job-name=GFP
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=302400
+#FLUX --urgency=16
 
 HOME_DIR=/home/pcq275/
 COREL_DIR=${HOME_DIR}/corel/

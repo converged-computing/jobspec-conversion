@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=whole
-#FLUX: -c=2
-#FLUX: --queue=amd512,amdsmall,amdlarge,ram256g
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=whole
+#SBATCH --account=faird
+#SBATCH --output=output_logs/syncTM_%A_%a.out
+#SBATCH --error=output_logs/syncTM_%A_%a.err
+#SBATCH --mail-user=<YOUR-EMAIL>@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=180G
+#SBATCH --time=12:00:00
+#SBATCH --partition=amd512,amdsmall,amdlarge,ram256g
+#SBATCH --constraint=ntasks-per-node=1
 
 cd run_files.syncTM
 module load matlab

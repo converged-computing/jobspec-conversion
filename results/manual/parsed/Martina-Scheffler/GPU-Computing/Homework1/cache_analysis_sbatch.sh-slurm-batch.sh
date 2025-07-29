@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cache_analysis
-#FLUX: --queue=edu5
-#FLUX: --urgency=16
+#SBATCH --job-name=cache_analysis
+#SBATCH --output=cache_%j.out
+#SBATCH --error=cache_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --partition=edu5
+#SBATCH --constraint=ntasks-per-node=1
 
 export USER_COMPILE_FLAGS='-O3'
 

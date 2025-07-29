@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sleep2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=sleep2
+#FLUX --queue=debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 export name_for_run='elg_new_ccd_list'
 export randoms_db='None #run from a fits file'

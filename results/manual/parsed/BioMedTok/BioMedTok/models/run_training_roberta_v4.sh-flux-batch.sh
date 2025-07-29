@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BertTok
-#FLUX: -n=32
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=BertTok
+#FLUX -n=32
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='10'
 export CUDA_LAUNCH_BLOCKING='1'

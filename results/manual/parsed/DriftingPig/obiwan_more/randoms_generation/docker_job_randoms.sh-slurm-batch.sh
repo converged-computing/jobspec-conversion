@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=obiwan
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=obiwan
+#SBATCH --account=desi
+#SBATCH --mail-user=kong.291@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export CSCRATCH_OBIWAN='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker'
 export PYTHONPATH='$CSCRATCH_OBIWAN/obiwan_code/py:$CSCRATCH_OBIWAN/legacypipe/py:$PYTHONPATH'
@@ -25,6 +32,9 @@ export OMP_NUM_THREADS='1'
 export XDG_CONFIG_HOME='/dev/shm'
 export tasks='16'
 
+singularity
+exec
+driftingpig/obiwan_composit:v3
 source /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/bashrc_obiwan
 export CSCRATCH_OBIWAN=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker
 export PYTHONPATH=$CSCRATCH_OBIWAN/obiwan_code/py:$CSCRATCH_OBIWAN/legacypipe/py:$PYTHONPATH

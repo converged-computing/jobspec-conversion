@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-latke-4800
-#FLUX: -n=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=confused-lemur-7676
+#FLUX -n=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

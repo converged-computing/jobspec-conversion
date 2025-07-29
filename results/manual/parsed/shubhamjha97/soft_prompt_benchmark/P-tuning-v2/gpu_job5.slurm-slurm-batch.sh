@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=P-Tuning-v2-boolq-noreprmtr-gpt2
-#FLUX: -c=4
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=P-Tuning-v2-boolq-noreprmtr-gpt2
+#SBATCH --account=ds_ga_1012_2022sp
+#SBATCH --output=/scratch/ask9126/%j_%x.out
+#SBATCH --error=/scratch/ask9126/%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=28G
+#SBATCH --time=04:00:00
+#SBATCH --partition=n1s8-v100-1
 
 singularity exec --nv --bind /scratch --overlay /scratch/ask9126/overlay-25GB-500K.ext3:ro /scratch/ask9126/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif /bin/bash -c "
 source /ext3/env.sh

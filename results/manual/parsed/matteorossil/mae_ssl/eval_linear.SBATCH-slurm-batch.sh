@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_linear
-#FLUX: -c=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_linear
+#SBATCH --output=/scratch/mr6744/pytorch/outputs_slurm/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 srun \

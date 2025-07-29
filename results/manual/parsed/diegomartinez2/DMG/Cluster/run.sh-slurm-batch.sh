@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SrTiO3_qe
-#FLUX: -n=40
-#FLUX: --queue=all
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=SrTiO3_qe
+#SBATCH --output=job.log
+#SBATCH --mail-user=diego.martinez@ehu.eus
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:30:00
+#SBATCH --partition=all
 
 export NPROCS='$SLURM_NTASKS'
 

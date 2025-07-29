@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GenNet_regression
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=GenNet_regression
+#SBATCH --output=/home/ahilten/repositories/GenNet/GenNet_utils/SLURM_logs/out_%j.log
+#SBATCH --error=/home/ahilten/repositories/GenNet/GenNet_utils/SLURM_logs/error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=100G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2021

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ci-jax-gpu
-#FLUX: -N=2
+#FLUX --job-name=ci-jax-gpu
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=900
+#FLUX --urgency=16
 
 set -x
 CONTAINER="nvcr.io/nvidian/jax_t5x:cuda11.4-cudnn8.2-ubuntu20.04-manylinux2014-multipython"

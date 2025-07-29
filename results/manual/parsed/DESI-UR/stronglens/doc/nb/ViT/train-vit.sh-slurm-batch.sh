@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stronglens-vit-training
-#FLUX: --queue=regular
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=stronglens-vit-training
+#SBATCH --account=desi_g
+#SBATCH --output=train-vit.log
+#SBATCH --mail-user=dcummin4@u.rochester.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=09:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-arm-9371
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-itch-8230
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 CONFIG=$1
 GPUS=$2

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-milkshake-4026
-#FLUX: --urgency=16
+#SBATCH --output=SPEAQeasy_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

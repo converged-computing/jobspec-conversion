@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pet
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pet
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd /home/mila/c/chris.emezue/pet-masakhane-news
 module load python/3

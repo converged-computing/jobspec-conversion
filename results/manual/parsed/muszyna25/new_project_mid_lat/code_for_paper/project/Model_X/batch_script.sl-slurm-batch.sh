@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Model_A
-#FLUX: -N=3
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=Model_A
+#SBATCH --mail-user=gmuszynski@lbl.gov
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:29:00
+#SBATCH --qos=premium
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH
 
 set -u
 BATCH_START_TIME=$(date)

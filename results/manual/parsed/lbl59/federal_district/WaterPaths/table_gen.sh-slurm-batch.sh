@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=callgrind
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=callgrind
+#SBATCH --output=output/vallgrind.out
+#SBATCH --error=output/vallgrind.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='16                       # tell the cube to use all 16 core within the node to run this'
 

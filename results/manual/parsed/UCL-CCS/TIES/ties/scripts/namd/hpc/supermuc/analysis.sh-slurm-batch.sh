@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=TIESanalysis
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=TIESanalysis
+#SBATCH --account=pn98ve
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --mail-user=bieniekmat@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module load slurm_setup
 module load python/3.6_intel

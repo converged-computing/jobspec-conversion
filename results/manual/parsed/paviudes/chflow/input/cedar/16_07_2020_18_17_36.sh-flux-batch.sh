@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lentil-2060
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-truffle-6239
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/pavi/chflow

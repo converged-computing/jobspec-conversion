@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=min
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=min
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export name='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pspCityscapes
-#FLUX: -c=8
-#FLUX: --queue=ialab-high
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pspCityscapes
+#SBATCH --output=output/psp_%j.log
+#SBATCH --error=output/err/psp_%j.err
+#SBATCH --mail-user=afcadiz@uc.cl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=12000mb
+#SBATCH --time=02:00:00
+#SBATCH --partition=ialab-high
+#SBATCH --nodelist=hydra
 
 CS_PATH=$1
 MODEL=pspnet

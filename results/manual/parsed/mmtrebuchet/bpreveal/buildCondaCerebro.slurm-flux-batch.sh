@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buildBpreveal
-#FLUX: -n=3
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=buildBpreveal
+#FLUX -n=3
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export BPREVEAL_KILL_LD_LIB_PATH='\$pathAccum'
 export LD_LIBRARY_PATH='\${pathAccum}\${LD_LIBRARY_PATH}'

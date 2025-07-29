@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-snack-8967
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-cupcake-7324
+#FLUX --queue=devel
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

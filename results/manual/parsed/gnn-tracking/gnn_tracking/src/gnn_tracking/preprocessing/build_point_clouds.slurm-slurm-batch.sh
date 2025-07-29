@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=build-point-clouds
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=build-point-clouds
+#SBATCH --output=build-point-clouds-%A-%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
+#SBATCH --array=0-4
 
 set -euo pipefail
 IFS=$'\n\t'

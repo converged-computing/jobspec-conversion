@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chip-7197
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-lemur-6206
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=west
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export ENSEMBLES_MPIEXEC_PATH='mpiexec'
 export ENSEMBLES_MPIEXEC_NODES='1'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=$NAME
-#FLUX: -n=4
-#FLUX: -c=16
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=$NAME
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
 
 cd ~/mask_bev
 docker build -t mask_bev .

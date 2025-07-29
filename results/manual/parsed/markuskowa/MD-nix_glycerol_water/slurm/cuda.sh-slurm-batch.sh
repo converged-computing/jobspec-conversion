@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: -n=24
-#FLUX: --queue=ampere
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='$ntomp'
 

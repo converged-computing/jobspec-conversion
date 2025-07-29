@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-9158
-#FLUX: -c=42
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=su003-iftc1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=42
+#SBATCH --gres=gpu:ampere_a100:1
+#SBATCH --mem=3850
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5

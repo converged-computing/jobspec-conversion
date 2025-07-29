@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-itch-6380
-#FLUX: -n=96
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-house-7804
+#FLUX -n=96
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='256m'
 

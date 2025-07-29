@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ll%A
-#FLUX: -N=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ll%A
+#SBATCH --output=logs/ll_%A_%a.out
+#SBATCH --error=logs/ll_%A_%a.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=02:00:00
 
 ml purge
 ml load R/3.5.1

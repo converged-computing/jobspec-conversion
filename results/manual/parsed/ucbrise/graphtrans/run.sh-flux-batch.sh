@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-1479
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-nalgas-9433
+#FLUX -c=10
+#FLUX --urgency=16
 
 config=$1
 echo $(scontrol show hostnames $SLURM_JOB_NODELIST)

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=portal_weekly_forecast
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=portal_weekly_forecast
+#SBATCH --output=/orange/ewhite/PortalForecasts/portal_weekly_forecast_log.out
+#SBATCH --error=/orange/ewhite/PortalForecasts/portal_weekly_forecast_log.err
+#SBATCH --mail-user=portal-forecasts-aaaaamelbeyabgcqol6s4p4cja@weecology.slack.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=hpg2-compute
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting Weekly Forecast on $(hostname) in $(pwd)"
 cd /orange/ewhite/PortalForecasts/

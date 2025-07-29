@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia-smi
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=nvidia-smi
+#SBATCH --account=<account
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:00:30
+#SBATCH --qos=<qos>
 
 module purge
 module load baskerville

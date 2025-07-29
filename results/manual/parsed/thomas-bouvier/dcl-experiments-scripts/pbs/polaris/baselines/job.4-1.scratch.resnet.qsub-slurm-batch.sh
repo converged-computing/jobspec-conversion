@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pancake-0159
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/baselines/job.4-1.scratch.resnet.qsub

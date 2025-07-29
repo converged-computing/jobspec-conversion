@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=VirusDiscovery
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=VirusDiscovery
+#SBATCH --output=./out/06.pru/PP_AMG_%A_%a.out
+#SBATCH --error=./err/06.pru/PP_AMG_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=32gb
+#SBATCH --time=10:00:00
 
 export PATH='/scratch/hb-llnext/tools/mmseqs/bin/:$PATH'
 

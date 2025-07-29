@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cactus
-#FLUX: -c=64
-#FLUX: --queue=bigmem
-#FLUX: -t=93000
-#FLUX: --urgency=16
+#FLUX --job-name=cactus
+#FLUX -c=64
+#FLUX --queue=bigmem
+#FLUX -t=93000
+#FLUX --urgency=16
 
 module --force purge
 start_dir=$PWD

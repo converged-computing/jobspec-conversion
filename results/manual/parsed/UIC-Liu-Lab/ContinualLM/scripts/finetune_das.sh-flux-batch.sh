@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-2488
-#FLUX: --queue=gpu20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-malarkey-5038
+#FLUX --queue=gpu20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/hdd_1/zke4/dataset_cache'
 export TRANSFORMERS_CACHE='/sdb/zke4/model_cache'

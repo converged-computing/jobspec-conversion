@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME_finetune_sda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME_finetune_sda
+#SBATCH --output=JOBNAME_finetune_sda.%j.%N.out
+#SBATCH --error=JOBNAME_finetune_sda.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --dependency=<GENDATA>
 
 <GPU4_CONFIG>
 <ENV_LOAD>

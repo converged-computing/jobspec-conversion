@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=generator-classifiers
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=generator-classifiers
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load pytorch/intel/20170226

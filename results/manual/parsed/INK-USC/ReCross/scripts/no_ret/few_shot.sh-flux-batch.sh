@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=few_shot_only
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=few_shot_only
+#FLUX -t=10800
+#FLUX --urgency=16
 
 EARLY_STOPPING=True
 TASKS_IN=$1

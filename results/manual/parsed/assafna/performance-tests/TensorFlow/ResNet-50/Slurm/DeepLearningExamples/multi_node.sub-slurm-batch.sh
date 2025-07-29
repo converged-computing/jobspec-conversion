@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
 
 srun --container-image $1 \
  --container-mounts $2:/imagenet \

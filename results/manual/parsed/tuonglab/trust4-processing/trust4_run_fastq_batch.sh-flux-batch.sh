@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trust4_fastq
-#FLUX: -c=64
-#FLUX: --queue=general
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=trust4_fastq
+#FLUX -c=64
+#FLUX --queue=general
+#FLUX -t=345600
+#FLUX --urgency=16
 
 dir_path="$2"
 output_dir="$1"

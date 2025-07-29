@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LvO2@Qgp
-#FLUX: -n=4
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=LvO2@Qgp
+#FLUX -n=4
+#FLUX --queue=short
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export WIEN2k='/lustre/home/ilias/work/qch/software/wien2k/WIEN2k_23.2_gnu_openmpi_openblas'
 export WIENROOT='$WIEN2k'

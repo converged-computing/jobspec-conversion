@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-soup-4804
+#FLUX --job-name=bloated-avocado-3789
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 i=1
 for algo in "ppo-maskable"

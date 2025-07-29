@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-knife-7342
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=blank-blackbean-0268
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module load daint-gpu
 module load cray-python

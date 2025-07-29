@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-puppy-0576
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=phat-pot-2483
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load cuda/8.0.61
 module load cudnn/8.0-v6.0

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_ewc
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_ewc
+#SBATCH --output=./logs/%x%A.out
+#SBATCH --error=./logs/%x%A.err
+#SBATCH --mail-user=yh2689@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=256GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-8
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 export HF_HOME='/l/users/yichen.huang/misc/cache'

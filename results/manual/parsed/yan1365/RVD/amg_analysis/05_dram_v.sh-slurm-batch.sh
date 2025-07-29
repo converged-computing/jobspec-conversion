@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dramv_%j
-#FLUX: -n=48
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=dramv_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=dramv_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 part=${1}
 module load python/3.6-conda5.2

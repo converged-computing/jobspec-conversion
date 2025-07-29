@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=aesthetic
-#FLUX: -N=8
-#FLUX: --queue=g40
-#FLUX: --urgency=16
+#FLUX --job-name=aesthetic
+#FLUX -N=8
+#FLUX --queue=g40
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/fsx/zacliu/AltTools/Altdiffusion/src'
 export NCCL_DEBUG='INFO'

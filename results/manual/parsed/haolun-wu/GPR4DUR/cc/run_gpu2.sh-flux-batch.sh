@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-train-0291
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-caramel-2761
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /home/haolun/projects/def-cpsmcgil/haolun/GPR4DUR/venv_gpr4dur/bin/activate
 module load cuda

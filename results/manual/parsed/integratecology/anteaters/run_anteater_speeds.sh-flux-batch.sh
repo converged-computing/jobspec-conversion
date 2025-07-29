@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anteaters
-#FLUX: --queue=defq
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=anteaters
+#FLUX --queue=defq
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/alston92/software/proj-8.0.1/lib:$LD_LIBRARY_PATH'
 

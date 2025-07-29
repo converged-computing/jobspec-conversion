@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=larmaedata
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=larmaedata
+#SBATCH --output=larmaedata_test.log
+#SBATCH --error=err_logs/griderr_make_larmaedata.%j.%a.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
+#SBATCH --array=1-856
+#SBATCH --exclude=c1cmp003,c1cmp004
 
 container=/cluster/tufts/wongjiradlabnu/larbys/larbys-container/singularity_minkowskiengine_u20.04.cu111.torch1.9.0_comput8.sif
 DATA_PREP_DIR=/cluster/tufts/wongjiradlabnu/twongj01/larmae/dataprep/

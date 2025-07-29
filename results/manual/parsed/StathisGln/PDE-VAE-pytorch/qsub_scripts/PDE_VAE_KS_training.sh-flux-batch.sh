@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hope-1622
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-general-3995
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/StathisGln/PDE-VAE-pytorch/qsub_scripts/PDE_VAE_KS_training.sh

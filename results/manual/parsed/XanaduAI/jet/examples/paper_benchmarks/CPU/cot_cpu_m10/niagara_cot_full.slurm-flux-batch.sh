@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cot_m10
-#FLUX: -n=80
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=cot_m10
+#FLUX -n=80
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export num_runs='10'
 export OMP_PROC_BIND='false '

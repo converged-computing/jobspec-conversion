@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=task1_thrust
-#FLUX: --queue=instruction
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=task1_thrust
+#FLUX --queue=instruction
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load nvidia/cuda/11.8.0 

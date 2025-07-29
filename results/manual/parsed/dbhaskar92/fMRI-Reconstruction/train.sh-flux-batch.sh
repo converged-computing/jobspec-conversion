@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fmri-ode
-#FLUX: --queue=gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=fmri-ode
+#FLUX --queue=gpu
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module unload Python 
 module load miniconda 

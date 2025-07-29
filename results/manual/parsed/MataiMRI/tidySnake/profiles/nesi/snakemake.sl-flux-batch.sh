@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-motorcycle-9228
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-avocado-9954
+#FLUX -c=2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export APPTAINER_CACHEDIR='$NOBACKUPDIR/apptainer_cachedir'
 export APPTAINER_TMPDIR='$NOBACKUPDIR/apptainer_tmpdir'

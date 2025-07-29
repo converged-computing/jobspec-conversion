@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=template-experiment
-#FLUX: --queue=t4v1,t4v2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=template-experiment
+#SBATCH --output=slogs/%x__%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=t4v1,t4v2
+#SBATCH --array=0
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_GPUS_ON_NODE))'

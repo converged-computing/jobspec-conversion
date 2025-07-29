@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=vqvae
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=dev-g
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=vqvae
+#SBATCH --account=project_462000559
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=250G
+#SBATCH --time=00:15:00
+#SBATCH --partition=dev-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export EBU_USER_PREFIX='/project/project_462000559/EasyBuild'
 export PYTHONPATH='$PYTHONPATH:/scratch/project_462000559/kostis/libs/analysator'

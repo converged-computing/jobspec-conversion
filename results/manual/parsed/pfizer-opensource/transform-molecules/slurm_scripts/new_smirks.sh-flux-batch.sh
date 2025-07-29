@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-signal-8268
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-milkshake-1496
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='...'
 export OE_LICENSE='.../oe_license.txt'

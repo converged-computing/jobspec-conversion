@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-platanos-9067
-#FLUX: --queue=gpuq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-chair-4997
+#FLUX --queue=gpuq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export myRep='$MYGROUP/singularity/oct_ca '
 export containerImage='$myRep/oct_ca_latest-fastai-skl-ski-mlflow-d2-opencv-coco.sif'

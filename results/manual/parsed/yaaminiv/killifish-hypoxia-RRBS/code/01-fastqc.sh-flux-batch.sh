@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_fastqc
-#FLUX: -c=8
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=yrv_fastqc
+#FLUX -c=8
+#FLUX --queue=compute
+#FLUX -t=10800
+#FLUX --urgency=16
 
 output_dir=/vortexfs1/scratch/yaamini.venkataraman/01-fastqc
 checksums=fastq_checksums.md5

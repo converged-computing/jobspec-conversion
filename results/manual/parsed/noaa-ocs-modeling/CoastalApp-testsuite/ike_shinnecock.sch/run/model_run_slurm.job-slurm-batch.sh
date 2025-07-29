@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=IKSH_sch_RUN
-#FLUX: -n=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=IKSH_sch_RUN
+#SBATCH --account=coastal
+#SBATCH --output=IKSH_sch_RUN.out.log
+#SBATCH --error=IKSH_sch_RUN.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

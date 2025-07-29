@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=dp_llama_cs798Research_job
-#FLUX: --queue=gpuq
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=dp_llama_cs798Research_job
+#SBATCH --output=/scratch/dmeher/slurm_outputs/dp_llama_cs798Research.%j.out
+#SBATCH --error=/scratch/dmeher/slurm_outputs/dp_llama_cs798Research.%j.err
+#SBATCH --mail-user=dmeher@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100.40gb:1
+#SBATCH --mem=80GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpuq
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 set echo
 umask 0027

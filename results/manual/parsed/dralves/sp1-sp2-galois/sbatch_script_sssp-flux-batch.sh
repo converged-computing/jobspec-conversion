@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sp1
-#FLUX: --queue=skx-normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=sp1
+#FLUX --queue=skx-normal
+#FLUX -t=7200
+#FLUX --urgency=16
 
     #  "sbatch knl.serial.slurm" on a Stampede2 login node.
     #    A serial code ignores the value of lower case n,

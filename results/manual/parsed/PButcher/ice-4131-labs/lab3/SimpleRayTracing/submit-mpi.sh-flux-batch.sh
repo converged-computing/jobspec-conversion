@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-butter-7463
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-plant-3247
+#FLUX --urgency=16
 
 export SCW_TPN_OVERRIDE='1'
 

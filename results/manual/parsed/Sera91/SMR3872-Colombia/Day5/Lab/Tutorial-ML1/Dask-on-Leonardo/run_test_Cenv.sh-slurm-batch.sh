@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=cl_test
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cl_test
+#SBATCH --account=ict23_esp_0
+#SBATCH --output=/leonardo_work/ICT23_SMR3872/sdigioia/test_env/run.out
+#SBATCH --error=/leonardo_work/ICT23_SMR3872/sdigioia/test_env/run.err
+#SBATCH --mail-user=sdigioia@sissa.it
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=60G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=32
 
 module purge
 module load --auto profile/deeplrn

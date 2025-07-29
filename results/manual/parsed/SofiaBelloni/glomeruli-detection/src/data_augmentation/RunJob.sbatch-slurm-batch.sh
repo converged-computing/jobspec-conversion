@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=data_augmentation
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=data_augmentation
+#SBATCH --mail-user=s317626@studenti.polito.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=05:00:00
 
 module load intel/python/3/2019.4.088
 module load nvidia/cudasdk/11.6

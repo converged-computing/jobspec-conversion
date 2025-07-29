@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=__jobName
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=__jobName
+#SBATCH --output=./std.out
+#SBATCH --error=./std.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=[intel|amd],ntasks-per-node=4
 
     module load wannier90/3.0.0/openmpi-3.0.0-intel2017
     module load quantumespresso/6.6

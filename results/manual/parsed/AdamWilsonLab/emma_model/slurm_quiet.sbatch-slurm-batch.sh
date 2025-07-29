@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=EMMA model slurm_sing2.sh
-#FLUX: --queue=adamw
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=EMMA model slurm_sing2.sh
+#SBATCH --output=singularity_test2.out
+#SBATCH --mail-user=bmaitner@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=adamw
+#SBATCH --qos=adamw
+#SBATCH --constraint=INTEL
 
   export PROJECT_FOLDER="/panasas/scratch/grp-adamw/"
   export APPTAINER_CACHEDIR="/panasas/scratch/grp-adamw/"$USER"/singularity"

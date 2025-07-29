@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=extract_data_from_hf
-#FLUX: -c=4
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_data_from_hf
+#SBATCH --account=IscrB_medit
+#SBATCH --output=logs/minestral-350m-en-it-07012024/extract_data_from_hf-job.out
+#SBATCH --error=logs/minestral-350m-en-it-07012024/extract_data_from_hf-job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_DATASETS_CACHE='$WORK/hf_cache'
 

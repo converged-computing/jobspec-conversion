@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=montecarlo
-#FLUX: -n=18
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=montecarlo
+#SBATCH --account=users
+#SBATCH --output=%j-slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=18
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 INPUT_FILE=""
 source /etc/profile.d/zzz_cta.sh

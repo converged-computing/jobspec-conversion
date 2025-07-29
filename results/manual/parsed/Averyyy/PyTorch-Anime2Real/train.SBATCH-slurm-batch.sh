@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cyclegan_a2r
-#FLUX: -c=6
-#FLUX: --queue=aquila
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=cyclegan_a2r
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --mail-user=hq443@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:3090:1
+#SBATCH --mem=12GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=aquila
 
 module purge
 module load anaconda3

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20201206_cgig_fastp-10bp-5-3-prime_ploidy-pH-wgbs
-#FLUX: --queue=coenv
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=20201206_cgig_fastp-10bp-5-3-prime_ploidy-pH-wgbs
+#SBATCH --account=coenv
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=coenv
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20201206_cgig_fastp-10bp-5-3-prime_ploidy-pH-wgbs
 
 threads=27
 trimmed_checksums=trimmed_fastq_checksums.md5

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=uk_modern
-#FLUX: -n=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=uk_modern
+#SBATCH --account=ENV-TSUNAMI-2019
+#SBATCH --output=thetis_%j.log
+#SBATCH --mail-user=jon.hill@york.ac.uk
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export LD_LIBRARY_PATH='/mnt/scratch/projects/env-tsunami-2019/firedrake_dec23/src/petsc/default/lib/:$LD_LIBRARY_PATH'
 export OMP_NUM_THREADS='1'

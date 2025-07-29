@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HPL_1n_12p_2t
-#FLUX: -n=24
-#FLUX: -t=2220
-#FLUX: --urgency=16
+#SBATCH --job-name=HPL_1n_12p_2t
+#SBATCH --output=./results/HPL_1n_12p_2t.%j.%N.out
+#SBATCH --error=./results/HPL_1n_12p_2t.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:37:00
+#SBATCH --constraint=ntasks-per-node=24
 
 export OMP_NUM_THREADS='2'
 

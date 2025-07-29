@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-car-5427
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=arid-muffin-1825
+#FLUX -t=864000
+#FLUX --urgency=16
 
 source activate varaedes
 cd ${aedes_path}data/output/

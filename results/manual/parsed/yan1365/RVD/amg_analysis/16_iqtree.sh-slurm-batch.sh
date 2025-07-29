@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree_dcd_%j
-#FLUX: -n=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iqtree_dcd_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=iqtree_dcd_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 START=$SECONDS
 cd  /fs/ess/PAS0439/MING/virome/amg_analysis/comparative_genomics_analysis/dcd

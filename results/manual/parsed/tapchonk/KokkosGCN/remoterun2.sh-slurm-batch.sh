@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=$(
-#FLUX: -c=2
-#FLUX: --queue=gecko
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=$(
+#SBATCH --output=%j/cs310_output_%j.out
+#SBATCH --error=%j/cs310_error_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:0
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gecko
 
 export OMP_NUM_THREADS='2'
 export OMP_PROC_BIND='spread'

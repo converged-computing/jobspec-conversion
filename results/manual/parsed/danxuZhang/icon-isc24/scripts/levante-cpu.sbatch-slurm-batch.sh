@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scc
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=scc
+#SBATCH --account=ka1273
+#SBATCH --output=%x.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=compute
 
 ulimit -s unlimited
 ulimit -c 0

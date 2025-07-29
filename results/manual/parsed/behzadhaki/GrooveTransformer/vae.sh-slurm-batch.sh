@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_small
-#FLUX: -c=10
-#FLUX: --queue=high
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sweep_small
+#SBATCH --output=%N.%J.VAE_test_loader.out
+#SBATCH --error=%N.%J.VAE_test_loader.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:quadro:1
+#SBATCH --mem=16g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=high
 
 export PATH='$HOME/miniconda_envs/anaconda3/envs/GrooveTransformer:$PATH'
 export WANDB_API_KEY='API_KEY'

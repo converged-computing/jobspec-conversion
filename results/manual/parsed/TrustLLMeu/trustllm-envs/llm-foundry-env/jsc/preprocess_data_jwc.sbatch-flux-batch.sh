@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-rabbit-2406
-#FLUX: -c=48
-#FLUX: --queue=devel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-plant-5393
+#FLUX -c=48
+#FLUX --queue=devel
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export INPUT_DATA_FILE='/p/scratch/trustllm-eu/example-data/tiny-c4-10k.jsonl'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pet
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pet
+#SBATCH --output=/home/mila/c/chris.emezue/pet-masakhane-news/slurm/slurmoutput_pet_install_%j.txt
+#SBATCH --error=/home/mila/c/chris.emezue/pet-masakhane-news/slurm/slurmerror_pet_install_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 cd /home/mila/c/chris.emezue/pet-masakhane-news
 module load python/3

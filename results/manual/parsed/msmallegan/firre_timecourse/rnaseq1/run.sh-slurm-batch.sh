@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ftc-rnaseq
-#FLUX: --queue=long
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=ftc-rnaseq
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --mail-user=michael.smallegan@colorado.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=long
 
 pwd; hostname; date
 echo "You've requested $SLURM_CPUS_ON_NODE core."

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grids
-#FLUX: --queue=tier1q
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=grids
+#FLUX --queue=tier1q
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc/12.1.0
 module load python/3.10.5

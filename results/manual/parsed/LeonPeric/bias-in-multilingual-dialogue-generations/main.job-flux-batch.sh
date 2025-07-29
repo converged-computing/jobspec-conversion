@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=runATCS
-#FLUX: -c=18
-#FLUX: --queue=gpu_mig
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#FLUX --job-name=runATCS
+#FLUX -c=18
+#FLUX --queue=gpu_mig
+#FLUX -t=129540
+#FLUX --urgency=16
 
 module purge
 module load 2022

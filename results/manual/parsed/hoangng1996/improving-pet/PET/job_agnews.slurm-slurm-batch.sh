@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PET_CILVR
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=PET_CILVR
+#SBATCH --output=./job_logs/agnews/%j_%x.out
+#SBATCH --error=./job_logs/agnews/%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
 
 export PATH='/ext3/miniconda3/bin:$PATH'
 export OMP_NUM_THREADS='1'

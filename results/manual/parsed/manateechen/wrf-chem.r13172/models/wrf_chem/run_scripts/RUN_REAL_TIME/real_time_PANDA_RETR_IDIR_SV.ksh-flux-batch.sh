@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=${JOBRND}
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=${JOBRND}
+#FLUX -N=4
+#FLUX --queue=compute
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CYCLE_STR_DATE='2014072418'
 export CYCLE_END_DATE='2014072500'

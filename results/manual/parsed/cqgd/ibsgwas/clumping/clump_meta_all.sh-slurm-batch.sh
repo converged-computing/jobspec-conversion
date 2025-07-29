@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LDclump_meta
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=LDclump_meta
+#SBATCH --output=/gfs/work/ceijsbouts/ibs/jobs/stream/job_%A_%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH --array=1-22
 
 CHR=${SLURM_ARRAY_TASK_ID}
 METAS=(metal_ICD_diag metal_ROME_Q metal_Qonly_Qnon_any metal_MAURO metal_ICD_ROME_EURUSA_Qonly_Qnon metal_ICD_ROME_EURUSA_any metal_ICD_diag)

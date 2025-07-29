@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chip-8545
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pot-5488
+#FLUX -c=10
+#FLUX --urgency=16
 
 export TENSORPACK_PROGRESS_REFRESH='20'
 export TENSORPACK_SERIALIZE='msgpack'

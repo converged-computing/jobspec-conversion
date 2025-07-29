@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-poodle-5843
-#FLUX: -c=48
-#FLUX: --queue=hpc4-3d
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=2-23:59:59
+#SBATCH --partition=hpc4-3d
+#SBATCH --chdir=/s/ls4/users/leokul01/dineof3/script
 
 export OPENBLAS_NUM_THREADS='2'
 

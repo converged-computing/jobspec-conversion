@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Train_CNN
-#FLUX: --queue=zen2_0256_a40x2
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_CNN
+#SBATCH --output=output.txt
+#SBATCH --mail-user=maikebauer42@gmail.com
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=zen2_0256_a40x2
+#SBATCH --qos=zen2_0256_a40x2
 
 export PYTORCH_ENABLE_MPS_FALLBACK='1'
 

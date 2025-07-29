@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prop_voting_rts_p_sweep
-#FLUX: -N=4
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=prop_voting_rts_p_sweep
+#FLUX -N=4
+#FLUX --queue=cm2_tiny
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

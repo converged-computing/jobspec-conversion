@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kitty-4111
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 module load 2021
 module load TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1

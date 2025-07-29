@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hobbit-3263
-#FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=160G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=hpc
+#SBATCH: --exclusive
 
 export MALLOC_ARENA_MAX='4'
 

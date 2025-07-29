@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-puppy-0660
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-truffle-1940
+#FLUX -c=4
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/.rstudio-age/rocker-rstudio/${RSTUDIO_VERSION}'

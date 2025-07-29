@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hmsc-hpc_fit
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=hmsc-hpc_fit
+#SBATCH --account=project_1234567
+#SBATCH --output=output/%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=32G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=301-309,501-509,701-709
 
 ind=$SLURM_ARRAY_TASK_ID
 MT=${1:-0}

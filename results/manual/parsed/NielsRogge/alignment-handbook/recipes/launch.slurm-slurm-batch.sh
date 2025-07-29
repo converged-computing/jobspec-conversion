@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lamp-0794
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/h4/logs/%x-%j.out
+#SBATCH --error=/fsx/h4/logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CMD=' \'
 export LAUNCHER='ACCELERATE_LOG_LEVEL=info accelerate launch \'

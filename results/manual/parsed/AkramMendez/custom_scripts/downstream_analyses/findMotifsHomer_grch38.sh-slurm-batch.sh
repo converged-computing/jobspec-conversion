@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=findMotifsHomer
-#FLUX: -n=8
-#FLUX: --queue=core
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=findMotifsHomer
+#SBATCH --account=naiss2023-22-153
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools
 module load HOMER/4.11

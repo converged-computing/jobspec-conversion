@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pt_train
-#FLUX: -c=64
-#FLUX: --gpus-per-task=4
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=pt_train
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gpus-per-task=4
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=h100,ib
 
 echo "#################### Job submission script. #############################"
 cat $0

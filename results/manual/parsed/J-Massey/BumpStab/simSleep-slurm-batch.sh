@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amd
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=amd
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=64
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pyPLUTO1
-#FLUX: --queue=tornado
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=pyPLUTO1
+#SBATCH --output=pic-%j.out
+#SBATCH --error=pic-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=tornado
 
 export OMP_NUM_THREADS='1'
 

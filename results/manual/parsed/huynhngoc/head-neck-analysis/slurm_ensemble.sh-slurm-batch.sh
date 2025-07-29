@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ensemble
-#FLUX: --queue=smallmem
-#FLUX: --urgency=16
+#SBATCH --job-name=ensemble
+#SBATCH --output=outputs/ensemble-%A.out
+#SBATCH --error=outputs/ensemble-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --partition=smallmem
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

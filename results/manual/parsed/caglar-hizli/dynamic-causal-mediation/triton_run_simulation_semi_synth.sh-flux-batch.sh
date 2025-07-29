@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-milkshake-8534
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lemon-1468
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SRDIR='out/sampler_semi_synth'
 export Np='50'

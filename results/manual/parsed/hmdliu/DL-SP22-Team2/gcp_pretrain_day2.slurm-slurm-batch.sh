@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --account=csci_ga_2572_2022sp_02
+#SBATCH --output=mae-day2.out
+#SBATCH --error=mae-day2.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=n1c24m128-v100-4
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

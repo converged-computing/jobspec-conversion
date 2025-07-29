@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pastry-4118
-#FLUX: -c=8
-#FLUX: --queue=iris-hi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=iris
+#SBATCH --output=clusterlogs/clusteroutput%j.out
+#SBATCH --mail-user=maxjdu@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=iris-hi
+#SBATCH --constraint=48G
+#SBATCH --exclude=iris2
 
 source ~/.bashrc
 conda activate cs330

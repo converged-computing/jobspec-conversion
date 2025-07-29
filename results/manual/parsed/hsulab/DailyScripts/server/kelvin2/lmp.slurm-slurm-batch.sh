@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bPtO2-nvt
-#FLUX: -n=5
-#FLUX: -c=4
-#FLUX: --queue=k2-hipri
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=bPtO2-nvt
+#SBATCH --output=slurm.o%j
+#SBATCH --error=slurm.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=00:30:00
+#SBATCH --partition=k2-hipri
 
 module purge
 module load services/s3cmd

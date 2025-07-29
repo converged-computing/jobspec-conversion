@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-2211
-#FLUX: -n=20
-#FLUX: --queue=node
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-kerfuffle-7724
+#FLUX -n=20
+#FLUX --queue=node
+#FLUX --urgency=16
 
 set -e -x
 source ${SLURM_SUBMIT_DIR:-$(pwd)}/../UPSCb-common/src/bash/functions.sh

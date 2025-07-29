@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ttestae
-#FLUX: --queue=msfea-ai
-#FLUX: --urgency=16
+#SBATCH --job-name=ttestae
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=0
+#SBATCH --partition=msfea-ai
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load python/tensorflow-2.3.1

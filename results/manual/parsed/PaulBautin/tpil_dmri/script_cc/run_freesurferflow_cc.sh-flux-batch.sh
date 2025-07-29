@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-3224
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=arid-fork-1340
+#FLUX -c=32
+#FLUX -t=86400
+#FLUX --urgency=16
 
                                # See the comment for the cpus-per-task. One general rule could be
                                # that if you have more subjects than cores/cpus (ex, if you process 38

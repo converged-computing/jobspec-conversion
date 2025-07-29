@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-punk-9304
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-malarkey-4116
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=72000
+#FLUX --urgency=16
 
 vid="new-vids"
 cp -r $HOME/motion-analysis $TMPDIR

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=exago_spack
-#FLUX: -n=128
-#FLUX: --queue=newell8
-#FLUX: --urgency=16
+#FLUX --job-name=exago_spack
+#FLUX -n=128
+#FLUX --queue=newell8
+#FLUX --urgency=16
 
 export MY_CLUSTER='newell'
 

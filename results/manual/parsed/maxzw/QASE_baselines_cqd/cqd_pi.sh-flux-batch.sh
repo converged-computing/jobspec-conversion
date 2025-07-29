@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-animal-2275
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-signal-7869
+#FLUX -c=2
+#FLUX --queue=gpu_shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge all
 module load 2021

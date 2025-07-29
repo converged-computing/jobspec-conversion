@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=socratic_exp
-#FLUX: --queue=GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=socratic_exp
+#SBATCH --output=%j.o
+#SBATCH --error=%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPU
+#SBATCH --constraint=ntasks-per-node=16
 
 source activate socratic_env
 echo "loaded module"

@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=${RUN_CONFIG_PREFIX}
-#FLUX: -c=2
-#FLUX: --urgency=16
+#SBATCH --job-name=${RUN_CONFIG_PREFIX}
+#SBATCH --output=${RUNS_PATH}/%A_%a_slurm.out
+#SBATCH --error=${RUNS_PATH}/%A_%a_slurm.err
+#SBATCH --mail-user=${USER}@kth.se
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2GB
+#SBATCH --constraint=khazadum|rivendell|belegost|shire|gondor
+#SBATCH --array=1-${SLURM_ARRAY_TASK_ID}%${SLURM_MAX_TASKS}
 
 RUNS_PATH="${HOME}/rpl-workshop/runs"
 DATA_PATH="/local_storage/datasets/CUB_20"

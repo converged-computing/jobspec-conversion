@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=toga
-#FLUX: --queue=shared
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=toga
+#SBATCH --output=toga.%A.out
+#SBATCH --error=toga.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=23:00:00
+#SBATCH --partition=shared
 
 module purge
 module load python

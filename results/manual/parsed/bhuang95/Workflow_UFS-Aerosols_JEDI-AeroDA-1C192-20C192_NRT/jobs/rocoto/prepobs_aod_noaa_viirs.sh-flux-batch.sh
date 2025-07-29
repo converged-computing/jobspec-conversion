@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-taco-4417
-#FLUX: --urgency=16
+#FLUX --job-name=blue-blackbean-9465
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/Mariusz.Pagowski/MAPP_2018/libs/fortran-datetime/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}'
 export PATH='/scratch2/BMC/wrfruc/Samuel.Trahan/viirs-thinning/mpiserial/exec:$PATH'

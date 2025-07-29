@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chip-8929
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2022-22-707
+#SBATCH --mail-user=ja6750kr-s@student.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 nvidia-smi
 ml Anaconda3

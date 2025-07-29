@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leg-7586
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gtarjun/SVM-for-Spatio-Temporal-Signal-Interpolation-and-Source-Location-Estimation/crossvalidation/Working_Folder

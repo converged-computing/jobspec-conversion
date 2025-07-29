@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=finetunemocounet
-#FLUX: -c=6
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=finetunemocounet
+#FLUX -c=6
+#FLUX -t=2400
+#FLUX --urgency=16
 
 source /home/codee/miniconda3/etc/profile.d/conda.sh
 conda activate base

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lstm-train
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=lstm-train
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 set -euxo pipefail
 srun nvidia-smi

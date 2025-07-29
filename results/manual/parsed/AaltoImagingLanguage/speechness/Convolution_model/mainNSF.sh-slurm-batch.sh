@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hope-8463
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=15:00:00
 
 srun ./run_mainNSF_1.sh /appl/math/matlab/R2014a

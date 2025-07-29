@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cherry-9860
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-cherry-3758
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ninamiolane/compSPI/src/ray_slac_run_pipeline.bat

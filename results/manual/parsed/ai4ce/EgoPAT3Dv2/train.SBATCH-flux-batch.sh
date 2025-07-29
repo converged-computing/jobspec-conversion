@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=TR_cn_t_post_hand_newloss_1
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=rtx8000,a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
-#FLUX: -t=158400
-#FLUX: --urgency=16
+#FLUX --job-name=TR_cn_t_post_hand_newloss_1
+#FLUX -N=4
+#FLUX -c=12
+#FLUX --queue=rtx8000,a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
+#FLUX -t=158400
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 

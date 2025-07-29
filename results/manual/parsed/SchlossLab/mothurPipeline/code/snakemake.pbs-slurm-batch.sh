@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pot-4646
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SchlossLab/mothurPipeline/code/snakemake.pbs

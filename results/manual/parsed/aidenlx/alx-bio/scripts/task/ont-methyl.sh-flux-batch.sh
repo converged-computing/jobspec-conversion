@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parsnip-8623
-#FLUX: -c=16
-#FLUX: --queue=AI
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-butter-5713
+#FLUX -c=16
+#FLUX --queue=AI
+#FLUX --urgency=16
 
 source $HOME/alx-bio/scripts/_base.sh
 conda_init conda

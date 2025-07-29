@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-salad-7172
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-mango-2204
+#FLUX -t=64800
+#FLUX --urgency=16
 
 export MCR_CACHE_ROOT='/tmp/$SLURM_JOB_ID'
 

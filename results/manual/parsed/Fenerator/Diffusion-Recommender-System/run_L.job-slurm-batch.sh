@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=L
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=L
+#SBATCH --output=L_TRAIN_YELP_CLEAN_CAT_2_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64000M
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module load 2021
 module load Anaconda3/2021.05

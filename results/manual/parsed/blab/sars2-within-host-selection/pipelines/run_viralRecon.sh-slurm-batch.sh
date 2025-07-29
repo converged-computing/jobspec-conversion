@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hobbit-9448
-#FLUX: -n=36
-#FLUX: --queue=campus-new
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=logs/nextflow.out
+#SBATCH --error=logs/nextflow.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=02:00:00
+#SBATCH --partition=campus-new
 
 load_modules() {
   module purge

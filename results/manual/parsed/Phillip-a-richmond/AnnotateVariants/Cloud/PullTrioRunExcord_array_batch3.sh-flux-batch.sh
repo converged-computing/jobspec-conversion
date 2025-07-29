@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-omelette-2111
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-poo-5647
+#FLUX --urgency=16
 
 AnnotateVariantsDir=/shared/AnnotateVariants/
 Final_Dir=/shared/SVOutput/

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SE3LieConv_molecule
-#FLUX: --queue=ziz-gpu
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=SE3LieConv_molecule
+#FLUX --queue=ziz-gpu
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 source /data/ziz/not-backed-up/mhutchin/eqv_transformer/venv_38/bin/activate
 tasks=(homo lumo gap alpha mu Cv G H r2 U U0 zpve)

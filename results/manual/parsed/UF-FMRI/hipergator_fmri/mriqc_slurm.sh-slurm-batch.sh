@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc
+#SBATCH --account=stevenweisberg
+#SBATCH --output=mriqc_%j.out
+#SBATCH --mail-user=stevenweisberg@ufl.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24gb
+#SBATCH --time=12:00:00
+#SBATCH --qos=stevenweisberg-b
 
 module load singularity
 BIDS_dir=/blue/stevenweisberg/stevenweisberg/MVPA_ARROWS/

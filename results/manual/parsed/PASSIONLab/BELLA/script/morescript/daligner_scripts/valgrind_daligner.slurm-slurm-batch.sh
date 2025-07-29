@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-7661
-#FLUX: -c=64
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=02:00:00
+#SBATCH --constraint=haswell
 
 export PATH='/global/common/software/m2865/bella-proj/g0-bin:$PATH'
 

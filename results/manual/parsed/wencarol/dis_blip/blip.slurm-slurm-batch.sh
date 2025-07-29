@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=4
-#FLUX: --queue=gpu-normal
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=test.out
+#SBATCH --error=test.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=gpu-normal
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

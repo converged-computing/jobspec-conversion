@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=painn_train
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=painn_train
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load GCC  OpenMPI torchvision/0.13.1-CUDA-11.7.0

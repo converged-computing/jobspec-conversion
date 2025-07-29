@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conf
-#FLUX: --queue=tcb
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=conf
+#FLUX --queue=tcb
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

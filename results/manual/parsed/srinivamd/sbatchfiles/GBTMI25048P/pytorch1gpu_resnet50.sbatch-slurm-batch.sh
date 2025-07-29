@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-4356
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --constraint=ntasks-per-node=1
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

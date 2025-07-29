@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pmf_noGUI_try
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pmf_noGUI_try
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load r  #will load default r version
 module load singularity

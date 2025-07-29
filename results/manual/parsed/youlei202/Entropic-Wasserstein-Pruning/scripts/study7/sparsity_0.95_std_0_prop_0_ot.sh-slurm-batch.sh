@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-destiny-4325
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/youlei202/Entropic-Wasserstein-Pruning/scripts/study7/sparsity_0.95_std_0_prop_0_ot.sh

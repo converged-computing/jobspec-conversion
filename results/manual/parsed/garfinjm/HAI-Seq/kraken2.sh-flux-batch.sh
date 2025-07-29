@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-pedo-6275
-#FLUX: -t=28801
-#FLUX: --urgency=16
+#FLUX --job-name=blank-signal-3020
+#FLUX -t=28801
+#FLUX --urgency=16
 
 ACCESSION=$1
 THREADS=$2

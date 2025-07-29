@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=f_i
-#FLUX: -c=10
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=f_i
+#SBATCH --account=rqz@a100
+#SBATCH --output=local_logs/f_i.out
+#SBATCH --error=local_logs/f_i.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=15:00:00
+#SBATCH --constraint=a100
+#SBATCH --array=0-4
 
 export PYTHONUSERBASE='$WORK/.local_flacon'
 export GIT_PYTHON_REFRESH='quiet'

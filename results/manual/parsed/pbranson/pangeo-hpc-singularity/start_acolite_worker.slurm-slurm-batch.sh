@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=acolite-worker
-#FLUX: -n=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=acolite-worker
+#SBATCH --account=pawsey0106
+#SBATCH --output=acolite-worker-%J.out
+#SBATCH --error=acolite-worker-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=01:00:00
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

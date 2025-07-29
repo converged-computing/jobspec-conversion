@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vctk_AD_v0
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=vctk_AD_v0
+#FLUX -c=16
+#FLUX --queue=xxx
+#FLUX -t=604800
+#FLUX --urgency=16
 
 autoencoder=autoencoder/symAD_vctk_48000_hop300
 tag_name="vocoder/AudioDec_v0_symAD_vctk_48000_hop300_clean"

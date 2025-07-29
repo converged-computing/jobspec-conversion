@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blue-despacito-9823
-#FLUX: --queue=standard
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=berglandlab
+#SBATCH --mail-user=caw5cv@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --time=01:30:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=4
 
 module load gcc
 module load R/3.5.1

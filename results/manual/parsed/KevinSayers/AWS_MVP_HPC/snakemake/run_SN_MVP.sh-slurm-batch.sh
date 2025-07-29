@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CCBRPipeline
-#FLUX: -c=2
-#FLUX: --queue=norm
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=CCBRPipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10g
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=norm
 
 export SINGULARITY_CACHEDIR='/data/gangalapudiv2/singularity'
 

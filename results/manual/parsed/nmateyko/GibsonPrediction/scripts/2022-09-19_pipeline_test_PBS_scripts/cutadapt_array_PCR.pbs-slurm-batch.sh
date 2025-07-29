@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-carrot-4401
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nmateyko/GibsonPrediction/scripts/2022-09-19_pipeline_test_PBS_scripts/cutadapt_array_PCR.pbs

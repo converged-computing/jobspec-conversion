@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=clustering
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=clustering
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --mail-user=tsoelter@uab.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=65000
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='$USER'

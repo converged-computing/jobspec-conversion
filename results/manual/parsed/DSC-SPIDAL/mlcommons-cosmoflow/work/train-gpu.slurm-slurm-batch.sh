@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-gpu-cosmoflow
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=bii-gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=train-gpu-cosmoflow
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j.out
+#SBATCH --error=%u-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=bii-gpu
 
 export RUN_DIR='/scratch/$USER'
 export IMAGE='/$RUN_DIR/cosmoflow/mlcommons-cosmoflow/work/cosmoflow.sif'

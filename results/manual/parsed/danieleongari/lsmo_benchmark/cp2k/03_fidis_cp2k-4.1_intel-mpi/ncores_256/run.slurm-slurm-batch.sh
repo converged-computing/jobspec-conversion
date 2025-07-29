@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-motorcycle-8685
-#FLUX: -N=10
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=10
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

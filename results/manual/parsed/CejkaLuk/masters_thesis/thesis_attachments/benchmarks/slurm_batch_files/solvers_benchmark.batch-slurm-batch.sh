@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cattywampus-5110
-#FLUX: -c=32
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=solvers_benchmark.out
+#SBATCH --mail-user=cejkaluk@fjfi.cvut.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=g[11-12]
 
 module load CMake/3.24.3-GCCcore-12.2.0
 module load CUDA/12.0.0

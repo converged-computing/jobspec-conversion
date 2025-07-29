@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leopard-1789
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/weissvl/shengq2/20210616_human_exomeseq/bwa_g4_refine_gatk4_CNV_Germline_05_GermlineCNVCaller_2_scatterCall/log/human_exomeseq_ITER_050_gcc.log
+#SBATCH --mail-user=quanhu.sheng.1@vumc.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=44G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=haswell
 
 export R_LIBS=''
 export PYTHONPATH=''

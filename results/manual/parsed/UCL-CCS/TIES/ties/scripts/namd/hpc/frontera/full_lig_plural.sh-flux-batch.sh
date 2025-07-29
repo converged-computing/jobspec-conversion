@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -N=13
-#FLUX: -n=13
-#FLUX: --queue=development
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=namd
+#FLUX -N=13
+#FLUX -n=13
+#FLUX --queue=development
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load namd
 TASKS_PER_JOB=55 # 1 reserved for comm

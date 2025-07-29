@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-buttface-5988
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-cattywampus-6948
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 MODEL=(cifar_vgg_16_64 cifar_resnet_20_64)
 DATASET=(svhn cifar100)

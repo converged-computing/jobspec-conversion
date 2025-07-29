@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hobbit-7037
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-toaster-0033
+#FLUX --urgency=16
 
 AF_PATH=/fsx/alphafold2/alphafold/
 DB_PATH=/fsx/alphafold2/database/

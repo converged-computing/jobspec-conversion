@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=north-sea_oysters_basic-exp
-#FLUX: -n=123
-#FLUX: --queue=base
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=north-sea_oysters_basic-exp
+#SBATCH --nodes=1
+#SBATCH --ntasks=123
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=base
 
 module load gcc12-env/12.3.0 
 module load singularity/3.11.5

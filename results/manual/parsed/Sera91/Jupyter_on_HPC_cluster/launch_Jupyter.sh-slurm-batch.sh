@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CDtutorial
-#FLUX: -c=4
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CDtutorial
+#SBATCH --account=ict24_esp
+#SBATCH --output=jupyter_notebook.txt
+#SBATCH --error=jupyter_notebook.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10000
+#SBATCH --time=01:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=8
 
 cd /leonardo_work/ICT24_ESP/sdigioia/Tutorial-causal-discovery/
 source $HOME/.bashrc

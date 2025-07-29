@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-avocado-5867
-#FLUX: --queue=htc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=htc
 
 module load singularity 
 module load spack

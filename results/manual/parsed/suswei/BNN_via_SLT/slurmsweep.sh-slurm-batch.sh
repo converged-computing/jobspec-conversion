@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=icml
-#FLUX: --queue=gpu-a100
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=icml
+#SBATCH --mail-user=susan.wei@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu-a100
+#SBATCH --array=0-3839
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

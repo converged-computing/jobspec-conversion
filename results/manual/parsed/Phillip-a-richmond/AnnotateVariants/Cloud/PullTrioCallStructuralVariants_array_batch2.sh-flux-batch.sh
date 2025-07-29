@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-platanos-5683
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-pancake-8831
+#FLUX -c=32
+#FLUX --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/

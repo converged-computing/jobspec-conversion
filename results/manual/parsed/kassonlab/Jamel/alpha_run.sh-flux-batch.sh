@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-9448
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-lentil-3582
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export FASTA='$1'
 export ALPHA_OUT='$2'

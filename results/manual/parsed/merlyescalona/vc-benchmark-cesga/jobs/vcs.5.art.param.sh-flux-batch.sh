@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=art
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=art
+#FLUX --queue=shared
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo -e "[$(date)]\nDefinition"
 command=$(awk "NR==${SLURM_ARRAY_TASK_ID}" $1)

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-latke-4543
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=park
+#SBATCH --output=logs/%j_pipeline.log
+#SBATCH --error=logs/%j_pipeline.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=priority
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.3

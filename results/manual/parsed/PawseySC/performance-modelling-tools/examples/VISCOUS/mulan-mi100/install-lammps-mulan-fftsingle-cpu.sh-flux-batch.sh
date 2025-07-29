@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-motorcycle-7131
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-lettuce-6493
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

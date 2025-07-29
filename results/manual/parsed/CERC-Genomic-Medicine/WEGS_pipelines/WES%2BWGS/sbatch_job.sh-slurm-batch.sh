@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=merge_bams
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=merge_bams
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 module load nextflow
 module load samtools

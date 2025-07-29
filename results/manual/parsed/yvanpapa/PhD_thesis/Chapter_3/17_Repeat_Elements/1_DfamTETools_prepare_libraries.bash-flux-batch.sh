@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=repeat_libraries
-#FLUX: -c=24
-#FLUX: --queue=bigmem
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=repeat_libraries
+#FLUX -c=24
+#FLUX --queue=bigmem
+#FLUX -t=864000
+#FLUX --urgency=16
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/3_Dfam_TETools_3d_run/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

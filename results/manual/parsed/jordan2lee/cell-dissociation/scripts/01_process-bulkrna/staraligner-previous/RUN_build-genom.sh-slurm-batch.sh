@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=docker-buildgenom
-#FLUX: -n=12
-#FLUX: --queue=exacloud
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=docker-buildgenom
+#SBATCH --output=../../logs/slurm.%N.%j.out
+#SBATCH --error=../../logs/slurm.%N.%j.err
+#SBATCH --mail-user=leejor@ohsu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=exacloud
 
 dir=/home/groups/EllrottLab/cell-dissociation
 ses=build-ref-genom

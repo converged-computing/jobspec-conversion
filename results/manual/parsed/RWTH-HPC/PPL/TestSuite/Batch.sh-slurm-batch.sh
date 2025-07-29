@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Testing
-#FLUX: -n=2
-#FLUX: -c=48
-#FLUX: --queue=c18g
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Testing
+#SBATCH --output=output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:volta:2
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=10:00:00
+#SBATCH --partition=c18g
 
 module unload intel
 module unload intelmpi

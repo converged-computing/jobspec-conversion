@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=project
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=project
+#SBATCH --output=6epochtest.txt
+#SBATCH --mail-user=yl8798@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:rtx8000:4
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
 
 module purge
 module load anaconda3/2020.07

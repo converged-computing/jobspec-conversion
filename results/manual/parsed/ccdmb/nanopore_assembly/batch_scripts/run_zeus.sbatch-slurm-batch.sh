@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-banana-8398
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=workq
 
 module load nextflow
 module load java

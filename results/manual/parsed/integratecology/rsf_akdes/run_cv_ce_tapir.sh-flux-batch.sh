@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tapir_cv
-#FLUX: --queue=defq,intel
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=tapir_cv
+#FLUX --queue=defq,intel
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/alston92/software/proj-8.0.1/lib:$LD_LIBRARY_PATH'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DSGT
-#FLUX: -c=36
-#FLUX: --queue=gpu
-#FLUX: -t=3600000
-#FLUX: --urgency=16
+#SBATCH --job-name=DSGT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --gres=gpu:4
+#SBATCH --mem=128000
+#SBATCH --time=41-16:00:00
+#SBATCH --partition=gpu
 
 singularity exec \
   --nv \

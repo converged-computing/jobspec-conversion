@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cutnrun_chip_nfcore
-#FLUX: --queue=long
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=cutnrun_chip_nfcore
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --mail-user=michael.smallegan@colorado.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=long
 
 pwd; hostname; date
 module load singularity/3.1.1

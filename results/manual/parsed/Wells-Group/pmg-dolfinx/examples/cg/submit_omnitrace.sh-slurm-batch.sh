@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=examplejob
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=examplejob
+#SBATCH --account=project_465000356
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export SPACK_DIR='/scratch/project_465000356/adrianj/spack'
 export MPICH_GPU_SUPPORT_ENABLED='1'

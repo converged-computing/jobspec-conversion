@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bookcorpus-preprocess
-#FLUX: -c=128
-#FLUX: --queue=yolo
-#FLUX: --urgency=16
+#FLUX --job-name=bookcorpus-preprocess
+#FLUX -c=128
+#FLUX --queue=yolo
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/beegfs/work/zhang/conda/env/lib'
 export WANDB_CACHE_DIR='/ukp-storage-1/zhang/wandb/cache'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-animal-2145
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-toaster-9110
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ml python/3.6.4
 module load miniconda/3

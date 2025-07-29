@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=imb_8_2
-#FLUX: -N=8
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=imb_8_2
+#SBATCH --output=/home/mdavezac/swift/swift_8_2/out
+#SBATCH --error=/home/mdavezac/swift/swift_8_2/err
+#SBATCH --nodes=8
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH: --exclusive
 
 set -e
 module purge

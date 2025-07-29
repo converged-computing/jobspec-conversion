@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=12m_mort
-#FLUX: -c=5
-#FLUX: --queue=nigam-v100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=12m_mort
+#FLUX -c=5
+#FLUX --queue=nigam-v100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 seeds="0"
 n_gpus=1

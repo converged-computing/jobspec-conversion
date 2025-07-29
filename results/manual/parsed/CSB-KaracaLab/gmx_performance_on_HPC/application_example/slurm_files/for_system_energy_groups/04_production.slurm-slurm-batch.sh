@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=barbun_2020_sys
-#FLUX: -n=40
-#FLUX: --queue=barbun-cuda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=barbun_2020_sys
+#SBATCH --account=bsavas
+#SBATCH --output=complex-%j.out
+#SBATCH --error=complex-%j.err
+#SBATCH --mail-user=buusrasavas@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=barbun-cuda
+#SBATCH --nodelist=barbun137
 
 export OMP_NUM_THREADS='20'
 

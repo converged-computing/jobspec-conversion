@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=amygdala
-#FLUX: -c=6
-#FLUX: --queue=bluemoon
-#FLUX: -t=106200
-#FLUX: --urgency=16
+#SBATCH --job-name=amygdala
+#SBATCH --output=log/rsfc/group/%x/COC-rh-gsr-3dlmer_%A-%a.out
+#SBATCH --error=log/rsfc/group/%x/COC-rh-gsr-3dlmer_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=8gb
+#SBATCH --time=1-05:30:00
+#SBATCH --partition=bluemoon
 
 pwd; hostname; date
 set -e

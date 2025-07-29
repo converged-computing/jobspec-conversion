@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bml-cv
-#FLUX: --queue=dgx2q
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bml-cv
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=dgx2q
+#SBATCH --array=0-11
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

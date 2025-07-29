@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-poo-6187
-#FLUX: --queue=v100_normal_q
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --account=vijays
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=15:00:00
+#SBATCH --partition=v100_normal_q
 
 module purge
 module load cuda/10.1.168

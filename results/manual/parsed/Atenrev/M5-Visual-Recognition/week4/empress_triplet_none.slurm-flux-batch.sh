@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-0630
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-leopard-5246
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_b.py \
     --loss "triplet"  \

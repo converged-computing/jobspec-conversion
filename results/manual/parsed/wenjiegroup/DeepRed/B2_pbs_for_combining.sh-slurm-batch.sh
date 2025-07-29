@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-platanos-5404
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/wenjiegroup/DeepRed/B2_pbs_for_combining.sh

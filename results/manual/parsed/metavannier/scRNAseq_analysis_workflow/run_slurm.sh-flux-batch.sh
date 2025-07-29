@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=allen_SIMS
-#FLUX: --queue=kepler
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=allen_SIMS
+#FLUX --queue=kepler
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load userspace/all

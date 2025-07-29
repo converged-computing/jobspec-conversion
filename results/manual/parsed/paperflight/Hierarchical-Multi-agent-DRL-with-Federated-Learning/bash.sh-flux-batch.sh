@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alphavr
-#FLUX: -n=10
-#FLUX: -t=519120
-#FLUX: --urgency=16
+#FLUX --job-name=alphavr
+#FLUX -n=10
+#FLUX -t=519120
+#FLUX --urgency=16
 
 ulimit -n 4096
 git status

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=JobExample1
-#FLUX: -n=500
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=JobExample1
+#FLUX -n=500
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PATH='$SCRATCH/programs/EnergyPlus-9-4-0:$PATH'
 

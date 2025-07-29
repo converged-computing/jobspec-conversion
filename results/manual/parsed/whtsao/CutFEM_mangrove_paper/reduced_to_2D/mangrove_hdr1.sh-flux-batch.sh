@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cox_2D_HD_r1
-#FLUX: -N=16
-#FLUX: -n=768
-#FLUX: --queue=workq
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=cox_2D_HD_r1
+#FLUX -N=16
+#FLUX -n=768
+#FLUX --queue=workq
+#FLUX -t=259200
+#FLUX --urgency=16
 
 date
 module purge

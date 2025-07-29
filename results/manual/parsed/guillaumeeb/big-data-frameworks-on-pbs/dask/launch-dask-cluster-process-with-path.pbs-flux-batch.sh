@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peanut-0611
-#FLUX: --urgency=16
+#FLUX --job-name=arid-kitty-7303
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/guillaumeeb/big-data-frameworks-on-pbs/dask/launch-dask-cluster-process-with-path.pbs

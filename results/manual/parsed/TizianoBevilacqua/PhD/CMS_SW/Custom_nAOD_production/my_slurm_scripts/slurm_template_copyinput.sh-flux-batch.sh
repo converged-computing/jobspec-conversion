@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-soup-3118
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-spoon-7192
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

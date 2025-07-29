@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=JamesBaxterThumper_seq
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=50
+#FLUX --job-name=JamesBaxterThumper_seq
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=50
 
 cd /fs/cfar-projects/anim_inb
 source env3-9-5/bin/activate

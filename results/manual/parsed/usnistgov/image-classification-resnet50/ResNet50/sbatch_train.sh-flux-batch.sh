@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50
-#FLUX: -c=160
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet50
+#FLUX -c=160
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 test_every_n_steps=1000
 batch_size=8 # 4x across the gpus

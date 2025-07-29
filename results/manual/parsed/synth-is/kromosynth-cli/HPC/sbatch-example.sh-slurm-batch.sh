@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=kromosynth-conf-duration_delta_pitch_combinations-singleCellWin
-#FLUX: -n=35
-#FLUX: --queue=ifi_accel
-#FLUX: -t=930
-#FLUX: --urgency=16
+#SBATCH --job-name=kromosynth-conf-duration_delta_pitch_combinations-singleCellWin
+#SBATCH --account=ec29
+#SBATCH --output=/fp/projects01/ec12/bthj/kromosynth/slurm-output/kromosynth-conf-duration_delta_pitch_combinations-singleCellWin-${iteration}.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=35
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=00:15:30
+#SBATCH --partition=ifi_accel
 
 for iteration in {1..100}; do
     # Generate the SLURM script to be submitted

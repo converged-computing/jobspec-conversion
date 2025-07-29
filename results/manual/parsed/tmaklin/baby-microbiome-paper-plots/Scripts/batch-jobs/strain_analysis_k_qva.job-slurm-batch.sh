@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wgs-msweep-k-qva-strain-bins
-#FLUX: -t=28799
-#FLUX: --urgency=16
+#SBATCH --job-name=wgs-msweep-k-qva-strain-bins
+#SBATCH --output=/wrk/users/temaklin/wgs-msweep/logs/wgs-msweep-k-qva-strain-bins.out
+#SBATCH --error=/wrk/users/temaklin/wgs-msweep/logs/wgs-msweep-k-qva-strain-bins.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8192
+#SBATCH --time=07:59:59
+#SBATCH --array=1-13
 
 export LC_ALL='C'
 export LANG='C'

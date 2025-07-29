@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=custom-solver-8nodes
-#FLUX: -N=8
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=gpu2080
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=custom-solver-8nodes
+#SBATCH --error=/scratch/tmp/e_zhup01/custom-impl-measurements/error_8nodes.txt
+#SBATCH --mail-user=endizhupani@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu2080
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='24'
 export I_MPI_DEBUG='3'

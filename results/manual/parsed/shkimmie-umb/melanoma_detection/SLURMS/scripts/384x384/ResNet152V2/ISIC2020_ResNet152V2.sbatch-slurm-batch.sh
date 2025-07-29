@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ISIC2020_1_ResNet152V2_384h_384w
-#FLUX: -n=4
-#FLUX: --queue=haehn_unlim
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ISIC2020_1_ResNet152V2_384h_384w
+#SBATCH --output=/home/sanghyuk.kim001/MELANOMA/melanoma-detection-CNN/SLURMS/LOGS/ResNet152V2/%x_%A_%a.out
+#SBATCH --error=/home/sanghyuk.kim001/MELANOMA/melanoma-detection-CNN/SLURMS/LOGS/ResNet152V2/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem-per-cpu=200gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=haehn_unlim
+#SBATCH --nodelist=chimera13
 
 eval "$(conda shell.bash hook)"
 conda activate clean_chimera_env

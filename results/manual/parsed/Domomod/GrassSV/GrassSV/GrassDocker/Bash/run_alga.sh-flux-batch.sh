@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=alga
-#FLUX: --queue=fast
-#FLUX: --urgency=16
+#FLUX --job-name=alga
+#FLUX --queue=fast
+#FLUX --urgency=16
 
 module load gcc/7.4.0
 module load bowtie/1.0.0

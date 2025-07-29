@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_ctran_bcepoly2
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_ctran_bcepoly2
+#SBATCH --account=kuex0005
+#SBATCH --output=train_ctran_bcepoly2.%j.out
+#SBATCH --error=train_ctran_bcepoly2.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=10
 
 module purge
 module load gcc/9.3

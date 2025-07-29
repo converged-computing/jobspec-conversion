@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SRA_dld
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SRA_dld
+#SBATCH --account=pawsey1018
+#SBATCH --output=SRA_dld-%j.out
+#SBATCH --error=SRA_dld-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128GB
+#SBATCH --time=1-00:00:00
 
 set -euo pipefail
 eval "$(conda shell.bash hook)"

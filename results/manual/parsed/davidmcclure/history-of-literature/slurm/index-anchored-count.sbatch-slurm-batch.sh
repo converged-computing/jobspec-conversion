@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=index-anchored-count
-#FLUX: -N=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=index-anchored-count
+#SBATCH --output=index-anchored-count.out
+#SBATCH --error=index-anchored-count.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=12:00:00
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=16
 
 export PYTHONPATH='/home/dclure/history-of-literature'
 

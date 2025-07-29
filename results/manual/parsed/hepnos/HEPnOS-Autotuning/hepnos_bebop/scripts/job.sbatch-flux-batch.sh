@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chip-6238
-#FLUX: -N=4
-#FLUX: --queue=bdwall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-butter-6136
+#FLUX -N=4
+#FLUX --queue=bdwall
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PSM2_MULTI_EP='1'
 export MARGO_OUTPUT_DIR='$EXPDIR'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gail_reach
-#FLUX: -c=8
-#FLUX: --queue=titans
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gail_reach
+#SBATCH --output=/scratch/cluster/ishand/results/zoo2/gail_reach_%A_%a.out
+#SBATCH --error=/scratch/cluster/ishand/results/zoo2/gail_reach_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=01:00:00
+#SBATCH --partition=titans
+#SBATCH --constraint=ntasks-per-node=1
 
 SEED=$(($SLURM_ARRAY_TASK_ID + 1010))
 SEED2=$(($SEED + 3))

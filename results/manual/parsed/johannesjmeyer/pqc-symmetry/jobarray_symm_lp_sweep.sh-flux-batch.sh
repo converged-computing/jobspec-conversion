@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-fudge-0000
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-lentil-6908
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='../mpl'
 

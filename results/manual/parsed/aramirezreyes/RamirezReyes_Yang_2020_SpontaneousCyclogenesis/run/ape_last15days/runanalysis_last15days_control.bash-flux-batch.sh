@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-9562
-#FLUX: -N=3
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=fat-muffin-3737
+#FLUX -N=3
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export TMPDIR='$SCRATCH'
 

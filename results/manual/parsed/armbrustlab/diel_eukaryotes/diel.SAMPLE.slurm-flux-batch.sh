@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lemon-9683
-#FLUX: --queue=LM
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-plant-3226
+#FLUX --queue=LM
+#FLUX -t=518400
+#FLUX --urgency=16
 
 module load gcc/5.3.0
 module load perl/5.18.4-threads

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: -c=10
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=gpu-job
+#FLUX -c=10
+#FLUX -t=300
+#FLUX --urgency=16
 
 export LIBOMPTARGET_INFO='4'
 

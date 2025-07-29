@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=smaug_ngpu
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=smaug_ngpu
+#SBATCH --account=SHEFFIELD-GPU
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=tesla
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

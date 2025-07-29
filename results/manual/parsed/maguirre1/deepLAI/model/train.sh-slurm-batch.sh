@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=segnet
-#FLUX: --queue=gpu,owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=segnet
+#SBATCH --output=logs/full.hparam.%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu,owners
+#SBATCH --constraint=GPU_MEM:32GB
+#SBATCH --array=108-135
 
 __README="""
 A wrapper script for train.py

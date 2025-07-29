@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cyclegan
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=cyclegan
+#SBATCH --account=sds173
+#SBATCH --output=pytorch-gpu-shared.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=24
 
 module purge
 module list

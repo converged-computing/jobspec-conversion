@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kitty-7595
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-toaster-4585
+#FLUX --queue=gpu
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load anaconda3
 source activate /scratch/work/phama1/tensorflow

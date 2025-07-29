@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dask-scheduler
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-scheduler
+#SBATCH --account=tra24_ictp_np
+#SBATCH --output=jupyter_notebook.txt
+#SBATCH --error=jupyter_notebook.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10000
+#SBATCH --time=00:20:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 cd $SCRATCH/SMR-3935/Day4
 source $HOME/Conda_init.txt

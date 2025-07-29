@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-7537
-#FLUX: -n=96
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=ees230007p
+#SBATCH --nodes=1
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 export LANG='en_US.utf8'
 export LC_ALL='en_US.utf8'

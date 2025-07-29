@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=job_2023-10-11_sinkhorn2_v003
-#FLUX: -c=10
-#FLUX: --queue=rack2e
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=job_2023-10-11_sinkhorn2_v003
+#SBATCH --output=log/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=0G
+#SBATCH --time=16:00:00
+#SBATCH --partition=rack2e
+#SBATCH --qos=test
+#SBATCH --chdir=/working/wd15/active-learning/3D
 
 export OMP_NUM_THREADS='$omp_threads'
 export OPENBLAS_NUM_THREADS='$omp_threads'

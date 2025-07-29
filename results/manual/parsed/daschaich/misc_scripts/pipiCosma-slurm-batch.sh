@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-itch-7516
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 

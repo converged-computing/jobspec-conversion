@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expe
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=expe
+#SBATCH --account=xwh@v100
+#SBATCH --output=./logs/expe_%j.out
+#SBATCH --error=./logs/expe_%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=v100-32g,ntasks-per-node=4
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

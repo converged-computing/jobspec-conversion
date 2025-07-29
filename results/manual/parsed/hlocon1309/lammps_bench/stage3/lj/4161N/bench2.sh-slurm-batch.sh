@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pancake-4462
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --account=proj_1371
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
+#SBATCH --constraint=type_b
+#SBATCH --nodelist=cn-[017,018,020,022]
 
 module load openmpi/4.1.4
 module load CUDA/11.7

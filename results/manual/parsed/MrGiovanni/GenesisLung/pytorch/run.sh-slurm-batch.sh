@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-signal-8578
-#FLUX: -n=4
-#FLUX: --queue=wildfire
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:50:00
+#SBATCH --partition=wildfire
 
 module load anaconda/py3
 source /data/jliang12/zzhou82/environments/pytorch/bin/activate

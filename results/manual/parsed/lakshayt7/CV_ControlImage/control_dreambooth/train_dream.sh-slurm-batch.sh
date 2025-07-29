@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-knife-4535
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=logs/train_dreambooth_%j.out
+#SBATCH --error=logs/train_dreambooth%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
 
 export INSTANCE_DIR='/gpfs/home/lt2504/dreambooth/Dreambooth-Stable-Diffusion/training_images/Sam_Altman'
 export OUTPUT_DIR='/gpfs/scratch/lt2504/diffusers_out/dreambooth-control-8000step-prior-preserve'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-noodle-7714
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=devel
+#SBATCH --constraint=ntasks-per-node=4
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

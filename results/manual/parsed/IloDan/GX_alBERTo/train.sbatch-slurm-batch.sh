@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=alBERTo_met
-#FLUX: -c=8
-#FLUX: --queue=all_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=alBERTo_met
+#SBATCH --account=ai4bio2023
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=all_usr_prod
+#SBATCH --constraint=gpu_P100_16G|gpu_RTX6000_24G|gpu_RTX5000_16G|gpu_A40_48G|gpu_RTXA5000_24G
 
 export PYTHONPATH='/usr/local/anaconda3/bin/python' # Modifica percorso Python se necessario'
 

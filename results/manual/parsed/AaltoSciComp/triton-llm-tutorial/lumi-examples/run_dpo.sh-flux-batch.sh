@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dpoExample
+#FLUX --job-name=dpoExample
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='/workdir/env_dpo/lib/python3.10/site-packages'
 export HF_HOME='/workdir/'

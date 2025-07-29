@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-4729
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=m3900
+#SBATCH --output=sout/representations_%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=early_science
+#SBATCH --constraint=gpu
 
 main_dir=/pscratch/sd/g/gstein/machine_learning/decals_self_supervised/ssl-legacysurvey-pl/scripts
 cd $main_dir

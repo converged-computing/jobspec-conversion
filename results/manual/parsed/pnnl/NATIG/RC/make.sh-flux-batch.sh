@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-salad-7240
-#FLUX: -t=231300
-#FLUX: --urgency=16
+#FLUX --job-name=faux-pancake-0899
+#FLUX -t=231300
+#FLUX --urgency=16
 
 export RD2C='${PWD}'
 export FNCS_INSTALL='${RD2C}'

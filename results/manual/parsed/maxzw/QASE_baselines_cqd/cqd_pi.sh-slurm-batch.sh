@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leopard-7759
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=job_logs/output_%A.out
+#SBATCH --error=job_logs/errors_%A.err
+#SBATCH --mail-user=m.j.zwager@student.vu.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_shared
 
 module purge all
 module load 2021

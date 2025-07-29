@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peas-8789
-#FLUX: -n=32
-#FLUX: --queue=defq
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=astute-motorcycle-1685
+#FLUX -n=32
+#FLUX --queue=defq
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

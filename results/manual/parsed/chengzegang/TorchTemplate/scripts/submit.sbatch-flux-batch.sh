@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=vit
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=tandon_a100_2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=vit
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=8
+#FLUX --queue=tandon_a100_2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export LOGLEVEL='INFO'

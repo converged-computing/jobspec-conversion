@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hremd_run
-#FLUX: -n=20
+#FLUX --job-name=hremd_run
+#FLUX -n=20
 #FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load cuda
 source /bgfs01/insite/utsab.shrestha/programs/gmx_plumed4/gromacs-2018.8/install_dir/bin/GMXRC.bash

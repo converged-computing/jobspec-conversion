@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=xspecfem3D
-#FLUX: -N=10
-#FLUX: -n=40
-#FLUX: -c=10
-#FLUX: --queue=nesi_research
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=xspecfem3D
+#FLUX -N=10
+#FLUX -n=40
+#FLUX -c=10
+#FLUX --queue=nesi_research
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load gcc/8.3.0
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

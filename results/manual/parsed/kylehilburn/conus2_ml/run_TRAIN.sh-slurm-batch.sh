@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-despacito-1811
-#FLUX: --queue=fge
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=rda-goesstf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=fge
 
 date
 cd /scratch1/RDARCH/rda-goesstf/conus2/Code

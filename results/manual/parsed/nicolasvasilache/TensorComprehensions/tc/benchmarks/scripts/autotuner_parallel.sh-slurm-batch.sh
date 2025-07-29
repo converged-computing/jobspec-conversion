@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TensorComprehensions
-#FLUX: -n=8
-#FLUX: --queue=priority,uninterrupted,learnfair,scavenge
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=TensorComprehensions
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=40000
+#SBATCH --time=00:02:00
+#SBATCH --partition=priority,uninterrupted,learnfair,scavenge
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'
 export TUNER_DEVICES='${TUNER_DEVICES:="0,1"}'

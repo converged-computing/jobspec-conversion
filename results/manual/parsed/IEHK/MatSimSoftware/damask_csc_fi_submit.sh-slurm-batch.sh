@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=damasktest
-#FLUX: -n=4
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=damasktest
+#SBATCH --output=damasktest.%J_out
+#SBATCH --error=damasktest.%J_err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:30:00
+#SBATCH --partition=parallel
 
 export DAMASK_NUM_THREADS='1'
 

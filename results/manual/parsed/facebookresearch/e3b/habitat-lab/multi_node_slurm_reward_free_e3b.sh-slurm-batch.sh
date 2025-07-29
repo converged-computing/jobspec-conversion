@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ddppo
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=devlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ddppo
+#SBATCH --output=slurm/logs/%j.log
+#SBATCH --error=slurm/logs/%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=devlab
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 export MAGNUM_LOG='quiet'
 export MAGNUM_GPU_VALIDATION='ON'

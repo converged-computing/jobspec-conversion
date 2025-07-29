@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-noodle-9525
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ $# -lt 1 ]; then
   echo "Usage: $0 <config>"

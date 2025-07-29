@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-fudge-9487
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-pedo-0905
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 COHORT=$1
 umask 002

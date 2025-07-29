@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=openai_vllm
-#FLUX: -c=72
-#FLUX: --queue=GPU4v100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=openai_vllm
+#FLUX -c=72
+#FLUX --queue=GPU4v100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

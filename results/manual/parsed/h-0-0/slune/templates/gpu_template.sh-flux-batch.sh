@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=my_job_name
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=my_job_name
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export EXE='/bin/hostname'
 

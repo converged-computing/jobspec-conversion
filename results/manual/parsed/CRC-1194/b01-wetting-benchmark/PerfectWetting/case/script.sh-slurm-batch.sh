@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=perWetFin
-#FLUX: -n=144
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=perWetFin
+#SBATCH --account=special00004
+#SBATCH --error=error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3700
+#SBATCH --time=23:30:00
 
 module load git
 module load gcc/9.2.0

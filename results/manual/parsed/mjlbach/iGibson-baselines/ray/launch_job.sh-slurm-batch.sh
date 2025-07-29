@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=igibson_rllib_1
-#FLUX: -c=45
-#FLUX: --queue=viscam
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=igibson_rllib_1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=45
+#SBATCH --gres=gpu:3090:1
+#SBATCH --mem=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=viscam
+#SBATCH --nodelist=viscam4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/'
 export PATH='/usr/local/cuda-11.1/bin:$PATH'

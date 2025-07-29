@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cupcake-6712
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 readarray -t listofmissingfiles < listofmissingfiles.txt
 for filename in ${listofmissingfiles[@]}; do

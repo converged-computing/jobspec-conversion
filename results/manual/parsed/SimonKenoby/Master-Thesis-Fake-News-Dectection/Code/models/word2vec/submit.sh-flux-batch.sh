@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=keras_gpu_test
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=keras_gpu_test
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 export MKL_NUM_THREADS='2'

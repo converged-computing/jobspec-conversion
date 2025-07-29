@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NNP-mpi
-#FLUX: -n=28
-#FLUX: -t=258600
-#FLUX: --urgency=16
+#SBATCH --job-name=NNP-mpi
+#SBATCH --output=_scheduler-stdout.txt
+#SBATCH --error=_scheduler-stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-23:50:00
+#SBATCH --constraint=E5v4
 
 export OMP_NUM_THREADS='1'
 

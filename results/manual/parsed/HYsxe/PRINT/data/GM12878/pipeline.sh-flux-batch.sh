@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-nunchucks-0567
-#FLUX: -n=16
-#FLUX: --queue=test
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-chip-4023
+#FLUX -n=16
+#FLUX --queue=test
+#FLUX -t=240
+#FLUX --urgency=16
 
 genome="hg19"
 bam=GM.trial52.atac.hg19.rmdup.cutoff.bam

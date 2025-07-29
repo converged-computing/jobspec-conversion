@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=3dTproject
-#FLUX: --queue=all
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=3dTproject
+#SBATCH --output=../derivatives/logs/3dTproject-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12000
+#SBATCH --time=04:00:00
+#SBATCH --partition=all
+#SBATCH --array=1-345
 
 echo "Purging modules"
 module purge

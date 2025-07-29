@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=poi_adam
-#FLUX: -c=64
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=amdrome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=poi_adam
+#SBATCH --output=./stdout_%J
+#SBATCH --error=./stderr_%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=amdrome
+#SBATCH --nodelist=amd1
 
 module purge
 module load openmpi/4.1.1

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=darts-openmp
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=darts-openmp
+#SBATCH --account=courses01
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 export OMP_NUM_THREADS='24'
 

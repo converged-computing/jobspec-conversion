@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bits-4607
-#FLUX: -n=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=01:00:00
+#SBATCH --exclude=titan2
 
 gpu_id=$CUDA_VISIBLE_DEVICES
 echo $gpu_id

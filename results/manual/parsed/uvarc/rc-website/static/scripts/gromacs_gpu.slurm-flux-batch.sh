@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-avocado-1515
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-lamp-8467
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load goolf/11.2.0_4.1.4 gromacs

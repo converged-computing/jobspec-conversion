@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

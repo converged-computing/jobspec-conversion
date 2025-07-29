@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-salad-7335
-#FLUX: -c=8
-#FLUX: --queue=huce_intel
-#FLUX: -t=87600
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-truffle-9623
+#FLUX -c=8
+#FLUX --queue=huce_intel
+#FLUX -t=87600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 export PYTHONPATH='/n/holyscratch01/jacob_lab/lestrada/IMI/CH4-boundary-condition-scripts'

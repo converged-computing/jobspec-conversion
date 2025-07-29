@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=covid19
-#FLUX: -N=10
-#FLUX: --queue=dp-dam
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=covid19
+#SBATCH --account=joaiml
+#SBATCH --output=outputs/output_%j.out
+#SBATCH --error=errors/error_%j.er
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=dp-dam
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/p/project/joaiml/ingolfsson1/jupyter/kernels/covid_kernel/lib/python3.6/site-packages:${PYTHONPATH}'
 export LD_LIBRARY_PATH='/p/home/jusers/ingolfsson1/deep/COVID-Net/softlinks:$LD_LIBRARY_PATH'

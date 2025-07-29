@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runMrBayes
-#FLUX: -c=4
-#FLUX: --queue=broadwl
-#FLUX: --urgency=16
+#FLUX --job-name=runMrBayes
+#FLUX -c=4
+#FLUX --queue=broadwl
+#FLUX --urgency=16
 
 ulimit -u 10000
 module load julia/1.7.2

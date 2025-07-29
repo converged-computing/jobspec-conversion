@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SSCL-unsup-bsz-512-tbsz-512-no-cosine-1000e
-#FLUX: -c=16
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --job-name=SSCL-unsup-bsz-512-tbsz-512-no-cosine-1000e
+#SBATCH --account=rrg-mori_gpu
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=salari.m1375@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem=10000M
+#SBATCH --time=11:59:00
 
 cd $SLURM_TMPDIR
 cp -r ~/scratch/Semi-Supervised-CL .

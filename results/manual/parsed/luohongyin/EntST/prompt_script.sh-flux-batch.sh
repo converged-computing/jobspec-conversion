@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-despacito-4869
+#FLUX --job-name=anxious-earthworm-4459
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -e
 domain='rte'

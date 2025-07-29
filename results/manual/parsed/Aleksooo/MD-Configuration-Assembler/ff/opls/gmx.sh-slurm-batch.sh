@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=q6
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=q6
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --time=00:06:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='8'
 

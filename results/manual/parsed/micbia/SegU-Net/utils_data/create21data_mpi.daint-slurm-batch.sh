@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=py21cm
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=py21cm
+#SBATCH --account=sk09
+#SBATCH --output=../logs/lc21cm%j.out
+#SBATCH --error=../logs/lc21cm%j.err
+#SBATCH --mail-user=michele.bianco@epfl.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 module purge
 module load daint-gpu

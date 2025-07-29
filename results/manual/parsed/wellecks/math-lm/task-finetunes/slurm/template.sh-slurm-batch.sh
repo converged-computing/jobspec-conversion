@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mathlm
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: --queue=g40423
-#FLUX: --urgency=16
+#SBATCH --job-name=mathlm
+#SBATCH --output=deploy_train_6B.out
+#SBATCH --error=deploy_train_6B.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:8
+#SBATCH --mem=16GB
+#SBATCH --partition=g40423
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='WARN'
 export NCCL_TREE_THRESHOLD='0'

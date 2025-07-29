@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NNmd
-#FLUX: --queue=npl
-#FLUX: --urgency=16
+#SBATCH --job-name=NNmd
+#SBATCH --output=jobfile.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6
+#SBATCH --partition=npl
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 

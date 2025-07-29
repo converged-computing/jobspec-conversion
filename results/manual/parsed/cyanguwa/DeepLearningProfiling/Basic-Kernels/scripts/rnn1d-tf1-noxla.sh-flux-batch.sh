@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rnn1d-tf1-noxla
+#FLUX --job-name=rnn1d-tf1-noxla
 #FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=special
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='noxla'

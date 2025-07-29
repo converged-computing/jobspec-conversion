@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=GTKDB
-#FLUX: -c=48
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=GTKDB
+#SBATCH --output=logs/metashot_classify.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=128gb
+#SBATCH --partition=batch
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

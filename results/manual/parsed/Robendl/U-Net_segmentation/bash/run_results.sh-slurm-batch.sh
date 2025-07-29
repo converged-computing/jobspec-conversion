@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=results
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=results
+#SBATCH --output=results.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 source /home3/s3799174/machinelearning/venv/bin/activate
 module load Python/3.10.4-GCCcore-11.3.0

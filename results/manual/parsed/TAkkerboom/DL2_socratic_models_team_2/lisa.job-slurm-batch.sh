@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Socrat
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Socrat
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2021

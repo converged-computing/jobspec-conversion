@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dock
-#FLUX: -c=2
-#FLUX: --queue=any_cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=dock
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --partition=any_cpu
 
 export PATH='/net/pulsar/home/koes/dkoes/git/smina/build/:$PATH'
 

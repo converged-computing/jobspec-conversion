@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pgrid
-#FLUX: --queue=pCluster
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=pgrid
+#FLUX --queue=pCluster
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load compilers/intel/2019.4.243
 module load intelmpi/2019.4.243

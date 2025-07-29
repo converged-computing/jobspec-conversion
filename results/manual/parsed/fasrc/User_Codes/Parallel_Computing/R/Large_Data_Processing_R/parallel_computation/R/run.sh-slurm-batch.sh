@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=100
-#FLUX: --queue=shared
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi
+#SBATCH --output=%j_job.out
+#SBATCH --error=%j_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:50:00
+#SBATCH --partition=shared
 
 export R_LIBS_USER='$HOME/apps/R/3.5.1:$R_LIBS_USER'
 export R_PROFILE='$HOME/apps/R/3.5.1/Rmpi/Rprofile'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dfc2500
-#FLUX: -c=6
-#FLUX: --queue=amd-hdr100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dfc2500
+#FLUX -c=6
+#FLUX --queue=amd-hdr100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -e
 source /home/ashovon/newaumri/matfiles/venv/bin/activate

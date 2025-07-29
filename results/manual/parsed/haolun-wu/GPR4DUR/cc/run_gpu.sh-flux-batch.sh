@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-7061
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-chip-7058
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /home/haolun/projects/def-cpsmcgil/haolun/GPR4DUR/venv_gpr4dur/bin/activate
 module load cuda

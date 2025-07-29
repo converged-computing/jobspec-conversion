@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=KMH.flake
-#FLUX: -N=2
-#FLUX: --queue=long1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=KMH.flake
+#FLUX -N=2
+#FLUX --queue=long1
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gnu8/8.3.0
 module load mkl/19.1.3.304

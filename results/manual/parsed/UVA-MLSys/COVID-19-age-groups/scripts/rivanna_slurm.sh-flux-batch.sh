@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Crossformer_train_total
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=Crossformer_train_total
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 source ~/.bashrc

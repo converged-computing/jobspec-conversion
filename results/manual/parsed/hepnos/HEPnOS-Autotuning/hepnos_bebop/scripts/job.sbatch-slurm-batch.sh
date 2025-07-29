@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-2551
-#FLUX: -N=4
-#FLUX: --queue=bdwall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=radix-io
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=bdwall
 
 export PSM2_MULTI_EP='1'
 export MARGO_OUTPUT_DIR='$EXPDIR'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leg-2055
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hakyimlab/gtex-miscellaneous-processing/src/badger_scripts/dapg/dap_on_study.jinja

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-general-8188
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=output
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=01:00:00
+#SBATCH --nodelist=artemis5
 
 executable=../../gpu_offload.o
 matrix_size=$1

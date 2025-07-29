@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cupcake-4396
-#FLUX: -N=64
-#FLUX: -n=64
-#FLUX: --queue=broadwell
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-citrus-2602
+#FLUX -N=64
+#FLUX -n=64
+#FLUX --queue=broadwell
+#FLUX -t=60
+#FLUX --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,verbose,compact,1,0'

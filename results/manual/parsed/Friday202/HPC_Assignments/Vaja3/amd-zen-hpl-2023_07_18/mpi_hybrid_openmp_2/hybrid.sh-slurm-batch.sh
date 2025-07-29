@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -n=2
-#FLUX: -c=64
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --output=mpi_hybrid_openmp_2/hybrid.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=64
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=10:00:00
 
 export UCX_TLS='self, tcp, HPL_RAM_CAP=1.0'
 

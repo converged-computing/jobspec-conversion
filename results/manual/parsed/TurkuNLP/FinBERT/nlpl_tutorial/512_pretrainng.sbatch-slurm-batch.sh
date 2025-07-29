@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=512_pretraining
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=512_pretraining
+#SBATCH --account=project_name
+#SBATCH --output=/path/to/log_file_512_out-%j.txt
+#SBATCH --error=/path/to/log_file_512_err-%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem-per-cpu=128G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export BERT_DIR='/path/to/git_clone/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'

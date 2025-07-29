@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=behavior-classify
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=behavior-classify
+#FLUX -t=3600
+#FLUX --urgency=16
 
 CLASSIFICATION_IMG=/projects/kumar-lab/JABS/JABS-Classify-current.sif
 trim_sp() {

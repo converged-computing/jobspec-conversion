@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=65536M_julia_32_16
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=65536M_julia_32_16
+#FLUX --queue=batch
+#FLUX -t=28800
+#FLUX --urgency=16
 
 M=65536 # 2^16
 PROJDIR=../../julia/GemmDenseThreads

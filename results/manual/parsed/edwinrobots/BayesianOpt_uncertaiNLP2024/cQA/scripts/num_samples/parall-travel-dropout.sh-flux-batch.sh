@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-0965
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-salad-0692
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/edwinrobots/BayesianOpt_uncertaiNLP2024/cQA/scripts/num_samples/parall-travel-dropout.sh

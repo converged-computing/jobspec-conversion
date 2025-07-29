@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SimCLR
-#FLUX: -c=5
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --job-name=SimCLR
+#SBATCH --account=cmse
+#SBATCH --output=/mnt/home/renjie3/Documents/unlearnable/diffusion/diffusers/examples/text_to_image/logfile/%j.log
+#SBATCH --error=/mnt/home/renjie3/Documents/unlearnable/diffusion/diffusers/examples/text_to_image/logfile/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:v100s:2
+#SBATCH --mem=6G
+#SBATCH --time=03:59:00
 
 module purge
 module load GCC/6.4.0-2.28 OpenMPI  ### load necessary modules.

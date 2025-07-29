@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=AB_MA1_2_CpG_Chr2
-#FLUX: -N=6
-#FLUX: -n=444
-#FLUX: --queue=icelake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=AB_MA1_2_CpG_Chr2
+#SBATCH --account=HENDERSON-SL3-CPU
+#SBATCH --output=logs/alphabeta_per_cytosine_MA1_2_CpG_Chr2.out
+#SBATCH --error=logs/alphabeta_per_cytosine_MA1_2_CpG_Chr2.err
+#SBATCH --nodes=6
+#SBATCH --ntasks=444
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=icelake-himem
+#SBATCH --constraint=ntasks-per-node=74
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

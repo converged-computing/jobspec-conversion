@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune_scalapack
-#FLUX: -N=17
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=GPTune_scalapack
+#SBATCH --account=m3142
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=17
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=haswell
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

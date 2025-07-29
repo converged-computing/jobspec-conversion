@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cattywampus-3419
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-kitty-1147
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

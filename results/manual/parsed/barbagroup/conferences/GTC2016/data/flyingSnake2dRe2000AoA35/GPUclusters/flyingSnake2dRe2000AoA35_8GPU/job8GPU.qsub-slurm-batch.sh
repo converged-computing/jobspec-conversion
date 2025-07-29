@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PetAmgX-flyingSnake2dRe2000AoA35-8GPU-atol1e-5
-#FLUX: -N=4
-#FLUX: --queue=allgpu-noecc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PetAmgX-flyingSnake2dRe2000AoA35-8GPU-atol1e-5
+#SBATCH --output=slurm-job-%j.out
+#SBATCH --error=slurm-job-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=allgpu-noecc
+#SBATCH --constraint=ntasks-per-node=12
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/c1/apps/cuda/driver/352.63/lib'
 export PETIBM_DIR='/home/pychuang/petibm-amgx'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sort_bams
-#FLUX: --queue=memory
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sort_bams
+#FLUX --queue=memory
+#FLUX -t=86400
+#FLUX --urgency=16
 
  ### Number of CPU cores per task                                                                                                                       
 input_dir="/home/ssnyder3/nereus/aging_rnaseq/star_alignment/pulex/aligned_reads"

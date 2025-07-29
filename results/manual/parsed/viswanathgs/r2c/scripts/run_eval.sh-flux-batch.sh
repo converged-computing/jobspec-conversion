@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=r2c_eval
-#FLUX: -c=40
-#FLUX: --queue=dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=r2c_eval
+#FLUX -c=40
+#FLUX --queue=dev
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH":"$BASEDIR'
 export PYTHONUNBUFFERED='True'

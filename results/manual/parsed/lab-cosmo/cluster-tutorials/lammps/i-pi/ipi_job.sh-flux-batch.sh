@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ipi
+#FLUX --job-name=ipi
 #FLUX: --exclusive
-#FLUX: --queue=jobs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=jobs
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load intel
 module load intel-mkl

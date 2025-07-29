@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IRF_${tag1}
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=IRF_${tag1}
+#SBATCH --account=$batchA
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4500m
+#SBATCH --partition=short
 
 here=$(pwd)
 configdir=${here}/irf_config

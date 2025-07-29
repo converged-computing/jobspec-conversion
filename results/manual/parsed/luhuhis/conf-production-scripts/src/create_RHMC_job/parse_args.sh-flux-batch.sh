@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-frito-5495
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-cattywampus-0408
+#FLUX --urgency=16
 
 argparse(){
     #Copyright (c) 2017 Noah Hoffman

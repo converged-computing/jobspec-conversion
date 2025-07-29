@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=aldi
-#FLUX: -c=64
-#FLUX: --queue=vision-beery
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=aldi
+#SBATCH --output=slurm/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=vision-beery
+#SBATCH --qos=vision-beery-main
+#SBATCH --constraint=ntasks-per-node=1
 
 export HOME='/tmp/aldi-$USER'
 export TMPDIR='$HOME/.tmp'

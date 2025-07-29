@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-banana-5661
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-hippo-6403
+#FLUX --urgency=16
 
 SECONDS=0
 echo -e "~~~   ***   ~~~"

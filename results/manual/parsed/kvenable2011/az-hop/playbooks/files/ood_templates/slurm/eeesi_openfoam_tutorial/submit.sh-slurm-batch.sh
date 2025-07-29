@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=drivaer
-#FLUX: -N=2
-#FLUX: --queue=hb120v3
-#FLUX: --urgency=16
+#SBATCH --job-name=drivaer
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=hb120v3
+#SBATCH --constraint=ntasks-per-node=64
 
 export FOAM_MPIRUN_FLAGS='-mca pml ucx $(env |grep 'WM_\|FOAM_' | cut -d'=' -f1 | sed 's/^/-x /g' | tr '\n' ' ') -x MPI_BUFFER_SIZE -x UCX_IB_MLX5_DEVX=n -x UCX_POSIX_USE_PROC_LINK=n -x PATH -x LD_LIBRARY_PATH'
 

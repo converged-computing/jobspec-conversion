@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lemon-6644
-#FLUX: -c=8
-#FLUX: --queue=seas_gpu
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=red-gato-8516
+#FLUX -c=8
+#FLUX --queue=seas_gpu
+#FLUX -t=360
+#FLUX --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 

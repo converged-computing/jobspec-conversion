@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kitty-0471
-#FLUX: -c=64
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=logs/02_amptk_preprocess.%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=64gb
+#SBATCH --partition=short
 
 CPU=2
 if [ $SLURM_CPUS_ON_NODE ]; then

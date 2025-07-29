@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-soup-9076
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=24
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=fat-puppy-6215
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=24
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export PYSPARK_PYTHON='/home/tguedon/acc_env/bin/python'
 export PYTHONPATH='${PYTHONPATH}:${PWD}'

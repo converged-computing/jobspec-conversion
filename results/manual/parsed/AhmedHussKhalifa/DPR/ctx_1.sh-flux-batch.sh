@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cupcake-6861
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-squidward-4081
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load python/3.6.3
 source virtual_DPR/bin/activate

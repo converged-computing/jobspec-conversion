@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pathml_root_pipeline-TCGA-14-0789-01Z-00-DX6
-#FLUX: -c=12
-#FLUX: --queue=bigmem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=pathml_root_pipeline-TCGA-14-0789-01Z-00-DX6
+#FLUX -c=12
+#FLUX --queue=bigmem
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SINGULARITY_BIND='/nesi/nobackup/uoa03709/input:/var/inputdata,\'
 

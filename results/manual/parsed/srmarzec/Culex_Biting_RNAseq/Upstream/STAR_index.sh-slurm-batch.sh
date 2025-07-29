@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=STAR_index
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=STAR_index
+#SBATCH --output=%x.%j.out
+#SBATCH --mail-user=sm3679@georgetown.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=12:00:00
 
 module load star/2.7.1a
 refgen_dir=/home/sm3679/culex_biting/culex_genome

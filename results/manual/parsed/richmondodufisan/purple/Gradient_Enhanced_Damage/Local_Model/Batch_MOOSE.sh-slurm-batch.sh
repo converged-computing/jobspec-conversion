@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Local_Grad_Enhance
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Local_Grad_Enhance
+#SBATCH --account=p32089
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=25
+#SBATCH --exclude=qnode0565,qnode0626,qnode0637,qnode0019
 
 script_name="LOCAL_Three_Point_Bending_Test.i"
 module purge

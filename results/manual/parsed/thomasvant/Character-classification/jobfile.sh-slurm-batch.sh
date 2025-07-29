@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=elmo
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=elmo
+#SBATCH --output=/home/nfs/tvantussenbroe/NLP_project/Character-classification/output.txt
+#SBATCH --error=/home/nfs/tvantussenbroe/NLP_project/Character-classification/errors.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=10000
+#SBATCH --time=04:00:00
+#SBATCH --partition=general
+#SBATCH --qos=short
+#SBATCH --chdir=/home/nfs/tvantussenbroe/NLP_project/Character-classification
 
 module use /opt/insy/modulefiles
 module load cuda/10.1 cudnn/10.1-7.6.0.64

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-rabbit-1437
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-parrot-8184
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rachelmoran28/cavefish_2019_pipeline/array_remove_indels.sh

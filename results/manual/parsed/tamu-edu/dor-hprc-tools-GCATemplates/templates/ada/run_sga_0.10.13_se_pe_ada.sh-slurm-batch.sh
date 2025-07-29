@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-truffle-9245
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_sga_0.10.13_se_pe_ada.sh

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phase_f
-#FLUX: -N=5
-#FLUX: -n=5
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_f
+#SBATCH --nodes=5
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=0
 
 file_path=`sed -n '1p' $3/$4/logs.txt`
 protein=`sed -n '2p' $3/$4/logs.txt`

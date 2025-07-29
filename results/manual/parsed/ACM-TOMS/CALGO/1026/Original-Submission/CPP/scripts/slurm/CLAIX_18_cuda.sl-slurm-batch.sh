@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Bench-CU
-#FLUX: --exclusive
-#FLUX: --queue=c18g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Bench-CU
+#SBATCH --output=output.%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:2
+#SBATCH --mem=50G
+#SBATCH --time=02:00:00
+#SBATCH --partition=c18g
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='24'
 export OMP_THREAD_LIMIT='24'

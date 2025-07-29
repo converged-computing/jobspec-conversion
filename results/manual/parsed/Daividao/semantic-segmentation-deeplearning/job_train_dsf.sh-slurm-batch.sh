@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=2dunet
-#FLUX: -c=4
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=2dunet
+#SBATCH --account=fc_biome
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio2_1080ti
+#SBATCH --qos=savio_normal
 
 module load python
 module load tensorflow/1.10.0-py36-pip-gpu

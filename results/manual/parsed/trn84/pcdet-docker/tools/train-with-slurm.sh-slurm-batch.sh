@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$USER-pcdet
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=$USER-pcdet
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
 
 NUM_GPU=2
 TIMEOUT="240:00:00"

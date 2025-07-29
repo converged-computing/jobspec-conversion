@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=inv_images
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=inv_images
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source /scratch/project_2004728/envs/adv_env/bin/activate
 cp /scratch/project_2004728/imagenet_files.tar $LOCAL_SCRATCH

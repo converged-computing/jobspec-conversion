@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tr10-13B
-#FLUX: -N=4
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=tr10-13B
+#SBATCH --account=six@gpu
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

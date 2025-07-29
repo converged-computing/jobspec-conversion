@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-3400
-#FLUX: -N=3
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-hippo-2725
+#FLUX -N=3
+#FLUX -t=100800
+#FLUX --urgency=16
 
 export TMPDIR='$SCRATCH'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SquareLattice
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=SquareLattice
+#FLUX -c=32
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load lang/Julia/1.8.2-linux-x86_64; julia -O3 -t $SLURM_CPUS_PER_TASK <path/to/this/file/>.Slurm_example.jl $SLURM_ARRAY_TASK_ID
 exit

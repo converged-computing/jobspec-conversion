@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pot-7833
-#FLUX: -n=4
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:12:00
+#SBATCH --partition=sched_mit_hill
 
 module load jdk/18.0.1.1
 module load singularity/3.7.0

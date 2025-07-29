@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-house-7459
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=def-ichiro
+#SBATCH --output=run_output/xlnet_cv_output_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=1-6
 
 module load python/3.8
 module load scipy-stack

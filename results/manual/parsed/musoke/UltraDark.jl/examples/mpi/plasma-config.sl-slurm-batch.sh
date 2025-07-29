@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Run an UltraDark test simulation
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Run an UltraDark test simulation
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=00:10:00
 
 module load openmpi
 module load fftw3

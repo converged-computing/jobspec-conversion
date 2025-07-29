@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cupcake-1581
-#FLUX: -N=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-gato-1073
+#FLUX -N=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 mpirun -npernode 16 lmp_cpu -v x 128 -v y 128 -v z 128 -v t 100 < in.lj
 mv log.lammps log.28Jun14.lj.cpu.512K.16.16

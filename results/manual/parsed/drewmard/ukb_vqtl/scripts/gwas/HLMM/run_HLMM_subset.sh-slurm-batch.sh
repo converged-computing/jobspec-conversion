@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=HLMM
-#FLUX: --urgency=16
+#SBATCH --job-name=HLMM
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --array=1-1857:1
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=$1

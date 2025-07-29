@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=EMseq_fqToBw
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=EMseq_fqToBw
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=30G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=medium
 
 subScripts="/home/jmendietaes/programas/pipelines/EM-seq/cluster/sub-scripts"
 trim_r1_5prime=8

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fixids
-#FLUX: --queue=bluemoon
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=fixids
+#FLUX --queue=bluemoon
+#FLUX -t=108000
+#FLUX --urgency=16
 
 pwd; hostname; date
 set -e

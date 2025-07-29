@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multiPatch_barlow_sweep
-#FLUX: --queue=long
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=multiPatch_barlow_sweep
+#FLUX --queue=long
+#FLUX -t=54000
+#FLUX --urgency=16
 
 . /etc/profile
 module load anaconda/3

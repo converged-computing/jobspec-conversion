@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-snack-3018
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/KieranODrake/Early_Warning_Signal/7b/roc_multi_stat.pbs

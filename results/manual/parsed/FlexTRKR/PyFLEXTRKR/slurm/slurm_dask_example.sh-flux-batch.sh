@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=celltracking
-#FLUX: -n=16
+#FLUX --job-name=celltracking
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 date
 conda activate /global/common/software/m1867/python/flextrkr

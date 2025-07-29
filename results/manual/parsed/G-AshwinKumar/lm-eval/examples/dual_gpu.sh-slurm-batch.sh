@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=slurm_output/out.txt
+#SBATCH --error=slurm_output/err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=247G
+#SBATCH --time=06:00:00
+#SBATCH: --exclusive
 
 MODEL_NAME="meditron-7b"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

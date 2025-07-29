@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=TUNE
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=TUNE
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export I_MPI_FABRICS='shm:dapl'
 export LANG='C'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-frito-3983
-#FLUX: -n=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-parrot-6753
+#FLUX -n=10
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export matlab_cpus='10'
 

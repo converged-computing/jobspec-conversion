@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fvecSim
-#FLUX: --queue=small,amdsmall,astyanax
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=fvecSim
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=small,amdsmall,astyanax
+#SBATCH --array=1-23
 
 cd /home/mcgaughs/shared/Software/diploSHIC
 CMD_LIST="Surface.fvecSim.commnads.txt"                                                                                                                                                               

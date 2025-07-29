@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=daily_interreg
-#FLUX: --queue=1vcpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=daily_interreg
+#FLUX --queue=1vcpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /u/couasnon/miniconda3/bin/activate hydromt-wflow
 conda config --set channel_priority strict

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=n2p2
-#FLUX: --exclusive
-#FLUX: --queue=jobs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=n2p2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=jobs
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 source $HOME/venv/base/bin/activate
 module load intel

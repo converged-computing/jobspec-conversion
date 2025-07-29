@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=InP-PACE
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=InP-PACE
+#SBATCH --account=FY150075
+#SBATCH --output=job-%x.out
+#SBATCH --error=job-%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='${HOME}/FitSNAP:$PYTHONPATH'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FC_NucintronPASupandDown
-#FLUX: --queue=broadwl
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=FC_NucintronPASupandDown
+#SBATCH --account=pi-yangili1
+#SBATCH --output=FC_NucintronPASupandDown.out
+#SBATCH --error=FC_NucintronPASupandDown.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=36G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=broadwl
 
 source ~/activate_anaconda.sh
 conda activate three-prime-env

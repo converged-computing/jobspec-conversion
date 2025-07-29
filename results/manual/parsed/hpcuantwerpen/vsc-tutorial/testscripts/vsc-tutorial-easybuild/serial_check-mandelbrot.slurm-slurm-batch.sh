@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=serial_check-mandelbrot
-#FLUX: --queue=debug
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --job-name=serial_check-mandelbrot
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:20
+#SBATCH --partition=debug
 
 module purge
 module load calcua/2020a

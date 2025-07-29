@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_id_000
-#FLUX: -c=32
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_id_000
+#SBATCH --output=/path/to/slurmlogs/%j.out
+#SBATCH --error=/path/to/slurmlogs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a100
 
 export CARLA_ROOT='/path/to/carla_9_10'
 export PYTHONPATH='${CARLA_ROOT}/PythonAPI/carla/":${PYTHONPATH}'

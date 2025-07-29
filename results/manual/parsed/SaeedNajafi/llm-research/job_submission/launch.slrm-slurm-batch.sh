@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama-research
-#FLUX: --queue=a40
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-research
+#SBATCH --output=llama-research.%j.out
+#SBATCH --error=llama-research.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --partition=a40
+#SBATCH --qos=m2
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$(hostname --fqdn)'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')'

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-toaster-6051
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=/home/pjohri1/LOGFILES/pos_%A_rep%a.out
+#SBATCH --error=/home/pjohri1/LOGFILES/pos_%A_rep%a.err
+#SBATCH --mail-user=pjohri1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --array=1-100%100
 
 module load perl/5.22.1
 echo "SLURM_JOBID: " $SLURM_JOBID

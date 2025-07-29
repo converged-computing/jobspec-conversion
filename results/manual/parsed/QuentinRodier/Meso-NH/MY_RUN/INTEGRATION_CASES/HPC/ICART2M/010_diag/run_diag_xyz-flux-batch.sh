@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prep_fanny
-#FLUX: -n=10
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=prep_fanny
+#FLUX -n=10
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 10'
 

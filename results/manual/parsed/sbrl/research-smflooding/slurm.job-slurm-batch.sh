@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TweetAI
-#FLUX: -n=4
-#FLUX: --queue=gpu05,gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=TweetAI
+#SBATCH --output=%j.%N.%a.train.out.log
+#SBATCH --error=%j.%N.%a.train.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=25600
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu05,gpu
 
 export PATH='$HOME/software/bin:$PATH;'
 

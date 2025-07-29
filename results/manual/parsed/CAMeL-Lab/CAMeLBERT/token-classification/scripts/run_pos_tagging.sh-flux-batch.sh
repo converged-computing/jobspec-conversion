@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-caramel-5653
-#FLUX: --queue=condo
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-animal-3795
+#FLUX --queue=condo
+#FLUX -t=41400
+#FLUX --urgency=16
 
 export DATA_DIR='/scratch/ba63/magold_files/EGY'
 export MAX_LENGTH='512'

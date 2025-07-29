@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=AF_monomer
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=AF_monomer
+#SBATCH --output=AF_mono_%j.out
+#SBATCH --error=AF_mono_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 my_fasta=5ZE6_1.fasta
 my_output_dir=output

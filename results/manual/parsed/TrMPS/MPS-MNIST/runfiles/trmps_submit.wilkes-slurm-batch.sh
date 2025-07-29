@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=trmps
-#FLUX: -n=10
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=trmps
+#SBATCH --account=LAMACRAFT-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=tesla
 
 export CUDA_HOME='$CUDA_INSTALL_PATH'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-rabbit-4494
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-chip-6358
+#FLUX -c=6
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/vasan/src/rl_suite:/home/vasan/src/incremental_rl'
 export MUJOCO_GL='egl'

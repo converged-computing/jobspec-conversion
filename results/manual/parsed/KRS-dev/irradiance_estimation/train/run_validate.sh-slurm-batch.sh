@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train ConvResNet
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=train ConvResNet
+#SBATCH --account=go41
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_DEBUG='INFO'

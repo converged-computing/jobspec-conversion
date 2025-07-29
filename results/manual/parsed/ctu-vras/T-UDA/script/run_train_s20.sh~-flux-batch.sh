@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bike-6046
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-poodle-0484
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ..
 ml torchsparse/1.4.0-foss-2021a-CUDA-11.3.1

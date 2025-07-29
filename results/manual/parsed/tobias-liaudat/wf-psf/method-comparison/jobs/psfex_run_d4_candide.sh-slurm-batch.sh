@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-omelette-4468
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tobias-liaudat/wf-psf/method-comparison/jobs/psfex_run_d4_candide.sh

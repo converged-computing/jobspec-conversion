@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-onion-6253
-#FLUX: -N=4
-#FLUX: -c=9
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --nodelist=16,17,18,19
 
 export NCCL_DEBUG='WARN'
 

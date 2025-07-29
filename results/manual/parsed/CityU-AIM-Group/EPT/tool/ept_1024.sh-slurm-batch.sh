@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pt4pc
-#FLUX: -c=4
-#FLUX: --queue=gpu1
-#FLUX: --urgency=16
+#SBATCH --job-name=pt4pc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu1
+#SBATCH --nodelist=node6
 
 export PYTHONPATH='./'
 

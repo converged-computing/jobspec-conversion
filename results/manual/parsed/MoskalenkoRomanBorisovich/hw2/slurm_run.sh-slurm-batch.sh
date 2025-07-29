@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-punk-0958
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=type_a
 
 mkdir -p bemchmark_results
 module load module load nvidia_sdk/nvhpc/23.5

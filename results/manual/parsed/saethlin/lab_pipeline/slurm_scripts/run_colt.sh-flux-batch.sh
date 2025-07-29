@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=colt-h113
-#FLUX: -n=125
-#FLUX: -c=8
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=colt-h113
+#FLUX -n=125
+#FLUX -c=8
+#FLUX --queue=hpg2-compute
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl='self,vader,openib'

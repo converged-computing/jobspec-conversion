@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=larndsim-fit
-#FLUX: --queue=ml
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=larndsim-fit
+#SBATCH --output=output-%j.txt
+#SBATCH --error=output-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=ml
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1,2,3,4,5
 
 INPUT_FILE=/sdf/group/neutrino/cyifan/muon-sim/fake_data_S1/edepsim-output.h5
 SIF_FILE=/sdf/group/neutrino/images/larndsim_latest.sif

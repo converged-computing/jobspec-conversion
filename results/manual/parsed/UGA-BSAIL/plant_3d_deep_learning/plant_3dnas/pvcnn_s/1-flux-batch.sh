@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pvcnn_shapenet_p100
-#FLUX: -c=4
-#FLUX: --queue=patterli_p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pvcnn_shapenet_p100
+#FLUX -c=4
+#FLUX --queue=patterli_p
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /scratch/fs47816/workdir/sample_scripts/pvcnn_shapenet_p100_pvcnn_plantnet_fullpc3/pvcnn
 ml TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4

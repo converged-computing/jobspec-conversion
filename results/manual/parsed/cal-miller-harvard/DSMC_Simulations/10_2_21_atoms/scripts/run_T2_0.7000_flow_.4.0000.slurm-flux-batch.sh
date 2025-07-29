@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kerfuffle-7510
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-house-7168
+#FLUX -n=2
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

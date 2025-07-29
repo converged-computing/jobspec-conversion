@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=jobhafsgraph
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=xjet
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=jobhafsgraph
+#SBATCH --account=hwrfv3
+#SBATCH --output=jobhafsgraph.log.%j
+#SBATCH --error=jobhafsgraph.log.%j
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --partition=xjet
+#SBATCH --qos=batch
+#SBATCH: --exclusive
 
 export HOMEgraph='${HOMEgraph:-/mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics}'
 export USHgraph='${USHgraph:-${HOMEgraph}/ush}'

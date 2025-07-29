@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-arm-4633
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-general-7327
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ml python/3.6.1
 ml py-tensorflow/2.4.1_py36

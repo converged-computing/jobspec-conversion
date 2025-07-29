@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=suDef
-#FLUX: -c=3
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=suDef
+#FLUX -c=3
+#FLUX --queue=all
+#FLUX --urgency=16
 
 SECONDS=0
 restart(){

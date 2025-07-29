@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-arm-7731
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-general-5322
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTRO/Exec/SCIENCE/sub_chandra/paper_II/Runs/12030-108-175-4lev/run/bw.run

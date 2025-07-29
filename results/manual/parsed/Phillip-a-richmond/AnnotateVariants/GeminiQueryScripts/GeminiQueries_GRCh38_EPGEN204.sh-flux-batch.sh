@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lizard-0311
-#FLUX: -c=4
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-lettuce-8735
+#FLUX -c=4
+#FLUX --queue=defq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 	# Removed LOOSE DP/GQ thresholds
 	# Added SPLICEAI

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leg-9071
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-lemur-1062
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/3.9.0 cuda/11.2.0 cudnn/8.1.1.33
 source env/bin/activate

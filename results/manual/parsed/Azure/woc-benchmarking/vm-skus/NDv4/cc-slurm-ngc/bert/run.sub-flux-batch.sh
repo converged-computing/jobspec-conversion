@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-platanos-8201
+#FLUX --job-name=blue-plant-2912
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export NCCL_IB_PCI_RELAXED_ORDERING='1'
 export UCX_IB_ENABLE_CUDA_AFFINITY='n'

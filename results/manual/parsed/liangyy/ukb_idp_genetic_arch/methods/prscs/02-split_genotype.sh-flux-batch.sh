@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-citrus-6971
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-carrot-2831
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/liangyy/ukb_idp_genetic_arch/methods/prscs/02-split_genotype.sh

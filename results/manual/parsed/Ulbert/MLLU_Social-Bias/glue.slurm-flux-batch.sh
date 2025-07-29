@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=glue-bert
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=glue-bert
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MODEL_NAME='bert-base-uncased'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=firre_proseq
-#FLUX: --queue=long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=firre_proseq
+#FLUX --queue=long
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load sra/2.8.0
 module load bbmap/38.05

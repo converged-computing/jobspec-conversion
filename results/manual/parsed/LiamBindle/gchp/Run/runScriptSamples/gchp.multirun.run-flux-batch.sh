@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cherry-7792
-#FLUX: -n=6
-#FLUX: --queue=huce_intel
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-eagle-0527
+#FLUX -n=6
+#FLUX --queue=huce_intel
+#FLUX -t=30
+#FLUX --urgency=16
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=custom-solver-seq
-#FLUX: --queue=gpu2080
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=custom-solver-seq
+#SBATCH --error=/scratch/tmp/e_zhup01/custom-impl-measurements/error_sequential.txt
+#SBATCH --mail-user=endizhupani@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu2080
+#SBATCH --constraint=ntasks-per-node=1
 
 module load intelcuda/2019a
 module load CMake/3.15.3

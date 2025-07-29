@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snippyArray
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=snippyArray
+#FLUX -c=8
+#FLUX -t=10800
+#FLUX --urgency=16
 
 config=$1
 fastqsPath=$2

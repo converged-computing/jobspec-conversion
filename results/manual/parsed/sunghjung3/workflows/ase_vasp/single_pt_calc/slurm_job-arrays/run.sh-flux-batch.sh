@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ase_vasp
-#FLUX: -n=48
+#FLUX --job-name=ase_vasp
+#FLUX -n=48
 #FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: --urgency=16
+#FLUX --queue=amd
+#FLUX --urgency=16
 
 export ASE_VASP_COMMAND='mpirun -np $SLURM_NTASKS vasp_std'
 export VASP_PP_PATH='/home/graeme/vasp/'

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=02-sc
-#FLUX: -c=17
-#FLUX: --urgency=16
+#SBATCH --job-name=02-sc
+#SBATCH --output=/home/cconley/scratch-data/sim-spacemap/powlaw/pl-mod-01/results/n250/scggm/02-cv-xy-yy-scggm/logs/job_${SLURM_ARRAY_TASK_ID}.out
+#SBATCH --error=/home/cconley/scratch-data/sim-spacemap/powlaw/pl-mod-01/results/n250/scggm/02-cv-xy-yy-scggm/logs/job_${SLURM_ARRAY_TASK_ID}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=17
+#SBATCH --mem=1120
+#SBATCH --chdir=/home/cconley/repos/sim-spacemap/powlaw/tune/pl-mod-01-250/scggm/
+#SBATCH --array=56-100
 
 set -e
 set -v

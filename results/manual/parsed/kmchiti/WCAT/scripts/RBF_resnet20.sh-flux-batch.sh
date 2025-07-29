@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-car-2230
-#FLUX: -c=4
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-banana-8586
+#FLUX -c=4
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export CUBLAS_WORKSPACE_CONFIG=':16:8'
 

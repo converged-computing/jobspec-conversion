@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=python-gpu
-#FLUX: --queue=gpuq
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=python-gpu
+#FLUX --queue=gpuq
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PYTHONPATH='$(pwd):$PYTHONPATH'
 

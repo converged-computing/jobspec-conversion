@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-omelette-7146
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=md.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:01:00
 
 iter=$1
 folderIter=$(printf "%04d" $iter)

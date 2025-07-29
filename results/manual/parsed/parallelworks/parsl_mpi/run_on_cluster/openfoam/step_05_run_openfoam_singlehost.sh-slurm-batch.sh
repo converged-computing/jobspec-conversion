@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leg-0711
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source /contrib/alvaro/ompi/env.sh
 RUN_DIR="$HOME/cyclone"

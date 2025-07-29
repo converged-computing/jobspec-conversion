@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lamp-6452
-#FLUX: -c=32
-#FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
-#FLUX: -t=258000
-#FLUX: --urgency=16
+#FLUX --job-name=placid-nunchucks-1428
+#FLUX -c=32
+#FLUX --queue=sched_mit_rafagb_amd,sched_mit_rafagb
+#FLUX -t=258000
+#FLUX --urgency=16
 
 export NFFDIR='/home/saxelrod/repo/nff/master/NeuralForceField'
 export PYTHONPATH='$NFFDIR:$PYTHONPATH'

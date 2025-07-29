@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=KerrSF_job
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=knl
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=KerrSF_job
+#FLUX -N=2
+#FLUX -n=16
+#FLUX --queue=knl
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

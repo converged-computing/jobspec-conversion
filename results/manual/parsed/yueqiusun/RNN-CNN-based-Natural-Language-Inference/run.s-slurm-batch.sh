@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nlp
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=nlp
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=bob.smith@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30GB
+#SBATCH --time=18:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 for mul in  0
 do

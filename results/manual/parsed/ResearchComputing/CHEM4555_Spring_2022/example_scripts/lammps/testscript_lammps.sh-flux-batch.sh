@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps-test
-#FLUX: -N=2
-#FLUX: --queue=shas
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=lammps-test
+#FLUX -N=2
+#FLUX --queue=shas
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load intel/17.4

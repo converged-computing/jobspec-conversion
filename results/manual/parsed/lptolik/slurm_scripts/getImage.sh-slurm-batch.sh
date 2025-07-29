@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=singIm
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=singIm
+#SBATCH --output=getImage_%j.out
+#SBATCH --error=getImage_%j.err
+#SBATCH --mail-user=lptolik@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --partition=short
 
 datdir=$1
 echo $datdir

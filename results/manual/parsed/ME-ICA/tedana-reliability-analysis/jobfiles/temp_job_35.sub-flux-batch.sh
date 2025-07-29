@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-butter-0746
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-kerfuffle-6955
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ME-ICA/tedana-reliability-analysis/jobfiles/temp_job_35.sub

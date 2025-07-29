@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-peas-3212
-#FLUX: -c=28
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=$PAWSEY_PROJECT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=workq
 
 unset SBATCH_EXPORT
 module load nextflow

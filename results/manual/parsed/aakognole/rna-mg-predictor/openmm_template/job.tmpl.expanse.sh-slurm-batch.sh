@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=<job>_<run>
-#FLUX: --queue=gpu-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=<job>_<run>
+#SBATCH --account=mda215
+#SBATCH --output=out_<job>_<run>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=2000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='8'
 export LD_LIBRARY_PATH='/cm/local/apps/cuda/libs/current/lib64:$LD_LIBRARY_PATH'

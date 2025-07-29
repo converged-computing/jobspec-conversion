@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-frito-0721
-#FLUX: --queue=hci-rw
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=hci-rw
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=hci-rw
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 echo -e "\n---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

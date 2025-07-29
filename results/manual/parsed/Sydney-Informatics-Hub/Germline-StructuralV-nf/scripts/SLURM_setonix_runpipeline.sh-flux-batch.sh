@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GSV
-#FLUX: --queue=work
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=GSV
+#FLUX --queue=work
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load singularity/3.8.6-nompi
 module load nextflow/22.04.3

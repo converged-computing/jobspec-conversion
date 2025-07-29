@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=${jobname}
-#FLUX: --queue=RM
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=${jobname}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=128
 
 set -e   # exit upon error
 echo This script automates all the steps before launch an MD simulation.

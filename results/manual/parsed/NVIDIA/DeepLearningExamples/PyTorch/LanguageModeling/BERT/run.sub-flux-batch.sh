@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-rabbit-9042
+#FLUX --job-name=fat-hobbit-7099
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 IMAGE_VERSION=${IMAGE_VERSION:-"21.11-py3"}

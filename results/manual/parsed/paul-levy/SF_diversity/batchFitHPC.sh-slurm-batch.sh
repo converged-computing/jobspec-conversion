@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=modresp
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=modresp
+#SBATCH --output=./hpc_out/mrW_%A_%a.out
+#SBATCH --error=./hpc_out/mrW_%A_%a.err
+#SBATCH --mail-user=pl1465@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=3
 
 export PATH='/scratch/pl1465/SF_diversity/pytorch/bin:$PATH'
 

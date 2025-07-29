@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=busco
-#FLUX: -c=16
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=busco
+#SBATCH --account=cea_farman_s24cs485g
+#SBATCH --mail-user=wjya222@uky.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=180GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 echo "SLURM_NODELIST: "$SLURM_NODELIST
 echo "PWD :" $PWD

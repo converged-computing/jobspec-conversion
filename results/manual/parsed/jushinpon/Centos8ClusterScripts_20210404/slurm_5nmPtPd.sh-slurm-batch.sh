@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=5nmPtPd
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=5nmPtPd
+#SBATCH --output=5nmPtPd_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
 
 export LD_LIBRARY_PATH='/opt/mpich-3.4.1/lib:$LD_LIBRARY_PATH'
 export PATH='/opt/mpich-3.4.1/bin:$PATH'

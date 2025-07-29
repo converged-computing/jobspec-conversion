@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poo-6467
-#FLUX: --queue=l4train
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-staircase-2675
+#FLUX --queue=l4train
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$head_node_ip'
 export MASTER_PORT='$head_node_port'

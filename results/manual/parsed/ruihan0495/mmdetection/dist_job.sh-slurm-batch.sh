@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ExampleJob
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ExampleJob
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:2
+#SBATCH --mem=90G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_shared
 
 module purge
 module load 2019

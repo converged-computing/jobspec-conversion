@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=1D-CPU
-#FLUX: -c=128
+#FLUX --job-name=1D-CPU
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-1d-cpu

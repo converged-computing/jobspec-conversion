@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ATAC_fqToBw
-#FLUX: -c=12
-#FLUX: --queue=short
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=ATAC_fqToBw
+#FLUX -c=12
+#FLUX --queue=short
+#FLUX -t=54000
+#FLUX --urgency=16
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

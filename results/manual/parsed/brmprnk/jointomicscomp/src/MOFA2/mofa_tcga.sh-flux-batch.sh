@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mofa
-#FLUX: --queue=general
-#FLUX: -t=79200
-#FLUX: --urgency=16
+#FLUX --job-name=mofa
+#FLUX --queue=general
+#FLUX -t=79200
+#FLUX --urgency=16
 
 DIR='/tudelft.net/staff-bulk/ewi/insy/DBL/smakrod/lb/tcga-download/data/datasets/ge-me-cn-2022-04-16/R';
 cp src/MOFA2/*.R $DIR'/';

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-0808
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/dthorburn/RNAseq_Workflows/STAR_2Pass/STAR_Align.sh

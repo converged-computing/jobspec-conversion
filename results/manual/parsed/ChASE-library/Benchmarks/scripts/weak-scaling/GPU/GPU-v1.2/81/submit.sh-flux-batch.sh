@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-carrot-0935
-#FLUX: -N=81
-#FLUX: -n=81
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-leader-8687
+#FLUX -N=81
+#FLUX -n=81
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

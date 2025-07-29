@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=poc-llama7b
-#FLUX: -c=8
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=poc-llama7b
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --mem=8G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu-preempt
+#SBATCH --constraint=vram16
 
 module load miniconda/22.11.1-1
 module load gcc/11.2.0

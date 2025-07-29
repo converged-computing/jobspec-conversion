@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=8x8_darwin
-#FLUX: -N=2
-#FLUX: -n=64
+#FLUX --job-name=8x8_darwin
+#FLUX -N=2
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=campus
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=campus
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${NCDIR}/lib:${LD_LIBRARY_PATH}'
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0   # the option -ppn only works if you set this before'

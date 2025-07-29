@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_gromacs
-#FLUX: --queue=hpc
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_gromacs
+#SBATCH --output=gromacs-prep-%j.out
+#SBATCH --error=gromacs-prep-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=hpc
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_pileup_founders
-#FLUX: --queue=compute
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=run_pileup_founders
+#FLUX --queue=compute
+#FLUX -t=115200
+#FLUX --urgency=16
 
 module load singularity
 REPO_BASE=$(pwd)

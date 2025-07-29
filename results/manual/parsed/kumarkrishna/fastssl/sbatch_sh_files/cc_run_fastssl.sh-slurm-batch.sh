@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=exp_run_fastssl
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=exp_run_fastssl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=24GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=long
 
 export LD_PRELOAD='~/Projects/SSL_alpha/fastssl/configs/hack.so 	# Olexa's hack to avoid INTERNAL ASSERT ERROR on Pytorch 1.10'
 export MKL_THREADING_LAYER='TBB'

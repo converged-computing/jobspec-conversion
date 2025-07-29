@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-punk-2104
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=arid-arm-5671
+#FLUX -c=16
+#FLUX --urgency=16
 
 scratch_dir=/data1/slurm/$SLURM_JOB_ID
 hpvm_image=$HOME/hpvm.sb

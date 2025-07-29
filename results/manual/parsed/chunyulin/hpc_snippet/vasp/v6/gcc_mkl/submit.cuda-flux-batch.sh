@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hope-7666
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-lemur-6989
+#FLUX -c=4
+#FLUX --urgency=16
 
 module purge
 module load gnu7/7.3.0

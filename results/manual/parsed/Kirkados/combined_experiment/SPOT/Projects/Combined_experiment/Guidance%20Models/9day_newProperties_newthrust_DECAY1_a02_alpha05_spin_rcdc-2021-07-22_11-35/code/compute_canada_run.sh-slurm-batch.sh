@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lemur-0512
-#FLUX: -c=48
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=def-sulrich
+#SBATCH --output=%j.out
+#SBATCH --mail-user=khovell@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=0
+#SBATCH --time=4-00:00:00
 
 niagara=false
 if $niagara

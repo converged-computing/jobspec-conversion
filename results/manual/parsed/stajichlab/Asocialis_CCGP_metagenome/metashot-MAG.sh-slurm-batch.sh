@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-knife-9398
-#FLUX: -n=32
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=logs/mag.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=192gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dgr
-#FLUX: -N=8
-#FLUX: -n=1024
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=dgr
+#SBATCH --output=.dgr.o%j
+#SBATCH --error=.dgr.e%j
+#SBATCH --nodes=8
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=normal
 
 module list
 pwd

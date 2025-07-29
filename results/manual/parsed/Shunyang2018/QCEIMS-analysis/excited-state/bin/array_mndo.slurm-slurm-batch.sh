@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=om2-v12
-#FLUX: --queue=intel
-#FLUX: -t=4060800
-#FLUX: --urgency=16
+#SBATCH --job-name=om2-v12
+#SBATCH --output=Array.%A_%a.out
+#SBATCH --error=Array.%A_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=47-00:00:00
+#SBATCH --partition=intel
+#SBATCH --exclude=gaggle-[0,1]
 
 export OMP_NUM_THREADS='8,1'
 export PATH='$PATH:/tmp/$user/qms$SLURM_JOB_NAME${SLURM_ARRAY_TASK_ID}'

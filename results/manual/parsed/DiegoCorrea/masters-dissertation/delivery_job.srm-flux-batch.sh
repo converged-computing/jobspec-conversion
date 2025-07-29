@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Rec_test
-#FLUX: -N=3
-#FLUX: -c=24
+#FLUX --job-name=Rec_test
+#FLUX -N=3
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=nvidia_dev
-#FLUX: --urgency=16
+#FLUX --queue=nvidia_dev
+#FLUX --urgency=16
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

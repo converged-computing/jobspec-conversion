@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chip-3505
-#FLUX: -n=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-arm-2110
+#FLUX -n=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

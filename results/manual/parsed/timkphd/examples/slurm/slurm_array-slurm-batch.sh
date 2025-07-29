@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --output=/dev/null
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/opt/lib/extras:$LD_LIBRARY_PATH'
 export ARGS='`date`'

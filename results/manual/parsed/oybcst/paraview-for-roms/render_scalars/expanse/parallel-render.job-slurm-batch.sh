@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gnu-parallel-render
-#FLUX: --queue=compute
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=gnu-parallel-render
+#SBATCH --account=ncs124
+#SBATCH --output=gnu-parallel-render.%j.%N.out
+#SBATCH --mail-user=mvanmoer@illinois.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
+#SBATCH --time=00:40:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=16
 
 export SLURM_EXPORT_ENV='ALL'
 

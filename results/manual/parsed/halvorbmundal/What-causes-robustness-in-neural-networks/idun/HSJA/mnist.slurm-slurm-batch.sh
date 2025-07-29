@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hu-bm
-#FLUX: --queue=GPUQ,V100-IDI,EPICALL
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=hu-bm
+#SBATCH --account=share-ie-idi
+#SBATCH --output=huout/mnist.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=GPUQ,V100-IDI,EPICALL
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

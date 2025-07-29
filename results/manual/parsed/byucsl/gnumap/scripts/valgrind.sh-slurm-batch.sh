@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-arm-2253
-#FLUX: -n=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8048M
+#SBATCH --time=1-00:00:00
 
 export PBS_NODEFILE='`/fslapps/fslutils/generate_pbs_nodefile`'
 export PBS_JOBID='$SLURM_JOB_ID'

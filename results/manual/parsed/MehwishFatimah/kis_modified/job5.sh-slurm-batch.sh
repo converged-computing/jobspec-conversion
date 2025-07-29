@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=simp_exp05
-#FLUX: -c=10
-#FLUX: --queue=pascal-deep.p
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=simp_exp05
+#SBATCH --output=/hits/basement/nlp/fatimamh/outputs/hipo/exp05/out-%j
+#SBATCH --error=/hits/basement/nlp/fatimamh/outputs/hipo/exp05/err-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=pascal-deep.p
 
 module load CUDA/10.0.130
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

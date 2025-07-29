@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=synthesize
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=synthesize
+#SBATCH --account=def-ester
+#SBATCH --output=/home/aliarab/scratch/sgd/sim_data/data_params_m/output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
 
 module load matlab/2018a
 project_root="/home/aliarab/src/sgd/scripts"

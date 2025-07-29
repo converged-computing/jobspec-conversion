@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=predict_UWdnase
-#FLUX: --urgency=16
+#SBATCH --job-name=predict_UWdnase
+#SBATCH --output=predict_UWdnase_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15G
 
 module load R/4.1.1-rhel8
 METADATA='/datacommons/harteminklab/kl124/TOP/data/ENCODE/metadata/predictions/ENCODE2012_hg19/UWDNase_JASPAR2022NR_all_motifs_predict_data_table.tsv'

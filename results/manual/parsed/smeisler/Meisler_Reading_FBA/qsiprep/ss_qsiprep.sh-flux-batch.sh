@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=qsiprep
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=qsiprep
+#FLUX -c=8
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -eu # Stop on errors
 IMG='' # put path to qsiprep docker image here

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarks
-#FLUX: -c=6
+#FLUX --job-name=benchmarks
+#FLUX -c=6
 #FLUX: --exclusive
-#FLUX: --queue=g40
-#FLUX: --urgency=16
+#FLUX --queue=g40
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN'
 export NCCL_TREE_THRESHOLD='0'

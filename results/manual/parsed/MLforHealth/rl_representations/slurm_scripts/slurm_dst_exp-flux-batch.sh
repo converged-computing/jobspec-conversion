@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hope-5293
-#FLUX: -c=2
-#FLUX: --queue=p100
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-onion-8431
+#FLUX -c=2
+#FLUX --queue=p100
+#FLUX --urgency=16
 
 echo $(tail -n+$SLURM_ARRAY_TASK_ID dst_exp_params.txt | head -n1)
 cd ../scripts

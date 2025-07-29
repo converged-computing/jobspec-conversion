@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psana_legion
-#FLUX: -N=17
+#FLUX --job-name=psana_legion
+#FLUX -N=17
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SIT_PSDM_DATA='$HOST_DATA_DIR/d/psdm'
 export EAGER='1'

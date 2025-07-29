@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-2563
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 source ../common/common.sh
 PROFILE=${1:-triton-gcc-openblas-2020}

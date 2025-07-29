@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evalopenclip
+#FLUX --job-name=evalopenclip
 #FLUX: --exclusive
-#FLUX: --queue=learnfair
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --queue=learnfair
+#FLUX -t=1500
+#FLUX --urgency=16
 
 export MASTER_PORT='12802'
 export PYTHONFAULTHANDLER='1'

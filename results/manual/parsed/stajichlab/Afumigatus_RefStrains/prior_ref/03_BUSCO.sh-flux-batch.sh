@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=busco
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=busco
+#FLUX -n=8
+#FLUX --queue=short
+#FLUX --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sySTREAM
+#FLUX --job-name=sySTREAM
 #FLUX: --exclusive
-#FLUX: --queue=gpua100
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=gpua100
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export HOME_FOLDER='/gpfs/users/millana'
 export CONTAINER_RUN='$CONTAINERSDIR/sycl-complete_latest.sif'

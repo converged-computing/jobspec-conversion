@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=task1
-#FLUX: -c=6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=task1
+#SBATCH --account=def-masd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=185000M
+#SBATCH --time=7-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

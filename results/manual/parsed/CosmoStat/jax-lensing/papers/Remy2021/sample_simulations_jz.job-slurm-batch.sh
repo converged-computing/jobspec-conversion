@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=validation_ODE
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=validation_ODE
+#SBATCH --account=xdy@gpu
+#SBATCH --output=validation_hmc.out
+#SBATCH --error=validation_hmc.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
 
 set -x
 cd $WORK/repo/jl/scripts

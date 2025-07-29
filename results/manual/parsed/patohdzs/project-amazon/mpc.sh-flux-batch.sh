@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=id_${id}_${action_name}
-#FLUX: --queue=caslake
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=id_${id}_${action_name}
+#FLUX --queue=caslake
+#FLUX -t=126000
+#FLUX --urgency=16
 
 pfarray=(20.76)
 idarray=($(seq 1 10))

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=al_baselines
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#FLUX --job-name=al_baselines
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX --urgency=16
 
 date;hostname;pwd
 source activate dal-toolbox

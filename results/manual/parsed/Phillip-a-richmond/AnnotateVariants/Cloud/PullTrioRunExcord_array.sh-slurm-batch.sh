@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-kitty-9900
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
 
 FullRunStart=`date +%s`
 echo "Timestamp. Starting analysis: $date"

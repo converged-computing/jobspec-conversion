@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_pwcoco
-#FLUX: --queue=cardio
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=_pwcoco
+#FLUX --queue=cardio
+#FLUX -t=43200
+#FLUX --urgency=16
 
 function gwasglue()
 {

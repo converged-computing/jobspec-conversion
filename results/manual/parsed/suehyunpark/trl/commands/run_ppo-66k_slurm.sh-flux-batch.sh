@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mpa-Mistral-7b-v0.2-hf-ppo-66k
-#FLUX: --queue=LocalQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=mpa-Mistral-7b-v0.2-hf-ppo-66k
+#FLUX --queue=LocalQ
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export WANDB_API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 export HF_TOKEN='hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fudge-8469
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/MD/W1/md_1.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-3157
-#FLUX: -c=5
-#FLUX: --queue=partition
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-bicycle-4693
+#FLUX -c=5
+#FLUX --queue=partition
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

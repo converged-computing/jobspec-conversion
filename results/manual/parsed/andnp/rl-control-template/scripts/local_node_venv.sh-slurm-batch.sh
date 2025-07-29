@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-knife-4077
-#FLUX: -t=3300
-#FLUX: --urgency=16
+#SBATCH --account=rrg-whitem
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:55:00
 
 module load python/3.11 rust
 cp $path/requirements.txt $SLURM_TMPDIR/

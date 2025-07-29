@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: --exclusive
-#FLUX: --queue=lg
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lg
+#SBATCH: --exclusive
 
 export PATH='/home/tkaiser2/boot/opt/spack/linux-rocky8-zen2/gcc-11.2.0/git-2.35.2-4dboh5zioljmmy4q4rwdol4fwahu7k54/bin:$PATH'
 export STARTDIR='`pwd`'

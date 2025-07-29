@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hobbit-5928
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-lizard-5156
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

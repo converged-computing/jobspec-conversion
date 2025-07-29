@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hparam_array_cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=hparam_array_cpu
+#SBATCH --output=/home/muratore/Software/SimuRLacra/remotelaunch/logs/%A_%a-out.txt
+#SBATCH --error=/home/muratore/Software/SimuRLacra/remotelaunch/logs/%A_%a-err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048
+#SBATCH --time=3-00:00:00
+#SBATCH --array=1,2,5,10,20,50,100,200,500
 
 echo "Starting Job $SLURM_JOB_ID, Array Job $SLURM_ARRAY_JOB_ID Index $SLURM_ARRAY_TASK_ID"
 eval "$($HOME/Software/anaconda3/bin/conda shell.bash hook)"

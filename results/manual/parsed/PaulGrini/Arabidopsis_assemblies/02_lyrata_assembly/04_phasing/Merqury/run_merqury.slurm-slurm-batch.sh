@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=merqury
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=merqury
+#SBATCH --account=NN9525K
+#SBATCH --output=slurm-%j.base
+#SBATCH --mail-user=jonathan.bramsiepe@ibv.uio.no
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=6G
+#SBATCH --time=00:30:00
+#SBATCH --qos=devel
 
 export PATH='$PATH:/cluster/projects/nn9525k/Programs/meryl-1.0/Linux-amd64/bin'
 export MERQURY='/cluster/projects/nn9525k/Programs/merqury'

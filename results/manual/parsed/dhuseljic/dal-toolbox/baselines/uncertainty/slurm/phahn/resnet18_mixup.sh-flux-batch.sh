@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RES-MIX
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#FLUX --job-name=RES-MIX
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX --urgency=16
 
 source /mnt/stud/home/phahn/.zshrc
 rm /mnt/stud/work/phahn/uncertainty/uncertainty-evaluation/.git/index.lock

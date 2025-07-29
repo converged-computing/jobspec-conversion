@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-ricecake-6077
-#FLUX: -c=2
+#FLUX --job-name=persnickety-avocado-0280
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=scarf
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --queue=scarf
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export BASE_DIR='/home/vol08/scarf688/git/intel-e2e-benchmark/case1'
 export RELION_IMG='$BASE_DIR/relion.sif'

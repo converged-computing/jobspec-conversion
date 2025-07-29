@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pap_r34
-#FLUX: --queue=gtx1080ti_11GB
-#FLUX: --urgency=16
+#SBATCH --job-name=pap_r34
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=gtx1080ti_11GB
+#SBATCH --qos=gtx1080ti
 
 echo "PAPILA | Started | Training"
 model="baseline"

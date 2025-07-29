@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-kerfuffle-5415
-#FLUX: -N=5
-#FLUX: --queue=sgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-dog-5868
+#FLUX -N=5
+#FLUX --queue=sgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load intel
 module load impi

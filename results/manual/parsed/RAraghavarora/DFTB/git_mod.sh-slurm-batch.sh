@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=dftb-ra-nm
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dftb-ra-nm
+#SBATCH --account=p_biomolecules
+#SBATCH --output=git_dip.out
+#SBATCH --error=git_dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=4000MB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

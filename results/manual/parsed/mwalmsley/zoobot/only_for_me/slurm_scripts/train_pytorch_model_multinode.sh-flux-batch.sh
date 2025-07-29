@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pyslur
-#FLUX: -c=8
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=pyslur
+#FLUX -c=8
+#FLUX -t=82800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

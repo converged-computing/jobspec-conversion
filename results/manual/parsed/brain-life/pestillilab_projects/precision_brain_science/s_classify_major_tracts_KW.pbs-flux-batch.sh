@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cinnamonbun-1311
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-peanut-4749
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brain-life/pestillilab_projects/precision_brain_science/s_classify_major_tracts_KW.pbs

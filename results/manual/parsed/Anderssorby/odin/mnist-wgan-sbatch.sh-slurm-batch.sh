@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mnist-wgan
-#FLUX: --queue=EPICALL
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mnist-wgan
+#SBATCH --output=mnist-wgan.out
+#SBATCH --mail-user=anderscs@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=12:00:00
+#SBATCH --partition=EPICALL
+#SBATCH --constraint=ntasks-per-node=1
 
 export PROJECT='CompressedDNN'
 

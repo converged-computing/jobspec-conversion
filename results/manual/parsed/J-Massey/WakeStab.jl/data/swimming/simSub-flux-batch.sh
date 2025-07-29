@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swimming-data
-#FLUX: -n=64
-#FLUX: --queue=highmem
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=swimming-data
+#FLUX -n=64
+#FLUX --queue=highmem
+#FLUX -t=72000
+#FLUX --urgency=16
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

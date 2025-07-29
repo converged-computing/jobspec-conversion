@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lemon-1294
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-truffle-0090
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeoscienceAustralia/EQIAT/run_n.sh

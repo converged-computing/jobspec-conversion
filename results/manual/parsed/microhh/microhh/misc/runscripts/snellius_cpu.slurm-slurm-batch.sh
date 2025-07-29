@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=drycblles
-#FLUX: -n=128
-#FLUX: --queue=thin
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=drycblles
+#SBATCH --output=mhh-%j.out
+#SBATCH --error=mhh-%j.err
+#SBATCH --mail-user=ceo@microhh.org
+#SBATCH --mail-type=none
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=thin
 
 toolkit="gcc"     # gcc/intel
 module purge

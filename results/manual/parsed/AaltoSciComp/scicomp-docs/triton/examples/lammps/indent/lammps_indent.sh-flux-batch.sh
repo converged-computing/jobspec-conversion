@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-2976
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=red-platanos-8252
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$PATH:$PWD/../../../lammps-mpi-most-23Jun2022/bin'
 

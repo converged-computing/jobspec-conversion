@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sistr
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=sistr
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-sistr-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
 
 function Print_help() {
     echo

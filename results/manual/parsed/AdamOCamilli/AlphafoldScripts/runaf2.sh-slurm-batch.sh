@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lamp-8478
-#FLUX: -n=8
-#FLUX: --queue=preempt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=$1/output.%j
+#SBATCH --error=$1/error.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=64g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=preempt
 
 export alphafold_path='/cluster/tufts/cmdb295class/shared/alphafold/alphafold'
 

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=FFT-GPU-PERF
-#FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=FFT-GPU-PERF
+#SBATCH --account=nstaff_g
+#SBATCH --output=ncu-nsys-fft-gpu.o%j
+#SBATCH --error=ncu-nsys-fft-gpu.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=03:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-fft-gpu-nsight

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=OpenMP_Compile
-#FLUX: -n=4
-#FLUX: --queue=defq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=OpenMP_Compile
+#SBATCH --output=log.oc.slurm-%j.out
+#SBATCH --error=err.oc.slurm-%j.out
+#SBATCH --mail-user=j.schenke@hzdr.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=15g
+#SBATCH --time=01:00:00
+#SBATCH --partition=defq
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 

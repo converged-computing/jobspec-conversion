@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gem5-valgrind
-#FLUX: -c=2
-#FLUX: --queue=CPUQ
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gem5-valgrind
+#FLUX -c=2
+#FLUX --queue=CPUQ
+#FLUX -t=21600
+#FLUX --urgency=16
 
 RUNAHEAD_DIR="$HOME/gem5-runahead"
 TEST_SCRIPT="$RUNAHEAD_DIR/gem5-extensions/configs/test/test_re.py"

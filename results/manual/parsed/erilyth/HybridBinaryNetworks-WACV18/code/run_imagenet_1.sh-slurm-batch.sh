@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-7754
-#FLUX: -n=32
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=3-00:00:00
+#SBATCH --nodelist=gnode23
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

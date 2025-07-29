@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemur-2930
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-blackbean-7520
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

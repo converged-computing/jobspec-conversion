@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eq310i
-#FLUX: -n=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=eq310i
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=12:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

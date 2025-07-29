@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-salad-0710
-#FLUX: -n=20
-#FLUX: --queue=_______
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=_______
+#SBATCH --output=rscript.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100000
+#SBATCH --time=02:00:00
+#SBATCH --partition=_______
 
 module load gcc/9.2.0 openmpi/3.1.6 R/4.2.1
 for i in $(ls ../mapped/*.bam)

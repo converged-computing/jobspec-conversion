@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2_deeplab_AR_detect
-#FLUX: -N=1484
-#FLUX: --queue=regular
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=2_deeplab_AR_detect
+#SBATCH --account=m1517
+#SBATCH --nodes=1484
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:45:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 module swap PrgEnv-intel PrgEnv-gnu
 module use /global/common/software/m1517/teca/cori/develop/modulefiles

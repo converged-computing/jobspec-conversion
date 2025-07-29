@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=FCAST_PGD
-#FLUX: -n=4
+#FLUX --job-name=FCAST_PGD
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=intel
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --queue=intel
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export MPIRUN='mpirun -np 4'
 

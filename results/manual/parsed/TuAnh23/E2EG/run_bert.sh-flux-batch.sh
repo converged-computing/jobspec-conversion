@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bert_classifier_products
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bert_classifier_products
+#FLUX -c=3
+#FLUX --queue=gpu_shared
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export WANDB_DIR='$HOME'
 

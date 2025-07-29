@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multilabel_model
-#FLUX: --queue=stv-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=multilabel_model
+#FLUX --queue=stv-gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge 
 module load anaconda3

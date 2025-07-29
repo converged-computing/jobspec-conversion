@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Cram2Vcf
-#FLUX: -N=4
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=Cram2Vcf
+#FLUX -N=4
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export PATH='$PATH:/work/gr-fe/kostya/Serena/body/bcftools-1.9 # export bcftools'
 

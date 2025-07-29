@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dask-worker
+#FLUX --job-name=dask-worker
 #FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source mod_env_setup.sh
 LDIR=/local/$USER

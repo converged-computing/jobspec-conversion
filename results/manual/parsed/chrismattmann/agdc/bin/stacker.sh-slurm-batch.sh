@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peanut-butter-7167
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/chrismattmann/agdc/bin/stacker.sh

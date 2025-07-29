@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-nalgas-3454
-#FLUX: --queue=priopark
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-avocado-9881
+#FLUX --queue=priopark
+#FLUX -t=432000
+#FLUX --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \
     --ref /n/data1/hms/dbmi/park/jluquette/genotyper1/paper/resources/human_g1k_v37_decoy.fasta \

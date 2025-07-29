@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peas-5174
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-hippo-3203
+#FLUX --urgency=16
 
 set -e
 MODULE="TensorFlow/2.11.0-foss-2022a-CUDA-11.7.0"

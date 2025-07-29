@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pascal-rjob
-#FLUX: -n=4
-#FLUX: --queue=pascal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pascal-rjob
+#SBATCH --account=mrc-bsu-sl3-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=pascal
 
 export OMP_NUM_THREADS='1'
 

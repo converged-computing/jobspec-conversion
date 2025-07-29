@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lettuce-6979
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-chair-1946
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DS3Lab/Decentralized-FM/scripts/lsf_scripts/lsf_gptJ_inf_4RTXTitan.bsub

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-plant-2993
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-dog-0407
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export NCCL_TOPO_FILE='/nccl/topo.xml'
 export FI_PROVIDER='efa'

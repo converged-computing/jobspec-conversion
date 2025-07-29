@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DrBERT
-#FLUX: -c=6
-#FLUX: --queue=gpu_p2
-#FLUX: -t=68400
-#FLUX: --urgency=16
+#SBATCH --job-name=DrBERT
+#SBATCH --account=rtl@v100
+#SBATCH --output=./logs/%x_%A_%a.out
+#SBATCH --error=./logs/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=19:00:00
+#SBATCH --partition=gpu_p2
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load pytorch-gpu/py3/1.11.0

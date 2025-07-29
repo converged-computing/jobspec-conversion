@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-spoon-4196
-#FLUX: -n=8
-#FLUX: -c=16
-#FLUX: --queue=nvgpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=hello-truffle-4061
+#FLUX -n=8
+#FLUX -c=16
+#FLUX --queue=nvgpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

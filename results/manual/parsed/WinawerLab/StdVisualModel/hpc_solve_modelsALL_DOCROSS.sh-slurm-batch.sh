@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=StdModel_all_Cross
-#FLUX: -c=48
-#FLUX: -t=532800
-#FLUX: --urgency=16
+#SBATCH --job-name=StdModel_all_Cross
+#SBATCH --output=/scratch/%u/StdVisualModel/logs/%x_out-%a.txt
+#SBATCH --error=/scratch/%u/StdVisualModel/logs/%x_error-%a.txt
+#SBATCH --mail-user=%u@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=100GB
+#SBATCH --time=6-04:00:00
+#SBATCH --array=1-48
 
 module load matlab/2021a
 matlab <<EOF

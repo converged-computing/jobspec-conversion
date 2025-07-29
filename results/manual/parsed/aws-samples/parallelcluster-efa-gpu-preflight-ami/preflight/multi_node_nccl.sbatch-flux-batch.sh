@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-butter-0215
-#FLUX: -N=2
-#FLUX: -n=192
-#FLUX: --urgency=16
+#FLUX --job-name=grated-gato-0501
+#FLUX -N=2
+#FLUX -n=192
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export NCCL_DEBUG='INFO'

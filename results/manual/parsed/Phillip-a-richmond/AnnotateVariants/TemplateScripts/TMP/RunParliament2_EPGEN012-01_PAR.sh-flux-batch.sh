@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cattywampus-1254
-#FLUX: -c=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-underoos-4737
+#FLUX -c=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load singularity
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/

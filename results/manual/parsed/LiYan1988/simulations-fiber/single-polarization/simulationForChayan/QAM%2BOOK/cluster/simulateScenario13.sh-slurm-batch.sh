@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=simulateScenario13
-#FLUX: --queue=glenn
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=simulateScenario13
+#SBATCH --account=C3SE2018-1-15
+#SBATCH --output=simulateScenario13.stdout
+#SBATCH --error=simulateScenario13.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=glenn
 
 module load matlab
 cp  -r $SLURM_SUBMIT_DIR/* $TMPDIR

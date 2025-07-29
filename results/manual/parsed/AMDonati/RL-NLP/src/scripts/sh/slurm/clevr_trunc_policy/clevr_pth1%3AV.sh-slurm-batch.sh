@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=C-tr-pth1:V
-#FLUX: -c=16
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=C-tr-pth1:V
+#SBATCH --output=slurm_out/clevr/trunc-pth1:V-%j.out
+#SBATCH --error=slurm_out/clevr/trunc-pth1:V-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:3
+#SBATCH --mem=8g
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --array=1-5
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

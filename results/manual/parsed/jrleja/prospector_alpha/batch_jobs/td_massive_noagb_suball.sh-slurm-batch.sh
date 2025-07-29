@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=td_mass
-#FLUX: -n=32
-#FLUX: --queue=conroy,general,conroy-intel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=td_mass
+#SBATCH --output=td_massive_noagb_%a.out
+#SBATCH --error=td_massive_noagb_%a.err
+#SBATCH --mail-user=joel.leja@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=conroy,general,conroy-intel
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_massive.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

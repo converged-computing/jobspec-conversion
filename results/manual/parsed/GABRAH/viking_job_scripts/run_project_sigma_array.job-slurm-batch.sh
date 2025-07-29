@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pdb_data_curation_array
-#FLUX: -c=12
-#FLUX: --queue=nodes
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pdb_data_curation_array
+#SBATCH --account=chem-structglyco-2019
+#SBATCH --output=wwpdb_data_curation_array_job_%j.log
+#SBATCH --mail-user=hb1115@york.ac.uk
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=24gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nodes
+#SBATCH --array=1-1060
 
 export CC='$GCC'
 export CXX='$GPLUSPLUS'

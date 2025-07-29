@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-2181
-#FLUX: --urgency=16
+#FLUX --job-name=salted-motorcycle-7556
+#FLUX --urgency=16
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

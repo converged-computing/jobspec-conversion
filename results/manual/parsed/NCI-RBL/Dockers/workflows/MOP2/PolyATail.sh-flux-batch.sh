@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MOP2_TAIL
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=MOP2_TAIL
+#FLUX -c=24
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 basedir="/mnt/rnabl-work/Guiblet/CCBRRBL7/MOP2_repo"
 nextflow="/mnt/rnabl-work/Guiblet/CCBRRBL7/nextflow"

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=swat_callib_mpi_x
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=swat_callib_mpi_x
+#SBATCH --mail-user=alexander.kmoch@ut.ee
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=12
+#SBATCH --chdir=/gpfs/hpc/home/kmoch/swat
 
 module load openmpi-3.1.0
 module load python-3.7.1

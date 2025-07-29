@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hippo-5810
-#FLUX: -n=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-staircase-4953
+#FLUX -n=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate
 conda activate DRACO

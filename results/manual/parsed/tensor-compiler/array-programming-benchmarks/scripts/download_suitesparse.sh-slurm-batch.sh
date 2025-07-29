@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-4411
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 mkdir -p data/suitesparse/
 cd data/suitesparse/

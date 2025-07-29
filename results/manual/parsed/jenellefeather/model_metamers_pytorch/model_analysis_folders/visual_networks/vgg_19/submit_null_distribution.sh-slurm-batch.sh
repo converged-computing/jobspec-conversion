@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=null_vgg
-#FLUX: -c=20
-#FLUX: --queue=normal
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=null_vgg
+#SBATCH --output=output/null_%A_%a.out
+#SBATCH --error=output/null_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:GEFORCEGTX1080TI:1
+#SBATCH --mem=128000
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=high-capacity
+#SBATCH --array=0
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-8498
-#FLUX: -c=64
-#FLUX: --queue=gpu_test
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=torch_build_install.%j.out
+#SBATCH --error=torch_build_install.%j.err
+#SBATCH --mail-user=apzhao@college.harvard.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:4
+#SBATCH --mem=256000
+#SBATCH --time=00:12:00
+#SBATCH --partition=gpu_test
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DIR='${HOME}'

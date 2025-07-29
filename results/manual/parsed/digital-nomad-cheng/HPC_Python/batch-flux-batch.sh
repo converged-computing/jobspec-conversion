@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-9274
-#FLUX: -c=32
-#FLUX: -t=169200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lizard-8780
+#FLUX -c=32
+#FLUX -t=169200
+#FLUX --urgency=16
 
 module purge
 ml AMGX/2.3.0-foss-2021a-CUDA-11.3.1 SciPy-bundle/2021.05-foss-2021a matplotlib/3.4.2-foss-2021a

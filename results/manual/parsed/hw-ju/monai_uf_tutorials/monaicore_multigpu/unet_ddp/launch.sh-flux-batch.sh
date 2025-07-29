@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-4431
-#FLUX: -c=4
-#FLUX: --gpus-per-task=4
+#FLUX --job-name=blank-underoos-8207
+#FLUX -c=4
+#FLUX --gpus-per-task=4
 #FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=hpg-ai
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

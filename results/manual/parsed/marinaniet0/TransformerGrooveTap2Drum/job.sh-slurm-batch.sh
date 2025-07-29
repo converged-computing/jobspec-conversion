@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mnieto_test_eval
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=mnieto_test_eval
+#SBATCH --output=/homedtic/mnieto/test_eval/%N.%J.mnieto_test_loader.out
+#SBATCH --error=/homedtic/mnieto/test_eval/%N.%J.mnieto_test_loader.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8g
+#SBATCH --partition=short
 
 export PATH='$/homedtic/mnieto/project/anaconda3/envs/torch_thesis:$PATH'
 export WANDB_API_KEY=''

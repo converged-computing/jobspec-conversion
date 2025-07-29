@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=mnist
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=mnist
+#SBATCH --account=ict23_smr3872
+#SBATCH --output=run.out
+#SBATCH --error=run.err
+#SBATCH --mail-user=sdigioia@sissa.it
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:15:00
+#SBATCH --partition=boost_usr_prod
 
 module purge
 module load gcc

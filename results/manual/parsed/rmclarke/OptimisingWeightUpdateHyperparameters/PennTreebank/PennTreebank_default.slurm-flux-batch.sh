@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PennTreebank
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: --urgency=16
+#FLUX --job-name=PennTreebank
+#FLUX -c=32
+#FLUX --queue=ampere
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

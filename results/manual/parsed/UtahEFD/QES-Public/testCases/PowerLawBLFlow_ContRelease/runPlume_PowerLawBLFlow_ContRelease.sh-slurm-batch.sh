@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=QES-plume-ContRelease_PowerLawBLFlow
-#FLUX: --queue=efd-shared-np
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=QES-plume-ContRelease_PowerLawBLFlow
+#SBATCH --account=efd-np
+#SBATCH --output=slurm_%x-%j-%N.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=05:00:00
+#SBATCH --partition=efd-shared-np
+#SBATCH --qos=efd-np
 
 echo '****** PROLOGUE ******'
 echo '----------------------------------------------------------------------------'

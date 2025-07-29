@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moco_temp
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=moco_temp
+#SBATCH --output=moco_temp_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem-per-cpu=150GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0
 
 module purge
 module load cuda-10.1

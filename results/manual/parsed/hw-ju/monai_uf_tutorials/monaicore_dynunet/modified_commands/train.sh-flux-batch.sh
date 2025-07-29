@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leader-7154
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-milkshake-4253
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

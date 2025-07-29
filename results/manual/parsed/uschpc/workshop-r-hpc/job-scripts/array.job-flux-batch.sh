@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-8367
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-parrot-0961
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load gcc/11.3.0

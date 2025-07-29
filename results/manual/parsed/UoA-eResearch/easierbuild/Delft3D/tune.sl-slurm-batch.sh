@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TUNE
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=TUNE
+#SBATCH --account=uoa00035
+#SBATCH --output=stdout.txt
+#SBATCH --error=stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048
+#SBATCH --time=05:00:00
 
 export I_MPI_FABRICS='shm:dapl'
 export LANG='C'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=AMPHIBIOUS GAZE IMPROVEMENT
-#FLUX: --queue=iris-hi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=AMPHIBIOUS GAZE IMPROVEMENT
+#SBATCH --account=iris
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=iris-hi
+#SBATCH --exclude=iris4,iris2,iris-hp-z8
 
 export ENV_NAME='${1}'
 export SEED='${2}'

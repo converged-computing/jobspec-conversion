@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-3738
-#FLUX: --queue=sbel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=confused-malarkey-9315
+#FLUX --queue=sbel
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=install
-#FLUX: --queue=dept_cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=install
+#SBATCH --output=R-%x.%j.out
+#SBATCH --error=R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=dept_cpu
 
 cd ..
 ls

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=S4_genus-species
-#FLUX: -n=64
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=S4_genus-species
+#FLUX -n=64
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PATH='$PATH:~/genmap-build/bin'
 

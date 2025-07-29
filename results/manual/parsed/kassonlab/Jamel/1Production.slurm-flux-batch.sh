@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-chair-1715
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-dog-6704
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cuda/11.0.228

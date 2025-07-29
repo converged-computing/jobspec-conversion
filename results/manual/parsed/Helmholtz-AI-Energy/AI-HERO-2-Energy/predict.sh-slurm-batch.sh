@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=AI-HERO_energy_baseline_prediction
-#FLUX: -c=76
-#FLUX: --queue=accelerated
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=AI-HERO_energy_baseline_prediction
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=76
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=accelerated
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_CACHE_DISABLE='1'
 export OMP_NUM_THREADS='76'

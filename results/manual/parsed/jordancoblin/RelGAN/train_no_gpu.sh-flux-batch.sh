@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=relgan-tf-no-gpu
-#FLUX: -c=16
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=relgan-tf-no-gpu
+#FLUX -c=16
+#FLUX -t=1440
+#FLUX --urgency=16
 
 source .venv/relgan/bin/activate
 module load python/3.7

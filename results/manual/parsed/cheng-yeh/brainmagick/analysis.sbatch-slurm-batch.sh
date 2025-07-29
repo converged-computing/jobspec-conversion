@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=custom_dataset_train
-#FLUX: --queue=inferno
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=custom_dataset_train
+#SBATCH --account=gts-rs275
+#SBATCH --output=Report-%j.out
+#SBATCH --mail-user=cchen847@gatech.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:RTX_6000:2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=inferno
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 module load anaconda3/2022.05                   # Load module dependencies

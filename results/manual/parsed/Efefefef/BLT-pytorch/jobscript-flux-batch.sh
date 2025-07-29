@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-6761
-#FLUX: -c=9
-#FLUX: --queue=klab-gpu
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-hobbit-0697
+#FLUX -c=9
+#FLUX --queue=klab-gpu
+#FLUX --urgency=16
 
 echo "running in shell: " "$SHELL"
 spack load cuda@11.8.0

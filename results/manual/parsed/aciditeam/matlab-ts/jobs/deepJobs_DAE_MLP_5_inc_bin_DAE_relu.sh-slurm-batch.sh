@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Deep-DAE_MLP_5_inc_bin_DAE_relu
-#FLUX: --queue=mono
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Deep-DAE_MLP_5_inc_bin_DAE_relu
+#SBATCH --output=Deep-DAE_MLP_5_inc_bin_DAE_relu.out.txt
+#SBATCH --error=Deep-DAE_MLP_5_inc_bin_DAE_relu.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=mono
 
 source /etc/profile.modules
 module load gcc

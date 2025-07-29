@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-run
-#FLUX: -n=36
-#FLUX: --queue=queue0
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs-run
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=queue0
+#SBATCH --constraint=c5n.18xlarge
 
 export SPACK_ROOT='/shared/spack'
 

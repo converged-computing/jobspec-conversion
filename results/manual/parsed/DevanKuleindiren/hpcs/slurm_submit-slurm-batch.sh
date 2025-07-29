@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=language_modelling
-#FLUX: --urgency=16
+#SBATCH --job-name=language_modelling
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib:$CUDA_INSTALL_PATH/lib64;'
 

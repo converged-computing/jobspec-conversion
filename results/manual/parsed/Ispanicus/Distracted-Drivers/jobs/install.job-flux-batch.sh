@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=install_distracted_drivers
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=install_distracted_drivers
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "Running on $(hostname):"
 module load Anaconda3/2021

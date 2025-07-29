@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=shortreaddenovo_assembly
-#FLUX: -n=15
-#FLUX: --queue=Main
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=shortreaddenovo_assembly
+#FLUX -n=15
+#FLUX --queue=Main
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 echo "Assmbly Started"
 proj="/cbio/projects/026/"

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=install
-#FLUX: -n=16
-#FLUX: --urgency=16
+#SBATCH --job-name=install
+#SBATCH --output=compile.log
+#SBATCH --error=compile.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

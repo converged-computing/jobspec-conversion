@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=complextests
-#FLUX: -n=6
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=complextests
+#SBATCH --account=m2360_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=3
 
 SLURM_CPU_BIND='cores'
 OMP_NUM_THREADS=1

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-leader-2763
-#FLUX: -n=48
-#FLUX: --urgency=16
+#SBATCH --output=Distributed_SimuLin.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
 
 source /etc/profile
 module load julia/1.8.5

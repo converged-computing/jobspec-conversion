@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lamp-5586
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002026
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/scratch/project_2002026/multilabel_bert/svregisters/lstm/transformer-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export TRAIN_DIR='junkdata/$SRC'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=specfem3D
-#FLUX: -N=16
-#FLUX: --queue=snsm_itn19
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=specfem3D
+#SBATCH --output=specfem3D.%j.output.txt
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=snsm_itn19
+#SBATCH --qos=openaccess
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load apps/specfem3d/3.0.1i

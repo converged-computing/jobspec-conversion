@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cherry-3974
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-mango-0312
+#FLUX -c=32
+#FLUX --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/

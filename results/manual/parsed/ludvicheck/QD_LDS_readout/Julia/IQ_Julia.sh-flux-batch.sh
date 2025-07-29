@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iq_julia_job
-#FLUX: --queue=amd
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=iq_julia_job
+#FLUX --queue=amd
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module load SciPy-bundle
 module load mosek

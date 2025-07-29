@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=waterbirds-dro
-#FLUX: -c=8
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=waterbirds-dro
+#SBATCH --account=zlab
+#SBATCH --mail-user=bparan@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --mem=128G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu-rtx6k
 
 export TRANSFORMERS_CACHE='/gscratch/zlab/bparan/projects/transformers_cache'
 

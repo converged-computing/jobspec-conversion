@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-despacito-0541
-#FLUX: -c=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-pedo-3238
+#FLUX -c=32
+#FLUX -t=7200
+#FLUX --urgency=16
 
                                # See the comment for the cpus-per-task. One general rule could be
                                # that if you have more subjects than cores/cpus (ex, if you process 38

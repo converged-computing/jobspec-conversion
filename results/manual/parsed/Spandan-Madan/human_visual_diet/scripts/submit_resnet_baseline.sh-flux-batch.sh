@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemon-7799
-#FLUX: --queue=seas_gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-leopard-6438
+#FLUX --queue=seas_gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate domain_adaptation

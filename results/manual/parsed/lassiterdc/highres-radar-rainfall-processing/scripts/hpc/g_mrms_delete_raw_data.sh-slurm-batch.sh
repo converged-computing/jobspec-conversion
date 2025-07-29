@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lentil-7193
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=_script_outputs/%x/%A_%a_%N.out
+#SBATCH --error=_script_errors/%x/%A_%a_%N.out
+#SBATCH --mail-user=dcl3nd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-3
 
 source __directories.sh
 cd ${assar_dirs[repo]}

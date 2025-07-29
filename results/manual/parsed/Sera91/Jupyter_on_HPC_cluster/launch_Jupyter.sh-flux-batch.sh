@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CDtutorial
-#FLUX: -c=4
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=CDtutorial
+#FLUX -c=4
+#FLUX --queue=boost_usr_prod
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /leonardo_work/ICT24_ESP/sdigioia/Tutorial-causal-discovery/
 source $HOME/.bashrc

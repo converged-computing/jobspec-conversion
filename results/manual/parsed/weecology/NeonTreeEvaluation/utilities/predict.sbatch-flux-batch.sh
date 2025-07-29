@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=predict_crops
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=predict_crops
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda3/envs/DeepTreeAttention_DeepForest/bin/:/home/b.weinstein/DeepTreeAttention/'
 export PYTHONPATH='/home/b.weinstein/miniconda3/envs/DeepTreeAttention_DeepForest/lib/python3.7/site-packages/:/home/b.weinstein/DeepTreeAttention/:${PYTHONPATH}'

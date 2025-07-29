@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=road_map_01
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=road_map_01
+#SBATCH --mail-user=mh5275@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:p40:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
 
 . ~/.bashrc
 module load anaconda3/5.3.1

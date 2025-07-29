@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-banana-7076
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/isratnisa/SDDMM_GPU/HiPC18_mpi/scripts/run_mpi_16.sh

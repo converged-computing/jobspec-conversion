@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-0040
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/VasLem/brain-shape-asymmetry-genetics/deployed/run_hierarchical.pbs

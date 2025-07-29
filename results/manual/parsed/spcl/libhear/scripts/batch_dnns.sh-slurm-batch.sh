@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm_resnet
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=dlrm_resnet
+#SBATCH --account=g34
+#SBATCH --mail-user=mikhail.khalilov@inf.ethz.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=16
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=07:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16,ntasks-per-socket=16,mc
 
 BLOCK_SIZE=262144
 BIN_DIR=$1

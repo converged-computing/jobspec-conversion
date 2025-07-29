@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Cosmo-test
-#FLUX: --queue=GPUQ
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Cosmo-test
+#SBATCH --account=ie-idi
+#SBATCH --output=results.out
+#SBATCH --mail-user=hasc@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=A100
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

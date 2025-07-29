@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-sundae-7645
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%A-%a.out
+#SBATCH --error=slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=2G
+#SBATCH --time=06:00:00
+#SBATCH --array=2
 
 module load Julia
 echo "Julia module loaded."

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poo-8437
-#FLUX: -c=4
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --mail-user=jwogan2@uwo.ca
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:08:00
 
 module load python/3 gcc arrow cuda cudnn
 virtualenv --no-download tensorflow

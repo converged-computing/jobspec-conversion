@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-signal-9854
-#FLUX: --queue=t4_dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=t4_dev_q
+#SBATCH --constraint=ntasks-per-node=32
 
 module reset
 module load GROMACS/2020.4-fosscuda-2020b

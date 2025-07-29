@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-4418
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-citrus-3404
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

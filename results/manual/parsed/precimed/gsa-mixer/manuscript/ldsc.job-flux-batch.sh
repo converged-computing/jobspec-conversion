@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gsamix
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gsamix
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export THREADS='8'
 export SUMSTATS_FOLDER='/ess/p697/cluster/users/ofrei/2023_02_06_GSA_MiXeR_natgen_revisions/sumstats_v3p1'

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-butter-1373
-#FLUX: -n=16
-#FLUX: --queue=cox
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=196608
+#SBATCH --time=00:06:00
+#SBATCH --partition=cox
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

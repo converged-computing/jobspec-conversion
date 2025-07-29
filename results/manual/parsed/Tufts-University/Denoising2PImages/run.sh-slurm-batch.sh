@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=NV_020823_Denoising
-#FLUX: -n=10
-#FLUX: --queue=patralab
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=NV_020823_Denoising
+#SBATCH --output=../FAD_WUnet_0928_cervix_SSIMR2_new_seed0_loss_larger.%j.out
+#SBATCH --error=../FAD_WUnet_0928_cervix_SSIMR2_new_seed0_loss_larger.%j.err
+#SBATCH --mail-user=nvora01@tufts.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=30g
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=patralab
+#SBATCH --exclude=cc1gpu005
 
 module load anaconda/2021.05
 source activate Denoising

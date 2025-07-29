@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=wd
+#FLUX -t=86400
+#FLUX --urgency=16
 
 py_map_creator=map_index_cf.py
 initiator=initialize.py

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=miniem
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=miniem
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export SLURM_JOB_ID='${SLURM_JOB_ID:-424242}'
 export DIR_BASE='`pwd -P`'

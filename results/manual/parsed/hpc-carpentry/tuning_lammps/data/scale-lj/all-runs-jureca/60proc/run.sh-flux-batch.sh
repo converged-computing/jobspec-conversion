@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-blackbean-2045
-#FLUX: -N=2
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=confused-citrus-4009
+#FLUX -N=2
+#FLUX --queue=devel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

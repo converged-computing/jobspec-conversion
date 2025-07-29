@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wandb-sweep
-#FLUX: --queue=gpu-8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=wandb-sweep
+#SBATCH --output=jobs/sweep_%A_%a.stdout
+#SBATCH --error=jobs/sweep_%A_%a.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titanrtx:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu-8
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

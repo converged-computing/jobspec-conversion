@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakempi
-#FLUX: -n=20
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#FLUX --job-name=snakempi
+#FLUX -n=20
+#FLUX --queue=priority
+#FLUX --urgency=16
 
 export TIMEFORMAT='user-seconds %3U'
 

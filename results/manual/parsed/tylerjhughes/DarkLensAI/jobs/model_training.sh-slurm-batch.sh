@@ -1,7 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=model_training
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=model_training
+#SBATCH --output=jobs/running/myjob-%A-%a.out
+#SBATCH --error=jobs/running/myjob-%A-%a.err
+#SBATCH --mail-user=tjhughes@swin.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=14:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-2
 
 export LD_LIBRARY_PATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib:${LD_LIBRARY_PATH}'
 export PYTHONPATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib/python3.7/site-packages:${PYTHONPATH}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-signal-2538
+#FLUX --job-name=moolicious-lamp-3543
 #FLUX: --exclusive
-#FLUX: --queue=pvc
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --queue=pvc
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export ZE_FLAT_DEVICE_HIERARCHY='FLAT'
 

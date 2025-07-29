@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-3869
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-pedo-8059
+#FLUX --queue=ampere
+#FLUX -t=72000
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 module purge

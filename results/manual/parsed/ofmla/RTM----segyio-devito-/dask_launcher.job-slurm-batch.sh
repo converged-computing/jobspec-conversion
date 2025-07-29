@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dask_launcher
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_launcher
+#SBATCH --output=dask_launcher.o%j
+#SBATCH --error=dask_launcher.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
 
 export TMPDIR='$PWD/codes_devito'
 export OMP_NUM_THREADS='10'

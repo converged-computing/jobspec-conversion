@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cat-4263
-#FLUX: --queue=athey
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-general-7323
+#FLUX --queue=athey
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load python/3.6.1
 module load cuda/11.2.0

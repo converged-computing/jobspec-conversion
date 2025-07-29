@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=plot_hist
-#FLUX: -N=4
-#FLUX: --queue=amd
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=plot_hist
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-44
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing
 module purge

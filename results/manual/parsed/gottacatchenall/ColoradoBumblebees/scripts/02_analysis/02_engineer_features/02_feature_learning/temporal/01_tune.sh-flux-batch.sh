@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-hope-2273
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-kitty-8620
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH='/project/def-gonzalez/mcatchen/JuliaEnvironments/COBees'
 export CLUSTER='true'

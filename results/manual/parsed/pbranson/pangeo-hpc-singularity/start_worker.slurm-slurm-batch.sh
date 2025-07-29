@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dask-worker
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-worker
+#SBATCH --account=pawsey0106
+#SBATCH --output=dask-worker-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=01:00:00
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

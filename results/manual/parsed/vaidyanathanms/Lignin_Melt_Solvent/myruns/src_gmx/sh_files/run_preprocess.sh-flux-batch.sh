@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pot-9773
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-avocado-5231
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/vaidyanathanms/Lignin_Melt_Solvent/myruns/src_gmx/sh_files/run_preprocess.sh

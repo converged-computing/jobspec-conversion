@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PLUTO_sW
-#FLUX: -N=32
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PLUTO_sW
+#FLUX -N=32
+#FLUX --queue=boost_usr_prod
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source ${HOME}/modules_files/pluto_mod 23.11
 cd ${HOME}/programming/gpluto_cpp/Test_Problems/MHD/Orszag_Tang

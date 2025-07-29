@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-salad-3419
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-kitty-4064
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jacobmerson/pcms_testcases/cyclone/Cyclone_ITG_totalf_590kmesh/run_summit_xgc.sh

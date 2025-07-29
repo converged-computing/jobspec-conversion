@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron_gpt
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 set -ex
 : "${APPS_PATH:=/apps}"

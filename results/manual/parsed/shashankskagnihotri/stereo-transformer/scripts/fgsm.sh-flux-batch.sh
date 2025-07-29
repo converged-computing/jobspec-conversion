@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-2411
-#FLUX: -c=64
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-milkshake-8149
+#FLUX -c=64
+#FLUX --queue=gpu
+#FLUX -t=86399
+#FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0
 python main_fgsm.py  --epochs 15\

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-malarkey-6025
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-lemur-6876
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 export GLOO_SOCKET_IFNAME='eth0'
 

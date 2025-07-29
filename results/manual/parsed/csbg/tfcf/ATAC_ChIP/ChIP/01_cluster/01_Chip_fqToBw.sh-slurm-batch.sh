@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Chip_fqToBw
-#FLUX: -c=12
-#FLUX: --queue=medium
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Chip_fqToBw
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=30G
+#SBATCH --time=08:00:00
+#SBATCH --partition=medium
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

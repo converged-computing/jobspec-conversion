@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ddppo
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=devlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ddppo
+#FLUX -N=4
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=devlab
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MAGNUM_LOG='quiet'
 export MAGNUM_GPU_VALIDATION='ON'

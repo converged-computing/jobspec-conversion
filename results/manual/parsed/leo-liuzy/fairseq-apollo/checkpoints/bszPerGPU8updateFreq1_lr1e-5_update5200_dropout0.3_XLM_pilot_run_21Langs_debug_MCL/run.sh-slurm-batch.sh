@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=XLM_pilot_run_21Langs
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=XLM_pilot_run_21Langs
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=164g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=0
 
 trap_handler () {
    echo "Caught signal: " $1

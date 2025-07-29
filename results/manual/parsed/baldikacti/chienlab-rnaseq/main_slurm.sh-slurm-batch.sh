@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chienlab-rnaseq-ba
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=chienlab-rnaseq-ba
+#SBATCH --output=logs/chienlab-rnaseq-ba_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32gb
+#SBATCH --time=06:00:00
+#SBATCH --partition=cpu
 
 date;hostname;pwd
 module load nextflow/23.04.1 miniconda/22.11.1-1

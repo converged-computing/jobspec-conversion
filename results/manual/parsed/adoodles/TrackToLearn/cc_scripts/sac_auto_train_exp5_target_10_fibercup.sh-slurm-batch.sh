@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-mango-7655
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=$SALLOC_ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=12000M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-4
 
 export DISPLAY=':0'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=priors-mfpbench
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=priors-mfpbench
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX -t=10800
+#FLUX --urgency=16
 
 WORKDIR="/work/dlclarge1/mallik-mf-prior/mf-prior-exp"
 PRIORDIR="${WORKDIR}/src/mf-prior-bench/priors"

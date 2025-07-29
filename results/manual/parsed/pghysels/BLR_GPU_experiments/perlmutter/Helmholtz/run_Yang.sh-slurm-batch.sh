@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-chair-4627
-#FLUX: -N=32
-#FLUX: --queue=premium
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=m3953_g
+#SBATCH --error=./tmp.err
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=128
+#SBATCH --time=01:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

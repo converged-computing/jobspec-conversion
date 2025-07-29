@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bits-9771
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-33-20
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:40:00
+#SBATCH --partition=alvis
 
 vid="025_FL_R.MOV"
 cp -r $HOME/motion-analysis $TMPDIR

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fudge-7734
-#FLUX: --queue=naples,dhabi,rome
-#FLUX: --urgency=16
+#SBATCH --output=/nfs/home/student.aau.dk/jmdh19/slurm-output/instance_runner-%A_%a.out
+#SBATCH --error=/nfs/home/student.aau.dk/jmdh19/slurm-output/instance_runner-%A_%a.err
+#SBATCH --mail-user=jmdh19@student.aau.dk
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --partition=naples,dhabi,rome
 
 U="$1"
 SCRATCH_DIRECTORY=/scratch/${U}

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_fng2
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_fng2
+#SBATCH --output=myjob.%j.out
+#SBATCH --error=myjob.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100-sxm2:1
+#SBATCH --mem=48GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 conda create --name pytorch_env python=3.10 -y
 source activate pytorch_env

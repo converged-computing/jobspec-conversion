@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pot-6896
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cattywampus-9498
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load cuda/10.2.89-2fkd
 source ../torchenv/bin/activate

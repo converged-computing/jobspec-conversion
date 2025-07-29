@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kinetic
-#FLUX: --urgency=16
+#SBATCH --job-name=kinetic
+#SBATCH --output=simulations/kinetic%a_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --array=0-11
 
 kon=(0.01 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.03 0.03 0.03 0.03)
 lamda=(0.01 0.15 0.5 1 0.01 0.15 0.5 1 0.01 0.15 0.5 1 0.01 0.15 0.5 1)

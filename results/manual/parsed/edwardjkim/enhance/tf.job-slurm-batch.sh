@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mp
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mp
+#SBATCH --output=mp.out.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=normal
 
 module load tensorflow/1.0.0
 mkdir -p $dirname

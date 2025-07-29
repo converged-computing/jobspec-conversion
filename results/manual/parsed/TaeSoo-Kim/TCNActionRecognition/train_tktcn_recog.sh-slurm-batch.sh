@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=res_v3
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=res_v3
+#SBATCH --mail-user=tkim60@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module restore mymodules
 echo "Using GPU Device:"

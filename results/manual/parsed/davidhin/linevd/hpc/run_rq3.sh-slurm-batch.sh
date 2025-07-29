@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rq3
-#FLUX: -n=6
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=rq3
+#SBATCH --output=hpc/logs/rq3_%A.info
+#SBATCH --error=hpc/logs/rq3_%A.info
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=batch
 
 module load Singularity
 module load CUDA/10.2.89

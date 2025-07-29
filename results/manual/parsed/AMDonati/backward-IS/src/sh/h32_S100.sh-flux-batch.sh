@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=H32-S100
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=H32-S100
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

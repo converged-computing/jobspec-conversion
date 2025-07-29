@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-0478
-#FLUX: -c=4
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --output=./slurms/output.%j.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=03:59:00
 
 module load pyger/0.9
 conda init bash

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-muffin-0569
-#FLUX: --queue=slurm_priority
-#FLUX: -t=1209780
-#FLUX: --urgency=16
+#FLUX --job-name=blank-frito-7951
+#FLUX --queue=slurm_priority
+#FLUX -t=1209780
+#FLUX --urgency=16
 
 module load usermods
 module load user/cuda

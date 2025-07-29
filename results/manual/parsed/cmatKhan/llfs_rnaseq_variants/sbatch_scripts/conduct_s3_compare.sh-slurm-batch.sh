@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rna_dna_comp.out
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=rna_dna_comp.out
+#SBATCH --output=rna_dna_comp.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:20:00
 
 set -e
 eval $(spack load --sh singularityce@3.11.4)

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-8466
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_Rolipram/Complex/nvt_complex.pbs

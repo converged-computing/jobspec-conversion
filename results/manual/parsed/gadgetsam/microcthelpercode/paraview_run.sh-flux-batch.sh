@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fudge-9049
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-plant-2648
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load ParaView
 start_pvbatch.sh 1 1 haswell 00:1:00 default debug `pwd`/pv-test.py

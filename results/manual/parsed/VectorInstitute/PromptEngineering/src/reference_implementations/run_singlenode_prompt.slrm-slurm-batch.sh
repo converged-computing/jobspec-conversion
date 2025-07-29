@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=prompt-singlenode-experiments
-#FLUX: -c=4
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#SBATCH --job-name=prompt-singlenode-experiments
+#SBATCH --output=job_%x_%j.out
+#SBATCH --error=job_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --partition=a40
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='52069'

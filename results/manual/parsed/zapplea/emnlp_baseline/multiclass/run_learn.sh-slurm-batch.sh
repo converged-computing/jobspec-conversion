@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=emnlp_baseline
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#SBATCH --job-name=emnlp_baseline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200GB
+#SBATCH --time=05:59:00
+#SBATCH --qos=express
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "loading"
 module load python/3.6.1

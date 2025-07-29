@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=amgx_single
-#FLUX: --queue=gpumedium
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=amgx_single
+#SBATCH --account=project_2001628
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4,nvme:950
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpumedium
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='32'
 

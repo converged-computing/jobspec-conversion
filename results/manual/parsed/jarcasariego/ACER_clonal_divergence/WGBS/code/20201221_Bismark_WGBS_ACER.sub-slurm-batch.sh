@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-6178
-#FLUX: -n=16
-#FLUX: --queue=IB_44C_512G
-#FLUX: --urgency=16
+#SBATCH --account=iacc_jeirinlo
+#SBATCH --output=log_bismark
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=IB_44C_512G
+#SBATCH --qos=pq_jeirinlo
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

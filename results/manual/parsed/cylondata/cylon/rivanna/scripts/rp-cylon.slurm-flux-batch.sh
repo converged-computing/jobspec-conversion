@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-eagle-1013
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-spoon-7782
+#FLUX -N=2
+#FLUX --queue=parallel
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

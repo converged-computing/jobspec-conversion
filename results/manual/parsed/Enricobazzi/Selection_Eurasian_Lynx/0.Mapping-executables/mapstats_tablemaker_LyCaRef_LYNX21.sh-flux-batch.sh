@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-soup-2367
-#FLUX: -c=24
-#FLUX: --queue=thinnodes
-#FLUX: -t=150
-#FLUX: --urgency=16
+#FLUX --job-name=faux-plant-3665
+#FLUX -c=24
+#FLUX --queue=thinnodes
+#FLUX -t=150
+#FLUX --urgency=16
 
 module load gcc/6.4.0 samtools/1.8
 declare -A BARCODEID

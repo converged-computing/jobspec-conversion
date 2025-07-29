@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=e1d_data
-#FLUX: -n=28
-#FLUX: --queue=defq,BigMem,gpu,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
-#FLUX: --urgency=16
+#SBATCH --job-name=e1d_data
+#SBATCH --output=log/e1d_data_%A.out
+#SBATCH --error=log/e1d_data_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq,BigMem,gpu,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
 
 export CC='$(which gcc)'
 export CXX='$(which g++)'

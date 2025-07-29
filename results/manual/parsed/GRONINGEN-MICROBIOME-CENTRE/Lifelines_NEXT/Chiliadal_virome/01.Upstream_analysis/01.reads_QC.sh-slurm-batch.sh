@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Chiliadal_rQC
-#FLUX: -c=2
-#FLUX: -t=32340
-#FLUX: --urgency=16
+#SBATCH --job-name=Chiliadal_rQC
+#SBATCH --output=./out/01.rQC/Chiliadal_%A_%a.out
+#SBATCH --error=./err/01.rQC/Chiliadal_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=64gb
+#SBATCH --time=08:59:00
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

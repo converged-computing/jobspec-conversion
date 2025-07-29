@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-3571
-#FLUX: -c=12
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=dong.x@wehi.edu.au
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=250G
+#SBATCH --time=2-00:00:00
 
 export PATH='$PATH:/wehisan/home/allstaff/d/dong.x/Programs/minimap2'
 

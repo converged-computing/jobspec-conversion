@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=map-elites-baseline
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=map-elites-baseline
+#SBATCH --account=nikolaid_548
+#SBATCH --output=./hpc/logs/slurm-%j.out
+#SBATCH --error=./hpc/logs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4GB
+#SBATCH --time=1-00:00:00
 
 echo "========== SLURM JOB INFO =========="
 echo

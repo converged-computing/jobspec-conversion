@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-toaster-3626
-#FLUX: --queue=A100-pci
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-bits-9649
+#FLUX --queue=A100-pci
+#FLUX --urgency=16
 
 echo "Start: `date`"
 echo "UUID GPU List - original"

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NB1DSUMW
-#FLUX: -c=16
-#FLUX: --queue=alqadi-amd
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=NB1DSUMW
+#SBATCH --mail-user=johannc2@illinois.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=alqadi-amd
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=ccc0324
 
 module use /projects/eng/modulefiles
 module load abaqus/2023

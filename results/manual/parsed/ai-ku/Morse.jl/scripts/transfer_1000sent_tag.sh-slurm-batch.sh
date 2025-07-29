@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=transfer1000tag
-#FLUX: --queue=gpu
-#FLUX: --urgency=50
+#SBATCH --job-name=transfer1000tag
+#SBATCH --output=transfer1000tag.out
+#SBATCH --error=transfer1000tag.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --partition=gpu
+#SBATCH --qos=high
 
 julia main.jl --lang sv --epochs 100 --trainSize 1000  \
               --dropouts 0.5 --mode 3 \

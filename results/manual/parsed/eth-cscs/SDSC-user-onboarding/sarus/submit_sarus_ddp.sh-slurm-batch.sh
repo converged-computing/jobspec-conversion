@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sdsc-ddp
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=sdsc-ddp
+#SBATCH --account=sd00
+#SBATCH --output=logs/slurm-%x.%j.out
+#SBATCH --error=logs/slurm-%x.%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_DEBUG='INFO'

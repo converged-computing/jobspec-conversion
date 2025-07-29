@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lentil-8137
-#FLUX: --queue=skl_fua_prod
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=skl_fua_prod
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_MODE='lib'

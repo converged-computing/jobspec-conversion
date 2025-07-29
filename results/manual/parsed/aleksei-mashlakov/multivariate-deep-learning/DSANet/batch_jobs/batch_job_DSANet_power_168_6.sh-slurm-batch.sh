@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dsap1686
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=57000
-#FLUX: --urgency=16
+#SBATCH --job-name=dsap1686
+#SBATCH --account=Project_2002244
+#SBATCH --output=job_out_ep_power_168_6.txt
+#SBATCH --error=job_err_ep_power_168_6.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=16G
+#SBATCH --time=15:50:00
+#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.2.0

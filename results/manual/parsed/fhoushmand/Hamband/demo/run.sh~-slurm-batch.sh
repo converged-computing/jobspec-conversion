@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-frito-8641
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=result.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=15G
+#SBATCH --partition=short
+#SBATCH: --exclusive
+#SBATCH --constraint=intel
 
 module load valgrind;
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))

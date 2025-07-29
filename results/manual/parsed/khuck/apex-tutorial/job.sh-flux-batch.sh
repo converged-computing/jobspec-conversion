@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-4237
-#FLUX: -c=8
-#FLUX: --queue=True
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-lemur-4781
+#FLUX -c=8
+#FLUX --queue=True
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='close'

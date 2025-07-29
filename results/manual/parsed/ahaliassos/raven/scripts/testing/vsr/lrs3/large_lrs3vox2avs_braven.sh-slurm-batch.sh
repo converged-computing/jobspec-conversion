@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=raven
-#FLUX: -c=12
-#FLUX: --queue=learnai4rl
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=raven
+#SBATCH --account=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --partition=learnai4rl
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 srun python raven/test.py \
     data.modality=video \

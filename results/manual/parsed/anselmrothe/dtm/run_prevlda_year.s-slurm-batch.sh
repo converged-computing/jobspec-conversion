@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myTest
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=myTest
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=asr443@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=1-12:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=2-17
 
 module load gsl/intel/2.3
 RUNDIR=$SCRATCH/dtmproject/run-${SLURM_JOB_ID/.*}

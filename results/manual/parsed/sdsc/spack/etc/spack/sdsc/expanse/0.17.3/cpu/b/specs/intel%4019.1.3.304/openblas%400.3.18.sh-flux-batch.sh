@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=openblas@0.3.18
-#FLUX: -c=16
-#FLUX: --queue=ind-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=openblas@0.3.18
+#FLUX -c=16
+#FLUX --queue=ind-shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

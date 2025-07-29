@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tabula_muris paretoMTL_MINE
-#FLUX: --queue=physical
-#FLUX: -t=381600
-#FLUX: --urgency=16
+#SBATCH --job-name=tabula_muris paretoMTL_MINE
+#SBATCH --account=punim0890
+#SBATCH --mail-user=hui.li3@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --time=4-10:00:00
+#SBATCH --partition=physical
+#SBATCH --array=0-19
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buildgmx
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=buildgmx
+#FLUX -n=8
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 tar xvf gromacs-v2023.2.tar.gz
 cd gromacs-v2023.2

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ufBTS for 5 bands
-#FLUX: -c=51
-#FLUX: --queue=biocrunch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ufBTS for 5 bands
+#FLUX -c=51
+#FLUX --queue=biocrunch
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load r-doparallel/1.0.11-py2-r3.5-tlbjucn
 module load r-devtools/1.12.0-py2-r3.5-3zfj3n2

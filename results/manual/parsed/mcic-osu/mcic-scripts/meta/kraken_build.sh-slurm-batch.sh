@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=kraken_build
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=kraken_build
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-kraken_build-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=1-06:00:00
 
 DESCRIPTION="Build a custom Kraken database
   Note: Standard Kraken databases can also be downloaded from https://benlangmead.github.io/aws-indexes/"

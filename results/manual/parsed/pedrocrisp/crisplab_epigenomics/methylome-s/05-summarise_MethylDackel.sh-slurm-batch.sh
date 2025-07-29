@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=summarise_MethylDackel
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=summarise_MethylDackel
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=general
 
 set -xeuo pipefail
 echo ------------------------------------------------------

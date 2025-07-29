@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ngon
-#FLUX: -t=5
-#FLUX: --urgency=16
+#SBATCH --job-name=ngon
+#SBATCH --output=ngon_%A-%a_out.txt
+#SBATCH --error=ngon_%A-%a_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:00:05
+#SBATCH --array=1-6
 
 module load python/3.8.5
 data_file='input_data.txt'

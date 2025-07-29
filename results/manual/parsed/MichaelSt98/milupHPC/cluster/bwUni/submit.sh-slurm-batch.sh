@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sedov_N126_sfc1D_np4
-#FLUX: -n=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=sedov_N126_sfc1D_np4
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=00:20:00
 
 source ~/.bashrc
 module load compiler/gnu/10.2

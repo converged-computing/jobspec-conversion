@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-7594
-#FLUX: --queue=draco
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-motorcycle-1699
+#FLUX --queue=draco
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH'
 export PATH='$PATH'

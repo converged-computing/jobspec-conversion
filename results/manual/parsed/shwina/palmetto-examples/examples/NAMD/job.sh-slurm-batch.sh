@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-snack-6169
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shwina/palmetto-examples/examples/NAMD/job.sh

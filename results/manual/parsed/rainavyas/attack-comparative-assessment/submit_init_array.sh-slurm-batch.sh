@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=arr_cpujob
-#FLUX: -n=30
-#FLUX: --queue=cclake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=arr_cpujob
+#SBATCH --account=GALES-SL4-CPU
+#SBATCH --output=arr_cpu_%A_%a.out
+#SBATCH --error=arr_cpu_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cclake
+#SBATCH --array=0-49
 
 export OMP_NUM_THREADS='30'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

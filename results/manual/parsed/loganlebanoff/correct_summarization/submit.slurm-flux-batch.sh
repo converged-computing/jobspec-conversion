@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poodle-7714
-#FLUX: -c=8
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-despacito-0931
+#FLUX -c=8
+#FLUX -t=356400
+#FLUX --urgency=16
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

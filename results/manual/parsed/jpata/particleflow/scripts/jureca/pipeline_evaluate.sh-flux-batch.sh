@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pipeeval
-#FLUX: --queue=dc-gpu
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#FLUX --job-name=pipeeval
+#FLUX --queue=dc-gpu
+#FLUX -t=7199
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

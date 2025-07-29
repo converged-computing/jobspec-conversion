@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-blackbean-0283
-#FLUX: -n=28
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --account=Project_ID
+#SBATCH --output=job_o.out
+#SBATCH --error=job_o.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:50:00
 
 ml purge  > /dev/null 2>&1 
 ml GCC/9.3.0  OpenMPI/4.0.3 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-train-6758
-#FLUX: --queue=gpu2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=resnet30-singularity.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

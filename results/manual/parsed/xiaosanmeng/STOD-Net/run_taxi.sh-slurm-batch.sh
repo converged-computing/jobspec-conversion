@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=taxi_layer
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=taxi_layer
+#SBATCH --output=taxi_layer.%J.out
+#SBATCH --error=taxi_layer.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=128G
+#SBATCH --time=01:30:00
+#SBATCH --partition=batch
+#SBATCH --array=1-70
 
 conda activate /ibex/scratch/zhanc0c/projects/st_dense_gcn/env
 loss_values=( 'l1' )

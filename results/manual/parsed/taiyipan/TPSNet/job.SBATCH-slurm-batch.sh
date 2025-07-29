@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=48
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:4
+#SBATCH --mem=20GB
+#SBATCH --time=05:00:00
 
 module purge
 singularity exec --nv \

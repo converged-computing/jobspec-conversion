@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=barbun_2020_pds
-#FLUX: -n=40
-#FLUX: --queue=barbun-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=barbun_2020_pds
+#FLUX -n=40
+#FLUX --queue=barbun-cuda
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 

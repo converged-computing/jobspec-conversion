@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ConcatTreebanks
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=ConcatTreebanks
+#FLUX --queue=gpu_titanrtx_shared_course
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load 2019

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2Dplate
-#FLUX: --queue=standard
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=2Dplate
+#FLUX --queue=standard
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export model_num='$2'
 

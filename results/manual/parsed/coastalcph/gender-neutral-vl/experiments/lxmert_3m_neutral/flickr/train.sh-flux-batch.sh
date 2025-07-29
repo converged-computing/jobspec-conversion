@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=flickr_lxmert3m_neutral
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=flickr_lxmert3m_neutral
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$(builtin cd ..; pwd)'
 

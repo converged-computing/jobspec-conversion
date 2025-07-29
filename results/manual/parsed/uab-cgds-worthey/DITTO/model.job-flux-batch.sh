@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DITTO
-#FLUX: --queue=amd-hdr100-res
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=DITTO
+#FLUX --queue=amd-hdr100-res
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module reset
 module load Java/13.0.2

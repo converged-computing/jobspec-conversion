@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-7648
-#FLUX: -c=32
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=3G
+#SBATCH --time=3-00:00:00
 
 export GMX='gmx_mpi'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lamp-7726
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-cat-0075
+#FLUX --urgency=16
 
 n_procs=$1
 app=$2

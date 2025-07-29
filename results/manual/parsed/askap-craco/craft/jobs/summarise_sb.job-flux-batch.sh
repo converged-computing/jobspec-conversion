@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-milkshake-9927
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-poodle-6859
+#FLUX -t=8400
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=svr
-#FLUX: -N=12
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=svr
+#SBATCH --mail-user=adamjs5@illinois.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=56
 
 export LAUNCHER_WORKDIR='~/bathymetry'
 export LAUNCHER_JOB_FILE='svr-job-file.txt'

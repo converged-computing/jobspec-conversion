@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vsml
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=vsml
+#FLUX -N=4
+#FLUX --queue=normal
+#FLUX -t=14400
+#FLUX --urgency=16
 
 if [ -n "$WANDB_DEPENDENCY" ]
 then

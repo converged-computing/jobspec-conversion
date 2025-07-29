@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kerfuffle-3359
-#FLUX: -c=4
-#FLUX: --queue=dpart
-#FLUX: -t=129600
-#FLUX: --urgency=50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=dpart
+#SBATCH --qos=high
 
 export WORK_DIR='/scratch0/slurm_${SLURM_JOBID}'
 export PYTHONPATH='.:$PYTHONPATH'

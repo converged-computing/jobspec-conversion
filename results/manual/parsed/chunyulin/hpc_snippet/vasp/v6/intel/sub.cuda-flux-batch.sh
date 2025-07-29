@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-9100
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-leopard-4232
+#FLUX -c=4
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/lib64/libpmi.so'
 export I_MPI_OFI_PROVIDER='mlx'

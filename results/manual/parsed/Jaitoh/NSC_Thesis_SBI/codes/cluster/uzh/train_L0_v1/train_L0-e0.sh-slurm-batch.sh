@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train_L0-e0
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_L0-e0
+#SBATCH --output=./cluster/uzh/train_L0_v1/train_logs/train_L0-e0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
 
 module load intel
 module load anaconda3

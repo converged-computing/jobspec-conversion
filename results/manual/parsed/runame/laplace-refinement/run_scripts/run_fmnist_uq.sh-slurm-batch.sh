@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-nunchucks-1068
-#FLUX: --queue=gpu-2080ti
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=fmnist_uq_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx2080ti:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu-2080ti
+#SBATCH --array=1-5
 
 scontrol show job $SLURM_JOB_ID
 declare -a datasets=("R-FMNIST" "FMNIST-OOD")

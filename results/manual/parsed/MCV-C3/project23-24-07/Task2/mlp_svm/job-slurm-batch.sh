@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-destiny-5000
-#FLUX: -n=4
-#FLUX: --queue=mlow,mlow
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2000
+#SBATCH --partition=mlow,mlow
 
 SAVE_DIR=$1
 sleep 1

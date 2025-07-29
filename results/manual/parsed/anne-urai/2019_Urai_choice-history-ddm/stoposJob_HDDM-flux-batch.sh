@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-platanos-9484
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-arm-8886
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load stopos
 source activate python27 # use anaconda

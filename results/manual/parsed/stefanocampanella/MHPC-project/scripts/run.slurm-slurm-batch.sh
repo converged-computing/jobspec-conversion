@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bicycle-8730
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=400MB
 
 export TMPDIR='/dev/shm'
 export PYTHONPATH='$PYTHONPATH:$MHPCPROJECT_ROOT'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bamgcbias
-#FLUX: -n=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bamgcbias
+#SBATCH --output=logs/bamgcbias.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24G
+#SBATCH --time=1-00:00:00
 
 CONFIG=config.txt
 module unload python

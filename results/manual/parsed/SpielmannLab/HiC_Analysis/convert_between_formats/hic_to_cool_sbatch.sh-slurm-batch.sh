@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hic_to_cool
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#SBATCH --job-name=hic_to_cool
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --partition=shortterm
 
 module load nextflow/v22.04.1
 mkdir -p $WORK/hic_to_cool_nextflow_launchdir

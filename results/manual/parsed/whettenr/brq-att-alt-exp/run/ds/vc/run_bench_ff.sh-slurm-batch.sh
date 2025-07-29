@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vc_ff
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=vc_ff
+#SBATCH --account=dha@v100
+#SBATCH --output=log/ff_vc_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=qos_gpu-t4
 
 module load pytorch-gpu/py3/2.1.1
 conda activate aa

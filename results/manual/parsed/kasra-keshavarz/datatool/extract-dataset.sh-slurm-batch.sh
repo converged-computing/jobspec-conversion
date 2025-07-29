@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=DATA_${scriptName}
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=DATA_${scriptName}
+#SBATCH --account=$account
+#SBATCH --output=$logDir/datatool_%A-%a.txt
+#SBATCH --error=$logDir/datatool_%A-%a_err.txt
+#SBATCH --mail-user=$email
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000M
+#SBATCH --time=04:00:00
+#SBATCH --array=0-$jobArrLen
 
 function short_usage () {
   echo "Usage: $(basename $0) [-jh] [-i DIR] [-d DATASET] [-co DIR] [-se DATE] [-ln REAL,REAL] [-p STR]

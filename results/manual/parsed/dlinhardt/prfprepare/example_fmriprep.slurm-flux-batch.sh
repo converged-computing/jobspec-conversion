@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=24
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep
+#FLUX -c=24
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HOMES='/scratch/glerma'
 export SINGULARITYENV_FS_LICENSE='$BIDS_DIR/.freesurfer.txt'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hvd_tf2
-#FLUX: -c=40
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=hvd_tf2
+#SBATCH --output=hvd_tf2_%j.out
+#SBATCH --error=hvd_tf2_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:50:00
+#SBATCH --chdir=.
 
 export PYTHONUNBUFFERED='1'
 export SLURM_MPI_TYPE='openmpi'

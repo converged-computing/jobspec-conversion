@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-spoon-6113
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-milkshake-8811
+#FLUX -c=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MODEL='models--gpt2-medium'
 export MODEL_NAME='gpt2-medium'

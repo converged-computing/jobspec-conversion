@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=json2data
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=json2data
+#FLUX -c=128
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=518400
+#FLUX --urgency=16
 
 root=/red/gatortron-phi/gpt
 data_root=/red/gatortron-phi/gpt/data/ThePile_raw_json/the-eye.eu/public/AI/pile/train

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=a100-dgx-cloudmask-gpu-rivanna
-#FLUX: --queue=bii-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=a100-dgx-cloudmask-gpu-rivanna
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=outputs/a100-dgx-%u-%j.out
+#SBATCH --error=outputs/a100-dgx-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=bii-gpu
 
 export USER_SCRATCH='/localscratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

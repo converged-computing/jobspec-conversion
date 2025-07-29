@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-truffle-2215
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-signal-8334
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ME-ICA/tedana-reliability-analysis/jobfiles/temp_job_18.sub

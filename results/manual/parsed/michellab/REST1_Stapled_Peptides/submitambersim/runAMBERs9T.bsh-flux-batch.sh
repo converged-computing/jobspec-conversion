@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=checksoluteT
-#FLUX: --queue=GTX
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=checksoluteT
+#FLUX --queue=GTX
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/users/common/miniconda2/lib/:$LD_LIBRARY_PATH'
 

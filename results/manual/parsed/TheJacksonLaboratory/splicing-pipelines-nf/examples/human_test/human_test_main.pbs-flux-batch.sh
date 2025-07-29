@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-underoos-2291
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=205200
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-fudge-4051
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=205200
+#FLUX --urgency=16
 
 export NXF_VER='20.04.1'
 

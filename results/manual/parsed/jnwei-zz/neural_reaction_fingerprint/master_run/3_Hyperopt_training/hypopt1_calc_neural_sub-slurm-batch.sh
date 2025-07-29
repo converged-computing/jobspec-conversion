@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=neural1_bal_200each
-#FLUX: --queue=aspuru-guzik
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=neural1_bal_200each
+#SBATCH --output=neural1_balanced_200each_1.test
+#SBATCH --error=neural1_balanced_200each_1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=aspuru-guzik
 
 scfolder="/scratch/$(date +%Y%m%d%H%M)_neural_bal_200each_1/"
 curr=$(pwd)

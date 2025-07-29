@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rcorrector
-#FLUX: -n=16
-#FLUX: --queue=True
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=rcorrector
+#FLUX -n=16
+#FLUX --queue=True
+#FLUX -t=82800
+#FLUX --urgency=16
 
 """
 For this script to initialize a conda environment, a version of python that supports

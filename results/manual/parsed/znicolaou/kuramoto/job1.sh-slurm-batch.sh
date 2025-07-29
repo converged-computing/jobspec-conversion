@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-general-9895
-#FLUX: --queue=ckpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=amath
+#SBATCH --output=outs/%a.out
+#SBATCH --error=outs/%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ckpt
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-750
 
 module load cuda
 seed=$SLURM_ARRAY_TASK_ID

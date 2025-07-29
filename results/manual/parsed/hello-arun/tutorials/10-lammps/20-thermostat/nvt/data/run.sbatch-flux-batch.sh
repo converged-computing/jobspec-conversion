@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=__job-name
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=__job-name
+#FLUX -N=8
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

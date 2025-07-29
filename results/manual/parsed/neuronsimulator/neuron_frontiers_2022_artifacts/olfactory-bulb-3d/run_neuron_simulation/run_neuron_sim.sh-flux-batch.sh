@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-7941
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: -c=2
+#FLUX --job-name=red-fork-5981
+#FLUX -N=2
+#FLUX -n=80
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 spack_prefix=/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus
 module purge

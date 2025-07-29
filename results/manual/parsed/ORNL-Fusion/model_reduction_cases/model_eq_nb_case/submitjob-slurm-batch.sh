@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=ips_fastran
-#FLUX: -N=10
-#FLUX: --queue=regular
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ips_fastran
+#SBATCH --account=atom
+#SBATCH --output=ips.out
+#SBATCH --error=ips.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell,haswell
 
+singularity
+exec
+docker:registry.services.nersc.gov/rwp53/ips-massive-serial:latest
 module load gcc
 WORK_DIRECTORY=tokamak_design_nb
 rm -rf $SCRATCH/$WORK_DIRECTORY

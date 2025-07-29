@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DatasetConvert
-#FLUX: --queue=cpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=DatasetConvert
+#FLUX --queue=cpu
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load gpu/cuda-11.3
 conda activate torch

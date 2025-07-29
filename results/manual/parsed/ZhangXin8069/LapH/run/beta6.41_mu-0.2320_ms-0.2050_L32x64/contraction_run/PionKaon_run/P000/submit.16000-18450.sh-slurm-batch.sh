@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=m_0_16000-18450
-#FLUX: --queue=gpu-debug
-#FLUX: --urgency=16
+#SBATCH --job-name=m_0_16000-18450
+#SBATCH --output=lap.16000-18450.out
+#SBATCH --error=lap.16000-18450.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu-debug
 
 run_dir=.
 input_dir=${run_dir}

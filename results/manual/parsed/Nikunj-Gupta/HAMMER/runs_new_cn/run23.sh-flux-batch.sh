@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=34046
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=34046
+#FLUX -c=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source ../venvs/hammer/bin/activate
 module load python/intel/3.8.6

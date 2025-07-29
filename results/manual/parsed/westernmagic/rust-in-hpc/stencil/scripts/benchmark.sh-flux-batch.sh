@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: -N=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=benchmark
+#FLUX -N=16
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export GREASY_NWORKERS_PER_NODE='${SLURM_NTASKS_PER_NODE}'
 export OMP_TARGET_OFFLOAD='MANDATORY'

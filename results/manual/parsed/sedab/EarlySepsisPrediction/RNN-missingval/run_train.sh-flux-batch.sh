@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=2
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load python3/intel/3.5.3

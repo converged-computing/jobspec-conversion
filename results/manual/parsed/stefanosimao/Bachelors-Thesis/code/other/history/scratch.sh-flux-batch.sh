@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cnn
-#FLUX: -N=10
-#FLUX: -c=12
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=cnn
+#FLUX -N=10
+#FLUX -c=12
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_DEBUG='INFO'

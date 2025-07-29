@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Deep-RBM_DBM_6_bot_real_PERS_base
-#FLUX: --queue=mono
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Deep-RBM_DBM_6_bot_real_PERS_base
+#FLUX --queue=mono
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /etc/profile.modules
 module load gcc

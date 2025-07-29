@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hope-9868
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-puppy-7325
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "SLURM_JOBID  = ${SLURM_JOBID}"
 echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=s2_sup
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=booster
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=s2_sup
+#FLUX -n=4
+#FLUX -c=8
+#FLUX --queue=booster
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

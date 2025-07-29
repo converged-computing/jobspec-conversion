@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cat-8198
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-puppy-8102
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/spundhir/RNA-Seq/rnaSeqAna.sh

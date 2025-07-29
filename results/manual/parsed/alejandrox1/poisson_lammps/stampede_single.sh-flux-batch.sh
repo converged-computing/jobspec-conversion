@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-0985
+#FLUX --job-name=misunderstood-cattywampus-9906
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load lammps
 procs=$1

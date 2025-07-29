@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=macs2_call_peaks
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=macs2_call_peaks
+#SBATCH --output=/OutputDir/macs.out
+#SBATCH --error=/ErrorDir/macs.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 module load python/2.7.14/MACS/2.1.1
 queries=($(ls ${inDir}/*.bam | xargs -n 1 basename))

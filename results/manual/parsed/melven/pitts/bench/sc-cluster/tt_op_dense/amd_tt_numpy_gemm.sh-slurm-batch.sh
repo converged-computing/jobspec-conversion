@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-7467
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=200G
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=amd
 
 export OMP_STACKSIZE='100M'
 

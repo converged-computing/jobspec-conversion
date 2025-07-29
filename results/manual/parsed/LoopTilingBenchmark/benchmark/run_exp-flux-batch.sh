@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=comp_422_openmp
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=soc-gpu-kp
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=comp_422_openmp
+#FLUX -N=2
+#FLUX -c=16
+#FLUX --queue=soc-gpu-kp
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/lib/openmp-build/runtime/src:$LD_LIBRARY_PATH'
 

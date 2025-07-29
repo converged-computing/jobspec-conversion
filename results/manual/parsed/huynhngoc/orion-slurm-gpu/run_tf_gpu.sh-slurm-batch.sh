@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_tf
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_tf
+#SBATCH --output=outputs/gpu-%A.out
+#SBATCH --error=outputs/gpu-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20G
+#SBATCH --partition=gpu
 
 module load singularity
 nvidia-modprobe -u -c=0

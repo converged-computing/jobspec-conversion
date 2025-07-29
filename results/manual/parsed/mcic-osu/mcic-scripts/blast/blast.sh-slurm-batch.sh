@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blast
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=blast
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-blast-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 export TOOL_NAME='NCBI BLAST+ and datasets" '
 export NCBI_API_KEY='34618c91021ccd7f17429b650a087b585f08'

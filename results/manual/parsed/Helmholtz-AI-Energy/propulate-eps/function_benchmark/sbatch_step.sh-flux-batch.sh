@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=optuna-step
-#FLUX: -N=2
-#FLUX: --queue=cpuonly
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=optuna-step
+#FLUX -N=2
+#FLUX --queue=cpuonly
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export FNAME='step'
 export FRAMEWORK='optuna'

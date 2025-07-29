@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-9196
-#FLUX: -n=17
-#FLUX: --queue=gpu
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-animal-1558
+#FLUX -n=17
+#FLUX --queue=gpu
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export DISPLAY=':99.0'
 

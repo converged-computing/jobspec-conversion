@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NPT_imputation
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=NPT_imputation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3090:1
+#SBATCH --mem=60000
+#SBATCH --time=4-00:00:00
+#SBATCH --array=0
 
 source /home/rr568/NPT/non-parametric-transformers/scripts/init_env.sh
 echo 'Begin npt'

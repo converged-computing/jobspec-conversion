@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-rabbit-9467
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --account=sd01
+#SBATCH --output=nbody-uniscale-%j.log
+#SBATCH --error=nbody-uniscale-e-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:59:00
+#SBATCH --constraint=gpu
 
 module load daint-gpu
 module load cray-python

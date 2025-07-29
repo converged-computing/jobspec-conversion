@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=transformer-trainer
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=96
-#FLUX: --gpus-per-task=8
-#FLUX: --urgency=16
+#FLUX --job-name=transformer-trainer
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=96
+#FLUX --gpus-per-task=8
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export FI_PROVIDER='efa'

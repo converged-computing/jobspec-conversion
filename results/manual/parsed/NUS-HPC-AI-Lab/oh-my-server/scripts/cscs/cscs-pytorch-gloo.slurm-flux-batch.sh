@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloo-eb
-#FLUX: -N=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gloo-eb
+#FLUX -N=4
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

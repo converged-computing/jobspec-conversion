@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GHpscan
-#FLUX: --queue=gpu-large
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=GHpscan
+#SBATCH --account=ms
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu-large
 
 module purge   # libraries used
 module load TensorFlow/2.0.0-fosscuda-2019b-Python-3.7.4

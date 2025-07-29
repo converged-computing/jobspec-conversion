@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Optim_RIM_over_posterior
-#FLUX: -c=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Optim_RIM_over_posterior
+#FLUX -c=3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source $HOME/environments/censai3.8/bin/activate
 python $CENSAI_PATH/scripts/rim_reoptimize_conditional_prior.py\

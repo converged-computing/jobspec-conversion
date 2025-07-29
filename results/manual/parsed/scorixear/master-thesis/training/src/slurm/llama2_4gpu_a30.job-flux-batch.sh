@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llama2-7b-4gpu-10e
-#FLUX: -c=8
-#FLUX: --queue=paula
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=llama2-7b-4gpu-10e
+#FLUX -c=8
+#FLUX --queue=paula
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='4'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

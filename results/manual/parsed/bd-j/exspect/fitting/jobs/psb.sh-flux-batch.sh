@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=exspect_psb
-#FLUX: --queue=conroy,shared
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=exspect_psb
+#FLUX --queue=conroy,shared
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export GROUP='conroy_lab'
 export MYSCRATCH='$SCRATCH/$GROUP/$USER'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sleep
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=sleep
+#FLUX --queue=normal
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module purge
 module ohpc

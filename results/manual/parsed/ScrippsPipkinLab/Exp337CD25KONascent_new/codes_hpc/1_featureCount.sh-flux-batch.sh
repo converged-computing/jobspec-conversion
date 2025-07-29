@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-butter-3670
-#FLUX: -n=16
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-parrot-8430
+#FLUX -n=16
+#FLUX --urgency=16
 
 module load subread
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

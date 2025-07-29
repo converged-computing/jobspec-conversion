@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bigmomma_test
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bigmomma_test
+#SBATCH --account=vuw03073
+#SBATCH --output=/nesi/nobackup/vuw03073/slurmOut/bigmomma_test_%a.%j.txt
+#SBATCH --mail-user=calquigs@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=04:00:00
+#SBATCH --array=0-755
 
 export SLURM_EXPORT_ENV='ALL'
 export HDF5_USE_FILE_LOCKING='FALSE'

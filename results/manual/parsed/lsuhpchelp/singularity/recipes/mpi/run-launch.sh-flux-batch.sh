@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-carrot-3075
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=checkpt
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-nalgas-4938
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=checkpt
+#FLUX --urgency=16
 
 export NODES='$(unslurm.py)'
 export SECS='2'

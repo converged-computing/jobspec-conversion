@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-muffin-0962
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
 
 export SINGULARITYENV_FS_LICENSE='${HOME}/.freesurfer.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

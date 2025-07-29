@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-4024
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-onion-5319
+#FLUX -c=8
+#FLUX --queue=standard
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

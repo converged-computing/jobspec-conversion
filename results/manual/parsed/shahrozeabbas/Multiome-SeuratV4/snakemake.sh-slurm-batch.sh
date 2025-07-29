@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pastry-9649
-#FLUX: -c=36
-#FLUX: --queue=largemem
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=800g
+#SBATCH --time=06:00:00
+#SBATCH --partition=largemem
 
 module load snakemake
 snakemake --use-conda --cores 36

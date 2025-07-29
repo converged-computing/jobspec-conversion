@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fft_benchmark
-#FLUX: -n=8
-#FLUX: -c=10
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=fft_benchmark
+#SBATCH --account=ftb@gpu
+#SBATCH --output=fft_benchmark%j.out
+#SBATCH --error=fft_benchmark%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=4
 
 export TMPDIR='$JOBSCRATCH'
 

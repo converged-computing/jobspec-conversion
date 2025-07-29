@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-plant-8206
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-hope-5923
+#FLUX --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

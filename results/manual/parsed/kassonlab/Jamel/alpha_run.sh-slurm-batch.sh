@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-frito-1682
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 export FASTA='$1'
 export ALPHA_OUT='$2'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creativeAI-image2emotionClassifier
-#FLUX: -c=6
-#FLUX: --queue=cuda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=creativeAI-image2emotionClassifier
+#FLUX -c=6
+#FLUX --queue=cuda
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ml purge
 ml nvidia/cudasdk/10.1

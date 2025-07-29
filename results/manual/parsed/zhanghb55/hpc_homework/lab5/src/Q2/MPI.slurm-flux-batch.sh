@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=zhb
-#FLUX: -N=8
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#FLUX --job-name=zhb
+#FLUX -N=8
+#FLUX --queue=work
+#FLUX --urgency=16
 
 export I_MPI_FAVRICS='shm:dapl'
 export OMP_NUM_THREADS='20         # 设置全局 OpenMP 线程为 20'

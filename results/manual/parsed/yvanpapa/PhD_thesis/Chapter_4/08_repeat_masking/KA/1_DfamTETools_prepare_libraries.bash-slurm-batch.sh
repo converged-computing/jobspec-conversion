@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=KA_repeat_libraries
-#FLUX: -c=18
-#FLUX: --queue=parallel
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=KA_repeat_libraries
+#SBATCH --output=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/KA/%j.out
+#SBATCH --error=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/KA/%j.err
+#SBATCH --mail-user=yvan.papa@vuw.ac.nz
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --mem=14G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=parallel
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/KA/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

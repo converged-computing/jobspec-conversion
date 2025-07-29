@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test13
-#FLUX: -c=16
-#FLUX: --queue=preemptable_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=test13
+#SBATCH --account=nmayhall_group
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=01:00:00
+#SBATCH --partition=preemptable_q
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

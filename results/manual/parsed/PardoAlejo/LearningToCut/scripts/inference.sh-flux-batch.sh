@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BestInf
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=BestInf
+#FLUX -c=6
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo `hostname`
 DIR=../src

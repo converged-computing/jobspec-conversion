@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-caramel-2673
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-leg-4348
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SimonTett/aus_rain_analysis/submit_process_reflectivity.sh

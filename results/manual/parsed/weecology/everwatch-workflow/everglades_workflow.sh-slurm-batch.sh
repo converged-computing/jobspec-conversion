@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=everglades_workflow
-#FLUX: -c=60
-#FLUX: --queue=gpu
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=everglades_workflow
+#SBATCH --output=/blue/ewhite/everglades/everwatch-workflow/logs/everglades_workflow.out
+#SBATCH --error=/blue/ewhite/everglades/everwatch-workflow/logs/everglades_workflow.err
+#SBATCH --mail-user=henrysenyondo@ufl.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --gres=a100:4
+#SBATCH --mem=600gb
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=gpu
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting everglades workflow on $(hostname) in $(pwd)"
 echo "INFO [$(date "+%Y-%m-%d %H:%M:%S")] Loading required modules"

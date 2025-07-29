@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=webclip
-#FLUX: -c=12
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=webclip
+#FLUX -c=12
+#FLUX -t=0
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate webclip

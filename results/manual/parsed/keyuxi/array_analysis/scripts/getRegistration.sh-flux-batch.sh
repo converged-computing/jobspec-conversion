@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lizard-5351
-#FLUX: -c=6
-#FLUX: --queue=wjg,biochem,sfgf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-pedo-2234
+#FLUX -c=6
+#FLUX --queue=wjg,biochem,sfgf
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MATLABPATH='/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPscripts/:/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPlibs/'
 

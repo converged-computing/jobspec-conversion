@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=p064_node008
-#FLUX: -N=8
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=p064_node008
+#SBATCH --account=Project_462000123
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export PMI_NO_PREINITIALIZE='y'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

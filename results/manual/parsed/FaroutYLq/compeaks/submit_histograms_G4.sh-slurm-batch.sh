@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hist_photons_G4
-#FLUX: --queue=dali
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hist_photons_G4
+#SBATCH --account=pi-lgrandi
+#SBATCH --output=/home/yuanlq/logs/MClogs/histogram_G4.%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3G
+#SBATCH --time=00:30:00
+#SBATCH --partition=dali
+#SBATCH --qos=dali
 
 OPTICS=$1
 eval "$(/dali/lgrandi/strax/miniconda3/bin/conda shell.bash hook)"

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hydra_resnet20s_CIFAR10_separate_seed
-#FLUX: -c=4
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=hydra_resnet20s_CIFAR10_separate_seed
+#SBATCH --output=log/slurm/resnet20s_CIFAR10_separate_seed.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=2G
+#SBATCH --time=01:20:00
+#SBATCH --exclude=lac-143
 
 export PATH='$PATH:$HOME/anaconda3/bin'
 

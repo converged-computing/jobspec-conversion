@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-onion-3308
-#FLUX: --queue=rome
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=rome
 
 nvidia-smi
 source ~/.bashrc

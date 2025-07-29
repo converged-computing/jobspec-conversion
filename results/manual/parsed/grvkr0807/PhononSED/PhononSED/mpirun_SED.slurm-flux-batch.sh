@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-itch-1374
-#FLUX: -n=24
-#FLUX: -t=8640000
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-taco-5130
+#FLUX -n=24
+#FLUX -t=8640000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=GEM
-#FLUX: --queue=batch
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=GEM
+#SBATCH --output=GEM.%j.out
+#SBATCH --error=GEM.%j.err
+#SBATCH --mail-user=as58810@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-22
 
 i=$SLURM_ARRAY_TASK_ID
 cd /scratch/as58810/ProjectFall2022

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kripke
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --job-name=kripke
+#SBATCH --account=p_readex
+#SBATCH --mail-user=ondrej.vysocky@vsb.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2500M
+#SBATCH --time=1-00:12:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
 
 export MERIC_MODE='2'
 export MERIC_COUNTERS='papi'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hep_train_tf
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=hep_train_tf
+#SBATCH --account=dasrepo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 module load python/3.6-anaconda-4.4
 source activate thorstendl-cori-2.7

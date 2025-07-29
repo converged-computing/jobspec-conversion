@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lettuce-4778
-#FLUX: --urgency=16
+#FLUX --job-name=salted-bits-5174
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tomasvicar/nnunet_metacentrum_example/code/run_metacentrum_plan.pbs

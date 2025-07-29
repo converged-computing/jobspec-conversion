@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pot-2232
-#FLUX: -n=4
-#FLUX: -c=7
+#FLUX --job-name=lovable-salad-7118
+#FLUX -n=4
+#FLUX -c=7
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export parent='/pfs/nobackup/home/p/pojedama/benchmarks/charmm-gui/gromacs'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-8021
-#FLUX: --urgency=16
+#FLUX --job-name=salted-cupcake-7594
+#FLUX --urgency=16
 
 export scholar='$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles'
 export gilbreth='$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-despacito-4140
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU-shared
 
 set +x
 cd  ${PROJECT}/${USER}/mlstamps_oltr/

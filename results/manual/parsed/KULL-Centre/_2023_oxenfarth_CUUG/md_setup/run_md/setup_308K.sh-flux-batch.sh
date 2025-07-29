@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: --queue=qgpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=setup
+#FLUX --queue=qgpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export GMXLIB='/home/kummerer/TETRALOOPS/forcefields/ff-opc-water-model/:/home/kummerer/TETRALOOPS/ff-opc-water-model/amber_na.ff/"              '
 

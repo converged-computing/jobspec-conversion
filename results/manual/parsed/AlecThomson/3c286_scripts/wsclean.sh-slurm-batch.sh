@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=wsclean
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=wsclean
+#SBATCH --account=OD-217087
+#SBATCH --output=logs/wsclean_%j.log
+#SBATCH --error=logs/wsclean_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=512GB
+#SBATCH --time=02:00:00
+#SBATCH --qos=express
+#SBATCH --array=0-35
 
 module load singularity
 module load rclone

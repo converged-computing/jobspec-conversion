@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-ricecake-2544
-#FLUX: -c=3
-#FLUX: --queue=normal
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=10GB
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=normal
 
 module load gaussian/16.C.01 ; echo 
 module load SciPy-bundle/2022.05-intel-2022a ; echo; echo 

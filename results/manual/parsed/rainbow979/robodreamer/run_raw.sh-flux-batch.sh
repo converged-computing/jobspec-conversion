@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=raw
-#FLUX: -N=24
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=raw
+#FLUX -N=24
+#FLUX -c=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='6'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

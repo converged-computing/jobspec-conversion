@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_cam5
-#FLUX: --queue=regular
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_cam5
+#SBATCH --account=dasrepo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 export PROJ_LIB='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/share/basemap'
 export PYTHONPATH='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/lib/python3.7/site-packages:${PYTHONPATH}'

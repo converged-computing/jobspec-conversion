@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sparse_amp_only_p200_L3_Lmax4_sigma01_pl_none_sparsity_05_Delta_003_15trials
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=sparse_amp_only_p200_L3_Lmax4_sigma01_pl_none_sparsity_05_Delta_003_15trials
+#FLUX --queue=icelake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

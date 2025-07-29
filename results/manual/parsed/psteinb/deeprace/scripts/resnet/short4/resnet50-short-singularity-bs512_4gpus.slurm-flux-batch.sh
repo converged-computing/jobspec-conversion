@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hippo-0081
-#FLUX: --queue=gpu2
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=salted-banana-9288
+#FLUX --queue=gpu2
+#FLUX -t=5400
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

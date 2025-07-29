@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=MeshCNNABC10KRem2KAug
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=MeshCNNABC10KRem2KAug
+#SBATCH --output=%x_%j_%N.out
+#SBATCH --error=%x_%j_%N.out
+#SBATCH --mail-user=mandadoalmajano@campus.tu-berlin.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/users/m/mandadoalmajano/dev
 
 MASTER=`/bin/hostname -s`
 SLAVES=`scontrol show hostnames $SLURM_JOB_NODELIST | grep -v $MASTER`

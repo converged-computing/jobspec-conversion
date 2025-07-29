@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-citrus-3498
-#FLUX: -N=2
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=m1759
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:8
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DownClim
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=DownClim
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # snakemake depending on your HPC

@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chair-8716
-#FLUX: --urgency=15
+#SBATCH --mail-user=samgould@mit.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --qos=low
+#SBATCH --array=1-75
+#SBATCH --exclude=c[5-22]
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

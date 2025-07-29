@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=imagenet
-#FLUX: -N=9
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=imagenet
+#SBATCH --output=slurm_imagenet.%j.log
+#SBATCH --nodes=9
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
 
 export WORKON_HOME='~/Envs'
 export WORK_DIR='`pwd`/..'

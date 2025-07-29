@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CFlowBT
-#FLUX: -c=3
-#FLUX: --queue=gpu_p2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=CFlowBT
+#FLUX -c=3
+#FLUX --queue=gpu_p2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='/gpfswork/rech/uli/ueu39kt/.local_base_timm'
 

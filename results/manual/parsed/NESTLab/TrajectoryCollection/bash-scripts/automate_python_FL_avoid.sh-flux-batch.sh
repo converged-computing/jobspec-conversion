@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=FA0660
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=FA0660
+#FLUX --queue=short
+#FLUX --urgency=16
 
 set -e
 BASE_LOC=$PWD

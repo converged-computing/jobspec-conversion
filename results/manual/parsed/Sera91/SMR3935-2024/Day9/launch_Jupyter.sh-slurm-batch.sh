@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Jupylab
-#FLUX: -c=2
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#SBATCH --job-name=Jupylab
+#SBATCH --account=tra24_ictp_np
+#SBATCH --output=jupyter_notebook.txt
+#SBATCH --error=jupyter_notebook.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10000
+#SBATCH --time=01:15:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=1
 
 source $HOME/Conda_init.txt
 module load profile/deeplrn

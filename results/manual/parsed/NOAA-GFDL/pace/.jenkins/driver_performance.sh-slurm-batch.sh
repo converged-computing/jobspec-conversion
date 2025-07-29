@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=c192_pace_driver
-#FLUX: -n=6
-#FLUX: --queue=normal
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=c192_pace_driver
+#SBATCH --account=go31
+#SBATCH --output=driver.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:45:00
+#SBATCH --partition=normal
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export VIRTUALENV='${PACE_DIR}/venv'
 export OMP_NUM_THREADS='12'

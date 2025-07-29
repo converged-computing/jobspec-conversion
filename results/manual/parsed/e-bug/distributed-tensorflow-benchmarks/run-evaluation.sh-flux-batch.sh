@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mlcomm
-#FLUX: -c=12
+#FLUX --job-name=mlcomm
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=18000
+#FLUX --urgency=16
 
 echo "Number of nodes: " 1
 module load daint-gpu

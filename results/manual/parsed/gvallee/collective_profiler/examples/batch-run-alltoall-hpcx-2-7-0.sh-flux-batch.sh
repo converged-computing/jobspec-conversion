@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=alltoall
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=jupiter
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=alltoall
+#FLUX -N=8
+#FLUX -n=8
+#FLUX --queue=jupiter
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SUPPRESS_BASHRC='1 #this is pointless - bashrc will have been run already!!'
 export PROJECT_ROOT='/global/home/users/cyrusl/placement/expt0066'

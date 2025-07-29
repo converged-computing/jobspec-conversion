@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=abcd2bids
-#FLUX: -c=2
-#FLUX: --queue=IB_16C_96G
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=abcd2bids
+#FLUX -c=2
+#FLUX --queue=IB_16C_96G
+#FLUX -t=86400
+#FLUX --urgency=16
 
 pwd; hostname; date
 set -e

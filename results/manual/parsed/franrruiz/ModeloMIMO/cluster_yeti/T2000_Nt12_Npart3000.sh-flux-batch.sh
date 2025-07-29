@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peas-7585
-#FLUX: --urgency=16
+#FLUX --job-name=blue-blackbean-7454
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/franrruiz/ModeloMIMO/cluster_yeti/T2000_Nt12_Npart3000.sh

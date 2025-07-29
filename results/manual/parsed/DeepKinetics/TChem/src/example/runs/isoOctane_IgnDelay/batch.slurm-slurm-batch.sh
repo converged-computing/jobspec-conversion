@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=isoOctane
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=isoOctane
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-16:00:00
 
 export OMP_NUM_THREADS='48'
 

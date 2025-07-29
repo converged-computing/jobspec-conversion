@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=score
-#FLUX: --queue=new
-#FLUX: --urgency=16
+#SBATCH --job-name=score
+#SBATCH --output=score.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=new
+#SBATCH --nodelist=hlt06
 
 export dataset='feddial'
 export dataset_dir='data/${dataset}'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Atari
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=36
-#FLUX: -t=5184000
-#FLUX: --urgency=16
+#FLUX --job-name=Atari
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=36
+#FLUX -t=5184000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

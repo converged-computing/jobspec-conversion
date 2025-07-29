@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stencil
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=stencil
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:20:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export GREASY_NWORKERS_PER_NODE='${SLURM_NTASKS_PER_NODE}'
 export RAYON_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

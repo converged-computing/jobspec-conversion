@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parsnip-6039
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-muffin-1130
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

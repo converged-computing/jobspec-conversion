@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bert_ner
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=bert_ner
+#FLUX -c=6
+#FLUX --queue=accel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -o errexit  # Recommended for easier debugging
 module use -a /cluster/projects/nn9851k/software/easybuild/install/modules/all/

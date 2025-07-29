@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_PCNN
-#FLUX: -n=8
-#FLUX: --queue=gpu8_long
-#FLUX: --urgency=16
+#FLUX --job-name=train_PCNN
+#FLUX -n=8
+#FLUX --queue=gpu8_long
+#FLUX --urgency=16
 
 echo "Starting at `date`"
 echo "Job name: $SLURM_JOB_NAME JobID: $SLURM_JOB_ID"

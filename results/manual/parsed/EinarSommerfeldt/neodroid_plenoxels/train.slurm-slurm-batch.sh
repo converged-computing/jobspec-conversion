@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=plenoxels_train
-#FLUX: --queue=GPUQ
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=plenoxels_train
+#SBATCH --account=ie-idi
+#SBATCH --output=/cluster/home/einarjso/neodroid_plenoxels/output/training/JOB%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:15:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo "the name of the job is: $SLURM_JOB_NAME"

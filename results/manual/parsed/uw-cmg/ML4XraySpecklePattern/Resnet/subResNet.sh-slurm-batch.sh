@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-6900
-#FLUX: --queue=sbel_cmg
-#FLUX: -t=345660
-#FLUX: --urgency=16
+#SBATCH --account=cmg
+#SBATCH --output=cuda_Training-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:01:00
+#SBATCH --partition=sbel_cmg
+#SBATCH --qos=cmg_owner
 
 conda activate keras
 module load cuda/10.0

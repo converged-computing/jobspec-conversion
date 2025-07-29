@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-destiny-5517
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/biosustain/dsp_nf-metagenomics/old_scripts/reformat_contigs.sh

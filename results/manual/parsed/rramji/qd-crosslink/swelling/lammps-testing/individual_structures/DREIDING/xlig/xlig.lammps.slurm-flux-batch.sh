@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=xlig
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=xlig
+#FLUX --queue=shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 prefix=xlig
 rtemp=298

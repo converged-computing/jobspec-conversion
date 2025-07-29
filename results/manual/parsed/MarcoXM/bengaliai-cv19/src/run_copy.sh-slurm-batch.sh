@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=InRes5
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --job-name=InRes5
+#SBATCH --output=stdout_InRest
+#SBATCH --error=stderr_InRest
+#SBATCH --mail-user=xwang423@fordham.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --exclude=node[001,002]
 
 export WEIGHT_ONE='7'
 export WEIGHT_TWO='2'

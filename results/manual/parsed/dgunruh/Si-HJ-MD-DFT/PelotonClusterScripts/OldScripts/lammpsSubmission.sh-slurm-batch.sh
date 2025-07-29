@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiMD
-#FLUX: -c=32
-#FLUX: --queue=med2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cSiaSiMD
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=med2
+#SBATCH --array=0-3
 
 export t='$SLURM_ARRAY_TASK_ID'
 

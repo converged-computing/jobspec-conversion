@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-onion-3801
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-destiny-8950
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load python/3.5.2
 pip uninstall -y tensorflow-gpu

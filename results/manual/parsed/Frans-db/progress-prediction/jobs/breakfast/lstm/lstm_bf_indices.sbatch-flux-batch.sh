@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-car-5172
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-parrot-1050
+#FLUX -c=2
+#FLUX --queue=general
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

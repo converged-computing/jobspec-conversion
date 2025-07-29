@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bat_inf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=bat_inf
+#SBATCH --output=logs/batch_inf_%A_%a.out
+#SBATCH --error=logs/batch_inf_%A_%a.err
+#SBATCH --mail-user=swwolf@princeton.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-190
 
 module load conda
 conda init bash

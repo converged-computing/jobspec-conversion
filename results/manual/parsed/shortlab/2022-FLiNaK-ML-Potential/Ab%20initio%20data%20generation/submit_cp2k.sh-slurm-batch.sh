@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=XXXXX
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=XXXXX
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3GB
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module load module load cp2k/9.1.0 python/3.9.0 mpi/openmpi_4.0.5_gcc_10.2_slurm20 gcc/8.3 cuda/11.1.1
 source $CP2KSETUP

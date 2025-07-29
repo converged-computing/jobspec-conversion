@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=exp_run_fastssl_opt_hparam_sweep
-#FLUX: --queue=long
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=exp_run_fastssl_opt_hparam_sweep
+#FLUX --queue=long
+#FLUX -t=21600
+#FLUX --urgency=16
 
 . /etc/profile
 module load anaconda/3

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leg-3356
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/wd15/jarvis/jarvis/lammps/examples/Al03.eam.alloy_nist/bulk%40mp-998860_fold/Phonon/disp-1/submit_job

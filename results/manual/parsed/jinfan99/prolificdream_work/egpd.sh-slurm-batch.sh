@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=egpd
-#FLUX: -c=2
-#FLUX: --queue=spgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=egpd
+#SBATCH --account=jjparkcv0
+#SBATCH --output=/home/%u/%x-gpu2-%j.log
+#SBATCH --mail-user=zjf@umich.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=a40:1
+#SBATCH --mem=40GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=spgpu
 
 export CUDA_HOME='~/miniconda3'
 

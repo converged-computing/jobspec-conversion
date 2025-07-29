@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-8251
-#FLUX: -c=6
-#FLUX: --queue=gpu_all
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm/%J.out
+#SBATCH --error=slurm/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem=50000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu_all
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONUSERBASE='/home/2021012/sruan01/riles/env'
 

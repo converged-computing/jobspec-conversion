@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cupcake-9050
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=public
 
 source activate cancergenomics
 PERL5LIB=/packages/6x/vcftools/0.1.12b/lib/per15/site_perl

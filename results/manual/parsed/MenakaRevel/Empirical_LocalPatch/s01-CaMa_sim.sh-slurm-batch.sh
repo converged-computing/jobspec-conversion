@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poo-1689
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MenakaRevel/Empirical_LocalPatch/s01-CaMa_sim.sh

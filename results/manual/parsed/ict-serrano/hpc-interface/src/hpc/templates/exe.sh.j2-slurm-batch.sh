@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lemur-0208
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --constraint=ntasks-per-node=128
 
 {# Template parameters - schema for the template is in openapi spec
 params = {

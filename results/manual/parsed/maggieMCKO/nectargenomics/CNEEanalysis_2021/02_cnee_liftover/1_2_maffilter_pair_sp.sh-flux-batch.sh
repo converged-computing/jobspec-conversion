@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tmp
-#FLUX: --queue=medium
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#FLUX --job-name=tmp
+#FLUX --queue=medium
+#FLUX -t=4200
+#FLUX --urgency=16
 
 export singularity_image='$HOME/Tools/maffilter_v1.3.1dfsg-1b1-deb_cv1.sif'
 export maffilter_optionfile='d1_optionfiles/1_1_optionfile_tmp.maffilter'

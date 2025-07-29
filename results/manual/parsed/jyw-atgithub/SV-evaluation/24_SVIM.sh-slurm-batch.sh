@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SVIM
-#FLUX: -c=20
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#SBATCH --job-name=SVIM
+#SBATCH --account=jje_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=6G
+#SBATCH --partition=standard
+#SBATCH --constraint=fastscratch
+#SBATCH --array=1
 
 source ~/.bashrc
 ref="/dfs7/jje/jenyuw/Eval-sv-temp/reference"

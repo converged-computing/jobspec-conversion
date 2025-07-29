@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cupcake-1295
-#FLUX: -n=24
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-poodle-2898
+#FLUX -n=24
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load cuda/8.0
 module load cudnn/6.0_cuda-8.0

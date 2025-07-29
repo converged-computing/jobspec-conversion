@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=colmap_%j
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=colmap_%j
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cat-6854
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sctmic015/neat-python/generate.pbs

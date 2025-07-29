@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=MPI-Config
-#FLUX: -n=48
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI-Config
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2500
+#SBATCH --time=04:00:00
 
 date
 module purge

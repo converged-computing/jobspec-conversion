@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dr5-rep-tf
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=dr5-rep-tf
+#SBATCH --output=dr5-rep-tf_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=23:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=A100
+#SBATCH: --no-requeue
+#SBATCH --exclude=compute-0-7,compute-0-5
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:/share/apps/cudnn_8_1_0/cuda/lib64'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fix_dropped
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fix_dropped
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module use /project/6004902/modulefiles
 module load presto

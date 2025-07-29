@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=shared-cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=shared-cpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export DISPLAY=''
 

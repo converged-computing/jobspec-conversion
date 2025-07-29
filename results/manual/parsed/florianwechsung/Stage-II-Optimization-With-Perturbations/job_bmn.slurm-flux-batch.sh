@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bmn
-#FLUX: -c=4
-#FLUX: --queue=cs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bmn
+#FLUX -c=4
+#FLUX --queue=cs
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 

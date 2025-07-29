@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lizard-5416
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 echo "loading modules"
 module purge

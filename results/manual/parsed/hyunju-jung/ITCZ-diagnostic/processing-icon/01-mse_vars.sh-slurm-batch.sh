@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ke
-#FLUX: -n=8
-#FLUX: --queue=cip
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ke
+#SBATCH --output=ke-remap.out
+#SBATCH --error=ke-remap.err
+#SBATCH --mail-user=hyunju.jung@kit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=02:00:00
+#SBATCH --partition=cip
+#SBATCH --array=0-960
 
 module purge
 module load python/3.9-2021.11

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CRAM2BAM
-#FLUX: -n=8
-#FLUX: --queue=icelake,a100cpu
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#FLUX --job-name=CRAM2BAM
+#FLUX -n=8
+#FLUX --queue=icelake,a100cpu
+#FLUX -t=19800
+#FLUX --urgency=16
 
 userDir="/hpcfs/users/${USER}"
 refDir="/hpcfs/groups/phoenix-hpc-neurogenetics/RefSeq"

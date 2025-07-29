@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-1721
-#FLUX: --queue=
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=
+#SBATCH --output=slurm_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=
 
 pwd; hostname; date
 module load software/nextflow-23.04.3

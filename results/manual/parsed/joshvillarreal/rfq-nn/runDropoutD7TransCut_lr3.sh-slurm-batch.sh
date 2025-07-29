@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rfq-nn-gpu-dropout-d7-lr3
-#FLUX: --queue=submit-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=rfq-nn-gpu-dropout-d7-lr3
+#SBATCH --output=res_%j.txt
+#SBATCH --error=err_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=submit-gpu
 
 srun hostname
 echo ""

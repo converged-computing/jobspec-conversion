@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pancake-7642
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=/cs/snapless/oabend/borgr/ordert/slurm/bow%j.out
+#SBATCH --mail-user=leshem.choshen@mail.huji.ac.il
+#SBATCH --mail-type=BEGIN,END,FAIL,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4,vmem:8g
+#SBATCH --mem=32g
+#SBATCH --time=7-00:00:00
 
 lshw -C display | tail # write the acquired gpu properties
 lang=en

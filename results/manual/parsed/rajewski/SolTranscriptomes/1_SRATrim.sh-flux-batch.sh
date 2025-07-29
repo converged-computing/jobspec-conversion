@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-general-8702
-#FLUX: -c=6
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-sundae-6363
+#FLUX -c=6
+#FLUX --urgency=16
 
 set -eu
 module load singularity/3.9.3

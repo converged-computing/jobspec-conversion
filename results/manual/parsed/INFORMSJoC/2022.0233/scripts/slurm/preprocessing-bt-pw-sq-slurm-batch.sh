@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leader-0814
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=/dev/null
+#SBATCH --error=/dev/null
+#SBATCH --mail-user=btasseff@lanl.gov
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 

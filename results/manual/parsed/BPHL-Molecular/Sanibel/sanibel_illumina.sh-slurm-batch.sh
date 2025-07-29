@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=sanibel
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sanibel
+#SBATCH --account=bphl-umbrella
+#SBATCH --output=sanibel.%j.out
+#SBATCH --error=sanibel.%j.err
+#SBATCH --mail-user=<EMAIL>
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=200gb
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=bphl-umbrella
 
 module load nextflow
 APPTAINER_CACHEDIR=./

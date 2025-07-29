@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=external
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=external
+#SBATCH --output=outputs/unet-external-%A.out
+#SBATCH --error=outputs/unet-external-%A.out
+#SBATCH --mail-user=aurogr@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
 
 module load singularity
 if [ $# -lt 2 ];

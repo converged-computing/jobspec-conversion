@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=2
-#FLUX: --queue=E5-GPU
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=./%N.%j.%x.out
+#SBATCH --error=./%N.%j.%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=12G
+#SBATCH --time=00:10:00
+#SBATCH --partition=E5-GPU
 
 env
 echo "--- *** --- *** ---"

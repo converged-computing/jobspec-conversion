@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=synth_explanation_resnet_synth_starlight_type2_nbdim_40
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=synth_explanation_resnet_synth_starlight_type2_nbdim_40
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load pytorch-gpu/py3/1.7.0

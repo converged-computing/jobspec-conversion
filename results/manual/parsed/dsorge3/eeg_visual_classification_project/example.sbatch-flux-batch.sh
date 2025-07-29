@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VisualImag
-#FLUX: -n=4
-#FLUX: --queue=xgpu
-#FLUX: --urgency=16
+#FLUX --job-name=VisualImag
+#FLUX -n=4
+#FLUX --queue=xgpu
+#FLUX --urgency=16
 
 module load anaconda/3
 module load cuda/10.1

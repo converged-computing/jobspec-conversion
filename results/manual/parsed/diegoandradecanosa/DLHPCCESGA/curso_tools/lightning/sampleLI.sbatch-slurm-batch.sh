@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-house-0738
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=8G
+#SBATCH --time=00:59:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test_nf
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=test_nf
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --partition=long
 
 module load  Nextflow/23.04.2
 module load Anaconda3/5.3.0

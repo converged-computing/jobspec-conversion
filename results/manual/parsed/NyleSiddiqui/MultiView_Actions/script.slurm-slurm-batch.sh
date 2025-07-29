@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ntu60cv
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=ntu60cv
+#SBATCH --output=./logs/%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --constraint=gmem24
 
 module load anaconda3
 module list                            # Have Nvidia tell us the GPU/CPU mapping so we know

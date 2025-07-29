@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_job
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs_job
+#SBATCH --output=gromacs_job.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=debug
 
 echo "Running Gromacs 5.x with $SLURM_NTASKS MPI tasks"
 echo "Nodelist: $SLURM_NODELIST"

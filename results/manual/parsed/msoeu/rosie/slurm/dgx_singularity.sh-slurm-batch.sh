@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DGX 8 GPU
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#SBATCH --job-name=DGX 8 GPU
+#SBATCH --output=train_%N_%j.out
+#SBATCH --mail-user=researcher@msoe.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:8
+#SBATCH --partition=dgx
 
 SCRIPT_NAME="Rosie DGX Script"
 CONTAINER="/data/containers/msoe-tensorflow.sif"

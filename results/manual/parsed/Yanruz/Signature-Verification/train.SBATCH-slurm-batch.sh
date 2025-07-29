@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cv
-#FLUX: -c=16
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cv
+#SBATCH --mail-user=ds5749@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=48GB
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec --nv \

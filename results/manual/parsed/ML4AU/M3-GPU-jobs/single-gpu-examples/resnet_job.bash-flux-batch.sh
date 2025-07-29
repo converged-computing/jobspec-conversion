@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_job
-#FLUX: -n=6
-#FLUX: --queue=m3h
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=resnet_job
+#FLUX -n=6
+#FLUX --queue=m3h
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export REPODIR='/scratch/<project>/$USER/gpu-examples'
 export PYTHONPATH='${REPODIR}/models:$PYTHONPATH'

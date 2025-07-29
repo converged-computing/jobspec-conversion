@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rpt-sub-7032_ses-1_xcpengine
-#FLUX: -n=20
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=rpt-sub-7032_ses-1_xcpengine
+#FLUX -n=20
+#FLUX --queue=standard
+#FLUX -t=36000
+#FLUX --urgency=16
 
 SUB=sub-7032
 SES=ses-1

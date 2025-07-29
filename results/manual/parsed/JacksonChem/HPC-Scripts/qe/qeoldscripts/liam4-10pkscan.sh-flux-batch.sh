@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=liam4-10pkscan.qe
-#FLUX: -n=50
-#FLUX: --queue=amd
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=liam4-10pkscan.qe
+#FLUX -n=50
+#FLUX --queue=amd
+#FLUX -t=720000
+#FLUX --urgency=16
 
 NPROC=50
 CURDIR=$(pwd)

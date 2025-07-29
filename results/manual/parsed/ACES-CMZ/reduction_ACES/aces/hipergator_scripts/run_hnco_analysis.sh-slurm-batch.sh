@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ACES_hnco_analysis
-#FLUX: -n=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=ACES_hnco_analysis
+#SBATCH --account=astronomy-dept
+#SBATCH --output=/blue/adamginsburg/adamginsburg/ACES/logs/ACES_hnco_analysis_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=astronomy-dept-b
 
 export USE_DASK='True'
 

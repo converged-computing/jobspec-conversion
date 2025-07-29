@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sleep2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=sleep2
+#SBATCH --account=eboss
+#SBATCH --mail-user=kong.291@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export name_for_run='elg_new_ccd_list'
 export randoms_db='None #run from a fits file'
@@ -26,6 +33,9 @@ export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'
 export XDG_CONFIG_HOME='/dev/shm'
 
+singularity
+exec
+driftingpig/obiwan_composit:v3
 export name_for_run=elg_new_ccd_list
 export randoms_db=None #run from a fits file
 export dataset=dr3

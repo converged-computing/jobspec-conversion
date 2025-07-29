@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-salad-8805
-#FLUX: --queue=blekhman
-#FLUX: -t=162000
-#FLUX: --urgency=16
+#SBATCH --mail-user=email@EMAIL_GOES_HERE.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-21:00:00
+#SBATCH --partition=blekhman
 
 module load python
 if [ ! -d "./venv" ]; then

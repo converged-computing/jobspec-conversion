@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32G
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

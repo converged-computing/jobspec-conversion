@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BQSR
-#FLUX: -n=4
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=BQSR
+#SBATCH --output=logs/BQSR.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=intel
 
 MEM=128g
 module load samtools/1.9

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-2566
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/summit/test_node_pong

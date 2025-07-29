@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DrQA_preprocess
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=DrQA_preprocess
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CLASSPATH='$CLASSPATH:$SCRATCH/data/corenlp/*'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=term-project
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=term-project
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load cuda
 module load gcc

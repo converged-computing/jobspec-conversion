@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval-nvidia
-#FLUX: -c=96
+#FLUX --job-name=eval-nvidia
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=50
+#FLUX --queue=production-cluster
+#FLUX --urgency=50
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bicycle-6344
-#FLUX: -N=2
-#FLUX: --queue=gll_usr_prod
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-onion-5219
+#FLUX -N=2
+#FLUX --queue=gll_usr_prod
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load intel/pe-xe-2018--binary
 module load intelmpi/2018--binary

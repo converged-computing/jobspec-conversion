@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gmxPrep
-#FLUX: --queue=infer
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gmxPrep
+#SBATCH --account=bdyrk14
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=infer
 
 module load hecbiosim
 module load gromacs/2022.2

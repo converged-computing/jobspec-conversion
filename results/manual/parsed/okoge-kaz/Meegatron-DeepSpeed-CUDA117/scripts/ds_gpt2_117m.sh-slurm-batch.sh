@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ds
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ds
+#SBATCH --output=outputs/%j.out
+#SBATCH --error=errors/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
 
 export CUDA_LAUNCH_BLOCKING='1'
 

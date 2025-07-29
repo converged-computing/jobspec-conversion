@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=d_singleimg_32_E2E_0.5_DropImgaug
-#FLUX: --queue=batch
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=d_singleimg_32_E2E_0.5_DropImgaug
+#SBATCH --output=d_singleimg_32_E2E_0.5_DropImgaug.out
+#SBATCH --mail-user=eslam.abdelrahman@kaust.edu.sa
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300G
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=[v100],[v100]
 
 module load cuda/10.2.89
 module load gcc/6.4.0 

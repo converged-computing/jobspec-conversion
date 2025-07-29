@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-itch-4913
-#FLUX: -N=8
-#FLUX: -n=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-poo-6830
+#FLUX -N=8
+#FLUX -n=128
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load Python

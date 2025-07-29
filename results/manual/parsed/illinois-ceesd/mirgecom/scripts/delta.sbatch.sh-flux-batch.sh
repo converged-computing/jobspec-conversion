@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cinnamonbun-1147
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=stinky-carrot-0951
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --queue=gpuA40x4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gpuA40x4
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYOPENCL_CTX='port:nvidia"     # Run on Nvidia GPU with pocl'
 export XDG_CACHE_HOME_ROOT='${MIRGE_CACHE_ROOT}/xdg-cache/rank'

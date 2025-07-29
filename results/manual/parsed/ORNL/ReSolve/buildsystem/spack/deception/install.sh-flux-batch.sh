@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resolve_spack
-#FLUX: -n=64
-#FLUX: --queue=slurm
-#FLUX: --urgency=16
+#FLUX --job-name=resolve_spack
+#FLUX -n=64
+#FLUX --queue=slurm
+#FLUX --urgency=16
 
 export MY_CLUSTER='deception'
 

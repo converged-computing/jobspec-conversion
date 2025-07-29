@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=msh6_tudor_phytozome
-#FLUX: -c=16
-#FLUX: --queue=gpu-a100-h
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=msh6_tudor_phytozome
+#FLUX -c=16
+#FLUX --queue=gpu-a100-h
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -e
 set -u

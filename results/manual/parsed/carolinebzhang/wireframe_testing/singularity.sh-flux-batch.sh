@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-9967
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-parrot-8468
+#FLUX -n=4
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load cuda
 echo Master process running on `hostname`

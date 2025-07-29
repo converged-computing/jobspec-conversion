@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-dog-1201
-#FLUX: -c=2
-#FLUX: --queue=research
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-egg-4654
+#FLUX -c=2
+#FLUX --queue=research
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nvidia/cuda/11.3.1
 module load mpi/openmpi/4.1.1

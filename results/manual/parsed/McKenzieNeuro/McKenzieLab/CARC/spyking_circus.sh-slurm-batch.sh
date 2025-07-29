@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spyking-circus
-#FLUX: -c=8
-#FLUX: --queue=neuro-hsc
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=spyking-circus
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=10:00:00
+#SBATCH --partition=neuro-hsc
+#SBATCH --array=1
 
 datadir="/carc/scratch/projects/mckenzie2016183/data/spikeSorting/spikeDemo"
 module load parallel

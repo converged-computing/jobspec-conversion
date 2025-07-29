@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TEP
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=TEP
+#FLUX -n=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='$PWD/gambit-project/:$PATH'
 

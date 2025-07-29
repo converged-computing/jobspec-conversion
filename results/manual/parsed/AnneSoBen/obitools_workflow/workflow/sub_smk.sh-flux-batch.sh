@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snakeflow
-#FLUX: --queue=unlimitq
-#FLUX: --urgency=16
+#FLUX --job-name=snakeflow
+#FLUX --queue=unlimitq
+#FLUX --urgency=16
 
 source activate snakemake
 snakemake --cores 1 --unlock

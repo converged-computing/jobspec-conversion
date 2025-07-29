@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bike-2625
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-lemon-9615
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RWTH-HPC/task-affinity-codes/codes/00_scripts/run_scal_health.sh_knl

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-house-0313
-#FLUX: -c=12
-#FLUX: --queue=develbooster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-snack-7642
+#FLUX -c=12
+#FLUX --queue=develbooster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

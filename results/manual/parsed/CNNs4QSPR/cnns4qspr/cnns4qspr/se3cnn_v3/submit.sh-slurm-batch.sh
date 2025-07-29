@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=1.0CPUscale
-#FLUX: --queue=stf-gpu
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#SBATCH --job-name=1.0CPUscale
+#SBATCH --account=stf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P100:1
+#SBATCH --mem=120G
+#SBATCH --time=3-18:00:00
+#SBATCH --partition=stf-gpu
 
 source ~/.login
 module load icc_17-impi_2017

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=exon-intron
-#FLUX: --queue=phillips
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=exon-intron
+#FLUX --queue=phillips
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

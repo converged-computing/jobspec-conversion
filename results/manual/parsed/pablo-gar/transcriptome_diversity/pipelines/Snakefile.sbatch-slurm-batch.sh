@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nunchucks-5358
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/paedugar/transcriptome_diversity/cluster_files/1_trans_diversity.out
+#SBATCH --error=/scratch/users/paedugar/transcriptome_diversity/cluster_files/1_trans_diversity.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
+#SBATCH --partition=hbfraser,hns,normal
 
 module load conda
 conda activate base

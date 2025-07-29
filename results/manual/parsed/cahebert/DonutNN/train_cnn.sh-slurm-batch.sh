@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=2d_7l_DNN
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=2d_7l_DNN
+#SBATCH --output=7l_deconv_2in.out
+#SBATCH --mail-user=chebert@stanford.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module load python/2.7.5
 module load tensorflow

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-toaster-1954
-#FLUX: -c=24
-#FLUX: --queue=demultiplexing
-#FLUX: --urgency=16
+#SBATCH --output=Demultiplex_Output-%j-%N.out
+#SBATCH --error=Demultiplex_Output-%j-%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --partition=demultiplexing
 
 app_version=2.2.0
 app_dir=/data/diagnostics/pipelines/TSO500/illumina_app/TSO500_RUO_LocalApp-"$app_version"

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=deepcam-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=deepcam-cgpu
+#SBATCH --account=nstaff
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 export BATCHSIZE='2'
 export DO_PROFILING='false'  # true or false'

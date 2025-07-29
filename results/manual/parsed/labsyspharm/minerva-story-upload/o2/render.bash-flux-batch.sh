@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-muffin-8003
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-pancake-5933
+#FLUX --queue=short
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load conda3
 eval "$(conda shell.bash hook)"

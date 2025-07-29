@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --mail-user=saiprathapaneni@nyu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

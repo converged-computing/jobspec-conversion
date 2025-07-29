@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DDMnets
-#FLUX: --queue=Epyc7452
-#FLUX: --urgency=16
+#SBATCH --job-name=DDMnets
+#SBATCH --output=log-out/DDMnets_%j.stdout
+#SBATCH --error=log-err/DDMnets_%j.stderr
+#SBATCH --mail-user=andreagiovanni.reina@ulb.be
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=Epyc7452
+#SBATCH --qos=short
 
 export PYTHONPATH='/home/areina/DecisionsOnNetworks/src/'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-diablo-3825
-#FLUX: --urgency=16
+#FLUX --job-name=blank-hobbit-7214
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BioinfoMachineLearning/GCPNet/scripts/grid_search_hm_template_launcher_script.bash

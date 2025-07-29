@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lmp_benchm
-#FLUX: -c=8
-#FLUX: --queue=gpuq-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp_benchm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuq-dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export ALLINEA_CONFIG_DIR='$HOME/.allinea_topaz'
 export SLURM_OVERLAP='1'

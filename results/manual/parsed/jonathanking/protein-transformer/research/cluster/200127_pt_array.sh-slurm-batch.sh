@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pt-array
-#FLUX: --queue=dept_gpu
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#SBATCH --job-name=pt-array
+#SBATCH --output=../research/cluster/slurm/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=28-00:00:00
+#SBATCH --partition=dept_gpu
+#SBATCH --constraint=C6&M12
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch_c6m12_cuda101

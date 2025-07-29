@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NF-enhancer_annotation_and_motif_analysis
-#FLUX: -t=151200
-#FLUX: --urgency=16
+#SBATCH --job-name=NF-enhancer_annotation_and_motif_analysis
+#SBATCH --mail-user=hamrude@crick.ac.uk
+#SBATCH --mail-type=ALL,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-18:00:00
 
 export TERM='xterm'
 export NXF_VER='22.10.3'

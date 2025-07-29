@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-snack-3068
-#FLUX: --urgency=16
+#SBATCH --output=logs/run_%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodelist=terra
 
 stage=0
 unsupervised=1

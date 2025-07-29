@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rand-quant-nofetch
-#FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=rand-quant-nofetch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH: --exclusive
+#SBATCH --nodelist=voltron
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='cores'

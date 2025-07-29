@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=mpi
+#FLUX -n=2
+#FLUX -t=1200
+#FLUX --urgency=16
 
 image="docker://quay.io/pawsey/openfoamlibrary:v2012"
 module load singularity

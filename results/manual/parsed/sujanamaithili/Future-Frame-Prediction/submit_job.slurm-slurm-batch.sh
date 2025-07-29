@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pedo-1621
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --account=csci_ga_2572_001-2023fa-27
+#SBATCH --output=hidden_infer_%j.out
+#SBATCH --error=hidden_infer_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=07:00:00
+#SBATCH --partition=n1s8-v100-1
+#SBATCH: --exclusive
 
 singularity exec --bind /scratch/ak11089 --nv --overlay /scratch/ak11089/final-project/overlay-50G-10M.ext3:ro /share/apps/images/cuda11.7.99-cudnn8.5-devel-ubuntu22.04.2.sif /bin/bash -c "
 source /ext3/activate_conda.sh

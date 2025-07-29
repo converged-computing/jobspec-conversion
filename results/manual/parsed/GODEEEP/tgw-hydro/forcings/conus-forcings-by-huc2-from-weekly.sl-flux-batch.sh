@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pedo-8860
-#FLUX: -c=40
-#FLUX: --queue=smp7
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-train-6181
+#FLUX -c=40
+#FLUX --queue=smp7
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo 'Loading modules'
 module load python/miniconda3.9

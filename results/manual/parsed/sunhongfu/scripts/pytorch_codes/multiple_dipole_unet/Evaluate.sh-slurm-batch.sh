@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_multiple_dipole_unet
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_multiple_dipole_unet
+#SBATCH --output=eval_multiple_dipole_unet.out
+#SBATCH --error=eval_multiple_dipole_unet.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:tesla-smx2:1
+#SBATCH --mem=100000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

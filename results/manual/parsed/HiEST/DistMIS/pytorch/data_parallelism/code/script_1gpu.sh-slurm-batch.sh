@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=raysgd_1gpu
-#FLUX: -c=40
-#FLUX: --exclusive
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=raysgd_1gpu
+#SBATCH --output=../results/1gpu/%j.out
+#SBATCH --error=../results/1gpu/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-06:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=.
 
 export PYTHONUNBUFFERED='1'
 

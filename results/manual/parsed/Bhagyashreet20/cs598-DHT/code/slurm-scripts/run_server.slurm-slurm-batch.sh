@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=start_x_server
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=start_x_server
+#SBATCH --account=bcng-delta-gpu
+#SBATCH --output=/projects/bcng/cs598-DHT/code/logs/slurm-logs/output/x_server_start_-%j.out
+#SBATCH --error=/projects/bcng/cs598-DHT/code/logs/slurm-logs/error/x_server_start_-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=32g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=scratch
 
 export ET_DATA='/projects/bcng/ukakarla/teach_data'
 export TEACH_ROOT_DIR='/projects/bcng/ukakarla/teach'

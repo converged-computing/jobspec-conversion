@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leopard-5901
-#FLUX: -c=6
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-noodle-6854
+#FLUX -c=6
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load python/3.6 scipy-stack
 module load StdEnv/2020 gcc/9.3.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=siam_rcnn
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=siam_rcnn
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'
 

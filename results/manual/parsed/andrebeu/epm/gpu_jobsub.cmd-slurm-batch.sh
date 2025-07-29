@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bike-6973
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=2
 
 printf "\n\n\n --ntasks-per-node=1 -c=8 ntasks-per-socket=4 \n\n\n"
 CELLSIZE=${1}

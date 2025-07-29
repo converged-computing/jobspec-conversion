@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=c192_pace_driver
-#FLUX: -n=6
-#FLUX: --queue=normal
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=c192_pace_driver
+#FLUX -n=6
+#FLUX --queue=normal
+#FLUX -t=2700
+#FLUX --urgency=16
 
 export VIRTUALENV='${PACE_DIR}/venv'
 export OMP_NUM_THREADS='12'

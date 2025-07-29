@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=strong-scaling-1node
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#SBATCH --job-name=strong-scaling-1node
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --mail-user=yakup.paradox@gmail.com
+#SBATCH --mail-type=end,fail,timeout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:20:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=28
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

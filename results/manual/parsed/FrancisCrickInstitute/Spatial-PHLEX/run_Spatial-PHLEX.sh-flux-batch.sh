@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SpatialPHLEX
-#FLUX: --queue=cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=SpatialPHLEX
+#FLUX --queue=cpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='./singularity'
 

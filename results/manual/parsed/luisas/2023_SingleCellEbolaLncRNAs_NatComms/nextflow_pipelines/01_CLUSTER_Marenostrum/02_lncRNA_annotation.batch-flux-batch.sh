@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NextflowLncRNAsFilterPipeline
-#FLUX: -c=48
-#FLUX: --urgency=16
+#FLUX --job-name=NextflowLncRNAsFilterPipeline
+#FLUX -c=48
+#FLUX --urgency=16
 
 module load java/8u131
 module load intel/2017.1

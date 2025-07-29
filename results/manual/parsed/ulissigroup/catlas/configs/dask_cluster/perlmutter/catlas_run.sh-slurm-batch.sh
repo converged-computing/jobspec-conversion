@@ -1,13 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hobbit-8477
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=m3905_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu
 
 export SHIFTER_IMAGETYPE='docker'
 export SHIFTER_IMAGE='ulissigroup/catlas:latest'
 export SLURM_CPU_BIND='cores'
 
+singularity
+exec
+docker:ulissigroup/catlas:latest
 export SHIFTER_IMAGETYPE=docker
 export SHIFTER_IMAGE=ulissigroup/catlas:latest
 export SLURM_CPU_BIND="cores"

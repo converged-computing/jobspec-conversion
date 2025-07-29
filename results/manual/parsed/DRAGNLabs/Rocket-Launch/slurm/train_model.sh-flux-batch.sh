@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=train_model
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=train_model
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

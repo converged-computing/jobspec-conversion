@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cB211.072.64_n64mpi16nt3_ndcloverratcor_ddalphaamg_intel_2021_4_0_intelmpi_mpirun_threadpin_close
-#FLUX: -N=64
-#FLUX: -c=3
-#FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cB211.072.64_n64mpi16nt3_ndcloverratcor_ddalphaamg_intel_2021_4_0_intelmpi_mpirun_threadpin_close
+#SBATCH --account=slnpp
+#SBATCH --output=logs/log_%x_%j.out
+#SBATCH --error=logs/log_%x_%j.err
+#SBATCH --mail-user=bartosz_kostrzewa@fastmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=08:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='3'
 export OMP_PROC_BIND='close'

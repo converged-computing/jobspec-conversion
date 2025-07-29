@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pyg-multinode-tutorial
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpucloud
-#FLUX: --urgency=16
+#FLUX --job-name=pyg-multinode-tutorial
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -c=8
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpucloud
+#FLUX --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

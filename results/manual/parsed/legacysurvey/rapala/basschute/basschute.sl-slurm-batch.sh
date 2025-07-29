@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=basschute
-#FLUX: --queue=regular
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=basschute
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=regular
 
 export XARGS='--maxmem $MAXMEM $XARGS'
 

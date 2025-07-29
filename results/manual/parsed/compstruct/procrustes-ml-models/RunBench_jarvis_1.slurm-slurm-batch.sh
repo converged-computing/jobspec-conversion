@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-banana-4861
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --mail-user=aming@ece.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24gb
+#SBATCH --array=1-10%1
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 rs='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'

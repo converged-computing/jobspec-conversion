@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=500-12k-small
-#FLUX: --queue=m3h
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=500-12k-small
+#SBATCH --account=da33
+#SBATCH --output=500-12k-small-%j.out
+#SBATCH --error=500-12k-small-%j.err
+#SBATCH --mail-user=vuth0001@student.monash.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=m3h
+#SBATCH --constraint=ntasks-per-node=1
 
 LM_SRC_PATH="/home/xvuthith/da33/trang/rnn-lm"
 LM_DATA_DIR="/home/xvuthith/da33/trang/dataset/IT-More-Data-APE/data"

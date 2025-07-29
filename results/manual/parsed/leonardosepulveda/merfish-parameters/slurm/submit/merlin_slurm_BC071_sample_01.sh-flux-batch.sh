@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bike-1541
-#FLUX: --queue=zhuang,shared
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-spoon-5607
+#FLUX --queue=zhuang,shared
+#FLUX -t=604800
+#FLUX --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

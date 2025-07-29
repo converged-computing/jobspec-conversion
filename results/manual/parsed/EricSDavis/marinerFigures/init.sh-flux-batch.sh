@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=marinerFigures
-#FLUX: --queue=general
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=marinerFigures
+#FLUX --queue=general
+#FLUX -t=864000
+#FLUX --urgency=16
 
 set -e
 mkdir -p logs

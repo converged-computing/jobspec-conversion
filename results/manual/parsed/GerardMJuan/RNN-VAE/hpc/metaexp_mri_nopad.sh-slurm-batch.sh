@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rnnvae
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=rnnvae
+#SBATCH --output=LOGS/vae1_%J.out
+#SBATCH --error=LOGS/vae1_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/gmarti/CODE/RNN-VAE
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

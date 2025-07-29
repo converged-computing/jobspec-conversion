@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lettuce-9464
+#FLUX --job-name=conspicuous-earthworm-3019
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$STEPS_INSTALL_DIR:$PYTHONPATH'
 export STEPS_INSTRUMENTOR_MPI_BARRIER='before;after'

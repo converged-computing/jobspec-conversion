@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Data TensorFlow
-#FLUX: --queue=alvis
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Data TensorFlow
+#FLUX --queue=alvis
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml purge
 ml TensorFlow/2.11.0-foss-2022a-CUDA-11.7.0

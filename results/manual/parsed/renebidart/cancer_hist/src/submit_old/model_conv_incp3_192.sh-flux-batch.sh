@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-5743
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=angry-train-7284
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

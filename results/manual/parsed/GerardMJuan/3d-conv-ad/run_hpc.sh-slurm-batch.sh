@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=3dgpu
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=3dgpu
+#SBATCH --output=3dcnn_%J.out
+#SBATCH --error=3dcnn_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/gmarti/LOGS
 
 export PATH='/homedtic/gmarti/project/anaconda3/bin:$PATH'
 

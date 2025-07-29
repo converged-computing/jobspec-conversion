@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WuK
+#FLUX --job-name=WuK
 #FLUX: --exclusive
-#FLUX: --queue=gpu_v100
-#FLUX: --urgency=16
+#FLUX --queue=gpu_v100
+#FLUX --urgency=16
 
 if true; then
     SYSUEST_HOME=~/SYSuEST

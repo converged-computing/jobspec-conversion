@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pedo-4157
+#FLUX --job-name=creamy-general-7586
 #FLUX: --exclusive
-#FLUX: --queue=g100_usr_prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=g100_usr_prod
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load spack 
 spack load adios2@2.9.1

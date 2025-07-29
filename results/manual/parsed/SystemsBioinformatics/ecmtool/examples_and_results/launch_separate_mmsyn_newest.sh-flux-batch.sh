@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ecmtoolmmsyn
-#FLUX: -n=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=ecmtoolmmsyn
+#FLUX -n=20
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/scicore/home/nimwegen/degroo0000/ecmtool/lrslib-071a:$LD_LIBRARY_PATH'
 export PATH='/scicore/home/nimwegen/degroo0000/ecmtool/lrslib-071a:$PATH'

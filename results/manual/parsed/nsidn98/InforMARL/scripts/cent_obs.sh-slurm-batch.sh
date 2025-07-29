@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cent_obs_3
-#FLUX: -c=40
-#FLUX: --urgency=16
+#SBATCH --job-name=cent_obs_3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:volta:1
+#SBATCH --array=0-1
 
 source /etc/profile
 module load anaconda/2020a

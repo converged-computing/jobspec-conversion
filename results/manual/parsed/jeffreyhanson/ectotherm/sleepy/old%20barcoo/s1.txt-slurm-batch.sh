@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sleepy
-#FLUX: -n=10
-#FLUX: -t=18900
-#FLUX: --urgency=16
+#SBATCH --job-name=sleepy
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32768
+#SBATCH --time=05:15:00
+#SBATCH --array=0-99
 
 module load R-intel
 cd /vlsci/VR0212/shared/NicheMapR_Working/projects/sleepy/

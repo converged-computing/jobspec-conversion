@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-kerfuffle-9886
-#FLUX: -c=6
-#FLUX: --queue=rise
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-blackbean-7687
+#FLUX -c=6
+#FLUX --queue=rise
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cy_deepspeech
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=cy_deepspeech
+#SBATCH --account=scw1097
+#SBATCH --output=cy_deepspeech.out.%J
+#SBATCH --error=cy_deepspeech.err.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
 
 module purge
 module load singularity

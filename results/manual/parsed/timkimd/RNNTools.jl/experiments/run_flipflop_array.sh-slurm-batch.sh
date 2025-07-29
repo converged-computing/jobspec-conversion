@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=flipflop-array
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=flipflop-array
+#SBATCH --output=slurm-%A.%a.out
+#SBATCH --error=slurm-%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=23:59:00
+#SBATCH --array=1-3
 
 echo "My SLURM_ARRAY_JOB_ID is $SLURM_ARRAY_JOB_ID"
 echo "My SLURM_ARRAY_TASK_ID is $SLURM_ARRAY_TASK_ID"

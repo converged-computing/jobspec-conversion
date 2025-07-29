@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=convertDataToNpy-01
-#FLUX: --queue=testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=convertDataToNpy-01
+#FLUX --queue=testing
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

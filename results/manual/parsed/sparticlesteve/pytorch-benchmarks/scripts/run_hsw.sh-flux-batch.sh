@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-bm-hsw
-#FLUX: --queue=regular
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch-bm-hsw
+#FLUX --queue=regular
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

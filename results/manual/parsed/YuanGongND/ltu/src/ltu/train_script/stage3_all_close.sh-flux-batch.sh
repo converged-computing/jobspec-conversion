@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alm
+#FLUX --job-name=alm
 #FLUX: --exclusive
-#FLUX: --queue=a6
-#FLUX: --urgency=16
+#FLUX --queue=a6
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='./hf_cache/'
 export HF_DATASETS_CACHE='./hf_cache/'

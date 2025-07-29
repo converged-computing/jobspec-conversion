@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=d5_DFS
-#FLUX: -N=10
+#FLUX --job-name=d5_DFS
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: --queue=fx700
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=fx700
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export IO500_MODE=''
 export SLEEP_SEC='300'

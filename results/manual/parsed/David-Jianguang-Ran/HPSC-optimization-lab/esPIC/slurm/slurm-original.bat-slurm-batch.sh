@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-8300
-#FLUX: -n=6
-#FLUX: --queue=amilan
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=slurm-original-run-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=amilan
 
 module purge
 module load intel

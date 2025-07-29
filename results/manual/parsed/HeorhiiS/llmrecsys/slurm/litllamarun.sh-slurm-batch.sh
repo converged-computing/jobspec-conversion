@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-arm-1523
-#FLUX: -c=40
-#FLUX: --queue=nvidia
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#SBATCH --output=new_litllama.out
+#SBATCH --error=new_litllama.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:8
+#SBATCH --mem=480G
+#SBATCH --time=05:30:00
+#SBATCH --partition=nvidia
 
 module purge
 source ~/.bashrc

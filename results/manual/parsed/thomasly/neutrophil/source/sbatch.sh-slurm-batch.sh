@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow
-#FLUX: --queue=gpu4_medium
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --partition=gpu4_medium
 
 module purge
 module load python/gpu/3.6.5

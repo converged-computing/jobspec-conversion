@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-omelette-1761
-#FLUX: -n=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=2-00:00:00
 
 idx="$1"
 nohup python -m visdom.server > nohup_visdom_${idx}.out 2>&1 &

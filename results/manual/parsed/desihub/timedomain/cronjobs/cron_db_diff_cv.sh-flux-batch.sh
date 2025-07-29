@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cat-0729
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-eagle-9289
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo `date` Running daily time domain pipeline on `hostname`
 if [ -z "$DESI_ROOT" ]; then

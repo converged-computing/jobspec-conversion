@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peanut-6628
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=xpress_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 module purge
 module load octotiger

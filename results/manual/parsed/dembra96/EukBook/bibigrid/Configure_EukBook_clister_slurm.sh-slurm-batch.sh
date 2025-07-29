@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Conf_EukBook
-#FLUX: --urgency=16
+#SBATCH --job-name=Conf_EukBook
+#SBATCH --output=/home/ubuntu/EukBook_configure-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-25
 
 echo -e "\n[[ INSTALL MINIO CLIENT ]]\n"
 scp ${SLURM_SUBMIT_HOST}:~/MinIO_secret.sh .

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-carrot-4916
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-dog-5328
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yasahi-hpc/P3-miniapps/wk/sub_stdpar_heat3d_mpi_V100_2MPI.sh

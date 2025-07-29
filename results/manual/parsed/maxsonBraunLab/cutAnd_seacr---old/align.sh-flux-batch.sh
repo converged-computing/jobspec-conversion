@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=align
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=align
+#FLUX -c=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 THREADS=8
 BOWTIE_IDX="home/groups/MaxsonLab/indices/GRch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.bowtie_index"

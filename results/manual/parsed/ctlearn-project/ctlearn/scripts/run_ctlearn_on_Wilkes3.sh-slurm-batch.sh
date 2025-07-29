@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-snack-1936
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=iris-ip007-GPU
+#SBATCH --output=/home/ir-mien1/rds/rds-iris-ip007/ir-mien1/outs/LSTCam_multigpus_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=24000mb
+#SBATCH --time=20:00:00
+#SBATCH --partition=ampere
+#SBATCH --array=1234
 
 . /etc/profile.d/modules.sh
 module purge

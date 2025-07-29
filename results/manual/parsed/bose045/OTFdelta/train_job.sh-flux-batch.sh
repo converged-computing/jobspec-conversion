@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=macetrn
-#FLUX: --queue=npl
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=macetrn
+#FLUX --queue=npl
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:1280'

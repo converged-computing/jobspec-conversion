@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-2347
-#FLUX: -c=12
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=./logs/%j.out
+#SBATCH --error=./logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=5000
+#SBATCH --time=5-00:00:00
 
 trap "echo sigterm recieved, exiting!" SIGTERM
 run () {

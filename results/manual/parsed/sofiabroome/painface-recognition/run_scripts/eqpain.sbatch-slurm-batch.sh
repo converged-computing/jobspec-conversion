@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=confused-salad-5497
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --output=/Midgard/home/%u/projects/painface-recognition/logs/%J_slurm.out
+#SBATCH --error=/Midgard/home/%u/projects/painface-recognition/logs/%J_slurm.err
+#SBATCH --mail-user=sbroome@kth.se
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6GB
+#SBATCH --constraint=rivendell|shire|gondor|balrog|smaug|khazadum
 
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"
 nvidia-smi

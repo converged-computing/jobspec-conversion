@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LDmap
-#FLUX: -c=16
-#FLUX: -t=734400
-#FLUX: --urgency=16
+#FLUX --job-name=LDmap
+#FLUX -c=16
+#FLUX -t=734400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$ncores'
 

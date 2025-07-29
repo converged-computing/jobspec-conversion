@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=all_folds_full_spd_best_mf1_length_21
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=all_folds_full_spd_best_mf1_length_21
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 fold=$((${SLURM_ARRAY_TASK_ID}-100))
 module purge

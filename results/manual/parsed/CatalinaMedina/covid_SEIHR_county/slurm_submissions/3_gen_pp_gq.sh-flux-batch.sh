@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-general-4024
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-bicycle-4210
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia/1.8.5

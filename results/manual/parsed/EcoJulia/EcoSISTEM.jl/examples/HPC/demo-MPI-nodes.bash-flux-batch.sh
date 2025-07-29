@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nunchucks-2476
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -c=8
-#FLUX: --queue=nodes
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=salted-fork-7678
+#FLUX -N=4
+#FLUX -n=32
+#FLUX -c=8
+#FLUX --queue=nodes
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='8'

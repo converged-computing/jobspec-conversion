@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Gd-sTPATCN_2V1A_02NPT
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=Gd-sTPATCN_2V1A_02NPT
+#SBATCH --output=./2V1A_FMN/02NPT/output.%j.out
+#SBATCH --mail-user=sheppard@ucsb.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=6
 
 cd $SLURM_SUBMIT_DIR
 module load singularity 

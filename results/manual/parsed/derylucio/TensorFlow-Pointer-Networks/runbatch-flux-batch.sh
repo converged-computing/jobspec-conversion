@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jigsaws_pointer
-#FLUX: --queue=k80
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#FLUX --job-name=jigsaws_pointer
+#FLUX --queue=k80
+#FLUX -t=16200
+#FLUX --urgency=16
 
 source  .env/bin/activate
 module load python/3.5.0

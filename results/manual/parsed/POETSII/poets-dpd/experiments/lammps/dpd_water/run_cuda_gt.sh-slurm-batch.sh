@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chip-7212
-#FLUX: --queue=gtx1080
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gtx1080
 
 module load lammps/2018/cuda
 echo

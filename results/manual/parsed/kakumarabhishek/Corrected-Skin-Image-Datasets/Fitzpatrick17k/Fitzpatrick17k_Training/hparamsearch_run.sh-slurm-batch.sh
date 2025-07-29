@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=f17k_hparam
-#FLUX: -c=16
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=f17k_hparam
+#SBATCH --output=%N-%j.out
+#SBATCH --error=%N-%j.err
+#SBATCH --mail-user=kabhishe@sfu.ca
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
+#SBATCH --qos=overcap
+#SBATCH --nodelist=cs-venus-09
 
 ulimit -Su unlimited
 ulimit -Sv unlimited

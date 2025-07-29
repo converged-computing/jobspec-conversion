@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=data_59_imaging
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=data_59_imaging
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 export CASA6='/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/bin/casa'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vita-ipsc-ext_reorg_roi_g2_0_37-swin
-#FLUX: -c=4
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=vita-ipsc-ext_reorg_roi_g2_0_37-swin
+#FLUX -c=4
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load cuda cudnn gcc python/3.8
 source ~/venv/vita/bin/activate

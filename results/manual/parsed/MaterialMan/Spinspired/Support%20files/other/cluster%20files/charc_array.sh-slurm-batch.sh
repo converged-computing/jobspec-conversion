@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=small_batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=small_batch
+#SBATCH --account=cs-charcsi-2019
+#SBATCH --output=ch_%A_%a.log
+#SBATCH --mail-user=matt.dale@york.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10gb
+#SBATCH --time=04:00:00
+#SBATCH --array=1-20
 
 echo My working directory is `pwd`
 echo Running job on host:

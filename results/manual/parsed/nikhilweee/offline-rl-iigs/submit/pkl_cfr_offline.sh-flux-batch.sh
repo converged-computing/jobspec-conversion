@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pkl_cfr_offline
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pkl_cfr_offline
+#FLUX -t=3600
+#FLUX --urgency=16
 
 nums=("000" "010" "025" "050" "100")
 num=${nums[${SLURM_ARRAY_TASK_ID}]}

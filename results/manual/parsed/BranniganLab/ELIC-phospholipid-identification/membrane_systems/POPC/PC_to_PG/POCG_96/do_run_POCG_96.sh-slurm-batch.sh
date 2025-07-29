@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=${JOB_NAME}_${chunk_start}_${chunk_end}
-#FLUX: -n=32
-#FLUX: --queue=cmain
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=${JOB_NAME}_${chunk_start}_${chunk_end}
+#SBATCH --output=out%j.amarel.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cmain
+#SBATCH --constraint=oarc
 
 module purge
 module load gcc mvapich2

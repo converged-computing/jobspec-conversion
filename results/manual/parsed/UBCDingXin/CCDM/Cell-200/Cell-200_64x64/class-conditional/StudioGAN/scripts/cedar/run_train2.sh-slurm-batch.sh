@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=U64_SG2
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=U64_SG2
+#SBATCH --account=def-wjwelch
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=dingx92@163.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
 
 module load arch/avx512 StdEnv/2020
 module load gcc/9.3.0 python/3.11.2 cuda/11.8.0 opencv/4.8.0

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=vcfMerger
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=vcfMerger
+#SBATCH --mail-user=${USER}@tgen.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=1-00:00:00
 
 export PERL5LIB='/home/achristofferson/local/vcftools_v0.1.14/src/perl/'
 

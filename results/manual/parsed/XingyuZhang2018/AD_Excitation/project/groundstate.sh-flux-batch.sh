@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-squidward-1596
-#FLUX: --queue=a800
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-motorcycle-1527
+#FLUX --queue=a800
+#FLUX -t=35996400
+#FLUX --urgency=16
 
 module load julia-1.7.1
 project_dir=~/research/AD_Excitation

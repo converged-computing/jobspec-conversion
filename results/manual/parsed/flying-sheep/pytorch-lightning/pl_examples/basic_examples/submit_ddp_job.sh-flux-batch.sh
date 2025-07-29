@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-dog-7554
-#FLUX: -N=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-mango-8013
+#FLUX -N=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source activate $1
  export NCCL_DEBUG=INFO

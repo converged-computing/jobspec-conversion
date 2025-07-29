@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=oleic
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=oleic
+#FLUX --queue=shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 prefix=oleic
 rtemp=298

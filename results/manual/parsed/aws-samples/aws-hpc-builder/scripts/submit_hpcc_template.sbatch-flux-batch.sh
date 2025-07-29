@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-onion-3499
-#FLUX: -N=2
+#FLUX --job-name=dinosaur-parsnip-9518
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=arm8xlarge
-#FLUX: --urgency=16
+#FLUX --queue=arm8xlarge
+#FLUX --urgency=16
 
 export HPCC_VERSION='1.5.0'
 export OMP_NUM_THREADS='1'

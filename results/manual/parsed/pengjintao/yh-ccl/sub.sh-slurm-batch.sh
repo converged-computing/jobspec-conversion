@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-4101
-#FLUX: -n=64
-#FLUX: --queue=amd_256
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --partition=amd_256
 
 procname=./build/test/allreduce
 flag=""

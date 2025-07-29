@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-2232
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --constraint=ntasks-per-node=8
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

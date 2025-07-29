@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-snack-6911
-#FLUX: --queue=gpu2018
-#FLUX: --urgency=16
+#SBATCH --output=output/slurm-%x.out
+#SBATCH --error=output/slurm-%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu2018
+#SBATCH --constraint=ntasks-per-node=8
 
 source deactivate # Remove previous environments.
 source activate cuda9-py38-pytorch1.5

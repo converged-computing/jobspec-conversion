@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train-tf-DA-kptimes
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=train-tf-DA-kptimes
+#SBATCH --account=hdaqing
+#SBATCH --output=slurm_output/train-tf-DA-kptimes.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=titanx
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export CONFIG_PATH='script/transfer/train_tf_DA/transformer-DA-kptimes.yml'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wavelet
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=wavelet
+#FLUX --queue=normal
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge all
 module load matlab/r2020b

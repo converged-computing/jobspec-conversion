@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=COVID-vpipe-hugemem
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=COVID-vpipe-hugemem
+#SBATCH --mail-user=ivan.topolsky@bsse.ethz.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16384
+#SBATCH --time=4-00:00:00
 
 export SNAKEMAKE_PROFILE='$(realpath ../profiles/)'
 

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-house-3567
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load tensorflow/2.0.0
 module list

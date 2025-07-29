@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_ps
-#FLUX: --queue=cardio
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=_ps
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/home/jhz22/INF/ps/slurm/_ps_%A_%a.out
+#SBATCH --error=/home/jhz22/INF/ps/slurm/_ps_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12880
+#SBATCH --time=08:00:00
+#SBATCH --partition=cardio
+#SBATCH --array=1-162
 
 export nth='${SLURM_ARRAY_TASK_ID}'
 export rsid='$(awk 'NR==ENVIRON["nth"]' ${INF}/ps/INF1_ref_rsid.txt)'

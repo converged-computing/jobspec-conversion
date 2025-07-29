@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-2838
-#FLUX: -n=4
-#FLUX: --queue=cidsegpu1
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#SBATCH --output=slurm_new_5.out
+#SBATCH --error=slurm_new_5.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:12:00
+#SBATCH --partition=cidsegpu1
 
 module load tensorflow/1.8-agave-gpu
 source ~/work/code/pytorch1_0/bin/activate

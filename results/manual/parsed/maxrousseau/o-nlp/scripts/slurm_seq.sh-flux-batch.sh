@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-blackbean-2669
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-knife-5353
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load StdEnv/2020 gcc/9.3.0 arrow/11.0.0 python/3.10

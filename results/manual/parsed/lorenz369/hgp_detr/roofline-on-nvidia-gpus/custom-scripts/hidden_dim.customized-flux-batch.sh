@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hippo-2179
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-general-3313
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'
 export MASTER_PORT='12345'

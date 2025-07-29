@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cinnamonbun-6584
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/uuudown/Tartan/scale-out/scale-out-pinned/lulesh/exe.lsf

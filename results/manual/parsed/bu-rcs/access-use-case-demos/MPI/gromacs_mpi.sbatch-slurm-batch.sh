@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_mpi_test
-#FLUX: -N=2
-#FLUX: -n=96
-#FLUX: --queue=skx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_mpi_test
+#SBATCH --account=myproject
+#SBATCH --output=gmx_mpi_test.%j.out
+#SBATCH --error=gmx_mpi_test.%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=skx
 
 module load intel/24.0
 module load impi/21.11

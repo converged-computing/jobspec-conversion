@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lamp-1341
-#FLUX: --queue=ccb
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=jmorton@flatironinstitute.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=ccb
+#SBATCH --constraint=rome
 
 export TBB_CXX_TYPE='gcc'
 

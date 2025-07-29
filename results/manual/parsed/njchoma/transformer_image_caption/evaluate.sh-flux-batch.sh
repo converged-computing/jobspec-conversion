@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-spoon-1032
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=blank-banana-1897
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ROOT_DIR="/scratch/ovd208/COCO_features/data"
 ARTIFACTS_DIR="$SCRATCH/artifacts/image_captioning"

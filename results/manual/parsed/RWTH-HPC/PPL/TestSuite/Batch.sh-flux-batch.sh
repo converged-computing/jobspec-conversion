@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Testing
-#FLUX: -n=2
-#FLUX: -c=48
-#FLUX: --queue=c18g
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=Testing
+#FLUX -n=2
+#FLUX -c=48
+#FLUX --queue=c18g
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module unload intel
 module unload intelmpi

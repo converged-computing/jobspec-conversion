@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cache_mls
-#FLUX: --queue=skylake,cclake
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=cache_mls
+#FLUX --queue=skylake,cclake
+#FLUX -t=28800
+#FLUX --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

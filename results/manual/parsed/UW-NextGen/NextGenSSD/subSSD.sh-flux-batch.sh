@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pancake-8332
-#FLUX: --queue=slurm_courtesy
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-rabbit-7822
+#FLUX --queue=slurm_courtesy
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load usermods
 module load user/cuda

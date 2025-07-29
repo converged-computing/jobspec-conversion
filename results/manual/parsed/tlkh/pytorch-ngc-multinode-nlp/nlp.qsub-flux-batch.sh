@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cattywampus-2005
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-bits-8368
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/pytorch-ngc-multinode-nlp/nlp.qsub

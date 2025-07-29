@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rep4
-#FLUX: --queue=cbmm
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=rep4
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=20GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=cbmm
+#SBATCH --chdir=/om/user/vanessad/MNIST_framework/slurm_output/output_results_natural/scenario3/repetition_4
+#SBATCH --array=0-499
 
 hostname
 module add openmind/singularity/3.4.1

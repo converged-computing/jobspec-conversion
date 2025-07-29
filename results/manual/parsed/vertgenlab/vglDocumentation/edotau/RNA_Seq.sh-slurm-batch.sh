@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Snps.RNA-Seq
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Snps.RNA-Seq
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --exclude=dl-01
 
 set -e
 module load GATK/4.1.0.0-gcb01 java/1.8.0_45-fasrc01 samtools/1.9-gcb01 fastqc/0.11.5-fasrc01 STAR/2.7.2b-gcb01

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-blackbean-7022
-#FLUX: --queue=naples
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-nalgas-5693
+#FLUX --queue=naples
+#FLUX -t=1800
+#FLUX --urgency=16
 
 FAST_DOWNWARD="$1"
 META_SOLVER="$2"

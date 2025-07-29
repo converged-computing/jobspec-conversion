@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-house-2049
-#FLUX: --queue=shared-cpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=shared-cpu
 
 export HOME='/home/heasoft'
 

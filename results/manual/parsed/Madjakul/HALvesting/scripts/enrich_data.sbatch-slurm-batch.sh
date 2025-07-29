@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=threads_enrich_data
-#FLUX: -c=24
-#FLUX: --queue=cpu_devel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=threads_enrich_data
+#SBATCH --output=logs/%x_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=56gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpu_devel
+#SBATCH --constraint=amd
 
 module purge
 module load cmake

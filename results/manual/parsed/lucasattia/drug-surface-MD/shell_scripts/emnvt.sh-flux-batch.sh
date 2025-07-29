@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-onion-3408
-#FLUX: -n=20
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-platanos-6057
+#FLUX -n=20
+#FLUX --urgency=16
 
 source /etc/profile
 source $HOME/gromacs/gromacs-2021/install/bin/GMXRC

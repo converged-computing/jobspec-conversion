@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-9818
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-kitty-3413
+#FLUX --urgency=16
 

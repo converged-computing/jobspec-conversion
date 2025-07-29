@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-chip-3234
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=astute-poo-1954
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load singularity/3.8.1
 cd $TMPDIR

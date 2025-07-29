@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=instructpix2pix-sdxl
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=instructpix2pix-sdxl
+#SBATCH --output=/admin/home/suraj/logs/maskgit-imagenet/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export MODEL_ID='stabilityai/stable-diffusion-xl-base-1.0'
 export LAUNCHER='accelerate launch \'

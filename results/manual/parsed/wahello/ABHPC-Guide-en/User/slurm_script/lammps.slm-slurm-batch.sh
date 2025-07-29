@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=4
-#FLUX: --queue=E5-2640V4
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=E5-2640V4
+#SBATCH --constraint=ntasks-per-node=20
 
 LMP_EXE="/opt/MD/lammps/bin/lammps-cpu-12Dec18"
 ADD_ARGS="-sf omp"

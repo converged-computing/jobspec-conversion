@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-soup-6969
-#FLUX: -c=12
-#FLUX: --queue=gpu-a100-tmp
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-omelette-0136
+#FLUX -c=12
+#FLUX --queue=gpu-a100-tmp
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

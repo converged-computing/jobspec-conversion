@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ann_paramsweep
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ann_paramsweep
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96GB
+#SBATCH --time=1-00:00:00
 
 module purge
 /scratch/ab10313/pytorch-example/my_pytorch.ext3:ro \

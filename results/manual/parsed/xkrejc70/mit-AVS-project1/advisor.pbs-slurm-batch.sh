@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-squidward-7043
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/xkrejc70/mit-AVS-project1/advisor.pbs

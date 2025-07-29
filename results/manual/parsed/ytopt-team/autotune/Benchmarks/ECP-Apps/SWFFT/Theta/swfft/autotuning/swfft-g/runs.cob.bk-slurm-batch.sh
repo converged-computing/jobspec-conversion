@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leopard-5989
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

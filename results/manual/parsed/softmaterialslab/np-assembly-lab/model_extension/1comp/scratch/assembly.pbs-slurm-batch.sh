@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=EEE2c100_12cores
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=EEE2c100_12cores
+#SBATCH --account=r00312
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --mail-user=vjadhao@iu.edu
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=12
 
 module load lammps/29Oct20
 cd      $SLURM_SUBMIT_DIR

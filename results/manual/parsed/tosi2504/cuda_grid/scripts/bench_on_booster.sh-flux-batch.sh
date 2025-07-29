@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-blackbean-6267
-#FLUX: --queue=develbooster
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-hippo-3940
+#FLUX --queue=develbooster
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 ml Stages/2024

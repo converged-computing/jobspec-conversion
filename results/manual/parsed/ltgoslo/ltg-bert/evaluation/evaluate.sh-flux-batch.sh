@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BRT-EVL
-#FLUX: -c=6
-#FLUX: --queue=pilot
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=BRT-EVL
+#FLUX -c=6
+#FLUX --queue=pilot
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PS1='\$'
 export NCCL_SOCKET_IFNAME='hsn'

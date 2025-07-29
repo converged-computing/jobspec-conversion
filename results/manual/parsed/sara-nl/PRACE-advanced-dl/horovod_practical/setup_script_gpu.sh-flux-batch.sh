@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-3111
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=placid-lizard-8241
+#FLUX -n=2
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdisgpu"

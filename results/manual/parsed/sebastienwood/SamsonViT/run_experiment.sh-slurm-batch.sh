@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bicycle-3162
-#FLUX: -c=32
-#FLUX: -t=259800
-#FLUX: --urgency=16
+#SBATCH --account=rrg-franlp
+#SBATCH --output=outputs/%x-%A-%a.out
+#SBATCH --mail-user=sebastien.henwood@polymtl.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=160G
+#SBATCH --time=3-00:10:00
 
 export HF_DATASETS_OFFLINE='1'
 

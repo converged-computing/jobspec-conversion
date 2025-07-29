@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-sundae-7868
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=cc_debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8g
+#SBATCH --time=01:00:00
 
 FS=scratch
 CASE="posix" # e.g. posix.odirect-F

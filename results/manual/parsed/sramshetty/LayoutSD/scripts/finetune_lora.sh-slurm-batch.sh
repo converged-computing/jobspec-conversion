@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LayoutSD
-#FLUX: -N=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=g40x
-#FLUX: --urgency=16
+#SBATCH --job-name=LayoutSD
+#SBATCH --account=laion
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=g40x
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

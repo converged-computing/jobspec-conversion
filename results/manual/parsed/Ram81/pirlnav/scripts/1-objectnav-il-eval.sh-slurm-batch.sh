@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pirlnav
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=pirlnav
+#SBATCH --output=slurm_logs/ddpil-eval-%j.out
+#SBATCH --error=slurm_logs/ddpil-eval-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1,a40
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

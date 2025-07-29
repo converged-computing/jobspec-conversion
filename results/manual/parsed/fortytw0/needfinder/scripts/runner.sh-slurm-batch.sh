@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: -n=24
-#FLUX: --queue=sgpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-job
+#SBATCH --output=gpu-job.%j.out
+#SBATCH --mail-user=dasr8731@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=sgpu
 
 module purge
 module load cuda

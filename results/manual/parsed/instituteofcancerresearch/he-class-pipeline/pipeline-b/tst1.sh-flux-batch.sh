@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow_sim
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=tensorflow_sim
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load cuda/11.1
 log_output="$1"

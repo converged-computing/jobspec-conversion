@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wave3D
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wave3D
+#FLUX -N=4
+#FLUX --queue=normal
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MPICH_RDMA_ENABLED_CUDA='0'
 export IGG_CUDAAWARE_MPI='0'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_exp
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=run_exp
+#FLUX -c=8
+#FLUX -t=18000
+#FLUX --urgency=16
 
 singularity exec --nv --overlay /scratch/bne215/overlay-50G-10M.ext3:ro \
     --overlay /scratch/work/public/singularity/mujoco200-dep-cuda11.1-cudnn8-ubunutu18.04.sqf:ro \

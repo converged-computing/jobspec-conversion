@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=da_jedi_C96_lgetkf_sondesonly
-#FLUX: -N=10
-#FLUX: --queue=orion
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=da_jedi_C96_lgetkf_sondesonly
+#FLUX -N=10
+#FLUX --queue=orion
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export NODES='$SLURM_NNODES'
 export corespernode='$SLURM_CPUS_ON_NODE'

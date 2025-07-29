@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=inference
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=inference
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export PROJ_PATH='/home/AIChineseMedicine/huangky/reusePLM'

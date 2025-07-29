@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=job_run_IOR
-#FLUX: -N=4
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=job_run_IOR
+#SBATCH --output=job_run_IOR.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
 
 DIR=$PWD
 TESTDIR=$DW_JOB_STRIPED

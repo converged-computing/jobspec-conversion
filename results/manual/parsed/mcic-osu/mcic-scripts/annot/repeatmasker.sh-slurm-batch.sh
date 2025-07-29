@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=5
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=repeatmasker
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-repeatmasker-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=20G
+#SBATCH --time=06:00:00
 
 Print_help() {
     echo

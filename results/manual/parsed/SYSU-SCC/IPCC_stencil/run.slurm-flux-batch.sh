@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ipcc
+#FLUX --job-name=ipcc
 #FLUX: --exclusive
-#FLUX: --queue=amd_256
-#FLUX: --urgency=16
+#FLUX --queue=amd_256
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='./lib:$LD_LIBRARY_PATH'
 

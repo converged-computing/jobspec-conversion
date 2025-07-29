@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-citrus-4564
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/suzannepk/hands-on-with-summit/challenges/Python_Parallel_HDF5/submit_galaxy.lsf

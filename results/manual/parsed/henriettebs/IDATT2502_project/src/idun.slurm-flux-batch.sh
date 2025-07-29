@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Stock prediction training
-#FLUX: -c=28
-#FLUX: --queue=GPUQ
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=Stock prediction training
+#FLUX -c=28
+#FLUX --queue=GPUQ
+#FLUX -t=14400
+#FLUX --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

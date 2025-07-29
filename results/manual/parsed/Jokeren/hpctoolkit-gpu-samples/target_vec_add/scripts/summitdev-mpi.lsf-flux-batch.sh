@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-eagle-4417
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lettuce-8949
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Jokeren/hpctoolkit-gpu-samples/target_vec_add/scripts/summitdev-mpi.lsf

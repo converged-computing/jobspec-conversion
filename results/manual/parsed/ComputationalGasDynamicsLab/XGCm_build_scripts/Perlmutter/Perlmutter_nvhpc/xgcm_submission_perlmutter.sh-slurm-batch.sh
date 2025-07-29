@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Cyclone_590k_nphi=8
-#FLUX: -n=8
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Cyclone_590k_nphi=8
+#SBATCH --account=m499_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 export MPICH_ABORT_ON_ERROR='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Remesh
-#FLUX: --queue=compute
-#FLUX: -t=420
-#FLUX: --urgency=16
+#FLUX --job-name=Remesh
+#FLUX --queue=compute
+#FLUX -t=420
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chair-9943
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-lentil-6907
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GRSEB9S/neural-tensor-denoising/tensordenoisejob_yeti.sh

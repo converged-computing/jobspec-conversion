@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 singularity exec --nv \
 --overlay /scratch/xl3136/conda.ext3:ro \

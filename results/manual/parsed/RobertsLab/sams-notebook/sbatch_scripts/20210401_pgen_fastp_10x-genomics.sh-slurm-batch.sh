@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20210401_pgen_fastp_10x-genomics
-#FLUX: --queue=coenv
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=20210401_pgen_fastp_10x-genomics
+#SBATCH --account=coenv
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=coenv
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210401_pgen_fastp_10x-genomics
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

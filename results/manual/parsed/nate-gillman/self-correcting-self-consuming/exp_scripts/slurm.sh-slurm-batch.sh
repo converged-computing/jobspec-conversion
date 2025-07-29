@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fudge-6550
-#FLUX: --queue=3090-gcondo
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=exp_outputs/slurm_logs/%j.out
+#SBATCH --error=exp_outputs/slurm_logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=63G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=3090-gcondo
+#SBATCH --constraint=a6000|geforce3090
+#SBATCH --exclude=gpu2108,gpu2114,gpu2115,gpu2116
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

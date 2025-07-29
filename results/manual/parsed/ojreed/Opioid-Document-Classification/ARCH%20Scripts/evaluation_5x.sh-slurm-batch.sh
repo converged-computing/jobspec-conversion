@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=oreed2EvalResults
-#FLUX: -c=4
-#FLUX: --queue=a100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=oreed2EvalResults
+#SBATCH --account=angieliu_gpu
+#SBATCH --output=oreed2EvalResults.out.log
+#SBATCH --error=oreed2EvalResults.err.log
+#SBATCH --mail-user=oreed2@jhu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8000
+#SBATCH --time=04:00:00
+#SBATCH --partition=a100
 
 export CUDA_VISIBLE_DEVICES='0'
 

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hm_ddmd_n2t12i1_100ps_0
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=a100
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hm_ddmd_n2t12i1_100ps_0
+#SBATCH --account=chess
+#SBATCH --output=./R_%x.out
+#SBATCH --error=./R_%x.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=a100
 
 export TMPDIR='/scratch/$USER'
 

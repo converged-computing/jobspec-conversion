@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parsnip-3802
-#FLUX: -N=2
-#FLUX: -c=16
+#FLUX --job-name=crunchy-egg-2141
+#FLUX -N=2
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export WORLD_SIZE='8'
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'

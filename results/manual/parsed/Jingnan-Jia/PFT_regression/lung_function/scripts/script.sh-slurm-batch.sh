@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pancake-7541
-#FLUX: --queue=amd-gpu-long
-#FLUX: --urgency=16
+#SBATCH --output=results/logs/slurm-%j.out
+#SBATCH --error=results/logs/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=amd-gpu-long
 
 export PATH='$PATH:"/cm/shared/easybuild/GenuineIntel/software/git/2.38.1-GCCcore-12.2.0-nodocs/bin/git'
 

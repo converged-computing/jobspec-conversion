@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=comb-tuning
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=comb-tuning
+#SBATCH --output=slurm_combined_tuning.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=7-00:00:00
 
 module purge
 module load jupyter-kernels/py2.7

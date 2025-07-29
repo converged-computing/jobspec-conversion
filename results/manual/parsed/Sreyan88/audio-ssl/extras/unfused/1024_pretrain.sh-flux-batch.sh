@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-taco-0278
-#FLUX: -c=32
-#FLUX: --queue=nltmp
-#FLUX: -t=428400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-soup-8339
+#FLUX -c=32
+#FLUX --queue=nltmp
+#FLUX -t=428400
+#FLUX --urgency=16
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

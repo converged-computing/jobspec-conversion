@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=WildTypeSimulation
-#FLUX: --queue=cpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=WildTypeSimulation
+#SBATCH --account=Flex1
+#SBATCH --output=/projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-10
 
 echo 'Task ID is:'
 echo ${SLURM_ARRAY_TASK_ID}

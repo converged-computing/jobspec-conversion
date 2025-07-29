@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=launch_cci_pipeline
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=launch_cci_pipeline
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

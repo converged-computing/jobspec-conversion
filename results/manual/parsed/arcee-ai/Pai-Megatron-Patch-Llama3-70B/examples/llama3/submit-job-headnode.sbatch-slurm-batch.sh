@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron_gpt
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export NCCL_DEBUG='INFO'

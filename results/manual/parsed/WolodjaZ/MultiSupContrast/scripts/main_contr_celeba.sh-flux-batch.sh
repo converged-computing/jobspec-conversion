@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mutlisupcontrast_contr
-#FLUX: -c=4
-#FLUX: --queue=tesla
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#FLUX --job-name=mutlisupcontrast_contr
+#FLUX -c=4
+#FLUX --queue=tesla
+#FLUX -t=90000
+#FLUX --urgency=16
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

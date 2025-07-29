@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lemur-5175
-#FLUX: -n=2
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-poo-5557
+#FLUX -n=2
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MATLABPATH='../../matlab'
 

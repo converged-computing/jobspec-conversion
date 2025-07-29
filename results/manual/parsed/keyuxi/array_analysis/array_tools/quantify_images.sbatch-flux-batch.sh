@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quantify_images
-#FLUX: -c=18
-#FLUX: --queue=biochem,owners
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=quantify_images
+#FLUX -c=18
+#FLUX --queue=biochem,owners
+#FLUX -t=54000
+#FLUX --urgency=16
 
 source activate barcode_venv
 module load matlab/R2017b

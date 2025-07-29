@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lamp-0063
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-carrot-5117
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

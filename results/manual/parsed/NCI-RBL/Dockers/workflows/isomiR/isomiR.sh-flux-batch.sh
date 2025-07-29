@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=isomiR
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=isomiR
+#FLUX -n=8
+#FLUX -c=8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -eu
 project_name=$1

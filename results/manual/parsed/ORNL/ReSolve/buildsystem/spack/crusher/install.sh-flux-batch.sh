@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resolve_spack
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=resolve_spack
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128'

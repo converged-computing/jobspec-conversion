@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-squidward-3779
-#FLUX: -n=4
-#FLUX: -c=6
-#FLUX: --queue=cola-corta
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-diablo-7298
+#FLUX -n=4
+#FLUX -c=6
+#FLUX --queue=cola-corta
+#FLUX -t=300
+#FLUX --urgency=16
 
 export TFSERVER=''
 export GRPC_POLL_STRATEGY='poll'

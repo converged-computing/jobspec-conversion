@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=aNiMAte-train
-#FLUX: --queue=ml
-#FLUX: --urgency=16
+#SBATCH --job-name=aNiMAte-train
+#SBATCH --output=output-%j.txt
+#SBATCH --error=output-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128GB
+#SBATCH --partition=ml
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 export CUDA_LAUNCH_BLOCKING='1'

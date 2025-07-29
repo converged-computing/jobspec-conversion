@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=general
-#FLUX: -n=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=general
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=01:00:00
 
 echo JOBID $SLURM_JOBID
 echo TASKID $SLURM_ARRAY_TASK_ID

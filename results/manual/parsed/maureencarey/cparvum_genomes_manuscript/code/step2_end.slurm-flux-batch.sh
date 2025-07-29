@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-underoos-1741
-#FLUX: --queue=largemem
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-earthworm-3746
+#FLUX --queue=largemem
+#FLUX --urgency=16
 
 module purge
 module load gcc/9.2.0 bbmap/38.57

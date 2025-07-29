@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-train-0402
-#FLUX: -c=48
-#FLUX: --queue=devel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=trustllm-eu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=00:20:00
+#SBATCH --partition=devel
+#SBATCH --constraint=ntasks-per-node=1
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export NUM_WORKERS='$SRUN_CPUS_PER_TASK'

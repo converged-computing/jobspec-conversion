@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-description-mixtral-gpu
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-cpp-description-mixtral-gpu
+#SBATCH --output=description-mixtral-gpu-%j.out
+#SBATCH --error=description-mixtral-gpu-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 spack load cuda@11.8.0
 spack load --first py-pandas

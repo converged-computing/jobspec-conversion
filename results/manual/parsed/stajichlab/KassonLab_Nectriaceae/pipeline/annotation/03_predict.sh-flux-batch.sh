@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-peanut-6163
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-poo-8137
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'
 

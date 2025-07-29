@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=moelansfig4-2d-test
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=moelansfig4-2d-test
+#SBATCH --output=moelansfig4-2d-test_%j.out
+#SBATCH --error=moelansfig4-2d-test_%j.err
+#SBATCH --mail-user=johan.hektor@solid.lth.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --qos=test
+#SBATCH: --exclusive
 
 cat $0
 ml load GCC/6.3.0-2.27

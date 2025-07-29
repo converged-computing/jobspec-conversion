@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=/gscratch/stf/emazuh/adam-compression/sample_slurm.sh
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=ckpt
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=/gscratch/stf/emazuh/adam-compression/sample_slurm.sh
+#SBATCH --account=stf
+#SBATCH --output=/mmfs1/home/emazuh/data/logs/experimental/adam-compression/sample_%a.log
+#SBATCH --error=/mmfs1/home/emazuh/data/logs/experimental/adam-compression/sample_%a.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=24G
+#SBATCH --time=04:00:00
+#SBATCH --partition=ckpt
+#SBATCH --constraint=ntasks-per-node=2,[rtx6k|a40|2080ti]
+#SBATCH --chdir=/gscratch/stf/emazuh/adam-compression
+#SBATCH --array=0-0
 
 export PATH='$PATH:/mmfs1/home/emazuh/anaconda3/bin'
 

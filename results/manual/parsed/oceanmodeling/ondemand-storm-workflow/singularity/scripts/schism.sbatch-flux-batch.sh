@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-noodle-2068
-#FLUX: -N=3
+#FLUX --job-name=crunchy-kitty-0219
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export MV2_ENABLE_AFFINITY='0'
 

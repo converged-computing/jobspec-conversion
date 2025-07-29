@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=xfst
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=xfst
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load lang/r/4.1.2-gcc
 cd $SLURM_SUBMIT_DIR

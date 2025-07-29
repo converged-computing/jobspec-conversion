@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-9016
-#FLUX: -N=144
-#FLUX: -n=576
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-arm-9955
+#FLUX -N=144
+#FLUX -n=576
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

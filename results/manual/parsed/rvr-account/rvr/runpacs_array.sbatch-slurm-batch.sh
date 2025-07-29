@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=runpacs_array
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=8640
-#FLUX: --urgency=16
+#SBATCH --job-name=runpacs_array
+#SBATCH --output=outfiles/slurm-%A-%a.out
+#SBATCH --error=outfiles/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=50000
+#SBATCH --time=02:24:00
+#SBATCH --partition=gpu_requeue
 
 module load Anaconda3/5.0.1-fasrc01
 module load cuda/9.0-fasrc02 cudnn/7.4.1.5_cuda9.0-fasrc01

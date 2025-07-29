@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=D_GPU
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=D_GPU
+#SBATCH --output=script_1.out
+#SBATCH --mail-user=neil.delgallego@dlsu.edu.ph
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --partition=gpu
+#SBATCH --qos=12c-1h_2gpu
 
 NETWORK_VERSION=$1
 ITERATION=$2

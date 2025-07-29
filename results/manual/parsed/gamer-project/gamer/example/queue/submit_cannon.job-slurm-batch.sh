@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-punk-2493
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=itc_gpu
-#FLUX: -t=190
-#FLUX: --urgency=16
+#SBATCH --output=gamer.out
+#SBATCH --error=gamer.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:03:10
+#SBATCH --partition=itc_gpu
 
 export OMP_NUM_THREADS='4'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

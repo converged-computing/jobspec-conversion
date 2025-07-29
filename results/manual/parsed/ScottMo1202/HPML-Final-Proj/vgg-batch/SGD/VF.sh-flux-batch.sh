@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=VF
-#FLUX: -c=24
-#FLUX: --queue=rtx8000
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=VF
+#FLUX -c=24
+#FLUX --queue=rtx8000
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2020.07

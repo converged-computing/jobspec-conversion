@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=irace_tuning2_10
-#FLUX: --queue=long
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=irace_tuning2_10
+#SBATCH --output=Results/res_irace_tuning2_10.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=long
 
 module load releases/2020b
 module load Python/3.8.6-GCCcore-10.2.0

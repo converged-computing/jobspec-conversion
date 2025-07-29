@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-earthworm-7739
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=../results/%x/slurm-%j.out
+#SBATCH --error=../results/%x/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export NCCL_DEBUG='INFO'
 

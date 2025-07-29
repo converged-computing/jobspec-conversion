@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Pytest
-#FLUX: -c=24
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Pytest
+#FLUX -c=24
+#FLUX --queue=debug
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export WANDB_DIR='/scratch/disc/p.templier/wandb_files'
 

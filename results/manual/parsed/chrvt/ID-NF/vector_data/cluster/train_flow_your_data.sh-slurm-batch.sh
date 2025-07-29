@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=My_data
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=My_data
+#SBATCH --mail-user=<horvat@pyl.unibe.ch>
+#SBATCH --mail-type=fail,end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:gtx1080ti:1
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=job_gpu
+#SBATCH --array=1-20
 
 cd /storage/homefs/ch19g182/Python/ID-NF/estimate_d
 nvcc --version

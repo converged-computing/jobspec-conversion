@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poo-9209
-#FLUX: --queue=dp-dam
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-punk-4157
+#FLUX --queue=dp-dam
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHON_EGG_CACHE='/p/project/joaiml/hpc_course/morris'
 

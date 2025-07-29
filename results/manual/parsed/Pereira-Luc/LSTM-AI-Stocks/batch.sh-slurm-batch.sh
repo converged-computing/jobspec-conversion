@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peanut-butter-7003
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=20
 
 module purge
 module load devel/protobuf-python/3.14.0-GCCcore-10.2.0 

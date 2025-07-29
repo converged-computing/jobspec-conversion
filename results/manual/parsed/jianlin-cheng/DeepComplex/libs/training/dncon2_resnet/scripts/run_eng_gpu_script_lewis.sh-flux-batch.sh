@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=VB3D-GPU
-#FLUX: -c=8
-#FLUX: --queue=gpu4
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=VB3D-GPU
+#FLUX -c=8
+#FLUX --queue=gpu4
+#FLUX -t=240
+#FLUX --urgency=16
 
 echo "### Starting at: $(date) ###"
 module load gcc/gcc-5.4.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=setup_singularity
-#FLUX: --queue=development
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=setup_singularity
+#FLUX --queue=development
+#FLUX -t=1200
+#FLUX --urgency=16
 
 cdw singularity
 ml tacc-singularity

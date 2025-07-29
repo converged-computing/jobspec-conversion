@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tap_jupyter
-#FLUX: -n=36
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=tap_jupyter
+#FLUX -n=36
+#FLUX --queue=development
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PATH='$PATH:$HOME/.local'
 

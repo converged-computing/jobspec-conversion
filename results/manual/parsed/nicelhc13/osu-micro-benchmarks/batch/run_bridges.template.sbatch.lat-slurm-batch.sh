@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=arid-peanut-7240
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=latency.2h2p.cpyonlyh2h.out
+#SBATCH --mail-user=hochan@utexas.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:4
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,exclusive
+#SBATCH --exclude=comet-33-15,comet-33-11
 
 export HFILE='`generate_pbs_nodefile`'
 export OMP_NUM_THREADS='1'

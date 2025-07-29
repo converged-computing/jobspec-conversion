@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Midterm Project
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Midterm Project
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=00:30:00
 
 module purge
 module load Python

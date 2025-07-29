@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-7581
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pot-6657
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

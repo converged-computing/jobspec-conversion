@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misTreat
-#FLUX: -n=160
-#FLUX: --queue=mpi
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=misTreat
+#FLUX -n=160
+#FLUX --queue=mpi
+#FLUX -t=432000
+#FLUX --urgency=16
 
 ulimit -l unlimited
 module load gcc/6.2.0 R/4.0.1

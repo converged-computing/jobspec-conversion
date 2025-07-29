@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hl_fine_tune
-#FLUX: -c=2
-#FLUX: --queue=t4v2,rtx6000,a40
-#FLUX: --urgency=16
+#SBATCH --job-name=hl_fine_tune
+#SBATCH --output=slurm_out/array_hl_fine_tune_slurm.%A_%a.out
+#SBATCH --error=slurm_out/array_hl_fine_tune_slurm.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=t4v2,rtx6000,a40
+#SBATCH --qos=normal
+#SBATCH --array=0,2,4
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

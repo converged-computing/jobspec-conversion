@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-motorcycle-9972
-#FLUX: --queue=dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-avocado-1814
+#FLUX --queue=dev_q
+#FLUX -t=300
+#FLUX --urgency=16
 
 module reset
 module load LAMMPS

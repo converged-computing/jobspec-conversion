@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-nalgas-5086
-#FLUX: -c=6
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-kitty-8635
+#FLUX -c=6
+#FLUX -t=720
+#FLUX --urgency=16
 
 module purge
 module load python/3.6.3

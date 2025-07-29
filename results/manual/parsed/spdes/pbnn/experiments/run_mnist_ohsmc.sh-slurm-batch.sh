@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-ricecake-6633
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=Berzelius-2023-194
+#SBATCH --output=./logs/mnist_ohsmc_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=10:00:00
+#SBATCH --constraint=fat
+#SBATCH --array=0-9
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

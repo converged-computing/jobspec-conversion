@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-noodle-1198
+#FLUX --job-name=placid-punk-3735
 #FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^openib,smcuda'

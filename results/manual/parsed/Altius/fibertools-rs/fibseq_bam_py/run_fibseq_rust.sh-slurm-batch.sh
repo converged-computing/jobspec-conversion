@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pastry-9068
-#FLUX: -c=32
-#FLUX: --queue=pool
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64G
+#SBATCH --partition=pool
 
   echo slurm node: $SLURMD_NODENAME , jobid: $SLURM_JOB_ID
   module load fiberseq-rs

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=friendly-sweep
-#FLUX: --queue=dept_gpu
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=friendly-sweep
+#SBATCH --output=../research/cluster/slurm/200307slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=dept_gpu
+#SBATCH --constraint=C6,ntasks-per-node=8
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch_conda_200307

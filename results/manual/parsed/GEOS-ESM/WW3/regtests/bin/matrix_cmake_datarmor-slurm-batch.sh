@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peas-2557
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/GEOS-ESM/WW3/regtests/bin/matrix_cmake_datarmor

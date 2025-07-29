@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MATLAB_ex
-#FLUX: --queue=ssd
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=MATLAB_ex
+#FLUX --queue=ssd
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load matlab
 mkdir -p $SCRATCH/$USER/$SLURM_JOB_ID

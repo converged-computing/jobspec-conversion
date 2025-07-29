@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-data-curator:gpu-deduplication
-#FLUX: -N=8
+#FLUX --job-name=nemo-data-curator:gpu-deduplication
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 base_dir=`pwd` # Assumes base dir is top-level dir of repo
 RUNSCRIPT=${RUNSCRIPT:-${base_dir}/examples/gpu_deduplication_example/run-minhash.sh}

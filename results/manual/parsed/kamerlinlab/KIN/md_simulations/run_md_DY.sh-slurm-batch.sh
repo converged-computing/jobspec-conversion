@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_SYSTEM
-#FLUX: --queue=hive-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN_SYSTEM
+#SBATCH --account=hive-skamerlin3
+#SBATCH --output=amber_test.out
+#SBATCH --mail-user=dyehorova3@gatech.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=hive-gpu
 
 module load gcc/10.3.0-o57x6h
 module load intel/20.0.4

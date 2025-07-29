@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=predict_crops
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=predict_crops
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/crops_%j.out
+#SBATCH --error=/home/b.weinstein/logs/crops_%j.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=30GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda3/envs/DeepTreeAttention_DeepForest/bin/:/home/b.weinstein/DeepTreeAttention/'
 export PYTHONPATH='/home/b.weinstein/miniconda3/envs/DeepTreeAttention_DeepForest/lib/python3.7/site-packages/:/home/b.weinstein/DeepTreeAttention/:${PYTHONPATH}'

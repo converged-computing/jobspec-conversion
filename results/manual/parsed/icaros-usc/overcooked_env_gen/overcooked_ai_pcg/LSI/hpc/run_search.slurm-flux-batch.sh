@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run-lsi-search
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=run-lsi-search
+#FLUX -c=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "========== SLURM JOB INFO =========="
 echo

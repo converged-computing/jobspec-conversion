@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=perWetFin
-#FLUX: -n=144
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=perWetFin
+#FLUX -n=144
+#FLUX -t=84600
+#FLUX --urgency=16
 
 module load git
 module load gcc/9.2.0

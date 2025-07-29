@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-toaster-4764
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 module use /ifs/opt_cuda/modulefiles
 module load gromacs/cuda11.2/2021.3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-hippo-4221
-#FLUX: -N=2
-#FLUX: --queue=nvgpu
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-citrus-5619
+#FLUX -N=2
+#FLUX --queue=nvgpu
+#FLUX --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MIMALLOC_EAGER_COMMIT_DELAY='0'

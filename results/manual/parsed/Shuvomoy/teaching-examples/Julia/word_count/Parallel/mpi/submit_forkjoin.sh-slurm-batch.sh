@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-train-3416
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=top5norm_forkjoin.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 source /etc/profile
 module load julia-latest

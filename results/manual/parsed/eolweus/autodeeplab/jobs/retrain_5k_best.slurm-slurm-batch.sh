@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=best_5k_retrain
-#FLUX: -c=10
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=best_5k_retrain
+#SBATCH --account=share-ie-idi
+#SBATCH --output=/cluster/home/erlingfo/autodeeplab/out/best_5k_retrain.out
+#SBATCH --mail-user=erlingfo@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=120G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=gpu80g|gpu40g,ntasks-per-node=1
 
 export PYTHONBUFFERED='1'
 

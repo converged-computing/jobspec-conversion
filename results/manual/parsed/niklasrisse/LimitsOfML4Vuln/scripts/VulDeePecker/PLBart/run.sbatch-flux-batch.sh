@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PT_GPU
-#FLUX: -c=4
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=PT_GPU
+#FLUX -c=4
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module purge
 module load anaconda/3/2021.11

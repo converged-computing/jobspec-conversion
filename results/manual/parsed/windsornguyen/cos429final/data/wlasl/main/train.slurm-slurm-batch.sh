@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=a2a
-#FLUX: -c=12
-#FLUX: --queue=pli
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=a2a
+#SBATCH --account=spectralssmtorch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:8
+#SBATCH --mem=640G
+#SBATCH --time=03:00:00
+#SBATCH --partition=pli
+#SBATCH --constraint=ntasks-per-node=8
 
 export WANDB_ENTITY='windsornguyen'
 export WANDB_API_KEY='17dce35b188763800b6e9a443a761a1e713d87ab'

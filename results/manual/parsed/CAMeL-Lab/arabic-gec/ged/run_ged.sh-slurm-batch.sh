@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cinnamonbun-9198
-#FLUX: --queue=nlp
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=1-23:59:00
+#SBATCH --partition=nlp
 
 export DATA_DIR='/home/ba63/gec-release/data/ged/qalb14/w_camelira/binary'
 export BERT_MODEL='/scratch/ba63/BERT_models/bert-base-arabic-camelbert-msa'

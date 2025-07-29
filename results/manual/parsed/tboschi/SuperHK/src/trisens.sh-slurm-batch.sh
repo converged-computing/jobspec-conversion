@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-muffin-7946
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 usage="
 usage: $0 -r <root> -d <sample> -1 <mh1> -2 <mh2> [-x] [<options>]

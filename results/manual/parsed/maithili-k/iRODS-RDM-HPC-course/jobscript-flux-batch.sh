@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-gato-5412
-#FLUX: --queue=short
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-mango-3675
+#FLUX --queue=short
+#FLUX -t=240
+#FLUX --urgency=16
 
 cd $HOME/iRODS-RDM-HPC-course
 rodscoll='/surfZone1/home/irods-user1/YOUR OUTPUT COLLECTION'

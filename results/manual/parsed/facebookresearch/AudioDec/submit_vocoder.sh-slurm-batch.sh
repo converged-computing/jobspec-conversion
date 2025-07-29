@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vctk_AD_v0
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=vctk_AD_v0
+#SBATCH --output=/mnt/home/slurmlogs/vctk/vocoder/AudioDec_v0_symAD_vctk_48000_hop300_clean.out
+#SBATCH --error=/mnt/home/slurmlogs/vctk/vocoder/AudioDec_v0_symAD_vctk_48000_hop300_clean.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=xxx
 
 autoencoder=autoencoder/symAD_vctk_48000_hop300
 tag_name="vocoder/AudioDec_v0_symAD_vctk_48000_hop300_clean"

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-squidward-7491
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_462000259
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=8
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=small-g
 
 export WANDB_MODE='offline'
 export HF_HOME='/scratch/project_462000259/jstillerman/hf_cache'

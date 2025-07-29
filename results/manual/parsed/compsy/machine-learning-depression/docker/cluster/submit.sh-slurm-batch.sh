@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=python_cpu
-#FLUX: -N=30
-#FLUX: -c=23
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=python_cpu
+#SBATCH --mail-user=peregrine@compsy.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=30
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=23
+#SBATCH --mem=8000
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export MPLBACKEND='agg'
 export OMP_NUM_THREADS='23'

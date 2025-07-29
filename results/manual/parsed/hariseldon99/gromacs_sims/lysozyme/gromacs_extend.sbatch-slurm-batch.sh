@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lysozyme-extend
-#FLUX: -n=24
-#FLUX: --queue=GPU
-#FLUX: -t=655200
-#FLUX: --urgency=16
+#SBATCH --job-name=lysozyme-extend
+#SBATCH --mail-user=telegram:5545394160
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=mps:20
+#SBATCH --time=7-14:00:00
+#SBATCH --partition=GPU
+#SBATCH --qos=elevated
 
 export SIFPATH='$SIFDIR/gromacs'
 export SIFIMG='gromacs-2022.3_20230206.sif'

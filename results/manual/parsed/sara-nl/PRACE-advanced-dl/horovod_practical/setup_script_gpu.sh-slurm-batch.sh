@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-egg-5574
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=gpu
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdisgpu"

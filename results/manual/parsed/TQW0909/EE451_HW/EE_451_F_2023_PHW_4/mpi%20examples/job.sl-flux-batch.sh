@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hippo-8276
-#FLUX: -n=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-pot-1382
+#FLUX -n=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 export UCX_TLS='sm,tcp,self'
 

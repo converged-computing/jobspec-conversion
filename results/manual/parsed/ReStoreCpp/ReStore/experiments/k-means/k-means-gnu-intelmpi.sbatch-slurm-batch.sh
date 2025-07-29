@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peanut-butter-7572
-#FLUX: -N=4
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=<CHANGE>
+#SBATCH --output=logs/%x.%j.out
+#SBATCH --mail-user=<CHANGE>
+#SBATCH --mail-type=END
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80000mb
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=48
 
 RUN_FT_ON=${RUN_FT_ON:-true}
 RUN_FT_OFF=${RUN_FT_OFF:-true}

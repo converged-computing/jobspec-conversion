@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=XLSum
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=XLSum
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -c=2
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NPROC_PER_NODE='2  '

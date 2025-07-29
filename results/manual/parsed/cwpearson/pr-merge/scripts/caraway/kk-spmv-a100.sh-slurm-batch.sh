@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hope-4782
-#FLUX: --queue=MI100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=kk-smpv-a100.o%j
+#SBATCH --error=kk-smpv-a100.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=MI100
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

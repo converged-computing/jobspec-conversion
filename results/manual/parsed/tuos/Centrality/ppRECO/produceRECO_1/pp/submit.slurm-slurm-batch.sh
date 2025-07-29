@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ppjb0
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ppjb0
+#SBATCH --output=jb0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=20:00:00
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 export X509_USER_PROXY='/home/tuos/x509up_u126986'

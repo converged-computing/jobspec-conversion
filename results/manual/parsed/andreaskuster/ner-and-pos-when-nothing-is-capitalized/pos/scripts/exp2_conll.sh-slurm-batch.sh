@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-muffin-9976
-#FLUX: -c=128
-#FLUX: --queue=amdv100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/users2/kustera/log/nlp_out_exp2_conll.txt
+#SBATCH --error=/users2/kustera/log/nlp_err_exp2_conll.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=500G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdv100
 
 module load python/3.7.2
 module load CMake

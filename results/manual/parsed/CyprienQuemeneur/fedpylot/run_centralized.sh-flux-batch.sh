@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leopard-0324
-#FLUX: -c=8
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-earthworm-0738
+#FLUX -c=8
+#FLUX -t=302400
+#FLUX --urgency=16
 
 nvidia-smi
 module purge

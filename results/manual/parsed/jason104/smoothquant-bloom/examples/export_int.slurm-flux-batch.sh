@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=export_int
-#FLUX: -c=32
-#FLUX: --queue=gp4d
-#FLUX: --urgency=16
+#FLUX --job-name=export_int
+#FLUX -c=32
+#FLUX --queue=gp4d
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='$CONDA_PREFIX'
 export HF_HOME='/work/twsuzrf718/hf_home'

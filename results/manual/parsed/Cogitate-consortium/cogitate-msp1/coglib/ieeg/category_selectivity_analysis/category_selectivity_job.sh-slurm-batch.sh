@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=category_selectivity
-#FLUX: -c=2
-#FLUX: --queue=octopus
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=category_selectivity
+#SBATCH --output=/mnt/beegfs/XNAT/COGITATE/ECoG/phase_2/processed/bids/derivatives/category_selectivity/slurm-%A_%a.out
+#SBATCH --mail-user=alex.lepauvre@ae.mpg.de
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=octopus
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/alexander.lepauvre/sw/github/ECoG'
 

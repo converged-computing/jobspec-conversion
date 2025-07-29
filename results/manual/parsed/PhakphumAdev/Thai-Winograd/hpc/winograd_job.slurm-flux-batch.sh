@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=winograd
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=winograd
+#FLUX --queue=n1s8-v100-1
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 cd /home/pa2497/Thai-Winograd

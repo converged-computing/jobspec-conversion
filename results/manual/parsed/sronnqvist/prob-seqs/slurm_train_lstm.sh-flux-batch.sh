@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peanut-3839
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=confused-leg-9444
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export DATA_DIR='data'
 export OUTPUT_DIR='output'

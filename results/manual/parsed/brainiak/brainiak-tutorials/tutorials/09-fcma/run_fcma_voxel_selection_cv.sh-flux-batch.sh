@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fcma_voxel_select_cv
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=fcma_voxel_select_cv
+#FLUX -n=2
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 

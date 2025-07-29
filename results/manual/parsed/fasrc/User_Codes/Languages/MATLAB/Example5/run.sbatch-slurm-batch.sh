@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=array_test_rnd
-#FLUX: --queue=test
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=array_test_rnd
+#SBATCH --output=array_test_rnd_%a.out
+#SBATCH --error=array_test_rnd_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:00:30
+#SBATCH --partition=test
+#SBATCH --array=1-3
 
 module load matlab
 iseed=$(($SLURM_ARRAY_JOB_ID+$SLURM_ARRAY_TASK_ID))

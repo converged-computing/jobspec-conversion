@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-truffle-2364
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-animal-7115
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load miniconda/4.11.0
 conda run -n cerys python3.8 hello_world.py

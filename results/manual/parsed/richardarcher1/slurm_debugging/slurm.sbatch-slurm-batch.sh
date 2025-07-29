@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia
-#FLUX: --queue=gpu
-#FLUX: -t=86700
-#FLUX: --urgency=16
+#SBATCH --job-name=nvidia
+#SBATCH --output=output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=12GB
+#SBATCH --time=1-00:05:00
+#SBATCH --partition=gpu
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo " "

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-pancake-6996
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=carney-ofeldman-condo
+#SBATCH --output=trust-pair-memorization-sr-sub_%a.out
+#SBATCH --mail-user=jae@brown.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1gb
+#SBATCH --time=00:30:00
+#SBATCH --array=1-30
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

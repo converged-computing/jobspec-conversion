@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pyt_roll
-#FLUX: --queue=rtx
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=pyt_roll
+#FLUX --queue=rtx
+#FLUX -t=54000
+#FLUX --urgency=16
 
 set -e
 cd ..

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Cross-Fusion
+#FLUX --job-name=Cross-Fusion
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='hsn'
 export NCCL_NET_GDR_LEVEL='3'

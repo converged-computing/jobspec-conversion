@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rmaddpg
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --job-name=rmaddpg
+#SBATCH --output=rmaddpg_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --array=0-1
 
 source /etc/profile
 module load anaconda/2022a

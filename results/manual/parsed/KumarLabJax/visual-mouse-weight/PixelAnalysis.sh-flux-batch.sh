@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pixel_analysis
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#FLUX --job-name=pixel_analysis
+#FLUX -c=4
+#FLUX -t=21600
+#FLUX --urgency=15
 
 trim_sp() {
     local var="$*"

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --account=ajs@a100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=a100
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0
 conda activate bigcode

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chip-1482
-#FLUX: --queue=ROME
-#FLUX: -t=532800
-#FLUX: --urgency=16
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=6-04:00:00
+#SBATCH --partition=ROME
+#SBATCH --constraint=ntasks-per-node=128
 
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/etc/bashrc
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/user/bashrc

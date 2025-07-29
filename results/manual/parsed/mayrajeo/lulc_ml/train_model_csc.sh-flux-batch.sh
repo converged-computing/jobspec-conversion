@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LULC_UNET_training
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=LULC_UNET_training
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo "$(date)"
 module purge

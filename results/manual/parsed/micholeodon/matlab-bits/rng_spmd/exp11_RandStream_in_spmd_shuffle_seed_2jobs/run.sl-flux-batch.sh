@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RNG_TEST
-#FLUX: --queue=small
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=RNG_TEST
+#FLUX --queue=small
+#FLUX -t=180
+#FLUX --urgency=16
 
 folder=`pwd`
 tstamp=`date +%d-%m-%Y_%H%M`

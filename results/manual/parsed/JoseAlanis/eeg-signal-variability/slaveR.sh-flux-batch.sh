@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-4396
-#FLUX: -c=14
-#FLUX: --queue=parallel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-chair-1237
+#FLUX -c=14
+#FLUX --queue=parallel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge # ensures vanilla environment
 module load lang/R # will load most current version of R

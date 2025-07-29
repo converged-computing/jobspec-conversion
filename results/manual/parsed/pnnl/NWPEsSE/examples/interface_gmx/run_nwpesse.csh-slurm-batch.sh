@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nwps
-#FLUX: -t=14379
-#FLUX: --urgency=16
+#SBATCH --job-name=nwps
+#SBATCH --account=emslc51753
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:59:39
 
 date
 source /etc/profile.d/modules.sh

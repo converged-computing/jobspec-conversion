@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alphafold_ATPase
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=alphafold_ATPase
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load apptainer

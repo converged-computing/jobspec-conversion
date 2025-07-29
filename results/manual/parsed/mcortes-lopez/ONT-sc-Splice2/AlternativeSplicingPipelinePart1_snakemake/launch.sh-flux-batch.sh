@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=5
-#FLUX: --queue=pe2
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -c=5
+#FLUX --queue=pe2
+#FLUX --urgency=16
 
 module load java/1.9
 module load samtools

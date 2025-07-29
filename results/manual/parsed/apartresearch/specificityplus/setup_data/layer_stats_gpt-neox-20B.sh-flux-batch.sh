@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-egg-6145
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=hello-peas-9964
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MODEL='gpt-neox-20b'
 export PYTHONPATH='/home/${USER}/git/memitpp:${PYTHONPATH}'

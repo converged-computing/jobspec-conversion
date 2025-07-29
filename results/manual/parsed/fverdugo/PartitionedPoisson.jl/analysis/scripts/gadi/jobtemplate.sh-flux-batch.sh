@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-gato-0453
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-punk-1799
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fverdugo/PartitionedPoisson.jl/analysis/scripts/gadi/jobtemplate.sh

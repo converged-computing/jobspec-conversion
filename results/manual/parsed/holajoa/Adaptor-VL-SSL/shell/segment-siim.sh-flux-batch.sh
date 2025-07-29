@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-earthworm-1621
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-house-6838
+#FLUX --urgency=16
 
 export PATH='/vol/bitbucket/jq619/idv/bin/:$PATH'
 export WANDB_DIR='/vol/bitbucket/jq619/'

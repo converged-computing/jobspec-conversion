@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=uncertainty
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#FLUX --job-name=uncertainty
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX --urgency=16
 
 date;hostname;pwd
 source activate dal-toolbox

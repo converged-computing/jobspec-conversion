@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=testdlrm
-#FLUX: -n=8
-#FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=testdlrm
+#SBATCH --output=/private/home/hongzhang/tmp/dlrm/output-%j
+#SBATCH --error=/private/home/hongzhang/tmp/dlrm/error-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:8
+#SBATCH --mem-per-cpu=60GB
+#SBATCH --time=00:40:00
+#SBATCH: --exclusive
+#SBATCH --constraint=volta32gb
 
 echo $SLURM_NODELIST
 echo $SLURM_NODELIST > hostfile1

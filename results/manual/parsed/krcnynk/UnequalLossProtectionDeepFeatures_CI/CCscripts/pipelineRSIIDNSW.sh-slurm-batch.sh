@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-underoos-5976
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-ibajic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-11
 
 module restore uneq
 cd ..

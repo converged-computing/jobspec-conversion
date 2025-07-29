@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-platanos-4858
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-squidward-4431
+#FLUX -N=2
+#FLUX --queue=parallel
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load intel lammps

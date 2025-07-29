@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ehreact
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ehreact
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TMPDIR='${LOCAL_SCRATCH}'
 

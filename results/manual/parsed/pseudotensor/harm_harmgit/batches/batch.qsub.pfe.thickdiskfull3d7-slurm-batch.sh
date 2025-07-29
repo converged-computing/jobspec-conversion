@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pedo-7220
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pseudotensor/harm_harmgit/batches/batch.qsub.pfe.thickdiskfull3d7

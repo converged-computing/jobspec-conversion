@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-1794
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=cluster_behavior_full_zebrafish_behavior-%A_%a.out
+#SBATCH --error=cluster_behavior_full_zebrafish_behavior-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=35G
+#SBATCH --time=12:00:00
 
 dataset_path=$1
 fish=$2

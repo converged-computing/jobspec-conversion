@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LED_BB_LED3SCORE_CHEMBL_200K
-#FLUX: --queue=amd-short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=LED_BB_LED3SCORE_CHEMBL_200K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=amd-short
+#SBATCH --array=0-9999
 
 ROW_INDEX=$((SLURM_ARRAY_TASK_ID))
 echo "Running example $ROW_INDEX"

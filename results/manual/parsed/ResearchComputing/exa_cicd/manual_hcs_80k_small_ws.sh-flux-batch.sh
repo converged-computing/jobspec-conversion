@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cat-8069
+#FLUX --job-name=expensive-banana-1591
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=casp_nb
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=casp_nb
+#SBATCH --account=NAML0001
+#SBATCH --output=tau_nn.o
+#SBATCH --error=tau_nn.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=128G
+#SBATCH --time=23:00:00
 
 export PATH='/glade/u/home/ggantos/ncar_20200417/bin:$PATH'
 

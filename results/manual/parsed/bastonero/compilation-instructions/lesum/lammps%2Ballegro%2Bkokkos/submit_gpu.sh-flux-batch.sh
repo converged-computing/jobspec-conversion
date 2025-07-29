@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TEST
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=TEST
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export LAMMPS_BIN='/home1/bastonero/builds/lammps/builds/stable_2Aug2023_update3/kokkos-gpu-ompi-cuda-12.1-gcc-12-libtorch-1.11.0/bin/'
 export PATH='$LAMMPS_BIN:$PATH'

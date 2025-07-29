@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sequential_job
-#FLUX: -c=2
-#FLUX: --queue=quicktest
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=sequential_job
+#FLUX -c=2
+#FLUX --queue=quicktest
+#FLUX -t=1800
+#FLUX --urgency=16
 
 shopt -s nullglob
 FILES=()

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-parrot-6774
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=blue-parsnip-2900
+#FLUX -c=8
+#FLUX --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

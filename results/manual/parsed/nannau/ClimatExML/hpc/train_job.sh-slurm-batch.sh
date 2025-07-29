@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fat-soup-3275
-#FLUX: -c=6
-#FLUX: -t=432960
-#FLUX: --urgency=16
+#SBATCH --account=def-acannon
+#SBATCH --output=log_lightning_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32G
+#SBATCH --time=5-00:16:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export PROJECT_DIR='$SLURM_TMPDIR # code uses project dir as base.'
 export DATA_DIR='$SLURM_TMPDIR/data'

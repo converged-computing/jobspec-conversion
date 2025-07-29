@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sncell-pipeline
-#FLUX: --queue=fast
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sncell-pipeline
+#SBATCH --output=sncell-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=fast
+#SBATCH --constraint=ntasks-per-node=1
 
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)

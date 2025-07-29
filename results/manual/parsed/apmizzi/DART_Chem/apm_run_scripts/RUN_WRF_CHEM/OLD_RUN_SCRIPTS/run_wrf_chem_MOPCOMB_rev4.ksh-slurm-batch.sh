@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lentil-5733
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/apmizzi/DART_Chem/apm_run_scripts/RUN_WRF_CHEM/OLD_RUN_SCRIPTS/run_wrf_chem_MOPCOMB_rev4.ksh

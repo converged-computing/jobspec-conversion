@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=QSDR_reconstruction_single_sub
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=QSDR_reconstruction_single_sub
+#FLUX --queue=short
+#FLUX -t=14400
+#FLUX --urgency=16
 
 param0="1.25"
 record_odf="1"

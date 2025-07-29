@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=3.5_Cl_ace_parsley_PMF_biotin
-#FLUX: -c=6
-#FLUX: --queue=gpu-biggin4,
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=3.5_Cl_ace_parsley_PMF_biotin
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=gpu-biggin4,
+#SBATCH --constraint=ntasks-per-socket=1
+#SBATCH --array=0-25:1%6
 
 export OMP_NUM_THREADS='${​​​​SLURM_CPUS_PER_TASK}'
 

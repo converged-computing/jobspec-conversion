@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pi_acc
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=pi_acc
+#SBATCH --account=project_46
+#SBATCH --output=test.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
 
 export ALLINEA_STOP_AT_MAIN='1'
 

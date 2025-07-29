@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=17336907_4RN
-#FLUX: --queue=normal
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#FLUX --job-name=17336907_4RN
+#FLUX --queue=normal
+#FLUX -t=37800
+#FLUX --urgency=16
 
 module add clustername/singularity/3.4.1
 singularity exec -B /om:/om --nv path_to_singularity-tensorflow2.simg \

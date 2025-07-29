@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leader-0236
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-plant-2173
+#FLUX -n=4
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia-latest

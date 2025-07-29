@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=XXX
-#FLUX: -t=532800
-#FLUX: --urgency=16
+#SBATCH --job-name=XXX
+#SBATCH --account=XXXXX
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=6-04:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 ```
 module load rcac

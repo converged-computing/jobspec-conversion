@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pot-7976
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --account=anakano_429
+#SBATCH --output=mpi333.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=2
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

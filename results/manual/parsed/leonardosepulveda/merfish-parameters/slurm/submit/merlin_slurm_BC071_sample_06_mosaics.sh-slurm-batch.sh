@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-carrot-8626
-#FLUX: --queue=zhuang,shared
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=/n/home06/lsepulvedaduran/Software/merfish-parameters/slurm/out/BC071_sample_06_mosaics.out
+#SBATCH --error=/n/home06/lsepulvedaduran/Software/merfish-parameters/slurm/err/BC071_sample_06_mosaics.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=zhuang,shared
 
 date +'Starting at %R.'
 source centos7-modules.sh

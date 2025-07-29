@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BAR_repeat_libraries
-#FLUX: -c=18
-#FLUX: --queue=parallel
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=BAR_repeat_libraries
+#FLUX -c=18
+#FLUX --queue=parallel
+#FLUX -t=432000
+#FLUX --urgency=16
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/BAR/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

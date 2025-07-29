@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pastry-1126
-#FLUX: --queue=gpu-L
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-hobbit-0756
+#FLUX --queue=gpu-L
+#FLUX --urgency=16
 
 d=$(date)
 echo $d nvidia-smi

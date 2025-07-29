@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PEARLIntelE2E
-#FLUX: --urgency=16
+#SBATCH --job-name=PEARLIntelE2E
+#SBATCH --output=e2e-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
 
 export SINGULARITYENV_PYTHONPATH='/work'
 

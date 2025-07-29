@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-muffin-2552
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=32G
+#SBATCH --time=00:20:00
 
 export LD_LIBRARY_PATH='$CUDA_HOME/lib64:$LD_LIBRARY_PATH'
 

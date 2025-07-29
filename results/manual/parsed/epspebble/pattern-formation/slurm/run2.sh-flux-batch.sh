@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lemon-2970
-#FLUX: -c=4
-#FLUX: -t=20
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-poo-4869
+#FLUX -c=4
+#FLUX -t=20
+#FLUX --urgency=16
 
 module load matlab
 cd ~/project/pattern-formation/zebrafish

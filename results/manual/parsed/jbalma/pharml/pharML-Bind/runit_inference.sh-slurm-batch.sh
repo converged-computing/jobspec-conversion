@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pharml-bind
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=spider
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=pharml-bind
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=spider
+#SBATCH: --exclusive
+#SBATCH --constraint=V100
+#SBATCH --exclude=spider-0012,spider-0013,spider-0002
 
 export PATH='${INSTALL_DIR}/bin:${PATH} #/home/users/${USER}/.local/bin:${PATH}'
 export CMAKE_CXX_COMPILER='$MPI_CXX'

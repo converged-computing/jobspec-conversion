@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=circlemap_9
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=CPU-Small
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=circlemap_9
+#SBATCH --output=log/circlemap_9_%j.log
+#SBATCH --error=log/circlemap_9_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=CPU-Small
+#SBATCH --qos=scpujoblimit
 
 echo Running on $SBATCH_PARTITION paratation
 echo Time is `date`

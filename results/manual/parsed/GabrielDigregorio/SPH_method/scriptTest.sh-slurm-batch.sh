@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Test_dam
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#SBATCH --job-name=Test_dam
+#SBATCH --output=TEST.txt
+#SBATCH --mail-user=sbrialmont@student.ulg.ac.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=400
+#SBATCH --time=01:40:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK '
 

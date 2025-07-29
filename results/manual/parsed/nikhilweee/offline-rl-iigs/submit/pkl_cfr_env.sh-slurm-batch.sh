@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pkl_cfr_env
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pkl_cfr_env
+#SBATCH --output=logs/%A_%a_%x.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32GB
+#SBATCH --time=02:00:00
+#SBATCH --array=0,1,2,3,4
+#SBATCH --nodelist=*gr*
 
 echo "Starting SLURM Script"
 nums=("000" "010" "025" "050" "100")

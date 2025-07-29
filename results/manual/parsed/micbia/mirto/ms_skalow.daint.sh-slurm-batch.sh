@@ -1,7 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ms
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=ms
+#SBATCH --account=sk014
+#SBATCH --output=./logs/karabo-%A.%j.out
+#SBATCH --error=./logs/karabo-%A.%j.err
+#SBATCH --mail-user=michele.bianco@epfl.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=02:30:00
+#SBATCH --constraint=ntasks-per-node=1,gpu
+#SBATCH --array=0-150
 
 module load daint-gpu
 module load gcc/9.3.0

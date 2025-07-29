@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cnn-extr_rnd_seed
-#FLUX: --queue=plgrid-testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cnn-extr_rnd_seed
+#FLUX --queue=plgrid-testing
+#FLUX -t=3600
+#FLUX --urgency=16
 
 TSTAMP=$(date '+%m%d')
 PROJECT=PROCESS_UC1

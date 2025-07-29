@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=raxml_900_ws_PW
-#FLUX: --queue=Pisces
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=raxml_900_ws_PW
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=375gb
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=Pisces
+#SBATCH --constraint=ntasks-per-node=6
 
 echo "======================================================"
 echo "Start Time  : $(date)"

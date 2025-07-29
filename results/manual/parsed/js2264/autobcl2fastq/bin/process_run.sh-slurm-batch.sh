@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-egg-3274
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=48G
+#SBATCH --qos=fast
 
 module purge
 module load bcl2fastq/2.20.0

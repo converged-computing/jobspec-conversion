@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-punk-3269
-#FLUX: -n=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --mail-user=dheerajreddy.p@students.iiit.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=3-00:00:00
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

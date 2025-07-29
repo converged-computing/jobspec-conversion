@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iota_ps2cctbx
-#FLUX: -N=3072
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=iota_ps2cctbx
+#FLUX -N=3072
+#FLUX -t=7200
+#FLUX --urgency=16
 
 NODES=3072
 NUM_RANKS=$((NODES*68))

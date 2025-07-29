@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-onion-4553
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=milky-bicycle-0611
+#FLUX -N=4
+#FLUX -n=64
+#FLUX -t=1800
+#FLUX --urgency=16
 
 IOR="$HOME/src/iopup/src/ior/bin.muller/ior"
 SEGMENTS=256

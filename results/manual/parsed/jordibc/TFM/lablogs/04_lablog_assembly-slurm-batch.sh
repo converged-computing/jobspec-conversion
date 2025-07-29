@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=metaspades
-#FLUX: -c=15
-#FLUX: --queue=bigmem,long
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=metaspades
+#SBATCH --output=logs/metaspades-%a.%A.out
+#SBATCH --error=logs/metaspades-%a.%A.err
+#SBATCH --mail-user=luciamartinfernandez99@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=15
+#SBATCH --mem=150GB
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=bigmem,long
+#SBATCH --array=0-116
 
 ml SPAdes/3.15.2-GCC-8.2.0-2.31.1
 module load MEGAHIT/1.2.8-GCCcore-8.2.0 

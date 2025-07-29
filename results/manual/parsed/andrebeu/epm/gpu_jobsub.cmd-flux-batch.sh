@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-6428
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-underoos-4463
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 printf "\n\n\n --ntasks-per-node=1 -c=8 ntasks-per-socket=4 \n\n\n"
 CELLSIZE=${1}

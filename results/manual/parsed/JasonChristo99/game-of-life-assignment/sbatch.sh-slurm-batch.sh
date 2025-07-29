@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=game_of_life
-#FLUX: -n=128
-#FLUX: --queue=thin_course
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=game_of_life
+#SBATCH --output=gol_%j.out
+#SBATCH --error=gol_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=thin_course
 
 module purge
 module load 2023

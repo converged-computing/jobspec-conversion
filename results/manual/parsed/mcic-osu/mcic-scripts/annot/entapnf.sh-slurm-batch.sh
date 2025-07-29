@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=entapnf
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=entapnf
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-entapnf-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=5-00:00:00
 
 Print_help() {
     echo

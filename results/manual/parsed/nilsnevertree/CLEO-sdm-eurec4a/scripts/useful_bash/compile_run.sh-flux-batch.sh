@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_cleocoupledsdm
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=run_cleocoupledsdm
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

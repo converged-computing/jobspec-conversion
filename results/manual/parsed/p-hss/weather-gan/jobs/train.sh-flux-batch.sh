@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=weather-gan
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=weather-gan
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load singularity
 source /p/system/packages/spack/share/spack/setup-env.sh

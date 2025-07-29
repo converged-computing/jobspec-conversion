@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-1021
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 gitdir=~/dpm
 srcdir=$gitdir/src

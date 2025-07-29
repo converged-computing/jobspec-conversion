@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llmcompr
-#FLUX: -c=8
-#FLUX: --queue=ais-gpu
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=llmcompr
+#FLUX -c=8
+#FLUX --queue=ais-gpu
+#FLUX -t=240
+#FLUX --urgency=16
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/compression.sif bash -c '
     ls;

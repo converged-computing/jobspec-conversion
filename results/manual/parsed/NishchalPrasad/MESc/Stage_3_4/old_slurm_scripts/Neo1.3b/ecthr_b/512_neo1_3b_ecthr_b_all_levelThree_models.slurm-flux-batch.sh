@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=512_GPT-Neo_1.3b_ecthr_b
-#FLUX: -c=32
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=512_GPT-Neo_1.3b_ecthr_b
+#FLUX -c=32
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load cpuarch/amd

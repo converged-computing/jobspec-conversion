@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chair-8916
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/xiexbing/decentralized-learning-framework/dl_code/job.lsf

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CJH_Match_Test
-#FLUX: -c=12
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=CJH_Match_Test
+#SBATCH --account=nesi00228
+#SBATCH --output=matchout_%a.txt
+#SBATCH --error=matcherr_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=7500
+#SBATCH --time=03:00:00
+#SBATCH --array=0-1
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

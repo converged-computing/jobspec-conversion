@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hmmalign
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hmmalign
+#SBATCH --output=logs/hmmaln.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
 
 OUTPEPEXT=aa.fa
 RESOVERLAP=0.70

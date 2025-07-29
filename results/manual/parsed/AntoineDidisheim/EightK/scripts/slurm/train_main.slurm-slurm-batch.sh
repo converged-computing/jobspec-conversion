@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=train_new_
-#FLUX: -c=8
-#FLUX: --queue=bigmem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_new_
+#SBATCH --account=punim2039
+#SBATCH --output=/home/adidishe/EightK/out/train_new_%a.out
+#SBATCH --error=/home/adidishe/EightK/out/train_new_%a.err
+#SBATCH --mail-user=antoine.didisheim@unimelb.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=94G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=bigmem
+#SBATCH --chdir=/home/adidishe/EightK
+#SBATCH --array=0-131
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

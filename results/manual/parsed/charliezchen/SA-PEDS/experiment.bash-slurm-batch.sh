@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_cpu_job
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=run_cpu_job
+#SBATCH --output=log_larger_noise/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=60GB
+#SBATCH --time=01:00:00
 
 mlist=(1 2 4 8 16 32 64 128)
 test=("Ackley")

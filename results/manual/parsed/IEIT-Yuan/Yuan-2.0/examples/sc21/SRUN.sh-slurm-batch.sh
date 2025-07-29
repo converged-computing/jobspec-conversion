@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-0117
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 THIS_DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

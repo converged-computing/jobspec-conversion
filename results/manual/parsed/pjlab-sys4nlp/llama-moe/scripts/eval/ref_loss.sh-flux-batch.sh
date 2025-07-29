@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_ref_loss
-#FLUX: -c=16
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=eval_ref_loss
+#FLUX -c=16
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

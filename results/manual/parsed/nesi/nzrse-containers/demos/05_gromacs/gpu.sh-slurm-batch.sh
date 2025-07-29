@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1G
+#SBATCH --time=00:15:00
 
 export SLURM_EXPORT_ENV='ALL'
 export SINGULARITYENV_LD_LIBRARY_PATH='${OLD_PATH}:${LD_LIBRARY_PATH}'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rnaseq
-#FLUX: -c=48
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=rnaseq
+#SBATCH --output=rnaseq_F_%j.out
+#SBATCH --error=rnaseq_F_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=10:00:00
 
 cat $0
 module load Nextflow/23.10.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TDG_SNEE
-#FLUX: -c=10
-#FLUX: --queue=sugon
-#FLUX: --urgency=16
+#FLUX --job-name=TDG_SNEE
+#FLUX -c=10
+#FLUX --queue=sugon
+#FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python TC_preprocess.py
 CUDA_VISIBLE_DEVICES=0,1 python TC/run_bert.py --do_data 

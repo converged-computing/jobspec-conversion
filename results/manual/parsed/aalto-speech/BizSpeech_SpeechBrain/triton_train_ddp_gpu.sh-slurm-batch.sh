@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=biz_ddp
-#FLUX: -c=4
-#FLUX: --queue=gpu-nvlink
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=biz_ddp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=80GB
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu-nvlink
 
 MONITORING_INTERVAL=120
 MONITORING_FILE=slurm-${SLURM_JOB_ID}.out

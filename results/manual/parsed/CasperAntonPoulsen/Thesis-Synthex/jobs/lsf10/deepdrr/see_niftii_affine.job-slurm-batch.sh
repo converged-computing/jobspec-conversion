@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cherry-1164
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/deepdrr/see_niftii_affine.job

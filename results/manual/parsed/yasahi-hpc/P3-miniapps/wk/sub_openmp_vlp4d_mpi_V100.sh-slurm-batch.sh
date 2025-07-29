@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-carrot-6956
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/yasahi-hpc/P3-miniapps/wk/sub_openmp_vlp4d_mpi_V100.sh

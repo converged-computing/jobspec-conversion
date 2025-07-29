@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RNAseq
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=RNAseq
+#SBATCH --mail-user=jennifer.semple@izb.unibe.ch
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
+#SBATCH --array=1-82%12
 
 source $CONDA_ACTIVATE RNAseq
 echo "current date"

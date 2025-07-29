@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chip-6252
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=g34
+#SBATCH --output=interleave6.txt
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export MASTER_ADDR='$(hostname)'
 export NSYS_NODE_INTERVAL='$((ngpus/stages))'

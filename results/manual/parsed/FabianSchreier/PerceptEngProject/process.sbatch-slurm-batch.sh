@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PEP-P
-#FLUX: -c=24
-#FLUX: --queue=day
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PEP-P
+#SBATCH --output=logs/process.out.%J
+#SBATCH --error=logs/process.err.%J
+#SBATCH --mail-user=fabian.schreier@student.uni-tuebingen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:0
+#SBATCH --mem=3G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=day
 
 error=0
 if [ -z "$1" ]

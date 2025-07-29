@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SIR
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=SIR
+#SBATCH --output=/user/work/dw16200/project/misspecification/rnpe/results/logs/%x_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-1000
 
 module load lang/python/miniconda/3.9.7
 module load lang/gcc/9.3.0

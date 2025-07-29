@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cherry-1564
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-car-6125
+#FLUX --urgency=16
 
 threads=$(nproc --all --ignore=1)
 mem="128"

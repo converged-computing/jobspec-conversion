@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chair-6840
-#FLUX: -n=20
-#FLUX: --exclusive
-#FLUX: --queue=sapphire
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=UKAEA-AP001-CPU
+#SBATCH --output=out_%j_%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=sapphire
+#SBATCH: --exclusive
 
 . /etc/profile.d/modules.sh  
 function load_modules() {

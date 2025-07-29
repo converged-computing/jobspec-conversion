@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cleaning
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cleaning
+#SBATCH --account=rrg-rgmelko-ab
+#SBATCH --output=cleaning.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15GB
+#SBATCH --time=12:00:00
 
 export OMP_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

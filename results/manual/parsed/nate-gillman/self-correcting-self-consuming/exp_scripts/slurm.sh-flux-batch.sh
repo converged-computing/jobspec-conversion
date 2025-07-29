@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cinnamonbun-6695
-#FLUX: --queue=3090-gcondo
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-destiny-7063
+#FLUX --queue=3090-gcondo
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

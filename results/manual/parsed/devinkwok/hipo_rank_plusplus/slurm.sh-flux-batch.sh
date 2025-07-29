@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cinnamonbun-3945
-#FLUX: -c=2
-#FLUX: --queue=unkillable
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-cattywampus-0623
+#FLUX -c=2
+#FLUX --queue=unkillable
+#FLUX -t=86400
+#FLUX --urgency=16
 
 SRC_DIR=$HOME/proj/hiporank_plusplus
 module load python/3.7

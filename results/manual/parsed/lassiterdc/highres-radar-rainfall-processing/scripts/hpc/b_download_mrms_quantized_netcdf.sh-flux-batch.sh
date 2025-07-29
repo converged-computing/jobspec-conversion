@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hobbit-6049
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-motorcycle-2830
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source __utils.sh
 source __directories.sh

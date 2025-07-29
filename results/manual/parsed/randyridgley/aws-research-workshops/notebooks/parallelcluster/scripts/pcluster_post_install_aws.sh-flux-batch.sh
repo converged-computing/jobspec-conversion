@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: --queue=q1
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=2
+#FLUX --queue=q1
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/lib'
 

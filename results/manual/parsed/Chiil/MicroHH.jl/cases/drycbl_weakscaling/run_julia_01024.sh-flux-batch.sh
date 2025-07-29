@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-5070
-#FLUX: -N=8
-#FLUX: -c=4
+#FLUX --job-name=frigid-muffin-9962
+#FLUX -N=8
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load 2021
 module load foss/2021a

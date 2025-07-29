@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-dog-7166
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-pastry-9765
+#FLUX -t=1200
+#FLUX --urgency=16
 
 folder="CNN-LSTM_IMDB/"
 out_folder="results/sse"

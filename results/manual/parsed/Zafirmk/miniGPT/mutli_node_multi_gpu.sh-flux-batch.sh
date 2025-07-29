@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=multi_node_multi_gpu
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: --gpus-per-task=4
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=multi_node_multi_gpu
+#FLUX -N=4
+#FLUX -c=4
+#FLUX --gpus-per-task=4
+#FLUX -t=216000
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export TORCH_NCCL_BLOCKING_WAIT='1'

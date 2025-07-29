@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=profiling
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=profiling
+#SBATCH --account=g34
+#SBATCH --output=/dev/null
+#SBATCH --error=/dev/null
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 command="$1"
 module load cuda/12.1.1 cmake/3.21.3 gcc/10.2.0

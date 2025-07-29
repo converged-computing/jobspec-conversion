@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cat-9180
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-lettuce-0576
+#FLUX --urgency=16
 
 if [ $# -lt 1 ]; then
   echo "Usage: $0 <config>"

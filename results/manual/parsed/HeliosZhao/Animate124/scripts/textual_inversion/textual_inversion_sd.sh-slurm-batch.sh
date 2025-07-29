@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dreamfusion
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=dreamfusion
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=30G
+#SBATCH --time=09:00:00
+#SBATCH --array=0
 
 MODEL_NAME="checkpoints/stable-diffusion-v1-5" # "path-to-pretrained-model" runwayml/stable-diffusion-v1-5
 DATA_DIR="data/$2/image.jpg" # "path-to-dir-containing-your-image"

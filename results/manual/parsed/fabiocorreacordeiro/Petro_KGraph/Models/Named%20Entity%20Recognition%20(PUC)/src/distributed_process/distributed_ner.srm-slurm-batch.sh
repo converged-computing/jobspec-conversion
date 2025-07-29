@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=m_dist
-#FLUX: -n=4
-#FLUX: --queue=ict_gpu
-#FLUX: -t=919200
-#FLUX: --urgency=16
+#SBATCH --job-name=m_dist
+#SBATCH --account=bigoilict
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-15:20:00
+#SBATCH --partition=ict_gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-rabbit-2306
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-peanut-4059
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/naumenko-sa/cre/bcbio.array.pbs

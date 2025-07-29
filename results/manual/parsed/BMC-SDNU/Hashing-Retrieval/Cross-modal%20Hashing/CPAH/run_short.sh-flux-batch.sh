@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cpah
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gpu_short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cpah
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=gpu_short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Loading venv..."
 source /home/users/m/mikriukov/venvs/DADH/bin/activate

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=c5n-intel-lj
-#FLUX: -n=1152
-#FLUX: --queue=c5n-od
-#FLUX: --urgency=16
+#SBATCH --job-name=c5n-intel-lj
+#SBATCH --output=/fsx/performance/%x_%j.out
+#SBATCH --error=/fsx/performance/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1152
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c5n-od
 
 export I_MPI_OFI_LIBRARY_INTERNAL='0'
 export I_MPI_OFI_PROVIDER='efa'

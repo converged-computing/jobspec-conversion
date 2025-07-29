@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=3c286
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=3c286
+#SBATCH --account=OD-217087
+#SBATCH --output=/scratch3/projects/spiceracs/askap_pol_testing/52087_cal/logs/3c286_%j.log
+#SBATCH --error=/scratch3/projects/spiceracs/askap_pol_testing/52087_cal/logs/3c286_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=48GB
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=express
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export APIURL='http://stokes.it.csiro.au:4200/api'

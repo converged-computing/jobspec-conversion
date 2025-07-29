@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mvpfd_simpleae_color
-#FLUX: --queue=ampere
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=mvpfd_simpleae_color
+#FLUX --queue=ampere
+#FLUX -t=86399
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

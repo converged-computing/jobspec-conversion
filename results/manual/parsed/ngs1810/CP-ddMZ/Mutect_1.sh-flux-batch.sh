@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Mutect2
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Mutect2
+#FLUX -n=2
+#FLUX --queue=batch
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load Java/1.8.0_121
 module load GATK/4.0.0.0-Java-1.8.0_121

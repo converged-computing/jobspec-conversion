@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cherry-8331
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-lentil-0883
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate dassl

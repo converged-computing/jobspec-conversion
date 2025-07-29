@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-motorcycle-2649
-#FLUX: -N=24
-#FLUX: -t=51000
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/r/rbond/omard/CORI17112020/mpioutput/mpi_output_%j.txt
+#SBATCH --nodes=24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=14:10:00
+#SBATCH --constraint=ntasks-per-node=40
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

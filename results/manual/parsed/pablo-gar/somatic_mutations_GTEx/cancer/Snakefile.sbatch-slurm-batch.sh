@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=s_cancer
-#FLUX: --queue=hbfraser,hns,normal,owners
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=s_cancer
+#SBATCH --output=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_cancer.out
+#SBATCH --error=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_cancer.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hbfraser,hns,normal,owners
 
 module load anaconda3
 source activate fraserconda

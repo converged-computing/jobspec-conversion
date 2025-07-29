@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-buttface-5938
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-33-20
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=alvis
 
 data_set="data_"$1".npz"
 classifier=$1

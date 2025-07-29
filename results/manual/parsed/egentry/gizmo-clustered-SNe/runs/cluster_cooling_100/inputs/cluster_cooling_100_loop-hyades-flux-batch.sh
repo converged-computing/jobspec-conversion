@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-2565
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lettuce-1428
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/egentry/gizmo-clustered-SNe/runs/cluster_cooling_100/inputs/cluster_cooling_100_loop-hyades

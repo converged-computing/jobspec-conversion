@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hobbit-3611
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=00:01:00
+#SBATCH --constraint=ntasks-per-node=2,rhel8
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CUDNN_ROOT/lib64:$CUDA_HOME/lib64:/lustre/ssingh37/Acads/CMSC818x/nccl/build/lib'
 

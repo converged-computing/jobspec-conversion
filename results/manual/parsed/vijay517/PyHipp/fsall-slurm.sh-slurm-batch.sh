@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fsall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fsall
+#SBATCH --output=fsall-slurm.%N.%j.out
+#SBATCH --error=fsall-slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 <<<<<<< HEAD
 =======

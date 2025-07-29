@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_DMR
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --job-name=yrv_DMR
+#SBATCH --output=yrv_DMR%j.log
+#SBATCH --mail-user=yaamini.venkataraman@whoi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100gb
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/06-DMR
 
 module load singularity/3.7
 chmod +x /vortexfs1/home/yaamini.venkataraman/06-BAT-DMRcalling.sh

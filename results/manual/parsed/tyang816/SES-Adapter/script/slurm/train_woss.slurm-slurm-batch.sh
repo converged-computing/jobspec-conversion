@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SES-Adapter
-#FLUX: -c=16
-#FLUX: --queue=NvidiaA800
-#FLUX: -t=15552000
-#FLUX: --urgency=16
+#SBATCH --job-name=SES-Adapter
+#SBATCH --output=/public/home/tanyang/workspace/SES-Adapter/log/%j.out
+#SBATCH --error=/public/home/tanyang/workspace/SES-Adapter/log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --time=180-00:00:00
+#SBATCH --partition=NvidiaA800
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=ZSGPU18
 
 export NCCL_IB_DISABLE='0'
 export NCCL_DEBUG='INFO'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-general-8509
-#FLUX: --urgency=16
+#FLUX --job-name=purple-parsnip-8309
+#FLUX --urgency=16
 

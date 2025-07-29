@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=waom10_shflim_S
-#FLUX: -N=7
-#FLUX: -n=256
-#FLUX: --queue=large
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=waom10_shflim_S
+#SBATCH --account=Project_2000789
+#SBATCH --nodes=7
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=large
 
 module purge
 module load intel-oneapi-compilers-classic/2021.6.0 intel-oneapi-mpi/2021.6.0 intel-oneapi-mkl/2022.1.0

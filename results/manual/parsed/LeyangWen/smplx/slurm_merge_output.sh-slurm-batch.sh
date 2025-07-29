@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=smplx-merge
-#FLUX: -c=2
-#FLUX: --queue=spgpu,gpu_mig40,gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=smplx-merge
+#SBATCH --account=shdpm0
+#SBATCH --output=output_slurm/merge_log.txt
+#SBATCH --error=output_slurm/merge_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50g
+#SBATCH --time=02:00:00
+#SBATCH --partition=spgpu,gpu_mig40,gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-10
 
 my_job_header
 conda activate soma3.7

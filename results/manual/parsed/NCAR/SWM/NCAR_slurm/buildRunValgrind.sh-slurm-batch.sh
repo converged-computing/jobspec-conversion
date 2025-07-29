@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SWM
-#FLUX: --queue=dav
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=SWM
+#SBATCH --account=NTDD0002
+#SBATCH --output=SWM.out
+#SBATCH --error=SWM.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=dav
+#SBATCH --constraint=ntasks-per-node=18
 
 module purge
 module list

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu.q
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --queue=gpu.q
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load anaconda/3/2021.11
 source activate /u/atya/conda-envs/tf-gpu4

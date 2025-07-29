@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=inference
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=inference
+#SBATCH --output=/home/AIChineseMedicine/huangky/reusePLM/logs/inference_uk_12B.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=2-00:00:00
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export PROJ_PATH='/home/AIChineseMedicine/huangky/reusePLM'

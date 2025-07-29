@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lettuce-1263
-#FLUX: --queue=priority
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-blackbean-0682
+#FLUX --queue=priority
+#FLUX -t=72000
+#FLUX --urgency=16
 
 LD_LIBRARY_PATH=/opt/lsf/7.0/linux2.6-glibc2.3-x86_64/lib:/opt/nag/libC/lib:/usr/lib
 NAG_KUSARI_FILE=/opt/nag/nag.license

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-eagle-7015
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --mail-user=tobias.jakobi@med.uni-heidelberg.de
+#SBATCH --mail-type=END,FAIL,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:pascal:1
+#SBATCH --mem=60G
+#SBATCH --partition=gpu
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

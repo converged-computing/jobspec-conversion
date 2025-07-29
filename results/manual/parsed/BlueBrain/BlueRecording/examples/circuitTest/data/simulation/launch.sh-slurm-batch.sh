@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CortexNrdmsPySim
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=prod_small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CortexNrdmsPySim
+#SBATCH --account=proj83
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --partition=prod_small
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu
 
 spack env activate neurodamus
 module load unstable

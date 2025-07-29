@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=TORCH-GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=TORCH-GPU
+#FLUX -t=86400
+#FLUX --urgency=16
 
 HOME_DIR='/u/wangqi'
 SRC_DIR='/u/wangqi/git_wq/3d_super-resolution_mri/mains'

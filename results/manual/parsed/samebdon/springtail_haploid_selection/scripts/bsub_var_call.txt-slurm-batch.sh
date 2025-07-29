@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-6084
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/samebdon/springtail_haploid_selection/scripts/bsub_var_call.txt

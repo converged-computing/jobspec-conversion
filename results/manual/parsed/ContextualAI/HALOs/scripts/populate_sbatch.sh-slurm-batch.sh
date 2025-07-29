@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-general-2757
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --mem=800G
 
 source ~/.bashrc 
 source /opt/conda/etc/profile.d/conda.sh 

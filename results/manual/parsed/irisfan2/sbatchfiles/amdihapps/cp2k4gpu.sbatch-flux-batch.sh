@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-1466
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-eagle-8115
+#FLUX -c=8
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

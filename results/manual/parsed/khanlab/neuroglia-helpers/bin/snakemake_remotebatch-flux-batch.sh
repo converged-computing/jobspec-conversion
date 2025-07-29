@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-citrus-3149
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-itch-9673
+#FLUX --urgency=16
 
 hours=6
 mem=128000

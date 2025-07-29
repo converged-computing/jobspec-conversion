@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-puppy-0032
-#FLUX: --queue=A100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=new-smpv-a100.o%j
+#SBATCH --error=new-smpv-a100.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=A100
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

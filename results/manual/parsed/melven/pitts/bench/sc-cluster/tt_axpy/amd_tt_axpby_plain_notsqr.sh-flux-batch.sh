@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chip-9419
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-truffle-6326
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='100M'
 

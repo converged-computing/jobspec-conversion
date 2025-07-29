@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ewc_eval
-#FLUX: --queue=spgpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=ewc_eval
+#SBATCH --account=eecs602w24_class
+#SBATCH --output=./jobs/%u/%x-%j.log
+#SBATCH --mail-user=adivasu@umich.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30g
+#SBATCH --time=06:00:00
+#SBATCH --partition=spgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 cd GroundingDINO
 python setup.py develop

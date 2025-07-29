@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nonlinear_speed
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=nonlinear_speed
+#FLUX -c=8
+#FLUX --queue=normal
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

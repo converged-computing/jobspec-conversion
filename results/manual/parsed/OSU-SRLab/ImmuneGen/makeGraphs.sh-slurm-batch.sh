@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bike-6083
-#FLUX: -N=5
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=PAS0854
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
 
 reg=`echo $1`
 name=`echo $2`

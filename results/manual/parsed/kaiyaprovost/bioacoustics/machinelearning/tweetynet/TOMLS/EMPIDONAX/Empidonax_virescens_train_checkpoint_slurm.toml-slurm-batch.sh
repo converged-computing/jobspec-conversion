@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vakEV
-#FLUX: --queue=serial
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=vakEV
+#SBATCH --account=PAA0202
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=serial
+#SBATCH --constraint=ntasks-per-node=1
 
 cd $SLURM_SUBMIT_DIR
 module load gnu/9.1.0

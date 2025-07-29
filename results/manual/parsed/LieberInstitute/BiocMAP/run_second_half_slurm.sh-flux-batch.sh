@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-9408
-#FLUX: --urgency=16
+#FLUX --job-name=hello-underoos-9281
+#FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

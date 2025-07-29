@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bluesky_10nodes_shm
-#FLUX: -N=10
-#FLUX: -n=100
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=bluesky_10nodes_shm
+#SBATCH --account=oddite
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --exclude=node24
 
 ```
 SBATCH -A oddite

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-2810
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-parsnip-3640
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load python/3 cuda cudnn
 source tensorflow/bin/activate

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-poodle-9218
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=1200
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export DATASET='$PROJREPO/dataset'
 export BATCH='60000'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=download_files
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=download_files
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 mkdir chipseq_data
 samples=(

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swav_100ep_pretrain
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=swav_100ep_pretrain
+#FLUX -N=8
+#FLUX -c=8
+#FLUX -t=25200
+#FLUX --urgency=16
 
 !/bin/bash
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}

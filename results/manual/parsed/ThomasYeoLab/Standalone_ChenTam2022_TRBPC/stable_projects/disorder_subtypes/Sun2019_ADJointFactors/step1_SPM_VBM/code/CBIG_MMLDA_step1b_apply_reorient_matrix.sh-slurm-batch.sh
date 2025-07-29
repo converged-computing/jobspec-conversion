@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chip-0665
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ThomasYeoLab/Standalone_ChenTam2022_TRBPC/stable_projects/disorder_subtypes/Sun2019_ADJointFactors/step1_SPM_VBM/code/CBIG_MMLDA_step1b_apply_reorient_matrix.sh

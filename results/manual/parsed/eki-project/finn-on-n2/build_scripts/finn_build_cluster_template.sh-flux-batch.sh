@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-milkshake-8329
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=red-hippo-2168
+#FLUX -c=8
+#FLUX --queue=normal
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Running the cluster/remote build script"
 WORKING_DIR=<FINN_WORKDIR>

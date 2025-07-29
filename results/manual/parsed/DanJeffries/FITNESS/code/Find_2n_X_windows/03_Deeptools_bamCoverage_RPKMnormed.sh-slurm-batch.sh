@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Ga_DEEP_500
-#FLUX: -c=8
-#FLUX: --queue=bdw
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Ga_DEEP_500
+#SBATCH --output=%x_%A-%a.out
+#SBATCH --error=%x_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=bdw
+#SBATCH --array=1-25
 
 module load vital-it
 module add UHTS/Analysis/deepTools/2.5.4;

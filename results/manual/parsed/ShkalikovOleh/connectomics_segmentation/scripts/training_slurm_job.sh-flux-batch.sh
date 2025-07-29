@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=training
-#FLUX: -c=16
-#FLUX: --queue=alpha
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=training
+#FLUX -c=16
+#FLUX --queue=alpha
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export $(cut -d=' -f1 "$CFG_FILE")'
 

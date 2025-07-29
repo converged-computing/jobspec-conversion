@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rna_process
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#SBATCH --job-name=rna_process
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4gb
+#SBATCH --time=11-00:00:00
+#SBATCH --partition=general
 
 set -e
 module load python/3.9.6

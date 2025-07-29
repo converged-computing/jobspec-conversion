@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:oc20
-#FLUX: --urgency=16
+#FLUX --job-name=mlperf-hpc:oc20
+#FLUX --urgency=16
 
 export MODEL_NAME='oc20'
 export MODEL_FRAMEWORK='pytorch'

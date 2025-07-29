@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: --exclusive
-#FLUX: --queue=lva
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark
+#SBATCH --output=benchmark.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=lva
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 rm -f results.csv
 data_structures=("Array" "LinkedList")

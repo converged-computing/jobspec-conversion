@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-avocado-3268
-#FLUX: -n=10
-#FLUX: -c=20
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=20
+#SBATCH: --exclusive
 
 echo "Starting job..."
 source anaconda3/bin/activate

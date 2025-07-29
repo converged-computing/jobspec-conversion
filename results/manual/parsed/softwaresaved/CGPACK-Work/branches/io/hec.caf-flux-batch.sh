@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lentil-3122
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-cat-7843
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/softwaresaved/CGPACK-Work/branches/io/hec.caf

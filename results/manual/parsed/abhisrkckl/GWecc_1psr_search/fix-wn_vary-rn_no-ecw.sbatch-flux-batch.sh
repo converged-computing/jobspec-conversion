@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gwecc-search
-#FLUX: --urgency=16
+#FLUX --job-name=gwecc-search
+#FLUX --urgency=16
 
 /home/susobhan/Data/susobhan/miniconda/envs/gwecc/bin/activate
 PYTHON=$CONDA_PREFIX/bin/python

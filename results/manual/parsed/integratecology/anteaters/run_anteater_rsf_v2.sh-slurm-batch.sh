@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ant_rsfs
-#FLUX: --queue=defq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ant_rsfs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=18G
+#SBATCH --time=12:00:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-36%37
 
 export LD_LIBRARY_PATH='/home/alston92/software/proj-8.0.1/lib:$LD_LIBRARY_PATH'
 

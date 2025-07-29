@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-plant-4236
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=normal
 
 export GLOO_SOCKET_IFNAME='eth0'
 

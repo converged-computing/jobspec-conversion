@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-arm-1132
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --output=outputs/derma.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:volta:1
 
 source /etc/profile
 module load anaconda cuda

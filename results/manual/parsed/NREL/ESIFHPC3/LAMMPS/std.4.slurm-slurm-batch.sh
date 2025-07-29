@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lmp.std4
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp.std4
+#SBATCH --account=hpcapps
+#SBATCH --output=std.out
+#SBATCH --error=std.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=debug
 
 export OMP_NUM_THREADS='1'
 

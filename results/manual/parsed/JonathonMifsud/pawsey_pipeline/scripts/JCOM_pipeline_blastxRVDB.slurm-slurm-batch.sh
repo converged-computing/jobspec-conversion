@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blastx_RVDB_array
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#SBATCH --job-name=blastx_RVDB_array
+#SBATCH --mail-user=$user@uni.sydney.edu.au
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --partition=work
+#SBATCH --constraint=ntasks-per-node=12
 
 export library_run='${myarray["$SLURM_ARRAY_TASK_ID"]}'
 

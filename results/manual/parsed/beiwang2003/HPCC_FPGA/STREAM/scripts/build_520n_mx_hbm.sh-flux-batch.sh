@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-house-7541
+#FLUX --job-name=evasive-ricecake-5207
 #FLUX: --exclusive
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

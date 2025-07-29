@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=12k-en-de
-#FLUX: --queue=m3h
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=12k-en-de
+#FLUX --queue=m3h
+#FLUX -t=432000
+#FLUX --urgency=16
 
 LM_SRC_PATH="/home/xvuthith/da33/trang/rnn-lm"
 LM_DATA_DIR="/home/xvuthith/da33/trang/dataset/IT-More-Data-APE/data"

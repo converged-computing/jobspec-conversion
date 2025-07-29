@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pancake-0345
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --mail-user=18tcvh@queensu.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-94
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 DIR=$(sed -n "${SLURM_ARRAY_TASK_ID}p" input_zip_files)

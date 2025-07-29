@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=comp_pract_logdet
-#FLUX: -c=24
-#FLUX: --queue=savio2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=comp_pract_logdet
+#SBATCH --account=fc_biome
+#SBATCH --output=output_compare_method_logdet.log
+#SBATCH --mail-user=sameli@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio2
+#SBATCH --qos=savio_normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

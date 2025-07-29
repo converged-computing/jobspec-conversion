@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Mar_inversion
-#FLUX: -N=8
-#FLUX: -n=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Mar_inversion
+#SBATCH --account=w18_trust
+#SBATCH --output=slurm.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --qos=interactive
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

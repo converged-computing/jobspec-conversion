@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=water-box_CHARMM
-#FLUX: -c=20
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=water-box_CHARMM
+#FLUX -c=20
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load gromacs/openmpi/intel/2020.4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=infer-corners
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#FLUX --job-name=infer-corners
+#FLUX -c=10
+#FLUX -t=21600
+#FLUX --urgency=15
 
 export PATH='/opt/singularity/bin:${PATH}'
 

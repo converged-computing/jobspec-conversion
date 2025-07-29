@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jacobiMPI
+#FLUX --job-name=jacobiMPI
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 if command -v sinfo  2>/dev/null # if on cluster
 then

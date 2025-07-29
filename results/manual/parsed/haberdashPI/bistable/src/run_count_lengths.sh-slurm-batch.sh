@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bistable
-#FLUX: -c=8
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=bistable
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=30G
+#SBATCH --time=02:00:00
+#SBATCH --partition=shared
 
 julia  -e 'using Pkg; Pkg.activate("projects/bistable")' \
        -e 'include("projects/bistable/src/run_count_lengths.jl")' \

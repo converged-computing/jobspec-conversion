@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peas-0315
-#FLUX: -c=64
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=log.run.out
+#SBATCH --error=log.run.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

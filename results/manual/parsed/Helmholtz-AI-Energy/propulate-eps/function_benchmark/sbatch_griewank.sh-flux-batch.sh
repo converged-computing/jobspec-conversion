@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=optuna-griewank
-#FLUX: -N=2
-#FLUX: --queue=cpuonly
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=optuna-griewank
+#FLUX -N=2
+#FLUX --queue=cpuonly
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export FNAME='griewank'
 export FRAMEWORK='optuna'

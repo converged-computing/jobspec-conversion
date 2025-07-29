@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hope-1569
-#FLUX: --queue=qblg.p
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=qblg.p
+#SBATCH --constraint=ntasks-per-node=12
 
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'
 export namdexecution='namd3 +p${NTASKS}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=flan_t5_finetuning
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=flan_t5_finetuning
+#FLUX -c=8
+#FLUX --queue=accel
+#FLUX -t=32400
+#FLUX --urgency=16
 
 source ${HOME}/.bashrc
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-mango-8441
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-salad-4147
+#FLUX -t=600
+#FLUX --urgency=16
 
 cd /global/homes/r/rkube/repos/delta/rq_tests
 conda activate delta

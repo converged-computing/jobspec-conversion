@@ -1,12 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-8185
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=2
+#SBATCH --mem-per-cpu=24gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=realmps1
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=realmps1
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

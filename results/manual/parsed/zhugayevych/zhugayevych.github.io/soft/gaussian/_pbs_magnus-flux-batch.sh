@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-plant-0310
-#FLUX: -c=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-chair-7745
+#FLUX -c=16
+#FLUX --queue=AMG
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export GAUSS_MEMDEF='$((MemBytes*95/8/100))'
 export GAUSS_PDEF='${SLURM_CPUS_PER_TASK}'

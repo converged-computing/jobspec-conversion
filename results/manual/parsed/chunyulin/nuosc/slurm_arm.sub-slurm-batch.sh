@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nuosc_12D
-#FLUX: -c=252
-#FLUX: --urgency=16
+#SBATCH --job-name=nuosc_12D
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=252
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

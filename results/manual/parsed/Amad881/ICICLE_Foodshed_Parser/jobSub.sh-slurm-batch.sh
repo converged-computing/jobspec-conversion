@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=run_semanticParserShort
-#FLUX: -c=28
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=run_semanticParserShort
+#SBATCH --account=PAS2271
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=16:00:00
 
 module load python/3.7-2019.10 cuda
 echo "Loaded modules"

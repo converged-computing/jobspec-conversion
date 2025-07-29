@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lmp_benchm
-#FLUX: -c=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp_benchm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LD_LIBRARY_PATH'

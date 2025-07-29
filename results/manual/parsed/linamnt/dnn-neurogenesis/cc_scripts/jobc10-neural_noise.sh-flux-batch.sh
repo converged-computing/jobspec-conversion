@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=c10-noise
-#FLUX: -c=16
-#FLUX: -t=570
-#FLUX: --urgency=16
+#FLUX --job-name=c10-noise
+#FLUX -c=16
+#FLUX -t=570
+#FLUX --urgency=16
 
 SOURCEDIR=~/ndl/cc_scripts
 VENV_DIR=~/pytorch_gpu

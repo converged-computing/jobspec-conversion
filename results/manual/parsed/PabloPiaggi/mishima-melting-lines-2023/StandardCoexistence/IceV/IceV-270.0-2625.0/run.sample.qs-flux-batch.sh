@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-latke-8240
-#FLUX: -c=7
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-destiny-0842
+#FLUX -c=7
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

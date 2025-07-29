@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=snap_array_job
-#FLUX: -c=4
-#FLUX: --queue=small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=snap_array_job
+#FLUX -c=4
+#FLUX --queue=small
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load snap
 readlink -f /appl/data/geo/sentinel/s2_example_data/L2A/S2* > image_path_list.txt

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=actor
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=actor
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export learning_rate='$1'
 export dropout='$2'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-salad-2776
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-punk-4349
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nl3769/CCA_DL_TOOLS/SIMULATION/run_cluster/pbs/make_phantom_GAN.pbs

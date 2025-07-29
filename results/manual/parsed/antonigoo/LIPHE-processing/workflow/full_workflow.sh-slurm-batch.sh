@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=full_workflow
-#FLUX: --queue=small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=full_workflow
+#SBATCH --account=project_2008498
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=00:20:00
+#SBATCH --partition=small
 
 export PATH='/projappl/project_2003180/samantha/bin:$PATH'
 

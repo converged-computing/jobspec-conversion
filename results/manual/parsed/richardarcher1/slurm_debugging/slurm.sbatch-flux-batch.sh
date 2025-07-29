@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia
-#FLUX: --queue=gpu
-#FLUX: -t=86700
-#FLUX: --urgency=16
+#FLUX --job-name=nvidia
+#FLUX --queue=gpu
+#FLUX -t=86700
+#FLUX --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo " "

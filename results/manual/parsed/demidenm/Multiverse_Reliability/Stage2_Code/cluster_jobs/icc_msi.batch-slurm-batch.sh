@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=icc_abcd
-#FLUX: -c=6
-#FLUX: --queue=agsmall,msismall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=icc_abcd
+#SBATCH --account=faird
+#SBATCH --output=log_abcd/%x_%A_%a.out
+#SBATCH --error=log_abcd/%x_%A_%a.err
+#SBATCH --mail-user=mdemiden@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=6G
+#SBATCH --time=00:30:00
+#SBATCH --partition=agsmall,msismall
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-239
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

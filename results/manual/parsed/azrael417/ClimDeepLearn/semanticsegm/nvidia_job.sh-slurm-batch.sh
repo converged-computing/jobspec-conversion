@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-4341
-#FLUX: -N=50
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=dasrepo
+#SBATCH --mail-user=amahesh@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=50
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

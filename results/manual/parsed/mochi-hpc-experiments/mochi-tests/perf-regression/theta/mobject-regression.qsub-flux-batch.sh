@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-despacito-8412
-#FLUX: --urgency=16
+#FLUX --job-name=astute-kerfuffle-0082
+#FLUX --urgency=16
 

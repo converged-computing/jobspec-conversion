@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bike-5639
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_465000934
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eps10
-#FLUX: -c=30
-#FLUX: --urgency=16
+#SBATCH --job-name=eps10
+#SBATCH --output=/home/guyga/slurm_reports/eps10_%N.%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:4
+#SBATCH --constraint=16GB
 
 DATA_PATH=<DATA_PATH>
 RESULTS_DIR=<RESULTS_DIR>

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmodeler.v2
-#FLUX: -c=21
-#FLUX: --queue=rosalind
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=repeatmodeler.v2
+#FLUX -c=21
+#FLUX --queue=rosalind
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='/scratch/nchen11_lab/Repeat/NINJA-0.95-cluster_only/NINJA:$PATH'
 

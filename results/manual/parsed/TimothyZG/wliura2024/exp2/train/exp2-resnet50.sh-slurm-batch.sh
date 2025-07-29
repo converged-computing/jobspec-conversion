@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-5054
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --output=output/slurm-%j.out
+#SBATCH --mail-user=<tiange.zhou@outlook.com>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=32G
+#SBATCH --time=03:30:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load python/3.10 scipy-stack

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stain_transfer
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=stain_transfer
+#SBATCH --output=./outputs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120000
+#SBATCH --partition=gpu
 
 source activate $WORKDIR/miniconda3/envs/pytorch
 python main.py ${SLURM_JOBID} ./config/config.yml

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-6635
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-general-7239
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export DISABLE_TQDM='True'
 

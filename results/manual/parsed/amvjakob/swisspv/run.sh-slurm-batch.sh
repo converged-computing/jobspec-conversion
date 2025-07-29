@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leader-8602
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=60G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 echo STARTING AT $(date)
 module purge

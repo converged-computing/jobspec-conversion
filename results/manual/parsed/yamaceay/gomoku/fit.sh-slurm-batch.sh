@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fit
-#FLUX: --queue=cpu-2h
-#FLUX: --urgency=16
+#SBATCH --job-name=fit
+#SBATCH --output=logs/job-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cpu-2h
+#SBATCH --constraint=ntasks-per-node=2
 
 if [ $1 == "train" ]; then
     apptainer run --nv gomoku.sif python -m src.train ${@:2}

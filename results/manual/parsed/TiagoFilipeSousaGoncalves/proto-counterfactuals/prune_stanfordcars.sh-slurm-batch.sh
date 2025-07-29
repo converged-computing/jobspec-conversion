@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lettuce-8432
-#FLUX: --urgency=16
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 python code/models_prototype_pruning.py --dataset STANFORDCARS --base_architecture densenet121 --batchsize 16 --optimize_last_layer --num_workers 3 --gpu_id 0 --checkpoint
 python code/models_prototype_pruning.py --dataset STANFORDCARS --base_architecture densenet161 --batchsize 16 --optimize_last_layer --num_workers 3 --gpu_id 0 --checkpoint

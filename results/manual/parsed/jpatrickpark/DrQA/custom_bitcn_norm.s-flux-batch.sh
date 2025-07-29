@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DrQA_train
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=DrQA_train
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export CLASSPATH='$CLASSPATH:$SCRATCH/data/corenlp/*'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-pancake-4927
-#FLUX: -n=64
-#FLUX: --queue=t1standard
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j
+#SBATCH --mail-user=elbueler@alaska.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=t1standard
 
 cd $SLURM_SUBMIT_DIR
 srun -l /bin/hostname | sort -n | awk '{print $2}' > ./nodes.$SLURM_JOB_ID

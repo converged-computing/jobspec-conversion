@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MyParallelJob
-#FLUX: -n=16
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MyParallelJob
+#SBATCH --output=Hybrid-%j.out
+#SBATCH --error=Hybrid-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=2
+#SBATCH --time=01:00:00
+#SBATCH --constraint=32core|intel|cascade|edr
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

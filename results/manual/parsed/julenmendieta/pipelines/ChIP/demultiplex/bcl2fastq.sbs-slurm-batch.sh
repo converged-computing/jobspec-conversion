@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bcl2fastq
-#FLUX: -c=12
-#FLUX: --queue=short
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=bcl2fastq
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=16G
+#SBATCH --time=07:00:00
+#SBATCH --partition=short
 
 outdir=/home/jmendietaes/data/2021/singleCell/sequencedData/210806_VH00461_59_AAALHW2M5/
 indir=/datos/intercambio/eguruce/210806_VH00461_59_AAALHW2M5_2

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=of
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=of
+#SBATCH --account=COE-347-S22
+#SBATCH --output=ofo.%j
+#SBATCH --error=ofe.%j
+#SBATCH --mail-user=akhil.sadam@utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
 
 export OMP_NUM_THREADS='272'
 

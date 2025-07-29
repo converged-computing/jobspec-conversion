@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=512_ns_bilateral_hf
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=512_ns_bilateral_hf
+#SBATCH --mail-user=s.reitsma@ru.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=long
 
 export LD_LIBRARY_PATH='/home/sreitsma/cudnn-6.5-linux-x64-v2:/usr/local/cuda-6.5/lib64:$LD_LIBRARY_PATH'
 export PATH='/usr/local/cuda-6.5/bin:$PATH'

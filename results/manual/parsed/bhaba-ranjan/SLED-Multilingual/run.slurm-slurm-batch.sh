@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_basics
-#FLUX: --queue=gpuq
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_basics
+#SBATCH --output=gpu_basics_french_8_training.%j.out
+#SBATCH --error=gpu_basics_french_8_training_error.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100.40gb:1
+#SBATCH --time=11:00:00
+#SBATCH --partition=gpuq
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=5
 
 export CUDA_VISIBLE_DEVICES='0'
 

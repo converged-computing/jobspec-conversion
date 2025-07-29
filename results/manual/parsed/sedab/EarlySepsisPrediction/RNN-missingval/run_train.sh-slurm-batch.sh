@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=outputs/train_%A.out
+#SBATCH --error=outputs/train_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20GB
+#SBATCH --time=20:00:00
 
 module purge
 module load python3/intel/3.5.3

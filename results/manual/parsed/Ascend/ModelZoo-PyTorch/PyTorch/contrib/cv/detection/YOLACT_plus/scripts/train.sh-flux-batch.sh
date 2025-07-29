@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-destiny-1150
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-buttface-9055
+#FLUX --queue=GPU-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

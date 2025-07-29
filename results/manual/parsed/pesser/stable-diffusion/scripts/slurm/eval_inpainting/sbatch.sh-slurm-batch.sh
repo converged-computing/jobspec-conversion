@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stable-diffusion-inpainting-eval
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=stable-diffusion-inpainting-eval
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='/opt/aws-ofi-nccl/lib:/opt/amazon/efa/lib64:/usr/local/cuda-11.0/efa/lib:/usr/local/cuda-11.0/lib:/usr/local/cuda-11.0/lib64:/usr/local/cuda-11.0:/opt/nccl/build/lib:/opt/aws-ofi-nccl-install/lib:/opt/aws-ofi-nccl/lib:$LD_LIBRARY_PATH'
 export NCCL_PROTO='simple'

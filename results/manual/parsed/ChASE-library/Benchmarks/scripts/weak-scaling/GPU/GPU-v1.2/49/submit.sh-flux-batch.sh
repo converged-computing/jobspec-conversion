@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-egg-5896
-#FLUX: -N=49
-#FLUX: -n=49
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-buttface-0832
+#FLUX -N=49
+#FLUX -n=49
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LDmap
-#FLUX: -c=16
-#FLUX: -t=734400
-#FLUX: --urgency=16
+#SBATCH --job-name=LDmap
+#SBATCH --mail-user=thomas.brazier@univ-rennes.fr
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=400GB
+#SBATCH --time=8-12:00:00
 
 export OMP_NUM_THREADS='$ncores'
 

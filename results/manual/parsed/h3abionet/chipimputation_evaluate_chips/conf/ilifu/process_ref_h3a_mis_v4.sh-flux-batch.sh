@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ref_h3a_mis
-#FLUX: -n=2
-#FLUX: --queue=Main
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=ref_h3a_mis
+#FLUX -n=2
+#FLUX --queue=Main
+#FLUX -t=864000
+#FLUX --urgency=16
 
 cd /cbio/users/mamana/refimpute
 nextflow \

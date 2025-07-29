@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=graphcast
-#FLUX: -c=40
-#FLUX: --queue=hera
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=graphcast
+#FLUX -c=40
+#FLUX --queue=hera
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module use /scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.6.0/envs/unified-env/install/modulefiles/Core
 module load stack-intel

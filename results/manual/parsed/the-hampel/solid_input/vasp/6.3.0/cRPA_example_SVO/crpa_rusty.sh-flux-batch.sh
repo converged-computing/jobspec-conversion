@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nno-cpra-1orb
-#FLUX: --queue=ccq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=nno-cpra-1orb
+#FLUX --queue=ccq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-6470
-#FLUX: -N=7
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=15
+#SBATCH --nodes=7
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --qos=low
+#SBATCH --constraint=ntasks-per-node=16
 
 export JULIA_WORKER_TIMEOUT='300'
 

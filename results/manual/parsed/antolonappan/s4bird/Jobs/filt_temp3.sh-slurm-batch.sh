@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=FilteringPol1
-#FLUX: -N=100
-#FLUX: -n=1000
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=FilteringPol1
+#SBATCH --output=out/filt_pol1.out
+#SBATCH --error=out/filt_pol1.err
+#SBATCH --mail-user=anto.lonappan@sissa.it
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=100
+#SBATCH --ntasks=1000
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
 
 export ini='cmbs4_3.ini'
 

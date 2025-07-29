@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=e5_7_gpt2_vnla__e5_8_gpt2_vnla__e5_9_gpt2_vnla__e5_10_gpt2_vnla__e5_11_gpt2_vnla__e5_12_gpt2_vnla
-#FLUX: --queue=m3g
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=e5_7_gpt2_vnla__e5_8_gpt2_vnla__e5_9_gpt2_vnla__e5_10_gpt2_vnla__e5_11_gpt2_vnla__e5_12_gpt2_vnla
+#SBATCH --account=da33
+#SBATCH --output=log/%j-e5_7_gpt2_vnla__e5_8_gpt2_vnla__e5_9_gpt2_vnla__e5_10_gpt2_vnla__e5_11_gpt2_vnla__e5_12_gpt2_vnla.out
+#SBATCH --error=log/%j-e5_7_gpt2_vnla__e5_8_gpt2_vnla__e5_9_gpt2_vnla__e5_10_gpt2_vnla__e5_11_gpt2_vnla__e5_12_gpt2_vnla.err
+#SBATCH --mail-user=wutong8023@163.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=m3g
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-spoon-0586
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lamp-3092
+#FLUX -N=4
+#FLUX -n=64
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated 
 module load cp2k/2.6.0/intel-15.0.0

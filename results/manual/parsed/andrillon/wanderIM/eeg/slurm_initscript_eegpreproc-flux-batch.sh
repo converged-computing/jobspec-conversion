@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=WIMPreproc
-#FLUX: -c=10
-#FLUX: --queue=m3g
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=WIMPreproc
+#FLUX -c=10
+#FLUX --queue=m3g
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load matlab/r2017b

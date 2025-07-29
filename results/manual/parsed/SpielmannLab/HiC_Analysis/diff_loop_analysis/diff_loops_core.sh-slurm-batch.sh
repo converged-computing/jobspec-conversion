@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=diff_loops
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#SBATCH --job-name=diff_loops
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --partition=shortterm
 
 module load nextflow/v22.04.1
 mkdir -p "$WORK"/diff_loops_nextflow_launchdir

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-chair-0001
-#FLUX: -N=2
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hello-ricecake-5335
+#FLUX -N=2
+#FLUX -t=300
+#FLUX --urgency=16
 
 if test "x$SLURM_NTASKS_PER_NODE" = x ; then
    SLURM_NTASKS_PER_NODE=128

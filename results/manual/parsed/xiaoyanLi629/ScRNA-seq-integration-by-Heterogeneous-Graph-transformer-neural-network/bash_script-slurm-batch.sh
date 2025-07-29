@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scRNA_seq_inte
-#FLUX: -c=2
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=scRNA_seq_inte
+#SBATCH --mail-user=lixiaoy5@msu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=64G
+#SBATCH --time=05:00:00
 
 module purge
 module load GCCcore/10.3.0

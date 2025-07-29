@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=closedLoop_SpO2H30_2
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=closedLoop_SpO2H30_2
+#SBATCH --account=uoa00596
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6000
+#SBATCH --time=7-00:00:00
+#SBATCH --array=1-16
 
 export model_name='closedLoop_SpO2H'
 export para_name='parL3'

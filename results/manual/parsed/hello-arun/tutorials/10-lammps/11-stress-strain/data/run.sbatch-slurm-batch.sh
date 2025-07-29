@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-gato-3654
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=std.out
+#SBATCH --error=std.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=24,intel
 
 export OMP_NUM_THREADS='1'
 

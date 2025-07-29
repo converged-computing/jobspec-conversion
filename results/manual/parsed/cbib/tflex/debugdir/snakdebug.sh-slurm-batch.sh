@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=snakeplot
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=snakeplot
+#SBATCH --output=/home/jgalvis/tflex/debugdir/slurm_output/snakeplot_%j.out
+#SBATCH --mail-user=juana7@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/jgalvis/tflex/debugdir/
 
 scontrol show job $SLURM_JOB_ID
 module load snakemake

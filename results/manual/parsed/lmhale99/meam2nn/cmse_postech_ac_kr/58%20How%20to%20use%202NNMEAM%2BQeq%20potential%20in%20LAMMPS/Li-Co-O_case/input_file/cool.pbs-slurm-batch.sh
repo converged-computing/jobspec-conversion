@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fudge-3224
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lmhale99/meam2nn/cmse_postech_ac_kr/58%20How%20to%20use%202NNMEAM%2BQeq%20potential%20in%20LAMMPS/Li-Co-O_case/input_file/cool.pbs

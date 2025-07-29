@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AMG_Hunter_Soil
-#FLUX: -c=24
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=AMG_Hunter_Soil
+#FLUX -c=24
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load diamond/2.0.7
 module load python/3.8.5

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ewas
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ewas
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export EWAS_PORT='10083  # port must not in use by other users, make sure it is the same port your forwarded to the cluster'
 export EWAS_IMG='${PWD}/ewas.img  # path to the EWAS singularity image you uploaded'

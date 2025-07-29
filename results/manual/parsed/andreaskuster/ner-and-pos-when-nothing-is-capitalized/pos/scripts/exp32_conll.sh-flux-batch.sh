@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-poo-9472
-#FLUX: -c=64
-#FLUX: --queue=intelv100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-diablo-2097
+#FLUX -c=64
+#FLUX --queue=intelv100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load python/3.7.2
 module load CMake

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BestInf
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BestInf
+#SBATCH --output=../logs/sanitycheck_%A_%a.out
+#SBATCH --error=../logs/sanitycheck_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96GB
+#SBATCH --time=01:00:00
+#SBATCH --array=0
 
 echo `hostname`
 DIR=../src

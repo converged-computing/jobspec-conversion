@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expl7b16k
-#FLUX: -c=32
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=expl7b16k
+#FLUX -c=32
+#FLUX --queue=r8nv-gpu-hw
+#FLUX -t=108000
+#FLUX --urgency=16
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

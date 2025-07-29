@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LDpred2pc
-#FLUX: -n=15
-#FLUX: --queue=skylake-himem
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=LDpred2pc
+#SBATCH --account=CWALLACE-SL2-CPU
+#SBATCH --output=./err/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --time=09:00:00
+#SBATCH --partition=skylake-himem
 
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
 

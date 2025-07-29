@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RESIF-Prod-GPU
-#FLUX: -c=7
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=100
+#SBATCH --job-name=RESIF-Prod-GPU
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --mail-user=hpc-team@uni.lu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=urgent
+#SBATCH --constraint=ntasks-per-node=4
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

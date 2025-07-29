@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-avocado-1456
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-plant-0071
+#FLUX --queue=regular
+#FLUX --urgency=16
 
 outfile="$1__${SLURM_JOB_NUM_NODES}_hpctoolkit"
 module load hpctoolkit

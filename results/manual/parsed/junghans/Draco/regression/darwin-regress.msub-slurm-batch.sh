@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-spoon-7450
-#FLUX: --queue=haswell
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=haswell
 
 export VENDOR_DIR='/usr/projects/draco/vendors'
 export CXX='`which mpiicpc`'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sym
-#FLUX: -c=40
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=sym
+#SBATCH --output=fusy.%j.%N.out
+#SBATCH --mail-user=kazem.cheshmi@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=23:00:00
 
 export MKLROOT='/scinet/intel/2019u3/compilers_and_libraries_2019/linux/mkl'
 export OMP_NUM_THREADS='$THRDS'

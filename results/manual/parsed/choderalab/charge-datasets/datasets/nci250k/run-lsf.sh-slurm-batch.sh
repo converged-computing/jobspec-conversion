@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-sundae-3720
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/charge-datasets/datasets/nci250k/run-lsf.sh

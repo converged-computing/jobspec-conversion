@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-7469
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-lentil-1112
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=$CUDA_HOME'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=daskJob_maxm_n8_p8_day
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=high_mem
-#FLUX: --urgency=16
+#SBATCH --job-name=daskJob_maxm_n8_p8_day
+#SBATCH --output=z_slurm-%x-%j-%u.out
+#SBATCH --error=z_slurm-%x-%j-%u.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=MaxMemPerNode
+#SBATCH --partition=high_mem
+#SBATCH --qos=normal+
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 which python

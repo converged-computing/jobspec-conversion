@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HM
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=HM
+#SBATCH --output=slurm-logs/hm.%j.out
+#SBATCH --error=slurm-logs/hm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH: --exclusive
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

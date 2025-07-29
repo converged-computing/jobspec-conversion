@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TS_train_Piglet_EEG_Model
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TS_train_Piglet_EEG_Model
+#SBATCH --output=t_smallGPU_out.txt
+#SBATCH --error=t_smallGPU_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=50000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load gnu7
 module load cuda/11.0.2.450

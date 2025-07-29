@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rosetta_test
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=rosetta_test
+#SBATCH --account=def-bingalls
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=jj5song@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=10:00:00
 
 ROSETTA3="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10"
 ROSETTA3_DB="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10/database"

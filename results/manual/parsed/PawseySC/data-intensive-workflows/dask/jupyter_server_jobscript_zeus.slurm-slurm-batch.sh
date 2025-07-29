@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-fudge-8963
-#FLUX: -n=28
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
 
 export XDG_RUNTIME_DIR=''
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-8054
-#FLUX: -c=12
-#FLUX: --queue=ai
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:$GPU_COUNT
+#SBATCH --mem=128G
+#SBATCH --partition=ai
 
 GPU_COUNT=$(grep -Po "^[^\#].+gpus = \K([0-9]+)" config.py)
 echo $(hostname) $CUDA_VISIBLE_DEVICES $GPU_COUNT

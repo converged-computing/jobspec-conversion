@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=k80:1
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
 
 module load GCC/8.3.0
 module load CUDA/10.2.89

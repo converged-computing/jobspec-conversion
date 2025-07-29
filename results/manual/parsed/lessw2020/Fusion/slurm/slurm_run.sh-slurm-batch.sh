@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=T5-LM-train
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --gpus-per-task=2
-#FLUX: --urgency=16
+#SBATCH --job-name=T5-LM-train
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=2
 
 export LOGLEVEL='INFO'
 

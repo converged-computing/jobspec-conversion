@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=qlora
-#FLUX: -c=2
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=qlora
+#FLUX -c=2
+#FLUX -t=172740
+#FLUX --urgency=16
 
 export BNB_CUDA_VERSION='113'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/apps/cuda/11.3.1/lib64'

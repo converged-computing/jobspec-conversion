@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=elp
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=elp
+#SBATCH --account=normal
+#SBATCH --output=logs/output-ep-lp-%j.log
+#SBATCH --error=logs/output-ep-lp-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=75gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=pgpu01
 
 nvidia-smi
 source activate lipinggpu

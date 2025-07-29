@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-noodle-2202
-#FLUX: -c=5
-#FLUX: --queue=amp20
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-lettuce-0916
+#FLUX -c=5
+#FLUX --queue=amp20
+#FLUX --urgency=16
 
 module load gcc/gcc-10.2.0
 module load nvidia/cuda-11.1 nvidia/cudnn-v8.1.1.33-forcuda11.0-to-11.2

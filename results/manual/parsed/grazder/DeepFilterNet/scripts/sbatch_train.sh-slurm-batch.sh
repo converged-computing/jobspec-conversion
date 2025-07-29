@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=df
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=df
+#SBATCH --output=/cluster/%u/logs/%j.out
+#SBATCH --error=/cluster/%u/logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
 
 export CLUSTER='/net/cluster/$USER'
 export WORKON_HOME='/cluster/$USER/.cache'

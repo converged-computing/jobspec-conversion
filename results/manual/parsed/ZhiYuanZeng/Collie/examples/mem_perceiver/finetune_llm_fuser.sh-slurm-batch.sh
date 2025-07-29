@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval_all_pruner
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_all_pruner
+#SBATCH --output=/remote-home/zyzeng/collie/logs/eval/eval_all_%A_%a.out
+#SBATCH --error=/remote-home/zyzeng/collie/logs/eval/eval_all_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=a800
 
 export MASTER_PORT='12345'
 export CUDA_HOME='/remote-home/zyzeng/cuda-11.8'

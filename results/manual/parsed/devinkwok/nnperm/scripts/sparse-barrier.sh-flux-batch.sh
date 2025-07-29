@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-spoon-8930
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=red-diablo-7849
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ./open_lth/slurm-setup.sh cifar10
 CKPT_ROOT=$HOME/scratch/open_lth_data/

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=allometry
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=allometry
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export SLURM_TMPDIR='/orange/idtrees-collab/tmp/'
 export TMPDIR='/orange/idtrees-collab/tmp/'

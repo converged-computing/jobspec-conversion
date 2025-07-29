@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vcontact
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=vcontact
+#SBATCH --account=kwigg1
+#SBATCH --mail-user=hegartyb@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 echo $SLURM_JOB_NODELIST
 if [ -n "$SLURM_SUBMIT_DIR" ]; then cd $SLURM_SUBMIT_DIR; fi

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bike-1166
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=log/cnn_regression_multi_starts-%a.out
+#SBATCH --error=log/cnn_regression_multi_starts-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --array=1-20%3
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

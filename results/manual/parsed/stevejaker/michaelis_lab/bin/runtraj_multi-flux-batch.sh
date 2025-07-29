@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-underoos-1569
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-cupcake-2877
+#FLUX -t=60
+#FLUX --urgency=16
 
 . /etc/profile
 loadamber 

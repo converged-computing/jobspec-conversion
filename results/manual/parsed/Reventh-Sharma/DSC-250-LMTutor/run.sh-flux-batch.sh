@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_lmtutor
-#FLUX: -c=16
-#FLUX: --queue=gpu-shared
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=train_lmtutor
+#FLUX -c=16
+#FLUX --queue=gpu-shared
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export CACHE_FOLDER='/scratch/'${USER}'/job_'${SLURM_JOBID}'
 

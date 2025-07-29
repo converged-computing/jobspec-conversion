@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=abdomenatlas1.0-multigpu
-#FLUX: -n=12
-#FLUX: --exclusive
-#FLUX: --queue=public
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=abdomenatlas1.0-multigpu
+#SBATCH --output=%x_slurm_%j.out
+#SBATCH --error=%xslurm_%j.err
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=public
+#SBATCH: --exclusive
 
 module load mamba/latest # only for Sol
 source activate suprem

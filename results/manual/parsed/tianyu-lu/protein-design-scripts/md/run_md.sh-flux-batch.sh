@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=2_1_L125E
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=2_1_L125E
+#FLUX -N=2
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

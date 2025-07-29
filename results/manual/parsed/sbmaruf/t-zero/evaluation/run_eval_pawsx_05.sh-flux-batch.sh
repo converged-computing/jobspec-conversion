@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-mango-1701
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-cinnamonbun-0305
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'
 

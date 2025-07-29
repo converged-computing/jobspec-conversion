@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pastry-7994
-#FLUX: -c=16
-#FLUX: --queue=gpu-mono
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-muffin-1547
+#FLUX -c=16
+#FLUX --queue=gpu-mono
+#FLUX --urgency=16
 
 MODELPATH=/tmp-network/project/fashion/models/crossmodal_retrieval/MSCoco_liwei
 DB=MSCoco_liwei_train

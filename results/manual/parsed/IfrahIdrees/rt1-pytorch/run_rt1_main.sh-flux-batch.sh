@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-house-4949
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-animal-3114
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load miniconda3/23.11.0s
 source /oscar/runtime/software/external/miniconda3/23.11.0/etc/profile.d/conda.sh

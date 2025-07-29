@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ukrlm_mlm
-#FLUX: -c=16
-#FLUX: --queue=plgrid-gpu-a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ukrlm_mlm
+#SBATCH --account=plgexaile-gpu-a100
+#SBATCH --output=slurm_%j.out
+#SBATCH --error=slurm_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=plgrid-gpu-a100
+#SBATCH --constraint=ntasks-per-node=2,memfs
 
 source modules.sh
 source scratch/masters/masters-venv/bin/activate

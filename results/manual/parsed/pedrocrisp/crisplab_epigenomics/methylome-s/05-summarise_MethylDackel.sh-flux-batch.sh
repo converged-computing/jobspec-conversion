@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=summarise_MethylDackel
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=summarise_MethylDackel
+#FLUX --queue=general
+#FLUX --urgency=16
 
 set -xeuo pipefail
 echo ------------------------------------------------------

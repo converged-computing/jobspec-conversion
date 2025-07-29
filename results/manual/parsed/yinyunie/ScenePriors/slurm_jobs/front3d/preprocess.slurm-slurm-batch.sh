@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess_bedroom
-#FLUX: -c=24
-#FLUX: --queue=submit
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocess_bedroom
+#SBATCH --output=./slurm_jobs/job_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=0
+#SBATCH --mem=30gb
+#SBATCH --partition=submit
+#SBATCH --qos=normal
 
 date;hostname;pwd
 echo "Job Name = $SLURM_JOB_NAME"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-parsnip-6296
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=red-parrot-5749
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load cuda/12.2.2  gcc/10.2   
 nvidia-smi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lentil-4827
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-spoon-4468
+#FLUX --urgency=16
 
 dir='slurm/scripts'  # directory where the slurm scripts are
 template_cpu='template_epyc.sbatch'  # template for cpu slurm

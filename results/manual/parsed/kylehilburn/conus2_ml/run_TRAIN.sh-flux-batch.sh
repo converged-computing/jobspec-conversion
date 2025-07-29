@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-muffin-8779
-#FLUX: --queue=fge
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-earthworm-7291
+#FLUX --queue=fge
+#FLUX -t=900
+#FLUX --urgency=16
 
 date
 cd /scratch1/RDARCH/rda-goesstf/conus2/Code

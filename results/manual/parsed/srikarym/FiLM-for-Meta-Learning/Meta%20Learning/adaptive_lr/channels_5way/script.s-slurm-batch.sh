@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ch_5
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=ch_5
+#SBATCH --output=slurm_ch_5.out
+#SBATCH --mail-user=msy290@nyu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=1-16:00:00
+#SBATCH --constraint=ntasks-per-node=10
 
 cd /scratch/msy290/maml_less_grad_adaptive_lr/channels_5way/
 module load cudnn/8.0v6.0

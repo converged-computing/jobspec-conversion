@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hope-3924
-#FLUX: --queue=alvis
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=NAISS2024-22-380
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=alvis
 
 module load SciPy-bundle/2022.05-foss-2022a
 module load PyTorch-bundle/1.13.1-foss-2022a-CUDA-11.7.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-omelette-7754
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=red-squidward-7485
+#FLUX -c=2
+#FLUX --queue=priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load gcc
 usage() {

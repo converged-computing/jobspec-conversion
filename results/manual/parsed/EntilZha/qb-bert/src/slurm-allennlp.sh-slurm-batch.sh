@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=qb-bert
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=qb-bert
+#SBATCH --output=/fs/clip-quiz/entilzha/logs/%A.log
+#SBATCH --error=/fs/clip-quiz/entilzha/logs/%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20g
+#SBATCH --partition=gpu
+#SBATCH --chdir=/fs/clip-quiz/entilzha/code/qb-bert/src
+#SBATCH --exclude=materialgpu00
 
 export SLURM_LOG_FILE='/fs/clip-quiz/entilzha/logs/${SLURM_JOB_ID}.log'
 export MODEL_CONFIG_FILE='$2'

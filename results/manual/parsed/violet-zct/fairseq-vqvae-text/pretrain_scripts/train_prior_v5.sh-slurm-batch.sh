@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=argmax.transformer.lm.pretrain.lm
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: --queue=priority
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=argmax.transformer.lm.pretrain.lm
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=470g
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=priority
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 trap_handler () {
    echo "Caught signal: " $1

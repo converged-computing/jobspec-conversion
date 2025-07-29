@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-mango-1089
-#FLUX: -N=3
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=angry-earthworm-2442
+#FLUX -N=3
+#FLUX --queue=devel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

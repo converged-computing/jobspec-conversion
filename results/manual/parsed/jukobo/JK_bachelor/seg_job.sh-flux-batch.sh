@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jk_spine_model
-#FLUX: -c=2
-#FLUX: --queue=titans
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=jk_spine_model
+#FLUX -c=2
+#FLUX --queue=titans
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "Node: $(hostname)"
 echo "Start: $(date +%F-%R:%S)"

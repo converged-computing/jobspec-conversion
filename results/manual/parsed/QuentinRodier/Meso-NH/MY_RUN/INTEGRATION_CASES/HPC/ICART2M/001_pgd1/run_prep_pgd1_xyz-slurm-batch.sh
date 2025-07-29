@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_fanny
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_fanny
+#SBATCH --output=prep_fanny.eo%j
+#SBATCH --error=prep_fanny.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:45:00
 
 export MPIRUN='Mpirun -np 1'
 

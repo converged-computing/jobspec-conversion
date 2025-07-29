@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-underoos-7895
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-cherry-0221
+#FLUX --urgency=16
 
 : ${PROJ_ID:=""}
 : ${QUEUE:=""}

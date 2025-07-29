@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NiP_MD
-#FLUX: -n=16
-#FLUX: --queue=stem
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=NiP_MD
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=stem
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

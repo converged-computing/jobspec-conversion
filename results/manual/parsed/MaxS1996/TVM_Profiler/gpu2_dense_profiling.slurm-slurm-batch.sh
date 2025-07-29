@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dense_TVMquick
-#FLUX: -c=8
-#FLUX: --queue=gpu2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dense_TVMquick
+#SBATCH --output=template_runner_gpu2_dense_%j.log
+#SBATCH --mail-user=s0144002@msx.tu-dresden.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=3000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu2
 
 export TVM_HOME='/home/s0144002/tvm_gpu2_power'
 export PYTHONPATH='$TVM_HOME/python:${PYTHONPATH}'

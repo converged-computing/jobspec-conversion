@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=visualize
-#FLUX: -n=8
-#FLUX: --queue=regular
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=visualize
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=regular
 
 module purge
 module load anyenv

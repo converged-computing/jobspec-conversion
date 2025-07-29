@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sentencepiece
-#FLUX: -n=8
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --job-name=sentencepiece
+#SBATCH --account=nn9851k
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=02:10:00
 
 source ${HOME}/.bashrc
 set -o errexit  # Recommended for easier debugging

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=filip120-3
-#FLUX: -N=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=filip120-3
+#SBATCH --account=trocks
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000M
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 source /cluster/bin/jobsetup
 module load intel

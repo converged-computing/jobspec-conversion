@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-1376
-#FLUX: --queue=cm3atou
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --output=python_%J_stdout.txt
+#SBATCH --error=python_%J_stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=cm3atou
+#SBATCH --constraint=ntasks-per-node=60
 
 module load Python/3.8.6-GCCcore-10.2.0
 source /home/xinwang/my_python_envs/python38/bin/activate

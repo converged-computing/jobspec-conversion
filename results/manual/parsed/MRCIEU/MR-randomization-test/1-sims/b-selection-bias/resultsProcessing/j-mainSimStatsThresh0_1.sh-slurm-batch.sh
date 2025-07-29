@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=j-mainSimStatsThresh0_1
-#FLUX: --queue=veryshort
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=j-mainSimStatsThresh0_1
+#SBATCH --account=ACC1234
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=06:00:00
+#SBATCH --partition=veryshort
+#SBATCH --constraint=ntasks-per-node=1
 
 export RES_DIR='${HOME}/2021-randomization-test/results'
 

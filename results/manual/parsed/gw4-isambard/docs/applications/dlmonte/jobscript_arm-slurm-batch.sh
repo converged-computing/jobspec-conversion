@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-onion-7485
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gw4-isambard/docs/applications/dlmonte/jobscript_arm

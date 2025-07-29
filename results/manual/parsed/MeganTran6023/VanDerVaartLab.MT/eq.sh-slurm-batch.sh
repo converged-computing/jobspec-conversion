@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemon-7973
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module purge
 module load apps/amber/18-19

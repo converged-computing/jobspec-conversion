@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pedo-2782
-#FLUX: --urgency=16
+#SBATCH --output=/vol/bitbucket/g21mscprj03/SSL/out/saliency/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'
 

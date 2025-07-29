@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-buttface-9136
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-toaster-1015
+#FLUX --queue=standard
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 module load singularity

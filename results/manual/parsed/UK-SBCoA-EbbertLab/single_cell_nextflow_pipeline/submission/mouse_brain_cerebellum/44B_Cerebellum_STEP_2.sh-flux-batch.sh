@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=43BHEK_unmapped
-#FLUX: --queue=normal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=43BHEK_unmapped
+#FLUX --queue=normal
+#FLUX -t=259200
+#FLUX --urgency=16
 
     # --ont_reads_txt "/scratch/bag222/data/ont_data/R10_V14_cDNA_Test_202310/final_data/*.txt" \
     # --contamination_ref "../../references/master_contaminant_reference.fasta" \

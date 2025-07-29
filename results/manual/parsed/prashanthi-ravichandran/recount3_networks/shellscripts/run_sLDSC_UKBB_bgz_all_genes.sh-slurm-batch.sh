@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_ldsc_UKBB_bgz_all_genes
-#FLUX: --queue=defq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_ldsc_UKBB_bgz_all_genes
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=02:00:00
+#SBATCH --partition=defq
 
 module load anaconda
 conda activate ldsc 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xsf_mpi
-#FLUX: --exclusive
-#FLUX: --queue=wzhcnormal
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#SBATCH --job-name=xsf_mpi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=25-00:00:00
+#SBATCH --partition=wzhcnormal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 export PATH='~/soft/miniconda/bin:$PATH'
 

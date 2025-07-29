@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=univ_alphastable_multi_ABC_dnn_small2
-#FLUX: --queue=lu
-#FLUX: -t=361800
-#FLUX: --urgency=16
+#SBATCH --job-name=univ_alphastable_multi_ABC_dnn_small2
+#SBATCH --account=lu2018-2-22
+#SBATCH --output=lunarc_output/univaralphastable/outputs_alphastable_multiple_ABC_dnn_small_%j.out
+#SBATCH --error=lunarc_output/univaralphastable/errors_alphastable_multiple_ABC_dnn_small_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12000
+#SBATCH --time=4-04:30:00
+#SBATCH --partition=lu
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

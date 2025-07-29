@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=baseline
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cudnn/7.6.5.32-10.2
 module load anaconda3

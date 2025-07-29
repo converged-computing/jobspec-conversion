@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-chair-2796
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/demo_containers/mpi/singularity/run_mpi%2Bgpu_container.sh

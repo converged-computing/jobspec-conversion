@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-spoon-2822
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ecoacoustics/website/content/resources/hpc/files/my_batch_job_python.sub

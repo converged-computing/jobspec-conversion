@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-snack-1612
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-carrot-1279
+#FLUX -c=8
+#FLUX -t=604800
+#FLUX --urgency=16
 
 lshw -C display | tail # write the acquired gpu properties
 lang=en

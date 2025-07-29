@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=6G
-#FLUX: -N=600
-#FLUX: --queue=pbatch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=6G
+#SBATCH --account=sunyb
+#SBATCH --mail-user=mtmcgurn@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=600
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=pbatch
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

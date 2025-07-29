@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-poo-2449
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-carrot-1724
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -a
 . ./nhm.env

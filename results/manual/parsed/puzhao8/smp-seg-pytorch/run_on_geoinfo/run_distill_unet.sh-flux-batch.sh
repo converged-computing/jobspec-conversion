@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=distill-unet
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=distill-unet
+#FLUX -c=8
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "start"
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"

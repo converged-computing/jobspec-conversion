@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bits-8359
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-nunchucks-9113
+#FLUX -t=8400
+#FLUX --urgency=16
 
 vcf=$1
 daner=$2

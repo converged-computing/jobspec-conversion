@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-malarkey-7177
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-parsnip-2802
+#FLUX -N=4
+#FLUX -n=96
+#FLUX --queue=parallel
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

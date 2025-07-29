@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-destiny-9039
-#FLUX: -c=6
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-bicycle-5965
+#FLUX -c=6
+#FLUX -t=39600
+#FLUX --urgency=16
 
 U_SIZE=$1
 V_SIZE=$2

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leader-0486
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=01:00:00
+#SBATCH --constraint=amd
+#SBATCH --array=0-XXXX
 
 MSLIST=$1
 BIND=$( python3 $HOME/parse_settings.py --BIND ) # SEE --> https://github.com/jurjen93/lofar_vlbi_helpers/blob/main/parse_settings.py

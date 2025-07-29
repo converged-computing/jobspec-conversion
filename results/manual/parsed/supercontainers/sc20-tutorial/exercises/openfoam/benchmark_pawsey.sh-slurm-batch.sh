@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --constraint=ntasks-per-node=1
 
 image="docker://pawsey/mpich-base:3.1.4_ubuntu18.04"
 osu_dir="/usr/local/libexec/osu-micro-benchmarks/mpi"

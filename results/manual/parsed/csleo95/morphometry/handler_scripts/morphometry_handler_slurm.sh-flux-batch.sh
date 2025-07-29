@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-taco-6702
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-cherry-6344
+#FLUX --urgency=16
 
 echo -e "\033[1;34m    ___   __   _   _   _____   _    _   _____        _____   ____   ____ "
 echo -e "\033[1;34m   |  _| |  \ | | | | |  ___| | \  / | |  _  |  __  |  _  | |  __| |  _ \ "

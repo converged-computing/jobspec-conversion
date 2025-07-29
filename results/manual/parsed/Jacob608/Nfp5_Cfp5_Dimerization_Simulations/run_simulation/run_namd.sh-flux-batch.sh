@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=jobname
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge all
 module load namd

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=seq2seq
-#FLUX: -c=16
-#FLUX: --queue=alpha
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=seq2seq
+#SBATCH --account=YOUR_ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --mem=100G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=alpha
+#SBATCH --constraint=ntasks-per-node=1
 
 while getopts dpl: flag
 do

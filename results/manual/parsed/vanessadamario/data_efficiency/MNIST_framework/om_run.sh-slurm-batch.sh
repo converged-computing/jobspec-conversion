@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=new_exp1
-#FLUX: --queue=normal
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=new_exp1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=25GB
+#SBATCH --time=1-01:00:00
+#SBATCH --partition=normal
+#SBATCH --chdir=/om/user/vanessad/MNIST_framework/
+#SBATCH --array=0-399
 
 module add openmind/singularity/3.4.1
 offset_array=(11088 11488 11888 12288 12688)

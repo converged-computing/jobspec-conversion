@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-motorcycle-0620
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-general-1832
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bacaron/app-analyzePRF/main

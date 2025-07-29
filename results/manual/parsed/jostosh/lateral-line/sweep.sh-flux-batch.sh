@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LLSWEEP
-#FLUX: -c=24
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=LLSWEEP
+#FLUX -c=24
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load tensorflow
 source $HOME/envs/ll/bin/activate

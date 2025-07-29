@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20220921-cvir-ceabigr-nextflow-epidiverse-snp
-#FLUX: --queue=srlab
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#FLUX --job-name=20220921-cvir-ceabigr-nextflow-epidiverse-snp
+#FLUX --queue=srlab
+#FLUX -t=1036800
+#FLUX --urgency=16
 
 bams_dir="/gscratch/scrubbed/samwhite/data/C_virginica/BSseq/120321-cvBS"
 epi_snp="/gscratch/srlab/programs/epidiverse-pipelines/snp"

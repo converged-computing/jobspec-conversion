@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mlp_pytorch_experiments
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mlp_pytorch_experiments
+#SBATCH --account=def-erajabi
+#SBATCH --output=/home/maiso/cbu/slurm/output/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=00:30:00
 
 echo Running script at $(pwd)
 ENV=pytorch

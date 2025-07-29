@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-2445
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-destiny-8877
+#FLUX -N=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module unload nvidia/cuda/10.0
 module load nvidia/cuda/10.2

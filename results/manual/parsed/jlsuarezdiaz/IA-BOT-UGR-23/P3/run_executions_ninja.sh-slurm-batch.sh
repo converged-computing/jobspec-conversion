@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-underoos-2330
-#FLUX: -c=16
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#SBATCH --output=slurm_outputs/%A.out
+#SBATCH --error=slurm_outputs/%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1G
+#SBATCH --partition=muylarga
 
 DB_FOLDER='ninja-battles'
 ID=$SLURM_JOB_NAME

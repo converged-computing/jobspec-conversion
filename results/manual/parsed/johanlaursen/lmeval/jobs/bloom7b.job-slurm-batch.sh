@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lmeval_bloom7B
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=lmeval_bloom7B
+#SBATCH --account=researchers
+#SBATCH --output=../logs/R-%x.%j.out
+#SBATCH --error=../logs/R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --time=02:00:00
+#SBATCH --partition=red,brown
+#SBATCH --constraint=gpu_rtx8000|gpu_a100_40gb|gpu_v100
 
 source activate lmeval # Not working???
 nvidia-smi

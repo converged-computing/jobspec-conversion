@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-onion-7056
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-diablo-6105
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3

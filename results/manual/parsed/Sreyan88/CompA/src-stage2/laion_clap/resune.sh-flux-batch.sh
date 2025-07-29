@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mclap
-#FLUX: -N=3
+#FLUX --job-name=mclap
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: --queue=gamma
-#FLUX: --urgency=16
+#FLUX --queue=gamma
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

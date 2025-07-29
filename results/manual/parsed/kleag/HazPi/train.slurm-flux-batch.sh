@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_train
-#FLUX: --queue=lasti,gpu,gpuv100,gpup6000
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=hazpi_train
+#FLUX --queue=lasti,gpu,gpuv100,gpup6000
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/users/gdechalendar/cuda/lib64:${LD_LIBRARY_PATH}'
 

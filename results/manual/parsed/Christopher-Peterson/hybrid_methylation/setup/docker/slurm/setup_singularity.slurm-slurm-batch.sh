@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=setup_singularity
-#FLUX: --queue=development
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=setup_singularity
+#SBATCH --output=logs/setup_sing.o
+#SBATCH --error=logs/setup_sing.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=development
 
 cdw singularity
 ml tacc-singularity

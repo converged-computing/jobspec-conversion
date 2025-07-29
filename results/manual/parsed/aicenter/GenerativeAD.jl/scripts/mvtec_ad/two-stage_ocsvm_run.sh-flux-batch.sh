@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cat-6064
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-lettuce-0917
+#FLUX -t=86400
+#FLUX --urgency=16
 
 MAX_SEED=$1
 DATASET=$2

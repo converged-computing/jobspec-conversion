@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=um_tar
-#FLUX: --queue=nesi_prepost
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=um_tar
+#SBATCH --account=niwa00013
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nesi_prepost
+#SBATCH --array=1950-2014
 
 export suite='dc545'
 

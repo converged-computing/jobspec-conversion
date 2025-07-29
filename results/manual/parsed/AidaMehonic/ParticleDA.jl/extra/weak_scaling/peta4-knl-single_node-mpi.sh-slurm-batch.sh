@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scaling_test.jl
-#FLUX: -n=64
-#FLUX: --queue=knl
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=scaling_test.jl
+#SBATCH --account=T2-CS097-KNL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=knl
+#SBATCH --constraint=cache
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='$OMP_NUM_THREADS'

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=EQ_POCE_120
-#FLUX: -N=3
-#FLUX: -n=96
-#FLUX: --queue=cmain
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=EQ_POCE_120
+#SBATCH --output=starting.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6000
+#SBATCH --time=00:30:00
+#SBATCH --partition=cmain
 
 module purge
 module load gcc cuda mvapich2/2.2

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GPU_stncl
-#FLUX: --queue=dav
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=GPU_stncl
+#SBATCH --account=NTDD0002
+#SBATCH --output=log.stncl_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:15:00
+#SBATCH --partition=dav
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='${NCAR_ROOT_CUDA}/lib64:${LD_LIBRARY_PATH}'
 export NV_ACC_TIME='1'

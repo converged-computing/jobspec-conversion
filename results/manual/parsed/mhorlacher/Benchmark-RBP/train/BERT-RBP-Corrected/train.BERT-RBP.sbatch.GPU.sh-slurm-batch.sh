@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=BERT-RBP-snakemake
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=115200
-#FLUX: --urgency=15
+#SBATCH --job-name=BERT-RBP-snakemake
+#SBATCH --output=logs/%j.job
+#SBATCH --error=logs/%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=gpu_p
+#SBATCH --qos=low
 
 sbatch --wait << EOF
 source $HOME/.bashrc

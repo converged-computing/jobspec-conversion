@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mutualinfo
-#FLUX: --queue=general
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=mutualinfo
+#FLUX --queue=general
+#FLUX -t=5400
+#FLUX --urgency=16
 
 ml use /opt/insy/modulefiles;
 ml load cuda/11.0;

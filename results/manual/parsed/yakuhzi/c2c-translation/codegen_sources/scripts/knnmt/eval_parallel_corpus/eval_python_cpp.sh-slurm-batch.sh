@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=knnmt_eval_python_cpp
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#SBATCH --job-name=knnmt_eval_python_cpp
+#SBATCH --output=knnmt_eval_python_cpp_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=01:15:00
 
 MODEL_PATH='models/Online_ST_Python_CPP.pth'
 DUMP_PATH='dump/knnmt/parallel_corpus/python_cpp'

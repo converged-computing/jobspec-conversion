@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=3DGAN
-#FLUX: -N=16
-#FLUX: --urgency=16
+#SBATCH --job-name=3DGAN
+#SBATCH --output=gpujob-%j.out
+#SBATCH --error=gpujob-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=20000
+#SBATCH --constraint=ntasks-per-node=1
 
 module load nvidia/cuda/11.0
 . /apps/local/conda_init.sh 

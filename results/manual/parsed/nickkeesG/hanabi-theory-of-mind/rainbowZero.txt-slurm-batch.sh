@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lentil-5034
-#FLUX: --queue=gpu
-#FLUX: -t=79200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=22:00:00
+#SBATCH --partition=gpu
 
 module load CUDA/10.0.130 
 module load GCC/7.3.0-2.30

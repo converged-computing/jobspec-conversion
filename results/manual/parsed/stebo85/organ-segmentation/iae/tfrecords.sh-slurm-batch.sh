@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=OSP
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=OSP
+#SBATCH --output=out.txt
+#SBATCH --error=err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 module load gnu7

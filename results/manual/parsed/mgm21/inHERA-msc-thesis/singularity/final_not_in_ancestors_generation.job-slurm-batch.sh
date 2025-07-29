@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-diablo-9595
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mgm21/inHERA-msc-thesis/singularity/final_not_in_ancestors_generation.job

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=viewfool-attack-hotdog
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=viewfool-attack-hotdog
+#SBATCH --account=carney-tserre-condo
+#SBATCH --output=log-viewfool-attack-hotdog-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 cd ~/Neurips2023/ViewFool_
 module load anaconda/latest

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-knife-0022
-#FLUX: -N=6
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-house-4652
+#FLUX -N=6
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export JULIA_WORKER_TIMEOUT='300'
 

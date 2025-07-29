@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=WriteFile
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=WriteFile
+#FLUX -n=4
+#FLUX -c=7
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

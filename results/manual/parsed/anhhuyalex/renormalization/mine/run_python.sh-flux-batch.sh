@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lemur-0341
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-puppy-8633
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source activate pytorch_resnet
 python_script=$1

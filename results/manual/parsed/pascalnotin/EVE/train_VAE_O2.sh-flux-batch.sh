@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=EVE
-#FLUX: -c=12
-#FLUX: --queue=gpu_quad
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=EVE
+#FLUX -c=12
+#FLUX --queue=gpu_quad
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export MSA_data_folder='/n/groups/marks/projects/marks_lab_and_oatml/DRP_part_2/MSA_files/MSAs_0B1P'
 export MSA_list='/home/pn73/EVE/data/mappings/mapping_evol_indices_wave2.csv'

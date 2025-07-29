@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=relion_test
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=cpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=relion_test
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -c=2
+#FLUX --gpus-per-task=1
+#FLUX --queue=cpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

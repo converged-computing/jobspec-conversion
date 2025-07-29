@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Julia_test
-#FLUX: --queue=shortq
-#FLUX: --urgency=16
+#FLUX --job-name=Julia_test
+#FLUX --queue=shortq
+#FLUX --urgency=16
 
 export WORK_DIR='/data/$USER/Julia_${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/input'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=NAME
+#FLUX -t=129600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 imodule load icc_17-impi_2017

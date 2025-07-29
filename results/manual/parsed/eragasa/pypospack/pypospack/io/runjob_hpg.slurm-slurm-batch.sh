@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --mail-user=eragasa@ufl.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --qos=phillpot
 
 echo slurm_job_id:$SLURM_JOB_ID
 echo slurm_job_name:$SLURM_JOB_NAME

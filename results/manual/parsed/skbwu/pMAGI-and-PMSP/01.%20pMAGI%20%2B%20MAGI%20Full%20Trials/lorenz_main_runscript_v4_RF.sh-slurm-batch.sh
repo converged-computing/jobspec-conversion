@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=LM4_RF
-#FLUX: --queue=sapphire,shared
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=LM4_RF
+#SBATCH --output=/n/holyscratch01/kou_lab/swu/camera_ready/01.2_pMAGI+MAGI_full-trials_REFIRE/outputs/LMRF_%j.out
+#SBATCH --error=/n/holyscratch01/kou_lab/swu/camera_ready/01.2_pMAGI+MAGI_full-trials_REFIRE/errors/LMRF_%j.err
+#SBATCH --mail-user=skylerwu@college.harvard.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=00:12:00
+#SBATCH --partition=sapphire,shared
 
 export R_LIBS_USER='/n/home11/skbwu/apps/R_422 # tell R where to look for locally installed packages'
 

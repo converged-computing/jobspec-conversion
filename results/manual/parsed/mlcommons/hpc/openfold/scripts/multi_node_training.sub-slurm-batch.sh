@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold-reference
-#FLUX: -N=16
-#FLUX: --exclusive
-#FLUX: -t=8100
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:openfold-reference
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:15:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export DATESTAMP='$(date +"%y%m%d%H%M%S%N")'

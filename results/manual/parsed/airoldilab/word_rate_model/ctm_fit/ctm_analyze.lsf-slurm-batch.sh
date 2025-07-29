@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kitty-7450
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/word_rate_model/ctm_fit/ctm_analyze.lsf

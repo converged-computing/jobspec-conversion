@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sample
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=sample
+#SBATCH --output=%J.out
+#SBATCH --error=%J.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
 
 export SLURM_HOSTFILE='hostlist'
 

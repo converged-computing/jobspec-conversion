@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=FASTQC_snakemake
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=FASTQC_snakemake
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export PERL5LIB='/packages/6x/vcftools/0.1.12b/lib/perl5/site_perl'
 

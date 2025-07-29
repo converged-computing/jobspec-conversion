@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-3727
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jasonlarkin/disorder/lj/amor/4x/AF/NMD/NMD_1_1.sh~

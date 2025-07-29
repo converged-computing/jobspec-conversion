@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-staircase-8537
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-caramel-8838
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX -t=60
+#FLUX --urgency=16
 
 export PMI_MAX_KVS_ENTRIES='128'
 export LCI_ENABLE_PRG_NET_ENDPOINT='0'

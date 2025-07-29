@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=H32-S24
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=H32-S24
+#SBATCH --output=slurm_out_2/h32-S24-%j.out
+#SBATCH --error=slurm_out_2/h32-S24-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8g
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --array=1-100
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

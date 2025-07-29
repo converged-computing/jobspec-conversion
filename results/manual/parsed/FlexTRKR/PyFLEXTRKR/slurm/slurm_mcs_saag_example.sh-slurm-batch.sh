@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SAAGmcs
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=SAAGmcs
+#SBATCH --account=m1657
+#SBATCH --output=log_mcs_saag_test.log
+#SBATCH --mail-user=zhe.feng@pnnl.gov
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu,ntasks-per-node=128
 
 date
 module load python

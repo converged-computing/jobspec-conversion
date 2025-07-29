@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-staircase-3741
-#FLUX: -N=2
-#FLUX: --queue=DevQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=ichec004
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=DevQ
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

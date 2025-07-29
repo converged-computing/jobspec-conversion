@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-blackbean-0398
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-nunchucks-7386
+#FLUX -c=12
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load singularity
 singularity exec \

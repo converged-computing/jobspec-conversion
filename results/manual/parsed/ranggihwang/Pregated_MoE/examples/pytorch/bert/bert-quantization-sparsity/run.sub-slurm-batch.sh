@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-dog-3654
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 set -eux
 readonly docker_image="nvcr.io/nvidia/pytorch:20.06-py3"

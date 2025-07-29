@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-gato-3724
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
   source $(dirname $0)/../../model/bin/w3_setenv
   main_dir=$WWATCH3_DIR

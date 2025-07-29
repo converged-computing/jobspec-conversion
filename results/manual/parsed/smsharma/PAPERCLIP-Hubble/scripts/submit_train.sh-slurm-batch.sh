@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=iaifi_gpu_priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=iaifi_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=iaifi_gpu_priority
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 export ENV='multimodal-hubble'

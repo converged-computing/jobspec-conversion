@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eval_all_pruner
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#FLUX --job-name=eval_all_pruner
+#FLUX --queue=a800
+#FLUX --urgency=16
 
 export MASTER_PORT='12345'
 export CUDA_HOME='/remote-home/zyzeng/cuda-11.8'

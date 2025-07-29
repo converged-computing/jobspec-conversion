@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=streamtriad_daxpy_benchmarking
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=streamtriad_daxpy_benchmarking
+#FLUX -t=3600
+#FLUX --urgency=16
 
 unset SLURM_EXPORT_ENV
 module purge

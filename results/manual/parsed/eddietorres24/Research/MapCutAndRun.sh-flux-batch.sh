@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ET_mapChIPseq
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ET_mapChIPseq
+#FLUX -c=24
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source config.txt

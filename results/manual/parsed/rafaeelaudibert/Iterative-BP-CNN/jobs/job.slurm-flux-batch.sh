@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=iterative-bp-cnn
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=iterative-bp-cnn
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load nvidia/latest
 module load anaconda3/latest

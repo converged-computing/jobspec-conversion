@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=name
-#FLUX: -c=2
-#FLUX: --queue=s.phys
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=name
+#SBATCH --output=./tjob.out.%j
+#SBATCH --error=./tjob.err.%j
+#SBATCH --mail-user=<userid>@rzg.mpg.de
+#SBATCH --mail-type=none
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:rtx6000:3
+#SBATCH --mem=170000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=s.phys
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --chdir=./
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPI_NUM_RANKS='$SLURM_NTASKS_PER_NODE'

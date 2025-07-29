@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-frito-4842
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=def-miranska
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=03:00:00
+#SBATCH --array=0-99
 
 cp *.json $SLURM_TMPDIR
 cp *.py $SLURM_TMPDIR

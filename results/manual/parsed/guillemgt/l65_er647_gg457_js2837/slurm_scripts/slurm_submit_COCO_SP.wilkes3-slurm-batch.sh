@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=COCO_SP
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=COCO_SP
+#SBATCH --account=COMPUTERLAB-SL2-GPU
+#SBATCH --output=./logs/COCO_SP/slurm-%j.out
+#SBATCH --error=./logs/COCO_SP/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=ampere
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 

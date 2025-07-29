@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-6364
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=blank-earthworm-9101
+#FLUX -c=4
+#FLUX --urgency=16
 
 set -e # fail fully on first line failure
 path_to_conda="./miniconda3"

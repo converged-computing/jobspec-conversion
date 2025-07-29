@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cw-test
-#FLUX: --urgency=16
+#FLUX --job-name=cw-test
+#FLUX --urgency=16
 
 module purge
 module load intel/18 python/3.6.4 

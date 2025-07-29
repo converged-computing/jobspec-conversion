@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-citrus-7168
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.err
+#SBATCH --error=%x-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=256GB
+#SBATCH --constraint=ntasks-per-node=16
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

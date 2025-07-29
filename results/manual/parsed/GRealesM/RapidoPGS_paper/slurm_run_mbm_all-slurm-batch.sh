@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mbmall
-#FLUX: -n=15
-#FLUX: --queue=skylake-himem
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=mbmall
+#SBATCH --account=CWALLACE-SL2-CPU
+#SBATCH --output=./err/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=skylake-himem
 
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
 

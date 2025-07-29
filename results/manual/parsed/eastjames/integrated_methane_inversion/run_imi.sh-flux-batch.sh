@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=t3_run_imi
-#FLUX: -c=32
-#FLUX: --queue=sapphire
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=t3_run_imi
+#FLUX -c=32
+#FLUX --queue=sapphire
+#FLUX -t=360
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${InversionPath}'
 

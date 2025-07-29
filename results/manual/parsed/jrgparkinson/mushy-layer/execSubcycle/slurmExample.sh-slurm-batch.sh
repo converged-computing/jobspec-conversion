@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pts256CR76.000RaC80
-#FLUX: -n=2
-#FLUX: --queue=legacy
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=pts256CR76.000RaC80
+#SBATCH --output=/network/group/aopp/oceans/AW002_PARKINSON_MUSH/optimalStates-restructured/Le200/CR76.000/RaC80/pts256-0/sbatch.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=legacy
+#SBATCH --constraint=ntasks-per-node=2,ntasks-per-socket=1
+#SBATCH --exclude=cirrus[1-4],yau[1-6],yau[8-10],yau12
 
 python /run/preprocess/code.py
 cd /network/group/aopp/oceans/AW002_PARKINSON_MUSH/optimalStates-restructured/Le200/CR76.000/RaC80/pts256-0; 

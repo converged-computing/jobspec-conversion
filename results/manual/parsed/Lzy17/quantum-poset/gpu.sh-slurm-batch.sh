@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=posets
-#FLUX: --queue=gpu-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=posets
+#SBATCH --account=use320
+#SBATCH --output=poset.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=6
 
 module purge
 module list

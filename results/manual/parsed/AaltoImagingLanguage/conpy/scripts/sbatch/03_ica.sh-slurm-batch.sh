@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cherry-8133
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=00:15:00
+#SBATCH --array=1-16
 
 export OMP_NUM_THREADS='1'
 export DISPLAY=':99.0'

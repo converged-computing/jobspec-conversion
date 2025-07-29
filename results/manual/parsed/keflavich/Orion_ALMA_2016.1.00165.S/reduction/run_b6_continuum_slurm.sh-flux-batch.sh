@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cinnamonbun-4475
-#FLUX: -n=8
-#FLUX: -t=1065600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-bike-0018
+#FLUX -n=8
+#FLUX -t=1065600
+#FLUX --urgency=16
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 

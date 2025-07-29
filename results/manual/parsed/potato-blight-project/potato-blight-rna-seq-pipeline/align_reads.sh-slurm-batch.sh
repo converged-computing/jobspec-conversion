@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=align_reads
-#FLUX: -n=20
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=align_reads
+#SBATCH --account=leachlj-potato-qtl-project
+#SBATCH --output=slurm-%x_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --array=1-36
 
 set -e
 module purge; module load bluebear

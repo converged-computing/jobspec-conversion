@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Bayes-fpointnet
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Bayes-fpointnet
+#SBATCH --output=/home/jbandl2s/train.%j.out
+#SBATCH --error=/home/jbandl2s/train.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=32
 
 module load cuda
 cd /home/jbandl2s/Reference

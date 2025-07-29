@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=openmpcode
-#FLUX: -c=48
+#FLUX --job-name=openmpcode
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=day-long-cpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=day-long-cpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='close'
 

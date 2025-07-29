@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=VIR_DB
-#FLUX: -c=8
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=VIR_DB
+#SBATCH --output=./out/10.vin/PD_w_neg_index.out
+#SBATCH --error=./err/10.vin/PD_w_neg_index.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32gb
+#SBATCH --time=01:59:00
 
 module purge
 module load Bowtie2

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CaseScaff4.SM.main
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CaseScaff4.SM.main
+#SBATCH --output=mainout.txt
+#SBATCH --error=mainerr.txt
+#SBATCH --mail-user=aconwill@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=defq
 
 bash snakemakeslurm.sh
 echo Done!!!

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=GATK.HTC
-#FLUX: -n=8
-#FLUX: --urgency=16
+#FLUX --job-name=GATK.HTC
+#FLUX -n=8
+#FLUX --urgency=16
 
 module unload java
 module load java/8

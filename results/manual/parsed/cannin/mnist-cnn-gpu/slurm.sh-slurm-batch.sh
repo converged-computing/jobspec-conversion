@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-omelette-4866
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=augustin_luna@hms.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:teslaK80:2
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
 
 module load gcc/6.2.0
 module load python/3.7.4

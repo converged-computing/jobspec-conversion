@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-carrot-7252
-#FLUX: --queue=gpu
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-fork-0336
+#FLUX --queue=gpu
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export TEST='data/$4/$5'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lr
-#FLUX: --queue=IllinoisComputes-GPU
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lr
+#SBATCH --account=bbradlyn-ic
+#SBATCH --mail-user=dmanningcoe@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=IllinoisComputes-GPU
+#SBATCH --array=1-12
 
 module load anaconda/2023-Mar/3
 module load cuda/11.7

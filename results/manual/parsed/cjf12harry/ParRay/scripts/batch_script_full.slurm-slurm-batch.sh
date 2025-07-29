@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=parRay-team7
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=cs
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=parRay-team7
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:20:00
+#SBATCH --partition=cs
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 echo `whoami`
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

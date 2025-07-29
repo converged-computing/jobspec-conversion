@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resp_postproc
-#FLUX: --queue=bigmem
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=resp_postproc
+#FLUX --queue=bigmem
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export LAUNCHER_WORKDIR='/cluster/projects/nn9464k/fabio/OSCAR_response_results/641159/data'
 export LD_LIBRARY_PATH='/cluster/home/fabiobz/progs/xerces-c-3.2.3/install/lib:$LD_LIBRARY_PATH'

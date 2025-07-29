@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=melt
-#FLUX: --queue=gor
-#FLUX: --urgency=16
+#SBATCH --job-name=melt
+#SBATCH --output=melt.stdout
+#SBATCH --error=melt.stderr
+#SBATCH --mail-user=UCID@njit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --partition=gor
+#SBATCH --constraint=ntasks-per-node=8
 
 module load singularity gnu8 openmpi3
 rm -rf out

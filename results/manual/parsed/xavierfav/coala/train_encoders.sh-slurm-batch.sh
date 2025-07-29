@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rep-learning
-#FLUX: --queue=gpu
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=rep-learning
+#SBATCH --account=asignal
+#SBATCH --output=/scratch/asignal/favoryxa/out/%J.%u.out
+#SBATCH --error=/scratch/asignal/favoryxa/out/%J.%u.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=12000
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=gpu
 
 printf "[----]\n"
 printf "Starting execution of job $SLURM_JOB_ID from user $LOGNAME\n"

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=diffae_autoenc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=diffae_autoenc
+#SBATCH --output=output.log
+#SBATCH --error=errors.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
 
 export CONDA_ROOT='$HOME/anaconda3'
 export PATH='$CONDA_ROOT/bin:$PATH'

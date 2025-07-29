@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-banana-2163
-#FLUX: -c=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=paul.bautin@polymtl.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=250G
+#SBATCH --time=2-00:00:00
 
                                # See the comment for the cpus-per-task. One general rule could be
                                # that if you have more subjects than cores/cpus (ex, if you process 38

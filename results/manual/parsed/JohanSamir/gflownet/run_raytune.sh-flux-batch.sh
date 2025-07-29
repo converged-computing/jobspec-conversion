@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=raytune
+#FLUX -c=8
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load python/3.9 cuda/11.7 
 source ~/venvs/gflownet/bin/activate

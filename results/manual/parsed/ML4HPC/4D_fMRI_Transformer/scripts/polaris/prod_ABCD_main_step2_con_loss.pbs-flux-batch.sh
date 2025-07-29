@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-truffle-0143
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-salad-5469
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_ABCD_main_step2_con_loss.pbs

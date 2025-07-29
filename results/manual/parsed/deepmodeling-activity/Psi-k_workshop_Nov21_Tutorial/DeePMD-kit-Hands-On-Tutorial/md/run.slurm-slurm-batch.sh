@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=water_run
-#FLUX: -n=28
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=water_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=20:00:00
 
 export OMP_NUM_THREADS='1'
 

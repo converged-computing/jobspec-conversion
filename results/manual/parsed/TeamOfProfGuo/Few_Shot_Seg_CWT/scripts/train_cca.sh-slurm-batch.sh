@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=p
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=p
+#SBATCH --output=seg.out
+#SBATCH --mail-user=lg154@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=20GB
+#SBATCH --time=1-00:00:00
 
 module purge
 DATA=$1

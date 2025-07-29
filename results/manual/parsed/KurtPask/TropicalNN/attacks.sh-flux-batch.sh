@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tropical_nn
-#FLUX: -c=25
-#FLUX: --queue=beards
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=tropical_nn
+#FLUX -c=25
+#FLUX --queue=beards
+#FLUX -t=72000
+#FLUX --urgency=16
 
 . /etc/profile
 module load lang/python/3.8.11

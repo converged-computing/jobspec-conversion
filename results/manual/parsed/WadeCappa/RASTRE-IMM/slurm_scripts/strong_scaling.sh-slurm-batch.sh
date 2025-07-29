@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=m65_wikipedia
-#FLUX: -N=65
-#FLUX: --queue=regular
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=m65_wikipedia
+#SBATCH --account=m1641
+#SBATCH --output=/global/cfs/cdirs/m1641/network-results/strong_scaling/wikipedia/m65_wikipedia.o
+#SBATCH --error=/global/cfs/cdirs/m1641/network-results/strong_scaling/wikipedia/m65_wikipedia.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=65
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu,ntasks-per-node=1
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

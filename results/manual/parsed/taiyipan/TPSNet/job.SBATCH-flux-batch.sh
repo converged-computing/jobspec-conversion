@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=48
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=resnet
+#FLUX -c=48
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

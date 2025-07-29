@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ice_cpu
-#FLUX: -c=12
-#FLUX: --queue=cpu
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=ice_cpu
+#FLUX -c=12
+#FLUX --queue=cpu
+#FLUX -t=720
+#FLUX --urgency=16
 
 export CUDA_DEVICE_ORDER='PCI_BUS_ID'
 export CUDA_VISIBLE_DEVICES='0,1,2'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-2372
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/erdc/proteus_tutorial/3d/marin.pbs

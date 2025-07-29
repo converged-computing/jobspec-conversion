@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ada_vit
-#FLUX: -c=8
-#FLUX: --queue=lianglab,research
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#SBATCH --job-name=ada_vit
+#SBATCH --output=./eulerlog/ft_array_job_slurm_%A_%a.out
+#SBATCH --error=./eulerlog/ft_array_job_slurm_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=10-16:00:00
+#SBATCH --partition=lianglab,research
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=euler[01-09],euler[11-12],euler[14],euler[24-27]
 
 source ~/.bashrc
 echo "SLURM_JOBID: " $SLURM_JOBID

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-3291
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-cattywampus-2397
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LANG='C.UTF-8'
 

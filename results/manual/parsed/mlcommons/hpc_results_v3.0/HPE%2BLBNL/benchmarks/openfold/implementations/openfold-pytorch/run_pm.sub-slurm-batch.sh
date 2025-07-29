@@ -1,13 +1,20 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc-openfold
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc-openfold
+#SBATCH --account=dasrepo
+#SBATCH --output=openfold_test.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu&hbm80g
 
 export MODEL_NAME='openfold'
 export MODEL_FRAMEWORK='pytorch'
 export MASTER_ADDR='$(hostname)'
 
+singularity
+exec
+schheda/openfold:23.07-opt
 set -euxo pipefail
 : "${MLPERF_RULESET:=2.0.0}"
 : "${DGXNGPU:=4}"

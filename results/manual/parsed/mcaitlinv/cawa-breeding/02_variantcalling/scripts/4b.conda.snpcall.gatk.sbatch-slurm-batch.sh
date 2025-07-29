@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=results/slurm_logs/variants/4b.gatk
-#FLUX: --queue=shas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=results/slurm_logs/variants/4b.gatk
+#SBATCH --output=results/slurm_logs/variants/4b.gatk.%A_%a.out
+#SBATCH --error=results/slurm_logs/variants/4b.gatk.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=36G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=1-535
 
 set -x
 module purge

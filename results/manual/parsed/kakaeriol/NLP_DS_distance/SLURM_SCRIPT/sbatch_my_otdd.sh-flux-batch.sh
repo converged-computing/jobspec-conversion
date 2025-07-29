@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_run
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=slurm_run
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 ulimit -s 10240
 ulimit -u 100000

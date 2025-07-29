@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bits-0859
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-arm-9629
+#FLUX --urgency=16
 
 export SINGULARITYENV_OMP_NUM_THREADS='$OMP_NUM_THREADS'
 

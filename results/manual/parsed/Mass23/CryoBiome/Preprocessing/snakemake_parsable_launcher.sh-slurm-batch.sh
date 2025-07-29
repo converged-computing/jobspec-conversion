@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nomis
-#FLUX: --queue=batch
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=nomis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=qos-batch
 
 export PYTHONNOUSERSITE='TRUE'
 

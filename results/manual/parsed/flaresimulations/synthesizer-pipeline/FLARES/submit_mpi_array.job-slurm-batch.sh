@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=synthesizer_FLARES_pipeline
-#FLUX: -n=112
-#FLUX: --exclusive
-#FLUX: --queue=cosma7-rp
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=synthesizer_FLARES_pipeline
+#SBATCH --account=dp004
+#SBATCH --output=logs/job.%J.dump
+#SBATCH --error=logs/job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=112
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cosma7-rp
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
+#SBATCH --array=0-479
 
 module purge
 module load rockport-settings

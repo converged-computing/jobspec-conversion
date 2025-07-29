@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=A$i-f$j
-#FLUX: --queue=standard
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=A$i-f$j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=2
 
 frequency=($(seq 1 1 2))
 amplitude=($(seq 1 1 2))

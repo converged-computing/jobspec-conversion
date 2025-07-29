@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=c3d
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=c3d
+#SBATCH --output=c3d_%J.out
+#SBATCH --error=c3d_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:maxwell:1
+#SBATCH --mem=60G
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/gmarti/LOGS
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'
 

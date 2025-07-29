@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prop_voting_rts_p_sweep
-#FLUX: -N=4
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=prop_voting_rts_p_sweep
+#SBATCH --output=./output/%j.%x.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=28
 
 module load slurm_setup
 module load julia/1.8.2

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=xxx
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=xxx
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load openmpi

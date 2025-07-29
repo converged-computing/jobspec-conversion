@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kallisto
-#FLUX: -c=15
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=kallisto
+#FLUX -c=15
+#FLUX --queue=general
+#FLUX --urgency=16
 
 hostname
 date

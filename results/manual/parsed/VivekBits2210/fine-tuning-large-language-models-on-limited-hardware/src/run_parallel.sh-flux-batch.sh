@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=trainer
-#FLUX: -c=8
-#FLUX: -t=86100
-#FLUX: --urgency=16
+#FLUX --job-name=trainer
+#FLUX -c=8
+#FLUX -t=86100
+#FLUX --urgency=16
 
 echo "Hostname: $(hostname)"
 echo "Processor: $(lscpu | grep 'Model name' | awk -F ':' '{print $2}' | xargs)"

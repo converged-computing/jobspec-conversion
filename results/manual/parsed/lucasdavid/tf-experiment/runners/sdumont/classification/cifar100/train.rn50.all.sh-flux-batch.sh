@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lerdl-ss-cifar100-train.rn50.all
-#FLUX: --queue=sequana_gpu_shared
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=lerdl-ss-cifar100-train.rn50.all
+#FLUX --queue=sequana_gpu_shared
+#FLUX -t=345600
+#FLUX --urgency=16
 
 echo "[cifar100/train.rn50.all.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

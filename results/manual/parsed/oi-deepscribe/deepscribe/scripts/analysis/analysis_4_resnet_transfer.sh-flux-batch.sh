@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-8703
-#FLUX: --queue=gpu2
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pot-4371
+#FLUX --queue=gpu2
+#FLUX --urgency=16
 
 module load cuda/9.1
 SIGNS='["na","HAL","iš","MEŠ"]'

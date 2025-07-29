@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=p4p1
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=p4p1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4,amd20
 
 cd $SLURM_SUBMIT_DIR   
 mpic++ -fopenmp matmulti_omp_mpi.cpp -o matmulti_omp_mpi

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=troadgfortran
-#FLUX: --queue=sched_mit_darwin
-#FLUX: --urgency=16
+#FLUX --job-name=troadgfortran
+#FLUX --queue=sched_mit_darwin
+#FLUX --urgency=16
 
 export LC_ALL='en_US.iso885915'
 

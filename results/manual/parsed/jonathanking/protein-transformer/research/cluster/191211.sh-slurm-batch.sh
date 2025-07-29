@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=name=pt-sweep
-#FLUX: --queue=dept_gpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=name=pt-sweep
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10g
+#SBATCH --partition=dept_gpu
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1-4
 
 work_dir=$(pwd)
 user=$(whoami)

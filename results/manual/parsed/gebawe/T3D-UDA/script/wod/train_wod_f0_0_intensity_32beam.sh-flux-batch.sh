@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-dog-3560
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#FLUX --job-name=salted-bicycle-2446
+#FLUX -c=24
+#FLUX --queue=amdgpuextralong
+#FLUX -t=1814400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='0'
 

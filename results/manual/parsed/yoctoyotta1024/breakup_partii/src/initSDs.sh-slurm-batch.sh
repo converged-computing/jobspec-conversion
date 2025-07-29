@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=initSDs
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=initSDs
+#SBATCH --account=mh1126
+#SBATCH --output=./initSDs_out.%j.out
+#SBATCH --error=./initSDs_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=128
 
 module load python3/2022.01-gcc-11.2.0
 source activate /work/mh1126/m300950/condaenvs/superdropsenv

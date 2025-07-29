@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-onion-8941
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SKA-INAF/caesar/scripts/RunCASASimulation.sh

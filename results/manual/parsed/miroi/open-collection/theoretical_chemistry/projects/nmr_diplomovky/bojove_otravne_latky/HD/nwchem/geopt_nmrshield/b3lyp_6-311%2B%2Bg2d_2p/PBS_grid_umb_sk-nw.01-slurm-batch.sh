@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-7614
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/HD/nwchem/geopt_nmrshield/b3lyp_6-311%2B%2Bg2d_2p/PBS_grid_umb_sk-nw.01

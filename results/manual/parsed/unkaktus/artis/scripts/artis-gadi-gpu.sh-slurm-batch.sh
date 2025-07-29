@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-4059
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/unkaktus/artis/scripts/artis-gadi-gpu.sh

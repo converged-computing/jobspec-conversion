@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bt-$site
-#FLUX: -n=12
-#FLUX: --queue=shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=bt-$site
+#FLUX -n=12
+#FLUX --queue=shared
+#FLUX -t=21600
+#FLUX --urgency=16
 
 prefix=$1
 sites=(BAL MIN SAN NYC SAC DEN)

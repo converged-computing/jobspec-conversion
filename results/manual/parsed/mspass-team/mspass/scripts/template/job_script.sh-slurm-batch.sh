@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mspass
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=skx-normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mspass
+#SBATCH --account=MsPASS
+#SBATCH --output=mspass.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=skx-normal
 
 ml unload xalt
 ml tacc-singularity

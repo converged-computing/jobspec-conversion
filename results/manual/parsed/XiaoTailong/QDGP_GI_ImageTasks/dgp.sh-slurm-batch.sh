@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DGP128
-#FLUX: -c=20
-#FLUX: --queue=CLUSTER
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=DGP128
+#SBATCH --output=./output/%x-%j.out
+#SBATCH --error=./output/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=CLUSTER
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=compute-0-1
 
 module load python/anaconda3
 module load cuda/cuda-11.4

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-6694
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=cuda_job.out
+#SBATCH --error=cuda_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load nvidia-hpc-sdk

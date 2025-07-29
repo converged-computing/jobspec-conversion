@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Ruth_Bench
-#FLUX: -N=2
-#FLUX: --queue=qcpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Ruth_Bench
+#SBATCH --account=DD-23-154
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=qcpu
 
 ml purge
 ml Python/3.10.8-GCCcore-12.2.0

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=roi_est
-#FLUX: -c=6
-#FLUX: --queue=msismall,amdsmall
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=roi_est
+#SBATCH --account=${PROFILE}
+#SBATCH --output=batch_logs/%x_%A_%a.out
+#SBATCH --error=batch_logs/%x_%A_%a.err
+#SBATCH --mail-user=${USER}@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=8G
+#SBATCH --time=03:00:00
+#SBATCH --partition=msismall,amdsmall
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

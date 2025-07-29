@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=omp_photon
-#FLUX: -c=80
+#FLUX --job-name=omp_photon
+#FLUX -c=80
 #FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=defq
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 export CC='icc'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Aniso_inv
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=Aniso_inv
+#FLUX -N=4
+#FLUX -n=32
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

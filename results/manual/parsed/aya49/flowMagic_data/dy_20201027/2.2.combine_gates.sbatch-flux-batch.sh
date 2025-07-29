@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lamp-4280
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=salted-hippo-0734
+#FLUX -t=240
+#FLUX --urgency=16
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

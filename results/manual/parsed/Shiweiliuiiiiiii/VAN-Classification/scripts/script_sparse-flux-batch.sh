@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-rabbit-3603
-#FLUX: -c=72
+#FLUX --job-name=tart-arm-7644
+#FLUX -c=72
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=259140
+#FLUX --urgency=16
 
 source /home/shiweil/miniconda3/etc/profile.d/conda.sh
 source activate pt1.10_cuda11.3

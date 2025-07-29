@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=505_Array_Freebayes
-#FLUX: -n=20
-#FLUX: --queue=production
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=505_Array_Freebayes
+#FLUX -n=20
+#FLUX --queue=production
+#FLUX -t=86400
+#FLUX --urgency=16
 
 aklog
 /bin/hostname

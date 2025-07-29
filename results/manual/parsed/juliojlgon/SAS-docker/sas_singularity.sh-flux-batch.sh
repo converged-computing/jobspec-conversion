@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fudge-0734
-#FLUX: --queue=shared-cpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-soup-0802
+#FLUX --queue=shared-cpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 export HOME='/home/heasoft'
 

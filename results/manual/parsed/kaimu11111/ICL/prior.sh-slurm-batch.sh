@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test_fiveDifTask
-#FLUX: --queue=a100-4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_fiveDifTask
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=62gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=a100-4
 
 TRAIN_METHOD=channel
 TEST_METHOD=channel

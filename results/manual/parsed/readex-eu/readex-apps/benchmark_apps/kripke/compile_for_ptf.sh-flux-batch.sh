@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bits-4601
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-puppy-8658
+#FLUX -c=24
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory $FILTER_GCC $READEX_CXX $FILTER_ICC'
 

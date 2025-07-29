@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cinnamonbun-3141
-#FLUX: -N=2
-#FLUX: -c=120
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=120
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export PMIX_MCA_gds='hash'
 export n_jobs='$SLURM_CPUS_PER_TASK'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Diffitrack_private04
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=Diffitrack_private04
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=86399
+#FLUX --urgency=16
 
 module load GpuModules
 module load cuda10.2/toolkit/10.2.89

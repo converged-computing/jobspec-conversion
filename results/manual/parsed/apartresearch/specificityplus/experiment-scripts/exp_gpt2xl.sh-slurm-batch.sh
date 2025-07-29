@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-diablo-5258
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:a6000:1
+#SBATCH --mem=20000
+#SBATCH --time=12:00:00
 
 export MODEL='models--gpt2-xl'
 export MODEL_NAME='gpt2-xl'

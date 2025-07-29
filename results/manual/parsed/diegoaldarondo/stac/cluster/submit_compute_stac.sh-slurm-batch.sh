@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=compute_stac
-#FLUX: -c=8
-#FLUX: -t=45
-#FLUX: --urgency=16
+#SBATCH --job-name=compute_stac
+#SBATCH --output=logs/Job.compute_stac.%N.%j.out
+#SBATCH --error=logs/Job.compute_stac.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=3000
+#SBATCH --time=00:00:45
 
 img_path="/n/home02/daldarondo/LabDir/Diego/.images/mj_stac.sif"
 param_path=$1; shift

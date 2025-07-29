@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CAN_EXHAUSTIVE
-#FLUX: -c=70
-#FLUX: --queue=standard
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=CAN_EXHAUSTIVE
+#FLUX -c=70
+#FLUX --queue=standard
+#FLUX -t=720000
+#FLUX --urgency=16
 
 pwd; hostname; date
 now=$(date +"%Y_%m_%d_%H_%M_%S")

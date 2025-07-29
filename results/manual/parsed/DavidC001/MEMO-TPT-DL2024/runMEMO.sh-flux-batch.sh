@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-mango-1505
-#FLUX: -c=4
-#FLUX: --queue=edu-20h
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-buttface-5882
+#FLUX -c=4
+#FLUX --queue=edu-20h
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load cuda/12.1
 source /home/davide.cavicchini/.bashrc

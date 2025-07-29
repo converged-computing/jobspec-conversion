@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pastry-5730
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=log.run.out
+#SBATCH --error=log.run.stderr
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

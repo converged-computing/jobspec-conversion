@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=swav_200ep_bs256_pretrain
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=swav_200ep_bs256_pretrain
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --mem=150G
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 DATASET_PATH="/data/Datasets/ILSVRC2012/train"
 EXPERIMENT_PATH="./experiments/swav_200ep_bs256_pretrain"

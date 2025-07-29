@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu
-#FLUX: --queue=ai,ainlp,tnt
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=test_gpu
+#SBATCH --output=test_gpu-job_%j.out
+#SBATCH --error=test_gpu-job_%j.err
+#SBATCH --mail-user=<y.name>@ai.uni-hannover.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10M
+#SBATCH --time=00:05:00
+#SBATCH --partition=ai,ainlp,tnt
 
 module load GCC/10.3.0
 module load CMake/3.20.1

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mspass
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=skx-normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=mspass
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=skx-normal
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml unload xalt
 ml tacc-singularity

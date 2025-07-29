@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mlmi-sca
-#FLUX: --queue=ampere
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=mlmi-sca
+#SBATCH --account=MLMI-ar2217-SL2-GPU
+#SBATCH --output=logs_sca/sca_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=ampere
+#SBATCH --array=1-9
 
 export LD_LIBRARY_PATH='~/.conda/envs/sca_env/lib:$LD_LIBRARY_PATH'
 export PATH='~/.conda/envs/sca_env/bin:$PATH'

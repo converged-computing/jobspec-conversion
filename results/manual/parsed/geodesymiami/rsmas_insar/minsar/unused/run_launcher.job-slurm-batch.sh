@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run_all
-#FLUX: -N=4
-#FLUX: -n=192
-#FLUX: --queue=skx-dev
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=run_all
+#SBATCH --account=TG-EAR180014
+#SBATCH --output=run_all_%J.o
+#SBATCH --error=run_all_%J.e
+#SBATCH --mail-user=famelung@rsmas.miami.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=4
+#SBATCH --ntasks=192
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:59:00
+#SBATCH --partition=skx-dev
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'
 export PATH='/home1/05861/tg851601/test/operations/rsmas_insar/sources/isce2/contrib/stack/topsStack:$PATH'

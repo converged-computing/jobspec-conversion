@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-parsnip-8090
-#FLUX: --queue=condo
-#FLUX: -t=42900
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120000
+#SBATCH --time=11:55:00
+#SBATCH --partition=condo
 
 export ARABIC_DATA='data/train'
 export TASK_NAME='arabic_sentiment'

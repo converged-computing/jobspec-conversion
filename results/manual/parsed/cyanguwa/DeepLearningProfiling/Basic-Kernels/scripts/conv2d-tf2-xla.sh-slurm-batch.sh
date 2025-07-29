@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=conv2d-tf2-xla
-#FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=conv2d-tf2-xla
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=special
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 export PROFILER='cupy'
 export enable_xla='xla'

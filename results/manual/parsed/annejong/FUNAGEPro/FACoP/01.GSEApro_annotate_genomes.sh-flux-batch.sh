@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-car-3243
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-sundae-6203
+#FLUX --urgency=16
 
 cpu=2
 SCRATCHDIR=/tmp

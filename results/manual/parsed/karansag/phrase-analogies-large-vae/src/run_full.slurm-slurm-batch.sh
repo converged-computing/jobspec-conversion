@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=analogy-eval
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=analogy-eval
+#SBATCH --output=/home/${USER}/%j_%x.out
+#SBATCH --error=/home/${USER}/%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
 
 singularity exec --overlay $SCRATCH/overlay-25GB-500K.ext3:ro /scratch/work/public/singularity/cuda10.1-cudnn7-devel-ubuntu18.04-20201207.sif /bin/bash -c "
 source /ext3/env.sh

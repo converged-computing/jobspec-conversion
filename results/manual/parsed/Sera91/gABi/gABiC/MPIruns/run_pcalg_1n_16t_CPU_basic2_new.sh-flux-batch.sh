@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pc-dask-1node
-#FLUX: --queue=regular2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=pc-dask-1node
+#FLUX --queue=regular2
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PATH='/home/sdigioia/R/bin:${PATH}'
 export LD_LIBRARY_PATH='/home/sdigioia/R/lib64/R/lib:${LD_LIBRARY_PATH}'

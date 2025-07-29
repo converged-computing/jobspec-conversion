@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run_gromacs_mpi
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=hpc
-#FLUX: --urgency=16
+#SBATCH --job-name=run_gromacs_mpi
+#SBATCH --output=gromacs-mpi-%j.out
+#SBATCH --error=gromacs-mpi-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=hpc
+#SBATCH --constraint=ntasks-per-node=8
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

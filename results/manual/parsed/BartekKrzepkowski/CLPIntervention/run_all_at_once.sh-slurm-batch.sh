@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eff
-#FLUX: -c=12
-#FLUX: --queue=plgrid-gpu-a100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=eff
+#SBATCH --output=slurm_logs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=1
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
+#SBATCH --partition=plgrid-gpu-a100
 
 eval "$(conda shell.bash hook)"
 conda activate clpi_env

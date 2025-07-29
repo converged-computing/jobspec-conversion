@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gradGen
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=gradGen
+#SBATCH --output=./logs/gradGenJob-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=short
+#SBATCH --constraint=skl-compat
+#SBATCH --array=1-1018:1
 
 SUBJECT_LIST=./SubjectsCompleteData.txt
 smooth_kernel=$1

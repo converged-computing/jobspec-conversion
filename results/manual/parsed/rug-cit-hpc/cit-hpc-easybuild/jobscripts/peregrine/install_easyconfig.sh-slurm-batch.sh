@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lizard-7201
-#FLUX: -c=2
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=64G
 
 supported_archs="haswell skylake sandybridge"
 usage() {

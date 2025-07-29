@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Chiliadal_NGCTRLs
-#FLUX: -c=2
-#FLUX: -t=176340
-#FLUX: --urgency=16
+#FLUX --job-name=Chiliadal_NGCTRLs
+#FLUX -c=2
+#FLUX -t=176340
+#FLUX --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

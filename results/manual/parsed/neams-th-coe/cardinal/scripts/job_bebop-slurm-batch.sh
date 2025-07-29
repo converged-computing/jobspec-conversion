@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cardinal
-#FLUX: --queue=bdwall
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cardinal
+#SBATCH --account=startup
+#SBATCH --output=run.out
+#SBATCH --error=run.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=bdwall
+#SBATCH --constraint=ntasks-per-node=36
 
 export NEKRS_HOME='$HOME_DIRECTORY_SYM_LINK/cardinal/install'
 export CARDINAL_DIR='$HOME_DIRECTORY_SYM_LINK/cardinal'

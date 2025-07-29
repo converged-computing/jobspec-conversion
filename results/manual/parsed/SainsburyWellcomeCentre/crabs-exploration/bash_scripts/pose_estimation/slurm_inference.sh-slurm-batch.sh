@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-punk-0768
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=259440
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=s.minano@ucl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=3-00:04:00
+#SBATCH --partition=gpu
 
 module load SLEAP
 DATA_DIR=/ceph/zoo/users/sminano/crabs_pose_4k_TD4

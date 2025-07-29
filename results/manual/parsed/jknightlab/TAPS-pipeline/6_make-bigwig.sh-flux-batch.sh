@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bigwig
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=bigwig
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX --urgency=16
 
 input_dir=$PWD
 output_dir=$PWD

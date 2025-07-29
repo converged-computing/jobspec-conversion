@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NAMD
-#FLUX: -n=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=NAMD
+#SBATCH --account=hpcnow
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=01:00:00
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=eve_training
-#FLUX: -c=2
-#FLUX: --queue=gpu_quad,gpu,gpu_marks
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=eve_training
+#SBATCH --output=./slurm/eve_training/%A_%3a-%x-%u.out
+#SBATCH --error=./slurm/eve_training/%A_%3a-%x-%u.err
+#SBATCH --mail-user=daniel_ritter@hms.harvard.edu
+#SBATCH --mail-type=TIME_LIMIT_80,TIME_LIMIT,FAIL,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1,vram:24G
+#SBATCH --mem=40G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_quad,gpu,gpu_marks
+#SBATCH --qos=gpuquad_qos
+#SBATCH --array=2524
 
 export dms_index='$SLURM_ARRAY_TASK_ID'
 export model_parameters_location='../../proteingym/baselines/EVE/EVE/default_model_params.json'

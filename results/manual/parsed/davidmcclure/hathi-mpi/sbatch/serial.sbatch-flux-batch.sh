@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=serial
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#FLUX --job-name=serial
+#FLUX -t=3900
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/dclure/hathi-mpi'
 

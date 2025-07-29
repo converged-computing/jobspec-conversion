@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mesh_nbody_benchmark
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=mesh_nbody_benchmark
+#FLUX -n=4
+#FLUX -c=10
+#FLUX -t=900
+#FLUX --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 

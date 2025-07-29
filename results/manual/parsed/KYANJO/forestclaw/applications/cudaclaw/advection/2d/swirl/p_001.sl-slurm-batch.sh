@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swirl_001
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=swirl_001
+#SBATCH --output=swirl_001.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 srun --mpi=pmix_v2 swirl \
      --user:cuda=T \

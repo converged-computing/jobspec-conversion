@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-earthworm-9069
-#FLUX: --queue=gpu2
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-platanos-4593
+#FLUX --queue=gpu2
+#FLUX -t=2700
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

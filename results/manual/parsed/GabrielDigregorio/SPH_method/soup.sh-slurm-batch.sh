@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=soup
-#FLUX: -n=8
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=soup
+#SBATCH --output=soup.txt
+#SBATCH --mail-user=xavier.adriaens@student.ulg.ac.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=500
+#SBATCH --time=06:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

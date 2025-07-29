@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=job_id_144
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=job_id_144
+#SBATCH --output=/scratch/gpfs/BRAINCOGS/OutputLog/job_id_144.log
+#SBATCH --error=/scratch/gpfs/BRAINCOGS/ErrorLog/job_id_144.log
+#SBATCH --mail-user=alvaros@princeton.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=10:00:00
 
     echo "SLURM_JOB_ID: ${SLURM_JOB_ID}"
     echo "SLURM_SUBMIT_DIR: ${SLURM_SUBMIT_DIR}"

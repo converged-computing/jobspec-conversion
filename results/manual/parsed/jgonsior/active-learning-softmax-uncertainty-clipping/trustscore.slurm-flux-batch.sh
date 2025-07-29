@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chair-5964
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=359999
-#FLUX: --urgency=16
+#FLUX --job-name=blank-toaster-7097
+#FLUX -c=8
+#FLUX --queue=alpha
+#FLUX -t=359999
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export HF_MODULE_CACHE='./hf-cache'

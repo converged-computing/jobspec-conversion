@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rcorrector
-#FLUX: -n=16
-#FLUX: --queue=True
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=rcorrector
+#SBATCH --output=rcorrector.%A.out
+#SBATCH --error=rcorrector.%A.err
+#SBATCH --mail-user=<PUT
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=48000
+#SBATCH --time=23:00:00
+#SBATCH --partition=True
 
 """
 For this script to initialize a conda environment, a version of python that supports

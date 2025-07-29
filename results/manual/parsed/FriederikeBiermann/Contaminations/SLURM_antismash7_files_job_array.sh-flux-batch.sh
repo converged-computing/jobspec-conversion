@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=antismash
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=antismash
+#FLUX -c=32
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate /beegfs/home/fbiermann/miniconda3_supernew/envs/antismash7

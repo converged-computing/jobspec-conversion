@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=4D_array_comparison
-#FLUX: -c=10
-#FLUX: --queue=trc
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=4D_array_comparison
+#SBATCH --output=./logs/mainlog.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=trc
 
 ml python/3.9.0
 ml py-h5py/3.7.0_py39

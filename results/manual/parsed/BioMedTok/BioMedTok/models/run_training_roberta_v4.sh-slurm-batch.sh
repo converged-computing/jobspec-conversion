@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BertTok
-#FLUX: -n=32
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=BertTok
+#SBATCH --output=./logs_slurm/mlm_test%j.out
+#SBATCH --error=./logs_slurm/mlm_test%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=4
 
 export OMP_NUM_THREADS='10'
 export CUDA_LAUNCH_BLOCKING='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_anat
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep_anat
+#FLUX -c=40
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/${OPENNEURO_DSID}/bids'

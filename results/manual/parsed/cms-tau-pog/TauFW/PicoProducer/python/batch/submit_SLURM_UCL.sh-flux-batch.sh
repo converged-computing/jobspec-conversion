@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=cp3
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=cp3
+#FLUX -t=4800
+#FLUX --urgency=16
 
 export JOBID='$SLURM_ARRAY_JOB_ID'
 export TASKID='$SLURM_ARRAY_TASK_ID'

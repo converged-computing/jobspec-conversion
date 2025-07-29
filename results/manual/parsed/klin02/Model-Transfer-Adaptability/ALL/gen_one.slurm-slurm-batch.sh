@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-0262
-#FLUX: --queue=nv-gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=nv-gpu
+#SBATCH --qos=gpu-short
+#SBATCH --constraint=Ampere
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

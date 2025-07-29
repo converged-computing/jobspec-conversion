@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=comb-gvcfs
-#FLUX: --queue=mem
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=comb-gvcfs
+#SBATCH --output=stdout.%j.%N
+#SBATCH --error=stderr.%j.%N
+#SBATCH --mail-user=jane.doe@isp.com
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=mem
+#SBATCH --constraint=ntasks-per-node=22
 
 set -e
   ##SBATCH --ntasks=22  #Number of overall tasks - overrides tasks per node

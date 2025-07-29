@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=4
-#FLUX: --queue=gputest
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX -c=4
+#FLUX --queue=gputest
+#FLUX -t=600
+#FLUX --urgency=16
 
 echo "START $SLURM_JOBID: $(date)"
 function on_exit {

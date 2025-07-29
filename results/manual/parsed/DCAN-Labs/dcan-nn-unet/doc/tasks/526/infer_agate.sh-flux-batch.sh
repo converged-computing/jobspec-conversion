@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=526_infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=526_infer
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export nnUNet_raw_data_base='/scratch.global/reine097/nnUNet/nnUNet_raw_data_base'
 export nnUNet_preprocessed='/scratch.global/reine097/nnUNet/nnUNet_raw_data_base/nnUNet_preprocessed'

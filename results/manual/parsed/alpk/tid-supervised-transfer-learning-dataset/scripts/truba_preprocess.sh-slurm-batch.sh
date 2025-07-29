@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_preprocess
-#FLUX: -c=4
-#FLUX: --queue=mid2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_preprocess
+#SBATCH --account=akindiroglu
+#SBATCH --output=/truba_scratch/akindiroglu/Slurm/output/out-%j.out
+#SBATCH --error=/truba_scratch/akindiroglu/Slurm/error/err-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --partition=mid2
+#SBATCH --constraint=ntasks-per-node=1
 
 module load centos7.3/lib/cuda/10.1
 module load centos7.3/comp/gcc/6.4

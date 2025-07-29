@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-arm-5282
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-ricecake-2809
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

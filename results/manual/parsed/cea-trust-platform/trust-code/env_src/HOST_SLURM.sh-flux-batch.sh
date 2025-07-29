@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-malarkey-2045
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-poodle-1156
+#FLUX --urgency=16
 
 define_modules_config()
 {

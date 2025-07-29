@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=r2c_eval
-#FLUX: -c=40
-#FLUX: --queue=dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=r2c_eval
+#SBATCH --output=/checkpoint/%u/logs/r2c-eval-%j.out
+#SBATCH --error=/checkpoint/%u/logs/r2c-eval-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:8
+#SBATCH --mem=200G
+#SBATCH --time=02:00:00
+#SBATCH --partition=dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH":"$BASEDIR'
 export PYTHONUNBUFFERED='True'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-dog-7686
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gantech/ellipticWingCases/p1/deltaOverC_0p125_e0p5/al_ew_p1_df_e0p5.pbs

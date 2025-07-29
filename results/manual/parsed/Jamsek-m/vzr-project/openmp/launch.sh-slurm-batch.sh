@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=heat
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=heat
+#SBATCH --output=out/run_32_cores_1024.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:10:00
+#SBATCH --constraint=AMD
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='TRUE'

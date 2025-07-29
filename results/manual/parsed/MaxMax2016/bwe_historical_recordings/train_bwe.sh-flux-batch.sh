@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bwe_progressive_half_size
-#FLUX: -c=4
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#FLUX --job-name=bwe_progressive_half_size
+#FLUX -c=4
+#FLUX -t=259199
+#FLUX --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

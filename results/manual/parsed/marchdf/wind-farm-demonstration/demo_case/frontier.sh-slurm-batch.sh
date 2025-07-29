@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=demo_case
-#FLUX: -N=184
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=demo_case
+#SBATCH --account=CFD162
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=184
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 set -e
 cmd() {

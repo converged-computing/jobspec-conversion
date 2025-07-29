@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-earthworm-0766
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: --queue=checkpt
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-nalgas-9402
+#FLUX -N=2
+#FLUX -n=128
+#FLUX --queue=checkpt
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 IMG="/home/admin/singularity/openfoam9.sdfibm-openmpi.4.0.3-pmi2.sif"

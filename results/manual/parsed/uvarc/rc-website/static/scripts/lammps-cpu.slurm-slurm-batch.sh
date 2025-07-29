@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-carrot-7833
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=my_acct
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=40
 
 module purge
 module load goolf lammps/2Aug2023-cpu

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parrot-2354
-#FLUX: -N=2
-#FLUX: -c=54
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=A100_multi_output.o%j
+#SBATCH --error=A100_multi_error.o%j
+#SBATCH --mail-user=asarker@uni-osnabrueck.de
+#SBATCH --mail-type=REQUEUE
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=54
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='lo'
 

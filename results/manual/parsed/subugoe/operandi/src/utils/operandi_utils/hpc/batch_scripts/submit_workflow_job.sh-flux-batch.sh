@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-3517
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-squidward-6599
+#FLUX --urgency=16
 
 set -e
 SIF_PATH="/scratch1/users/${USER}/ocrd_all_maximum_image.sif"

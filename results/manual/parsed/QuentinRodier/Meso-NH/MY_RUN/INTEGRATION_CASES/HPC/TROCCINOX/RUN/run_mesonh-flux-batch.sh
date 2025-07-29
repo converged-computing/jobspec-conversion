@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_troc
-#FLUX: -n=128
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=run_troc
+#FLUX -n=128
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

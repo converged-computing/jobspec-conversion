@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=maml_ppo_autodr_torch
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=maml_ppo_autodr_torch
+#SBATCH --output=results/logs/maml_ppo_autodr_%a.out
+#SBATCH --mail-user=tarek.ibrahim@tuni.fi
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu
+#SBATCH --mem=48G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=0-2
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

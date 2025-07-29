@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vasp@6.4.0
-#FLUX: -c=8
-#FLUX: --queue=hotel-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=vasp@6.4.0
+#SBATCH --account=sys200
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --partition=hotel-gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=gpu1
 
 export LD_LIBRARY_PATH='/cm/shared/apps/spack/0.17.3/gpu/opt/spack/linux-rocky9-broadwell/gcc-11.2.0/nvhpc-22.1-rsks4ptuwyfjjxigybva7k53ihgacw3y/Linux_x86_64/22.1/compilers/lib:$LD_LIBRARY_PATH'
 

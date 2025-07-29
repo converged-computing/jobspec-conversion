@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=dc-gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=vsk33
+#SBATCH --output=/p/project/vsk33/vanderweg/TopEC/slurmlogs/train_%j.job
+#SBATCH --error=/p/project/vsk33/vanderweg/TopEC/slurmlogs/train_%j.job
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=dc-gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:512'

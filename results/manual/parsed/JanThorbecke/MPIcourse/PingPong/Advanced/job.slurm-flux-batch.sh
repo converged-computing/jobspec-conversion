@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PingPing-Internode
-#FLUX: -n=40
+#FLUX --job-name=PingPing-Internode
+#FLUX -n=40
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=60
+#FLUX --urgency=16
 
 set -x
 echo $SLURM_JOB_NODELIST

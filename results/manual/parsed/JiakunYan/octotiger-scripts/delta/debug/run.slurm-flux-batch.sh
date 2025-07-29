@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: --queue=medusa
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=debug
+#FLUX --queue=medusa
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load octotiger

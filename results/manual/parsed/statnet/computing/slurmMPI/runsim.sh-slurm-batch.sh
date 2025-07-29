@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-bicycle-8776
-#FLUX: -N=6
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module load icc_18-ompi_1.8.8
 module load r_3.2.5

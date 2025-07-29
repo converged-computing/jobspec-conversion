@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-chip-9140
-#FLUX: -N=16
-#FLUX: --queue=gpu
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --output=sparksingu.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=02:10:00
+#SBATCH --partition=gpu
 
 export SPARK_HOME='/home/tahmad/tahmad/spark-3.0.0-bin-hadoop2.7'
 export MASTER='$MASTER'

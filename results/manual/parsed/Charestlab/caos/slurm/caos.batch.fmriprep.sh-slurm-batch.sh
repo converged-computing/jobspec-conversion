@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-muffin-0034
-#FLUX: -n=4
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=16:00:00
+#SBATCH --qos=bbdefault
+#SBATCH --array=1-21
 
 export TMPDIR='${BB_WORKDIR}'
 

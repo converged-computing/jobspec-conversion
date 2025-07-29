@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=10
-#FLUX: -t=10200
-#FLUX: --urgency=16
+#FLUX --job-name=IO-500
+#FLUX -N=10
+#FLUX -t=10200
+#FLUX --urgency=16
 
 module load bullxmpi
 module load intel

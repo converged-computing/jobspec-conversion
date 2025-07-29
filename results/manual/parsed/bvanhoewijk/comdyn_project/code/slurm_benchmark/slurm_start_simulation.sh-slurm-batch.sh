@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-latke-1957
-#FLUX: --exclusive
-#FLUX: --queue=genoa
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=genoa
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --array=1,2
 
 export OMP_NUM_THREADS='1'
 

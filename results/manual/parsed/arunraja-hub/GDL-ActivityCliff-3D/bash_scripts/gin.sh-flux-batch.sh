@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gin
-#FLUX: --gpus-per-task=1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=gin
+#FLUX --gpus-per-task=1
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES 
 source /vols/opig/users/raja/miniconda3/etc/profile.d/conda.sh

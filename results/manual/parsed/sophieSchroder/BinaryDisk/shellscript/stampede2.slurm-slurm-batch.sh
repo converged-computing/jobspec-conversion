@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=g11hllen
-#FLUX: -N=8
-#FLUX: -n=512
-#FLUX: --queue=normal
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=g11hllen
+#SBATCH --account=TG-AST150042
+#SBATCH --nodes=8
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=normal
 
 module purge
 module load intel

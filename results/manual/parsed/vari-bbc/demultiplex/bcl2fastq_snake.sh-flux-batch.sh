@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=demultiplex_workflow
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=demultiplex_workflow
+#FLUX -t=360000
+#FLUX --urgency=16
 
 echo "Pipeline started: $(date)"
 messages=/secondary/projects/genomicscore/tools/boilerplate_demux/novaseq/messages/ # Larry's message files here

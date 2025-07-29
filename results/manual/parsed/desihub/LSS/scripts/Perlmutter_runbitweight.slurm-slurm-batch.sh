@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bitweights
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=bitweights
+#SBATCH --mail-user=your@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

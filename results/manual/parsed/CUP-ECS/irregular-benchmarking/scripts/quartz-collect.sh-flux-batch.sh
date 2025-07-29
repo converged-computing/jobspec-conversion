@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-despacito-4548
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-itch-0745
+#FLUX --urgency=16
 
 export DIR='/p/lustre1/$(whoami)/CabanaMD'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=simsopt
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=simsopt
+#FLUX -t=60
+#FLUX --urgency=16
 
 source ~/.bashrc
 module load gcc/10.2.0

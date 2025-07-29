@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmodeler_model
-#FLUX: -c=30
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=repeatmodeler_model
+#FLUX -c=30
+#FLUX --queue=general
+#FLUX --urgency=16
 
 hostname
 date

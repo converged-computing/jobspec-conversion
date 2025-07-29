@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=%(step_name)s
-#FLUX: --queue=%(partition)s
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=%(step_name)s
+#FLUX --queue=%(partition)s
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export TMPDIR='${HOME}/scratch/tmp'
 export SBATCH_DEFAULTS=' --output=${LOGDIR}/%%x-%%j.log'

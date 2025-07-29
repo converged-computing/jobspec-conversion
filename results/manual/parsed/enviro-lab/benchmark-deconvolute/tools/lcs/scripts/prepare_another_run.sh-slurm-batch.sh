@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-motorcycle-3021
-#FLUX: --queue=Draco
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=Draco
+#SBATCH --constraint=ntasks-per-node=6
 
 n=6
 echo "Copying over useful files"

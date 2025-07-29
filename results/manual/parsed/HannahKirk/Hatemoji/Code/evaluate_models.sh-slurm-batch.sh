@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hatemoji_eval
-#FLUX: --urgency=16
+#SBATCH --job-name=hatemoji_eval
+#SBATCH --mail-user=user@email.co.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
 
 module load cuda/10.1
 module load python/anaconda3

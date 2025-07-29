@@ -1,6 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_test_%a
-#FLUX: --urgency=16
+#SBATCH --job-name=sweep_test_%a
+#SBATCH --output=logs/sweep_%A_%a.out
+#SBATCH --error=error_logs/sweep__%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:mi50:1
+#SBATCH --mem=50GB
+#SBATCH --array=1-10
 
 source /scratch/${USER}/overlay/env.sh
 conda activate sweep_testing_pod

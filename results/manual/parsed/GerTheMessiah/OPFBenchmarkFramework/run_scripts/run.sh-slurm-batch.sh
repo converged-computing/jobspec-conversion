@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-frito-6818
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=rosa.p
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=a2c_lr_log.txt
+#SBATCH --error=a2c_lr_error.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=rosa.p
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 redis_password=$(uuidgen)
 export redis_password

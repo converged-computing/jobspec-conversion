@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-milkshake-1036
-#FLUX: --urgency=16
+#FLUX --job-name=blue-butter-2491
+#FLUX --urgency=16
 
 NO_COLOR="\033[0m"
 OK_COLOR="\033[32;01m"

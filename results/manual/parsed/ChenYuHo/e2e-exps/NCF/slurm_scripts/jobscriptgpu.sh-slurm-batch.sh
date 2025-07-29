@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NCF
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=NCF
+#SBATCH --output=test.out
+#SBATCH --error=test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:2
+#SBATCH --mem-per-cpu=32768M
+#SBATCH --time=12:00:00
+#SBATCH --partition=batch
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

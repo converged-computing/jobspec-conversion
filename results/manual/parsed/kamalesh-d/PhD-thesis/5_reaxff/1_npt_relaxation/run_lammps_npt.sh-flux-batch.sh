@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Test_lammps_CPU
-#FLUX: -n=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Test_lammps_CPU
+#FLUX -n=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load intel/17.2 openmpi/intel/2.0.1 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=batch-kaidong
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=batch-kaidong
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --constraint=rtx2080|gtx1080ti
 
 export SINGULARITY_LOCALCACHEDIR='`pwd`/tmp'
 export SINGULARITY_TMPDIR='`pwd`/tmp'

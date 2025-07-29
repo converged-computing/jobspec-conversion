@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-onion-0649
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=mygroup
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=10
 
 module purge
 module load goolf/11.2.0_4.1.4 gromacs

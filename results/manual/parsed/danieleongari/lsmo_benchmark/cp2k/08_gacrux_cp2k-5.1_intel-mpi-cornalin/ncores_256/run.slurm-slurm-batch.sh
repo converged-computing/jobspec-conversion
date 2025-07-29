@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hippo-0819
-#FLUX: -N=10
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=10
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=s6g1
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

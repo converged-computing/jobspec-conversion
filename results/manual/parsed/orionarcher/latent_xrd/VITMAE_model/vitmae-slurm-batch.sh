@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-spoon-2842
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=als
+#SBATCH --output=vitmae_xrd.out
+#SBATCH --error=vitmae_xrd.err
+#SBATCH --mail-user=hasitha@berkeley.edu
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=10:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export SLURM_CPU_BIND='cores'
 export HDF5_USE_FILE_LOCKING='FALSE'

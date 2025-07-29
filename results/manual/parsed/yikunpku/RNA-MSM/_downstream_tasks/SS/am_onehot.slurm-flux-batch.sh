@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=torch_bert
-#FLUX: --queue=cu-1
-#FLUX: --urgency=16
+#FLUX --job-name=torch_bert
+#FLUX --queue=cu-1
+#FLUX --urgency=16
 
 l=`whoami`
 CURDIR=`pwd`

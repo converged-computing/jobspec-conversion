@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid-small
-#FLUX: -c=7
-#FLUX: --queue=standard-g
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hybrid-small
+#FLUX -c=7
+#FLUX --queue=standard-g
+#FLUX -t=300
+#FLUX --urgency=16
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)"    # GPU Transfer Library - allows hipcc to behave like {CC}'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)                                 # GPU Transfer Library - allows hipcc to behave like {CC}'

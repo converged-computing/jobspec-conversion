@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aspp
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=aspp
+#SBATCH --output=log/aspp_32000
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu
+#SBATCH --mem=32GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=K80
 
 nvidia-smi
 python -u train.py --batch_size 12 --epoch 200 \

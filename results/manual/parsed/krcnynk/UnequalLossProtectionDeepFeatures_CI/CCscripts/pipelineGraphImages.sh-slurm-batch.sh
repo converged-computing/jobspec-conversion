@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-taco-8657
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=def-ibajic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=06:00:00
 
 module restore uneq
 cd ..

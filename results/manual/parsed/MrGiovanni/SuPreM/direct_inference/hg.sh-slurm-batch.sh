@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=inference
-#FLUX: -n=6
-#FLUX: --queue=public
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=inference
+#SBATCH --output=%x_slurm_%j.out
+#SBATCH --error=%xslurm_%j.err
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=80G
+#SBATCH --time=03:00:00
+#SBATCH --partition=public
 
 module load mamba/latest # only for Sol
 source activate suprem

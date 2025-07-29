@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=285-4000
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=285-4000
+#FLUX -n=4
+#FLUX -c=7
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

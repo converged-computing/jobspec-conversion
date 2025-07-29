@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=10
-#FLUX: --queue=learnfair
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=/checkpoint/pillutla/pfl/outs/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=10:00:00
+#SBATCH --partition=learnfair
+#SBATCH --array=0-24
 
 source ~/.bashrc  # load all modules
 source activate pyt19  # load environment

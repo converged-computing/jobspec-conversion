@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py
-#FLUX: --queue=ctest
-#FLUX: --urgency=16
+#FLUX --job-name=mpi4py
+#FLUX --queue=ctest
+#FLUX --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

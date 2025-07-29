@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-arm-3545
-#FLUX: --queue=a100_shared
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --account=exasgd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:59:00
+#SBATCH --partition=a100_shared
 
 module load cmake/3.15.3
 module load gcc/7.5.0

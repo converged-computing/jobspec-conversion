@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=microbedb-update
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=microbedb-update
+#SBATCH --account=rrg-fiona-ad
+#SBATCH --output=%x.out
+#SBATCH --mail-user=nolan_w@sfu.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
 
 export SRCDIR='$SRCDIR'
 export WORKDIR='${WORKDIR:-$(mktemp -d ${HOME}/scratch/microbedb_update$(date +'%Y_%m_%d').XXXXXXXXX)}'

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train-TFpresabs-kp20k
-#FLUX: --queue=v100
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=train-TFpresabs-kp20k
+#SBATCH --account=hdaqing
+#SBATCH --output=slurm_output/train-TFpresabs-kp20k.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=v100
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export CONFIG_PATH='config/transfer_kp/train/transformer-presabs-kp20k.yml'
 

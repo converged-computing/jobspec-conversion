@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cs
-#FLUX: -N=16
-#FLUX: --queue=ccq
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=cs
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --mail-user=chenkun0228@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ccq
+#SBATCH --constraint=opa
 
 echo "#########################################################" >  host.txt
 echo "SLURM_JOB_NUM_NODES  =" $SLURM_JOB_NUM_NODES               >> host.txt

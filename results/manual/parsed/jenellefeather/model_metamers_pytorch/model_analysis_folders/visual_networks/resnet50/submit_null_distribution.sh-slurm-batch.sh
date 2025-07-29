@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=null_resnet50
-#FLUX: -c=4
-#FLUX: --queue=normal
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=null_resnet50
+#SBATCH --output=output/null_%A_%a.out
+#SBATCH --error=output/null_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=high-capacity
+#SBATCH --array=0-4
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

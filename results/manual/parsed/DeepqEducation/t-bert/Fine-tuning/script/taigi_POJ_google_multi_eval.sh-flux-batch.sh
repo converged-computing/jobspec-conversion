@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: --queue=gp4d
-#FLUX: --urgency=16
+#FLUX --job-name=finetune
+#FLUX --queue=gp4d
+#FLUX --urgency=16
 
 module purge 
 module load miniconda3

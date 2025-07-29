@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=infer_nriw_%j
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=infer_nriw_%j
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

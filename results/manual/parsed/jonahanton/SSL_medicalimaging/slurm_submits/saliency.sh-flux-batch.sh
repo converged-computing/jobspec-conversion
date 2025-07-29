@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nunchucks-0760
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-butter-1888
+#FLUX --urgency=16
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'
 

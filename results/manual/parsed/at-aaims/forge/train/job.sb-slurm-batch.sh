@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt
-#FLUX: -N=32
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt
+#SBATCH --output=neox.o%j
+#SBATCH --error=neox.e%j
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=nvme,ntasks-per-node=8
 
 MODEL=forge-mat
 source neox-env.sh 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chair-7854
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-animal-2563
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=2400
+#FLUX --urgency=16
 
 vid="006FL.MTS"
 allow_flip="False"

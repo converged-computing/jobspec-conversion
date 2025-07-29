@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-rabbit-8370
-#FLUX: -N=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 mpirun -npernode 16 lmp_cpu -v x 128 -v y 128 -v z 128 -v t 100 < in.lj
 mv log.lammps log.28Jun14.lj.cpu.512K.16.16

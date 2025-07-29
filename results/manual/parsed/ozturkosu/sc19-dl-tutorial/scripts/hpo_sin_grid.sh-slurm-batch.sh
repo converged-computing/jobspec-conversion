@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hpo-sin-grid
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpo-sin-grid
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl
 
 module load tensorflow/intel-1.13.1-py36
 module load cray-hpo

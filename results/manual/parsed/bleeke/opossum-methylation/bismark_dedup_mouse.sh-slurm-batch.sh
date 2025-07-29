@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dedup
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=dedup
+#SBATCH --output=bismark_dedup_mouse_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-36
 
 echo "begin"
 date

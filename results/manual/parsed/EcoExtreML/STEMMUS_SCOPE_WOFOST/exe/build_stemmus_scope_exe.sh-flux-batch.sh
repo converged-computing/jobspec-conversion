@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stemmus_scope
-#FLUX: -c=32
-#FLUX: --queue=thin
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=stemmus_scope
+#FLUX -c=32
+#FLUX --queue=thin
+#FLUX -t=300
+#FLUX --urgency=16
 
 set -euo pipefail
 module load 2021

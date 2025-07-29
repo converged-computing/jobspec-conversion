@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NF-hichip_fetchngs
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=NF-hichip_fetchngs
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export TERM='xterm'
 export NXF_VER='22.10.3'

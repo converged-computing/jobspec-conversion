@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snudda_simulate
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=snudda_simulate
+#SBATCH --account=2019-3-644
+#SBATCH --output=save/output-snudda_simulate.o%j
+#SBATCH --error=save/error-snudda_simulate.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:59:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export CRAYPE_LINK_TYPE='dynamic'
 export CRAY_ROOTFS='DSL'

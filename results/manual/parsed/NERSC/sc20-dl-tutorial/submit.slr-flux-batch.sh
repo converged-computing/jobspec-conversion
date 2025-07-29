@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parsnip-8797
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-arm-0746
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX -t=14400
+#FLUX --urgency=16
 
 nproc_per_node=1
 config=bs128-opt

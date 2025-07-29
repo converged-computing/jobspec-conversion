@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=glap_bol_lin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=glap_bol_lin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export omp_num_threads='8'
 

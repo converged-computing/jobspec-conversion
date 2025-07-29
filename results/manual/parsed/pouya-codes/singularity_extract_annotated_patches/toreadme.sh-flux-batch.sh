@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Patch
-#FLUX: --queue=upgrade
-#FLUX: --urgency=16
+#FLUX --job-name=Patch
+#FLUX --queue=upgrade
+#FLUX --urgency=16
 
 echo """# Extract Annotated Patches
 \`\`\`

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_mnist
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_mnist
+#SBATCH --output=pytorch_mnist%j.out
+#SBATCH --error=pytorch_mnist%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-10
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

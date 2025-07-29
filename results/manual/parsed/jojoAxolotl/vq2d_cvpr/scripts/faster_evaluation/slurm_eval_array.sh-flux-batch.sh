@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vq2d_val
-#FLUX: -c=6
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=vq2d_val
+#FLUX -c=6
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 

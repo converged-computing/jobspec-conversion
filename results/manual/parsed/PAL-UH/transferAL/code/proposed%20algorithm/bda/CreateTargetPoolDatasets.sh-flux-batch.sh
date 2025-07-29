@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cherry-6156
-#FLUX: --urgency=16
+#FLUX --job-name=fat-lentil-5760
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PAL-UH/transferAL/code/proposed%20algorithm/bda/CreateTargetPoolDatasets.sh

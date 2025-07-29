@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jigsaw_bot
-#FLUX: --queue=gpu-shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=jigsaw_bot
+#FLUX --queue=gpu-shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 DATASET="BOT"
 module purge

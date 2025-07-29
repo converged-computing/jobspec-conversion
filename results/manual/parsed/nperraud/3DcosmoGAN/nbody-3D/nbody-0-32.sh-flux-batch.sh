@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-spoon-4305
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-diablo-7884
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module load daint-gpu
 module load cray-python

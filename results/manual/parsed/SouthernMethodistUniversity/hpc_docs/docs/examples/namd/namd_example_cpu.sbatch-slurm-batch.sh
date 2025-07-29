@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard-mem-s
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=standard-mem-s
+#SBATCH: --exclusive
 
 module purge
 module load namd/2.12/cpu

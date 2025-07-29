@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TGV100
-#FLUX: --queue=dgxa100_80g_2tb
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=TGV100
+#SBATCH --output=slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=dgxa100_80g_2tb
+#SBATCH --array=1-1%1
+#SBATCH --exclude=dgx1-[000-002,004]
 
 export ROOT='$(dirname ${SCRIPTPATH})'
 export IMAGE='${HOME}/images/modulus-22.03.sif'

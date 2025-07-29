@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leader-4900
-#FLUX: -c=2
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-cat-2325
+#FLUX -c=2
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

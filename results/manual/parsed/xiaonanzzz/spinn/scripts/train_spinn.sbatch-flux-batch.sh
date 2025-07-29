@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-house-7857
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-milkshake-4383
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:../python'
 

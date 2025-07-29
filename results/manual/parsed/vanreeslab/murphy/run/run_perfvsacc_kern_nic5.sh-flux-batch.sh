@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-citrus-5997
-#FLUX: --queue=batch,hmem
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-pot-6129
+#FLUX --queue=batch,hmem
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

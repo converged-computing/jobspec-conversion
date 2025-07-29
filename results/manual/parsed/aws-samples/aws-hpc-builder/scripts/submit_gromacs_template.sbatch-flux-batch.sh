@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lettuce-7792
-#FLUX: -N=2
+#FLUX --job-name=adorable-lemur-2013
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=c6i
-#FLUX: --urgency=16
+#FLUX --queue=c6i
+#FLUX --urgency=16
 
 export GROMACS_VERSION='2022.4'
 export JOB_DIR='${PREFIX}/spooler/gromacs'

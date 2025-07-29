@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_IMB_Biband_0_25_job
-#FLUX: -n=8
-#FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_IMB_Biband_0_25_job
+#SBATCH --output=rfm_IMB_Biband_0_25_job.out
+#SBATCH --error=rfm_IMB_Biband_0_25_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=hpc
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export SLURM_MPI_TYPE='pmix_v3'
 

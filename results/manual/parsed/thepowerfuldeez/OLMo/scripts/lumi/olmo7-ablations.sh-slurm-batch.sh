@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=olmo7-ablation
-#FLUX: -N=128
-#FLUX: -c=6
-#FLUX: --queue=standard-g
-#FLUX: -t=141300
-#FLUX: --urgency=16
+#SBATCH --job-name=olmo7-ablation
+#SBATCH --account=project_462000229
+#SBATCH --output=/pfs/lustref1/flash/project_462000229/logs/%j.log
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=0
+#SBATCH --time=1-15:15:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=8
 
 export OLMO_CONTAINER='llm-lumi-torch21_latest.sif'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

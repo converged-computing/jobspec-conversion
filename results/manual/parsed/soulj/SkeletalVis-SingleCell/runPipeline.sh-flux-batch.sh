@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chip-7330
-#FLUX: --urgency=16
+#FLUX --job-name=milky-pastry-5308
+#FLUX --urgency=16
 
 module load singularity
 module load adoptopenjdk

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=LvO2@Qgp
-#FLUX: -n=4
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=LvO2@Qgp
+#SBATCH --output=log_slurm_job.%j.%N.std_out_err
+#SBATCH --mail-user=M.Ilias@gsi.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
+#SBATCH: --no-requeue
 
 export WIEN2k='/lustre/home/ilias/work/qch/software/wien2k/WIEN2k_23.2_gnu_openmpi_openblas'
 export WIENROOT='$WIEN2k'

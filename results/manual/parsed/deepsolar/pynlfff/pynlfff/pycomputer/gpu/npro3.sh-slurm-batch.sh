@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pro2
-#FLUX: -N=8
-#FLUX: -t=173400
-#FLUX: --urgency=16
+#SBATCH --job-name=pro2
+#SBATCH --output=LOG-%x.%j-OUTPUT.txt
+#SBATCH --error=LOG-%x.%j-ERROR.txt
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:10:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/bingxing2/home/scx6069/zzr/code/proj/d3/code/output/log/pro2/
 
 export GPUS_PER_NODE='4'
 export NCCL_ALGO='Ring'

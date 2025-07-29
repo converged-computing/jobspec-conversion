@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lizard-9755
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-itch-8299
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 steps=1000000

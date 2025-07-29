@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-noodle-9305
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ryo-kuno/dibs-g16/launch_coms.sh

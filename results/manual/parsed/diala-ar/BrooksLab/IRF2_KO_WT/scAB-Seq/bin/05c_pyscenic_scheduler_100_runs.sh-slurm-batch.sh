@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pyscenic
-#FLUX: -c=24
-#FLUX: --queue=himem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pyscenic
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=diala.abdrabbo@uhnresearch.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=60gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=himem
+#SBATCH --array=1-100
 
 cd /cluster/projects/mcgahalab/data/brookslab/sabelo/AB_seq_v2/
 conds=('Tum_CD8' 'Tum_CD8_KO.C3_WT.C0')

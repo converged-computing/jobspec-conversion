@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hw0_test
-#FLUX: --queue=debug_5min
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=hw0_test
+#FLUX --queue=debug_5min
+#FLUX -t=120
+#FLUX --urgency=16
 
 . /home/fagg/tf_setup.sh
 conda activate tf

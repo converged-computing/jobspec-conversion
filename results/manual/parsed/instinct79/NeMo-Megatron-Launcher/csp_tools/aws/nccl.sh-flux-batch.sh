@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-4725
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-hobbit-3903
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export NCCL_TOPO_FILE='/nccl/p4d-24xl-topo.xml'
 

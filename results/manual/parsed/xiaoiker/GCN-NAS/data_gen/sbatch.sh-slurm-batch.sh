@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-destiny-9932
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=24000
+#SBATCH --time=1-00:00:00
 
 module purge
 module load gcc/5.4.0 python-env/intelpython3.6-2018.3

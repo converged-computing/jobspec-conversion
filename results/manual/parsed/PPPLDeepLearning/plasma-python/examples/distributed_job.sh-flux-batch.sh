@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-spoon-0848
-#FLUX: -N=10
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-hope-6263
+#FLUX -N=10
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load anaconda
 module load cudatoolkit/7.5 cudann

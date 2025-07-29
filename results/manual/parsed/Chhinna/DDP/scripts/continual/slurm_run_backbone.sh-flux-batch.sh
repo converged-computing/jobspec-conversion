@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet18
-#FLUX: -c=8
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=resnet18
+#FLUX -c=8
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 CURRENT="$PWD"
 DUMPED_PATH="$CURRENT/dumped"

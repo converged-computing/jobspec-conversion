@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-carrot-5533
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-noodle-3439
+#FLUX --urgency=16
 
 module load plgrid/tools/python-intel/3.6.2
 module load plgrid/apps/cuda/10.1

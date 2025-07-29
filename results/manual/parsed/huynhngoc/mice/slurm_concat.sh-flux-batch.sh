@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ensemble
-#FLUX: --queue=orion
-#FLUX: --urgency=16
+#FLUX --job-name=ensemble
+#FLUX --queue=orion
+#FLUX --urgency=16
 
 module load singularity
 if [ $# -lt 2 ];

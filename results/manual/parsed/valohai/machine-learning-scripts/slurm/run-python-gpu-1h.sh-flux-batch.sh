@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lemon-7475
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-buttface-6860
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module list
 set -xv

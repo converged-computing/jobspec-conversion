@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-carrot-1393
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-underoos-7634
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

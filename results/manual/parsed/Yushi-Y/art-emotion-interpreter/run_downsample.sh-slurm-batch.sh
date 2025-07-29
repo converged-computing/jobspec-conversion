@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-dog-5900
-#FLUX: --urgency=16
+#SBATCH --mail-user=yy3219
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
 
 export PATH='/vol/bitbucket/${USER}/cbm_venv/bin/:$PATH'
 export PYTHONPATH='${PYTHONPATH}:/vol/bitbucket/${USER}/roko-for-charlize'

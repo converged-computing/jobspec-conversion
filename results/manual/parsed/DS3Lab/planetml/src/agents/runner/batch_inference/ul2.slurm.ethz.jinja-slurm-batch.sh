@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ul2
-#FLUX: -c=2
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --job-name=ul2
+#SBATCH --output=/nfs/iiscratch-zhang.inf.ethz.ch/export/zhang/export/fm/new/exec_log/ul2_slurm_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gtx_1080:1
+#SBATCH --mem=8G
+#SBATCH --time=03:59:00
 
 export NCCL_SOCKET_IFNAME='access'
 export GLOO_SOCKET_IFNAME='access'

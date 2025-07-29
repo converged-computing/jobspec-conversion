@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-toaster-4441
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10gb
+#SBATCH --time=01:00:00
 
 date;hostname;pwd
 module load singularity

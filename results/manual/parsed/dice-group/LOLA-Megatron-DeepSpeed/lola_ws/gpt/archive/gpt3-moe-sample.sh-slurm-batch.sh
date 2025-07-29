@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GPT3 - MoE Sample
-#FLUX: --queue=dgx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=GPT3 - MoE Sample
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=dgx
+#SBATCH --qos=devel
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

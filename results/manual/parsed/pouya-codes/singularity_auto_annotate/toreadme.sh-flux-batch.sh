@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=annotate
-#FLUX: --queue=upgrade
-#FLUX: --urgency=16
+#FLUX --job-name=annotate
+#FLUX --queue=upgrade
+#FLUX --urgency=16
 
 echo """# Auto Annotate
 \`\`\`

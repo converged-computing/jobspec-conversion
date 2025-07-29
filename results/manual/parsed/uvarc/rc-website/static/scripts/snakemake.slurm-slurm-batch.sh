@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemon-0761
-#FLUX: -n=9
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=allocation_name
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50000
+#SBATCH --time=05:00:00
+#SBATCH --partition=standard
 
 module purge
 module load anaconda

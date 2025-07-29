@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=principled-pre-training
-#FLUX: -c=32
-#FLUX: --queue=nlp
-#FLUX: --urgency=16
+#FLUX --job-name=principled-pre-training
+#FLUX -c=32
+#FLUX --queue=nlp
+#FLUX --urgency=16
 
 export DS_SKIP_CUDA_CHECK='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

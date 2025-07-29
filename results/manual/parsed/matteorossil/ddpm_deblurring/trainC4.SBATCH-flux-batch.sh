@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=i_gp_w/o_l2
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=i_gp_w/o_l2
+#FLUX -c=20
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

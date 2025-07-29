@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lettuce-4422
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=itc_gpu
-#FLUX: -t=190
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-dog-6427
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=itc_gpu
+#FLUX -t=190
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

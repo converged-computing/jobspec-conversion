@@ -1,15 +1,22 @@
 #!/bin/bash
-#FLUX: --job-name=dl-wandb-test
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dl-wandb-test
+#SBATCH --account=<your_account>
+#SBATCH --output=job_log_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'
 export MASTER_ADDR='$(hostname)'
 
+singularity
+exec
+nersc/pytorch:ngc-22.09-v0
 config_file=./config/default.yaml
 config="test2"
 run_num="0"

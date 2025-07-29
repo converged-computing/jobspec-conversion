@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Legal
-#FLUX: --urgency=16
+#SBATCH --job-name=Legal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --constraint=ntasks-per-node=5
 
 module load python/anaconda3/2019.03
 module load gpu/cuda/10.1.243

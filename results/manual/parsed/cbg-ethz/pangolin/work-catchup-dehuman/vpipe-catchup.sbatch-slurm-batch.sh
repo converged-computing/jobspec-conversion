@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CATCHUP-vpipe
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=CATCHUP-vpipe
+#SBATCH --mail-user=carrara@nexus.ethz.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16384
+#SBATCH --time=23:00:00
 
 export SNAKEMAKE_PROFILE='$(realpath ../profiles/)'
 

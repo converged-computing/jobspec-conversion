@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frac_train
-#FLUX: --queue=private-cui-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=frac_train
+#FLUX --queue=private-cui-gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load GCC/10.3.0  OpenMPI/4.1.1

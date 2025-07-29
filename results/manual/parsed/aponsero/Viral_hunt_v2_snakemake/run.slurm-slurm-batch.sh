@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=viral_hunt
-#FLUX: -n=5
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=viral_hunt
+#SBATCH --account=bhurwitz
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=standard
 
 source activate viral_env
 cd /xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/alise/my_scripts/v2_Viral_hunt_snakemake

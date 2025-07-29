@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=build-graph-precluster
-#FLUX: -c=5
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=build-graph-precluster
+#FLUX -c=5
+#FLUX --queue=regular
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python
 conda activate pytorch-gnn

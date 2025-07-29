@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-snack-5346
-#FLUX: -n=32
-#FLUX: --queue=seas_gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=./%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=64000
+#SBATCH --time=12:00:00
+#SBATCH --partition=seas_gpu
 
 source venv/bin/activate
 python model_training.py

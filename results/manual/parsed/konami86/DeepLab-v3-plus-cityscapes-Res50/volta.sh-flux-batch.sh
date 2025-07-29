@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-5523
-#FLUX: --queue=batch
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=blank-pancake-3341
+#FLUX --queue=batch
+#FLUX -t=84600
+#FLUX --urgency=16
 
 source activate /fast/users/a1746546/envs/myenv
 module load GCC/5.4.0-2.26

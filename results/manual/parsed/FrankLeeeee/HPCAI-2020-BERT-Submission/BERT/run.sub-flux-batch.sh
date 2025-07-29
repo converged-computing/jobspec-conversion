@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peas-3797
+#FLUX --job-name=blue-puppy-9597
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 readonly docker_image="nvcr.io/nvidia/tensorflow:19.08-py3"

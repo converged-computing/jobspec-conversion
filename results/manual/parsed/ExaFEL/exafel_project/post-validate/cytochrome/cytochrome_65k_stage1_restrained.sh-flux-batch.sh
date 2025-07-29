@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cyto_stage1
-#FLUX: -N=128
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=cyto_stage1
+#FLUX -N=128
+#FLUX --queue=regular
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export INDEX_PATH='$SCRATCH/cytochrome/${1}'

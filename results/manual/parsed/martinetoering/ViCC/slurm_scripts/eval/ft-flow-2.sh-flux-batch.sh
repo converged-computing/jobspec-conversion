@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ft-flow
-#FLUX: -c=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ft-flow
+#FLUX -c=4
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=72000
+#FLUX --urgency=16
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

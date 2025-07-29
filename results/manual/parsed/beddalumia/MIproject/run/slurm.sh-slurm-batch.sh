@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=HM.2s5r
-#FLUX: -N=2
-#FLUX: --queue=long1
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=HM.2s5r
+#SBATCH --output=sLOG_%x_out%j
+#SBATCH --error=sLOG_%x_err%j
+#SBATCH --mail-user=gbellomi@sissa.it
+#SBATCH --mail-type=ALL,TIME_LIMIT_50
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long1
+#SBATCH --constraint=ntasks-per-node=20
 
 module load gnu8/8.3.0
 module load mkl/19.1.3.304

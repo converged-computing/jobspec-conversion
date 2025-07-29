@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-train-1815
-#FLUX: -c=10
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=100G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=public
 
 module load mamba/latest
 source activate inr2array

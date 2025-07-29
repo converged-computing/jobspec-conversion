@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-3297
-#FLUX: -c=4
-#FLUX: --queue=res-gpu-small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=res-gpu-small
+#SBATCH --qos=short
+#SBATCH --exclude=gpu[0-6]
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

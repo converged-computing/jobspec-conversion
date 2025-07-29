@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leg-4785
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=long
 
 CONTAINER="${HOME}/containers/rapids-prod.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_rc"

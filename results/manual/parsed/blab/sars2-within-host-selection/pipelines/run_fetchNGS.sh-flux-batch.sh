@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pedo-0725
-#FLUX: -n=15
-#FLUX: --queue=campus-new
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=milky-omelette-6799
+#FLUX -n=15
+#FLUX --queue=campus-new
+#FLUX -t=3600
+#FLUX --urgency=16
 
 load_modules() {
   module purge

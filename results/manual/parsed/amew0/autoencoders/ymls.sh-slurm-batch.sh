@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=auto-vscode
-#FLUX: --queue=gpu
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=auto-vscode
+#SBATCH --account=kunf0007
+#SBATCH --output=%A_%a.out
+#SBATCH --error=%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-23:59:59
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-20
 
 module purge
 module load miniconda/3

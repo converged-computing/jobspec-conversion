@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-nunchucks-2321
-#FLUX: --urgency=16
+#FLUX --job-name=salted-spoon-3454
+#FLUX --urgency=16
 
 stage=0
 unsupervised=1

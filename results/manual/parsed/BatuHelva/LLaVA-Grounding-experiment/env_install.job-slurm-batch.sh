@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=InstallEnvironment
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=InstallEnvironment
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2022

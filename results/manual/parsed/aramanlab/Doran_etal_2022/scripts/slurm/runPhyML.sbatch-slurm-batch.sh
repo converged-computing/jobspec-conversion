@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=runPhyML
-#FLUX: --queue=broadwl
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=runPhyML
+#SBATCH --output=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runPhyML/runPhyML_%A_%a.out
+#SBATCH --error=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runPhyML/runPhyML_%A_%a.err
+#SBATCH --mail-user=bend@uchicago.edu
+#SBATCH --mail-type=START,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
+#SBATCH --partition=broadwl
+#SBATCH --array=10,58,154,202
 
 module load julia/1.7.2
 projdir="/scratch/midway2/bend/projects/Doran_etal_2022"

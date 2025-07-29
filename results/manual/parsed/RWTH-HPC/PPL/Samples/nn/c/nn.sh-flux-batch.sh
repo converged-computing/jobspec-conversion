@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NN
-#FLUX: --queue=c18g
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=NN
+#FLUX --queue=c18g
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ml CUDA
 echo; export; echo;  nvidia-smi; echo

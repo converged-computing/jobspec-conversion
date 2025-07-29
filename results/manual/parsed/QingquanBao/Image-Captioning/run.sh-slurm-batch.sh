@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-mango-8885
-#FLUX: --queue=a100
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/%j.out
+#SBATCH --error=slurm_logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=a100
 
 python main.py train_evaluate --config_file configs/resnet101_attention_schedule.yaml 
 python evaluate.py --prediction_file experiments/resnet101_attention_schedule2/resnet101_attention_b128_emd300_predictions.json \

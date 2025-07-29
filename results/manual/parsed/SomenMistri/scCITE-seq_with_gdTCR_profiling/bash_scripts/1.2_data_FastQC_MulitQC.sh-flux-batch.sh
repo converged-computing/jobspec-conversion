@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job_name_placeholder
-#FLUX: -n=12
-#FLUX: --queue=bigmem
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=job_name_placeholder
+#FLUX -n=12
+#FLUX --queue=bigmem
+#FLUX -t=18000
+#FLUX --urgency=16
 
 echo -n "scRNA-Seq QC Pipeline beginning at: "; date
 echo -n "scRNA-Seq cellranger Pipeline beginning at: "; date

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=build-tps
-#FLUX: --queue=gpu-a100-small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=build-tps
+#SBATCH --account=FTA-SUB-Ghattas
+#SBATCH --output=build-tps.o%j
+#SBATCH --error=build-tps.e%j
+#SBATCH --mail-user=uvilla@oden.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu-a100-small
 
 export ORG='uvilla'
 export IMAGE_NAME='tps_env_parla'

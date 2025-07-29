@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-staircase-1250
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=${SPP}.${SEX}.$SEX.Maker2_%A_%a.out
+#SBATCH --mail-user=astuckert@uh.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=general
+#SBATCH --array=1-600%300
 
 while getopts a:s:x:u: option
 do

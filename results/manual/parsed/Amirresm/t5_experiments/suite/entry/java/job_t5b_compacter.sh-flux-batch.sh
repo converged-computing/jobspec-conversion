@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-animal-7567
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-banana-1865
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

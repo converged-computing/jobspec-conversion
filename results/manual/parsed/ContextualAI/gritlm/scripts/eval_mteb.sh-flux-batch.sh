@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mteb
+#FLUX --job-name=mteb
 #FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --queue=a3
+#FLUX -t=356400
+#FLUX --urgency=16
 
 export WANDB_PROJECT='gritlm'
 

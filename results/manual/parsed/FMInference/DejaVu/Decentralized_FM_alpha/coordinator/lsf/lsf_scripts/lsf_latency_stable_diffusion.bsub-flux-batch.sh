@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-1526
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-omelette-0187
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FMInference/DejaVu/Decentralized_FM_alpha/coordinator/lsf/lsf_scripts/lsf_latency_stable_diffusion.bsub

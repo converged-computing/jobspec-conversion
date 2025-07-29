@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Anl16-MDA7
-#FLUX: -n=16
-#FLUX: --queue=all
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Anl16-MDA7
+#SBATCH --account=d
+#SBATCH --output=logs/jid_%j-node_%N-%x.log
+#SBATCH --error=logs/jid_%j-node_%N-%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=all
+#SBATCH --qos=d
+#SBATCH --nodelist=zeal
 
 set -o errexit # exit when a command fails. Add || true to commands allowed to fail
 set -o nounset # exit when script tries to use undeclared variables

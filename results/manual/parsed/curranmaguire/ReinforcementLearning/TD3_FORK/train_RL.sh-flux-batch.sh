@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TD3_FORK
-#FLUX: --queue=ug-gpu-small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=TD3_FORK
+#FLUX --queue=ug-gpu-small
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python3 -m venv RL_Kernel
 source /home2/cgmj52/ReinforcementLearning/RL_Kernel/bin/activate

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MAKE_BDF
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=MAKE_BDF
+#SBATCH --account=NN9526K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

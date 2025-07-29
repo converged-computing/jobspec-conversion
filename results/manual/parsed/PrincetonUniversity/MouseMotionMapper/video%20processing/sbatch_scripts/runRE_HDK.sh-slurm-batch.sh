@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-banana-0087
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=06:00:00
+#SBATCH --array=1-3
 
 export MATLABPATH='$'/MouseMotionMapper/'
 

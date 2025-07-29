@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1D_additive_source_lossy_layer
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=1D_additive_source_lossy_layer
+#SBATCH --account=class04
+#SBATCH --output=1D_additive_source_lossy_layer.%j.o
+#SBATCH --error=1D_additive_source_lossy_layer.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 module load Julia/1.9.3-CrayGNU-21.09-cuda

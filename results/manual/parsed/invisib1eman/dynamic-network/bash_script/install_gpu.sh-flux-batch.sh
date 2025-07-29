@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sample_job
+#FLUX --job-name=sample_job
 #FLUX: --exclusive
-#FLUX: --queue=b1164
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=b1164
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load python-anaconda3

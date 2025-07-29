@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bf_picrust
-#FLUX: -n=12
-#FLUX: --queue=Intel6240
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=bf_picrust
+#FLUX -n=12
+#FLUX --queue=Intel6240
+#FLUX -t=28800
+#FLUX --urgency=16
 
 source activate picrust2
 cd /hpcstor6/scratch01/p/patrick.kearns/Bullfrog_nut_enrich

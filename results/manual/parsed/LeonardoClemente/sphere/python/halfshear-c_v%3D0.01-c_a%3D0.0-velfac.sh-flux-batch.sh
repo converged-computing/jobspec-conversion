@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cat-1691
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-fudge-2938
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-c_v%3D0.01-c_a%3D0.0-velfac.sh

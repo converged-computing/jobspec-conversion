@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=CABLE_site
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=CABLE_site
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=06:00:00
 
 module del intel-cc intel-fc
 module add intel-cc/16.0.1.150 intel-fc/16.0.1.150

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=DLmodels
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=DLmodels
+#SBATCH --output=log/imagenet/download_pretrained_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 echo "Download ImageNet pretrained models from pytorch-ensembles"
 echo "See https://github.com/bayesgroup/pytorch-ensembles"

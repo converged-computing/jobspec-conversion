@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-car-9614
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=rpp-aevans-ab
+#SBATCH --output=slurm_out/%x-%j.out
+#SBATCH --mail-user=adam.trefonides@mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2G
+#SBATCH --time=20:00:00
+#SBATCH --array=0-9581
 
 export FB='$(printf "%5.5d" ${SLURM_ARRAY_TASK_ID})'
 export SINGULARITY_BIND=''

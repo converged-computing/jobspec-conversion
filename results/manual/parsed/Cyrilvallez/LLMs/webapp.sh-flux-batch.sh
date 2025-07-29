@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=webapp
-#FLUX: -c=4
-#FLUX: --queue=nodes
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=webapp
+#FLUX -c=4
+#FLUX --queue=nodes
+#FLUX -t=864000
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate llm

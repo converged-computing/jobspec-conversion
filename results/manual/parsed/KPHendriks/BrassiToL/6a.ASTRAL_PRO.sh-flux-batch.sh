@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=A-PRO
-#FLUX: -c=68
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=A-PRO
+#FLUX -c=68
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel/17.0.4
 module load gnuparallel

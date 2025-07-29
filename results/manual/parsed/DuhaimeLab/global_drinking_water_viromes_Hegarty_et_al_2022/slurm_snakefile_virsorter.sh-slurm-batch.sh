@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=assemblies
-#FLUX: --queue=standard
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=assemblies
+#SBATCH --account=kwigg1
+#SBATCH --output=Logs/%x-%j.out
+#SBATCH --mail-user=hegartyb@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000mb
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 source /etc/profile.d/http_proxy.sh
 if [[ $SLURM_JOB_NODELIST ]] ; then

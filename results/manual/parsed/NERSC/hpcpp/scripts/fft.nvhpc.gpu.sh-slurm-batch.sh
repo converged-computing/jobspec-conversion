@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=FFT-GPU
-#FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=FFT-GPU
+#SBATCH --account=nstaff_g
+#SBATCH --output=fft-gpu.o%j
+#SBATCH --error=fft-gpu.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=08:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 set +x
 mkdir -p ${HOME}/repos/nvstdpar/build-fft-gpu

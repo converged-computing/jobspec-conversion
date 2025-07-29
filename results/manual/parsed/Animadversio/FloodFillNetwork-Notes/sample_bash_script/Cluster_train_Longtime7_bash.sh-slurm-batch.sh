@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-platanos-1283
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/FloodFillNetwork-Notes/sample_bash_script/Cluster_train_Longtime7_bash.sh

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=omp_scale2
-#FLUX: --exclusive
-#FLUX: --queue=THIN
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=omp_scale2
+#SBATCH --output=scale_omp_thin_2_job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=490G
+#SBATCH --time=02:00:00
+#SBATCH --partition=THIN
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2,ntasks-per-socket=1
+#SBATCH --chdir=/u/dssc/mdepet00/assignment/exercise1
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

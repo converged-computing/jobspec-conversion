@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_splitServer_JustAK8_2
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_splitServer_JustAK8_2
+#SBATCH --output=splitServer_JustAK8_2_arrays/out_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=05:00:00
+#SBATCH: --exclusive
 
 export SCRAM_ARCH='slc7_amd64_gcc900'
 

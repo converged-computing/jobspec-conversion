@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=clvisc
-#FLUX: -n=4
-#FLUX: --queue=lcsc
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=clvisc
+#FLUX -n=4
+#FLUX --queue=lcsc
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PATH='/lustre/nyx/hyihp/lpang/anaconda/bin:$PATH'
 export PYTHONPATH='/lustre/nyx/hyihp/lpang/anaconda/lib/python/:$PYTHONPATH'

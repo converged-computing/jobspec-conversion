@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-avocado-3151
+#FLUX --job-name=carnivorous-peas-9023
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd ../build
 . ../readex_env/set_env_plain.source

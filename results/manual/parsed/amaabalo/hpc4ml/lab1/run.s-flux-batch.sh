@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lab1
-#FLUX: --urgency=16
+#FLUX --job-name=lab1
+#FLUX --urgency=16
 
 SRCDIR=$HOME/hpc4ml/lab1
 cd $SRCDIR

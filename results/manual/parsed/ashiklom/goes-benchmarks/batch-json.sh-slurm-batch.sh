@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-7854
-#FLUX: -c=8
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --account=s2826
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:59:00
+#SBATCH --array=1-10
 
 source ~/.bash_functions
 mod_py39

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bicycle-6804
-#FLUX: --queue=cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=red-gato-2422
+#FLUX --queue=cpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 for version in ${CODE_VERSION}

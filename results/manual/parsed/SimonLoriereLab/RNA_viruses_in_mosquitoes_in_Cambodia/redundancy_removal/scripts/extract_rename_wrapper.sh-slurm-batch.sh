@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=contig_extraction
-#FLUX: --queue=common
-#FLUX: --urgency=16
+#SBATCH --job-name=contig_extraction
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --partition=common
+#SBATCH --qos=normal
 
 sample_list="/full_path_to/wd/redundancy_removal/metadata/sample_list1.tsv"
 _extract_rename_joberrors="/full_path_to/wd/redundancy_removal/extract_rename_joberrors"

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-2066
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/adrn/ophiuchus/mpi-submit/4-mockstream-barred.sh

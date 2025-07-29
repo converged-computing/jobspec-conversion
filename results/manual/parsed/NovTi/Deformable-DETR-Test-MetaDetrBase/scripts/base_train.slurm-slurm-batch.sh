@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=base_train
-#FLUX: -c=2
-#FLUX: --queue=v100
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#SBATCH --job-name=base_train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=32GB
+#SBATCH --time=1-04:00:00
+#SBATCH --partition=v100
 
 config_path=$1
 ext3_path=/scratch/$USER/py39/overlay-25GB-500K.ext3

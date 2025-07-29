@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RICO0p860SZA160RD
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=RICO0p860SZA160RD
+#SBATCH --output=slurm-RICO0p860SZA1601e6.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --partition=batch
+#SBATCH --qos=medium
+#SBATCH --array=0-295%295
 
 MSCART='/umbc/xfs1/zzbatmos/users/charaj1/LES_MSCART/mscart/build/intel-release-nocaf/mscart/MSCART'
 NPH=1e6

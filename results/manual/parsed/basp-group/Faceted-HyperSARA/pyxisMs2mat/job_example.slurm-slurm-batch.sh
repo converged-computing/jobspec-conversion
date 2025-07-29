@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-eagle-5483
-#FLUX: -c=36
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=ec110-guest
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+#SBATCH: --exclusive
 
 export MEQTREES_CATTERY_PATH='/work/sc004/shared/software/meqtrees-cattery/1.7.0'
 

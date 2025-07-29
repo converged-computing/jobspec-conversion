@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -N=10
-#FLUX: -n=80
-#FLUX: --queue=hpg-ai
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job_test
+#SBATCH --account=nvidia-ai
+#SBATCH --output=mpi_test_%j.log
+#SBATCH --nodes=10
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=80
+#SBATCH --mem-per-cpu=60gb
+#SBATCH --time=00:05:00
+#SBATCH --partition=hpg-ai
+#SBATCH --qos=nvidia-ai
+#SBATCH --constraint=ntasks-per-node=8
 
 export LAMMPS_PLUGIN_PATH='/home/jinzexue/hackathon/sp2022-hackathon/lammps-ani/build'
 

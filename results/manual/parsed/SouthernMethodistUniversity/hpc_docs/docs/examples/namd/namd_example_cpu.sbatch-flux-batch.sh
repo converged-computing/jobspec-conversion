@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -N=2
+#FLUX --job-name=example
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=standard-mem-s
-#FLUX: --urgency=16
+#FLUX --queue=standard-mem-s
+#FLUX --urgency=16
 
 module purge
 module load namd/2.12/cpu

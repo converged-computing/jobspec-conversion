@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=castro_gpu_job
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=castro_gpu_job
+#FLUX -N=2
+#FLUX -c=10
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

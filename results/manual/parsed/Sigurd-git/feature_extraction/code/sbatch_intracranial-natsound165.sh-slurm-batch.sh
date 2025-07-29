@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=salted-kitty-1878
-#FLUX: -c=8
-#FLUX: --queue=doppelbock
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/snormanh_lab/shared/projects/intracranial-natsound165/analysis/logs/%a.txt
+#SBATCH --mail-user=guoyang_liao@urmc.rochester.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=04:00:00
+#SBATCH --partition=doppelbock
+#SBATCH --array=0-8
+#SBATCH --exclude=bhg0044,bhg0046,bhg0047,bhg0048
 
 project='intracranial-natsound165'
 non_list=(modulus real rect)

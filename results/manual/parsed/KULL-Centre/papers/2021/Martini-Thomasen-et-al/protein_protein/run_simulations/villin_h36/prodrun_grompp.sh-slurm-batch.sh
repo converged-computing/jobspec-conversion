@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-kerfuffle-7299
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/protein_protein/run_simulations/villin_h36/prodrun_grompp.sh

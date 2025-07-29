@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-salad-5110
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=job_size40960_proc16_float32.%N.%j.out
+#SBATCH --error=job_size40960_proc16_float32.%N.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=serc
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 MATSIZE=40960
 echo;

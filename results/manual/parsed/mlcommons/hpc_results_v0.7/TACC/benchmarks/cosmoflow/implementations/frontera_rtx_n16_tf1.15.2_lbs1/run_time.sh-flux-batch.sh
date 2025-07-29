@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cosmoflow
-#FLUX: -N=16
-#FLUX: --queue=rtx
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=cosmoflow
+#FLUX -N=16
+#FLUX --queue=rtx
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export CUDA_HOME='$TACC_CUDA_DIR'
 export CUDNN_ROOT='$TACC_CUDNN_DIR'

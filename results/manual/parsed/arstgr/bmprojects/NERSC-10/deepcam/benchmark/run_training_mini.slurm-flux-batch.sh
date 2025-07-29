@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=deepcam-mini
-#FLUX: -c=12
-#FLUX: --queue=ndmv4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=deepcam-mini
+#FLUX -c=12
+#FLUX --queue=ndmv4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export N10_DEEPCAM='/mnt/resource_nvme/deepcam'
 

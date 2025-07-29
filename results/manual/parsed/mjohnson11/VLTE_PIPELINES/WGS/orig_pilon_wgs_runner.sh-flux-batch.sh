@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=orig_wgs_pipe
-#FLUX: -n=2
-#FLUX: --queue=serial_requeue
-#FLUX: -t=150
-#FLUX: --urgency=16
+#FLUX --job-name=orig_wgs_pipe
+#FLUX -n=2
+#FLUX --queue=serial_requeue
+#FLUX -t=150
+#FLUX --urgency=16
 
 SAMP=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Samples.txt)
 SUF=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Sample_Suffixes.txt)

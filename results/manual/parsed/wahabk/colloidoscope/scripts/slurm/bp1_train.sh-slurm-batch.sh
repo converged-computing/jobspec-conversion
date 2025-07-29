@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=torch-train
-#FLUX: --queue=test
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=torch-train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=16G
+#SBATCH --time=00:05:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=1
 
 module load lang/cuda/11.1
 module load lang/python/anaconda/3.8.8-2021.05-torch

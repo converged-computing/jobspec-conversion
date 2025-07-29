@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$JOBNAME
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=$JOBNAME
+#SBATCH --output=slurmjob-%j.out
+#SBATCH --error=slurmjob-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --nodelist=$HOST
 
 export JULIA_NUM_THREADS='$CPU_CORES'
 export LD_LIBRARY_PATH='/usr/lib64/openmpi/lib:\$LD_LIBRARY_PATH'

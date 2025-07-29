@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mixer
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mixer
+#SBATCH --account=nn9114k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=4600M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-20
 
 export MIXER_ROOT='/cluster/projects/nn9114k/oleksanf/github/mixer'
 export OUTDIR='/cluster/projects/nn9114k/oleksanf/saga/mixer_results/    # must end with a forward slash, /'

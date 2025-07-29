@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cinnamonbun-0660
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ -e nrlmol_exe ]; then
   #Here nrlmol_exe.0 is your reference executable i.e. orginal code.

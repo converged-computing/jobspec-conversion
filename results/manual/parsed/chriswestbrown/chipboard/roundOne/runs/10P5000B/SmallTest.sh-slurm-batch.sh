@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cattywampus-7652
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/chriswestbrown/chipboard/roundOne/runs/10P5000B/SmallTest.sh

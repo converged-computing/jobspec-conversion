@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=biLouvainMethod
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=biLouvainMethod
+#SBATCH --mail-user=p.pesantezcabrera@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --licenses=project
 
 module load gcc/6.1.0
 folder="/global/homes/p/ppesante/biLouvain/inputData/"

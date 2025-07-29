@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fat-chip-8530
-#FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2018-5-55
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:2
+#SBATCH --time=03:00:00
+#SBATCH: --exclusive
 
 export KERAS_BACKEND='tensorflow'
 

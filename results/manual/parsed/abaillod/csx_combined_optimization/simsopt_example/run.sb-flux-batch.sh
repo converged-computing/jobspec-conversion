@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=simsopt_examplen
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=simsopt_examplen
+#FLUX -t=720
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate simsopt

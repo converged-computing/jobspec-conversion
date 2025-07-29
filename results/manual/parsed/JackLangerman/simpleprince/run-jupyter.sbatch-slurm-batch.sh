@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --output=%A_%x_%u.out
+#SBATCH --error=%A_%x_%u.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=12GB
+#SBATCH --time=06:00:00
 
 module load tensorflow/python3.6/1.5.0
 module swap python3/intel  anaconda3/5.3.1

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate_9b_idefics
-#FLUX: --queue=ampere
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=evaluate_9b_idefics
+#FLUX --queue=ampere
+#FLUX -t=900
+#FLUX --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

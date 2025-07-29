@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-6682
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:h100:1
+#SBATCH --mem=82G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

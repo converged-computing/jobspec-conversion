@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_val
-#FLUX: -c=4
-#FLUX: --queue=lianglab,research
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#SBATCH --job-name=train_val
+#SBATCH --output=./log/l_device_%j.out
+#SBATCH --error=./log/e_device_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=10-16:00:00
+#SBATCH --partition=lianglab,research
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --exclude=euler[01-16],euler[24-27]
 
 source ~/.bashrc
 echo "======== testing CUDA available ========"

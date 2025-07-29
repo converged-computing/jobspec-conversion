@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ghru_ariba
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ghru_ariba
+#FLUX -t=3600
+#FLUX --urgency=16
 
 function Help() {
     echo

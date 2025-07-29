@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-hippo-6886
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 NO_COLOR="\033[0m"
 OK_COLOR="\033[32;01m"

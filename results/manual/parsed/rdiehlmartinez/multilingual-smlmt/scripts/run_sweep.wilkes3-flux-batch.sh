@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multilingual-smlmt
-#FLUX: --queue=ampere
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#FLUX --job-name=multilingual-smlmt
+#FLUX --queue=ampere
+#FLUX -t=42600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

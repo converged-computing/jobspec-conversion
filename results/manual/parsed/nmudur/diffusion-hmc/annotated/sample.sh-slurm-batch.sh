@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-frito-5634
-#FLUX: --queue=fink_gpu
-#FLUX: -t=225
-#FLUX: --urgency=16
+#SBATCH --output=sample_log/goodrun_%j.o
+#SBATCH --error=sample_log/goodrun_%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80000
+#SBATCH --time=00:03:45
+#SBATCH --partition=fink_gpu
 
 PROJDIR="/n/holylfs05/LABS/finkbeiner_lab/Users/nmudur/project_dirs/CMD_2D/diffusion-models-for-cosmological-fields/annotated/results/"
 MODELRUN="Run_5-7_0-50/"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-avocado-0442
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=arid-pancake-3471
+#FLUX -t=172800
+#FLUX --urgency=16
 
 n=$SLURM_ARRAY_TASK_ID
 instance=`sed -n "${n} p" instances1.txt`      # Get n-th line (1-indexed) of the file

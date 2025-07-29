@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DRL_FLEXLAB
-#FLUX: -c=6
-#FLUX: --queue=cf1
-#FLUX: -t=1230
-#FLUX: --urgency=16
+#SBATCH --job-name=DRL_FLEXLAB
+#SBATCH --account=pc_mlee
+#SBATCH --mail-user=mkiran@lbl.gov
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=00:20:30
+#SBATCH --partition=cf1
+#SBATCH --qos=cf_normal
+#SBATCH --constraint=es1_v100
 
 module load singularity/3.2.1
 echo "module loaded"

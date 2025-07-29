@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ihmp
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=ihmp
+#SBATCH --output=stdout.txt
+#SBATCH --mail-user=jmorton@flatironinstitute.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:01
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
 
 echo $PWD
 source ~/.bashrc

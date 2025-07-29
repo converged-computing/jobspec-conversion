@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=saveSlices
-#FLUX: -n=36
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=saveSlices
+#FLUX -n=36
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source $HOME/.bash_profile
 module load paraview/5.6.0

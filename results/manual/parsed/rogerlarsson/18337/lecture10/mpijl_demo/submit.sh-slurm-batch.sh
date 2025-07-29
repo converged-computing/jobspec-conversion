@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-frito-1661
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=top5norm_collective.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 source /etc/profile
 module load julia

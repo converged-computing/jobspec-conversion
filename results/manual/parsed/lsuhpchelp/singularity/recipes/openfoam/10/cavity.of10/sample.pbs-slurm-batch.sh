@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-8341
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lsuhpchelp/singularity/recipes/openfoam/10/cavity.of10/sample.pbs

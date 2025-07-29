@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=infer-corners
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#SBATCH --job-name=infer-corners
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=06:00:00
+#SBATCH --qos=low
 
 export PATH='/opt/singularity/bin:${PATH}'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cupcake-4017
-#FLUX: -c=8
-#FLUX: --queue=lonepeak
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-mango-7349
+#FLUX -c=8
+#FLUX --queue=lonepeak
+#FLUX -t=21600
+#FLUX --urgency=16
 
 StartDir=$(pwd)
 HexDir="/uufs/chpc.utah.edu/common/home/u1046484/Codebase/heximap/"

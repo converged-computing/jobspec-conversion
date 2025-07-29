@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parsnip-9316
-#FLUX: -n=4
-#FLUX: --queue=long
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=24G
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=long
 
 echo "Starting $1 parallel processes on a single GPU"
 for i in $(seq 1 $1); do

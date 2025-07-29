@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ring_shift_blocking
-#FLUX: -N=2
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=ring_shift_blocking
+#FLUX -N=2
+#FLUX -t=2400
+#FLUX --urgency=16
 
 module purge
 module load intel/2020a

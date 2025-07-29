@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wgs-msweep-species-reads-colored
-#FLUX: --queue=short
-#FLUX: -t=28799
-#FLUX: --urgency=16
+#FLUX --job-name=wgs-msweep-species-reads-colored
+#FLUX --queue=short
+#FLUX -t=28799
+#FLUX --urgency=16
 
 export LC_ALL='C'
 export LANG='C'

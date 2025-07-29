@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GradDist
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=GradDist
+#SBATCH --output=./logs/gradDistJob-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
+#SBATCH --constraint=skl-compat
+#SBATCH --array=1-972:1
 
 SUBJECT_LIST=./results/CleanSujects4Dist.txt
 module load ConnectomeWorkbench/1.4.2-rh_linux64

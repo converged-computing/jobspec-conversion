@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kerasTuner_chief_r2_experiment
-#FLUX: --queue=cpu-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=kerasTuner_chief_r2_experiment
+#FLUX --queue=cpu-long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

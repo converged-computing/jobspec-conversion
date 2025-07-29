@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-5367
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --partition=short
 
 java -Xmx16G -jar /projects1/tools/multivcfanalyzer/0.0.87/MultiVCFanalyzer_0-87.jar \
 NA \

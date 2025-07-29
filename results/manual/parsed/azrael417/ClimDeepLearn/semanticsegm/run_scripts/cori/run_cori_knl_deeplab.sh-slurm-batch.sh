@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=climseg_horovod
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=climseg_horovod
+#SBATCH --account=dasrepo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='66'
 export OMP_PLACES='threads'

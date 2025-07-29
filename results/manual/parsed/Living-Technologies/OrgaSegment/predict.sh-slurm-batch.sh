@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemur-7489
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=log/JobName.%J.out
+#SBATCH --error=log/JobName.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
 
 PREDICT=false
 TRACK=false

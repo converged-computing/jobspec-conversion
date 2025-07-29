@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=small-train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=small-train-osmi
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=small-train-osmi-%u-%j.out
+#SBATCH --error=small-train-osmi-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=bii-gpu
+#SBATCH --constraint=a100_80gb
 
 export CONTAINER_DIR='$EXEC_DIR/image-apptainer/'
 

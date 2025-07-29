@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-rabbit-7489
-#FLUX: -c=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-buttface-9253
+#FLUX -c=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export ANNOTSV='/mnt/common/Precision/AnnotSV/'
 

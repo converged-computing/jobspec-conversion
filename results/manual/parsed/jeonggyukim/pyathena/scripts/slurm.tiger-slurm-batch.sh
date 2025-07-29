@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=do_tasks
-#FLUX: -n=20
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=do_tasks
+#SBATCH --output=do_tasks_%j.out
+#SBATCH --error=do_tasks_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=28
 
 export MATPLOTLIBRC='$HOME/.config/matplotlib'
 export TERM='xterm-256color'

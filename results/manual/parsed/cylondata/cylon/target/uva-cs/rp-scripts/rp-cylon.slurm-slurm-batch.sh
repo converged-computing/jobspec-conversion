@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bike-9170
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=bii
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=rivanna/scripts/cylogs/rp-cylon-3n-40w-5m-%x-%j.out
+#SBATCH --error=rivanna/scripts/cylogs/rp-cylon-3n-40w-5m-%x-%j.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=bii
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

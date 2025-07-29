@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=alf_NGC4365_SN100
-#FLUX: -c=16
-#FLUX: --queue=cosma
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=alf_NGC4365_SN100
+#SBATCH --account=durham
+#SBATCH --output=/cosma5/data/durham/dc-poci1/alf/NGC4365/out.log
+#SBATCH --error=/cosma5/data/durham/dc-poci1/alf/NGC4365/out.log
+#SBATCH --mail-user=adriano.poci@durham.ac.uk
+#SBATCH --mail-type=TIME_LIMIT_90,TIME_LIMIT,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=3000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cosma
+#SBATCH --chdir=/cosma5/data/durham/dc-poci1/alf/NGC4365
+#SBATCH --array=0-330
 
 export ALF_HOME='/cosma5/data/durham/dc-poci1/alf/'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train4_job
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train4_job
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.6.3
 module load gcc-7.1.0

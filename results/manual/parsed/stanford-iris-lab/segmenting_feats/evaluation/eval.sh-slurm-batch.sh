@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fancy new architecture
-#FLUX: --queue=iris-hi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=fancy new architecture
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=iris-hi
+#SBATCH --exclude=iris4,iris2,iris-hp-z8
 
 source /sailhome/kayburns/.bashrc
 conda activate py3.8_torch1.10.1

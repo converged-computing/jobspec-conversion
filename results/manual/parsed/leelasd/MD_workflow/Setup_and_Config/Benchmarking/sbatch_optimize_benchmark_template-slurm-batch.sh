@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-train-3554
-#FLUX: -N=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=Change_me
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 ntpn=32
 jobname=optimize_bench

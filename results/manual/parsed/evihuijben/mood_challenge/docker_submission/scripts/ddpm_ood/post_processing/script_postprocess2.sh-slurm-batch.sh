@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mood
-#FLUX: --queue=bme.gpuresearch.q
-#FLUX: -t=3600000
-#FLUX: --urgency=16
+#SBATCH --job-name=mood
+#SBATCH --output=/home/bme001/s144823/output/other/output_%j.out
+#SBATCH --mail-user=e.m.c.huijben@tue.nl
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=41-16:00:00
+#SBATCH --partition=bme.gpuresearch.q
 
 source /home/bme001/s144823/conda/etc/profile.d/conda.sh
 conda activate mood

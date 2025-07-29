@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet.Hybrid
-#FLUX: --urgency=16
+#SBATCH --job-name=ImageNet.Hybrid
+#SBATCH --output=ImageNet.Hybrid.out.%j
+#SBATCH --error=ImageNet.Hybrid.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 train_batch=128
 nodes=1

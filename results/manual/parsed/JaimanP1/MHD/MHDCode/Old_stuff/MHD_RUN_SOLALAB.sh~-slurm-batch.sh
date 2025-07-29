@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-soup-9592
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=solarlab
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --partition=solarlab
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --nodelist=node[817-818]
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

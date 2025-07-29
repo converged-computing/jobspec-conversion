@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-poo-5203
-#FLUX: -N=4
+#FLUX --job-name=ornery-cattywampus-0953
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=gaia
-#FLUX: --urgency=16
+#FLUX --queue=gaia
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

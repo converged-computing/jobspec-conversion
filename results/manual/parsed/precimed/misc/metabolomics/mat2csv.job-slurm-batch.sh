@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mat2csv
-#FLUX: -c=8
-#FLUX: -t=15600
-#FLUX: --urgency=16
+#SBATCH --job-name=mat2csv
+#SBATCH --account=p33
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8GB
+#SBATCH --time=04:20:00
+#SBATCH --array=1-22
 
 module purge
 source /cluster/projects/p33/users/mohammadzr/envs/pynext38/bin/activate

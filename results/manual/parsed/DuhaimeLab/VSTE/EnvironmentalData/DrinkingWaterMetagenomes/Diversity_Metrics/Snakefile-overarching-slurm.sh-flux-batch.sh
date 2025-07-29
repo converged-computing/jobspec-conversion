@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=overarching
-#FLUX: --queue=standard
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=overarching
+#FLUX --queue=standard
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /etc/profile.d/http_proxy.sh
 if [[ $SLURM_JOB_NODELIST ]] ; then

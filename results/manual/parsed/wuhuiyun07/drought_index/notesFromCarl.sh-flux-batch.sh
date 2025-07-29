@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=install_conda
-#FLUX: -c=20
-#FLUX: --queue=centos7
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=install_conda
+#FLUX -c=20
+#FLUX --queue=centos7
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CONDA_ENVS_PATH='/lustre/project/taw/Wu_analysis/conda_envs'
 export MINIWDL_CFG='/share/apps/centos7/anaconda3/2023.07/envs/miniwdl/miniwdl.cfg'

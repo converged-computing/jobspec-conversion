@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CAAEfromscratch
-#FLUX: --queue=csgpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=CAAEfromscratch
+#SBATCH --mail-user=xxxx@ucdconnect.ie
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=csgpu
+#SBATCH --constraint=ntasks-per-node=15
 
 cd $SLURM_SUBMIT_DIR
 cd Face_Aging_CAAE_10age

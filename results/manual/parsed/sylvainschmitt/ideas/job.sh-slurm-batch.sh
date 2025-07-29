@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ideas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ideas
+#SBATCH --output=ideas.%N.%j.out
+#SBATCH --error=ideas.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # snakemake depending on your HPC

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NPhAnToM_%j
-#FLUX: -c=4
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=NPhAnToM_%j
+#SBATCH --output=/projects/mjolnir1/people/%u/nextflowout/stdout_%j
+#SBATCH --error=/projects/mjolnir1/people/%u/nextflowout/error_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=1-08:00:00
 
 export SINGULARITY_CACHEDIR='/maps/projects/mjolnir1/people/${USER}/SingularityTMP'
 export SINGULARITY_LOCALCACHEDIR='/maps/projects/mjolnir1/people/${USER}/SingularityTMP'

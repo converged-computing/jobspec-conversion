@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$1
-#FLUX: -c=8
-#FLUX: --queue=cpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=$1
+#FLUX -c=8
+#FLUX --queue=cpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 sbatch <<EOT
 source ${HOME}/.bashrc

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-spoon-9873
-#FLUX: --queue=defq
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-cherry-1137
+#FLUX --queue=defq
+#FLUX -t=240
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

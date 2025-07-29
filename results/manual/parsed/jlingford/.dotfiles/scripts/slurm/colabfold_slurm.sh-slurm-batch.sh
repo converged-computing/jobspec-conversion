@@ -1,9 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=colabsing
-#FLUX: -c=12
-#FLUX: --queue=bdi
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=colabsing
+#SBATCH --account=rp24
+#SBATCH --output=log-%j.out
+#SBATCH --error=log-%j.err
+#SBATCH --mail-user=james.lingford@monash.edu
+#SBATCH --mail-type=BEGIN,END,FAIL,TIME_OUT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=200000
+#SBATCH --time=00:05:00
+#SBATCH --partition=bdi
+#SBATCH --qos=bdiq
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/jamesl/rp24/scratch_nobackup/jamesl/ColabFold
+#SBATCH --nodelist=m3u021
 
 export SINGULARITY_CACHEDIR='/home/jamesl/rp24/scratch_nobackup/jamesl'
 

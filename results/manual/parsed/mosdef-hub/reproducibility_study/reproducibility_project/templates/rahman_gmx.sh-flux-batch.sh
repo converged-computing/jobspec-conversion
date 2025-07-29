@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-signal-2733
-#FLUX: --queue=week-long-std
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-pedo-8892
+#FLUX --queue=week-long-std
+#FLUX -t=86400
+#FLUX --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

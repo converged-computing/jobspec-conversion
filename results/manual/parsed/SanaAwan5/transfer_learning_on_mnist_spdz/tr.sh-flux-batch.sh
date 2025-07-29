@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-malarkey-5212
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-parsnip-0248
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Python/3.6.9
 source /scratch/sanaawan/PySyft/venv/bin/activate

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TransFAS
-#FLUX: -c=4
-#FLUX: --queue=guests
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TransFAS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:A40:1
+#SBATCH --mem=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=guests
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Just checking!
 Starting job on execution node : $(hostname)

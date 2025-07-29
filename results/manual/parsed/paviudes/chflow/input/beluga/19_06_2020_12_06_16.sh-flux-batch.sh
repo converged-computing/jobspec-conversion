@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-8962
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-buttface-6852
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load intel python scipy-stack
 cd /project/def-jemerson/pavi/chflow

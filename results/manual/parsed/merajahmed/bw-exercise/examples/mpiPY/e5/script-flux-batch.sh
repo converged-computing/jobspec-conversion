@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chair-7420
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-cherry-5367
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/merajahmed/bw-exercise/examples/mpiPY/e5/script

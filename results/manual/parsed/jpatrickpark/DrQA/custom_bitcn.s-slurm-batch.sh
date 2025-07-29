@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DrQA_train
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=DrQA_train
+#SBATCH --output=output/train_%j.out
+#SBATCH --mail-user=jp.park@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export CLASSPATH='$CLASSPATH:$SCRATCH/data/corenlp/*'
 

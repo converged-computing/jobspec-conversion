@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cupcake-6344
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-leopard-6275
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=1500
+#FLUX --urgency=16
 
 module load gcc
 module load python/3.7.6

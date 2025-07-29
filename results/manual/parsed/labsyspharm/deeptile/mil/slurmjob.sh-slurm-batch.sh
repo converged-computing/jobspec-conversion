@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ACAEtest
-#FLUX: --queue=gpu
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=ACAEtest
+#SBATCH --output=joboutput_%j.out
+#SBATCH --error=joberror_%j.err
+#SBATCH --mail-user=hungyi_wu@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:teslaK80:1
+#SBATCH --mem=32G
+#SBATCH --time=00:12:00
+#SBATCH --partition=gpu
 
 export FP='jobresult_$SLURM_JOB_ID'
 

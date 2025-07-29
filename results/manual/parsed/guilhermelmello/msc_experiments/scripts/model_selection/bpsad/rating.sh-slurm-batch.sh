@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-punk-5924
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/guilhermelmello/msc_experiments/scripts/model_selection/bpsad/rating.sh

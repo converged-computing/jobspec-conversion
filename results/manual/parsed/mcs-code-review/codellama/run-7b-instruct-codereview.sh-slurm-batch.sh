@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=7b-instruct-codereview
-#FLUX: -c=8
-#FLUX: --queue=deeplearn
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=7b-instruct-codereview
+#SBATCH --account=punim2247
+#SBATCH --output=logs/7b-instruct-codereview.log
+#SBATCH --mail-user=mukhammad.karimov@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=deeplearn
+#SBATCH --qos=gpgpudeeplearn
+#SBATCH --constraint=dlg5
 
 echo "Current modules:"
 echo "$(module list)"

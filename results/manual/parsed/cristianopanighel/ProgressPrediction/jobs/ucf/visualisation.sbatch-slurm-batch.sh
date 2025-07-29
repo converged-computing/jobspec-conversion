@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pn_ucf_visualization
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=pn_ucf_visualization
+#SBATCH --output=pn_ucf_1.out
+#SBATCH --error=pn_ucf_1.err
+#SBATCH --mail-user=cristiano.panighel@studenti.unipd.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --qos=medium
+#SBATCH --constraint=cudadrv510
 
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:32'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bicycle-8061
-#FLUX: --queue=gh
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-hobbit-0594
+#FLUX --queue=gh
+#FLUX -t=3600
+#FLUX --urgency=16
 
 APPTAINER_IMAGE_PATH=/nobackup/projects/${SLURM_JOB_ACCOUNT}/${USER}/aarch64/pytorch-transformers-wikitext2-benchmark/transformers-benchmark-23.07.sif 
 echo "HOSTNAME=${HOSTNAME}"

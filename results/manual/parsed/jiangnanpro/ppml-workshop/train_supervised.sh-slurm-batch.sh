@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=supervDef
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=supervDef
+#SBATCH --output=logs/%A_%a.stdout
+#SBATCH --error=logs/%A_%a.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --partition=all
+#SBATCH --qos=default
+#SBATCH --array=0-5
+#SBATCH --exclude=n[1-5]
 
 SECONDS=0
 restart(){

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run1
-#FLUX: -n=36
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=run1
+#FLUX -n=36
+#FLUX --queue=skylake
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='18'

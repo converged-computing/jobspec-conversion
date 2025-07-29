@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=examplejob
+#FLUX --job-name=examplejob
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export AMD_LOG_LEVEL='0'

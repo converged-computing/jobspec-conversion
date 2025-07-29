@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cifkfc4
-#FLUX: -n=4
-#FLUX: --queue=v100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=cifkfc4
+#SBATCH --account=XXX
+#SBATCH --output=sbatch_logs/cif_kfc4.o%j
+#SBATCH --mail-user=XXX
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=v100
 
 mkdir -p sbatch_logs
 source $SCRATCH/anaconda3/bin/activate pytorch

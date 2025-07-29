@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ghais_rna_seq
-#FLUX: --queue=batch
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=ghais_rna_seq
+#SBATCH --output=ghais_rna_seq_snk.out
+#SBATCH --error=ghais_rna_seq_snk.err
+#SBATCH --mail-user=george.bouras@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=23:00:00
+#SBATCH --partition=batch
 
 SNK_DIR="/hpcfs/users/a1667917/Ghais/Rat_RNA_Seq/Nanopore_RNA_Seq_cdna_Pipeline"
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"

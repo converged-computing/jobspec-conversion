@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-animal-8315
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-carrot-3256
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load foss/2022a 
 module load PyTorch/1.12.1

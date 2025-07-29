@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_sterao
-#FLUX: -N=4
-#FLUX: -n=192
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=run_sterao
+#FLUX -N=4
+#FLUX -n=192
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 192'
 

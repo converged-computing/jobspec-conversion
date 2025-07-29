@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Regression
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=Regression
+#FLUX -t=21600
+#FLUX --urgency=16
 
 WORKDIR=$HOME/thesis/train/trainer #main script
 RUNDIR= #relative dir of config and output

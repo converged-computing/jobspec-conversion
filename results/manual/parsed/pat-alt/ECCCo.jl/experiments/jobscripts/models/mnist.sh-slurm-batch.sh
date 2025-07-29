@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Train MNIST (ECCCo)
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=Train MNIST (ECCCo)
+#SBATCH --account=research-eemcs-insy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 srun julia --project=experiments experiments/run_experiments.jl -- data=mnist output_path=results only_models > experiments/train_mnist.log

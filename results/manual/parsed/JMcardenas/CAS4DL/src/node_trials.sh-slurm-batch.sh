@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hobbit-6250
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=def-adcockb
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:p100:4
+#SBATCH --mem=0
+#SBATCH --time=00:03:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 for j in {0..16..4}
 do

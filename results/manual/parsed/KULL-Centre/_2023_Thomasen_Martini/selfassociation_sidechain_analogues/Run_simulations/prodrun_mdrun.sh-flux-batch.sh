@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cupcake-7212
-#FLUX: --queue=qgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-nunchucks-2607
+#FLUX --queue=qgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "========= Job started  at `date` =========="
 cd $SLURM_SUBMIT_DIR

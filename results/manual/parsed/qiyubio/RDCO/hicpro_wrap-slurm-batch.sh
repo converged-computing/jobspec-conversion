@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hippo-1478
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 Soft="hicpro_wrap"
 function usage {

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SNPTEST
-#FLUX: -c=4
-#FLUX: --queue=mrc-epid
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=SNPTEST
+#FLUX -c=4
+#FLUX --queue=mrc-epid
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export SNPTEST='/scratch/mrc-epid/bin/snptest_v2.5.2_linux_x86_64_dynamic/snptest_v2.5.2'
 export DIR='/scratch/mrc-epid/genetics/metabolomics/metabolon_gwas/SNPTEST'

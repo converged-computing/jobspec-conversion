@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hobbit-3573
-#FLUX: -c=8
-#FLUX: --queue=synergy,cpu2019,cpu2021
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=record_sbatch_run.%J.out
+#SBATCH --error=record_sbatch_run.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=synergy,cpu2019,cpu2021
 
 log_dir="$(pwd)"
 log_file="logs/pipeline-analysis.log.txt"

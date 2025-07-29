@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-4428
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-despacito-8222
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cat cifar100-exch.sh
 logdir='logs3/Final-cifar100-resnet110'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=t5_definition
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=t5_definition
+#FLUX -c=8
+#FLUX --queue=accel
+#FLUX -t=18000
+#FLUX --urgency=16
 
 source ${HOME}/.bashrc
 module purge

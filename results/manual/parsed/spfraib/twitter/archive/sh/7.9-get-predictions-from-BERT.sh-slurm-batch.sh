@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=predictions
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=predictions
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=samuel.fraiberger@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load anaconda3/2020.02

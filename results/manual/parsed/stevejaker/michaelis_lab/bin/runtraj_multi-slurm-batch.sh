@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-citrus-6599
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --mail-user=sjaker12@byu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=00:01:00
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-43%1
 
 . /etc/profile
 loadamber 

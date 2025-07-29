@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=balrog_loc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=balrog_loc
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export GBMDATA='/ptmp/fkunzwei/gbm_data'
 export LD_LIBRARY_PATH='$HOME/sw/MultiNest/lib'

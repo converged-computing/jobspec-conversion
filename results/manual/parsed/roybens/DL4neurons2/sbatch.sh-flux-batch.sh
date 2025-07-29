@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=izhi
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=izhi
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd /global/cscratch1/sd/vbaratha/izhi
 MODELNAME=hh_ball_stick_9param

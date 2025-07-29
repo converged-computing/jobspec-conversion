@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-5215
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-nunchucks-3557
+#FLUX -t=28800
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

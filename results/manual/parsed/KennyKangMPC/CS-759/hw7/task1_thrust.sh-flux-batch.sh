@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=task1_thrust
-#FLUX: --queue=wacc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=task1_thrust
+#FLUX --queue=wacc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load cuda
 nvcc task1_thrust.cu -Xcompiler -O3 -Xcompiler -Wall -Xptxas -O3 -o task1_thrust

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pad1
-#FLUX: -n=16
-#FLUX: --queue=v100-16gb-hiprio
-#FLUX: --urgency=16
+#FLUX --job-name=pad1
+#FLUX -n=16
+#FLUX --queue=v100-16gb-hiprio
+#FLUX --urgency=16
 
 module load cuda/11.1
 module load python3/anaconda/ai-lab

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=G16N4B256
-#FLUX: -n=16
-#FLUX: -c=14
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=G16N4B256
+#SBATCH --account=ibex-cs
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=16
+#SBATCH --mem-per-cpu=300G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=a100
 
 export OMPI_MCA_btl_openib_warn_no_device_params_found='0'
 export UCX_MEMTYPE_CACHE='n'

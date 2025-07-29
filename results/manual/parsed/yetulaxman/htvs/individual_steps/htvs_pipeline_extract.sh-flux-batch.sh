@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parrot-6336
-#FLUX: -n=10
-#FLUX: --queue=small
-#FLUX: -t=4210
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-animal-6484
+#FLUX -n=10
+#FLUX --queue=small
+#FLUX -t=4210
+#FLUX --urgency=16
 
 module load maestro 
 $SCHRODINGER/phase_database /scratch/project_2004075/yetukuri/Individual_jobs/LigPrep/data/test.phdb extract test_extract -map -append -HOST localhost:10 -WAIT

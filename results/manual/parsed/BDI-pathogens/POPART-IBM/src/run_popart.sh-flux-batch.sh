@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=popart-ibm
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=popart-ibm
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module unload GSL
 module load GSL/2.6-GCC-8.3.0

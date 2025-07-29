@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=translation
+#FLUX --job-name=translation
 #FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=mlperf
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export MLPERF_HOST_OS='/etc/redhat-release'
 

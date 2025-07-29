@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=save_k0_monthly
-#FLUX: -c=12
-#FLUX: --queue=huce_intel
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=save_k0_monthly
+#FLUX -c=12
+#FLUX --queue=huce_intel
+#FLUX -t=120
+#FLUX --urgency=16
 
 DATA_DIR="${1}"
 OUTPUT_DIR="${2}"

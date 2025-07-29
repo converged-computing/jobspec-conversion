@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=utdNodesDataProcessing
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=utdNodesDataProcessing
+#SBATCH --output=logs/utdNodesDataProcessing.%j.out
+#SBATCH --error=logs/utdNodesDataProcessing.%j.err
+#SBATCH --mail-user=lhw150030@utdallas.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-1
 
 echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"
 echo Running on host: `hostname`

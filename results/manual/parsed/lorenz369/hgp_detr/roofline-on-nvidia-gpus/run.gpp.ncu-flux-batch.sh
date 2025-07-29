@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-eagle-9713
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-house-7861
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load cuda/11.0.2
 module load pgi/19.10

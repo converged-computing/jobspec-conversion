@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bert_importance_squad
-#FLUX: -c=4
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=bert_importance_squad
+#SBATCH --output=/home/gridsan/ptheron/MoEBERT-fork/logs/importance_mnli_new/experiments_importance_out%j.txt
+#SBATCH --error=/home/gridsan/ptheron/MoEBERT-fork/logs/importance_mnli_new/experiments_importance_err%j.txt
+#SBATCH --mail-user=paulth@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=00:24:00
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export HF_HOME='${HF_LOCAL_DIR}'

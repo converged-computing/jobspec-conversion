@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=alphafold
-#FLUX: -c=16
-#FLUX: --queue=cryoem
-#FLUX: --urgency=16
+#SBATCH --job-name=alphafold
+#SBATCH --output=%x-%j.log
+#SBATCH --error=%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128GB
+#SBATCH --partition=cryoem
+#SBATCH --constraint=Ampere
 
 source $HOME/opt/slurm/slurm-start.sh
 FASTA=lysozyme.fasta

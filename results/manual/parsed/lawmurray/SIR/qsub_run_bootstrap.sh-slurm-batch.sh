@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-house-2835
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lawmurray/SIR/qsub_run_bootstrap.sh

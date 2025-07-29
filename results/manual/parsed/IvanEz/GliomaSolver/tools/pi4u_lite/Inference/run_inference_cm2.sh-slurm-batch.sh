@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PI
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PI
+#SBATCH --output=jobLog.%j.%N.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=56
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --chdir=.
 
 export LANG='C'
 export LC_ALL='C'

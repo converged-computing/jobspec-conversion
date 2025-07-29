@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cupcake-2981
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=446399
-#FLUX: --urgency=16
+#SBATCH --account=p_ml_il
+#SBATCH --output=/beegfs/ws/1/s5968580-btw/logs/out-%A_%a.txt
+#SBATCH --error=/beegfs/ws/1/s5968580-btw/logs/error-%A_%a.txt
+#SBATCH --mail-user=julius.gonsior@tu-dresden.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120GB
+#SBATCH --time=5-03:59:59
+#SBATCH --partition=alpha
+#SBATCH --array=0-2804
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export HF_MODULE_CACHE='./hf-cache'

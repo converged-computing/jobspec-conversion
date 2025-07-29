@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gvtp
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=gvtp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 module load nextflow
 SINGULARITY_TMPDIR=$PWD/tmp

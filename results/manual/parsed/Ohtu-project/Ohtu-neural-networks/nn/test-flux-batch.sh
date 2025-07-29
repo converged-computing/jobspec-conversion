@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module load Python cuDNN

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hpl
-#FLUX: --queue=standard
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=hpl
+#SBATCH --account=e609
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=standard
+#SBATCH --qos=lowpriority
 
 export PPN='${SLURM_NTASKS_PER_NODE}'
 export OMP_NUM_THREADS='1'

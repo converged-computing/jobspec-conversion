@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_lm_el.$SLURM_JOBID
-#FLUX: -c=6
-#FLUX: --queue=gpuk80
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --job-name=train_lm_el.$SLURM_JOBID
+#SBATCH --output=/home-1/amuelle8@jhu.edu/logs/out-lstm-el.$SLURM_JOBID.log
+#SBATCH --error=/home-1/amuelle8@jhu.edu/logs/err-lstm-el.$SLURM_JOBID.log
+#SBATCH --mail-user=amuelle8@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-23:59:59
+#SBATCH --partition=gpuk80
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home-1/amuelle8@jhu.edu/scratch/workdir/el.$SLURM_JOBID
 
 module load cuda/9.0
 source /home-1/amuelle8@jhu.edu/miniconda3/bin/activate

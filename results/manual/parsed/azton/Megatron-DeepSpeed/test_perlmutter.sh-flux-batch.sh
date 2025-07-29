@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pedo-2081
-#FLUX: -N=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-car-6005
+#FLUX -N=16
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export WORLD_SIZE='${SLURM_NTASKS}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ddnet
-#FLUX: -c=8
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=88200
-#FLUX: --urgency=16
+#FLUX --job-name=ddnet
+#FLUX -c=8
+#FLUX --queue=dgx_normal_q
+#FLUX -t=88200
+#FLUX --urgency=16
 
 export MASTER_PORT='$port'
 export MASTER_ADDR='$master_addr'

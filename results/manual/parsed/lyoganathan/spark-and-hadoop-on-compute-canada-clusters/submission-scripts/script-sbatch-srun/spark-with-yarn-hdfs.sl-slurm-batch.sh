@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spark-yarn-hdfs-setup
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=spark-yarn-hdfs-setup
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export MAGPIE_SUBMISSION_TYPE='sbatchsrun'
 export MAGPIE_SCRIPTS_HOME='${HOME}/hadoop/magpie-master'

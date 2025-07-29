@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-soup-8977
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --output=supercloud_logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:volta:1
 
 export OMP_NUM_THREADS='20'
 export IMAGENET_PATH='/home/gridsan/groups/datasets/ImageNet'

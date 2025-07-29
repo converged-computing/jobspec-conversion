@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pot-9550
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-itch-7522
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/NVT/W3/nvt_3.pbs

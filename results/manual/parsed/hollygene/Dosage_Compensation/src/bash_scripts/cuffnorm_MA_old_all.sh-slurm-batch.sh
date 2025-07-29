@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nalgas-5531
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hollygene/Dosage_Compensation/src/bash_scripts/cuffnorm_MA_old_all.sh

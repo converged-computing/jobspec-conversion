@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sc10_plotDerv_levelplot_equi7_for_annex.R.sh
-#FLUX: --queue=scavenge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sc10_plotDerv_levelplot_equi7_for_annex.R.sh
+#SBATCH --output=/gpfs/scratch60/fas/sbsc/ga254/stdout/sc10_plotDerv_levelplot_equi7_for_annex.R.%J.out
+#SBATCH --error=/gpfs/scratch60/fas/sbsc/ga254/stderr/sc10_plotDerv_levelplot_equi7_for_annex.R.%J.err
+#SBATCH --mail-user=email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=scavenge
 
 module load Apps/R/3.3.2-generic
 cd /gpfs/loomis/project/fas/sbsc/ga254/dataproces/NED_MERIT/

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mosaicml-stable-diffusion
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=mosaicml-stable-diffusion
+#SBATCH --output=/apps/accelerate-pcluster-distributed-training/stable-diffusion/sd_out_%j.out
+#SBATCH --error=/apps/accelerate-pcluster-distributed-training/stable-diffusion/sd_err_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH: --exclusive
 
 export FI_EFA_USE_DEVICE_RDMA='1 # use for p4d'
 export FI_EFA_FORK_SAFE='1'

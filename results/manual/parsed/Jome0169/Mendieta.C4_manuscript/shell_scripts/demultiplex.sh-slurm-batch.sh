@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Demultiplex
-#FLUX: -c=10
-#FLUX: --queue=highmem_p
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Demultiplex
+#SBATCH --output=log.demulti.%j.out
+#SBATCH --error=log.demulti.%j.err
+#SBATCH --mail-user=john.mendieta@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=400gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=highmem_p
 
 cd $SLURM_SUBMIT_DIR
 source /apps/lmod/lmod/init/zsh

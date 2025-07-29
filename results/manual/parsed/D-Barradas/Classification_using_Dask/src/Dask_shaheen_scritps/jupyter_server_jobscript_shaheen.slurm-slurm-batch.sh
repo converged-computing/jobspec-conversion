@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-itch-6454
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
 
 export XDG_RUNTIME_DIR=''
 export LC_ALL='C.UTF-8'

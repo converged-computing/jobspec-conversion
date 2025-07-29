@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-platanos-8407
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-underoos-5802
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd_slowcontract/src/:~/pitts/examples/'
 export PYTHONUNBUFFERED='1'

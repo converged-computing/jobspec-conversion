@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-milkshake-0212
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=usup
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export PYTHONPATH='/users/jfavre/Projects/ParaView/Python:\$PYTHONPATH'
 export PV_PLUGIN_PATH='/users/jfavre/Projects/Adamek/ParaViewLightConePlugin/build59/lib64/paraview-5.9/plugins/pvLightConeReader'

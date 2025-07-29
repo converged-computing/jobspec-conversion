@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SPED
-#FLUX: --queue=GPUQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=SPED
+#SBATCH --account=share-nv-fys-tem
+#SBATCH --output=SPED-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000
+#SBATCH --time=01:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo "The name of the job is: $SLURM_JOB_NAME"

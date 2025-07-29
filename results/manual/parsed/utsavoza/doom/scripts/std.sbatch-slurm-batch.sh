@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=std
-#FLUX: -c=8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=std
+#SBATCH --account=class
+#SBATCH --output=./out/std.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64GB
+#SBATCH --time=06:00:00
+#SBATCH --qos=4294967293
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --output=slurm_debug.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load jupyter-kernels/py2.7

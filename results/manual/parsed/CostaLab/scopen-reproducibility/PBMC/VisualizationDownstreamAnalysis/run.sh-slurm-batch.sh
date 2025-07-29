@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=analysis
-#FLUX: -c=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=analysis
+#SBATCH --output=./analysis.txt
+#SBATCH --error=./analysis.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=180G
+#SBATCH --time=10:00:00
 
 source ~/.bashrc
 conda activate r-4.0.3

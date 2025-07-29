@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-despacito-0222
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-knife-7017
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/wt_mdyn/trials_meta/Walk_MPI/membr_Rec_GRK1_mw/meta_MW.pbs

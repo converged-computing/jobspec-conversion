@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=prep_ref
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_ref
+#SBATCH --output=/hpc/dhl_ec/data/references/1000G/Phase3/VCF_format/gwaslab.prep_ref.hpc.log
+#SBATCH --error=/hpc/dhl_ec/data/references/1000G/Phase3/VCF_format/gwaslab.prep_ref.hpc.errors
+#SBATCH --mail-user=s.w.vanderlaan-2@umcutrecht.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:512G
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
 
                                                                     														# or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     														# Multiple type values may be specified in a comma separated list. 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s255ir_dec2021_lb
-#FLUX: -n=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=s255ir_dec2021_lb
+#FLUX -n=8
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export FIELD_ID='S255IR-SMA1'
 export BAND_TO_IMAGE='B6'

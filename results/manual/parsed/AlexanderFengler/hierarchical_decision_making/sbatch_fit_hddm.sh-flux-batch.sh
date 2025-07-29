@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chong_data_analysis
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chong_data_analysis
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

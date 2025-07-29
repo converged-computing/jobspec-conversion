@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SnBeastTest
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=4799
-#FLUX: --urgency=16
+#FLUX --job-name=SnBeastTest
+#FLUX --queue=savio3_gpu
+#FLUX -t=4799
+#FLUX --urgency=16
 
 export ImgDir='/clusterfs/vector/home/groups/software/sl-7.x86_64/modules/beast/2.6.4/'
 

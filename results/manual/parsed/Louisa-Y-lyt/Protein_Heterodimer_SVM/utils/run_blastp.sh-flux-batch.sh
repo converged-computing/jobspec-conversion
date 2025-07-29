@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blastp
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=50
+#FLUX --job-name=blastp
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=50
 
 INPUT_FILE=$1
 SLURM_CPUS_PER_TASK=4

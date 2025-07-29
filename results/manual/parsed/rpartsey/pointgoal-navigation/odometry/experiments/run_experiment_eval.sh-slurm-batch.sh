@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=navigation_pointgoal
-#FLUX: -c=10
-#FLUX: --queue=devlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=navigation_pointgoal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=devlab
+#SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

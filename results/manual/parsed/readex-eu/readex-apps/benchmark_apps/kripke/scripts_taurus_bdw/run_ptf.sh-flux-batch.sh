@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=kripke
-#FLUX: -N=2
+#FLUX --job-name=kripke
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=240
+#FLUX --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_PLUGINS='cpu_freq_plugin,uncore_freq_plugin'

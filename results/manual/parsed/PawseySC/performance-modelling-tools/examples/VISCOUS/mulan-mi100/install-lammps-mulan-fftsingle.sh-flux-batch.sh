@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-despacito-3957
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-pancake-9606
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LD_LIBRARY_PATH'

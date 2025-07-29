@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dask-cluster
+#FLUX --job-name=dask-cluster
 #FLUX: --exclusive
-#FLUX: --queue=cpu_med
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=cpu_med
+#FLUX -t=3600
+#FLUX --urgency=16
 
 NPROC=4                          # Total number of processes
 NPROCPNODE=4                     # Number of processes per node

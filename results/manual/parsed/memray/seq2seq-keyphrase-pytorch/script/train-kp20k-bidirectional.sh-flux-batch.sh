@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train-kp20k-bidirectional.general
-#FLUX: --queue=gtx1080
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=train-kp20k-bidirectional.general
+#FLUX --queue=gtx1080
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export EXP_NAME='rnn.general.no_input_feeding.rerun'
 export ATTENTION='general'

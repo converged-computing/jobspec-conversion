@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fwi
-#FLUX: --queue=aws
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fwi
+#SBATCH --output=/nfs/R-%x.%j.out
+#SBATCH --error=/nfs/R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=aws
 
 export DEVITO_LANGUAGE='openmp'
 export DEVITO_LOGGING='DEBUG'

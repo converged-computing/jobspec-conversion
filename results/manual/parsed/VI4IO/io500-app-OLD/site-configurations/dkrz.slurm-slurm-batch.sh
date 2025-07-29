@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=100
-#FLUX: -t=28200
-#FLUX: --urgency=16
+#SBATCH --job-name=IO-500
+#SBATCH --output=io_500_out_%J
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=100
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=07:50:00
+#SBATCH --constraint=ntasks-per-node=10
 
 module load intel mxm/3.4.3082 fca/2.5.2431 bullxmpi_mlx/bullxmpi_mlx-1.2.9.2 cmake/3.2.3 gcc/7.1.0
 dir=/home/dkrz/k202079/work/io-500/io-500-dev/utilities/io500-app/

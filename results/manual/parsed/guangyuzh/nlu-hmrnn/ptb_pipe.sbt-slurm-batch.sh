@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=PTB_pipe
-#FLUX: --queue=p100_4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=PTB_pipe
+#SBATCH --output=logs/ptb_pipe.out
+#SBATCH --mail-user=gz612@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=p100_4
 
 CONFIG='small_nets'
 module purge

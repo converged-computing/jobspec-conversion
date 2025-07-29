@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hobbit-7611
-#FLUX: -n=32
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#SBATCH --output=with_gpu.out
+#SBATCH --error=with_gpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:30:00
 
 module load gcc/10.2 cmake/3.15.4  ninja/1.9.0 eigen/3.4.0
 cd ./

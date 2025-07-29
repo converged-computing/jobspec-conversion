@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nmt_fineT
-#FLUX: -c=4
-#FLUX: --queue=preemptgpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=nmt_fineT
+#SBATCH --output=translate_finet_out.output
+#SBATCH --error=translate_finet_err.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=90GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=preemptgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_API_KEY=''
 export https_proxy='http://hpc-proxy00.city.ac.uk:3128'

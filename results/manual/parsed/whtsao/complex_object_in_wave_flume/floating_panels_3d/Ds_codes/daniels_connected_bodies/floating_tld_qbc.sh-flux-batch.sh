@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=emi2023_3d_floating_tld
-#FLUX: -N=8
-#FLUX: -n=384
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=emi2023_3d_floating_tld
+#FLUX -N=8
+#FLUX -n=384
+#FLUX --queue=workq
+#FLUX -t=3600
+#FLUX --urgency=16
 
 date
 module purge

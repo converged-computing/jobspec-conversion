@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=metontiime_27mar
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#FLUX --job-name=metontiime_27mar
+#FLUX -n=4
+#FLUX --queue=core
+#FLUX -t=777600
+#FLUX --urgency=16
 
 module load bioinfo-tools Nextflow 
 work_dir="/crex/proj/naiss2023-22-866/MetONTIIME/trimmed_and_filtered_Q15_qz"

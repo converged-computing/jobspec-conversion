@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=longf-tune
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=longf-tune
+#SBATCH --account=nlpgroup
+#SBATCH --mail-user=nrmyas001@cs.uct.ac.za
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100-3g-20gb:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a100
 
 export CUDA_VISIBLE_DEVICES='$(ncvd)'
 export TOKENIZERS_PARALLELISM='false'

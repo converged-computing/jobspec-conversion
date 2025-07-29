@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-motorcycle-5804
-#FLUX: --queue=nvidia
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-motorcycle-0490
+#FLUX --queue=nvidia
+#FLUX -t=41400
+#FLUX --urgency=16
 
 export DATA_DIR='ANERCorp-CamelLabSplits/'
 export MAX_LENGTH='512'

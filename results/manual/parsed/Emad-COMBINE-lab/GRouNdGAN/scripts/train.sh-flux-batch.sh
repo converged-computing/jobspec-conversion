@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=training
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=training
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hope-6945
-#FLUX: -n=28
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --account=Project_ID
+#SBATCH --output=job_o.out
+#SBATCH --error=job_o.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:50:00
 
 ml gaussian/16.C.01-AVX2
 ml GCC/9.3.0  OpenMPI/4.0.3

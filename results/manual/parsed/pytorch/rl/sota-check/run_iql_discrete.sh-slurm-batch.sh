@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=iql_discrete
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=iql_discrete
+#SBATCH --output=slurm_logs/iql_discrete_%j.txt
+#SBATCH --error=slurm_errors/iql_discrete_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

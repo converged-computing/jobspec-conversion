@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cautious_extrapolation
-#FLUX: -c=4
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=cautious_extrapolation
+#FLUX -c=4
+#FLUX --queue=savio3_gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PROJECT_DIR='/global/scratch/users/$USER/cautious_extrapolation/cautious_extrapolation'
 

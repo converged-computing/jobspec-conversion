@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=merger
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: --queue=fuchs
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=merger
+#SBATCH --nodes=2
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2400
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=fuchs
+#SBATCH: --no-requeue
 
 modus="run"
 reffasta="/scratch/fuchs/agchiocchetti/public/refdata/hg38.fa"

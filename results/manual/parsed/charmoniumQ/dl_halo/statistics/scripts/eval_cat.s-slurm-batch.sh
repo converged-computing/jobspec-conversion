@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eval_cat
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_cat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec \

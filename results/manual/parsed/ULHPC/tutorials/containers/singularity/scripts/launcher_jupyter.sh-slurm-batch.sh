@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Singularity_Jupyter
-#FLUX: -c=2
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Singularity_Jupyter
+#SBATCH --mail-user=<firstname>.<lastname>@uni.lu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
 
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'
 export JUPYTER_PATH='$HOME/jupyter_sing/$SLURM_JOBID/jupyter_path'

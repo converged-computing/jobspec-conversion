@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-4303
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/kripke/scripts_salomon/run_rrl.sh

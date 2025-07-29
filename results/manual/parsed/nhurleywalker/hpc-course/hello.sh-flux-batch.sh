@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-malarkey-2762
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=work
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-knife-5735
+#FLUX -N=2
+#FLUX -n=12
+#FLUX --queue=work
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load python/3.10.10
 module load py-mpi4py/3.1.4-py3.10.10

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leg-1773
-#FLUX: --queue=long
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --account=t3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=23:00:00
+#SBATCH --partition=long
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name={job_name}
-#FLUX: -N=2
-#FLUX: --queue=compute
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name={job_name}
+#SBATCH --account=TG-MCB090163
+#SBATCH --output=logs/output.txt
+#SBATCH --error=logs/error.txt
+#SBATCH --mail-user=yingyouma@brandeis.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=249208M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=128
 
 module load cpu/0.17.3b
 module load gcc/10.2.0/npcyll4

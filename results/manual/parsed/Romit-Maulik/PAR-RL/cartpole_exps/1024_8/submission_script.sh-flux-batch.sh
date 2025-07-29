@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-5726
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-itch-5839
+#FLUX --urgency=16
 

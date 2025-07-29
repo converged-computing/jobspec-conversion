@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arrayjob-matlab
-#FLUX: -c=2
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=arrayjob-matlab
+#FLUX -c=2
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load matlab/R2021a 
 tmpdir=~/matlab_temp_dir/$SLURM_ARRAY_TASK_ID

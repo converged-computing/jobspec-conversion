@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi4py
+#SBATCH --account=hpcapps
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 export OFFSET='4'
 

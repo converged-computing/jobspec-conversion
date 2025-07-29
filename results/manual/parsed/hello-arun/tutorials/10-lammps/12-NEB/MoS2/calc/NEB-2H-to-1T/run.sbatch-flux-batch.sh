@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NEB-2H-1T
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=NEB-2H-1T
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

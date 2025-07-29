@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GaussianBlurLL_LL_REAL
-#FLUX: -c=24
+#FLUX --job-name=GaussianBlurLL_LL_REAL
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=gpu2080
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=gpu2080
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load palma/2020b
 module load fosscuda/2020b

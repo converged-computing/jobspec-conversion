@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-avocado-6711
-#FLUX: -c=4
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-snack-1536
+#FLUX -c=4
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ml PyTorch3D/0.7.1-foss-2021b-CUDA-11.4.1
 ml OpenCV/4.5.5-foss-2021b-CUDA-11.4.1-contrib

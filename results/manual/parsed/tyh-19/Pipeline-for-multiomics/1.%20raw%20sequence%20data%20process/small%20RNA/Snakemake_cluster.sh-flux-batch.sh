@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_cluster
-#FLUX: --queue=CN_BIOT
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake_cluster
+#FLUX --queue=CN_BIOT
+#FLUX --urgency=16
 
 mkdir -p cluster_log
 snakefile="small_pipeline" #"QIAseq_pipeline"

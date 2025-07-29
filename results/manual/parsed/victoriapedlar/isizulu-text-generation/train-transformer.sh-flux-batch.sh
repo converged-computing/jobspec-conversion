@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=transformer
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=transformer
+#FLUX -n=6
+#FLUX --queue=a100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:`pwd`/scripts'
 

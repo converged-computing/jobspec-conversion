@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=af_smd
-#FLUX: -N=11
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=af_smd
+#SBATCH --account=sviv
+#SBATCH --output=out.%x_%j
+#SBATCH --nodes=11
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-3
 
 export SPACK_MANAGER='~/spack-manager'
 

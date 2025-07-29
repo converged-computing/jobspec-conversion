@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-avocado-6302
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/linmin-123456/nmr/gpu.lsf

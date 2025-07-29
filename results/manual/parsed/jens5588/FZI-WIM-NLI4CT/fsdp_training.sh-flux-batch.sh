@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=llama_recipes
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=advanced
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=llama_recipes
+#FLUX -N=4
+#FLUX -n=4
+#FLUX --queue=advanced
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/abc/FZI-WIM-NLI4CT'
 export FI_PROVIDER='efa'

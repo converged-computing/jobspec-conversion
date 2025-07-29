@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-squidward-4620
-#FLUX: -c=20
-#FLUX: --queue=high
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=SomaticAmplicon-%N-%j.output
+#SBATCH --error=SomaticAmplicon-%N-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --partition=high
 
 set -euo pipefail
 version="master"

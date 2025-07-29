@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-caramel-5598
-#FLUX: -N=4
-#FLUX: -c=4
+#FLUX --job-name=stanky-hippo-2053
+#FLUX -N=4
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load 2021
 module load foss/2021a

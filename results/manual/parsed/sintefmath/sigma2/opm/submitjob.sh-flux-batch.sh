@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=norne
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=norne
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

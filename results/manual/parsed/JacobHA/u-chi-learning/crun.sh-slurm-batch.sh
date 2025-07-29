@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=u-chi
-#FLUX: -c=3
-#FLUX: --queue=Intel
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=u-chi
+#SBATCH --output=outfiles/%j.out
+#SBATCH --error=outfiles/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=12gb
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=Intel
+#SBATCH --array=1-10
 
 export CPATH='$CPATH:$CONDA_PREFIX/include'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib'

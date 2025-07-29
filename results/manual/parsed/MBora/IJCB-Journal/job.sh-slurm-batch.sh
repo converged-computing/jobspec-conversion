@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lstm
-#FLUX: -c=16
-#FLUX: --queue=gpu_a100_8
-#FLUX: -t=719
-#FLUX: --urgency=16
+#SBATCH --job-name=lstm
+#SBATCH --output=../Slurm/out%j.txt
+#SBATCH --error=../Slurm/err%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:11:59
+#SBATCH --partition=gpu_a100_8
 
 nvidia-smi
 conda env list

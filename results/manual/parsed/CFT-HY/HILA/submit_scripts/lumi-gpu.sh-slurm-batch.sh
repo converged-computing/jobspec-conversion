@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=job1
-#FLUX: -N=64
-#FLUX: --queue=standard-g
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#SBATCH --job-name=job1
+#SBATCH --account=Project_XXX
+#SBATCH --output=out%j
+#SBATCH --error=err%j
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:10:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --exclude=nid005360,nid005359
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

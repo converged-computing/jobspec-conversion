@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=apogeebh
-#FLUX: -n=224
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=apogeebh
+#SBATCH --output=apogeebh.o%j
+#SBATCH --error=apogeebh.e%j
+#SBATCH --mail-user=adrn@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=224
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 cd /tigress/adrianp/projects/apogeebh/scripts/
 module load openmpi/gcc/1.10.2/64

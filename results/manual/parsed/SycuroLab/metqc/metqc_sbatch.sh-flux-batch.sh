@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-taco-0483
-#FLUX: --queue=synergy
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-avocado-5755
+#FLUX --queue=synergy
+#FLUX -t=604800
+#FLUX --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/metqc-analysis.log.txt"

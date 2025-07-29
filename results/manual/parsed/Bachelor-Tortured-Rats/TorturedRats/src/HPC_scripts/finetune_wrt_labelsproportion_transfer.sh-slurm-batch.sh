@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-8450
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Bachelor-Tortured-Rats/TorturedRats/src/HPC_scripts/finetune_wrt_labelsproportion_transfer.sh

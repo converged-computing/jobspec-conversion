@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-blackbean-4809
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/ladmon/422/results/%A_%a_terminal.out
+#SBATCH --mail-user=ladmon@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-100
 
 module load gcc/10.1.0
 ./simulate -N INDEP -n 10000 --pmin 0.035 --pmax 0.055 --lmin 3 --Np 30 -v 1 --fname "/scratch/users/ladmon/422/results/${SLURM_ARRAY_JOB_ID}_$SLURM_ARRAY_TASK_ID.out"

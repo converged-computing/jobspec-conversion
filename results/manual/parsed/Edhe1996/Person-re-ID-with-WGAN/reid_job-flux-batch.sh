@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=label
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=label
+#FLUX --queue=gpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load CUDA
 echo Running on host `hostname`

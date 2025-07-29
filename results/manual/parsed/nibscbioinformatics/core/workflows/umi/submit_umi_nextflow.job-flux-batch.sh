@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NFmaster
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=NFmaster
+#FLUX -t=432000
+#FLUX --urgency=16
 
 reads=$1
 reference=$2

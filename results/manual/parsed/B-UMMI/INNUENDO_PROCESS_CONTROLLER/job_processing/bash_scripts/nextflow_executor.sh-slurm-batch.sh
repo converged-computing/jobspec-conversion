@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-malarkey-9774
-#FLUX: --queue=nextflow
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1500
+#SBATCH --partition=nextflow
 
 echo $1
 echo $2

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=coupled
-#FLUX: -N=21
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=coupled
+#SBATCH --account=phy122-ecp
+#SBATCH --mail-user=perlmutter@jacobmerson.com
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=21
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 export FI_CXI_RX_MATCH_MODE='software'
 export OMP_PROC_BIND='true'

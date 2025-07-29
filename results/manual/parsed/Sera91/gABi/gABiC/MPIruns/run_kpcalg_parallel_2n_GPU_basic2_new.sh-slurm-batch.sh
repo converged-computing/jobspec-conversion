@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=kpc-dask-2node
-#FLUX: -N=2
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=kpc-dask-2node
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu2
+#SBATCH --constraint=ntasks-per-node=3
 
 export PATH='/home/sdigioia/R/bin:${PATH}'
 export LD_LIBRARY_PATH='/home/sdigioia/R/lib64/R/lib:${LD_LIBRARY_PATH}'

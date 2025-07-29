@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_onenode_v2
-#FLUX: -n=4
-#FLUX: --queue=sla-prio
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=parallel_onenode_v2
+#SBATCH --account=ebf11-fa23
+#SBATCH --output=parallel_onenode_v2_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=sla-prio
+#SBATCH --constraint=ntasks-per-node=4
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

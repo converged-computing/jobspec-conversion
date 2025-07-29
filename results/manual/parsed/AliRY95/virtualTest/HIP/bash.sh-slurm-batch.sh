@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VirtualFunction
-#FLUX: --exclusive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=VirtualFunction
+#SBATCH --account=cad14948
+#SBATCH --output=out.out
+#SBATCH --error=err.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH: --exclusive
+#SBATCH --constraint=MI250
 
 export HIP_PATH='/opt/rocm-5.5.1/hip'
 

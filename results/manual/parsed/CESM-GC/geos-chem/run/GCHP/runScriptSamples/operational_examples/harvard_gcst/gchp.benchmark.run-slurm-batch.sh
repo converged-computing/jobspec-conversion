@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hobbit-0455
-#FLUX: -N=2
-#FLUX: -n=48
-#FLUX: --exclusive
-#FLUX: --queue=huce_cascade
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=180000
+#SBATCH --time=00:20:00
+#SBATCH --partition=huce_cascade
+#SBATCH: --exclusive
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

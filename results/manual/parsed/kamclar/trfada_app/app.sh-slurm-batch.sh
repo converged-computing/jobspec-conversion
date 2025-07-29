@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pot-1394
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/kamclar/trfada_app/app.sh

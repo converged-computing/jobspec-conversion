@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=datasets
-#FLUX: --queue=comp01
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=datasets
+#FLUX --queue=comp01
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load gcc/9.3.1 mkl/19.0.5 intel/19.0.5 R/4.2.2 vcftools/0.1.15 plink/5.2 python/anaconda-3.10

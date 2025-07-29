@@ -1,14 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=liq32b
-#FLUX: -n=32
-#FLUX: -c=4
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --job-name=liq32b
+#SBATCH --account=m3538_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --time=11:59:00
+#SBATCH --qos=regular
+#SBATCH --constraint=gpu,ntasks-per-node=32
 
 export SLURM_CPU_BIND='cores'
 export CUDA_MPS_PIPE_DIRECTORY='/tmp/nvidia-mps'
 export CUDA_MPS_LOG_DIRECTORY='/tmp/nvidia-log'
 
+singularity
+exec
+nvcr.io/hpc/deepmd-kit:v2.1.1
 export SLURM_CPU_BIND="cores"
 export CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps
 export CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log

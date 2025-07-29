@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hobbit-1849
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 n_nodes=$1
 model_dir=$2

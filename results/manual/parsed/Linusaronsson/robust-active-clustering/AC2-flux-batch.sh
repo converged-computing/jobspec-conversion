@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-squidward-9731
-#FLUX: --queue=alvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=red-gato-6377
+#FLUX --queue=alvis
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load SciPy-bundle/2022.05-foss-2022a
 module load PyTorch-bundle/1.13.1-foss-2022a-CUDA-11.7.0

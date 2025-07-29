@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=part-model
-#FLUX: -n=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=part-model
+#FLUX -n=2
+#FLUX --queue=savio2_1080ti
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 source activate /global/scratch/users/$USER/env_part_based

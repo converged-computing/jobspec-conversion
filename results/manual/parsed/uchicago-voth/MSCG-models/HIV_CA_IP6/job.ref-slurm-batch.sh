@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hiv_r15
-#FLUX: -N=2
-#FLUX: -n=112
-#FLUX: --queue=development
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=hiv_r15
+#SBATCH --account=CHE20010
+#SBATCH --output=hiv1_l.out
+#SBATCH --error=hiv1_l.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=112
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=development
 
 export OMP_NUM_THREADS='1'
 

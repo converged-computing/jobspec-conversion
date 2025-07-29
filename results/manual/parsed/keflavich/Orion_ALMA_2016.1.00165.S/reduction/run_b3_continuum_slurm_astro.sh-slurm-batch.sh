@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-9725
-#FLUX: -n=8
-#FLUX: --queue=bigmem
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=astronomy-dept
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=300gb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=bigmem
+#SBATCH --qos=astronomy-dept-b
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 

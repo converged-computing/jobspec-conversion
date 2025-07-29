@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-8518
-#FLUX: --queue=hci-rw
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-chair-3639
+#FLUX --queue=hci-rw
+#FLUX -t=345600
+#FLUX --urgency=16
 
 set -e
 which singularity &> /dev/null || module load singularity

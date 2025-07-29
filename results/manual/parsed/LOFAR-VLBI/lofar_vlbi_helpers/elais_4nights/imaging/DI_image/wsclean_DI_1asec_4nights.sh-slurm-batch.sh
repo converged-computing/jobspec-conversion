@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DI_1_imaging
-#FLUX: -c=31
-#FLUX: --queue=infinite
-#FLUX: --urgency=16
+#SBATCH --job-name=DI_1_imaging
+#SBATCH --mail-user=jurjendejong@strw.leidenuniv.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=31
+#SBATCH --partition=infinite
+#SBATCH --constraint=intel
 
 SING_BIND=$( python $HOME/parse_settings.py --BIND )
 SIMG=$( python $HOME/parse_settings.py --SIMG )

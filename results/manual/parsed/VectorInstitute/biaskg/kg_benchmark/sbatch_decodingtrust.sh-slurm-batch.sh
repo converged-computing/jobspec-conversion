@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=bias_identification
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --queue=a40
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=bias_identification
+#SBATCH --account=deadline
+#SBATCH --output=job_%x_%j.out
+#SBATCH --error=job_%x_%j.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=150G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=a40
+#SBATCH --qos=deadline
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')'

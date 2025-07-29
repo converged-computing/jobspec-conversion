@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifft-gtx1080
+#FLUX --job-name=gearshifft-gtx1080
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 k=$SLURM_ARRAY_TASK_ID
 CURDIR=${HOME}/development/gearshifft

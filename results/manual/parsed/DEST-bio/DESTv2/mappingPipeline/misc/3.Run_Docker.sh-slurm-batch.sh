@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dockerMap
-#FLUX: -c=7
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dockerMap
+#SBATCH --account=berglandlab
+#SBATCH --output=./slurmOutput/RunDest.%A_%a.out
+#SBATCH --error=./slurmOutput/RunDest.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=60G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-16
 
 pwd
 echo $SLURM_CPUS_PER_TASK 

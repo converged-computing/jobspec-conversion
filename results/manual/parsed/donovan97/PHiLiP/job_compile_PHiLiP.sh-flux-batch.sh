@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=compile_PHiLiP
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=compile_PHiLiP
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export TRILINOS_DIR='$EBROOTTRILINOS'
 export P4EST_DIR='$EBROOTP4EST'

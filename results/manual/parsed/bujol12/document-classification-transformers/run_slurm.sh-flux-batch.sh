@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-soup-0021
-#FLUX: --queue=gpgpuC
-#FLUX: --urgency=16
+#FLUX --job-name=tart-onion-4460
+#FLUX --queue=gpgpuC
+#FLUX --urgency=16
 
 configName=$1
 trainData=$2

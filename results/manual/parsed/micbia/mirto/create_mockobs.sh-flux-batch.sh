@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dT
-#FLUX: -c=18
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=dT
+#FLUX -c=18
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load daint-gpu
 module load gcc/9.3.0

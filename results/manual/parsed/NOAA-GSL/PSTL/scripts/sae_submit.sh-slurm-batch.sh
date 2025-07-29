@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-mango-6152
-#FLUX: --exclusive
-#FLUX: --queue=epyc_a100x4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=epyc_a100x4
+#SBATCH: --exclusive
 
 module purge
 module load nvidia-hpc-sdk/nvhpc/21.7

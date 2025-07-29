@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rllib_cartpole
-#FLUX: -c=3
-#FLUX: --queue=ampere
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=rllib_cartpole
+#FLUX -c=3
+#FLUX --queue=ampere
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

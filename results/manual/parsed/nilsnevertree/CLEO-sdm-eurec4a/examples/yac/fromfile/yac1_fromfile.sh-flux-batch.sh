@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yac1
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=yac1
+#FLUX --queue=compute
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

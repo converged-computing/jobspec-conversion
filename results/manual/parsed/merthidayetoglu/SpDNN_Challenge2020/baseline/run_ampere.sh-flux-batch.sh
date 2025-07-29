@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poo-9152
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=confused-pedo-1468
+#FLUX -N=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export DATASET='$PROJREPO/dataset'
 export BATCH='60000'

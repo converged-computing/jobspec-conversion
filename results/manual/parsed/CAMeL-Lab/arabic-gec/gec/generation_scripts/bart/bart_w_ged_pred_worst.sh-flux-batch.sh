@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lizard-4833
-#FLUX: --queue=nvidia
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=arid-carrot-4869
+#FLUX --queue=nvidia
+#FLUX -t=144000
+#FLUX --urgency=16
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/binary/bart_w_ged_pred_worst
 pred_file=qalb15_dev.preds

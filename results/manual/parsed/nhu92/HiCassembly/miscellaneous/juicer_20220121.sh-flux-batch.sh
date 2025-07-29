@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=${groupname}_prep_done
-#FLUX: --queue=$queue
-#FLUX: --urgency=16
+#FLUX --job-name=${groupname}_prep_done
+#FLUX --queue=$queue
+#FLUX --urgency=16
 
 shopt -s extglob
 juicer_version="1.6"

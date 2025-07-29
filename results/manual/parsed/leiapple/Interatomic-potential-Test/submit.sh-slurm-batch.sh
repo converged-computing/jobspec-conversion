@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=IAP_test
-#FLUX: -n=32
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=IAP_test
+#SBATCH --output=slurm-%j.stdout
+#SBATCH --error=slurm-%j.stderr
+#SBATCH --mail-user=lei.zhang@rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 eaddress="lei.zhang@rug.nl"
 module restore set-gap

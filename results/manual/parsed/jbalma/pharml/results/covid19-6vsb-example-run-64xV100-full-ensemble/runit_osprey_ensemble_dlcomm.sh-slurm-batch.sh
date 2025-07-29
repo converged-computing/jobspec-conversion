@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peanut-7314
-#FLUX: --exclusive
-#FLUX: --queue=spider
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=stdout.out
+#SBATCH --error=stderr.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=spider
+#SBATCH: --exclusive
+#SBATCH --constraint=V100|V10032GB|V10016GB
+#SBATCH --exclude=spider-0013
 
 export SCRATCH='/lus/scratch/jbalma'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

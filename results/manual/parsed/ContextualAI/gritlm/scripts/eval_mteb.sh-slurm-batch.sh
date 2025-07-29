@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mteb
-#FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=mteb
+#SBATCH --output=/data/niklas/jobs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=a3
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-68%69
 
 export WANDB_PROJECT='gritlm'
 

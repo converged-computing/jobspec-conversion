@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-buttface-4012
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-milkshake-0375
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/karrolls2014/run-in-arc/run1.sh

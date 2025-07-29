@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpu
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=gpu
+#FLUX -n=4
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export TORCH_HOME='/p/tmp/bochow/LAMA/lama/ && export PYTHONPATH=/p/tmp/bochow/LAMA/lama/'
 export HDF5_USE_FILE_LOCKING='FALSE'

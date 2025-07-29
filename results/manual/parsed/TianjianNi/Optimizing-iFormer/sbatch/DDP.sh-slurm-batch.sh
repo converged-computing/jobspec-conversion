@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DDP
-#FLUX: -c=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=DDP
+#SBATCH --output=DDP
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:4
+#SBATCH --mem=20GB
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 singularity exec --nv \

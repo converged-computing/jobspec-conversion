@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-destiny-7068
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-bits-3954
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$containerstore"/tmp-singularity-cache'
 export SINGULARITY_TMPDIR='$containerstore"/tmp-singularity'

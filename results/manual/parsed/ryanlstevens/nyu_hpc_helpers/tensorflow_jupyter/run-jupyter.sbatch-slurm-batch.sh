@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=2GB
+#SBATCH --time=04:00:00
 
 module purge
 port=$(shuf -i 10000-65500 -n 1)

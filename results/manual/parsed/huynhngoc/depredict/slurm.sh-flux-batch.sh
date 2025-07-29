@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_depredict
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=train_depredict
+#FLUX -n=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

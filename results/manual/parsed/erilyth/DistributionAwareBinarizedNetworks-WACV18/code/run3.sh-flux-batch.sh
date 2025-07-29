@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-omelette-7042
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-pancake-4800
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

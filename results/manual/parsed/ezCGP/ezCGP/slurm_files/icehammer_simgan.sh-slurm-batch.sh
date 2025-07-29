@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ezCGP_simgan
-#FLUX: -c=8
-#FLUX: -t=432480
-#FLUX: --urgency=16
+#SBATCH --job-name=ezCGP_simgan
+#SBATCH --output=simgant.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128gb
+#SBATCH --time=5-00:08:00
+#SBATCH --constraint=TeslaV100S-PCIE-32GB
 
 echo "Started on `/bin/hostname`" # prints name of compute node job was started on
 nvidia-smi

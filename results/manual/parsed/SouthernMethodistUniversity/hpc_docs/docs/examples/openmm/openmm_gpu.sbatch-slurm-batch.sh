@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=openmm
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=openmm
+#SBATCH --output=openmm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --partition=batch
 
 . /hpc/mp/spack/opt/spack/linux-ubuntu20.04-zen2/gcc-10.3.0/\
 lmod-8.7.2-uutt23puvwraegsi7w7ck3xbhrgk22mu/lmod/lmod/init/$(basename $SHELL)

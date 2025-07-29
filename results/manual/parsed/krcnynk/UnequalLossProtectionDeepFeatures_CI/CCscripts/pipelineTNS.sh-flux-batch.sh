@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-frito-7340
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-mango-0142
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module restore uneq
 cd ..

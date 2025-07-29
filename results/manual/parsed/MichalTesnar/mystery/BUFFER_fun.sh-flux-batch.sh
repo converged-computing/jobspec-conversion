@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-snack-1159
-#FLUX: -c=6
-#FLUX: --queue=regular
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-car-7538
+#FLUX -c=6
+#FLUX --queue=regular
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load Python/3.9.6-GCCcore-11.2.0
 source $HOME/venvs/mystery/bin/activate

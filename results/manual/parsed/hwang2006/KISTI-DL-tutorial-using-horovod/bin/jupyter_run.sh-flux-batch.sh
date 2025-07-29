@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-nalgas-0661
-#FLUX: -c=4
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-signal-5543
+#FLUX -c=4
+#FLUX --queue=amd_a100nv_8
+#FLUX -t=28800
+#FLUX --urgency=16
 
 if [ -e port_forwarding_command ]
 then

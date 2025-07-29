@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-signal-1699
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-avocado-8687
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_RANK_REORDER_DISPLAY='1'

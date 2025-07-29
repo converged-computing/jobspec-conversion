@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dk_test
-#FLUX: -N=2
-#FLUX: --queue=premium
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=dk_test
+#SBATCH --account=m2043
+#SBATCH --output=/global/homes/d/danielk/log/%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=premium
+#SBATCH --constraint=ntasks-per-node=1,haswell
+#SBATCH --licenses=SCRATCH
 
 module load cray-petsc-64
 module load cray-hdf5-parallel

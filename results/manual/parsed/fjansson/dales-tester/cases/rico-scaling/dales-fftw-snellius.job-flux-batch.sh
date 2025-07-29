@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-butter-7879
-#FLUX: --queue=rome
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-carrot-5461
+#FLUX --queue=rome
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load 2022
 module load foss/2022a

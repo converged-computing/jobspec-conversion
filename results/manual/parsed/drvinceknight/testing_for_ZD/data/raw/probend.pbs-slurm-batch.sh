@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-6156
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/drvinceknight/testing_for_ZD/data/raw/probend.pbs

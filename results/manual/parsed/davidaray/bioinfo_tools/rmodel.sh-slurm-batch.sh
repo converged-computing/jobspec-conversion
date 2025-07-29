@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rmodel_Ssci
-#FLUX: -n=36
-#FLUX: --queue=nocona
-#FLUX: --urgency=16
+#SBATCH --job-name=rmodel_Ssci
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=nocona
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

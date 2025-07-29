@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-despacito-5676
-#FLUX: -n=2
-#FLUX: -t=87020
-#FLUX: --urgency=16
+#SBATCH --output=./reports/report_%A_%a.out
+#SBATCH --error=./reports/report_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=1-00:10:20
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/nfs/work/td/,/lustre/lorenzic/'

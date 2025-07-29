@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemur-5430
-#FLUX: --queue=overcap
-#FLUX: --urgency=16
+#SBATCH --account=overcap
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --partition=overcap
 
 log_id=$1
 echo "On node ${HOSTNAME}"

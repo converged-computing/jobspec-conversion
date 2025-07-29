@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_llama
-#FLUX: -c=32
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_llama
+#SBATCH --output=slurm/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=gpu80
 
 export OMP_NUM_THREADS='8'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cattywampus-2634
-#FLUX: -c=20
-#FLUX: --queue=xeon-g6-volta
-#FLUX: -t=2880
-#FLUX: --urgency=16
+#SBATCH --output=logs/mnli_new/trimmed_tuning_out_%A_%a.txt
+#SBATCH --error=logs/mnli_new/trimmed_tuning_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=00:48:00
+#SBATCH --partition=xeon-g6-volta
+#SBATCH --constraint=xeon-g6,ntasks-per-node=1
+#SBATCH --array=100-300
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export GPUS_PER_NODE='1'

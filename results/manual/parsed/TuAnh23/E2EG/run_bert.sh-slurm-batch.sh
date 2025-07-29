@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bert_classifier_products
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=bert_classifier_products
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_shared
 
 export WANDB_DIR='$HOME'
 

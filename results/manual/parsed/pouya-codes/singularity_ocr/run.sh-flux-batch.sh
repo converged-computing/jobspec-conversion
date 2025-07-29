@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bits-9369
-#FLUX: -t=669600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-noodle-0720
+#FLUX -t=669600
+#FLUX --urgency=16
 
 singularity run --bind /projects:/projects singularity_ocr.sif -d \
 "/projects/ovcare/classification/pouya/Irem/globus_mount" -o \

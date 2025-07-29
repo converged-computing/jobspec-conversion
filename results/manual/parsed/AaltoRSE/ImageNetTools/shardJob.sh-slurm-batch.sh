@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-noodle-6341
-#FLUX: -c=2
-#FLUX: --queue=dgx-common,gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=ShardTest.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=240G
+#SBATCH --time=12:00:00
+#SBATCH --partition=dgx-common,gpu
 
 module load miniconda
 source activate shardProcess

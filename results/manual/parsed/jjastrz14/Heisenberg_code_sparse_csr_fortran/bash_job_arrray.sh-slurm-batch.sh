@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-frito-3000
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --mail-user=jakub.jastrzebski99@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=1gb
+#SBATCH --time=00:10:00
+#SBATCH --array=10-12%1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

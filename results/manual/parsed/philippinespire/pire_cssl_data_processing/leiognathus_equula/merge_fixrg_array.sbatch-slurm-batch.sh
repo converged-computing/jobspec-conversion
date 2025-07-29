@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=merge_fixrg
-#FLUX: -c=40
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=merge_fixrg
+#SBATCH --output=merge_fixrg-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --partition=main
 
 export SINGULARITY_BIND='/home/e1garcia'
 

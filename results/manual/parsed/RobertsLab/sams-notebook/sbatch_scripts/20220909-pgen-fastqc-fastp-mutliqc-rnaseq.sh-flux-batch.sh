@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20220909-pgen-fastqc-fastp-mutliqc-rnaseq
-#FLUX: --queue=coenv
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=20220909-pgen-fastqc-fastp-mutliqc-rnaseq
+#FLUX --queue=coenv
+#FLUX -t=345600
+#FLUX --urgency=16
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*R1*.fastq.gz'

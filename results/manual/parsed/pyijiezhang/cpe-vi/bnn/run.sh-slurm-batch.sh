@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mfvi
-#FLUX: -n=2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=mfvi
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=64000M
+#SBATCH --time=06:00:00
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate bayesianize

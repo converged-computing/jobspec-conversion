@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fork-0995
-#FLUX: --queue=bdwall
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=radix-io
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=bdwall
+#SBATCH --constraint=ntasks-per-node=1
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

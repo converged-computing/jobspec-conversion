@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=E3_TRAIN_GPU_TEST
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=E3_TRAIN_GPU_TEST
+#SBATCH --output=./train-out.%j
+#SBATCH --error=./train-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=./
 
 module purge
 module load anaconda/3/2020.02

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wq-cublas-faults-pf
+#FLUX --job-name=wq-cublas-faults-pf
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ITERS=1
 module load cuda

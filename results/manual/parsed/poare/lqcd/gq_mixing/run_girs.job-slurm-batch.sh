@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gq_mixing
-#FLUX: --queue=a100l
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gq_mixing
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=a100l
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'
 

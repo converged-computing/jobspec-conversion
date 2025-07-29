@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ragtags
-#FLUX: --queue=phillips
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ragtags
+#SBATCH --account=phillipslab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=phillips
+#SBATCH --array=0
 
 module load prl python/2.7.13
 module load easybuild  icc/2017.1.132-GCC-6.3.0-2.27  impi/2017.1.132 Stacks/1.46

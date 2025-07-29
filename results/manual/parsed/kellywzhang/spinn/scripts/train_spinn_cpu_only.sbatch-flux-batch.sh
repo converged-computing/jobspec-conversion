@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-malarkey-1103
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-cherry-4238
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export IFS=';'
 

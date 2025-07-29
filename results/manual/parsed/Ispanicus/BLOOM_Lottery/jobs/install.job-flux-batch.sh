@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=installtorch
-#FLUX: --queue=brown
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=installtorch
+#FLUX --queue=brown
+#FLUX -t=10800
+#FLUX --urgency=16
 
 hostname
 source activate torchenv

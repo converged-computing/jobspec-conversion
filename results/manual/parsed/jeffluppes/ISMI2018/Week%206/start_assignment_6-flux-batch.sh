@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lentil-6082
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-puppy-5160
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load python/3.5.2
 pip install tensorflow-gpu==1.4.1 --user

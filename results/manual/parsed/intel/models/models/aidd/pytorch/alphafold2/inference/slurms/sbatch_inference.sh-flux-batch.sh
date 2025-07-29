@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iaf2msa2
+#FLUX --job-name=iaf2msa2
 #FLUX: --exclusive
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#FLUX --queue=64c512g
+#FLUX --urgency=16
 
 root_home=$1
 sample_name=$2

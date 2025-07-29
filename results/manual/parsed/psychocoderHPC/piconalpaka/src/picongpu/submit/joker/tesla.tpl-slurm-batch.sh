@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-punk-2841
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/psychocoderHPC/piconalpaka/src/picongpu/submit/joker/tesla.tpl

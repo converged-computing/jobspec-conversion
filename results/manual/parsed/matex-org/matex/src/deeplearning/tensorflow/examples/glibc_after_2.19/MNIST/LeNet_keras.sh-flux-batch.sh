@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=LeNet.Keras.1
-#FLUX: --urgency=16
+#FLUX --job-name=LeNet.Keras.1
+#FLUX --urgency=16
 
 train_batch=64
 nodes=1

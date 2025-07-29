@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Hypo
-#FLUX: -c=8
-#FLUX: --queue=epyc
-#FLUX: --urgency=16
+#FLUX --job-name=Hypo
+#FLUX -c=8
+#FLUX --queue=epyc
+#FLUX --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-itch-3518
-#FLUX: -n=40
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-arm-7613
+#FLUX -n=40
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load lammps/20210929-mpi

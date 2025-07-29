@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-motorcycle-6876
-#FLUX: -n=20
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-fork-1834
+#FLUX -n=20
+#FLUX -c=4
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

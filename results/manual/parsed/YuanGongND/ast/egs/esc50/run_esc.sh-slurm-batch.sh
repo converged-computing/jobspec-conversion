@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ast-esc50
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=ast-esc50
+#SBATCH --output=./log_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=48000
+#SBATCH --partition=gpu
+#SBATCH --exclude=sls-titan-[0-2]
 
 export TORCH_HOME='../../pretrained_models'
 

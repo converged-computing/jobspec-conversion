@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=install
-#FLUX: --queue=public
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=install
+#SBATCH --output=%x_slurm_%j.out
+#SBATCH --error=%xslurm_%j.err
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80G
+#SBATCH --time=00:30:00
+#SBATCH --partition=public
 
 module load mamba/latest # only for Sol
 source activate difftumor

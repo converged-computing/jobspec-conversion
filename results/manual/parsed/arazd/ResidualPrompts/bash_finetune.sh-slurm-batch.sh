@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --account=all
+#SBATCH --output=/data/home/%u/residual_prompts/finetune_log_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
 
 source ~/miniconda/bin/activate 
 conda init

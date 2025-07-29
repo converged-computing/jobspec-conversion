@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-milkshake-6741
-#FLUX: --queue=fasse
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=reports/bic_%j.out
+#SBATCH --error=reports/bic_%j.err
+#SBATCH --mail-user=nvelez@fas.harvard.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=00:05:00
+#SBATCH --partition=fasse
 
 module load ncf
 module load matlab/R2021a-fasrc01

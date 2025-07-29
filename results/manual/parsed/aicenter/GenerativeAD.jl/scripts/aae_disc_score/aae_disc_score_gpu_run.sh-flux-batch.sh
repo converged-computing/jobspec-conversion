@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-salad-4260
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-sundae-9855
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 MODEL=$1
 DATATYPE=$2

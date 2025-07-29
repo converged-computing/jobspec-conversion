@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-1312
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-milkshake-9770
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ml py-tensorflow/2.6.2_py36
 module load gcc/10.1.0

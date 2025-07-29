@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-train-9955
-#FLUX: -n=16
-#FLUX: --queue=shared
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=spa_%j.out
+#SBATCH --error=spa_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:04:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

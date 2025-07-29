@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SIM.coll
-#FLUX: --queue=russpold
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=SIM.coll
+#SBATCH --output=error/out.SIM.coll
+#SBATCH --error=error/err.SIM.coll
+#SBATCH --mail-user=joke.durnez@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=russpold
+#SBATCH --qos=russpold
 
 export PILOT='15'
 export FINAL='61'

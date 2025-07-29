@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=llama3
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=llama3
+#SBATCH --account=<PROJECT_NAME>
+#SBATCH --output=res_eval_anita.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=243000
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --qos=boost_qos_lprod
 
 export HF_DATASETS_CACHE='/leonardo_scratch/large/userexternal/xxx/hf_datasets/datasets/'
 export HF_HOME='/leonardo_scratch/large/userexternal/xxx/hf_datasets/models/'

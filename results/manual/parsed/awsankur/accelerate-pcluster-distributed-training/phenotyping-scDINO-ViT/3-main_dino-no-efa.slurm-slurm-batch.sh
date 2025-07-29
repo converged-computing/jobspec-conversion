@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cinnamonbun-1573
-#FLUX: -N=4
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=/apps/accelerate-pcluster-distributed-training/phenotyping-scDINO-ViT/dino_out_%j.out
+#SBATCH --error=/apps/accelerate-pcluster-distributed-training/phenotyping-scDINO-ViT/dino_err_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'
 export FI_LOG_LEVEL='1'

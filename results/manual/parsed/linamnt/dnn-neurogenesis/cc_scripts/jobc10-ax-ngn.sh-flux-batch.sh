@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=c10ngn
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=c10ngn
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 SOURCEDIR=~/ndl/cc_scripts
 VENV=~/pytorch_gpu

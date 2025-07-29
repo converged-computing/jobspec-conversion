@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=02-sc
-#FLUX: -c=17
-#FLUX: --urgency=16
+#FLUX --job-name=02-sc
+#FLUX -c=17
+#FLUX --urgency=16
 
 set -e
 set -v

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-malarkey-4334
-#FLUX: --queue=gpu
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=gpu
 
 export SINGULARITYENV_LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/target_libs'
 export SINGULARITYENV_PREPEND_PATH='$TAU_HOME/bin'

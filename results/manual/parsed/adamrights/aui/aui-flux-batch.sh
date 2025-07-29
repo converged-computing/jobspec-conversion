@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-butter-7290
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-egg-0158
+#FLUX --urgency=16
 

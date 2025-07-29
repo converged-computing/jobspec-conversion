@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-destiny-8846
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lemur-8939
+#FLUX --urgency=16
 

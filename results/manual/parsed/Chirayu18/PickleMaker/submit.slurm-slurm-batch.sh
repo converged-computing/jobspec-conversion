@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=timAhcal_valid
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=timAhcal_valid
+#SBATCH --mail-user=chirayu.gupta@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=100g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 folder="/home/chirayugupta/test"
 module load cdac/spack/0.17

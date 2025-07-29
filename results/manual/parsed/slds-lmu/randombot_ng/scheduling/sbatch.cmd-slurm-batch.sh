@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hippo-7838
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=MaxMemPerNode
+#SBATCH --time=2-00:00:00
 
 export REDISPW='$(head -c 128 /dev/urandom | sha1sum -b - | cut -c -40)'
 export REDISHOSTLIST='$('

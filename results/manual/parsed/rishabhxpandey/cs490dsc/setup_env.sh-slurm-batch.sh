@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cifar-resnet
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar-resnet
+#SBATCH --output=myjob.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
 
 module load anaconda
 module load use.own

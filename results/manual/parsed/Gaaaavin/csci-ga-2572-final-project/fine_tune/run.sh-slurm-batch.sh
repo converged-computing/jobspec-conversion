@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=demo
+#SBATCH --output=demo_%j.out
+#SBATCH --error=demo_%j.err
+#SBATCH --mail-user=xl3136@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --nv \
 --overlay /scratch/xl3136/conda.ext3:ro \

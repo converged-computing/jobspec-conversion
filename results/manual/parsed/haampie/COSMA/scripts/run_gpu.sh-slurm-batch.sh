@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=matmul
-#FLUX: -N=4
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=matmul
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:03:00
+#SBATCH --constraint=gpu
 
 export CC='`which cc`'
 export CXX='`which CC`'

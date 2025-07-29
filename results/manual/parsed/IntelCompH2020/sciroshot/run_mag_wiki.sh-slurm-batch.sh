@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mini_wiki_mag
-#FLUX: -c=128
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mini_wiki_mag
+#SBATCH --output=./logs/mini_wiki_mag_specter_%j.out
+#SBATCH --error=./logs/mini_wiki_mag_specter_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:2
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=.
 
 export LD_LIBRARY_PATH='/gpfs/projects/bsc88/projects/bne/eval_amd/scripts_to_run/external-lib:$LD_LIBRARY_PATH'
 

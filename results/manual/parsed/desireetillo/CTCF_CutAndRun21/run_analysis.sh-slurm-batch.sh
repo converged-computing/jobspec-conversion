@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-5373
-#FLUX: --queue=ccr
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=ccr
 
 set -e
 module load python/3.5

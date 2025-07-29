@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=small
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=small
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60000M
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_shared
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH:$HOME/IR2'
 

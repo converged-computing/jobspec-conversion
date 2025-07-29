@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=script3
-#FLUX: -N=2
-#FLUX: --queue=cpu-compute-spot
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=script3
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=cpu-compute-spot
+#SBATCH --constraint=ntasks-per-node=1
 
 set -e
 srun hostname

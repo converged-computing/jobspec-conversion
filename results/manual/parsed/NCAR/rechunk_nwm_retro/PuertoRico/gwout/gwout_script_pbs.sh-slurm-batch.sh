@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-platanos-9687
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/rechunk_nwm_retro/PuertoRico/gwout/gwout_script_pbs.sh

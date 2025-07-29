@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hope-2593
-#FLUX: -c=5
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-lemon-3315
+#FLUX -c=5
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MCR_CACHE_ROOT='$TMPDIR'
 

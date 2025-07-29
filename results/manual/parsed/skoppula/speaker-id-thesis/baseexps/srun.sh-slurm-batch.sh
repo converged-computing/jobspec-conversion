@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spkid_adam
-#FLUX: -c=8
-#FLUX: -t=187200
-#FLUX: --urgency=16
+#SBATCH --job-name=spkid_adam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-04:00:00
+#SBATCH --array=1-4
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"
 echo "SLURM_JOBID="$SLURM_JOBID 

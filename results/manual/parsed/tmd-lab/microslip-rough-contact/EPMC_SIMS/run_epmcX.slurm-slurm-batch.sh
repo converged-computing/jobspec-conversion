@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=EPMC
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=scavenge
-#FLUX: -t=10500
-#FLUX: --urgency=16
+#SBATCH --job-name=EPMC
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=02:55:00
+#SBATCH --partition=scavenge
+#SBATCH: --exclusive
 
 echo "I ran on:"
 cd $SLURM_SUBMIT_DIR

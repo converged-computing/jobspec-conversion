@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hope-0449
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=dgx
 
 lscpu
 nvidia-smi

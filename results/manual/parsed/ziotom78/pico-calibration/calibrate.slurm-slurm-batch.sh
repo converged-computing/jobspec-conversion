@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pico-calibration
-#FLUX: -N=80
-#FLUX: --queue=debug
-#FLUX: -t=1199
-#FLUX: --urgency=16
+#SBATCH --job-name=pico-calibration
+#SBATCH --account=mp107
+#SBATCH --nodes=80
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:19:59
+#SBATCH --partition=debug
+#SBATCH --licenses=cscratch1
 
 export PYTHONPATH=''
 

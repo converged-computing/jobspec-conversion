@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dp1k
-#FLUX: --queue=small
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=dp1k
+#SBATCH --account=ASC21002
+#SBATCH --output=dp1k.o%j
+#SBATCH --error=dp1k.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=small
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh
 conda activate rap

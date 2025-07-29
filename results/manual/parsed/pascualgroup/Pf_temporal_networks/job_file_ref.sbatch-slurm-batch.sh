@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=XXX
-#FLUX: --queue=broadwl
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=XXX
+#SBATCH --output=slurm_output/XXX_%A_%a.out
+#SBATCH --error=slurm_output/XXX_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=10:00:00
+#SBATCH --partition=broadwl
+#SBATCH --array=1
 
 module load python
 module load gcc

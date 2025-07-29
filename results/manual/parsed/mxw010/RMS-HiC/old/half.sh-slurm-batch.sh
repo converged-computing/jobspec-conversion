@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-avocado-5583
-#FLUX: -c=10
-#FLUX: --queue=himem
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --partition=himem
 
 datadir=$1
 outdir=$2

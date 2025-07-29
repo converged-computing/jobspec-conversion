@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-butter-0087
+#FLUX --job-name=conspicuous-itch-7167
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export BGLOCKLESSMPIO_F_TYPE='0x47504653'
 

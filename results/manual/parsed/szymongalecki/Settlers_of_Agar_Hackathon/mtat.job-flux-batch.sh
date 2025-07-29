@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-gpu-condaenv
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch-gpu-condaenv
+#FLUX -c=8
+#FLUX --queue=brown
+#FLUX -t=82800
+#FLUX --urgency=16
 
 echo "Running on $(hostname):"
 module load Anaconda3

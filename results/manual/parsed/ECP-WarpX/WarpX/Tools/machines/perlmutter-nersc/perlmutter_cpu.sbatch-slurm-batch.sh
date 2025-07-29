@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=WarpX
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=WarpX
+#SBATCH --account=<proj>
+#SBATCH --output=WarpX.o%j
+#SBATCH --error=WarpX.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu,ntasks-per-node=16
 
 export SRUN_CPUS_PER_TASK='16  # 8 cores per chiplet, 2x SMP'
 export OMP_PLACES='threads'

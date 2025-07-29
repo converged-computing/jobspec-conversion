@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-milkshake-9649
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-punk-2574
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=r0_9_l_k
-#FLUX: -c=48
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=r0_9_l_k
+#SBATCH --output=r0_9_l_k-%A_%a.out
+#SBATCH --error=r0_9_l_k-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=20gb
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-14
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export MKL_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

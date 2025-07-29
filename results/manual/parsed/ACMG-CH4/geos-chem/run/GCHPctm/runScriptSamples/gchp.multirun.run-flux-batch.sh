@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-salad-9948
-#FLUX: -n=30
+#FLUX --job-name=lovely-caramel-8285
+#FLUX -n=30
 #FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --queue=huce_intel
+#FLUX -t=30
+#FLUX --urgency=16
 
 multirunlog="multirun.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-6532
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=faux-cupcake-1072
+#FLUX -c=24
+#FLUX --queue=amdgpuextralong
+#FLUX -t=864000
+#FLUX --urgency=16
 
 cd ../..
 ml torchsparse/1.4.0-foss-2021a-CUDA-11.3.1

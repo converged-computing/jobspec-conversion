@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Facke_ILVR
-#FLUX: --queue=gpu
-#FLUX: -t=900000
-#FLUX: --urgency=16
+#SBATCH --job-name=Facke_ILVR
+#SBATCH --output=log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10-10:00:00
+#SBATCH --partition=gpu
 
 module load anaconda3/2019.07
 source activate pytorch_1.11

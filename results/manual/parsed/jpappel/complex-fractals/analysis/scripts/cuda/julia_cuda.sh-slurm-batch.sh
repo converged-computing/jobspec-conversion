@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nunchucks-5256
-#FLUX: --exclusive
-#FLUX: --queue=gpu-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=analysis/data/%x.%j.csv
+#SBATCH --error=analysis/error/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu-shared
+#SBATCH: --exclusive
 
 THREADS=1
 BLOCK_SIZE=1

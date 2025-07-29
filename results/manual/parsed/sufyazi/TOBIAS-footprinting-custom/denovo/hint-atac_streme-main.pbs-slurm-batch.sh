@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-avocado-6986
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sufyazi/TOBIAS-footprinting-custom/denovo/hint-atac_streme-main.pbs

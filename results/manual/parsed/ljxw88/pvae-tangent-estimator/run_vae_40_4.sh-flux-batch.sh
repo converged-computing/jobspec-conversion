@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-nunchucks-2739
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-citrus-0030
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load pytorch/1.4.0-py36-cuda90
 module load torchvision/0.5.0-py36

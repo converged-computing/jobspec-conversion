@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rn50_imgnt_test2
-#FLUX: -c=32
-#FLUX: --queue=t4v2
-#FLUX: --urgency=16
+#SBATCH --job-name=rn50_imgnt_test2
+#SBATCH --output=logs_new/rn50_imgnt_test2/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:8
+#SBATCH --mem=167G
+#SBATCH --partition=t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0
 
 ​
 GPUS_PER_NODE=8

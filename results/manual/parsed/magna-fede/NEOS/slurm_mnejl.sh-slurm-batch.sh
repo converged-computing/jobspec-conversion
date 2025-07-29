@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Unfolding
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Unfolding
+#SBATCH --output=slurm_%u_%x_%j_stdout.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
 
 WORKDIR="/home/fm02/MEG_NEOS/NEOS"
 SCRIPT="temp_UnfoldOverlapCorrection_allfixations.ipy"

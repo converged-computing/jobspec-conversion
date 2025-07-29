@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-train-1992
-#FLUX: --queue=defq
-#FLUX: -t=721800
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-pedo-4792
+#FLUX --queue=defq
+#FLUX -t=721800
+#FLUX --urgency=16
 
 source /conda/miniconda3/etc/profile.d/conda.sh
 Nextflow=n/NextFlow/nextflow

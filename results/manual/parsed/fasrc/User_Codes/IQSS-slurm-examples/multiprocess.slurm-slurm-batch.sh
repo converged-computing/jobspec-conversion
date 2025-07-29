@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-staircase-5650
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=100
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
 
 GROUP='iqss_lab'
 if [ -z "$SCRATCH" ]; then

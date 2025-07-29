@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MultiGPU
-#FLUX: --queue=cuda
-#FLUX: --urgency=16
+#SBATCH --job-name=MultiGPU
+#SBATCH --account=cuda
+#SBATCH --output=submit-STREAMS.o%j
+#SBATCH --error=submit-STREAMS.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=cuda
+#SBATCH --chdir=.
 
 export PATH='/Soft/cuda/11.2.1/bin:$PATH'
 

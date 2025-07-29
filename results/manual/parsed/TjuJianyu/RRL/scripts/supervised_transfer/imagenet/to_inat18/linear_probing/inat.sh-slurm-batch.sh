@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=inet_supervised_resnet152_lineareval
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=inet_supervised_resnet152_lineareval
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-59
 
 i=0;
 for wd in 1e-6 1e-5 1e-4;

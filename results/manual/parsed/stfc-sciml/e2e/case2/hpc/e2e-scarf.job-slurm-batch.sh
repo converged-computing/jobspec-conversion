@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PEARLIntelE2E
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PEARLIntelE2E
+#SBATCH --output=e2e-inference-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-socket=4
 
 export SINGULARITYENV_PYTHONPATH='/work'
 

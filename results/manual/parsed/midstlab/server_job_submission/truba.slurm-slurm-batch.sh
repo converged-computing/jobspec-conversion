@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=job-name
-#FLUX: -n=40
-#FLUX: --queue=barbun-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=job-name
+#SBATCH --account=username
+#SBATCH --mail-user=username@mail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=barbun-cuda
 
 	#for all queues
 	#for cuda queue

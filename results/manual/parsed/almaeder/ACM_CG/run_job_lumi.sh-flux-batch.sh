@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PASC_SRC
-#FLUX: -c=7
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=PASC_SRC
+#FLUX -c=7
+#FLUX --queue=standard-g
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)"     '
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)                                   '

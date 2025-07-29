@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=STAR_index
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=STAR_index
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load star/2.7.1a
 refgen_dir=/home/sm3679/culex_biting/culex_genome

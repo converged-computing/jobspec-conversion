@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-citrus-5258
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2018-3-406
+#SBATCH --output=%J_output.out
+#SBATCH --error=%J_error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=7-00:00:00
 
 export PYTHONPATH='${PWD}:$PYTHONPATH'
 export KERAS_BACKEND='tensorflow'

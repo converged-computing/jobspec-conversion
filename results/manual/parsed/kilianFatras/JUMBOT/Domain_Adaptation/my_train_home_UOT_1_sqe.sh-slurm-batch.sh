@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=OH_UOT_1_sqe
-#FLUX: --urgency=16
+#SBATCH --job-name=OH_UOT_1_sqe
+#SBATCH --output=office_home_UOT_1_sqe.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 conda activate python37
 setcuda 10.2

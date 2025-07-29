@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leg-3878
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 ff=`ls -1d pos_*`
 hier=`pwd`

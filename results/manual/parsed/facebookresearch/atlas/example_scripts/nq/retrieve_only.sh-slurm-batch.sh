@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nq
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --queue=devlab
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=nq
+#SBATCH --output=run_dir/%A.out
+#SBATCH --error=run_dir/%A.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=470GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=devlab
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 size=xl
 DATA_DIR='/checkpoint/plewis/atlas_opensourcing_check/'

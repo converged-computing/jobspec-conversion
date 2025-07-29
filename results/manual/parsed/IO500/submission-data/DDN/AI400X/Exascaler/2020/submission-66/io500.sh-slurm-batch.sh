@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=io500-ai400
-#FLUX: -N=10
-#FLUX: --urgency=16
+#SBATCH --job-name=io500-ai400
+#SBATCH --output=io_500_out_%j
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=16
 
 export PATH='/usr/mpi/gcc/openmpi-4.0.3rc4/bin:$PATH'
 

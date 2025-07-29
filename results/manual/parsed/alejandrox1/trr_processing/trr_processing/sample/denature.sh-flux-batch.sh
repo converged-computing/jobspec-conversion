@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BINDING
-#FLUX: -N=2
-#FLUX: -n=32
+#FLUX --job-name=BINDING
+#FLUX -N=2
+#FLUX -n=32
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel
 module load impi

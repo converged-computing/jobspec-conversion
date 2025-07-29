@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=spider
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=spider
+#SBATCH: --exclusive
+#SBATCH --constraint=V100,ntasks-per-node=8
+#SBATCH --exclude=spider-0012,spider-0013,spider-0002
 
 export MLD_RDK_ENV_INSTALL_DIR='/home/users/jbalma/cuda10_env_pharml'
 export SCRATCH='/lus/scratch/jbalma'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prodload
-#FLUX: --queue=regular
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=prodload
+#SBATCH --output=prodload.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-01:00:00
+#SBATCH --partition=regular
+#SBATCH --licenses=SCRATCH
 
 export NERSC_HOST='`/usr/common/usg/bin/nersc_host`'
 export OMP_NUM_THREADS='${CORES_ON_NODE}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MyParallelJob
-#FLUX: -n=16
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=MyParallelJob
+#FLUX -n=16
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cherry-0129
-#FLUX: --queue=node
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-dog-5488
+#FLUX --queue=node
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export NXF_TEMP='/scratch'
 export NXF_LAUNCHBASE='/scratch'

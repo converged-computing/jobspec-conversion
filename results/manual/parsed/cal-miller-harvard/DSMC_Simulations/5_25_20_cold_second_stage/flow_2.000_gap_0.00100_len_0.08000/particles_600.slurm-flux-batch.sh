@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-2085
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-citrus-7424
+#FLUX -n=8
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 cd data
 pwd

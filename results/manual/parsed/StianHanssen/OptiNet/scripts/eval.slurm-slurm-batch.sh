@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stianrh_AMD_Eval
-#FLUX: --queue=V100-IDI
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=stianrh_AMD_Eval
+#SBATCH --account=share-ie-idi
+#SBATCH --output=terminal_output/eval_log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=15000
+#SBATCH --time=03:00:00
+#SBATCH --partition=V100-IDI
+#SBATCH --constraint=ntasks-per-node=24
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

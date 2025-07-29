@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pack_perception
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#SBATCH --job-name=pack_perception
+#SBATCH --output=/mnt/sandbox1/%u/logs/%j_%x.batch.txt
+#SBATCH --error=/mnt/sandbox1/%u/logs/%j_%x.batch.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=4
 
 export BRT_ENV='prod'
 export AWS_DEFAULT_REGION='us-west-2'

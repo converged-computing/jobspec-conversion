@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-latke-2386
-#FLUX: --queue=general
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-cherry-7822
+#FLUX --queue=general
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module load Python
 module load matplotlib

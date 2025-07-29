@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=HPL
-#FLUX: --queue=tjet,ujet,sjet,vjet,xjet,kjet
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=HPL
+#SBATCH --account=vdatum
+#SBATCH --output=station-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000M
+#SBATCH --time=03:00:00
+#SBATCH --partition=tjet,ujet,sjet,vjet,xjet,kjet
+#SBATCH --qos=batch
+#SBATCH --chdir=.
+#SBATCH --array=0-9
 
 date
 echo "host name is `hostname` : $SLURM_ARRAY_TASK_ID gages_ids_nodes.txt fort.14"

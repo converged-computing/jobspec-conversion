@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ga_sim1D_hydro
-#FLUX: --queue=sandybridge
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ga_sim1D_hydro
+#SBATCH --output=logs/test_ga_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=sandybridge
+#SBATCH --constraint=ntasks-per-node=16
 
 SIZE=1048576
 OUTPUT=container/1D_1048576_4/ga_sim_${SIZE}_${SLURM_JOB_NUM_NODES}_${SLURM_NTASKS}_rep1

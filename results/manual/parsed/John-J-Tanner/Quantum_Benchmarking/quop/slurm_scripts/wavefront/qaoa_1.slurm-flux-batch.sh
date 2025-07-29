@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nalgas-5171
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-underoos-5456
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CXX='hipcc'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chair-5202
-#FLUX: --exclusive
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --account=def-gabilode
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem=96G
+#SBATCH --time=00:24:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export NCCL_BLOCKING_WAIT='1 # Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'
 

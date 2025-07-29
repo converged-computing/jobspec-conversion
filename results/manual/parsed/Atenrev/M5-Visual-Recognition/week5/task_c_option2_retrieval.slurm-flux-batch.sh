@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-banana-0748
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=faux-hope-9640
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python run_retrieval.py \
     --mode symmetric  \

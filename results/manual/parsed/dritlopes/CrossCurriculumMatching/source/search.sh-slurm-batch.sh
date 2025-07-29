@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cinnamonbun-4768
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=adrielli.drica@gmail.com
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu
 
 module load 2020
 module load Anaconda3/2020.02

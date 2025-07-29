@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=DSB17
-#FLUX: -N=2
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=DSB17
+#SBATCH --output=DSB_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=05:00:00
 
 module purge
 module load scikit-learn/intel/0.18.1

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-plant-1736
-#FLUX: --queue=power_std
-#FLUX: --urgency=16
+#SBATCH --account=acc_ure_power_std
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --partition=power_std
+#SBATCH --array=1-4
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate pytorch

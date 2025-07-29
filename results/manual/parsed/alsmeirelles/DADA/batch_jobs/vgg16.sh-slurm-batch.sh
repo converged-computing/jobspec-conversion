@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-underoos-2367
-#FLUX: --queue=GPU-AI
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --mail-user=alsmeirelles@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta16:1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=GPU-AI
 
 export PYTHONPATH='$HOME/.local/lib/python3.6/site-packages:$PYTHONPATH'
 

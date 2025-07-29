@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ont_barcoding
-#FLUX: --queue=node
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ont_barcoding
+#SBATCH --account=snic2022-5-42
+#SBATCH --output=logs/snakemake-%j.log
+#SBATCH --error=logs/snakemake-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=node
+#SBATCH --constraint=usage_mail
 
 module load conda bioinfo-tools snakemake &&
 snakemake -pr --jobs $SLURM_JOB_CPUS_PER_NODE\

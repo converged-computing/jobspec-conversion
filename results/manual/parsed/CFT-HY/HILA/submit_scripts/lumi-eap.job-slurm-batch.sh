@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-car-6456
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=eap
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=Project_462000043
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:10:00
+#SBATCH --partition=eap
 
 export LD_LIBRARY_PATH='$HIP_LIB_PATH:$LD_LIBRARY_PATH'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=short_pulse
-#FLUX: -n=4
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=short_pulse
+#FLUX -n=4
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module purge
 module load PrgEnv-cray

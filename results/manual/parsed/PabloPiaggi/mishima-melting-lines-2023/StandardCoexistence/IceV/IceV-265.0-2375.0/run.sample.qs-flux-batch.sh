@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-destiny-5100
-#FLUX: -c=7
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-toaster-6030
+#FLUX -c=7
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tf
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=tf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
 
 export OMP_NUM_THREADS='68'
 export KMP_AFFINITY='granularity=fine,verbose,compact,1,0'

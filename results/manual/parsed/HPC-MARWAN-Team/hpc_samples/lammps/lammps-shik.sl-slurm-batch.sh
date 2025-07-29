@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=shik_lammps
-#FLUX: -n=10
-#FLUX: --queue=shortq
-#FLUX: --urgency=16
+#SBATCH --job-name=shik_lammps
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=shortq
 
 export WORK_DIR='/data/$USER/workdir/lammps/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/Input'

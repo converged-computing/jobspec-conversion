@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=simcse_similarity_calculations
-#FLUX: -c=16
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=simcse_similarity_calculations
+#FLUX -c=16
+#FLUX --queue=nodes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo $(pwd)
 nvidia-smi

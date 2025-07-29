@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-taco-3591
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-lemur-9120
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load openmpi/gcc/64/4.0.2
 module load julia/1.7.3

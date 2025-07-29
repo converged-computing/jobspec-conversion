@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_hdf5
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=parallel_hdf5
+#SBATCH --output=parallel_hdf5.out
+#SBATCH --error=parallel_hdf5.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
 
 module load intel/21.2.0-fasrc01 openmpi/4.1.1-fasrc01 hdf5/1.12.1-fasrc01
 srun -n $SLURM_NTASKS -N $SLURM_NNODES --mpi=pmix ./parallel_hdf5.x

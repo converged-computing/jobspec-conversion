@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=birddetector
-#FLUX: -c=5
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=birddetector
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/DeepForest_%j.out
+#SBATCH --error=/home/b.weinstein/logs/DeepForest_%j.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=1
+#SBATCH --mem=30GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 sbatch <<EOT
 ulimit -c 0

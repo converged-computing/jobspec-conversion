@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-buttface-5447
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/yamatolab/bass-scores/amber/20_cuda11.7/job.sh

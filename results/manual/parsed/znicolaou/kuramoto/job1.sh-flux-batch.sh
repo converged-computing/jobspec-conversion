@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-soup-4355
-#FLUX: --queue=ckpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-bits-4226
+#FLUX --queue=ckpt
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda
 seed=$SLURM_ARRAY_TASK_ID

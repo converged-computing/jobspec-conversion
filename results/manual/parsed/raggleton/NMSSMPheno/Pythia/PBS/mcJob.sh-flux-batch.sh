@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-mango-0311
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-parsnip-2969
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raggleton/NMSSMPheno/Pythia/PBS/mcJob.sh

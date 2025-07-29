@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stream4
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stream4
+#FLUX -c=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='16'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PGxCorpus_training
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=PGxCorpus_training
+#SBATCH --output=logslurms/PGxCorpus/slurm-%j.out
+#SBATCH --error=logslurms/PGxCorpus/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_prod_long
 
 export PATH='/opt/conda/bin:$PATH'
 

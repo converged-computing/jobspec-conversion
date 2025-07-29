@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cat-1549
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=your-account
+#SBATCH --mail-user=aming@ece.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24gb
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-10%1
 
 module load singularity
 echo "started the RunBench at $(date)"

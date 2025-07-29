@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=convert_laz_np
-#FLUX: -c=24
-#FLUX: --queue=SAN32M512_L
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=convert_laz_np
+#FLUX -c=24
+#FLUX --queue=SAN32M512_L
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load intel/19.0.4.243

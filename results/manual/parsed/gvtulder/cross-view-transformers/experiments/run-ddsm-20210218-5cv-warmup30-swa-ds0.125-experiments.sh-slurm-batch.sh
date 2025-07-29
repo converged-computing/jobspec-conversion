@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=phat-banana-3886
-#FLUX: -c=6
-#FLUX: --queue=csedu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=gvtulder
+#SBATCH --output=/home/gvtulder/ru/transformer/slurm-logs/%x-%A.%a.out
+#SBATCH --error=/home/gvtulder/ru/transformer/slurm-logs/%x-%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
+#SBATCH --partition=csedu
+#SBATCH --array=1-1
 
 set -e
 git_commit_hash=$( git rev-parse --short HEAD )

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-caramel-4303
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:3
+#SBATCH --mem=64GB
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

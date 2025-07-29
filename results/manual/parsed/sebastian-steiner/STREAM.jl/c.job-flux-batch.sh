@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-milkshake-4249
-#FLUX: -c=32
-#FLUX: --queue=q_thesis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-banana-7614
+#FLUX -c=32
+#FLUX --queue=q_thesis
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 

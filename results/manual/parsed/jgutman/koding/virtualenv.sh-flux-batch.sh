@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leg-0285
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-parrot-4231
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jgutman/koding/virtualenv.sh

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=siren
-#FLUX: -c=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=siren
+#SBATCH --account=mdw@v100
+#SBATCH --output=slurm_run/navier_stokes/siren-%j.out
+#SBATCH --error=slurm_run/navier_stokes/siren-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-04:00:00
+#SBATCH --qos=qos_gpu-t4
+#SBATCH --constraint=ntasks-per-node=1
 
 set -x
 cd ${SLURM_SUBMIT_DIR}

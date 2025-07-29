@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-6956
-#FLUX: --urgency=16
+#FLUX --job-name=faux-itch-7284
+#FLUX --urgency=16
 

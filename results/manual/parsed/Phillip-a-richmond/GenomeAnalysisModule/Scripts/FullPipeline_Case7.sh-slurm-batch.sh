@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-eagle-4348
-#FLUX: -c=20
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=160G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=defq
 
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/
 source $ANNOTATEVARIANTS_INSTALL/opt/miniconda3/etc/profile.d/conda.sh

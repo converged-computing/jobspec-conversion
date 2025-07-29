@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-1698
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-animal-5240
+#FLUX --urgency=16
 
 a=$SLURM_ARRAY_TASK_ID
 j=$SLURM_JOBID

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-ricecake-6512
-#FLUX: --queue=NV100q
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=NV100q
+#SBATCH --nodelist=node08
 
 export CUDA_VISIBLE_DEVICES='1,2,3'
 

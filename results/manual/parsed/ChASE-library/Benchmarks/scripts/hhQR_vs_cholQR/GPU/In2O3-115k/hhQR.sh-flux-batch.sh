@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-8516
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=develbooster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=hello-cherry-3754
+#FLUX -N=4
+#FLUX -n=16
+#FLUX -c=12
+#FLUX --queue=develbooster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

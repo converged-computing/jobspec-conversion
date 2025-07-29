@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=thefinal_optfl_dense
-#FLUX: -c=128
-#FLUX: --urgency=16
+#SBATCH --job-name=thefinal_optfl_dense
+#SBATCH --output=./logs/array_%A_%a.out
+#SBATCH --error=./logs/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=400G
+#SBATCH --array=1
 
 export SLURM_CPU_BIND='none'
 

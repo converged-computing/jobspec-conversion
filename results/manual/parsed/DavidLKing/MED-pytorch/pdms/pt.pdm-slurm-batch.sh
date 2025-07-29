@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cupcake-4076
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DavidLKing/MED-pytorch/pdms/pt.pdm

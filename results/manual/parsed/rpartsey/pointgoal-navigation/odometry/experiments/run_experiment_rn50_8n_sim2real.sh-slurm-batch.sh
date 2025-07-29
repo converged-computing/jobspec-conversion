@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=vos2r
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=learnlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=vos2r
+#SBATCH --output=/checkpoint/maksymets/logs/habitat_baselines/ddppo/pointgoal_nav/fair_sim2real_resnet50_bs32_rgbd_actemb2_flip_invrot2/log.out
+#SBATCH --error=/checkpoint/maksymets/logs/habitat_baselines/ddppo/pointgoal_nav/fair_sim2real_resnet50_bs32_rgbd_actemb2_flip_invrot2/log.err
+#SBATCH --mail-user=maksymets@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=learnlab
+#SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 export GLOG_minloglevel='2'

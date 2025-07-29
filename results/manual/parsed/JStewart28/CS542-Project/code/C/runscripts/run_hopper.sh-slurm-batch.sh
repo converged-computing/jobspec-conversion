@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarks
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmarks
+#SBATCH --output=run_hopper.out
+#SBATCH --error=run_hopper.err
+#SBATCH --mail-user=jastewart@unm.edu
+#SBATCH --mail-type=FAIL,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=general
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 spack load openmpi/nb2qima72b5usivgbcdbkwn5ivmcwlxk
 mpirun -n 1 all_to_all 0

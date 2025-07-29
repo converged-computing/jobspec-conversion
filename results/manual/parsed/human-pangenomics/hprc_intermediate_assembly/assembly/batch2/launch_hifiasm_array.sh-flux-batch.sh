@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPRC-asm-batch2
-#FLUX: -c=4
-#FLUX: --queue=high_priority
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=HPRC-asm-batch2
+#FLUX -c=4
+#FLUX --queue=high_priority
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export TOIL_SLURM_ARGS='--time=3-0:00 --partition=high_priority'
 

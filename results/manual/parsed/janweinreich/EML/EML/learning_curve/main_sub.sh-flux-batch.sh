@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-omelette-1564
-#FLUX: -n=24
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-knife-8953
+#FLUX -n=24
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ntrain=
 ntest=

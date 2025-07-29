@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RMSE
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=RMSE
+#SBATCH --output=RMSE_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --time=02:00:00
+#SBATCH --constraint=volta
+#SBATCH --array=0-3
 
 case $SLURM_ARRAY_TASK_ID in
     0) PROP=1.0; TRIGGER=0.0; LABEL=1.0; CHECKPOINT=results/poison-005_trigger-00_label-05_ceedfe; RESULTS=results/poison-005_trigger-00_label-05_ceedfe;;

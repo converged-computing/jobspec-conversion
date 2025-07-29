@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dbcan_hungate_%j
-#FLUX: -n=48
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=dbcan_hungate_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=dbcan_hungate_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/databases/hungate1000/genome

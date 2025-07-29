@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=128_pretraining
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=128_pretraining
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export BERT_DIR='/path/to/git_clone/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'
 export OUTPUT_DIR='/path/to/output/'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Megatron-LM
-#FLUX: -N=4
-#FLUX: -c=200
+#FLUX --job-name=Megatron-LM
+#FLUX -N=4
+#FLUX -c=200
 #FLUX: --exclusive
-#FLUX: --queue=megatron
-#FLUX: --urgency=16
+#FLUX --queue=megatron
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export WANDB_API_KEY='YourOwnWandbAPIKey'

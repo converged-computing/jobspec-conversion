@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-2378
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -c=8
-#FLUX: --queue=dc-cpu-devel
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=8
+#SBATCH --time=01:30:00
+#SBATCH --partition=dc-cpu-devel
+#SBATCH --constraint=ntasks-per-node=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

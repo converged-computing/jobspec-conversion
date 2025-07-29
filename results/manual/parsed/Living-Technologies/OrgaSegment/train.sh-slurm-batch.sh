@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cinnamonbun-1041
-#FLUX: --queue=gpu
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --output=log/JobName.%J.out
+#SBATCH --error=log/JobName.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=320G
+#SBATCH --time=8-00:00:00
+#SBATCH --partition=gpu
 
 TRAIN=false
 EVAL=false

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-4030
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-motorcycle-6124
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source __directories.sh
 cd ${assar_dirs[repo]}

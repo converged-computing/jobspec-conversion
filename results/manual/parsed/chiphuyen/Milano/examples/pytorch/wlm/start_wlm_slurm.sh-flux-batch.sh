@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Milano
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Milano
+#FLUX -c=40
+#FLUX -t=86400
+#FLUX --urgency=16
 
 docker run --runtime=nvidia --rm --name AAA -v \
 /home/okuchaiev:/home/okuchaiev -v /mnt:/mnt --shm-size=1G \

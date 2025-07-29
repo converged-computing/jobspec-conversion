@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leopard-0673
-#FLUX: -N=5
-#FLUX: -n=5
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=phat-house-9744
+#FLUX -N=5
+#FLUX -n=5
+#FLUX -c=8
+#FLUX --urgency=16
 
 runlist=$1
 mkfifo testfifo

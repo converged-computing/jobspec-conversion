@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-muffin-3672
-#FLUX: -c=36
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=ffnr0871-rfi-test
+#SBATCH --mail-user=joss.whittle@rfi.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --time=00:20:00
+#SBATCH --qos=rfi
+#SBATCH --constraint=ntasks-per-node=1
 
 export PROJECT_DIR='/bask/projects/f/ffnr0871-rfi-test/pje39613'
 export SINGULARITY_CACHEDIR='$PROJECT_DIR/.singularity-cache'

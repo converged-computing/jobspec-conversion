@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kernel
-#FLUX: -n=224
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=kernel
+#SBATCH --output=kernel.out
+#SBATCH --error=kernel.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=224
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 cd $SCRATCH/jobs
 module purge

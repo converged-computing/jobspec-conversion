@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mia_covid
-#FLUX: --queue=clara
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=mia_covid
+#FLUX --queue=clara
+#FLUX -t=172800
+#FLUX --urgency=16
 
 case $SLURM_ARRAY_TASK_ID in
   1)

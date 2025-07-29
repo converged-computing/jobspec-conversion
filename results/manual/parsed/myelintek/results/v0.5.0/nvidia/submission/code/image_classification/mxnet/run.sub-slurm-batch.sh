@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
-#FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=image_classification
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=mlperf
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export CONTNAME='mpi_${SLURM_JOB_ID}'

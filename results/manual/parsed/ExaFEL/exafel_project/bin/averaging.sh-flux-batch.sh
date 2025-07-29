@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cxid9114_avg
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cxid9114_avg
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ ! -f ./avg.sh ]; then
     echo "#\!/bin/bash" >> ./avg.sh

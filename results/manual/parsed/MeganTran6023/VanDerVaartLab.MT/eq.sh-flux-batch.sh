@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-platanos-9595
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-train-3807
+#FLUX --urgency=16
 
 module purge
 module load apps/amber/18-19

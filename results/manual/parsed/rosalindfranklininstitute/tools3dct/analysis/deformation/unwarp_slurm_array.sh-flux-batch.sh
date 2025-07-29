@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-1687
-#FLUX: -c=4
-#FLUX: --queue=htc
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-signal-5576
+#FLUX -c=4
+#FLUX --queue=htc
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load X11
 module load Python

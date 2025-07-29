@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-knife-8133
-#FLUX: -c=24
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-bits-4748
+#FLUX -c=24
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='0'
 

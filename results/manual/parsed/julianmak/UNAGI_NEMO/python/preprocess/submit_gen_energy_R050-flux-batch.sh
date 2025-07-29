@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eke50
-#FLUX: -n=40
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=eke50
+#FLUX -n=40
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load openmpi3
 python --version

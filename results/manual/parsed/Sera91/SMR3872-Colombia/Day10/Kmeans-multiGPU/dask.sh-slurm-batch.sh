@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rapids_dask_test_tcp
-#FLUX: -N=3
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=rapids_dask_test_tcp
+#SBATCH --output=rapids_dask_test_tcp_%j.out
+#SBATCH --error=rapids_dask_test_tcp_%j.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 module load apptainer
 module load cuda

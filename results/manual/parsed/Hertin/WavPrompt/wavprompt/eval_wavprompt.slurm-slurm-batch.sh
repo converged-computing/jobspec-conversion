@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=evalwav2gpt2
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=evalwav2gpt2
+#SBATCH --output=logs/evalwav2gpt2_%j.out
+#SBATCH --error=logs/evalwav2gpt2_%j.err
+#SBATCH --mail-user=heting@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=sched_level_2
+#SBATCH --constraint=ntasks-per-node=4
 
 mkdir -p logs
 PYTHON_VIRTUAL_ENVIRONMENT=wavprompt

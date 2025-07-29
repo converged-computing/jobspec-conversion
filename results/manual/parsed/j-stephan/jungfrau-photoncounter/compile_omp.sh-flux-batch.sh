@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=OpenMP_Compile
-#FLUX: -n=4
-#FLUX: --queue=defq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=OpenMP_Compile
+#FLUX -n=4
+#FLUX --queue=defq
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 

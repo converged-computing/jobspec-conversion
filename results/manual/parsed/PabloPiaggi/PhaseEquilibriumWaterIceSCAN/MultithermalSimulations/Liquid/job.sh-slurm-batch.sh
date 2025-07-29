@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=liq-mt-7
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=liq-mt-7
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300M
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

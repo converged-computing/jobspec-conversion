@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Elva paper winter experiments videos
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Elva paper winter experiments videos
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-7
 
 DATASETS=(
         '2022-02-02-10-39-23_e2e_rec_elva_winter_lidar_forward_08' \

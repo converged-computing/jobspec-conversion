@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LD-Extract-Individuals
-#FLUX: -n=10
-#FLUX: --queue=core
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=LD-Extract-Individuals
+#FLUX -n=10
+#FLUX --queue=core
+#FLUX -t=10800
+#FLUX --urgency=16
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bioinfo-tools plink2/2.00-alpha-2-20190429

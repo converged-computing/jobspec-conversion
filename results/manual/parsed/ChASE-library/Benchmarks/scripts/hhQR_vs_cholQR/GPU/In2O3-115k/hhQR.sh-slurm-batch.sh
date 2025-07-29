@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-rabbit-3068
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=develbooster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=hhQR.out
+#SBATCH --error=hhQR.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:30:00
+#SBATCH --partition=develbooster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

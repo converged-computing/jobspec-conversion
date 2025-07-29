@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-parrot-2452
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
 
 module load python/anaconda3-2018.12
 source activate pytorch-2023

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-0901
-#FLUX: --queue=josephsnodes
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-latke-0745
+#FLUX --queue=josephsnodes
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export XDG_CACHE_HOME='/mnt/scratch/robe1195/cache'
 

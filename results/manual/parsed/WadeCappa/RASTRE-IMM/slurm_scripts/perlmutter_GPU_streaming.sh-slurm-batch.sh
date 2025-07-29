@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=m5_github_IC
-#FLUX: -N=5
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=m5_github_IC
+#SBATCH --account=m1641
+#SBATCH --output=/global/homes/r/reetb/cuda/results/jobs/github/m5_github_IC.o
+#SBATCH --error=/global/homes/r/reetb/cuda/results/jobs/github/m5_github_IC.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

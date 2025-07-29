@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fudge-6638
-#FLUX: -N=6
-#FLUX: -n=96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-caramel-6146
+#FLUX -N=6
+#FLUX -n=96
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

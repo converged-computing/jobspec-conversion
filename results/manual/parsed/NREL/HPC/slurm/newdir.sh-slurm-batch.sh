@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8,ntasks-per-node=8
 
 :<<++++
 Author: Tim Kaiser

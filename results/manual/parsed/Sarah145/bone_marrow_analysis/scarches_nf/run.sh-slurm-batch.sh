@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nf-scarches
-#FLUX: -n=8
-#FLUX: --queue=highmem
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-scarches
+#SBATCH --output=/data/sennis/AML/logs/nf-scarches_test.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=highmem
 
 nextflow='/home/sennis/nextflow'
 cd /data/sennis/AML/scarches_nf

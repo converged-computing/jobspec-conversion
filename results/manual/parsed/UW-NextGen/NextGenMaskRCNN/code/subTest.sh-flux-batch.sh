@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-plant-5786
-#FLUX: --queue=slurm_courtesy
-#FLUX: -t=259320
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-kitty-1671
+#FLUX --queue=slurm_courtesy
+#FLUX -t=259320
+#FLUX --urgency=16
 
 module load cuda/9.0
 source activate maskrcnn

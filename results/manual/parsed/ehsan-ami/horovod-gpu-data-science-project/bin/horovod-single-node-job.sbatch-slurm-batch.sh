@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-butter-3261
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=../results/%x/slurm-%j.out
+#SBATCH --error=../results/%x/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=v100,cpu_intel_platinum_8260
 
 export NCCL_DEBUG='INFO'
 

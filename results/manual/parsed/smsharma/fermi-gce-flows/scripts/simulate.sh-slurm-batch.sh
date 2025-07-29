@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=simulate
-#FLUX: -t=39540
-#FLUX: --urgency=16
+#SBATCH --job-name=simulate
+#SBATCH --output=simulate_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=10:59:00
 
 source ~/.bashrc
 conda activate sbi-fermi

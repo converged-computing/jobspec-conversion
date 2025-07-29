@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=predictvisits_bootstrap_${race}_${originmode}
-#FLUX: --queue=bigmem2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=predictvisits_bootstrap_${race}_${originmode}
+#FLUX --queue=bigmem2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 for originmode in mainspec mintime
 do

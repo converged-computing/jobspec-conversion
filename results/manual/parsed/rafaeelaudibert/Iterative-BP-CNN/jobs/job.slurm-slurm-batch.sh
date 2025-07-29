@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iterative-bp-cnn
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=iterative-bp-cnn
+#SBATCH --output=output.txt
+#SBATCH --error=error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:K80:1
+#SBATCH --mem=16000
+#SBATCH --time=4-00:00:00
 
 module load nvidia/latest
 module load anaconda3/latest

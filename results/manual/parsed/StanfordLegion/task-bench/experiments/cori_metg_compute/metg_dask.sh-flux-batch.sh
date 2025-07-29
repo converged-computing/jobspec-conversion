@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-general-6593
+#FLUX --job-name=conspicuous-lemur-4723
 #FLUX: --exclusive
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX -t=32400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'
 export PYTHONPATH='$root_dir"/dask:"$PYTHONPATH'

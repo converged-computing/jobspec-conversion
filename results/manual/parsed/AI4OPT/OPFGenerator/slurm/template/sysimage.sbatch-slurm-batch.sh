@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sysimage_OPF
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=sysimage_OPF
+#SBATCH --account={{:charge_account}}
+#SBATCH --output={{{:logs_dir}}}/sysimage.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem={{:sysimage_memory}}
+#SBATCH --time=01:00:00
 
 . {{{:env_path}}}
 cd {{{:opfgenerator_dir}}}

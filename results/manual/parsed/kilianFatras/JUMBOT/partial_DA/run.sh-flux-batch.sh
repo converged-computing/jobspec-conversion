@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=PDA_OH_UOT_all
-#FLUX: --urgency=16
+#FLUX --job-name=PDA_OH_UOT_all
+#FLUX --urgency=16
 
 conda activate python37
 setcuda 10.2

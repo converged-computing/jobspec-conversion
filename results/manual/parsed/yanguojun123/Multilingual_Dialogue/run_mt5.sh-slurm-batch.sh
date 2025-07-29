@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=$4
-#FLUX: --queue=si
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=$4
+#SBATCH --output=output/out_$4
+#SBATCH --error=output/err_$4
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=si
+#SBATCH --nodelist=$1
 
 CUR_DATA_DIR=$DATA_DIR
 port=$(($(date +%N)%30000))

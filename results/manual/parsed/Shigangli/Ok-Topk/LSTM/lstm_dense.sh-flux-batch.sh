@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-egg-8030
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-peas-3084
+#FLUX -N=32
+#FLUX -n=32
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=4800
+#FLUX --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

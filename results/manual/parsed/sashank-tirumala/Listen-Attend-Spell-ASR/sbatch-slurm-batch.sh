@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leopard-7875
-#FLUX: --queue=GPU
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --mail-user=stirumal@andrew.cmu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=GPU
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=compute-0-[9]
 
 set -x
 set -u

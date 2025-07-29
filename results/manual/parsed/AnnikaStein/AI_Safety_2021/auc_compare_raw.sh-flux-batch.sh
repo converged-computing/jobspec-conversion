@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=0_raw_101-120
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=39000
-#FLUX: --urgency=16
+#FLUX --job-name=0_raw_101-120
+#FLUX -n=2
+#FLUX -c=2
+#FLUX -t=39000
+#FLUX --urgency=16
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=emi2023_3d_floating_tld
-#FLUX: -N=8
-#FLUX: -n=384
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=emi2023_3d_floating_tld
+#FLUX -N=8
+#FLUX -n=384
+#FLUX --queue=workq
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

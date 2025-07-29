@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-4251
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-poodle-5971
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${PWD}'
 

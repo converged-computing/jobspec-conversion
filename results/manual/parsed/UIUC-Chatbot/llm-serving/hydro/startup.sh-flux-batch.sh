@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=flask_server
+#FLUX --job-name=flask_server
 #FLUX: --exclusive
-#FLUX: --queue=a100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=a100
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load cuda/12.2.1
 module load python/3.9.13

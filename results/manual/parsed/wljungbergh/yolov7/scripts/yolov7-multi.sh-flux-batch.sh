@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-noodle-9228
-#FLUX: --queue=ztestpreemp
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-poo-7044
+#FLUX --queue=ztestpreemp
+#FLUX -t=259200
+#FLUX --urgency=16
 
 singularity exec --bind /datasets:/datasets --bind /staging:/staging --bind /workspaces:/workspaces \
     --nv \

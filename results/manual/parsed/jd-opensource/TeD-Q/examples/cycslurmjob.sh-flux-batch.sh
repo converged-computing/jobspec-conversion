@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=myFirstJob
-#FLUX: -N=2
-#FLUX: --queue=p40
-#FLUX: --urgency=16
+#FLUX --job-name=myFirstJob
+#FLUX -N=2
+#FLUX --queue=p40
+#FLUX --urgency=16
 
 cd /raid/slurm-for-quantum/home/qc01/cyc/TeD-Q/tedq/distributed_worker/
 rank=$(($SLURM_PROCID+1))

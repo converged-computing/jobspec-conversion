@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rnaseq_workflow
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=rnaseq_workflow
+#FLUX --queue=long
+#FLUX -t=432000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 snakemake_module="bbc2/snakemake/snakemake-7.25.0"

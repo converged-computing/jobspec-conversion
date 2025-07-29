@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_kmap
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_kmap
+#SBATCH --output=run_kmap.eo%j
+#SBATCH --error=run_kmap.eo%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
 
 export MPIRUN='Mpirun -np 64'
 

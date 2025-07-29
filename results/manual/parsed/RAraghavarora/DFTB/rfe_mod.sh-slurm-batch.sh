@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=keras_rfe
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=keras_rfe
+#SBATCH --account=p_biomolecules
+#SBATCH --output=rfe/dip.out
+#SBATCH --error=rfe/dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

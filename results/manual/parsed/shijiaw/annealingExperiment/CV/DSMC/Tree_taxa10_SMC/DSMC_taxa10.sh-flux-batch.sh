@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-egg-5828
-#FLUX: -c=2
-#FLUX: -t=86415
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-motorcycle-7688
+#FLUX -c=2
+#FLUX -t=86415
+#FLUX --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

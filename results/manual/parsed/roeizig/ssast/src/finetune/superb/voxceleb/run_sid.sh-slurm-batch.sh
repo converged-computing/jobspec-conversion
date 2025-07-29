@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=s3p-sid
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=s3p-sid
+#SBATCH --output=./log_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --partition=gpu
+#SBATCH --exclude=sls-titan-[0-2]
 
 export TORCH_HOME='.'
 

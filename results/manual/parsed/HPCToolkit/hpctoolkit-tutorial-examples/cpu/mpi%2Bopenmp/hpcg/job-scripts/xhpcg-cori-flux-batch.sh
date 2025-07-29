@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cat-5478
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-kerfuffle-8400
+#FLUX -N=2
+#FLUX -c=8
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 export OMP_WAIT_POLICY='active'

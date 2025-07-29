@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Si
-#FLUX: -n=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Si
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=haswell|broadwell|skylake|cascade
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

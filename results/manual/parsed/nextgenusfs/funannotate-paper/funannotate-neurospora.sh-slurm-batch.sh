@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=funNeuroPred
-#FLUX: -n=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=funNeuroPred
+#SBATCH --output=neurospora_predict.%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=2-00:00:00
 
 module load funannotate/git-live
 module load python/2.7.12

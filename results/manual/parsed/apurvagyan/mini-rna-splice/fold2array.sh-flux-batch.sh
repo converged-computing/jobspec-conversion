@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fold2array
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=fold2array
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load miniconda
 conda activate env_3_8

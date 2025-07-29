@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=NS
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NS
+#SBATCH --output=ns-%j.out
+#SBATCH --error=ns-%j.err
+#SBATCH --mail-user=nathan.nepper@student.ucouvain.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,Tesla
 
 module load Python/3.8.6-GCCcore-10.2.0
 module load root_numpy/4.8.0-foss-2020b-Python-3.8.6

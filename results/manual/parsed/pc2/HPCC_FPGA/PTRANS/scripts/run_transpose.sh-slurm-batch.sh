@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-animal-4437
-#FLUX: -N=5
-#FLUX: -n=9
-#FLUX: --queue=fpga
-#FLUX: --urgency=16
+#SBATCH --nodes=5
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fpga
+#SBATCH --constraint=19.4.0_max
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n/19.4.0_max

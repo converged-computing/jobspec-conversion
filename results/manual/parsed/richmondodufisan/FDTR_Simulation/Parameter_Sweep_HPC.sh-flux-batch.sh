@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-plant-2773
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-milkshake-5564
+#FLUX --urgency=16
 
 module purge
 module use /software/spack_v20d1/spack/share/spack/modules/linux-rhel7-x86_64/

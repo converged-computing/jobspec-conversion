@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=glidein
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=glidein
+#SBATCH --output=/jet/home/briedel/out/%j.out
+#SBATCH --error=/jet/home/briedel/out/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU-shared
 
 printenv
 echo $LOCAL

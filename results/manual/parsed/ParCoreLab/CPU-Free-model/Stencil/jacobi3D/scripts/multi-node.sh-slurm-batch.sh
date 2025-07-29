@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=multi-node-test
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=16
-#FLUX: --queue=palamut-cuda
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=multi-node-test
+#SBATCH --account=proj16
+#SBATCH --output=%x_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=01:00:00
+#SBATCH --partition=palamut-cuda
+#SBATCH --constraint=ntasks-per-node=2
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

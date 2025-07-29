@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=p100_potc_bench
-#FLUX: --exclusive
-#FLUX: --queue=c16g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=p100_potc_bench
+#SBATCH --account=nova0013
+#SBATCH --output=results/p100/log-%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:pascal:2
+#SBATCH --mem=1024M
+#SBATCH --time=01:00:00
+#SBATCH --partition=c16g
+#SBATCH: --exclusive
 
 set -e
 set -u

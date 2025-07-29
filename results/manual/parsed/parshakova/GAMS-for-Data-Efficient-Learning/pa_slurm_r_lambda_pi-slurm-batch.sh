@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tjarray
-#FLUX: -c=2
-#FLUX: --queue=papago
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=tjarray
+#SBATCH --output=/tmp-network/user/tparshak/plambda_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40000
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=papago
+#SBATCH --constraint=gpu_v100
 
 hostname
 srun hostname

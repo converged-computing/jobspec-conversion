@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarking
-#FLUX: -c=4
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmarking
+#SBATCH --output=/home/qbk152/vishal/slurm_logs/slurm-training-%A_%a_%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:titanrtx:1
+#SBATCH --mem=64G
+#SBATCH --time=1-12:00:00
+#SBATCH --array=1-4
 
 pretraining=gassl-resnet50
 datasets=("geobench.m-bigearthnet" "geobench.m-so2sat")

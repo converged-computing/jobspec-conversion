@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parsnip-8078
+#FLUX --job-name=chocolate-hippo-7529
 #FLUX: --exclusive
-#FLUX: --queue=shared,bigmem
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --queue=shared,bigmem
+#FLUX -t=255600
+#FLUX --urgency=16
 
 export SINGULARITYENV_LIBDIR='${PWD}/LIBDIR'
 

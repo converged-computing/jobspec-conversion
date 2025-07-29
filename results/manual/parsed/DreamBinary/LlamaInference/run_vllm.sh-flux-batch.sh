@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-7263
-#FLUX: -N=2
+#FLUX --job-name=reclusive-leopard-8448
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=gpu_4090
-#FLUX: --urgency=16
+#FLUX --queue=gpu_4090
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

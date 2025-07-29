@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=aortic_1
-#FLUX: --queue=willhies,amarsden
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=aortic_1
+#FLUX --queue=willhies,amarsden
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load gcc/8.1.0

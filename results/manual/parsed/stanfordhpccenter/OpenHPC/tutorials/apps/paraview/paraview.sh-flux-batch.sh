@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=paraview-server
-#FLUX: --urgency=16
+#FLUX --job-name=paraview-server
+#FLUX --urgency=16
 
 mkdir -p /opt/ohpc/pub/apps/paraview/src && cd /opt/ohpc/pub/apps/paraview/src
 wget https://www.paraview.org/files/v5.10/ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64.tar.gz

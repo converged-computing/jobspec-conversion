@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-peanut-butter-0736
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=grated-pastry-6148
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 steps=1000000

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-salad-1831
-#FLUX: -c=7
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=1
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1,a40|rtx_6000|2080_ti
+#SBATCH --exclude=calculon,alexa,cortana,bmo,c3po,ripl-s1,t1000,hal,irona,fiona
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

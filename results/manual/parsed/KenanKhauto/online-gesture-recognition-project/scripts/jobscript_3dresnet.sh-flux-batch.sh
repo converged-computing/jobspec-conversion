@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=3dresnet
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=3dresnet
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='/scratch/vihps/vihps14/env/lib/python3.9/site-packages:$PYTHONPATH'
 

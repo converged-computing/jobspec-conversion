@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TrainResnet18
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainResnet18
+#SBATCH --output=job-outputs/resnet_18_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2022

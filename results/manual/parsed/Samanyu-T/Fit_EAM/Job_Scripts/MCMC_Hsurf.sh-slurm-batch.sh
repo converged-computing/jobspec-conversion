@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mcmc_hsurf
-#FLUX: -n=112
-#FLUX: --queue=sapphire
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mcmc_hsurf
+#SBATCH --account=UKAEA-AP002-CPU
+#SBATCH --output=../diag/%x.out
+#SBATCH --error=../diag/%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=112
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=sapphire
 
 export LD_LIBRARY_PATH='$HOME/.conda/envs/pylammps/lib:$LD_LIBRARY_PATH '
 export PATH='$HOME/lammps/src/:$PATH'

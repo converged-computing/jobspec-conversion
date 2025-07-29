@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_test
-#FLUX: --queue=small
-#FLUX: -t=540
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_test
+#SBATCH --output=pytorch_test.output
+#SBATCH --error=pytorch_test.err
+#SBATCH --mail-user=sclaam@leeds.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:09:00
+#SBATCH --partition=small
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$lib_path_of_current_enviroment'
 

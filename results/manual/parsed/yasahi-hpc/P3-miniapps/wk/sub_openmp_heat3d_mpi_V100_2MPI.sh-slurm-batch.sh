@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-motorcycle-4056
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/yasahi-hpc/P3-miniapps/wk/sub_openmp_heat3d_mpi_V100_2MPI.sh

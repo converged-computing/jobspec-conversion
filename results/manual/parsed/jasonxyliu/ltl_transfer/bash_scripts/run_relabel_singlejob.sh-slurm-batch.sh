@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-motorcycle-0913
-#FLUX: -N=3
-#FLUX: -n=144
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --output=sbatch_out/job-%j.out
+#SBATCH --error=sbatch_out/job-%j.err
+#SBATCH --mail-user=xinyu_liu@brown.edu
+#SBATCH --mail-type=BEGIN,END,FAIL,TIME_LIMIT_90
+#SBATCH --nodes=3
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=4-03:00:00
 
 export PYTHONUNBUFFERED='TRUE'
 

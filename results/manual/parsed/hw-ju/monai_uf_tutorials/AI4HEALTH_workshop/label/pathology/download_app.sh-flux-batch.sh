@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pedo-8665
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-hobbit-3989
+#FLUX -t=3600
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

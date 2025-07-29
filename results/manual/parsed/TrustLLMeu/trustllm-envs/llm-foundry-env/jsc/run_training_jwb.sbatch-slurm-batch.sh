@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cupcake-6607
-#FLUX: -c=48
-#FLUX: --queue=develbooster
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=trustllm-eu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --partition=develbooster
+#SBATCH --constraint=ntasks-per-node=1
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

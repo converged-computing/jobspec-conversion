@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_color_jiggle
-#FLUX: --urgency=16
+#SBATCH --job-name=train_color_jiggle
+#SBATCH --output=train_color_jiggle.out
+#SBATCH --error=train_color_jiggle.err
+#SBATCH --mail-user=paul.vantieghemdetenberghe@student.kuleuven.be
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module --force purge
 module use /apps/leuven/${VSC_ARCH_LOCAL}/2021a/modules/all

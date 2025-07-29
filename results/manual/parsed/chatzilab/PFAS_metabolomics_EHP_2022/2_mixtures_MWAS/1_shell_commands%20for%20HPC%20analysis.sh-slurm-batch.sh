@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-milkshake-6812
-#FLUX: --queue=conti
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=conti
 
 export PKG_CONFIG_PATH='/packages/jags/4.3.0/lib/pkgconfig'
 

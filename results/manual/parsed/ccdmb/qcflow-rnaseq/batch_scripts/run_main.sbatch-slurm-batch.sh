@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bits-5634
-#FLUX: -c=2
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=work
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bits-1657
-#FLUX: --queue=pascal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=T2-CS119-GPU
+#SBATCH --output=logs/slurm-%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=pascal
+#SBATCH --array=1-7%1
 
 if [ "$1" == "-h" ]
 then

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemur-4010
-#FLUX: -c=20
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=log/%j-save_activations.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=5G
+#SBATCH --time=03:00:00
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

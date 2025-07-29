@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leopard-9157
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-avocado-9575
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nixpkgs/16.09 intel/2018.3
 module load gatk/4.0.8.1

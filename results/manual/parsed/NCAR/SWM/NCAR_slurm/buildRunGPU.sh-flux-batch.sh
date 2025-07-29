@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SWM
-#FLUX: --queue=dav
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=SWM
+#FLUX --queue=dav
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module load pgi/20.4

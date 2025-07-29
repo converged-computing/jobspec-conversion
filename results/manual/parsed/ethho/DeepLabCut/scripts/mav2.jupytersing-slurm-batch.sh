@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_jupyter_sing
-#FLUX: --queue=gtx
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tvp_jupyter_sing
+#SBATCH --output=jupyter.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gtx
 
 SIMG=/work/06634/eho/singularity_images/deeplabcut_2_1_10.sif
 while getopts "i" opt

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-citrus-6801
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-malarkey-0171
+#FLUX -c=4
+#FLUX --queue=general
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge    
 module load mamba 

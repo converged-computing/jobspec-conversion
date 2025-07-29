@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=weather-gan
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=weather-gan
+#SBATCH --account=tipes
+#SBATCH --output=out/%x-%j.out
+#SBATCH --error=out/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64GB
+#SBATCH --partition=gpu
+#SBATCH --qos=medium
 
 module load singularity
 source /p/system/packages/spack/share/spack/setup-env.sh

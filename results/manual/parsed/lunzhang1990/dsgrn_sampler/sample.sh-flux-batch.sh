@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cinnamonbun-8108
-#FLUX: --queue=main
-#FLUX: -t=280800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-spoon-4260
+#FLUX --queue=main
+#FLUX -t=280800
+#FLUX --urgency=16
 
 cd $PWD
 module load python/3.5.2   intel/17.0.4

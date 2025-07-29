@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=yolo_v8
-#FLUX: --queue=gpu06
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=yolo_v8
+#SBATCH --output=yolo_v8_out.slurm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu06
 
 module purge
 module load intel/14.0.3 mkl/14.0.3 fftw/3.3.6 impi/5.1.2

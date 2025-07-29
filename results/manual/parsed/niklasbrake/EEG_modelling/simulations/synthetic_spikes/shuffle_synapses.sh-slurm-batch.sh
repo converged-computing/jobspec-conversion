@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hope-0189
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=def-akhadra
+#SBATCH --output=simulation.log
+#SBATCH --mail-user=niklas.brake@mail.mcgill.ca
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 module load python/3.8.10
 module load mpi4py

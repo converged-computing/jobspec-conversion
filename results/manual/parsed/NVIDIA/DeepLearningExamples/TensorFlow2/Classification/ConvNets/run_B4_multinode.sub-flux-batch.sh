@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cinnamonbun-4816
+#FLUX --job-name=conspicuous-fork-9976
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"
 readonly checkpointdir="$PWD/B4_mulitnode_AMP/"

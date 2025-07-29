@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_sacct
-#FLUX: -N=4
-#FLUX: -c=14
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=amg2013_sacct
+#SBATCH --account=p_readex
+#SBATCH --output=amg2013_sacct.out
+#SBATCH --error=amg2013_sacct.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --mem=2200M
+#SBATCH --time=02:00:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

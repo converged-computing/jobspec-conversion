@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 INTEL_SDK=21.2.0
 INTEL_BSP=20.4.0

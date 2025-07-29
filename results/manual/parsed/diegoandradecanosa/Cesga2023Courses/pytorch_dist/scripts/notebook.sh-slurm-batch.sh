@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-diablo-8020
-#FLUX: -c=24
-#FLUX: --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
-#FLUX: -t=23400
-#FLUX: --urgency=16
+#SBATCH --mail-user=agomez@cesga.es
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=8GB
+#SBATCH --time=06:30:00
+#SBATCH --partition=cola-corta,thin-shared,thinnodes,gpu-shared-v100
 
 CUDA=
 VERSION=1.0.0

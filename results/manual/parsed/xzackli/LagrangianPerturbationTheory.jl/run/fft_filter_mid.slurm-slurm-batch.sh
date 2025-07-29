@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mid_filter
-#FLUX: -N=16
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mid_filter
+#SBATCH --account=mp107d
+#SBATCH --output=/pscratch/sd/x/xzackli/joboutput/%x.o%j
+#SBATCH --mail-user=zackli@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=01:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu,ntasks-per-node=16
 
 export JULIA_NUM_THREADS='8'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-salad-2323
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/informs11_4ADP25GW.sh

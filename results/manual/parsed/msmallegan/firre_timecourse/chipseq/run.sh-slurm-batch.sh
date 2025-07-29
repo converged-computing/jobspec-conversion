@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=firre_chip
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=firre_chip
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --mail-user=michael.smallegan@colorado.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 pwd; hostname; date
 echo "Nice -- you've requested $SLURM_CPUS_ON_NODE core."

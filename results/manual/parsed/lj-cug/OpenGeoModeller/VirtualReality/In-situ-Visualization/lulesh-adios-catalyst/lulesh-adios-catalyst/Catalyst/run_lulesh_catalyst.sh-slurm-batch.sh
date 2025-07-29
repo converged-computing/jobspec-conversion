@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh+catalyst
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=lulesh+catalyst
+#SBATCH --account=csstaff
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=8,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export VTK_SILENCE_GET_VOID_POINTER_WARNINGS='1'

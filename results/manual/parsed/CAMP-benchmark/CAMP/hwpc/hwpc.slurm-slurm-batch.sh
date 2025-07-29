@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CAMP
-#FLUX: -c=128
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=CAMP
+#SBATCH --account=ta094-wenqingpen
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=00:20:00
+#SBATCH --partition=standard
+#SBATCH --qos=short
 
 export OMP_NUM_THREADS='16'
 export OMP_PROC_BIND='SPREAD'

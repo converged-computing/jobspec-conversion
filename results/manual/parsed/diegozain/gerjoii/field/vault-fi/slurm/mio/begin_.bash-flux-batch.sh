@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-1660
-#FLUX: -c=20
+#FLUX --job-name=muffled-banana-5838
+#FLUX -c=20
 #FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX -t=43140
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

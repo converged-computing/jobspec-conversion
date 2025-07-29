@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lmp.std2
-#FLUX: -N=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp.std2
+#SBATCH --account=hpcapps
+#SBATCH --output=std.out
+#SBATCH --error=std.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export OMP_NUM_THREADS='1'
 

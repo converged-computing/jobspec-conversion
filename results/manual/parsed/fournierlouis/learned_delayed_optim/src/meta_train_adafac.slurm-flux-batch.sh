@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_adafac
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=train_adafac
+#FLUX -c=8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 cd /gpfswork/rech/bao/unl88dr/learned_delayed_optim/

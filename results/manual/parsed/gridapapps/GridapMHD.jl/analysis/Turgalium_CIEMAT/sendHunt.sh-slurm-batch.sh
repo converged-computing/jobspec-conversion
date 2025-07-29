@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Hunt_mumps_500
-#FLUX: --queue=cpu36c
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Hunt_mumps_500
+#SBATCH --output=outputHunt_Ha500_mumps_n1
+#SBATCH --error=errorHunt_Ha500_mumps_n1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=20:00:00
+#SBATCH --partition=cpu36c
+#SBATCH --constraint=ntasks-per-node=1
 
 SLURM_NPROCS=`expr $SLURM_JOB_NUM_NODES \* $SLURM_NTASKS_PER_NODE`
 srun hostname -s > hosts.$SLURM_JOB_ID

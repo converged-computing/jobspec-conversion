@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gem5-bfs-biprp
-#FLUX: -n=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=gem5-bfs-biprp
+#SBATCH --output=%j-gem5bfs.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=4-00:00:00
 
 echo "Running gem5 command..."
 date

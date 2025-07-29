@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-2706
-#FLUX: -t=244800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-20:00:00
 
 export SCRAM_ARCH='slc7_amd64_gcc900'
 

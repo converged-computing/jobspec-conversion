@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trmps
-#FLUX: -n=10
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=trmps
+#FLUX -n=10
+#FLUX --queue=tesla
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CUDA_HOME='$CUDA_INSTALL_PATH'
 export OMP_NUM_THREADS='1'

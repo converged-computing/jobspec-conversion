@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eval_llm
-#FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_llm
+#SBATCH --output=/mnt/home/f08944064/lighteval/logs/%x-%j.out
+#SBATCH --error=/mnt/home/f08944064/lighteval/logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=defq
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export PROGRAM='\'
 export CMD='$LAUNCHER $PROGRAM'

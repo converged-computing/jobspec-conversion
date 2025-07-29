@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cal_face
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=cal_face
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 nvidia-smi
 nvidia-smi -q |grep -i serial

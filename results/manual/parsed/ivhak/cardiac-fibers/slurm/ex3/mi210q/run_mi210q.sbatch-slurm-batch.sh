@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cardiac-fibers
-#FLUX: --exclusive
-#FLUX: --queue=mi210q
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cardiac-fibers
+#SBATCH --output=jobs/%x-%j.out
+#SBATCH --error=jobs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=rsmi:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=mi210q
+#SBATCH: --exclusive
 
 export SLURM_CPU_BIND='verbose'
 

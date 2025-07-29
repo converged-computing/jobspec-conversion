@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Moons (ECCCo)
-#FLUX: -n=30
-#FLUX: -c=10
-#FLUX: --queue=compute
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=Moons (ECCCo)
+#SBATCH --account=research-eemcs-insy
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=2GB
+#SBATCH --time=01:30:00
+#SBATCH --partition=compute
 
 module load 2023r1 openmpi
 source experiments/slurm_header.sh

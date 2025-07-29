@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leopard-9029
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=m2755
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 export PATH='${CONDA_ROOT}/bin:$PATH'
 export MODPATH='`realpath .`'

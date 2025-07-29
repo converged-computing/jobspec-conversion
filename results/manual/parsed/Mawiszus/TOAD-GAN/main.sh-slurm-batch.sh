@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=toadgan
-#FLUX: -n=5
-#FLUX: -c=2
-#FLUX: --queue=gpu_cluster_enife
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=toadgan
+#SBATCH --output=slurm-%j-out.txt
+#SBATCH --mail-user=schubert@tnt.uni-hannover.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:5
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_cluster_enife
 
 cd /home/schubert/projects/TOAD-GAN
 source /home/schubert/miniconda3/tmp/bin/activate toadgan

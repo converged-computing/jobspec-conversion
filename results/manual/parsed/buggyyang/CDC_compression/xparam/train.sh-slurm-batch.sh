@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=d_eori
-#FLUX: -c=5
-#FLUX: --queue=ava_m.p
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=d_eori
+#SBATCH --output=logs/job_%j.log
+#SBATCH --mail-user=ruihan.yang@uci.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ava_m.p
+#SBATCH --array=0
+#SBATCH --exclude=ava-m4
 
 pairs=("l2 cosine")
 item=${pairs[$SLURM_ARRAY_TASK_ID]}

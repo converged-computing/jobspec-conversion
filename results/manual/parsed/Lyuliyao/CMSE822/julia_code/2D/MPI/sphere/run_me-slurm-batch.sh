@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lemon-0416
-#FLUX: -n=32
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=[amd20]
 
 ml AOCC/2.2.0 
 ml OpenMPI

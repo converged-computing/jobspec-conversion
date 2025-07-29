@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bert-squad-finetune
-#FLUX: -N=8
-#FLUX: -c=12
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=bert-squad-finetune
+#SBATCH --account=<account>
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

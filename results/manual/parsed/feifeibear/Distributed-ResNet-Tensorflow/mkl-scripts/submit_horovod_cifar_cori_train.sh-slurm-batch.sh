@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_horovod
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_horovod
+#SBATCH --output=horovod_cifar.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
+#SBATCH --licenses=SCRATCH
 
 export KMP_BLOCKTIME='1'
 export KMP_SETTINGS='1'

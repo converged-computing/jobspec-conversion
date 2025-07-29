@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gwas
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=gwas
+#SBATCH --account=p697_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=06:00:00
+#SBATCH --array=1,2,3
 
 export COMORMENT='/cluster/projects/p697/github/comorment'
 export SINGULARITY_BIND='$COMORMENT/containers/reference:/REF:ro'

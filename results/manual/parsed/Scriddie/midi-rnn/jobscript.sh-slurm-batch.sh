@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=acml2
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=acml2
+#SBATCH --output=output_%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
 
 cd $HOME/midi-rnn/
 module switch intel gcc

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-7686
-#FLUX: -c=6
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lentil-5285
+#FLUX -c=6
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load StdEnv/2020 python/3.7 cuda cudnn
 SOURCEDIR=/home/shibin2/projects/def-janehowe/shared_2022

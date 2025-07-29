@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-destiny-1873
-#FLUX: -c=8
-#FLUX: --queue=pi_cryoem,scavenge
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:24:00
+#SBATCH --partition=pi_cryoem,scavenge
 
 module load NAMD/2.13-multicore-CUDA
 namd2 +idlepoll +ppn $SLURM_CPUS_ON_NODE stmv.namd 

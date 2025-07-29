@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=ihuman_emt_a549_1
-#FLUX: -c=16
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ihuman_emt_a549_1
+#SBATCH --account=lsa1
+#SBATCH --output=./ihuman_bulk_output.log
+#SBATCH --error=./ihuman_bulk_error.err
+#SBATCH --mail-user=scampit@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1g
+#SBATCH --time=05:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --licenses=gurobi@slurmdb:8
 
 module load matlab/R2020a
 module load gurobi

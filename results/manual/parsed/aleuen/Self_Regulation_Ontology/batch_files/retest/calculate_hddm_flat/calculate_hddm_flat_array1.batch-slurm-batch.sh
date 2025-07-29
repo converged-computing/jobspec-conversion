@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=hddm_flat
-#FLUX: -c=4
-#FLUX: --queue=russpold
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=hddm_flat
+#SBATCH --output=/oak/stanford/groups/russpold/users/ieisenbe/Self_Regulation_Ontology/behavioral_data/mturk_retest_output/hddm_flat/.out/%A-%a.out
+#SBATCH --error=/oak/stanford/groups/russpold/users/ieisenbe/Self_Regulation_Ontology/behavioral_data/mturk_retest_output/hddm_flat/.err/%A-%a.err
+#SBATCH --mail-user=zenkavi@stanford.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=russpold
+#SBATCH --qos=russpold
+#SBATCH --array=1-900%10
 
 source /home/zenkavi/.bash_profile
 source activate SRO

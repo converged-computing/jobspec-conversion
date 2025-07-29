@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=collatz
-#FLUX: --queue=standard-g
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=collatz
+#SBATCH --account=project_465000586
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --mem=4G
+#SBATCH --time=03:00:00
+#SBATCH --partition=standard-g
+#SBATCH --array=1-10
 
 export POCL_CACHE_DIR='${TMPDIR}/kcache'
 export LANG='C'

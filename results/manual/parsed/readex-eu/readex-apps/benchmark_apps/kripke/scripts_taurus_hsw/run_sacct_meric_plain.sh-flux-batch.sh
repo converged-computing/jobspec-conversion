@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kripke_sacct
+#FLUX --job-name=kripke_sacct
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_FREQUENCY='0'

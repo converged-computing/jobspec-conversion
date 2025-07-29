@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=iit_test
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iit_test
+#SBATCH --account=def-dkulic
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=jf2lin@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000
+#SBATCH --time=1-00:00:00
 
 LD_PRELOAD=/usr/lib64/libstdc++.so.6
 module load nixpkgs

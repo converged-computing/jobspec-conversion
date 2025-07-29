@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=par_pi_job
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=par_pi_job
+#FLUX -t=1800
+#FLUX --urgency=16
 
 darts=(1e3 1e6 1e9)
 processors=(1 2 4 8 16 32)

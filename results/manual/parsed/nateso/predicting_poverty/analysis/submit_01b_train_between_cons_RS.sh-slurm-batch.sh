@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=01b_cons_RS_between
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=01b_cons_RS_between
+#SBATCH --output=./results/slurm_files/slurm_01b_between_cons_RS.out
+#SBATCH --error=./results/slurm_files/slurm_01b_between_cons_RS.err
+#SBATCH --mail-user=nschmid5@uni-goettingen.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=scratch
 
 module load anaconda3
 module load cuda

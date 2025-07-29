@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crossmap
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crossmap
+#FLUX -t=86400
+#FLUX --urgency=16
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bcftools

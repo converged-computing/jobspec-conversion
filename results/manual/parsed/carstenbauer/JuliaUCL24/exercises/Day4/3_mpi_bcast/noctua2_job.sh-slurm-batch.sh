@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_bcast
-#FLUX: -N=16
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_bcast
+#SBATCH --account=hpc-lco-usrtr
+#SBATCH --output=mpi_bcast_job-%A.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 export SLURM_EXPORT_ENV='ALL'

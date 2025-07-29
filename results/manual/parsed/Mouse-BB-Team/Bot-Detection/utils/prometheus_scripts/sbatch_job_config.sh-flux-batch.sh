@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-9402
-#FLUX: --queue=plgrid-gpu
-#FLUX: -t=93600
-#FLUX: --urgency=16
+#FLUX --job-name=blue-pot-9631
+#FLUX --queue=plgrid-gpu
+#FLUX -t=93600
+#FLUX --urgency=16
 
 module add plgrid/tools/python/3.8
 module add plgrid/libs/tensorflow-gpu/2.3.1-python-3.8

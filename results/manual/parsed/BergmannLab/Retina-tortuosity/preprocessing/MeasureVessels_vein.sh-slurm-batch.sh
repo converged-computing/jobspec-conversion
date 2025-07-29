@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MeasureVessels
-#FLUX: --queue=normal
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=MeasureVessels
+#SBATCH --account=sbergman_retina
+#SBATCH --output=helpers/MeasureVessels/slurm_runs_vein/slurm-%x_%j.out
+#SBATCH --error=helpers/MeasureVessels/slurm_runs_vein/slurm-%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=03:30:00
+#SBATCH --partition=normal
+#SBATCH --array=1-582
 
 export MCR_CACHE_ROOT='$mcr_cache_root'
 

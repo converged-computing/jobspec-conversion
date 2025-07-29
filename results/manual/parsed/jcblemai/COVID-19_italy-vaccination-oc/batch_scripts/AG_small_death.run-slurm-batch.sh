@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-general-7715
-#FLUX: -c=36
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=180G
+#SBATCH --time=7-00:00:00
+#SBATCH --qos=week
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0,1,6,7
 
 export MDL_DAYS='30'
 export MDL_NNODES='107'

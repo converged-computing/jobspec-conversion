@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-muffin-0014
-#FLUX: -N=2
-#FLUX: -n=96
-#FLUX: --queue=huce_cascade
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=180000
+#SBATCH --time=00:20:00
+#SBATCH --partition=huce_cascade
 
 multirunlog="multirun.log"
 cancel_all_jobs()

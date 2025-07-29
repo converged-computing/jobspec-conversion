@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ARTMS
-#FLUX: --queue=regular
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ARTMS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 module load python
 mamba env create -n Titania -f envs/Titania.yaml

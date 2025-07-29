@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-0474
-#FLUX: -c=20
-#FLUX: --queue=eap
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_462000119
+#SBATCH --output=logs/install_apex.out
+#SBATCH --error=logs/install_apex.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:mi250:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=eap
 
 for p in venv apex; do
     if [ -e "$p" ]; then

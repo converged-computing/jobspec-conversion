@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pbn-supcon
-#FLUX: --queue=nvidia_long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pbn-supcon
+#SBATCH --output=/scratch/lerdl/lucas.david/afhp/experiments/logs/%j-pbn-ce.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=nvidia_long
+#SBATCH --constraint=ntasks-per-node=24
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 if [[ "`hostname`" == "sdumont"* ]]; then

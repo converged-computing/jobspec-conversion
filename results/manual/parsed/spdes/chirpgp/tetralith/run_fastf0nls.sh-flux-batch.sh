@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-soup-8571
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-peanut-4216
+#FLUX -t=3000
+#FLUX --urgency=16
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

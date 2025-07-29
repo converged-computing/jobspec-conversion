@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemon-7875
-#FLUX: -c=16
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=red-cupcake-5482
+#FLUX -c=16
+#FLUX --queue=boost_usr_prod
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export WORLD_SIZE='$((GPUS_PER_NODE * SLURM_NNODES))'

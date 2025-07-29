@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=arx-quiver
-#FLUX: -c=56
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=arx-quiver
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=56
+#SBATCH --gres=4
+#SBATCH --mem=100G
+#SBATCH --time=00:25:00
+#SBATCH --partition=gpu-preempt
+#SBATCH --constraint=intel8480
 
 nvidia-smi --query-gpu=gpu_name --format=csv,noheader
 nvidia-smi topo -m

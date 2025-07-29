@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-8040
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=project_2000599
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10G
+#SBATCH --time=00:20:00
+#SBATCH --partition=small
 
 module load geoconda
 python csc_stac_example.py

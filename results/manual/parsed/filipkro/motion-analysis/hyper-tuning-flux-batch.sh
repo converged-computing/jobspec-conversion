@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-banana-1030
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=confused-general-4498
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=36000
+#FLUX --urgency=16
 
 data_set="data_"$1".npz"
 classifier=$1

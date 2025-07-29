@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bits-8269
-#FLUX: -n=24
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lamp-5663
+#FLUX -n=24
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

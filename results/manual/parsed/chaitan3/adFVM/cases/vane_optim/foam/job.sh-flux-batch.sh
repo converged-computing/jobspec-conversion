@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-fork-0131
-#FLUX: -N=16
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-leader-2201
+#FLUX -N=16
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/sources/petsc/arch-linux2-c-opt/lib'
 export PYTHONPATH='$HOME/.local/lib/python.7/site-packages/:$PYTHONPATH'

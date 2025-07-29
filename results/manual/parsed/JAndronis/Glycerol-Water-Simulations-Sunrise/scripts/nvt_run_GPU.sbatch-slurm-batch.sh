@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NVT_equilibration
-#FLUX: -c=24
-#FLUX: --queue=ampere
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=NVT_equilibration
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=ampere
 
 export GMX_ENABLE_DIRECT_GPU_COMM='1'
 export OMP_NUM_THREADS='$ntomp'

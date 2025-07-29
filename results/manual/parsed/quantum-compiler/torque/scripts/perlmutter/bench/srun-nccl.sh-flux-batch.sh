@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kitty-4720
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-eagle-3713
+#FLUX -N=2
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

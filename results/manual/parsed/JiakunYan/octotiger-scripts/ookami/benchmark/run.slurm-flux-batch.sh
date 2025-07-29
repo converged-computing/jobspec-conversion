@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-malarkey-2911
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=faux-spoon-3379
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge
 module load octotiger

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-nunchucks-5761
-#FLUX: -c=40
-#FLUX: --queue=smp7
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=GODEEEP
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=smp7
 
 echo 'Loading modules'
 module load python/miniconda3.9

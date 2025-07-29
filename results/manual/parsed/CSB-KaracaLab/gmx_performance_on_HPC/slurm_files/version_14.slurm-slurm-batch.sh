@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=64_threads
-#FLUX: -n=40
-#FLUX: --queue=akya-cuda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=64_threads
+#SBATCH --account=bsavas
+#SBATCH --output=DNMT3a-%j.out
+#SBATCH --error=DNMT3a-%j.err
+#SBATCH --mail-user=buusrasavas@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=akya-cuda
 
 export OMP_NUM_THREADS='64'
 

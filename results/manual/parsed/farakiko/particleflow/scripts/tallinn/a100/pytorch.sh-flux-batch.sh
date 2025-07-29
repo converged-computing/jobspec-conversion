@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-house-9447
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-noodle-1615
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 cd ~/particleflow

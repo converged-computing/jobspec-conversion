@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-train-3903
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=placid-lentil-7508
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/multilabel_bert/svregisters/lstm/transformer-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export TRAIN_DIR='junkdata/$SRC'

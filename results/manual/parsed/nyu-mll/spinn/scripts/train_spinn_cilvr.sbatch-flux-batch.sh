@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lizard-0608
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-puppy-4341
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export IFS=';'
 

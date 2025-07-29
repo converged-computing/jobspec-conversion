@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-8231
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-parsnip-5120
+#FLUX --urgency=16
 

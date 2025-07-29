@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WS2
-#FLUX: -N=4
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=WS2
+#FLUX -N=4
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

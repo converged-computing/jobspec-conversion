@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-sundae-1798
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#SBATCH --output=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=1-12:30:00
 
 sbcmd="sbatch --ntasks=1 --cpus-per-task={threads} --mem={resources.mem_mb}"
 sbcmd+=" --time={resources.runtime} --output=[Working Iliad Directory]/logs/{rule}.{wildcards}.o"

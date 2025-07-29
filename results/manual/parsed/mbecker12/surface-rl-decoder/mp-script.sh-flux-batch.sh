@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=qec-test
-#FLUX: --queue=alvis
-#FLUX: -t=43800
-#FLUX: --urgency=16
+#FLUX --job-name=qec-test
+#FLUX --queue=alvis
+#FLUX -t=43800
+#FLUX --urgency=16
 
 IMAGE_WORKDIR=/surface-rl-decoder
 CLUSTER_WORKDIR=surface-rl-decoder

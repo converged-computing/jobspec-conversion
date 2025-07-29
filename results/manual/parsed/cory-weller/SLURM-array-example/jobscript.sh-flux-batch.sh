@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-snack-7132
-#FLUX: --queue=norm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-knife-6389
+#FLUX --queue=norm
+#FLUX -t=7200
+#FLUX --urgency=16
 
 PARAMETER_FILE='sample_ids.txt'
 BWA_INDEX='path/to/index_base'

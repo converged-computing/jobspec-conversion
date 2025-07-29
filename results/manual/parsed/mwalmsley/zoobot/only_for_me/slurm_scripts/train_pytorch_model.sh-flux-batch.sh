@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -c=24
+#FLUX --job-name=pytorch
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX -t=82800
+#FLUX --urgency=16
 
 export WANDB_CACHE_DIR='/share/nas2/walml/WANDB_CACHE_DIR'
 

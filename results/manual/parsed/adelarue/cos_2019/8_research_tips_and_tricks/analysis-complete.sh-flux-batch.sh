@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-diablo-7928
-#FLUX: --queue=sched_mit_sloan_batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=phat-taco-3054
+#FLUX --queue=sched_mit_sloan_batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load sloan/julia/1.0.0
 module load sloan/python/modules/2.7

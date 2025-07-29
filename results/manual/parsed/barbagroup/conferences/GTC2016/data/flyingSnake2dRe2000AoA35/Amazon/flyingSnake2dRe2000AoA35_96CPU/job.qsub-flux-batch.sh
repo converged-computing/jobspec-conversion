@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PetAmgX-flyingSnake2dRe2000AoA35-atol1e-5-Amazon-96CPU
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=PetAmgX-flyingSnake2dRe2000AoA35-atol1e-5-Amazon-96CPU
+#FLUX -N=8
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 export PETIBM_DIR='/shared/petibm-amgx'
 

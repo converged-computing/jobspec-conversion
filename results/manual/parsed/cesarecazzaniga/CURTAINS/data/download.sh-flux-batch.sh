@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=download
-#FLUX: --queue=shared-cpu,private-dpnc-cpu,public-cpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=download
+#FLUX --queue=shared-cpu,private-dpnc-cpu,public-cpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

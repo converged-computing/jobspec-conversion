@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pleioFDR
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=pleioFDR
+#SBATCH --account=nn9114k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=3828M
+#SBATCH --time=06:00:00
 
 module purge
 module load MATLAB/2019a

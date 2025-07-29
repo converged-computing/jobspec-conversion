@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=omp_photon
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=omp_photon
+#SBATCH --output=log.ob.slurm-%A_%a.out
+#SBATCH --error=err.ob.slurm-%A_%a.out
+#SBATCH --mail-user=j.schenke@hzdr.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --mem=150000
+#SBATCH --time=05:00:00
+#SBATCH --partition=defq
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 export CC='icc'

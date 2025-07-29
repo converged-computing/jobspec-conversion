@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-car-7998
-#FLUX: --queue=LocalQ
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=LocalQ
 
 module load rocm
 cd $HOME/HPCTrainingExamples/HIP/vectorAdd

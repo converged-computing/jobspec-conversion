@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lamp-0202
-#FLUX: --queue=alpha
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-chair-2243
+#FLUX --queue=alpha
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export taurus='0'
 export train='0'

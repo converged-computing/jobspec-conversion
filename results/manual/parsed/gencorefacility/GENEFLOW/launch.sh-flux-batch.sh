@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-9923
-#FLUX: -c=6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-ricecake-1023
+#FLUX -c=6
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load nextflow/23.04.1

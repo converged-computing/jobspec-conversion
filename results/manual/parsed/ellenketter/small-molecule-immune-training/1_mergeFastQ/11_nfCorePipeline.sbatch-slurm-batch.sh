@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nfcore
-#FLUX: -n=10
-#FLUX: --queue=lbarreiro
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=nfcore
+#SBATCH --account=pi-lbarreiro
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lbarreiro
 
 export PATH='$PATH:/project/lbarreiro/USERS/ellen/programs/FastQC/'
 

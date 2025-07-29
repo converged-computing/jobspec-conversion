@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=contamination
-#FLUX: --queue=bonobo
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=contamination
+#SBATCH --output=slurm-%j-%N-%u.out
+#SBATCH --error=slurm-%J-%N-%u.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=bonobo
 
 ref=/mnt/NEOGENE3/share/ref/genomes/hsa/hs37d5.fa
 bwa=/usr/local/sw/bwa-0.7.15/bwa

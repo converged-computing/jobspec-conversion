@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-train-3125
-#FLUX: -c=20
-#FLUX: -t=480000
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-nalgas-9375
+#FLUX -c=20
+#FLUX -t=480000
+#FLUX --urgency=16
 
 export HOME='/om2/user/dapello/'
 

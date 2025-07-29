@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hydra_resnet20s_CIFAR10_separate_seed
-#FLUX: -c=4
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=hydra_resnet20s_CIFAR10_separate_seed
+#FLUX -c=4
+#FLUX -t=4800
+#FLUX --urgency=16
 
 export PATH='$PATH:$HOME/anaconda3/bin'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=07_FST_by_group
-#FLUX: -c=6
-#FLUX: --queue=large
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#SBATCH --job-name=07_FST_by_group
+#SBATCH --output=log_%j
+#SBATCH --mail-user=YOURMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=50G
+#SBATCH --time=21-00:00:00
+#SBATCH --partition=large
 
 NB_CPU=6 #change accordingly in SLURM header
 NSITES=500000 #to make realSFS goes faster -reduce the number of sites considered

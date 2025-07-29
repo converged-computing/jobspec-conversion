@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s-260-3000
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=s-260-3000
+#FLUX -c=7
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load cudatoolkit/10.0

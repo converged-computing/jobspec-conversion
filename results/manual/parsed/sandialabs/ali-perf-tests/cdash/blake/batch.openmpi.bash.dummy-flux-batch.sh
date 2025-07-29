@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ali-perf
-#FLUX: -N=4
+#FLUX --job-name=ali-perf
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX -t=3540
+#FLUX --urgency=16
 
                                       #            short: 4hrs wallclock limit
                                       #            batch: nodes reserved for > 4hrs (default)

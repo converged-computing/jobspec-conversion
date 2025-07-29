@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=transfer_base
-#FLUX: -c=2
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=transfer_base
+#SBATCH --output=out/transfer/transfer_%A_%a.out
+#SBATCH --error=out/transfer/transfer_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=600GB
+#SBATCH --time=00:12:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-119%15
 
 source ~/.bashrc
 conda activate curvature

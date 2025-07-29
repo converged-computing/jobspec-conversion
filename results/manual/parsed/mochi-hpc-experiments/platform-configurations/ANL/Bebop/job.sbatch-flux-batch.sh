@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hippo-7962
-#FLUX: -N=4
-#FLUX: --queue=bdwall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-signal-4904
+#FLUX -N=4
+#FLUX --queue=bdwall
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PSM2_MULTI_EP='1 # prevents conflict with MPI using PSM2'
 export FI_PSM2_DISCONNECT='1 # enables reconnection'

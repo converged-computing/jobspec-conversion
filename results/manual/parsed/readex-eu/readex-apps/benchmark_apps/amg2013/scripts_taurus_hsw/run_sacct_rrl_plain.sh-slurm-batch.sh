@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_sacct
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=amg2013_sacct
+#SBATCH --account=p_readex
+#SBATCH --output=amg2013_sacct.out
+#SBATCH --error=amg2013_sacct.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=2500M
+#SBATCH --time=02:00:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='12'
 export SCOREP_ENABLE_PROFILING='false'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MPI-singlenode
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI-singlenode
+#SBATCH --account=CSC380
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
 
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'
 export PE_MPICH_GTL_LIBS_amd_gfx90a='-lmpi_gtl_hsa'

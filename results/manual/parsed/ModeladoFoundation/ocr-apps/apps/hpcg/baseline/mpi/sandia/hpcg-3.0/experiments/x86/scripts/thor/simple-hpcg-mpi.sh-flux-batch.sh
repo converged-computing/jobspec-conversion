@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-house-0975
-#FLUX: --queue=XAS
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-avocado-3594
+#FLUX --queue=XAS
+#FLUX --urgency=16
 
 export I_MPI_DEBUG='3'
 export NODEFILE='$runhm/hfile.txt.$$'

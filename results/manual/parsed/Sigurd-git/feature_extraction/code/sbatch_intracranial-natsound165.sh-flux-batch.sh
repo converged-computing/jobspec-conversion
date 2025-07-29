@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-banana-1527
-#FLUX: -c=8
-#FLUX: --queue=doppelbock
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-mango-5269
+#FLUX -c=8
+#FLUX --queue=doppelbock
+#FLUX -t=14400
+#FLUX --urgency=16
 
 project='intracranial-natsound165'
 non_list=(modulus real rect)

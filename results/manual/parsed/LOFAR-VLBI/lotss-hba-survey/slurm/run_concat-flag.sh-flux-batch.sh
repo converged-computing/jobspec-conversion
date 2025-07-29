@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-latke-6225
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-salad-4864
+#FLUX -c=32
+#FLUX --queue=normal
+#FLUX -t=460800
+#FLUX --urgency=16
 
 export VLBIDIR='${SOFTWAREDIR}/VLBI-cwl'
 export LINCDIR='${SOFTWAREDIR}/LINC'

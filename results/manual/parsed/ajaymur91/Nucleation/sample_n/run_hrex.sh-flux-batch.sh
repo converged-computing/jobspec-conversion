@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nucl_hrex
-#FLUX: --queue=yethiraj
-#FLUX: --urgency=16
+#FLUX --job-name=nucl_hrex
+#FLUX --queue=yethiraj
+#FLUX --urgency=16
 
 export spack_root='/home/ajay/software/spack'
 export GMX_MAXBACKUP='-1'

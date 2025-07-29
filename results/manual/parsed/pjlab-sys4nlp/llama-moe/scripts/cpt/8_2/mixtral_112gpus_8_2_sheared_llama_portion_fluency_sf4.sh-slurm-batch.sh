@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mixtral_random_split_112gpus_8_2
-#FLUX: -N=14
-#FLUX: -c=26
-#FLUX: --queue=MoE_T
-#FLUX: --urgency=16
+#SBATCH --job-name=mixtral_random_split_112gpus_8_2
+#SBATCH --output=/mnt/petrelfs/share_data/zhutong/runs/mixtral_random_split_112gpus_8_2/%x-%j.log
+#SBATCH --error=/mnt/petrelfs/share_data/zhutong/runs/mixtral_random_split_112gpus_8_2/%x-%j.log
+#SBATCH --nodes=14
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=26
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=MoE_T
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/anaconda3/bin/activate smoe
 {

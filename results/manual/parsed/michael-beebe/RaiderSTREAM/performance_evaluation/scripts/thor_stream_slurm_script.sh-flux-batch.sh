@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_MULTI_TESTING
-#FLUX: -N=2
-#FLUX: --queue=thor
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_MULTI_TESTING
+#FLUX -N=2
+#FLUX --queue=thor
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export STREAM_ARRAY_SIZE='22000000'
 export OMP_NUM_THREADS='1   # 16 cores per socket'

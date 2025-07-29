@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bits-4693
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-avocado-9641
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_lsofs_aws_00.pbs

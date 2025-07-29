@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-1908
-#FLUX: --queue=seas_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=faux-cherry-3866
+#FLUX --queue=seas_gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set -x
 module load Anaconda3/2020.11

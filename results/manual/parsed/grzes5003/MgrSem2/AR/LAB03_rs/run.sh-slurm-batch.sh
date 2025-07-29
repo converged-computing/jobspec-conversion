@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MPI_AR_LAB04_GK
-#FLUX: --queue=plgrid
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI_AR_LAB04_GK
+#SBATCH --account=plgar2022-cpu
+#SBATCH --output=output.out
+#SBATCH --error=error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --partition=plgrid
+#SBATCH --constraint=ntasks-per-node=12
 
 if [ -z "$SCRIPT" ]; then
   TODAY=$(date +"%d_%H_%M")

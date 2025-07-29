@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-soup-5578
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-plant-5643
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 module purge
 module load shared

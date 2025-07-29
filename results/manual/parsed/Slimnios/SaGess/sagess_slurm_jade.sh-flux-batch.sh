@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-3801
-#FLUX: -c=24
-#FLUX: --queue=small
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-butter-4064
+#FLUX -c=24
+#FLUX --queue=small
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$SLURM_JOB_GPUS'
 

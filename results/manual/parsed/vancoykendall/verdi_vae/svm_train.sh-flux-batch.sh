@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-car-4641
-#FLUX: -c=5
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-rabbit-3626
+#FLUX -c=5
+#FLUX --urgency=16
 
 echo test1
 module load anaconda/2020b

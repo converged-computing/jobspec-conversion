@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bicycle-9631
-#FLUX: --queue=maxwell
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=hello-sundae-6802
+#FLUX --queue=maxwell
+#FLUX -t=180
+#FLUX --urgency=16
 
 PORT_NUM=8888
 echo "This job will run a Jupyter notebook from within a Singularity image"

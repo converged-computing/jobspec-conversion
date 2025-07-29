@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_resnet
-#FLUX: -c=6
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune_resnet
+#SBATCH --account=ganzha_23
+#SBATCH --output=/home2/faculty/wjakubowski/logs/resnet/resnet_aug.log
+#SBATCH --mail-user=wiktor.jakubowski.stud@pw.edu.pl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=150G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 . /home2/faculty/wjakubowski/miniconda3/etc/profile.d/conda.sh
 conda activate cnn

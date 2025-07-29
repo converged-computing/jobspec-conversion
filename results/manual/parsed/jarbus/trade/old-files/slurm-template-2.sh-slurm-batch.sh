@@ -1,11 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=runs/${JOB_NAME}
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=guest-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=runs/${JOB_NAME}
+#SBATCH --account=guest
+#SBATCH --output=runs/${JOB_NAME}.log
+#SBATCH --mail-user=garbus@brandeis.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:TitanX:8
+#SBATCH --mem=1GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=guest-gpu
+#SBATCH --qos=low-gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/garbus/.bashrc
 conda activate trade

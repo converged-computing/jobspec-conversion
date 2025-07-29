@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-caramel-7320
-#FLUX: -n=30
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=200gb
+#SBATCH --partition=panda
 
 PREFIX="/athena/ihlab/scratch/lam4003/microbiome_reads/${1}_bsort"
 spack load gcc@6.3.0

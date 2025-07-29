@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=PTQ
-#FLUX: --queue=nv-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=PTQ
+#SBATCH --output=ret/ret-%j.out
+#SBATCH --error=ret/ret-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=nv-gpu
+#SBATCH --qos=gpu-long
+#SBATCH --constraint=Ampere|RTX8000
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

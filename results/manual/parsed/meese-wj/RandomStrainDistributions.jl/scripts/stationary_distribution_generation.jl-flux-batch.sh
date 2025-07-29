@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=g_3e-2
-#FLUX: -c=16
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=g_3e-2
+#FLUX -c=16
+#FLUX -t=18000
+#FLUX --urgency=16
 
     pwd
     module swap julia julia/1.8.0

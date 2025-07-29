@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=arrayjob-readline
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=arrayjob-readline
+#SBATCH --output=%x-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-35
 
 module load python/3.9.0
 module load gcc/10.2

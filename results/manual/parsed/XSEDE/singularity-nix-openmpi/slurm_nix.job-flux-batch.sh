@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-sundae-7056
-#FLUX: -n=4
-#FLUX: --queue=cloud
-#FLUX: --urgency=16
+#FLUX --job-name=salted-lentil-4321
+#FLUX -n=4
+#FLUX --queue=cloud
+#FLUX --urgency=16
 
 export MPI_MCA_mca_base_component_show_load_errors='0'
 export PMIX_MCA_mca_base_component_show_load_errors='0'

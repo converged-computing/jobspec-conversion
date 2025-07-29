@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mts-arr
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mts-arr
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
 
 export PYTHONPATH='${PYTHONPATH}:/home/tallam/astronet/'
 

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cpah
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gpu_short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cpah
+#SBATCH --output=/home/users/m/mikriukov/projects/cpah/out_gpu_short.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_short
 
 echo "Loading venv..."
 source /home/users/m/mikriukov/venvs/DADH/bin/activate

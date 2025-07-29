@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=raven
-#FLUX: -c=12
-#FLUX: --queue=learnai4rl
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=raven
+#FLUX -c=12
+#FLUX --queue=learnai4rl
+#FLUX -t=0
+#FLUX --urgency=16
 
 srun python raven/test.py \
     data.modality=video \

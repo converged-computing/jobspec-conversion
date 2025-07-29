@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=validate
-#FLUX: -n=36
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=validate
+#FLUX -n=36
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

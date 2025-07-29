@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cherry-3670
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --mail-user=aming@ece.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24gb
+#SBATCH --array=1-10%1
 
 ws=${TRAIN_HOME}
 SCRATCH=$ws

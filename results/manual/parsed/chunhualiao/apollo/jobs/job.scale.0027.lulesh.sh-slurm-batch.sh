@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=APOLLO:SCALE.27.lulesh
-#FLUX: -N=2
-#FLUX: -n=31
-#FLUX: --exclusive
-#FLUX: --queue=pbatch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=APOLLO:SCALE.27.lulesh
+#SBATCH --account=asccasc
+#SBATCH --mail-user=wood67@llnl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=31
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=pbatch
+#SBATCH: --exclusive
 
 export EXPERIMENT_JOB_TITLE='SCALE.0027.lulesh'
 export EXPERIMENT_BASE='/p/lustre2/wood67/experiments/apollo'

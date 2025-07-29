@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=geant4_test
-#FLUX: -N=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=geant4_test
+#SBATCH --account=nn9464k
+#SBATCH --output=grid.%j.out
+#SBATCH --error=grid.%j.err
+#SBATCH --mail-user=fabio.zeiser@fys.uio.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=devel
+#SBATCH --constraint=ntasks-per-node=32
 
 export LAUNCHER_DIR='/cluster/home/fabiobz/launcher'
 export LAUNCHER_RMI='SLURM'

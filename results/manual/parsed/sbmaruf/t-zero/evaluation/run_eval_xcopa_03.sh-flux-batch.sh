@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-chip-9412
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-diablo-5996
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'
 

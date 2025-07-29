@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=process
-#FLUX: --queue=shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=process
+#SBATCH --output=process.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 protname="1UBQ" 
 traj="traj.xtc"

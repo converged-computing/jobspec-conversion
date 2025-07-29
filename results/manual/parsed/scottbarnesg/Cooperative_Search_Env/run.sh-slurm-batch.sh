@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mapsim
-#FLUX: --queue=debug-cpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mapsim
+#SBATCH --output=mapsim_%j.out
+#SBATCH --error=mapsim_%J.err
+#SBATCH --mail-user=scottgbarnes@gwu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=debug-cpu
+#SBATCH --chdir=/home/scottgbarnes/Cooperative-Search-Gym
 
 module load anaconda
 source activate tensorflow

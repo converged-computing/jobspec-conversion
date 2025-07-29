@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TIESnamd
-#FLUX: -N=195
-#FLUX: --queue=general
-#FLUX: -t=73800
-#FLUX: --urgency=16
+#FLUX --job-name=TIESnamd
+#FLUX -N=195
+#FLUX --queue=general
+#FLUX -t=73800
+#FLUX --urgency=16
 
 module load slurm_setup
 module load namd

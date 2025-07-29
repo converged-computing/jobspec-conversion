@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llm_hm_without_low_score
-#FLUX: --queue=gpu
-#FLUX: -t=255900
-#FLUX: --urgency=16
+#FLUX --job-name=llm_hm_without_low_score
+#FLUX --queue=gpu
+#FLUX -t=255900
+#FLUX --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

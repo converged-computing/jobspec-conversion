@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-7838
-#FLUX: -N=2
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-motorcycle-6305
+#FLUX -N=2
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='23'
 export KMP_SETTINGS='True'

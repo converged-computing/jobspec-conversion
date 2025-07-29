@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dpoExample
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dpoExample
+#SBATCH --account=project_id
+#SBATCH --output=dpo.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=480G
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
 
 export PYTHONPATH='/workdir/env_dpo/lib/python3.10/site-packages'
 export HF_HOME='/workdir/'

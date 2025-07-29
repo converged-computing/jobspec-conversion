@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-2729
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=16
 
 set -e
 source env-build-fenics.sh

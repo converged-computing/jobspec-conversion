@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TensorComprehensions
-#FLUX: -n=20
-#FLUX: --queue=learnfair-2g
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=TensorComprehensions
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=40000
+#SBATCH --time=00:03:00
+#SBATCH --partition=learnfair-2g
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'
 export TUNER_GPUS='${TUNER_GPUS:="0,1"}'

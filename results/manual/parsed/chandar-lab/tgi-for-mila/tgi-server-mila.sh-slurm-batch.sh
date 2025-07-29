@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-server
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-server
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --time=02:59:00
+#SBATCH --constraint=ampere
 
 export PATH='$(realpath $RELEASE_DIR/bin/)":$PATH'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

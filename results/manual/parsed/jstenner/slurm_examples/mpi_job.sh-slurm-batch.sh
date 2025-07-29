@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -N=2
-#FLUX: -n=24
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job_test
+#SBATCH --output=mpi_test_%j.out
+#SBATCH --mail-user=<email_address>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1gb
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=12,ntasks-per-socket=6
 
 echo "Date start        = $(date)"
 echo "Hostname          = $(hostname -s)"

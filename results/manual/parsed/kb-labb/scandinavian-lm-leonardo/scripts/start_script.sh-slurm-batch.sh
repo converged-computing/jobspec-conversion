@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-3929
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=EUHPC_D07_027
+#SBATCH --output=logs/sbatch-%J.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=400GB
+#SBATCH --time=01:30:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=4
 
 export MASTER_ADDR='$addr'
 export NPROC_PER_NODE='4 # We use this to calculate distributed_world_size (total nr of GPUs) in train_script.sh.'

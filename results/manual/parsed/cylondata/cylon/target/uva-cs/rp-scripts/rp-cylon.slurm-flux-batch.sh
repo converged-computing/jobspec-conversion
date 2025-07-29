@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-8060
-#FLUX: -N=10
+#FLUX --job-name=lovely-nalgas-2195
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: --queue=bii
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=bii
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

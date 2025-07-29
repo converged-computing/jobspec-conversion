@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FiLMCoGenT
-#FLUX: --queue=normal
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=FiLMCoGenT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60GB
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=8GB
+#SBATCH --array=0,2
 
 module add clustername/singularity/3.4.1
 hostname

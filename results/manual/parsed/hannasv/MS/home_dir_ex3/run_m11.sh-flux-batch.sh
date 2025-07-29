@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-caramel-6571
-#FLUX: -n=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-nalgas-3580
+#FLUX -n=6
+#FLUX --queue=dgx2q
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

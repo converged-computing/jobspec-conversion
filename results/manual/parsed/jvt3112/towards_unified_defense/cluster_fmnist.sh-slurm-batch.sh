@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hope-5752
-#FLUX: --urgency=16
+#SBATCH --mail-user=jvt22
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PATH='/vol/bitbucket/jvt22/myvenv/bin:$PATH'
 

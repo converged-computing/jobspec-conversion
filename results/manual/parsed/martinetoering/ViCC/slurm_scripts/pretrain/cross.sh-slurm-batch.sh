@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=c2-rgbm
-#FLUX: -c=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=136800
-#FLUX: --urgency=16
+#SBATCH --job-name=c2-rgbm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --mem=180G
+#SBATCH --time=1-14:00:00
+#SBATCH --partition=gpu_titanrtx
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-node=4,ntasks-per-node=4,ntasks-per-node=4
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

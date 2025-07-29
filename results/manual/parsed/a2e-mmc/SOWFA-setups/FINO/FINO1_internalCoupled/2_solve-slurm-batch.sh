@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rOffshoreFino
-#FLUX: -n=360
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=rOffshoreFino
+#SBATCH --account=car
+#SBATCH --output=foam2run_%j.log
+#SBATCH --mail-user=regis.thedin@nrel.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=360
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
 
 source $HOME/.bash_profile
 cores=$SLURM_NTASKS

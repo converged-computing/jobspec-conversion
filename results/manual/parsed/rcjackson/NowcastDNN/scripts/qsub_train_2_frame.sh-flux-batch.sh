@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-2015
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-destiny-2951
+#FLUX --urgency=16
 

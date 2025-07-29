@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fine-tune-singlenode-experiments
-#FLUX: -c=4
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#FLUX --job-name=fine-tune-singlenode-experiments
+#FLUX -c=4
+#FLUX --queue=a40
+#FLUX --urgency=16
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='52069'

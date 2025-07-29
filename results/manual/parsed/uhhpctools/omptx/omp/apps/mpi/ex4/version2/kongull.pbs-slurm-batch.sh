@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-banana-8578
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/uhhpctools/omptx/omp/apps/mpi/ex4/version2/kongull.pbs

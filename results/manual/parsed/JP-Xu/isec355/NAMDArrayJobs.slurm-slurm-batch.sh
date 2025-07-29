@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --output=gamma-7_$SLURM_ARRAY_TASK_ID.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-45%1
 
 module purge
 module load cuda/11.3

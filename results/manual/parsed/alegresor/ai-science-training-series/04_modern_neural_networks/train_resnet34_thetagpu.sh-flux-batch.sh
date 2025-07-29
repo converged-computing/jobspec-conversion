@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-7352
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-despacito-6682
+#FLUX --urgency=16
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ht
-#FLUX: -c=74
+#FLUX --job-name=ht
+#FLUX -c=74
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo " "
 echo " Nodelist:= " $SLURM_JOB_NODELIST

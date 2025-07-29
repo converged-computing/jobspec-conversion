@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lettuce-7427
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-hobbit-5502
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FMInference/DejaVu/Decentralized_FM_alpha/coordinator/lsf/lsf_scripts/lsf_gpt3xl_64gpu.bsub

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chair-3984
-#FLUX: -N=20
-#FLUX: -n=1360
-#FLUX: --queue=booster
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-caramel-7097
+#FLUX -N=20
+#FLUX -n=1360
+#FLUX --queue=booster
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module --force purge
 module load Architecture/KNL

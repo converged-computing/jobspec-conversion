@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=audio-caption
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=audio-caption
+#SBATCH --output=logs/audio-caption-%j.log
+#SBATCH --error=logs/audio-caption-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --exclude=gqxx-01-016
 
 module load java/1.8.0.162
 run_script=$1

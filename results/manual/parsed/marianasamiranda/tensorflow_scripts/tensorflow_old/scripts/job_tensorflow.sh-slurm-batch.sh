@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf-tenosorflow
-#FLUX: --queue=rtx
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-tenosorflow
+#SBATCH --output=tf-tenosorflow.o%j
+#SBATCH --error=tf-tenosorflow.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=rtx
 
 WORKSPACE=$(dirname $(dirname $(realpath $0)))
 DATA_DIR="/scratch1/08486/mmiranda/mysharedirectory"

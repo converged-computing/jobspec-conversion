@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemur-2706
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-cinnamonbun-1349
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ynandwan/misc-scripts/hpcv2/hpc_jobs/rrn_equal_abl_rep/job_8.sh

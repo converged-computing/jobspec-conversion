@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-squidward-0048
+#FLUX --job-name=bumfuzzled-muffin-9175
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export cluster='azure'
 export CUDA_DEVICE_ORDER='PCI_BUS_ID'

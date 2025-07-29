@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=testopenclip
-#FLUX: -N=30
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=g40423
-#FLUX: --urgency=16
+#SBATCH --job-name=testopenclip
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=30
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=g40423
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_ADDR='`hostname`'
 export MASTER_PORT='12802'

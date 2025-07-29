@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_model_run_2
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN_model_run_2
+#SBATCH --output=./model_run_2/slurm_logs/RUN_out_%a.out
+#SBATCH --error=./model_run_2/slurm_logs/RUN_err_%a.out
+#SBATCH --mail-user=rschanta@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-1000
+#SBATCH --dependency=27607922
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=red-peas-5014
-#FLUX: --queue=csmpi_fpga_short
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=csmpistud
+#SBATCH --output=opencl.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:nvidia_a30:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=csmpi_fpga_short
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

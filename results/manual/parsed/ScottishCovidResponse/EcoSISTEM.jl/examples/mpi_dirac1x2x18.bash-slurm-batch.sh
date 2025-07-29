@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run1
-#FLUX: -n=36
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=run1
+#SBATCH --account=DIRAC-DC003-CPU
+#SBATCH --output=log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=skylake
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='18'

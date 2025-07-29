@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stylegan3_garfield_training
-#FLUX: -c=12
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=stylegan3_garfield_training
+#SBATCH --output=/scratch/$USER/logs-project/%j_%x.out
+#SBATCH --error=/scratch/$USER/logs-project/%j_%x.err
+#SBATCH --mail-user=$USER@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
 
 module load cuda/11.3.1
 module load anaconda3/2020.07

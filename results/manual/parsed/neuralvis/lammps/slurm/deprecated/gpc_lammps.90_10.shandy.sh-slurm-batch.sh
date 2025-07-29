@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpc_lammps.001
-#FLUX: -N=927
-#FLUX: --queue=workq
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpc_lammps.001
+#SBATCH --output=stdout/gpc_lammps.001.%J.out
+#SBATCH --error=stdout/gpc_lammps.001.%J.err
+#SBATCH --nodes=927
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=512
+#SBATCH --time=06:00:00
+#SBATCH --partition=workq
 
 module restore PrgEnv-cray
 module load cray-mpich/8.0.15

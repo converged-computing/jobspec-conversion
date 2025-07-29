@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ovemdd
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ovemdd
+#SBATCH --output=ovemdd.%J.out
+#SBATCH --error=ovemdd.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100:4
+#SBATCH --mem-per-cpu=300G
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 export TLRMDCROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/TLR-MDC'
 export TLRMVMROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/tlrmvm-dev/build/install/lib'

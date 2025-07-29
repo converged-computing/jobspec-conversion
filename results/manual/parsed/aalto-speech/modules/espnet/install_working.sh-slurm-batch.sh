@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-poo-5075
-#FLUX: -c=5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6G
+#SBATCH --time=01:00:00
 
 export PATH='$CUDAROOT/bin:$PATH'
 export LD_LIBRARY_PATH='$CUDAROOT/lib64:$LD_LIBRARY_PATH'

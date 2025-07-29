@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-carrot-6784
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)

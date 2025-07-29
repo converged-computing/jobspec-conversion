@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ibs_vstm
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ibs_vstm
+#SBATCH --output=ibs20_v_%j.out
+#SBATCH --mail-user=xl1005@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1-80
 
 export MATLABPATH='$HOME/${PROJECT_FOLDER}/matlab'
 

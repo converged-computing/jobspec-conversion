@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train-cosmoflow
-#FLUX: -c=4
-#FLUX: --queue=bii-gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=train-cosmoflow
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j.out
+#SBATCH --error=%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=bii-gpu
+#SBATCH --constraint=a100_80gb
 
 export SIF_DIR='/scratch/$USER/cosmoflow'
 export USER_CONTAINER_DIR='/scratch/$USER/.singularity'

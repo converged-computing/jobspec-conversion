@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HEAT-CPU
-#FLUX: --exclusive
-#FLUX: --queue=cg4-cpu4x120gb-gpu4x80gb
-#FLUX: --urgency=16
+#SBATCH --job-name=HEAT-CPU
+#SBATCH --output=heat-cpu.o%j
+#SBATCH --error=heat-cpu.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=cg4-cpu4x120gb-gpu4x80gb
+#SBATCH: --exclusive
 
 export PATH='/home/wwei/install/cmake_3_27_3/bin/:$PATH'
 

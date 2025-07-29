@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=install
-#FLUX: -n=16
-#FLUX: --urgency=16
+#FLUX --job-name=install
+#FLUX -n=16
+#FLUX --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

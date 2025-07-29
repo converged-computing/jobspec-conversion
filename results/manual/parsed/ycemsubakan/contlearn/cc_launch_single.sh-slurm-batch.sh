@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-mango-5176
-#FLUX: -c=2
-#FLUX: -t=50
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:00:50
 
 source ~/torch/bin/activate 
 cd ~/contlearn

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=render_data
-#FLUX: -c=28
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=render_data
+#SBATCH --output=hostname_%j.out
+#SBATCH --error=hostname_%j.err
+#SBATCH --mail-user=gp14958@my.bristol.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=15000
+#SBATCH --time=00:06:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-50
 
 export PATH='$PATH:/mnt/storage/scratch/gp14958/blender-2.79-linux-glibc219-x86_64/'
 export SCENE_DIR='/mnt/storage/scratch/gp14958/scene_data_final'

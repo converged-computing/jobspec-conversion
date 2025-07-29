@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=4
-#FLUX: --queue=g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:V100
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=g
+#SBATCH --qos=medium
 
 SIF='/cvmfs/unpacked.cern.ch/registry.hub.docker.com/cernml4reco/deepjetcore3:latest'
 data_dir="/scratch-cbe/users/${USER}/DeepLepton"

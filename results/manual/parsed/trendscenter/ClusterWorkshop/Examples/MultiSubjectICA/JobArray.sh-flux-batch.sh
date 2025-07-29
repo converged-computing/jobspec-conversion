@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cworkshop_multi_ica
-#FLUX: --queue=qTRD
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cworkshop_multi_ica
+#FLUX --queue=qTRD
+#FLUX -t=3600
+#FLUX --urgency=16
 
 sleep 10s 
 module load matlab

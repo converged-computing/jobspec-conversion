@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=obiwan
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=obiwan
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CSCRATCH_OBIWAN='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker'
 export PYTHONPATH='$CSCRATCH_OBIWAN/obiwan_code/py:$CSCRATCH_OBIWAN/legacypipe/py:$PYTHONPATH'

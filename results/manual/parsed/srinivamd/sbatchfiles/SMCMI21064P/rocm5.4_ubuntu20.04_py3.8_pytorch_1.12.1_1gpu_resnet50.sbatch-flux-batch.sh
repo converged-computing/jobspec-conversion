@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-3016
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-cherry-8398
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

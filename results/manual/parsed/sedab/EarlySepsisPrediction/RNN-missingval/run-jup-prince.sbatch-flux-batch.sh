@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=char_jupyter
-#FLUX: -c=2
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=char_jupyter
+#FLUX -c=2
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module purge
 module load jupyter-kernels/py3.5

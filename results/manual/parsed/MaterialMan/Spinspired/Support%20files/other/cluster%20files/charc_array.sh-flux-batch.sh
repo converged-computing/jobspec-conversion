@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=small_batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=small_batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo My working directory is `pwd`
 echo Running job on host:

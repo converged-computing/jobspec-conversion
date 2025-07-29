@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpujob
-#FLUX: -n=3
-#FLUX: --queue=cclake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=cpujob
+#FLUX -n=3
+#FLUX --queue=cclake-himem
+#FLUX -t=43200
+#FLUX --urgency=16
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

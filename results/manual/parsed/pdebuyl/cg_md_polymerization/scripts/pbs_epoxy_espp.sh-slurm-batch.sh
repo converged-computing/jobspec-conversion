@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-soup-7794
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pdebuyl/cg_md_polymerization/scripts/pbs_epoxy_espp.sh

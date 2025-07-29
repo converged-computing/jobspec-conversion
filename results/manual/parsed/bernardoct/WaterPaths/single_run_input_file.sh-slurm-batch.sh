@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test_wp_input_file
-#FLUX: --exclusive
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#SBATCH --job-name=test_wp_input_file
+#SBATCH --output=output/test_wp_input_file.out
+#SBATCH --error=error/test_wp_input_file.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:30:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='16'
 

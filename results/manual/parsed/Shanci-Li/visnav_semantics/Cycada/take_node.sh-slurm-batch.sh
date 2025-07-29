@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lemur-1643
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=topo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH: --exclusive
+#SBATCH --chdir=/home/qyan/TransPose
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$(pwd)/install/lib:$(pwd)/install/lib64'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=iqtree
+#FLUX -c=8
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='/gpfs/data/cbc/aguang/hiv_wide'
 

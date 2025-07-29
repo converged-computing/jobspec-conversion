@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-caramel-3050
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=./../strong/poisson64-10240.out
+#SBATCH --error=./../strong/poisson64-10240.err
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=EPYC_7763
 
 for np in 4 8 12 16 20 24 28 32; do
     for rep in {1..5}; do

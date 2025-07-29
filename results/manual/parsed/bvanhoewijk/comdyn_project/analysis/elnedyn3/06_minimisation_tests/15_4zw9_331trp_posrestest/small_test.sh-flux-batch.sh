@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poodle-6423
-#FLUX: -n=160
-#FLUX: --queue=genoa
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-despacito-2685
+#FLUX -n=160
+#FLUX --queue=genoa
+#FLUX -t=28800
+#FLUX --urgency=16
 
 for rep in 1
 do

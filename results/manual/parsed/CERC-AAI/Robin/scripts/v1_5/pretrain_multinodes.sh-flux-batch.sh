@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llava
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=llava
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load rocm/5.6.0
 TRAIN_PATH=/ccs/home/lfsm/froniter_workspace/LLaVA

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lemon-4708
-#FLUX: -n=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=p200149
+#SBATCH --output=job/%J.out
+#SBATCH --error=job/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=default
 
 echo "===================================="
 echo "ARGS       = $@"

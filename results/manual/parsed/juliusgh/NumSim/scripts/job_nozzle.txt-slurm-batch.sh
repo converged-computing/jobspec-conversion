@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=n
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=n
+#SBATCH --output=result_n.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export CPATH='/scratch-nfs/maierbn/openmpi/install-3.1/include'
 export PATH='/scratch-nfs/maierbn/openmpi/install-3.1/bin:$PATH'

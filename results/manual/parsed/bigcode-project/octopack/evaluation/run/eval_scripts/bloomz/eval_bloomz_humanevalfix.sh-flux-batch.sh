@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-ricecake-2101
+#FLUX --job-name=wobbly-pancake-6194
 #FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=small-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0
 conda activate bigcode

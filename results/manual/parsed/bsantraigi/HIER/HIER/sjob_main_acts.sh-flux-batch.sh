@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=main_best_hier
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=main_best_hier
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

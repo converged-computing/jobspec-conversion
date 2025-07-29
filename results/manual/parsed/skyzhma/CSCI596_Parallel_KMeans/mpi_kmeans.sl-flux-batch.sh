@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-snack-3216
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-peanut-butter-8006
+#FLUX -N=8
+#FLUX -c=8
+#FLUX --urgency=16
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

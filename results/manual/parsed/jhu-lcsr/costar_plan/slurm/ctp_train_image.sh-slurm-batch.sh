@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Nimageonly
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Nimageonly
+#SBATCH --mail-user=cpaxton3@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 set -e
 set -x

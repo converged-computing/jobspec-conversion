@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hisat2index
-#FLUX: -n=16
-#FLUX: --queue=short
-#FLUX: -t=14700
-#FLUX: --urgency=16
+#SBATCH --job-name=hisat2index
+#SBATCH --output=build_indexes_hisat2.out
+#SBATCH --error=build_indexes_hisat2.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=40gb
+#SBATCH --time=04:05:00
+#SBATCH --partition=short
 
 module load hisat2/2.1.0
 IN=/scratch/Users/mame5141/2019/RNAseq-Biome-Nextflow/ensembl

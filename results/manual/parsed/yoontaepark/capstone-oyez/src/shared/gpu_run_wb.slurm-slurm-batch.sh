@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myTest
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=myTest
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=yp2201@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge    
 singularity exec --nv --bind $SCRATCH/comp_gen --overlay $SCRATCH/overlay-25GB-500K.ext3:ro \

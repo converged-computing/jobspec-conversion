@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-spoon-3134
-#FLUX: --queue=h3c
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-plant-6279
+#FLUX --queue=h3c
+#FLUX -t=43200
+#FLUX --urgency=16
 
 ulimit -s unlimited
 module load vasp/6.1.0

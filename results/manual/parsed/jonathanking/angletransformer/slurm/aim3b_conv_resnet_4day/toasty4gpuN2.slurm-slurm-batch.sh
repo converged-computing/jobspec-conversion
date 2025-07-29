@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sRtoastN2
-#FLUX: --queue=dept_gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=sRtoastN2
+#SBATCH --output=out/%A_%6a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=dept_gpu
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --exclude=g019
 
 cd ~/openfold
 source scripts/activate_conda_env.sh

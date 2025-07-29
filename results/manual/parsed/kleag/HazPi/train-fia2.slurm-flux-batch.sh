@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_train_80g
-#FLUX: --queue=gpu80G
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=hazpi_train_80g
+#FLUX --queue=gpu80G
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -o errexit
 set -o pipefail

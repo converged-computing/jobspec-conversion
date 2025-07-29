@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_ptf
-#FLUX: -N=5
-#FLUX: -c=14
+#FLUX --job-name=amg2013_ptf
+#FLUX -N=5
+#FLUX -c=14
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PSC_CPU_BIND='--cpu_bind=verbose,sockets'
 export SCOREP_SUBSTRATE_PLUGINS='rrl'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poo-4948
-#FLUX: -N=6
-#FLUX: -t=740
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --mail-user=mrsunchen0110@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:12:20
 
 module load python/3.8
 virtualenv --no-download $SLURM_TMPDIR/env

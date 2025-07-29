@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=roli-nvt
-#FLUX: -n=12
-#FLUX: -c=2
-#FLUX: --queue=GPU
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=roli-nvt
+#FLUX -n=12
+#FLUX -c=2
+#FLUX --queue=GPU
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export USE_OPENMP='true'
 export NVT='nvt'

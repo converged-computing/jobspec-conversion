@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -c=32
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=test_job
+#SBATCH --output=job_%j.log
+#SBATCH --mail-user=cz489@cornell.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2g.20gb:1
+#SBATCH --time=10:00:00
 
 pwd; hostname; date
 echo "SLURM_ARRAY JOB ID is $SLURM_ARRAY_JOB_ID."

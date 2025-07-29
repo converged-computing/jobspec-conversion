@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=BeatnikTest
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=cup-ecs
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=BeatnikTest
+#FLUX -N=2
+#FLUX --gpus-per-task=1
+#FLUX --queue=cup-ecs
+#FLUX -t=3600
+#FLUX --urgency=16
 
 SPACK_INSTALL=${HOME}/spack
 BEATNIK_SCRATCH=/carc/scratch/users/${USER}/beatnik-hopper

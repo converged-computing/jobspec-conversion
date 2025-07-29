@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=C_select
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=C_select
+#SBATCH --mail-user=tzhang23@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,amd
+#SBATCH --array=1-150%10
 
 export LANG='C.UTF-8'
 

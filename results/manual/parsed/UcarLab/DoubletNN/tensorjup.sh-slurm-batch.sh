@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-9670
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/UcarLab/DoubletNN/tensorjup.sh

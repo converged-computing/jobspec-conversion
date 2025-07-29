@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=singularity-openfoam
-#FLUX: -N=6
-#FLUX: --urgency=16
+#SBATCH --job-name=singularity-openfoam
+#SBATCH --output=singularity-openfoam.out
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=2
 
 source /contrib/alvaro/ompi/env.sh
 RUN_DIR="$HOME/cyclone"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pedo-8887
-#FLUX: --urgency=16
+#FLUX --job-name=grated-cupcake-3390
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_orthomcl_2.0.9_ada.sh

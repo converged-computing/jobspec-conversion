@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=spm_xy_1e6_all_queries
-#FLUX: --queue=amd
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#SBATCH --job-name=spm_xy_1e6_all_queries
+#SBATCH --output=/lustre/sgn-data/Nationalbiblioteket/trash/NLF_logs/%x_%N_%n_%j.out
+#SBATCH --mail-user=farid.alijani@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=264G
+#SBATCH --time=03:59:59
+#SBATCH --partition=amd
 
 user="`whoami`"
 stars=$(printf '%*s' 100 '')

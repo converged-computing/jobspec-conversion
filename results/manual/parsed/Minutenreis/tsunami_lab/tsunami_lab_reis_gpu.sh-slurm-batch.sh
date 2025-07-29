@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tsunami_lab_reis_gpu
-#FLUX: -c=48
-#FLUX: --queue=gpu_v100,gpu_p100,gpu_a100
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=tsunami_lab_reis_gpu
+#SBATCH --output=tsunami_lab_reis_gpu.output
+#SBATCH --error=tsunami_lab_reis_gpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=11:00:00
+#SBATCH --partition=gpu_v100,gpu_p100,gpu_a100
 
 module load tools/python/3.8
 module load compiler/gcc/11.2.0

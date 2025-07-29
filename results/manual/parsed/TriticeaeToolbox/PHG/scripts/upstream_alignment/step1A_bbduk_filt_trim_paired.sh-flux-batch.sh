@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bbduk-filt
-#FLUX: -n=10
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=bbduk-filt
+#FLUX -n=10
+#FLUX --queue=short
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load bbtools/37.02
 fastq_dir="/project/genolabswheatphg/raw_data/wheatCAP_parents"

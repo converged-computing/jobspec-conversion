@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pastry-3036
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-chip-9419
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 INDIR=/fast/users/a1742674/SV_VZ
 OUTDIR=/fast/users/a1742674/SV_VZ/V3726_2407

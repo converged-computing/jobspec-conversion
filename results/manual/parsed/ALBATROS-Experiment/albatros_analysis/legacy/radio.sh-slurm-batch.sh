@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-rabbit-1861
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/home/simont/mars'
 

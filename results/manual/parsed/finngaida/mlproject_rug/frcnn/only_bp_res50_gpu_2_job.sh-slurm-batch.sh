@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=4 time,Train tf FRCNN Keras model with only bp data resnet50 as backbone not training shared layers, scheduling on gpu, with input weights as output of last training on cpu
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=4 time,Train tf FRCNN Keras model with only bp data resnet50 as backbone not training shared layers, scheduling on gpu, with input weights as output of last training on cpu
+#SBATCH --mail-user=r.malhotra.1@student.rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module load Python/3.6.4-foss-2018a
 module load tensorflow/1.5.0-foss-2016a-Python-3.5.2-CUDA-9.1.85

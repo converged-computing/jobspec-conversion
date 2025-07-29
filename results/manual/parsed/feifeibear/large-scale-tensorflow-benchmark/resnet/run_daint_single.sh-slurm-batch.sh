@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --output=resnet.%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu
 
 module use /apps/daint/UES/6.0.UP02/sandbox-dl/modules/all
 module load daint-gpu

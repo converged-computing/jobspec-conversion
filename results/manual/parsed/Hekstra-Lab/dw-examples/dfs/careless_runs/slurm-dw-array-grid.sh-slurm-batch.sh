@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_careless_reduce
-#FLUX: --queue=gpu_requeue,seas_gpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_careless_reduce
+#SBATCH --output=myoutput_%j.out
+#SBATCH --error=myoutput_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:1
+#SBATCH --mem=90G
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu_requeue,seas_gpu
+#SBATCH --array=11
 
 PARAM_FILE=slurm_params.txt
 MY_PARAMS=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ${PARAM_FILE})

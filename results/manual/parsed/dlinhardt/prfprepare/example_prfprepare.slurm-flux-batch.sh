@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prfprepare
-#FLUX: -c=10
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=prfprepare
+#FLUX -c=10
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='/flywheel/v0/BIDS/.freesurfer.txt'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_troc
-#FLUX: -n=128
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_troc
+#SBATCH --output=run_troc.eo%j
+#SBATCH --error=run_troc.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export MPIRUN='Mpirun -np 128'
 

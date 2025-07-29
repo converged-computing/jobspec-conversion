@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poodle-5464
-#FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=waingram_lab
+#SBATCH --mail-user=sampanna@vt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal_q
+#SBATCH: --exclusive
 
 module purge
 module load singularity/3.3.0

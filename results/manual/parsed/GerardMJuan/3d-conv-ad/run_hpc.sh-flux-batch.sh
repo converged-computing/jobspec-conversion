@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=3dgpu
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=3dgpu
+#FLUX --queue=high
+#FLUX --urgency=16
 
 export PATH='/homedtic/gmarti/project/anaconda3/bin:$PATH'
 

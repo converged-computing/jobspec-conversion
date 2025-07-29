@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-2261
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=blue-parrot-4026
+#FLUX --queue=gpu
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module load 2020
 module load Anaconda3/2020.02

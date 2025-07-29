@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tr14-2B7-mup
-#FLUX: -N=8
-#FLUX: -c=12
-#FLUX: --queue=production-cluster
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=tr14-2B7-mup
+#SBATCH --output=/fsx/teven/mup/tr14-2B7-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:a100:8
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=production-cluster
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=ip-26-0-159-215,ip-26-0-153-238
 
 export PATH='/opt/amazon/efa/bin:$PATH'
 export NCCL_PROTO='simple'

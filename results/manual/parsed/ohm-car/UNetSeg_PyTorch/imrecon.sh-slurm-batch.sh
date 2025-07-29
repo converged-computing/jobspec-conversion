@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mlrseg
-#FLUX: -t=907200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlrseg
+#SBATCH --output=output_%j.log
+#SBATCH --error=output_%j.err
+#SBATCH --mail-user=omkark1@umbc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=10-12:00:00
+#SBATCH --constraint=rtx_6000
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 

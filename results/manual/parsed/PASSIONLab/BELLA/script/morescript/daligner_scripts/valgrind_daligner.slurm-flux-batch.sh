@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-soup-8171
-#FLUX: -c=64
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-pedo-6468
+#FLUX -c=64
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PATH='/global/common/software/m2865/bella-proj/g0-bin:$PATH'
 

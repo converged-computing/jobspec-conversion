@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=planet
-#FLUX: -n=224
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=planet
+#FLUX -n=224
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /tigress/adrianp/projects/dailyplanet/scripts/
 module load openmpi/gcc/1.10.2/64

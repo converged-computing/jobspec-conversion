@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pred-cross
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pred-cross
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 categories="Task1:relevance"
 shortname="relevance"

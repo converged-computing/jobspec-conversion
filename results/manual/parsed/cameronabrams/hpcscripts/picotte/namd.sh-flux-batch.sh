@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TF01
-#FLUX: -N=8
-#FLUX: --queue=def
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=TF01
+#FLUX -N=8
+#FLUX --queue=def
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${NCPU}'
 

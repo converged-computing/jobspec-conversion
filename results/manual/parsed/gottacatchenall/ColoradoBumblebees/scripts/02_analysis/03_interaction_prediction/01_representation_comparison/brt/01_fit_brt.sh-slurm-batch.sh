@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=brt_fit
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=brt_fit
+#SBATCH --account=def-gonzalez
+#SBATCH --output=slurm-brt_fit-%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=03:00:00
+#SBATCH --array=1-31
 
 export JULIA_DEPOT_PATH='/project/def-gonzalez/mcatchen/JuliaEnvironments/COBees'
 export CLUSTER='true'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-4848
-#FLUX: -N=8
-#FLUX: --queue=ProdQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=ichec004
+#SBATCH --mail-user=james.nelson@ichec.ie
+#SBATCH --mail-type=END
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ProdQ
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

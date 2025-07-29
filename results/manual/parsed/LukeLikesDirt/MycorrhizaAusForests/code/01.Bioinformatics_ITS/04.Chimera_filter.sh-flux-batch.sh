@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-fork-1089
-#FLUX: -c=8
-#FLUX: --queue=day
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-kitty-6741
+#FLUX -c=8
+#FLUX --queue=day
+#FLUX -t=86400
+#FLUX --urgency=16
 
 readonly THREADS=8
 readonly IDENTITY=0.97

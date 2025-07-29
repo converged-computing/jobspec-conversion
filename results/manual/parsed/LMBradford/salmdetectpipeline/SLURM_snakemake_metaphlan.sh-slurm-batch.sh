@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-general-1479
-#FLUX: -c=16
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/logs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=80G
+#SBATCH --time=16:00:00
 
 module load gcc blast samtools bedtools bowtie2 python/3.10
 virtualenv --no-download ${SLURM_TMPDIR}/env

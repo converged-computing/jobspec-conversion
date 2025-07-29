@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=llmcompr
-#FLUX: -c=8
-#FLUX: --queue=ais-gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=llmcompr
+#SBATCH --output=zh_logs/aqlm.txt
+#SBATCH --mail-user=V.Moskvoretskii@skoltech.ru
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=4
+#SBATCH --mem=100G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/aqlm.sif bash -c '
     ls;

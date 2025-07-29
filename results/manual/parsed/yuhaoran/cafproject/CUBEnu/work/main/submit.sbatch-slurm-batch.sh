@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test_main2
-#FLUX: -N=8
-#FLUX: -c=80
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=test_main2
+#SBATCH --output=output_main.txt
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --time=00:25:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='80'
 export FOR_COARRAY_NUM_IMAGES='8'

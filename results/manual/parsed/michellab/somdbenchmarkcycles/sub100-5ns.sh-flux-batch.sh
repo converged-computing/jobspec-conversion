@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bike-0627
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-malarkey-4529
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

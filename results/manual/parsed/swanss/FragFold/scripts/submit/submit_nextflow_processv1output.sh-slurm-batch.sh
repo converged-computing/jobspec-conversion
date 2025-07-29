@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nf-manager
-#FLUX: --queue=xeon-p8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-manager
+#SBATCH --output=nf-fragfold.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=xeon-p8
 
 ENV=fragfold3
 WORKFLOW=/data1/groups/keatinglab/swans/savinovCollaboration/FragFold/nextflow/process_v1_output.nf

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SingleMD
-#FLUX: -c=3
-#FLUX: --queue=True
-#FLUX: --urgency=16
+#SBATCH --job-name=SingleMD
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --partition=True
+#SBATCH --constraint=ntasks-per-node=1
 
 module load fftw2/intel/float/2.1.5  #Not sure about that one  
 module load cuda/10.2                   

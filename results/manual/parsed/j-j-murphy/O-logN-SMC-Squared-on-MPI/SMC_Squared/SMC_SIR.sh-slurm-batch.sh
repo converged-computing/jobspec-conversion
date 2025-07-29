@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SIR_new
-#FLUX: -n=32
-#FLUX: --exclusive
-#FLUX: --queue=bighyp
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SIR_new
+#SBATCH --output=logs/%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=bighyp
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --chdir=./
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

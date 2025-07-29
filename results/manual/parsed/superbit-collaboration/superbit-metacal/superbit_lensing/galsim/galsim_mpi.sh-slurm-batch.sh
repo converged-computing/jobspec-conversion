@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=galsim-mpi-forecast
-#FLUX: -N=3
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=galsim-mpi-forecast
+#SBATCH --output=mpi-output/galsim-%j.out
+#SBATCH --error=mpi-output/galsimMPI-%j.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 GALSIM_DIR=/users/jmcclear/data/superbit/superbit-metacal/GalSim
 CONFIG_FILE=$GALSIM_DIR/superbit_parameters_debugforecast.yaml

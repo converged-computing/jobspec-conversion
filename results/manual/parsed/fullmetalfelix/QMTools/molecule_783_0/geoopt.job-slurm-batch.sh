@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=go_19
-#FLUX: -c=10
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=go_19
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=skl
 
 export OMP_PROC_BIND='true'
 export PSI_SCRATCH='/tmp/'

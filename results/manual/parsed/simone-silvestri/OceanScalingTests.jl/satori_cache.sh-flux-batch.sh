@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-staircase-5647
-#FLUX: -c=16
-#FLUX: --queue=reservation7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-cattywampus-0301
+#FLUX -c=16
+#FLUX --queue=reservation7
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

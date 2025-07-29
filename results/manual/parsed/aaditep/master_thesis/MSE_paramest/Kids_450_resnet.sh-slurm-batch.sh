@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_test1
-#FLUX: -c=60
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_test1
+#SBATCH --output=gpu_24gb.out
+#SBATCH --error=gpu_24gb.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --gres=gpumem:24gb
+#SBATCH --mem=2g
+#SBATCH --time=12:00:00
 
 echo "Transfering files to local scratch"
 start_time=$(date +%s)

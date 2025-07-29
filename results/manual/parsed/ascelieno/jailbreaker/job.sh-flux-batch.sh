@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pastry-9246
-#FLUX: --queue=amd_gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-eagle-4924
+#FLUX --queue=amd_gpu
+#FLUX -t=360000
+#FLUX --urgency=16
 
 echo "Arguments passed to the script: $@"
 source /proj/nobackup/hpc2n2023-124/llm_qlora/venv/bin/activate

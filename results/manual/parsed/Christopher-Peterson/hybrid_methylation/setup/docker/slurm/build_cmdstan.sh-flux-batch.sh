@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-kitty-0963
-#FLUX: --queue=vm-small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-pot-1922
+#FLUX --queue=vm-small
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export LD_PRELOAD=''
 

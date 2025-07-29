@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=grated-milkshake-0888
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=particles_omega_0_job_%j.out
+#SBATCH --error=particles_omega_0_job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=00:08:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

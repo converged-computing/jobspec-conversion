@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=2k
-#FLUX: -c=4
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=2k
+#SBATCH --account=share-ie-idi
+#SBATCH --output=/cluster/home/erlingfo/autodeeplab/out/2k.out
+#SBATCH --mail-user=erlingfo@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=30g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=gpu80g|gpu40g,ntasks-per-node=1
 
 export PYTHONBUFFERED='1'
 

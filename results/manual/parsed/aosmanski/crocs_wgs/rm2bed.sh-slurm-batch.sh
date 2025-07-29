@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cAcu_RM2bed
-#FLUX: --queue=nocona
-#FLUX: --urgency=16
+#SBATCH --job-name=cAcu_RM2bed
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --partition=nocona
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

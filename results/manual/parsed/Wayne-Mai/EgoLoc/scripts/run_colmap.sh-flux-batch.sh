@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=colmap
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=colmap
+#FLUX -c=4
+#FLUX -t=28800
+#FLUX --urgency=16
 
 if [ $HOSTNAME == "<your local machine name>" ]; then
   # for debug

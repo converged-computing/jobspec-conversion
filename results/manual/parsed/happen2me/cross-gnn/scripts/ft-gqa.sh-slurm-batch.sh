@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gqa
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gqa
+#SBATCH --output=runs/R-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
 
 export TOKENIZERS_PARALLELISM='true'
 export WANDB__SERVICE_WAIT='300'

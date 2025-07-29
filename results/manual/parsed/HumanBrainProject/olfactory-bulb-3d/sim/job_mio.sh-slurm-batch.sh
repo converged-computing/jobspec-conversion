@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fat-staircase-1929
-#FLUX: -N=2
-#FLUX: --queue=gll_usr_prod
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=HBP_CDP21_it_1
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --mail-user=emiliano.spera@pa.ibf.cnr.it
+#SBATCH --mail-type=END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60000
+#SBATCH --time=02:00:00
+#SBATCH --partition=gll_usr_prod
+#SBATCH --constraint=ntasks-per-node=36
 
 module load intel/pe-xe-2018--binary
 module load intelmpi/2018--binary

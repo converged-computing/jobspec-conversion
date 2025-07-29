@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CT_pckA_KO
-#FLUX: -c=4
-#FLUX: --queue=panda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=CT_pckA_KO
+#FLUX -c=4
+#FLUX --queue=panda
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='${python_path}:${PATH}'
 

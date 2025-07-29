@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=minerva-action
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=minerva-action
+#SBATCH --output=minerva-action.out
+#SBATCH --error=minerva-action.err
+#SBATCH --mail-user=wzhao6@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=256GB
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

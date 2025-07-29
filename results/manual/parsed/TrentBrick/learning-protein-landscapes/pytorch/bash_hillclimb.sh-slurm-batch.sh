@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lemur-8444
-#FLUX: -c=20
-#FLUX: --queue=short
-#FLUX: -t=719
-#FLUX: --urgency=16
+#SBATCH --output=hill_slurm/hill-slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=20G
+#SBATCH --time=00:11:59
+#SBATCH --partition=short
 
                                            # -N 1 means all cores will be on th$
 hostname

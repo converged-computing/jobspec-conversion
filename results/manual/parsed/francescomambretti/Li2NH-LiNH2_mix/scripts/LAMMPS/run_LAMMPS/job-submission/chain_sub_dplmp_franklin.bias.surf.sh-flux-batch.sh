@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-onion-9964
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-salad-7331
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/francescomambretti/Li2NH-LiNH2_mix/scripts/LAMMPS/run_LAMMPS/job-submission/chain_sub_dplmp_franklin.bias.surf.sh

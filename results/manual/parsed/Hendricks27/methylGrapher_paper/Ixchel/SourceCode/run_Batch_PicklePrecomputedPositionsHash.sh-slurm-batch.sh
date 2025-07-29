@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cupcake-4630
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
 
 read INPUTPRECOMPUTEDFILE < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )
 echo "... Loading software"

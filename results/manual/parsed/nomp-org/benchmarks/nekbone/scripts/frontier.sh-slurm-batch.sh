@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-noodle-9985
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 : ${PROJ_ID:="CSC262"}
 : ${NEKBONE_INSTALL_DIR:=./install}

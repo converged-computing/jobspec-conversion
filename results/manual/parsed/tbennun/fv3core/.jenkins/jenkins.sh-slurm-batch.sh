@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lizard-4044
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export python_env='${python_env}'
 export jenkins_dir='`dirname $0`'

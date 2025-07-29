@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HSP90_278K
-#FLUX: --queue=Cascade
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=HSP90_278K
+#SBATCH --output=./%x.%j.%N.out
+#SBATCH --error=./%x.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=Cascade
+#SBATCH --constraint=ntasks-per-node=96
 
 shopt -s extglob
 nMPI=1

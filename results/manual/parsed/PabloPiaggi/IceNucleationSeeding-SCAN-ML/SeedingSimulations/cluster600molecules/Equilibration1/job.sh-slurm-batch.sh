@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=c600-eq
-#FLUX: -N=3
-#FLUX: -n=12
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=c600-eq
+#SBATCH --nodes=3
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

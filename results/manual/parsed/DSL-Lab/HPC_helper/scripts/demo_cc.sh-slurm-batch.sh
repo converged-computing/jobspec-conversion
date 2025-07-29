@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-4210
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --account=def-rjliao
+#SBATCH --mail-user=yanq@student.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=00:00:20
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'
 

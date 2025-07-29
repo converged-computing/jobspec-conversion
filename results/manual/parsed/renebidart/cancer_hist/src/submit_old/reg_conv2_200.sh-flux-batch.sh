@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lentil-3816
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-truffle-0671
+#FLUX -t=1380
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=charcoal
-#FLUX: -c=32
-#FLUX: --queue=med2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=charcoal
+#SBATCH --mail-user=titus@idyll.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=60000
+#SBATCH --time=02:00:00
+#SBATCH --partition=med2
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate charcoal

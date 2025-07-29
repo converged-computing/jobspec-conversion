@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-knife-9272
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 export KMP_AFFINITY='compact'
 export PATH='$PATH:/pfs/work6/workspace/scratch/ov0392-KeShi_Prak-0/cuda90/bin'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CoelAAFTF
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=CoelAAFTF
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=604800
+#FLUX --urgency=16
 
 hostname
 MEM=196

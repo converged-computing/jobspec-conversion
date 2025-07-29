@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=demultiplex_workflow
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=demultiplex_workflow
+#SBATCH --output=demultiplex_workflow.o%j
+#SBATCH --error=demultiplex_workflow.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=4-04:00:00
 
 echo "Pipeline started: $(date)"
 messages=/secondary/projects/genomicscore/tools/boilerplate_demux/novaseq/messages/ # Larry's message files here

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-mango-8519
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fat-noodle-8618
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export IFS=';'
 

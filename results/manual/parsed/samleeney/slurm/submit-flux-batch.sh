@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frb
-#FLUX: -n=32
-#FLUX: --queue=icelake-himem
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=frb
+#FLUX -n=32
+#FLUX --queue=icelake-himem
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

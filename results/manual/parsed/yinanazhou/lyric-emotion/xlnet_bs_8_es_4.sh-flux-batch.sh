@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-punk-3740
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=phat-parsnip-7614
+#FLUX -c=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load python/3.8
 module load scipy-stack

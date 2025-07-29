@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=snakeautocluster
-#FLUX: -c=2
-#FLUX: --queue=cpu_long
-#FLUX: -t=2419199
-#FLUX: --urgency=16
+#FLUX --job-name=snakeautocluster
+#FLUX -c=2
+#FLUX --queue=cpu_long
+#FLUX -t=2419199
+#FLUX --urgency=16
 
 module purge
 module add slurm

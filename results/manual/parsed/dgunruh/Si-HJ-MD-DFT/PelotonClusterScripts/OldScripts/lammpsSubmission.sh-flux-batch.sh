@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiMD
-#FLUX: -c=32
-#FLUX: --queue=med2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cSiaSiMD
+#FLUX -c=32
+#FLUX --queue=med2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export t='$SLURM_ARRAY_TASK_ID'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=unet2d_diff_strings
-#FLUX: -c=4
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --job-name=unet2d_diff_strings
+#SBATCH --output=/scratch/work/%u/projects/ddpm/unconditional-diff-STFT/experiments/strings/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=1-23:59:59
+#SBATCH --array=[1]
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

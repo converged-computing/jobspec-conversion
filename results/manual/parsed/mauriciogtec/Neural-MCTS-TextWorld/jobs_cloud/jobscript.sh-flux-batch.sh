@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gnormal
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: --queue=normal
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=gnormal
+#FLUX -N=16
+#FLUX -n=256
+#FLUX --queue=normal
+#FLUX -t=0
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='1'

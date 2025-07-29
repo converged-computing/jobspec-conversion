@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=3
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=3
+#SBATCH --output=Sbatch3.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=dcu:4
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=4
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'
 export MIOPEN_DEBUG_DISABLE_FIND_DB='1'

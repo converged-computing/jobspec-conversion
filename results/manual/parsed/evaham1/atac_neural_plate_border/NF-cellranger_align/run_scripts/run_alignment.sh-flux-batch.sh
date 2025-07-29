@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Integrated-npb/NF-cellranger_align
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=Integrated-npb/NF-cellranger_align
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export TERM='xterm'
 export NXF_VER='21.10.6'

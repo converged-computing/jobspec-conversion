@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=custom
-#FLUX: -c=24
+#FLUX --job-name=custom
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

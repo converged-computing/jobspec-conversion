@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SphStokes_mtp
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=SphStokes_mtp
+#SBATCH --account=c23
+#SBATCH --output=SphStokes_mtp.%j.o
+#SBATCH --error=SphStokes_mtp.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export JULIA_HDF5_PATH='$HDF5_ROOT'
 export JULIA_CUDA_MEMORY_POOL='none'

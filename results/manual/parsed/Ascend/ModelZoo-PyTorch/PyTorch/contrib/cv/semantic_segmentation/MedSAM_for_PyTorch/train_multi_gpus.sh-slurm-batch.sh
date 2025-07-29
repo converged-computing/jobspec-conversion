@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=n-5nodes
-#FLUX: -N=5
-#FLUX: -n=5
-#FLUX: -c=24
-#FLUX: --queue=a100
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=n-5nodes
+#SBATCH --output=logs/mgpus_%x-%j.out
+#SBATCH --error=logs/mgpus_%x-%j.err
+#SBATCH --nodes=5
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=200GB
+#SBATCH --time=20-00:00:00
+#SBATCH --partition=a100
+#SBATCH --exclude=gpu101,gpu113
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='$(python - <<EOF'

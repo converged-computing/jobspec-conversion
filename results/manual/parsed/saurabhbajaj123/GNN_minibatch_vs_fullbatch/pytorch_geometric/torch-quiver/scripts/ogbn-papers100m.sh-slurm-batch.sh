@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pap-quiver
-#FLUX: -c=112
-#FLUX: --exclusive
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#SBATCH --job-name=pap-quiver
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=112
+#SBATCH --gres=4
+#SBATCH --mem=250GB
+#SBATCH --time=02:20:00
+#SBATCH --partition=gpu-preempt
+#SBATCH: --exclusive
+#SBATCH --constraint=intel8480
+#SBATCH --exclude=superpod-gpu[004-005]
 
 nvidia-smi --query-gpu=gpu_name --format=csv,noheader
 nvidia-smi topo -m

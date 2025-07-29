@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xnat2bids
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=xnat2bids
+#SBATCH --output=/gpfs/scratch/%u/logs/xnat2bids-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --array=148
 
 set -u
 set -a

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fourcast_train_job
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fourcast_train_job
+#SBATCH --account=gdsp-k
+#SBATCH --output=/scratch/gilbreth/gupt1075/train_fourcastnet_24.out
+#SBATCH --error=/scratch/gilbreth/gupt1075/train_fourcastnet_24.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=24,v100|a100
 
 export PRECXX11ABI='1'
 export CUDA='11.7'

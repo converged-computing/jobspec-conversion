@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_trades
-#FLUX: -c=4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_trades
+#SBATCH --output=logs/joint-baseline-final-%x-%j.out
+#SBATCH --error=logs/joint-baseline-final-%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=12GB
+#SBATCH --time=20:00:00
 
 date
 singularity exec --nv \

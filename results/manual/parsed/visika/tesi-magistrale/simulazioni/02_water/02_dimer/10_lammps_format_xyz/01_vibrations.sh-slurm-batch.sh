@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dimer
-#FLUX: -c=4
-#FLUX: --queue=parallel
-#FLUX: --urgency=16
+#SBATCH --job-name=dimer
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=1
 
 export VASP='/lustre/home/tccourse/vasp46-da/vasp'
 export VASPGAMMA='/lustre/home/tccourse/vasp46-da.gamma/vasp'

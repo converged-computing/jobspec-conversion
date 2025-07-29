@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_name
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline_name
+#SBATCH --output=nextflow.log
+#SBATCH --mail-user=a.surname@institution.ac.uk
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3G
 
 export NXF_OPTS='-Xms1g -Xmx2g'
 export NXF_SINGULARITY_CACHEDIR='/path/to/singularity_cache/.singularity'

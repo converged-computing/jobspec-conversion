@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hippo-6782
-#FLUX: -c=2
-#FLUX: --queue=xnat
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --mail-user=gorska@wisc.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=xnat
+#SBATCH --chdir=/hpc/users/urszula.gorska/codes/MEEG/MNE-python_pipeline_v3/
 
 if [ $# -ne 2 ];
     then echo "Please pass sub_prefix visit and step as command line arguments. E.g."

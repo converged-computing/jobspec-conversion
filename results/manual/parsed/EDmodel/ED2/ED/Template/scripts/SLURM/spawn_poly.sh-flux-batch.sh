@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-arm-4781
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-truffle-6456
+#FLUX --urgency=16
 
 here=$(pwd)
 moi=$(whoami)

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=25Mg400
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=25Mg400
+#SBATCH --account=drd@cpu
+#SBATCH --output=GMX_GenMD.o%j
+#SBATCH --error=GMX_GenMD.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load gcc/8.4.1

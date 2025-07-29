@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=topo_regen
-#FLUX: -N=4
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=topo_regen
+#SBATCH --account=nn9560k
+#SBATCH --mail-user=heig@norceresearch.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:29:00
 
 export ISM_Topo_File_ref='/cluster/projects/nn9560k/heig/topo/test/N1850frc2G_f09_tn14_gl4_SMB1.cism.initial_hist.0001-01-01-00000.nc'
 export ISM_Topo_File_mod0='/cluster/projects/nn9560k/heig/topo/test/N1850frc2G_f09_tn14_gl4_SMB1_hg.cism.initial_hist.1200-01-01-00000.nc'

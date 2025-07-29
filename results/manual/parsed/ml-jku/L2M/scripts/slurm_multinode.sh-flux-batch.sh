@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lizard-4448
-#FLUX: -N=2
-#FLUX: --queue=X
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-hippo-1022
+#FLUX -N=2
+#FLUX --queue=X
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 

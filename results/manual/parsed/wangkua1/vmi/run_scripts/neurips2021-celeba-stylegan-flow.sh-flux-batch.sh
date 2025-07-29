@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-2224
-#FLUX: -c=8
-#FLUX: --queue=rtx6000
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-spoon-4693
+#FLUX -c=8
+#FLUX --queue=rtx6000
+#FLUX -t=720000
+#FLUX --urgency=16
 
 exp_config=neurips2021-celeba.yml
 STYLEGAN_PKL=pretrained/stylegan/neurips2021-celeba-stylegan/network-snapshot-002298.pkl

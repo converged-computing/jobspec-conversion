@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-snack-3958
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-dog-4770
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SBATCH_ACCOUNT='m4367'
 export SALLOC_ACCOUNT='m4367'

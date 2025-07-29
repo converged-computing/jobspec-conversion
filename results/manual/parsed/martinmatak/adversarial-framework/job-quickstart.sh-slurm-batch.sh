@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cw-test
-#FLUX: --urgency=16
+#SBATCH --job-name=cw-test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module purge
 module load intel/18 python/3.6.4 

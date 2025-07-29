@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mode_6
-#FLUX: -c=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mode_6
+#SBATCH --account=vita
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:2
+#SBATCH --mem=180G
+#SBATCH --time=04:00:00
 
 module load gcc/8.4.0-cuda  python/3.7.7
 source /work/vita/sadegh/argo/argo-env/bin/activate

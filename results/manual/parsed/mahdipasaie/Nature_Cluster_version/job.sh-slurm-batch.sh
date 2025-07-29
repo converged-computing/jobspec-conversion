@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-caramel-3272
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-oforion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=185G
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 module load StdEnv/2020
 module load gcc/9.3.0

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=myTest
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=myTest
+#SBATCH --output=slurm-output/slurm_%j.out
+#SBATCH --mail-user=hhs4@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export MATLABPATH='$HOME/matlab-output'
 

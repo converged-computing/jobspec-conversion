@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=smooth_pt
-#FLUX: -n=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=smooth_pt
+#SBATCH --account=carney-ashenhav-condo
+#SBATCH --output=logs/smooth_%A-%a.txt
+#SBATCH --mail-user=hritz@brown.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=01:00:00
+#SBATCH --array=4-32
 
 root_dir="/users/hritz/data/mri-data/RDM2"
 fwhm=8

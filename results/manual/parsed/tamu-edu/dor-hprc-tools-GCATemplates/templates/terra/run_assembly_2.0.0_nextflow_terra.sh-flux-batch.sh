@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow
-#FLUX: -c=28
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=nextflow
+#FLUX -c=28
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load Nextflow/20.10.0
 <<README

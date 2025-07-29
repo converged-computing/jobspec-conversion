@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-car-2634
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-squidward-0357
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,tcp'
 export JULIA_DEPOT_PATH='${HOME}/.julia'

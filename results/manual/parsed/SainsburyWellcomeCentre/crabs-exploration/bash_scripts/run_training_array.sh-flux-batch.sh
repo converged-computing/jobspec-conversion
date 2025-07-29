@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-truffle-8192
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-cinnamonbun-1006
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source ~/.bashrc
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

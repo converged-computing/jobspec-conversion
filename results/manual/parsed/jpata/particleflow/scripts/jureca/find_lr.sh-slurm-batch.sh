@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lr_find
-#FLUX: --queue=dc-gpu-devel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=lr_find
+#SBATCH --account=raise-ctp2
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=dc-gpu-devel
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

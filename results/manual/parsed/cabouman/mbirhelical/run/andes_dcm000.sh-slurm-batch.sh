@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=AAPM_000
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=AAPM_000
+#SBATCH --account=stf006
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='1'

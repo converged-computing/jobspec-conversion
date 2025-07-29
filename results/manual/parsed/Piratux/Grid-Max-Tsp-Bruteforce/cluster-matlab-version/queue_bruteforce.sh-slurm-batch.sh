@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-9446
-#FLUX: -N=20
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=48
 
 module load openmpi
 mpiCC -std=c++17 -O2 -o bruteforce-matlab-cluster bruteforce-matlab-cluster.cpp

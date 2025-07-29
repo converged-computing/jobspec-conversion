@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=my-job
-#FLUX: --queue=salvador
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=my-job
+#FLUX --queue=salvador
+#FLUX -t=4800
+#FLUX --urgency=16
 
 nvidia-smi
 hostname

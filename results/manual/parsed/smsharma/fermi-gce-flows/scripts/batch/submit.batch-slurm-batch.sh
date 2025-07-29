@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bike-6531
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --mail-user=sm8383@nyu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24GB
+#SBATCH --time=1-23:59:00
+#SBATCH --constraint=ntasks-per-node=24
 
 module load gsl/intel/2.6 
 conda activate sbi-fermi

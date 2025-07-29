@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=run_ad
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_ad
+#SBATCH --output=output/run_ad/%j-%a.out
+#SBATCH --mail-user=alonshp@post.bgu.ac.il
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=main
+#SBATCH --qos=normal
+#SBATCH --array=0-3
 
 echo `date`
 echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID

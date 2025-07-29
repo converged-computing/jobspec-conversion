@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bike-9133
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hello-toaster-4861
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load octotiger

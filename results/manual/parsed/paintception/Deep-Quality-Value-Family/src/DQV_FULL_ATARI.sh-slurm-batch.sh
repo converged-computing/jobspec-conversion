@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peas-7072
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=5-00:00:00
+#SBATCH --array=0-52
 
 GAMES=(AirRaidDeterministic-v4 AlienDeterministic-v4 AmidarDeterministic-v4 AssaultDeterministic-v4
 AsterixDeterministic-v4 AsteroidsDeterministic-v4 AtlantisDeterministic-v4 BankHeistDeterministic-v4

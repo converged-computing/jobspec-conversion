@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-motorcycle-2278
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-omelette-7062
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Anjiang-Wei/legion/language/pldi23_scripts/bsub_stencil.lsf

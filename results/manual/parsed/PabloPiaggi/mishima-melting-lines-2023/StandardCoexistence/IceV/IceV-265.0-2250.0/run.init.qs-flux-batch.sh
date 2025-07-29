@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-4126
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-bits-1067
+#FLUX -c=7
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

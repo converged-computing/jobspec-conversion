@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=recon_map_mri
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=recon_map_mri
+#SBATCH --output=recon_map_mri%A_%a.out
+#SBATCH --error=recon_map_mri%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-5
+#SBATCH --dependency=379904
 
 export FASTMRI_DATA_DIR='$SCRATCH/'
 export CHECKPOINTS_DIR='$SCRATCH/nsec_complex'

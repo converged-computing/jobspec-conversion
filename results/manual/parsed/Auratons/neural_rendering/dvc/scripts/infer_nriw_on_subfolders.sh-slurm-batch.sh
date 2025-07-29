@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=infer_nriw_on_subfolders_%j
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=infer_nriw_on_subfolders_%j
+#SBATCH --output=logs/infer_nriw_on_subfolders_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=dgx-[2,5],amd-[01-02],node-[12]
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

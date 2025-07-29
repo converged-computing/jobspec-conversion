@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=array-example
-#FLUX: --queue=Brody
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=array-example
+#FLUX --queue=Brody
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load julia/1.2.0
 echo "Slurm Job ID, unique: $SLURM_JOB_ID"

@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow_WES_Fingerprint
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Nextflow_WES_Fingerprint
+#SBATCH --account=diaggen
+#SBATCH --output=log/slurm_nextflow_wes_fingerprint.%j.out
+#SBATCH --error=log/slurm_nextflow_wes_fingerprint.%j.err
+#SBATCH --mail-user=$email
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:10G
+#SBATCH --mem=5G
+#SBATCH --time=02:00:00
 
 set -euo pipefail
 workflow_path='/hpc/diaggen/software/production/DxNextflowWES'

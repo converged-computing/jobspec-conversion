@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-motorcycle-2629
-#FLUX: -n=121
-#FLUX: -t=24600
-#FLUX: --urgency=16
+#SBATCH --mail-user=vasiliy.triandafilidi@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=121
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=600
+#SBATCH --time=06:50:00
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

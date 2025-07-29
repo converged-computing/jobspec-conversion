@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=10_threads
-#FLUX: -n=40
-#FLUX: --queue=akya-cuda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=10_threads
+#FLUX -n=40
+#FLUX --queue=akya-cuda
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='10'
 

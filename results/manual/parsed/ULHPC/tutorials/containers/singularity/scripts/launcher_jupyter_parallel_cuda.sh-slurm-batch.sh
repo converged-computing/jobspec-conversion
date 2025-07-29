@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Singularity_Jupyter_parallel_cuda
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Singularity_Jupyter_parallel_cuda
+#SBATCH --mail-user=<firstname>.<lastname>@uni.lu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=normal
 
 export VENV='$HOME/.envs/venv_cuda_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'

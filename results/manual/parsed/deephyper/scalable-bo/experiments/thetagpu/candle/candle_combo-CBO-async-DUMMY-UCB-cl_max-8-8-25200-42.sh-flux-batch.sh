@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-3821
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-despacito-8432
+#FLUX --urgency=16
 

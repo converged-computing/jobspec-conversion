@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gen_voxel
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=gen_voxel
+#FLUX -c=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 singularity exec --nv \
         --overlay /scratch/zc2309/nuscenes.ext3:ro \

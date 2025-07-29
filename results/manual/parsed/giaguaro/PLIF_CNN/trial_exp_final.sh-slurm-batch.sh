@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LrgSklCNN
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=LrgSklCNN
+#SBATCH --output=/groups/cherkasvgrp/share/progressive_docking/hmslati/plif_cnn/%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/groups/cherkasvgrp/share/progressive_docking/hmslati/plif_cnn/
 
 export MASTER_PORT='12349'
 export WORLD_SIZE='2'

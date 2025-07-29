@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mae_224_test
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=mae_224_test
+#SBATCH --output=/blue/guralnick/rafe.lafrance/phenobase/logs/%x_%j.out
+#SBATCH --mail-user=rafe.lafrance@ufl.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100:1
+#SBATCH --mem=8gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 export PATH='/blue/guralnick/rafe.lafrance/.conda/envs/vitmae/bin:$PATH'
 

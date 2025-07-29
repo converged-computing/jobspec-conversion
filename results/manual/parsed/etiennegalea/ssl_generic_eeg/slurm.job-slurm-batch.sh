@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=angry-plant-4324
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=output.log
+#SBATCH --error=error.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=16,TitanX
 
 source /home/ega470/.bashrc
 cd /var/scratch/ega470/ssl_thesis/

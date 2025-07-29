@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lentil-7010
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-butter-3749
+#FLUX -c=8
+#FLUX --urgency=16
 
 module load snakemake/5.24.1 || exit 1
 cp /data/OGL/resources/variant_prioritization.git.log .

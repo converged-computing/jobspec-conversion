@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-butter-3050
-#FLUX: --queue=general,zhanglab
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=general,zhanglab
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=2-6%5
 
 module load python3/3.4.1
 module load CAMISIM/1.1.0-foss-2016b-Python-2.7.12

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=alphamax
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=alphamax
+#FLUX -c=10
+#FLUX --queue=short
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module load matlab/R2020a
 SetsPerJob=10;

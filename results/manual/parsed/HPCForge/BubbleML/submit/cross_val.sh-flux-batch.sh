@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-3805
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-underoos-0490
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load anaconda/2022.05
 . ~/.mycondaconf

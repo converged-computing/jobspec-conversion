@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=in5550
-#FLUX: -c=4
-#FLUX: --queue=accel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=in5550
+#SBATCH --account=ec30
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
+#SBATCH --partition=accel
 
 source ${HOME}/.bashrc
 set -o errexit

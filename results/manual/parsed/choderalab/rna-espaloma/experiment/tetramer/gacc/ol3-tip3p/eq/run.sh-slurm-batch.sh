@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-blackbean-3560
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/tetramer/gacc/ol3-tip3p/eq/run.sh

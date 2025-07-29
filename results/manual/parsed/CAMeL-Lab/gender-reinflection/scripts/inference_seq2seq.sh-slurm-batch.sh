@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cinnamonbun-0605
-#FLUX: --queue=nvidia
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=11:30:00
+#SBATCH --partition=nvidia
 
 export DATA_DIR='data/alhafni'
 

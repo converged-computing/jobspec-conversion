@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-4709
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lamp-9161
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/medulloblast/pipeline/snakecharmer.sh

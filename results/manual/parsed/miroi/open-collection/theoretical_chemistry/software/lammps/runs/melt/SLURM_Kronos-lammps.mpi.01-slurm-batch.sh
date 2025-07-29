@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=8
-#FLUX: --queue=main
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --output=log_slurm_job.%j.%N.std_out_err
+#SBATCH --mail-user=M.Ilias@gsi.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=main
 
 export OMP_NUM_THREADS='1'
 export MKL_DYNAMIC='FALSE'

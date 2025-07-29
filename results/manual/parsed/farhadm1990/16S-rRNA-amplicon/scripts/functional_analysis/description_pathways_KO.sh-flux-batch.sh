@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-squidward-0887
-#FLUX: -n=10
-#FLUX: --queue=ghpc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-peanut-9393
+#FLUX -n=10
+#FLUX --queue=ghpc
+#FLUX -t=86400
+#FLUX --urgency=16
 
 TMPDIR=/scratch/$USER/$SLURM_JOBID
 export TMPTDIR

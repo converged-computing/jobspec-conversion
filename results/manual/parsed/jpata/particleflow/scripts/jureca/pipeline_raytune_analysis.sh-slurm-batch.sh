@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tuneAnalysis
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=dc-gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tuneAnalysis
+#SBATCH --account=raise-ctp2
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=dc-gpu
+#SBATCH: --exclusive
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

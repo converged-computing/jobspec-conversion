@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stream_benchmark
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=stream_benchmark
+#FLUX -t=50400
+#FLUX --urgency=16
 
 module purge
 module load cuda12.3/toolkit/12.3.2

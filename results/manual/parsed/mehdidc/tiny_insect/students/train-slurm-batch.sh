@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hope-1219
-#FLUX: -n=8
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=09:00:00
 
 export THEANO_FLAGS='device=gpu'
 

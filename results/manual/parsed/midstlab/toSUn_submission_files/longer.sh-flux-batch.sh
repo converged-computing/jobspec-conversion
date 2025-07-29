@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DHFR
-#FLUX: -n=16
-#FLUX: --queue=longer_mdbf
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=DHFR
+#FLUX -n=16
+#FLUX --queue=longer_mdbf
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 INPUT_FILE="dhf-l28r-i94l.conf"
 source /etc/profile.d/modules.sh

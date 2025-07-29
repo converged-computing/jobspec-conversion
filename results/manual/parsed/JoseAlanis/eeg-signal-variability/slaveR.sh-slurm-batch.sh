@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-plant-1570
-#FLUX: -c=14
-#FLUX: --queue=parallel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=m2_jgu-amd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --time=00:15:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=skylake
 
 module purge # ensures vanilla environment
 module load lang/R # will load most current version of R

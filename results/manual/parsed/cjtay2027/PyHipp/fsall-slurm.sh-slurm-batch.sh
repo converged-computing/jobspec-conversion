@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fsall
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fsall
+#SBATCH --output=fsall-slurm.%N.%j.out
+#SBATCH --error=fsall-slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 python -u -c "import PyHipp as pyh; \
 import time; \

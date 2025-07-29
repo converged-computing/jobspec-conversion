@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-latke-8113
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/PerilousApricot/BLAH/src/scripts/pbs_submit.sh

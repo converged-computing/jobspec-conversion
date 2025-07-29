@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adiff
-#FLUX: --urgency=16
+#SBATCH --job-name=adiff
+#SBATCH --output=${logs}adiff.%j.out
+#SBATCH --error=${logs}${file%..fastq.gz}.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 "This script needs to run form inside the folder scripts in a working project with the following structure:
 project/scripts

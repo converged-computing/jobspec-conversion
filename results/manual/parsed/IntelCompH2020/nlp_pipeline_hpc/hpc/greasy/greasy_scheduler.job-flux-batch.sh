@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=greasy
-#FLUX: -n=201
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=greasy
+#FLUX -n=201
+#FLUX -c=2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export I_MPI_PMI_VALUE_LENGTH_MAX='512'
 

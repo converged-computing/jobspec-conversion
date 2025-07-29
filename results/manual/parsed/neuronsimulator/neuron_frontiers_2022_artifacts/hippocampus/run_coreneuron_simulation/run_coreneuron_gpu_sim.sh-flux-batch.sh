@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-parsnip-5372
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: -c=2
+#FLUX --job-name=rainbow-snack-2804
+#FLUX -N=2
+#FLUX -n=80
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 cnrn_input="$1"
 module_suffix="$2"

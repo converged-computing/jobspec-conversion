@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peas-9405
-#FLUX: --queue=hns,normal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-fudge-6209
+#FLUX --queue=hns,normal
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source $HOME/CNP_analysis/config.sh
 unset PYTHONPATH

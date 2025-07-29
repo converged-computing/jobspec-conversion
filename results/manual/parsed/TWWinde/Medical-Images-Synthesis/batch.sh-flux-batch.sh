@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=medical
-#FLUX: -c=4
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#FLUX --job-name=medical
+#FLUX -c=4
+#FLUX -t=601200
+#FLUX --urgency=16
 
 pyenv activate venv
 module load cuda

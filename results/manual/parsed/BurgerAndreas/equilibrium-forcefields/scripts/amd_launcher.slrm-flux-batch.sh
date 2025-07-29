@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=equiformer
-#FLUX: -c=8
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=equiformer
+#FLUX -c=8
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export SCRIPTDIR='${HOME_DIR}/equilibrium-forcefields/equiformer'
 

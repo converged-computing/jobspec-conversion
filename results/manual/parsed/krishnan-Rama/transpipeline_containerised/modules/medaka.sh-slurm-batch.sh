@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Medaka
-#FLUX: -c=64
-#FLUX: --queue=<HPC_partition>
-#FLUX: --urgency=16
+#SBATCH --job-name=Medaka
+#SBATCH --output=medaka_%J.out
+#SBATCH --error=medaka.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=200GB
+#SBATCH --partition=<HPC_partition>
+#SBATCH --constraint=ntasks-per-node=1
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

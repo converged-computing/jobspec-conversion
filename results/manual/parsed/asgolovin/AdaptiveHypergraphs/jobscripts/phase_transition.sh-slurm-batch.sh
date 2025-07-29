@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phase_transition_sweep
-#FLUX: -N=4
-#FLUX: --queue=cm2_inter
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_transition_sweep
+#SBATCH --output=./output/%j.%x.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:07:00
+#SBATCH --partition=cm2_inter
 
 module load slurm_setup
 module load julia/1.8.5

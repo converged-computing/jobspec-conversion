@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leopard-2456
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU-shared
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$PROJECT/anaconda3/lib'
 export CUDA_HOME='/jet/packages/cuda/v11.7.1'

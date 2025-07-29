@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-dog-8183
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=4G
+#SBATCH --time=00:45:00
 
 export JULIA_DEPOT_PATH='$(pwd)/.slurmdepot/gpu'
 export OPENBLAS_NUM_THREADS='1'

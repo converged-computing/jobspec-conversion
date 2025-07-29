@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CEML_sobely_sobelx_original_resnet
-#FLUX: -c=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=CEML_sobely_sobelx_original_resnet
+#SBATCH --output=CEML_sobely_sobelx_original_resnet.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=3-00:00:00
+#SBATCH --chdir=/code/CEML/v2
 
 DATA_DIR="../images/dogs_cats_parent/dogs_cats-sobel_x-sobel_y-composit"
 CYCLES=20

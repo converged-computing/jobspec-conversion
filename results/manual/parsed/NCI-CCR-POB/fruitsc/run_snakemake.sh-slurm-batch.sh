@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SNAKEMAKETEST
-#FLUX: -c=2
-#FLUX: --queue=$PARTITIONS
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=SNAKEMAKETEST
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=40g
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=$PARTITIONS
 
 set -eo pipefail
 module purge

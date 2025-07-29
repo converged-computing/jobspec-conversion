@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PICSAR.ARMFORGE-SERIAL
-#FLUX: --exclusive
-#FLUX: --queue=c6gn
-#FLUX: --urgency=16
+#SBATCH --job-name=PICSAR.ARMFORGE-SERIAL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c6gn
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-taco-4932
-#FLUX: --queue=plgrid-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=10:00:00
+#SBATCH --partition=plgrid-gpu
 
 module purge
 module load plgrid/tools/python-intel

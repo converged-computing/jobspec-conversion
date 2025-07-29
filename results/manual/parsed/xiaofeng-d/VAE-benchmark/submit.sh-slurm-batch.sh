@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=VAE
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=VAE
+#SBATCH --account=cosmo_ai
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
 
 export PYTHONPATH='/home/dongx/anaconda3/envs/env_pytorch/lib/python3.6/site-packages'
 

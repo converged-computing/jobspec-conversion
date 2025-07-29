@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vcl
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=vcl
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load Anaconda3/2023.09-0
 module use $DATA/easybuild/modules/all

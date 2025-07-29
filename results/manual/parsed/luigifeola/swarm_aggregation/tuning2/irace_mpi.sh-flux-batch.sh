@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=irace_mpi_tuning2
-#FLUX: -n=21
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=irace_mpi_tuning2
+#FLUX -n=21
+#FLUX -t=86399
+#FLUX --urgency=16
 
 module load OpenMPI
 module load R

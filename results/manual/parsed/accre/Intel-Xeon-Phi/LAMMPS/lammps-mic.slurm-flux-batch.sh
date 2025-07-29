@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fork-8018
-#FLUX: --queue=mic
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-lemur-4043
+#FLUX --queue=mic
+#FLUX -t=14400
+#FLUX --urgency=16
 
 setpkgs -a intel_cluster_studio_compiler
 setpkgs -a lammps_mic

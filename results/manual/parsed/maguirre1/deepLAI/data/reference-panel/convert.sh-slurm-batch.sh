@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=convert
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=convert
+#SBATCH --output=logs/convert.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=05:00:00
+#SBATCH --array=1-22
 
 in_vcf="/scratch/users/magu/deepmix/data/vcf/expanded_ref_panel.vcf.gz"
 ml load biology; ml load bcftools; ml load htslib # bcftools, bgzip, tabix

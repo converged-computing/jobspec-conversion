@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pp
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pp
+#SBATCH --output=postp.out
+#SBATCH --error=postp.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=class_a
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --chdir=
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

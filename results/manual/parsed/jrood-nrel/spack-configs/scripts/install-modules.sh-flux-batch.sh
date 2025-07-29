@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=build-modules
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=build-modules
+#FLUX --queue=short
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'
 export SPACK_DISABLE_LOCAL_CONFIG='true'

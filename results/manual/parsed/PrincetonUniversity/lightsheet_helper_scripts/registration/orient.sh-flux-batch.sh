@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-malarkey-8428
-#FLUX: --queue=all
-#FLUX: -t=30000
-#FLUX: --urgency=16
+#FLUX --job-name=faux-parrot-3127
+#FLUX --queue=all
+#FLUX -t=30000
+#FLUX --urgency=16
 
 module load anacondapy/5.3.1
 source activate lightsheet

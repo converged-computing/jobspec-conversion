@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-fork-6178
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=48G
 
 export GOOGLE_APPLICATION_CREDENTIALS='$HOME/omicidx-338300-cbd1527c319e.json'
 export NXF_MODE='google'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=3dseg-torch_predict
-#FLUX: -c=6
-#FLUX: --queue=alpha
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=3dseg-torch_predict
+#FLUX -c=6
+#FLUX --queue=alpha
+#FLUX -t=7200
+#FLUX --urgency=16
 
 <<<<<<< HEAD
 module load release/23.04 GCC/12.2.0 Python/3.10.8 OpenMPI/4.1.4 CUDA/11.8.0

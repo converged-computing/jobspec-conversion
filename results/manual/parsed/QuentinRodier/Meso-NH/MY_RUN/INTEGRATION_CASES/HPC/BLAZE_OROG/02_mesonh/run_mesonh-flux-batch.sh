@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Blaze
-#FLUX: -n=128
-#FLUX: --queue=normal256
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#FLUX --job-name=Blaze
+#FLUX -n=128
+#FLUX --queue=normal256
+#FLUX -t=19200
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

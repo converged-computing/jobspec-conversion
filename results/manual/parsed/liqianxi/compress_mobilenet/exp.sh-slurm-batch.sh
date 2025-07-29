@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemur-9646
-#FLUX: -c=8
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=def-qianxi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:01:00
 
 module load python/3.9
 source venv/bin/activate

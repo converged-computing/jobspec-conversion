@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pcaslim
-#FLUX: -c=2
-#FLUX: -t=75600
-#FLUX: --urgency=16
+#SBATCH --job-name=pcaslim
+#SBATCH --account=nn9244k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1G
+#SBATCH --time=21:00:00
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

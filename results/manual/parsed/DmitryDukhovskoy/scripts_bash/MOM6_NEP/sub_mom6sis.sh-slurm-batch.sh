@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NEP_BGCphys
-#FLUX: -N=16
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=NEP_BGCphys
+#SBATCH --account=cefi
+#SBATCH --output=%x.o%j
+#SBATCH --error=err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
 
 export HEXE='fms_MOM6_SIS2_GENERIC_4P_compile_symm.x'
 

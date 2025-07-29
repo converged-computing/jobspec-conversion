@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-caramel-9035
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-nalgas-4134
+#FLUX --urgency=16
 
 echo "adding the support for the name process:"
 read -r -p "please provide the batch:" batch

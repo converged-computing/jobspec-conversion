@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-spoon-3119
-#FLUX: -c=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=kfm-471-aa
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=2-00:00:00
 
 module load julia/1.8.1
 julia --threads=auto --project scripts/main.jl 4 4  --nsamples=1000000 --nburns=10000 --seed=1234 --nthrows=50

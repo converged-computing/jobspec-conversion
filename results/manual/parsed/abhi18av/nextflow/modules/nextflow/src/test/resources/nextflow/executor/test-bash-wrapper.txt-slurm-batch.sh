@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-2111
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/abhi18av/nextflow/modules/nextflow/src/test/resources/nextflow/executor/test-bash-wrapper.txt

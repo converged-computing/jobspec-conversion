@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-general-2069
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8g
+#SBATCH --time=16:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

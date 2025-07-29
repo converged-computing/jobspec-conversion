@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=anisopb
-#FLUX: -n=2
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=anisopb
+#SBATCH --account=CNHPC_1465132
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=01:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/leonardo/home/userexternal/pdambra0/polynomialsmoothers/install/lib'
 export UCX_IB_LS='1'

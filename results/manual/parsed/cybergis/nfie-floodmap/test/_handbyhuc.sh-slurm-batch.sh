@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-salad-1136
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cybergis/nfie-floodmap/test/_handbyhuc.sh

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=setDevice_acc
-#FLUX: --queue=dev-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=setDevice_acc
+#SBATCH --account=project_465000485
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=00:10:00
+#SBATCH --partition=dev-g
+#SBATCH --constraint=ntasks-per-node=4
 
 module load CrayEnv
 module load PrgEnv-cray

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-sundae-3931
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export NB_PROCS='1 '
 

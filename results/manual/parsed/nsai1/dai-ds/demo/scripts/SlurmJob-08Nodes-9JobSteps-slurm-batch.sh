@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-banana-5917
-#FLUX: -N=8
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun /opt/ucs/demo/workloads/AMG 1
 srun /opt/ucs/demo/workloads/dgemm 2

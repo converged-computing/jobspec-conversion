@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=download_files
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=download_files
+#SBATCH --output=slurm/download_files-%j.out
+#SBATCH --error=slurm/download_files-%j.err
+#SBATCH --mail-user=tasawwar_rahman@brown.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=1-00:00:00
 
 mkdir chipseq_data
 samples=(

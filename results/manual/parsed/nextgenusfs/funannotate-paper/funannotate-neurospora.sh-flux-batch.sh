@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=funNeuroPred
-#FLUX: -n=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=funNeuroPred
+#FLUX -n=32
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load funannotate/git-live
 module load python/2.7.12

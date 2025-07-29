@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=debug-ABC
-#FLUX: -n=2
-#FLUX: --queue=debug
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=debug-ABC
+#SBATCH --output=logs/ABC/sims/do-%A-%a.o
+#SBATCH --error=logs/ABC/sims/do-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=00:15:00
+#SBATCH --partition=debug
+#SBATCH --array=2
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-3312
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-lizard-0431
+#FLUX -t=86400
+#FLUX --urgency=16
 
 mpirun lmp -var configfile ../Inputs/n360/kalj_n360_create.lmp -var id 1 -in ../Inputs/create_3d_binary.lmp
 mpirun lmp -var configfile ../Inputs/n360/kalj_n360_T1.5.lmp -var id 1 -in ../Inputs/production_3d_binary.lmp

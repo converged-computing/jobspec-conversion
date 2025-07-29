@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load GCC/8.3.0
 module load CUDA/10.2.89

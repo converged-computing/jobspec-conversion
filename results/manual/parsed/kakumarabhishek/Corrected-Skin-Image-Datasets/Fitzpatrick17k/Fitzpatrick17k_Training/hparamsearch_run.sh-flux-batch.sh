@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=f17k_hparam
-#FLUX: -c=16
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=f17k_hparam
+#FLUX -c=16
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 ulimit -Su unlimited
 ulimit -Sv unlimited

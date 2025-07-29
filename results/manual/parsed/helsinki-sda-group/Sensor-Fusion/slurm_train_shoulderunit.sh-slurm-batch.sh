@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Cross-Fusion
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Cross-Fusion
+#SBATCH --account=project_462000238
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
 
 export NCCL_SOCKET_IFNAME='hsn'
 export NCCL_NET_GDR_LEVEL='3'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mostest
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mostest
+#SBATCH --account=p33_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-50:2
 
 set -o errexit
 source ../settings.sh

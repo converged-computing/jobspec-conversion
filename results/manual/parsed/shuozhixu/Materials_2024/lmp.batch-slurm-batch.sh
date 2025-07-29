@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Ag
-#FLUX: -n=32
-#FLUX: --queue=cm3atou
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=Ag
+#SBATCH --output=Ag.out
+#SBATCH --error=Ag.err
+#SBATCH --mail-user=youremailaddress@yourinstitution.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=cm3atou
 
 cd ${SLURM_SUBMIT_DIR}
 rm -f dump.* shear.*

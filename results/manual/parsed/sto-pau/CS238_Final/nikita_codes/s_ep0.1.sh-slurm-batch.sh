@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=policy_real
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=policy_real
+#SBATCH --mail-user=nkozak@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 module purge
 module load openmpi

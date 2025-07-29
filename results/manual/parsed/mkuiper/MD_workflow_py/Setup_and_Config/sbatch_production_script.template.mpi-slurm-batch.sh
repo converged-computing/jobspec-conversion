@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-5624
-#FLUX: -N=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=02:00:00
 
 CONFIG=namd_production_script.conf
 module load openmpi

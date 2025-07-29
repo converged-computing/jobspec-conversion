@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=POLY1
-#FLUX: -c=3
+#FLUX --job-name=POLY1
+#FLUX -c=3
 #FLUX: --exclusive
-#FLUX: --queue=high_priority
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --queue=high_priority
+#FLUX -t=216000
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='close'
 

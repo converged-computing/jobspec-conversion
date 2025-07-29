@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-6775
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --output=out_test_20210514
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=dcu:4
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='32'
 

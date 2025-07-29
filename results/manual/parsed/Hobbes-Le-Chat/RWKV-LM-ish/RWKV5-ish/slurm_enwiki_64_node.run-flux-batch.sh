@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=RWKV-Cr
-#FLUX: -N=64
-#FLUX: -c=3
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=RWKV-Cr
+#FLUX -N=64
+#FLUX -c=3
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

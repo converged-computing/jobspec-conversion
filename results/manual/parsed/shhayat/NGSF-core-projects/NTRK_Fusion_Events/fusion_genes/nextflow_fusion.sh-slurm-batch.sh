@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nf_rnafusion
-#FLUX: -c=16
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=nf_rnafusion
+#SBATCH --account=hpc_p_anderson
+#SBATCH --output=%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=80G
+#SBATCH --time=1-16:00:00
+#SBATCH --constraint=skylake
 
 module --force purge
 module load StdEnv/2020

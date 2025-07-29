@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pot-7842
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=<project_id>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --partition=main
+#SBATCH --array=1-3
 
 module purge
 module load gcc/11.3.0

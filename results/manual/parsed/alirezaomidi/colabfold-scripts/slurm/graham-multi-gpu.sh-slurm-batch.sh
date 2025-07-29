@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=colabfold
-#FLUX: -c=44
-#FLUX: -t=259080
-#FLUX: --urgency=16
+#SBATCH --job-name=colabfold
+#SBATCH --account=rrg-gsponer
+#SBATCH --output=outputs/%A.%a.out
+#SBATCH --mail-user=CWL@student.ubc.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=44
+#SBATCH --mem=170000
+#SBATCH --time=2-23:58:00
+#SBATCH --array=0-7
 
 PASSWORD=$1
 shift

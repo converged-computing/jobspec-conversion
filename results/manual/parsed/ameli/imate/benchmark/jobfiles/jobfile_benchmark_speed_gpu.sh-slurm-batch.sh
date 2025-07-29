@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark_gpu
-#FLUX: -c=8
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark_gpu
+#SBATCH --account=fc_biome
+#SBATCH --output=output_gpu.log
+#SBATCH --mail-user=sameli@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=savio2_1080ti
+#SBATCH --qos=savio_normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

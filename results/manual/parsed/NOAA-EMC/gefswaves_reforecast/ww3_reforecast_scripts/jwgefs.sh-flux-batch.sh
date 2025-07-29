@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lettuce-8975
-#FLUX: -N=10
+#FLUX --job-name=cowy-caramel-9085
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: --queue=orion
-#FLUX: -t=28200
-#FLUX: --urgency=16
+#FLUX --queue=orion
+#FLUX -t=28200
+#FLUX --urgency=16
 
 ulimit -s unlimited
 ulimit -c 0

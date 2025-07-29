@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=zen2_base_cluener
-#FLUX: -c=30
-#FLUX: --urgency=16
+#FLUX --job-name=zen2_base_cluener
+#FLUX -c=30
+#FLUX --urgency=16
 
 export TORCH_EXTENSIONS_DIR='/cognitive_comp/ganruyi/tmp/torch_extendsions'
 

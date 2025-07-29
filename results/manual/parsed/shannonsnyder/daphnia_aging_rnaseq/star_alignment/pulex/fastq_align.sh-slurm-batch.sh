@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=star_align
-#FLUX: -N=3
-#FLUX: -c=12
-#FLUX: --queue=memory
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=star_align
+#SBATCH --account=bgmp
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=18:00:00
+#SBATCH --partition=memory
 
 module load easybuild
 module load icc/2017.1.132-GCC-6.3.0-2.27

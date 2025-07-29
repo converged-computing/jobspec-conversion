@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=8
-#FLUX: --queue=main
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX -n=8
+#FLUX --queue=main
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MKL_DYNAMIC='FALSE'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reindex_GC_trees
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=reindex_GC_trees
+#FLUX -N=32
+#FLUX --queue=regular
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='$HOME/.local/cori/2.7-anaconda/lib/python2.7/site-packages:$PYTHONPATH'
 

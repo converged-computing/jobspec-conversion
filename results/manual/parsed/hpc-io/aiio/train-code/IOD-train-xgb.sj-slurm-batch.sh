@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=xgb
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=72600
-#FLUX: --urgency=16
+#SBATCH --job-name=xgb
+#SBATCH --account=m1248
+#SBATCH --output=IOD-train-xgb.%j.out
+#SBATCH --error=IOD-train-xgb.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=20:10:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 module load cgpu
 module load python3/3.9-anaconda-2021.11

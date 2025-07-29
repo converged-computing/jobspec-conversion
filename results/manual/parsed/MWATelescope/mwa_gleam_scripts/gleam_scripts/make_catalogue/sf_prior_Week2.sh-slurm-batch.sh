@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-carrot-8922
-#FLUX: --queue=gpuq
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=mwaops
+#SBATCH --output=/home/phancock/queue/sf_prior_Week2.sh.o%A_%a
+#SBATCH --error=/home/phancock/queue/sf_prior_Week2.sh.e%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpuq
+#SBATCH --array=1-20
 
 export PATH='/group/mwaops/phancock/code/Aegean:$PATH'
 export PYTHONPATH='/group/mwaops/phancock/code/Aegean:$PYTHONPATH'

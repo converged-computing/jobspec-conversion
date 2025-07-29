@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=acwg-clamp-b
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=acwg-clamp-b
+#SBATCH --output=dcgan_%j.out
+#SBATCH --mail-user=ls4411@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load python/intel/2.7.12

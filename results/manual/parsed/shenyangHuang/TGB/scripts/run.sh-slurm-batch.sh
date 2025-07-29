@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hobbit-5217
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=dyrep_trade_s5.txt
+#SBATCH --error=dyrep_trade_s5error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 export HOME='/home/mila/h/huangshe'
 

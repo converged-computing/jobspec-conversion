@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qec-test
-#FLUX: --queue=alvis
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --job-name=qec-test
+#SBATCH --account=SNIC2020-33-2
+#SBATCH --output=./logs-sbatch/logs-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:20
+#SBATCH --partition=alvis
 
 echo "###### Starting job on cluster"
 echo "Learner device: ${DISTRIBUTED_CONFIG_LEARNER_DEVICE}"

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_dataset
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_dataset
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120GB
+#SBATCH --time=1-00:00:00
 
 module purge
 singularity exec --nv \

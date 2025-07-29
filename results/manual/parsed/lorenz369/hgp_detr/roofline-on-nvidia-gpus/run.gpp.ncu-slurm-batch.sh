@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-earthworm-8479
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=gpu
 
 module load cuda/11.0.2
 module load pgi/19.10

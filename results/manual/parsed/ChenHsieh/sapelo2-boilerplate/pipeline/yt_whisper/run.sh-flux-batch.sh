@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=whisper
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=whisper
+#FLUX -c=8
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 date
 ml Nextflow

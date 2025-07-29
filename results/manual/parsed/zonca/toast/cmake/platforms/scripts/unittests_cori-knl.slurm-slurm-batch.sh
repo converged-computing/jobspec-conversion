@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=toastunit
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=toastunit
+#SBATCH --account=mp107
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
 
 export OMP_NUM_THREADS='${NODE_THREAD}'
 export OMP_PLACES='threads'

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train.job
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train.job
+#SBATCH --output=/home/yuhewang/projects/SelfExp/results/temp_out-%j.txt
+#SBATCH --error=/home/yuhewang/projects/SelfExp/results/temp_err-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --time=2-00:00:00
+#SBATCH --nodelist=ai05
 
 export TOKENIZERS_PARALLELISM='false'
 

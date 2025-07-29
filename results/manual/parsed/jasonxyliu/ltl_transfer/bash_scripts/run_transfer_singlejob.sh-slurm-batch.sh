@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-rabbit-9317
-#FLUX: -n=99
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=sbatch_out/job-%j.out
+#SBATCH --error=sbatch_out/job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=99
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=199G
+#SBATCH --time=05:00:00
 
 export PYTHONUNBUFFERED='TRUE'
 

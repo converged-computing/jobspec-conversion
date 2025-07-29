@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=glue
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=glue
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a40:1
+#SBATCH --mem=30g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-1%2
 
 export TRANSFORMERS_CACHE='checkpoints/hf_model'
 export HF_DATASETS_CACHE='checkpoints/hf_model'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chip-6845
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-motorcycle-7606
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/adrn/GCMatchedFilter/mpi/cluster-ll.sh

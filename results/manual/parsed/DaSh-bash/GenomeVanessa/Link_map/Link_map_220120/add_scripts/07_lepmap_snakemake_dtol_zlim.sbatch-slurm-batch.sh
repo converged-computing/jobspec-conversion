@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=linkage_map_vanessa_lepmap_dtol
-#FLUX: -n=2
-#FLUX: --queue=core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=linkage_map_vanessa_lepmap_dtol
+#SBATCH --account=snic2021-5-20
+#SBATCH --error=linkage_map_vanessa_lepmap_dtol_zlim
+#SBATCH --mail-user=karin.nasvall@ebc.uu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=core
 
 export CONDA_ENVS_PATH='/proj/uppstore2017185/b2014034_nobackup/Karin/envs/'
 

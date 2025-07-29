@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nfct-discovery-array
-#FLUX: -c=10
-#FLUX: --queue=haswell
-#FLUX: --urgency=16
+#SBATCH --job-name=nfct-discovery-array
+#SBATCH --output=Slurm/slurm-%A_%a.out
+#SBATCH --error=Slurm/slurm-%A_%a.err
+#SBATCH --mail-user=user@mail.com
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=8G
+#SBATCH --partition=haswell
+#SBATCH --array=1-10%5
 
 DATE_WITH_TIME=`date "+%Y%m%d-%H%M%S"`
 TRAIT_DIR="/my/trait/dir"

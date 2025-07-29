@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=FV3_container
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=FV3_container
+#SBATCH --output=FV3_container_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
 
 dirRoot=/contrib/fv3
 intelVersion=2022.1.1

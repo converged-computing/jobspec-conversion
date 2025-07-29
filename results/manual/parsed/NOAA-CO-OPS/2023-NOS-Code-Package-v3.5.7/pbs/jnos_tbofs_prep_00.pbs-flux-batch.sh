@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poodle-4661
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-salad-5477
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_tbofs_prep_00.pbs

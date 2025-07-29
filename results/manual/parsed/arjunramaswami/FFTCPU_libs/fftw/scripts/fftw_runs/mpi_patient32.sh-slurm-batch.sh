@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_patient
-#FLUX: -N=8
-#FLUX: -n=32
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_patient
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --nodes=8
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=8
 
 module reset
 module load devel/CMake

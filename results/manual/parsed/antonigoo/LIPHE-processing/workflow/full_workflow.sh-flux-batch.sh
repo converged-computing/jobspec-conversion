@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=full_workflow
-#FLUX: --queue=small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=full_workflow
+#FLUX --queue=small
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PATH='/projappl/project_2003180/samantha/bin:$PATH'
 

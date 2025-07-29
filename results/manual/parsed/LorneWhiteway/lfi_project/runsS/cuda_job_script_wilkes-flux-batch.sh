@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pgr3_010
-#FLUX: --queue=ampere
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#FLUX --job-name=pgr3_010
+#FLUX --queue=ampere
+#FLUX -t=129540
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 

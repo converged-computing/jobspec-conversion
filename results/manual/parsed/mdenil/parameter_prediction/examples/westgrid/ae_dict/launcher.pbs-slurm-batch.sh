@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-2305
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mdenil/parameter_prediction/examples/westgrid/ae_dict/launcher.pbs

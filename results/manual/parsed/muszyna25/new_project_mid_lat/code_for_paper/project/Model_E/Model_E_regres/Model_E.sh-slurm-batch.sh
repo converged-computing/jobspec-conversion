@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-gato-7826
-#FLUX: -N=5
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --mail-user=gmuszynski@lbl.gov
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH
 
 set -u
 BATCH_START_TIME=$(date)

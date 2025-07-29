@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bits-5069
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/nwchem/runs/H2O_freq/PBS_grid_umb_sk-nw.01

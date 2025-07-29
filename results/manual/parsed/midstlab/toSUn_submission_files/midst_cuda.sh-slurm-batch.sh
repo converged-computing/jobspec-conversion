@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=DHFR
-#FLUX: --queue=midst
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=DHFR
+#SBATCH --account=midst
+#SBATCH --output=%j-log.out
+#SBATCH --mail-user=ebrucetin@sabanciuniv.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_k40:1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=midst
+#SBATCH --qos=midst
+#SBATCH --constraint=ntasks-per-node=24
 
 INPUT_FILE="tmpp_w30g_l28r.conf"
 source /etc/profile.d/modules.sh

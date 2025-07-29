@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-avocado-6037
-#FLUX: -n=32
-#FLUX: --queue=seas_dgx1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=joblogs/%A_%a.out
+#SBATCH --error=joblogs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=seas_dgx1
 
 export USER_UID='$UID'
 export USER_GID='$(id -g)'

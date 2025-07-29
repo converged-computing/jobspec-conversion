@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=b.5-200-parallel
-#FLUX: -c=2
-#FLUX: --queue=CPUQ
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --job-name=b.5-200-parallel
+#FLUX -c=2
+#FLUX --queue=CPUQ
+#FLUX -t=356400
+#FLUX --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

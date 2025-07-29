@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_constraints
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=train_constraints
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 set -u
 set -e

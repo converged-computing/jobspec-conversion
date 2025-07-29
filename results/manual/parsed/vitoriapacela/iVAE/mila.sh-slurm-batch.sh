@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ivae
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ivae
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100Gb
+#SBATCH --time=1-00:00:00
 
 module load miniconda/3 pytorch/1.8.1
 conda activate research

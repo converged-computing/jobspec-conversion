@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-punk-0484
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-kerfuffle-3604
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export command='python train.py --path_opt options/tools/minhmul_noatt_train_2048.yaml'

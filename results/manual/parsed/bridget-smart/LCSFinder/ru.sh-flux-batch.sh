@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-despacito-4367
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-signal-8175
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 pip install -U datetime pandas numpy warnings numba seaborn matplotlib tqdm
 swig -c++ -python LCSFinder.i 

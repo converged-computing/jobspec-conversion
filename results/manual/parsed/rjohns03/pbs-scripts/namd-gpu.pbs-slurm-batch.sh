@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-eagle-1366
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/rjohns03/pbs-scripts/namd-gpu.pbs

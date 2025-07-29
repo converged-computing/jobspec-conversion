@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=torchaudiomodel
-#FLUX: -c=80
-#FLUX: --queue=learnfair
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=torchaudiomodel
+#SBATCH --output=/checkpoint/%u/jobs/audio-%A-%a.out
+#SBATCH --error=/checkpoint/%u/jobs/audio-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:8
+#SBATCH --mem=5120
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=learnfair
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-4
 
 export MASTER_ADDR='${SLURM_JOB_NODELIST:0:9}${SLURM_JOB_NODELIST:10:4}'
 export MASTER_PORT='29500'

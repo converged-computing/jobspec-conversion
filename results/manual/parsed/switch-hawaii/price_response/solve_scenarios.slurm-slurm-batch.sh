@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=demand_scenarios
-#FLUX: --queue=shared
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=demand_scenarios
+#SBATCH --output=logs/%A_%a.out
+#SBATCH --error=logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6400
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=shared
+#SBATCH --array=1-40
 
 module load lang/Anaconda3
 source activate demand_system

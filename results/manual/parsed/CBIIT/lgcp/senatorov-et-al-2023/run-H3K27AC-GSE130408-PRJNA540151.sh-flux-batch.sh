@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-milkshake-2987
-#FLUX: -c=12
-#FLUX: --queue=ccr
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-latke-7124
+#FLUX -c=12
+#FLUX --queue=ccr
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load nextflow

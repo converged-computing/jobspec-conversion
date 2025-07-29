@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run2
-#FLUX: --queue=small-gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=run2
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
+#SBATCH --partition=small-gpu
+#SBATCH --constraint=ntasks-per-node=20
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

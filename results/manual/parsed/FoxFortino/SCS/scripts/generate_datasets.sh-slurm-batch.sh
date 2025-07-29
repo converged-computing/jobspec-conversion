@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gen_data
-#FLUX: -c=8
-#FLUX: --queue=idle
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_data
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=idle
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725
 
 UD_QUIET_JOB_SETUP=YES
 . /opt/shared/slurm/templates/libexec/common.sh

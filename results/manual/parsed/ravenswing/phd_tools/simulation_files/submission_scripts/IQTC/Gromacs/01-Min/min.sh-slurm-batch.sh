@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=min
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=min
+#SBATCH --output=min.out
+#SBATCH --error=min.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=01:00:00
+#SBATCH --qos=class_a
+#SBATCH --constraint=ntasks-per-node=24
 
 export name='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

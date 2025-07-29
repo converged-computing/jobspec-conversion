@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=generate_act
-#FLUX: -c=32
-#FLUX: --queue=gp4d
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_act
+#SBATCH --account=ENT212162
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:8
+#SBATCH --partition=gp4d
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONUSERBASE='$CONDA_PREFIX'
 export HF_HOME='/work/twsuzrf718/hf_home'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-toaster-8243
-#FLUX: -N=11
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-cherry-8098
+#FLUX -N=11
+#FLUX -c=8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

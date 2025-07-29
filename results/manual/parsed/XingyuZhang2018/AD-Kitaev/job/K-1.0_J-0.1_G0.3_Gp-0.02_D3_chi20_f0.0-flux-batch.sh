@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-despacito-3763
-#FLUX: --queue=titanv
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-sundae-8199
+#FLUX --queue=titanv
+#FLUX -t=35996400
+#FLUX --urgency=16
 
 module load julia-1.7.1
 project_dir=~/research/AD_Kitaev

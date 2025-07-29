@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BlokusGreedyNoDiscount
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=BlokusGreedyNoDiscount
+#FLUX -N=10
+#FLUX -n=10
+#FLUX -c=128
+#FLUX --queue=medium
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo "All arguments: $@"
 module purge

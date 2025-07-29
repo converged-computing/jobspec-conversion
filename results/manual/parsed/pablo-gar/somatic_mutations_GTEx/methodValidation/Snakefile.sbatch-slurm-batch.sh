@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-leader-3923
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_methodValidation.out
+#SBATCH --error=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_methodValidation.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
+#SBATCH --partition=hbfraser,hns,normal
 
 module load anaconda3
 source activate fraserconda

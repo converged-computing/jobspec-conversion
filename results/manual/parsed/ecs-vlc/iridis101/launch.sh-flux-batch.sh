@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bike-9684
-#FLUX: -c=32
-#FLUX: --queue=ecsstudents
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-cinnamonbun-6190
+#FLUX -c=32
+#FLUX --queue=ecsstudents
+#FLUX -t=240
+#FLUX --urgency=16
 
 module load conda/py3-latest
 conda activate my-pytorch-env

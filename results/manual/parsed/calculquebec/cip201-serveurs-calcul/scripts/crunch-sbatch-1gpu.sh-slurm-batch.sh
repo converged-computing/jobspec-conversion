@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-truffle-9855
-#FLUX: -t=540
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000M
+#SBATCH --time=00:09:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module load gcc/9.3.0 cuda/11.4 python/3.8.10
 virtualenv --no-download $SLURM_TMPDIR/venv_cupy

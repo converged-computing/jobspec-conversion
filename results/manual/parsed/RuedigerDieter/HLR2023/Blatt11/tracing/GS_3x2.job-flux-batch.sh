@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-plant-5901
-#FLUX: -N=2
-#FLUX: -n=3
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-sundae-6972
+#FLUX -N=2
+#FLUX -n=3
+#FLUX --queue=west
+#FLUX --urgency=16
 
 . /opt/spack/20220821/share/spack/setup-env.sh
 spack load scorep

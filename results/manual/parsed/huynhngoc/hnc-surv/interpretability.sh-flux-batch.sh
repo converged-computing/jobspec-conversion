@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=interpret
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=interpret
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

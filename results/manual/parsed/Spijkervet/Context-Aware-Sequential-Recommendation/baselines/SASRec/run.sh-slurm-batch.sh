@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sasrec
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sasrec
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000M
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.44-GCCcore-5.4.0/lib64:$LD_LIBRARY_PATH'
 

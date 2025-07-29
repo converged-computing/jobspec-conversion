@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conll2003_train
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=conll2003_train
+#SBATCH --output=conll2003_train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_prod_long
 
 export PATH='/opt/conda/bin:$PATH'
 

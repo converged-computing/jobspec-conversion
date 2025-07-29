@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=calp_alpha
-#FLUX: -n=24
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=calp_alpha
+#SBATCH --output=logs/alphafold.%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=48gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export SINGULARITY_BIND='${SCRATCH}:/tmp'
 

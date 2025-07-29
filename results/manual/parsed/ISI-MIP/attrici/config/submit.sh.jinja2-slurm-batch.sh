@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name={{jobname}}
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=604200
-#FLUX: --urgency=16
+#SBATCH --job-name={{jobname}}
+#SBATCH --account=isipedia
+#SBATCH --output={{s.log_dir}}/%x_%a.out
+#SBATCH --error={{s.log_dir}}/%x_%a.err
+#SBATCH --mail-user={{s.user}}@pik-potsdam.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=6-23:50:00
+#SBATCH --partition=priority
+#SBATCH --qos=priority
+#SBATCH --array=0-{{s.njobarray-1}}
 
 export CXX='g++'
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'

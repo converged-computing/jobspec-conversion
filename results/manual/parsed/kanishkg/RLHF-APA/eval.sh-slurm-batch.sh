@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-train-0050
-#FLUX: -c=8
-#FLUX: --queue=cocoflops
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=cocoflops
+#SBATCH --output=job_output.%j.out
+#SBATCH --error=job_output.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=cocoflops
+#SBATCH --nodelist=cocoflops-hgx-1
 
 if [ "$(hostname)" = "cocoflops1.stanford.edu" ] || [ "$(hostname)" = "cocoflops2.stanford.edu" ]; then
     # >>> conda initialize >>>

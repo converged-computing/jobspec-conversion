@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lettuce-9303
-#FLUX: --queue=owners
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=02:00:00
+#SBATCH --partition=owners
 
 remote_name=quakedrive
 drive_path='Sherlock Backupss'

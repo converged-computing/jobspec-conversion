@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dmd
-#FLUX: -c=30
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=dmd
+#SBATCH --output=slurm-dmd-%j.out
+#SBATCH --error=slurm-dmd-%j.err
+#SBATCH --mail-user=carole.belliardo@inrae.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=250G
+#SBATCH --partition=all
 
 module load singularity/3.5.3
 SING_IMG='/database/hub/SINGULARITY_GALAXY/diamond:2.1.7--h5b5514e_0'

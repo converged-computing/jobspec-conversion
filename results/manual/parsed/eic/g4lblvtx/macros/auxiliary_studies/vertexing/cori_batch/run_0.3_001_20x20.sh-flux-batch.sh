@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-blackbean-3283
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-nalgas-0530
+#FLUX -t=1200
+#FLUX --urgency=16
 
 shifter ./shifter.sh $SLURM_ARRAY_TASK_ID 100000 0 0 1 0.3 20

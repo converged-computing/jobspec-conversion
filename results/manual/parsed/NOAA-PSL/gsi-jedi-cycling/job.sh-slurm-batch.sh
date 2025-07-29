@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=da_jedi_C96_lgetkf_sondesonly
-#FLUX: -N=10
-#FLUX: --queue=orion
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=da_jedi_C96_lgetkf_sondesonly
+#SBATCH --account=gsienkf
+#SBATCH --output=da_jedi_C96_lgetkf_sondesonly.out
+#SBATCH --error=da_jedi_C96_lgetkf_sondesonly.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --partition=orion
+#SBATCH --constraint=ntasks-per-node=40
 
 export NODES='$SLURM_NNODES'
 export corespernode='$SLURM_CPUS_ON_NODE'

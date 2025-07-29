@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example_Si
-#FLUX: -n=20
-#FLUX: --queue=test
-#FLUX: --urgency=16
+#SBATCH --job-name=example_Si
+#SBATCH --output=example_Si_%j.log
+#SBATCH --error=example_Si_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=test
+#SBATCH --qos=testqos
 
 export OMP_NUM_THREADS='20'
 

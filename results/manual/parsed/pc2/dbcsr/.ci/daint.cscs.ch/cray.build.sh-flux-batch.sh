@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-kitty-2005
-#FLUX: -c=3
+#FLUX --job-name=spicy-carrot-8067
+#FLUX -c=3
 #FLUX: --exclusive
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 set -o errexit
 set -o nounset

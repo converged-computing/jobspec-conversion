@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pl-run
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pl-run
+#FLUX -c=6
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

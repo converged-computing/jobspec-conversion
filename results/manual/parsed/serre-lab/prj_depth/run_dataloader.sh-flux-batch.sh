@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=depth_dataset
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=depth_dataset
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /users/aarjun1/data/aarjun1/prj_depth/
 module load anaconda/3-5.2.0

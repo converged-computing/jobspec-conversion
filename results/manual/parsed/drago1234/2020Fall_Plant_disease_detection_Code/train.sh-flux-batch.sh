@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=plant_disease_diagnosis
-#FLUX: --queue=gpuserial-48core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=plant_disease_diagnosis
+#FLUX --queue=gpuserial-48core
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='true'
 

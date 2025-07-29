@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-7046
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --output=otb.stdout.%j.%N
+#SBATCH --error=otb.stderr.%j.%N
+#SBATCH --mail-user=<username>
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=long
 
 module load nextflow/22.04.3
 module load singularityCE

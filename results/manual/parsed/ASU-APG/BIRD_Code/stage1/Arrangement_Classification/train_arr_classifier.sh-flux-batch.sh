@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cherry-2714
-#FLUX: -n=4
-#FLUX: --queue=cidsegpu1
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#FLUX --job-name=purple-onion-6003
+#FLUX -n=4
+#FLUX --queue=cidsegpu1
+#FLUX -t=87120
+#FLUX --urgency=16
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Arrangement_Classification

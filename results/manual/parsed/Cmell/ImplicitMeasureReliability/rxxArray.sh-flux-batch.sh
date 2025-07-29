@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Run_3-MPI
-#FLUX: -N=10
-#FLUX: --queue=shas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Run_3-MPI
+#FLUX -N=10
+#FLUX --queue=shas
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load R/3.3.0

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-signal-7252
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export TOOLS_HOME='$HOME/bin'
 export CONFIG_FILE='$TOOLS_HOME/CONFIG.default'

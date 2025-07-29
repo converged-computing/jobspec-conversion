@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=label_distillation
-#FLUX: --queue=PGR-Standard
-#FLUX: -t=162671
-#FLUX: --urgency=16
+#SBATCH --job-name=label_distillation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=1-21:11:11
+#SBATCH --partition=PGR-Standard
 
 export CUDA_HOME='/opt/cuda-10.0.130/'
 export CUDNN_HOME='/opt/cuDNN-7.6.0.64_10.0/'

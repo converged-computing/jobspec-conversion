@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=multi
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=multi
+#SBATCH --output=m_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=10G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-7
 
 module purge
 module load python

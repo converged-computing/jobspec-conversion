@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS
-#FLUX: -n=128
-#FLUX: -c=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS
+#SBATCH --account=uoa99999
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=00:30:00
 
 source /etc/profile.d/modules.sh
 module load lammps

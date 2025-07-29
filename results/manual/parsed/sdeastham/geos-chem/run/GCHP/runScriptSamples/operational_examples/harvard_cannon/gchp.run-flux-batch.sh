@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-noodle-8991
-#FLUX: -N=2
-#FLUX: -n=96
+#FLUX --job-name=creamy-diablo-7519
+#FLUX -N=2
+#FLUX -n=96
 #FLUX: --exclusive
-#FLUX: --queue=huce_intel,seas_compute,shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --queue=huce_intel,seas_compute,shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMPI_MCL_btl='openib'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cattywampus-7145
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=grated-caramel-8438
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load gcc/6.2.0
 module load python/3.6.0

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama_QA_generate
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_QA_generate
+#SBATCH --account=sds-phd-2022
+#SBATCH --output=llama_QA_generate-%A.out
+#SBATCH --error=llama_QA_generate-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

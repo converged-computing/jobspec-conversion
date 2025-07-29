@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sbatch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load anaconda3/5.0.1
 source activate tf1-gpu

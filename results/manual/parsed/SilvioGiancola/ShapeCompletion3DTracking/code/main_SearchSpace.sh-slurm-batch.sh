@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SearSpac
-#FLUX: -c=9
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=SearSpac
+#SBATCH --output=SearSpac.%3a.%A.out
+#SBATCH --error=SearSpac.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --gres=gpu
+#SBATCH --mem=40G
+#SBATCH --time=4-04:00:00
+#SBATCH --array=0-3
 
 echo "Loading anaconda..."
 module purge

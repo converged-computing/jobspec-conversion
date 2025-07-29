@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-destiny-5289
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-citrus-4518
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export MPICC='mpicc'
 export MPICXX='mpicpc'

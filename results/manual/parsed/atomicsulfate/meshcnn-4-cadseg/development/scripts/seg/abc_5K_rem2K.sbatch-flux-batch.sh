@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MeshCNNABC5KRem2K
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=MeshCNNABC5KRem2K
+#FLUX -c=40
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo $PWD
 echo "Entering working directory"

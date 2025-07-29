@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_mpi
-#FLUX: -N=2
-#FLUX: --queue=workq
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs_mpi
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:40:00
+#SBATCH --partition=workq
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load gromacs/5.1.1

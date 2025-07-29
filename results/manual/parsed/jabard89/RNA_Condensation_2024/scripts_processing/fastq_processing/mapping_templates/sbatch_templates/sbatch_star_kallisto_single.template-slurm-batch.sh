@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name={SAMPLE}
-#FLUX: -c=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name={SAMPLE}
+#SBATCH --account=pi-dadrummond
+#SBATCH --output=sbatch/map_{SAMPLE}_%j.out
+#SBATCH --error=sbatch/map_{SAMPLE}_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=10:00:00
 
 module load python/anaconda-2022.05
 source activate /home/jbard/beagle3-dadrummond/jbard/envs/py310_snake_star

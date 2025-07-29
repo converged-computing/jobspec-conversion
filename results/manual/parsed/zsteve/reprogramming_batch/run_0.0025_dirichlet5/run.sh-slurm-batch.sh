@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-blackbean-7101
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/reprogramming_batch/run_0.0025_dirichlet5/run.sh

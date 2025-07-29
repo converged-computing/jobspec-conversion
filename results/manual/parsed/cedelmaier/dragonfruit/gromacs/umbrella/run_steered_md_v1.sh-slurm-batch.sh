@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=memb_smd
-#FLUX: -n=3
-#FLUX: -c=8
-#FLUX: --queue=volta-gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=memb_smd
+#SBATCH --output=smd_run-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:3
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=08:00:00
+#SBATCH --partition=volta-gpu
+#SBATCH --qos=gpu_access
+#SBATCH --constraint=rhel8
 
 unset OMP_NUM_THREADS
 module purge

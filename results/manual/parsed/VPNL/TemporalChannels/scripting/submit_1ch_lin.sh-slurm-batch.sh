@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=c1l
-#FLUX: -c=12
-#FLUX: --queue=hns,normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=c1l
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=2GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hns,normal
 
 module load matlab/R2017a
 matlab -nodisplay < optimize_1ch_lin.m

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goal_pipeline
-#FLUX: -c=16
-#FLUX: --queue=short
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=goal_pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=65536
+#SBATCH --time=08:00:00
+#SBATCH --partition=short
 
 export SINGULARITYENV_SLURM_CPUS_ON_NODE='$SLURM_CPUS_ON_NODE'
 

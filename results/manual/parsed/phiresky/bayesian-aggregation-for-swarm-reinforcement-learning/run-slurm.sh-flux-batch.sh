@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemon-0312
-#FLUX: --queue=gpu_4,gpu_8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=faux-lettuce-9410
+#FLUX --queue=gpu_4,gpu_8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "$0" "$@"
 module load compiler/gnu/10.2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-0988
-#FLUX: -c=3
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pedo-3285
+#FLUX -c=3
+#FLUX -t=82800
+#FLUX --urgency=16
 
 if [ -z "$SCRIPT_DIR" ] && [ -n "$SLURM_JOB_ID" ]; then
 	# No other script has set SCRIPT_DIR and we are on slurm (i.e. we are

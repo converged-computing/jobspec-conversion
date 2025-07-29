@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prod
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=prod
+#SBATCH --output=slurm_logs/prod_%A_%a.out
+#SBATCH --error=slurm_logs/prod_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='8'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=tipes
+#SBATCH --output=/home/linushe/outputs/plain-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

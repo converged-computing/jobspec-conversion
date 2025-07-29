@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PointNet
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=PointNet
+#SBATCH --output=out/%j.stdout
+#SBATCH --error=err/%j.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:30:00
+#SBATCH --constraint=V100
 
 hostname
 module load tensorflow/1.14.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pancake-9077
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-pot-8221
+#FLUX -c=4
+#FLUX --urgency=16
 
 if [[ -z "$SLURM_JOB_ID" ]]; then
   PARTITION="gpusmall"

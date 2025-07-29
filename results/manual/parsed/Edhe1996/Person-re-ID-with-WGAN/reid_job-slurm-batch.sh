@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=label
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=label
+#SBATCH --output=label.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu
 
 module load CUDA
 echo Running on host `hostname`

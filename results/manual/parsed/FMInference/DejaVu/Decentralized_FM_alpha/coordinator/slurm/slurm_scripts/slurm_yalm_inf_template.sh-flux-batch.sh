@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=yalm
-#FLUX: -c=4
-#FLUX: --queue=sphinx
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#FLUX --job-name=yalm
+#FLUX -c=4
+#FLUX --queue=sphinx
+#FLUX -t=14340
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gen_voxel
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_voxel
+#SBATCH --output=gen_voxel.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --nv \
         --overlay /scratch/zc2309/nuscenes.ext3:ro \

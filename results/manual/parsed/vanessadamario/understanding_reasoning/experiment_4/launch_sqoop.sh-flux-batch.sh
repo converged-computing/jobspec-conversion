@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_sqoop
-#FLUX: --queue=normal
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#FLUX --job-name=train_sqoop
+#FLUX --queue=normal
+#FLUX -t=324000
+#FLUX --urgency=16
 
 module add openmind/singularity/3.4.1
 hostname

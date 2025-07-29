@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tractseg
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tractseg
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -eu
 base=$2

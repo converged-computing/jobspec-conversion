@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cufflinks_0
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cufflinks_0
+#SBATCH --output=cufflinks_0.o%j
+#SBATCH --error=cufflinks_0.e%j
+#SBATCH --mail-user=arnstrm@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 cd $SLURM_SUBMIT_DIR
 ulimit -s unlimited

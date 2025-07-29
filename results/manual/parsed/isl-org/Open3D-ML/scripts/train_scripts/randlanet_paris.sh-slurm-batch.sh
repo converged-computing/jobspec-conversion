@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-train-6419
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 if [ "$#" -ne 2 ]; then
     echo "Please, provide the training framework: torch/tf and dataset path"

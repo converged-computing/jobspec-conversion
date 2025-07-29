@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pyt_render
-#FLUX: --queue=rtx
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=pyt_render
+#SBATCH --account=BCS20003
+#SBATCH --output=pyt_render.o%j
+#SBATCH --error=pyt_render.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
+#SBATCH --partition=rtx
 
 set -e
 cd ..

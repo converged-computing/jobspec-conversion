@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=XXX
-#FLUX: -t=532800
-#FLUX: --urgency=16
+#FLUX --job-name=XXX
+#FLUX -t=532800
+#FLUX --urgency=16
 
 ```
 module load rcac

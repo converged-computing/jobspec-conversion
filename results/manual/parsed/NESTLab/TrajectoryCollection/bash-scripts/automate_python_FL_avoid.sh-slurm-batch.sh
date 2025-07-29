@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=FA0660
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=FA0660
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --partition=short
+#SBATCH --constraint=E5-2680
 
 set -e
 BASE_LOC=$PWD

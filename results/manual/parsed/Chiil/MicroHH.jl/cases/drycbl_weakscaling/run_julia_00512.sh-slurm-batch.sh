@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-latke-3941
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=thin
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 module load 2021
 module load foss/2021a

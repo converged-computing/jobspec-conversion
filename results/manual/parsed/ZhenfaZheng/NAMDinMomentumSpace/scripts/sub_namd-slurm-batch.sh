@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-ricecake-3089
-#FLUX: --queue=normal,normal2,normal3,normal4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal,normal2,normal3,normal4
+#SBATCH --constraint=ntasks-per-node=28
 
 export PATH='/data/app/qe-7.2/Hefei-NAMD/NAMD-EPC/src:$PATH'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=1-gpu-bidaf-pytorch
-#FLUX: --queue=m40-long
-#FLUX: --urgency=16
+#FLUX --job-name=1-gpu-bidaf-pytorch
+#FLUX --queue=m40-long
+#FLUX --urgency=16
 
 echo $SLURM_JOBID - `hostname` >> ~/slurm-jobs.txt
 module purge

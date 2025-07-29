@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-9519
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-truffle-7053
+#FLUX --urgency=16
 
 export PATH='/vol/bitbucket/${USER}/cbm_venv/bin/:$PATH'
 export PYTHONPATH='${PYTHONPATH}:/vol/bitbucket/${USER}/roko-for-charlize'

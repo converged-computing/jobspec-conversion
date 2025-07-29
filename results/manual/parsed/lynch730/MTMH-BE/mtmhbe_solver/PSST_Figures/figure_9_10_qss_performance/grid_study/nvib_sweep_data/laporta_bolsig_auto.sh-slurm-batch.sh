@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=glap_bol_auto
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=glap_bol_auto
+#SBATCH --output=laporta_grid_study_nvib_bolsig_auto.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=18
 
 export omp_num_threads='8'
 

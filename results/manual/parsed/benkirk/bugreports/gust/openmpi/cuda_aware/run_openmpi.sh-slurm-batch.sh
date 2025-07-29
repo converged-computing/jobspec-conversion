@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-earthworm-3258
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/bugreports/gust/openmpi/cuda_aware/run_openmpi.sh

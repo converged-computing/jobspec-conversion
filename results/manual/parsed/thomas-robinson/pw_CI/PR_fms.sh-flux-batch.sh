@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FMS_container
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=FMS_container
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -t=900
+#FLUX --urgency=16
 
 intelVersion=2021.2
 container=/contrib/intel${intelVersion}_netcdfc4.7.4_ubuntu.sif

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-onion-8224
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=345730
-#FLUX: --urgency=16
+#SBATCH --output=job-%j-%N.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64gb
+#SBATCH --time=4-00:02:10
 
 export NCCL_BLOCKING_WAIT='1  # Set this variable to use the NCCL backend'
 export NCCL_IB_DISABLE='1'

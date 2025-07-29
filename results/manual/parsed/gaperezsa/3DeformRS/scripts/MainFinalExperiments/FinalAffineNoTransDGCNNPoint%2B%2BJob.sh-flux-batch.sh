@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AffNoTransJob
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=AffNoTransJob
+#FLUX -c=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load gcc
 echo "######################### SLURM JOB ########################"

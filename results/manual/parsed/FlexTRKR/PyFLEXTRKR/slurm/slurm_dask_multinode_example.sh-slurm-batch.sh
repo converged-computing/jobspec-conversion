@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mcstracking
-#FLUX: -N=5
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mcstracking
+#SBATCH --account=m1867
+#SBATCH --output=log_mcstracking.log
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16,haswell
 
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__CONNECT='360s'
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__TCP='360s'

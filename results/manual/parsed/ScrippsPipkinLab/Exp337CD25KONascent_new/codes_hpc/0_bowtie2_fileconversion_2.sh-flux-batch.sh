@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-spoon-0844
-#FLUX: -n=16
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-cat-7236
+#FLUX -n=16
+#FLUX --urgency=16
 
 INDIR=/gpfs/group/pipkin/hdiao/Exp337/0_fastq
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

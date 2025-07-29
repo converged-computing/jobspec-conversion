@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-buttface-0581
-#FLUX: -n=32
-#FLUX: --queue=serial_requeue
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-noodle-1196
+#FLUX -n=32
+#FLUX --queue=serial_requeue
+#FLUX -t=2400
+#FLUX --urgency=16
 
 module load gcc/4.9.3-fasrc01 tensorflow/0.12.0-fasrc02
 python fouriernetwork_odyssey64.py

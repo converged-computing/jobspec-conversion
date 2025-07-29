@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-latke-1240
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=project_462000241
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate
 cd /pfs/lustrep2/scratch/project_462000185/muennighoff/bigcode-evaluation-harness

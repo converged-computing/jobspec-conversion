@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-itch-0660
-#FLUX: -c=28
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-pedo-1366
+#FLUX -c=28
+#FLUX --queue=workq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/19.01.0.5050-bin
 nextflow run -resume -profile pawsey_zeus ./main.nf \

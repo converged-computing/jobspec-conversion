@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test-hab
-#FLUX: -c=24
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-hab
+#SBATCH --output=/home/an38gezy/thesis/cf-habitat/data/experiments/job_out/job.out.%j
+#SBATCH --error=/home/an38gezy/thesis/cf-habitat/data/experiments/job_out/job.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=3600
+#SBATCH --time=00:10:00
+#SBATCH --constraint=dgx
 
 module purge
 module load gcc cuda

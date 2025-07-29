@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-5237
-#FLUX: --queue=amd_gpu
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#FLUX --job-name=angry-nalgas-6179
+#FLUX --queue=amd_gpu
+#FLUX -t=450000
+#FLUX --urgency=16
 
 ml GCCcore/11.3.0 Python/3.10.4
 source venv/bin/activate

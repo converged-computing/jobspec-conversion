@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hobbit-5228
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-squidward-0007
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 script=$1

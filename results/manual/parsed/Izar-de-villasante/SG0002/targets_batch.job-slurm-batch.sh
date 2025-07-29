@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RNASeq_nf
-#FLUX: -c=90
-#FLUX: -t=439200
-#FLUX: --urgency=16
+#SBATCH --job-name=RNASeq_nf
+#SBATCH --output=R-_%j.log
+#SBATCH --error=R-_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=90
+#SBATCH --time=5-02:00:00
 
 module load singularity-3.8.3-gcc-11.2.0-rlxj6fi
 cd $SLURM_SUBMIT_DIR

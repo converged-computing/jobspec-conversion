@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pFUnit
-#FLUX: -n=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=pFUnit
+#FLUX -n=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 OK=0
 ERR=1

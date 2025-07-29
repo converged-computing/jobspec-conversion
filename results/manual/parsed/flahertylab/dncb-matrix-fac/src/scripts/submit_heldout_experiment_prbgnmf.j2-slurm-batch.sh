@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name={{
-#FLUX: --urgency=16
+#SBATCH --job-name={{
+#SBATCH --error=./results/heldout_experiment_prbgnmf/errorlog-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --array=0-{{
+#SBATCH --nodelist=c0
 
 DOCKER_IMAGE=dncb-fac-image
 CONTAINER_NAME=dncb-fac-container

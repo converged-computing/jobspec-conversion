@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=${i}CNN_${dataset}
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=${i}CNN_${dataset}
+#FLUX -n=4
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX -t=604800
+#FLUX --urgency=16
 
 norm="L2"
 START=0

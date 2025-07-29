@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nunchucks-7815
-#FLUX: --queue=True
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-cupcake-3205
+#FLUX --queue=True
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export IBM_QUANTUM_TOKEN=''
 

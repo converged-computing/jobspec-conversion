@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gsmr
-#FLUX: --queue=cardio
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=gsmr
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF/mr/gsmr/slurm/_gsmr_%A_%a.out
+#SBATCH --error=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF/mr/gsmr/slurm/_gsmr_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
+#SBATCH --array=1-58
 
 export TMPDIR='/rds/user/jhz22/hpc-work/work'
 export job='$SLURM_ARRAY_TASK_ID'

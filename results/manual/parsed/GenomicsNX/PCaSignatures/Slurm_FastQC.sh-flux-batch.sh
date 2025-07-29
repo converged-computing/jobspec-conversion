@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-muffin-1550
-#FLUX: -n=4
-#FLUX: --queue=intel
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-lettuce-9876
+#FLUX -n=4
+#FLUX --queue=intel
+#FLUX -t=3600
+#FLUX --urgency=16
 
 fastqc=/bigdata/jialab/rli012/software/FastQC/fastqc
 N=$SLURM_ARRAY_TASK_ID

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=EpidemicSimulatorTesting
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=EpidemicSimulatorTesting
+#SBATCH --account=cs-teach-2021
+#SBATCH --output=epidemic_sim_v1.6_%j.log
+#SBATCH --mail-user=sr1474@york.ac.uk
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64gb
+#SBATCH --time=12:00:00
 
 export RUST_LOG='warn,visualisation,osm_data=trace,sim=trace,run=debug,load_census_data=trace,voronoice=off'
 export RUST_BACKTRACE='1'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-truffle-2087
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --mail-user=stephen.krewson@yale.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8g
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 module purge
 module restore cuda

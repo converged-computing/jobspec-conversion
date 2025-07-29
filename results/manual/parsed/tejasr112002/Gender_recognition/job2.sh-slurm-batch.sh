@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dlnn-job
-#FLUX: --queue=SCSEGPU_UG
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=dlnn-job
+#SBATCH --output=output_%x_%j.out
+#SBATCH --error=error_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=04:00:00
+#SBATCH --partition=SCSEGPU_UG
+#SBATCH --qos=normal
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 

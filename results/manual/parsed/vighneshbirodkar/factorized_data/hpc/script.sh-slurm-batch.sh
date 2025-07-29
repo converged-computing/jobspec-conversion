@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$JOB_NAME
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=$JOB_NAME
+#SBATCH --mail-user=vnb222@nyu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16GB
+#SBATCH --time=2-00:00:00
 
 USER_NAME=$(whoami)
 echo "Starting script.sh"

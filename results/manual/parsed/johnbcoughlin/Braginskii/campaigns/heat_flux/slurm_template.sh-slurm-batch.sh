@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=heat_flux
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=ckpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=heat_flux
+#SBATCH --account=amath
+#SBATCH --output=@@WORKDIR@@/sims/HF-%a/sim.log
+#SBATCH --error=@@WORKDIR@@/sims/HF-%a/sim.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ckpt
+#SBATCH --chdir=@@WORKDIR@@
+#SBATCH --array=1-@@NTASKS@@
 
 export OPENBLAS_NUM_THREADS='1'
 

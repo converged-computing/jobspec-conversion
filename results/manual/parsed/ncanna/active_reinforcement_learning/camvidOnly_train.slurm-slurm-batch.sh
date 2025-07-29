@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Ralis_CAMVID_Only
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_Ralis_CAMVID_Only
+#SBATCH --account=gutintelligencelab
+#SBATCH --output=Train_Ralis_CAMVID_Only_%A_%a.out
+#SBATCH --error=Train_Ralis_CAMVID_Only_%A_%a.err
+#SBATCH --mail-user=pm2kb@virginia.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module --ignore-cache load anaconda/2019.10-py3.7

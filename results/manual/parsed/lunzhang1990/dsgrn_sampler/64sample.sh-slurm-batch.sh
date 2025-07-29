@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-car-5704
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=testslurm%N.%j.out
+#SBATCH --error=slurm_script.%N.%j.err
+#SBATCH --mail-user=chamberlian1990@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=main
 
 cd $PWD
 module load py3-numpy/1.14.3 py3-scipy/1.1.0

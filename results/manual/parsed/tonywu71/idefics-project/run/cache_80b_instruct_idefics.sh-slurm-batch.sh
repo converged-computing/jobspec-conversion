@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cache_80b_instruct_idefics
-#FLUX: --queue=cclake-himem
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=cache_80b_instruct_idefics
+#SBATCH --account=MLMI-tw581-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=cclake-himem
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

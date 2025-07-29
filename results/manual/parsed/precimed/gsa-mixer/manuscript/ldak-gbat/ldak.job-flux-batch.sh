@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ldak
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ldak
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SUMSTATS='$1'
 export GENEFILE='annotSorted.csv'

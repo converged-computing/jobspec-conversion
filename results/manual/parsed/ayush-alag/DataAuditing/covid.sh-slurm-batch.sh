@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cdropfin7
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cdropfin7
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --mail-user=aalag@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
 
 module purge
 module load anaconda3/2022.5

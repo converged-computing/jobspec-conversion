@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mappo_opt
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=mappo_opt
+#SBATCH --output=../results/triton_output/mujoco_opt_%A_%a.out
+#SBATCH --error=../results/triton_output/mujoco_opt_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=64G
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=batch
+#SBATCH --array=0-3
 
 export PYTHONUSERBASE='/scratch/work/zhaow7/PycharmProjects/docker/mappo_env \'
 

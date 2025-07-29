@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leopard-8128
-#FLUX: -t=117000
-#FLUX: --urgency=16
+#FLUX --job-name=fat-caramel-0707
+#FLUX -t=117000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NTASKS='$(echo "$SLURM_NNODES*$(echo $SLURM_TASKS_PER_NODE | cut -d '(' -f 1)" | bc -l)'

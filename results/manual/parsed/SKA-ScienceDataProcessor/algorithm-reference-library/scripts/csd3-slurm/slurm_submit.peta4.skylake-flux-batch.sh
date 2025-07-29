@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpujob
-#FLUX: -n=12
-#FLUX: --queue=skylake
-#FLUX: -t=15720
-#FLUX: --urgency=16
+#FLUX --job-name=cpujob
+#FLUX -n=12
+#FLUX --queue=skylake
+#FLUX -t=15720
+#FLUX --urgency=16
 
 export ARLROOT='/home/mf582/scratch/ARL/algorithm-reference-library'
 export OMP_NUM_THREADS='1'

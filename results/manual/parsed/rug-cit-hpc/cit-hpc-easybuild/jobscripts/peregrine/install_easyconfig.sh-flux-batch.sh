@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-butter-6415
-#FLUX: -c=2
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-latke-8109
+#FLUX -c=2
+#FLUX --urgency=16
 
 supported_archs="haswell skylake sandybridge"
 usage() {

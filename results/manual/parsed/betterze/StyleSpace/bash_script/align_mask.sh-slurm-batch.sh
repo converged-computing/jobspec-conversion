@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-buttface-5056
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./log/align_mask%A%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20g
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-249%20
 
 one=($(seq 0 4 996))
 one_index=$((${SLURM_ARRAY_TASK_ID}%${#one[@]}))

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-punk-1933
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/carstenbauer/JuliaHLRS23/exercises/Day4/1_saxpy_gpu/solution_proposal/hawk_job.qbs

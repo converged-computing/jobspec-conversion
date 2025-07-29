@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cmame-fixed-plan
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cmame-fixed-plan
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "========== SLURM JOB INFO =========="
 echo

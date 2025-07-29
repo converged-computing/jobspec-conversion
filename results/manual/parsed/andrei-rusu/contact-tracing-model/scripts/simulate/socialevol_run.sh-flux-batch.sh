@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Epidemic Grid Simulation on SocialEvolution
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=Epidemic Grid Simulation on SocialEvolution
+#FLUX -t=900
+#FLUX --urgency=16
 
 export MPLBACKEND='Agg'
 

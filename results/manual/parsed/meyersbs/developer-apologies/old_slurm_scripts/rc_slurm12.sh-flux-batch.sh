@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=devaps12
-#FLUX: --queue=tier3
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=devaps12
+#FLUX --queue=tier3
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "Loading environment"
 spack env activate mistakes-21091601

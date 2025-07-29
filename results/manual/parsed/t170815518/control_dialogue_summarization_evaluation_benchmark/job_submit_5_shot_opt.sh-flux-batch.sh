@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-motorcycle-3935
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-egg-5169
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/t170815518/control_dialogue_summarization_evaluation_benchmark/job_submit_5_shot_opt.sh

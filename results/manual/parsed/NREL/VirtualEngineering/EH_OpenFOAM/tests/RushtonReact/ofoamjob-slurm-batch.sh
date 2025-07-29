@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ehreact
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ehreact
+#SBATCH --account=vebio
+#SBATCH --output=log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=32
 
 export TMPDIR='${LOCAL_SCRATCH}'
 

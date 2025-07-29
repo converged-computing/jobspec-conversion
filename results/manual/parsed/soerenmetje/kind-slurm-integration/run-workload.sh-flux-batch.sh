@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-despacito-4550
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-egg-5694
+#FLUX --urgency=16
 
 export K8S_PORT='$K8S_PORT'
 export K8S_CLUSTER_NAME='$K8S_CLUSTER_NAME'

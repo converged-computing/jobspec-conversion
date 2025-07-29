@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-plant-2466
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-soup-4417
+#FLUX --queue=sched_mit_hill
+#FLUX -t=41400
+#FLUX --urgency=16
 
 filename=jobname
 set -x

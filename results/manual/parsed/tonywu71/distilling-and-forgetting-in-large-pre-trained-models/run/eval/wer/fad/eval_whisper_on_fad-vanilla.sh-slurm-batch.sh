@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval_whisper_on_fad-vanilla
-#FLUX: --queue=ampere
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_whisper_on_fad-vanilla
+#SBATCH --account=MLMI-tw581-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:40:00
+#SBATCH --partition=ampere
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

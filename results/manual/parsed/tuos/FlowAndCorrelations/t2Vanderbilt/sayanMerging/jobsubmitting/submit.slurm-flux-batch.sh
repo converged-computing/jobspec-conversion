@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cat-9842
-#FLUX: -t=244800
-#FLUX: --urgency=16
+#FLUX --job-name=arid-lemon-8451
+#FLUX -t=244800
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc630'
 

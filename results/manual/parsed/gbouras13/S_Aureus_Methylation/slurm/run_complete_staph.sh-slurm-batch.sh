@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=methylation
-#FLUX: --queue=batch
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=methylation
+#SBATCH --output=complete_staph.out
+#SBATCH --error=complete_staph.err
+#SBATCH --mail-user=george.bouras@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=batch
 
 SNK_DIR="/hpcfs/users/a1667917/S_Aureus_Methylation"
 PROF_DIR="$SNK_DIR/snakemake_profile"

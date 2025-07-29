@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-motorcycle-5903
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=print.log
+#SBATCH --error=log.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH: --no-requeue
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

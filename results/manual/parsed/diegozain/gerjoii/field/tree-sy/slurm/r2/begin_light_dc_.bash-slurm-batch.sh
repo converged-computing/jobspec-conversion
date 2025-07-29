@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-noodle-9980
-#FLUX: -c=28
-#FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --mail-user=diegodomenzain@u.boisestate.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=11:59:00
+#SBATCH: --exclusive
 
 ulimit -v unlimited
 ulimit -s unlimited

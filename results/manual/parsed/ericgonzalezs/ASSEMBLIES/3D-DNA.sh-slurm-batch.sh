@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-8637
-#FLUX: -c=15
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-rieseber
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=15
+#SBATCH --mem=100G
+#SBATCH --time=7-00:00:00
 
 export PATH='/somedirwhereis3ddna/3d-dna:$PATH'
 

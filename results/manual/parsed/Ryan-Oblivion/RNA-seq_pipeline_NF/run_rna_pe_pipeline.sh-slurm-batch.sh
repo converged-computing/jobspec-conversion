@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rna_pl
-#FLUX: --queue=cm
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=rna_pl
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=rj931@nyu.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=cm
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load nextflow/23.04.1

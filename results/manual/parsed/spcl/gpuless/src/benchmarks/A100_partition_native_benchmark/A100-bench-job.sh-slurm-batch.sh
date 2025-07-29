@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpuless
-#FLUX: --queue=amda100
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpuless
+#SBATCH --account=g34
+#SBATCH --mail-user=mingjli@student.ethz.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:20:00
+#SBATCH --partition=amda100
+#SBATCH --constraint=ntasks-per-node=1
 
 module load cuda
 module load python

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-house-8899
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=compute
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

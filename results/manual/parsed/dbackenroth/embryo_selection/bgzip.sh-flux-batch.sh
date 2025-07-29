@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chip-7968
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-animal-8714
+#FLUX -t=8400
+#FLUX --urgency=16
 
 parentdir=/vol/sci/bio/data/shai.carmi/db2175/embryo_selection/
 dir=${parentdir}/LIJMC

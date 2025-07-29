@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50.amp.p100
-#FLUX: -n=8
-#FLUX: --queue=xgpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50.amp.p100
+#SBATCH --account=scw1001
+#SBATCH --output=o.%x.%j
+#SBATCH --error=e.%x.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=xgpu
 
 set -eu
 module purge

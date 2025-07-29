@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=UKBHeight_unnamed
-#FLUX: -c=16
-#FLUX: --queue=special_bios
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=UKBHeight_unnamed
+#FLUX -c=16
+#FLUX --queue=special_bios
+#FLUX -t=43200
+#FLUX --urgency=16
 
 N_SNP=40000 # Set the number of SNPs
 N_SAMPLE=2000 # Set the number of samples

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cond_additive_recessive
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=cond_additive_recessive
+#SBATCH --account=lindgren.prj
+#SBATCH --output=logs/cond_additive_recessive.log
+#SBATCH --error=logs/cond_additive_recessive.errors.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
+#SBATCH --chdir=/well/lindgren-ukbb/projects/ukbb-11867/flassen/projects/KO/wes_ko_ukbb
+#SBATCH --array=11-331
 
 set -o errexit
 set -o nounset

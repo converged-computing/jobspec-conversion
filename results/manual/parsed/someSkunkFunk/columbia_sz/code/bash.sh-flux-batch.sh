@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dum
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dum
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 script_name='dummy' ##name of python script to run
 output_dir="LOGS/$script_name"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cdropfin7
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cdropfin7
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2022.5

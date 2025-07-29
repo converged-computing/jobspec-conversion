@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-gato-4842
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --mail-user=ja6750kr-s@student.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=16:00:00
 
 nvidia-smi
 ml Anaconda/2021.05-nsc1

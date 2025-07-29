@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bigwig
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=bigwig
+#SBATCH --account=jknight.prj
+#SBATCH --output=/well/jknight/users/awo868/logs/TAPS-pipeline/make-bigwig_%j.out
+#SBATCH --error=/well/jknight/users/awo868/logs/TAPS-pipeline/make-bigwig_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=long
 
 input_dir=$PWD
 output_dir=$PWD

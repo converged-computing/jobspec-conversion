@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=khalil-chipseq
-#FLUX: -c=8
-#FLUX: --queue=priority
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=khalil-chipseq
+#SBATCH --output=snakemake.log
+#SBATCH --error=snakemake.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=400M
+#SBATCH --time=08:00:00
+#SBATCH --partition=priority
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

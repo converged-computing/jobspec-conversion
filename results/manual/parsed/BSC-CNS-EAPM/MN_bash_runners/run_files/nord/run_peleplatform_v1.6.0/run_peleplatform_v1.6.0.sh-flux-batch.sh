@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-omelette-4027
-#FLUX: --urgency=16
+#FLUX --job-name=hello-kerfuffle-4188
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BSC-CNS-EAPM/MN_bash_runners/run_files/nord/run_peleplatform_v1.6.0/run_peleplatform_v1.6.0.sh

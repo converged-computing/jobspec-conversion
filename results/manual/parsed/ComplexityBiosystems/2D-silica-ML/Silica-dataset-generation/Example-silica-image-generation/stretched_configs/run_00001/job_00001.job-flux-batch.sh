@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GL-00001
-#FLUX: -n=16
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=GL-00001
+#FLUX -n=16
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export PATH='$PATH:/bin'
 export CJST='$(date +%s)'

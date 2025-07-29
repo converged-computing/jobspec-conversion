@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=H25
-#FLUX: --queue=RM-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=H25
+#SBATCH --output=slurm_logs/mpi_test_%j.log
+#SBATCH --mail-user=agrace2@binghamton.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000MB
+#SBATCH --time=00:10:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=64
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

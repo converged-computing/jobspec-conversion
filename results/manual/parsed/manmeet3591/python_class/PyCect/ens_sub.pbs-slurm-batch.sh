@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-buttface-9605
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/manmeet3591/python_class/PyCect/ens_sub.pbs

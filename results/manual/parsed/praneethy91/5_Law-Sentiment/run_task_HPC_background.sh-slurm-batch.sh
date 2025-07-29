@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=paragraph_sentiment
-#FLUX: -c=2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=paragraph_sentiment
+#SBATCH --output=abc.out
+#SBATCH --mail-user=bsg348@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=70GB
+#SBATCH --time=06:00:00
 
 module purge
 module load python3/intel/3.5.3

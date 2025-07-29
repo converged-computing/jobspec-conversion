@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Sorani-Arabic
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=Sorani-Arabic
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 ml gnu10; ml cuda; ml cudnn; ml nvidia-hpc-sdk; ml python;
 echo "Start process"

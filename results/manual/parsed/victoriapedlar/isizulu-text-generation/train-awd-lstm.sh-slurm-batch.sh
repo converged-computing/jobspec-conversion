@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=awdlstm
-#FLUX: -n=4
-#FLUX: --queue=a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=awdlstm
+#SBATCH --account=nlpgroup
+#SBATCH --mail-user=PDLVIC001@myuct.ac.za
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100-4g-20gb:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=a100
 
 CUDA_VISIBLE_DEVICES=$(ncvd)
 module load python/anaconda-python-3.7

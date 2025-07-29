@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-avocado-5569
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-noodle-5875
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load julia
 srun julia --threads=1 ./code/StochasticFlexibility/experiments/cost_reduction.jl

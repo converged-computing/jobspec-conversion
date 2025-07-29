@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-itch-3474
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Silvador386/FAV-PDetection/sing_FAV_PD_wandb.sh

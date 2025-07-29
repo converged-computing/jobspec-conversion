@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_echomorph
-#FLUX: --queue=gpu
-#FLUX: -t=180600
-#FLUX: --urgency=16
+#SBATCH --job-name=train_echomorph
+#SBATCH --output=logs/slurm-%x.%j.out
+#SBATCH --mail-user=semjon.00@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=16G
+#SBATCH --time=2-02:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=falcon2
 
 export PYTHONUNBUFFERED='TRUE'
 

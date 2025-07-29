@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cattywampus-4759
-#FLUX: -n=128
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=early_science
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=m1759_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=early_science
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export HOROVOD_GPU_BROADCAST='MPI'
 export HOROVOD_GPU_ALLGATHER='MPI'

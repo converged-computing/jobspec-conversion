@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GCN_c_bsign
-#FLUX: -n=16
-#FLUX: --queue=barbun-cuda,akya-cuda
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=GCN_c_bsign
+#FLUX -n=16
+#FLUX --queue=barbun-cuda,akya-cuda
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load centos7.3/lib/cuda/10.1

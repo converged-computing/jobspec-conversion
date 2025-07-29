@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lamp-9775
-#FLUX: -N=32
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=34b_replication_%j.out
+#SBATCH --error=34b_replication_%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:8
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export HOSTNAMES='`scontrol show hostnames "$SLURM_JOB_NODELIST"`'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

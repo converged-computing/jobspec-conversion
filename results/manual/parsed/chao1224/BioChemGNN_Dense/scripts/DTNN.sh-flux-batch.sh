@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cinnamonbun-8185
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-butter-6922
+#FLUX --urgency=16
 
 export task='$1'
 export model='$2'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-salad-7976
-#FLUX: --queue=gpu2
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=salted-leg-3825
+#FLUX --queue=gpu2
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load singularity/2.4.2
 hostname

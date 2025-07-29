@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100
 
 echo "#################### Job submission script. #############################"
 cat $0

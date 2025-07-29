@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=correlation
-#FLUX: -c=2
-#FLUX: --queue=ml_gpu-rtx2080
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#SBATCH --job-name=correlation
+#SBATCH --output=log/log_$USER_%Y-%m-%d.out
+#SBATCH --error=log/err_$USER_%Y-%m-%d.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=11-00:00:00
+#SBATCH --partition=ml_gpu-rtx2080
+#SBATCH --chdir=/home/siemsj/projects/darts_weight_sharing_analysis/
+#SBATCH --array=1-5
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

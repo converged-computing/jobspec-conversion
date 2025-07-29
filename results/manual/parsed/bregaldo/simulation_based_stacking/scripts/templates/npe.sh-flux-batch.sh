@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name={{script_name}}_{{run_id}}
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name={{script_name}}_{{run_id}}
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module --force purge
 source ~/.bashrc

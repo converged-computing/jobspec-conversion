@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=saveSlices
-#FLUX: -n=36
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=saveSlices
+#SBATCH --account=car
+#SBATCH --output=foam3slices
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 source $HOME/.bash_profile
 module load paraview/5.6.0

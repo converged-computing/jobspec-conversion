@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bike-0148
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/khuck/sos_flow_experiments/Junmin/testdir/small.r

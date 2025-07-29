@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-mango-1388
-#FLUX: -N=50
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-egg-2529
+#FLUX -N=50
+#FLUX --queue=premium
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

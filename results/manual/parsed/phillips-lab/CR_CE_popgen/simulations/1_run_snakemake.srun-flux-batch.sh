@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: --queue=phillips
-#FLUX: -t=1440000
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake
+#FLUX --queue=phillips
+#FLUX -t=1440000
+#FLUX --urgency=16
 
 dir="/projects/phillipslab/ateterina/slim/worms_snakemake"
 cd $dir/sim30rep

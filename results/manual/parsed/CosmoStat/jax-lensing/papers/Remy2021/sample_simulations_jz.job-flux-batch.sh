@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=validation_ODE
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=validation_ODE
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 set -x
 cd $WORK/repo/jl/scripts

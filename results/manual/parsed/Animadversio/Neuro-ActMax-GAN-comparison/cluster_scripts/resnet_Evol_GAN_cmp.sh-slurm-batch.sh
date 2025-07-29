@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cupcake-3126
-#FLUX: --queue=gpu_quad
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=BigGANresnet_evol_%j.out
+#SBATCH --mail-user=binxu_wang@hms.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu_quad
+#SBATCH --array=75-92
 
 export unit_name='$(echo "$param_list" | head -n $SLURM_ARRAY_TASK_ID | tail -1)'
 

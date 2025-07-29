@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-0767
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-sundae-9499
+#FLUX --queue=hbfraser,hns,normal
+#FLUX -t=14400
+#FLUX --urgency=16
 
 PATH=$HOME/bin:$PATH:$HOME/.local/bin:$HOME/gatk-4.0.3.0:$HOME/samtools_1.6/bin
 export PATH

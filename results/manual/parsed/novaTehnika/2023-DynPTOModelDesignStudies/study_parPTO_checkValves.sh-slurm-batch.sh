@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leg-1679
-#FLUX: --queue=msismall
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%A_%a.out
+#SBATCH --error=%A_%a.err
+#SBATCH --mail-user=simmo536@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=msismall
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

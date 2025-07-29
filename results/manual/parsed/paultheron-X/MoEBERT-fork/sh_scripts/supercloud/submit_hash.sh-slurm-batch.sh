@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moebert_hash_$1_$2
-#FLUX: -c=20
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#SBATCH --job-name=moebert_hash_$1_$2
+#SBATCH --output=/home/gridsan/ptheron/MoEBERT-fork/logs/experiments_hash_$1_out%j.txt
+#SBATCH --error=/home/gridsan/ptheron/MoEBERT-fork/logs/experiments_hash_$1_err%j.txt
+#SBATCH --mail-user=paulth@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=21-00:00:00
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export GPUS_PER_NODE='2'

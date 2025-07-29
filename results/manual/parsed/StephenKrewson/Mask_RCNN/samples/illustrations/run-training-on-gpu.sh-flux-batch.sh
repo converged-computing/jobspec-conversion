@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bits-1594
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-bicycle-8770
+#FLUX -c=4
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load Apps/Matlab/R2017b

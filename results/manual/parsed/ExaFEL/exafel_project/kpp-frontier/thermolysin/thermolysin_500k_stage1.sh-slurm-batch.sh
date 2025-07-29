@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: -N=256
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=stage1
+#SBATCH --account=CHM137
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=256
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export SRUN='srun -n 4096 -c 3'
 export SCRATCH='/lustre/orion/chm137/proj-shared/cctbx'

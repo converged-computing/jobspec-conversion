@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=calc_IS_FID
-#FLUX: --queue=sched_system_all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=calc_IS_FID
+#FLUX --queue=sched_system_all
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

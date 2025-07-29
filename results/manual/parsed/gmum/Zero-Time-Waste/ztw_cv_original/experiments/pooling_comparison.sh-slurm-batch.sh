@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pool_comp
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=pool_comp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --qos=normal
 
 declare -A num_heads
 num_heads=(["resnet56"]=27 ["vgg16bn"]=14 ["wideresnet32_4"]=15 ["mobilenet"]=13 ["tv_resnet"]=5)

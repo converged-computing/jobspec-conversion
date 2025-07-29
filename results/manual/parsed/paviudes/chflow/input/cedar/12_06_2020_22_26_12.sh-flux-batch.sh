@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-taco-4410
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-peanut-8114
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/$USER/chflow

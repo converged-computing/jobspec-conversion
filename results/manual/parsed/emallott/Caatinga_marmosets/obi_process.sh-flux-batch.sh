@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=obi_process
-#FLUX: --queue=b1057
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=obi_process
+#FLUX --queue=b1057
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge all
 module load python

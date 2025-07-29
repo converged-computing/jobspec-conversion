@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=amber_bench_cuda
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=amber_bench_cuda
+#SBATCH --output=fy_minst_train.log
+#SBATCH --mail-user=fy689@york.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128gb
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
 
 echo "Running gaussian-test on $SLURM_CPUS_ON_NODE CPU cores"
 python InfoVAE_STL10.py

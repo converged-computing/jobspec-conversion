@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=data
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=data
+#SBATCH --account=students
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu
+#SBATCH --time=06:00:00
+#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 nvidia-smi

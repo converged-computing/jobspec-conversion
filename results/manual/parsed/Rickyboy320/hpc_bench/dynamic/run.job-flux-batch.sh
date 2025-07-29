@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hope-5010
-#FLUX: -N=3
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-destiny-6172
+#FLUX -N=3
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load mpich/ge/gcc/64/3.2
 module load cuda10.0/toolkit/10.0.130

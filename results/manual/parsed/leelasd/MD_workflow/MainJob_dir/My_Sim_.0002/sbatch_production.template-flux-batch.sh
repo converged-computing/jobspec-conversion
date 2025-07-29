@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-snack-4289
-#FLUX: -N=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-leg-8349
+#FLUX -N=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ntpn=8         # number of tasks per node: 
 ppn=8          # processors per node: 

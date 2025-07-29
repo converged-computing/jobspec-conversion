@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RY1_MIN1
-#FLUX: -n=28
-#FLUX: -c=3
-#FLUX: --exclusive
-#FLUX: --queue=high_priority
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=RY1_MIN1
+#SBATCH --account=timeifler
+#SBATCH --output=RY1_MIN1-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=3
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=high_priority
+#SBATCH --qos=user_qos_timeifler
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-socket=14,ntasks-per-node=28
 
 export OMP_PROC_BIND='close'
 

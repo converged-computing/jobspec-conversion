@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-dog-0358
-#FLUX: -n=20
-#FLUX: --queue=cidsegpu1_contrib_res
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/uananthe/ADD_multi4_prtag_evex.%j.out
+#SBATCH --error=/scratch/uananthe/ADD_multi4_prtag_evex.%j.err
+#SBATCH --mail-user=uananthe@asu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cidsegpu1_contrib_res
 
 module purge;
 module load anaconda3/5.3.0;

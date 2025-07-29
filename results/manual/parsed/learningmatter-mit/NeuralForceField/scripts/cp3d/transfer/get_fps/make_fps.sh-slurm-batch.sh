@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-6990
-#FLUX: -c=32
-#FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
-#FLUX: -t=258000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300G
+#SBATCH --time=2-23:40:00
+#SBATCH --partition=sched_mit_rafagb_amd,sched_mit_rafagb
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 export NFFDIR='/home/saxelrod/repo/nff/master/NeuralForceField'
 export PYTHONPATH='$NFFDIR:$PYTHONPATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GenomicDBImport
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=GenomicDBImport
+#FLUX -c=32
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export REF='/ibex/scratch/kathirn/work/project/for_elodie/ref/CQ41.fa'
 export PROJECT='/ibex/scratch/reyel/1000quinoa/naga/GenomicDB/import'

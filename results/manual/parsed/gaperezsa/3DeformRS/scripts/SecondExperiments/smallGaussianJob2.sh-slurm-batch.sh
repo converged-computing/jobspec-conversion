@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gauss2
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gauss2
+#SBATCH --output=logs/%x_%A_%a.out
+#SBATCH --error=logs/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=v100
+#SBATCH --chdir=/home/santamgp/Documents/CertifyingAffineTransformationsOnPointClouds/3D-RS-PointCloudCertifying/
+#SBATCH --array=7-12
 
 module load gcc
 echo "######################### SLURM JOB ########################"

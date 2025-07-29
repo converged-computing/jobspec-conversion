@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spinup
-#FLUX: --queue=shas
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=spinup
+#FLUX --queue=shas
+#FLUX -t=600
+#FLUX --urgency=16
 
 if [ -n "${SLURM_ARRAY_TASK_ID}" ]; then
 	command1=$(sed -n ${SLURM_ARRAY_TASK_ID}p to_exec.lst)

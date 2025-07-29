@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-butter-1942
-#FLUX: -c=16
-#FLUX: --queue=gpu_quad
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=hostname_%j.out
+#SBATCH --error=hostname_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_quad
 
 export PYTHONPATH='$root_path/":$PYTHONPATH'
 

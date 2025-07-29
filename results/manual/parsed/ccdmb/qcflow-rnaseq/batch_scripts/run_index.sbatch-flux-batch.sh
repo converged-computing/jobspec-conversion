@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-blackbean-8183
-#FLUX: -c=2
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=grated-train-4337
+#FLUX -c=2
+#FLUX --queue=work
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

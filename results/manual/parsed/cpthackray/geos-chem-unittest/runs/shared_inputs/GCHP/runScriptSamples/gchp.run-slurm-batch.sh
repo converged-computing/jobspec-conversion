@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-train-9967
-#FLUX: -n=6
-#FLUX: --queue=huce_intel
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50000
+#SBATCH --time=00:01:00
+#SBATCH --partition=huce_intel
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ssl-bentho-mini
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=ssl-bentho-mini
+#SBATCH --account=rrg-ttt
+#SBATCH --output=logs/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(hostname -s)  # Store the master node’s IP address in the MASTER_ADDR environment variable.'

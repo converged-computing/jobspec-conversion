@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-muffin-8800
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=tumi
+#SBATCH --output=trimming3a_130.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
 
 module purge
 module load gcc bbmap

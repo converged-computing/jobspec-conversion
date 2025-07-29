@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peas-7296
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-car-1526
+#FLUX --queue=shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 dataverse="harvard"            # harvard or demo
 singularity_within_snakemake=1 # 1 or 0

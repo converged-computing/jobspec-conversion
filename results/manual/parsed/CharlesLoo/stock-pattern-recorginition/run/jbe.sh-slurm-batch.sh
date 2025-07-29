@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bike-9139
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --mail-user=a1699138@student.adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:/fast/users/a1699138/pattern_recognition/train_model/models-master/research:/fast/users/a1699138/pattern_recognition/train_model/models-master/research/slim'
 

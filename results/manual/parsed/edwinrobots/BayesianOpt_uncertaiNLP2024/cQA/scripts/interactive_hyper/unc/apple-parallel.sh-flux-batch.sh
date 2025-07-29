@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-butter-3381
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-lemur-9543
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/edwinrobots/BayesianOpt_uncertaiNLP2024/cQA/scripts/interactive_hyper/unc/apple-parallel.sh

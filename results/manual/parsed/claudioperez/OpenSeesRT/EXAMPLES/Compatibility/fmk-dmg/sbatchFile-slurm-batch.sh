@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -n=9
-#FLUX: --queue=small
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --account=DesignSafe-SimCenter
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --mail-user=fmckenna@berkeley.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=small
 
 module load intel
 module load petsc

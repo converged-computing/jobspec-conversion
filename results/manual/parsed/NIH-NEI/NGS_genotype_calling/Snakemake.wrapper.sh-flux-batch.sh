@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-soup-2134
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-spoon-7131
+#FLUX -c=8
+#FLUX --urgency=16
 
 cp /data/OGL/resources/NGS_genotype_calling.git.log .
 mkdir -p 00log

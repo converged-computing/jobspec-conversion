@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=coloc
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=coloc
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

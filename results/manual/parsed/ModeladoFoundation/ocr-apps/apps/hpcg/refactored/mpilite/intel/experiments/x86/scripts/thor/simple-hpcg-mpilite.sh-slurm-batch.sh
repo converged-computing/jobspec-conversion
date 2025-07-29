@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-8323
-#FLUX: --queue=XAS
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=XAS
 
 export OCR_INSTALL='/home/rsalmon/dhome/fastfw/src/ocr/ocr/install'
 export APPS_ROOT='/home/rsalmon/dhome/fastfw/src/apps/apps'

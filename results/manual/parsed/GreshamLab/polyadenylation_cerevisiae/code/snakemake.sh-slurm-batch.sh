@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=STARsolo
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=STARsolo
+#SBATCH --output=snake_out/%j.out
+#SBATCH --error=snake_out/%j.err
+#SBATCH --mail-user=sz4633@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=160000
+#SBATCH --time=1-23:59:00
+#SBATCH --constraint=ntasks-per-node=16
 
 export PYTHONUNBUFFERED='TRUE'
 

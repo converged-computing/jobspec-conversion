@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PINST-CELL-0-B-II-new-PINPT
-#FLUX: -N=4
+#FLUX --job-name=PINST-CELL-0-B-II-new-PINPT
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

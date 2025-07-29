@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gb2.4
-#FLUX: -N=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gb2.4
+#SBATCH --output=std.out
+#SBATCH --error=std.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=04:00:00
 
 module purge
 module use /nopt/nrel/apps/modules/centos74/modulefiles/

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mmu_chn2
-#FLUX: -c=12
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mmu_chn2
+#SBATCH --account=bd17
+#SBATCH --output=/projects/bd17/mziemann/dee2/MyJob-%j.out
+#SBATCH --error=/projects/bd17/mziemann/dee2/MyJob-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=4000
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 set -x
 clear_shared_mem(){

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=zen1_tnews
-#FLUX: -c=30
-#FLUX: --urgency=16
+#FLUX --job-name=zen1_tnews
+#FLUX -c=30
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 export CUDA_LAUNCH_BLOCKING='1'

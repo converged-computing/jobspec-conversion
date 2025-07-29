@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aud
-#FLUX: -c=10
-#FLUX: --queue=learnlab
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=aud
+#SBATCH --output=/checkpoint/%u/jobs/%A.out
+#SBATCH --error=/checkpoint/%u/jobs/%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=240GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=learnlab
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 if [ -z "$1" ]
 then

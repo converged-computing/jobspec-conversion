@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-car-6057
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-peas-6240
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/geodynamics/relax/examples/elmayor/Forward%20modeling/Lower_crust/Lower_crust_powerlaw_rheology_n4_3D_geothermal_geometry_topdepth10km/Lower_crust_powerlaw_rheology_n4_3D_geothermal_geometry_topdepth10km.sh

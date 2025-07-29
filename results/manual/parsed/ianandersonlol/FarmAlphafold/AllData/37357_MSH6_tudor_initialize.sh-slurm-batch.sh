@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=MSH6_tudor
-#FLUX: -c=16
-#FLUX: --queue=gpu-a100-h
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=MSH6_tudor
+#SBATCH --output=/home/icanders/slurm-log/37357_output.txt
+#SBATCH --error=/home/icanders/slurm-log/37357_errors.txt
+#SBATCH --mail-user=icanderson@ucdavis.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-a100-h
 
 set -e
 set -u

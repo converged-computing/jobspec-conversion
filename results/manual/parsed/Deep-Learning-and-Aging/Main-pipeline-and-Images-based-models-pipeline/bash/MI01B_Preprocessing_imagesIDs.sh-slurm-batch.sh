@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cupcake-2497
-#FLUX: --queue=priority
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --output=../eo/MI01B.out
+#SBATCH --error=../eo/MI01B.err
+#SBATCH --mail-user=alanlegoallec@g.harvard.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:45:00
+#SBATCH --partition=priority
 
 set -e
 module load gcc/6.2.0

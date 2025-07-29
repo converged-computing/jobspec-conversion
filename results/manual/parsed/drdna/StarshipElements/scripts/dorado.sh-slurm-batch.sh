@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dorado-gpu
-#FLUX: -c=8
-#FLUX: --queue=V4V32_SKY32M192_L
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dorado-gpu
+#SBATCH --account=gol_farman_uksr
+#SBATCH --mail-user=farman@uky.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=28G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=V4V32_SKY32M192_L
 
 pod5s=$1
 container=/share/singularity/images/ccs/conda/lcc-conda-8-rocky8.sinf

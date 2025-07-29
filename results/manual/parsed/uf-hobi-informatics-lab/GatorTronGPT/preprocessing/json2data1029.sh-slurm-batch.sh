@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=json2data
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=json2data
+#SBATCH --output=/red/gatortron-phi/gpt/logs/prep/j2d_%A_%a.out
+#SBATCH --mail-user=alexgre@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=2000gb
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=10-29
 
 root=/red/gatortron-phi/gpt
 data_root=/red/gatortron-phi/gpt/data/ThePile_raw_json/the-eye.eu/public/AI/pile/train

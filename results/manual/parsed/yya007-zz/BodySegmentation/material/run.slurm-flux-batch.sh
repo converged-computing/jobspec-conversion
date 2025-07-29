@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-underoos-0824
-#FLUX: -n=4
-#FLUX: --queue=maxwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-leg-1731
+#FLUX -n=4
+#FLUX --queue=maxwell
+#FLUX -t=432000
+#FLUX --urgency=16
 
 setpkgs -a tensorflow_0.12
 source activate FCN

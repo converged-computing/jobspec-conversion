@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_sac
-#FLUX: --queue=gpu-a100
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=train_sac
+#SBATCH --account=IRI24006
+#SBATCH --output=train_sac.o%j
+#SBATCH --error=train_sac.e%j
+#SBATCH --mail-user=logan.persyn@utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu-a100
 
 source /work/09320/lpersyn/ls6/anaconda3/etc/profile.d/conda.sh
 conda activate ../cs394-work-env

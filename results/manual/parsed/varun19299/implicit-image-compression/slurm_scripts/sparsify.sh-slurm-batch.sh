@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=masking
-#FLUX: -c=4
-#FLUX: --queue=batch_default
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=masking
+#SBATCH --output=slurm_outputs/log-%x.%A_%a.out
+#SBATCH --mail-user=vsundar4@wisc.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:gtx1080:1
+#SBATCH --mem=4G
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch_default
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOB_ID}"

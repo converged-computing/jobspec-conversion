@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=par_pi_job
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=par_pi_job
+#SBATCH --output=%x-%j.SLURMout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=amr
 
 darts=(1e3 1e6 1e9)
 processors=(1 2 4 8 16 32)

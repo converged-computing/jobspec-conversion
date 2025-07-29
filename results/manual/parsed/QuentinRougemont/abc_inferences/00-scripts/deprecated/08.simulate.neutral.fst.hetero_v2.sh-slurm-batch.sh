@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-0314
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/QuentinRougemont/abc_inferences/00-scripts/deprecated/08.simulate.neutral.fst.hetero_v2.sh

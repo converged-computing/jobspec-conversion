@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-toaster-8497
-#FLUX: -c=24
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-poo-1521
+#FLUX -c=24
+#FLUX --urgency=16
 
 export CURRENT_TIME='$(date "+%Y_%m_%d_%H%M%S")'
 export STUDENT_ID='${USER}'

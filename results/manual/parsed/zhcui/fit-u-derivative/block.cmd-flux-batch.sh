@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-butter-9612
-#FLUX: -c=28
-#FLUX: --queue=parallel
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=tart-peanut-8435
+#FLUX -c=28
+#FLUX --queue=parallel
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export SLURM_MPI_TYPE='pmi2'
 export OMP_NUM_THREADS='28'

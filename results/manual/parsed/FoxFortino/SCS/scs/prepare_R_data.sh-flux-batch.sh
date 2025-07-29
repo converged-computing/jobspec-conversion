@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prepare_R_data
-#FLUX: -c=2
-#FLUX: --queue=idle
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=prepare_R_data
+#FLUX -c=2
+#FLUX --queue=idle
+#FLUX -t=604800
+#FLUX --urgency=16
 
 UD_QUIET_JOB_SETUP=YES
 echo "SLURM ARRAY TASK ID: $SLURM_ARRAY_TASK_ID"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-blackbean-1388
-#FLUX: -c=6
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=hello-citrus-5401
+#FLUX -c=6
+#FLUX -t=180
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.6.3
 echo "Present working directory is $PWD"

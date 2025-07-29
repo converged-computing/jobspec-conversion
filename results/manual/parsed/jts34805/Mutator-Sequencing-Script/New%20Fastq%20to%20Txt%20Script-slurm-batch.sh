@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fastptotxt
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=fastptotxt
+#SBATCH --mail-user=jts34805@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=AMD
 
 cd $SLURM_SUBMIT_DIR
 ml fastp/0.23.2

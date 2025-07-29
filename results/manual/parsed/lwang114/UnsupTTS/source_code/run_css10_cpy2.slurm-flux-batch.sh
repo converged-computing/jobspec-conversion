@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wav2vecu_css10
+#FLUX --job-name=wav2vecu_css10
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 function error
 {

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=7B_wz
-#FLUX: --queue=nvidia
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#FLUX --job-name=7B_wz
+#FLUX --queue=nvidia
+#FLUX -t=172799
+#FLUX --urgency=16
 
 export HF_HOME='/scratch/ltl2113/huggingface_cache'
 

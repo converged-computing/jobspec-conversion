@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myMPI
-#FLUX: -N=11
-#FLUX: -n=11
-#FLUX: --queue=development
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=myMPI
+#FLUX -N=11
+#FLUX -n=11
+#FLUX --queue=development
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 

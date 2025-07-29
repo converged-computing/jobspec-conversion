@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RESIF-Test-CPU
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=100
+#SBATCH --job-name=RESIF-Test-CPU
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=urgent
+#SBATCH --constraint=epyc,ntasks-per-node=4
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

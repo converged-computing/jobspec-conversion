@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stream-dpf-noflush-perf
+#FLUX --job-name=stream-dpf-noflush-perf
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ITERS=5
 module load cuda

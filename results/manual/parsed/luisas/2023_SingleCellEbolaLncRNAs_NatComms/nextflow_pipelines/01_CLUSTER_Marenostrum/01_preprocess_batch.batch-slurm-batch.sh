@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PreprocessBatch
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --job-name=PreprocessBatch
+#SBATCH --output=out/Nextflow-%j.out
+#SBATCH --error=err/Nextflow-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --qos=debug
+#SBATCH --chdir=.
 
 module load java/8u131
 module load intel/2017.1

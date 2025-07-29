@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-4130
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=128G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=v100
 
 export IMAGE='$PWD/horovod.sif'
 

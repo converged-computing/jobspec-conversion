@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-2457
-#FLUX: -c=16
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-leopard-4165
+#FLUX -c=16
+#FLUX -t=144000
+#FLUX --urgency=16
 
 wd_dir="/tigress/abeukers/wd/w2v"
 module load anaconda3/4.4.0

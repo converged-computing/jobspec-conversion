@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=beff
-#FLUX: -n=32
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=beff
+#SBATCH --account=T2BENCH-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=skylake
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bits-0068
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/OptiMaL-PSE-Lab/pulsed-reactor-optimisation/emulation/generate_data.sh

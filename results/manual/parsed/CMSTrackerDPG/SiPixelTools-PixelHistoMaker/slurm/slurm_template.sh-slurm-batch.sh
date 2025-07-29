@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-rabbit-3399
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=t3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16000
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

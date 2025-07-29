@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-train-1351
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-chip-4593
+#FLUX --urgency=16
 
 r2threshold=0.7
 ldwindowsize=1000000

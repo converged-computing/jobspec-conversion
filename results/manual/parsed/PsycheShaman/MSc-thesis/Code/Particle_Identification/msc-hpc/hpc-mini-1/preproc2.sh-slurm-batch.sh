@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CNN3
-#FLUX: -n=16
-#FLUX: --queue=ada
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=CNN3
+#SBATCH --account=stats
+#SBATCH --mail-user=vljchr004@myuct.ac.za
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=ada
 
 module load python/anaconda-python-3.7
 python -u /home/vljchr004/hpc-mini/preproc3.py > out_preproc4.txt

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job_2023-10-31_proj-3200_v000
-#FLUX: -c=10
-#FLUX: --queue=rack1
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=job_2023-10-31_proj-3200_v000
+#FLUX -c=10
+#FLUX --queue=rack1
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'
 export OPENBLAS_NUM_THREADS='$omp_threads'

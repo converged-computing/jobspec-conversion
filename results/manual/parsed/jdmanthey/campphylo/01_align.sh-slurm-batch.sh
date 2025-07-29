@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bam
-#FLUX: -n=8
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bam
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=quanah
+#SBATCH --chdir=./
+#SBATCH --array=1-60
 
 export SINGULARITY_CACHEDIR='/lustre/work/jmanthey/singularity-cachedir'
 

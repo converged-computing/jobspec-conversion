@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=__jobName
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=__jobName
+#SBATCH --output=./std.out
+#SBATCH --error=./std.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=intel,ntasks-per-node=24
 
 machine="IBEX" # HPC or IBEX
 if [[ $machine == "IBEX" ]]; then

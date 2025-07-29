@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Xtx
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Xtx
+#SBATCH --output=Xtx.out
+#SBATCH --error=Xtx.err
+#SBATCH --mail-user=emmarg@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=08:00:00
 
 plink1=/Genomics/grid/users/alea/programs/plink_1.90
 plink2=/Genomics/ayroleslab2/emma/Turkana_Genotyping/1000G_data/bin/plink2

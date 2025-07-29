@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-7765
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=d_west10.out
+#SBATCH --error=d_west10.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 export DARSHAN_DISABLE_SHARED_REDUCTION='1'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TDG_SNEE
-#FLUX: -c=10
-#FLUX: --queue=sugon
-#FLUX: --urgency=16
+#SBATCH --job-name=TDG_SNEE
+#SBATCH --output=output/logs2/TDG_SNEE.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:P100:1
+#SBATCH --partition=sugon
 
 CUDA_VISIBLE_DEVICES=0,1 python TC_preprocess.py
 CUDA_VISIBLE_DEVICES=0,1 python TC/run_bert.py --do_data 

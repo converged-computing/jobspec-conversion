@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fepsA1
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=fepsA1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
 
 export LD_LIBRARY_PATH='$gcc9libs:$LD_LIBRARY_PATH'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=myxo-sim
-#FLUX: -n=9
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=myxo-sim
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=75M
+#SBATCH --time=23:00:00
+#SBATCH --constraint=cascade,skylake
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

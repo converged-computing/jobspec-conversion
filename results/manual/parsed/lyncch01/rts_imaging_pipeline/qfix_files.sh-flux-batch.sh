@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=edit_fixfile
-#FLUX: --queue=workq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=edit_fixfile
+#FLUX --queue=workq
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/pawsey/intel/19.0.5/mkl/lib/intel64/'
 

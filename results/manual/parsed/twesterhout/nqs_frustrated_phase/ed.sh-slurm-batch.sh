@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-snack-0768
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: --queue=tcm
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=200G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=tcm
+#SBATCH: --exclusive
 
 . /vol/tcm01/westerhout_tom/conda/etc/profile.d/conda.sh
 conda activate tcm-test

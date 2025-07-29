@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-dog-2273
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-poo-1873
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_leofs_aws_06.pbs

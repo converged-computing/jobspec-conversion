@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kerfuffle-9347
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-blackbean-7191
+#FLUX --urgency=16
 
 SUBMIT=1
 PG=1

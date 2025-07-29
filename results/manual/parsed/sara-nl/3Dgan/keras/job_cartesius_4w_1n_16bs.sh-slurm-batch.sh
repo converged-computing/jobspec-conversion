@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=3DGAN_1w_1n_bs16_sun
-#FLUX: --queue=broadwell_short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=3DGAN_1w_1n_bs16_sun
+#SBATCH --output=3DGAN_1w_1n_bs16_sun_output.txt
+#SBATCH --error=3DGAN_1w_1n_bs16_sun_errors.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=broadwell_short
+#SBATCH --constraint=ntasks-per-node=4
 
 export KERAS_BACKEND='tensorflow'
 export OMP_NUM_THREADS='$OMP_NUM_THREADS'

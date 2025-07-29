@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-caramel-3526
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=output/slurm-%x.out
+#SBATCH --error=output/slurm-%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 source deactivate # Remove previous environments.
 source activate cuda9-py38-pytorch1.5

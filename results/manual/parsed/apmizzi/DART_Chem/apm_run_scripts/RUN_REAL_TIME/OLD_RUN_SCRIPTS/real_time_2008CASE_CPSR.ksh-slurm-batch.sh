@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-soup-4803
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/apmizzi/DART_Chem/apm_run_scripts/RUN_REAL_TIME/OLD_RUN_SCRIPTS/real_time_2008CASE_CPSR.ksh

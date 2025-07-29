@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-soup-4921
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/plink.out
+#SBATCH --error=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/plink.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=hbfraser,hns,normal
 
 PATH=$HOME/bin:$PATH:$HOME/.local/bin:$HOME/gatk-4.0.3.0:$HOME/samtools_1.6/bin
 export PATH

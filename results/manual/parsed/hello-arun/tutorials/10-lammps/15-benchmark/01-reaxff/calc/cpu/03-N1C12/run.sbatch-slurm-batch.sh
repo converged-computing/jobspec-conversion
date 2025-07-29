@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=N1C1
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=N1C1
+#SBATCH --output=./std.out
+#SBATCH --error=./std-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=intel,ntasks-per-node=12
 
 srcDIR=$(pwd)
 machine="HPC" # HPC or IBEX

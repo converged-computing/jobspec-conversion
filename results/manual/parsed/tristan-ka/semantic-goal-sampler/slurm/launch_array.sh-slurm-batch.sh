@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=sgs-array
-#FLUX: -c=40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=sgs-array
+#SBATCH --account=imi@v100
+#SBATCH --output=slurm_logs/%x-%j.out
+#SBATCH --error=slurm_logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
+#SBATCH --array=1-4
 
 filename=$1
 extract_config(){

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bike-7032
-#FLUX: --urgency=16
+#FLUX --job-name=confused-pancake-1416
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/Old%20shellscripts/drop_N_act_plot2.sh

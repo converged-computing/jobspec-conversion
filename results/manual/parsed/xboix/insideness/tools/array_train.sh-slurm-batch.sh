@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dilation
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=dilation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:GEFORCEGTX1080TI:1
+#SBATCH --mem=12GB
+#SBATCH --time=20:00:00
+#SBATCH --qos=cbmm
+#SBATCH --chdir=./log/
+#SBATCH --array=0-3
 
 cd /om/user/xboix/src/insideness/
 hostname

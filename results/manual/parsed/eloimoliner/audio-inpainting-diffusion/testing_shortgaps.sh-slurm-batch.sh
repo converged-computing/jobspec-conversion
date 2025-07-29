@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sgirtgaos
-#FLUX: -t=8999
-#FLUX: --urgency=16
+#SBATCH --job-name=sgirtgaos
+#SBATCH --output=/scratch/work/%u/projects/ddpm/diffusion_autumn_2022/A-diffusion/experiments/inpainting_test_shorgapts_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=02:29:59
+#SBATCH --constraint=volta
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

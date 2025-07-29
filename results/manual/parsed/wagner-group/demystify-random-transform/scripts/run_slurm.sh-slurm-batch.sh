@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rand-smooth
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rand-smooth
+#SBATCH --account=fc_wagner
+#SBATCH --output=slurm-%j-test-pgd-rand-35-fix-order-1235-aggmo.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:GTX2080TI:2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=savio3_gpu
 
 eval "$(conda shell.bash hook)"
 conda activate base

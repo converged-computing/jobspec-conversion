@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=OpenFold2Train
-#FLUX: -N=6
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=OpenFold2Train
+#FLUX -N=6
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

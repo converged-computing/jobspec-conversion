@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ref_F150A
-#FLUX: --queue=mf_ilg2.3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ref_F150A
+#FLUX --queue=mf_ilg2.3
+#FLUX -t=259200
+#FLUX --urgency=16
 
 pdbfile="F150A_autoWAT.pdb"
 psffile="F150A_autoWAT.psf"

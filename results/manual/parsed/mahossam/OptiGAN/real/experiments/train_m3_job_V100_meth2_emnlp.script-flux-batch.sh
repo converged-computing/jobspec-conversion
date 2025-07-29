@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RelGAN_Job
-#FLUX: -c=2
-#FLUX: --queue=m3g
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=RelGAN_Job
+#FLUX -c=2
+#FLUX --queue=m3g
+#FLUX -t=259200
+#FLUX --urgency=16
 
 nvidia-smi
 . /home/mahmoudm/anaconda3/etc/profile.d/conda.sh

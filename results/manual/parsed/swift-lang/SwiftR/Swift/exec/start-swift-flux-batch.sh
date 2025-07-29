@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-spoon-7015
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-itch-8744
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/swift-lang/SwiftR/Swift/exec/start-swift

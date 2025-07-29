@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-kitty-3284
-#FLUX: -n=6
-#FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=MaxMemPerNode
+#SBATCH --time=00:01:00
+#SBATCH --partition=huce_intel
+#SBATCH: --exclusive
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

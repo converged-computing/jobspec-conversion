@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=alighn
-#FLUX: -c=8
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=alighn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu
+#SBATCH --mem=25GB
+#SBATCH --time=1-16:00:00
 
 function readJobArrayParams () {
   _SIZE=${1}

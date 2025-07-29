@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=c10-noise
-#FLUX: -c=16
-#FLUX: -t=570
-#FLUX: --urgency=16
+#SBATCH --job-name=c10-noise
+#SBATCH --output=./output/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:t4:1
+#SBATCH --mem=128000M
+#SBATCH --time=00:09:30
 
 SOURCEDIR=~/ndl/cc_scripts
 VENV_DIR=~/pytorch_gpu

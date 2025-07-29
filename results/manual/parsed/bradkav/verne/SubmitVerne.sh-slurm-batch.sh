@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leader-0215
-#FLUX: --queue=normal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=slurm_output/slurm-%j.out
+#SBATCH --error=slurm_output/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=16
 
 export SLURM_CPU_BIND='none'
 

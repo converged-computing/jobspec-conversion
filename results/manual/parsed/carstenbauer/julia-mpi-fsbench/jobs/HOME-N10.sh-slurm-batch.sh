@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-general-4112
-#FLUX: -N=10
-#FLUX: -n=640
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=HOME-N10.out
+#SBATCH --nodes=10
+#SBATCH --ntasks=640
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
+#SBATCH --partition=cont
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

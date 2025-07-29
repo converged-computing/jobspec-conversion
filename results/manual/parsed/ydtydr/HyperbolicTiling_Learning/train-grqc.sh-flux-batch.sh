@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gr_gh2
-#FLUX: -n=2
-#FLUX: --queue=mpi-cpus
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=gr_gh2
+#FLUX -n=2
+#FLUX --queue=mpi-cpus
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 python3 embed.py \
        -dim 2 \

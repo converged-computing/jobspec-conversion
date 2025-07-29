@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50
-#FLUX: -c=160
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50
+#SBATCH --output=rn50_%N.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=160
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 test_every_n_steps=1000
 batch_size=8 # 4x across the gpus

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-destiny-7042
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-poodle-0656
+#FLUX -n=4
+#FLUX -c=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 export IMAGE='$JAX_IMAGE'
 

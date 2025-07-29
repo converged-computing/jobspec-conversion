@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cherry-2621
-#FLUX: -c=4
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#SBATCH --account=def-wyeth
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@cmmt.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=5-20:00:00
+#SBATCH --array=0-4%5
 
 NSLOTS=$SLURM_JOB_CPUS_PER_NODE
 PROJECT_DIR=/project/projects/def-wyeth/RICHMOND/SIMULATION/

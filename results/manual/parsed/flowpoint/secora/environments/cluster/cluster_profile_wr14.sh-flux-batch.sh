@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-itch-7250
-#FLUX: --queue=wr14
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-soup-1470
+#FLUX --queue=wr14
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export HF_HOME='/scratch/fhoels2s/huggingface'
 export MASTER_ADDR='localhost'

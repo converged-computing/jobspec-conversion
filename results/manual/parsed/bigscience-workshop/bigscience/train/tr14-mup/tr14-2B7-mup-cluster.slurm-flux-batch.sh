@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tr14-2B7-mup
-#FLUX: -N=8
-#FLUX: -c=12
-#FLUX: --queue=production-cluster
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=tr14-2B7-mup
+#FLUX -N=8
+#FLUX -c=12
+#FLUX --queue=production-cluster
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export PATH='/opt/amazon/efa/bin:$PATH'
 export NCCL_PROTO='simple'

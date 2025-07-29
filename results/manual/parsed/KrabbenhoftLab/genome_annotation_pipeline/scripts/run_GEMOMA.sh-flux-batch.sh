@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-car-8000
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-sundae-0807
+#FLUX --queue=general-compute
+#FLUX -t=259200
+#FLUX --urgency=16
 
 SPECIES=$1 # short name for your species
 GENOME_DIR=$2 # directory containing your genome assembly

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pedo-9881
-#FLUX: -N=4
-#FLUX: --queue=nvgpu
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=nvgpu
 
 module use /user-environment/modules
 module --ignore-cache load intel-mkl

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=16S_NF
-#FLUX: -c=12
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=16S_NF
+#SBATCH --output=16S_NF.%J.out
+#SBATCH --error=16S_NF.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 module load nextflow
 module load singularity

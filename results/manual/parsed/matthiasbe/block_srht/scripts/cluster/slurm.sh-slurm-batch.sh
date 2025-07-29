@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=block_srht
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=block_srht
+#SBATCH --output=runs/block_srht.%j
+#SBATCH --error=runs/block_srht.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=180gb
+#SBATCH --time=5-00:00:00
 
 					  # %x is job name, %j jobid 
 module purge

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cd-hit-test
-#FLUX: -n=2
-#FLUX: --urgency=16
+#SBATCH --job-name=cd-hit-test
+#SBATCH --account=h3abionet
+#SBATCH --output=/home/groups/h3abionet/RefGraph/results/NeginV_Test_Summer2021/slurm_output/slurm-%A.out
+#SBATCH --mail-user=valizad2@illinois.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=18G
 
 cd /home/groups/h3abionet/RefGraph/results/NeginV_Test_Summer2021/results/annotation
 module load CD-HIT/4.8.1-IGB-gcc-8.2.0

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RFP_COREL
-#FLUX: -c=6
-#FLUX: --queue=boomsma
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#SBATCH --job-name=RFP_COREL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=3-12:00:00
+#SBATCH --partition=boomsma
+#SBATCH --array=0-26
 
 HOME_DIR=/home/pcq275/
 COREL_DIR=${HOME_DIR}/corel/

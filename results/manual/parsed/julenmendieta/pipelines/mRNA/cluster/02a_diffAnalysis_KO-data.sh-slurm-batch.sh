@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mRNA_diff-ko
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=mRNA_diff-ko
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=30G
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
 
 basePath=$1
 projectName=$2

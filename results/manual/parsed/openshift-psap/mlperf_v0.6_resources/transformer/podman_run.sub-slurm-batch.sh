@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=translation
-#FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=translation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=mlperf
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export MLPERF_HOST_OS='/etc/redhat-release'
 

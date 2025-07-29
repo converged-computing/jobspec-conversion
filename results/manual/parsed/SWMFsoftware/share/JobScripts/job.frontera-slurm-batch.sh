@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sub1
-#FLUX: -N=64
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sub1
+#SBATCH --account=BCS21001
+#SBATCH --output=SWMF.o%j
+#SBATCH --error=SWMF.e%j
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
 
 export I_MPI_ADJUST_REDUCE='1 '
 export UCX_LOG_LEVEL='ERROR '

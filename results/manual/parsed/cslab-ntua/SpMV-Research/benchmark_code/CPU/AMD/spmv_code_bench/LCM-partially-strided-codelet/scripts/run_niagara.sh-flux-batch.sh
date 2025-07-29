@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TRSV
-#FLUX: -c=40
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=TRSV
+#FLUX -c=40
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load NiaEnv/2019b
 module load cmake/3.17.3

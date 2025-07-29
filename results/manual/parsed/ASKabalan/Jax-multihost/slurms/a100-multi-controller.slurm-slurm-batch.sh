@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=A100-Multi-host
-#FLUX: -n=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=A100-Multi-host
+#SBATCH --account=tkc@a100
+#SBATCH --output=a100-multi.out
+#SBATCH --error=a100-multi.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge
 module load python/3.10.4

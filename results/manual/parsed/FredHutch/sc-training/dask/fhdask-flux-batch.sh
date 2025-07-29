@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-general-8999
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-egg-2692
+#FLUX --urgency=16
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"
 baseport=$(shuf -i 8786-60000 -n 1)

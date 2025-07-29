@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cattywampus-4539
-#FLUX: -N=8
-#FLUX: --queue=ProdQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-animal-8623
+#FLUX -N=8
+#FLUX --queue=ProdQ
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-snack-0239
-#FLUX: -n=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=astronomy-dept
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=astronomy-dept-b
 
 export CASA='${CASAPATH}/bin/casa'
 export CASAPATH='/orange/adamginsburg/casa/${CASAVERSION}'

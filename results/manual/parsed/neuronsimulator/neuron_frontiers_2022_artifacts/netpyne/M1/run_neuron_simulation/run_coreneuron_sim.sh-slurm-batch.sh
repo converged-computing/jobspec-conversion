@@ -1,12 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cherry-7627
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=proj16
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=08:00:00
+#SBATCH --partition=prod
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu&clx
 
 export CORENEURONLIB='/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus/spack/opt/spack/linux-rhel7-x86_64/intel-19.1.2.254/netpyne-m-one-0.1-20211206-hnwmgj/x86_64/libcorenrnmech.so'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fudge-5477
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-mango-9832
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTORCH_PRETRAINED_BERT_CACHE='$TMPDIR'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CESM2_SILHS_UWM_V2
-#FLUX: --queue=dav
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=CESM2_SILHS_UWM_V2
+#SBATCH --account=NTDD0004
+#SBATCH --output=gpu.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH --partition=dav
 
 export PGI_ACC_NOTIFY='2'
 export PGI_ACC_TIME='1'

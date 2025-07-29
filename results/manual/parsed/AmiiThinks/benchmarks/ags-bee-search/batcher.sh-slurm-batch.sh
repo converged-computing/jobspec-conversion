@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-soup-1981
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --account=def-lelis
+#SBATCH --output=log/%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=00:24:00
 
 module load python/3 cuda cudnn
 source tensorflow/bin/activate

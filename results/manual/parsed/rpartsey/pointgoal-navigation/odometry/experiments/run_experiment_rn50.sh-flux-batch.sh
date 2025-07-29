@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vo3mrn50
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=prioritylab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=vo3mrn50
+#FLUX -N=8
+#FLUX -c=10
+#FLUX --queue=prioritylab
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 export GLOG_minloglevel='2'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-butter-5896
-#FLUX: --queue=public
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH --partition=public
 
 MV2_USE_ALIGNED_ALLOC=1
 module load mvapich2-2.3.7-gcc-11.2.0

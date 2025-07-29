@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=itac
-#FLUX: --queue=DevQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=itac
+#FLUX --queue=DevQ
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${NTHREADS}'
 export AFF_THREAD='${NTHREADS}'

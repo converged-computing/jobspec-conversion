@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=OpenFold2Train
-#FLUX: -N=6
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=OpenFold2Train
+#SBATCH --output=/home/g.derevyanko/Logs/OpenFold2/Train/OpenFold2Train_%j.log
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

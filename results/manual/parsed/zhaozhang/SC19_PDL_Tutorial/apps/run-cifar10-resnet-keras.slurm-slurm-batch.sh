@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Cifar10-1node
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Cifar10-1node
+#SBATCH --account=Intel-TensorFlow
+#SBATCH --output=Cifar10-1node.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

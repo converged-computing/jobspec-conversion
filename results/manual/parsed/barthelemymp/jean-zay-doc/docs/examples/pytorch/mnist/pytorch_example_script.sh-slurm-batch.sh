@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_mnist
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_mnist
+#SBATCH --output=pytorch_mnist%j.out
+#SBATCH --error=pytorch_mnist%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --array=4,6,8
 
 export WANDB_MODE='offline'
 

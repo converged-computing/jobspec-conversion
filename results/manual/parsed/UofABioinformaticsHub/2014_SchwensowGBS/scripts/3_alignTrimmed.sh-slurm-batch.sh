@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fudge-3463
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --output=/data/biohub/2014_SchwensowGBS/slurm/%x_%j.out
+#SBATCH --error=/data/biohub/2014_SchwensowGBS/slurm/%x_%j.err
+#SBATCH --mail-user=stephen.pederson@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=16:00:00
+#SBATCH --partition=batch
 
 module load BWA/0.7.15-foss-2017a
 module load SAMtools/0.1.19-GCC-5.3.0-binutils-2.25

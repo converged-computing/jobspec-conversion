@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpc_lammps.001
-#FLUX: -N=927
-#FLUX: --queue=workq
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gpc_lammps.001
+#FLUX -N=927
+#FLUX --queue=workq
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module restore PrgEnv-cray
 module load cray-mpich/8.0.15

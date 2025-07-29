@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=isomiR
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=isomiR
+#SBATCH --mail-user=guibletwm
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=200g
+#SBATCH --time=12:00:00
 
 set -eu
 project_name=$1

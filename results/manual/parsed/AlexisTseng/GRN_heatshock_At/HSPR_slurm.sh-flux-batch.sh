@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hsGRN_Gillespie
-#FLUX: -c=10
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=hsGRN_Gillespie
+#FLUX -c=10
+#FLUX --queue=icelake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh # Leave this line (enables the module command)
 module purge  # Removes all modules still loaded

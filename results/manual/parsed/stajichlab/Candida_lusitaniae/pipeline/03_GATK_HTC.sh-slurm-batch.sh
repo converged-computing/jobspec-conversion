@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=HTC
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=HTC
+#SBATCH --output=HTC.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
 
 module load java/8
 module load gatk/3.7

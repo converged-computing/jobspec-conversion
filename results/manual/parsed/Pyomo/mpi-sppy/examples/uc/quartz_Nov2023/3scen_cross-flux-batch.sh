@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=3scen_cross
-#FLUX: --queue=pbatch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=3scen_cross
+#FLUX --queue=pbatch
+#FLUX -t=900
+#FLUX --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

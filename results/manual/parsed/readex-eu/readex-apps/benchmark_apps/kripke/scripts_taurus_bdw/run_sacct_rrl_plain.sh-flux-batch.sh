@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kripke_sacct
+#FLUX --job-name=kripke_sacct
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

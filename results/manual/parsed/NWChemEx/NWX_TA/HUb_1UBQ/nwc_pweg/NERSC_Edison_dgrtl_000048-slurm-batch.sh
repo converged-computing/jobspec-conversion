@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eds_nwc_pweg_dgrtl_000048
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=eds_nwc_pweg_dgrtl_000048
+#SBATCH --output=eds_nwc_pweg_dgrtl_000048.o%j
+#SBATCH --error=eds_nwc_pweg_dgrtl_000048.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --licenses=SCRATCH
 
 export NWCHEM_MEMORY_HEAP='6553600'
 export NWCHEM_MEMORY_STACK='104857600'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=<bcr-nextflow>
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=<bcr-nextflow>
+#SBATCH --output=./slurm_log/bcr-nf_%A.out
+#SBATCH --error=./slurm_log/bcr-nf_%A.err
+#SBATCH --mail-user=your_email@sample.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
 
 export NXF_SINGULARITY_CACHEDIR='/path/to/bcRflow/singularity-images'
 export SINGULARITY_CACHEDIR='/path/to/bcRflow/singularity-images'

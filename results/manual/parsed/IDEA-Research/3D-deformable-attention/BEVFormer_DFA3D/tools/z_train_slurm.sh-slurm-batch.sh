@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=bevformer_small_DFA3D_rerun3
-#FLUX: -c=128
-#FLUX: --queue=cvr
-#FLUX: --urgency=16
+#SBATCH --job-name=bevformer_small_DFA3D_rerun3
+#SBATCH --output=./work_dirs/bevformer_small_DFA3D_rerun3.log
+#SBATCH --mail-user=lihongyang@idea.edu.cn
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:hgx:8
+#SBATCH --mem=800G
+#SBATCH --partition=cvr
+#SBATCH --qos=preemptive
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --exclude=True
 
 export TORCH_DISTRIBUTED_DEBUG='DETAIL  # for debug the "unused_parameter'
 

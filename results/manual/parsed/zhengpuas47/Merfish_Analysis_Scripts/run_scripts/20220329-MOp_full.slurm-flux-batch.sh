@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-truffle-3926
-#FLUX: --queue=zhuang
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-carrot-5227
+#FLUX --queue=zhuang
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

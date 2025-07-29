@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MESONH
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MESONH
+#SBATCH --output=output_PREP_PGD.eo%j
+#SBATCH --error=output_PREP_PGD.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal256
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export dir_exe_croco='../../models/croco-v1.1/exe_IROISE_1core_CPLOA'
 

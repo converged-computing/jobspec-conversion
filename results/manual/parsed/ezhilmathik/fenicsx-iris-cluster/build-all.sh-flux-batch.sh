@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fudge-9796
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-spoon-3466
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 source env-build-fenics.sh

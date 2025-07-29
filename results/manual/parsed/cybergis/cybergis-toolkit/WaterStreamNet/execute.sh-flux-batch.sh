@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-4626
-#FLUX: -n=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lentil-9583
+#FLUX -n=12
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module use /data/cigi/common/cigi-modules

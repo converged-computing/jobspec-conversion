@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gwas
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gwas
+#FLUX -c=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export COMORMENT='/cluster/projects/p697/github/comorment'
 export SINGULARITY_BIND='$COMORMENT/containers/reference:/REF:ro'

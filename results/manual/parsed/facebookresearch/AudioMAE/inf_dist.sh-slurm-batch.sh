@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aud-ft
-#FLUX: -c=10
-#FLUX: --queue=learnfair
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=aud-ft
+#SBATCH --output=/checkpoint/%u/jobs/%A.out
+#SBATCH --error=/checkpoint/%u/jobs/%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=480GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=learnfair
+#SBATCH --constraint=ntasks-per-node=8
 
 audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json
 audioset_train_all_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all.json

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-car-3704
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/coreyjadams/NEXT_SparseEventID/train_from_simclr.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-data-curator:remove-duplicates
-#FLUX: -N=10
+#FLUX --job-name=nemo-data-curator:remove-duplicates
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -eux
 base_dir=`pwd`

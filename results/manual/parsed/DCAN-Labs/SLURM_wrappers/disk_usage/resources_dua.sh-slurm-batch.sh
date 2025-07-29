@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ABCDdua
-#FLUX: --queue=small,amdsmall,amd512,ram256g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ABCDdua
+#SBATCH --account=smnelson
+#SBATCH --output=output_logs/ABCCdua_%A_%a.out
+#SBATCH --error=output_logs/ABCCdua_%A_%a.err
+#SBATCH --mail-user=<YOUR-EMAIL>@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=small,amdsmall,amd512,ram256g
 
 cd run_files.dua
 module load singularity

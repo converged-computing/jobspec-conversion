@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-0138
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-bits-2950
+#FLUX -c=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

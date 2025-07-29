@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DOWNLOAD
-#FLUX: --queue=serial
-#FLUX: --urgency=16
+#FLUX --job-name=DOWNLOAD
+#FLUX --queue=serial
+#FLUX --urgency=16
 
 SERVER_CONFIG=$1
 module load anaconda/3-2021.11

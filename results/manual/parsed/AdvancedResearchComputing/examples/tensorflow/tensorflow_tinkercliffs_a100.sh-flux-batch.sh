@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hippo-1328
-#FLUX: --queue=a100_dev_q
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-earthworm-9315
+#FLUX --queue=a100_dev_q
+#FLUX -t=600
+#FLUX --urgency=16
 
 module reset
 module load cuda11.2/toolkit #hopefully will be added to defaults soon

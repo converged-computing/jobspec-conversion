@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nanopore_ann
-#FLUX: -c=2
-#FLUX: --queue=high
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=nanopore_ann
+#FLUX -c=2
+#FLUX --queue=high
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 module load bio3
 snakemake -j 68 \

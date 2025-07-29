@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fly-kine-compensation
-#FLUX: -n=80
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=fly-kine-compensation
+#SBATCH --account=sch@cpu
+#SBATCH --output=JOBWABBIT%j.out
+#SBATCH --error=JOBWABBIT%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=40
 
 export MAKEFLAGS='-j8'
 export HDF_ROOT='/gpfslocalsup/spack_soft/hdf5/1.10.5/intel-19.0.4-lnysdcbocfokaq4yxc72wiplpfknw7e6'

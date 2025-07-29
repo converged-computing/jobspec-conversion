@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=diffv2_pengqian
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=diffv2_pengqian
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export NCCL_DEBUG='INFO '

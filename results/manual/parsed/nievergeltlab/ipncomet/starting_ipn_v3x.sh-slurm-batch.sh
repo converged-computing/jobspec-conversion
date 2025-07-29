@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fudge-0017
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nievergeltlab/ipncomet/starting_ipn_v3x.sh

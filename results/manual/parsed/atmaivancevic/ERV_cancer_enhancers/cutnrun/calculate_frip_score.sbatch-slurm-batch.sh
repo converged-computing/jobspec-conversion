@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=frip_score
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=frip_score
+#SBATCH --output=/Users/%u/slurmOut/slurm-%A_%a.out
+#SBATCH --error=/Users/%u/slurmErr/slurm-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 numThreads=8
 module load bedtools

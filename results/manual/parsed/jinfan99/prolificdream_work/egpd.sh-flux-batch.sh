@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=egpd
-#FLUX: -c=2
-#FLUX: --queue=spgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=egpd
+#FLUX -c=2
+#FLUX --queue=spgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CUDA_HOME='~/miniconda3'
 

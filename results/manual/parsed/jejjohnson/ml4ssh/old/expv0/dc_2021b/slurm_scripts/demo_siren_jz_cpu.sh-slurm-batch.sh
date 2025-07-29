@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dc21b
-#FLUX: -c=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dc21b
+#SBATCH --account=cli@cpu
+#SBATCH --output=/gpfsscratch/rech/cli/uvo53rl/logs/logs/ml4ssh_dc_2021b_%j.log
+#SBATCH --error=/gpfsscratch/rech/cli/uvo53rl/logs/errs/ml4ssh_dc_2021b_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=qos_cpu-t4
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$WORK/projects/ml4ssh:${PYTHONPATH}'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

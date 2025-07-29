@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=alBERTo_met
-#FLUX: -c=8
-#FLUX: --queue=all_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=alBERTo_met
+#FLUX -c=8
+#FLUX --queue=all_usr_prod
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='/usr/local/anaconda3/bin/python' # Modifica percorso Python se necessario'
 

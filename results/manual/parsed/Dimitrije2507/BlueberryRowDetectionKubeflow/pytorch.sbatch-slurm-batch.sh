@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: --queue=main
-#FLUX: -t=1879200
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --output=slurm.%J.out
+#SBATCH --error=slurm.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=21-18:00:00
+#SBATCH --partition=main
 
 srun bash child.sh

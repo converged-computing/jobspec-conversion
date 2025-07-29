@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cifkfc4
-#FLUX: -n=4
-#FLUX: --queue=v100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=cifkfc4
+#FLUX -n=4
+#FLUX --queue=v100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 mkdir -p sbatch_logs
 source $SCRATCH/anaconda3/bin/activate pytorch

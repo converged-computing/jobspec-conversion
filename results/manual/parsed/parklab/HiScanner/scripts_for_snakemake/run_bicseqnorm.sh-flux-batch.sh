@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-sundae-0076
-#FLUX: -n=8
-#FLUX: --queue=park
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-destiny-8675
+#FLUX -n=8
+#FLUX --queue=park
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load gcc  conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1
 module load perl/5.30.0

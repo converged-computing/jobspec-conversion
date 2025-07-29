@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=summarize_cam5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=summarize_cam5
+#FLUX -t=3600
+#FLUX --urgency=16
 
 rankspernode=48
 totalranks=$(( ${SLURM_NNODES} * ${rankspernode} ))

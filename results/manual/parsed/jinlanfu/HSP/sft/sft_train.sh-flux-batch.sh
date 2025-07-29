@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sft
-#FLUX: --queue=llm
-#FLUX: --urgency=16
+#FLUX --job-name=sft
+#FLUX --queue=llm
+#FLUX --urgency=16
 
 export LOGLEVEL='ERROR'
 export NCCL_DEBUG='ERROR   # INFO #TRACE'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mutlisupcontrast_contr
-#FLUX: -c=4
-#FLUX: --queue=tesla
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=mutlisupcontrast_contr
+#SBATCH --mail-user=241368@student.pwr.edu.pl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=1-01:00:00
+#SBATCH --partition=tesla
+#SBATCH --qos=tesla
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

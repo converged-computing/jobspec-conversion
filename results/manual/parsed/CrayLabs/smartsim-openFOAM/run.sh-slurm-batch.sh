@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SS-OpenFOAM
-#FLUX: -N=16
-#FLUX: --exclusive
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=SS-OpenFOAM
+#SBATCH --output=SS-OpenFOAM.out
+#SBATCH --error=SS-OpenFOAM.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH: --exclusive
 
 export SMARTSIM_LOG_LEVEL='developer'
 export OF_PATH='/path/to/OpenFOAM-5.x'

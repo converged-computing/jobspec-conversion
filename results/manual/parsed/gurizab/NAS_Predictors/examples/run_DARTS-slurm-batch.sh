@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_DARTS
-#FLUX: --queue=mlhiwidlc_gpu-rtx2080
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_DARTS
+#SBATCH --output=log/%x.%N.%j.out
+#SBATCH --error=log/%x.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=mlhiwidlc_gpu-rtx2080
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'
 

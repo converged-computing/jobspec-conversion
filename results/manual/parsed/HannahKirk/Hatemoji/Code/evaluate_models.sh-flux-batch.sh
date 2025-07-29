@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hatemoji_eval
-#FLUX: --urgency=16
+#FLUX --job-name=hatemoji_eval
+#FLUX --urgency=16
 
 module load cuda/10.1
 module load python/anaconda3

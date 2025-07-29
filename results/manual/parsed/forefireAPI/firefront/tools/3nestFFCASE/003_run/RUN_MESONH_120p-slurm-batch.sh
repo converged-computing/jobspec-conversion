@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FCAST_MNH
-#FLUX: -N=3
-#FLUX: -n=120
-#FLUX: --queue=intel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=FCAST_MNH
+#SBATCH --mail-user=batti.filippi@@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=3
+#SBATCH --ntasks=120
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=intel
 
 export MPIRUN='mpirun -np 120'
 

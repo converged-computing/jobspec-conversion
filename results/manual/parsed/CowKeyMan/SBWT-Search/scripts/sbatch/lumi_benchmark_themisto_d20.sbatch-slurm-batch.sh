@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SBWT_themisto_d20
-#FLUX: --queue=standard-g
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=SBWT_themisto_d20
+#SBATCH --account=project_462000116
+#SBATCH --output=themisto_out_d20.txt
+#SBATCH --error=themisto_err_d20.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --partition=standard-g
 
 export DATETIME='$(date +"%Y-%m-%d_%H-%M-%S_%z")'
 export OUTPUT_FOLDER='themisto{DATETIME}'

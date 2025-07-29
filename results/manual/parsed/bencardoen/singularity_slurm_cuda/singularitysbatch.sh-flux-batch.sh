@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lemur-5272
-#FLUX: -c=6
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-fudge-8426
+#FLUX -c=6
+#FLUX -t=64800
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$SLURM_TMPDIR/singularity/cache'
 export SINGULARITY_TMPDIR='$SLURM_TMPDIR/singularity/tmp'

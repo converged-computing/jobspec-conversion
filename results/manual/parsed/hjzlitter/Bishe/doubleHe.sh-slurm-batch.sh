@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Annealing
-#FLUX: -n=20
-#FLUX: --queue=GPU-V100
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=Annealing
+#SBATCH --output=job-%j.log
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=GPU-V100
+#SBATCH --qos=gpujoblimit
 
 export PATH='$PATH:/home/snst/huysh20/.lammps_command'
 export LAMMPS_POTENTIALS='/home/snst/huysh20/.lammps_command'

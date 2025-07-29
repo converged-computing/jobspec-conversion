@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-gato-2054
-#FLUX: --queue=wildfire
-#FLUX: -t=660
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --mail-user=kkasodek@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A6000:1
+#SBATCH --mem=32G
+#SBATCH --time=00:11:00
+#SBATCH --partition=wildfire
 
 ...
 nvidia-smi # Useful for seeing GPU status and activity 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-3852
-#FLUX: -c=10
+#FLUX --job-name=lovely-caramel-4114
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=_deCODE
-#FLUX: -c=6
-#FLUX: --queue=cardio
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=_deCODE
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/user/jhz22/hpc-work/work/_deCODE_%A_%a.o
+#SBATCH --error=/rds/user/jhz22/hpc-work/work/_deCODE_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=10000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
+#SBATCH --array=1-72
 
 export TMPDIR='${HPC_WORK}/work'
 export dir='~/rds/results/public/proteomics/deCODE'

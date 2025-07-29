@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pg-amz
-#FLUX: --queue=scavenger
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=pg-amz
+#FLUX --queue=scavenger
+#FLUX -t=252000
+#FLUX --urgency=16
 
 module purge
 module load mpi

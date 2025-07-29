@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-taco-0794
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --output=logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --partition=main
+#SBATCH --exclude=comp-d-[001-004]
 
 set -e
 set -x

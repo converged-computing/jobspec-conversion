@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-car-6303
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-hobbit-4090
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export FASTBPE='../../fastBPE/fastBPE'
 export MOSES='../../mosesdecoder'

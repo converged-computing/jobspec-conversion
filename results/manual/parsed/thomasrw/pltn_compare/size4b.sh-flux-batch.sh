@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-2056
-#FLUX: -n=10
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-eagle-3785
+#FLUX -n=10
+#FLUX --urgency=16
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

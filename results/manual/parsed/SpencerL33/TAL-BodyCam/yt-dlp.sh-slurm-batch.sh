@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=yt-dlp
-#FLUX: -n=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=yt-dlp
+#SBATCH --account=def-panos
+#SBATCH --output=out/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=512M
+#SBATCH --time=03:00:00
 
 module load python/3.10
 module list

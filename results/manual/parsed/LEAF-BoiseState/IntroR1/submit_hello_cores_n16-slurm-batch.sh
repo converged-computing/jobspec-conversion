@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-diablo-5117
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/LEAF-BoiseState/IntroR1/submit_hello_cores_n16

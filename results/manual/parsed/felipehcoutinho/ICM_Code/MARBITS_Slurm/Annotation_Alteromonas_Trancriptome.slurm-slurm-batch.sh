@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=AMG_Hunter_Alteromonas_Transcriptome
-#FLUX: -c=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=AMG_Hunter_Alteromonas_Transcriptome
+#SBATCH --account=emm4
+#SBATCH --output=/mnt/lustre/scratch/fcoutinho/Job_Logs/jobLog_%J.out
+#SBATCH --error=/mnt/lustre/scratch/fcoutinho/Job_Logs/jobLog_%J.err
+#SBATCH --mail-user=felipehcoutinho@gmail.com
+#SBATCH --mail-type=All
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=150G
+#SBATCH --time=1-00:00:00
 
 module load diamond/2.0.7
 module load python/3.8.5

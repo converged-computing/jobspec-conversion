@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BioMedTok
-#FLUX: -c=6
-#FLUX: --queue=gpu_p2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=BioMedTok
+#FLUX -c=6
+#FLUX --queue=gpu_p2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load pytorch-gpu/py3/1.12.1

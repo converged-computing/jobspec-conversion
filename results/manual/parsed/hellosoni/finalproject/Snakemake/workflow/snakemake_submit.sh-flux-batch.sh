@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fudge-9144
-#FLUX: -n=6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-cinnamonbun-5199
+#FLUX -n=6
+#FLUX -t=36000
+#FLUX --urgency=16
 
 set -e -u -o pipefail
 module load python/3.6-conda5.2

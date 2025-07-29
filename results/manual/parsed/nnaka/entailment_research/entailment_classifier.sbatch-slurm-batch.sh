@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lizard-9687
-#FLUX: -N=3
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=60GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge
 singularity exec --nv \

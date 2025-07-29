@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-8236
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-diablo-8285
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LIBRARY_PATH='$LIBRARY_PATH:~/libtensorflow2/lib'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:~/libtensorflow2/lib'

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train-kp20k-unidirectional
-#FLUX: --queue=titanx
-#FLUX: --urgency=16
+#SBATCH --job-name=train-kp20k-unidirectional
+#SBATCH --output=slurm_output/train-kp20k-unidirectional.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --partition=titanx
+#SBATCH --constraint=ntasks-per-node=1
 
 export EXP_NAME='rnn.teacher_forcing'
 export DATA_NAME='kp20k'

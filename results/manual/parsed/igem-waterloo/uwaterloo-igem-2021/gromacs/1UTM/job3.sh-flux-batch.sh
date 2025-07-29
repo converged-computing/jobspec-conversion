@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=job3-sehacker
-#FLUX: -n=16
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=job3-sehacker
+#FLUX -n=16
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

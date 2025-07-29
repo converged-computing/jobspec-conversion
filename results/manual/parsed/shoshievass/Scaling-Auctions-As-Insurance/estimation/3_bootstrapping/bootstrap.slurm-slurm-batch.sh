@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bootstrap
-#FLUX: -c=2
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bootstrap
+#SBATCH --output=logs/julia-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=32gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0-100
 
 module load julia/1.7.3
 module load knitro/12.1.1

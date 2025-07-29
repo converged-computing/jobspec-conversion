@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-butter-1910
-#FLUX: -c=4
-#FLUX: --queue=orchid
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-bits-1028
+#FLUX -c=4
+#FLUX --queue=orchid
+#FLUX -t=86400
+#FLUX --urgency=16
 
 conda activate sea-ice-classification
 nvidia-smi

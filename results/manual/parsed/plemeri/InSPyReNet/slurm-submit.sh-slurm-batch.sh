@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=inspyrenet
-#FLUX: --queue=A6000
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=inspyrenet
+#SBATCH --output=train.%j.out
+#SBATCH --mail-user=taehoon1018@postech.ac.kr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=A6000
+#SBATCH --constraint=ntasks-per-node=8
 
 cd $SLURM_SUBMIT_DIR
 echo "SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR" echo "CUDA_HOME=$CUDA_HOME"

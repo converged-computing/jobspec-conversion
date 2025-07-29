@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=torch_install_from_source
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=torch_install_from_source
+#FLUX --queue=gpu_prod_long
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PATH='/opt/conda/bin:$PATH'
 export CMAKE_PREFIX_PATH='${CONDA_PREFIX:-"$(dirname $(which conda))/../"}'

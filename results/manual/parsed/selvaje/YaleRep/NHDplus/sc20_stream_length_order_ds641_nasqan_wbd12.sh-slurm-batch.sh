@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sc20_stream_length_order_ds641_nasqan_wbd12.sh
-#FLUX: --queue=week
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=sc20_stream_length_order_ds641_nasqan_wbd12.sh
+#SBATCH --output=/gpfs/scratch60/fas/sbsc/ga254/stdout/sc20_stream_length_order_ds641_nasqan_wbd12.sh.%A_%a.out
+#SBATCH --error=/gpfs/scratch60/fas/sbsc/ga254/stderr/sc20_stream_length_order_ds641_nasqan_wbd12.sh.%A_%a.err
+#SBATCH --mail-user=email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=week
+#SBATCH --array=27-27
 
 NHD=/project/fas/sbsc/ga254/dataproces/NHDplus
 file=$(ls $NHD/ds641_nasqan_wbd12_wgs84/*.shp  | head  -n  $SLURM_ARRAY_TASK_ID | tail  -1 )

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_preprocess
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron_preprocess
+#SBATCH --output=bin_%j.out
+#SBATCH --mail-user=USER@DOMAIN
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=999gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=hpg-ai
 
 pwd; hostname; date
 CONTAINER=./containers/pytorch.sif # a container has no megatron and nemo installed

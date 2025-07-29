@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-bike-6504
-#FLUX: -c=8
-#FLUX: --queue=day
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=../01.Bioinformatics_ITS/slurm/%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=day
+#SBATCH --constraint=ntasks-per-node=2
 
 readonly THREADS=8
 readonly IDENTITY=0.97

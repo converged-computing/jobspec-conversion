@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-muffin-1413
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=12:00:00
+#SBATCH --qos=epsrc
+#SBATCH --array=0-16
 
 BASE="/bask/projects/x/xngs6460-languages/gnail/enfr"
 . ${BASE}/software/env.sh

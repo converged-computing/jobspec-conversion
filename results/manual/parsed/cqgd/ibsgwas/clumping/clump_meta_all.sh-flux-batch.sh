@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LDclump_meta
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=LDclump_meta
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CHR=${SLURM_ARRAY_TASK_ID}
 METAS=(metal_ICD_diag metal_ROME_Q metal_Qonly_Qnon_any metal_MAURO metal_ICD_ROME_EURUSA_Qonly_Qnon metal_ICD_ROME_EURUSA_any metal_ICD_diag)

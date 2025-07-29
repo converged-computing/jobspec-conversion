@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=okjob
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=okjob
+#SBATCH --account=junogpu
+#SBATCH --output=$(opticks-site-user-out)/%j.out
+#SBATCH --error=$(opticks-site-user-out)/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=20480
+#SBATCH --partition=gpu
+#SBATCH --qos=debug
 
 opticks-site-source(){ echo $BASH_SOURCE ; }
 opticks-site-(){     source $BASH_SOURCE ; }

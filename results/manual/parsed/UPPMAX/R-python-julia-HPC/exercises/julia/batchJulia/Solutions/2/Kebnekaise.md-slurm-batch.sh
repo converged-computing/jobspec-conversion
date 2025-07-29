@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=job-serial
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=job-serial
+#SBATCH --account=hpc2n2023-110
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --time=00:03:00
 
 ml purge  > /dev/null 2>&1
 ml Julia/1.8.5-linux-x86_64

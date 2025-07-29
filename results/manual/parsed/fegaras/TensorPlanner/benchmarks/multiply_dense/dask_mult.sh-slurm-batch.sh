@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dask_mult
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_mult
+#SBATCH --output=dask_multiply_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export EXP_HOME='$(pwd -P)'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-house-4740
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=imi@gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH: --exclusive
+#SBATCH --constraint=v100-32g
 
 export MASTER_PORT='1234'
 export MASTER_ADDRESS='$(echo $slurm_nodes | cut -d' ' -f1)'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_all
-#FLUX: -n=48
-#FLUX: --queue=skx-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=run_all
+#FLUX -n=48
+#FLUX --queue=skx-dev
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'
 export PATH='$RSMASINSAR_HOME/sources/isce2/contrib/stack/topsStack:$PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-muffin-8976
-#FLUX: --queue=
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-destiny-9294
+#FLUX --queue=
+#FLUX -t=36000
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load software/nextflow-23.04.3

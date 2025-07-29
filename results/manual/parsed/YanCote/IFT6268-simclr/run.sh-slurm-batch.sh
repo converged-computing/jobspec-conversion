@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-8079
-#FLUX: -c=24
-#FLUX: -t=346200
-#FLUX: --urgency=16
+#SBATCH --account=def-bengioy
+#SBATCH --output=pre_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem=178G
+#SBATCH --time=4-00:10:00
 
 format_time() {
   ((h=${1}/3600))

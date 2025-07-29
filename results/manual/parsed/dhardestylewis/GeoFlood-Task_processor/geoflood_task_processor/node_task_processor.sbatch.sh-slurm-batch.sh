@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=geoflood.%j
-#FLUX: -n=67
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=geoflood.%j
+#SBATCH --account=PT2050-DataX
+#SBATCH --output=geoflood.o%j
+#SBATCH --error=geoflood.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=67
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
 
 args=( )
 for arg; do

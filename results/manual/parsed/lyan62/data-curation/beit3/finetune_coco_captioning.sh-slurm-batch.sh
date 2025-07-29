@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=beit3_coco
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=beit3_coco
+#SBATCH --output=slurm-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=240G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=hendrixgpu01fl
 
 export PYTHONPATH='/home/rdp455/unilm/beit3'
 export WANDB_API_KEY='7ff3068098020a220faf94a829699f6197bb1128'

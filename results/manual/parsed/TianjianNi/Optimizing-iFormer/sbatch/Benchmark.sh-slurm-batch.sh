@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Benchmark
-#FLUX: -c=4
-#FLUX: --queue=rtx8000
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Benchmark
+#SBATCH --output=Benchmark
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=20GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=rtx8000
 
 module purge
 singularity exec --nv \

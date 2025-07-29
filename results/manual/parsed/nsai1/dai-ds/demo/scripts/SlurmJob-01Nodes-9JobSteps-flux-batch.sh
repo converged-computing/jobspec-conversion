@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-1852
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-snack-7975
+#FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

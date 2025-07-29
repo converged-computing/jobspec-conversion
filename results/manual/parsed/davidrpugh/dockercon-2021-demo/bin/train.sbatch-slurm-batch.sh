@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chair-3942
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=results/%x/%j-slurm.out
+#SBATCH --error=results/%x/%j-slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=9G
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=intel
 
 set -e
 module purge

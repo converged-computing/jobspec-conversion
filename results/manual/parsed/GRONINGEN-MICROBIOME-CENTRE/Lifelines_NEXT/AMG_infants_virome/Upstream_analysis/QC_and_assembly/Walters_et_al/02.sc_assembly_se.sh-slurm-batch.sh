@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=readsse_QC
-#FLUX: -c=4
-#FLUX: -t=17940
-#FLUX: --urgency=16
+#SBATCH --job-name=readsse_QC
+#SBATCH --output=readsse_QC.out
+#SBATCH --error=readsse_QC.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32gb
+#SBATCH --time=04:59:00
 
 SAMPLE_ID=$1
 echo "SAMPLE_ID=${SAMPLE_ID}"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dr5-rep
-#FLUX: -c=24
+#FLUX --job-name=dr5-rep
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX -t=82800
+#FLUX --urgency=16
 
 pwd; hostname; date
 nvidia-smi

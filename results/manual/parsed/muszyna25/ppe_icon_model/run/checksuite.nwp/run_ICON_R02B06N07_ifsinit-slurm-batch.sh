@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-soup-6514
-#FLUX: -N=6
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=mh0287
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='4'
 export ICON_THREADS='4'

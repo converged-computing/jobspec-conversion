@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-spoon-2406
-#FLUX: -c=6
-#FLUX: --queue=csedu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-mango-3468
+#FLUX -c=6
+#FLUX --queue=csedu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 git_commit_hash=$( git rev-parse --short HEAD )

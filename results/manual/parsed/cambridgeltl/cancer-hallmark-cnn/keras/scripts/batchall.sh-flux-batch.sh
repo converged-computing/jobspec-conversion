@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-latke-2774
-#FLUX: --queue=tesla
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-egg-4458
+#FLUX --queue=tesla
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32'
 

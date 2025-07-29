@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-chair-4520
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=01:30:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 export PYTHONHASHSEED='0'
 export OMPI_MCA_btl='tcp,self,sm'

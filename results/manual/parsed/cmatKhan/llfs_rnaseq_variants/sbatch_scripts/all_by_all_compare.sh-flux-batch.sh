@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rna_dna_comp
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rna_dna_comp
+#FLUX -t=3600
+#FLUX --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/llfs_rna_dna_compare_test/llfs_rnaseq_latest.sif

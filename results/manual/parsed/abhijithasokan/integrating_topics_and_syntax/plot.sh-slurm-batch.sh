@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ITS_plot
-#FLUX: -n=12
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=ITS_plot
+#SBATCH --output=./plot.%j.out
+#SBATCH --error=./plot.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=2-12:00:00
 
 module purge
 module load anaconda3/latest

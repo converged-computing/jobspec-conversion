@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-avocado-7415
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=60GB
+#SBATCH --time=2-00:00:00
 
 export IFS=';'
 

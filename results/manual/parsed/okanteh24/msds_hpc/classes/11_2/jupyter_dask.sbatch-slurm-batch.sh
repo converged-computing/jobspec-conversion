@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dask
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#SBATCH --job-name=dask
+#SBATCH --output=dask_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --partition=htc
 
 module purge
 module load singularity

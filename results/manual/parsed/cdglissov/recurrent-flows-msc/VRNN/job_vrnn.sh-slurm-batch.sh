@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-0646
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cdglissov/recurrent-flows-msc/VRNN/job_vrnn.sh

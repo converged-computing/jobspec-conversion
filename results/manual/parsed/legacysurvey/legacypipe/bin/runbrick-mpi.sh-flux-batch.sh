@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=0744m640
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=0744m640
+#FLUX -N=3
+#FLUX -c=4
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LEGACY_SURVEY_DIR='/global/cfs/cdirs/cosmo/work/legacysurvey/dr9m'
 export DUST_DIR='/global/cfs/cdirs/cosmo/data/dust/v0_1'

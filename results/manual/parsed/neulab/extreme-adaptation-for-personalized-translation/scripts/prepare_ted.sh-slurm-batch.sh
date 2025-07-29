@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prepare_ted
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=prepare_ted
+#SBATCH --output=log_prepare_ted.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3G
+#SBATCH --nodelist=compute-0-7
 
 CONFIG_FILE=${1:-"ted_en_fr.config"}
 source $CONFIG_FILE

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=exampleJob
-#FLUX: -c=8
-#FLUX: --queue=small-g
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=exampleJob
+#SBATCH --account=project_465000861
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=small-g
 
 export EBU_USER_PREFIX='/project/project_465000861/EasyBuild'
 export PYTORCH_HIP_ALLOC_CONF='max_split_size_mb:500'

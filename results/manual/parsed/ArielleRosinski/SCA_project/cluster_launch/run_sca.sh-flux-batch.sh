@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlmi-sca
-#FLUX: --queue=ampere
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=mlmi-sca
+#FLUX --queue=ampere
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='~/.conda/envs/sca_env/lib:$LD_LIBRARY_PATH'
 export PATH='~/.conda/envs/sca_env/bin:$PATH'

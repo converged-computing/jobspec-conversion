@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=candels_z3_sec
-#FLUX: --queue=conroy,shared,serial_requeue,itc_cluster,conroy-intel
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=candels_z3_sec
+#FLUX --queue=conroy,shared,serial_requeue,itc_cluster,conroy-intel
+#FLUX -t=57600
+#FLUX --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/CANDELS_GDSS_workshop_z1.dat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

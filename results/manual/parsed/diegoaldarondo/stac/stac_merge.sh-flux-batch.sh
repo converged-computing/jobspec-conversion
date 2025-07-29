@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stac_merge
-#FLUX: --queue=olveczky
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=stac_merge
+#FLUX --queue=olveczky
+#FLUX -t=60
+#FLUX --urgency=16
 
 set -e
 source ~/.bashrc

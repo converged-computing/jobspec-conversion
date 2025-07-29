@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ddp-torch
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=ddp-torch
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$SLURM_NPROCS'

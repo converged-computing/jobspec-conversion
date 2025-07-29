@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=desi-pred
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#SBATCH --job-name=desi-pred
+#SBATCH --output=desi-pred_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=0
+#SBATCH --time=5-08:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=A100
+#SBATCH: --no-requeue
+#SBATCH --array=1-110%10
 
 pwd; hostname; date
 nvidia-smi

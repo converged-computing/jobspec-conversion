@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=downsample
-#FLUX: -c=8
-#FLUX: --queue=regular
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=downsample
+#SBATCH --output=ds-%j.out
+#SBATCH --error=ds-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=regular
 
 module load gcc
 module load anaconda3

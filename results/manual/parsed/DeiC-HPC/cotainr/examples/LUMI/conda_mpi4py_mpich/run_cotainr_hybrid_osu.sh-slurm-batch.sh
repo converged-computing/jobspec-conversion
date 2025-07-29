@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py-cotainr-hybrid-osu
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: --queue=small
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi4py-cotainr-hybrid-osu
+#SBATCH --account=project_<your_project_id>
+#SBATCH --output=output_%x_%j.txt
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=small
+#SBATCH: --exclusive
 
 PROJECT_DIR=
 OSU_PY_BENCHMARK_DIR=$PROJECT_DIR/osu-micro-benchmarks-7.3/python

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-8247
-#FLUX: -n=13
-#FLUX: -c=4
-#FLUX: --queue=cpu
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=13
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=23:59:00
+#SBATCH --partition=cpu
 
 module load Gurobi
 module load Julia

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chair-0555
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-nalgas-5118
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module load singularity
 singularity exec marea_python.sif python ../scripts/post_process.py \

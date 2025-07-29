@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=confused-earthworm-7011
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=../logs/bert-base-all-methods-news-full-training-full-experiment.%j.out
+#SBATCH --error=../logs/bert-base-all-methods-news-full-training-full-experiment.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 while getopts d:r:a:p:s:i:f:l:e: flag
 do

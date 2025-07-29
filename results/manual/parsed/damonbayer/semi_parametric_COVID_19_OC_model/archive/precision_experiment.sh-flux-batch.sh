@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-arm-7767
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-mango-5620
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia/1.8.5

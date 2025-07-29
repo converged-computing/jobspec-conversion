@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-house-3192
-#FLUX: -n=4
-#FLUX: --queue=mlow,mlow
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%u_%j.out
+#SBATCH --error=logs/%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2000
+#SBATCH --partition=mlow,mlow
 
 python metric_learning.py --arch-type siamese --epochs 200 --process eval

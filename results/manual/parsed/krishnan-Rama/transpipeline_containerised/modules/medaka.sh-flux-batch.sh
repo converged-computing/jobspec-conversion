@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Medaka
-#FLUX: -c=64
-#FLUX: --queue=<HPC_partition>
-#FLUX: --urgency=16
+#FLUX --job-name=Medaka
+#FLUX -c=64
+#FLUX --queue=<HPC_partition>
+#FLUX --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

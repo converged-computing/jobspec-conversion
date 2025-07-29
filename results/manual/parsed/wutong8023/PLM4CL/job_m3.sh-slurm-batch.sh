@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std
-#FLUX: -c=2
-#FLUX: --queue=m3t
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std
+#SBATCH --account=da33
+#SBATCH --output=log/%j-prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std.out
+#SBATCH --error=log/%j-prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std.err
+#SBATCH --mail-user=wutong8023@163.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=m3t
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

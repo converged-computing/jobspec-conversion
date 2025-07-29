@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=runGA
-#FLUX: --queue=thrust2
-#FLUX: -t=5184000
-#FLUX: --urgency=16
+#SBATCH --job-name=runGA
+#SBATCH --output=./headlessOut/%A_%a.out
+#SBATCH --error=./headlessOut/%A_%a.err
+#SBATCH --mail-user=zf1005@wildcats.unh.edu
+#SBATCH --mail-type=START,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300G
+#SBATCH --time=60-00:00:00
+#SBATCH --partition=thrust2
 
 module load MATLAB
 ./runHeadless.sh MatlabRun

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hippo-6689
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-plant-9145
+#FLUX --queue=long
+#FLUX --urgency=16
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

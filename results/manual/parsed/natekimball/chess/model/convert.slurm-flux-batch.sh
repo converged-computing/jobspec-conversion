@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=train-osmi
+#FLUX --queue=bii-gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load anaconda
 conda activate chess

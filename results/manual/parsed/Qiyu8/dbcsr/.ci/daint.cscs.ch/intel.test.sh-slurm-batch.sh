@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leg-6755
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=cscsci
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export CRAY_CUDA_MPS='1 # enable the CUDA proxy for MPI+CUDA'
 export OMP_PROC_BIND='TRUE # set thread affinity'

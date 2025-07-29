@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-underoos-7080
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-poo-4176
+#FLUX --urgency=16
 
 set -e
 . /data/rapleeid/conda/etc/profile.d/conda.sh

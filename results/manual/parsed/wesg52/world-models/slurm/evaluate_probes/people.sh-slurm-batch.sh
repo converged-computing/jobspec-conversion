@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-punk-3216
-#FLUX: --urgency=16
+#SBATCH --output=log/%j-eval_probes.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

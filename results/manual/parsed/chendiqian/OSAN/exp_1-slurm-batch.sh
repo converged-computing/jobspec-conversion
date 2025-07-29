@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gnn_2_1
-#FLUX: --queue=main
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gnn_2_1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:32gb:1
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=main
 
 export PYTHONUNBUFFERED='1'
 

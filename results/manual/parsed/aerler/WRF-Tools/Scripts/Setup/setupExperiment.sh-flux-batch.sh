@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-latke-8482
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-latke-5498
+#FLUX --urgency=16
 
 set -e # abort if anything goes wrong
 function RENAME () {

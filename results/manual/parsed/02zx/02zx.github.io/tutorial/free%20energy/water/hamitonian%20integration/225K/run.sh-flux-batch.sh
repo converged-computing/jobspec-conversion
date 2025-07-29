@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=liquid
-#FLUX: -n=16
-#FLUX: --queue=NVIDIAGeForceRTX4090
-#FLUX: --urgency=16
+#FLUX --job-name=liquid
+#FLUX -n=16
+#FLUX --queue=NVIDIAGeForceRTX4090
+#FLUX --urgency=16
 
 module load compiler/gcc/7.3.1
 module load compiler/intel/2021.3.0

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ng_manta
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=ng_manta
+#SBATCH --output=logs/manta_slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=150Gb
+#SBATCH --time=07:00:00
 
 REF='/ibex/reference/KSL/hg38/Homo_sapiens_assembly38.fasta'
 ID=$1

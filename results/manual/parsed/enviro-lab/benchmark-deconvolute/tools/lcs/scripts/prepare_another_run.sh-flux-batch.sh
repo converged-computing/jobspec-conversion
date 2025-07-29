@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-muffin-1234
-#FLUX: --queue=Draco
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lemur-3113
+#FLUX --queue=Draco
+#FLUX -t=3600
+#FLUX --urgency=16
 
 n=6
 echo "Copying over useful files"

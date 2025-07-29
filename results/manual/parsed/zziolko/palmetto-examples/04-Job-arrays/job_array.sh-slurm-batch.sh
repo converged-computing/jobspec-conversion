@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-staircase-3712
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zziolko/palmetto-examples/04-Job-arrays/job_array.sh

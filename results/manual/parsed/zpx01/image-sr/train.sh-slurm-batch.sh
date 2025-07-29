@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-truffle-3103
-#FLUX: -c=8
-#FLUX: -t=173520
-#FLUX: --urgency=15
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:6
+#SBATCH --time=2-00:12:00
+#SBATCH --qos=low
 
 export PYTHONUNBUFFERED='1'
 

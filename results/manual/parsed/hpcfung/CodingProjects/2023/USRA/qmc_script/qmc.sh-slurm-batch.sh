@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qmc_units_test
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=qmc_units_test
+#SBATCH --account=def-rgmelko
+#SBATCH --output=qmc_units_test-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16G
+#SBATCH --time=00:10:00
 
 module purge
 module load julia/1.8.5 StdEnv/2020

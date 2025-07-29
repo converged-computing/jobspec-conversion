@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IOR_Benchmark
-#FLUX: -n=16
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=IOR_Benchmark
+#SBATCH --account=nesi99999
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=00:40:00
 
 function cleanup {
     rm ${IOR_FILE}*

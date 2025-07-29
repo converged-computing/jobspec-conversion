@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=generate_no_tp
-#FLUX: -c=4
-#FLUX: --queue=pol
-#FLUX: --urgency=16
+#FLUX --job-name=generate_no_tp
+#FLUX -c=4
+#FLUX --queue=pol
+#FLUX --urgency=16
 
 export TORCH_EXTENSIONS_DIR='${ROOT_DIR}/torch_extendsions'
 export PL_DEEPSPEED_CONFIG_PATH='$CONFIG_JSON'

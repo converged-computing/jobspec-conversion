@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cont_9.1
-#FLUX: -c=7
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#FLUX --job-name=cont_9.1
+#FLUX -c=7
+#FLUX --queue=a40
+#FLUX --urgency=16
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

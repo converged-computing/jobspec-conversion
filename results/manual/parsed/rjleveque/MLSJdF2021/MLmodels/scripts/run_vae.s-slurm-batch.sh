@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-8179
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=_slurm_%j.out
+#SBATCH --error=_slurm_%j.err
+#SBATCH --mail-user=john.doe@example.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=00:30:00
 
 module purge
 RUNDIR="$REPOPATH/MLmodels/scripts"

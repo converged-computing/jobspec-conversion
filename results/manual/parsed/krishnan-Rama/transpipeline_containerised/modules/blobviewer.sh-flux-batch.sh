@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -c=2
-#FLUX: --queue=epyc
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline
+#FLUX -c=2
+#FLUX --queue=epyc
+#FLUX --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 export blob='$WORKINGDIR/blobtools'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-5511
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-spoon-7700
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ $# -ne 2 ]; then
     echo 'ERROR!  The number of arguments should be only 2.'

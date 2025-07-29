@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DAC-1
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=DAC-1
+#SBATCH --output=DAC-1.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --constraint=gmem24
 
 echo "*"{,,,,,,,,,}
 echo $SLURM_JOB_ID

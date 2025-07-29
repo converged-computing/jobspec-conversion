@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-arm-3968
-#FLUX: -n=128
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=red-bicycle-9291
+#FLUX -n=128
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --queue=early_science
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=early_science
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export HOROVOD_GPU_BROADCAST='MPI'
 export HOROVOD_GPU_ALLGATHER='MPI'

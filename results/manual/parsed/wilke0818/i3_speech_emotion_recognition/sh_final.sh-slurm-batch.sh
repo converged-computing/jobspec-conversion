@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ser
-#FLUX: -n=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=ser
+#SBATCH --output=./logs_final/%A.out
+#SBATCH --error=./logs_final/%A.err
+#SBATCH --mail-user=wilke18@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=40GB
+#SBATCH --time=08:00:00
+#SBATCH --exclude=node[100-106,110]
 
 eval "$(conda shell.bash hook)"
 conda activate ser

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-7880
-#FLUX: -c=2
-#FLUX: --queue=parallel
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=notebook-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=AMD
 
 export XDG_RUNTIME_DIR=''
 

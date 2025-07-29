@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bike-0645
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-egg-9609
+#FLUX -c=12
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load singularity
 singularity exec \

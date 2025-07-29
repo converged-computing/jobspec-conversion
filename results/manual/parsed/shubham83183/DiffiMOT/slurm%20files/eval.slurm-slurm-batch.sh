@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14459
-#FLUX: --urgency=16
+#SBATCH --job-name=eval2
+#SBATCH --output=/work/ws-tmp/g051507-thesis/g051507-thesis-1679703002/Diff_matching/Results_withoutinf_0.001/mot17_private_eval124_all.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=04:00:59
+#SBATCH --partition=gpu
 
 module load GpuModules
 module load cuda10.2/toolkit/10.2.89

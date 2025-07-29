@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-train-4515
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin'

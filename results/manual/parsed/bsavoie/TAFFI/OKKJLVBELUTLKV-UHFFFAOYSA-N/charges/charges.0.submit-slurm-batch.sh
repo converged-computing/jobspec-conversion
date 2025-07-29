@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=charges.0
-#FLUX: -n=24
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=charges.0
+#SBATCH --account=standby
+#SBATCH --output=charges.0.out
+#SBATCH --error=charges.0.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 echo Running on hosts: $SLURM_NODELIST
 echo Running on $SLURM_NNODES nodes.

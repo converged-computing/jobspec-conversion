@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-nalgas-2902
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mrzv/cian2/io/IO_TEST

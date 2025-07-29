@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=G1_Bialyer_Basic
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=G1_Bialyer_Basic
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export OMP_NUM_THREADS='4'

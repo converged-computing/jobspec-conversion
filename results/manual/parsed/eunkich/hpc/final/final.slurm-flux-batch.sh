@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=final
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=final
+#FLUX --queue=gpu-rtx6k
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load cuda
 rm *.csv

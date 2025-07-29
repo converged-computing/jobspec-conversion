@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=evopcgrl
-#FLUX: -c=48
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=evopcgrl
+#SBATCH --output=evo_runs/evopcg_0_%j.out
+#SBATCH --mail-user=zj2086@nyu.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /scratch/zj2086/control-pcgrl
 source activate

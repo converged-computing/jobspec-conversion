@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=a_accre_train
-#FLUX: --queue=maxwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=a_accre_train
+#SBATCH --account=palmeri_gpu
+#SBATCH --output=/scratch/subravcr/trainedImagenet/myModels/xferLearning/a_accre_xfer_train_%A.out
+#SBATCH --mail-user=chenchal.subraveti@vanderbilt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=maxwell
+#SBATCH --constraint=ntasks-per-node=12
 
 setpkgs -a matlab_r2016b
 setpkgs -a gcc_compiler_4.9.3

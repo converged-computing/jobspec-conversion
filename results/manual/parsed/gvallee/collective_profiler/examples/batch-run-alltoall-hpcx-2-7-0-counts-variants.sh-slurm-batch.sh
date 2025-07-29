@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=alltoall
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=jupiter
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=alltoall
+#SBATCH --output=alltoall_%j.out
+#SBATCH --error=alltoall_%j.err
+#SBATCH --mail-user=j.legg.17@ucl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=jupiter
+#SBATCH --constraint=ntasks-per-node=1
 
 export SUPPRESS_BASHRC='1 #this is pointless - bashrc will have been run already!!'
 export PROJECT_ROOT='/global/home/users/cyrusl/placement/expt0066'

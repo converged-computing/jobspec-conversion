@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-6257
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=desi_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export SLURM_CPU_BIND='cores'
 

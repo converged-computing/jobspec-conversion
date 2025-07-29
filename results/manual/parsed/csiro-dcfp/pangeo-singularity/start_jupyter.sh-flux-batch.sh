@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=workq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=workq
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load singularity
 kill_server() {

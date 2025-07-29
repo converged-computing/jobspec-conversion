@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cupcake-9398
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-pot-3779
+#FLUX -n=5
+#FLUX -t=0
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'
 export CPATH='/opt/cudnn-8.0/include:$CPATH'

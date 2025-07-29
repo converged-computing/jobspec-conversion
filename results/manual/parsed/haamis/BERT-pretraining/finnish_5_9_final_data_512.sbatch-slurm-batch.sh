@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=finnish_5_9_final_data_512
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=finnish_5_9_final_data_512
+#SBATCH --account=Project_2001553
+#SBATCH --output=/scratch/project_2001553/rami/horovod_logs/finnish_5_9_final_data_512_out-%j.txt
+#SBATCH --error=/scratch/project_2001553/rami/horovod_logs/finnish_5_9_final_data_512_err-%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem-per-cpu=128G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export BERT_DIR='/users/ilorami1/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-truffle-5695
-#FLUX: -N=2
-#FLUX: -n=3
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#SBATCH --output=GS_3x2.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=west
 
 . /opt/spack/20220821/share/spack/setup-env.sh
 spack load scorep

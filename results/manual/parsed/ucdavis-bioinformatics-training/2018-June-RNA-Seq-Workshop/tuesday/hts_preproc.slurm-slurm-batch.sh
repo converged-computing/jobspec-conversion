@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=htstream
-#FLUX: -n=9
-#FLUX: --queue=gc
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=htstream
+#SBATCH --output=slurmout/htstream_%A_%a.out
+#SBATCH --error=slurmout/htstream_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gc
+#SBATCH --array=1-24
 
 start=`date +%s`
 echo $HOSTNAME

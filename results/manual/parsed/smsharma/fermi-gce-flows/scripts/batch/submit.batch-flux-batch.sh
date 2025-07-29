@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bicycle-8440
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-lizard-9455
+#FLUX -t=172740
+#FLUX --urgency=16
 
 module load gsl/intel/2.6 
 conda activate sbi-fermi

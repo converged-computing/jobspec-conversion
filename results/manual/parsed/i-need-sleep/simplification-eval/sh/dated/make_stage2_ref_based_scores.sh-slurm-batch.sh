@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stage_2_ref_free
-#FLUX: -c=4
-#FLUX: --queue=cpu-512
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=stage_2_ref_free
+#SBATCH --output=./logs/stage2/%x%A.out
+#SBATCH --error=./logs/stage2/%x%A.err
+#SBATCH --mail-user=yh2689@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64GB
+#SBATCH --time=23:00:00
+#SBATCH --partition=cpu-512
 
 nvidia-smi
 nvcc --version

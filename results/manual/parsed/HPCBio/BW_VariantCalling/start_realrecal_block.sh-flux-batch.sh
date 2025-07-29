@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-omelette-8775
-#FLUX: --urgency=16
+#FLUX --job-name=blue-citrus-7776
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HPCBio/BW_VariantCalling/start_realrecal_block.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1000_runs
-#FLUX: --queue=cpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=1000_runs
+#FLUX --queue=cpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 . ~/initConda.sh

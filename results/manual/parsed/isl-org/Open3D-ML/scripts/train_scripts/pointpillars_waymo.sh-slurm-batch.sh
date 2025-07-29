@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=objdet_2x4
-#FLUX: -N=2
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --job-name=objdet_2x4
+#SBATCH --output=./slurm-%x-%j-%N.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:4
+#SBATCH --mem=384G
+#SBATCH --constraint=ntasks-per-node=1
 
 export PRIMARY_ADDR='${PRIMARY_ADDR:-$SLURMD_NODENAME}'
 export PRIMARY_PORT='${PRIMARY_PORT:-29500}'

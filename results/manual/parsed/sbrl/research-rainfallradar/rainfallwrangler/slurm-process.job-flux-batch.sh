@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RWrangle
-#FLUX: --queue=compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=RWrangle
+#FLUX --queue=compute
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='$HOME/software/bin:$PATH;'
 

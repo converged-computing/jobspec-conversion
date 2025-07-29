@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_openmp_2node_%j
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=48
-#FLUX: --queue=buran
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_openmp_2node_%j
+#SBATCH --output=mpi-openmp-2node-%j.txt
+#SBATCH --error=error-%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=48
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=buran
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=buran[02-03]
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

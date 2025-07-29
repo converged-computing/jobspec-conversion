@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DDMnets
-#FLUX: --queue=Epyc7452
-#FLUX: --urgency=16
+#FLUX --job-name=DDMnets
+#FLUX --queue=Epyc7452
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/areina/DecisionsOnNetworks/src/'
 

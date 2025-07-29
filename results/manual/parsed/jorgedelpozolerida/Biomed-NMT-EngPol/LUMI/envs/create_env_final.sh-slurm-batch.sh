@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=create_env
-#FLUX: --queue=standard-g
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=create_env
+#SBATCH --account=project_465000872
+#SBATCH --output=logs/create_env_output_%j
+#SBATCH --error=logs/create_env_error_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=standard-g
 
 module load LUMI/22.08
 module load cotainr

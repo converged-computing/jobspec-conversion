@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=imagenet
-#FLUX: -c=8
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=imagenet
+#SBATCH --output=out/imagenet-0000%a.out
+#SBATCH --mail-user=larend@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=64000
+#SBATCH --time=18:00:00
 
 SCALE_FACTOR=('0.25' '0.5' '1' '2' '4')
 module load openmind/singularity/older_versions/2.4

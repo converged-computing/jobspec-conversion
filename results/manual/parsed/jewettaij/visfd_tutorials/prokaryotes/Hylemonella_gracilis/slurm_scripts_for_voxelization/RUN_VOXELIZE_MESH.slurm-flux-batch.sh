@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=voxelize
-#FLUX: -t=2764800
-#FLUX: --urgency=16
+#FLUX --job-name=voxelize
+#FLUX -t=2764800
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

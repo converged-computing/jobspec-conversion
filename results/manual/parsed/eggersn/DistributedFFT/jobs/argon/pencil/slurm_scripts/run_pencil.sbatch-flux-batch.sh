@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pencil
-#FLUX: -n=4
+#FLUX --job-name=pencil
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=all
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load mpi/u2004/openmpi-4.1.1-cuda
 echo "Modules loaded"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=charges.0
-#FLUX: -n=24
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=charges.0
+#FLUX -n=24
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo Running on hosts: $SLURM_NODELIST
 echo Running on $SLURM_NNODES nodes.

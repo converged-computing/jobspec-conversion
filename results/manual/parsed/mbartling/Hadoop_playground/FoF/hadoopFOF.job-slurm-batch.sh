@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-toaster-3721
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mbartling/Hadoop_playground/FoF/hadoopFOF.job

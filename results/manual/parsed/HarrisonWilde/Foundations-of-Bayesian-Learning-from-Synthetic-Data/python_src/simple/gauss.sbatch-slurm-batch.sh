@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-snack-3510
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=h.wilde@warwick.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4571
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=28
 
 module purge
 module load GCC/8.2.0-2.31.1 GCCcore/8.2.0 Python/3.7.2

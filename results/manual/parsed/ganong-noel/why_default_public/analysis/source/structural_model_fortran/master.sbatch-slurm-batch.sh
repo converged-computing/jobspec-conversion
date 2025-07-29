@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-avocado-0019
-#FLUX: --queue=broadwl
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-01:00:00
+#SBATCH --partition=broadwl
 
 BASE_DIR=$(pwd)
 DATE=$(date "+%Y_%m_%d")

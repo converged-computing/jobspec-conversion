@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rjmnamd2
-#FLUX: -n=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rjmnamd2
+#SBATCH --output=slurm.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=500M
+#SBATCH --time=00:10:00
 
 ml purge
 ml NAMD/2.12-gimkl-2017a-mpi

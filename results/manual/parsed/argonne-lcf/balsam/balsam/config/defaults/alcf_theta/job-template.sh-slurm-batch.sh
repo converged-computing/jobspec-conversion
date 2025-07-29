@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-motorcycle-6157
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

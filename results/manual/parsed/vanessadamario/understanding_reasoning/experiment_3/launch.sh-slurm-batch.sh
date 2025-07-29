@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NPS_ms2
-#FLUX: --queue=normal
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=NPS_ms2
+#SBATCH --mail-user=vanessad@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=normal
+#SBATCH --array=31
+#SBATCH --exclude=node023,node020,node026,node021,node028,node094,node093,node098,node094,node023,node028,node097,dgx001
 
 module add openmind/singularity/3.4.1
 hostname

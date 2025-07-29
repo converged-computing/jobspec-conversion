@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lstm-train
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=lstm-train
+#SBATCH --account=nlpgroup
+#SBATCH --mail-user=nrmyas001@cs.uct.ac.za
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100-2g-10gb:1
+#SBATCH --time=00:15:00
+#SBATCH --partition=a100
 
 export CUDA_VISIBLE_DEVICES='$(ncvd)'
 export WANDB_DIR='/scratch/nrmyas001/wandb'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-2104
-#FLUX: -t=3300
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-blackbean-9638
+#FLUX -t=3300
+#FLUX --urgency=16
 
 module load python/3.11 rust
 cp $path/requirements.txt $SLURM_TMPDIR/

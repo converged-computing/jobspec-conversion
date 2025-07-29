@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TrainFun
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#FLUX --job-name=TrainFun
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=260100
+#FLUX --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PostDiscovery_deRep
-#FLUX: -c=8
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=PostDiscovery_deRep
+#FLUX -c=8
+#FLUX -t=288000
+#FLUX --urgency=16
 
 module purge
 module load BLAST+/2.13.0-gompi-2022a 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hope-1454
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-dog-3591
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export SOFTPATH='/share/software/user/open'
 export PYCAPATH='$HOME/site-packages/PyCA'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-platanos-8683
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=mdehghan_709
+#SBATCH --output=out/mfrc_eval_%j.out
+#SBATCH --error=errors/mfrc_eval_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=32GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load gcc/11.3.0

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CQA_v1.0
-#FLUX: --queue=A100-pci
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=CQA_v1.0
+#SBATCH --output=CQA_v1.0.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=A100-pci
 
 conda activate chain
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-platanos-4608
-#FLUX: -c=12
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-staircase-3121
+#FLUX -c=12
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''
 

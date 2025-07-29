@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ml_project
-#FLUX: --queue=dept_gpu
-#FLUX: --urgency=16
+#FLUX --job-name=ml_project
+#FLUX --queue=dept_gpu
+#FLUX --urgency=16
 
 echo Running on `hostname`
 echo workdir $PBS_O_WORKDIR

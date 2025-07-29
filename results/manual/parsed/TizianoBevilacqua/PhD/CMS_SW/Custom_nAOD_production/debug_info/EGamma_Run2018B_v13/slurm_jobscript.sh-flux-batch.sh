@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-5867
-#FLUX: --queue=long
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-punk-0371
+#FLUX --queue=long
+#FLUX -t=82800
+#FLUX --urgency=16
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

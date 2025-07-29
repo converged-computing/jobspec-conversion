@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mixer_simu
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=mixer_simu
+#FLUX -c=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export COMORMENT='/ess/p697/data/durable/s3-api/github/comorment'
 export SINGULARITY_BIND='$COMORMENT/mixer/reference:/REF:ro'

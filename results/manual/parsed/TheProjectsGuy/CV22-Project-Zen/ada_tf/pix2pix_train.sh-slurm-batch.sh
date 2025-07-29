@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=p2p-s2m
-#FLUX: -n=10
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=p2p-s2m
+#SBATCH --account=research
+#SBATCH --output=p2p-s2m-1.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=1-12:00:00
+#SBATCH --exclude=gnode[03-42,90-92]
 
 echo "[BLOCK] ======= Inspecting node ======="
 echo "Host: $HOSTNAME"

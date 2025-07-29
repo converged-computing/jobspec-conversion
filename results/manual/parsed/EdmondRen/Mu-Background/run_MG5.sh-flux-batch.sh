@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-mango-6395
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=red-poo-7803
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PYTHIA8='/project/def-mdiamond/tomren/mathusla/pythia8308'
 export PYTHIA8DATA='${MG5_Dir}/HEPTools/pythia8/share/Pythia8/xmldoc'

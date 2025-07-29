@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-4925
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-train-0501
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

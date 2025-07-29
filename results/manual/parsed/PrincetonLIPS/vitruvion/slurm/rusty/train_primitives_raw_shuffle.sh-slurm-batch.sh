@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_primitives_raw_shuffle
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=train_primitives_raw_shuffle
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --mem=200GB
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=v100-32gb
 
 set -u
 set -e

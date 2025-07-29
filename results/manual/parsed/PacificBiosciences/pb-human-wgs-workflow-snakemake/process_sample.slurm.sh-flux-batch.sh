@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-0091
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=faux-fudge-1027
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 SAMPLE=$1
 umask 002

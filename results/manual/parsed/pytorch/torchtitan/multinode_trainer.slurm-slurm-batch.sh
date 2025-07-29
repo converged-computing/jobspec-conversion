@@ -1,11 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=torchtitan_multi_node
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=96
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=train
-#FLUX: --urgency=16
+#SBATCH --job-name=torchtitan_multi_node
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=96
+#SBATCH --gpus-per-task=8
+#SBATCH --partition=train
 
 export LOGLEVEL='INFO'
 export FI_PROVIDER='efa'

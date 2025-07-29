@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_snakemake
-#FLUX: --queue=cpu-short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=run_snakemake
+#FLUX --queue=cpu-short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source $HOME/.bash_profile
 conda activate aducanumab

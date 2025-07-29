@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-banana-3742
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=/scratch/js4yd/MorrisSA/RHESSysRuns/output/Run_%a.out
+#SBATCH --mail-user=js4yd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard
+#SBATCH --chdir=/scratch/js4yd/MorrisSA/RHESSysRuns/
 
 module load singularity
 SINGIMAGE='/share/resources/containers/singularity/rhessys'

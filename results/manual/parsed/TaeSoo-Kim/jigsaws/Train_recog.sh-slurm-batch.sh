@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SU_LOUO8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SU_LOUO8
+#SBATCH --mail-user=tkim60@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module restore mymodules
 module load tensorflow/cuda-8.0/r1.0

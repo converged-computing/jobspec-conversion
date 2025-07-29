@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS_DATA
-#FLUX: -n=40
-#FLUX: --queue=matador
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS_DATA
+#SBATCH --output=%x.%j.o
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --partition=matador
 
 set -euf -o pipefail
 readonly gpu_count=1

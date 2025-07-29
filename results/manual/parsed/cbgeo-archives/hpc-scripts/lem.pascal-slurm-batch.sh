@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lem-peta4-gpu
-#FLUX: --queue=pascal
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=lem-peta4-gpu
+#SBATCH --account=KUMAR-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=15:00:00
+#SBATCH --partition=pascal
 
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'

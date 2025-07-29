@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=qlora
-#FLUX: -c=2
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=qlora
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=36GB
+#SBATCH --time=1-23:59:00
 
 export BNB_CUDA_VERSION='113'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/apps/cuda/11.3.1/lib64'

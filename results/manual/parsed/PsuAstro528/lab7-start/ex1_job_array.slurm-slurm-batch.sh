@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ex1_jobarray
-#FLUX: --queue=sla-prio
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=ex1_jobarray
+#SBATCH --account=ebf11-fa23
+#SBATCH --output=ex1_jobarray_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=00:05:00
+#SBATCH --partition=sla-prio
+#SBATCH --array=1-10%5
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

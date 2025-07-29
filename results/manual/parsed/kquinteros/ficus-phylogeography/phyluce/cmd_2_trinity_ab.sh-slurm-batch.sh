@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phyluce_trinity_ab
-#FLUX: -n=16
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=phyluce_trinity_ab
+#SBATCH --mail-user=jsatler@iastate.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
 
 source activate phyluce
 module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-7240
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-lettuce-3064
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hpc_hartree_hsp_array_GPU_gro.sh

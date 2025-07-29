@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nvr_earth2_e2-sfno:score-fcn-mip
-#FLUX: --queue=luna
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=nvr_earth2_e2-sfno:score-fcn-mip
+#SBATCH --account=nvr_earth2_e2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=luna
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-7
 
 export dataconfig='validation_big'
 export datatype='era5-cwb-v3'

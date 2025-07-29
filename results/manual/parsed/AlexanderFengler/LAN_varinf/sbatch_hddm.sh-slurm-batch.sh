@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hddm_sampler
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=hddm_sampler
+#SBATCH --output=slurm/hddm_sampler_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-08:00:00
+#SBATCH --array=0-19
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

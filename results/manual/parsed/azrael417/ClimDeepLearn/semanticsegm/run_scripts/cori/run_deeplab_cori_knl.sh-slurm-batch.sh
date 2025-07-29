@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=climseg_horovod
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=climseg_horovod
+#SBATCH --account=nstaff
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='$(( 136 / ${rankspernode} ))'
 export OMP_PLACES='threads'

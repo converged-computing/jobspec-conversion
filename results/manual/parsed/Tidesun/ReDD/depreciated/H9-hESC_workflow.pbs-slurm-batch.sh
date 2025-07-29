@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-bits-1087
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=PCON0009
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/3.6-conda5.2
 source activate AIediting

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-signal-6999
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-nalgas-8725
+#FLUX -n=4
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='/home/xd1/miniconda3/bin:$PATH'
 

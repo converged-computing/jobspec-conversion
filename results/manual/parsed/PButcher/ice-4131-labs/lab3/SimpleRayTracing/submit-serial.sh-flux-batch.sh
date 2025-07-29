@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=RT-serial
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=RT-serial
+#FLUX -t=3000
+#FLUX --urgency=16
 
 module purge > /dev/null 2>&1
 module load cmake mpi/intel

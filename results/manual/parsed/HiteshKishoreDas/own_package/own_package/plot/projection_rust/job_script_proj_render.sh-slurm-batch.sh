@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=parpl
-#FLUX: -c=40
-#FLUX: --queue=p.test
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=parpl
+#SBATCH --output=parpl.%j.out
+#SBATCH --error=parpl.%j.err
+#SBATCH --mail-user=hitesh@mpa-garching.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=00:25:00
+#SBATCH --partition=p.test
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lentil-7079
-#FLUX: -N=2
-#FLUX: --queue=standard96
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=nip00058
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard96
 
 export SLURM_CPU_BIND='none'
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'

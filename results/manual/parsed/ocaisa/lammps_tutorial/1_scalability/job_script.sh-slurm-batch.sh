@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-8410
-#FLUX: -N=2
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=devel
+#SBATCH --constraint=ntasks-per-node=24
 
 module purge
 module use /usr/local/software/jureca/OtherStages

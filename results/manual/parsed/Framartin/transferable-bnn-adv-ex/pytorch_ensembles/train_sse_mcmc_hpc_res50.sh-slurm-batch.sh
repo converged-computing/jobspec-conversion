@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TrainRes50
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainRes50
+#SBATCH --output=log/run_train_csgld_resnet50_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --time=17:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=volta
 
 command -v module >/dev/null 2>&1 && module load lang/Python
 source ../venv/bin/activate

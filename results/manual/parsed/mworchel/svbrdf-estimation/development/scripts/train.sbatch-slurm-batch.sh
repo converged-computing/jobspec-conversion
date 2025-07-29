@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SVBRDFTraining
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=SVBRDFTraining
+#SBATCH --output=%x_%j_%N.out
+#SBATCH --error=%x_%j_%N.err
+#SBATCH --mail-user=m.worchel@campus.tu-berlin.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load comp/gcc/7.2.0

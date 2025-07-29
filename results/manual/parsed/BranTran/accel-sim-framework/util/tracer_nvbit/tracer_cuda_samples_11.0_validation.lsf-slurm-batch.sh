@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-malarkey-4463
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/BranTran/accel-sim-framework/util/tracer_nvbit/tracer_cuda_samples_11.0_validation.lsf

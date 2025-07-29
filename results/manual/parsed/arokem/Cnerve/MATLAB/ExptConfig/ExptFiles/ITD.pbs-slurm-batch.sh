@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-8764
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/arokem/Cnerve/MATLAB/ExptConfig/ExptFiles/ITD.pbs

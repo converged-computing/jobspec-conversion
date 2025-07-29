@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run
-#FLUX: -N=24
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --job-name=run
+#SBATCH --output=scons.log.out
+#SBATCH --error=scons.log.err
+#SBATCH --nodes=24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=compute[136-159]
+#SBATCH --dependency=1470525
 
 export LOCALDATAPATH='/localscratch'
 

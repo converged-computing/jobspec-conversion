@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=SRK
-#FLUX: --queue=gpu-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=SRK
+#SBATCH --account=uci131
+#SBATCH --output=output/jOpt.%j.%N.out
+#SBATCH --mail-user=crackauc@uci.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 module load cuda/7.0
 module load cmake

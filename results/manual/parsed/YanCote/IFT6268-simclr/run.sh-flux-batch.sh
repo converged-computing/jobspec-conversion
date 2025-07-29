@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hobbit-8389
-#FLUX: -c=24
-#FLUX: -t=346200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lettuce-1932
+#FLUX -c=24
+#FLUX -t=346200
+#FLUX --urgency=16
 
 format_time() {
   ((h=${1}/3600))

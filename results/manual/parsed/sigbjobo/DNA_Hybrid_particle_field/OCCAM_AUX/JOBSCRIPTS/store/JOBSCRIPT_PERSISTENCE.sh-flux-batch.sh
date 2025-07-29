@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DNA_HINCKLEY
-#FLUX: -n=192
-#FLUX: --queue=normal
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=DNA_HINCKLEY
+#FLUX -n=192
+#FLUX --queue=normal
+#FLUX -t=1200
+#FLUX --urgency=16
 
 NPROCS=${SLURM_NTASKS}
 module purge

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=JOB_NAME
-#FLUX: --queue=wc_gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=JOB_NAME
+#SBATCH --output=JOB_OUT/log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=MEMORY
+#SBATCH --time=08:00:00
+#SBATCH --partition=wc_gpu
+#SBATCH --constraint=(CONSTRAINT)
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/oamram/'
 export HOME='/work1/cms_mlsim/oamram/CaloDiffusion/ '

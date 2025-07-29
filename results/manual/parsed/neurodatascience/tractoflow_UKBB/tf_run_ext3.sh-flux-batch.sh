@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-arm-5932
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lemon-2743
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export FB='$1'
 export SINGULARITY_BIND=''

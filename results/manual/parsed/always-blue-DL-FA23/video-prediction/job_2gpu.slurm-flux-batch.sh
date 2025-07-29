@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-1769
-#FLUX: -c=16
+#FLUX --job-name=red-leopard-9264
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=n1s16-v100-2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=n1s16-v100-2
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

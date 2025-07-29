@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=yelppolarity_safer_roberta_pwws_None_recmethod_3_from839_to920
-#FLUX: -c=16
-#FLUX: --queue=applied
-#FLUX: --urgency=16
+#SBATCH --job-name=yelppolarity_safer_roberta_pwws_None_recmethod_3_from839_to920
+#SBATCH --output=/lustre/scratch/client/vinai/users/dangnm12/slurm/log/%x-%j.out
+#SBATCH --error=/lustre/scratch/client/vinai/users/dangnm12/slurm/log/%x-%j.out
+#SBATCH --mail-user=v.dangnm12@vinai.io
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=16G
+#SBATCH --partition=applied
 
 srun --container-image=/lustre/scratch/client/vinai/users/dangnm12/setup/docker_images/dc-miniconda3-py:38-4.10.3-cuda11.4.2-cudnn8-ubuntu20.04.sqsh \
      --container-mounts=/lustre/scratch/client/vinai/users/dangnm12/:/root/ \

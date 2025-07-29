@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IMG-DDPM
-#FLUX: --queue=compsci-gpu
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=IMG-DDPM
+#FLUX --queue=compsci-gpu
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 export load_path='data/imgs/train'
 export dim='64'

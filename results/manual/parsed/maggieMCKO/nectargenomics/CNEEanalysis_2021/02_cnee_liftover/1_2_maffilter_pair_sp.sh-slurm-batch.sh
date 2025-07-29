@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tmp
-#FLUX: --queue=medium
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#SBATCH --job-name=tmp
+#SBATCH --output=d1_logS/tmp_%A.o
+#SBATCH --error=d1_logS/tmp_%A.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:10:00
+#SBATCH --partition=medium
 
 export singularity_image='$HOME/Tools/maffilter_v1.3.1dfsg-1b1-deb_cv1.sif'
 export maffilter_optionfile='d1_optionfiles/1_1_optionfile_tmp.maffilter'

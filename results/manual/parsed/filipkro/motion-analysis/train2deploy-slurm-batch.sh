@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-5628
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-33-20
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=alvis
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

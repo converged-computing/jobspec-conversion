@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vmodes
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=vmodes
+#SBATCH --output=outjob_comp_vmodes.o%j
+#SBATCH --error=outjob_comp_vmodes.e%j
+#SBATCH --mail-user=noe.lahaye@inria.fr
+#SBATCH --mail-type=END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=7,BDW28
 
 set -e
 module purge

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pastry-1704
+#FLUX --job-name=fat-lettuce-2376
 #FLUX: --exclusive
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX -t=720
+#FLUX --urgency=16
 
 job=$1
 /bin/bash

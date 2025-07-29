@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cherry-6415
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pswpswpsw/SKDMD/CONFLUX_SUBMISSION/xiaobo/run

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phase_3_new
-#FLUX: -n=3
-#FLUX: -c=19
-#FLUX: --queue=normal,gpu
-#FLUX: --urgency=16
+#FLUX --job-name=phase_3_new
+#FLUX -n=3
+#FLUX -c=19
+#FLUX --queue=normal,gpu
+#FLUX --urgency=16
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

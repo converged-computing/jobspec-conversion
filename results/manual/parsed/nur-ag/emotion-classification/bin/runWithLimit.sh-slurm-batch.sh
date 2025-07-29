@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Emotions-CPU
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=Emotions-CPU
+#SBATCH --output=output/logs/emotions-cpu-%A-%a-%J.%N.out
+#SBATCH --error=output/logs/emotions-cpu-%A-%a-%J.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32g
+#SBATCH --partition=high
+#SBATCH --array=1-255
 
 module load CUDA/10.0.130
 module load PyTorch/1.4.0-foss-2017a-Python-3.6.4-CUDA-10.0.130

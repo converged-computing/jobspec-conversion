@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cat-2042
-#FLUX: -c=5
-#FLUX: --queue=amp20
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-rabbit-4402
+#FLUX -c=5
+#FLUX --queue=amp20
+#FLUX --urgency=16
 
  # @Author: yanhuo 1760331284@qq.com
  # @Date: 2023-11-11 16:01:59

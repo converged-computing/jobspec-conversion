@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-curator:example-script
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=nemo-curator:example-script
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export BASE_JOB_DIR='`pwd`/nemo-curator-jobs'
 export JOB_DIR='$BASE_JOB_DIR/$SLURM_JOB_ID'

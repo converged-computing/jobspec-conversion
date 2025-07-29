@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=debug-test
-#FLUX: -N=2
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=debug-test
+#FLUX -N=2
+#FLUX --queue=cm2_tiny
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export UPCXX_INSTALL='/dss/dsshome1/lxc05/ge69xij2/upcxx-intel-mpp2'
 export PATH='$PATH:~/upcxx-intel-mpp2/bin'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=g11hllen
-#FLUX: -N=8
-#FLUX: -n=512
-#FLUX: --queue=normal
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=g11hllen
+#FLUX -N=8
+#FLUX -n=512
+#FLUX --queue=normal
+#FLUX -t=144000
+#FLUX --urgency=16
 
 module purge
 module load intel

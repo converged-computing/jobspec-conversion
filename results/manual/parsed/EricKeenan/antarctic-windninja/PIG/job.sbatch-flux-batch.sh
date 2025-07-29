@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-frito-3149
-#FLUX: --queue=shas
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-frito-4804
+#FLUX --queue=shas
+#FLUX -t=14400
+#FLUX --urgency=16
 
 base_dir=$(pwd)
 meteo_dir="/scratch/summit/erke2265/LISTON_EXPLORE/output/grids/"

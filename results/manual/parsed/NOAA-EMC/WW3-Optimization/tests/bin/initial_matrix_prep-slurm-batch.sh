@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-poo-0456
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

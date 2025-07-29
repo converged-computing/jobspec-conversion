@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rashV7
-#FLUX: -n=16
-#FLUX: --queue=Mlong
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=rashV7
+#SBATCH --output=log.slurm
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=Mlong
+#SBATCH --exclude=kraken-m[1]
 
 module load openfoam-org/6-10.3.0
 source /opt/modules/spack_installs/linux-centos7-broadwell/gcc-10.3.0/openfoam-org-6-vqdvitbtcrbdg66aa2x2zpf4jtpcvqks/etc/bashrc

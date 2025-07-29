@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sgs-array
-#FLUX: -c=40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=sgs-array
+#FLUX -c=40
+#FLUX -t=1800
+#FLUX --urgency=16
 
 filename=$1
 extract_config(){

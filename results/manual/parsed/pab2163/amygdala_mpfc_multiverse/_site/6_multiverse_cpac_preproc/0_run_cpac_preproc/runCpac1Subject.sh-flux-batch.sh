@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CPAC-1Sub
-#FLUX: -c=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=CPAC-1Sub
+#FLUX -c=8
+#FLUX -t=28800
+#FLUX --urgency=16
 
 index=$1
 module load singularity

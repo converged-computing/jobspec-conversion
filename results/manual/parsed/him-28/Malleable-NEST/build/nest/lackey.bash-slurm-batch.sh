@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lackey
-#FLUX: -n=48
-#FLUX: -t=61500
-#FLUX: --urgency=16
+#SBATCH --job-name=lackey
+#SBATCH --output=lackey_%j.out
+#SBATCH --error=lackey_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=17:05:00
+#SBATCH --chdir=.
 
 export OMP_NUM_THREADS='1'
 

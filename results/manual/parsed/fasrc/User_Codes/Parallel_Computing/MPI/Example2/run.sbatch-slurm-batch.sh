@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ptrap
-#FLUX: -n=8
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ptrap
+#SBATCH --output=ptrap.out
+#SBATCH --error=ptrap.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
 
 module load intel/24.0.1-fasrc01 openmpi/5.0.2-fasrc01
 srun -n $SLURM_NTASKS --mpi=pmix ./ptrap.x

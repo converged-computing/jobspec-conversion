@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=msp-cutoff-CUTOFF-bs-BATCHSIZE-FORMAT-cormorant
-#FLUX: --queue=rondror
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=msp-cutoff-CUTOFF-bs-BATCHSIZE-FORMAT-cormorant
+#FLUX --queue=rondror
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc/8.1.0
 module load cuda/10.0

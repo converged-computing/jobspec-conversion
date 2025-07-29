@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cinnamonbun-5485
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=run_%A_%a.out
+#SBATCH --error=run_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=05:00:00
 
 module unload gcc/cray/8.1.0
 module load gcc/8.1.0

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mise_a_jour_TRUST_arch
-#FLUX: --queue=slim,large,fat,eris,pluton
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mise_a_jour_TRUST_arch
+#SBATCH --output=/home/triou/myjob_callisto-intel.%j.o
+#SBATCH --error=/home/triou/myjob_callisto-intel.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=slim,large,fat,eris,pluton
+#SBATCH --qos=normal
 
 set -x
 cd $SLURM_SUBMIT_DIR

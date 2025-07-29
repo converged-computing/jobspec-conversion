@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=h2o
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=h2o
+#SBATCH --account=mxxxx_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export SLURM_CPU_BIND='cores'
 
+singularity
+exec
+docker:deepmodeling/deepmd-kit:2.2.7_cuda11.6_gpu
 export SLURM_CPU_BIND="cores"
 srun --mpi=pmi2 shifter --image=docker:deepmodeling/deepmd-kit:2.2.7_cuda11.6_gpu --module gpu --volume="$(pwd):/workspace" --workdir="/workspace" bash -c "lmp -in in.lammps -log log"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LIGPAIR
-#FLUX: -N=4
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=LIGPAIR
+#FLUX -N=4
+#FLUX --queue=standard
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load namd/2.14-nosmp
 nodes_per_namd=1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-nunchucks-4913
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-taco-7440
+#FLUX --urgency=16
 
 case=e2000_bn_cirrradbg_rhmini1to1.2_1.5xco2seed18_binprecip_2
 create_newcase -case $case -compset 'E_1850_CAM5' -res f19_g16 -mach omega # B_2000_CAM5, B_1850-2000_CAM5, B_RCP8.5_CAM5_CN

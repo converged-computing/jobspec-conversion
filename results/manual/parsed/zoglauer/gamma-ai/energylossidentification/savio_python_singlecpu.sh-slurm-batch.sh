@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Python
-#FLUX: --queue=savio2_htc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Python
+#SBATCH --account=fc_cosi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=savio2_htc
+#SBATCH --qos=savio_normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

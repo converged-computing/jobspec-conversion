@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hubert_large
-#FLUX: -c=4
-#FLUX: --queue=gpu2
-#FLUX: --urgency=16
+#FLUX --job-name=hubert_large
+#FLUX -c=4
+#FLUX --queue=gpu2
+#FLUX --urgency=16
 
 export TORCHAUDIO_USE_BACKEND_DISPATCHER='1'
 

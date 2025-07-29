@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SVBRDFTraining
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=SVBRDFTraining
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load comp/gcc/7.2.0

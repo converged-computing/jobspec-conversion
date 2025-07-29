@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mmsrl
-#FLUX: -c=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=mmsrl
+#SBATCH --account=lco@gpu
+#SBATCH --output=ofa_%j_%x_%A_%a.out
+#SBATCH --error=ofa_%j_%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
+#SBATCH --array=0-35
 
 export DATA_PATH='$WORK/data'
 

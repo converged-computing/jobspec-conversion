@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=print
-#FLUX: --queue=cbmm
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=print
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=26GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=cbmm
+#SBATCH --array=0
 
 module add openmind/singularity/3.4.1
 hostname

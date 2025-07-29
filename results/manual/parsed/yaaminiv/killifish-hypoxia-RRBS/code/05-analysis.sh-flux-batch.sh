@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_analysis
+#FLUX --job-name=yrv_analysis
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 echo "Prepare for analysis"
 echo "Create chromosome length file"

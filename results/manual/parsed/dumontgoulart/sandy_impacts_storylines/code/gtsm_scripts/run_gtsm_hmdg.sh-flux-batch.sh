@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=newsingularity
-#FLUX: --queue=thin
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=newsingularity
+#FLUX --queue=thin
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export purpose='GTSMv3.0 - ERA5 run near-realtime for Sea Level Monitor'
 

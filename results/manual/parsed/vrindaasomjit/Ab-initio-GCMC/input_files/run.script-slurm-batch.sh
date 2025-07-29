@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gcmc
-#FLUX: -N=4
-#FLUX: -n=182
-#FLUX: --queue=skx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gcmc
+#SBATCH --output=gcmc.o%j
+#SBATCH --error=gcmc.e%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=182
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=skx-dev
 
 export LAMMPS_DIR='/home1/04770/tg840694/help_TACC_lammps/stable_3Mar2020_clean/'
 export PATH='${PATH}:${LAMMPS_DIR}/bin'

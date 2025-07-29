@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Buddy
-#FLUX: --queue=${partition_preprocess}
-#FLUX: -t=30000
-#FLUX: --urgency=16
+#FLUX --job-name=Buddy
+#FLUX --queue=${partition_preprocess}
+#FLUX -t=30000
+#FLUX --urgency=16
 
 export partition_preprocess='huce_intel"          # TODO'
 export group_account='huybers_lab"                  # TODO'

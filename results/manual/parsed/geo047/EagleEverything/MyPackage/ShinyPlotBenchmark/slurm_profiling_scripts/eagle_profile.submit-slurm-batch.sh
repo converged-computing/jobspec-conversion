@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eagle_profile
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=eagle_profile
+#SBATCH --output=submit_eagle_%A_%a.out
+#SBATCH --error=submit_eagle_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:02:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export SING_CUDA_ACC='/flush1/bow355/AMplus_new_code/Mid_docker_tests/mro_cuda8_eagle_acc2_hdf-latest.img'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-3993
-#FLUX: --queue=sched_mit_sloan_batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=logs/experiment_%a.log
+#SBATCH --mail-user=adelarue@mit.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:15:00
+#SBATCH --partition=sched_mit_sloan_batch
+#SBATCH --array=1-200
 
 module load sloan/julia/1.0.0
 module load sloan/python/modules/2.7

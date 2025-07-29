@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rs2
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=rs2
+#FLUX -c=5
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python -u -c "import PyHipp as pyh; \
 import DataProcessingTools as DPT; \

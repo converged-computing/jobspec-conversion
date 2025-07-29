@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rayCalc
-#FLUX: -N=8
-#FLUX: --urgency=16
+#SBATCH --job-name=rayCalc
+#SBATCH --output=job-%j.log
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=40
 
 echo Time is `date`
 echo Directory is $PWD

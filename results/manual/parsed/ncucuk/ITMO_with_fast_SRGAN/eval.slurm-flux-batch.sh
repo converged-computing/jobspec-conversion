@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SRGAN
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=SRGAN
+#FLUX -c=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64:/cvmfs/soft.computecanada.ca/easybuild/software/2017/CUDA/cuda10.1/cudnn/7.6.5/lib64/'
 

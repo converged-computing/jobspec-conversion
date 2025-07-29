@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-9657
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/StanczakDominik/picongpu/etc/picongpu/davinci-rice/picongpu.tpl

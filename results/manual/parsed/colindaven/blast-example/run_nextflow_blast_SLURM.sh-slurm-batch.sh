@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blast_start
-#FLUX: --queue=old
-#FLUX: -t=1080000
-#FLUX: --urgency=16
+#SBATCH --job-name=blast_start
+#SBATCH --mail-user=<your_email>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15000
+#SBATCH --time=12-12:00:00
+#SBATCH --partition=old
 
 echo "Input file: " $1
 fasta=$1

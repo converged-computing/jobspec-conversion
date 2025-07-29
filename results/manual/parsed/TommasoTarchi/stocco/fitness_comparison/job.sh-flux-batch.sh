@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fitness_comparison
-#FLUX: -n=10
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fitness_comparison
+#FLUX -n=10
+#FLUX --queue=EPYC
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='10'
 

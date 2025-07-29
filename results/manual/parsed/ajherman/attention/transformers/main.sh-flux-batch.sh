@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -N=3
-#FLUX: --queue=shared-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=main
+#FLUX -N=3
+#FLUX --queue=shared-gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cores=20
 norm_type=layer

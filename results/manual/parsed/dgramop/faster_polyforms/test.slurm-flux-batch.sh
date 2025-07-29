@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=test1
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=test1
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 PROBABILITY=0.9
 LENGTH=1000

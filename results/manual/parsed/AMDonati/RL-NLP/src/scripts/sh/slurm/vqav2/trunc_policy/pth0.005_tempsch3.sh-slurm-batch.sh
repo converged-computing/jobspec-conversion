@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=temp3-pth
-#FLUX: -c=16
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=temp3-pth
+#SBATCH --output=slurm_out/vqa/temp3-pth-full%j.out
+#SBATCH --error=slurm_out/vqa/temp3-pth-full%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8g
+#SBATCH --time=4-04:00:00
+#SBATCH --qos=qos_gpu-t4
+#SBATCH --array=1-3
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

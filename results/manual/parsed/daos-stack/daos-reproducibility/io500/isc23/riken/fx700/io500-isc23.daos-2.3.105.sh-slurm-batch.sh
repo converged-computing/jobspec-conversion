@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=d5_DFS
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=fx700
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=d5_DFS
+#SBATCH --output=log.io500_dfs.daos_daos0.10-48.300sec.%J
+#SBATCH --error=log.io500_dfs.daos_daos0.10-48.300sec.%J
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=fx700
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --nodelist=fx[00-09]
+#SBATCH --licenses=daos_daos0
 
 export IO500_MODE=''
 export SLEEP_SEC='300'

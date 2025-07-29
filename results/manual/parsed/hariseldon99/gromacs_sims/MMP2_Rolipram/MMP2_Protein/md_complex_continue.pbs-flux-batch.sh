@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-sundae-0466
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-knife-9963
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_Rolipram/MMP2_Protein/md_complex_continue.pbs

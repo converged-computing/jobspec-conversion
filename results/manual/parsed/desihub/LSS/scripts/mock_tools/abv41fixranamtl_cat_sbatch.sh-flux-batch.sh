@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leg-6749
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-gato-1977
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
 PYTHONPATH=$PYTHONPATH:$HOME/LSS/py

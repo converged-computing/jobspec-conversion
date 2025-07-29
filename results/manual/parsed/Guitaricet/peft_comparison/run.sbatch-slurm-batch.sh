@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=reloraF
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=g40x
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=reloraF
+#SBATCH --account=eleuther
+#SBATCH --output=/fsx/vlialin/slurmlogs/%j.out
+#SBATCH --error=/fsx/vlialin/slurmlogs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --mem=400GB
+#SBATCH --time=23:59:59
+#SBATCH --partition=g40x
+#SBATCH: --exclusive
 
 export WANDB_WATCH='false'
 export WANDB_DIR='/fsx/vlialin/wandb/wandb_dir'

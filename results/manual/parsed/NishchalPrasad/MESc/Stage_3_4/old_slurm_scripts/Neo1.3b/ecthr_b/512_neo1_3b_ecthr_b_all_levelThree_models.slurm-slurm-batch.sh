@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=512_GPT-Neo_1.3b_ecthr_b
-#FLUX: -c=32
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=512_GPT-Neo_1.3b_ecthr_b
+#SBATCH --account=btm@a100
+#SBATCH --output=LEGAL-PE/Level-3_of_Framework/slurm_scripts/Neo1.3b/ecthr_b/512_GPT-Neo_1.3b_ecthr_b%j.out
+#SBATCH --error=LEGAL-PE/Level-3_of_Framework/slurm_scripts/Neo1.3b/ecthr_b/512_GPT-Neo_1.3b_ecthr_b%j.out
+#SBATCH --mail-user=Nishchal.Prasad@irit.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 module purge
 module load cpuarch/amd

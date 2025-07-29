@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alner-policy
-#FLUX: --queue=m3g
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=alner-policy
+#FLUX --queue=m3g
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export CUDA_CACHE_PATH='$CACHE_PATH'

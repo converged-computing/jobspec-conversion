@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=1s
-#FLUX: --queue=unlimited
-#FLUX: --urgency=16
+#SBATCH --job-name=1s
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1g
+#SBATCH --partition=unlimited
 
 export NGS_PIPELINE='/data/Clinomics/Tools/ngs-pipeline'
 export WORK_DIR='`pwd`'

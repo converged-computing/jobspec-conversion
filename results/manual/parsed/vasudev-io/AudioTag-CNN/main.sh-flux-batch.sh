@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cw
-#FLUX: --queue=teach_gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=cw
+#FLUX --queue=teach_gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 mkdir -p ./bc4_out
 module purge

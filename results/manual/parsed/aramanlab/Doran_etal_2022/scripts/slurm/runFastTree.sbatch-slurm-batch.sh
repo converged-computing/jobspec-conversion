@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=runFastTree
-#FLUX: -c=10
-#FLUX: --queue=broadwl
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=runFastTree
+#SBATCH --output=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runFastTree/runFastTree_%A_%a.out
+#SBATCH --error=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runFastTree/runFastTree_%A_%a.err
+#SBATCH --mail-user=bend@uchicago.edu
+#SBATCH --mail-type=START,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=18:00:00
+#SBATCH --partition=broadwl
+#SBATCH --array=1-288%20
 
 module load julia/1.7.2
 projdir="/scratch/midway2/bend/projects/Doran_etal_2022"

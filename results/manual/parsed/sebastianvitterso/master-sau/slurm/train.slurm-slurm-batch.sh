@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=YOLOv5 Training for sheep recognition
-#FLUX: --queue=GPUQ
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=YOLOv5 Training for sheep recognition
+#SBATCH --account=ie-idi
+#SBATCH --output=train.out
+#SBATCH --mail-user=sebastvi@stud.ntnu.no,ingebrin@stud.ntnu.no
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=A100,ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR} # /cluser/work/<username>/master-sau/slurm

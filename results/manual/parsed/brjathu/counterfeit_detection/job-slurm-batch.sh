@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=en_cs
-#FLUX: -c=4
-#FLUX: -t=86100
-#FLUX: --urgency=16
+#SBATCH --job-name=en_cs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:0
+#SBATCH --mem=50gb
+#SBATCH --time=23:55:00
+#SBATCH --array=1-10
 
 module load tensorflow/1.3.0-py36-gpu
 module load python/3.6.13

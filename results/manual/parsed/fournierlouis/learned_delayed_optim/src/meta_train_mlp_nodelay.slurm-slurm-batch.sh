@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_adafac
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_adafac
+#SBATCH --account=wjm@a100
+#SBATCH --output=gpu_mlp_nod_meta%j.out
+#SBATCH --error=gpu_mlp_nod_meta%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 module purge
 cd /gpfswork/rech/bao/unl88dr/learned_delayed_optim/

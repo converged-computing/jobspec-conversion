@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fft_benchmark
-#FLUX: -n=8
-#FLUX: -c=10
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=fft_benchmark
+#FLUX -n=8
+#FLUX -c=10
+#FLUX -t=600
+#FLUX --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 

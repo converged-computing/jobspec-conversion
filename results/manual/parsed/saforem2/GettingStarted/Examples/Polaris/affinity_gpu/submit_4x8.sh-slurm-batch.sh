@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-egg-7176
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/saforem2/GettingStarted/Examples/Polaris/affinity_gpu/submit_4x8.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-punk-9440
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=grated-platanos-1914
+#FLUX -N=2
+#FLUX --urgency=16
 
 module add openmpi/4.1.2
 cd /mnt/orangefs/hacker/genie-lammps

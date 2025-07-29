@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-3003
-#FLUX: -n=20
-#FLUX: --queue=day
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --mail-user=email@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=day
 
 export src='$pd/src'
 export sesnm='main'

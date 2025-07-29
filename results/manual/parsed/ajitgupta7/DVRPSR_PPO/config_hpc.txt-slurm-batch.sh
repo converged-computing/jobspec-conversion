@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DVRPSR20
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=DVRPSR20
+#SBATCH --account=thes1501
+#SBATCH --output=output.%J.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export CONDA_ROOT='$HOME/miniconda3'
 export PATH='$CONDA_ROOT/bin:$PATH'

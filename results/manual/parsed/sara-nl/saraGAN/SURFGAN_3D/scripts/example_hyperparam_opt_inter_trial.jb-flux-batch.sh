@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-kitty-4449
-#FLUX: -N=4
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-bits-3374
+#FLUX -N=4
+#FLUX -c=6
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

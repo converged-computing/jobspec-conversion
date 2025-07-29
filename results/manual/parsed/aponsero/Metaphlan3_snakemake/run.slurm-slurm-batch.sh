@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SLURM_MetaP
-#FLUX: -n=5
-#FLUX: --queue=
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SLURM_MetaP
+#SBATCH --account=
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=
 
 source ~/.bashrc
 source activate metaphlan3

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=res
-#FLUX: -c=2
-#FLUX: --queue=gpu_p2s
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=res
+#FLUX -c=2
+#FLUX --queue=gpu_p2s
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge # nettoyer les modules herites par defaut
 module load pytorch-gpu/py3/1.11.0 

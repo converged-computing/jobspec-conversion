@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hadoop-cluster
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#SBATCH --job-name=hadoop-cluster
+#SBATCH --output=slurm-hadoop-%j.out
+#SBATCH --error=slurm-hadoop-%j.err
+#SBATCH --mail-user=mpathira@indiana.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:50:00
+#SBATCH --partition=general
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export MAGPIE_SUBMISSION_TYPE='sbatchsrun'
 export MAGPIE_SCRIPTS_HOME='${HOME}/Workspace/magpie'

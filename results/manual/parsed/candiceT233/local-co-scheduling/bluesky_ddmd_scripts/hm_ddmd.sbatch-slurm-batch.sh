@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=1hm_ddmd_100ps
-#FLUX: -N=8
-#FLUX: -n=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=1hm_ddmd_100ps
+#SBATCH --account=oddite
+#SBATCH --output=./R_%x.out
+#SBATCH --error=./R_%x.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --exclude=node[01-26]
 
 SKIP_OPENMM=true
 SHORTENED_PIPELINE=true

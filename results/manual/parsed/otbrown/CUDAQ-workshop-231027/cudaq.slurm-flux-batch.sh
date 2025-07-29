@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-5430
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-arm-2304
+#FLUX --queue=gpu
+#FLUX -t=120
+#FLUX --urgency=16
 
 source /work/tc053/tc053/shared/CUDAQ-workshop-231027/environment.sh
 source $CUDAQ_DIR/modules.sh

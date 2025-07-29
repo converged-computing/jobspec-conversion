@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=of
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=of
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='272'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hpml
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpml
+#SBATCH --output=pytorch_resnet34.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32GB
+#SBATCH --time=03:00:00
 
 module purge
 module load anaconda3/2020.07

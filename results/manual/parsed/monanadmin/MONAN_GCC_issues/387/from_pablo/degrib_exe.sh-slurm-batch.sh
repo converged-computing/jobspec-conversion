@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gfs4mpas
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gfs4mpas
+#SBATCH --output=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_ungrib.o%j
+#SBATCH --error=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_ungrib.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 export PMIX_MCA_gds='hash'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/julio.fernandez/local/lib64'

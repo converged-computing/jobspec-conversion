@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lizard-5709
-#FLUX: --urgency=16
+#SBATCH --mail-user=samgould@mit.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-44
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

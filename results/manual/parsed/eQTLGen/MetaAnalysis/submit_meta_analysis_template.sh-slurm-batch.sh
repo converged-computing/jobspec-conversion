@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MetaAnalysis
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=MetaAnalysis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load java-1.8.0_40
 module load singularity/3.5.3

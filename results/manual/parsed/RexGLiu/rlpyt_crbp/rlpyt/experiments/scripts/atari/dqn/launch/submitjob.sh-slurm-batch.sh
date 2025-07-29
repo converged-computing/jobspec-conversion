@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=r2d1
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=705600
-#FLUX: --urgency=16
+#SBATCH --job-name=r2d1
+#SBATCH --account=carney-tserre-condo
+#SBATCH --output=r2d1.out
+#SBATCH --error=r2d1_err.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=8-04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=quadrortx
 
 module load anaconda/3-5.2.0
 module load cuda/10.1.105

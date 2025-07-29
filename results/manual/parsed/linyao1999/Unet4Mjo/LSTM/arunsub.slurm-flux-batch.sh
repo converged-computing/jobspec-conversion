@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-taco-2983
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-diablo-1472
+#FLUX -c=128
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=360
+#FLUX --urgency=16
 
 module load pytorch/1.11.0
 mkdir -p ./outlog;

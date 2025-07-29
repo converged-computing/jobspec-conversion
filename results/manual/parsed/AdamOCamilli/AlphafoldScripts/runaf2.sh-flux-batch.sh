@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lemon-9550
-#FLUX: -n=8
-#FLUX: --queue=preempt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-peanut-9293
+#FLUX -n=8
+#FLUX --queue=preempt
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export alphafold_path='/cluster/tufts/cmdb295class/shared/alphafold/alphafold'
 

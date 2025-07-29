@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-destiny-1456
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-nunchucks-6559
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ..
 ml torchsparse/1.4.0-foss-2021a-CUDA-11.3.1

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=torch-train
-#FLUX: --queue=veryshort
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=torch-train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16G
+#SBATCH --time=00:45:00
+#SBATCH --partition=veryshort
+#SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 

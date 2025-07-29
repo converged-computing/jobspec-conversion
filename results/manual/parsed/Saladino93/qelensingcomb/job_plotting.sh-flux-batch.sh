@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-malarkey-8721
-#FLUX: -N=12
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#FLUX --job-name=blank-hippo-0684
+#FLUX -N=12
+#FLUX -t=6000
+#FLUX --urgency=16
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

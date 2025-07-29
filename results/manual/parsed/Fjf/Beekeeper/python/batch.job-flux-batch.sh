@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kitty-8395
-#FLUX: -N=2
-#FLUX: -n=13
-#FLUX: --queue=fat_soil_shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-onion-9497
+#FLUX -N=2
+#FLUX -n=13
+#FLUX --queue=fat_soil_shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

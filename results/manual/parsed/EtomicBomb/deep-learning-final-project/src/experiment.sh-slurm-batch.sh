@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-8871
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --mail-user=ethan_williams@brown.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 unset LD_LIBRARY_PATH

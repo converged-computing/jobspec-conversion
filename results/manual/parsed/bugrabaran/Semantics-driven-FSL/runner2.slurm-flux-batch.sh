@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=am31s
-#FLUX: -c=16
-#FLUX: --queue=palamut-cuda
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=am31s
+#FLUX -c=16
+#FLUX --queue=palamut-cuda
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PATH='/truba_scratch/eakbas/software/cuda-9.0/bin:$PATH'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/truba_scratch/eakbas/software/cuda-9.0/lib64'

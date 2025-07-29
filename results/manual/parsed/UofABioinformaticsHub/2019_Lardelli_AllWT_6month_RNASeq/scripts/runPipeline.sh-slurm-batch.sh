@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-blackbean-0169
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/data/biohub/2019_Lardelli_AllWT_6month_RNASeq/slurm/%x_%j.out
+#SBATCH --error=/data/biohub/2019_Lardelli_AllWT_6month_RNASeq/slurm/%x_%j.err
+#SBATCH --mail-user=nhi.hin@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
 
 CORES=16
 module load FastQC/0.11.7

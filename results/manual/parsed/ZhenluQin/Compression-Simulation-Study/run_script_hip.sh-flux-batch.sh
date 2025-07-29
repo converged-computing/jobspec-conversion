@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=2
+#FLUX -t=900
+#FLUX --urgency=16
 
 ml cmake
 ml adios2

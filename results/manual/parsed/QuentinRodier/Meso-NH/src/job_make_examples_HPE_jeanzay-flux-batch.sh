@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Examples
-#FLUX: -N=2
-#FLUX: -n=4
+#FLUX --job-name=Examples
+#FLUX -N=2
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=qos_cpu-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=qos_cpu-dev
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MONORUN='Exec srun -l -n 1 --export=ALL numabind_core_slurm'
 export MPIRUN='Exec srun -l -n 4 --export=ALL numabind_core_slurm'

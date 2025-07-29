@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DSE-Nord3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=DSE-Nord3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

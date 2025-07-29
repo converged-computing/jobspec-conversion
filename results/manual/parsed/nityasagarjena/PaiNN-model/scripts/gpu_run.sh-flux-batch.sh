@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PaiNN-training
-#FLUX: -n=8
-#FLUX: --queue=sm3090
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=PaiNN-training
+#FLUX -n=8
+#FLUX --queue=sm3090
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='1'
 export NUMEXPR_NUM_THREADS='1'

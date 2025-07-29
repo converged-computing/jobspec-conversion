@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-salad-0419
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-gato-1051
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SvenRogge/supporting-info/2023_InorgChemFront_SF6inZIF8/US_NVT_yaff_LAMMPS/scripts/job_restart.sh

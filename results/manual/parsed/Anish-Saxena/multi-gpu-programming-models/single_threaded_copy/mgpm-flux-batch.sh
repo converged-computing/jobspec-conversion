@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cat-4710
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-diablo-8451
+#FLUX -N=2
+#FLUX --urgency=16
 
 NPROCS=16
 NPPERSOC=$(($NPROCS>>2))

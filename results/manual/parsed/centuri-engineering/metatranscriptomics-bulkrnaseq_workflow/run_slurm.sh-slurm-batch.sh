@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Microbeannotator
-#FLUX: -n=12
-#FLUX: --queue=skylake
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=Microbeannotator
+#SBATCH --account=a272
+#SBATCH --output=./%N.%x.out
+#SBATCH --error=./%N.%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=11:00:00
+#SBATCH --partition=skylake
 
 module load userspace/all
 module load python3/3.6.3

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=distance_estimation
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=distance_estimation
+#SBATCH --account=tra23_ELLIS
+#SBATCH --output=./output/logs/baseline.out
+#SBATCH --error=./output/logs/baseline.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load profile/deeplrn python

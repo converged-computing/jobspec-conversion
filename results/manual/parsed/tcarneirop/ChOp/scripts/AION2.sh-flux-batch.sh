@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-butter-9704
-#FLUX: -N=4
-#FLUX: -c=128
+#FLUX --job-name=swampy-poo-5640
+#FLUX -N=4
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CHPL_VERSION='1.25.0'
 export CHPL_HOME='${PWD}/chapel-${CHPL_VERSION}'

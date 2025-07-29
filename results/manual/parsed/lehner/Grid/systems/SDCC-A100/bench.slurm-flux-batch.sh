@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chair-3304
-#FLUX: -n=4
+#FLUX --job-name=grated-chair-8902
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=csi
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=csi
+#FLUX -t=600
+#FLUX --urgency=16
 
 export GPU_MAP='(0 1 2 3)'
 export GPU='\${GPU_MAP[\$SLURM_LOCALID]}'

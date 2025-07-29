@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hope-6022
-#FLUX: -c=32
-#FLUX: --queue=gpusmall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpusmall
 
 export DATADIR='/scratch/dac/data'
 export TORCH_HOME='/scratch/dac/mvsjober/torch-cache'

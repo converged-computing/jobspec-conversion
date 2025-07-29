@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=eta1_alpha=0.0001_h_dim=9_keep_prob=0.6
-#FLUX: --queue=medium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=eta1_alpha=0.0001_h_dim=9_keep_prob=0.6
+#SBATCH --account=chenGrp
+#SBATCH --output=jobs_oe/eta1_alpha=0.0001_h_dim=9_keep_prob=0.6-%j.o
+#SBATCH --error=jobs_oe/eta1_alpha=0.0001_h_dim=9_keep_prob=0.6-%j.e
+#SBATCH --mail-user=xue20@wfu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=8
 
 echo $(pwd) > "jobs/pwd.txt"
 source /deac/csc/chenGrp/software/tensorflow/bin/activate

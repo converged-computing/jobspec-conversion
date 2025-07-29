@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=u-chi
-#FLUX: -c=3
-#FLUX: --queue=DGXA100
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=u-chi
+#FLUX -c=3
+#FLUX --queue=DGXA100
+#FLUX -t=255600
+#FLUX --urgency=16
 
 export CPATH='$CPATH:$CONDA_PREFIX/include'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib'

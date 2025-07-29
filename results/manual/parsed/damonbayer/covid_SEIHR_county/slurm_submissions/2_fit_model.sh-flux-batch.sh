@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kerfuffle-5808
-#FLUX: -n=4
-#FLUX: --queue=stats.p
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-hippo-0638
+#FLUX -n=4
+#FLUX --queue=stats.p
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county
 if [ $SLURM_ARRAY_TASK_ID == 1 ]; then

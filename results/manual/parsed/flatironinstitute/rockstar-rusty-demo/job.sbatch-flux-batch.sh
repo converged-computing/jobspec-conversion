@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-2168
-#FLUX: -N=12
-#FLUX: --queue=scc
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-cupcake-8627
+#FLUX -N=12
+#FLUX --queue=scc
+#FLUX -t=120
+#FLUX --urgency=16
 
 INBASE="/mnt/home/usteinwandel/ceph/dm_sims/doug/run_4096_G4/output/"
 OUTBASE="$HOME/ceph/rockstar_out"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: --queue=spgpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX --queue=spgpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 /bin/hostname
 nvidia-smi

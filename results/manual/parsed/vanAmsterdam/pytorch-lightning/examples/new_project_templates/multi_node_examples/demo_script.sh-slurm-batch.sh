@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lightning_test
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=lightning_test
+#SBATCH --output=/slurm_output_%j.out
+#SBATCH --error=/slurm_output_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

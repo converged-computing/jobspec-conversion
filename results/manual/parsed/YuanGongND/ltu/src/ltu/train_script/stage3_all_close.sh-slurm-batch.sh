@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=alm
-#FLUX: --exclusive
-#FLUX: --queue=a6
-#FLUX: --urgency=16
+#SBATCH --job-name=alm
+#SBATCH --output=./log/%j_alm.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=470000
+#SBATCH --partition=a6
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export TRANSFORMERS_CACHE='./hf_cache/'
 export HF_DATASETS_CACHE='./hf_cache/'

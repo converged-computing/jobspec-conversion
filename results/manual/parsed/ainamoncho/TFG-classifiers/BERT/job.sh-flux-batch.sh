@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=my_job
-#FLUX: -c=8
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=my_job
+#FLUX -c=8
+#FLUX -t=5400
+#FLUX --urgency=16
 
 ml scikit-learn/0.23.2-foss-2020b
 ml NLTK/3.7-foss-2020b

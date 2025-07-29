@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-onion-6932
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jpv219/HAMPPSterS/HAMPPSterS_main/base_files/sp_svgeom/job_base.sh

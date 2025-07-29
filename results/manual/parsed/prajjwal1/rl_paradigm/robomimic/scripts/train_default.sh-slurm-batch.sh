@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=can
-#FLUX: -c=16
-#FLUX: --queue=learnai4rl
-#FLUX: --urgency=16
+#SBATCH --job-name=can
+#SBATCH --account=all
+#SBATCH --output=/checkpoints/prajj/slurm/dtliftmgdense10k.out
+#SBATCH --error=/checkpoints/prajj/slurm/dtmgc.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=learnai4rl
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-5
 
 export ALGO_NAME='dt'
 export DATASET_NAME='can'

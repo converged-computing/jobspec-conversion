@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=t-f-c
-#FLUX: -c=4
-#FLUX: --queue=usatlas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=t-f-c
+#SBATCH --account=tier3
+#SBATCH --output=log_train_flow_celeba_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=usatlas
+#SBATCH --qos=usatlas
 
 export OMP_NUM_THREADS='1'
 

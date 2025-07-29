@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-citrus-2757
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=vanilla_dqn_enduro_%j.out
+#SBATCH --error=vanilla_dqn_enduro_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=roberto
 
 srun echo "I am on"
 srun echo $HOSTNAME

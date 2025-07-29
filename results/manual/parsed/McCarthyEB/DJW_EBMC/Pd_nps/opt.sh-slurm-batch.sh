@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pd_np
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pd_np
+#SBATCH --account=scw1161
+#SBATCH --output=o.%J
+#SBATCH --error=e.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 export CODE='AIMS'
 export LOG_FILE='$LAUNCH_DIR"/"$ASE_SCRIPT"_"$JOBID".log  '

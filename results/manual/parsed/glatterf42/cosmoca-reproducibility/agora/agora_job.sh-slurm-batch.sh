@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=AG1024
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: -t=36600
-#FLUX: --urgency=16
+#SBATCH --job-name=AG1024
+#SBATCH --output=agora_1024.out
+#SBATCH --mail-user=a01611430@unet.univie.ac.at
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 module load gcc/9.1.0-gcc-4.8.5-mj7s6dg
 module load openmpi/3.1.4-gcc-9.1.0-fdssbx5

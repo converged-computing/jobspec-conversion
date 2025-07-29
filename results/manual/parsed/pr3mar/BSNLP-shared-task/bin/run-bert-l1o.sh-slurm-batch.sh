@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NER-l1o
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=NER-l1o
+#SBATCH --output=logs/NER-l1o-%J.out
+#SBATCH --error=logs/NER-l1o-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --time=3-00:00:00
 
 set -euo pipefail
 CONTAINER_IMAGE_PATH="$PWD/containers/pytorch-image-new.sqfs"

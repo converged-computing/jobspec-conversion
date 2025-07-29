@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-bike-5250
-#FLUX: --queue=limited
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-car-0646
+#FLUX --queue=limited
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export EXEC='charmrun ++p $NP ++mpiexec /share/apps/NAMD/2.9/Linux-x86_64-ibverbs/namd2'
 

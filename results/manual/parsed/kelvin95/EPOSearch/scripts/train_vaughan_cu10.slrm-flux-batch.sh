@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mtl_nntd
-#FLUX: -c=8
-#FLUX: --queue=t4v1,p100,t4v2,rtx6000
-#FLUX: --urgency=16
+#FLUX --job-name=mtl_nntd
+#FLUX -c=8
+#FLUX --queue=t4v1,p100,t4v2,rtx6000
+#FLUX --urgency=16
 
 echo Running on $(hostname)
 (while true; do

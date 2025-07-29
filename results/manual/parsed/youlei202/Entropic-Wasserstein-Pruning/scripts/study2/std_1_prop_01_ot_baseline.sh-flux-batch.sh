@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nalgas-0090
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-parrot-2193
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/youlei202/Entropic-Wasserstein-Pruning/scripts/study2/std_1_prop_01_ot_baseline.sh

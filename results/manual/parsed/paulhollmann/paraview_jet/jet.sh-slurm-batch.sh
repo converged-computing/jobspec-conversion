@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pvscript
-#FLUX: -N=16
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=pvscript
+#SBATCH --account=pn68pi
+#SBATCH --output=./pvscript.%j.%N.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=.
 
 module load slurm_setup                      # necessary workaround on SuperMUC-NG!
 module load paraview-prebuild/5.8.0_mesa     # Look for available modules! But use MESA!

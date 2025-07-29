@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dataset
-#FLUX: -c=10
-#FLUX: --queue=gpu_p13
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=dataset
+#FLUX -c=10
+#FLUX --queue=gpu_p13
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PYTHONPATH='/opt/YARR/'
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'

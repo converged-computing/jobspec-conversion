@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Opensees
-#FLUX: --queue=express
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=Opensees
+#SBATCH --output=out_file.txt
+#SBATCH --error=err_file.txt
+#SBATCH --mail-user=michael.shields@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=express
+#SBATCH --constraint=ntasks-per-node=5
 
 module load python   
 module load opensees/3.2.0

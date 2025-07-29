@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Diffusion
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Diffusion
+#SBATCH --output=%x-%j-result.out
+#SBATCH --error=%x-%j-result.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=700G
+#SBATCH --time=20:00:00
+#SBATCH --constraint=[v100]
 
 conda activate pytorch
 nvidia-smi

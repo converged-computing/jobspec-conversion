@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=raxml_900_ws_PW
-#FLUX: --queue=Pisces
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=raxml_900_ws_PW
+#FLUX --queue=Pisces
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 echo "======================================================"
 echo "Start Time  : $(date)"

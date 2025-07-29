@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HD6-31Gs
-#FLUX: -n=10
-#FLUX: --queue=compute
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=HD6-31Gs
+#SBATCH --output=log_slurm_job.%j.%N.std_out_err
+#SBATCH --mail-user=Miroslav.Ilias@umb.sk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=40GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=compute
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'
 export PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/bin:$PATH'

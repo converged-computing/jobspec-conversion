@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-eagle-8821
-#FLUX: -n=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-destiny-5072
+#FLUX -n=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 ~/julia-1.7.0/bin/julia generate_mesh.jl 
 g++ openmp_version.cpp -fopenmp

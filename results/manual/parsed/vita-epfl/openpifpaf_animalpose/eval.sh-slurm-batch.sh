@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-2956
-#FLUX: -c=20
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=vita
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96G
+#SBATCH --time=06:00:00
 
 pattern=$1
 shift

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=swarm
-#FLUX: --queue=tcb
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=swarm
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --mail-user=sergio.perez.conesa@scilifelab.se
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:30:00
+#SBATCH --partition=tcb
+#SBATCH --constraint=gpu
 
 module unload gromacs
 module load gromacs/2020.1

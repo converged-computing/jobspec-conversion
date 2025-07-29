@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hippo-0945
-#FLUX: --queue=gpu20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-buttface-0041
+#FLUX --queue=gpu20
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='/usr/lib/cuda-${cuda_version}/bin/:${PATH}'
 export LD_LIBRARY_PATH='/usr/lib/cuda-${cuda_version}/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}'

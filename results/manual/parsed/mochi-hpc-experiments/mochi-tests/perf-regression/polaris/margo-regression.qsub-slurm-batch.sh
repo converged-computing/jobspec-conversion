@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-animal-7361
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mochi-hpc-experiments/mochi-tests/perf-regression/polaris/margo-regression.qsub

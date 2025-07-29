@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cherry-7747
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jpearkes/HiggsChallenge/code/roc_pbs.pbs

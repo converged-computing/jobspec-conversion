@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-poo-8143
-#FLUX: --urgency=16
+#FLUX --job-name=faux-peanut-3923
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abdulbudiaji/anuga-cuda/src/anuga_cuda/compute_fluxes/PBS_compute_fluxes.pbs

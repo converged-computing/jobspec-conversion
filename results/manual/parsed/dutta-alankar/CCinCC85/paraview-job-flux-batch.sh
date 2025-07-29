@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=visualization
-#FLUX: --queue=debug
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#FLUX --job-name=visualization
+#FLUX --queue=debug
+#FLUX -t=504000
+#FLUX --urgency=16
 
 export PROG='pvserver'
 

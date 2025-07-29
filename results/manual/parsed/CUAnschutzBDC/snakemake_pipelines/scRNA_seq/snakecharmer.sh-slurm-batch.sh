@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-onion-5738
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CUAnschutzBDC/snakemake_pipelines/scRNA_seq/snakecharmer.sh

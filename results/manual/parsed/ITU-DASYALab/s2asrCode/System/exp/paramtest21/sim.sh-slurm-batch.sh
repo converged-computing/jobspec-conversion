@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sim-p21
-#FLUX: -c=24
-#FLUX: --queue=desktop
-#FLUX: -t=46800
-#FLUX: --urgency=16
+#SBATCH --job-name=sim-p21
+#SBATCH --output=./logs/sim-p21-%A-%a-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem=120000M
+#SBATCH --time=13:00:00
+#SBATCH --partition=desktop
+#SBATCH --array=0-19%1
 
 echo "Running on: $(hostname)"
 batch_size=96

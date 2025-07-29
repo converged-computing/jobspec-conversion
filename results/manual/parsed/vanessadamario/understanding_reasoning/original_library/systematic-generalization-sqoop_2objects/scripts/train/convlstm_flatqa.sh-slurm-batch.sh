@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ConvLSTM_1lhs
-#FLUX: --queue=normal
-#FLUX: -t=48000
-#FLUX: --urgency=16
+#SBATCH --job-name=ConvLSTM_1lhs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titan-x:1
+#SBATCH --mem=15GB
+#SBATCH --time=13:20:00
+#SBATCH --partition=normal
+#SBATCH --array=0
 
 python add clustername/singularity/3.4.1
 singularity exec -B /om:/om --nv path_singularity_tensorflow2.simg \

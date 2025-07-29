@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expt-gpu
-#FLUX: --queue=gpu_quad
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=expt-gpu
+#FLUX --queue=gpu_quad
+#FLUX -t=10
+#FLUX --urgency=16
 
 module load conda2
 source "$HOME/.bashrc"

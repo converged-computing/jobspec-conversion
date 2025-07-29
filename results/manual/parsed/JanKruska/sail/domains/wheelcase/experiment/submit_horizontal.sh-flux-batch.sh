@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-despacito-6596
+#FLUX --job-name=placid-pedo-1556
 #FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=hpc
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MALLOC_ARENA_MAX='4'
 

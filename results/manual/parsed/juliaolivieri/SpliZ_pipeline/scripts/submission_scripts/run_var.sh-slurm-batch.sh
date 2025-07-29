@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=var
-#FLUX: --queue=owners,horence,quake
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=var
+#SBATCH --output=/scratch/PI/horence/JuliaO/single_cell/SZS_pipeline2/scripts/job_output/var.%j.out
+#SBATCH --error=/scratch/PI/horence/JuliaO/single_cell/SZS_pipeline2/scripts/job_output/var.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --time=06:00:00
+#SBATCH --partition=owners,horence,quake
 
 date
 DATANAME="Tabula_muris_senis_P2_10x_with_postprocessing_cellann"

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=polyomino
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=polyomino
+#SBATCH --output=/users/amaesumi/logs/polyomino%a.out
+#SBATCH --error=/users/amaesumi/logs/polyomino%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6g
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-31
 
 cd /users/amaesumi/pack_poly
 module load anaconda/2022.05

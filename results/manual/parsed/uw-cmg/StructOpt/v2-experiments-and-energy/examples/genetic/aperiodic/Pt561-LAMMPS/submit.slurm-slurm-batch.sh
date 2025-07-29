@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-3883
-#FLUX: --queue=stem
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=stem
+#SBATCH --constraint=ntasks-per-node=20
 
 module load lammps-31Jan14
 module load compile/intel

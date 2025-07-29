@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-8429
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=arid-hope-0988
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Anaconda3/5.3.0
 module load cuDNN/7.6.4.38-gcccuda-2019b

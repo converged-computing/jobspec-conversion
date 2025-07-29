@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-5643
-#FLUX: --queue=GPU
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU
 
 export PYTHONPATH='$PYTHONPATH:/home/bjc/Gromacs"  # Bridges forgets what is written in your .bashrc'
 export GMX_MAXBACKUP='-1  # do not make back-ups'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-malarkey-6614
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./reports/de_s_analysis_%A_%a.out
+#SBATCH --error=./reports/de_s_analysis_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=48G
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/nfs/work/td/,/lustre/lorenzic/'

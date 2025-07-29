@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moao
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=moao
+#SBATCH --account=k1217
+#SBATCH --output=moao-%j.out
+#SBATCH --error=moao-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export CRAYPE_LINK_TYPE='dynamic'
 export MKL_NUM_THREADS='1 OMP_NUM_THREADS=1;'

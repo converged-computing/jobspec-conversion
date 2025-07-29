@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-dog-3740
-#FLUX: -n=20
-#FLUX: --queue=node
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-itch-4522
+#FLUX -n=20
+#FLUX --queue=node
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate daskpy ## This is an example of setting the python virtual environment needed for the code.
 echo "#####################################################" ##This is to print any info about the job

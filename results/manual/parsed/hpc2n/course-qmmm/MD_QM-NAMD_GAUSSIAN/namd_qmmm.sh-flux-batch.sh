@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pedo-6085
-#FLUX: -n=28
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-truffle-1648
+#FLUX -n=28
+#FLUX -t=3000
+#FLUX --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml gaussian/16.C.01-AVX2

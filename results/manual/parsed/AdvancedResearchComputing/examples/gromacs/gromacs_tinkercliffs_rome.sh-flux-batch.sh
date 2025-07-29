@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-staircase-2305
-#FLUX: --queue=dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-pot-0311
+#FLUX --queue=dev_q
+#FLUX -t=300
+#FLUX --urgency=16
 
 module reset
 module load GROMACS

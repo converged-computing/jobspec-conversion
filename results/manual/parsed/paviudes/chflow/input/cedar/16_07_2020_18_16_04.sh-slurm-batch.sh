@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-fork-4618
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=def-jemerson
+#SBATCH --output=/project/def-jemerson/chbank/16_07_2020_18_16_04/results/ouptut_%j.o
+#SBATCH --error=/project/def-jemerson/chbank/16_07_2020_18_16_04/results/errors_%j.o
+#SBATCH --mail-user=2003adityajain@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --array=0-1:1
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/a77jain/chflow

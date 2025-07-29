@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lmp_diffuse_2d
-#FLUX: -N=5
-#FLUX: -n=40
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp_diffuse_2d
+#SBATCH --output=lmp_diffuse_2d.%J.out
+#SBATCH --error=lmp_diffuse_2d.%J.err
+#SBATCH --nodes=5
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=06:00:00
 
 module load cce/10.0.3
 module load craype/2.7.2

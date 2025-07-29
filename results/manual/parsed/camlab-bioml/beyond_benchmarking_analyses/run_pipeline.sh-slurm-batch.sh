@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pedo-2856
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --account=cfang
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source ~/env/bin/activate
 module load singularity

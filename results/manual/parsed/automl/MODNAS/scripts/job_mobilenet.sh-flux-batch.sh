@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-4811
-#FLUX: -c=32
-#FLUX: --queue=<partition
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-dog-8792
+#FLUX -c=32
+#FLUX --queue=<partition
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PYTHONPATH='.'
 

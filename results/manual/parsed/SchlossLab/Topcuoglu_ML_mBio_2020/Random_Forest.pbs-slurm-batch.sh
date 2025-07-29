@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-truffle-0706
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SchlossLab/Topcuoglu_ML_mBio_2020/Random_Forest.pbs

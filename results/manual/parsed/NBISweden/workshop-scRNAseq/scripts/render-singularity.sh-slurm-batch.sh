@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=render
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=render
+#SBATCH --account=naiss2023-22-1345
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=core
 
 set -e
 singularity_seurat="/sw/courses/scrnaseq/singularity/2024-seurat-r4.3.0.sif"

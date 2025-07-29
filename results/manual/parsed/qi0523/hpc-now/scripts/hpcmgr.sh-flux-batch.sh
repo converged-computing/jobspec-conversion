@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-egg-2549
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-signal-2331
+#FLUX --urgency=16
 
 function help_info() {
   echo -e "[ -INFO- ] Valid options/commands:"

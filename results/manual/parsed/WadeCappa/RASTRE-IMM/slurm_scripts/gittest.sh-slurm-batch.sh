@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Github5
-#FLUX: -N=5
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=Github5
+#SBATCH --account=m1641
+#SBATCH --output=Github5.o
+#SBATCH --error=Github5.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu,ntasks-per-node=1
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

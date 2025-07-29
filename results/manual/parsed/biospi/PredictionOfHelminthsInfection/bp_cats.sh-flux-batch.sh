@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cats
-#FLUX: -c=28
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cats
+#FLUX -c=28
+#FLUX --queue=short
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WORK_DIR='/user/work/fo18103/PredictionOfHelminthsInfection'
 

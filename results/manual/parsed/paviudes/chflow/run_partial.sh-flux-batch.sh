@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-car-6906
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-plant-0065
+#FLUX --urgency=16
 
 host=$(hostname)
 echo "Host: $host"

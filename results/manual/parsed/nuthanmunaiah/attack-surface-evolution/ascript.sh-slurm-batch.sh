@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peanut-5217
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#SBATCH --mail-user=nm6061@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=work
+#SBATCH --qos=free
 
 subject=$1
 version=$2

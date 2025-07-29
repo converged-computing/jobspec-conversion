@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-MicroBenchmark
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=OSU-MicroBenchmark
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 

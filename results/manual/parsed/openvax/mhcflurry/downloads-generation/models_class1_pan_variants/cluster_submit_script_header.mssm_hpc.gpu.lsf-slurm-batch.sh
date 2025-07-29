@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-0600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/openvax/mhcflurry/downloads-generation/models_class1_pan_variants/cluster_submit_script_header.mssm_hpc.gpu.lsf

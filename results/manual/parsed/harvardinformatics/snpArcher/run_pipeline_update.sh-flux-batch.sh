@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sm
-#FLUX: --queue=shared
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=sm
+#FLUX --queue=shared
+#FLUX -t=540000
+#FLUX --urgency=16
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh

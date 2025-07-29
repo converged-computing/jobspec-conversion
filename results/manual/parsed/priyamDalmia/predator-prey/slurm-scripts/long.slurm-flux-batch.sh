@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lentil-2490
-#FLUX: --queue=longgpgpu
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-diablo-8049
+#FLUX --queue=longgpgpu
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 module purge
 module load gcc/8.3.0 fosscuda/2019b

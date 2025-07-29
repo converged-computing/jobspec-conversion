@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-fudge-9877
-#FLUX: -N=4
-#FLUX: -n=128
-#FLUX: --queue=workq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-noodle-7647
+#FLUX -N=4
+#FLUX -n=128
+#FLUX --queue=workq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 export LC_ALL='C.UTF-8'

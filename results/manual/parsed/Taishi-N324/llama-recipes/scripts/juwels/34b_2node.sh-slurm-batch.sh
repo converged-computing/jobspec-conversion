@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cupcake-9694
-#FLUX: -N=64
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: --urgency=16
+#SBATCH --account=cstdl
+#SBATCH --output=%j_0_log.out
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lemon-9178
-#FLUX: --queue=GPU
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU
 
 module load gromacs/2018_gpu
 mpirun -np 4 gmx_mpi mdrun -s PR.tpr -cpi PR.cpt -append -v -deffnm PR

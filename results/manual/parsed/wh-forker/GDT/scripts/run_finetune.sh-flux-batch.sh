@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-avocado-2151
-#FLUX: -c=10
-#FLUX: --queue=learnfair
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-cat-7728
+#FLUX -c=10
+#FLUX --queue=learnfair
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

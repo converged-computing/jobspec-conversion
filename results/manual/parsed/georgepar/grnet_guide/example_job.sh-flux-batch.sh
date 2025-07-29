@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=test_job
+#FLUX --queue=gpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 export I_MPI_FABRICS='shm:dapl'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=compile_MNH
-#FLUX: -c=16
-#FLUX: --queue=compil
-#FLUX: --urgency=16
+#SBATCH --job-name=compile_MNH
+#SBATCH --account=mnh@cpu
+#SBATCH --output=Sortie_compile_MasterI.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=compil
 
 set -x
 pwd

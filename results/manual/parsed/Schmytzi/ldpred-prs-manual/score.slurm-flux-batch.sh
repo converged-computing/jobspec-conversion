@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Scoring
-#FLUX: -n=2
-#FLUX: --queue=core
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=Scoring
+#FLUX -n=2
+#FLUX --queue=core
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load bioinfo-tools plink/1.90b4.9 
 let "chr = $SLURM_ARRAY_TASK_ID % 22 + 1"

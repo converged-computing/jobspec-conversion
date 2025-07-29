@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-despacito-3817
-#FLUX: -n=32
-#FLUX: --queue=_______
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=astute-platanos-5573
+#FLUX -n=32
+#FLUX --queue=_______
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load java
 output=bcr/output

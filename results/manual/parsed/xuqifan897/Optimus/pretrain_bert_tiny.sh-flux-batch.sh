@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bert
-#FLUX: -n=4
-#FLUX: --queue=rtx
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=bert
+#FLUX -n=4
+#FLUX --queue=rtx
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-0016
-#FLUX: -c=8
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=blue-lemon-0549
+#FLUX -c=8
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 python make_species_doc2vec_species_embeddings.py

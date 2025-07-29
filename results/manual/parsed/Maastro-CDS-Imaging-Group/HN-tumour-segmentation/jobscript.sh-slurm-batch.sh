@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crFHN-msam3d-petct-cvCHUM-gtvweighted-histfix
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=crFHN-msam3d-petct-cvCHUM-gtvweighted-histfix
+#SBATCH --output=slurm_job_logs/crFHN-msam3d-petct-cvCHUM-gtvweighted-histfix.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:pascal:2
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
 
 module load cuda
 echo; echo

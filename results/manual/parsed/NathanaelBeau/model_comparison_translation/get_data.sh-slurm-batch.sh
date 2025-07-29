@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=getdata
-#FLUX: -c=40
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=getdata
+#SBATCH --output=./logfiles/logfile_wmt_lm.out
+#SBATCH --error=./logfiles/logfile_wmt_lm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=09:00:00
+#SBATCH --qos=qos_gpu-t3
 
 module purge
 module load anaconda-py3/2019.03

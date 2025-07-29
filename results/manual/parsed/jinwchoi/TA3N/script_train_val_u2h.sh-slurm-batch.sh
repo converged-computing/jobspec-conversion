@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet101
-#FLUX: -c=5
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet101
+#SBATCH --output=/net/acadia9a/data/jchoi/data/ucf_hmdb_full/TA3N/log/ucf2hmdb-resnet101_uda_TA2N_20200304.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --time=6-00:00:00
+#SBATCH --constraint=TITANX|TITANXP|GTX1080Ti
+#SBATCH --exclude=skyserver30k
 
 pwd; hostname; date
 echo $CUDA_VISIBLE_DEVICES

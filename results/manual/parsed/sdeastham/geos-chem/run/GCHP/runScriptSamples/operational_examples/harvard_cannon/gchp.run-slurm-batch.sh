@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bike-6820
-#FLUX: -N=2
-#FLUX: -n=96
-#FLUX: --exclusive
-#FLUX: --queue=huce_intel,seas_compute,shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=180000
+#SBATCH --time=00:08:00
+#SBATCH --partition=huce_intel,seas_compute,shared
+#SBATCH: --exclusive
 
 export OMPI_MCL_btl='openib'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-eagle-5419
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-leg-2288
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SchlossLab/snakemake_cluster_tutorial/code/clusterSnakemake.pbs

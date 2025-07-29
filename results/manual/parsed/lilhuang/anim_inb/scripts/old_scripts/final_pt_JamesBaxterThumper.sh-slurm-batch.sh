@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=JamesBaxterThumper_seq
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=50
+#SBATCH --job-name=JamesBaxterThumper_seq
+#SBATCH --output=JamesBaxterThumper_seq.log
+#SBATCH --error=JamesBaxterThumper_seq.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtxa6000:2
+#SBATCH --mem=64gb
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=high
 
 cd /fs/cfar-projects/anim_inb
 source env3-9-5/bin/activate

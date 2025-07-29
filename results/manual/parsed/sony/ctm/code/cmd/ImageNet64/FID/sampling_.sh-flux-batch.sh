@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-gato-9587
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-cattywampus-3719
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMPI_COMM_WORLD_RANK='0'
 export OMPI_COMM_WORLD_LOCAL_RANK='0'

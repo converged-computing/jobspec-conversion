@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lettuce-8420
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=project_462000241
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.er
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0
 conda activate bigcode

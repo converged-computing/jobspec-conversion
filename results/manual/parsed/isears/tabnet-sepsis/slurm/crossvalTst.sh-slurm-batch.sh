@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-rabbit-6998
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=./logs/cvTst.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 export PYTHONUNBUFFERED='TRUE'
 

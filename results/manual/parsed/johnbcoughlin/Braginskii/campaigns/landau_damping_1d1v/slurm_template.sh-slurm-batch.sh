@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=RT-hybrid-vlasov-comparison-arrayjob
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=RT-hybrid-vlasov-comparison-arrayjob
+#SBATCH --account=amath
+#SBATCH --output=@@WORKDIR@@/sims/RT-%a/sim.log
+#SBATCH --error=@@WORKDIR@@/sims/RT-%a/sim.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-rtx6k
+#SBATCH --chdir=@@WORKDIR@@
+#SBATCH --array=1-@@NTASKS@@%2
 
 export OPENBLAS_NUM_THREADS='1'
 

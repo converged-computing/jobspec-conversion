@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AD_freq2
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=AD_freq2
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ml easybuild GCC/6.3.0-2.27 OpenMPI/2.0.2 Python/3.6.1
 pip list installed | grep numpy

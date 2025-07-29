@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=corner_plotter
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=corner_plotter
+#SBATCH --output=corner_plotter_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=00:20:00
+#SBATCH --array=0-99
 
 source ~/.bash_profile
 conda activate parallel_bilby

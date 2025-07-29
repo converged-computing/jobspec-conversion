@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hippo-4715
-#FLUX: --queue=plgrid-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-hobbit-3294
+#FLUX --queue=plgrid-gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load plgrid/tools/python-intel

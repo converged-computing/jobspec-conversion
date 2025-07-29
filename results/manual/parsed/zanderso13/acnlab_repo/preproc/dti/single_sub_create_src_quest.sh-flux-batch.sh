@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dti_create_src
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dti_create_src
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load singularity/latest
 action=src

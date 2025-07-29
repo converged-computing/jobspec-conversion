@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-10w_naive-fine
-#FLUX: -n=11
-#FLUX: -c=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=qb_04vs_14400f-10w_naive-fine
+#FLUX -n=11
+#FLUX -c=4
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export RUST_LOG='debug'
 

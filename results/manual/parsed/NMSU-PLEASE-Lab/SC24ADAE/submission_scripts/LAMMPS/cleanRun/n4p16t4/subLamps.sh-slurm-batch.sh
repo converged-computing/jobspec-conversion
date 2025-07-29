@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=wholenode
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --output=lammps-%j.out
+#SBATCH --error=lammps-%j.error
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=wholenode
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='4 #$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

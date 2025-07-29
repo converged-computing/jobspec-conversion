@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree
-#FLUX: -c=5
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=iqtree
+#SBATCH --output=logs/iqtree.plastid-%j.out
+#SBATCH --error=logs/iqtree.plastid-%j.err
+#SBATCH --mail-user=user@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=10gb
+#SBATCH --time=4-04:00:00
 
 cd $SLURM_SUBMIT_DIR
 date

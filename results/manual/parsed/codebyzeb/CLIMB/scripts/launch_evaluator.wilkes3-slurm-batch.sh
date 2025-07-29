@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=baby-lm
-#FLUX: --queue=ampere
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=baby-lm
+#SBATCH --account=BUTTERY-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=04:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

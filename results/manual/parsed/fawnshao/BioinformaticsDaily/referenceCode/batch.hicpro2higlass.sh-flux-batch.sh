@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX --queue=normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PATH='~/myTools/HiChIP/HiC-Pro/bin/utils/:$PATH'
 export PYTHONPATH=''

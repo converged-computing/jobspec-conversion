@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Train_RIM_xray_prior
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=Train_RIM_xray_prior
+#FLUX -t=1380
+#FLUX --urgency=16
 
 source $HOME/environments/milex/bin/activate
 python $HOME/scratch/RIM_xray_spectra/scripts/train_rim.py \

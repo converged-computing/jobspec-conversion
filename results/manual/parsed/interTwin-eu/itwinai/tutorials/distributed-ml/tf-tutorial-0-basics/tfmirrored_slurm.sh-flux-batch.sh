@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TFTest
-#FLUX: -N=2
-#FLUX: -c=32
+#FLUX --job-name=TFTest
+#FLUX -N=2
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 export TF_USE_LEGACY_KERAS='1'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

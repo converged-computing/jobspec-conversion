@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=array-job
-#FLUX: --queue=caslake
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=array-job
+#SBATCH --account=pi-cdonnat
+#SBATCH --output=logs/array_%A_%a.out
+#SBATCH --error=logs/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=caslake
+#SBATCH --array=1-100
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 module load python

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stardb
-#FLUX: -c=16
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=stardb
+#FLUX -c=16
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cpus=16                   ## must match #SBATCH -c
 index_n_bases=14          ## --genomeSAindexNbases [14]; set to min(14, log2(GenomeLength)/2 - 1)

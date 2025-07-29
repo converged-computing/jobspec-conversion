@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jpllm
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=jpllm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-23:59:00
 
 export XDG_RUNTIME_DIR='$SLURM_JOBTMP'
 

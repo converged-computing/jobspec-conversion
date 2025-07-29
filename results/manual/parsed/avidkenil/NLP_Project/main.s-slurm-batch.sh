@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_MT
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=train_MT
+#SBATCH --output=slurm_MT_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30GB
+#SBATCH --time=00:15:00
 
 module load python3/intel/3.6.3
 source /home/dam740/pytorch_venv/bin/activate

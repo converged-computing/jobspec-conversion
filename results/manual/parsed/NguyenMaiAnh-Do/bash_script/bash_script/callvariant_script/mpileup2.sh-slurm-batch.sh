@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpileup_call_2
-#FLUX: -c=28
-#FLUX: --urgency=16
+#SBATCH --job-name=mpileup_call_2
+#SBATCH --output=/home/ndo/slurm_script/mpileup_%j.out
+#SBATCH --error=/home/ndo/slurm_script/mpileup_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=4G
 
 eval "$(conda shell.bash hook)"
 conda activate nextflow

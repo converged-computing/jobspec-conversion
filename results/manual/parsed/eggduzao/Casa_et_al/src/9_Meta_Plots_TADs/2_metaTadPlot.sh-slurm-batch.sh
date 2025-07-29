@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MTP
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MTP
+#SBATCH --account=UniKoeln
+#SBATCH --output=MTP.%A_%a.out
+#SBATCH --error=MTP.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24gb
+#SBATCH --time=01:00:00
+#SBATCH --array=1-1
 
 export PATH='$PATH:"/home/egusmao/software/ibm-cbc-genomic-tools-master/bin/'
 export PYTHONPATH='$PYTHONPATH:"/projects/ag-papan/install/MACS2-2.1.1.20160309/inst/lib/python2.7/site-packages/'

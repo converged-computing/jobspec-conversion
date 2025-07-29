@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-1793
-#FLUX: -n=2
-#FLUX: --queue=priority
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=01:30:00
+#SBATCH --partition=priority
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 module load matlab/2017a

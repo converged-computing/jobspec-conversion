@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hope-0871
-#FLUX: -n=10
-#FLUX: -c=2
-#FLUX: --queue=small
-#FLUX: -t=610
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:10:10
+#SBATCH --partition=small
 
 module load maestro parallel  # load module
 find $PWD/data_SMILES  -name '*.smi' | \

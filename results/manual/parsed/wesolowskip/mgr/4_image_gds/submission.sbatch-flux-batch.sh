@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-buttface-2263
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-parrot-9198
+#FLUX -t=36000
+#FLUX --urgency=16
 
 CONTAINER="${HOME}/containers/pytorch-gds-benchmarks.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_torch_benchmark_rc"

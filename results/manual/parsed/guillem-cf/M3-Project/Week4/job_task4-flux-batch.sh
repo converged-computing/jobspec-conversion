@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-banana-3704
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-platanos-1298
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate m3

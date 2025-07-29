@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=IONS_LAMMPS
-#FLUX: --queue=general
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=IONS_LAMMPS
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='16'
 

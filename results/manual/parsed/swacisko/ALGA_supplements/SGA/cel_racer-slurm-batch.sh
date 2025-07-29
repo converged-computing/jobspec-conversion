@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-squidward-5133
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#SBATCH --output=logs/cel_racer.out
+#SBATCH --error=logs/cel_racer.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --partition=bigmem
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/cel_racer.1.log \

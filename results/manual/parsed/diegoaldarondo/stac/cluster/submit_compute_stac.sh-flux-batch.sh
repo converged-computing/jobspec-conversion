@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=compute_stac
-#FLUX: -c=8
-#FLUX: -t=45
-#FLUX: --urgency=16
+#FLUX --job-name=compute_stac
+#FLUX -c=8
+#FLUX -t=45
+#FLUX --urgency=16
 
 img_path="/n/home02/daldarondo/LabDir/Diego/.images/mj_stac.sif"
 param_path=$1; shift

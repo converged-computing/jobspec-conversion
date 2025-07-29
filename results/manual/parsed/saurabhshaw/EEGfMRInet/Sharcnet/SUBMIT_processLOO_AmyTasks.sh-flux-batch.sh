@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parrot-8960
-#FLUX: -c=8
-#FLUX: -t=710
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-avocado-6475
+#FLUX -c=8
+#FLUX -t=710
+#FLUX --urgency=16
 
 module load matlab
 cd /home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Main

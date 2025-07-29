@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-gato-8434
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_2003959
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1,nvme:100
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 export DATADIR='$LOCAL_SCRATCH'
 

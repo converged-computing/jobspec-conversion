@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=PINST-CELL-0-B-II-new-QTI-3
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PINST-CELL-0-B-II-new-QTI-3
+#SBATCH --account=s1000
+#SBATCH --output=slurm.%J.out
+#SBATCH --error=slurm.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

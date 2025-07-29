@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-sundae-7197
-#FLUX: -c=48
+#FLUX --job-name=outstanding-cat-2592
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

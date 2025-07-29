@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DCGAN
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=DCGAN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=30G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 source /data/$USER/.envs/pyenv37/bin/activate
 module load Python/3.7.4-GCCcore-8.3.0 

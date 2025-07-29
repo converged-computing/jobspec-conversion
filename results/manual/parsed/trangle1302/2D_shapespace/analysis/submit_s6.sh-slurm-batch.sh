@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pc_var
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=pc_var
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=05:00:00
 
 module load python/3.9
 module load py-pandas/1.3.1_py39

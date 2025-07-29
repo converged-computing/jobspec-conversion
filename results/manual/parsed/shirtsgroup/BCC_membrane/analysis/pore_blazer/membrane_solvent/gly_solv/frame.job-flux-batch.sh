@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-7063
-#FLUX: --queue=RM-shared
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-hope-9224
+#FLUX --queue=RM-shared
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load gcc
 module load cuda/11.1.1

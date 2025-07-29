@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_ps
-#FLUX: --queue=cardio
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=_ps
+#FLUX --queue=cardio
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export nth='${SLURM_ARRAY_TASK_ID}'
 export rsid='$(awk 'NR==ENVIRON["nth"]' ${INF}/ps/INF1_ref_rsid.txt)'

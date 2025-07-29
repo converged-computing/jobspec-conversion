@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ibs_anxdefs
-#FLUX: -c=24
-#FLUX: --queue=compute
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=ibs_anxdefs
+#SBATCH --output=/gfs/work/ceijsbouts/ibs/jobs/stream/job_%A_%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=compute
+#SBATCH --array=90-95
 
 CCS=(final_cc.diag final_cc.sr final_cc.Q final_cc.Q.prev.diag.yes final_cc.any final_cc.male final_cc.female final_cc.sub.C final_cc.sub.U final_cc.sub.M
  final_cc.sub.D final_quant.hard final_quant.loose final_quant.daily final_quant.SSS final_quant.daily.max final_quant.weekly.min final_cc.any.conts.relaxed final_cc.diag.conts.relaxed final_cc.sr.conts.relaxed

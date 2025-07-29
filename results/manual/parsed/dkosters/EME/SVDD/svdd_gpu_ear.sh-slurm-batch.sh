@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-truffle-2454
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

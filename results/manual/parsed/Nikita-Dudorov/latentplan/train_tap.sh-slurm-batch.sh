@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tap_hopper-medium-expert-v2
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=tap_hopper-medium-expert-v2
+#SBATCH --account=def-martin4
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=32000M
+#SBATCH --time=1-00:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

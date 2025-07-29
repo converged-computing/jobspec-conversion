@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Pytest
-#FLUX: -c=24
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Pytest
+#SBATCH --mail-user=paul.templier@isae-supaero.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=02:00:00
+#SBATCH --partition=debug
 
 export WANDB_DIR='/scratch/disc/p.templier/wandb_files'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-general-3432
-#FLUX: --queue=gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --output=deeplearn_%j.out
+#SBATCH --error=deeplearn_%j.err
+#SBATCH --mail-user=blaise.frederick@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20G
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpu
 
 module load cuda91
 python main.py

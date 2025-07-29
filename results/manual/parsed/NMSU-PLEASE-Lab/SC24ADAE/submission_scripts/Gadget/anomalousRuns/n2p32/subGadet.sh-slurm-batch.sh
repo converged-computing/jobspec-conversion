@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Gadget-CLEAN
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=wholenode
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Gadget-CLEAN
+#SBATCH --output=gadget-%j.out
+#SBATCH --error=gadget-%j.error
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=wholenode
+#SBATCH: --exclusive
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/apps/spack/anvil/apps/fftw/2.1.5-gcc-8.4.1-cac36sv/lib'
 

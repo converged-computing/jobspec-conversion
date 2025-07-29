@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-1465
-#FLUX: --urgency=16
+#SBATCH --output=path/awa2_resnet_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 pwd; hostname; date
 CURRENT=`date +"%Y-%m-%d_%T"`

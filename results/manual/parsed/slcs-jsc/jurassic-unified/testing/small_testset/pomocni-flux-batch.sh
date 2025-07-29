@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-butter-6532
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --queue=gpus
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-carrot-7662
+#FLUX -N=2
+#FLUX -c=24
+#FLUX --queue=gpus
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 

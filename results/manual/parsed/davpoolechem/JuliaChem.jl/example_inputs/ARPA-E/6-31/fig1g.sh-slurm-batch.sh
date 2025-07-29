@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example_inputs/ARPA-E/6-31/fig1g
-#FLUX: -c=8
-#FLUX: --queue=haswell
-#FLUX: --urgency=16
+#SBATCH --job-name=example_inputs/ARPA-E/6-31/fig1g
+#SBATCH --output=example_inputs/ARPA-E/6-31/fig1g.log
+#SBATCH --error=example_inputs/ARPA-E/6-31/fig1g.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=haswell
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='8'
 export OMP_NUM_THREADS='8'

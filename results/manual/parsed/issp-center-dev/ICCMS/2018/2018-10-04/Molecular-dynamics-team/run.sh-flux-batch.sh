@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-omelette-6060
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-cinnamonbun-0781
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/issp-center-dev/ICCMS/2018/2018-10-04/Molecular-dynamics-team/run.sh

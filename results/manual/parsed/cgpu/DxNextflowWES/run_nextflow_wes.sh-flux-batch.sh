@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow_WES
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Nextflow_WES
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -euo pipefail
 workflow_path='/hpc/diaggen/software/development/DxNextflowWES'

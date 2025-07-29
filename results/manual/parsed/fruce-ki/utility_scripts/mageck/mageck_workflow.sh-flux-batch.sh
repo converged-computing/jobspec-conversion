@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mageck-wf
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=mageck-wf
+#FLUX -c=10
+#FLUX --urgency=16
 
 set -x
 function usage() {

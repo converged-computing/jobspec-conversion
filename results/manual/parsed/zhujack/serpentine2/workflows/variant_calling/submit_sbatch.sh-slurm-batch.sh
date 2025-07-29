@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ClinOmics
-#FLUX: --urgency=16
+#SBATCH --job-name=ClinOmics
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export TimeStamp='$NOW'
 export SERPENTINE_HOME='/data/Clinomics/Tools/serpentine2'

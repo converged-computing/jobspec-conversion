@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=general
-#FLUX: -n=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=general
+#FLUX -n=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo JOBID $SLURM_JOBID
 echo TASKID $SLURM_ARRAY_TASK_ID

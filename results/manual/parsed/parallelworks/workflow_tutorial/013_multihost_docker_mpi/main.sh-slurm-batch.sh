@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-train-9912
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export UCONTAINER_JOB_DIR='${PWD}'
 export CLUSTER_JOB_DIR='${resource_workdir}/pw/${JOB_DIR}/'

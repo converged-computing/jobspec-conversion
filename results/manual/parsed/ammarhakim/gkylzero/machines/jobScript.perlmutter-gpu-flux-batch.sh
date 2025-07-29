@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=<Job
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=<Job
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=regular
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export DVS_MAXNODES='24_'
 export MPICH_MPIIO_DVS_MAXNODES='24'

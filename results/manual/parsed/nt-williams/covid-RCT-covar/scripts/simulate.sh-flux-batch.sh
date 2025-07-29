@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=covidRCT
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#FLUX --job-name=covidRCT
+#FLUX --queue=panda
+#FLUX --urgency=16
 
 echo "$SLURM_ARRAY_TASK_ID"
 source ~/.bashrc

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GENRAY
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=GENRAY
+#SBATCH --account=m77
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=regular
+#SBATCH --qos=premium
+#SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/global/homes/y/ypetrov/pgplot.intel'
 

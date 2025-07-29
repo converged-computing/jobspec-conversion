@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bert
-#FLUX: -n=4
-#FLUX: --queue=rtx
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=bert
+#SBATCH --output=berto.txt
+#SBATCH --error=berte.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=rtx
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

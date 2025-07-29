@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hcl_mxmtask_queue_test
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=hcl_mxmtask_queue_test
+#SBATCH --output=./logs/hcl_mxmtask_queue_test_oneapi_%J.out
+#SBATCH --error=./logs/hcl_mxmtask_queue_test_oneapi_%J.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:05:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --qos=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --chdir=./
 
 module load slurm_setup
 module use ~/.modules

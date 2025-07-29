@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=F_subgraph
-#FLUX: --queue=ampere
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=F_subgraph
+#SBATCH --account=COMPUTERLAB-SL2-GPU
+#SBATCH --output=./logs/exp1_subgraph_config-seed-job_%A_%a.out
+#SBATCH --error=./logs/exp1_subgraph_config-seed-job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --partition=ampere
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-3
 
 export OMP_NUM_THREADS='1'
 

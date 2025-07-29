@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_oppo
-#FLUX: -c=30
-#FLUX: --urgency=16
+#FLUX --job-name=finetune_oppo
+#FLUX -c=30
+#FLUX --urgency=16
 
 export CPATH='/usr/local/cuda/include:$CPATH'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:$LD_LIBRARY_PATH'

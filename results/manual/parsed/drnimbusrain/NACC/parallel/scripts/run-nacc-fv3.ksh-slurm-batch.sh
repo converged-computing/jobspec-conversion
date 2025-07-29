@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-6437
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/drnimbusrain/NACC/parallel/scripts/run-nacc-fv3.ksh

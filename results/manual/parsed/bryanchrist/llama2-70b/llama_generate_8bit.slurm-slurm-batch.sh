@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama_generate_8bit
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_generate_8bit
+#SBATCH --account=sds-phd-2022
+#SBATCH --output=generate_8bit-%A.out
+#SBATCH --error=generate_8bit-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

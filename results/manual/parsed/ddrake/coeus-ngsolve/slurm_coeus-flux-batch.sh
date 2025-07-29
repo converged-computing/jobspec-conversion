@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -c=20
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -c=20
+#FLUX --queue=medium
+#FLUX --urgency=16
 
 pwd; hostname;
 echo "Starting at wall clock time:"

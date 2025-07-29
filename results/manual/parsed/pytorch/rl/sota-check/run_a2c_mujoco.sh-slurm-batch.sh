@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=a2c_mujoco
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=a2c_mujoco
+#SBATCH --output=slurm_logs/a2c_mujoco_%j.txt
+#SBATCH --error=slurm_errors/a2c_mujoco_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

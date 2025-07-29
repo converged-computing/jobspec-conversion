@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-1665
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:maxwel
 
 export CUDA_VISIBLE_DEVICES='0'
 

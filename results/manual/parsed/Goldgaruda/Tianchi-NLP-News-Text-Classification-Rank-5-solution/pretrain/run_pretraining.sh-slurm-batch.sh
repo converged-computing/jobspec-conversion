@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lettuce-4245
-#FLUX: -n=14
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=100GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=nvidia
 
 module purge
 source ~/.bashrc

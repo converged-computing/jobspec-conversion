@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mcskim
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mcskim
+#SBATCH --output=log_mcskim.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --array=0-10
 
 CONTAINER=/cluster/tufts/wongjiradlab/larbys/images/singularity-larflow/singularity-larflow-v2.img
 WORKDIR_IC=/cluster/kappa/wongjiradlab/twongj01/dllee-ana/skim_mctruth/

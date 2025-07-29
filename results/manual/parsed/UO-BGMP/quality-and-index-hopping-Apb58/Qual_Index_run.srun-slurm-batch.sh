@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ABQIH
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ABQIH
+#SBATCH --output=qual.out
+#SBATCH --error=qual.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=28
 
 module load easybuild
 module load prl

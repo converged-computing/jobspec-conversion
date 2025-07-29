@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cluster
-#FLUX: -c=4
-#FLUX: --queue=cs
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=cluster
+#FLUX -c=4
+#FLUX --queue=cs
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module purge
 singularity exec $nv \

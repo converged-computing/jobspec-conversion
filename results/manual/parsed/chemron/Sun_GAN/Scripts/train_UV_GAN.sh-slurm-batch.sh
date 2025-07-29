@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_P100
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=train_P100
+#SBATCH --mail-user=csmi0005@student.monash.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P100:1
+#SBATCH --mem=10G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu
 
 module load anaconda/5.1.0-Python3.6-gcc5
 module load cudnn/7.6.5-cuda10.1

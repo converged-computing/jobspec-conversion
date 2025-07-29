@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-knife-9450
-#FLUX: -c=24
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=12:00:00
 
 export ACES='/home/ban115/ACES'
 export CRAFT='/home/ban115/craft/craft/'

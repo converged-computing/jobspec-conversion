@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=minimize
-#FLUX: --queue=nes2.8,ilg2.3,sib2.9,m-c1.9,m-c2.2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=minimize
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nes2.8,ilg2.3,sib2.9,m-c1.9,m-c2.2
+#SBATCH --array=1-72
 
 export SLURM_MPI_TYPE='pmi2'
 

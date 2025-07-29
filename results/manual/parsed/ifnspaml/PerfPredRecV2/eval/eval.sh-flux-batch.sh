@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=attack-val-dl
-#FLUX: -c=4
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=37200
-#FLUX: --urgency=16
+#FLUX --job-name=attack-val-dl
+#FLUX -c=4
+#FLUX --queue=gpu,gpub
+#FLUX -t=37200
+#FLUX --urgency=16
 
 export IFN_DIR_DATASET='/beegfs/data/shared'
 export IFN_DIR_CHECKPOINT='${PWD}/../../../experiments_code-release/'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cat-1018
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=angry-buttface-7184
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load python/3 cuda cudnn scipy-stack
 source tensorflow/bin/activate

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=IoTwinsTest
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=IoTwinsTest
+#SBATCH --output=./../MNBatchOutput/%j-IoTwins-mpi.out
+#SBATCH --error=./../MNBatchOutput/%j-IoTwins-mpi.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --qos=debug
 
 if [ $# -lt 1 ]; then
   echo "Usage: MNBatchScript_IoTwins-mpi-{X}K.cmd numberOfAgents"

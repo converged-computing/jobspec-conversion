@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=run_keras
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=run_keras
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

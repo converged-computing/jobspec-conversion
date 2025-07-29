@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TightIWAE
-#FLUX: --queue=htc
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=TightIWAE
+#FLUX --queue=htc
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load anaconda3/2019.03
 module load gpu/cuda/10.0.130

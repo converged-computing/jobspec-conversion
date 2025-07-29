@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=s-250-4000
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=s-250-4000
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 module purge
 module load cudatoolkit/10.0

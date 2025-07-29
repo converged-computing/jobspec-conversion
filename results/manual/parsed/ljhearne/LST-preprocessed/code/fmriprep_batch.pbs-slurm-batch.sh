@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-punk-4341
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ljhearne/LST-preprocessed/code/fmriprep_batch.pbs

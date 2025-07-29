@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tf-distr-cnn
-#FLUX: -n=8
-#FLUX: --queue=standard-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=tf-distr-cnn
+#FLUX -n=8
+#FLUX --queue=standard-g
+#FLUX -t=600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='hsn'

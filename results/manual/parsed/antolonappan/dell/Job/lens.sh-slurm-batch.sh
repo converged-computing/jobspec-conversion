@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Lensing
-#FLUX: -N=16
-#FLUX: -n=100
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Lensing
+#SBATCH --output=out/lensing.out
+#SBATCH --error=out/lensing.err
+#SBATCH --mail-user=anto.lonappan@sissa.it
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=16
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
 
 export ini='LB_FG2.ini'
 

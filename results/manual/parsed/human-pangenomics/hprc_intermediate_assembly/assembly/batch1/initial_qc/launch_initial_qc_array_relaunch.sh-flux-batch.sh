@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPRC-qc-batch1
-#FLUX: -c=4
-#FLUX: --queue=high_priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=HPRC-qc-batch1
+#FLUX -c=4
+#FLUX --queue=high_priority
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='`pwd`/outputs/cache/.singularity/cache '
 export MINIWDL__SINGULARITY__IMAGE_CACHE='`pwd`/outputs/cache/.cache/miniwdl '

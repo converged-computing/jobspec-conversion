@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mri_align
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=mri_align
+#SBATCH --output=/om/user/yibei/fUSi-workflow/logs/%x_%j.out
+#SBATCH --error=/om/user/yibei/fUSi-workflow/logs/%x_%j.err
+#SBATCH --mail-user=yibei@mit.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=05:00:00
+#SBATCH --partition=normal
+#SBATCH --exclude=node[030-060]
 
 source $HOME/.bashrc
 source $HOME/miniconda3/etc/profile.d/conda.sh

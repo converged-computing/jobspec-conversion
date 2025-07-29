@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poodle-3409
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=EUHPC_E02_013
+#SBATCH --output=.slurm/latxa-7b-v1.out
+#SBATCH --error=.slurm/latxa-7b-v1.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=123G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export HOSTNAMES='$(scontrol show hostnames "$SLURM_JOB_NODELIST")'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hope-4681
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --account=ucb1_summit4
+#SBATCH --output=/scratch/summit/holtat/exa_slurm_output/fluid_bed_%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH: --exclusive
 
 export COMMIT_HASH='$1'
 export WD='$2'

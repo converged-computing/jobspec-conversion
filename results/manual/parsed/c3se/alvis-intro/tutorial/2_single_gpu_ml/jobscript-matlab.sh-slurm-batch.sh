@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ml-matlab
-#FLUX: --queue=alvis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=ml-matlab
+#SBATCH --account=NAISS2024-22-219
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=alvis
 
 ml purge
 ml MATLAB

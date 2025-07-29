@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=SJP
-#FLUX: --queue=gpu-invest
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=SJP
+#SBATCH --mail-user=joel.niklaus@inf.unibe.ch
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx3090:1
+#SBATCH --mem=64GB
+#SBATCH --time=20-00:00:00
+#SBATCH --partition=gpu-invest
+#SBATCH --qos=job_gpu_stuermer
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=2-4
 
 eval "$(conda shell.bash hook)"
 conda activate sjp

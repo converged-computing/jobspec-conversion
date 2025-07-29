@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hpl
+#FLUX --job-name=hpl
 #FLUX: --exclusive
-#FLUX: --queue=MI250
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=MI250
+#FLUX -t=600
+#FLUX --urgency=16
 
 export AMD_LOG_LEVEL='1'
 

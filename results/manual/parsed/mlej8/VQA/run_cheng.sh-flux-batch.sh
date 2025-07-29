@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vqa
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=vqa
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

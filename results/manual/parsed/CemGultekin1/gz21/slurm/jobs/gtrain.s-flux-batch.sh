@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gtrain
-#FLUX: -c=8
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=gtrain
+#FLUX -c=8
+#FLUX -t=115200
+#FLUX --urgency=16
 
 echo "$(date)"
 module purge

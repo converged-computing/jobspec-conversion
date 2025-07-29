@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WGAN
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=WGAN
+#SBATCH --output=WGAN.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=4-00:00:00
 
 export PATH='$CONDA_ROOT/bin:$PATH'
 

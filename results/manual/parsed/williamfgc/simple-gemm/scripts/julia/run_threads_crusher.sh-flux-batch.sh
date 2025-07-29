@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=M_julia_cpu_F16_64t_ex
-#FLUX: --queue=batch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=M_julia_cpu_F16_64t_ex
+#FLUX --queue=batch
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export JULIA_MPIEXEC='srun'
 export JULIA_EXCLUSIVE='1'

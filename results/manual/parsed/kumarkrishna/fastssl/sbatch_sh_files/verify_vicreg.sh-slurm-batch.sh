@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=verify_vicreg
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=verify_vicreg
+#SBATCH --output=sbatch_out/verify_vicreg.out
+#SBATCH --error=sbatch_err/verify_vicreg.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=long
 
 . /etc/profile
 module load anaconda/3

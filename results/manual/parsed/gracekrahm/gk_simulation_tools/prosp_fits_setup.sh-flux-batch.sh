@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lemon-3240
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-nalgas-0860
+#FLUX --urgency=16
 
 n_nodes=$1
 model_dir=$2

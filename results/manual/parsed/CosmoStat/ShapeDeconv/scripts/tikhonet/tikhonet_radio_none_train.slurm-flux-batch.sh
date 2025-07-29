@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tikho_train
-#FLUX: -c=10
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=tikho_train
+#FLUX -c=10
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$WORK/GitHub/score'
 

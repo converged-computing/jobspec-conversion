@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test-learner
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-learner
+#SBATCH --output=test-learner
+#SBATCH --mail-user=mahyar.karimi@ist.ac.at
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load cuda/11.7

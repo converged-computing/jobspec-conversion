@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=2k35bcgs
-#FLUX: -n=32
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=2k35bcgs
+#FLUX -n=32
+#FLUX --queue=short
+#FLUX -t=172800
+#FLUX --urgency=16
 
 OPENMPI_DIR="/c1/apps/openmpi/1.8/gcc/4.9.2"
 MPIRUN="$OPENMPI_DIR/bin/mpirun"

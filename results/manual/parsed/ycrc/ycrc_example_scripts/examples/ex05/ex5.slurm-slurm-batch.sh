@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Ex5
-#FLUX: -c=5
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Ex5
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=00:10:00
 
 export PROCS='${SLURM_CPUS_ON_NODE}'
 

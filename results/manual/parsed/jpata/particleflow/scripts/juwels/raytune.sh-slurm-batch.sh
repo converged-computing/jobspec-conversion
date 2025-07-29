@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -N=12
-#FLUX: -c=96
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=booster
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=raytune
+#SBATCH --account=prcoe12
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gpus-per-task=4
+#SBATCH --time=06:00:00
+#SBATCH --partition=booster
 
 export TUNE_RESULT_DIR='/p/project/prcoe12/wulff1/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='${SLURM_NNODES}'

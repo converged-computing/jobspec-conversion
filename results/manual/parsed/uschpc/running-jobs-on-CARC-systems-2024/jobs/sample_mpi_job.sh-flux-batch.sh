@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-nalgas-2347
-#FLUX: -N=3
-#FLUX: -n=9
-#FLUX: --queue=main
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-hobbit-8531
+#FLUX -N=3
+#FLUX -n=9
+#FLUX --queue=main
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load usc

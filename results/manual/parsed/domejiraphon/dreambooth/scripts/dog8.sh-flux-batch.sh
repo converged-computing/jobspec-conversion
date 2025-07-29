@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dog8
-#FLUX: -c=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=dog8
+#FLUX -c=8
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export DATA='dog8'
 export CLASS='dog'

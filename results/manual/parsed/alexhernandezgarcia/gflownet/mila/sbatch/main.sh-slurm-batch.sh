@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gfn
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=gfn
+#SBATCH --output=/network/scratch/a/alex.hernandez-garcia/logs/gflownet/slurm/slurm-%j-%x.out
+#SBATCH --error=/network/scratch/a/alex.hernandez-garcia/logs/gflownet/slurm/slurm-%j-%x.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24gb
+#SBATCH --partition=long
 
 echo "Arg 0: $0"
 echo "Arg 1: $1"

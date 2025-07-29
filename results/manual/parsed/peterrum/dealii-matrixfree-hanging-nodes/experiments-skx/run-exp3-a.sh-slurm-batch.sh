@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=LIKWID
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=LIKWID
+#SBATCH --account=pr83te
+#SBATCH --output=run-exp3-a.out
+#SBATCH --error=run-exp3-a.e
+#SBATCH --mail-user=munch@lnm.mw.tum.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-0434
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#SBATCH --account=m1489
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=4
 
 outfile="$1__${SLURM_JOB_NUM_NODES}_hpctoolkit"
 module load hpctoolkit

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-8768
-#FLUX: -c=64
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=output/parallel_openmp_output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=10:00:00
+#SBATCH --constraint=AMD
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='TRUE'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-3230
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002085
+#SBATCH --output=/scratch/project_2002820/lihsin/finbert-text-classification/output-electra/%j.out
+#SBATCH --error=/scratch/project_2002820/lihsin/finbert-text-classification/output-electra/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=4G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

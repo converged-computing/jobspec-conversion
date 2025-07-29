@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rn50_training
-#FLUX: -c=12
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rn50_training
+#FLUX -c=12
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(hostname -s)'

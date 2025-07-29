@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=$runid
-#FLUX: --queue=workq
-#FLUX: --urgency=16
+#FLUX --job-name=$runid
+#FLUX --queue=workq
+#FLUX --urgency=16
 
 datadir= # path/to/reads_directories i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/data/reads_nfcore
 wdir= # path/to/working_directory i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/workflows/nfcorehic_jm

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hippo-0074
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --mail-user=$USER@adelaide.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 pip install -U datetime pandas numpy warnings numba seaborn matplotlib tqdm
 swig -c++ -python LCSFinder.i 

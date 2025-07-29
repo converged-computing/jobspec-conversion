@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=8mm_free
-#FLUX: -N=2
-#FLUX: --queue=willhies,amarsden
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=8mm_free
+#SBATCH --mail-user=adkaiser@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=185GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=willhies,amarsden
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --exclude=sh03-16n02
 
 module purge
 module load gcc/8.1.0

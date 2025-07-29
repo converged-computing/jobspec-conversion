@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strategy_theta
-#FLUX: -c=20
-#FLUX: -t=345540
-#FLUX: --urgency=16
+#FLUX --job-name=strategy_theta
+#FLUX -c=20
+#FLUX -t=345540
+#FLUX --urgency=16
 
 source /N/u/baotruon/Carbonate/miniconda3/etc/profile.d/conda.sh
 conda activate graph

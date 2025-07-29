@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-egg-1223
+#FLUX --job-name=fugly-leader-9976
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 readonly docker_image="nvcr.io/nvidia/pytorch:20.06-py3"

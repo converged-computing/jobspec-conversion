@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1pga_WT
-#FLUX: --queue=midst
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=1pga_WT
+#FLUX --queue=midst
+#FLUX -t=604800
+#FLUX --urgency=16
 
 INPUT_FILE="1pga_autopsf_wb_ionized_config.conf"
 source /etc/profile.d/modules.sh

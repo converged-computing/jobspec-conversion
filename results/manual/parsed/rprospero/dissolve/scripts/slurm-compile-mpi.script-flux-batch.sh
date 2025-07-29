@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=compile-mpi
-#FLUX: --queue=scarf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=compile-mpi
+#FLUX --queue=scarf
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 BASE_DIR=$(pwd)

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=celltracking
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=celltracking
+#SBATCH --account=m1867
+#SBATCH --output=log_celltracking.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=haswell
 
 date
 conda activate /global/common/software/m1867/python/flextrkr

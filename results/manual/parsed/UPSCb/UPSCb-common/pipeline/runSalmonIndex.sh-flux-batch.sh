@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-1003
-#FLUX: -n=8
-#FLUX: --queue=node
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-animal-0721
+#FLUX -n=8
+#FLUX --queue=node
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -eux
 source ${SLURM_SUBMIT_DIR:-$(pwd)}/../UPSCb-common/src/bash/functions.sh

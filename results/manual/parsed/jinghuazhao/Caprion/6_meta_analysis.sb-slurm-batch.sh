@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_METAL
-#FLUX: --queue=icelake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=_METAL
+#SBATCH --account=PETERS-SL3-CPU
+#SBATCH --output=/rds/project/jmmh2/rds-jmmh2-projects/Caprion_proteomics/analysis/METAL_dr/slurm/_metal_%A_%a.o
+#SBATCH --error=/rds/project/jmmh2/rds-jmmh2-projects/Caprion_proteomics/analysis/METAL_dr/slurm/_metal_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=12:00:00
+#SBATCH --partition=icelake-himem
+#SBATCH --array=1-987
 
 export TMPDIR='${HPC_WORK}/work'
 export caprion='~/Caprion'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-7038
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=25000
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=6
 
 module load cuda/10.2.89-2fkd
 source ../torchenv/bin/activate

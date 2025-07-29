@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-knife-6322
-#FLUX: -n=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-poodle-3888
+#FLUX -n=12
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

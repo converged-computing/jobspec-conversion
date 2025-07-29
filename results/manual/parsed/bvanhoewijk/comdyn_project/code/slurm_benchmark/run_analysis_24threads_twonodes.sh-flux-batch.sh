@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-despacito-3606
-#FLUX: -N=2
+#FLUX --job-name=chunky-malarkey-8978
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=rome
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

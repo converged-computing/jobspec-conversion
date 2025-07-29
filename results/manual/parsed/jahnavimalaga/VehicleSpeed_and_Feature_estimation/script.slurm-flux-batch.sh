@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CompletePipleline
-#FLUX: --queue=rtx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=CompletePipleline
+#FLUX --queue=rtx-dev
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd Complete_Pipeline
 path_dir="test/" #"test/archive/new_videos/" #

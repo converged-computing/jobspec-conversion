@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_H
-#FLUX: --queue=student
-#FLUX: --urgency=16
+#SBATCH --job-name=train_H
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=11G
+#SBATCH --partition=student
+#SBATCH --qos=normal
 
 export PYTHONPATH='./'
 

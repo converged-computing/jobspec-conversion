@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cattywampus-4059
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 module load conda/py2-latest

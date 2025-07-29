@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cat-2435
-#FLUX: --queue=GPU-AI
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-bicycle-9904
+#FLUX --queue=GPU-AI
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd /home/hbeatson/
 module load singularity

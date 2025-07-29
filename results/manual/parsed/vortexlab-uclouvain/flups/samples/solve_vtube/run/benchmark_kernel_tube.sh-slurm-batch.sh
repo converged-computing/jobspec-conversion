@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-punk-5834
-#FLUX: --urgency=16
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source ${SCRIPT_MODULE} ${MPI_VERSION}
 echo "---------------- UCX Flags ---------------------"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demand_scenarios
-#FLUX: --queue=shared
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=demand_scenarios
+#FLUX --queue=shared
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load lang/Anaconda3
 source activate demand_system

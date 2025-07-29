@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=diaf2dl
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#SBATCH --job-name=diaf2dl
+#SBATCH --output=mbatchinfo_out_%j.txt
+#SBATCH --error=mbatchinfo_err_%j.txt
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=64c512g
+#SBATCH: --exclusive
 
 echo "### model inference on multi nodes"
 echo "----"

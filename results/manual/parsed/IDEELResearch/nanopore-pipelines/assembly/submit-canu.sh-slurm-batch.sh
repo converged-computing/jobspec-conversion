@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-earthworm-3223
-#FLUX: --queue=general
-#FLUX: -t=907200
-#FLUX: --urgency=16
+#SBATCH --output=canu-%j.out
+#SBATCH --error=canu-%j.err
+#SBATCH --mail-user=<YOUR-EMAIL>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-12:00:00
+#SBATCH --partition=general
 
 module load canu/1.7
 data_d=/pine/scr/<O>/<N>/<ONYEN/ #a single fastq file (preferably zipped) containing reads

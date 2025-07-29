@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=16
-#FLUX: --queue=russpold,owners,hns,normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --output=log/%x-%A-%a.out
+#SBATCH --error=log/%x-%A-%a.err
+#SBATCH --mail-user=wiltho@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=russpold,owners,hns,normal
+#SBATCH --array=1-26
 
 export SINGULARITYENV_FS_LICENSE='$HOME/freesurfer/license.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

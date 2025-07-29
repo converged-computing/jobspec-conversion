@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-blackbean-7383
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=final.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 module load mpi/mvapich2-2.3b_gcc

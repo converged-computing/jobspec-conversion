@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-platanos-0169
-#FLUX: --urgency=16
+#FLUX --job-name=tart-toaster-6215
+#FLUX --urgency=16
 
 Help(){ # Display Help
 echo "Running Simulation."

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Mar18
-#FLUX: --queue=broadwl
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=Mar18
+#SBATCH --account=pi-pascualmm
+#SBATCH --output=/scratch/midway2/heqixin/runInfo/Mar18_%A_%a.out
+#SBATCH --error=/scratch/midway2/heqixin/runInfo/Mar18_%A_%a.err
+#SBATCH --mail-user=heqixin@uchicago.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=broadwl
+#SBATCH --array=14,27
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 module load gcc/6.1

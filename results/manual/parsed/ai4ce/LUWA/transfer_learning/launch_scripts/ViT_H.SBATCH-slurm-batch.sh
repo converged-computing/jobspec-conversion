@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ViT_H
-#FLUX: -c=10
-#FLUX: --queue=a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
-#FLUX: -t=158400
-#FLUX: --urgency=16
+#SBATCH --job-name=ViT_H
+#SBATCH --output=%x.out
+#SBATCH --mail-user=zf540@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-20:00:00
+#SBATCH --partition=a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 RESOLUTION=256

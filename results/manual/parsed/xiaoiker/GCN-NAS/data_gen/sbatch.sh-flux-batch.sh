@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-1743
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-frito-2838
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load gcc/5.4.0 python-env/intelpython3.6-2018.3

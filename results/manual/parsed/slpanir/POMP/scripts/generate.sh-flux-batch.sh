@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-truffle-5983
-#FLUX: -n=8
-#FLUX: --queue=priv_para
-#FLUX: --urgency=16
+#FLUX --job-name=faux-bits-0540
+#FLUX -n=8
+#FLUX --queue=priv_para
+#FLUX --urgency=16
 
 export MPLM='xlmrL'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

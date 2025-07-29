@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cuffthrust
-#FLUX: --urgency=16
+#FLUX --job-name=cuffthrust
+#FLUX --urgency=16
 
 . /etc/profile
 module load cuda/5.0

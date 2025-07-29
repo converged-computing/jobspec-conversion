@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=raw
-#FLUX: -N=24
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=raw
+#SBATCH --output=logs_raw/%j.out
+#SBATCH --error=logs_raw/%j.err
+#SBATCH --mail-user=elegyhunter@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:32g:6
+#SBATCH --mem=200GB
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export GPUS_PER_NODE='6'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

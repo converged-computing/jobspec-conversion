@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-6820
-#FLUX: -n=28
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-underoos-2421
+#FLUX -n=28
+#FLUX -t=3000
+#FLUX --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml GCC/9.3.0  OpenMPI/4.0.3 

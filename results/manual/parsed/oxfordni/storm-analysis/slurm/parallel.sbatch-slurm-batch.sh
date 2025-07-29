@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-onion-3268
-#FLUX: --queue=serial_requeue
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=log_sa_parallel_%A_%a.out
+#SBATCH --error=log_sa_parallel_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1500
+#SBATCH --time=02:00:00
+#SBATCH --partition=serial_requeue
 
 module load python gcc/5.2.0-fasrc01 openmpi/2.0.1-fasrc01 fftw/3.3.5-fasrc01
 source activate storm_analysis

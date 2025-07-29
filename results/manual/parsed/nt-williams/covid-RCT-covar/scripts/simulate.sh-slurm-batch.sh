@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=covidRCT
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#SBATCH --job-name=covidRCT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --partition=panda
+#SBATCH --array=1-1000
 
 echo "$SLURM_ARRAY_TASK_ID"
 source ~/.bashrc

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AlphaFold_GPU_example
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=AlphaFold_GPU_example
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load apptainer

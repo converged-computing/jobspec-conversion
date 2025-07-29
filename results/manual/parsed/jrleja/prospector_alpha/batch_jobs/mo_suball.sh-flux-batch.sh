@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mo
-#FLUX: --queue=conroy-intel,shared,itc_cluster
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=mo
+#FLUX --queue=conroy-intel,shared,itc_cluster
+#FLUX -t=604800
+#FLUX --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/mo.cat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

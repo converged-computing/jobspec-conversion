@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-1746
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-puppy-7285
+#FLUX -c=4
+#FLUX --urgency=16
 
 export STUDENT_ID='${USER}'
 export CLUSTER_HOME='/home/${STUDENT_ID}'

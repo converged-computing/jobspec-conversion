@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-chair-4397
-#FLUX: -c=40
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-eagle-6691
+#FLUX -c=40
+#FLUX -t=345600
+#FLUX --urgency=16
 
 niagara=false
 if $niagara

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hope-4510
-#FLUX: -n=40
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=medium
 
 module load cudnn/7-cuda-10.0
 source venv/bin/activate

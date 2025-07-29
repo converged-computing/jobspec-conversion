@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=annotfunc
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=annotfunc
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module unload miniconda2
 module load funannotate/1.8.1

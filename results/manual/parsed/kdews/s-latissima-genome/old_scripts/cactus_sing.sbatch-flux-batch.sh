@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cactus_sing
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cactus_sing
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TOIL_SLURM_ARGS='-t 1-0 -q normal -p gpu'
 export TOIL_SLURM_PE='${SLURM_JOB_PARTITION}'

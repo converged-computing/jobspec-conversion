@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20220826-cvir-larvae_zygote-RNAseq-fastp_trimming
-#FLUX: --queue=coenv
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=20220826-cvir-larvae_zygote-RNAseq-fastp_trimming
+#FLUX --queue=coenv
+#FLUX -t=864000
+#FLUX --urgency=16
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*R1*.fastq.gz'

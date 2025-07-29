@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=attention-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=attention-rcnn
+#SBATCH --output=output/attention_beautiful_%j.log
+#SBATCH --error=output/err/attention_beautiful_%j.err
+#SBATCH --mail-user=afcadiz@uc.cl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1080Ti:1
+#SBATCH --mem=8000mb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ialab-high
+#SBATCH --dependency=362
 
 pyenv/bin/python3 train.py  --model attentionrcnn \
 --max_epochs 10 \

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=posterior
-#FLUX: -c=5
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=posterior
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15G
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=GPUMEM32GB
+#SBATCH --array=0-26
 
 module load anaconda3
 source activate sbi

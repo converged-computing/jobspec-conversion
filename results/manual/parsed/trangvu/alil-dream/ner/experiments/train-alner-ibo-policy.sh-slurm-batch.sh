@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=alner-policy
-#FLUX: --queue=m3g
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=alner-policy
+#SBATCH --account=da33
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --mail-user=vuth0001@student.monash.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=m3g
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0'
 export CUDA_CACHE_PATH='$CACHE_PATH'

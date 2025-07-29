@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=final_trial
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=final_trial
+#SBATCH --account=lcls_g
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-soup-7888
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=def-cricrime
+#SBATCH --mail-user=schonig.daniel@courrier.uqam.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=36G
+#SBATCH --time=01:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

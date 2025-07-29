@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Q1
-#FLUX: -N=10
-#FLUX: -n=40
-#FLUX: --queue=broadwl
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Q1
+#FLUX -N=10
+#FLUX -n=40
+#FLUX --queue=broadwl
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load python 
 module load cuda

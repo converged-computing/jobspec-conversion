@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nofc_3scales_map_recon_mri
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=nofc_3scales_map_recon_mri
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export FASTMRI_DATA_DIR='$SCRATCH/'
 export CHECKPOINTS_DIR='$SCRATCH/nsec_nofc_3scales/'

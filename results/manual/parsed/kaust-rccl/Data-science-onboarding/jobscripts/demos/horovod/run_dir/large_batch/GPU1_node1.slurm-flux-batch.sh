@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=G1N1B256
-#FLUX: -c=14
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=G1N1B256
+#FLUX -c=14
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMPI_MCA_btl_openib_warn_no_device_params_found='0'
 export UCX_MEMTYPE_CACHE='n'

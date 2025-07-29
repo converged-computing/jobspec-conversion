@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PredictTemple1
-#FLUX: --queue=neuro-hsc
-#FLUX: --urgency=16
+#SBATCH --job-name=PredictTemple1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=neuro-hsc
+#SBATCH --array=1
 
 module load matlab/R2022a
 cd /carc/scratch/projects/mckenzie2016183/code/matlab

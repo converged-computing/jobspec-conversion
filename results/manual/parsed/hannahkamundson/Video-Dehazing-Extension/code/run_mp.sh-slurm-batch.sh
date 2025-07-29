@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=predehaze
-#FLUX: -c=40
-#FLUX: --queue=gpu-a100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=predehaze
+#SBATCH --output=/scratch/08310/rs821505/train_outputs/run_mp.o%j
+#SBATCH --error=/scratch/08310/rs821505/train_outputs/run_mp.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-a100
+#SBATCH --constraint=ntasks-per-node=3
 
 export MASTER_PORT='12340'
 export MASTER_ADDR='$master_addr'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chair-6824
-#FLUX: --queue=hep
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-pedo-7516
+#FLUX --queue=hep
+#FLUX -t=82800
+#FLUX --urgency=16
 
 cat $0
 ml GCC/8.2.0-2.31.1  OpenMPI/3.1.3

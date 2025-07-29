@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-diablo-4709
-#FLUX: -c=16
-#FLUX: --queue=long
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-eagle-0461
+#FLUX -c=16
+#FLUX --queue=long
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

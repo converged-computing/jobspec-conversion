@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-snack-5467
-#FLUX: -c=24
-#FLUX: --queue=demultiplexing
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-hippo-8536
+#FLUX -c=24
+#FLUX --queue=demultiplexing
+#FLUX --urgency=16
 
 app_version=2.2.0
 app_dir=/data/diagnostics/pipelines/TSO500/illumina_app/TSO500_RUO_LocalApp-"$app_version"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: --queue=regular
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-job
+#SBATCH --account=m3930
+#SBATCH --output=gpu-job.o%j
+#SBATCH --error=gpu-job.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 threads_per_block=("32" "64" "128" "256" "512" "1024")
 num_thread_blocks=("1" "4" "16" "64" "256" "1024" "4096")

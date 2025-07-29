@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow-master-nanopore
-#FLUX: --queue=longq
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Nextflow-master-nanopore
+#SBATCH --account=pawsey0281
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=longq
+#SBATCH: --no-requeue
 
 module load nextflow
 nextflow run marcodelapierre/nanopore-nf \

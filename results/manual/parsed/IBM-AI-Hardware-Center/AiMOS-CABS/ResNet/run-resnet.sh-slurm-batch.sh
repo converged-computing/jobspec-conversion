@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_resnet
-#FLUX: -N=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_resnet
+#SBATCH --output=pytorch_resnet_%j.out
+#SBATCH --error=pytorch_resnet_%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6
+#SBATCH --time=06:00:00
 
 codedir=~/scratch/horovod/examples
 codepath=$codedir/pytorch_imagenet_resnet50.py

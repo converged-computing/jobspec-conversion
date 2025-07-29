@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mt5_xl_scan
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mt5_xl_scan
+#SBATCH --account=cds
+#SBATCH --output=mt5_xl_scan_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:rtx8000:4
+#SBATCH --mem=320GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-2
 
 module purge
 module load cuda/11.1.74

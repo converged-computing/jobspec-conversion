@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-6167
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-frito-6561
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_dbofs_prep_00.pbs

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HW4_g0
-#FLUX: --queue=gtx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=HW4_g0
+#SBATCH --account=EE379K
+#SBATCH --output=HW4_g0.o%j
+#SBATCH --error=HW4_g0.e%j
+#SBATCH --mail-user=endri.taka@utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gtx
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda/10.1/lib64'
 

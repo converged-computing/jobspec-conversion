@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=translationMissing
-#FLUX: -c=6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=translationMissing
+#FLUX -c=6
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load gcc
 echo "######################### SLURM JOB ########################"

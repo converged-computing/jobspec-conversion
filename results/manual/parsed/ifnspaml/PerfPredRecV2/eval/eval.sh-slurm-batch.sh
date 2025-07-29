@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=attack-val-dl
-#FLUX: -c=4
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=37200
-#FLUX: --urgency=16
+#SBATCH --job-name=attack-val-dl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1080:1
+#SBATCH --mem=20000M
+#SBATCH --time=10:20:00
+#SBATCH --partition=gpu,gpub
+#SBATCH --exclude=gpu06,gpu05
 
 export IFN_DIR_DATASET='/beegfs/data/shared'
 export IFN_DIR_CHECKPOINT='${PWD}/../../../experiments_code-release/'

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiMD
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --job-name=cSiaSiMD
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=118G
+#SBATCH --time=1-00:12:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
+#SBATCH --array=0-14
 
 export OMP_NUM_THREADS='1'
 

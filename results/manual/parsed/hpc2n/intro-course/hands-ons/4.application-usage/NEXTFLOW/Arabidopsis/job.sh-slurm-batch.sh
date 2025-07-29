@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pastry-1164
-#FLUX: -n=14
-#FLUX: -t=10200
-#FLUX: --urgency=16
+#SBATCH --account=hpc2n202Q-XYZ
+#SBATCH --output=Chip_seq_analysis.out
+#SBATCH --error=Chip_seq_analysis.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:50:00
 
 export NXF_OPTS='-Xms1g -Xmx4g'
 export NXF_SINGULARITY_CACHEDIR='$PWD/sing-img'

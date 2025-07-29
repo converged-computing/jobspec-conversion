@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PI
-#FLUX: -N=8
-#FLUX: -n=512
-#FLUX: --queue=mpp3_batch
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=PI
+#SBATCH --output=jobLog.%j.%N.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=mpp3_batch
+#SBATCH --constraint=ntasks-per-node=64
+#SBATCH --chdir=.
 
 export LANG='C'
 export LC_ALL='C'

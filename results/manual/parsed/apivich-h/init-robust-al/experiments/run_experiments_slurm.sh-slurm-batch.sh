@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cherry-3180
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --exclude=amdgpu[0-2],xgpe3,xgph6
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'
 export XLA_FLAGS='--xla_gpu_force_compilation_parallelism=1  --xla_force_host_platform_device_count=${cpucount}'

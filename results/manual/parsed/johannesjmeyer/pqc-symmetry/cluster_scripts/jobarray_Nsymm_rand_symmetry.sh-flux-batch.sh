@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-rabbit-0037
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-despacito-7498
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='../mpl'
 

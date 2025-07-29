@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kitty-3784
-#FLUX: -c=8
-#FLUX: -t=170
-#FLUX: --urgency=16
+#SBATCH --account=rrg-beckers
+#SBATCH --output=/home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Sharcnet/out_files/process_RunningNFB_loopIDX_76to76-Node%N-JobID%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=00:02:50
 
 module load matlab
 cd /home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Sharcnet/sub_files

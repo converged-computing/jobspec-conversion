@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pedo-9841
-#FLUX: -c=2
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=purple-destiny-5918
+#FLUX -c=2
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 experi="3D3M"

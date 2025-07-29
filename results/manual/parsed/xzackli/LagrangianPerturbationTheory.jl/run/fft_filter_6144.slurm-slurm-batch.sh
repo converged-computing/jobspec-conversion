@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fullresfilter_debug
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=fullresfilter_debug
+#SBATCH --account=mp107d
+#SBATCH --output=/pscratch/sd/x/xzackli/joboutput/%x.o%j
+#SBATCH --mail-user=zackli@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu,ntasks-per-node=16
 
 export JULIA_NUM_THREADS='8'
 

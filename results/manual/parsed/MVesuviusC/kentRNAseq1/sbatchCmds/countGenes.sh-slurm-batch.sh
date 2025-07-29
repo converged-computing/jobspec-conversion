@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=count
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=count
+#SBATCH --account=gdkendalllab
+#SBATCH --output=slurmOut/count-%j.txt
+#SBATCH --error=slurmOut/count-%j.txt
+#SBATCH --mail-user=matthew.cannon@nationwidechildrens.org
+#SBATCH --mail-type=FAIL,REQUEUE,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
 
 set -e ### stops bash script if line ends with error
 echo ${HOSTNAME} ${SLURM_ARRAY_TASK_ID}

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=correlators_cA211a.30.32_test__NSTORE_
-#FLUX: -c=3
-#FLUX: --queue=pascal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=correlators_cA211a.30.32_test__NSTORE_
+#SBATCH --mail-user=bartosz_kostrzewa@fastmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:pascal:4
+#SBATCH --mem=100G
+#SBATCH --time=06:00:00
+#SBATCH --partition=pascal
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/qbigwork2/bartek/libs/bleeding_edge/pascal/quda_develop-dynamic_clover/lib'
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/pascal_9c0e0dc8e96d9beb8de56a0e58a406cb486ce300_gdr${gdr}_p2p${p2p}'

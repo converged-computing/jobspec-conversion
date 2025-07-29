@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chienlab-rnaseq-ba
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=chienlab-rnaseq-ba
+#FLUX -n=8
+#FLUX --queue=cpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load nextflow/23.04.1 miniconda/22.11.1-1

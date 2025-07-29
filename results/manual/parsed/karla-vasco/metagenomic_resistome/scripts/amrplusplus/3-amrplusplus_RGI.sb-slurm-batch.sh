@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=AMR++_RGI
-#FLUX: -c=25
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=AMR++_RGI
+#SBATCH --output=/mnt/home/vascokar/mastitis_study/eofiles/AMR++RGI.%j.out
+#SBATCH --error=/mnt/home/vascokar/mastitis_study/eofiles/AMR++RGI.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=25
+#SBATCH --mem=150G
+#SBATCH --time=7-00:00:00
 
 echo Job: $SLUM_JOB_NAME with ID $SLURM_JOB_ID
 echo Running on host `hostname`

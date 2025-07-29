@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=convect2D
-#FLUX: --queue=normal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=convect2D
+#SBATCH --account=class04
+#SBATCH --output=convect2D.%j.o
+#SBATCH --error=convect2D.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 module load Julia/1.9.3-CrayGNU-21.09-cuda

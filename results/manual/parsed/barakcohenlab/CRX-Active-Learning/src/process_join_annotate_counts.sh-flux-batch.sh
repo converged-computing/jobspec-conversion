@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-motorcycle-0223
-#FLUX: --urgency=16
+#FLUX --job-name=faux-salad-3168
+#FLUX --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

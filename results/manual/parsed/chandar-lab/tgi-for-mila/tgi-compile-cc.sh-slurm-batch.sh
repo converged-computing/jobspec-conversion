@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-compile
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=48G
+#SBATCH --time=10:00:00
 
 export MAX_JOBS='10'
 export CC='$(which gcc)'

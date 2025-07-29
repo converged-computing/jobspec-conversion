@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fit/DFT-D3_kT0.006
-#FLUX: -c=20
-#FLUX: --queue=physics
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=fit/DFT-D3_kT0.006
+#SBATCH --output=fit/DFT-D3_kT0.006/kc.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=14:00:00
+#SBATCH --partition=physics
 
 export ASE_LAMMPSRUN_COMMAND='/home/krongch2/projects/lammps/lammps/src/lmp_mpi'
 

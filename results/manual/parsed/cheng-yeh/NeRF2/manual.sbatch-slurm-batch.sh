@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nerf2_test
-#FLUX: --queue=inferno
-#FLUX: -t=8640
-#FLUX: --urgency=16
+#SBATCH --job-name=nerf2_test
+#SBATCH --account=gts-rs275
+#SBATCH --output=Report-%j.out
+#SBATCH --mail-user=cchen847@gatech.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:RTX_6000:1
+#SBATCH --time=02:24:00
+#SBATCH --partition=inferno
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 module load anaconda3                           # Load module dependencies

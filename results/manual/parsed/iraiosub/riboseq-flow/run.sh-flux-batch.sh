@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=riboseq-flow-test
-#FLUX: --queue=cpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=riboseq-flow-test
+#FLUX --queue=cpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/nemo/lab/ulej/home/shared/singularity'
 export NXF_HOME='/nemo/lab/ulej/home/users/luscomben/users/iosubi/.nextflow'

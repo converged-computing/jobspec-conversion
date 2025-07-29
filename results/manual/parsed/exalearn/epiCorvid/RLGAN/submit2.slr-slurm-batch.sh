@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-onion-1058
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=m3623
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:8
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 module load pytorch/v1.5.0-gpu
 srun python train.py ./config.yaml explicit_adv_256_morelate

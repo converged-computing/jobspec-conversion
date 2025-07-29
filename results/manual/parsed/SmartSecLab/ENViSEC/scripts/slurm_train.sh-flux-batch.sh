@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HK-ENViSEC
-#FLUX: --queue=dgx2q
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=HK-ENViSEC
+#FLUX --queue=dgx2q
+#FLUX -t=259200
+#FLUX --urgency=16
 
 ulimit -s 10240
 echo "Job started at:" `date +"%Y-%m-%d %H:%M:%S"`

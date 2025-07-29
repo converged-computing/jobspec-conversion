@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bash
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bash
+#FLUX -c=10
+#FLUX --queue=a100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load cuda-11.8
 nvidia-smi

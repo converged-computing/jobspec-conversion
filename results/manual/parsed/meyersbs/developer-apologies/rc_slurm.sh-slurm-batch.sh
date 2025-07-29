@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=devaps1
-#FLUX: --queue=tier3
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=devaps1
+#SBATCH --account=mistakes
+#SBATCH --output=devaps1.stdout
+#SBATCH --error=devaps1.stderr
+#SBATCH --mail-user=bsm9339@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200g
+#SBATCH --time=05:00:00
+#SBATCH --partition=tier3
 
 echo "Loading environment"
 spack env activate mistakes-21091601

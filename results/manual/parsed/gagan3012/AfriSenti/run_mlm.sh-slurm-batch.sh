@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_image_v2
-#FLUX: -c=4
-#FLUX: -t=39599
-#FLUX: --urgency=16
+#SBATCH --job-name=train_image_v2
+#SBATCH --account=rrg-mageed
+#SBATCH --output=/lustre07/scratch/gagan30/arocr/logs/%x.out
+#SBATCH --error=/lustre07/scratch/gagan30/arocr/logs/%x.err
+#SBATCH --mail-user=gbhatia880@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --time=10:59:59
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

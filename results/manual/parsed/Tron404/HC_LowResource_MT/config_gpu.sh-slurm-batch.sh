@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load Python/3.10.8-GCCcore-12.2.0

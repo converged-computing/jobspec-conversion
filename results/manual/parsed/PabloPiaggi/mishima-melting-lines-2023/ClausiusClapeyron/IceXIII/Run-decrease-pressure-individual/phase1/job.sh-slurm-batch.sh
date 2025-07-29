@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iceXIII
-#FLUX: -n=4
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iceXIII
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=500M
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export SLURM_WHOLE='1'

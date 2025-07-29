@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-parsnip-6764
-#FLUX: -n=4
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-pedo-8607
+#FLUX -n=4
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

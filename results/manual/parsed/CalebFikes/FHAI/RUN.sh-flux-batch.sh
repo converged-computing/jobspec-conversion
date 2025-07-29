@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=FHAI
-#FLUX: --urgency=16
+#FLUX --job-name=FHAI
+#FLUX --urgency=16
 
 virtualenv -p python3 venv
 source venv/bin/activate

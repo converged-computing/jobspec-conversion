@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Optim_RIM_over_posterior
-#FLUX: -c=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Optim_RIM_over_posterior
+#SBATCH --account=rrg-lplevass
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-300
 
 source $HOME/environments/censai3.8/bin/activate
 python $CENSAI_PATH/scripts/rim_reoptimize_conditional_prior.py\

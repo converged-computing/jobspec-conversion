@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-9134
-#FLUX: -c=9
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-egg-9783
+#FLUX -c=9
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/hpc/group/brownlab/fjm7/miniconda3/envs/gem5_env/lib'
 

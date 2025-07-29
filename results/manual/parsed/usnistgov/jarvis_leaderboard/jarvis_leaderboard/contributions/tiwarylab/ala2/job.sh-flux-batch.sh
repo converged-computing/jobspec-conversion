@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=md
-#FLUX: --queue=RM-shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=md
+#FLUX --queue=RM-shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gromacs/2020.2-cpu
 cpu=$SLURM_NPROCS

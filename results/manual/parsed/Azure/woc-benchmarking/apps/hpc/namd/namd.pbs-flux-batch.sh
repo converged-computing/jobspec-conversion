@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-fork-2974
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-diablo-2643
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Azure/woc-benchmarking/apps/hpc/namd/namd.pbs

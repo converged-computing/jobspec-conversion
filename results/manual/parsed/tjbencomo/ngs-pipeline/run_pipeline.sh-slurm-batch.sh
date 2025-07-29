@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chair-7675
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300
+#SBATCH --time=1-00:00:00
 
 set -e
 cd $(pwd)

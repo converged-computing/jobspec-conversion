@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phyluce_trinity_ay
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#FLUX --job-name=phyluce_trinity_ay
+#FLUX -t=777600
+#FLUX --urgency=16
 
 source activate phyluce162
 ​

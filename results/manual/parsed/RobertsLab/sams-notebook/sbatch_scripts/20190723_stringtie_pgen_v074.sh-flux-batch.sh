@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pgen_v074_stringtie
-#FLUX: --queue=srlab
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#FLUX --job-name=pgen_v074_stringtie
+#FLUX --queue=srlab
+#FLUX -t=2160000
+#FLUX --urgency=16
 
 set -e
 module load intel-python3_2017

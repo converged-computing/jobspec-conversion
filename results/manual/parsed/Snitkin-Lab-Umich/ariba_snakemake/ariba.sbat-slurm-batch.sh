@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ariba
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ariba
+#SBATCH --account=esnitkin1
+#SBATCH --mail-user=UNIQNAME@umich.edu
+#SBATCH --mail-type=BEGIN,END,NONE,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1g
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard
 
 cd $SLURM_SUBMIT_DIR
 echo $SLURM_SUBMIT_DIR

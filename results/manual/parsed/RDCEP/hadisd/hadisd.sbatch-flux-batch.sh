@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-avocado-2636
-#FLUX: -n=160
+#FLUX --job-name=lovable-avocado-5430
+#FLUX -n=160
 #FLUX: --exclusive
-#FLUX: --queue=sandyb,westmere,bigmem,amd
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=sandyb,westmere,bigmem,amd
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load parallel
 srun="srun --exclusive -N1 -n1 -c2"

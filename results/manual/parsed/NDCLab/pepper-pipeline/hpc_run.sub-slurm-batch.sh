@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_run
-#FLUX: -n=2
-#FLUX: --queue=6g-per-core
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline_run
+#SBATCH --account=iacc_gbuzzell
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=6g-per-core
+#SBATCH --qos=medium
 
 module load singularity-3.5.3
 ls /home/data/NDClab/data/base-eeg/CMI/rawdata/ -F | grep / > subjects.txt

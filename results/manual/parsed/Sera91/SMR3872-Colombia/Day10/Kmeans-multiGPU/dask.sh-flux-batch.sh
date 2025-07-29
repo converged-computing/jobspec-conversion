@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rapids_dask_test_tcp
-#FLUX: -N=3
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rapids_dask_test_tcp
+#FLUX -N=3
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load apptainer
 module load cuda

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS
+#SBATCH --output=LAMMPS_%j.out
+#SBATCH --mail-user=<email_address>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=2000mb
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=2,ntasks-per-socket=1
 
 export OMP_NUM_THREADS='8'
 

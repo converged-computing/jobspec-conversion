@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_c3
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_c3
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 conda create --name pytorch_env python=3.10 -y
 source activate pytorch_env

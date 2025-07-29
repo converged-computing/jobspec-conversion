@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=roli-npt
-#FLUX: -n=12
-#FLUX: -c=2
-#FLUX: --queue=GPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=roli-npt
+#SBATCH --mail-user=telegram:5545394160
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=GPU
+#SBATCH --qos=elevated
 
 export NVT='npt'
 export OMP_NUM_THREADS='$SLURM_NTASKS'

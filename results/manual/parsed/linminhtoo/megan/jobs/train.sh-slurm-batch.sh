@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=MEGAN_f10_pat4_stop8_maxn80
-#FLUX: -c=8
-#FLUX: --queue=sched_mit_ccoley
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=MEGAN_f10_pat4_stop8_maxn80
+#SBATCH --output=logs/seed77777777_output_%x_%j.txt
+#SBATCH --error=logs/seed77777777_error_%x_%j.txt
+#SBATCH --mail-user=linmin001@e.ntu.edu.sg
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=9500
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=sched_mit_ccoley
 
 source /cm/shared/engaging/anaconda/2018.12/etc/profile.d/conda.sh
 source env_seed77777777.sh

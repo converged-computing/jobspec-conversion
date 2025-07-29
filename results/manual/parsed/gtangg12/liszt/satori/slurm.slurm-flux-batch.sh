@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=minerva-action
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=minerva-action
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

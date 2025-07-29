@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bits-9840
-#FLUX: --queue=cuda-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cuda-gpu
 
 nvidia-smi
 echo "Running PROTOMAML on Omniglot"

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemur-3740
-#FLUX: -c=6
-#FLUX: -t=150
-#FLUX: --urgency=16
+#SBATCH --account=def-egranger
+#SBATCH --output=./outputjobs/o-c%J.o
+#SBATCH --error=./outputjobs/o-c%J.e
+#SBATCH --mail-user=soufiane.belharbi.1@etsmtl.net
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24000M
+#SBATCH --time=00:02:30
 
 source $HOME/Venvs/pytorch.1.2.0/bin/activate 
 module load cuda/10.0.130

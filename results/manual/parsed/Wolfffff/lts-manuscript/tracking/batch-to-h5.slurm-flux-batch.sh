@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bat_inf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=bat_inf
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load conda
 conda init bash

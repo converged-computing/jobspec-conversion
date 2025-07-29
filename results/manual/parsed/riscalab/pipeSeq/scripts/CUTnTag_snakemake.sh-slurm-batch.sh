@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-avocado-0353
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 pipe="CUTnTag"
 cwd=$1

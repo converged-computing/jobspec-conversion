@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpi-test
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi-test
+#SBATCH --output=./output/output_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --nodelist=...
 
 if [ -n $SLURM_JOB_ID ];  then
     # check the original location through scontrol and $SLURM_JOB_ID

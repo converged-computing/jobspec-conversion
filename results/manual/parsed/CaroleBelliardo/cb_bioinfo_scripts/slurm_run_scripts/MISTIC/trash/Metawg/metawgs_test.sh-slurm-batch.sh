@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Run1
-#FLUX: -c=60
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=Run1
+#SBATCH --output=slurm-run1-%j.out
+#SBATCH --error=slurm-run1-%j.err
+#SBATCH --mail-user=carole.belliardo@inrae.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=464G
+#SBATCH --partition=all
 
 module purge
 module load singularity/3.7.3

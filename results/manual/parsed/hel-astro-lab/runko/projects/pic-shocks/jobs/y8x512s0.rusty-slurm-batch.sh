@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=y8x512s0
-#FLUX: -N=20
-#FLUX: --exclusive
-#FLUX: --queue=cca
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=y8x512s0
+#SBATCH --output=%J.out
+#SBATCH --error=%J.err
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=cca
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40,skylake
 
 export OMP_NUM_THREADS='1'
 export PYTHONDONTWRITEBYTECODE='true'

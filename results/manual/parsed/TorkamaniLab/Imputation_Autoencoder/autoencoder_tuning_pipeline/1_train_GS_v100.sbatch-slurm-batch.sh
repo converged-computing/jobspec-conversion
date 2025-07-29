@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1_train_GS
-#FLUX: --exclusive
-#FLUX: --queue=stsi
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#SBATCH --job-name=1_train_GS
+#SBATCH --output=%x.oe%j
+#SBATCH --error=%x.oe%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=25-00:00:00
+#SBATCH --partition=stsi
+#SBATCH: --exclusive
 
 module purge
 module load samtools/1.10

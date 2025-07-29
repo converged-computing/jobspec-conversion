@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peas-2649
-#FLUX: -n=81
-#FLUX: --queue=ipuq
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=luk@simula.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=81
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:01:00
+#SBATCH --partition=ipuq
 
 export IPUOF_CONFIG_PATH='/cm/shared/apps/graphcore/vipu/etc/ipuof.conf.d/p64_cl_a01_a16.conf'
 export OMPI_MCA_opal_common_ucx_opal_mem_hooks='1'

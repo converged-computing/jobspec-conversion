@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=python-mpi
-#FLUX: -n=24
-#FLUX: -c=2
-#FLUX: --queue=parallel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=python-mpi
+#FLUX -n=24
+#FLUX -c=2
+#FLUX --queue=parallel
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PATH='$USERAPPL/appl_taito/myconda3/bin:$PATH'
 export PYTHONPATH='$PYTHONPATH:$PENCIL_HOME/python'

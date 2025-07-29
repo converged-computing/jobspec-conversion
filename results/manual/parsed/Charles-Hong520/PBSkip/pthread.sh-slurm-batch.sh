@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=seq and par parse zz.prof
-#FLUX: -c=64
-#FLUX: --queue=intel
-#FLUX: -t=87300
-#FLUX: --urgency=16
+#SBATCH --job-name=seq and par parse zz.prof
+#SBATCH --mail-user=dparm003@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=128G
+#SBATCH --time=1-00:15:00
+#SBATCH --partition=intel
 
 lscpu
 date

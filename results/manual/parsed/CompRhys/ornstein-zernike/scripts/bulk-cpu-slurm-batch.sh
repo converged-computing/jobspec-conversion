@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bulk
-#FLUX: --queue=skylake
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bulk
+#SBATCH --account=LEE-REAG2-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=skylake
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

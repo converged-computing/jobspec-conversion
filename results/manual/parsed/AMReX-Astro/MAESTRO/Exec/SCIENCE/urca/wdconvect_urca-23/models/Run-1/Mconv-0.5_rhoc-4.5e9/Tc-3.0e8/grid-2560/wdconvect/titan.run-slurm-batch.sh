@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parsnip-1172
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTRO/Exec/SCIENCE/urca/wdconvect_urca-23/models/Run-1/Mconv-0.5_rhoc-4.5e9/Tc-3.0e8/grid-2560/wdconvect/titan.run

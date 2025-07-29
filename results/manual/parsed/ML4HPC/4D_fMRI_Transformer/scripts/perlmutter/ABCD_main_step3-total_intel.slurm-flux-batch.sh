@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TFF_ABCD_step_three
-#FLUX: -N=4
-#FLUX: -c=32
+#FLUX --job-name=TFF_ABCD_step_three
+#FLUX -N=4
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=regular
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set +x
 source /global/common/software/nersc/shasta2105/python/3.8-anaconda-2021.05/etc/profile.d/conda.sh

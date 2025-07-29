@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=matching
-#FLUX: --queue=cpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=matching
+#SBATCH --output=out_files/exec_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=0-14
 
 python appli_matching.py ${SLURM_ARRAY_TASK_ID}

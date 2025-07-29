@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-gato-1498
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=hello-taco-5127
+#FLUX -n=2
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load nextflow/22.04.3
 module load singularityCE

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=al_baselines
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=al_baselines
+#SBATCH --output=/mnt/work/dhuseljic/logs/al_baselines/%A_%a__%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --array=1-3%3
 
 date;hostname;pwd
 source activate dal-toolbox

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_thFusion
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_thFusion
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
 
 export PATH='${BOWTIE1PATH}:$PATH'
 

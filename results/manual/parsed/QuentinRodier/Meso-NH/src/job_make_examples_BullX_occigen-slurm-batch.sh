@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Examples
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Examples
+#SBATCH --output=Examples.eo%j
+#SBATCH --error=Examples.eo%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=BDW28
 
 export MONORUN='Mpirun -prepend-rank -np 1 '
 export MPIRUN='Mpirun -prepend-rank -np 4 '

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Pixy_Permutations
-#FLUX: -n=15
-#FLUX: --queue=jro0014_amd
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=Pixy_Permutations
+#SBATCH --mail-user=npb0015@auburn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=75G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=jro0014_amd
 
 module load htslib/1.11
 for x in {1..20} X

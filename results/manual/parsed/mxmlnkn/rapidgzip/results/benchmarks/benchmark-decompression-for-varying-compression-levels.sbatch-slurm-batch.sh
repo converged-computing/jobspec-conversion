@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-citrus-3695
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=romeo
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=zihforschung
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=1972M
+#SBATCH --time=04:00:00
+#SBATCH --partition=romeo
+#SBATCH: --exclusive
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test_nsys
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test_nsys
+#SBATCH --account=cin_staff
+#SBATCH --mail-user=m.mencagli@cineca.it
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 ml 
 nvidia-smi

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-despacito-6542
-#FLUX: --queue=gpu
-#FLUX: -t=43195
-#FLUX: --urgency=16
+#FLUX --job-name=grated-carrot-7814
+#FLUX --queue=gpu
+#FLUX -t=43195
+#FLUX --urgency=16
 
 set -eu -o pipefail
 fol=$1          # checkpoint folder - or name of language model: e.g. model/checkpoint-10000/ or xlm-roberta-large

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ming_chat
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=medai_llm
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=ming_chat
+#FLUX -N=2
+#FLUX -c=32
+#FLUX --queue=medai_llm
+#FLUX -t=432000
+#FLUX --urgency=16
 
 srun --jobid $SLURM_JOBID python ming/serve/cli.py \
     --model_path /mnt/petrelfs/liaoyusheng/oss/download_models/MING-7B \

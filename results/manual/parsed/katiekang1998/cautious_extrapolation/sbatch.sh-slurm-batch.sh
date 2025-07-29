@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cautious_extrapolation
-#FLUX: -c=4
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=cautious_extrapolation
+#SBATCH --account=co_rail
+#SBATCH --output=logs/out/%x_%j.txt
+#SBATCH --error=logs/err/%x_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:TITAN:1
+#SBATCH --mem=40G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=savio3_gpu
+#SBATCH --qos=rail_gpu3_normal
 
 export PROJECT_DIR='/global/scratch/users/$USER/cautious_extrapolation/cautious_extrapolation'
 

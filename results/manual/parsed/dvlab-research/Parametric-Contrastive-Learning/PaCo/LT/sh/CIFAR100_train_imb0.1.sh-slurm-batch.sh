@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cifar100-r32
-#FLUX: -c=2
-#FLUX: --queue=leojia
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar100-r32
+#SBATCH --account=leojia
+#SBATCH --output=r32.log
+#SBATCH --mail-user=jqcui@cse.cuhk.edu.hk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --partition=leojia
+#SBATCH --exclude=proj77
 
 PORT=$[$RANDOM + 10000]
 python paco_cifar.py \

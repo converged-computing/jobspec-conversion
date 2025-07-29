@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=single_run_task
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=single_run_task
+#SBATCH --account=aub101
+#SBATCH --output=testgpu.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=96G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
+#SBATCH: --no-requeue
 
 DATASET=$1
 PARENT_DIR="all_results"

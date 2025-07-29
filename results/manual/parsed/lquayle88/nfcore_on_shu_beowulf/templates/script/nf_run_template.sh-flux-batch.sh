@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_name
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline_name
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms1g -Xmx2g'
 export NXF_SINGULARITY_CACHEDIR='/path/to/singularity_cache/.singularity'

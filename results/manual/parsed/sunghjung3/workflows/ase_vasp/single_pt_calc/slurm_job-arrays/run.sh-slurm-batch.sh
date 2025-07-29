@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ase_vasp
-#FLUX: -n=48
-#FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: --urgency=16
+#SBATCH --job-name=ase_vasp
+#SBATCH --output=slurm_%A_%a.log
+#SBATCH --mail-user=sunghjung3@utexas.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=amd
+#SBATCH: --exclusive
+#SBATCH --array=0-19
 
 export ASE_VASP_COMMAND='mpirun -np $SLURM_NTASKS vasp_std'
 export VASP_PP_PATH='/home/graeme/vasp/'

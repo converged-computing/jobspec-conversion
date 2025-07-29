@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=video2tator
-#FLUX: -c=32
-#FLUX: --queue=compute
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=video2tator
+#SBATCH --output=slogs/video2tator/%j.%x.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=2GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=compute
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 hostname; pwd; date

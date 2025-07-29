@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-animal-3791
-#FLUX: -c=8
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=150
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-truffle-6983
+#FLUX -c=8
+#FLUX --queue=REQUESTED_PARTITION
+#FLUX -t=150
+#FLUX --urgency=16
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

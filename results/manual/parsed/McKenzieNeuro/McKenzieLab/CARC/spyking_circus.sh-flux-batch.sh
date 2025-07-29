@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spyking-circus
-#FLUX: -c=8
-#FLUX: --queue=neuro-hsc
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=spyking-circus
+#FLUX -c=8
+#FLUX --queue=neuro-hsc
+#FLUX -t=36000
+#FLUX --urgency=16
 
 datadir="/carc/scratch/projects/mckenzie2016183/data/spikeSorting/spikeDemo"
 module load parallel

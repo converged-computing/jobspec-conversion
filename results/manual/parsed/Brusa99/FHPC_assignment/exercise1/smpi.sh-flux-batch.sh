@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=smpi
-#FLUX: -N=3
+#FLUX --job-name=smpi
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=EPYC
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='close'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=invert_C$CID
-#FLUX: -N=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=invert_C$CID
+#SBATCH --output=$LOG_DIR/C$CID.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200GB
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=30
 
 CMTSOLUTION=$1
 if [ -z "$CMTSOLUTION" ]

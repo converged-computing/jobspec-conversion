@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nanoGPT
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=nanoGPT
+#SBATCH --output=nanoGPTLOG.%j
+#SBATCH --mail-user=siweicui@tamu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=65536M
+#SBATCH --time=06:00:00
 
 cd $SCRATCH
 module add GCC/10.3.0  OpenMPI/4.1.1

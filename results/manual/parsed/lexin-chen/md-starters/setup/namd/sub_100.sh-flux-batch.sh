@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=w_mor
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=w_mor
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 ml cuda/10.0.130 namd/3.0
 cd $SLURM_SUBMIT_DIR

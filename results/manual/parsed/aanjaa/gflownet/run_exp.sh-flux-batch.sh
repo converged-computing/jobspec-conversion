@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-arm-5548
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-rabbit-6113
+#FLUX --urgency=16
 
 experiment_num=0 # change the number of experiment you want to run 0--> training objective, 1--> buffer, 2--> exploration
 prepend_name="fix_run9_" #prepend to the name of experiment

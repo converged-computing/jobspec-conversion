@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mclap
-#FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=mclap
+#SBATCH --output=result.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=all
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

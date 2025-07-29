@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NOMEPROGETTO
-#FLUX: -n=16
-#FLUX: --queue=qGPU48
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=NOMEPROGETTO
+#SBATCH --account=CHEM9C4
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=23:59:00
+#SBATCH --partition=qGPU48
 
 export Project='$SLURM_JOB_NAME'
 export WorkDir='/scratch/$SLURM_JOB_ID'

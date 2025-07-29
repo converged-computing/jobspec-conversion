@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-itch-1476
-#FLUX: --queue=gpu2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=grated-banana-6167
+#FLUX --queue=gpu2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leader-8359
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=milky-malarkey-7168
+#FLUX -c=3
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_complexes/pdbs/"

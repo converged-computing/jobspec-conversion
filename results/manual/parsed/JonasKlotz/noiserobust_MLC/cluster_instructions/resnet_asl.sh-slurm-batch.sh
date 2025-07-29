@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_asl
-#FLUX: --queue=gpu
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_asl
+#SBATCH --output=logs/logfile_resnet_asl
+#SBATCH --error=logs/errfile_resnet_asl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=15G
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=5
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate rs_3.8

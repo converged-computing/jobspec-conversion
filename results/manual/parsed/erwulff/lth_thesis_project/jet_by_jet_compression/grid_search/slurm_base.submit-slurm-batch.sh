@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-8949
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2019-5-139
+#SBATCH --output=search_%j.out
+#SBATCH --error=search_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
 
 cat $0
 ml GCCcore/5.4.0

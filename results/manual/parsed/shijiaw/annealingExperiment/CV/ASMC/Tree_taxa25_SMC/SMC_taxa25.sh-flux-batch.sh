@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-hobbit-8237
-#FLUX: -c=2
-#FLUX: -t=172815
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-dog-4141
+#FLUX -c=2
+#FLUX -t=172815
+#FLUX --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

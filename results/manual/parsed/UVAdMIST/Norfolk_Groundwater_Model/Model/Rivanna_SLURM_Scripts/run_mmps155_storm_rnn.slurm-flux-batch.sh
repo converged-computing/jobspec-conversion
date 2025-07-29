@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chip-0661
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-egg-5239
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

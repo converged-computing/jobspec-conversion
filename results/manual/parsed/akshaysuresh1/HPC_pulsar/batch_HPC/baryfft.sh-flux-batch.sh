@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hope-3090
-#FLUX: --queue=RM-shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-pot-0880
+#FLUX --queue=RM-shared
+#FLUX -t=7200
+#FLUX --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

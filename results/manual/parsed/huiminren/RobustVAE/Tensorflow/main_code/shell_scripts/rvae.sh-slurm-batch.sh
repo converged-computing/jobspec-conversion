@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rvae_sp
-#FLUX: -n=16
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=rvae_sp
+#SBATCH --output=rvae_sp.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --partition=short
 
 sacct --format="CPUTime,MaxRSS"
 python ../RobustVariationalAutoencoder.py

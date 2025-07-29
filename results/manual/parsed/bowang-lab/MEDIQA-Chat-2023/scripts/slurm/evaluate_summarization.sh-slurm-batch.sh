@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --account=def-wanglab-ab
+#SBATCH --mail-user=johnmgiorgi@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
 
 module purge  # suggested in alliancecan docs: https://docs.alliancecan.ca/wiki/Running_jobs
 module load python/3.10 StdEnv/2020 gcc/9.3.0 arrow/10.0

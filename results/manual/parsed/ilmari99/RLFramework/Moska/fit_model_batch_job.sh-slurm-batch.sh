@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=moska_no_cumulate
-#FLUX: -c=64
-#FLUX: --queue=gpusmall
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=moska_no_cumulate
+#SBATCH --account=project_2010270
+#SBATCH --output=moska_no_cumulate_%j.out
+#SBATCH --error=moska_no_cumulate_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:a100:1,nvme:100
+#SBATCH --mem=4G
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpusmall
 
 export CUDNN_PATH='$CUDNN_PATH'
 export LD_LIBRARY_PATH='${CUDNN_PATH}/lib'

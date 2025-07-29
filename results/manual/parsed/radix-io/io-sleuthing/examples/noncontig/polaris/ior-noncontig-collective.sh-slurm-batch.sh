@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-fudge-4734
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/radix-io/io-sleuthing/examples/noncontig/polaris/ior-noncontig-collective.sh

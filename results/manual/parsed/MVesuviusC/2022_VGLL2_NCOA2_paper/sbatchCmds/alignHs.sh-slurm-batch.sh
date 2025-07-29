@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=alignHs
-#FLUX: -c=10
-#FLUX: --queue=general,himem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=alignHs
+#SBATCH --account=gdkendalllab
+#SBATCH --output=slurmOut/alignHs-%j.txt
+#SBATCH --error=slurmOut/alignHs-%j.txt
+#SBATCH --mail-user=matthew.cannon@nationwidechildrens.org
+#SBATCH --mail-type=FAIL,REQUEUE,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=general,himem
+#SBATCH --array=0-4
 
 set -e ### stops bash script if line ends with error
 echo ${HOSTNAME} ${SLURM_ARRAY_TASK_ID}

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lap_opm
-#FLUX: -c=96
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=lap_opm
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --time=01:30:00
+#SBATCH --partition=fast
 
     lscpu
     echo "    "

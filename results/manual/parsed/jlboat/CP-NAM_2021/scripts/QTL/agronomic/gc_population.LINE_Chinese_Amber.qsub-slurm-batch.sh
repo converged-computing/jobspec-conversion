@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-earthworm-9655
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jlboat/CP-NAM_2021/scripts/QTL/agronomic/gc_population.LINE_Chinese_Amber.qsub

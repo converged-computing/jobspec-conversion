@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parsnip-0072
-#FLUX: -c=4
-#FLUX: --queue=teton-gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-mango-5659
+#FLUX -c=4
+#FLUX --queue=teton-gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load swset/2018.05
 module load cuda/10.1.243

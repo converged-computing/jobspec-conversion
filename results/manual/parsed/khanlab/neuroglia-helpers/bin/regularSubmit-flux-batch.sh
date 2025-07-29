@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pastry-2441
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-animal-8831
+#FLUX --urgency=16
 
 execpath=`dirname $0`
 execpath=`realpath $execpath`

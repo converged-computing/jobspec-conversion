@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-train-8291
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/uuudown/Tartan/microbenchmark/scale_out_cl/build/run.lsf

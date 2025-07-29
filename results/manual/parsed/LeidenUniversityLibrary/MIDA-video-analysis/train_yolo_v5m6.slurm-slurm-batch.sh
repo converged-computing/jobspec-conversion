@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=t_m4_yolov5
-#FLUX: --queue=gpu-long
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=t_m4_yolov5
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=b.a.companjen@library.leidenuniv.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=25G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu-long
 
 export CWD='$(pwd)'
 export RUNDIR='$SCRATCH/yolov5'

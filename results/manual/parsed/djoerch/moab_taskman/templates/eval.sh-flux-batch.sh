@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-eagle-9255
-#FLUX: -c=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-destiny-9310
+#FLUX -c=4
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export HANGUP_TIME='$(($(date +"%s") + 10 * 3600))'
 

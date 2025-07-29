@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-peanut-butter-4647
-#FLUX: -c=8
+#FLUX --job-name=hello-poo-3502
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$(pwd)/install/lib:$(pwd)/install/lib64'
 

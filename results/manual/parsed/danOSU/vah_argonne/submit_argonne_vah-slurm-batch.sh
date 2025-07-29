@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Pb_Pb_2760_MAP_VAH
-#FLUX: -N=20
-#FLUX: --queue=bdwall
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Pb_Pb_2760_MAP_VAH
+#SBATCH --account=unedf_optimization
+#SBATCH --mail-user=liyanage.5@osu.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=bdwall
+#SBATCH --constraint=ntasks-per-node=36
 
 module reset
 module load parallel

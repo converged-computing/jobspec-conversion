@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-rabbit-6533
-#FLUX: -c=16
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-hippo-5422
+#FLUX -c=16
+#FLUX --queue=muylarga
+#FLUX --urgency=16
 
 DB_FOLDER='ninja-battles'
 ID=$SLURM_JOB_NAME

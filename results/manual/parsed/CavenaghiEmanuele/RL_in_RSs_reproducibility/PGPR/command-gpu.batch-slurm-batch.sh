@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PGPR
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=PGPR
+#SBATCH --output=PGPR-%j.out
+#SBATCH --error=PGPR-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 module load cuda-11.2.1
 module load anaconda3

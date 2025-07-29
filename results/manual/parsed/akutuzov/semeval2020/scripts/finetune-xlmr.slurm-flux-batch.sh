@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=XLMR
-#FLUX: -n=4
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=XLMR
+#FLUX -n=4
+#FLUX -c=6
+#FLUX --queue=accel
+#FLUX -t=216000
+#FLUX --urgency=16
 
 umask 0007
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/

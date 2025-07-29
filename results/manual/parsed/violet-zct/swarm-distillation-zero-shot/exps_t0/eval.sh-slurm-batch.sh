@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xsum.lora.init.4.comb
-#FLUX: -c=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=xsum.lora.init.4.comb
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:A6000:4
+#SBATCH --mem=100g
 
 export TRANSFORMERS_CACHE='pretrain_models/huggingface'
 export HF_DATASETS_CACHE='pretrain_models/huggingface'

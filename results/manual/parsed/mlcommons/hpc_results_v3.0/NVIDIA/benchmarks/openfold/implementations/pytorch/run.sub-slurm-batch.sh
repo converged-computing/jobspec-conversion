@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:openfold
+#SBATCH --account=mlperf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MODEL_NAME='openfold'
 export MODEL_FRAMEWORK='pytorch'

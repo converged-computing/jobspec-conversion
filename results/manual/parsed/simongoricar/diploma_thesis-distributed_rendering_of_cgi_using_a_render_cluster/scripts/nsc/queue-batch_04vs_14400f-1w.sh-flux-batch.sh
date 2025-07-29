@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-1w
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gridlong
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=qb_04vs_14400f-1w
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=gridlong
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export RUST_LOG='debug'
 

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-omelette-5428
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=./1.0.weighting_users/WEIGHTING_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=laplace
-#FLUX: -c=40
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=laplace
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=01:30:00
+#SBATCH --partition=fast
 
 lscpu
 echo "*** SEQUENTIAL LAPLACE EQUATION GRID 1000X1000 ***"

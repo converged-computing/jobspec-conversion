@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=projp
-#FLUX: -N=2
-#FLUX: -c=3
-#FLUX: --exclusive
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=projp
+#SBATCH --output=outjob_proj_p.o%j
+#SBATCH --error=outjob_proj_p.e%j
+#SBATCH --mail-user=noe.lahaye@inria.fr
+#SBATCH --mail-type=END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=118000
+#SBATCH --time=02:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8,HSW24
 
 set -e
 eval "$(conda shell.bash hook)"

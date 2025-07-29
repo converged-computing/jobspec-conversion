@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-underoos-5995
-#FLUX: -N=2
-#FLUX: --queue=DevQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-taco-3495
+#FLUX -N=2
+#FLUX --queue=DevQ
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

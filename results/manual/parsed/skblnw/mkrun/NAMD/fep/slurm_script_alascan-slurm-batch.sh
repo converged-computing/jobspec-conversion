@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-puppy-1809
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=single
 
 echo "Start time: $(date)"
 echo "SLURM_JOB_NODELIST: $SLURM_JOB_NODELIST"

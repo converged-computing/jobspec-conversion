@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=icon-single-percision
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=icon-single-percision
+#SBATCH --account=ka1273_gpu
+#SBATCH --output=%x.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
 
 export LD_LIBRARY_PATH='/sw/spack-levante/gcc-12.3.0-ab6j4u/lib64:$LD_LIBRARY_PATH'
 export INPUT='1500k.nc'

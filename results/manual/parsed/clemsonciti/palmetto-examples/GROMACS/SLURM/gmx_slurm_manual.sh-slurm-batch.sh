@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS
-#FLUX: -c=6
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=GROMACS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=22G
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 source /home/$USER/software/gromacs-2023.3/build_slurm/gmx/bin/GMXRC

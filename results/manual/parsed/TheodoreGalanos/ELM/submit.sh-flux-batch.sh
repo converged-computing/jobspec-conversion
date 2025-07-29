@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-3610
-#FLUX: --queue=lotus_gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-cherry-5209
+#FLUX --queue=lotus_gpu
+#FLUX -t=57600
+#FLUX --urgency=16
 
 set -e # fail fully on first line failure
 path_to_conda="/home/users/hyper1on/miniconda3"

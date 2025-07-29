@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-4481
-#FLUX: -c=4
-#FLUX: --queue=sbel
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-spoon-6897
+#FLUX -c=4
+#FLUX --queue=sbel
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

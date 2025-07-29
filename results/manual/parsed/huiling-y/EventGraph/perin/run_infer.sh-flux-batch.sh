@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ACE_EVAL
-#FLUX: -c=2
-#FLUX: --queue=accel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ACE_EVAL
+#FLUX -c=2
+#FLUX --queue=accel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -o errexit
 set -o nounset

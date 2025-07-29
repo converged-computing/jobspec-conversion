@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GSE116240
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=GSE116240
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 sbatch << ENDINPUT
 cd /mnt/tank/scratch/mfiruleva/scn/data/GSE116240/merged

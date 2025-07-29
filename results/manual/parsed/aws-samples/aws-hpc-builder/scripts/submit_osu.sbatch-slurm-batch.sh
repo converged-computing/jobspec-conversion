@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-1776
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=g16xlargeefa
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/log/osu.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=g16xlargeefa
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,c7g
 
 export OSU_VERSION='6.1'
 

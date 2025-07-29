@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=huhu-yahs
-#FLUX: -c=2
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=huhu-yahs
+#SBATCH --account=ga03186
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --mail-user=forsdickn@landcareresearch.co.nz
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=22G
+#SBATCH --time=01:30:00
 
 REF_DIR='/nesi/nobackup/ga03186/Huhu_MinION/combined-trimmed-data/omnic-scaffolding/shasta-purged-polished-omnic/'
 REF='medaka-consensus.fa'

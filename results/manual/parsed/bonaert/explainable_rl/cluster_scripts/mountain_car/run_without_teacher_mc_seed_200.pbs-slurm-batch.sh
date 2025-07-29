@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pastry-6269
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bonaert/explainable_rl/cluster_scripts/mountain_car/run_without_teacher_mc_seed_200.pbs

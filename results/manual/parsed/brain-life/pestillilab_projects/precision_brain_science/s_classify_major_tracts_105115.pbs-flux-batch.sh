@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-malarkey-2197
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-staircase-4863
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brain-life/pestillilab_projects/precision_brain_science/s_classify_major_tracts_105115.pbs

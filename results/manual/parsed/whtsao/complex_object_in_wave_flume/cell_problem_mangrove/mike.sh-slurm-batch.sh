@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cell
-#FLUX: -n=64
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cell
+#SBATCH --account=hpc_ceds3d
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=workq
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

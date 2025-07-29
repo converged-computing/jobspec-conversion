@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-toaster-0982
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-bike-7810
+#FLUX -c=8
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 source /shared/share/aac1plano.modules.bash

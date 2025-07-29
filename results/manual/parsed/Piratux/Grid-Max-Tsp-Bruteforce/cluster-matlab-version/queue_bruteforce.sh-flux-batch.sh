@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lettuce-8105
-#FLUX: -N=20
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=phat-caramel-2297
+#FLUX -N=20
+#FLUX --queue=main
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load openmpi
 mpiCC -std=c++17 -O2 -o bruteforce-matlab-cluster bruteforce-matlab-cluster.cpp

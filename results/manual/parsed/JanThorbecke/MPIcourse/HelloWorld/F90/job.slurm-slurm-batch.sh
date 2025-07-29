@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hello-mpi
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=hello-mpi
+#SBATCH --output=helloF90-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:01:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
 
 export OMPI_MCA_btl_sm_eager_limit='8192'
 export OMPI_MCA_btl_vader_eager_limit='8192'

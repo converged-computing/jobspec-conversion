@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=transformer-seg
-#FLUX: --queue=ampere
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=transformer-seg
+#SBATCH --account=BUTTERY-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

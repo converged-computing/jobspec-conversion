@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=simugwa5
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=simugwa5
+#SBATCH --account=p697
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=12:00:00
+#SBATCH --array=1-200
 
 export THREADS='16'
 export FOLDER='/ess/p697/cluster/users/ofrei/2023_02_06_GSA_MiXeR_natgen_revisions/simu_snps'

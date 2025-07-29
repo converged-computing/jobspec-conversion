@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nsfw
-#FLUX: -c=12
-#FLUX: --queue=gpgpu
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=nsfw
+#SBATCH --account=punim0784
+#SBATCH --mail-user=hanxunh@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:p100:4
+#SBATCH --mem=64G
+#SBATCH --time=1-23:59:00
+#SBATCH --partition=gpgpu
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

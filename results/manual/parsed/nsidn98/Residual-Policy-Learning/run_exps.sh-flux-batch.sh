@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-toaster-9166
-#FLUX: -n=16
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-parsnip-1905
+#FLUX -n=16
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/gridsan/sidnayak/.mujoco/mujoco200/bin'
 

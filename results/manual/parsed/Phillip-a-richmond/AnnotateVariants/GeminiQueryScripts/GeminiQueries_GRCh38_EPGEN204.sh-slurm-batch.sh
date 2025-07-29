@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-parrot-9926
-#FLUX: -c=4
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=malavika.hebbar@cw.bc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=defq
 
 	# Removed LOOSE DP/GQ thresholds
 	# Added SPLICEAI

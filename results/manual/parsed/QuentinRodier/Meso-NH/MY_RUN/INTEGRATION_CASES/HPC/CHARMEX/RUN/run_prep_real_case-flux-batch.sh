@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prep_charmex
-#FLUX: -n=4
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#FLUX --job-name=prep_charmex
+#FLUX -n=4
+#FLUX -t=8400
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 4'
 

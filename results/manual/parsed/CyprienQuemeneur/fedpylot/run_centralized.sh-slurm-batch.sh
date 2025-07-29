@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poo-4289
-#FLUX: -c=8
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#SBATCH --mail-user=myemail@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2G
+#SBATCH --time=3-12:00:00
 
 nvidia-smi
 module purge

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-7518
+#FLUX --job-name=faux-lamp-2345
 #FLUX: --exclusive
-#FLUX: --queue=n1s16-t4-2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --queue=n1s16-t4-2
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

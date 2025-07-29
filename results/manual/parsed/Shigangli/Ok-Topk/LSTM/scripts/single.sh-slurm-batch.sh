@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-spoon-1681
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=g34
+#SBATCH --output=2-lstm_single_node_iotime_2b_peak.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 module load cudatoolkit/10.2.89_3.29-7.0.2.1_3.27__g67354b4

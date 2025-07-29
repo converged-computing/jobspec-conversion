@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ImputeGenotypes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ImputeGenotypes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load java-1.8.0_40
 module load singularity/3.5.3

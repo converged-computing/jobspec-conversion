@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-gato-9511
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source /usr/local/gromacs/bin/GMXRC
 j=0

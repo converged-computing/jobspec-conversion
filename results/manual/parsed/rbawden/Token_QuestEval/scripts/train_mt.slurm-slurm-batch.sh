@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=safe
-#FLUX: -c=2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=safe
+#SBATCH --account=ncm@gpu
+#SBATCH --output=slurm_outputs/seg%x_%j_%a.out
+#SBATCH --error=slurm_outputs/seg%x_%j_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=20:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
+#SBATCH --array=0-10%1
 
 cd ${SLURM_SUBMIT_DIR}
 maindir=$WORK/Token_QuestEval

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=diff_loops
-#FLUX: --queue=shortterm
-#FLUX: --urgency=16
+#FLUX --job-name=diff_loops
+#FLUX --queue=shortterm
+#FLUX --urgency=16
 
 module load nextflow/v22.04.1
 mkdir -p "$WORK"/diff_loops_nextflow_launchdir

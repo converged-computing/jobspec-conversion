@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=simulate_data
-#FLUX: -n=9
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=simulate_data
+#FLUX -n=9
+#FLUX -t=54000
+#FLUX --urgency=16
 
 start=`date +%s`
 echo $HOSTNAME

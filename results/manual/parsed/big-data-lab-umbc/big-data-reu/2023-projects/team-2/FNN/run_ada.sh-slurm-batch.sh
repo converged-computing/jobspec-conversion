@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PL_FF
-#FLUX: -t=342000
-#FLUX: --urgency=16
+#SBATCH --job-name=PL_FF
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --time=3-23:00:00
+#SBATCH --constraint=rtx_6000
 
 if [ -f "model-final" ] || [ -d "model-final" ]
 then

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-swarm
-#FLUX: -c=12
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-swarm
+#SBATCH --output=slurm/logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=8
+#SBATCH --mem=11G
+#SBATCH --partition=hopper-prod
 
 export volume='/scratch'
 export model='mistralai/Mistral-7B-Instruct-v0.1'

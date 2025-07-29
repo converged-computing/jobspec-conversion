@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_meric
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=amg2013_meric
+#SBATCH --account=p_readex
+#SBATCH --output=amg2013_meric.out
+#SBATCH --error=amg2013_meric.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=2500M
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export MERIC_MODE='2'
 export MERIC_DEBUG='0'

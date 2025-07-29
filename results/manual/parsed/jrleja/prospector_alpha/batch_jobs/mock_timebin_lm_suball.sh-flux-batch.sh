@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mock_timebin_lm
-#FLUX: --queue=conroy,shared
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=mock_timebin_lm
+#FLUX --queue=conroy,shared
+#FLUX -t=432000
+#FLUX --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \
 --param_file="$APPS"/prospector_alpha/parameter_files/mock_timebin_lm_params.py \

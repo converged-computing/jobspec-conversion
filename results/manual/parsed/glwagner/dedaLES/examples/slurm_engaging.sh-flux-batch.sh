@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=merge
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=merge
+#FLUX --queue=sched_mit_hill
+#FLUX -t=3600
+#FLUX --urgency=16
 
 . /home/glwagner/software/miniconda3/etc/profile.d/conda.sh
 conda activate dedalus

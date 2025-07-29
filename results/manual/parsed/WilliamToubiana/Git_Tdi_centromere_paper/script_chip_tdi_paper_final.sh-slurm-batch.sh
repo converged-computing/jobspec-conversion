@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-8368
-#FLUX: --queue=cpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=cpu
 
 echo "Starting job $SLURM_JOB_NAME with ID $SLURM_JOB_ID".
 module load gcc

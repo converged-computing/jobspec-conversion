@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bi
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bi
+#FLUX --queue=shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 FULLSIM=false
 NEVENTS=100

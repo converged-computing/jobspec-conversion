@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AVS-advisor
-#FLUX: --queue=qcpu_exp
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=AVS-advisor
+#FLUX --queue=qcpu_exp
+#FLUX -t=1500
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ml VTune Advisor intel-compilers/2022.1.0 CMake/3.23.1-GCCcore-11.3.0

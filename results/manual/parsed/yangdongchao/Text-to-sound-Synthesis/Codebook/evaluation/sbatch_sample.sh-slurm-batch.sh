@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=s
-#FLUX: -c=128
-#FLUX: --urgency=16
+#SBATCH --job-name=s
+#SBATCH --account=project_2000936
+#SBATCH --output=./sbatch_logs/run_%J.txt
+#SBATCH --error=./sbatch_logs/run_%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:a100:4,nvme:700
+#SBATCH --mem=64G
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/projappl/project_2000936/SpecVQGAN
 
 export NCCL_DEBUG='INFO  # comment it if you are not debugging distributed parallel setup'
 export NCCL_DEBUG_SUBSYS='ALL # comment it if you are not debugging distributed parallel setup'

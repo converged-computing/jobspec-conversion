@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chair-0402
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpu
+#SBATCH --qos=short
 
 export TMPDIR='$(pwd)'
 

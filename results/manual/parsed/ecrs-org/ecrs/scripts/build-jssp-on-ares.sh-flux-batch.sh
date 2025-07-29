@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poodle-0785
-#FLUX: --queue=plgrid
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-onion-0366
+#FLUX --queue=plgrid
+#FLUX -t=600
+#FLUX --urgency=16
 
 function load_module_if_needed() {
   module_name=$1

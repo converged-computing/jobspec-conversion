@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leg-0600
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CHPL_VERSION='$(cat CHPL_VERSION)'
 export CHPL_HOME='$PWD/chapel-${CHPL_VERSION}MCG'

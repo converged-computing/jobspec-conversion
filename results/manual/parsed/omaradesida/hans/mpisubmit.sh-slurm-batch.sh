@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parsnip-5951
-#FLUX: --queue=hetmathsys
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2012
+#SBATCH --time=00:10:00
+#SBATCH --partition=hetmathsys
+#SBATCH --constraint=ntasks-per-node=4
 
 srun -n 4 python mpihans.py<input.txt #> MPI_hans.out

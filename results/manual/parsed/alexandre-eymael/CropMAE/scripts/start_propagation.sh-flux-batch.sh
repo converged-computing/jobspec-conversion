@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=seg
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=seg
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "----------------- Environment ------------------"
 module purge

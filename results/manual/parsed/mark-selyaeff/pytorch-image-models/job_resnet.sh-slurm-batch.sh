@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_original
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_original
+#SBATCH --account=Project_2004728
+#SBATCH --output=resnet_original.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100:1,nvme:500
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 source /scratch/project_2004728/envs/adv_env/bin/activate
 echo "Environment activated;\n"

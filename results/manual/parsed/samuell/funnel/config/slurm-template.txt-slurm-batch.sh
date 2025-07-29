@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name={{.TaskId}}
-#FLUX: --urgency=16
+#SBATCH --job-name={{.TaskId}}
+#SBATCH --output={{.WorkDir}}/funnel-stdout
+#SBATCH --error={{.WorkDir}}/funnel-stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 {{if ne .Cpus 0 -}}
 {{printf "#SBATCH --cpus-per-task %d" .Cpus}}

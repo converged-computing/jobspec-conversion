@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=glrna_cd
-#FLUX: --queue=girirajan
-#FLUX: -t=1440000
-#FLUX: --urgency=16
+#SBATCH --job-name=glrna_cd
+#SBATCH --account=girirajan
+#SBATCH --output=/data6/deepro/rna_cache/slurm/logs/out_cd.log
+#SBATCH --error=/data6/deepro/rna_cache/slurm/logs/err_cd.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=16-16:00:00
+#SBATCH --partition=girirajan
+#SBATCH --chdir=/data6/deepro/rna_cache
+#SBATCH --nodelist=sarah
 
 echo `date` starting job on $HOSTNAME
 cache_dir="/data6/deepro/rna_cache" # TODO: set project dir path

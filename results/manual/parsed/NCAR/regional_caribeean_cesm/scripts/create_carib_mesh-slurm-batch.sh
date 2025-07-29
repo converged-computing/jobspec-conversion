@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-rabbit-2949
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/regional_caribeean_cesm/scripts/create_carib_mesh

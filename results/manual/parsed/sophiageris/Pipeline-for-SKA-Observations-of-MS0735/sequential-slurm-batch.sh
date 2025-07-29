@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sequential_job
-#FLUX: -c=2
-#FLUX: --queue=quicktest
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=sequential_job
+#SBATCH --output=output_%A_%j.out
+#SBATCH --error=error_%A_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=5G
+#SBATCH --time=00:30:00
+#SBATCH --partition=quicktest
 
 shopt -s nullglob
 FILES=()

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nalgas-6572
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-salad-6190
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abbotts/MFC/toolchain/templates/lsf.sh

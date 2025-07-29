@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=inloc
-#FLUX: -c=17
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=inloc
+#FLUX -c=17
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${CURRENT_DIR}/../../functions/vlfeat/toolbox/mex/mexa64/'
 

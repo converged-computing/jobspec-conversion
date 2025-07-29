@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-4858
-#FLUX: --queue=gpu
-#FLUX: -t=64500
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-chip-6304
+#FLUX --queue=gpu
+#FLUX -t=64500
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MODEL_DIR='/scratch/project_2002026/bert/cased_L-24_H-1024_A-16'

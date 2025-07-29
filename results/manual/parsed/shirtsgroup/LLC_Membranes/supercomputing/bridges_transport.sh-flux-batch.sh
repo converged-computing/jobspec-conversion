@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-motorcycle-2406
-#FLUX: --queue=GPU
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-buttface-1585
+#FLUX --queue=GPU
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/bjc/Gromacs"  # Bridges forgets what is written in your .bashrc'
 export GMX_MAXBACKUP='-1  # do not make back-ups'

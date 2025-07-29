@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vc_ff
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=vc_ff
+#FLUX -c=8
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load pytorch-gpu/py3/2.1.1
 conda activate aa

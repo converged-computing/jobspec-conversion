@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ABM
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=ABM
+#FLUX -c=32
+#FLUX --urgency=16
 
 . /usr/modules/init/bash
 module load julia

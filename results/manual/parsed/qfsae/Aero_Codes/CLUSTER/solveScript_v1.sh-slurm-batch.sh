@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=QR-so_STAR
-#FLUX: -n=112
-#FLUX: --queue=scb
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=QR-so_STAR
+#SBATCH --output=%x.o
+#SBATCH --error=%x.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=112
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=scb
+#SBATCH --exclude=node[201-203,235]
 
 echo "`date`: Beginning job execution..."
 RUN=runSim_v2.java

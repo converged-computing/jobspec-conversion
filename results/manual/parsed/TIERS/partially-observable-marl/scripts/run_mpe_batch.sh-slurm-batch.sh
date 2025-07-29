@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mpe
-#FLUX: -c=42
-#FLUX: --queue=small-g
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=mpe
+#SBATCH --account=project
+#SBATCH --output=../results/output/job_%A_%a.out
+#SBATCH --error=../results/output/array_job_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=42
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48G
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=small-g
+#SBATCH --array=0
 
 env="MPE"
 num_landmarks=3

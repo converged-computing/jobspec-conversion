@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-despacito-4142
-#FLUX: --queue=RM-shared
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=%x.out
+#SBATCH --mail-user=nasc4134@colorado.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gcc
 module load cuda/11.1.1

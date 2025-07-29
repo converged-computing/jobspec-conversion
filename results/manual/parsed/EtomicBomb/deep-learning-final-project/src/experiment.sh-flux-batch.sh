@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-chair-5440
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=purple-leg-9135
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 unset LD_LIBRARY_PATH

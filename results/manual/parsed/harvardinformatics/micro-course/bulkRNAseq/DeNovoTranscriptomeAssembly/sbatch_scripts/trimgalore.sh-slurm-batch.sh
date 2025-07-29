@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tgalore
-#FLUX: --queue=general
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=tgalore
+#SBATCH --account=informatics_workshop
+#SBATCH --output=tgalore_ERR1101637_%A.out
+#SBATCH --error=tgalore_ERR1101637_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000
+#SBATCH --time=05:00:00
+#SBATCH --partition=general
 
 module purge
 module load cutadapt/1.8.1-fasrc01

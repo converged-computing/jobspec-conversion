@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=replica-exchange
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=replica-exchange
+#SBATCH --mail-user=tje3676@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=3
 
 module purge
 module load gromacs/openmpi/intel/2018.3

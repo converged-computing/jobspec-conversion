@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-1w
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gridlong
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_14400f-1w
+#SBATCH --output=/ceph/grid/home/sg7710/diploma/distributed-rendering-diploma/logs/%A.sbatch.qb_04vs_14400f-1w.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gridlong
+#SBATCH --constraint=zen3
 
 export RUST_LOG='debug'
 

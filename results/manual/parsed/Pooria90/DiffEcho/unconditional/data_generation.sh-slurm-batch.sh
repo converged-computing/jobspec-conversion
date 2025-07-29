@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=generation-unconditional
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=generation-unconditional
+#SBATCH --account=<your
+#SBATCH --output=out-generation-unconditional.txt
+#SBATCH --error=err-generation-unconditional.txt
+#SBATCH --mail-user=<email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=20:00:00
+#SBATCH --constraint=gpu_mem_32
 
 export HOME='<path to your new home>'
 

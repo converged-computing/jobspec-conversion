@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pastry-9542
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-despacito-2444
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/wtf/manuscript/faces/run_wtf_rho0_0.01/r_40/run.sh

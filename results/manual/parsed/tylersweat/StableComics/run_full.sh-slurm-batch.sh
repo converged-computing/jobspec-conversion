@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cherry-8677
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=24G
+#SBATCH --time=00:30:00
 
 export LD_LIBRARY_PATH='/home/tysweat0/.conda/envs/img2img/lib/python3.9/site-packages/nvidia/cublas/lib'
 

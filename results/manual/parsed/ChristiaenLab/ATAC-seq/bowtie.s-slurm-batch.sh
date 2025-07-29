@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bowtie
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bowtie
+#SBATCH --output=bowtie%a.out
+#SBATCH --error=bowtie%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=62GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load bowtie2/intel/2.3.2

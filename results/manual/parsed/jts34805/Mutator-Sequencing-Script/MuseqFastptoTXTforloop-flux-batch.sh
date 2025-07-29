@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fastptotxtJune2023
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=576000
-#FLUX: --urgency=16
+#FLUX --job-name=fastptotxtJune2023
+#FLUX -n=8
+#FLUX --queue=batch
+#FLUX -t=576000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ml fastp/0.23.2

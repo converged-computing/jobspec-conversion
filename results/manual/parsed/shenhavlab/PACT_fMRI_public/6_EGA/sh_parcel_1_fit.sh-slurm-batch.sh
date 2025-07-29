@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=rdm-parcel_pt
-#FLUX: -n=6
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=rdm-parcel_pt
+#SBATCH --account=carney-ashenhav-condo
+#SBATCH --output=logs/rdm-parcel_%A-%a.txt
+#SBATCH --mail-user=hritz@brown.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=06:00:00
+#SBATCH --constraint=cascade
+#SBATCH --array=4-32
 
 root_dir="/users/hritz/data/mri-data/RDM2"
 spm_dir="/users/hritz/data/mri-data/analysistools/spm12"

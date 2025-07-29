@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_with_masks
-#FLUX: -c=4
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_with_masks
+#SBATCH --output=logs/%j_train_with_masks.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:00:00
+#SBATCH --constraint=a40
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)" # log hostname

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=frame_pred
-#FLUX: -c=8
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=frame_pred
+#SBATCH --output=logs/train_simvp_%j.out
+#SBATCH --mail-user=tk3309@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64GB
+#SBATCH --time=1-01:00:00
 
 singularity exec --nv \
 	    --overlay /scratch/tk3309/DL24/overlay-50G-10M.ext3:rw \

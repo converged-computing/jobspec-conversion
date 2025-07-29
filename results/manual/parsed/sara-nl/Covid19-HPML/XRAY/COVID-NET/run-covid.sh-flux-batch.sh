@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-6780
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-dog-8457
+#FLUX --urgency=16
 
 clear
 module use ~/environment-modules-lisa

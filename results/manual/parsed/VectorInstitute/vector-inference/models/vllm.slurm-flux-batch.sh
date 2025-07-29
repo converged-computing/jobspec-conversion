@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-earthworm-9172
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-pot-2261
+#FLUX -c=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load cuda-12.3
 nvidia-smi

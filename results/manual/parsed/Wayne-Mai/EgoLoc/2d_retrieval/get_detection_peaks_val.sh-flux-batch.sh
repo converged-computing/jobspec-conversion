@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vq2d
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=vq2d
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 export HYDRA_FULL_ERROR='1'

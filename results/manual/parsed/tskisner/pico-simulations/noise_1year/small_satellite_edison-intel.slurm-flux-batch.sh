@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pico
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=pico
+#FLUX -N=32
+#FLUX --queue=regular
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${node_thread}'
 export OMP_PLACES='threads'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-avocado-3859
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:pascal:2
+#SBATCH --mem=64000
+#SBATCH --time=02:00:00
+#SBATCH --partition=general
+#SBATCH --qos=short
 
 module use /opt/insy/modulefiles
 module load cuda/10.0

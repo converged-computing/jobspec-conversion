@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hobbit-3094
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --output=log.%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:1
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$PYTHON_HOME/bin:$PATH'
 

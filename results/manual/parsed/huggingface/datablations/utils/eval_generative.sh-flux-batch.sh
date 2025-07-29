@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-4125
-#FLUX: -c=8
+#FLUX --job-name=nerdy-chair-4464
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=small-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export HF_DATASETS_CACHE='/scratch/project_462000119/ds_cache'

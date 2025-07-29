@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=worker
+#FLUX --job-name=worker
 #FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 df /local
 LDIR="/local"

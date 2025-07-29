@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CANUAssembly
-#FLUX: -n=200
-#FLUX: --queue=defq
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=CANUAssembly
+#FLUX -n=200
+#FLUX --queue=defq
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/unamur/URBE/jnarayan/CANUAssembly/canu/Linux-amd64/bin'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llama_13b_eval
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_13b_eval
+#SBATCH --output=./stdout/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-8
 
 cd ../src
 for i in {0..5}; do

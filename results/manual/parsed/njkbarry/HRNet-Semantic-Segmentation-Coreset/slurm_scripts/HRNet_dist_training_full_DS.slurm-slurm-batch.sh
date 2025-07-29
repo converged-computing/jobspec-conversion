@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HRNet-dist-training-full-DS
-#FLUX: -c=16
-#FLUX: --queue=gpu-a100
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=HRNet-dist-training-full-DS
+#SBATCH --account=punim1896
+#SBATCH --mail-user=njbarry@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=245760
+#SBATCH --time=23:00:00
+#SBATCH --partition=gpu-a100
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

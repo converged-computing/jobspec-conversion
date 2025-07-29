@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trickle_constr
-#FLUX: -c=64
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=trickle_constr
+#FLUX -c=64
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "You've requested $SLURM_CPUS_ON_NODE core(s)."

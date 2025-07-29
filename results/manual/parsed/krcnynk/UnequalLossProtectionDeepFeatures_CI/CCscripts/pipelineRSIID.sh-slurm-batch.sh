@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-poodle-0390
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=def-ibajic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=25G
+#SBATCH --time=05:00:00
+#SBATCH --array=1-11
 
 module restore uneq
 cd ..

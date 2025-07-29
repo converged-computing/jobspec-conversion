@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpgmg-faults-quant
+#FLUX --job-name=hpgmg-faults-quant
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 export OMP_NUM_THREADS='1'

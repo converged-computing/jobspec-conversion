@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-train-1325
-#FLUX: --queue=course
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-salad-0897
+#FLUX --queue=course
+#FLUX --urgency=16
 
 module load compilers/intel/2019u5 
 module load mpi/intel-mpi/2019u5/bin

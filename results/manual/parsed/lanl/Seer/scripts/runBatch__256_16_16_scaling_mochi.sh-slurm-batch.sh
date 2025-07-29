@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-butter-8820
-#FLUX: -N=16
-#FLUX: --queue=scaling
-#FLUX: --urgency=16
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=scaling
+#SBATCH --constraint=ntasks-per-node=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

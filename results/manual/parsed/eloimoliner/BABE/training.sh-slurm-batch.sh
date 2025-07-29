@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=matrix_testing_bwe_blind_1000
-#FLUX: -t=170999
-#FLUX: --urgency=16
+#SBATCH --job-name=matrix_testing_bwe_blind_1000
+#SBATCH --output=/scratch/work/%u/projects/ddpm/blind_bwe_diffusion/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=30G
+#SBATCH --time=1-23:29:59
+#SBATCH --array=[93]
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

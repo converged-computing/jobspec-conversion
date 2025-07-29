@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bwbench
-#FLUX: --queue=all
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=bwbench
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=all
 
 export JULIA_NUM_THREADS='40'
 

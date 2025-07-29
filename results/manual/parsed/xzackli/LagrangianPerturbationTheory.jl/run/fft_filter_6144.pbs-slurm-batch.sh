@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-underoos-3805
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/xzackli/LagrangianPerturbationTheory.jl/run/fft_filter_6144.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lt
-#FLUX: -c=2
-#FLUX: --queue=a100_1,a100_2,v100,rtx8000
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=lt
+#FLUX -c=2
+#FLUX --queue=a100_1,a100_2,v100,rtx8000
+#FLUX -t=172800
+#FLUX --urgency=16
 
 LOSS=$1
 BS=$2

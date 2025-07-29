@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=8
-#FLUX: --queue=IB_40C_512G
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --account=iacc_nbc
+#SBATCH --output=/home/data/abcd/abcd-hispanic-via/code/log/%x/%x_%A-%a.out
+#SBATCH --error=/home/data/abcd/abcd-hispanic-via/code/log/%x/%x_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2gb
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=IB_40C_512G
+#SBATCH --qos=pq_nbc
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'
 

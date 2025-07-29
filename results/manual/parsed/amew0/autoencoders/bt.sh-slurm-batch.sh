@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=diff-auto-vscode
-#FLUX: --queue=gpu
-#FLUX: -t=3599
-#FLUX: --urgency=16
+#SBATCH --job-name=diff-auto-vscode
+#SBATCH --account=kunf0007
+#SBATCH --output=./output/img/bt-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:59:59
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 path="./output/img/bt-"
 j=$SLURM_JOB_ID

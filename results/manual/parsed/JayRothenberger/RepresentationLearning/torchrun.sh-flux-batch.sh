@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=clr_torch
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=16
-#FLUX: --queue=disc
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=clr_torch
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=16
+#FLUX --queue=disc
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LSCRATCH='/lscratch/15937969'
 export LOGLEVEL='INFO'

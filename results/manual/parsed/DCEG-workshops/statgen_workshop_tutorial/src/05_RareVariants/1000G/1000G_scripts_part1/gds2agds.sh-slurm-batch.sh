@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1kG
-#FLUX: --queue=shared,xlin,xlin-lab
-#FLUX: -t=4320
-#FLUX: --urgency=16
+#SBATCH --job-name=1kG
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60000
+#SBATCH --time=01:12:00
+#SBATCH --partition=shared,xlin,xlin-lab
+#SBATCH --array=1-22
 
 export R_LIBS_USER='$HOME/R-4.1.0-MKL'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DHFR
-#FLUX: -n=16
-#FLUX: --queue=longer_mdbf
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=DHFR
+#SBATCH --account=mdbf
+#SBATCH --output=%j-log.out
+#SBATCH --mail-user=ebrucetin@sabanciuniv.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=longer_mdbf
+#SBATCH --qos=longer_mdbf
 
 INPUT_FILE="dhf-l28r-i94l.conf"
 source /etc/profile.d/modules.sh

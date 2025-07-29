@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_dl_model
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=train_dl_model
+#FLUX -c=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo Job $SLURM_JOB_ID released
 echo Load modules

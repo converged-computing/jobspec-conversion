@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-butter-5888
-#FLUX: --queue=gpu
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --output=outfiles/df4.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=gpu
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/

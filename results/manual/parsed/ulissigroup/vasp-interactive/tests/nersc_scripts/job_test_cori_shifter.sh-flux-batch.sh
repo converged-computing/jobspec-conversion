@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-spoon-6153
-#FLUX: --queue=premium
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-lamp-5489
+#FLUX --queue=premium
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PATH='${CONDA_ROOT}/bin:$PATH'
 export MODPATH='`realpath .`'

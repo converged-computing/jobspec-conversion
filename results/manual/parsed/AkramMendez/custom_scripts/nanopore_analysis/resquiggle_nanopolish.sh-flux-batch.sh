@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nanopolish
-#FLUX: -n=32
-#FLUX: --queue=node
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=nanopolish
+#FLUX -n=32
+#FLUX --queue=node
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load bioinfo-tools
 module load nanopolish

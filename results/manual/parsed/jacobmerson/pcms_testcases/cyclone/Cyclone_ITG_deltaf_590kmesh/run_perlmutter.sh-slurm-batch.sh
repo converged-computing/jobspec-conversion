@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cyclone-deltaf
-#FLUX: -n=8
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=cyclone-deltaf
+#SBATCH --account=m499
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 export OMP_PLACES='cores'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eprior
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=eprior
+#SBATCH --account=ec12
+#SBATCH --output=/projects/ec12/jinyueg/eprior-RAVE/slurm/log/run-cpu2.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
 
 module purge
 module load Miniconda3/22.11.1-1

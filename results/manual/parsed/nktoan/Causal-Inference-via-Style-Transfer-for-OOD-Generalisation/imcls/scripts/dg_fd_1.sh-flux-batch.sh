@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-omelette-3160
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-frito-4834
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate dassl

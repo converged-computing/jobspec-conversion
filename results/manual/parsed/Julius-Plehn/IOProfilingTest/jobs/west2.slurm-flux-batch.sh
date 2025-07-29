@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-squidward-4166
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-underoos-9012
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=west
+#FLUX -t=7200
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

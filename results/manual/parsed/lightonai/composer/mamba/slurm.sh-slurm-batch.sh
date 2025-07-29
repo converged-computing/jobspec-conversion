@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=mamba
-#FLUX: -n=4
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=mamba
+#SBATCH --account=account
+#SBATCH --output=mamba_stdout_single%j.out
+#SBATCH --error=mamba_stderr_single%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
+#SBATCH --qos=default
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export WANDB_API_KEY='your-api-key'
 

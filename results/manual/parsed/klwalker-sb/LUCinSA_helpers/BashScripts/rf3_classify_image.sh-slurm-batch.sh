@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RSclass
-#FLUX: -n=8
-#FLUX: --queue=basic
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=RSclass
+#SBATCH --output=RFclass.%N.%a.%j.out
+#SBATCH --error=RFclass.%N.%a.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:08:00
+#SBATCH --partition=basic
+#SBATCH --array=772,773,876,879,908,909,910,942,943,977,981,737,773,774,806,807,808,809,810,841,842,843,844,845,877,878,880,911,912,913,914,944,945,946,947,948,976,978,979,980%4
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

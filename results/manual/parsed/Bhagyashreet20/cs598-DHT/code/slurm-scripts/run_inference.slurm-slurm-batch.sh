@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=et_model_inference
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=et_model_inference
+#SBATCH --account=bcng-delta-gpu
+#SBATCH --output=/projects/bcng/cs598-DHT/code/logs/slurm-logs/output/et_inference-%j.out
+#SBATCH --error=/projects/bcng/cs598-DHT/code/logs/slurm-logs/error/et_inference-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=128g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=scratch
 
 export ET_DATA='/projects/bcng/ukakarla/teach_data'
 export TEACH_ROOT_DIR='/projects/bcng/ukakarla/teach'

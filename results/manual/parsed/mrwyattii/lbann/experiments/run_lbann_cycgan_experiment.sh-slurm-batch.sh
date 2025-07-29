@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-destiny-7542
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 EXPERIMENT_NAME=lbann_cycgan_jag
 LBANN_DIR=$(git rev-parse --show-toplevel)

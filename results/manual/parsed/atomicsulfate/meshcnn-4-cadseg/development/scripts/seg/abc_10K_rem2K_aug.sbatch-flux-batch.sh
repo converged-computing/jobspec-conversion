@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MeshCNNABC10KRem2KAug
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=MeshCNNABC10KRem2KAug
+#FLUX -N=2
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 MASTER=`/bin/hostname -s`
 SLAVES=`scontrol show hostnames $SLURM_JOB_NODELIST | grep -v $MASTER`

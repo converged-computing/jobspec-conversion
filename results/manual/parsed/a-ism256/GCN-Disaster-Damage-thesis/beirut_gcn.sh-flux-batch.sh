@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=beirut
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=beirut
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module purge
 module load python/3.8.2

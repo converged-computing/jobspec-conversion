@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=warpx
-#FLUX: -N=2
-#FLUX: -c=8
+#FLUX --job-name=warpx
+#FLUX -N=2
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

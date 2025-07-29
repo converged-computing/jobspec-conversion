@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-underoos-0713
-#FLUX: -N=16
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=<CHANGE>
+#SBATCH --output=out.txt
+#SBATCH --error=err.txt
+#SBATCH --mail-user=<CHANGE>
+#SBATCH --mail-type=END
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=600000mb
+#SBATCH --time=00:15:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=simulated_minimal
 
 export PMIX_MCA_gds='hash'
 

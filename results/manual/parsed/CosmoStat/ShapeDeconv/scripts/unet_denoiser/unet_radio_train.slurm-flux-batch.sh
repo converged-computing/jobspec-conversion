@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=unet_radio_train
-#FLUX: -c=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=unet_radio_train
+#FLUX -c=10
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module purge
 module load tensorflow-gpu/py3/1.15.2

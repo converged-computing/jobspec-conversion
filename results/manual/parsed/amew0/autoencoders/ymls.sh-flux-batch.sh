@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=auto-vscode
-#FLUX: --queue=gpu
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#FLUX --job-name=auto-vscode
+#FLUX --queue=gpu
+#FLUX -t=259199
+#FLUX --urgency=16
 
 module purge
 module load miniconda/3

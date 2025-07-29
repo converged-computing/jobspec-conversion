@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-destiny-0730
-#FLUX: --queue=gpu2
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-parrot-9287
+#FLUX --queue=gpu2
+#FLUX -t=2700
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=DASK_JUPYTER
-#FLUX: -N=2
-#FLUX: -n=10
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=DASK_JUPYTER
+#FLUX -N=2
+#FLUX -n=10
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export VENV='$HOME/.envs/jupyter_dask_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter/$SLURM_JOBID/'

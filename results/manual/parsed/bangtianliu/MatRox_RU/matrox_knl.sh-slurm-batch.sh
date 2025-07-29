@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PPoPP
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=PPoPP
+#SBATCH --account=TG-CCR180004
+#SBATCH --output=PPoPP.o%j
+#SBATCH --error=PPoPP.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=normal
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/ '
 export CMAKE_CXX_COMPILER='/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc'

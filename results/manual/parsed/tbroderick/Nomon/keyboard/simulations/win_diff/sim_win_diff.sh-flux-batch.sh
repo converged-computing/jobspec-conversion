@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemur-1316
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-nalgas-3812
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

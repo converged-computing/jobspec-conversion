@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hmsc-hpc_fit
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=4499
-#FLUX: --urgency=16
+#SBATCH --job-name=hmsc-hpc_fit
+#SBATCH --account=project_462000235
+#SBATCH --output=output/%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=01:14:59
+#SBATCH --partition=small-g
+#SBATCH --array=0-7
 
 export PYTHONPATH='$PWD/../../hmsc-hpc:$PYTHONPATH'
 

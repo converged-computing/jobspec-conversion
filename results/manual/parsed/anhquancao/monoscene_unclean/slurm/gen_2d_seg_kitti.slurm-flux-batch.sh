@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IoU
-#FLUX: -c=10
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#FLUX --job-name=IoU
+#FLUX -c=10
+#FLUX -t=71940
+#FLUX --urgency=16
 
 module purge
 conda deactivate

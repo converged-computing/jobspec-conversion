@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nanome.human_demo_hpc
-#FLUX: -n=4
-#FLUX: --queue=inference
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=nanome.human_demo_hpc
+#SBATCH --output=log/%x.%j.log
+#SBATCH --mail-user=yang.liu@jax.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=01:30:00
+#SBATCH --partition=inference
 
 set -e
 date; hostname; pwd

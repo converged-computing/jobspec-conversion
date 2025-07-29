@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tts8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=tts8
+#SBATCH --output=slurm_10_80000.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
 
 . /data/joohye/anaconda3/etc/profile.d/conda.sh
 conda activate torch37

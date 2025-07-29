@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=20
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=staff
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=20
+#SBATCH --time=00:15:00
+#SBATCH --partition=devel
 
 module load gcc/7.2.0 openmpi/2.1.1
 env > env.log

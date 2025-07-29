@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-parrot-0325
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=6144
+#SBATCH --time=01:00:00
+#SBATCH --partition=general
+#SBATCH --qos=short
 
 export WANDB_API_KEY='5627524443770cf7995a564065ff75a9522b1a48'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=roc
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=roc
+#SBATCH --output=roc_%A_%a.out
+#SBATCH --error=roc_%A_%a.err
+#SBATCH --mail-user=rhee@g.harvard.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16384
+#SBATCH --time=00:02:00
+#SBATCH --partition=shared
 
 module load centos6/0.0.1-fasrc01
 module load Anaconda/5.0.1-fasrc01

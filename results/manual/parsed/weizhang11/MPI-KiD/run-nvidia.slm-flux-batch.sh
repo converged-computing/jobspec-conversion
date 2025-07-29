@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pedo-6089
-#FLUX: --queue=ampere
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-cattywampus-5563
+#FLUX --queue=ampere
+#FLUX -t=2400
+#FLUX --urgency=16
 
 date
 srun ./bin/KiD_CU_2D.exe namelists/CU_2D.nml output/CU_2D_nvidia_org.nc

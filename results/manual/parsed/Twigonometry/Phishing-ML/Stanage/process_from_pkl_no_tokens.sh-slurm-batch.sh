@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=process_from_pkl_no_tokens
-#FLUX: -c=6
-#FLUX: --queue=gpu-h100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=process_from_pkl_no_tokens
+#SBATCH --output=process_from_pkl_no_tokens.log
+#SBATCH --mail-user=$EMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-h100
+#SBATCH --qos=gpu
 
 export TRANSFORMERS_CACHE='/mnt/parscratch/users/$USERNAME/cache'
 

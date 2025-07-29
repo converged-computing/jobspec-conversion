@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-puppy-8885
-#FLUX: -c=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=def-nilanjan
+#SBATCH --output=%x.out
+#SBATCH --mail-user=awwong1@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=0
+#SBATCH --time=00:10:00
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

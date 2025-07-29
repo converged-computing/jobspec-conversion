@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
+#FLUX --job-name=jobname
 #FLUX: --exclusive
-#FLUX: --queue=partition
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=partition
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -x
 CONTAINER="${CONTAINER:=ghcr.io/nvidia/t5x:vit-2023-07-21}"

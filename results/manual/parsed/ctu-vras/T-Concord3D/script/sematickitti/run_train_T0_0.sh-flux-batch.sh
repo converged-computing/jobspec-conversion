@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leopard-6002
-#FLUX: -c=6
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-kerfuffle-3388
+#FLUX -c=6
+#FLUX --queue=amdgpulong
+#FLUX -t=259200
+#FLUX --urgency=16
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1
 ml PyTorch-Geometric/2.0.2-foss-2021a-CUDA-11.3.1-PyTorch-1.10.0

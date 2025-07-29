@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pastry-3196
+#FLUX --job-name=expensive-salad-5975
 #FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'
 export PYTHONPATH='$root_dir"/dask:"$PYTHONPATH'

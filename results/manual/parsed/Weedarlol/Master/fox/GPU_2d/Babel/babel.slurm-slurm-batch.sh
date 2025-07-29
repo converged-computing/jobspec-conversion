@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Babel_${PARTITION}
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=${PARTITION}
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=Babel_${PARTITION}
+#SBATCH --output=output/Babel_${PARTITION}.out
+#SBATCH --error=error/Babel_${PARTITION}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=14:00:00
+#SBATCH --partition=${PARTITION}
+#SBATCH --constraint=ntasks-per-node=1
 
 PARTITION="$1"
 if [ "$PARTITION" == "hgx2q" ]; then

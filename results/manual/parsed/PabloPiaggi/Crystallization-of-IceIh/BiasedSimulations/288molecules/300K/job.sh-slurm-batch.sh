@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=288Mol
-#FLUX: -n=4
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=288Mol
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=40
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

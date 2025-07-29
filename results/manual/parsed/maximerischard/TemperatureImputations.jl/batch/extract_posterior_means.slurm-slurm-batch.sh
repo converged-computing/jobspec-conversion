@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=extract_posterior_means
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_posterior_means
+#SBATCH --mail-user=mrischard@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=01:00:00
+#SBATCH --partition=general
+#SBATCH --array=1-44
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

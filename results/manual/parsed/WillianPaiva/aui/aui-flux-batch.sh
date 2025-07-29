@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fork-5182
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-pancake-5325
+#FLUX --urgency=16
 

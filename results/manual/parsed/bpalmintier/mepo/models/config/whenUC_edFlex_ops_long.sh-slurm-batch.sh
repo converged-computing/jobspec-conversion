@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-4804
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whenUC_edFlex_ops_long.sh

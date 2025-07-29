@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=corrected-slab
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=corrected-slab
+#SBATCH --account=ddp381
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=16
 
 prefix=corrected-slab
 rtemp=298

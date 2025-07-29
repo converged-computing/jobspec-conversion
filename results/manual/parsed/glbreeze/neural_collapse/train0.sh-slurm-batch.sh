@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nc
-#FLUX: -c=2
-#FLUX: --queue=a100_1,a100_2,v100,rtx8000
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=nc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=80GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=a100_1,a100_2,v100,rtx8000
 
 ext3_path=/scratch/$USER/python36/python36.ext3
 sif_path=/scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif

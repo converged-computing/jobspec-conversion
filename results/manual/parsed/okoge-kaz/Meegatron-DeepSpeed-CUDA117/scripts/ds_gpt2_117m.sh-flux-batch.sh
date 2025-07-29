@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ds
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=ds
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

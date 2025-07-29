@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=analysis_project_name
-#FLUX: --queue=longq
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=analysis_project_name
+#FLUX --queue=longq
+#FLUX -t=57600
+#FLUX --urgency=16
 
 echo "======================"
 echo $SLURM_SUBMIT_DIR

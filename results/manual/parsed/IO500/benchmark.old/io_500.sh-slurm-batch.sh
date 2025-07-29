@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=512
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=IO-500
+#SBATCH --output=io_500_out_%J
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=512
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export duration='$(echo "scale=2; $end - $start" | bc)'
 export iops5='$( echo "$searched_files/$duration" |bc )'

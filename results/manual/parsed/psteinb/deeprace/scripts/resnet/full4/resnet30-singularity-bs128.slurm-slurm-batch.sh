@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-citrus-2886
-#FLUX: --queue=gpu2
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --output=resnet30-singularity-ngpu4.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8000
+#SBATCH --time=11:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

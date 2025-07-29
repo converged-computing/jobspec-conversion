@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-poo-1309
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cinnamonbun-6683
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load cuda cudnn hdf5 python/3.6.3
 source /home/smaslova/pytorch/bin/activate

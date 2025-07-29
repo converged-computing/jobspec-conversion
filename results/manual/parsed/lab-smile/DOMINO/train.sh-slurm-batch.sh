@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=4
-#FLUX: --queue=hpg-ai
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=%x_%j.log
+#SBATCH --mail-user=<Enter
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=90gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=hpg-ai
 
 module load singularity
 singularity exec --nv <Enter path to MONAI container>/monaicore081 python3 -c "import torch; print(torch.cuda.is_available())"

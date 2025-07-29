@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CubiAI_feedback
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=CubiAI_feedback
+#SBATCH --output=outputs/feedback-%A.out
+#SBATCH --error=outputs/feedback-%A.out
+#SBATCH --mail-user=sunniva.elisabeth.daae.steiro@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/$USER/ray'

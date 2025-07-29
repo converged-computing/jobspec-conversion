@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sampling_1_guided_cqt
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --job-name=sampling_1_guided_cqt
+#SBATCH --output=/scratch/work/%u/projects/ddpm/diffusion_summer_2022/sampling/sampling_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=1-23:59:59
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

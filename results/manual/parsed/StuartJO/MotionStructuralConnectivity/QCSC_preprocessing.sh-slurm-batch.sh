@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-1031
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=kg98
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-294%250
 
 export FSLSUB_LOCAL_RUN='YES'
 export FSLOUTPUTTYPE='NIFTI'

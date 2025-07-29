@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-milkshake-9905
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hakyimlab/gtex-miscellaneous-processing/src/badger_scripts/coloc/coloc.jinja

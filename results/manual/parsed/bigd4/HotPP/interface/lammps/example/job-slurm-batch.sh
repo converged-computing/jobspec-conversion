@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lamp-1792
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bigd4/HotPP/interface/lammps/example/job

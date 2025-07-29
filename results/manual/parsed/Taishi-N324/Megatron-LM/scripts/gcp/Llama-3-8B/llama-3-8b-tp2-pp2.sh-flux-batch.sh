@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llama-3-8b
-#FLUX: -N=2
+#FLUX --job-name=llama-3-8b
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: --urgency=16
+#FLUX --queue=a3
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostname $SLURM_JOB_NODELIST | head -n1)'
 export MASTER_PORT='$((10000 + ($SLURM_JOBID % 50000)))'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_thomasyamada_simulation
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_thomasyamada_simulation
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export NUM_JULIA_THREADS='`nproc`'
 

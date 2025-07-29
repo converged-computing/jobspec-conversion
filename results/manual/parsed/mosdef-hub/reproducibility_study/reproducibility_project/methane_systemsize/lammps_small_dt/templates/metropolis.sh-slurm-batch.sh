@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name={{ id }}
-#FLUX: --queue={{
-#FLUX: -t=719999
-#FLUX: --urgency=16
+#SBATCH --job-name={{ id }}
+#SBATCH --output=workspace/{{operations[0]._jobs[0]}}/job_%j.o
+#SBATCH --error=workspace/{{operations[0]._jobs[0]}}/job_%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=8-07:59:59
+#SBATCH --partition={{
+#SBATCH --nodelist={{
 
 {% extends "slurm.sh" %}
 {% block header %}

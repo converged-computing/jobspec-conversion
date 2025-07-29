@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_omp_example4
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=ccb
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_omp_example4
+#SBATCH --output=mpi_omp_example4.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:10:00
+#SBATCH --partition=ccb
+#SBATCH --constraint=ntasks-per-node=8,rome,ib
 
 module -q purge
 module -q load openmpi

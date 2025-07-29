@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-sundae-4700
-#FLUX: --queue=$PARTITION
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-gato-5340
+#FLUX --queue=$PARTITION
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load anaconda
 module load cuda/11.6.0

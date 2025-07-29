@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cattywampus-1769
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:15:00
 
 export PATH='/groups/esm/common/julia-1.3:$PATH'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cherry-4386
-#FLUX: --queue=jazayeri
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./slurm_logs/%A.out
+#SBATCH --mail-user=nwatters@mit.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:QUADRORTX6000:1
+#SBATCH --mem=80G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=jazayeri
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin  # Cuda driver'
 

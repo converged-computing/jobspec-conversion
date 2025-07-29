@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=<rN>.0.ABL
-#FLUX: -N=7
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#SBATCH --job-name=<rN>.0.ABL
+#SBATCH --output=log.0.solve
+#SBATCH --nodes=7
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=90G
+#SBATCH --time=3-12:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

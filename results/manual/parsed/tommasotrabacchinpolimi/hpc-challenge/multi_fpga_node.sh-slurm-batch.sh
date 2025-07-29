@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lemur-7695
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: -c=8
-#FLUX: --queue=fpga
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=p200301
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:05:00
+#SBATCH --partition=fpga
+#SBATCH --qos=default
+#SBATCH --constraint=ntasks-per-node=1
 
 module load ifpgasdk && module load 520nmx && module load CMake && module load intel && module load deploy/EasyBuild
 cd build

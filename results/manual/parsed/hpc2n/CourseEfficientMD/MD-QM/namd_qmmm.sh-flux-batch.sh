@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-arm-5294
-#FLUX: -n=28
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-itch-4203
+#FLUX -n=28
+#FLUX -t=3000
+#FLUX --urgency=16
 
 ml gaussian/16.C.01-AVX2
 ml GCC/9.3.0  OpenMPI/4.0.3

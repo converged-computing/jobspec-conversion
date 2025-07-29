@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-dog-9348
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-train-2576
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/tysweat0/.conda/envs/img2img/lib/python3.9/site-packages/nvidia/cublas/lib'
 

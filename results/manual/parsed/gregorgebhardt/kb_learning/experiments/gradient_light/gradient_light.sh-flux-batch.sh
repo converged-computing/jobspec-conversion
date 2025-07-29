@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gl_eval_height
-#FLUX: -n=24
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=gl_eval_height
+#FLUX -n=24
+#FLUX -c=8
+#FLUX -t=18000
+#FLUX --urgency=16
 
 source /home/yy05vipo/.virtenvs/gym/bin/activate
 cd /home/yy05vipo/git/kb_learning/experiments

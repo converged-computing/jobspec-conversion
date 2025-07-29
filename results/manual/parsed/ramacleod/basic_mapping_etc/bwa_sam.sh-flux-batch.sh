@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-toaster-4521
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-puppy-4580
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX --urgency=16
 
 RC=(*.collapsed.gz)
 R1=${RC[$SLURM_ARRAY_TASK_ID]%.collapsed.gz}.pair1.truncated.gz

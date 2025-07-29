@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pedo-2843
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-toaster-5337
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 steps=1000000

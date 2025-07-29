@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-1127
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/normal_synapses_sdf.pbs

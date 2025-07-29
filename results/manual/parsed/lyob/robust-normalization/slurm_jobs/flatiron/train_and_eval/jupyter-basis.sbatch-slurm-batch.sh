@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter_cpu
-#FLUX: -c=4
-#FLUX: --queue=genx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter_cpu
+#SBATCH --output=jupyter_cpu.out
+#SBATCH --error=jupyter_cpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=genx
 
 port=$(shuf -i 10000-65500 -n 1)
 /usr/bin/ssh -N -f -R $port:localhost:$port rusty1

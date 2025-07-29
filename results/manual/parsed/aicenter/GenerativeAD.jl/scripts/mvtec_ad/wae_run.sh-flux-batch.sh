@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-taco-1720
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-snack-9425
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 MAX_SEED=$1
 CATEGORY=$2

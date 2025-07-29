@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-milkshake-3012
-#FLUX: -N=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 cps=6
 spn=4

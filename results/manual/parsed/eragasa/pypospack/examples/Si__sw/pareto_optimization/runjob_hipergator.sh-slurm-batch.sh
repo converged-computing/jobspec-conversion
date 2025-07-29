@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Si_sw
-#FLUX: -n=64
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Si_sw
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3000mb
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=phillpot-b
 
 pwd; hostname; date
 module load intel/2016.0.109

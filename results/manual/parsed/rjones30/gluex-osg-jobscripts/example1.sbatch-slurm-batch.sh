@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=example1_job
-#FLUX: --queue=7452
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=example1_job
+#SBATCH --output=example1_job_%A_%a.out
+#SBATCH --error=example1_job_%A_%a.err
+#SBATCH --mail-user=richard.t.jones@uconn.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=7452
+#SBATCH --array=1-5
 
 echo Job started on `hostname` `date`
 src=/home/richard.uconn/gluex-osg-jobscripts

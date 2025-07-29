@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test-cpu
-#FLUX: -c=2
-#FLUX: --queue=rng-short
-#FLUX: -t=1200
-#FLUX: --urgency=15
+#SBATCH --job-name=test-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=00:20:00
+#SBATCH --partition=rng-short
+#SBATCH --qos=low
 
 if 0; then
     echo $NWORKERS

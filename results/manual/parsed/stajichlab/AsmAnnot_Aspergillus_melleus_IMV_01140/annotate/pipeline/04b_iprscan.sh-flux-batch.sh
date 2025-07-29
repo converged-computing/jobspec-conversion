@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-carrot-9922
-#FLUX: -n=32
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-lentil-3126
+#FLUX -n=32
+#FLUX --queue=intel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module unload miniconda2
 module load miniconda3

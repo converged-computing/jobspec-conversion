@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=paralleleMD
-#FLUX: -c=12
-#FLUX: --queue=True
-#FLUX: --urgency=16
+#SBATCH --job-name=paralleleMD
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --partition=True
+#SBATCH --constraint=ntasks-per-node=4
 
 module load fftw2/intel/float/2.1.5  #Not sure about that one  
 module load cuda/10.2                   

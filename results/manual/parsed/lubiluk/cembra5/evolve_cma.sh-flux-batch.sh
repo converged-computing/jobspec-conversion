@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evolve-cma
+#FLUX --job-name=evolve-cma
 #FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

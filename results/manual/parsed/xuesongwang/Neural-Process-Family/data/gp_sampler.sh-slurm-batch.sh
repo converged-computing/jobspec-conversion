@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-nalgas-9836
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=OD-228587
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module load pytorch/1.8.1-py39-cuda112-mpi
 source /scratch1/wan410/venv/bin/activate                                             # use the virtual environment

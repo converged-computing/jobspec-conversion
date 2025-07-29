@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lmeval_bloom7B
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=lmeval_bloom7B
+#FLUX -c=8
+#FLUX --queue=red,brown
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source activate lmeval # Not working???
 nvidia-smi

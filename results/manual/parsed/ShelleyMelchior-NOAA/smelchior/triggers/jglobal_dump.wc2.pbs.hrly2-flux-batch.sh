@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-salad-8804
-#FLUX: --urgency=16
+#FLUX --job-name=fat-caramel-0514
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ShelleyMelchior-NOAA/smelchior/triggers/jglobal_dump.wc2.pbs.hrly2

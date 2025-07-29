@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-blackbean-8490
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
 
 export DISABLE_TQDM='True'
 

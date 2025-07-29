@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=makesnps
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=makesnps
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LDr2='0.1'
 export PLINK2='singularity exec --home $PWD:/home /ess/p697/data/durable/s3-api/github/norment/ofrei_repo/2023_03_27/mixer.sif plink2'

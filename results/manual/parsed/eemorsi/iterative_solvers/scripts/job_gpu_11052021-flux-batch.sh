@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ITER_SOLVERS
+#FLUX --job-name=ITER_SOLVERS
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export nvcudadir='$nvhome/$target/$version/cuda'
 export nvcompdir='$nvhome/$target/$version/compilers'

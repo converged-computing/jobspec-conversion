@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bamgcbias
-#FLUX: -n=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bamgcbias
+#FLUX -n=24
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CONFIG=config.txt
 module unload python

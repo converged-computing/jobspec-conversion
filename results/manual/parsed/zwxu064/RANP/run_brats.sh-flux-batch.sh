@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=brats
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=brats
+#FLUX -t=7200
+#FLUX --urgency=16
 
 python train_brats.py \
 --dataset="brats" \

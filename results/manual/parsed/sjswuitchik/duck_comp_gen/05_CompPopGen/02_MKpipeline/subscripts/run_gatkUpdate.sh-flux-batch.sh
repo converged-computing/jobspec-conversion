@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gatkUpdate
-#FLUX: --queue=shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gatkUpdate
+#FLUX --queue=shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -o errexit
 source activate gatk

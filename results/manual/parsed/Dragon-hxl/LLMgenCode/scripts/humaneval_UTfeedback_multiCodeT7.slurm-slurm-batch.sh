@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=CODETpT_157
-#FLUX: -c=64
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=CODETpT_157
+#SBATCH --output=../log/humaneval_UTfeedback_PassRate_mix092_10_7b16k_pT_157.out
+#SBATCH --error=../log/humaneval_UTfeedback_PassRate_mix092_10_7b16k_pT_157.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=r8nv-gpu-hw
+#SBATCH --qos=gpu-normal
+#SBATCH --constraint=80G
+#SBATCH --nodelist=r8a100-c03
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

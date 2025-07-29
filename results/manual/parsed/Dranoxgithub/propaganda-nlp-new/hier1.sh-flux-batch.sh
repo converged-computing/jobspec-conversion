@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunk
-#FLUX: --queue=bhuwan
-#FLUX: --urgency=16
+#FLUX --job-name=chunk
+#FLUX --queue=bhuwan
+#FLUX --urgency=16
 
 export WANDB_PROJECT='debug'
 export WANDB_WATCH='all'

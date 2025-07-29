@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=t4l_cghg
-#FLUX: --queue=qgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=t4l_cghg
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=18
+#SBATCH --array=3
 
 echo "========= Job started  at `date` =========="
 source /comm/specialstacks/gromacs-volta/bin/modules.sh

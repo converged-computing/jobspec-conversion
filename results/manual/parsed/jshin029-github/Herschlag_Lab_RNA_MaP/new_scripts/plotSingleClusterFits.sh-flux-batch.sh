@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=plotSCF
-#FLUX: -c=18
-#FLUX: --queue=biochem,owners,normal
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=plotSCF
+#FLUX -c=18
+#FLUX --queue=biochem,owners,normal
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module load python/2.7.13
 source $py2env/bin/activate

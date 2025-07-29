@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=train-osmi
+#FLUX --queue=bii-gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 NAME=cloudmesh-nvidia
 PROJECT_DIR="$PROJECT/osmi"

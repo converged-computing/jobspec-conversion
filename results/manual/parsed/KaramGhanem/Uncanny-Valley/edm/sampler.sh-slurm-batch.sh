@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-squidward-7063
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --output=/network/scratch/k/karam.ghanem/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=48G
+#SBATCH --partition=main
 
 module load miniconda/3 cuda/11.7
 conda activate edm

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MH_Li
-#FLUX: -c=16
-#FLUX: --queue=short
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=MH_Li
+#FLUX -c=16
+#FLUX --queue=short
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'

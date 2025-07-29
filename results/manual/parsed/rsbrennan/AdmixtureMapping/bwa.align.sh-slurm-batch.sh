@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: -c=6
-#FLUX: --queue=med
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --output=errorout/array_job_out_%A_%a.txt
+#SBATCH --error=errorout/array_job_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=10000
+#SBATCH --partition=med
+#SBATCH --array=1-96
 
 lib=AC-1
 run=run-1

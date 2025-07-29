@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pancake-5305
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-omelette-9597
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/andim/evolimmune/figSIaltphases/submit_phases_pbs.sh

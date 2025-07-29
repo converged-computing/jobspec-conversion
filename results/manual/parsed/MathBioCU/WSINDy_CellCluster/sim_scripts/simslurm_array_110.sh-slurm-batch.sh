@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=multi_species_sim
-#FLUX: --queue=blanca-bortz
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=multi_species_sim
+#SBATCH --output=wsindy_sweep%A-%a.log
+#SBATCH --mail-user=dame8201@colorado.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --partition=blanca-bortz
+#SBATCH --qos=blanca-bortz
+#SBATCH --array=1-10
 
 ml purge
 module load matlab/R2019b

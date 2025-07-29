@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rico
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=rico
+#SBATCH --output=mhh-%j.out
+#SBATCH --error=mhh-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2021

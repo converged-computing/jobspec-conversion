@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=santacoder
-#FLUX: -N=2
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=santacoder
+#SBATCH --account=cnw@a100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

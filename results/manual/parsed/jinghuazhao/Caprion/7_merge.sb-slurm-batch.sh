@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_merge
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=_merge
+#SBATCH --account=PETERS-SL3-CPU
+#SBATCH --output=/home/jhz22/Caprion/analysis/METAL_dr/sentinels/slurm/_merge_%A_%a.o
+#SBATCH --error=/home/jhz22/Caprion/analysis/METAL_dr/sentinels/slurm/_merge_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=12:00:00
+#SBATCH --partition=icelake
+#SBATCH --array=1-987
 
 export TMPDIR='${HPC_WORK}/work'
 export analysis='~/Caprion/analysis'

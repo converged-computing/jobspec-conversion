@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chair-8591
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-blackbean-8519
+#FLUX -n=4
+#FLUX --urgency=16
 
 export WANDB_TAGS='${MODEL_NAME},${TASK_NAME}'
 

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-buttface-6933
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-toaster-1314
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -c=2
+#FLUX --queue=test
+#FLUX -t=600
+#FLUX --urgency=16
 
 GROUP='iqss_lab'
 if [ -z "$SCRATCH" ]; then

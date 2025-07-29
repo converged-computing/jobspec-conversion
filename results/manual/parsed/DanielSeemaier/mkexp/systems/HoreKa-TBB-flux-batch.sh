@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lizard-0130
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-pancake-5073
+#FLUX --urgency=16
 
 . "$script_pwd/../systems/Generic"
 HOREKA_OPENMPI_VERSION="4.0"

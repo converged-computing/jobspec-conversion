@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: --queue=vulcan
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=2
+#FLUX --queue=vulcan
+#FLUX -t=300
+#FLUX --urgency=16
 
 user=`whoami`
 cd /clusterfs/vulcan/pscratch/$user/taskfarmer/python

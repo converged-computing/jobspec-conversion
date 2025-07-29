@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DelSwitch
-#FLUX: -c=8
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=DelSwitch
+#SBATCH --output=/homedtic/gjimenez/DADES/DADES/Delineator/Logs/%A-%a.out
+#SBATCH --error=/homedtic/gjimenez/DADES/DADES/Delineator/Logs/%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=high
+#SBATCH --array=0-20
+#SBATCH --exclude=node0[19-21,25]
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 

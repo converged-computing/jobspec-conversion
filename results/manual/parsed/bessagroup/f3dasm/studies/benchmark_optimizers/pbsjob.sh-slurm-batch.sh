@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fudge-2815
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bessagroup/f3dasm/studies/benchmark_optimizers/pbsjob.sh

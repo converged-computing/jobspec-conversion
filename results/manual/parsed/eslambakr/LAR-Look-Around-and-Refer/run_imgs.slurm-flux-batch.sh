@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Nips_LAR_1_Imgaug_128_Nr3d_2048_cuda2_8gpus
-#FLUX: --queue=batch
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#FLUX --job-name=Nips_LAR_1_Imgaug_128_Nr3d_2048_cuda2_8gpus
+#FLUX --queue=batch
+#FLUX -t=131400
+#FLUX --urgency=16
 
 module load cuda/10.1.243
 module load gcc/6.4.0

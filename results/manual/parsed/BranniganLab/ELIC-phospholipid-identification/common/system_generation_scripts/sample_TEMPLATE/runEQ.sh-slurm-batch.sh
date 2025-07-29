@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=EQ_TEMPLATE
-#FLUX: -N=3
-#FLUX: -n=96
-#FLUX: --queue=cmain
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=EQ_TEMPLATE
+#SBATCH --output=starting.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6000
+#SBATCH --time=01:00:00
+#SBATCH --partition=cmain
 
 module purge
 module load gcc cuda mvapich2/2.2

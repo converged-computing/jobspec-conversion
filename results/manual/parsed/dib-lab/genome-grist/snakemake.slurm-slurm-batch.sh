@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gather-paper
-#FLUX: -c=32
-#FLUX: --queue=bmm
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=gather-paper
+#SBATCH --mail-user=titus@idyll.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=120000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=bmm
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate grist3

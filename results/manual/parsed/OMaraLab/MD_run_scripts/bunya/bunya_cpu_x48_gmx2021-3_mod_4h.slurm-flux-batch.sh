@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-fork-0808
-#FLUX: -c=48
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-butter-7137
+#FLUX -c=48
+#FLUX --queue=general
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load  gromacs/2021.3-foss-2021a
 module list

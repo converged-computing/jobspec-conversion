@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-underoos-6390
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=log/qqp/prompt_slurm_%j_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH: --exclusive
+#SBATCH --array=0-7
 
 set -e
 domain='rte'

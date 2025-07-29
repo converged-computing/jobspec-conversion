@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hippo-2737
-#FLUX: --urgency=16
+#FLUX --job-name=tart-signal-9899
+#FLUX --urgency=16
 
 qgmx () {
     echo '#!/bin/bash' > qgmx.sh

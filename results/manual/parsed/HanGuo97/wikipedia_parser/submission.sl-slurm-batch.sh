@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bicycle-1724
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=slurmOut
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20g
+#SBATCH --time=02:00:00
+#SBATCH --partition=general
+#SBATCH --array=0-215
 
 module load python
 pip3 install -r requirements.txt --user

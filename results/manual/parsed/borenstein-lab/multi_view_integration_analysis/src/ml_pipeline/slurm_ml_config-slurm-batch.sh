@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ml_efrat
-#FLUX: -c=5
-#FLUX: --queue=cpu-elbo
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ml_efrat
+#SBATCH --output=slurm_logs/slurm.%A.%a.out
+#SBATCH --error=slurm_logs/slurm.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu-elbo
+#SBATCH --array=0-10
 
 DATASETS=(
 crc_s3_s4_yachida_2019

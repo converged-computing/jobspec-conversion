@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-muffin-1990
-#FLUX: -c=8
-#FLUX: --queue=bii-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=350GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=bii-gpu
 
 module purge
 module load anaconda/2020.11-py3.8

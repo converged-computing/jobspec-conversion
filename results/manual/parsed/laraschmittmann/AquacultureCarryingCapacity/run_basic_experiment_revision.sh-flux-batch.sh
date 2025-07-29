@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=north-sea_oysters_basic-exp
-#FLUX: -n=123
-#FLUX: --queue=base
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=north-sea_oysters_basic-exp
+#FLUX -n=123
+#FLUX --queue=base
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc12-env/12.3.0 
 module load singularity/3.11.5

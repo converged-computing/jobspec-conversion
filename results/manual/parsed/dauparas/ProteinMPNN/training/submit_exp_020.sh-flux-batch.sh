@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-peanut-3164
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-lizard-2522
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 source activate mlfold-test
 python ./training.py \

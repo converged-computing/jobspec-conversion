@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sra_tools
-#FLUX: --queue=defq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=sra_tools
+#FLUX --queue=defq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 ml sra-tools/3.0.0
 sra_numbers=($(echo {1016570..1016671}))

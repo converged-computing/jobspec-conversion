@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=compute_seqs
-#FLUX: --queue=any_cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=compute_seqs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=any_cpu
+#SBATCH --exclude=n201
 
 export PATH='/net/pulsar/home/koes/dkoes/local/bin:$PATH'
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/:/net/pulsar/home/koes/dkoes/local/cuda-10.1/lib64:/net/pulsar/home/koes/dkoes/local/lib:/net/antonin/usr/local/cuda-10.0/lib64:/usr/lib64:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-10.0/lib64:/lib:$LD_LIBRARY_PATH'

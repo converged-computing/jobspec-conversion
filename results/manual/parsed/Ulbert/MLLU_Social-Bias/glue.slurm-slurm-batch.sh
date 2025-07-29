@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=glue-bert
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=glue-bert
+#SBATCH --output=/home/ma4759/%j_%x.out
+#SBATCH --error=/home/ma4759/%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
 
 export MODEL_NAME='bert-base-uncased'
 

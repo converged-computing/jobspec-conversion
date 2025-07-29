@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-plant-1916
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=llama2-70b_service.%j.out
+#SBATCH --error=llama2-70b_service.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a40
+#SBATCH --qos=llm
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 export MASTER_ADDR='$(hostname -I | awk '{print $1}')'

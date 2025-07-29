@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -n=4
-#FLUX: --queue=kilian
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=logs/train.o%j
+#SBATCH --error=logs/train.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1080ti:2
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=kilian
+#SBATCH --nodelist=harpo
 
 POINT_STYLE=default
 NUM_GPUS=2

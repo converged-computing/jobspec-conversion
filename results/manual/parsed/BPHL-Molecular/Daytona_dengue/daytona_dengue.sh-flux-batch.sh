@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Daytona_dengue
-#FLUX: -c=25
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=Daytona_dengue
+#FLUX -c=25
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load apptainer
 bash ./kraken2_viral.sh

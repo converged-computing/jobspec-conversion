@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-frito-0496
-#FLUX: -c=5
-#FLUX: --queue=small
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-cattywampus-6924
+#FLUX -c=5
+#FLUX --queue=small
+#FLUX -t=122400
+#FLUX --urgency=16
 
 set -ex
 NPROC=$(nproc)

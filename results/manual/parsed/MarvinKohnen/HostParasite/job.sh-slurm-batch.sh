@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=My_Copepod
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=My_Copepod
+#SBATCH --mail-user=janayaro@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=05:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=1
 
 ml palma/2022a
 ml Julia/1.8.2-linux-x86_64

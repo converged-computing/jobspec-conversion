@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SHA-LSTM
-#FLUX: --queue=gpu_shared
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=SHA-LSTM
+#FLUX --queue=gpu_shared
+#FLUX -t=216000
+#FLUX --urgency=16
 
 seed=$SLURM_ARRAY_TASK_ID
 fn="save/WIKI_$seed.pt"

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=KerrSF_job
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: --queue=knl
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=KerrSF_job
+#SBATCH --account=DIRAC-DP131-SL4-KNL
+#SBATCH --nodes=4
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=knl
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='8'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

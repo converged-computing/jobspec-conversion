@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fork-1708
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/01_separately/helios_gyom_launch_script_26893.sh

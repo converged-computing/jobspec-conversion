@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peas-3474
-#FLUX: --queue=all
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-pedo-6004
+#FLUX --queue=all
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Array Index: $SLURM_ARRAY_TASK_ID"
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1

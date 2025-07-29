@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-0709
-#FLUX: -c=5
-#FLUX: --queue=astro
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --mail-user=i.mawby1@lancaster.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:2
+#SBATCH --mem=150G
+#SBATCH --time=06:00:00
+#SBATCH --partition=astro
 
 source /etc/profile
 echo 'BEGIN'

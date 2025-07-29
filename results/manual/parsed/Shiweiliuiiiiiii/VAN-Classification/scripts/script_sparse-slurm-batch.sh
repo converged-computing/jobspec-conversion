@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-squidward-3079
-#FLUX: -c=72
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#SBATCH --output=dense_LK_with1x1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=4
+#SBATCH --time=2-23:59:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/shiweil/miniconda3/etc/profile.d/conda.sh
 source activate pt1.10_cuda11.3

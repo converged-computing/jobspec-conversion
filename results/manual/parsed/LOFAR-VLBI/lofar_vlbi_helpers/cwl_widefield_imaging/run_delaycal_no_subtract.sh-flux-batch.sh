@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-muffin-6244
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-bits-7904
+#FLUX --urgency=16
 
 export TOIL_SLURM_ARGS='--export=ALL --job-name delaycal -p normal'
 export SING_USER_DEFINED_PATH='$PTH'

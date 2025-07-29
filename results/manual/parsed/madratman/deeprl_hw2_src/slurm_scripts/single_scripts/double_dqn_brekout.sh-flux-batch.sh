@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-citrus-9284
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-staircase-0359
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 srun echo "I am on"
 srun echo $HOSTNAME

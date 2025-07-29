@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lin-rgb
-#FLUX: -c=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=lin-rgb
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --mem=75G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu_titanrtx
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

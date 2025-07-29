@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-soup-0593
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=./logs/%A.out
+#SBATCH --error=./logs/%A.err
+#SBATCH --mail-user=hvgazula@umich.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=192GB
+#SBATCH --time=03:00:00
 
 if [[ "$HOSTNAME" == *"tiger"* ]]
 then

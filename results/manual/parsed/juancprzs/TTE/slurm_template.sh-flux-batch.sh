@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet_SGV
-#FLUX: -c=2
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=ImageNet_SGV
+#FLUX -c=2
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source activate upd_pt
 nvidia-smi

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Task3
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Task3
+#SBATCH --output=Q_rocstories.out
+#SBATCH --error=Q_rocstories.err
+#SBATCH --mail-user=kangchen@fel.cvut.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_MCA_mpi_warn_on_fork='0 #disable MPI warnings'
 

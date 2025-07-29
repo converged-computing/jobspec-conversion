@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RayTune
-#FLUX: -c=80
-#FLUX: --gpus-per-task=1
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=RayTune
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 numHparams=4
 numGPU=1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cherry-4889
-#FLUX: -c=8
-#FLUX: --queue=grete:shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-puppy-4934
+#FLUX -c=8
+#FLUX --queue=grete:shared
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source activate sam
 python evaluate_amg.py -c /scratch/usr/nimanwai/micro-sam/checkpoints/vit_b/livecell_sam/best.pt \

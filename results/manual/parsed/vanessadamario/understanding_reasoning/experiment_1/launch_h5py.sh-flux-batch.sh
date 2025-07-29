@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=data10x
-#FLUX: --queue=normal
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#FLUX --job-name=data10x
+#FLUX --queue=normal
+#FLUX -t=6000
+#FLUX --urgency=16
 
 module add clustername/singularity/3.4.1
 singularity exec -B /om2:/om2 --nv path_to_singularity python3 \

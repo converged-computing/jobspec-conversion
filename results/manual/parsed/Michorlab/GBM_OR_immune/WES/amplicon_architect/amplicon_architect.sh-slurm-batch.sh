@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1_nextflow
-#FLUX: -n=64
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=1_nextflow
+#SBATCH --mail-user=aashna@ds.dfci.harvard.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256G
+#SBATCH --time=14-00:00:00
 
 export CONDA_PREFIX='/aashn//miniconda3'
 export CONDA_ROOT='/aashna/miniconda3'

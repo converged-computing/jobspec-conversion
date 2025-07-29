@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_lmtutor
-#FLUX: -c=16
-#FLUX: --queue=gpu-shared
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_lmtutor
+#SBATCH --account=ddp390
+#SBATCH --output=train-lmtutor.o%j.%N.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-1
 
 export CACHE_FOLDER='/scratch/'${USER}'/job_'${SLURM_JOBID}'
 

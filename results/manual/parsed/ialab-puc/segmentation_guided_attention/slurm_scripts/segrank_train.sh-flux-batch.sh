@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=segrank15-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=segrank15-rcnn
+#FLUX -c=4
+#FLUX --queue=ialab-high
+#FLUX -t=604800
+#FLUX --urgency=16
 
 pyenv/bin/python3 train.py  --model segrank \
 --max_epochs 40 \

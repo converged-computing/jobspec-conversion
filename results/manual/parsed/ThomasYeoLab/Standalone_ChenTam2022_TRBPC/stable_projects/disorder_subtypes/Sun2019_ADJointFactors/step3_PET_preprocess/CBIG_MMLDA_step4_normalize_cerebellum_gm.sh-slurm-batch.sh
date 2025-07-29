@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-sundae-6916
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ThomasYeoLab/Standalone_ChenTam2022_TRBPC/stable_projects/disorder_subtypes/Sun2019_ADJointFactors/step3_PET_preprocess/CBIG_MMLDA_step4_normalize_cerebellum_gm.sh

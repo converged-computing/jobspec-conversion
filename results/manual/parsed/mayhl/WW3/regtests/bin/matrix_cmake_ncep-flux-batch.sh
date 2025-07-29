@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-knife-8203
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-noodle-8203
+#FLUX --urgency=16
 
 usage ()
 {

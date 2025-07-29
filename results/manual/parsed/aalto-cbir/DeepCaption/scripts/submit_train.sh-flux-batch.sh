@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-taco-2334
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-onion-6568
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=180
+#FLUX --urgency=16
 
 module purge
 module load python-env/intelpython3.6-2018.3

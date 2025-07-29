@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-itch-4323
-#FLUX: -c=3
-#FLUX: --queue=normal
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-frito-1365
+#FLUX -c=3
+#FLUX --queue=normal
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load gaussian/16.C.01 ; echo 
 module load SciPy-bundle/2022.05-intel-2022a ; echo; echo 

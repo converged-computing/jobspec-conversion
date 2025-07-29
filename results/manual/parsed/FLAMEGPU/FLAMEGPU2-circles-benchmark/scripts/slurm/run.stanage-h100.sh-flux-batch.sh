@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-train-4109
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-bits-9093
+#FLUX -c=24
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

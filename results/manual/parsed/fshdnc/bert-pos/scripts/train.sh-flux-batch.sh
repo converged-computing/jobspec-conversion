@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bert-pos
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bert-pos
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: sbatch $0 MODEL_NAME LR"

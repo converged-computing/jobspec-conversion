@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lemur-4814
-#FLUX: --queue=a100_dev_q
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=a100_dev_q
+#SBATCH --constraint=ntasks-per-node=1
 
 module reset
 module load cuda11.2/toolkit #hopefully will be added to defaults soon

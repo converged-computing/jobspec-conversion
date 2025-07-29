@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifft-gtx1080
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gearshifft-gtx1080
+#SBATCH --output=gearshifft-gtx1080_array-%A_%a.out
+#SBATCH --error=gearshifft-gtx1080_array-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000M
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --array=1-2
 
 k=$SLURM_ARRAY_TASK_ID
 CURDIR=${HOME}/development/gearshifft

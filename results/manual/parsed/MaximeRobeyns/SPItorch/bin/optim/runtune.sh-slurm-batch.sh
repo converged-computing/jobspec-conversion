@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=san_tune
-#FLUX: -c=4
-#FLUX: --queue=cnu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=san_tune
+#SBATCH --output=san_tune.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=8
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=cnu
+#SBATCH --constraint=ntasks-per-node=1
 
 cd $SLURM_SUBMIT_DIR
 module load lang/python/anaconda/3.9.7-2021.12-tensorflow.2.7.0

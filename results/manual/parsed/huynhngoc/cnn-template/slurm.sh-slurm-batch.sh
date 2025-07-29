@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=msc_unet
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=msc_unet
+#SBATCH --output=outputs/unet-%A.out
+#SBATCH --error=outputs/unet-%A.out
+#SBATCH --mail-user=user.name@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
 
 module load singularity
 if [ $# -lt 3 ];

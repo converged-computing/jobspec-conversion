@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lentil-6308
-#FLUX: --queue=top6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=10:00:00
+#SBATCH --partition=top6
+#SBATCH --exclude=gpu23a,gpu23b,gpu23c,gpu23d
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH'
 export PATH='${PATH}:/usr/local/nvidia/bin:/usr/local/cuda/bin'

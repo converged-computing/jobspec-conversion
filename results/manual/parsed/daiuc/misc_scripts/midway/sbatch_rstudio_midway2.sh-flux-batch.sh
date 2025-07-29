@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rstudio
-#FLUX: -c=6
-#FLUX: --queue=broadwl
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#FLUX --job-name=rstudio
+#FLUX -c=6
+#FLUX --queue=broadwl
+#FLUX -t=129540
+#FLUX --urgency=16
 
 export SINGULARITYENV_USER='chaodai'
 export SINGULARITYENV_RSTUDIO_WHICH_R='${R_BIN}'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-8020
-#FLUX: --queue=valhalla
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=valhalla
+#SBATCH --qos=valhalla
+#SBATCH --constraint=ntasks-per-node=6
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

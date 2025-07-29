@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-salad-2230
-#FLUX: -n=24
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/myrun.o%j
+#SBATCH --error=./slurm/myrun.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 ntrain=
 ntest=

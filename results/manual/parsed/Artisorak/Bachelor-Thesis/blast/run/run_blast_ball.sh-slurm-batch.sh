@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blast_ball
-#FLUX: -c=24
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=blast_ball
+#SBATCH --output=slurm/blast_ball_output.txt
+#SBATCH --error=slurm/blast_ball_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=1024
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=1,EPYC_7742
 
 export OMP_NUM_THREADS='24'
 

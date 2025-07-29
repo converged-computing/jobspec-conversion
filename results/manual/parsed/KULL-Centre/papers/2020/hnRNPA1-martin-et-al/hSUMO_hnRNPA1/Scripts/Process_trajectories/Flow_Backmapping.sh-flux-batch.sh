@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hnRNPA1_backmapping
-#FLUX: --queue=sbinlab
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=hnRNPA1_backmapping
+#FLUX --queue=sbinlab
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export PATH='/lustre/hpc/sbinlab/software/miniconda3/bin:$PATH'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/lustre/hpc/sbinlab/software/miniconda3/lib:/groups/sbinlab/wyong/usr/local/PLUMED253/lib'

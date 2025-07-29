@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=firre_bidir
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=firre_bidir
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load samtools/1.8
 module load bedtools/2.28.0

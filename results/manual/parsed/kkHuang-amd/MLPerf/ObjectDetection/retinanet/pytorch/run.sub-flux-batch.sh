@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=retinanet
-#FLUX: --urgency=16
+#FLUX --job-name=retinanet
+#FLUX --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vasp
-#FLUX: -t=88200
-#FLUX: --urgency=16
+#FLUX --job-name=vasp
+#FLUX -t=88200
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/lib64/libpmi.so'
 

@@ -1,9 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=vec_press
-#FLUX: -c=8
-#FLUX: --queue=gpu-a100
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=vec_press
+#SBATCH --account=punim2039
+#SBATCH --output=/home/adidishe/EightK/out/vec_press_%a.out
+#SBATCH --error=/home/adidishe/EightK/out/vec_press_%a.err
+#SBATCH --mail-user=antoine.didisheim@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu-a100
+#SBATCH --chdir=/home/adidishe/EightK
+#SBATCH --array=9-9
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$LIGAND
+#FLUX --job-name=$LIGAND
 #FLUX: --exclusive
-#FLUX: --queue=publicgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=publicgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load cmake/cmake-3.15.4  cuda/cuda-10.2   intel/intel18   fftw/fftw3.3.8.i18  gcc/gcc-8

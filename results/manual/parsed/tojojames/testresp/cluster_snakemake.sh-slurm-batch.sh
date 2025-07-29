@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_array_job
-#FLUX: -c=4
-#FLUX: --queue=your_partition
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake_array_job
+#SBATCH --account=your_account
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=your_partition
+#SBATCH --array=1-10
 
 A Snakefile along with a Slurm cluster configuration that uses a Slurm array for job parallelization. This Snakefile will run multiple tasks in parallel using Snakemake and Slurm's `sbatch`:
 **Snakefile**:

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=16
-#FLUX: -N=2
-#FLUX: -n=40
-#FLUX: --queue=skx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=16
+#SBATCH --account=BHV-FSI-S
+#SBATCH --output=err.16.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=skx-dev
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='$PYTHONPATH":"$SW"/ShNAPr'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bactrian_bloom_7b_eval
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bactrian_bloom_7b_eval
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /l/users/haonan.li/mygit/CMMLU/src
 for i in {0..5}; do

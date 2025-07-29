@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=job_name_placeholder
-#FLUX: -n=12
-#FLUX: --queue=bigmem
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=job_name_placeholder
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=your_email@example.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=192G
+#SBATCH --time=05:00:00
+#SBATCH --partition=bigmem
 
 echo -n "scRNA-Seq QC Pipeline beginning at: "; date
 echo -n "scRNA-Seq cellranger Pipeline beginning at: "; date

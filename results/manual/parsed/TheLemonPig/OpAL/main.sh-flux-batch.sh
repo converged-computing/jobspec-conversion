@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=OpAL-Star
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=OpAL-Star
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo Master process running on `hostname`
 echo Directory is `pwd`

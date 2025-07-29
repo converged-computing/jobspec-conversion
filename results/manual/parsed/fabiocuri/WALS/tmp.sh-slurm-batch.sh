@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-salad-4370
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$SURFSARA_LIBRARY_PATH'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-2330
-#FLUX: --queue=slurm_priority
-#FLUX: -t=1209780
-#FLUX: --urgency=16
+#SBATCH --account=cmg
+#SBATCH --output=cuda_Training-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=14-00:03:00
+#SBATCH --partition=slurm_priority
+#SBATCH --qos=priority
 
 module load usermods
 module load user/cuda

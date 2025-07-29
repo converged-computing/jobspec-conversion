@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=infer_nriw_%j
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=infer_nriw_%j
+#SBATCH --output=logs/infer_nriw_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=node-[12]
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

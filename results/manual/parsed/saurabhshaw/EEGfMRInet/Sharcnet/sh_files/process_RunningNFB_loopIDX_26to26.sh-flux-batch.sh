@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lizard-8462
-#FLUX: -c=8
-#FLUX: -t=170
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-kerfuffle-4793
+#FLUX -c=8
+#FLUX -t=170
+#FLUX --urgency=16
 
 module load matlab
 cd /home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Sharcnet/sub_files

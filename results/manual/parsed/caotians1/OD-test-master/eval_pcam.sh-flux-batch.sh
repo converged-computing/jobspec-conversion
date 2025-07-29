@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-soup-3797
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-train-7716
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 PARRAY1=(0 1 2 3 4 5 6 7 8 9)
 for i in {0..10}

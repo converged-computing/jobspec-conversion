@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=d_eori
-#FLUX: -c=5
-#FLUX: --queue=ava_m.p
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=d_eori
+#FLUX -c=5
+#FLUX --queue=ava_m.p
+#FLUX -t=604800
+#FLUX --urgency=16
 
 pairs=("l2 cosine")
 item=${pairs[$SLURM_ARRAY_TASK_ID]}

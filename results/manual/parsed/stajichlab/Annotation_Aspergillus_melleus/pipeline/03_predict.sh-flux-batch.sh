@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-motorcycle-7417
-#FLUX: -n=24
-#FLUX: --queue=intel,batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=faux-banana-1098
+#FLUX -n=24
+#FLUX --queue=intel,batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

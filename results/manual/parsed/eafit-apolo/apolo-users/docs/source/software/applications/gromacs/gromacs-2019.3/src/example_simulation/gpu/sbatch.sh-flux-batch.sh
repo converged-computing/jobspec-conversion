@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gmx-GPU
-#FLUX: -c=4
-#FLUX: --queue=accel-2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=gmx-GPU
+#FLUX -c=4
+#FLUX --queue=accel-2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

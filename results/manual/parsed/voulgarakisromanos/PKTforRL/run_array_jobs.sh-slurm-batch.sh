@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --output=job_%A_%a.out
+#SBATCH --error=job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-8
 
 commands=(
     "julia --project=. src/scripts/train_student.jl --env Lift --run_name Lift_linear_mse_rep_001_no_1 --similarity_function linear --pre_steps 0 --repr_weight 0.01 --total_steps 30000"

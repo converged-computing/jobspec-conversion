@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ModelArray
-#FLUX: -c=32
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=ModelArray
+#FLUX -c=32
+#FLUX -t=604800
+#FLUX --urgency=16
 
 config=/PATH/TO/config
 source $config

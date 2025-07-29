@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fair
-#FLUX: --queue=pearl
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --job-name=fair
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=512G
+#SBATCH --time=00:07:00
+#SBATCH --partition=pearl
 
 MASTER=`/bin/hostname -s`
 echo $MASTER

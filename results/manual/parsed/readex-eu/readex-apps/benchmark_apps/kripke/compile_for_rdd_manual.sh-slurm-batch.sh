@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-sundae-8693
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=62000
+#SBATCH --time=00:30:00
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory --nocompiler $READEX_CXX'
 

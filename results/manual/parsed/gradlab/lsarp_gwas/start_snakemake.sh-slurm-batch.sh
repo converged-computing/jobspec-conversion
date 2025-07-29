@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-blackbean-5472
-#FLUX: --queue=cpu2021
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=snakemake.out
+#SBATCH --error=snakemake.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cpu2021
 
 mkdir -p logs/slurm
 snakemake --profile slurm --rerun-incomplete --latency-wait 90

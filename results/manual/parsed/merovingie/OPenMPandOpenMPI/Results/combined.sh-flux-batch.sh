@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-7462
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-signal-3301
+#FLUX -N=8
+#FLUX -n=8
+#FLUX -t=360
+#FLUX --urgency=16
 
 unset LD_PRELOAD
 module load openmpi4/gcc/4.0.5

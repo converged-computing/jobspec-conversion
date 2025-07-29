@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lemur-3135
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/heilrahc/jax_privacy_prune/scripts/jax_privacy.pbs

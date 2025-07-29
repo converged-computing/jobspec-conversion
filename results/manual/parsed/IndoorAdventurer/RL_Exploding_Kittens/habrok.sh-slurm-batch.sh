@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=drl😺
-#FLUX: -c=5
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=drl😺
+#SBATCH --mail-user=v.tonkes@student.rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
 
 module purge
 module load Python/3.10.8-GCCcore-12.2.0

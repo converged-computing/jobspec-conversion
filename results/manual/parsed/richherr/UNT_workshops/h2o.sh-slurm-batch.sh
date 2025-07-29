@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=h2o_arrayJob
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=h2o_arrayJob
+#SBATCH --output=h2o_arrayJob_%A_%a.out
+#SBATCH --error=h2o_arrayJob_%A_%a.err
+#SBATCH --mail-user=richherr@unt.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 source ~/conda.init
 conda activate h2oai

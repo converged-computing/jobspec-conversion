@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=N36T421b
-#FLUX: -N=473
-#FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=N36T421b
+#SBATCH --account=cmems
+#SBATCH --output=N36T421b.out
+#SBATCH --error=N36T421b.err
+#SBATCH --nodes=473
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=247000
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal256
+#SBATCH --qos=coper
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export QSUB_WORKDIR='`/bin/pwd`'
 export FORT_BUFFERED='yes'

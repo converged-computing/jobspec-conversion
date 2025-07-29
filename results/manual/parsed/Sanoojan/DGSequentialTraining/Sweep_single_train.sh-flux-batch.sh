@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dino_feat
-#FLUX: -c=60
-#FLUX: --queue=multigpu
-#FLUX: --urgency=16
+#FLUX --job-name=dino_feat
+#FLUX -c=60
+#FLUX --queue=multigpu
+#FLUX --urgency=16
 
 for command in delete_incomplete launch
    do

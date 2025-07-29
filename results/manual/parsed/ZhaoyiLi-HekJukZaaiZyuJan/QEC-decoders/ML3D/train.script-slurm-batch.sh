@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemon-3259
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/ladmon/ML3D/results/%A_%a_terminal.out
+#SBATCH --mail-user=ladmon@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-100
 
 export LIBRARY_PATH='$LIBRARY_PATH:~/libtensorflow2/lib'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:~/libtensorflow2/lib'

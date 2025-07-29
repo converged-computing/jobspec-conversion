@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phytooracle
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=phytooracle
+#SBATCH --account=lyons-lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=94
 
 export CCTOOLS_HOME='/home/u12/cosi/cctools-7.1.6-x86_64-centos7'
 export PATH='${CCTOOLS_HOME}/bin:$PATH'

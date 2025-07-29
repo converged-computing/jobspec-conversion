@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemur-8891
-#FLUX: -c=5
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:geforce_rtx_3090:1
+#SBATCH --mem=30G
 
 export MASTER_ADDR='0.0.0.0'
 export MASTER_PORT='8088'

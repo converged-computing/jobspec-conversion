@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=logical_fallacy_classifier
-#FLUX: -c=8
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=logical_fallacy_classifier
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10240
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=nodes
+#SBATCH --chdir=/cluster/raid/home/zhivar.sourati/logical-fallacy-identification/CBR
 
 echo $(pwd)
 nvidia-smi

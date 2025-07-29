@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemur-4363
-#FLUX: -c=4
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-underoos-2157
+#FLUX -c=4
+#FLUX --queue=medium
+#FLUX --urgency=16
 
 module purge
 module load singularity # loads "git" and "go" as well

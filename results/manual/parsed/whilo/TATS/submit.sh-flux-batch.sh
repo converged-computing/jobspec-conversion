@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-8144
-#FLUX: -N=2
-#FLUX: -t=15
-#FLUX: --urgency=16
+#FLUX --job-name=salted-dog-3964
+#FLUX -N=2
+#FLUX -t=15
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export WORLD_SIZE='8'

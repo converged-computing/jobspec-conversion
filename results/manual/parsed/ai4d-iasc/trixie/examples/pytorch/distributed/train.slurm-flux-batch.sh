@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch.distributed
-#FLUX: -N=2
-#FLUX: -c=6
+#FLUX --job-name=pytorch.distributed
+#FLUX -N=2
+#FLUX -c=6
 #FLUX: --exclusive
-#FLUX: --queue=TrixieMain
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=TrixieMain
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

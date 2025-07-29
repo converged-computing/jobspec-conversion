@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=8
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=8
+#FLUX --queue=general
+#FLUX --urgency=16
 
 export FOLD='4'
 export msin='ABDEFKT'

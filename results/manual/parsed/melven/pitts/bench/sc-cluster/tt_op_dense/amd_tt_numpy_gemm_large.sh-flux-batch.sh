@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-knife-9442
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=blank-puppy-1662
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='100M'
 

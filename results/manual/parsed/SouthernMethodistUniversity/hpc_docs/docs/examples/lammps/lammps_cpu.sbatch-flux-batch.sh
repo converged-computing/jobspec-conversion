@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=64
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX -n=64
+#FLUX --queue=dev
+#FLUX --urgency=16
 
 module purge                           # Unload all modules
 module load gcc lammps                 # Load LAMMPS

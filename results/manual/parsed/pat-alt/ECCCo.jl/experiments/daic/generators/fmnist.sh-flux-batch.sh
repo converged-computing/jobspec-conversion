@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Fashion MNIST - Grid (ECCCo)
-#FLUX: -n=40
-#FLUX: -c=10
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Fashion MNIST - Grid (ECCCo)
+#FLUX -n=40
+#FLUX -c=10
+#FLUX --queue=general
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

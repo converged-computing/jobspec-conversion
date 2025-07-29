@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vectors
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=vectors
+#SBATCH --output=/fsx/armel/vectors/logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --mem=11G
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_PROJECT='test'
 export HF_DATASETS_CACHE='/fsx/armel/.cache'

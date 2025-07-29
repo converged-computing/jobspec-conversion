@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-avocado-0073
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/OPM/LBPM/example/systems/summit/summit-test-1200g.lsf

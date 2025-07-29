@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lamp-3481
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-puppy-2782
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export PATH='/apps/gcc/9.3.0/gsl/2.6/bin:/apps/compilers/gcc/9.3.0/bin:/apps/libfuse/3.10.4/bin:/apps/ufrc/bin:/apps/screen/4.8.0/bin:/opt/slurm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/bin:/opt/dell/srvadmin/bin:/home/adamginsburg/bin'
 export PRODUCT_DIRECTORY='/orange/adamginsburg/ALMA_IMF/2017.1.01355.L/imaging_results/'

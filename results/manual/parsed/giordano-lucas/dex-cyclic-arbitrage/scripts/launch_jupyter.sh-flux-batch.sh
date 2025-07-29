@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ipython-trial2
+#FLUX --job-name=ipython-trial2
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load gcc mvapich2 py-tensorflow
 source opt/venv-gcc/bin/activate

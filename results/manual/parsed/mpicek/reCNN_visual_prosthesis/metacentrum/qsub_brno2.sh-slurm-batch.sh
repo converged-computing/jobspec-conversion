@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-1863
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mpicek/reCNN_visual_prosthesis/metacentrum/qsub_brno2.sh

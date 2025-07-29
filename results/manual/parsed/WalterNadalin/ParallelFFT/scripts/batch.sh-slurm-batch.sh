@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wanda_parallel_fft
-#FLUX: -N=8
-#FLUX: --queue=m100_usr_prod
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=wanda_parallel_fft
+#SBATCH --account=tra23_units
+#SBATCH --mail-user=walter.nadalin@studenti.units.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=246000
+#SBATCH --time=02:00:00
+#SBATCH --partition=m100_usr_prod
+#SBATCH --constraint=ntasks-per-node=32
 
 module purge
 module load spectrum_mpi

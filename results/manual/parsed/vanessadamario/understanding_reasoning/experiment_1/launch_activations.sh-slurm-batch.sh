@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ACT_half-sep_find
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ACT_half-sep_find
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=8GB,2G
+#SBATCH --array=0
+#SBATCH --exclude=node003,node023,node026,node022
 
 module add cluster/singularity/3.4.1
 hostname

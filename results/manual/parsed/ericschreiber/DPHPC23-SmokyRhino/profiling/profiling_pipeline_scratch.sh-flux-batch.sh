@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=profiling
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=profiling
+#FLUX -t=600
+#FLUX --urgency=16
 
 script="$1"
 config="$2"

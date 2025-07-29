@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=m-diff
-#FLUX: -c=4
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#FLUX --job-name=m-diff
+#FLUX -c=4
+#FLUX -t=21540
+#FLUX --urgency=16
 
 echo Loading Anaconda...
 module purge

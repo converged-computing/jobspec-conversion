@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-plant-6246
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/vlachvojta/bachelor_thesis_OMR/experiments/test_serr.sh

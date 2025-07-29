@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=certify_infer_minmax
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=certify_infer_minmax
+#SBATCH --output=out_%A_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-23:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 PATCH_SIZE=$1
 PATCH_STRIDE=$2

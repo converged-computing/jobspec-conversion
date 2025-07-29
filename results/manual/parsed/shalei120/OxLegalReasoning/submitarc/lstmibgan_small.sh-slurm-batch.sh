@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=LegalReasoning
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#SBATCH --job-name=LegalReasoning
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=htc
 
 module load gpu/cuda/9.2.148
 echo $PWD

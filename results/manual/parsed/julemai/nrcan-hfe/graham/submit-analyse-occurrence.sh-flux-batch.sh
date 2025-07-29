@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=analyse_occurence
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=analyse_occurence
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load StdEnv/2020 netcdf gcc/9.3.0 gdal/3.0.4

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=remote_eval
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=remote_eval
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load anaconda3/2022.10/gcc-11.2.0
 module load cuda/10.2.89/intel-19.0.3.199

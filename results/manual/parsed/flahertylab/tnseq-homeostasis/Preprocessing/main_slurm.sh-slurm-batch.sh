@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chienlab-tnseq-ba
-#FLUX: -n=12
-#FLUX: --queue=cpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=chienlab-tnseq-ba
+#SBATCH --output=logs/chienlab-tnseq-ba_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32gb
+#SBATCH --time=06:00:00
+#SBATCH --partition=cpu
 
 date;hostname;pwd
 module load miniconda/22.11.1-1

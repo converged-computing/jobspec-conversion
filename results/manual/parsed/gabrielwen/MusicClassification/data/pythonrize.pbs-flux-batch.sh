@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hippo-4963
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-fork-3182
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gabrielwen/MusicClassification/data/pythonrize.pbs

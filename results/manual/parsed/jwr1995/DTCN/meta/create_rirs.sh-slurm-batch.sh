@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hope-9732
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=jwravenscroft1@sheffield.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=1-00:00:00
 
 module load Anaconda3/5.3.0
 module load fosscuda/2019b  # includes GCC 8.3

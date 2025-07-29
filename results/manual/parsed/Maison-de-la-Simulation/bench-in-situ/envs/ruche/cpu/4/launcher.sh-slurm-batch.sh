@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bench_insitu
-#FLUX: -n=7
-#FLUX: -c=20
-#FLUX: --queue=cpu_short
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=bench_insitu
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=7
+#SBATCH --cpus-per-task=20
+#SBATCH --time=00:20:00
+#SBATCH --partition=cpu_short
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export OMP_PLACES='cores'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-dog-9861
-#FLUX: -N=2
-#FLUX: -n=60
-#FLUX: --queue=huce_intel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-butter-0526
+#FLUX -N=2
+#FLUX -n=60
+#FLUX --queue=huce_intel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load intel/19.0.5-fasrc01

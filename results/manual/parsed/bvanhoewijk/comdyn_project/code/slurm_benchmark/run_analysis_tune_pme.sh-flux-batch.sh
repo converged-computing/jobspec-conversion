@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-0253
-#FLUX: -c=48
+#FLUX --job-name=goodbye-cat-6281
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=rome
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

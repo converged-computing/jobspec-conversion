@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=atac2BigWig
-#FLUX: --queue=kellis
-#FLUX: --urgency=16
+#FLUX --job-name=atac2BigWig
+#FLUX --queue=kellis
+#FLUX --urgency=16
 
 export sample='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $1 }')'
 export celltype='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $2 }')'

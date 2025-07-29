@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=linalg_study
-#FLUX: -c=80
-#FLUX: --queue=compute1
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=linalg_study
+#SBATCH --output=outFile.%j.txt
+#SBATCH --error=errFile.%j.txt
+#SBATCH --mail-user=your_@email.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --time=00:05:00
+#SBATCH --partition=compute1
 
 echo "Starting job_linalg_study.slurm"
 module load anaconda3

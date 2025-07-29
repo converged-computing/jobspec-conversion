@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GradientBoostingRegressor
-#FLUX: -c=4
-#FLUX: -t=86710
-#FLUX: --urgency=16
+#SBATCH --job-name=GradientBoostingRegressor
+#SBATCH --output=logs/GradientBoostingRegressor.out
+#SBATCH --error=logs/GradientBoostingRegressor.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=1-00:05:10
 
  #for i in "${!SPECIES[@]}"; do sbatch GBR.sh "${SPECIES[i]}" "${TRAIT[i]}"; done
 SPECIES=$1

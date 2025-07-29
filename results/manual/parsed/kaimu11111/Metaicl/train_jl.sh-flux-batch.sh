@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=metaicl_train
-#FLUX: --queue=a100-4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=metaicl_train
+#FLUX --queue=a100-4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:512'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mhong/li003755/.conda/envs/metaicl/lib/'

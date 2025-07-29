@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fork-7424
-#FLUX: --queue=gpu_shared
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --mail-user=example@example.com
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu_shared
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

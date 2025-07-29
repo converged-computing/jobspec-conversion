@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark_summary
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark_summary
+#SBATCH --output=model_summary.out
+#SBATCH --error=model_summary.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
 
 export MPICC='mpicc'
 export MPICXX='mpicxx'

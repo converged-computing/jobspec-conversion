@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ensemble
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ensemble
+#SBATCH --account=def-gonzalez
+#SBATCH --output=slurm-ensemble-%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=05:00:00
+#SBATCH --array=1-31
 
 export JULIA_DEPOT_PATH='/project/def-gonzalez/mcatchen/JuliaEnvironments/COBees'
 export CLUSTER='true'

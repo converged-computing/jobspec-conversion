@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cupcake-5554
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-mango-3975
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Mele-Lab/2023_SingleCellEbolaLncRNAs_NatComms/nextflow_pipelines/00_CLUSTER_Nord3/06_SC_invivo_quantify.batch

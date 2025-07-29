@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=configureAndBuildTrilinos
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=configureAndBuildTrilinos
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128/'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128/'

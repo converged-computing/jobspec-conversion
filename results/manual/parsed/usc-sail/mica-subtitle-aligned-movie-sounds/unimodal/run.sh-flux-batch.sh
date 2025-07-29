@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leader-9375
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=arid-nalgas-7514
+#FLUX -c=20
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=install_conda
-#FLUX: -c=20
-#FLUX: --queue=centos7
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=install_conda
+#SBATCH --output=install_conda.%j.out
+#SBATCH --error=install_conda.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=centos7
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export CONDA_ENVS_PATH='/lustre/project/taw/Wu_analysis/conda_envs'
 export MINIWDL_CFG='/share/apps/centos7/anaconda3/2023.07/envs/miniwdl/miniwdl.cfg'

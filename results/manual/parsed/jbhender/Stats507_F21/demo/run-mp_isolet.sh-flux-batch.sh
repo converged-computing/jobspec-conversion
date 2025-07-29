@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mp_isolet-gb0
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=mp_isolet-gb0
+#FLUX -c=4
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 n_procs=4
 module load tensorflow

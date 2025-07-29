@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-staircase-3747
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ericotjo001/explainable_ai/wsolnbdt/pbsarxiv/commandfiles/xdeeplift_collect.pbs

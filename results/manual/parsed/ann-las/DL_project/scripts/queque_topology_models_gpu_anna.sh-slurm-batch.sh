@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-butter-4485
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ann-las/DL_project/scripts/queque_topology_models_gpu_anna.sh

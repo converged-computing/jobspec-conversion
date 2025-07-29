@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ibd2015_nkcell
-#FLUX: --queue=hns,owners,normal,whwong
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#FLUX --job-name=ibd2015_nkcell
+#FLUX --queue=hns,owners,normal,whwong
+#FLUX -t=45000
+#FLUX --urgency=16
 
 module unload matlab
 module load matlab/R2017b

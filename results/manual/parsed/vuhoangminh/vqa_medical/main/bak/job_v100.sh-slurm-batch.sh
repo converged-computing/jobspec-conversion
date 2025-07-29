@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-7003
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2018-3-406
+#SBATCH --output=%J_output.out
+#SBATCH --error=%J_error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=7-00:00:00
 
 export KERAS_BACKEND='tensorflow'
 export command='python train.py --path_opt options/tools/minhmul_att_train_2048.yaml'

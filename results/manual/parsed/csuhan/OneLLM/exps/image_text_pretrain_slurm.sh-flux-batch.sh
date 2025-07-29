@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-destiny-9534
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=16
-#FLUX: --queue={Partition
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-malarkey-1839
+#FLUX -N=2
+#FLUX -n=16
+#FLUX -c=16
+#FLUX --queue={Partition
+#FLUX --urgency=16
 
 srun python -u main_pretrain.py \
 --epochs 1 --dataset image \

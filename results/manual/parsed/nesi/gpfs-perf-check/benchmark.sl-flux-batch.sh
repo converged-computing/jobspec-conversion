@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IOR_Benchmark
-#FLUX: -n=16
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=IOR_Benchmark
+#FLUX -n=16
+#FLUX -t=2400
+#FLUX --urgency=16
 
 function cleanup {
     rm ${IOR_FILE}*

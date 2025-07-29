@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ConvGrainSize
-#FLUX: -n=4
-#FLUX: --queue=hebbe
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=ConvGrainSize
+#SBATCH --account=C3SE2017-1-8
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=hebbe
 
 . /apps/new_modules.sh
 module load intel

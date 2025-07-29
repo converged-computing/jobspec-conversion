@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=collective
-#FLUX: -N=8
-#FLUX: --urgency=16
+#SBATCH --job-name=collective
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=1
 
 export MLSYS_ROOT='${CURR_DIR}/../../..'
 export MADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

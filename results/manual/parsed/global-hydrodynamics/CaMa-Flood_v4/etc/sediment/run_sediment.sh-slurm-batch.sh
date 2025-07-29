@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-house-4714
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/global-hydrodynamics/CaMa-Flood_v4/etc/sediment/run_sediment.sh

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nunchucks-8872
-#FLUX: -c=10
-#FLUX: --queue=nlp
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10GB
+#SBATCH --time=11:30:00
+#SBATCH --partition=nlp
 
 export EXPERIMENT='CorpusR_MorphR_NeuralR_test'
 export SYSTEM_HYP='/home/ba63/gender-rewriting/rewrite/multi-step/logs/single_user/rewriting/$EXPERIMENT'

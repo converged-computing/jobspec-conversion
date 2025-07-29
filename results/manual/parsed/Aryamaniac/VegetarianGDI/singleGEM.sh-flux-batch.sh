@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GEM
-#FLUX: --queue=batch
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=GEM
+#FLUX --queue=batch
+#FLUX -t=518400
+#FLUX --urgency=16
 
 i=$SLURM_ARRAY_TASK_ID
 cd /scratch/as58810/ProjectFall2022

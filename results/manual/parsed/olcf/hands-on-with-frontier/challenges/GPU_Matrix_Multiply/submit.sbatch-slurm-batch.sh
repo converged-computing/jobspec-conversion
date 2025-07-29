@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dgemm
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=dgemm
+#SBATCH --account=TRN001
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
 
 module load PrgEnv-amd
 module load openblas

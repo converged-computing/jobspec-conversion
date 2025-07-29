@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=unnamed job
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=unnamed job
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

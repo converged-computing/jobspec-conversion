@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune_mfem
-#FLUX: -N=17
-#FLUX: --queue=regular
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=GPTune_mfem
+#SBATCH --account=m2957
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=17
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

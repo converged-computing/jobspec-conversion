@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_exp_1
-#FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm_exp_1
+#SBATCH --output=slurm_output/out_exp_1.out
+#SBATCH --error=slurm_output/err_exp_1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=general
+#SBATCH: --exclusive
+#SBATCH --array=1-159
 
 export SLURM_ARRAY_TASK_ID
 module load gcc/11.3.0

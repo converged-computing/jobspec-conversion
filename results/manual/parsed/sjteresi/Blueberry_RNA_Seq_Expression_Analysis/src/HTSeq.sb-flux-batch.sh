@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HTSeq
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=HTSeq
+#FLUX -c=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load Anaconda2/4.2.0

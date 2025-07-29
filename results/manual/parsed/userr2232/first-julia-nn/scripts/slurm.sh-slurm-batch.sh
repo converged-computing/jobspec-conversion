@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=HPO_CUDA
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --job-name=HPO_CUDA
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --constraint=ntasks-per-node=32
 
 module load cuda
 rm $(pwd)/db/first_julia_nn.db

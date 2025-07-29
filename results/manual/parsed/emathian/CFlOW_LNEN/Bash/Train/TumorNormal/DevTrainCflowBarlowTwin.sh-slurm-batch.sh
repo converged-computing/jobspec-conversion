@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=CFlowBT
-#FLUX: -c=3
-#FLUX: --queue=gpu_p2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=CFlowBT
+#SBATCH --account=uli@v100
+#SBATCH --output=CFlowBarlowTwinWresnet50_Dev.out
+#SBATCH --error=CFlowBarlowTwinWresnet50_Dev.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu_p2
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONUSERBASE='/gpfswork/rech/uli/ueu39kt/.local_base_timm'
 

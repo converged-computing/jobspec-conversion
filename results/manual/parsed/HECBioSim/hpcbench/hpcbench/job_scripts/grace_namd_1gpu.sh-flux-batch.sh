@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=$jobname
-#FLUX: --queue=gh
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=$jobname
+#FLUX --queue=gh
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='/users/robertwelch/miniforge3/bin:£PATH'
 

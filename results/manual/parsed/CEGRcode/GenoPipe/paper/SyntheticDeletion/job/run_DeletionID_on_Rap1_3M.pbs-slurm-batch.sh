@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-knife-3829
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CEGRcode/GenoPipe/paper/SyntheticDeletion/job/run_DeletionID_on_Rap1_3M.pbs

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-animal-0160
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-pedo-8430
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export TMPDIR='$SCRATCH'
 

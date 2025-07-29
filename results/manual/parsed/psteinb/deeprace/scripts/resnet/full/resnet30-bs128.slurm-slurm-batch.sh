@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-earthworm-4467
-#FLUX: --queue=gpu2
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=resnet30-bs128_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

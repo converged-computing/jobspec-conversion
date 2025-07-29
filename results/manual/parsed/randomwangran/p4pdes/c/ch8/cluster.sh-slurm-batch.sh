@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-toaster-3112
-#FLUX: -n=12
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --output=p4pdes.o.%j
+#SBATCH --mail-user=<USERNAME>@alaska.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
 
 ulimit -s unlimited
 ulimit -l unlimited

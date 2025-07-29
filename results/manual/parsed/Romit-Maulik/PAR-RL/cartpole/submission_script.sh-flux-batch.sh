@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-taco-1474
-#FLUX: --urgency=16
+#FLUX --job-name=fat-signal-9638
+#FLUX --urgency=16
 

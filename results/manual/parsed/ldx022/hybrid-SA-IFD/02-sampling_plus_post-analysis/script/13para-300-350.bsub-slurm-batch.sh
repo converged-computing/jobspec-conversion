@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cattywampus-5487
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ldx022/hybrid-SA-IFD/02-sampling_plus_post-analysis/script/13para-300-350.bsub

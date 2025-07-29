@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=inkid
-#FLUX: --urgency=16
+#FLUX --job-name=inkid
+#FLUX --urgency=16
 
 module load ccs/singularity
 if [ -z "$SLURM_ARRAY_TASK_ID" ]; then

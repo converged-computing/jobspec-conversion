@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pcba_reset
-#FLUX: -c=2
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=pcba_reset
+#FLUX -c=2
+#FLUX --queue=ampere
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export NCCL_P2P_DISABLE='1'
 export NCCL_IB_DISABLE='1'

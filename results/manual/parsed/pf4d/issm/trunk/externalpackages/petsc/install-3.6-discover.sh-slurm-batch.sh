@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=petscinstall
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=petscinstall
+#SBATCH --account=s1010
+#SBATCH --output=petscinstall.outlog
+#SBATCH --error=petscinstall.errlog
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --qos=debug
 
 export PATH='$PATH:.'
 export MPI_GROUP_MAX='64'

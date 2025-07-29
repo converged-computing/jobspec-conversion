@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=unzip_features
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=unzip_features
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50GB
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=10
 
 RUNDIR=$SCRATCH/imageCaptioning_run/dataset_check/run-${SLURM_JOB_ID/.*}
 mkdir -p $RUNDIR

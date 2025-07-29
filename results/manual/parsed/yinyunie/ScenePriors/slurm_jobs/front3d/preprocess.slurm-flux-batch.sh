@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess_bedroom
-#FLUX: -c=24
-#FLUX: --queue=submit
-#FLUX: --urgency=16
+#FLUX --job-name=preprocess_bedroom
+#FLUX -c=24
+#FLUX --queue=submit
+#FLUX --urgency=16
 
 date;hostname;pwd
 echo "Job Name = $SLURM_JOB_NAME"

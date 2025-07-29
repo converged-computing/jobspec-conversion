@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-20w_dynamic
-#FLUX: -n=21
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_14400f-20w_dynamic
+#SBATCH --output=/ceph/grid/home/sg7710/diploma/distributed-rendering-diploma/logs/%A.sbatch.qb_04vs_14400f-20w_dynamic.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=21
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=zen3
 
 export RUST_LOG='debug'
 

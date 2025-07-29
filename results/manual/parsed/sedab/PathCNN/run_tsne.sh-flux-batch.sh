@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=PathCNN_train
-#FLUX: --queue=gpu8_medium
-#FLUX: --urgency=16
+#FLUX --job-name=PathCNN_train
+#FLUX --queue=gpu8_medium
+#FLUX --urgency=16
 
 echo "Starting at `date`"
 echo "Job name: $SLURM_JOB_NAME JobID: $SLURM_JOB_ID"

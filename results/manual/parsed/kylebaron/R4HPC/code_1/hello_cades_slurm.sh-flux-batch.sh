@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=hello
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=10
+#FLUX --urgency=16
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'
 

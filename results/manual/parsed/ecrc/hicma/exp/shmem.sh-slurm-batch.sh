@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hicma-dev
-#FLUX: -c=32
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=hicma-dev
+#SBATCH --account=k1205
+#SBATCH --output=/project/k1205/akbudak/hicma-dev/exp/out/%j
+#SBATCH --error=/project/k1205/akbudak/hicma-dev/exp/err/%j
+#SBATCH --mail-user=kadir.akbudak@kaust.edu.sa
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:01:00
 
 export STARPU_CALIBRATE='0'
 

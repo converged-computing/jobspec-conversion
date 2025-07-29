@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sim
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=sim
+#SBATCH --mail-user=jd18380@bristol.ac.uk
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 export EXE='/bin/hostname'
 

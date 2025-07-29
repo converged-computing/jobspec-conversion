@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-snack-4182
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-cattywampus-9937
+#FLUX --urgency=16
 
 job_id=0
 py_map_creator=map_index_cf.py

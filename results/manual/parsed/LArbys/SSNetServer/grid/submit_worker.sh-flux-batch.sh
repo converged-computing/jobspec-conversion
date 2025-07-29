@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ssn_workers
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ssn_workers
+#FLUX -n=4
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-ssnetserver/singularity-ssnetserver-caffelarbys-cuda8.0.img
 WORKDIR=/usr/local/ssnetserver

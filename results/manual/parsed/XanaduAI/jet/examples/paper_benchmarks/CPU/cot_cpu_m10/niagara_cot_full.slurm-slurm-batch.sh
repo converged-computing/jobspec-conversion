@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cot_m10
-#FLUX: -n=80
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=cot_m10
+#SBATCH --nodes=1
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 export num_runs='10'
 export OMP_PROC_BIND='false '

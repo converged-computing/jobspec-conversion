@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pedo-9495
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-leg-8516
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load intel_pac/19.2.0_usm

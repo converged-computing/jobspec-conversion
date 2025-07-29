@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fudge-5475
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-avocado-3724
+#FLUX --queue=boost_usr_prod
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 

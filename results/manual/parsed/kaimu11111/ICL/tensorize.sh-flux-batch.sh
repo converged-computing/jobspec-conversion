@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=icl
-#FLUX: --queue=mhong
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=icl
+#FLUX --queue=mhong
+#FLUX -t=172800
+#FLUX --urgency=16
 
 METHOD=channel
 N_PREFIX=10

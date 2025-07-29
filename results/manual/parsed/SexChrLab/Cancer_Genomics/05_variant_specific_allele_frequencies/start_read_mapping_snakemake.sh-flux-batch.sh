@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-toaster-6946
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-omelette-2491
+#FLUX --queue=public
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source activate cancergenomics
 PERL5LIB=/packages/6x/vcftools/0.1.12b/lib/per15/site_perl

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IMU_Cost_Stats_Wanda
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=IMU_Cost_Stats_Wanda
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

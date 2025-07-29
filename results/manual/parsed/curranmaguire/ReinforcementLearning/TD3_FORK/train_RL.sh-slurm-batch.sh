@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TD3_FORK
-#FLUX: --queue=ug-gpu-small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TD3_FORK
+#SBATCH --output=TD3_FORK/myPythonJob.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ug-gpu-small
+#SBATCH --qos=short
 
 python3 -m venv RL_Kernel
 source /home2/cgmj52/ReinforcementLearning/RL_Kernel/bin/activate

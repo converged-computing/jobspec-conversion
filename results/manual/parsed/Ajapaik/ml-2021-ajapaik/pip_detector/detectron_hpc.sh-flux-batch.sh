@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=detectron2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=detectron2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load broadwell/gcc/9.2.0
 module load python/3.8.6

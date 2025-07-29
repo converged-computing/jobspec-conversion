@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bits-6512
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-punk-2736
+#FLUX -c=2
+#FLUX --queue=gpu_shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge all
 module load 2021

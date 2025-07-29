@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: -c=5
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=nvt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=1
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx'

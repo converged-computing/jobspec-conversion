@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --account=cheme_gpu
+#SBATCH --output=US-%j.out
+#SBATCH --error=US-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=TOP
+#SBATCH --constraint=ntasks-per-node=4
 
 export PATH='/home/zulissi/software/namd/Linux-x86_64-icc/:$PATH'
 

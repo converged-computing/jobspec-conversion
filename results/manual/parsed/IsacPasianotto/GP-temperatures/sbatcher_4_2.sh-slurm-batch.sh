@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GP_MASTER
-#FLUX: -c=128
-#FLUX: --queue=EPYC
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=GP_MASTER
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=450G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --no-requeue
+#SBATCH --nodelist=epyc001
 
 export DASK_WORKER_PROCESSES='128'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-house-3251
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-salad-5395
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/gcc/11.2.0/snos/lib64'
 export OMP_PLACES='threads'

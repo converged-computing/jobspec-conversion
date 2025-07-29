@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ondemand/sys/myjobs/basic_namd_parallel
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=ondemand/sys/myjobs/basic_namd_parallel
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:12:00
+#SBATCH: --exclusive
 
 module load intel/19.0.5  
 module load mvapich2/2.3.4

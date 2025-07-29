@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-house-0393
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sabrina-faria/breaking-simmetry-lotsizing/script_par128.sh

@@ -1,6 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lemur-8838
-#FLUX: --urgency=16
+#SBATCH --account=rwth0583
+#SBATCH --output=output.%J.txt
+#SBATCH --mail-user=annika.stein@rwth-aachen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=160G
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

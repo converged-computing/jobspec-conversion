@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=12
-#FLUX: --queue=normal12
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX -n=12
+#FLUX --queue=normal12
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

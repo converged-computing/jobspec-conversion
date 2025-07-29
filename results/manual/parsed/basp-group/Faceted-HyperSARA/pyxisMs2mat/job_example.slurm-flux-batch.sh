@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-salad-4788
-#FLUX: -c=36
+#FLUX --job-name=joyous-omelette-8192
+#FLUX -c=36
 #FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=standard
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MEQTREES_CATTERY_PATH='/work/sc004/shared/software/meqtrees-cattery/1.7.0'
 

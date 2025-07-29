@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=slim_R
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=slim_R
+#SBATCH --output=/data/users/tbehrens/InversionThesis/slim_output/slim_%j.o
+#SBATCH --error=/data/users/tbehrens/InversionThesis/errors_slim/error_slim_%j.e
+#SBATCH --mail-user=thomas.behrens@students.unibe.ch
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-3
 
 module load R/latest
 module load Development/gcc/9.2.1

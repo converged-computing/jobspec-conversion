@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rfmix
-#FLUX: --queue=normal,owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=rfmix
+#SBATCH --output=rfmix.baseline.%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal,owners
 
 if [ "$#" -lt 1 ]; then 
 	echo "usage: bash do_rf.sh input.vcf [out_prefix]"

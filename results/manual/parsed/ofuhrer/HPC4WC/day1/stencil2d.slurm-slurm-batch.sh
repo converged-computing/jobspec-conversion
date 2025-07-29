@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stencil2d.$USER
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=stencil2d.$USER
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

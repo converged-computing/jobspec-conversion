@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=blob_array
-#FLUX: -n=20
-#FLUX: --queue=atlas
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=blob_array
+#SBATCH --account=aphid_phylogenomics
+#SBATCH --output=blob_%A_%a.out
+#SBATCH --error=blob_%A_%a.err
+#SBATCH --mail-user=rebeclem@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=atlas
+#SBATCH --array=1-36
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p namelist.txt)
 t1=$(date +"%s")

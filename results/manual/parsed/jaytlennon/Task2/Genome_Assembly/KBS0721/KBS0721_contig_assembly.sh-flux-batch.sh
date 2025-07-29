@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-salad-2678
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-pedo-2501
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jaytlennon/Task2/Genome_Assembly/KBS0721/KBS0721_contig_assembly.sh

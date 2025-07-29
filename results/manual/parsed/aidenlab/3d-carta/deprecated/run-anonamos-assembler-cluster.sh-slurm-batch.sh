@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=${groupname}_reduce_${jname}
-#FLUX: --queue=$queue
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=${groupname}_reduce_${jname}
+#SBATCH --output=$debugDir/reduce-%j.out
+#SBATCH --error=$debugDir/reduce-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=$queue
 
 USAGE="
 *****************************************************

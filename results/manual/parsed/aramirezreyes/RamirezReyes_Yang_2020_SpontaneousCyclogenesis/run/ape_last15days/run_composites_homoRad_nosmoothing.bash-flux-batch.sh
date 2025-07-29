@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-soup-3876
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-peanut-6075
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='64'
 export TMPDIR='$SCRATCH'

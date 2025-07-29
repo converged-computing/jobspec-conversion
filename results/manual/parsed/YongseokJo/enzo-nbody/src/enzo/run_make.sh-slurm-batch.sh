@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=compile_Enzo
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=compile_Enzo
+#SBATCH --mail-user=g.kerex@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 pwd; hostname; date
 module add cuda

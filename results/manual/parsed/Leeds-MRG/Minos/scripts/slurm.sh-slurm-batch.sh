@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_minos_job
-#FLUX: -c=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=parallel_minos_job
+#SBATCH --output=logs/minos_batch-%A-%a.out
+#SBATCH --mail-user=gyrc@leeds.ac.uk
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2gb
+#SBATCH --time=00:15:00
 
 pwd; hostname; date
 echo "Running Minos task $SLURM_JOBID on $SLURM_CPUS_ON_NODE CPU cores"

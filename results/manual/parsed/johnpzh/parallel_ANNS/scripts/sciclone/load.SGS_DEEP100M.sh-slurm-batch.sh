@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-banana-6572
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/johnpzh/parallel_ANNS/scripts/sciclone/load.SGS_DEEP100M.sh

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-egg-5987
-#FLUX: -c=12
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=tmp/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=2000
+#SBATCH --time=00:30:00
+#SBATCH --partition=short
+#SBATCH --qos=short
+#SBATCH --constraint=xeon
+#SBATCH --array=10-31
 
 export OMP_PROC_BIND='true'
 

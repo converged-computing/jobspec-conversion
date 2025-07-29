@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test_romina
-#FLUX: -c=2
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=test_romina
+#SBATCH --output=test_romina_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --partition=cpu
+#SBATCH --array=19-21
 
 module load pytorch1.0-cuda9.0-python3.6
 . /h/abachiro/mjpro200-py.env

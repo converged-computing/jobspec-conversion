@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HSP90_1
-#FLUX: -c=96
-#FLUX: --queue=Cascade
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=HSP90_1
+#FLUX -c=96
+#FLUX --queue=Cascade
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-arm-3024
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/prep_loop_corr.sh

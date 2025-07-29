@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sample_job
-#FLUX: --queue=short
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=sample_job
+#FLUX --queue=short
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge all
 module load namd/2.14-openmpi-4.0.5-intel-19.0.5.281 

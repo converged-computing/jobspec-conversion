@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qec-test
-#FLUX: --queue=alvis
-#FLUX: -t=43800
-#FLUX: --urgency=16
+#SBATCH --job-name=qec-test
+#SBATCH --account=SNIC2020-33-2
+#SBATCH --output=./logs-sbatch/logs-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:10:00
+#SBATCH --partition=alvis
 
 IMAGE_WORKDIR=/surface-rl-decoder
 CLUSTER_WORKDIR=surface-rl-decoder

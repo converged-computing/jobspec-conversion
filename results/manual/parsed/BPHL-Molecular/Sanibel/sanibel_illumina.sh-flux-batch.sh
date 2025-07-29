@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sanibel
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sanibel
+#FLUX -c=20
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load nextflow
 APPTAINER_CACHEDIR=./

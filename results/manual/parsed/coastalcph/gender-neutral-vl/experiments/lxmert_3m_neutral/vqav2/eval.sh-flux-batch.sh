@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vqa_lxmert3m_neutral-eval
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=vqa_lxmert3m_neutral-eval
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$(builtin cd ..; pwd)'
 

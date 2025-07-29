@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-animal-3691
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/FAMILIAR-project/usampling-exp/analysis/usampling-reprocess/SPUR.sh

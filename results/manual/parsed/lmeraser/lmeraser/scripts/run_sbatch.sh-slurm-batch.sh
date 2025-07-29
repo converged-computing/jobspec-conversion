@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=your_job_name
-#FLUX: --queue=your_partition_name
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=your_job_name
+#SBATCH --output=your_job_name_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=102400
+#SBATCH --time=12:00:00
+#SBATCH --partition=your_partition_name
+#SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export MASTER_ADDR='localhost'

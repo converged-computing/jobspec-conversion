@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tpsci_cr2.jl
-#FLUX: --queue=normal_q
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=tpsci_cr2.jl
+#SBATCH --account=nmayhall_group
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=230GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal_q
 
 export NTHREAD='16'
 export JULIAENV='/home/arnab22/tpsci_bimetallic'

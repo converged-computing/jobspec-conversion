@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bike
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=bike
+#FLUX --queue=batch
+#FLUX -t=5400
+#FLUX --urgency=16
 
 conda activate /ibex/scratch/zhanc0c/projects/st_dense_gcn/env
 loss_values=( 'l1' )

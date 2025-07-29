@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-avocado-5357
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --exclude=nid00[2024-2055],nid00[2792-2823]
 
 export UWENV='/software/projects/pawsey0407/setonix/venv/py310/'
 export PATH='${UWENV}/bin/:$PATH'

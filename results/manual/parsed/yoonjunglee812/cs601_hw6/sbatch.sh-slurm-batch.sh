@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CS 601.471/671 homework6 3.1.2
-#FLUX: -N=2
-#FLUX: --queue=mig_class
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CS 601.471/671 homework6 3.1.2
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
+#SBATCH --partition=mig_class
+#SBATCH --constraint=ntasks-per-node=2
 
 module load anaconda 
 source ~/.bashrc

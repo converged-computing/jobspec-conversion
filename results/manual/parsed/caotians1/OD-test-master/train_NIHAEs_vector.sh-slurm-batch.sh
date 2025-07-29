@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-taco-1377
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
+#SBATCH --array=0-4
 
 PARRAY1=(NIHTrainAE.py NIHTrainAEBCE.py NIHTrainVAE.py NIHTrainVAEBCE.py NIHTrainALILikeAE.py NIHTrainALILikeAEBCE.py PADTrainALILikeVAE.py PADTrainALILikeVAEBCE.py)
 for i in {0..8}

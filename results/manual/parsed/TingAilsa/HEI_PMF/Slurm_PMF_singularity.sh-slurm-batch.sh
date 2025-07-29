@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pmf_noGUI_try
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pmf_noGUI_try
+#SBATCH --output=pmf_noGUI_try_%N_%j.out
+#SBATCH --error=pmf_noGUI_try_%N_%j.err
+#SBATCH --mail-user=tzhang23@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=1-150
 
 module load r  #will load default r version
 module load singularity

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moco_800ep
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=moco_800ep
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=64
+#SBATCH --mem=450G
+#SBATCH --time=2-22:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 

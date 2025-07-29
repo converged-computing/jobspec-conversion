@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: -n=24
-#FLUX: --queue=sgpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=gpu-job
+#FLUX -n=24
+#FLUX --queue=sgpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load cuda

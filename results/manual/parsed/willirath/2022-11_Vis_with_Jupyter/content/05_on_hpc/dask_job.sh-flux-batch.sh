@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dask_job
-#FLUX: -n=102
-#FLUX: -c=10
-#FLUX: --queue=cluster
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=dask_job
+#FLUX -n=102
+#FLUX -c=10
+#FLUX --queue=cluster
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load singularity/3.5.2
 CONTAINER_FILE="pangeo-notebook_2022.07.27.sif"

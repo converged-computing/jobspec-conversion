@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-punk-5416
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-noodle-2279
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/manateechen/wrf-chem.r13172/models/wrf_chem/run_scripts/RUN_REAL_TIME/real_time_parameters.ksh

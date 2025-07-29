@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiMD
-#FLUX: -n=32
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cSiaSiMD
+#FLUX -n=32
+#FLUX -c=2
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 export j='$SLURM_JOB_ID'

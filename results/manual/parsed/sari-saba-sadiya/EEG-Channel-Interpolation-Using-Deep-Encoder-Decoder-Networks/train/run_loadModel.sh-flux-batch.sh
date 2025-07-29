@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chair-8766
+#FLUX --job-name=tart-sundae-6633
 #FLUX: --exclusive
-#FLUX: --queue=sched_mit_rgmark
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --queue=sched_mit_rgmark
+#FLUX -t=345600
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

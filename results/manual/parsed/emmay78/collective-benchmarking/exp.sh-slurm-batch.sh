@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=nccl-benchmarking
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu,gpu_test
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nccl-benchmarking
+#SBATCH --output=/n/holyscratch01/idreos_lab/Users/%u/job_logs/%x-%j.out
+#SBATCH --error=/n/holyscratch01/idreos_lab/Users/%u/job_logs/%x-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu,gpu_test
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/n/home02/emyang/collective_benchmark
 
 export MASTER_PORT='12340'
 export WORLD_SIZE='2'

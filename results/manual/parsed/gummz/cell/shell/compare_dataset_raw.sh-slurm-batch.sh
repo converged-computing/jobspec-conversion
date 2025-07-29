@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pastry-8014
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/compare_dataset_raw.sh

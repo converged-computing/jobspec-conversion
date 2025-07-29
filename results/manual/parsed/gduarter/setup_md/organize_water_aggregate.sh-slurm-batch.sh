@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=${name1}
-#FLUX: -c=16
-#FLUX: --queue=int_medium
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=${name1}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=int_medium
 
 export OMP_NUM_THREADS='\$SLURM_CPUS_PER_TASK'
 

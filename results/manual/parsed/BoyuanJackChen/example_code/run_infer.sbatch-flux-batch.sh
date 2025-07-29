@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_infer
-#FLUX: --queue=nvidia
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#FLUX --job-name=run_infer
+#FLUX --queue=nvidia
+#FLUX -t=7199
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch/[your NetID]/huggingface_cache'
 

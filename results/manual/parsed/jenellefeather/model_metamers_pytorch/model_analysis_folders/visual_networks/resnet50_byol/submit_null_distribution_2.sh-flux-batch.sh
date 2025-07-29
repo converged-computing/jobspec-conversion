@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=null_2
-#FLUX: -c=20
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=null_2
+#FLUX -c=20
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

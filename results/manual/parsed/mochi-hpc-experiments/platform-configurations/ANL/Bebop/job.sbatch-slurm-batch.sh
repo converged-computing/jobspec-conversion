@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-spoon-6907
-#FLUX: -N=4
-#FLUX: --queue=bdwall
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=MY_PROJECT
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=bdwall
 
 export PSM2_MULTI_EP='1 # prevents conflict with MPI using PSM2'
 export FI_PSM2_DISCONNECT='1 # enables reconnection'

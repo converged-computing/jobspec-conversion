@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Extract driving data from bagfile
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Extract driving data from bagfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-5
 
 BAGS=(
     '2022-01-25-15-25-15_e2e_rec_vahi_forward.bag' \

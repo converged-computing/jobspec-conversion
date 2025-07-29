@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=an-cockrell
-#FLUX: -t=648000
-#FLUX: --urgency=16
+#SBATCH --job-name=an-cockrell
+#SBATCH --output=an-cockrell.out
+#SBATCH --mail-user=adam.knapp@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=7-12:00:00
 
 pwd; hostname; date
 module load python3

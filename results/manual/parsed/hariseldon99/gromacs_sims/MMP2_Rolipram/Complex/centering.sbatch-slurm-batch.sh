@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_centering
-#FLUX: --queue=CPU
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_centering
+#SBATCH --mail-user=telegram:5545394160
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=CPU
+#SBATCH --qos=normal
 
 export RUNTIME='$( echo "$end - $start" | bc -l )'
 

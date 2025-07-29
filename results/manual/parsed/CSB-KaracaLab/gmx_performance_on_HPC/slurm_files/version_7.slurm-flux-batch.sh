@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=akya_2020_pds_1gpu
-#FLUX: -n=40
-#FLUX: --queue=akya-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=akya_2020_pds_1gpu
+#FLUX -n=40
+#FLUX --queue=akya-cuda
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 

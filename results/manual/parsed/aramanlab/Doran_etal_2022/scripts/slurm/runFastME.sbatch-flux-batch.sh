@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=runFastME
-#FLUX: -c=10
-#FLUX: --queue=broadwl
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=runFastME
+#FLUX -c=10
+#FLUX --queue=broadwl
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load julia/1.7.2
 projdir="/scratch/midway2/bend/projects/Doran_etal_2022"

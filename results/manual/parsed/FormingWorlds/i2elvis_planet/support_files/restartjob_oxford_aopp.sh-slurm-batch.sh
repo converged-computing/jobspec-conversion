@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-banana-4956
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 prefix=${PWD##*/}
 echo "#!/bin/sh" >> submit.sh

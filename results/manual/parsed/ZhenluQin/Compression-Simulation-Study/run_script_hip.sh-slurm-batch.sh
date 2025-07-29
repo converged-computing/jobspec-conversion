@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=CSC331
+#SBATCH --output=test.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
 
 ml cmake
 ml adios2

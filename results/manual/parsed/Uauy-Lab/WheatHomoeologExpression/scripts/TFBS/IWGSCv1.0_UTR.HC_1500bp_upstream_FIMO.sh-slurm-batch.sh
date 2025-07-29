@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-3103
-#FLUX: -c=8
-#FLUX: --queue=RG-Cristobal-Uauy
-#FLUX: --urgency=16
+#SBATCH --output=./out_2018_03_12_12_03/run_logs/FIMO.%N.%j.out
+#SBATCH --error=./out_2018_03_12_12_03/run_logs/FIMO.%N.%j.err
+#SBATCH --mail-user=jemima.brinton@jic.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=100000
+#SBATCH --partition=RG-Cristobal-Uauy
 
 cd /nbi/Research-Groups/NBI/Cristobal-Uauy/Jemima/companion_paper/
 source meme-4.11.4

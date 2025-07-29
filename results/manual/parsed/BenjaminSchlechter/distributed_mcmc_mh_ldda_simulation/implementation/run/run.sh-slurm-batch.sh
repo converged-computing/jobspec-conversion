@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mcmcprobsat
-#FLUX: --urgency=16
+#SBATCH --job-name=mcmcprobsat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --constraint=ntasks-per-node=40
 
 echo "$ run.sh $@"
 date

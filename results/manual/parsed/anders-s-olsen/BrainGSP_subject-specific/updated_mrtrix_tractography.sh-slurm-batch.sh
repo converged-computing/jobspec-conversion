@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chip-7569
-#FLUX: --queue=physical
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --output=slurm/volumetric_tractography/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=14:00:00
+#SBATCH --partition=physical
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

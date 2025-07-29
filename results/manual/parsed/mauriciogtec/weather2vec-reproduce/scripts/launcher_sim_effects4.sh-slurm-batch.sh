@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=grated-mango-2562
-#FLUX: -c=8
-#FLUX: --queue=fasse_gpu
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/sim-effs4d.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=01:59:00
+#SBATCH --partition=fasse_gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-4
 
 source ~/.bashrc
 conda activate cuda116

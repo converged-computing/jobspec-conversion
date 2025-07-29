@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fastphase2csv
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=fastphase2csv
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=04:00:00
+#SBATCH --array=1
 
 cd /mnt/home/seguraab/Shiu_Lab/Collabs/Maize_GxE_Competition_Data/Training_Data
 tassel=/mnt/home/seguraab/Shiu_Lab/Project/External_software/tasseladmin-tassel-5-standalone-8b0f83692ccb

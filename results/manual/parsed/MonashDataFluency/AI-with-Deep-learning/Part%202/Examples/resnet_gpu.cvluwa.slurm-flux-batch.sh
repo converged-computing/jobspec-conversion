@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -n=3
-#FLUX: --queue=desktop
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch
+#FLUX -n=3
+#FLUX --queue=desktop
+#FLUX --urgency=16
 
 export EPOCHS='5'
 

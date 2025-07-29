@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-1380
-#FLUX: --exclusive
-#FLUX: --queue=sched_mit_rgmark
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=out/model_%a.out
+#SBATCH --error=er/model_%a.err
+#SBATCH --mail-user=sadiyasa@msu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=350G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=sched_mit_rgmark
+#SBATCH: --exclusive
+#SBATCH --array=1-10
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poodle-1153
-#FLUX: -n=32
-#FLUX: --queue=defq
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-bike-4426
+#FLUX -n=32
+#FLUX --queue=defq
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

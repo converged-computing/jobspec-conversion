@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RREMD-stage3
-#FLUX: -N=12
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=RREMD-stage3
+#FLUX -N=12
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export GMXLIB='/project/projects/def-plotkin/shared_projects:/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/gromacs/4.6.7/share/gromacs/top'
 

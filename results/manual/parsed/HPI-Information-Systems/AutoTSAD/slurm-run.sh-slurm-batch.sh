@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=AutoTSAD
-#FLUX: -c=2
-#FLUX: --queue=magic
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=AutoTSAD
+#SBATCH --account=naumann
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=12:00:00
+#SBATCH --partition=magic
+#SBATCH --constraint=ARCH:X86
 
 export AUTOTSAD__GENERAL__TMP_PATH='/tmp/sebastian.schmidl/tmp-${SLURM_JOBID}'
 export AUTOTSAD__GENERAL__RESULT_PATH='${HOME}/projects/holistic-tsad/results-${SLURM_JOBID}'

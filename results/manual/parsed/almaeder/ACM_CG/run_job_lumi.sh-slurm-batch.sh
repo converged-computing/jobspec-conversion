@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PASC_SRC
-#FLUX: -c=7
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=PASC_SRC
+#SBATCH --account=project_465000929
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=02:00:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)"     '
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)                                   '

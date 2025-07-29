@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=jobName
-#FLUX: -n=64
-#FLUX: --queue=bigmem
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=jobName
+#SBATCH --mail-user=email@ncl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=bigmem
 
 export NCELLSPERLF='16'
 export NPTS='100000'

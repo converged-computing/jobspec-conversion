@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buildpython
+#FLUX --job-name=buildpython
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MDY='`date +%m%d%y_$LETTER`'
 export MYDIR='/nopt/nrel/apps/pythons/${MDY}'

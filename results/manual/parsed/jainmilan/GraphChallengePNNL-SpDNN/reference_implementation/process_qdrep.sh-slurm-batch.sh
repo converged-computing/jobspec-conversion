@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=process_qdrep
-#FLUX: --queue=slurm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=process_qdrep
+#SBATCH --account=pacer
+#SBATCH --output=oresnet_train.txt
+#SBATCH --error=eresnet_train.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=slurm
 
 module load cuda/11.4
 i=0

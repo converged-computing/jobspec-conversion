@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-3563
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-hobbit-7392
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 conda activate ldm

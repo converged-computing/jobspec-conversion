@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-carrot-7157
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export OMP_NUM_THREADS='1'
 

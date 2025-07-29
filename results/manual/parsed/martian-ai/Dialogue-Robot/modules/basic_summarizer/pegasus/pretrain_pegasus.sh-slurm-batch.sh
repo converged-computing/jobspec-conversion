@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus-base_last
-#FLUX: -c=30
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus-base_last
+#SBATCH --output=%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:8
+#SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_PORT='$[RANDOM%10000+40000]'
 export PL_DEEPSPEED_CONFIG_PATH='$config_json'

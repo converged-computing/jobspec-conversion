@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=AD_libritts
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=AD_libritts
+#SBATCH --output=/mnt/home/slurmlogs/libritts/codec/AudioDec_libritts_24000.out
+#SBATCH --error=/mnt/home/slurmlogs/libritts/codec/AudioDec_libritts_24000.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=xxx
 
 autoencoder=autoencoder/symAD_libritts_24000_hop300
 statistic=statistic/symAD_libritts_24000_hop300_clean

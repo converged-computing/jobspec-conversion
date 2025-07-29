@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-salad-4964
-#FLUX: -n=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-lemon-0415
+#FLUX -n=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

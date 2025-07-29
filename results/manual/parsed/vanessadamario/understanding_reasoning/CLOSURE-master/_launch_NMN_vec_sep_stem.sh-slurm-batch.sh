@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vec_sep_NPS
-#FLUX: --queue=use-everything
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=vec_sep_NPS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=use-everything
+#SBATCH --constraint=8GB
+#SBATCH --array=0-4
 
 module add openmind/singularity/3.4.1
 hostname

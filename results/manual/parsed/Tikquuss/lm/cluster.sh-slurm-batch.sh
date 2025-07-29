@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=KABROLG
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=KABROLG
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=85G
+#SBATCH --time=00:12:00
+#SBATCH --partition=main
 
 module load cuda/10.1
 source ../lm/bin/activate

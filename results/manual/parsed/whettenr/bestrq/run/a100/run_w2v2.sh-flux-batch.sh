@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=brqb
-#FLUX: -c=16
+#FLUX --job-name=brqb
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load pytorch-gpu/py3/2.0.1
 conda activate bestrqenv

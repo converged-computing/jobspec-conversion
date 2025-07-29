@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-egg-4876
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-egg-9558
+#FLUX --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

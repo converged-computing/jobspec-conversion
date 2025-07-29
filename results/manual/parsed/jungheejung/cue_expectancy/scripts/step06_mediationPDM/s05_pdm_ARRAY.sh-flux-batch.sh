@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=med
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=med
+#FLUX -c=8
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CANLABCORE_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/CanlabCore/CanlabCore'"
 SPM12_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/spm12'"

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pre-process-model-training-gpu-prod
-#FLUX: -c=4
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pre-process-model-training-gpu-prod
+#SBATCH --account=fc_control
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:GTX2080TI:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio3_gpu
 
 module load python gcc opencv cmake
 pip install --user --upgrade pip setuptools wheel && pip install --user -r ~/curb-monitor/requirements.txt

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=uno-gpu-rivanna
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=uno-gpu-rivanna
+#SBATCH --output=outputs/%u-%j.out
+#SBATCH --error=outputs/u%-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=00:40:00
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='/project/bii_dsc_community/$USER/uno'

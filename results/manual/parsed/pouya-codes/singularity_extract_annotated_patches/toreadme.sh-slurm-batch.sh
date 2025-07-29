@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Patch
-#FLUX: --queue=upgrade
-#FLUX: --urgency=16
+#SBATCH --job-name=Patch
+#SBATCH --output=path/to/folder/%a.out
+#SBATCH --error=path/to/folder/%a.err
+#SBATCH --mail-user=<email>
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=upgrade
+#SBATCH --chdir=/projects/ovcare/classification/singularity_modules/singularity_extract_annotated_patches
+#SBATCH --array=1-<num_slides>
 
 echo """# Extract Annotated Patches
 \`\`\`

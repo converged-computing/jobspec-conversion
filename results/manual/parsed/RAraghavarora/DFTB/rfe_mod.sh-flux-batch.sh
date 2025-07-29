@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=keras_rfe
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=keras_rfe
+#FLUX -n=8
+#FLUX --queue=gpu2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

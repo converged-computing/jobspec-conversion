@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=filter
-#FLUX: --queue=ibismini
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=filter
+#SBATCH --output=log-filter.out
+#SBATCH --mail-user=type_your_mail@ulaval.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50000
+#SBATCH --time=00:20:00
+#SBATCH --partition=ibismini
+#SBATCH --chdir=./
 
 cd $SLURM_SUBMIT_DIR
 TIMESTAMP=$(date +%Y-%m-%d_%Hh%Mm%Ss)

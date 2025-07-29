@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=TORCH-GPU
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=TORCH-GPU
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

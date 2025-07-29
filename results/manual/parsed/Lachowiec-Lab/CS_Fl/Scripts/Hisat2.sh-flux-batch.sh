@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HiSat2
-#FLUX: -c=120
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=HiSat2
+#FLUX -c=120
+#FLUX --queue=priority
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ~/.bashrc
 module load Anaconda3/2022.05

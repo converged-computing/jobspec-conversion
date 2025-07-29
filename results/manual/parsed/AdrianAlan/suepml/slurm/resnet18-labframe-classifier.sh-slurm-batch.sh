@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=suepml2
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=suepml2
+#SBATCH --output=/home/ap6964/suepml/logs/job2.log
+#SBATCH --mail-user=ap6964@princeton.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8G
+#SBATCH --time=09:00:00
 
 module load anaconda3/2021.11
 conda activate solaris

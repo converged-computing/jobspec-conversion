@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-butter-5318
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-bike-3030
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/arokem/app-dipy-AFQ/submit.pbs

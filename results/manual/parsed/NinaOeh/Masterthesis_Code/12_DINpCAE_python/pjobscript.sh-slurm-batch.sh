@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-parrot-7479
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NinaOeh/Masterthesis_Code/12_DINpCAE_python/pjobscript.sh

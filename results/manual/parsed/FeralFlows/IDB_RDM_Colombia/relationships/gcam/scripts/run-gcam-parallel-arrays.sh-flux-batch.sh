@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leader-0414
-#FLUX: -c=3
-#FLUX: -t=300000
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-parrot-4019
+#FLUX -c=3
+#FLUX -t=300000
+#FLUX --urgency=16
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

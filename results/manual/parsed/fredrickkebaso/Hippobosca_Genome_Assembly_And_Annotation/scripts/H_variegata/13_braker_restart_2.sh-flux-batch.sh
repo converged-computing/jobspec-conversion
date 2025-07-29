@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-banana-4539
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-muffin-2313
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fredrickkebaso/Hippobosca_Genome_Assembly_And_Annotation/scripts/H_variegata/13_braker_restart_2.sh

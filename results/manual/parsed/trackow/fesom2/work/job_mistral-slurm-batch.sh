@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fesom2.0
-#FLUX: -n=7560
-#FLUX: --queue=compute2,compute
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=fesom2.0
+#SBATCH --account=ab0995
+#SBATCH --output=slurm-out.out
+#SBATCH --error=slurm-err.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=7560
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=compute2,compute
+#SBATCH --constraint=ntasks-per-node=36
 
 export I_MPI_FABRICS='shm:dapl'
 export I_MPI_FALLBACK='disable'

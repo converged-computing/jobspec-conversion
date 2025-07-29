@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=flex
-#FLUX: --queue=serial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=flex
+#SBATCH --output=./txt/output%j.txt
+#SBATCH --error=./txt/error%j.txt
+#SBATCH --mail-user=diego.aliaga@helsinki.fi
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=01:00:00
+#SBATCH --partition=serial
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'
 export WRFIO_NCD_LARGE_FILE_SUPPORT='1'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tools
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tools
+#SBATCH --output=tools.eo%j
+#SBATCH --error=tools.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 ulimit -c 0
 ulimit -s unlimited

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=script2
-#FLUX: --queue=cpu-compute-spot
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=script2
+#FLUX --queue=cpu-compute-spot
+#FLUX -t=300
+#FLUX --urgency=16
 
 date;hostname;pwd
 source activate test

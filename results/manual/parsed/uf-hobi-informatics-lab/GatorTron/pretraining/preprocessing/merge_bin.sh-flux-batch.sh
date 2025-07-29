@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_preprocess
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=megatron_preprocess
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=hpg-ai
+#FLUX -t=43200
+#FLUX --urgency=16
 
 pwd; hostname; date
 CONTAINER=./containers/pytorch.sif # a container has no megatron and nemo installed

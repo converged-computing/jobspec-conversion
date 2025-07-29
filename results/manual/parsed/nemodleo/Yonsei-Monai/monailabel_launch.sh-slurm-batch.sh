@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bits-4177
-#FLUX: -c=4
-#FLUX: --queue=bc-mig
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=bc-mig
 
 squeue -u $USER > no_jobs.txt
 back=`wc -l no_jobs.txt`

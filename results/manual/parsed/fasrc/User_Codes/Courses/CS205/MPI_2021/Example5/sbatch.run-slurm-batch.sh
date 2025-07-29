@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=planczos
-#FLUX: -n=8
-#FLUX: --queue=test
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=planczos
+#SBATCH --output=planczos.out
+#SBATCH --error=planczos.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:20:00
+#SBATCH --partition=test
 
 PRO=planczos
 module load gcc/10.2.0-fasrc01 openmpi/4.1.1-fasrc01

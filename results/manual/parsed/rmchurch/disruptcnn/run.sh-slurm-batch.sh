@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chair-0261
-#FLUX: -N=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200gb
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 export CUDA_LAUNCH_BLOCKING='0'
 

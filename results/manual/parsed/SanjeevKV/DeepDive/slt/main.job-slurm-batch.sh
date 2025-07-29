@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-carrot-4037
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=10GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load gcc/8.3.0

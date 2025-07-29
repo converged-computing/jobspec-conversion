@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-chip-6086
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cdglissov/recurrent-flows-msc/Temporary%20code/RFN/job_rfn.sh

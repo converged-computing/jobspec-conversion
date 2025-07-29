@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parrot-6169
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/azton/genomic-megatron/examples/run_bert_SL65536.sub

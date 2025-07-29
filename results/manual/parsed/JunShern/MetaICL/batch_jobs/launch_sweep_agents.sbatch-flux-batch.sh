@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_job
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sweep_job
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 USERDIR=/home/jc11431
 module purge

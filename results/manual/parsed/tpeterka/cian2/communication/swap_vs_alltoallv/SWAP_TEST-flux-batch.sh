@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-8379
-#FLUX: --urgency=16
+#FLUX --job-name=red-earthworm-3685
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tpeterka/cian2/communication/swap_vs_alltoallv/SWAP_TEST

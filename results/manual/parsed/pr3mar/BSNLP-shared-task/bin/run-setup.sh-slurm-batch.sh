@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NER-BERT-setup
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=NER-BERT-setup
+#SBATCH --output=logs/NER-BERT-setup-%J.out
+#SBATCH --error=logs/NER-BERT-setup-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:05:00
 
 set -euo pipefail
 CONTAINER_IMAGE_PATH="$PWD/containers/pytorch-image-new.sqfs"

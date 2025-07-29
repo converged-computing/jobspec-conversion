@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run-ior-benchmark
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=run-ior-benchmark
+#SBATCH --account=crl155
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=243G
+#SBATCH --time=00:05:00
+#SBATCH --partition=compute
+#SBATCH --qos=normal-eot
+#SBATCH --constraint=ntasks-per-node=4
 
 declare -xr LUSTRE_PROJECTS_DIR="/expanse/lustre/projects/${SLURM_JOB_ACCOUNT}/${USER}"
 declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/${USER}/temp_project"

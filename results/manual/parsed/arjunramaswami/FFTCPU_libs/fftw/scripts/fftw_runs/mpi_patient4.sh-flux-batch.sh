@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_patient
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=all
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_patient
+#FLUX -N=2
+#FLUX -n=4
+#FLUX --queue=all
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_PLACES='cores     '
 export OMP_PROC_BIND='close'

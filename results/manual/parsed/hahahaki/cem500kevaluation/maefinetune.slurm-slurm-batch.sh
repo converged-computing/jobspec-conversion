@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=unetrrandomfinetune
-#FLUX: -c=6
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=unetrrandomfinetune
+#SBATCH --output=/home/codee/scratch/sourcecode/cem-dataset/evaluation/unetrfinetune_%j_%N.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=127000M
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/3.10
 virtualenv --no-download $SLURM_TMPDIR/env

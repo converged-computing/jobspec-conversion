@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-despacito-4960
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=ucb1_summit3
+#SBATCH --output=/scratch/summit/holtat/exa_slurm_output/hcs_200k_ws_%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

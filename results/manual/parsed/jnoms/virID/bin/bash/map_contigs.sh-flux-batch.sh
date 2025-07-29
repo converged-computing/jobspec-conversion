@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lizard-0633
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=confused-kerfuffle-6750
+#FLUX -c=2
+#FLUX --queue=priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load gcc
 module load samtools

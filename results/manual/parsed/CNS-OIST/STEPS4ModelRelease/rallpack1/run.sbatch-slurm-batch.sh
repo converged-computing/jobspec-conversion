@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-sundae-2588
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH: --exclusive
+#SBATCH --array=[1]
 
 export PYTHONPATH='`spack find --paths /$SPACK_INSTALLED_HASH | tail -n 1 | grep -o "/.*"`:$PYTHONPATH'
 

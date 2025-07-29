@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-4264
-#FLUX: --urgency=16
+#FLUX --job-name=arid-diablo-0854
+#FLUX --urgency=16
 
 MODIFIER="$1"
 GPUTYPE="$2"

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-train-6558
-#FLUX: -c=20
-#FLUX: --queue=xeon-g6-volta
-#FLUX: -t=2880
-#FLUX: --urgency=16
+#SBATCH --output=logs/moebert_tuning/out_%A_%a.txt
+#SBATCH --error=logs/moebert_tuning/err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=00:48:00
+#SBATCH --partition=xeon-g6-volta
+#SBATCH --constraint=xeon-g6,ntasks-per-node=1
+#SBATCH --array=1-3
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export GPUS_PER_NODE='2'

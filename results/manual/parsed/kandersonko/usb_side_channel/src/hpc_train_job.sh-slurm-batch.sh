@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leopard-3184
-#FLUX: --queue=gpu-long
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=jobs/sweep_%A_%a.stdout
+#SBATCH --error=jobs/sweep_%A_%a.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu-long
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

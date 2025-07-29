@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Ag-MD
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=Ag-MD
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export lmpexec='pathto/lammps-kokkos-mliap/build/lmp'
 export HIPPYNN_USE_CUSTOM_KERNELS='pytorch'

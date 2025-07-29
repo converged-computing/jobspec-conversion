@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --output=lammps_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --partition=batch
 
 module purge                           # Unload all modules
 module load lammps/may22               # Load LAMMPS

@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=vo3mrn50
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=prioritylab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=vo3mrn50
+#SBATCH --output=/checkpoint/maksymets/logs/habitat_baselines/ddppo/pointgoal_nav/resnet50_bs16_ddepth5_maxd0.5_randomsampling_dropout0.2_poselossv21._1._180x320_embedd_act_vflip_hc2021_vo3_bigdata_5m_8/log.out
+#SBATCH --error=/checkpoint/maksymets/logs/habitat_baselines/ddppo/pointgoal_nav/resnet50_bs16_ddepth5_maxd0.5_randomsampling_dropout0.2_poselossv21._1._180x320_embedd_act_vflip_hc2021_vo3_bigdata_5m_8/log.err
+#SBATCH --mail-user=maksymets@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=prioritylab
+#SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 export GLOG_minloglevel='2'

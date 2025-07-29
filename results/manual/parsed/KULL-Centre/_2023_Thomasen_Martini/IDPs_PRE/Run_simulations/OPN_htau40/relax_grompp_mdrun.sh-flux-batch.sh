@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-nunchucks-3693
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-bike-3777
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/_2023_Thomasen_Martini/IDPs_PRE/Run_simulations/OPN_htau40/relax_grompp_mdrun.sh

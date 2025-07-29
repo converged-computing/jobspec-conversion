@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-5949
-#FLUX: -c=6
-#FLUX: --urgency=16
+#SBATCH --output=./logs/SRATrim-%A_%a.out
+#SBATCH --mail-user=rajewski23@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=4G
 
 set -eu
 module load singularity/3.9.3

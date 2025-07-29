@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=julia-manytasks
-#FLUX: -N=4
-#FLUX: --queue=debugq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=julia-manytasks
+#SBATCH --output=julia-manytasks.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debugq
 
 set -euxo pipefail
 module load slurm

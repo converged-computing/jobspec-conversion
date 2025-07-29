@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=M2
-#FLUX: -c=16
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=M2
+#SBATCH --output=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100
+#SBATCH --mem=64GB
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec --nv \

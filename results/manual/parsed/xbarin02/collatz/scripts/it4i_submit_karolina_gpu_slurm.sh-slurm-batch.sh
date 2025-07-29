@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=collatz
-#FLUX: --queue=qgpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=collatz
+#SBATCH --account=OPEN-27-53
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --time=03:00:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=128
+#SBATCH --array=1-1000
 
 export POCL_CACHE_DIR='${TMPDIR}/kcache'
 export LANG='C'

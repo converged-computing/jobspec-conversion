@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-noodle-9010
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=west8.out
+#SBATCH --error=west8.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

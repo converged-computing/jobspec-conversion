@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=papers-mb
-#FLUX: -c=112
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=papers-mb
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=112
+#SBATCH --gres=gpu:4
+#SBATCH --mem=250G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu-preempt
+#SBATCH --constraint=ntasks-per-node=1,intel8480
+#SBATCH --exclude=superpod-gpu[004-005]
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

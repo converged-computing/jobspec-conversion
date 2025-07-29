@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-destiny-2691
-#FLUX: --urgency=16
+#FLUX --job-name=milky-fudge-8481
+#FLUX --urgency=16
 
 export CONDA_ALWAYS_YES='true'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=transfer-model
-#FLUX: -c=4
-#FLUX: --queue=spgpu
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=transfer-model
+#FLUX -c=4
+#FLUX --queue=spgpu
+#FLUX -t=144000
+#FLUX --urgency=16
 
 my_job_header
 conda activate soma3.7

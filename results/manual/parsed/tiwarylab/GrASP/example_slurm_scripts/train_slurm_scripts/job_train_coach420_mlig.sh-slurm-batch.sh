@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scPDB -s coach420_mlig -ag multi
-#FLUX: --queue=GPU-shared
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=scPDB -s coach420_mlig -ag multi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=v100-32:4
+#SBATCH --time=08:00:00
+#SBATCH --partition=GPU-shared
+#SBATCH --constraint=ntasks-per-node=8
 
 module load anaconda3
 conda activate # source /opt/packages/anaconda3/etc/profile.d/conda.sh

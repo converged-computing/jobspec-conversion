@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=newexp
-#FLUX: -N=45
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=newexp
+#FLUX -N=45
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export TMPDIR='/dev/shm'
 export OMP_NUM_THREADS='1'

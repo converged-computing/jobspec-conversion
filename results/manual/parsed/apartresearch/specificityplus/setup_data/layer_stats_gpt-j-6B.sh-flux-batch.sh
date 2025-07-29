@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-squidward-9939
-#FLUX: -c=2
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-dog-4597
+#FLUX -c=2
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export MODEL='models--EleutherAI--gpt-j-6B'
 export PYTHONPATH='/home/${USER}/git/memitpp:${PYTHONPATH}'

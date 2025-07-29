@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peas-6243
-#FLUX: -c=16
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-fudge-0511
+#FLUX -c=16
+#FLUX -t=0
+#FLUX --urgency=16
 
 export JVM_ARGS='-Xms1024m -Xmx1024m'
 

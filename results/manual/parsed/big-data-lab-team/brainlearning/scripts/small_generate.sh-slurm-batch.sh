@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-4647
-#FLUX: -c=6
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000M
+#SBATCH --time=00:03:00
 
 module load cuda cudnn python/3.6.3
 echo "Present working directory is $PWD"

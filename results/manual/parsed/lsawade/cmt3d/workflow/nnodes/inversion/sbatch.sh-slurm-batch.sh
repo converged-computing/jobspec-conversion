@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Inversion
-#FLUX: -N=40
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Inversion
+#SBATCH --account=GEO111
+#SBATCH --output=R-%x.%j.o.txt
+#SBATCH --error=R-%x.%j.e.txt
+#SBATCH --mail-user=lsawade@princeton.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=40
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --array=1-4%1
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

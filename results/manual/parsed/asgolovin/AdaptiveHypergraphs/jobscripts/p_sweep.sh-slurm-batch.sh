@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=p_sweep
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=p_sweep
+#SBATCH --output=./output/%j.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=cm2_tiny
 
 module load slurm_setup
 module load julia/1.8.2

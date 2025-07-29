@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=transcripts
-#FLUX: --queue=componc_cpu,componc_gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=transcripts
+#FLUX --queue=componc_cpu,componc_gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source /home/preskaa/miniconda3/bin/activate nf-core
 module load singularity/3.7.1

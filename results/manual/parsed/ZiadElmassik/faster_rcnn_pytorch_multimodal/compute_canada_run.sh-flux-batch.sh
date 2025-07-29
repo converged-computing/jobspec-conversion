@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mat-job
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=mat-job
+#FLUX -c=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 SING_IMG=/home/$USER/projects/def-swasland-ab/$USER/mat_pytorch_5.sif
 NUM_ITERATIONS=0

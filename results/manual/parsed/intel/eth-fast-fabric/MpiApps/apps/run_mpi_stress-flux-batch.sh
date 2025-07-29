@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-avocado-1212
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-signal-2801
+#FLUX --urgency=16
 
 MPICH_PREFIX=${MPICH_PREFIX:-`cat .prefix 2>/dev/null`}
 trap "exit 1" SIGHUP SIGTERM SIGINT

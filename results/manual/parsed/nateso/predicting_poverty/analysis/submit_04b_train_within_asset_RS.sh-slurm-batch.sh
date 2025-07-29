@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=04b_asset_RS_within
-#FLUX: --queue=gpu
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#SBATCH --job-name=04b_asset_RS_within
+#SBATCH --output=./results/slurm_files/slurm_04b_within_asset_RS.out
+#SBATCH --error=./results/slurm_files/slurm_04b_within_asset_RS.err
+#SBATCH --mail-user=nschmid5@uni-goettingen.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=scratch
 
 module load anaconda3
 module load cuda

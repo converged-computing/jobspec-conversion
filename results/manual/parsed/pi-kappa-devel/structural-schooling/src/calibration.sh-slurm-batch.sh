@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=structural-schooling
-#FLUX: -c=40
-#FLUX: --queue=fuchs
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=structural-schooling
+#SBATCH --account=agmisc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=3072
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=fuchs
+#SBATCH: --no-requeue
 
 export procs='`expr $(nproc --all)`'
 

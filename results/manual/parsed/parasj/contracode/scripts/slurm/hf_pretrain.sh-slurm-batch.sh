@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hf_pretrain_bert
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#SBATCH --job-name=hf_pretrain_bert
+#SBATCH --output=/home/eecs/paras/slurm/coderep/%j_hf_pretrain_bert.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=400000
+#SBATCH --time=5-05:00:00
+#SBATCH --exclude=atlas,blaze,r16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/data/paras/data_cache'

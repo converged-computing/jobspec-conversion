@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lettuce-5054
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-bike-2617
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidygp/Pedestrian-Attribute-Recognition/output_results/2.%20resnet50_augmentation/PETA_resnet50_LabelSmoothing_v5.txt

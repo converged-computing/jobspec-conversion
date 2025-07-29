@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snps_call_md
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=35400
-#FLUX: --urgency=16
+#SBATCH --job-name=snps_call_md
+#SBATCH --output=%x-%A-%a.out
+#SBATCH --mail-user=me@work
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=4G
+#SBATCH --time=09:50:00
+#SBATCH --partition=all
+#SBATCH --array=1-39
 
 module load vital-it/7
 module load UHTS/Analysis/picard-tools/2.18.11

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DITTO
-#FLUX: --queue=amd-hdr100-res
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=DITTO
+#SBATCH --output=DITTO_logs.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=06:00:00
+#SBATCH --partition=amd-hdr100-res
 
 module reset
 module load Java/13.0.2

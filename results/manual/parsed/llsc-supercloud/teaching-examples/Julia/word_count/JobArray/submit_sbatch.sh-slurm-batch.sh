@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pancake-4169
-#FLUX: --urgency=16
+#SBATCH --output=top5.out-%A-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-3
 
 module load julia/1.7.3
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

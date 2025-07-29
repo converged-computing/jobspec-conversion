@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bit32linear
-#FLUX: -c=8
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=bit32linear
+#FLUX -c=8
+#FLUX --queue=cpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"
 echo "SLURM_JOBID="$SLURM_JOBID 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-house-3767
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/HPCBio/BashWES_VarCall_BW/start.sh

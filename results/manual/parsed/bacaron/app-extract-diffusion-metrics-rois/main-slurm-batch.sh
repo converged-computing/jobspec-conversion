@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-salad-0858
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bacaron/app-extract-diffusion-metrics-rois/main

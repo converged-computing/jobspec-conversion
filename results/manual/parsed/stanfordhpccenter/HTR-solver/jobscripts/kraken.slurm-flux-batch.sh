@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prometeo
+#FLUX --job-name=prometeo
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 if [[ "$QUEUE" == "debug" ||
       "$QUEUE" == "prod"  ||

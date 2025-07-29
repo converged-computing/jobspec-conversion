@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=${groupname}_prep_done
-#FLUX: --queue=$queue
-#FLUX: --urgency=16
+#SBATCH --job-name=${groupname}_prep_done
+#SBATCH --output=$debugdir/fincln-%j.out
+#SBATCH --error=$debugdir/fincln-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --partition=$queue
 
 shopt -s extglob
 juicer_version="1.6"

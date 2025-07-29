@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-example
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#FLUX --job-name=multinode-example
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=a800
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export NCCL_SOCKET_IFNAME='bond0'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-gato-0412
-#FLUX: -N=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=purple-house-4839
+#FLUX -N=2
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 module load gcc/8.3.0

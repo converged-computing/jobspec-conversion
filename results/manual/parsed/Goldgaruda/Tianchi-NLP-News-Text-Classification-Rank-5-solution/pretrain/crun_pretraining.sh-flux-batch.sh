@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-kitty-1599
-#FLUX: -n=14
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-fudge-6770
+#FLUX -n=14
+#FLUX --queue=nvidia
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=biz_ddp
-#FLUX: -c=4
-#FLUX: --queue=gpu-nvlink
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=biz_ddp
+#FLUX -c=4
+#FLUX --queue=gpu-nvlink
+#FLUX -t=360000
+#FLUX --urgency=16
 
 MONITORING_INTERVAL=120
 MONITORING_FILE=slurm-${SLURM_JOB_ID}.out

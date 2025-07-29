@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pot-7006
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DavidHuji/clouds_segmentation/power_runner.sh

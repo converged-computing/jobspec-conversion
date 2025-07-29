@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=m-diff
-#FLUX: -c=4
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#SBATCH --job-name=m-diff
+#SBATCH --account=conf-iccv-2023.03.08-ghanembs
+#SBATCH --output=slurm/logs/%A_%a.out
+#SBATCH --error=slurm/logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=40GB
+#SBATCH --time=05:59:00
+#SBATCH --array=1,2,5
 
 echo Loading Anaconda...
 module purge

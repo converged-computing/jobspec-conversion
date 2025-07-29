@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-spoon-7436
-#FLUX: -c=4
-#FLUX: --queue=v100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=v100
 
 set -e
 set -x

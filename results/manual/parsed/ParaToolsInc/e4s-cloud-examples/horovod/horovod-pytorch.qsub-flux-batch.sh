@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-5932
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-motorcycle-6968
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ParaToolsInc/e4s-cloud-examples/horovod/horovod-pytorch.qsub

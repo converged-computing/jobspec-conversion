@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SBWT_colors_d1
-#FLUX: --queue=standard-g
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=SBWT_colors_d1
+#SBATCH --account=project_462000116
+#SBATCH --output=colors_d1_out.txt
+#SBATCH --error=colors_d1_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard-g
 
 export DATETIME='$(date +"%Y-%m-%d_%H-%M-%S_%z")'
 export OUTPUT_FOLDER='colors_d1_${DATETIME}'

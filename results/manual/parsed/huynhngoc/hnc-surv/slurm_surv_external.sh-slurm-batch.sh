@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=surv_external
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=surv_external
+#SBATCH --output=outputs/surv_external-%A.out
+#SBATCH --error=outputs/surv_external-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --partition=gpu
 
 export MAX_SAVE_STEP_GB='0'
 export NUM_CPUS='4'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-squidward-9387
-#FLUX: --urgency=16
+#FLUX --job-name=blue-squidward-8981
+#FLUX --urgency=16
 
 out_dir=output_directory
 mapping_list=genome_mapping_combinations.txt

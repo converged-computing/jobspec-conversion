@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=baseline-generalisation-experiments
-#FLUX: --queue=ampere
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=baseline-generalisation-experiments
+#FLUX --queue=ampere
+#FLUX -t=7200
+#FLUX --urgency=16
 
 python main.py --configs configs/NCI1/gcn/base.yml
 python main.py --configs configs/NCI1/gcn-virtual/base.yml

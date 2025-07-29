@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DINO_COCO
-#FLUX: -c=4
-#FLUX: --queue=bme_gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=DINO_COCO
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=bme_gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 set -x
 CONFIG=$1

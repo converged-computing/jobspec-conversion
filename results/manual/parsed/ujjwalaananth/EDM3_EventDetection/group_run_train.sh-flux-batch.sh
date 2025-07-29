@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-punk-7428
-#FLUX: -n=20
-#FLUX: --queue=cidsegpu1_contrib_res
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-squidward-3587
+#FLUX -n=20
+#FLUX --queue=cidsegpu1_contrib_res
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge;
 module load anaconda3/5.3.0;

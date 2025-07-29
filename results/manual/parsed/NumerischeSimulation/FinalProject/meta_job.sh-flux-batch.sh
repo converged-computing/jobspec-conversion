@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=submission_${val}
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#FLUX --job-name=submission_${val}
+#FLUX -t=6000
+#FLUX --urgency=16
 
 module use /usr/local.nfs/sgs/modulefiles
 module load gcc/10.2

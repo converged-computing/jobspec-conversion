@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=job_name
-#FLUX: -N=4
-#FLUX: --urgency=16
+#FLUX --job-name=job_name
+#FLUX -N=4
+#FLUX --urgency=16
 
 source /home/s.fiscale/anaconda3/etc/profile.d/conda.sh
 conda activate name_of_your_conda_environment

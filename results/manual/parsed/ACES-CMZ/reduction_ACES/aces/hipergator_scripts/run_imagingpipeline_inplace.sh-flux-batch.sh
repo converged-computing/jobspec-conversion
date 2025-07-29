@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_inplace_mpi
-#FLUX: -n=32
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=run_inplace_mpi
+#FLUX -n=32
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export LOGFILENAME='${LOG_DIR}/casa_log_mpi_inplacepipeline_${SLURM_JOB_ID}_$(date +%Y-%m-%d_%H_%M_%S).log'
 export ACES_ROOTDIR='/orange/adamginsburg/ACES/reduction_ACES/'

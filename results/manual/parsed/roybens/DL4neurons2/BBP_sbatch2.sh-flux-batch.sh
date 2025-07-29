@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DL4N_full_prod
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=DL4N_full_prod
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export THREADS_PER_NODE='1'

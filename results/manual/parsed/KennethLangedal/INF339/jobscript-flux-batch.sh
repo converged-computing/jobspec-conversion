@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-muffin-2293
-#FLUX: -N=8
-#FLUX: -c=16
+#FLUX --job-name=gloopy-milkshake-6809
+#FLUX -N=8
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=rome16q
-#FLUX: -t=1
-#FLUX: --urgency=16
+#FLUX --queue=rome16q
+#FLUX -t=1
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_1:1'

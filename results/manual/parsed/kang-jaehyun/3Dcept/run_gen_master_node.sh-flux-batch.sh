@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-butter-4693
-#FLUX: --urgency=16
+#FLUX --job-name=red-kitty-4366
+#FLUX --urgency=16
 
 echo "### START DATE=$(date)"
 echo "### HOSTNAME=$(hostname)"

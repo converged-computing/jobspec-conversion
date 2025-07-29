@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Llama2-7b-sft
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=Llama2-7b-sft
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=4
+#SBATCH --partition=debug
 
 export FI_PROVIDER='efa'
 export LOGLEVEL='INFO'

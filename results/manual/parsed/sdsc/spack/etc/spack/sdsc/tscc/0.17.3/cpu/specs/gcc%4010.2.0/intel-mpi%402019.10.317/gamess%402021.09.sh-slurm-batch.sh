@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gamess@2021.9
-#FLUX: -c=8
-#FLUX: --queue=hotel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gamess@2021.9
+#SBATCH --account=use300
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:30:00
+#SBATCH --partition=hotel
+#SBATCH --qos=hotel
+#SBATCH --constraint=ntasks-per-node=1
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phase_4
-#FLUX: -c=3
-#FLUX: --urgency=16
+#FLUX --job-name=phase_4
+#FLUX -c=3
+#FLUX --urgency=16
 
 env=${11}
 time=${10}

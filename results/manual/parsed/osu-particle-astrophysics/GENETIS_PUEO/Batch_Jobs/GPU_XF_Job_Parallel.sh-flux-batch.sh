@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-destiny-5928
-#FLUX: -n=40
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-omelette-7390
+#FLUX -n=40
+#FLUX --urgency=16
 
 module load xfdtd/7.10.2.3 #7.9.2.2
 module load cuda

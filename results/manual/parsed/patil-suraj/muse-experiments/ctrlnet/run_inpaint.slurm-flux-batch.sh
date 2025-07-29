@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sdxl-inpaint-ema-2
-#FLUX: -N=2
-#FLUX: -c=96
+#FLUX --job-name=sdxl-inpaint-ema-2
+#FLUX -N=2
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export MODEL_DIR='stabilityai/stable-diffusion-xl-base-1.0'
 export LAUNCHER='accelerate launch \'

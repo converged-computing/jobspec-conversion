@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-4738
-#FLUX: -N=4
+#FLUX --job-name=strawberry-motorcycle-5478
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=small-g
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

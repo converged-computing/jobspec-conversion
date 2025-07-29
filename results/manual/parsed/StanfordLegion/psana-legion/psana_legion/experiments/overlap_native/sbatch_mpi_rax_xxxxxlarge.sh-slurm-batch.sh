@@ -1,14 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=psana_legion
-#FLUX: -N=513
-#FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=psana_legion
+#SBATCH --account=m2859
+#SBATCH --nodes=513
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=knl,quad,cache
 
 export SIT_PSDM_DATA='$HOST_DATA_DIR/d/psdm'
 export EAGER='1'
 export KERNEL_KIND='memory_bound_native'
 
+singularity
+exec
+docker:stanfordlegion/psana-mpi:latest
 HOST_PSANA_DIR=$HOME/psana_legion/psana-legion
 HOST_DATA_DIR=$SCRATCH/noepics_c24_s1_data/reg
 export SIT_PSDM_DATA=$HOST_DATA_DIR/d/psdm

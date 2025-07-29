@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mosaicml-stable-diffusion
-#FLUX: -N=2
-#FLUX: -c=16
+#FLUX --job-name=mosaicml-stable-diffusion
+#FLUX -N=2
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export FI_EFA_USE_DEVICE_RDMA='1 # use for p4d'
 export FI_EFA_FORK_SAFE='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-citrus-5814
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-toaster-9450
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export NCCL_P2P_DISABLE='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delay-calibration
-#FLUX: -c=16
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=delay-calibration
+#FLUX -c=16
+#FLUX -t=432000
+#FLUX --urgency=16
 
 echo Job landed on $(hostname)
 INPUT_DATA=$1#"Delay-Calibration/L??????_SB001_uv_*t_???MHz.msdpppconcat"

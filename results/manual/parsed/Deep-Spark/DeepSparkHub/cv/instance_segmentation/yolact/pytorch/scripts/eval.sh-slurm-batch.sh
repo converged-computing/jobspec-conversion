@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-despacito-0844
-#FLUX: --queue=GPU-small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=GPU-small
+#SBATCH: --no-requeue
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

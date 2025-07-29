@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=complex
-#FLUX: --queue=standard
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=complex
+#SBATCH --account=dmobley_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=8
 
 LAMBDA=$SLURM_ARRAY_TASK_ID
 nprocs=$SLURM_NTASKS

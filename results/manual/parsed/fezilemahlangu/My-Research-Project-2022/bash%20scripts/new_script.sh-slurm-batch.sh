@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gym
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gym
+#SBATCH --output=gym.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=batch
 
 echo "---------------------------"
 echo "Job started on" `date`

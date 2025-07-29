@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-house-0075
-#FLUX: --queue=hci-kp
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --account=hci-kp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=hci-kp
+#SBATCH --constraint=c24
 
 set -e; start=$(date +'%s')
 echo -e "---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

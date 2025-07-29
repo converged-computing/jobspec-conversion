@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LIH_GME
-#FLUX: -c=3
-#FLUX: --queue=batch
-#FLUX: -t=86395
-#FLUX: --urgency=16
+#FLUX --job-name=LIH_GME
+#FLUX -c=3
+#FLUX --queue=batch
+#FLUX -t=86395
+#FLUX --urgency=16
 
 conda activate bioinfo_tutorial
 module load swenv/default-env/devel 

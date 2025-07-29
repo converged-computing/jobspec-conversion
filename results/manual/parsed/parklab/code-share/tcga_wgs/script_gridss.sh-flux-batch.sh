@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bike-2090
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-train-0466
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX -t=432000
+#FLUX --urgency=16
 
 GRIDSS_JAR_PATH=/usr/local/bin/gridss-2.13.2.jar
 TUMOR_ID='TCGA-HC-A6HX-01A-11D-A755-36'

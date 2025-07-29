@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=flecsi_spack_build
-#FLUX: --queue=medusa
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=flecsi_spack_build
+#SBATCH --output=flecsi_spack_build.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=medusa
 
 module load openmpi
 module load gcc/9.2.1

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pastry-0509
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=32G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=h100
+#SBATCH --array=1-4
 
 export MODULEPATH='/mnt/home/gkrawezik/modules/rocky8:$MODULEPATH'
 

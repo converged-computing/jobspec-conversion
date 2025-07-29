@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=octeract-engine.install
-#FLUX: --queue=cstest
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=octeract-engine.install
+#FLUX --queue=cstest
+#FLUX -t=3000
+#FLUX --urgency=16
 
 PACKAGENAME=octeract-engine
 PACKAGEVER=3.1.0

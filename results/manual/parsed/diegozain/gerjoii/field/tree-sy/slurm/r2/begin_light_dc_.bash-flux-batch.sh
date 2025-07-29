@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cupcake-9665
-#FLUX: -c=28
+#FLUX --job-name=strawberry-lettuce-1033
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX -t=43140
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

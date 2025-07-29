@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=laplace
-#FLUX: -c=40
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=laplace
+#FLUX -c=40
+#FLUX --queue=fast
+#FLUX -t=5400
+#FLUX --urgency=16
 
 echo "*** SEQUENTIAL LAPLACE EQUATION GRID 1000X1000 ***"
 srun singularity run container.sif laplace_seq_it 1000

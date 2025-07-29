@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-arm-6506
-#FLUX: -N=10
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-bicycle-7982
+#FLUX -N=10
+#FLUX --urgency=16
 
 source wfenv.sh
 source inputs.sh

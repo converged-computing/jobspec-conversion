@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpu8_pencil_cuda
-#FLUX: -N=8
-#FLUX: -n=64
+#FLUX --job-name=gpu8_pencil_cuda
+#FLUX -N=8
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=gpu_8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=gpu_8
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load compiler/gnu/8.3.1
 module load devel/cuda/11.0

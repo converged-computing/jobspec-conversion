@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=avg
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=avg
+#SBATCH --output=avg.%J.out
+#SBATCH --error=avg.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
+#SBATCH --array=1-6
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 frac_values=( 0.1 )

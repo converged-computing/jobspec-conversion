@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --exclusive
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=rrg-lilimou
+#SBATCH --output=/project/def-lilimou/ychao/logs/output-%j.log
+#SBATCH --error=/project/def-lilimou/ychao/logs/error-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=1-16:00:00
+#SBATCH: --exclusive
 
 export MASTER_ADDR='127.0.0.1'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')'

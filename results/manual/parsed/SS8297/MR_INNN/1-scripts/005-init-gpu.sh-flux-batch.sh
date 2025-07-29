@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pedo-9388
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=astute-arm-0818
+#FLUX -n=4
+#FLUX --queue=core
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /proj/sens2022521/MindReader
 julia --project "/proj/sens2022521/MindReader/src/ReadMind.jl" \

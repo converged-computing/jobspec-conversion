@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=TESTTENSORFLOW
-#FLUX: -N=4
-#FLUX: --queue=dc-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=TESTTENSORFLOW
+#SBATCH --account=training2206
+#SBATCH --output=output.out
+#SBATCH --error=error.er
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=02:00:00
+#SBATCH --partition=dc-gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

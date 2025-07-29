@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Train_RIM_analytic_Gridsearch
-#FLUX: -c=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_RIM_analytic_Gridsearch
+#SBATCH --account=rrg-lplevass
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-100
 
 source $HOME/environments/carrim/bin/activate
 python $ARIM/pretrain_cnn_gridsearch.py\

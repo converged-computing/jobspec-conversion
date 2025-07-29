@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fid_prepro
-#FLUX: -c=45
-#FLUX: --queue=batch
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=fid_prepro
+#SBATCH --output=fid_prepro.%j.out
+#SBATCH --error=fid_prepro.%j.err
+#SBATCH --mail-user=Your@email
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=45
+#SBATCH --mem=120gb
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 module load  matlab/R2020b

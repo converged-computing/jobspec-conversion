@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=task_3
-#FLUX: -c=24
-#FLUX: --queue=gpgpumse
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=task_3
+#FLUX -c=24
+#FLUX --queue=gpgpumse
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Loading required modules"
 module load fosscuda/2020b

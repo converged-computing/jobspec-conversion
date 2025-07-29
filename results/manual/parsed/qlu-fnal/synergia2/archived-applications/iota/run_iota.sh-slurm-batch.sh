@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-knife-1949
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/qlu-fnal/synergia2/archived-applications/iota/run_iota.sh

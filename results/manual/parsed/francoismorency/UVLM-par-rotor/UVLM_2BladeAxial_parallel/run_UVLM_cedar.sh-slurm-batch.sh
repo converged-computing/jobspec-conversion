@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=6
-#FLUX: -c=48
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=6
+#SBATCH --account=def-morency
+#SBATCH --output=buffer.out
+#SBATCH --mail-user=<guillaume.damour.1@ens.etsmtl.ca>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=2000M
+#SBATCH --time=10:00:00
+#SBATCH --constraint=skylake
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$MATLABHOME/bin/glnxa64'
 export OMP_NUM_THREADS='6'

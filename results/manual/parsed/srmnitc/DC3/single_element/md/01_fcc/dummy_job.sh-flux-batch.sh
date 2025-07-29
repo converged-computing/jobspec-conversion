@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fcc_VAR_Th
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=fcc_VAR_Th
+#FLUX --queue=shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module --force purge
 ml load cpu slurm gcc openmpi

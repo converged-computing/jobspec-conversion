@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=step2
-#FLUX: -n=8
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=step2
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=quanah
+#SBATCH --chdir=./
+#SBATCH --array=1-46
 
 export SINGULARITY_CACHEDIR='/lustre/work/johruska/singularity-cachedir'
 

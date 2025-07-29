@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=final_trial
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=final_trial
+#FLUX -N=32
+#FLUX --queue=regular
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

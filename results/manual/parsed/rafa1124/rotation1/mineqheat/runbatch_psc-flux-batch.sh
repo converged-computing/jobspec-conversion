@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-8469
-#FLUX: -N=16
-#FLUX: -c=14
-#FLUX: --queue=RM
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-salad-2211
+#FLUX -N=16
+#FLUX -c=14
+#FLUX --queue=RM
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set echo
 set -x

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=snre_b
-#FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=snre_b
+#SBATCH --account=lu2020-2-7
+#SBATCH --output=lunarc_output/lunarc_output_snre_b_%j.out
+#SBATCH --error=lunarc_output/lunarc_output_snre_b_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=lu
+#SBATCH: --exclusive
 
 MAX_SEED_VAL=10
 for ((i=1;i<=$MAX_SEED_VAL;i++)); do

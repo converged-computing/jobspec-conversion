@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=namd-tyy
-#FLUX: -N=4
-#FLUX: --queue=sugon
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=namd-tyy
+#SBATCH --output=namd_%j.log
+#SBATCH --error=namd_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=sugon
+#SBATCH --constraint=ntasks-per-node=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='1'

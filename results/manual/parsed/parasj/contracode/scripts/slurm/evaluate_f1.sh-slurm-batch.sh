@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate_f1
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=evaluate_f1
+#SBATCH --output=/home/eecs/paras/slurm/coderep/%j_evaluate_f1.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000
+#SBATCH --time=03:00:00
+#SBATCH --exclude=atlas,blaze,r16
 
 export BATCHSIZE='${BATCHSIZE:-64}'
 export NUMDECODERLAYERS='${NUMDECODERLAYERS:-4}'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=wolf_sheep_predation
-#FLUX: -c=8
-#FLUX: --queue=snowy
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=wolf_sheep_predation
+#SBATCH --account=punim1439
+#SBATCH --mail-user=jason.thompson@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --partition=snowy
+#SBATCH --qos=covid19
+#SBATCH --array=1-100
 
 module load java
 BASE_FOLDER='/data/gpfs/projects/punim1439/workflow/netlogo_hpc/Wolf_Sheep_Predation' #REVISE HERE: The base folder is where the slurm file lives

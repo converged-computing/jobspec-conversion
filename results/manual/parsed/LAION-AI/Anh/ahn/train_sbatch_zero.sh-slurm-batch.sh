@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ryan
-#FLUX: --queue=a100-cu117
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=ryan
+#SBATCH --account=eleuther
+#SBATCH --output=/mnt/nvme/ryan01/Anh/ahn/logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=10GB
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=a100-cu117
 
 export TRANSFORMERS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/transformers'
 export HF_DATASETS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/datasets'

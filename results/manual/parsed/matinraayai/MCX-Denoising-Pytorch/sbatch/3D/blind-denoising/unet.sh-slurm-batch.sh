@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cupcake-4827
-#FLUX: -c=256
-#FLUX: --queue=ai-jumpstart
-#FLUX: --urgency=16
+#SBATCH --output=sbatch_outputs/3D_blind_unet_%j.out
+#SBATCH --error=sbatch_outputs/3D_blind_unet_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=256
+#SBATCH --gres=gpu:a100:8
+#SBATCH --mem=100000
+#SBATCH --partition=ai-jumpstart
 
 source ~/modules/pytorch/latest
 source ~/modules/nccl/nccl_2.9.8-1+cuda11.0_x86_64/source

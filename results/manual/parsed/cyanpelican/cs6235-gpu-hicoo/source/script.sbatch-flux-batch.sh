@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-hicoo
-#FLUX: --queue=soc-gpu-kp
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gpu-hicoo
+#FLUX --queue=soc-gpu-kp
+#FLUX -t=1800
+#FLUX --urgency=16
 
 ulimit -c unlimited -s
 nvidia-smi

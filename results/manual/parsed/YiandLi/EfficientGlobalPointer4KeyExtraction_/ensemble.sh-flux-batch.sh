@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-car-1044
-#FLUX: -n=5
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-snack-1624
+#FLUX -n=5
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

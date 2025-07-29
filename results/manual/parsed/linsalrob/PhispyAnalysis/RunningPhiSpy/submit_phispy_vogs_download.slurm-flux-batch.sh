@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bits-2253
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-taco-1734
+#FLUX -c=4
+#FLUX -t=432000
+#FLUX --urgency=16
 
 DATE=20220606
 ASS=$DATE/assembly_summary_$DATE.txt.gz

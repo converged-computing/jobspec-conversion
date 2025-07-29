@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-staircase-6224
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-nunchucks-0096
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export GMX='gmx_mpi'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bits-7080
-#FLUX: --queue=cpu2019
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=metannotate_sbatch_run.%J.out
+#SBATCH --error=metannotate_sbatch_run.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpu2019
 
 log_dir="$(pwd)"
 log_file="logs/metannotate-analysis.log.txt"

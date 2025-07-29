@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=red-bits-0138
-#FLUX: --queue=gpu8_long
-#FLUX: -t=478800
-#FLUX: --urgency=16
+#SBATCH --output=foo.txt
+#SBATCH --mail-user=foo@bar.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=70GB
+#SBATCH --time=5-13:00:00
+#SBATCH --partition=gpu8_long
+#SBATCH --constraint=ntasks-per-node=1
 
 module load matlab/
 module load anaconda3/cpu/5.2.0

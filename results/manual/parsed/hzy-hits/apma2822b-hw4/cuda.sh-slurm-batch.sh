@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cinnamonbun-1908
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --output=with_gpu.out
+#SBATCH --error=with_gpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
 
 module load cuda/12.2.2  gcc/10.2   
 nvidia-smi 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GSS_T5
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=GSS_T5
+#FLUX -c=6
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load gcc/11.1.0

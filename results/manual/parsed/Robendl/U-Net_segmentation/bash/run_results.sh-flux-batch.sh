@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=results
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=results
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source /home3/s3799174/machinelearning/venv/bin/activate
 module load Python/3.10.4-GCCcore-11.3.0

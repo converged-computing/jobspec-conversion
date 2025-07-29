@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cardinal
-#FLUX: --queue=bdwall
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cardinal
+#FLUX --queue=bdwall
+#FLUX -t=600
+#FLUX --urgency=16
 
 export NEKRS_HOME='$HOME_DIRECTORY_SYM_LINK/cardinal/install'
 export CARDINAL_DIR='$HOME_DIRECTORY_SYM_LINK/cardinal'

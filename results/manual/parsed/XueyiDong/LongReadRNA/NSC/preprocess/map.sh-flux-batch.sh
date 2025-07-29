@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-ricecake-9515
-#FLUX: -c=12
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-chair-7820
+#FLUX -c=12
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='$PATH:/wehisan/home/allstaff/d/dong.x/Programs/minimap2'
 

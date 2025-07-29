@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jbaik
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=jbaik
+#SBATCH --output=slurmctld.%j.out
+#SBATCH --error=slurmctld.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:gtx1070:1
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export MASTER_ADDR='172.30.1.237'

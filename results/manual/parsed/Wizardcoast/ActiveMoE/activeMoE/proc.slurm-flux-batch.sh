@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Megatron-LM
-#FLUX: -N=2
-#FLUX: -c=64
+#FLUX --job-name=Megatron-LM
+#FLUX -N=2
+#FLUX -c=64
 #FLUX: --exclusive
-#FLUX: --queue=megatron
-#FLUX: --urgency=16
+#FLUX --queue=megatron
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export CUDA_DEVICE_MAX_CONNECTIONS='1'

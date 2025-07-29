@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=plant_disease_diagnosis
-#FLUX: --queue=gpuserial-48core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=plant_disease_diagnosis
+#SBATCH --account=PAA0023
+#SBATCH --output=/users/PAA0023/dong760/plant_leaves_diagnosis/outputs/MobileNetV3Small_model_BatchSize_32_0.2ValSplit_19-12-2020
+#SBATCH --mail-user=dong.760@osu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpuserial-48core
+#SBATCH --constraint=ntasks-per-node=48
 
 export PYTHONNOUSERSITE='true'
 

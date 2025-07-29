@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bike-5484
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-squidward-4269
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load StdEnv/2020
 module load gcc/9.3.0

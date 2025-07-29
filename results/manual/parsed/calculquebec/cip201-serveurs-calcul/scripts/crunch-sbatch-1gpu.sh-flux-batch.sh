@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-puppy-7756
-#FLUX: -t=540
-#FLUX: --urgency=16
+#FLUX --job-name=arid-despacito-6297
+#FLUX -t=540
+#FLUX --urgency=16
 
 module load gcc/9.3.0 cuda/11.4 python/3.8.10
 virtualenv --no-download $SLURM_TMPDIR/venv_cupy

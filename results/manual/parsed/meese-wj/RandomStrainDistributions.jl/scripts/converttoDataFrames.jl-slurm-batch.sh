@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ToData
-#FLUX: -c=101
-#FLUX: --queue=msibigmem
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=ToData
+#SBATCH --output=%x-%A.out
+#SBATCH --mail-user=meese022@umn.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=101
+#SBATCH --mem=15g
+#SBATCH --time=23:30:00
+#SBATCH --partition=msibigmem
 
     pwd
     module swap julia julia/1.8.0

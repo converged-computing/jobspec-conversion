@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=A$i-f$j
-#FLUX: --queue=standard
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=A$i-f$j
+#FLUX --queue=standard
+#FLUX -t=43200
+#FLUX --urgency=16
 
 LANG=en_US
 : '

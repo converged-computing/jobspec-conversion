@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tart-malarkey-6950
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=nexus
+#SBATCH --output=./output/4dgs_out.txt
+#SBATCH --error=./output/4dgs_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtxa6000:1
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
+#SBATCH --qos=default
 
 export CUDA_HOME='/opt/common/cuda/cuda-11.8.0/'
 export LD_LIBRARY_PATH='/opt/common/cudnn/cudnn-11.x-8.8.0.121/lib64:/opt/common/cuda/cuda-11.8.0/lib64'

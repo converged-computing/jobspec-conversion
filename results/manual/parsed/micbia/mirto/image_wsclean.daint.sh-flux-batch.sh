@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wscelan_img
-#FLUX: -c=12
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=wscelan_img
+#FLUX -c=12
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

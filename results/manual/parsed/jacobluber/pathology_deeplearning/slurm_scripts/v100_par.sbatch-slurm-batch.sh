@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pastry-4882
-#FLUX: -N=6
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/bw18.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/bw18.out
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100x:4
+#SBATCH --mem=100gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuv100x,ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

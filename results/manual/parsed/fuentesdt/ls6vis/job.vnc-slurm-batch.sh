@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=vncserver
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=vncserver
+#SBATCH --output=vncserver.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 export DISPLAY=':${VNC_DISPLAY}'
 

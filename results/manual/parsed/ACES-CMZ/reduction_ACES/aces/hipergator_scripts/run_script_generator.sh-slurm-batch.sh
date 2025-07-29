@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=make_ACES_scripts
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=make_ACES_scripts
+#SBATCH --account=adamginsburg
+#SBATCH --output=/blue/adamginsburg/adamginsburg/ACES/logs/make_ACES_scripts_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export ACES='/orange/adamginsburg/ACES/'
 export WORK_DIR='/blue/adamginsburg/adamginsburg/ACES/workdir'

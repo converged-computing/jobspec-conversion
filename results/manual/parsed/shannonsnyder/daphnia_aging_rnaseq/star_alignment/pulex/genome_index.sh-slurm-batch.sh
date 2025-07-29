@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=star_index
-#FLUX: -n=4
-#FLUX: -c=12
-#FLUX: --queue=memory
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=star_index
+#SBATCH --account=bgmp
+#SBATCH --mail-user=your@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=12
+#SBATCH --time=03:00:00
+#SBATCH --partition=memory
 
 module load easybuild
 module load icc/2017.1.132-GCC-6.3.0-2.27

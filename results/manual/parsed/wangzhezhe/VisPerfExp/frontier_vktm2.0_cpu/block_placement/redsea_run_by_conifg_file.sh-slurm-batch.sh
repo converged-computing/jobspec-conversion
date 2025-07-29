@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RunRedSea
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=RunRedSea
+#SBATCH --account=csc143
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=batch
 
 DATADIR=/lustre/orion/scratch/zw241/csc143/VisPerfData/RedSeaDecomposition
 RUNDIR=/lustre/orion/scratch/zw241/csc143/VisPerfExpAssignStrategeis_RedSea_${1}

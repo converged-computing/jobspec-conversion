@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lem
-#FLUX: -n=16
-#FLUX: --queue=sandybridge
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=lem
+#SBATCH --account=SOGA-SL2-AB123
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=sandybridge
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

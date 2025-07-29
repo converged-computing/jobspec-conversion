@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=single_run_cpu
-#FLUX: -c=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=single_run_cpu
+#SBATCH --output=/home/muratore/Software/SimuRLacra/remotelaunch/logs/%A_%a-out.txt
+#SBATCH --error=/home/muratore/Software/SimuRLacra/remotelaunch/logs/%A_%a-err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=2048
+#SBATCH --time=3-00:00:00
+#SBATCH --array=0-0
 
 echo "Starting Job $SLURM_JOB_ID, Array Job $SLURM_ARRAY_JOB_ID Index $SLURM_ARRAY_TASK_ID"
 eval "$($HOME/Software/anaconda3/bin/conda shell.bash hook)"

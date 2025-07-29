@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-truffle-1429
-#FLUX: --urgency=16
+#FLUX --job-name=grated-citrus-7975
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sjoudaki/CosmoJBD/job_script

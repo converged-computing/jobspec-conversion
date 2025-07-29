@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-muffin-5729
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-peas-1866
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load anaconda/anaconda3
 module list

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DI_1_imaging
-#FLUX: -c=31
-#FLUX: --queue=infinite
-#FLUX: --urgency=16
+#FLUX --job-name=DI_1_imaging
+#FLUX -c=31
+#FLUX --queue=infinite
+#FLUX --urgency=16
 
 SING_BIND=$( python $HOME/parse_settings.py --BIND )
 SIMG=$( python $HOME/parse_settings.py --SIMG )

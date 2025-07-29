@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=namd-tyy
-#FLUX: -N=4
-#FLUX: --queue=sugon
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=namd-tyy
+#FLUX -N=4
+#FLUX --queue=sugon
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='1'

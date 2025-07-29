@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=QES-plume-UniformFlow_ContRelease
-#FLUX: --queue=efd-shared-np
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=QES-plume-UniformFlow_ContRelease
+#FLUX --queue=efd-shared-np
+#FLUX -t=18000
+#FLUX --urgency=16
 
 echo '****** PROLOGUE ******'
 echo '----------------------------------------------------------------------------'

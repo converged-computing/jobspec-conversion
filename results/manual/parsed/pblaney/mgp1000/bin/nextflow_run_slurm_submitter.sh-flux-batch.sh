@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-punk-3956
-#FLUX: --urgency=16
+#FLUX --job-name=salted-milkshake-7207
+#FLUX --urgency=16
 
 Help()
 {

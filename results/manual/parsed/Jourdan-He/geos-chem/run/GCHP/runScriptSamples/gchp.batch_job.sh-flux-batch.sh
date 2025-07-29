@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-squidward-3081
-#FLUX: -N=2
-#FLUX: -n=60
-#FLUX: --queue=huce_intel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-pastry-4778
+#FLUX -N=2
+#FLUX -n=60
+#FLUX --queue=huce_intel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 set -x

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peleffy
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=peleffy
+#FLUX -n=2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load anaconda

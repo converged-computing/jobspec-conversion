@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-toaster-4454
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gsaltintas/CIL-CollaborativeFiltering/scripts/euler_optuna_glocalk.sh

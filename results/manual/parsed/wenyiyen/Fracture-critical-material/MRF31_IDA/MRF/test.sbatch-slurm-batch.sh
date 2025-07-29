@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SMAM
-#FLUX: -n=44
-#FLUX: --queue=cee
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SMAM
+#SBATCH --output=testMRF2.out
+#SBATCH --error=testMRF2.err
+#SBATCH --mail-user=wyen@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=44
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cee
+#SBATCH --qos=normal
 
 module load openmpi
 module load scalapack

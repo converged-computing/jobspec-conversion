@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=speccontin
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=speccontin
+#FLUX --queue=long
+#FLUX --urgency=16
 
 pwd; hostname; date
 conda activate snakemake_drosophilomics

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pastry-5315
-#FLUX: --urgency=16
+#FLUX --job-name=blank-sundae-5372
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pitmonticone/covid19model/covid19AgeModel/inst/scripts/post-processing-sensitivity-ifr-age-prior.sh

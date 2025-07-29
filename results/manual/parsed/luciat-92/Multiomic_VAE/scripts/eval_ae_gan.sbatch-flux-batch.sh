@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_adv
-#FLUX: --queue=cpuq
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=eval_adv
+#FLUX --queue=cpuq
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load nlopt/2.7.0-intel-oneapi-mkl-2021.4.0 
 module load R/4.1.0

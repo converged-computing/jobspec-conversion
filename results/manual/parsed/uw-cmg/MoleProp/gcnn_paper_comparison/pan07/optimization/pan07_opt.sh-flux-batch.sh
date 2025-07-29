@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pancake-2480
-#FLUX: --queue=sbel_cmg
-#FLUX: -t=259290
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-toaster-3937
+#FLUX --queue=sbel_cmg
+#FLUX -t=259290
+#FLUX --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

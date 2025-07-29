@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pedo-4559
-#FLUX: --queue=train
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --mail-user=feisi@meta.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=train
 
 for i in 1 2 3 4 5
 do

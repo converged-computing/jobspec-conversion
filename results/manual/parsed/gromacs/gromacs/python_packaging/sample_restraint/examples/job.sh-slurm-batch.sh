@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-7721
-#FLUX: -N=12
-#FLUX: -c=20
-#FLUX: --queue=parallel
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=kas_dev
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=01:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gcc
 module load openmpi

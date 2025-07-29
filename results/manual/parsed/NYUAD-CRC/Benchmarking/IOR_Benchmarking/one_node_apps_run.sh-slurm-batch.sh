@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fudge-3719
-#FLUX: -n=15
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=slurm/%j.out
+#SBATCH --error=slurm/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 sleep 20
 outdir=$1

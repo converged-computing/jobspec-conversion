@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-buttface-6861
-#FLUX: -n=8
-#FLUX: --queue=mlow,mlow
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%u_%j.out
+#SBATCH --error=logs/%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --partition=mlow,mlow
 
 python txt2img_retrieve.py

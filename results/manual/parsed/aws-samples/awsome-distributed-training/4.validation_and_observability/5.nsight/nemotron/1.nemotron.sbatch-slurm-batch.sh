@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nemo--15B-16g
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nemo--15B-16g
+#SBATCH --output=/fsx/nemotron/nsight-awsankur/log-nemotron4--15B-16g_%j.out
+#SBATCH --error=/fsx/nemotron/nsight-awsankur/log-nemotron4--15B-16g_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 export TRANSFORMERS_OFFLINE='0'

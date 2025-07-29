@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-eagle-1088
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-parsnip-1309
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/enggiqbal/MPSE/MPSE/old_junk_donot_delete/hpc/circ_tri.pbs

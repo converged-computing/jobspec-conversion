@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=none_hpgmg_16_256
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=none_hpgmg_16_256
+#SBATCH --account=Nixing-Scale-Bugs
+#SBATCH --output=none_hpgmg_16_256.%j
+#SBATCH --nodes=16
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'
 

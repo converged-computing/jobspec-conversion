@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GraNet-cifar10-80epochs
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=GraNet-cifar10-80epochs
+#FLUX -c=10
+#FLUX --queue=short
+#FLUX -t=432000
+#FLUX --urgency=16
 
 source /public/data2/software/software/anaconda3/bin/activate
 conda activate torch151               # 激活的虚拟环境名称

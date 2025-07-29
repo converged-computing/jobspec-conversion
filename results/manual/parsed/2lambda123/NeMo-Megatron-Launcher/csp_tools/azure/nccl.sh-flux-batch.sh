@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-butter-9579
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-peanut-butter-8236
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 

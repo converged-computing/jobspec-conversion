@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-ricecake-1361
-#FLUX: --queue=part1
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-cupcake-7975
+#FLUX --queue=part1
+#FLUX --urgency=16
 
 root=/mnt/server15_hard2/sangmin/data/svol/
 anno_root=/mnt/server15_hard2/sangmin/data/svol/annos/

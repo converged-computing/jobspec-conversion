@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-general-7817
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/VPAC/superlinux/chapter03/namd/pbs_example_script

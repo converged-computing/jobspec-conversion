@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-underoos-2750
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=cpu
 
 echo "loading modules"
 module load GCC/10.3.0

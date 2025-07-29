@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=32_acoustics
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=32_acoustics
+#SBATCH --account=k1069
+#SBATCH --output=32_acoustics.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='/project/k1069/lib/python2.7/site-packages:$PYTHONPATH'

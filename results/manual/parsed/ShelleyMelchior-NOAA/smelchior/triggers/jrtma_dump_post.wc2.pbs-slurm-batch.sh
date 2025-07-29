@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-egg-6525
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ShelleyMelchior-NOAA/smelchior/triggers/jrtma_dump_post.wc2.pbs

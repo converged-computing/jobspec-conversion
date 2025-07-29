@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mut-prof_TSS
-#FLUX: -c=3
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=mut-prof_TSS
+#FLUX -c=3
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load bedtools2
 module load bedops

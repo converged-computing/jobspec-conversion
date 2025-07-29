@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-9944
-#FLUX: -c=16
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --output=slurmlog/pathseq.slurm.%A_%a.out
+#SBATCH --error=slurmlog/pathseq.slurm.%A_%a.err
+#SBATCH --mail-user=abd30@duke.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=256Gb
 
 export JVM_ARGS='-Xms1024m -Xmx1024m'
 

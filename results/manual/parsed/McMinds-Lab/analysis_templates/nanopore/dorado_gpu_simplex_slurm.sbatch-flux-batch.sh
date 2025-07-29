@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hippo-3818
-#FLUX: --queue=rra
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-punk-3823
+#FLUX --queue=rra
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load apps/cuda/11.3.1

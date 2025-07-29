@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misinfo
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=misinfo
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

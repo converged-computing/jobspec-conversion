@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ProkkaP16NS
-#FLUX: -n=32
-#FLUX: -t=601800
-#FLUX: --urgency=16
+#FLUX --job-name=ProkkaP16NS
+#FLUX -n=32
+#FLUX -t=601800
+#FLUX --urgency=16
 
 module load parallel/20180222
 module load singularity/3.3.0

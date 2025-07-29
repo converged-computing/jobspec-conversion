@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-puppy-8979
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cerichs/Bsc_Thesis_Instance_segmentation/YOLO/submit-benchmark.sh

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-taco-3555
-#FLUX: -n=10
-#FLUX: -c=16
-#FLUX: --queue=cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-cinnamonbun-7971
+#FLUX -n=10
+#FLUX -c=16
+#FLUX --queue=cpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

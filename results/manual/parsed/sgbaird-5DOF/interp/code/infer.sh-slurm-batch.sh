@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pedo-4671
-#FLUX: --urgency=16
+#SBATCH --mail-user=sterling.baird@icloud.com
+#SBATCH --mail-type=TIME_LIMIT,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 mkdir ~/.matlab/$SLURM_ARRAY_JOB_ID.$SLURM_ARRAY_TASK_ID
 unset TZ

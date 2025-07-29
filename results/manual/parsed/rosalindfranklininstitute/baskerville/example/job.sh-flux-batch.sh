@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peanut-butter-4225
-#FLUX: -c=36
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-fudge-9549
+#FLUX -c=36
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PROJECT_DIR='/bask/projects/f/ffnr0871-rfi-test/pje39613'
 export SINGULARITY_CACHEDIR='$PROJECT_DIR/.singularity-cache'

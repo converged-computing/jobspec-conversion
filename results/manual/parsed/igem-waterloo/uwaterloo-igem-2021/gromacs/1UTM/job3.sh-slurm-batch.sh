@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=job3-sehacker
-#FLUX: -n=16
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=job3-sehacker
+#SBATCH --account=def-bingalls
+#SBATCH --mail-user=sehacker@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=4-00:00:00
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

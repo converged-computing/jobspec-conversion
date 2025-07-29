@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-carrot-6072
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-mango-6509
+#FLUX -t=4800
+#FLUX --urgency=16
 
 cd $HOME/clouds_dist
 module load singularity/3.4

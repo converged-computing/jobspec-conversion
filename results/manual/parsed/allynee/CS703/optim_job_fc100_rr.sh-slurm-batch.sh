@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=metalearning_FC100_MetaOptNet_RR
-#FLUX: -c=4
-#FLUX: --queue=project
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=metalearning_FC100_MetaOptNet_RR
+#SBATCH --account=cs704
+#SBATCH --output=/common/home/projectgrps/CS704/CS704G1/MetaOptNet/sbatch_logs/FC100_MetaOptNet_RR/%u.%j.out
+#SBATCH --mail-user=allynezhang.2021@scis.smu.edu.sg
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=project
+#SBATCH --qos=cs704qos
 
 module purge
 module load Anaconda3/2022.05

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=week_trend
-#FLUX: --queue=medium
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=week_trend
+#FLUX --queue=medium
+#FLUX -t=43200
+#FLUX --urgency=16
 
 python job_week.py
 echo "SLURM_JOBID: " $SLURM_JOBID

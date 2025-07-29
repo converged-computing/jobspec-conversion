@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=build_GSI
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=build_GSI
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=03:00:00
+#SBATCH --partition=compute
 
 export MODULEPATH='/share/apps/compute/modulefiles/applications:$MODULEPATH'
 export NETCDF='/opt/netcdf/4.6.1/intel/intelmpi/'

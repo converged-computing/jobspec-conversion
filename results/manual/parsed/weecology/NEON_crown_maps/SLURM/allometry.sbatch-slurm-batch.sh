@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=allometry
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=allometry
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/allometry_%j.out
+#SBATCH --error=/home/b.weinstein/logs/allometry_%j.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40GB
+#SBATCH --time=3-00:00:00
 
 export SLURM_TMPDIR='/orange/idtrees-collab/tmp/'
 export TMPDIR='/orange/idtrees-collab/tmp/'

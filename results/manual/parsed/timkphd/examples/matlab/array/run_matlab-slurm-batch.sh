@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: --queue=shas
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --output=/dev/null
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=00:05:00
+#SBATCH --partition=shas
+#SBATCH --constraint=ntasks-per-node=1
 
 export _OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MYSEED='$SLURM_JOB_ID'

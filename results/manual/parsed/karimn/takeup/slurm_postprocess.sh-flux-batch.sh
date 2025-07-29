@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quick-takeup
-#FLUX: -n=6
-#FLUX: --queue=bigmem2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=quick-takeup
+#FLUX -n=6
+#FLUX --queue=bigmem2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 LATEST_VERSION=95
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

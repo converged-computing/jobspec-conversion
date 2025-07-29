@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpuvesjob
-#FLUX: -n=16
-#FLUX: --queue=rtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpuvesjob
+#SBATCH --account=ASC21002
+#SBATCH --output=jobresults/gpuvesjob_poi.out
+#SBATCH --error=jobresults/gpuvesjob_poi.err
+#SBATCH --mail-user=dhwanit@oden.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=rtx
 
 module load matlab
 matlab -nodesktop -nodisplay -nosplash < testRun.m

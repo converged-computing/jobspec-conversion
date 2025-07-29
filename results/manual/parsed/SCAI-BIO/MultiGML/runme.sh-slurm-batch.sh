@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dlcg
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dlcg
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module load Anaconda3
 conda activate /home/skrix/virtualenv_nodgltorch

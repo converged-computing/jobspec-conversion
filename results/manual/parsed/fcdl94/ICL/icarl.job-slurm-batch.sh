@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=icarl_5
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=icarl_5
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24GB
+#SBATCH --time=12:00:00
 
 if [ $# -ne 1 ]; then
   exit

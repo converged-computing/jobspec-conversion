@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-dog-9964
-#FLUX: -c=8
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-nalgas-8062
+#FLUX -c=8
+#FLUX -t=82800
+#FLUX --urgency=16
 
 source /home/hkshvrz/projects/def-m2nagapp/hkshvrz/jit-bugpred/venv/bin/activate
 which python

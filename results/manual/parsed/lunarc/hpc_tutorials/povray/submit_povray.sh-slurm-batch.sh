@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tut_povray
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=tut_povray
+#SBATCH --output=povray_%j.out
+#SBATCH --error=povray_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 ml GCC/10.2.0
 ml POV-Ray/3.7.0.8

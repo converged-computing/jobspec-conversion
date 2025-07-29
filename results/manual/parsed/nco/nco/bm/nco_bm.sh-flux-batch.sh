@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-2178
-#FLUX: --urgency=16
+#FLUX --job-name=astute-chair-2775
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nco/nco/bm/nco_bm.sh

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -N=32
-#FLUX: -c=32
+#FLUX --job-name=train
+#FLUX -N=32
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=boost_usr_prod
-#FLUX: --urgency=16
+#FLUX --queue=boost_usr_prod
+#FLUX --urgency=16
 
 export CUDA_HOME='$CONDA_PREFIX'
 export LIBRARY_PATH='$CONDA_PREFIX/lib:$LIBRARY_PATH'

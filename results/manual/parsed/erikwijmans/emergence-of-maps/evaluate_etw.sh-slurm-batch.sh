@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=navigation-analysis-habitat-eval
-#FLUX: -c=10
-#FLUX: --queue=dev
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=navigation-analysis-habitat-eval
+#SBATCH --output=/checkpoint/%u/jobs/job.%j.out
+#SBATCH --error=/checkpoint/%u/jobs/job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$(pwd)/habitat-api-navigation-analysis'
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'

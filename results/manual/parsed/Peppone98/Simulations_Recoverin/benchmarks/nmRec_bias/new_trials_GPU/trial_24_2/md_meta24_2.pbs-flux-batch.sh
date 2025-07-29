@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peas-0672
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-bits-7035
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/benchmarks/nmRec_bias/new_trials_GPU/trial_24_2/md_meta24_2.pbs

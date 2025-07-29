@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cartpole-gpus
-#FLUX: -c=36
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cartpole-gpus
+#FLUX -c=36
+#FLUX --queue=debug
+#FLUX -t=600
+#FLUX --urgency=16
 
 env
 module purge

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_cnn
-#FLUX: -c=10
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_cnn
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=126GB
+#SBATCH --time=12:00:00
 
 module purge
 singularity exec --nv \

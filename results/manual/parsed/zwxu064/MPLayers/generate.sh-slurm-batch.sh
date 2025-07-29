@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=${mode}
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=${mode}
+#SBATCH --output=${log_name}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=17G
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 mode="TRWP"
 enable_run_script=true

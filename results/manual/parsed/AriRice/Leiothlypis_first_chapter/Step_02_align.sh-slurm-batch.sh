@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bam
-#FLUX: -n=19
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bam
+#SBATCH --mail-user=arrice@ttu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=19
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=quanah
+#SBATCH --chdir=./
+#SBATCH --array=1-38
 
 export SINGULARITY_CACHEDIR='/lustre/work/arrice/singularity-cachedir'
 

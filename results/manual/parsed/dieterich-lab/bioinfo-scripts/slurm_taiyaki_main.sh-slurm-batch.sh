@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=taiyaki
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=taiyaki
+#SBATCH --mail-user=tobias.jakobi@med.uni-heidelberg.de
+#SBATCH --mail-type=END,FAIL,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=40G
+#SBATCH --partition=gpu
 
 module unload cuda
 echo "==== Start of GPU information ===="

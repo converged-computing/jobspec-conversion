@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: --queue=skx-normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --account=P-MRI4
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --mail-user=dtfuentes@mdanderson.org
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=skx-normal
 
 module list
 pwd

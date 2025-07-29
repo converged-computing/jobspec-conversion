@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parrot-0509
-#FLUX: --queue=ccb
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-bits-7961
+#FLUX --queue=ccb
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scheduler
-#FLUX: --queue=all
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=scheduler
+#FLUX --queue=all
+#FLUX -t=432000
+#FLUX --urgency=16
 
 cd /mnt/work1/users/pughlab/bin/swgs
 snakemake --cluster-config slurm/cluster.json \

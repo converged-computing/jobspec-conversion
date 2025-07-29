@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_generator_model
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_generator_model
+#SBATCH --mail-user=l.m.sickert@student.rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 

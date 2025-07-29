@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gtex_subset
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=gtex_subset
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --mail-user=avannan@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --qos=normal
 
 cd /scratch/avannan/TTR/counts/
 brain_tissues=(Brain-Amygdala Brain-Anteriorcingulatecortex_BA24 Brain-Caudate_basalganglia Brain-CerebellarHemisphere \

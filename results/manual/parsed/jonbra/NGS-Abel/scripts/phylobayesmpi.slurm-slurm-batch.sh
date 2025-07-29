@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pbmpiORG1
-#FLUX: -n=61
-#FLUX: --queue=long
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#SBATCH --job-name=pbmpiORG1
+#SBATCH --account=nn9404k
+#SBATCH --output=slurm-%j.base
+#SBATCH --nodes=1
+#SBATCH --ntasks=61
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=25-00:00:00
+#SBATCH --partition=long
 
 STR="$(ls *.phy -x1)"
 module load phylobayesmpi

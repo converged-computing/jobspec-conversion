@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-citrus-7274
-#FLUX: -c=6
-#FLUX: --queue=long
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/mjain/logs/lambo-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=06:00:00
+#SBATCH --partition=long
 
 export PYTHONUNBUFFERED='1'
 

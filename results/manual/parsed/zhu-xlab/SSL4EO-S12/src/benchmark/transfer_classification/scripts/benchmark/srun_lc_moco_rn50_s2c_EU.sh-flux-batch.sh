@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=EU_lc_moco
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=develbooster
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=EU_lc_moco
+#FLUX -n=4
+#FLUX -c=10
+#FLUX --queue=develbooster
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-despacito-8180
-#FLUX: --queue=synergy
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=metqc_run.%J.out
+#SBATCH --error=metqc_run.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=synergy
 
 log_dir="$(pwd)"
 log_file="logs/metqc-analysis.log.txt"

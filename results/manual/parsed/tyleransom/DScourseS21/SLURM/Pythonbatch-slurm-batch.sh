@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bicycle-8632
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ "$#" -gt 4  -o  "$#" -eq 0 ]; then
     echo "********************************************************************"

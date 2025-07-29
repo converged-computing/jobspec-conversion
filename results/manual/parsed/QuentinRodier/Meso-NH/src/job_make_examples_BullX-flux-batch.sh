@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Examples
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Examples
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MONORUN='Mpirun -np 1 '
 export MPIRUN='Mpirun -np 2 '

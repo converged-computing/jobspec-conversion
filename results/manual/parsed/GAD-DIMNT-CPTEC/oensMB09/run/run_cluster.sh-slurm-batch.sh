@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CLUSTERFIGS
-#FLUX: --queue=${AUX_QUEUE}
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=CLUSTERFIGS
+#SBATCH --output=${ROPERM}/cluster/output/cluster_figs.${RUNTM}.out
+#SBATCH --error=${ROPERM}/cluster/output/cluster_figs.${RUNTM}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=${AUX_QUEUE}
 
 export FILEENV='$(find ./ -name EnvironmentalVariablesMCGA -print)'
 export PATHENV='$(dirname ${FILEENV})'

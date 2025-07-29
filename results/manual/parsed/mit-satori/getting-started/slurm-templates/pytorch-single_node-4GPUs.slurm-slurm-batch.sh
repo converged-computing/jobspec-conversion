@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_4GPUs
-#FLUX: --exclusive
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_4GPUs
+#SBATCH --output=pytorch_4GPUs_%j.out
+#SBATCH --error=pytorch_4GPUs_%j.err
+#SBATCH --mail-user=florin@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=10:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

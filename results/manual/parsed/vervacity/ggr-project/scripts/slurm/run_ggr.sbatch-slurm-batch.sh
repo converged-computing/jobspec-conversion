@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ggr
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=akundaje,khavari
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ggr
+#SBATCH --output=ggr.%j.out
+#SBATCH --error=ggr.%j.err
+#SBATCH --mail-user=dskim89@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=akundaje,khavari
+#SBATCH: --exclusive
 
 module load R/3.4.0 
 module load java/1.8.0_131

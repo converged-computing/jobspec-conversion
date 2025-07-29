@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blast_start
-#FLUX: --queue=old
-#FLUX: -t=1080000
-#FLUX: --urgency=16
+#FLUX --job-name=blast_start
+#FLUX --queue=old
+#FLUX -t=1080000
+#FLUX --urgency=16
 
 echo "Input file: " $1
 fasta=$1

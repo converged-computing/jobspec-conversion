@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=skylake-rjob
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=skylake-rjob
+#SBATCH --account=mrc-bsu-sl3-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=skylake
+#SBATCH --array=1-4%2
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

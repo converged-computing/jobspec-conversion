@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=genbank_update
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=genbank_update
+#SBATCH --output=log/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
 
 module purge
 set -x

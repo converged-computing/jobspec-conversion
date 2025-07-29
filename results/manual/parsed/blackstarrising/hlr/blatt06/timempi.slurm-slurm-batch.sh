@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-banana-8486
-#FLUX: -N=4
-#FLUX: -n=12
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#SBATCH --output=timempi.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

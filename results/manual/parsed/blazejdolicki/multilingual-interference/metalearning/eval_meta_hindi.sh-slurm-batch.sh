@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=meta_experiment
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=meta_experiment
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=1-23:59:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2019

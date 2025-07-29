@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FusedMM4DGL
-#FLUX: --queue=azad
-#FLUX: -t=541800
-#FLUX: --urgency=16
+#FLUX --job-name=FusedMM4DGL
+#FLUX --queue=azad
+#FLUX -t=541800
+#FLUX --urgency=16
 
 module unload gcc
 module load gcc

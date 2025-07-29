@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=intelmpi_test
-#FLUX: -N=4
+#FLUX --job-name=intelmpi_test
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=compute-od-gpu
-#FLUX: --urgency=16
+#FLUX --queue=compute-od-gpu
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/aws-ofi-nccl/lib:/opt/amazon/efa/lib64:/usr/local/cuda-11.0/efa/lib:/usr/local/cuda-11.0/lib:/usr/local/cuda-11.0/lib64:/usr/local/cuda-11.0:/opt/nccl/build/lib:/opt/aws-ofi-nccl-install/lib:/opt/aws-ofi-nccl/lib:$LD_LIBRARY_PATH'
 export NCCL_PROTO='simple'

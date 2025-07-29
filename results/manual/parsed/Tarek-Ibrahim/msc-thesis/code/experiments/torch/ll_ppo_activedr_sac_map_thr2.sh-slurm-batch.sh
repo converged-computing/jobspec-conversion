@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ppo_activedr_sac_map_thr_torch
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ppo_activedr_sac_map_thr_torch
+#SBATCH --output=results/logs/ppo_activedr_sac_map_thr_%a.out
+#SBATCH --mail-user=tarek.ibrahim@tuni.fi
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu
+#SBATCH --mem=80G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=0-2
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

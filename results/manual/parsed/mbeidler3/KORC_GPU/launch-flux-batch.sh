@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-peas-5844
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-cat-9130
+#FLUX -c=128
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 _error() {
   local readonly msg="$1"

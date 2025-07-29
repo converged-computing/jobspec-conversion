@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-4377
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-signal-3963
+#FLUX --urgency=16
 

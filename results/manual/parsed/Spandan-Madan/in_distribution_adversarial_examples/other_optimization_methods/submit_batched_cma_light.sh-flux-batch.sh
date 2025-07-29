@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-toaster-5681
-#FLUX: --queue=cbmm
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-parsnip-1313
+#FLUX --queue=cbmm
+#FLUX -t=86400
+#FLUX --urgency=16
 
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_v7_40_final.pt categories_10_models_40.pkl
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_pretrained_v7_40_normalized_final.pt categories_10_models_40.pkl

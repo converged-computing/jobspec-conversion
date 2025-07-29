@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-3986
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-puppy-2891
+#FLUX --queue=normal
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda/py3

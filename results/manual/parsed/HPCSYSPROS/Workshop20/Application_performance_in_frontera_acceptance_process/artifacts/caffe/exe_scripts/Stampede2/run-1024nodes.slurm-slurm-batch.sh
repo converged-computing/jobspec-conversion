@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Caffe-1024nodes
-#FLUX: -N=1024
-#FLUX: -n=1024
-#FLUX: --queue=test2
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=Caffe-1024nodes
+#SBATCH --account=A-ccsc
+#SBATCH --output=Caffe-1024nodes-%j.out
+#SBATCH --nodes=1024
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=test2
 
 export OMP_NUM_THREADS='48'
 export PATH='/scratch/00946/zzhang/skylake/caffe/protocol-buffer/bin:$PATH'

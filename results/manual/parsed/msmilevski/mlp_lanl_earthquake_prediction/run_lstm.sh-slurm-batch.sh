@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-dog-0199
-#FLUX: --queue=LongJobs
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=12000
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=LongJobs
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

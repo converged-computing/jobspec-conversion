@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=resnet18.amp
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet18.amp
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -eu
 module purge

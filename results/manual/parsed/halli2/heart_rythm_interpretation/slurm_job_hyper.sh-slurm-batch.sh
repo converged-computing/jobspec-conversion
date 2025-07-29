@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cardiac_hyper_fit
-#FLUX: --queue=gpuA100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cardiac_hyper_fit
+#SBATCH --output=hyper_fit.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100
 
 uenv verbose cuda-11.8.0 cudnn-11.x-8.6.0
 uenv verbose TensorRT-11.x-8.6-8.5.3.1

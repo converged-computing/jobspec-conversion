@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s4cmbrocks
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=s4cmbrocks
+#FLUX --queue=debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 source $HOME/.bashrc.ext
 cd $SLURM_SUBMIT_DIR

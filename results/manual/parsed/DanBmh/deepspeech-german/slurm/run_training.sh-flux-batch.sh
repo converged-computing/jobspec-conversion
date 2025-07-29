@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DSGT
-#FLUX: -c=36
-#FLUX: --queue=gpu
-#FLUX: -t=3600000
-#FLUX: --urgency=16
+#FLUX --job-name=DSGT
+#FLUX -c=36
+#FLUX --queue=gpu
+#FLUX -t=3600000
+#FLUX --urgency=16
 
 singularity exec \
   --nv \

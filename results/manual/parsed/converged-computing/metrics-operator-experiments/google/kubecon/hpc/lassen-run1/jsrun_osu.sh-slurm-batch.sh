@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nalgas-4299
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/converged-computing/metrics-operator-experiments/google/kubecon/hpc/lassen-run1/jsrun_osu.sh

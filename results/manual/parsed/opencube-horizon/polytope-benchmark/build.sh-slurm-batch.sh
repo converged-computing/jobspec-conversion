@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=build
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=build
+#SBATCH --output=build.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --qos=nf
 
 export LD_LIBRARY_PATH='$BUNDLE_PATH/install/lib64:$LD_LIBRARY_PATH'
 

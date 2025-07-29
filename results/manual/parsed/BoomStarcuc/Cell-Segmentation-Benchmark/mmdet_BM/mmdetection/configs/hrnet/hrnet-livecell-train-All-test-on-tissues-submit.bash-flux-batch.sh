@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-3144
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-blackbean-7692
+#FLUX --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/hrnet'

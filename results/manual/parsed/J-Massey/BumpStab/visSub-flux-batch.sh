@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-rabbit-7938
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#FLUX --job-name=red-milkshake-2511
+#FLUX -n=64
+#FLUX --queue=amd
+#FLUX -t=13800
+#FLUX --urgency=16
 
 module purge
 module load conda

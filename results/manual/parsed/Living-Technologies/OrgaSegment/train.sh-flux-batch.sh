@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-soup-8677
-#FLUX: --queue=gpu
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-lemur-4042
+#FLUX --queue=gpu
+#FLUX -t=691200
+#FLUX --urgency=16
 
 TRAIN=false
 EVAL=false

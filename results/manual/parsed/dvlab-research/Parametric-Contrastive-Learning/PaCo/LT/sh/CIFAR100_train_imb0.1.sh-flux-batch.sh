@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cifar100-r32
-#FLUX: -c=2
-#FLUX: --queue=leojia
-#FLUX: --urgency=16
+#FLUX --job-name=cifar100-r32
+#FLUX -c=2
+#FLUX --queue=leojia
+#FLUX --urgency=16
 
 PORT=$[$RANDOM + 10000]
 python paco_cifar.py \

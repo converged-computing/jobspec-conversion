@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CS_adj_p_gauges
-#FLUX: -N=8
-#FLUX: -n=384
-#FLUX: --queue=workq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=CS_adj_p_gauges
+#SBATCH --account=loni_ceds3d
+#SBATCH --output=o.out
+#SBATCH --error=e.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=384
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=workq
 
 date
 module purge

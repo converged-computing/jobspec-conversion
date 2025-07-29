@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-blackbean-2416
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-4
 
 cd $SCRATCH
 module load Anaconda3/2022.05

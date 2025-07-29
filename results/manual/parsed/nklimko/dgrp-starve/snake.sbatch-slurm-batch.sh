@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cobra
-#FLUX: --queue=compute
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=cobra
+#SBATCH --output=/data2/morgante_lab/nklimko/rep/dgrp-starve/snake/logs/11_trial/%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=compute
 
 export OPENBLAS_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

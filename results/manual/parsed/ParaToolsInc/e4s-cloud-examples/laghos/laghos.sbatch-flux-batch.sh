@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=laghos
-#FLUX: -N=2
-#FLUX: -n=8
+#FLUX --job-name=laghos
+#FLUX -N=2
+#FLUX -n=8
 #FLUX: --exclusive
-#FLUX: -t=5
-#FLUX: --urgency=16
+#FLUX -t=5
+#FLUX --urgency=16
 
 export MV2_HOMOGENEOUS_CLUSTER='1'
 export MV2_SUPPRESS_JOB_STARTUP_PERFORMANCE_WARNING='1'

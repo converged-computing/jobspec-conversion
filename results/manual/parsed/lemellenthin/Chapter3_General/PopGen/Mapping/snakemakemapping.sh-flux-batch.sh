@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cyaneapopgen
-#FLUX: -c=32
-#FLUX: --queue=ycga_bigmem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cyaneapopgen
+#FLUX -c=32
+#FLUX --queue=ycga_bigmem
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge # Unload any existing modules that might conflict
 module load SAMtools

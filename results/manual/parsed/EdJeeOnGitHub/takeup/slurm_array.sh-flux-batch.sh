@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=takeup
-#FLUX: -c=12
-#FLUX: --queue=broadwl
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=takeup
+#FLUX -c=12
+#FLUX --queue=broadwl
+#FLUX -t=36000
+#FLUX --urgency=16
 
 LATEST_VERSION=96
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

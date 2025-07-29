@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS~~md.log
-#FLUX: --queue=comp06
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=GROMACS~~md.log
+#FLUX --queue=comp06
+#FLUX -t=21600
+#FLUX --urgency=16
 
 starttime=`date`
 _starttime=`date +%s`

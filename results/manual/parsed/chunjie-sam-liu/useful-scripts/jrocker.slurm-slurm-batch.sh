@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leopard-5756
-#FLUX: -c=50
-#FLUX: -t=3888000
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/tmp/errout/jrocker/jrocker.job.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=50
+#SBATCH --mem=300G
+#SBATCH --time=45-00:00:00
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/R/jrocker/4.2'

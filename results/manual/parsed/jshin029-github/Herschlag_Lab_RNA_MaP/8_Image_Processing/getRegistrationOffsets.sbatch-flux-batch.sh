@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reg_offsets
-#FLUX: --queue=biochem,normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=reg_offsets
+#FLUX --queue=biochem,normal
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/3.6.1
 source $py3env/bin/activate

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=freq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=freq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python -u -c "import PyHipp as pyh; \
 import time; \

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AVS-vtune
-#FLUX: --queue=qcpu_exp
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=AVS-vtune
+#FLUX --queue=qcpu_exp
+#FLUX -t=3600
+#FLUX --urgency=16
 
 defs=(
     "-DVECTORIZED_SIMD=1"

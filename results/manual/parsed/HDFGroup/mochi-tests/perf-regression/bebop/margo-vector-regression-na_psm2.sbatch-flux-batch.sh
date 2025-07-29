@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peanut-butter-6339
-#FLUX: -N=2
-#FLUX: --queue=bdwall
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-peas-4390
+#FLUX -N=2
+#FLUX --queue=bdwall
+#FLUX -t=900
+#FLUX --urgency=16
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

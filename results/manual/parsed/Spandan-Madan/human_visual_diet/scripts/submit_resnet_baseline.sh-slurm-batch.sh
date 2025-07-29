@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-noodle-8279
-#FLUX: --queue=seas_gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm_outputs_scripts/resnet_baselines_%a_%A.log
+#SBATCH --mail-user=spandan_madan@g.harvard.edu
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=seas_gpu
+#SBATCH --array=0
 
 eval "$(conda shell.bash hook)"
 conda activate domain_adaptation

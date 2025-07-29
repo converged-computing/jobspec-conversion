@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-0437
-#FLUX: -c=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=fat-blackbean-4771
+#FLUX -c=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

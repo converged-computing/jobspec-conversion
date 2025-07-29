@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-3059
-#FLUX: -c=10
-#FLUX: --queue=scavenger
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-leader-2663
+#FLUX -c=10
+#FLUX --queue=scavenger
+#FLUX --urgency=16
 
 export PATH='/hpc/home/cjp47/julia-1.5.2/bin/:$PATH'
 

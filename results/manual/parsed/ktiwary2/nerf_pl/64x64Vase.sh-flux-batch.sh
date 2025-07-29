@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-parrot-5507
-#FLUX: -n=20
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-lamp-0242
+#FLUX -n=20
+#FLUX --urgency=16
 
 source /etc/profile
 source activate nerf_pl

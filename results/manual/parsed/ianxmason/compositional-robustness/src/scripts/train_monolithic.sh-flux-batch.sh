@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-butter-6161
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-knife-6126
+#FLUX -n=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ckws_adapted_refined_score_attack_GPU
-#FLUX: -c=16
-#FLUX: --queue=gpu_p100
-#FLUX: --urgency=16
+#SBATCH --job-name=ckws_adapted_refined_score_attack_GPU
+#SBATCH --output=ckws_adapted_refined_score_attack_GPU-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=242G
+#SBATCH --partition=gpu_p100
+#SBATCH --constraint=avx2
 
 export TF_FORCE_GPU_ALLOW_GROWTH='true'
 

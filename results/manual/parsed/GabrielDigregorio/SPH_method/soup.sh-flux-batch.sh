@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=soup
-#FLUX: -n=8
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=soup
+#FLUX -n=8
+#FLUX -c=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

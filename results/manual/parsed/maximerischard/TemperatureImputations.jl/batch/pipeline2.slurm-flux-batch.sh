@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stan_pipeline2
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=stan_pipeline2
+#FLUX -n=2
+#FLUX --queue=shared
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

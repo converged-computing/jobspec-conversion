@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=nlp_lab
+#SBATCH --output=sub_outputs/slurm%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=512GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=dgx_normal_q
+#SBATCH --constraint=ntasks-per-node=8
 
 export TRANSFORMERS_CACHE='/projects/nlp_lab/zhiyang/.cache/'
 

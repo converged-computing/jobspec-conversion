@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AC-Baseline
-#FLUX: --queue=defq
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#FLUX --job-name=AC-Baseline
+#FLUX --queue=defq
+#FLUX -t=260100
+#FLUX --urgency=16
 
 export LOCAL_ENV='/var/scratch/mbn781/Venue-Accessibility-Google-Reviews/'
 export PATH='/path/to/cuda-11.1/bin:$PATH'

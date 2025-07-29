@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=imagenav
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=imagenav
+#SBATCH --output=slurm_logs/imagenav-ver-%j.out
+#SBATCH --error=slurm_logs/imagenav-ver-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=4
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=4,a40
+#SBATCH --exclude=cheetah,samantha,xaea-12,kitt
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

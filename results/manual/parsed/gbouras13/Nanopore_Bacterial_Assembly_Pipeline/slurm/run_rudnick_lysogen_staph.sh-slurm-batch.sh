@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=staph_bact_assembly
-#FLUX: --queue=batch
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=staph_bact_assembly
+#SBATCH --output=complete_staph_rudnick.out
+#SBATCH --error=complete_staph_rudnick.err
+#SBATCH --mail-user=george.bouras@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=batch
 
 SNK_DIR="/hpcfs/users/a1667917/Bacteria_Multiplex/Nanopore_Bacterial_Assembly_Pipeline"
 PROF_DIR="$SNK_DIR/snakemake_profile"

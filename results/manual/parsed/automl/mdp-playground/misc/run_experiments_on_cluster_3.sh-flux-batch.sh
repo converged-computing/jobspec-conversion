@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mdp-playground-job-array
-#FLUX: -c=2
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=mdp-playground-job-array
+#FLUX -c=2
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX -t=10
+#FLUX --urgency=16
 
 export EXP_NAME='a3c_seq_del' # Ideally contains Area of research + algorithm + dataset # Could just pass this as job name?'
 

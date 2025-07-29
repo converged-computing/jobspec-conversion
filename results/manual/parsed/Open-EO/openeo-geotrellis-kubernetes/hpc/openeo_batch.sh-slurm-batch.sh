@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lettuce-4122
-#FLUX: -N=2
-#FLUX: -n=3
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3G
+#SBATCH --time=00:10:00
 
 export WORK_DIR='/project/cscale_test/Public/openeo/'
 export MKL_NUM_THREADS='1'

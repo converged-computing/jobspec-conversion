@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cat-6122
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=splicing.%j.out
+#SBATCH --error=splicing.%j.err
+#SBATCH --mail-user=$USER@jax.org
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

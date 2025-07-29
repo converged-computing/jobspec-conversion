@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-2958
-#FLUX: -N=4
-#FLUX: -c=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-puppy-3954
+#FLUX -N=4
+#FLUX -c=24
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo Running on "$(hostname)"
 echo Available nodes: "$SLURM_NODELIST"

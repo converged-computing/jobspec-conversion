@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-butter-9550
+#FLUX --job-name=stanky-malarkey-5610
 #FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=normal_q
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 export ERROR='${OUTFILE%%.*}.error'

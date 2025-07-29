@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cinnamonbun-3893
-#FLUX: -n=192
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=192
+#SBATCH --cpus-per-task=1
 
 export OMP_STACKSIZE='256m'
 

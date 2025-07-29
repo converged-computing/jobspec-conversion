@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=viewfool-attack-mae
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=viewfool-attack-mae
+#FLUX -n=16
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd ~/Neurips2023/ViewFool_
 module load anaconda/latest

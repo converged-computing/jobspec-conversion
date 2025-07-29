@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-knife-6656
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Handicraft-Computing-Team/SuperComputerCommands/job_system/lsf/examples/amd.lsf.bash

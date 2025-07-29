@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fudge-7974
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-plant-3950
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 umask 002
 BATCH=$1

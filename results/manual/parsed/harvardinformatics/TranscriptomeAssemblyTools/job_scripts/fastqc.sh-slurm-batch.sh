@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FastQC
-#FLUX: --queue=True
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=FastQC
+#SBATCH --output=FastQC.%A.out
+#SBATCH --error=FastQC.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6000
+#SBATCH --time=00:03:00
+#SBATCH --partition=True
 
 """
 For this script to initialize a conda environment, a version of python that supports

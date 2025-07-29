@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-dog-4857
-#FLUX: -c=32
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=faux-lamp-7569
+#FLUX -c=32
+#FLUX --queue=shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PATH='${PATH}:${HIP_PATH}'
 

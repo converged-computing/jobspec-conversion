@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-staircase-4954
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/proteanplanet/MPAS-Analysis/configs/olcf/job_script.olcf.bash

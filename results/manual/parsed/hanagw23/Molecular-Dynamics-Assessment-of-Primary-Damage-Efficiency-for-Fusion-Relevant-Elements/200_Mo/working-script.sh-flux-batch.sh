@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-itch-4977
-#FLUX: -N=3
-#FLUX: -n=96
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-earthworm-9180
+#FLUX -N=3
+#FLUX -n=96
+#FLUX -t=255600
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

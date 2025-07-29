@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-staircase-2093
-#FLUX: -c=8
-#FLUX: --queue=synergy,cpu2019,cpu2021
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=faux-train-0590
+#FLUX -c=8
+#FLUX --queue=synergy,cpu2019,cpu2021
+#FLUX -t=604800
+#FLUX --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/pipeline-analysis.log.txt"

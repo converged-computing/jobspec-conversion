@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cherry-2605
-#FLUX: -N=2
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 module use /user-environment/modules
 module --ignore-cache load blaspp camp cosma cray-mpich-gcc cuda dbcsr doxygen \

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hyper_job
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=hyper_job
+#SBATCH --output=/scratch/jc11431/slurm_logs/slurm_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-6
 
 module purge
 module load anaconda3/2020.07

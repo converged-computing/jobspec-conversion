@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-underoos-3838
-#FLUX: -N=2
-#FLUX: -n=48
-#FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=MaxMemPerNode
+#SBATCH --time=00:20:00
+#SBATCH --partition=huce_intel
+#SBATCH: --exclusive
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

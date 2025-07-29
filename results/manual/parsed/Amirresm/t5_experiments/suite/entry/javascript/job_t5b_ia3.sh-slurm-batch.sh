@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-rabbit-7806
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=JO-%x.%j.out
+#SBATCH --error=JO-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

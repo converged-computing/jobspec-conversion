@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fitMAGE
-#FLUX: --queue=conroy_priority,itc_cluster,shared,serial_requeue
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=fitMAGE
+#SBATCH --account=conroy_lab
+#SBATCH --output=logs/msfit_%a.out
+#SBATCH --error=logs/msfit_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3500
+#SBATCH --time=00:03:00
+#SBATCH --partition=conroy_priority,itc_cluster,shared,serial_requeue
+#SBATCH --constraint=intel
+#SBATCH --array=0-79
 
 module load python
 source /n/home03/vchandra/.bashrc

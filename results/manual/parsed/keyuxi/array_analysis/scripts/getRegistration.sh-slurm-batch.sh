@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=astute-house-7802
-#FLUX: -c=6
-#FLUX: --queue=wjg,biochem,sfgf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/groups/wjg/kyx/NNNlib2b_Nov11/out/R-%x.%j.out
+#SBATCH --error=/scratch/groups/wjg/kyx/NNNlib2b_Nov11/out/R-%x.%j.err
+#SBATCH --mail-user=kyx@stanford.edu
+#SBATCH --mail-type=FAIL,END,BEGIN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
+#SBATCH --partition=wjg,biochem,sfgf
 
 export MATLABPATH='/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPscripts/:/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPlibs/'
 

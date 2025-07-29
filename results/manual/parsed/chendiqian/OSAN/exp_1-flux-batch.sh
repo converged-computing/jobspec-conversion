@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gnn_2_1
-#FLUX: --queue=main
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gnn_2_1
+#FLUX --queue=main
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

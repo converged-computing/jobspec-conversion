@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frame_pred
-#FLUX: -c=8
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#FLUX --job-name=frame_pred
+#FLUX -c=8
+#FLUX -t=90000
+#FLUX --urgency=16
 
 singularity exec --nv \
 	    --overlay /scratch/tk3309/DL24/overlay-50G-10M.ext3:rw \

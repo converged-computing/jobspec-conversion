@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-itch-3020
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-puppy-1860
+#FLUX -n=4
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia-1_8_5

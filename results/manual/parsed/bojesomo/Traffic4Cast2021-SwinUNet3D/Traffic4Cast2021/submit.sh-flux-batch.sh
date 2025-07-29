@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=T4C
+#FLUX --job-name=T4C
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-noodle-9490
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-arm-5128
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load CUDA/10.1
 module load cuDNN/7.6.5/CUDA-10.1

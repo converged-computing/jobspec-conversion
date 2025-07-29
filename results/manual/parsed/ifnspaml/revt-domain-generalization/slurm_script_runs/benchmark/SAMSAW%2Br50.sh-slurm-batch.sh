@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SAMSAW+r50.sh_Benchmark
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=SAMSAW+r50.sh_Benchmark
+#SBATCH --output=SAMSAW+r50.sh_Benchmark-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=32000M
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu,gpub
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=gpu[01-05,07]
 
 cd ~/work/transformer-domain-generalization || return
 module load comp/gcc/11.2.0

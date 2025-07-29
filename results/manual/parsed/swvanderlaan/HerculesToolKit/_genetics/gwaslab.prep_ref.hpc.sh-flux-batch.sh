@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prep_ref
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=prep_ref
+#FLUX -t=43200
+#FLUX --urgency=16
 
                                                                     														# or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     														# Multiple type values may be specified in a comma separated list. 

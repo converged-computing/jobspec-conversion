@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Benchmark_kseqpp_read
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=Benchmark_kseqpp_read
+#SBATCH --account=dongelr1
+#SBATCH --output=out.txt
+#SBATCH --error=err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:0,nvme:300
+#SBATCH --mem=3G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OLD_PWD='${PWD}'
 export NEW_PWD='${LOCAL_SCRATCH}/tmp'

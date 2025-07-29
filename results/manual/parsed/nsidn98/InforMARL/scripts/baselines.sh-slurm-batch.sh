@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=baselines
-#FLUX: -c=40
-#FLUX: --urgency=16
+#SBATCH --job-name=baselines
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --array=0-5
 
 source /etc/profile
 module load anaconda/2020a

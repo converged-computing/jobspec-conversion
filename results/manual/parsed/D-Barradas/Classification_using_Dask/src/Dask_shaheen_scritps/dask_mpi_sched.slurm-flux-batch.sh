@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-butter-7161
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-poo-0470
+#FLUX -N=4
+#FLUX -n=32
+#FLUX -t=300
+#FLUX --urgency=16
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

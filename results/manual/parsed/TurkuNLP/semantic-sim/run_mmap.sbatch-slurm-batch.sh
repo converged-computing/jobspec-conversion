@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ecco_mmap
-#FLUX: -c=4
-#FLUX: --queue=small
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ecco_mmap
+#SBATCH --account=project_2005072
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=200000
+#SBATCH --time=10:00:00
+#SBATCH --partition=small
 
 module load pytorch/1.11
 pip3 install -r requirements.txt

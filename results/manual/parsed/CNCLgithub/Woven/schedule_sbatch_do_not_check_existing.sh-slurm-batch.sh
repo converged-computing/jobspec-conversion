@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cloth_mass
-#FLUX: --queue=psych_gpu
-#FLUX: -t=342000
-#FLUX: --urgency=16
+#SBATCH --job-name=cloth_mass
+#SBATCH --output=job_%A_%a.out
+#SBATCH --mail-user=wenyan.bi@yale.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=7G
+#SBATCH --time=3-23:00:00
+#SBATCH --partition=psych_gpu
+#SBATCH --array=0-99%20
 
 pwd; hostname; date
 exp_cond='mass'   #stiff|mass

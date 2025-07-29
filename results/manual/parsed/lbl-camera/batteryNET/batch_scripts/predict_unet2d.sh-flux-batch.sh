@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cinnamonbun-0388
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=placid-underoos-9931
+#FLUX -c=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

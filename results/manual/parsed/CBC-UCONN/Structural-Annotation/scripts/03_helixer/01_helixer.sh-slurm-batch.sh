@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=helixer
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=helixer
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=20G
+#SBATCH --partition=gpu
+#SBATCH --qos=general
+#SBATCH --constraint=AVX2&FMA3
 
 export TMPDIR='$PWD/tmp'
 

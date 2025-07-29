@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demultiplexGraphs
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=demultiplexGraphs
+#FLUX --queue=long
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 ml easybuild intel/2017a Python/3.6.1

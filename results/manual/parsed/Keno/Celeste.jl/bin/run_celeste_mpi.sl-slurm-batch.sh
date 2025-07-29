@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=celeste
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=celeste
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='32'

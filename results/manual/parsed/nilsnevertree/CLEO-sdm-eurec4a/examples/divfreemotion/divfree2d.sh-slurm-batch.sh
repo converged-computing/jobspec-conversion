@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=divfree2d
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=divfree2d
+#SBATCH --account=mh1126
+#SBATCH --output=./divfree2d_out.%j.out
+#SBATCH --error=./divfree2d_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=30G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=128
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

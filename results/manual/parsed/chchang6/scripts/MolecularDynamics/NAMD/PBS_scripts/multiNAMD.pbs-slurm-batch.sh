@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leopard-8211
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/chchang6/scripts/MolecularDynamics/NAMD/PBS_scripts/multiNAMD.pbs

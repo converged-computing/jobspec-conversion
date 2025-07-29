@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phat-snack-8490
-#FLUX: -n=24
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=data/particles_sigma_4.32412e-19_M_40.0_job_%j_start_at_end.out
+#SBATCH --error=data/particles_sigma_4.32412e-19_M_40.0_job_%j_start_at_end.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:08:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

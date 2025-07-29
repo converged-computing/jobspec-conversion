@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name={{job_name}}
-#FLUX: -n=20
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name={{job_name}}
+#FLUX -n=20
+#FLUX --queue=single
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load chem/gromacs/2023.3

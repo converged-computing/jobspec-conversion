@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-train-8174
-#FLUX: --queue=DevQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-arm-7045
+#FLUX --queue=DevQ
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

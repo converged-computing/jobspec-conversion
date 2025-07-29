@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NPB_BT-MZ
+#FLUX --job-name=NPB_BT-MZ
 #FLUX: --exclusive
-#FLUX: --queue=cpu_dev
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=cpu_dev
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-buttface-4020
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-chair-3070
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

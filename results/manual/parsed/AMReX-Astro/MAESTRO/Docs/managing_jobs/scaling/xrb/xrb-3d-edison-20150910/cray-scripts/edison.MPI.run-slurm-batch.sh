@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-kerfuffle-7780
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTRO/Docs/managing_jobs/scaling/xrb/xrb-3d-edison-20150910/cray-scripts/edison.MPI.run

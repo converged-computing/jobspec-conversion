@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=res_v3
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=res_v3
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module restore mymodules
 echo "Using GPU Device:"

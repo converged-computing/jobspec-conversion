@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=flexiblas
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=flexiblas
+#SBATCH --account=ccsd
+#SBATCH --output=./flexiblas.o
+#SBATCH --error=./flexiblas.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:15:00
+#SBATCH --partition=batch
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-muffin-8283
-#FLUX: -n=48
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-latke-3162
+#FLUX -n=48
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load scitools
 HOST=${1}

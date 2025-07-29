@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=parallelfort
-#FLUX: -n=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=parallelfort
+#SBATCH --output=fortran-partition.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5000
+#SBATCH --time=05:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/app/libraries/petsc/3.7.5/el6/AVX/intel-16.0/intel-5.1/lib'
 

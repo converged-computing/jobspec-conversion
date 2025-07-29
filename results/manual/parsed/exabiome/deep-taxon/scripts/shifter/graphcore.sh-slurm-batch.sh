@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=n16_b512_SHFTR
-#FLUX: -n=64
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=n16_b512_SHFTR
+#SBATCH --account=m2865_g
+#SBATCH --output=train.%j.log
+#SBATCH --error=train.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=16
+#SBATCH --time=06:00:00
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
+singularity
+exec
+ajtritt/deep-taxon:amd64_v1
 INPUT="$PSCRATCH/exabiome/deep-taxon/input/gtdb/r207/r207.rep.h5"
 REPO_DIR="$HOME/projects/exabiome/deep-taxon.git"
 SCRIPT="$REPO_DIR/bin/deep-taxon.py"

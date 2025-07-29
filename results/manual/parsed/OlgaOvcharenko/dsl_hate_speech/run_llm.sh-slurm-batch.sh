@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-toaster-1404
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=logs/log-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpumem:32G
+#SBATCH --mem=12G
+#SBATCH --time=12:00:00
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

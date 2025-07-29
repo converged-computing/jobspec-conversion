@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prerender_sketches
-#FLUX: --queue=bnl
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=prerender_sketches
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=bnl
+#SBATCH --array=0-15
 
 set -u
 set -e

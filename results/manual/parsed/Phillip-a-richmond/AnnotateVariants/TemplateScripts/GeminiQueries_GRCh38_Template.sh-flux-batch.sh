@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-buttface-4116
-#FLUX: -c=2
-#FLUX: --queue=defq
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-leopard-8371
+#FLUX -c=2
+#FLUX --queue=defq
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

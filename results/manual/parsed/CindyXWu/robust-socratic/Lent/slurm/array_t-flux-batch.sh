@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=distill
-#FLUX: -N=4
-#FLUX: -n=12
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=distill
+#FLUX -N=4
+#FLUX -n=12
+#FLUX --queue=ampere
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-toaster-3800
-#FLUX: --urgency=16
+#FLUX --job-name=fat-bicycle-2399
+#FLUX --urgency=16
 
 source /contrib/alvaro/ompi/env.sh
 RUN_DIR="$HOME/cyclone"

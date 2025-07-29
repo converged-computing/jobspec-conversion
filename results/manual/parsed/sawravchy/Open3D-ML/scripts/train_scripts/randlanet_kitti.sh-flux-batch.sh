@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-dog-2783
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-chip-9857
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 if [ "$#" -ne 2 ]; then
     echo "Please, provide the the training framework: torch/tf and dataset path"

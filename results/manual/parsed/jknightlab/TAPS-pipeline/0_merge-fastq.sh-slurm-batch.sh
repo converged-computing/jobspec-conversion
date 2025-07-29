@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fastq-merge
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=fastq-merge
+#SBATCH --account=jknight.prj
+#SBATCH --output=/well/jknight/users/awo868/logs/TAPS-pipeline/merge-fastq_%j.out
+#SBATCH --error=/well/jknight/users/awo868/logs/TAPS-pipeline/merge-fastq_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
 
 input_dir=$PWD
 output_dir=$PWD

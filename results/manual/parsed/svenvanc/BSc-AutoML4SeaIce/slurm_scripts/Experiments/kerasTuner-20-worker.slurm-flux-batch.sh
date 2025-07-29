@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kerasTuner_worker
-#FLUX: -c=2
-#FLUX: --queue=gpu-medium
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX --job-name=kerasTuner_worker
+#FLUX -c=2
+#FLUX --queue=gpu-medium
+#FLUX -t=43140
+#FLUX --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

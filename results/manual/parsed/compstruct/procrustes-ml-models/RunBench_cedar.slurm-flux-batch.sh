@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-carrot-7447
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cherry-0888
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 echo "started the RunBench at $(date)"

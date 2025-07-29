@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vit-era5
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=vit-era5
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'

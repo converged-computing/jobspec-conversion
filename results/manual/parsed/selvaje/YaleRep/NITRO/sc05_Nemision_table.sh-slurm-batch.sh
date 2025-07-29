@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sc05_Nemision_table.sh
-#FLUX: -c=3
-#FLUX: --queue=day
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sc05_Nemision_table.sh
+#SBATCH --output=/gpfs/scratch60/fas/sbsc/ga254/stdout/sc05_Nemision_table.sh.%J.out
+#SBATCH --error=/gpfs/scratch60/fas/sbsc/ga254/stderr/sc05_Nemision_table.sh.%J.err
+#SBATCH --mail-user=email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=5000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=day
 
 export DIR='/gpfs/loomis/project/fas/sbsc/ga254/dataproces/NITRO'
 export RAM='/dev/shm'

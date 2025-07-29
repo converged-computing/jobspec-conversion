@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-malarkey-1208
-#FLUX: -n=2
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=blank-peanut-butter-7267
+#FLUX -n=2
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

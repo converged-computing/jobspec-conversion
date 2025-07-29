@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_train
-#FLUX: --queue=gpu3
-#FLUX: -t=87780
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_train
+#SBATCH --account=general-gpu
+#SBATCH --output=results-%j.out
+#SBATCH --mail-user=mjc6r9@mail.missouri.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:GeForce GTX 1080 Ti:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:23:00
+#SBATCH --partition=gpu3
 
 echo "### Starting at: $(date) ###"
 modelname='October17_ava_30ep_MINI512_resnet_adam_regression'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pix2pix-v2
-#FLUX: -c=10
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=pix2pix-v2
+#SBATCH --account=research
+#SBATCH --output=pix2pix-UN-l1cgan2.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=4G
+#SBATCH --time=1-12:00:00
+#SBATCH --exclude=gnode[03-42,90-92,54]
 
 echo "[BLOCK] ======= Inspecting node ======="
 echo "Host: $HOSTNAME"

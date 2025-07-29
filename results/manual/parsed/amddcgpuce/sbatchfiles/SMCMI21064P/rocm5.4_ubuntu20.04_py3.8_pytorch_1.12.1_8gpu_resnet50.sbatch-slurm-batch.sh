@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-soup-7182
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=8
 
 source /etc/profile.d/modules.sh
 module purge

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lemur-0394
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=00:04:00
 
 module load mvapich2-2.3.7-gcc-11.2.0
 MV2_USE_ALIGNED_ALLOC=1

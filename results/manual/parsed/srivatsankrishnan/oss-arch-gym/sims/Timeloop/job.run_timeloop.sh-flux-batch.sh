@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-6959
-#FLUX: -n=32
-#FLUX: --queue=seas_dgx1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-pedo-1193
+#FLUX -n=32
+#FLUX --queue=seas_dgx1
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export USER_UID='$UID'
 export USER_GID='$(id -g)'

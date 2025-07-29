@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-training:rnnt
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-training:rnnt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

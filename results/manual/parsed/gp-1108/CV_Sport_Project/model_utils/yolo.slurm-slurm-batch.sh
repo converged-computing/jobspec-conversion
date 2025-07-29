@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=yolo_train
-#FLUX: --queue=allgroups
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=yolo_train
+#SBATCH --output=output_%j.txt
+#SBATCH --error=error_%j.txt
+#SBATCH --mail-user=pietro.girotto@studenti.unipd.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx:2
+#SBATCH --mem=70G
+#SBATCH --time=23:00:00
+#SBATCH --partition=allgroups
 
 model_name=medium_lv_mhp_merged_b16
 dataset_path=LV-MHP-v1-YOLO-merge

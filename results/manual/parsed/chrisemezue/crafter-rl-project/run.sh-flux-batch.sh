@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crafter
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=crafter
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export IMAGEIO_FFMPEG_EXE='/home/mila/c/chris.emezue/scratch/ffmpeg-git-20220910-amd64-static/ffmpeg'
 

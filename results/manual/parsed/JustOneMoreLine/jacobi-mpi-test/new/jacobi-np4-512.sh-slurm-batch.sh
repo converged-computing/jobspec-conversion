@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-plant-7325
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --output=jacobi-np4-512.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
+#SBATCH --nodelist=node-01
 
 mpirun --mca btl_tcp_if_exclude docker0,lo -np 5 jacobi-mpi 512 100

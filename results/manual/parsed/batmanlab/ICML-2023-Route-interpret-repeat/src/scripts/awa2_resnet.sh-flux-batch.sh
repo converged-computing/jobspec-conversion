@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bits-3390
-#FLUX: --urgency=16
+#FLUX --job-name=placid-parrot-1431
+#FLUX --urgency=16
 
 pwd; hostname; date
 CURRENT=`date +"%Y-%m-%d_%T"`

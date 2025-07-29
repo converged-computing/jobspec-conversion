@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=iPic3D
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=iPic3D
+#SBATCH --account=cin_staff
+#SBATCH --mail-user=m.mencagli@cineca.it
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 source ${HOME}/modules_files/iPic3D_mod
 DIR="${HOME}/programming/iPic3D/"

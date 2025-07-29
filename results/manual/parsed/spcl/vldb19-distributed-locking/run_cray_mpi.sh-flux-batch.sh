@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poodle-1779
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-earthworm-4457
+#FLUX --urgency=16
 
 usage () {
     echo "Script for running with mpi"

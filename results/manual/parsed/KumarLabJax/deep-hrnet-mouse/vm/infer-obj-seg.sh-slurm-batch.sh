@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=infer-obj-seg-arr
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=15
+#SBATCH --job-name=infer-obj-seg-arr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=low
 
 export PATH='/opt/singularity/bin:${PATH}'
 

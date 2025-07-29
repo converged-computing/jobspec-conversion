@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-house-2911
-#FLUX: -n=20
-#FLUX: --queue=node
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-mango-9456
+#FLUX -n=20
+#FLUX --queue=node
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -eu
 source ${SLURM_SUBMIT_DIR:-$(pwd)}/../UPSCb-common/src/bash/functions.sh

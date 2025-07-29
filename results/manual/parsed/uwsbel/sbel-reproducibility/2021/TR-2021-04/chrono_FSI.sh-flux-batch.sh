@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-plant-0606
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-staircase-2995
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tst
-#FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tst
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=thin
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --chdir=./
 
                                 #or when a user wants to use all RAM available on the node. In many cases this option can be omitted.
                                 #Use of this option makes sense only for multi-node jobs. (See below for more information.)

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=svo.respack.in
-#FLUX: --queue=ccq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=svo.respack.in
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ccq
+#SBATCH --constraint=ntasks-per-node=8,rome
 
 export OMP_NUM_THREADS='16'
 export OMP_STACKSIZE='512'

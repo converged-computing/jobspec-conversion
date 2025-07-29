@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerve-build
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=nerve-build
+#SBATCH --mail-user=jtb470@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=04:00:00
 
 module purge
 unset XDG_RUNTIME_DIR

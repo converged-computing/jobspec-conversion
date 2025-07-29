@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=10x
-#FLUX: --queue=256GB
-#FLUX: -t=144030
-#FLUX: --urgency=16
+#FLUX --job-name=10x
+#FLUX --queue=256GB
+#FLUX -t=144030
+#FLUX --urgency=16
 
 export libraries=''
 

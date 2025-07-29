@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stage_II_port_size
-#FLUX: -t=1439
-#FLUX: --urgency=16
+#FLUX --job-name=stage_II_port_size
+#FLUX -t=1439
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

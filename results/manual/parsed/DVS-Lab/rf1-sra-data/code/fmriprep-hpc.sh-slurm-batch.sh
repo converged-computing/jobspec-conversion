@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-squidward-9267
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DVS-Lab/rf1-sra-data/code/fmriprep-hpc.sh

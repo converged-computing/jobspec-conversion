@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-frito-7900
-#FLUX: -c=8
-#FLUX: --queue=g100_usr_interactive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-destiny-3580
+#FLUX -c=8
+#FLUX --queue=g100_usr_interactive
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load nvhpc/22.3 
 echo $HOSTNAME > hostname.dat

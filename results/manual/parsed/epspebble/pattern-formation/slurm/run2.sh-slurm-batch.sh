@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-leg-8849
-#FLUX: -c=4
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --account=def-simontse
+#SBATCH --output=%x.o%A-%a
+#SBATCH --error=%x.e%A-%a
+#SBATCH --mail-user=simon.tse@twu.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=1G
+#SBATCH --time=00:00:20
+#SBATCH --array=1-231
 
 module load matlab
 cd ~/project/pattern-formation/zebrafish

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-mango-0601
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-avocado-2844
+#FLUX -c=10
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module add freesurfer
 module add fsl

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=openmpi_threads
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=openmpi_threads
+#SBATCH --account=project_2001659
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=1000
+#SBATCH --time=00:15:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=2
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

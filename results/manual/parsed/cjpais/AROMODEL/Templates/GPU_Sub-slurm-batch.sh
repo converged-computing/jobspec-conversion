@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name={Sim_Name}
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name={Sim_Name}
+#SBATCH --account=csd467
+#SBATCH --output=lammpsgpu.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH: --no-requeue
 
 cd {path}
 module unload mvapich2_ib

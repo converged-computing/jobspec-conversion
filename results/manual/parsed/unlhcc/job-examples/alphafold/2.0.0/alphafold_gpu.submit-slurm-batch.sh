@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=AlphaFold_GPU_example
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=AlphaFold_GPU_example
+#SBATCH --output=AlphaFold_GPU.%J.out
+#SBATCH --error=AlphaFold_GPU.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=50gb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge
 module load apptainer

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_new_1
-#FLUX: -c=10
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=train_new_1
+#FLUX -c=10
+#FLUX --queue=long
+#FLUX -t=345600
+#FLUX --urgency=16
 
 echo "loading cuda, cudnn modules"
 echo "running python script"

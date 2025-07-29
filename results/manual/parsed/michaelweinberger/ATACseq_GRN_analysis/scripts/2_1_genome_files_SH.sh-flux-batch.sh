@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nunchucks-3143
-#FLUX: -c=12
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-nunchucks-0597
+#FLUX -c=12
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load bowtie/1.2.3
 module load samtools/1.10

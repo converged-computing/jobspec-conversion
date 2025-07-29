@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-poodle-4354
-#FLUX: -c=12
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --account=cc-debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=60G
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load StdEnv/2023
 module load cuda/12.2

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cherry-3073
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=salted-leg-5617
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 steps=1000000

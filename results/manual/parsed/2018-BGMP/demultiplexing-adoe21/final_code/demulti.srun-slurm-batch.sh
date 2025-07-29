@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multiplex
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=multiplex
+#SBATCH --output=demulti.out
+#SBATCH --error=demulti.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=10
 
 module purge
 module load easybuild intel/2017a python3/3.6.1

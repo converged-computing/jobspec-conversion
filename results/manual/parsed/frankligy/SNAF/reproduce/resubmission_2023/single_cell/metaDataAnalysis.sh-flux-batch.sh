@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cattywampus-9330
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-earthworm-1593
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/frankligy/SNAF/reproduce/resubmission_2023/single_cell/metaDataAnalysis.sh

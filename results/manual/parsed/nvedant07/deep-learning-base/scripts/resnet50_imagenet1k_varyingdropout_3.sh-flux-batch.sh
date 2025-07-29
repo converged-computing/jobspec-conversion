@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-spoon-0412
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-kitty-2743
+#FLUX -c=16
+#FLUX --queue=a40
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export EPOCHS='50'
 export MODEL='resnet50'

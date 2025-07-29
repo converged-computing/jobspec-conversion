@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HIER_marcoAct
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=HIER_marcoAct
+#SBATCH --output=logs/slurm_%j.log
+#SBATCH --error=logs/slurm_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=23000
+#SBATCH --partition=gpu
+#SBATCH --nodelist=gpu005
 
 export CUDA_VISIBLE_DEVICES='0'
 

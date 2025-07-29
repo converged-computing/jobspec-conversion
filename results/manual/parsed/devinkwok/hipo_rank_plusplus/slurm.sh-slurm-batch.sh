@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-staircase-5052
-#FLUX: -c=2
-#FLUX: --queue=unkillable
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=hpp-%j.out
+#SBATCH --error=hpp-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=unkillable
 
 SRC_DIR=$HOME/proj/hiporank_plusplus
 module load python/3.7

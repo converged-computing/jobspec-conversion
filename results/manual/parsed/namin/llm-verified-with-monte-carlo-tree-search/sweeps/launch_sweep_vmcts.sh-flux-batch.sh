@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vmcts
-#FLUX: -c=16
-#FLUX: --queue=kempner_requeue
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=vmcts
+#FLUX -c=16
+#FLUX --queue=kempner_requeue
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export discovery_factor='3.0'

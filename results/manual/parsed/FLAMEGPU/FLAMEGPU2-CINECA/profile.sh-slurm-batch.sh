@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-latke-4295
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=m100_usr_prod
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --account=tra21_hackathon
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000MB
+#SBATCH --time=00:45:00
+#SBATCH --partition=m100_usr_prod
+#SBATCH --qos=m100_qos_dbg
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 rm -rf /tmp/nvidia
 ln -s $TMPDIR /tmp/nvidia

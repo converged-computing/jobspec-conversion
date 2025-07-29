@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pointllama
-#FLUX: -c=16
-#FLUX: --queue=
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=pointllama
+#SBATCH --account=
+#SBATCH --output=./logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64g
+#SBATCH --time=12:00:00
+#SBATCH --partition=
+#SBATCH --constraint=ntasks-per-node=1
 
 module reset
 module load cuda/11.6.1

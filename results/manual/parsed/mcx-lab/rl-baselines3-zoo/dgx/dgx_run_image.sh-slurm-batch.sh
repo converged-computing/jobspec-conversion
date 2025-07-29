@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-mango-1338
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mcx-lab/rl-baselines3-zoo/dgx/dgx_run_image.sh

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_wind_for_ww3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_wind_for_ww3
+#SBATCH --output=output_prep_wind_for_ww3.eo%j
+#SBATCH --error=output_prep_wind_for_ww3.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 dirin=../era5/
 file=era5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=siren
-#FLUX: -c=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=siren
+#FLUX -c=10
+#FLUX -t=360000
+#FLUX --urgency=16
 
 set -x
 cd ${SLURM_SUBMIT_DIR}

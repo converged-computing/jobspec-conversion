@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mcooke_table_ii
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mcooke_table_ii
+#SBATCH --output=table_ii_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=40
 
 module load NiaEnv/2019b
 module load cmake

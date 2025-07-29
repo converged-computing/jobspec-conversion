@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-earthworm-4627
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-kerfuffle-0421
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=$CUDA_HOME'

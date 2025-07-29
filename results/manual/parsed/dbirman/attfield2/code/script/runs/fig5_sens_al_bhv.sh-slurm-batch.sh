@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=f5salbhv
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=f5salbhv
+#SBATCH --output=/scratch/users/kaifox/attfield/data/runs/fig5/logs/salbhv_%a.out
+#SBATCH --error=/scratch/users/kaifox/attfield/data/runs/fig5/logs/salbhv_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=GPU_MEM:32GB
+#SBATCH --array=0,1,2,3
 
 source ~/.bash_profile
 ml python/3.6.1

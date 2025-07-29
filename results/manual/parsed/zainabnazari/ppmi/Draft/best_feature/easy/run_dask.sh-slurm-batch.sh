@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kpc-dask-2node
-#FLUX: -c=3
-#FLUX: --queue=regular2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=kpc-dask-2node
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=06:00:00
+#SBATCH --partition=regular2
+#SBATCH --constraint=ntasks-per-node=3
 
 module purge
 module load  gnu8/8.3.0  openmpi3/3.1.4 

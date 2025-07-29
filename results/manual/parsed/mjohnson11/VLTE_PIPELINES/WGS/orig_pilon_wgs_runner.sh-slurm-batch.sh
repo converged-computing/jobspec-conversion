@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=orig_wgs_pipe
-#FLUX: -n=2
-#FLUX: --queue=serial_requeue
-#FLUX: -t=150
-#FLUX: --urgency=16
+#SBATCH --job-name=orig_wgs_pipe
+#SBATCH --output=../../Output/shell_outs/orig_wgs_pipe_%A_%a.out
+#SBATCH --error=../../Output/shell_outs/orig_wgs_pipe_%A_%a.err
+#SBATCH --mail-user=milo.s.johnson.13@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:02:30
+#SBATCH --partition=serial_requeue
 
 SAMP=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Samples.txt)
 SUF=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Sample_Suffixes.txt)

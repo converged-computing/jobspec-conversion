@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=scd_all
-#FLUX: --queue=gpu-short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=scd_all
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --mail-user=b.a.companjen@library.leidenuniv.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu-short
 
 export CWD='$(pwd)'
 export SD_EPI='$(sed -n ${SLURM_ARRAY_TASK_ID}p $CWD/episodes.txt)'

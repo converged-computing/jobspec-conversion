@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-punk-5481
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15g
+#SBATCH --time=02:20:00
 
 vcf=$1
 daner=$2

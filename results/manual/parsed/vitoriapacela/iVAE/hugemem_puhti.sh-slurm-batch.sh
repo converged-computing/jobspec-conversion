@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=10
-#FLUX: --queue=hugemem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=iVAE
+#SBATCH --account=Project_2002842
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hugemem
 
 module purge
 module load pytorch/1.4

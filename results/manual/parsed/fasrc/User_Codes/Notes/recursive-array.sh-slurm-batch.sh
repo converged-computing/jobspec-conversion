@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bicycle-5295
-#FLUX: --queue=test
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100M
+#SBATCH --time=01:00:00
+#SBATCH --partition=test
+#SBATCH --array=[0-9]
 
 JOBLIMIT=$2
 if [ -z "$JOBLIMIT" ] || [ $# -lt 2 ]

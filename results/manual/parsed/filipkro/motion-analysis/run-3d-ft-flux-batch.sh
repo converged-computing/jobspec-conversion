@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-squidward-1300
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-chip-6776
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=18000
+#FLUX --urgency=16
 
 cp -r $HOME/motion-analysis $TMPDIR
 cp -r $HOME/data-3d $TMPDIR

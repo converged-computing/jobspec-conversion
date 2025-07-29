@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gnn4itk
-#FLUX: -c=20
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=gnn4itk
+#SBATCH --account=pls0144
+#SBATCH --output=alazar-%j.out
+#SBATCH --mail-user=alazar@ysu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export NCCL_NET_GDR_LEVEL='PHB'
 export NCCL_P2P_LEVEL='NVL'

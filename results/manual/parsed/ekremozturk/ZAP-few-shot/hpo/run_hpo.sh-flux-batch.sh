@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=v2_54_ws
-#FLUX: --queue=bosch_gpu-rtx2080
-#FLUX: --urgency=16
+#FLUX --job-name=v2_54_ws
+#FLUX --queue=bosch_gpu-rtx2080
+#FLUX --urgency=16
 
 source /home/ozturk/anaconda3/bin/activate metadl
 pwd

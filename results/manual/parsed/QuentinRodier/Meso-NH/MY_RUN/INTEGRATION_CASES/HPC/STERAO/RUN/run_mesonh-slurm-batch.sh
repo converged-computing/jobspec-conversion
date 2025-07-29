@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_sterao
-#FLUX: -N=4
-#FLUX: -n=192
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_sterao
+#SBATCH --output=run_sterao.eo%j
+#SBATCH --error=run_sterao.eo%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=192
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export MPIRUN='Mpirun -np 192'
 

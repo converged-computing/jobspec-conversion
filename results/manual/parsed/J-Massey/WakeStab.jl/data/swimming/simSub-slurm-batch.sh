@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=swimming-data
-#FLUX: -n=64
-#FLUX: --queue=highmem
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=swimming-data
+#SBATCH --output=JOB.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=highmem
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

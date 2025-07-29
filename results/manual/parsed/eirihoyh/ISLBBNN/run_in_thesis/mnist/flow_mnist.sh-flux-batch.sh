@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=f_mnist
-#FLUX: -n=12
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=f_mnist
+#FLUX -n=12
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module purge                # Clean all modules
 module load Miniconda3

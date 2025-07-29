@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow_gpu_sample
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow_gpu_sample
+#SBATCH --output=tensorflow_gpu_sample_output_%j.out
+#SBATCH --error=tensorflow_gpu_sample_error_%j.err
+#SBATCH --mail-user=gy4065@wayne.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=160G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 echo "Converting notebook to script"
 jupyter nbconvert --to python tensorflow_gpu_sample.ipynb

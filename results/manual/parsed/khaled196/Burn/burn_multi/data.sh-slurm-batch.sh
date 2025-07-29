@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=extract_images
-#FLUX: --queue=Nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_images
+#SBATCH --account=43299_sp0039
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem=16000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=Nvidia
 
 module purge
 module load tensorflow-gpu

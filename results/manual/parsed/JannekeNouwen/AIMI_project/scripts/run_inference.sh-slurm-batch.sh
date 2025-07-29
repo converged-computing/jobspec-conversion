@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leader-3542
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=40G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_results='/home/ljulius/algorithm/nnunet/nnUNet_results'

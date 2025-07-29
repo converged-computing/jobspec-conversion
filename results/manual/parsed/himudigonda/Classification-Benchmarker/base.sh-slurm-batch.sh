@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SwinV1-B-IN1K-ChestXray14
-#FLUX: -c=32
-#FLUX: --queue=public
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SwinV1-B-IN1K-ChestXray14
+#SBATCH --output=/scratch/hmudigon/Acad/CSE598-ODL/Supervised/slurm_op/SwinV1-B-IN1K-ChestXray14-%j.out
+#SBATCH --error=/scratch/hmudigon/Acad/CSE598-ODL/Supervised/slurm_op/SwinV1-B-IN1K-ChestXray14-%j.err
+#SBATCH --mail-user=hmudigon@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=80G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=public
 
 echo_time() {
 	echo "Timestamp: [$(/bin/date '+%Y-%m-%d %H:%M:%S')]......................................................$1"

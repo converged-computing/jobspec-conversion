@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bfs-k80
-#FLUX: --queue=GPU-shared
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=bfs-k80
+#SBATCH --output=bfs-k80-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:4
+#SBATCH --time=00:05:00
+#SBATCH --partition=GPU-shared
 
 module use /home/tisaac/opt/modulesfiles
 module load petsc/cse6230-double

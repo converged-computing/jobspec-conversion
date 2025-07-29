@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pmix
-#FLUX: -c=4
-#FLUX: --queue=msc
-#FLUX: --urgency=16
+#SBATCH --job-name=pmix
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --partition=msc
 
 export TMPDIR='/scratch-ssd/${USER}/tmp'
 export CONDA_ENVS_PATH='/scratch-ssd/$USER/conda_envs'

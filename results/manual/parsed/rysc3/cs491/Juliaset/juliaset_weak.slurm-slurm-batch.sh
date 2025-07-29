@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=weak_julia
-#FLUX: -c=32
-#FLUX: --queue=general
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=weak_julia
+#SBATCH --output=julia_weak_%a.out
+#SBATCH --mail-user=mfricke@unm.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:05:00
+#SBATCH --partition=general
+#SBATCH --array=1-7
 
 export OMP_NUM_THREADS='$SCALE_FACTOR'
 

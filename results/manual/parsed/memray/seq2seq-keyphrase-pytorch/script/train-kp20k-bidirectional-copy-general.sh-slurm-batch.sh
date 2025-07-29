@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=attn_general.input_feeding.copy
-#FLUX: --queue=titanx
-#FLUX: --urgency=16
+#SBATCH --job-name=attn_general.input_feeding.copy
+#SBATCH --output=/zfs1/pbrusilovsky/rum20/seq2seq-keyphrase-pytorch/slurm_output/attn_general.input_feeding.copy.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --partition=titanx
+#SBATCH --constraint=ntasks-per-node=1
 
 export ATTENTION='general";'
 export EXP_NAME='attn_$ATTENTION.input_feeding.copy'

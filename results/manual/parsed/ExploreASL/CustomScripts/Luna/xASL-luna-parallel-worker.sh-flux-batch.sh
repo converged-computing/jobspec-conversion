@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-frito-1133
-#FLUX: --queue=luna-short
-#FLUX: -t=240
-#FLUX: --urgency=15
+#FLUX --job-name=psycho-lentil-1864
+#FLUX --queue=luna-short
+#FLUX -t=240
+#FLUX --urgency=15
 
 if false; then
     echo $NWORKERS

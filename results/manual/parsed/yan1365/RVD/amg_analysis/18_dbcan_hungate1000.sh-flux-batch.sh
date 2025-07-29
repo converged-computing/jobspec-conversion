@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dbcan_hungate_%j
-#FLUX: -n=48
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=dbcan_hungate_%j
+#FLUX -n=48
+#FLUX -t=57600
+#FLUX --urgency=16
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/databases/hungate1000/genome

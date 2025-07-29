@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=calc_pi
-#FLUX: -N=64
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=calc_pi
+#FLUX -N=64
+#FLUX -t=900
+#FLUX --urgency=16
 
 cd ~/Documents/project-2-pi-by-mpi-seven-c-s/Nick_Work            ### change to the directory where your code is located
 num_darts=(1000 1000000 1000000000)

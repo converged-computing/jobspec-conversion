@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-squidward-3615
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=develbooster
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=trustllm-eu
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --partition=develbooster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=testsuite
-#FLUX: -N=8
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=testsuite
+#SBATCH --account=g110
+#SBATCH --output=slurm.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=gpu
 
 export MALLOC_MMAP_MAX_='0'
 export MALLOC_TRIM_THRESHOLD_='536870912'

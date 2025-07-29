@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fst_epoch{epoch_number}
-#FLUX: -N=20
-#FLUX: --queue=medium
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=fst_epoch{epoch_number}
+#FLUX -N=20
+#FLUX --queue=medium
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='cores'

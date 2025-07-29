@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=trimers_10ns
-#FLUX: -c=5
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=trimers_10ns
+#SBATCH --output=trimers_10ns.%u.%N.%j.out
+#SBATCH --error=trimers_10ns.%u.%N.%j.err
+#SBATCH --mail-user=ejohn16@liverpool.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=9000M
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=nodes
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --chdir=./
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

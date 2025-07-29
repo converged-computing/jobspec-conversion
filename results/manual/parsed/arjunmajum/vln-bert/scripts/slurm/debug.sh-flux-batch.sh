@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=debug
+#FLUX --queue=short
+#FLUX --urgency=16
 
 python \
 -m torch.distributed.launch \

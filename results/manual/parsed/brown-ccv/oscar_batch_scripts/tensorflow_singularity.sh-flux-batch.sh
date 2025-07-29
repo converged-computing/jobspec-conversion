@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=My_Cool_Science
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=My_Cool_Science
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='/gpfs/scratch,/gpfs/data'
 

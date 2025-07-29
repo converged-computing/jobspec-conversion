@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=64_matrixVectorProduct
-#FLUX: -n=64
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=64_matrixVectorProduct
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=128
+#SBATCH --time=01:00:00
+#SBATCH --partition=thin
+#SBATCH: --exclusive
+#SBATCH --exclude=tcn377
 
 export GASNET_BACKTRACE='1'
 export GASNET_PHYSMEM_MAX='167 GB'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=s5
-#FLUX: -t=29400
-#FLUX: --urgency=16
+#SBATCH --job-name=s5
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10Gb
+#SBATCH --time=08:10:00
 
 WANDB_API_KEY=$17a113b4804951bde9c66b2002fe378c0209fb64
 WANDB_ENTITY=$mizunt

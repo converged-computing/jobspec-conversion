@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-3118
-#FLUX: -N=4
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: --queue=gpu_k80
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/home/2017018/tconst01/pao/logs/%J.out
+#SBATCH --error=/home/2017018/tconst01/pao/logs/%J.err
+#SBATCH --mail-user=thomas.constum@insa-rouen.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_k80
+#SBATCH: --exclusive
 
 export PYTHONUSERBASE='$HOME/ssd/pao_jpeg_bis/classification_part'
 export EXPERIMENTS_OUTPUT_DIRECTORY='/dlocal/run/$SLURM_JOB_ID'

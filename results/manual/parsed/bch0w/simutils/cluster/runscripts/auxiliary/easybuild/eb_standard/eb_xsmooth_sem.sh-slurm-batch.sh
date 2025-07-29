@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xsmooth_sem
-#FLUX: -N=4
-#FLUX: -n=144
-#FLUX: --queue=nesi_research
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=xsmooth_sem
+#SBATCH --account=nesi00263
+#SBATCH --output=smooth_sem_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=nesi_research
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

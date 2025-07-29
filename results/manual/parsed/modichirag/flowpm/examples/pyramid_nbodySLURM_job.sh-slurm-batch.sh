@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=meshnbody
-#FLUX: --exclusive
-#FLUX: --queue=gpu_preempt
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=meshnbody
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu_preempt
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 hsize=16

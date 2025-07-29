@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NAPS-like
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=NAPS-like
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${MY_NTHREADS}'
 

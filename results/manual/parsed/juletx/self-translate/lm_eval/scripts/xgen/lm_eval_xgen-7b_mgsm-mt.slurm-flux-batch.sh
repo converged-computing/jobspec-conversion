@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lm_eval_xgen-7b_mgsm-mt
-#FLUX: -c=8
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=lm_eval_xgen-7b_mgsm-mt
+#FLUX -c=8
+#FLUX -t=0
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/gaueko0/transformers_cache/'
 export TOKENIZERS_PARALLELISM='false'

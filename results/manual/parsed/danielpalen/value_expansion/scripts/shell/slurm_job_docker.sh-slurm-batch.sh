@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=docker_iclr23
-#FLUX: --queue=rtx2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=docker_iclr23
+#SBATCH --output=[TODO]
+#SBATCH --error=[TODO]
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=rtx2
+#SBATCH --array=1-9
 
 WANDB_API_KEY="[TODO YOUR KEY]"  # or 'wandb login' and 'wandb docker' commands
 WANDB_ENTITY="[TODO YOUR ENTITY]"

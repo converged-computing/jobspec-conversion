@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rpt-sub-7032_ses-1_xcpengine
-#FLUX: -n=20
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=rpt-sub-7032_ses-1_xcpengine
+#SBATCH --account=nkchen
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=20
 
 SUB=sub-7032
 SES=ses-1

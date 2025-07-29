@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-caramel-6240
-#FLUX: -n=24
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=devin_adams3@hotmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=2560M
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
 
 module load cuda/6.5.14
 echo "Begin 5 5 0 origin - Tantalum 7"

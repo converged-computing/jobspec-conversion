@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pgd_fanny
-#FLUX: -n=128
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pgd_fanny
+#SBATCH --output=pgd_fanny.eo%j
+#SBATCH --error=pgd_fanny.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MPIRUN='Mpirun -np 128'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RREMD-stage3
-#FLUX: -N=12
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=RREMD-stage3
+#SBATCH --account=rrg-plotkin-ac_cpu
+#SBATCH --mail-user=hsueh@phas.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024M
+#SBATCH --time=5-00:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export GMXLIB='/project/projects/def-plotkin/shared_projects:/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/gromacs/4.6.7/share/gromacs/top'
 

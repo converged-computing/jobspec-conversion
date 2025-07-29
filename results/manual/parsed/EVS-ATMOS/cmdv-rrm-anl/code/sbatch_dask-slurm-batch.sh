@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dask_cluster
-#FLUX: -N=7
-#FLUX: -n=7
-#FLUX: -c=36
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_cluster
+#SBATCH --nodes=7
+#SBATCH --ntasks=7
+#SBATCH --cpus-per-task=36
+#SBATCH --time=05:00:00
 
 export OMP_NUM_THREADS='$CPUS_ON_NODE'
 export MPLBACKEND='agg'

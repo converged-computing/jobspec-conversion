@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=S3M
-#FLUX: -c=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=S3M
+#FLUX -c=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${BASE_DIR}'
 

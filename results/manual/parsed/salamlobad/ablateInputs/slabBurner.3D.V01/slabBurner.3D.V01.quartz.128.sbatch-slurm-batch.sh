@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=3dSlabV01
-#FLUX: -N=128
-#FLUX: --queue=pbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=3dSlabV01
+#SBATCH --account=sunyb
+#SBATCH --mail-user=salamlob@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=pbatch
 
 export PETSC_DIR='/g/g20/lobad1/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

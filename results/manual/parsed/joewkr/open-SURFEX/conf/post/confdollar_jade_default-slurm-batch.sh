@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-car-5867
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/joewkr/open-SURFEX/conf/post/confdollar_jade_default

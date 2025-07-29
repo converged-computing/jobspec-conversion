@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: -c=10
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-job
+#SBATCH --output=gpu-job.o%j
+#SBATCH --error=gpu-job.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=00:05:00
+#SBATCH --constraint=gpu
 
 export LIBOMPTARGET_INFO='4'
 

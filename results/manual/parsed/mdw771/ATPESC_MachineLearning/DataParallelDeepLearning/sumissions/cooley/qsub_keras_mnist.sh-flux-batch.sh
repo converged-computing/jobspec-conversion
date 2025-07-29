@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-spoon-5473
-#FLUX: --urgency=16
+#FLUX --job-name=arid-poo-1739
+#FLUX --urgency=16
 

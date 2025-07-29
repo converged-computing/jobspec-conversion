@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cinnamonbun-7148
-#FLUX: --urgency=16
+#SBATCH --output=top5.out-%j-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-4
 
 source /etc/profile
 module load julia-1.0

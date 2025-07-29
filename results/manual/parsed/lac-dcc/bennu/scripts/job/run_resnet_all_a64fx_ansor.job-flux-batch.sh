@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_resnet_all_a64fx_ansor
-#FLUX: -n=48
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=run_resnet_all_a64fx_ansor
+#FLUX -n=48
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TVM_HOME='/lustre/projects/ML-group/gverma/tvm'
 export PYTHONPATH='/lustre/projects/ML-group/gverma/tvm/python'

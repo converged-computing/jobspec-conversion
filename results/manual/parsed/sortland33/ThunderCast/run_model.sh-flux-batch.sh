@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ThunderCast
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --queue=salvador
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#FLUX --job-name=ThunderCast
+#FLUX -N=2
+#FLUX -c=6
+#FLUX --queue=salvador
+#FLUX -t=85800
+#FLUX --urgency=16
 
 nvidia-smi
 hostname

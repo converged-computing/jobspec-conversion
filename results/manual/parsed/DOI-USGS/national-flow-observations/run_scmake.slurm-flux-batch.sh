@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-egg-2092
-#FLUX: --queue=cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-pancake-2814
+#FLUX --queue=cpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load singularity
 srun singularity exec national-data-pulls_v0.1.sif Rscript -e '

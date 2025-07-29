@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=testing
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=testing
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=a100-40gb:4
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4,a100,ib
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=smaug_ngpu
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=smaug_ngpu
+#FLUX -N=2
+#FLUX -n=4
+#FLUX --queue=tesla
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

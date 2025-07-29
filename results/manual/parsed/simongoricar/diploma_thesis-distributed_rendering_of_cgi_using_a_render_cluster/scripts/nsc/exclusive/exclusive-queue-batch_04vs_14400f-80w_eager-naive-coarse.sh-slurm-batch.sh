@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=exc-qb_04vs_14400f-80w_eager-naive-coarse
-#FLUX: -n=81
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=exc-qb_04vs_14400f-80w_eager-naive-coarse
+#SBATCH --output=/ceph/grid/home/sg7710/diploma/distributed-rendering-diploma/logs/%A.sbatch.exc-qb_04vs_14400f-80w_eager-naive-coarse.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=81
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=02:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=zen3
 
 export RUST_LOG='debug'
 

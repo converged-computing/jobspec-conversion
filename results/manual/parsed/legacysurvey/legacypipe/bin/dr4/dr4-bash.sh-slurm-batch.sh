@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dr4-bash
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=dr4-bash
+#SBATCH --account=desi
+#SBATCH --output=dr4-bash.o%j
+#SBATCH --mail-user=kburleigh@lbl.gov
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --licenses=SCRATCH
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='$threads'

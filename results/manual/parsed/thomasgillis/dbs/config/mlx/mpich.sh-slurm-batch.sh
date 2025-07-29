@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hope-9970
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=p200067
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=cpu
+#SBATCH --qos=short
 
 echo "loading modules"
 module use /apps/USE/easybuild/release/2021.5/modules/all

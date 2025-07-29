@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-puppy-7030
-#FLUX: -N=16
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-caramel-1267
+#FLUX -N=16
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

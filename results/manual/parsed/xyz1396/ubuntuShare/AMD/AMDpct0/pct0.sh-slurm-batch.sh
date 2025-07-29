@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=MSlabel0
-#FLUX: -N=3
-#FLUX: -n=27
-#FLUX: --queue=omicsbio
-#FLUX: -t=3596400
-#FLUX: --urgency=16
+#SBATCH --job-name=MSlabel0
+#SBATCH --output=MSlabel0Out_stdout.txt
+#SBATCH --error=MSlabel0Out_stderr.txt
+#SBATCH --mail-user=yixiong@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=3
+#SBATCH --ntasks=27
+#SBATCH --cpus-per-task=1
+#SBATCH --time=41-15:00:00
+#SBATCH --partition=omicsbio
+#SBATCH --constraint=ntasks-per-node=9
+#SBATCH --chdir=/scratch/yixiong/AMDpct0
+#SBATCH --nodelist=c657,c658,c660
 
 export OMP_NUM_THREADS='10'
 export OMPI_MCA_btl_openib_allow_ib='1'

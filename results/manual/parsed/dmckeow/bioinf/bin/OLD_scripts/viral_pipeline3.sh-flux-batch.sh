@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemon-9076
-#FLUX: -n=8
-#FLUX: --queue=amdlarge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-cattywampus-9605
+#FLUX -n=8
+#FLUX --queue=amdlarge
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load minimap2/2.17
 module load samtools

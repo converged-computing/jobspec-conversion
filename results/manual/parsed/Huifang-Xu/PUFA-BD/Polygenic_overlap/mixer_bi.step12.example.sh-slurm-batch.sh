@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mixer_bi12
-#FLUX: -c=20
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mixer_bi12
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=hx37930@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=40GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=batch
+#SBATCH --array=1-20
 
 ml CMake/3.15.3-GCCcore-8.3.0
 ml Python/3.8.2-GCCcore-8.3.0

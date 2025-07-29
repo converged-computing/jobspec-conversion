@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-platanos-1881
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-blackbean-1734
+#FLUX -N=4
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 srun /bin/hostname
 echo "running with srun on 4 nodes:"

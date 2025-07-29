@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=POL
-#FLUX: --queue=3090
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=POL
+#SBATCH --output=./out/pol_DST.%j.out
+#SBATCH --mail-user=jihyunlee@postech.ac.kr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=3090
 
 export PYTHONPATH='.'
 

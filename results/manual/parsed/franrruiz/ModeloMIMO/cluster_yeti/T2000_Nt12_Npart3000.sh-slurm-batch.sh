@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-6366
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/franrruiz/ModeloMIMO/cluster_yeti/T2000_Nt12_Npart3000.sh

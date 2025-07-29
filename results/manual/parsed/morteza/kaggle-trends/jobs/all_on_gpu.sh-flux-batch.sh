@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=all_on_gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=all_on_gpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 . /etc/profile.d/lmod.sh
 conda env create -f environment.yml

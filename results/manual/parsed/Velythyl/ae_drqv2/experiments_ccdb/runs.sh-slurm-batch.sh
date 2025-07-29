@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=my_job_name
-#FLUX: -c=32
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=my_job_name
+#SBATCH --account=rrg-lpaull
+#SBATCH --output=%j.out
+#SBATCH --mail-user=charlie.gauthier@umontreal.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64Gb
+#SBATCH --time=1-12:00:00
 
 export PYTHONPATH='${PYTHONPATH}:/home/$USER/projects/def-lpaull/$USER/ae_drqv2'
 

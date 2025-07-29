@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlperft-hpc.deepcam-shmoo
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperft-hpc.deepcam-shmoo
+#SBATCH --account=mlperft
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MODEL_NAME='deepcam'
 export MODEL_FRAMEWORK='pytorch'

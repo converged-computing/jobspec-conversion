@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ssn_workers_pgpu03
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ssn_workers_pgpu03
+#SBATCH --output=ssn_workers_pgpu03.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-16
+#SBATCH --nodelist=pgpu03
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-ssnetserver/singularity-ssnetserver-caffelarbys-cuda8.0.img
 SSS_BASEDIR=/cluster/kappa/wongjiradlab/twongj01/ssnetserver

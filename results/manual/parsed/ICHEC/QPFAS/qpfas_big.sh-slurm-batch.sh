@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leader-6244
-#FLUX: --queue=ProdQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=ichec004
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ProdQ
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

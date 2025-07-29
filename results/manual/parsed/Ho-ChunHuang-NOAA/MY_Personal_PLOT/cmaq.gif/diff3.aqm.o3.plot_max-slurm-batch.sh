@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-ricecake-0656
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq.gif/diff3.aqm.o3.plot_max

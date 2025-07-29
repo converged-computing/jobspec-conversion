@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chip-2600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/ActMax-Optimizer-Dev/scripts/cma_optim_covmat_record.sh

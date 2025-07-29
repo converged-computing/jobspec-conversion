@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=alf_NGC4365_SN100
-#FLUX: -c=16
-#FLUX: --queue=cosma
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=alf_NGC4365_SN100
+#FLUX -c=16
+#FLUX --queue=cosma
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export ALF_HOME='/cosma5/data/durham/dc-poci1/alf/'
 

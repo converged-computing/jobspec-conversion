@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=openbioml
-#FLUX: --queue=g40n404
-#FLUX: --urgency=16
+#SBATCH --job-name=openbioml
+#SBATCH --output=/fsx/home-zanussbaum/bio-chem-lm/logs/bio-chem-lm_latest_%A_%a.out
+#SBATCH --error=/fsx/home-zanussbaum/bio-chem-lm/logs/bio-chem-lm_latest_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=g40n404
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

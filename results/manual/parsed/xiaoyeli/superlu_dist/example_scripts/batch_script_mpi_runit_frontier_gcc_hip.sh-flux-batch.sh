@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=superlu_test
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=superlu_test
+#FLUX -N=2
+#FLUX --queue=batch
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export LD_LIBRARY_PATH='$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_test1
-#FLUX: --queue=standard
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep_test1
+#FLUX --queue=standard
+#FLUX -t=115200
+#FLUX --urgency=16
 
 export NTHREADS='3'
 export MEMMB='24576'

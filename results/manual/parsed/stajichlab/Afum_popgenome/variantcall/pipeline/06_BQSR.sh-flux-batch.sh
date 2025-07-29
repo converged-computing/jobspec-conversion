@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BQSR
-#FLUX: -n=4
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=BQSR
+#FLUX -n=4
+#FLUX --queue=intel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 MEM=128g
 module load samtools/1.9

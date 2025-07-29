@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=model_exploration
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=model_exploration
+#SBATCH --output=results/exploration_%A_%a.out
+#SBATCH --error=results/exploration_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4g.20gb:1
+#SBATCH --mem-per-cpu=2048mb
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0-2
 
 RUNPATH=$HOME/projekte/mixed-precision-dnns
 cd $RUNPATH

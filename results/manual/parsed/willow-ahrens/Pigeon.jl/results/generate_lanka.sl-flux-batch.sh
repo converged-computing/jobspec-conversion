@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-egg-8566
+#FLUX --job-name=butterscotch-car-5814
 #FLUX: --exclusive
-#FLUX: --queue=lanka-v3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=lanka-v3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SCRATCH='/data/scratch/pahrens'
 export PATH='$SCRATCH/julia:$PATH'

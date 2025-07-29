@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=FLOFS_atm2adc_SETUP
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=FLOFS_atm2adc_SETUP
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

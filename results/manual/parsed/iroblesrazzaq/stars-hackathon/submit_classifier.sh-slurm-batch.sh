@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-house-7005
-#FLUX: --queue=schmidt-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=pi-dfreedman
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=schmidt-gpu
+#SBATCH --qos=schmidt
 
 echo "output of the visible GPU environment"
 nvidia-smi

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-poodle-8429
-#FLUX: -N=4
-#FLUX: -n=4
+#FLUX --job-name=expressive-earthworm-0044
+#FLUX -N=4
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=dev
+#FLUX -t=86400
+#FLUX --urgency=16
 
 srun -v -v -N 4 -n 4 spack install \
   -v -y \

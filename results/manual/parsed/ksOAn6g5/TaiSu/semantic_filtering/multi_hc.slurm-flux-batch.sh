@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=clean
-#FLUX: -c=8
+#FLUX --job-name=clean
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=kshdexclu05
-#FLUX: -t=7200000
-#FLUX: --urgency=16
+#FLUX --queue=kshdexclu05
+#FLUX -t=7200000
+#FLUX --urgency=16
 
 source env_hc_zjx.sh
 which python3

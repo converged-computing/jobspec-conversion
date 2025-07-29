@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-egg-7223
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-ricecake-2416
+#FLUX --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin2C'

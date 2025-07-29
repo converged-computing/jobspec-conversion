@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=localization_model_train
-#FLUX: -c=10
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=localization_model_train
+#FLUX -c=10
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 offset=0
 job_idx=$(($SLURM_ARRAY_TASK_ID + $offset))

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=align_col
-#FLUX: -n=8
-#FLUX: --urgency=16
+#SBATCH --job-name=align_col
+#SBATCH --output=logs/VCF_pipeline_%A_%a.out
+#SBATCH --error=logs/VCF_pipeline_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-206
 
 source /home/ssmith/.bashrc
 source activate wgs_env

@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mpi-build
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi-build
+#SBATCH --output=MPI-build-H100.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:h100:2
+#SBATCH --mem-per-cpu=80G
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
+#SBATCH --nodelist=ac055
 
 /sw/local/bin/query_gpu.sh
 nvidia-smi -L ; clinfo -l

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=angry-carrot-4173
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 module load gcc/8.4.0-cuda
 module load mvapich2/2.3.4

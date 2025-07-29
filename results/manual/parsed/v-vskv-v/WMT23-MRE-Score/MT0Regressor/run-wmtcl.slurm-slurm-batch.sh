@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cl-labse-train-regressor
-#FLUX: -c=16
-#FLUX: --queue=intel-a100-pci3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=cl-labse-train-regressor
+#SBATCH --output=./outputs-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=256GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=intel-a100-pci3
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Starting at `date` on `hostname` at `pwd`"
 echo "Job name: $SLURM_JOB_NAME Job ID: $SLURM_JOB_ID"

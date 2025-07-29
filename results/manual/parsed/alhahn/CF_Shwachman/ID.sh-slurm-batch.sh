@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-4964
-#FLUX: -n=8
-#FLUX: --queue=defq
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=defq
+#SBATCH --array=0-3
 
 SAVEIFS=$IFS   # Save current IFS
 IFS=$'\n'      # Change IFS to new line

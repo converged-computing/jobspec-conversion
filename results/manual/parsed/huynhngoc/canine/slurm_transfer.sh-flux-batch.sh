@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=transfer
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=transfer
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export ITER_PER_EPOCH='100'
 export NUM_CPUS='4'

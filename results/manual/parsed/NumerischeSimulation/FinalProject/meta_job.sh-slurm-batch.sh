@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=submission_${val}
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#SBATCH --job-name=submission_${val}
+#SBATCH --output=results_${val}.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:40:00
 
 module use /usr/local.nfs/sgs/modulefiles
 module load gcc/10.2

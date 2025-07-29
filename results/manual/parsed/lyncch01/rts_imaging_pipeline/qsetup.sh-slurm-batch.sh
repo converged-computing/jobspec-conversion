@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rts_setup
-#FLUX: --queue=workq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rts_setup
+#SBATCH --account=mwaeor
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=workq
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-2
 
 module use /pawsey/mwa/software/python3/modulefiles
 module load python-singularity

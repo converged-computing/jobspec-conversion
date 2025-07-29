@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-squidward-5387
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-poo-7677
+#FLUX -c=2
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMPI_MCA_btl_openib_warn_default_gid_prefix='0'
 export OMPI_MCA_btl_openib_cpc_exclude='rdmacm'

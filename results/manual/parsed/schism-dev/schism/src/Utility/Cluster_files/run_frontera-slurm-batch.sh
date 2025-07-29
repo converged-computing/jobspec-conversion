@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=R14f
-#FLUX: -N=20
-#FLUX: -n=1120
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=R14f
+#SBATCH --account=OCE22003
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --mail-user=yjzhang@vims.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=20
+#SBATCH --ntasks=1120
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 module list
 pwd

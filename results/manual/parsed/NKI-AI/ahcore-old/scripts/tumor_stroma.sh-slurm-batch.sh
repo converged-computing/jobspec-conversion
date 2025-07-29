@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tumor_stroma_attention_unet_macenko
-#FLUX: -c=2
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=tumor_stroma_attention_unet_macenko
+#SBATCH --output=tumor_stroma_attention_unet_macenko%A.out
+#SBATCH --error=tumor_stroma_attention_unet_macenko%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=14-00:00:00
 
 NUM_GPUS_PER_NODE=1
 PARTITION=a100

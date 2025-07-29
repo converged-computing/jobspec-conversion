@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=sngp_seg
-#FLUX: -c=64
-#FLUX: --queue=disc
-#FLUX: -t=34200
-#FLUX: --urgency=16
+#SBATCH --job-name=sngp_seg
+#SBATCH --output=/ourdisk/hpc/ai2es/jroth/sngp_seg/out.txt
+#SBATCH --error=/ourdisk/hpc/ai2es/jroth/sngp_seg/err.txt
+#SBATCH --mail-user=jay.c.rothenberger@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16G
+#SBATCH --time=09:30:00
+#SBATCH --partition=disc
+#SBATCH --chdir=/ourdisk/hpc/ai2es/jroth/sngp_seg/
 
 export PROJ_DIR='/ourdisk/hpc/ai2es/jroth/sngp_seg/'
 export LSCRATCH='/lscratch/$SLURM_JOB_ID'

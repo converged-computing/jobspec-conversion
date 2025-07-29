@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST_resnet18_bald_experiment
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=MNIST_resnet18_bald_experiment
+#SBATCH --output=../out/slurm_output_%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2022

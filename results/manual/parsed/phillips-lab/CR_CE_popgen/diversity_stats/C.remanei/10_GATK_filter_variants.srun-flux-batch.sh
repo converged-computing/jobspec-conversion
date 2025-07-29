@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=filt.vcf
-#FLUX: --queue=phillips
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=filt.vcf
+#FLUX --queue=phillips
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

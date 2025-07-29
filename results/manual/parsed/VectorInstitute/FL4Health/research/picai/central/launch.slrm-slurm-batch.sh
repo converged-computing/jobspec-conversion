@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=central_picai
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --job-name=central_picai
+#SBATCH --output=%j_%x.out
+#SBATCH --error=%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 LOG_DIR=$1
 VENV_PATH=$2

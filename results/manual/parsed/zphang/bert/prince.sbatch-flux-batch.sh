@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pot-9795
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-salad-3915
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/zp489/miniconda3/envs/bert/lib/python3.6/site-packages:$PYTHONPATH'
 

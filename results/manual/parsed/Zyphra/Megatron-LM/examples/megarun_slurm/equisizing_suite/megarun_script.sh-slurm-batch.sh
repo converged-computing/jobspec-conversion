@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=megarun
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --job-name=megarun
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 IB_INTERFACES=mlx5_0,mlx5_3,mlx5_4,mlx5_5,mlx5_6,mlx5_7,mlx5_8,mlx5_9
 srun --output=/mnt/shared/slurm_logs/megarun.log \

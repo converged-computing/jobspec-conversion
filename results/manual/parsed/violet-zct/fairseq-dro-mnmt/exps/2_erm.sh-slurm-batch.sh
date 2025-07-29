@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=exp
-#FLUX: -c=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=exp
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:v100-32:4
+#SBATCH --mem=30g
+#SBATCH --array=0-3
 
 echo $SLURM_ARRAY_TASK_ID
 source activate mnmt

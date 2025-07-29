@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pancake-5751
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/andersthuesen/DTU-Course-Project-02466/jobs/100_0.sh

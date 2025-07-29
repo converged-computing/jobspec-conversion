@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=mini_bh_prelim
-#FLUX: -c=4
-#FLUX: --queue=svl
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mini_bh_prelim
+#SBATCH --account=vision
+#SBATCH --output=logs/mini_bh_train_slurm_%A.out
+#SBATCH --error=logs/mini_bh_train_slurm_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=12:00:00
+#SBATCH --partition=svl
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.1/lib64:/usr/lib/x86_64-linux-gnu'
 

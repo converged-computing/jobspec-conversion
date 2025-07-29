@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MRP_dke
-#FLUX: -c=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MRP_dke
+#SBATCH --output=output_%J_mrprun.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:volta:2
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

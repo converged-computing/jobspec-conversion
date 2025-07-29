@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=football
-#FLUX: -c=52
-#FLUX: --queue=standard-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=football
+#FLUX -c=52
+#FLUX --queue=standard-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 SLURM_CPUS_PER_TASK=52
 srun --cpus-per-task=$SLURM_CPUS_PER_TASK singularity run --cleanenv \

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-mango-4950
-#FLUX: -c=80
-#FLUX: --gpus-per-task=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gpus-per-task=8
+#SBATCH --time=00:10:00
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 redis_password=$(uuidgen)
 export redis_password

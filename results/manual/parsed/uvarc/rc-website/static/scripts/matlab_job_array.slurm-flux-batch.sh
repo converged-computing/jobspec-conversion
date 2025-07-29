@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runMultiple
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=runMultiple
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 export slurm_ID='${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}'
 export numWorkers='$((SLURM_NTASKS-1))'

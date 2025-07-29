@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AMPHIBIOUS GAZE IMPROVEMENT
-#FLUX: --queue=iris-hi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=AMPHIBIOUS GAZE IMPROVEMENT
+#FLUX --queue=iris-hi
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export ENV_NAME='${1}'
 export SEED='${2}'

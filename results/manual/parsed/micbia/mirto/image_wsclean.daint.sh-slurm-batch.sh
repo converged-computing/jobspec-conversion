@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wscelan_img
-#FLUX: -c=12
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=wscelan_img
+#SBATCH --account=c31
+#SBATCH --output=logs/wscelan_img.%j.out
+#SBATCH --error=logs/wscelan_img.%j.err
+#SBATCH --mail-user=michele.bianco@epfl.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=62G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=gpu,gpu
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

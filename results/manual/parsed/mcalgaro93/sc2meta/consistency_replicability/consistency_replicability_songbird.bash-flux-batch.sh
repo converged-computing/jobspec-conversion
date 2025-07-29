@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=songbird
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=songbird
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 PER_TASK=5
 START_NUM=$(( ($SLURM_ARRAY_TASK_ID - 1) * $PER_TASK + 1 ))

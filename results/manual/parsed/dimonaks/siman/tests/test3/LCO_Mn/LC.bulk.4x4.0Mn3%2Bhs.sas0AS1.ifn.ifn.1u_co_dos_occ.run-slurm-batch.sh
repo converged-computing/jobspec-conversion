@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LC.bulk.4x4.0Mn3+hs.sas0AS1.ifn.ifn.1u_co_dos_occ
-#FLUX: -n=16
-#FLUX: --queue=AMG-medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=LC.bulk.4x4.0Mn3+hs.sas0AS1.ifn.ifn.1u_co_dos_occ
+#SBATCH --output=/home/a.boev/vasp/surseg_tem//seg_paper/sol/as//LC.bulk.4x4.0Mn3+hs.sas0AS1.ifn.ifn.1u_co_dos_occ/sbatch.out
+#SBATCH --error=/home/a.boev/vasp/surseg_tem//seg_paper/sol/as//LC.bulk.4x4.0Mn3+hs.sas0AS1.ifn.ifn.1u_co_dos_occ/sbatch.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=AMG-medium
 
 export PATH='$PATH:/home/a.boev/tools/'
 

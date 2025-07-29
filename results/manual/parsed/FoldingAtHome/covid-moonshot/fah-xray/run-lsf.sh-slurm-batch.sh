@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-nalgas-5036
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/FoldingAtHome/covid-moonshot/fah-xray/run-lsf.sh

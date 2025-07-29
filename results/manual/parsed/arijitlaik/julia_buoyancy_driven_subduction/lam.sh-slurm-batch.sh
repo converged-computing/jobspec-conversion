@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cinnamonbun-7639
-#FLUX: -n=64
-#FLUX: --queue=rome
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=rome
 
 export MODEL_PARAM_FILE='output.dat'
 export MODEL_NAME='t1_64'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=robustness
-#FLUX: -c=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=robustness
+#FLUX -c=2
+#FLUX -t=900
+#FLUX --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 

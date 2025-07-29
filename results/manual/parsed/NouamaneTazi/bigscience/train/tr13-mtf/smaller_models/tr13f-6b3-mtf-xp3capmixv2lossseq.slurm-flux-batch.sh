@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=xp3capmixv2lossseq
-#FLUX: -N=8
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=xp3capmixv2lossseq
+#FLUX -N=8
+#FLUX -c=64
+#FLUX --queue=gpu_p5
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

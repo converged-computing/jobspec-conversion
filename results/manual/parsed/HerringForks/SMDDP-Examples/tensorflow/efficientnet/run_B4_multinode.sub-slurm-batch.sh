@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hippo-4798
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"
 readonly checkpointdir="$PWD/B4_mulitnode_AMP/"

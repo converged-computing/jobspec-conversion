@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nalgas-0359
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: --queue=soc-kp
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-despacito-3314
+#FLUX -N=4
+#FLUX -n=64
+#FLUX --queue=soc-kp
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PIN_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/'
 export PTOOL_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/source/tools'

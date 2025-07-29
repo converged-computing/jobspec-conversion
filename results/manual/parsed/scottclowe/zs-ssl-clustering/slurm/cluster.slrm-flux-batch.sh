@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=zs-ssl-clus
-#FLUX: -c=2
-#FLUX: --queue=cpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=zs-ssl-clus
+#FLUX -c=2
+#FLUX --queue=cpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
                                     # %x=job-name, %A=job ID, %a=array value, %n=node rank, %t=task rank, %N=hostname
                                     # Note: You must create output directory "slogs" before launching job, otherwise it will immediately

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NNmd
-#FLUX: --queue=npl-2024
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=NNmd
+#FLUX --queue=npl-2024
+#FLUX -t=300
+#FLUX --urgency=16
 
 if [ -z "$1" ]; then
     echo "Usage: $0 <number>"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-latke-0953
+#FLUX --job-name=misunderstood-pot-4552
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export MAX_STEPS='100'
 

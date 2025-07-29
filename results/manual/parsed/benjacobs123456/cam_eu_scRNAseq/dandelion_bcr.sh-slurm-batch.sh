@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dandelion_bcr
-#FLUX: -c=64
-#FLUX: --queue=icelake-himem
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=dandelion_bcr
+#SBATCH --account=SAWCER-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=08:00:00
+#SBATCH --partition=icelake-himem
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

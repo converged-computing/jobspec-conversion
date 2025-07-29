@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-earthworm-9921
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=345730
-#FLUX: --urgency=16
+#FLUX --job-name=phat-punk-4800
+#FLUX -N=4
+#FLUX -c=2
+#FLUX -t=345730
+#FLUX --urgency=16
 
 export NCCL_BLOCKING_WAIT='1  # Set this variable to use the NCCL backend'
 export NCCL_IB_DISABLE='1'

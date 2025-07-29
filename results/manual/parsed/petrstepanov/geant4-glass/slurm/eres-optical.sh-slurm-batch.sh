@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hobbit-5267
-#FLUX: --queue=priority
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=eic
+#SBATCH --output=eres-optical-40_%A_%a.out
+#SBATCH --error=eres-optical-40_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=512
+#SBATCH --time=12:00:00
+#SBATCH --partition=priority
+#SBATCH --array=0-12
 
 NX=1
 NY=1

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=serene
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=serene
+#SBATCH --output=logs/serene.%J.out
+#SBATCH --error=logs/serene.%J.err
+#SBATCH --mail-user=mb756@sussex.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
 
 module load python/3.8.6
 module load cuda/10.1 

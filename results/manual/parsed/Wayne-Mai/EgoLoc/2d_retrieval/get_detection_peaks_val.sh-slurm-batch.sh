@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vq2d
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=vq2d
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=01:00:00
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 export HYDRA_FULL_ERROR='1'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chip-6416
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
+#SBATCH --array=0-3
 
 cd /global/homes/r/rkube/repos/delta/rq_tests
 conda activate delta

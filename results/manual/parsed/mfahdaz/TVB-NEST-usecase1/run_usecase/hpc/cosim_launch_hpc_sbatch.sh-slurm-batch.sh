@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-general-2922
-#FLUX: -N=2
-#FLUX: --queue=develgpus
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=slns
+#SBATCH --output=slurm_logs/cosim_sbatch-out.%j
+#SBATCH --error=slurm_logs/cosim_sbatch-err.%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=00:10:00
+#SBATCH --partition=develgpus
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/multiscale-cosim'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

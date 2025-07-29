@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_jupyter_sing
-#FLUX: --urgency=16
+#SBATCH --job-name=tvp_jupyter_sing
+#SBATCH --output=jupyter.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "TACC: unloading xalt"
 module unload xalt

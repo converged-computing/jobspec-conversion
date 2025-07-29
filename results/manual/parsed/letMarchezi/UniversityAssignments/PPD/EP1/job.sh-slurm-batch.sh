@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mmul
-#FLUX: -c=40
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=mmul
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=01:30:00
+#SBATCH --partition=fast
 
 echo "*** SEQUENTIAL ***"
 srun singularity run container.sif pi_seq 1000000000

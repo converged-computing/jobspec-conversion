@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=feature_extraction
-#FLUX: -n=6
-#FLUX: --queue=cpu_p1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=feature_extraction
+#SBATCH --account=imi@cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=cpu_p1
 
 export MASTER_PORT='1234'
 export MASTER_ADDRESS='$(echo $slurm_nodes | cut -d' ' -f1)'

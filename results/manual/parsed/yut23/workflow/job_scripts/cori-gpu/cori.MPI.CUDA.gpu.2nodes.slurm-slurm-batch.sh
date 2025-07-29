@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=castro_gpu_job
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=castro_gpu_job
+#SBATCH --account=[your
+#SBATCH --mail-user=[your
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

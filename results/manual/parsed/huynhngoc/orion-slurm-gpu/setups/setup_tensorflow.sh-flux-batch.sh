@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=singularity
-#FLUX: --queue=smallmem
-#FLUX: --urgency=16
+#FLUX --job-name=singularity
+#FLUX --queue=smallmem
+#FLUX --urgency=16
 
 module load singularity
 if [ ! "tensorflow_gpu.sif" ]

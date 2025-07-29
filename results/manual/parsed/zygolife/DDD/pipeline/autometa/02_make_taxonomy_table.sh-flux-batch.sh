@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-7645
-#FLUX: -n=24
-#FLUX: --queue=batch,intel
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-peanut-5010
+#FLUX -n=24
+#FLUX --queue=batch,intel
+#FLUX --urgency=16
 
 CPU=1
 if [ ! -z $SLURM_CPUS_ON_NODE ]; then

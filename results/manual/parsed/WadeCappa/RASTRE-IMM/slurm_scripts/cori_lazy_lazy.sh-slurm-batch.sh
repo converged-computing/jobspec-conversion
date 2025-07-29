@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Orkut16_lazy_lazy
-#FLUX: -N=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Orkut16_lazy_lazy
+#SBATCH --account=m1641
+#SBATCH --output=output/orkut/Orkut16_lazy_lazy.o
+#SBATCH --error=output/orkut/Orkut16_lazy_lazy.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=ntasks-per-node=1,haswell,ntasks-per-node=1
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='threads'

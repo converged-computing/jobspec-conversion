@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mcmicro_SMM_multisample
-#FLUX: --queue=cpu-short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=mcmicro_SMM_multisample
+#FLUX --queue=cpu-short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NXF_APPTAINER_CACHEDIR='/research/labs/hematology/hemedata/m302618/apptainer/containers'
 

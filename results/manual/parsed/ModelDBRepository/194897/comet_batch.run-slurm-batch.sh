@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=m1ms_evol_islands
-#FLUX: --queue=compute
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=m1ms_evol_islands
+#SBATCH --account=csd403
+#SBATCH --output=stdout.%j.%N.txt
+#SBATCH --error=stderr.%j.%N.txt
+#SBATCH --mail-user=salvadordura@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=6
 
 export MODULEPATH='/share/apps/compute/modulefiles/mpi:$MODULEPATH'
 export PATH='~nsguser/applications/neuron7.4/installdir/x86_64/bin:~nsguser/.local/bin:$PATH'

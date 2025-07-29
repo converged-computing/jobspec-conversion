@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bunet
-#FLUX: -n=36
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bunet
+#SBATCH --output=/scratch/users/%u/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export MASTER_PORT='11451'
 export WORLD_SIZE='8'

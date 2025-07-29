@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hope-8854
-#FLUX: -c=5
-#FLUX: --queue=partition
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=account
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=100Gb
+#SBATCH --time=00:05:00
+#SBATCH --partition=partition
+#SBATCH --array=1-5
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

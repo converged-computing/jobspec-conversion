@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-mango-9955
-#FLUX: -N=2
-#FLUX: -c=80
-#FLUX: --gpus-per-task=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=sout/%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gpus-per-task=8
+#SBATCH --time=00:30:00
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 nproc_per_node=8
 config=bs2048-warmup-opt

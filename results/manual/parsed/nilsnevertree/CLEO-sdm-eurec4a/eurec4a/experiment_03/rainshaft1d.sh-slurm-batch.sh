@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=sdm_eueurec4a_rain1d
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=sdm_eueurec4a_rain1d
+#SBATCH --account=mh1126
+#SBATCH --output=./rain1d_out.%j.out
+#SBATCH --error=./rain1d_err.%j.out
+#SBATCH --mail-user=nils-ole.niebaum@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=128
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

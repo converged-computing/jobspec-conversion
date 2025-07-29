@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=soda_lake_inversion
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=soda_lake_inversion
+#SBATCH --account=w18_trust
+#SBATCH --output=slurm.log
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --qos=interactive
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=UQS37
-#FLUX: -c=2
-#FLUX: --queue=gpu_p2
-#FLUX: -t=345599
-#FLUX: --urgency=16
+#SBATCH --job-name=UQS37
+#SBATCH --account=ldr@gpu
+#SBATCH --output=omp%j.out
+#SBATCH --error=omp%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-23:59:59
+#SBATCH --partition=gpu_p2
+#SBATCH --qos=qos_gpu-t4
 
 hostname
 echo --------------------------------------

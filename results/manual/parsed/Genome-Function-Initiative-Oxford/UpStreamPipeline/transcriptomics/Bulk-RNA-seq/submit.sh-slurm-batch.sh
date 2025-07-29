@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=<job-name>
-#FLUX: -n=2
-#FLUX: --queue=<partition-name>
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#SBATCH --job-name=<job-name>
+#SBATCH --output=%j_%x.out
+#SBATCH --error=%j_%x.err
+#SBATCH --mail-user=<your-email>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=3-12:00:00
+#SBATCH --partition=<partition-name>
 
 source /path/to/baseenv/bin/activate upstream
 snakemake --configfile=config/analysis.yaml all --cores 2 --unlock

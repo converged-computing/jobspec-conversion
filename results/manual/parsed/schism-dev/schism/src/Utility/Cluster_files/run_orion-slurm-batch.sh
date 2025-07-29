@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=CORIE
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --exclusive
-#FLUX: --queue=orion
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CORIE
+#SBATCH --account=nos-surge
+#SBATCH --output=myout
+#SBATCH --error=err2.out
+#SBATCH --mail-user=yjzhang@vims.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=orion
+#SBATCH: --exclusive
+#SBATCH --chdir=.
 
 set -e
 ulimit -s unlimited 

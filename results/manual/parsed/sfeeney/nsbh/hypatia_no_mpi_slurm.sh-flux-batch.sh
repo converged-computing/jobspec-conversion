@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nsbh
+#FLUX --job-name=nsbh
 #FLUX: --exclusive
-#FLUX: --queue=CORES24
-#FLUX: --urgency=16
+#FLUX --queue=CORES24
+#FLUX --urgency=16
 
 module purge
 source /share/apps/anaconda/3-2019.03/etc/profile.d/conda.sh

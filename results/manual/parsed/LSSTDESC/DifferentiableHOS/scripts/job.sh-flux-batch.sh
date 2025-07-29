@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lettuce-5105
-#FLUX: --gpus-per-task=1
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-train-1619
+#FLUX --gpus-per-task=1
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load tensorflow/2.6.0
 cd /pscratch/sd/d/dlan/result_paper_IA_0/jac_ps_multiscale/

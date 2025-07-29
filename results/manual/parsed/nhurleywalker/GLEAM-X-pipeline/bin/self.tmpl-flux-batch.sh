@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pastry-9677
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=grated-sundae-3009
+#FLUX --queue=STANDARDQ
+#FLUX -t=43200
+#FLUX --urgency=16
 
 TASKLINE
 pipeuser=PIPEUSER

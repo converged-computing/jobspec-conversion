@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bsl_highres_combi
-#FLUX: -n=9
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=bsl_highres_combi
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1;export OMP_PLACES=cores;export OMP_PROC_BIND=close'
 

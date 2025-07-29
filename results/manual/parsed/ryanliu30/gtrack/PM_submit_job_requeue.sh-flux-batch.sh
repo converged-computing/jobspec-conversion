@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GTrack-train
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=GTrack-train
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=aortic_1
-#FLUX: -N=4
-#FLUX: --queue=amarsden
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=aortic_1
+#SBATCH --mail-user=adkaiser@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=185GB
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=amarsden
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --exclude=sh03-16n02
 
 module purge
 module load gcc/8.1.0

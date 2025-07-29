@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-mango-1364
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-fork-3389
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load git
 module load python/3.8

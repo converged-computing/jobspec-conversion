@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=self_supervised_learning
-#FLUX: -c=24
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=self_supervised_learning
+#SBATCH --output=/mnt/stud/home/ynagel/logs/self_supervised_learning/SVHN/R18/%A_%a__%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --array=1-16%8
 
 date;hostname;pwd
 source /mnt/stud/home/ynagel/dal-toolbox/venv/bin/activate

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CRPEC
-#FLUX: -c=8
-#FLUX: --queue=gpu3090
-#FLUX: --urgency=16
+#FLUX --job-name=CRPEC
+#FLUX -c=8
+#FLUX --queue=gpu3090
+#FLUX --urgency=16
 
 INPUT_DIR="input"
 RUNS_DIR="./runs"

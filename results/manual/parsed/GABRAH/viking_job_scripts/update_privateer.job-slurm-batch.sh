@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=install_privateer
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=install_privateer
+#SBATCH --account=chem-structglyco-2019
+#SBATCH --output=install_privateer_%j.log
+#SBATCH --mail-user=hb1115@york.ac.uk
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4gb
+#SBATCH --time=00:20:00
 
 export CC='$GCC'
 export CXX='$GPLUSPLUS'

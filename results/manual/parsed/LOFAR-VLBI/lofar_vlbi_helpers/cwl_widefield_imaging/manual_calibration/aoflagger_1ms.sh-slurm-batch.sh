@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=aoflagger
-#FLUX: -c=45
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=aoflagger
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=45
+#SBATCH --time=10:00:00
+#SBATCH --constraint=amd
 
 SIMG=$( python3 $HOME/parse_settings.py --SIMG )
 SING_BIND=$( python3 $HOME/parse_settings.py --BIND )

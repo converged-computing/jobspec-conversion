@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-9159
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-lentil-3670
+#FLUX -t=720000
+#FLUX --urgency=16
 
 export TMPDIR='TMP'
 

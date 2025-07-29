@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=amber@22
-#FLUX: -c=8
-#FLUX: --queue=hotel-gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=amber@22
+#FLUX -c=8
+#FLUX --queue=hotel-gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

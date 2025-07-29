@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20210712_pgen_blobtools_Panopea-generosa-v1.0
-#FLUX: --queue=coenv
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=20210712_pgen_blobtools_Panopea-generosa-v1.0
+#SBATCH --account=coenv
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=coenv
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210712_pgen_blobtools_Panopea-generosa-v1.0
 
 module load blobtoolkit-v2.6.1.module
 wd=$(pwd)

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parsnip-1883
-#FLUX: --queue=GPU-AI
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-lizard-1648
+#FLUX --queue=GPU-AI
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export PYTHONPATH='$HOME/.local/lib/python3.6/site-packages:$PYTHONPATH'
 

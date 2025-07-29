@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-puppy-4062
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=30G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
 
 conda activate machamp
 module load gcc/9.1.0

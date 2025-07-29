@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-snack-3252
-#FLUX: --queue=physical
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-animal-2705
+#FLUX --queue=physical
+#FLUX -t=50400
+#FLUX --urgency=16
 
 module load FSL/5.0.11-intel-2017.u2-GCC-6.2.0-CUDA9
 module load MRtrix/20190207-GCC-6.2.0

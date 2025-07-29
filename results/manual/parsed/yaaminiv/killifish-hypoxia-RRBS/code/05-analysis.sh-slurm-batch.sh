@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_analysis
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --job-name=yrv_analysis
+#SBATCH --output=yrv_analysis%j.log
+#SBATCH --mail-user=yaamini.venkataraman@whoi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100gb
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/05-analysis
 
 echo "Prepare for analysis"
 echo "Create chromosome length file"

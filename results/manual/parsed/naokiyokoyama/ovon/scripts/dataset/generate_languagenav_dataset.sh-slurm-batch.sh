@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ovon-dgen
-#FLUX: -c=6
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=ovon-dgen
+#SBATCH --output=slurm_logs/dataset-%j.out
+#SBATCH --error=slurm_logs/dataset-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=1
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1,a40|rtx_6000|2080_ti
+#SBATCH --exclude=calculon,alexa,cortana,bmo,c3po,ripl-s1,t1000,hal,irona,fiona
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

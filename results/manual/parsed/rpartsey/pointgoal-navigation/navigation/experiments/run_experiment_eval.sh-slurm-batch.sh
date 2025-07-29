@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pointgoal_nav
-#FLUX: -c=10
-#FLUX: --queue=devlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pointgoal_nav
+#SBATCH --mail-user=maksymets@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=devlab
+#SBATCH --constraint=volta32gb,ntasks-per-node=1
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 export GLOG_minloglevel='2'

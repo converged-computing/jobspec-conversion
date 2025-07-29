@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-butter-4413
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=m4138
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test2
-#FLUX: --queue=RTX3090
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=test2
+#SBATCH --output=./out/test2.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=RTX3090
+#SBATCH --qos=short
 
 module load spack
 module add cuda-11.4.2-gcc-11.2.0-rxy4qhm            # 载入 CUDA 9.0 模块

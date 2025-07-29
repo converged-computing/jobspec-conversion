@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gMsh
-#FLUX: -N=64
-#FLUX: --queue=pbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gMsh
+#SBATCH --account=sunyb
+#SBATCH --mail-user=mtmcgurn@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=pbatch
 
 export PETSC_DIR='/usr/workspace/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt" # arch-ablate-debug or arch-ablate-opt'

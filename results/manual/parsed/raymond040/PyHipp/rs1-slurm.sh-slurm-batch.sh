@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rs1
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rs1
+#SBATCH --output=rs1-slurm.%N.%j.out
+#SBATCH --error=rs1-slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=1-00:00:00
 
 python -u -c "import PyHipp as pyh; \
 import DataProcessingTools as DPT; \

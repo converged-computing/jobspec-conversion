@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=slbBurn3D
-#FLUX: -N=6
+#FLUX --job-name=slbBurn3D
+#FLUX -N=6
 #FLUX: --exclusive
-#FLUX: --queue=scavenger
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=scavenger
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PETSC_DIR='/projects/academic/chrest/mtmcgurn/petsc  '
 export PETSC_ARCH='arch-ablate-opt'

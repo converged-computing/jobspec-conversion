@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cherry-6436
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-snack-0414
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HI2018HLT/JetTriggers/17563_ParallelRun/Template.sh

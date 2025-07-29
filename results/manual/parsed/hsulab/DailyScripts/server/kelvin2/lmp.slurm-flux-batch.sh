@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bPtO2-nvt
-#FLUX: -n=5
-#FLUX: -c=4
-#FLUX: --queue=k2-hipri
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=bPtO2-nvt
+#FLUX -n=5
+#FLUX -c=4
+#FLUX --queue=k2-hipri
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load services/s3cmd

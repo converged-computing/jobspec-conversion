@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_OB1_simulations
-#FLUX: --queue=defq
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=run_OB1_simulations
+#FLUX --queue=defq
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load shared 2022
 module load PyTorch/1.12.1-foss-2021a-CUDA-11.3.1

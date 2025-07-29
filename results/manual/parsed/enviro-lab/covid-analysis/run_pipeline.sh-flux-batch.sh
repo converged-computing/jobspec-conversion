@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lemur-2672
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-destiny-6221
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PATH='$here:$PATH'
 

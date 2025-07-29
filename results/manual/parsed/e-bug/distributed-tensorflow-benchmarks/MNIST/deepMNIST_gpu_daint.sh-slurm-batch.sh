@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=deepMNIST
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=deepMNIST
+#SBATCH --output=mymnist.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=gpu
 
 export WORKON_HOME='~/Envs'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=XLMR_predict
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=XLMR_predict
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 module purge   # Recommended for reproducibility

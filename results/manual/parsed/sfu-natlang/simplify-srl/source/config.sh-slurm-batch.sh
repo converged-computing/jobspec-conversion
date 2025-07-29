@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-onion-4942
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sfu-natlang/simplify-srl/source/config.sh

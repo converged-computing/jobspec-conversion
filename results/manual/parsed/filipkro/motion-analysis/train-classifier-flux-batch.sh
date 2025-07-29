@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-2798
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-sundae-3622
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=18000
+#FLUX --urgency=16
 
 data_set="data_Octavio-Paz.npz"
 archive="VA-classification"

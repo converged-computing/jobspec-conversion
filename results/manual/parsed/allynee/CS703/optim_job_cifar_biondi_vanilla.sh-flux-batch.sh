@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=metalearning_CIFAR_FS_MetaOptNet_SVM_biondi_vanilla
-#FLUX: -c=4
-#FLUX: --queue=project
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=metalearning_CIFAR_FS_MetaOptNet_SVM_biondi_vanilla
+#FLUX -c=4
+#FLUX --queue=project
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load Anaconda3/2022.05

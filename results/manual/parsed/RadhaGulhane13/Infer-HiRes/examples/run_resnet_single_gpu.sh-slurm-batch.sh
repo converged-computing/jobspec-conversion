@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-toaster-1144
-#FLUX: --queue=a100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=a100
 
 export PYTHONNOUSERSITE='true'
 export CUDA_HOME='/home/gulhane.2/cuda/setup.sh'

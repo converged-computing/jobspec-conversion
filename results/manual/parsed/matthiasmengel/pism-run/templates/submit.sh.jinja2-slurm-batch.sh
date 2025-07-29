@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name={{settings.experiment}}
-#FLUX: -n=160
-#FLUX: --queue=broadwell
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#SBATCH --job-name={{settings.experiment}}
+#SBATCH --account=ice
+#SBATCH --output=./slurm_out.out
+#SBATCH --error=./slurm_error.err
+#SBATCH --mail-user=reese@pik-potsdam.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:50:00
+#SBATCH --partition=broadwell
+#SBATCH --qos=short
 
 export PISM_ON_CLUSTER='1'
 export PATH='$NETCDF_ROOT/bin:$PATH'

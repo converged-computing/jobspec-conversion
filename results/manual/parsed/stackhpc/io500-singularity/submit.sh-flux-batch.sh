@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bits-0478
-#FLUX: -n=2
+#FLUX --job-name=milky-fork-4327
+#FLUX -n=2
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export UCX_NET_DEVICES='all'
 export IO500_CONTAINER_TAG='9d75358'

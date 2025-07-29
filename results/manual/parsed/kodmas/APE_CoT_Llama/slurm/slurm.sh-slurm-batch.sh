@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=APE_test_1
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=gp1d
-#FLUX: --urgency=16
+#SBATCH --job-name=APE_test_1
+#SBATCH --account=MST112195
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:8
+#SBATCH --mem=16384
+#SBATCH --partition=gp1d
+#SBATCH --constraint=ntasks-per-node=4
 
 module load miniconda3
 conda info --envs

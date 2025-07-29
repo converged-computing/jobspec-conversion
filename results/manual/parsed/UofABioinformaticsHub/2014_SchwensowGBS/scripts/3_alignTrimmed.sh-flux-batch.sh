@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-5386
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=salted-animal-3764
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load BWA/0.7.15-foss-2017a
 module load SAMtools/0.1.19-GCC-5.3.0-binutils-2.25

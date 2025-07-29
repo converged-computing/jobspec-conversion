@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: -N=512
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stage1
+#FLUX -N=512
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/cytochrome/${1}/out/ly99sim_all.mtz'

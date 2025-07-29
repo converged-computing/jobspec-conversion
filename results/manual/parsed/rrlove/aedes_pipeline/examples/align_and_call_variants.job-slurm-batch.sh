@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-poodle-7679
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --array=1-12%4
 
 source activate varaedes
 cd ${aedes_path}data/output/

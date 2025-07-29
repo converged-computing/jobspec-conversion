@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: --queue=ckpt
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=mpi
+#FLUX --queue=ckpt
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load ompi
 mpic++ -std=c++14 -o mpi.o mpi.cpp;

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-toaster-6641
-#FLUX: --queue=bw-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=10000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=bw-gpu
 
 cd ..
 name=recongan10_resnet_nyu

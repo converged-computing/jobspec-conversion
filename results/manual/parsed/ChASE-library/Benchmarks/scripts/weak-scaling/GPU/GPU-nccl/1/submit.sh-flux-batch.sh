@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-noodle-7919
-#FLUX: -n=4
-#FLUX: -c=12
-#FLUX: --queue=develbooster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-punk-2886
+#FLUX -n=4
+#FLUX -c=12
+#FLUX --queue=develbooster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

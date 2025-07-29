@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PLACEHOLDER-trimmomatic-log
-#FLUX: --queue=intel
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=PLACEHOLDER-trimmomatic-log
+#SBATCH --output=PLACEHOLDER.stdout
+#SBATCH --mail-user=danielaz@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=08:00:00
+#SBATCH --partition=intel
 
 date
 module load trimmomatic

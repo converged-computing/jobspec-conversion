@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpl
-#FLUX: --exclusive
-#FLUX: --queue=MI250
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hpl
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=MI250
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 export AMD_LOG_LEVEL='1'
 

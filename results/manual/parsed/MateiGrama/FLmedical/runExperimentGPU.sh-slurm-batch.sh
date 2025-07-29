@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cupcake-5952
-#FLUX: --urgency=16
+#SBATCH --output=FedLrn
+#SBATCH --mail-user=mgg17
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 source /vol/bitbucket/mgg17/diss/venv/bin/activate
 source /vol/cuda/10.0.130/setup.sh

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MD_attack
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=MD_attack
+#SBATCH --account=punim0784
+#SBATCH --output=slurm-%A-%x.out
+#SBATCH --mail-user=curtishuang@live.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

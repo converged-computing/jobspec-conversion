@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peas-8206
-#FLUX: --queue=defq
-#FLUX: -t=721800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=8-08:30:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=1
 
 source /conda/miniconda3/etc/profile.d/conda.sh
 Nextflow=n/NextFlow/nextflow

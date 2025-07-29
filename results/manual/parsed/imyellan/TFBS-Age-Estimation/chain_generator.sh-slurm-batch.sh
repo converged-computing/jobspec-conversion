@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-noodle-0685
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=isaac.yellan95@gmail.com
+#SBATCH --mail-type=ARRAY_TASKS,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=7G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-239
 
 module load StdEnv/2020 gcc/9.3.0 hal/2.2 kentutils/453
 target_spec=$1

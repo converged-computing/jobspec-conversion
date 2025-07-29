@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fork-5059
-#FLUX: -c=20
-#FLUX: --queue=small
-#FLUX: -t=610
-#FLUX: --urgency=16
+#FLUX --job-name=confused-staircase-7392
+#FLUX -c=20
+#FLUX --queue=small
+#FLUX -t=610
+#FLUX --urgency=16
 
 module load maestro parallel
 find data  -name '*.sdf' | \

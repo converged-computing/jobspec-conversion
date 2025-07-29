@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dlnn-job
-#FLUX: --queue=SCSEGPU_UG
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dlnn-job
+#FLUX --queue=SCSEGPU_UG
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 

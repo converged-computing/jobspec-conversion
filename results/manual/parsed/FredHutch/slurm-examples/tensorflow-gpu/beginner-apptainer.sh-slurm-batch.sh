@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-8925
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
 
 set -e
 MODULE="Apptainer/1.1.6"

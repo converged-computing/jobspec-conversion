@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hippo-6625
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-toaster-2421
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module purge
 module load parabricks/3.1.1 singularity/3.5.1 cuda/10.1

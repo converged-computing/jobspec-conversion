@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RerankInPars
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=RerankInPars
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load 2022

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --output=logs/run-%j-debug.out
+#SBATCH --error=logs/run-%j-debug.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 python \
 -m torch.distributed.launch \

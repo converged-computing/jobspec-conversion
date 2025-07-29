@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=FLSH_adc_SETUP
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=FLSH_adc_SETUP
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

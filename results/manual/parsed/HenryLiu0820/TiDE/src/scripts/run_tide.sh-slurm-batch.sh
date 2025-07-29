@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-2395
-#FLUX: -c=6
-#FLUX: --queue=rise
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:24:00
+#SBATCH --partition=rise
+#SBATCH --array=70-71
+#SBATCH --nodelist=pavia
 
 export PYTHONUNBUFFERED='1'
 export OMP_NUM_THREADS='1'

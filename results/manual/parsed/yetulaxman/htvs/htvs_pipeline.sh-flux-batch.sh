@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-chip-4261
-#FLUX: -n=10
-#FLUX: -c=2
-#FLUX: --queue=small
-#FLUX: -t=610
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-hope-0900
+#FLUX -n=10
+#FLUX -c=2
+#FLUX --queue=small
+#FLUX -t=610
+#FLUX --urgency=16
 
 module load maestro parallel  # load module
 find $PWD/data_SMILES  -name '*.smi' | \

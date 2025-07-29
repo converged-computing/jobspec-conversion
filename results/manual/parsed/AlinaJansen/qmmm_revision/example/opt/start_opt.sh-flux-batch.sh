@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cap_scan
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cap_scan
+#FLUX -c=8
+#FLUX --queue=main
+#FLUX -t=600
+#FLUX --urgency=16
 
 export GMXLIB='/home/jansea92/GROLIB/top'
 export TMPDIR='/scratch/$USER/qmmm/tmp.$SLURM_JOBID'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-7594
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%u_%j.out
+#SBATCH --error=logs/%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2000
+#SBATCH --partition=mhigh,mhigh
 
 python metric_learning.py --arch-type triplet --process retrieve

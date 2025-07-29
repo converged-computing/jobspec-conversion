@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-truffle-4648
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/mini-dlperf/old/pbs_scripts/uat/performance_test/imagenette_8gpu.qsub

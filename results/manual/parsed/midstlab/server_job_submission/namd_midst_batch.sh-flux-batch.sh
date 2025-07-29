@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=1fcc_MuMi
-#FLUX: -N=2
-#FLUX: --queue=midst
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=1fcc_MuMi
+#FLUX -N=2
+#FLUX --queue=midst
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 INPUT_FILE="1pga_autopsf_wb_ionized_config.conf"
 source /etc/profile.d/modules.sh

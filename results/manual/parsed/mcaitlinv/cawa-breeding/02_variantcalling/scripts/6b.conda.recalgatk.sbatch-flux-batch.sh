@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=6b.bqsrgatk
-#FLUX: --queue=shas
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=6b.bqsrgatk
+#FLUX --queue=shas
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -x
 module purge

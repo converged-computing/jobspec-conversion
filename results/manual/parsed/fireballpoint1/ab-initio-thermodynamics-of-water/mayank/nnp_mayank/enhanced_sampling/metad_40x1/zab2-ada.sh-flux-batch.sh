@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-toaster-3644
-#FLUX: -n=15
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-chair-3228
+#FLUX -n=15
+#FLUX --queue=long
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load openmpi/4.0.1
 mpirun -np 15 /global/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_101_71_99_24_0-2_0-3_500_40000_index1.lmp

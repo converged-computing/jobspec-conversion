@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-spoon-2203
-#FLUX: -c=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-ricecake-2407
+#FLUX -c=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export HOME='`getent passwd $USER | cut -d':' -f6`'
 export PYTHONUNBUFFERED='1'

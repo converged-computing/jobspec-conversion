@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=graphcast
-#FLUX: -c=30
-#FLUX: --queue=compute
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=graphcast
+#FLUX -c=30
+#FLUX --queue=compute
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module use /contrib/spack-stack/envs/ufswm/install/modulefiles/Core/
 module load stack-intel

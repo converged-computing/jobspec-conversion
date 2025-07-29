@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=baselines
-#FLUX: -t=600000
-#FLUX: --urgency=16
+#SBATCH --job-name=baselines
+#SBATCH --output=logs/baselines.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=42000
+#SBATCH --time=6-22:40:00
 
 export PATH='$HOME/miniconda/bin:$PATH'
 export DATA_LOC='../datasets/cifar10'

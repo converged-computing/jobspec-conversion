@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=v100-cloudmask-gpu-greene
-#FLUX: --queue=bii-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=v100-cloudmask-gpu-greene
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=outputs/v100-%u-%j.out
+#SBATCH --error=outputs/v100-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=bii-gpu
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

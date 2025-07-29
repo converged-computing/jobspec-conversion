@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=runSingleTest
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=runSingleTest
+#SBATCH --account=hpc_build
+#SBATCH --output=runSingleTest_%A.out
+#SBATCH --error=runSingleTest_%A.err
+#SBATCH --mail-user=teh1m@virginia.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
 
 module load matlab
 nLoops=400; # number of iterations to perform

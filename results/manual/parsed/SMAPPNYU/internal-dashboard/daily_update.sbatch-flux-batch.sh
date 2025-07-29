@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cpu_jupyter
-#FLUX: -c=20
-#FLUX: -t=93600
-#FLUX: --urgency=16
+#FLUX --job-name=cpu_jupyter
+#FLUX -c=20
+#FLUX -t=93600
+#FLUX --urgency=16
 
 export JUPYTERLAB_DIR='/scratch/zc1245/share_new2/'
 

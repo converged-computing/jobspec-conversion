@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=medaka_array
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=medaka_array
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load intel/19.0.5-fasrc01
 p=$(sed "${SLURM_ARRAY_TASK_ID}q;d" contigs_fofn.txt)

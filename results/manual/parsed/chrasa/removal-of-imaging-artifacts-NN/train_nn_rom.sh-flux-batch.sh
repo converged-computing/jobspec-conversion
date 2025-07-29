@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_nn_rom
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=train_nn_rom
+#FLUX -n=4
+#FLUX --queue=core
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib'
 

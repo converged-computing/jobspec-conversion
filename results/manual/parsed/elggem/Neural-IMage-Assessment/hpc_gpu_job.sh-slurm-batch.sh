@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nima-pqd
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=nima-pqd
+#SBATCH --output=./hpc_output_pqd.log
+#SBATCH --mail-user=mayet@campus.tu-berlin.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --time=09:00:00
+#SBATCH --partition=gpu
+#SBATCH --chdir=.
 
 source ~/miniconda3/bin/activate base
 module load nvidia/cuda/10.1

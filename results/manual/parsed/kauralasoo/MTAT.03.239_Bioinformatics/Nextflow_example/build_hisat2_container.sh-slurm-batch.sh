@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nf-featureCounts
-#FLUX: --queue=testing
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-featureCounts
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
+#SBATCH --partition=testing
+#SBATCH --constraint=ntasks-per-node=1
 
 module load any/singularity/3.7.3
 module load squashfs/4.4

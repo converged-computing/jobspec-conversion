@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rate_shift_type
-#FLUX: -c=100
-#FLUX: --queue=krypton
-#FLUX: --urgency=16
+#SBATCH --job-name=rate_shift_type
+#SBATCH --output=logs/rate_shift_type.log
+#SBATCH --error=logs/rate_shift_type.err
+#SBATCH --mail-user=b.kopperud@lmu.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=100
+#SBATCH --mem=4GB
+#SBATCH --partition=krypton
+#SBATCH --qos=low_prio_res
 
 export R_HOME='/opt/cres/lib/hpc/gcc7/R/4.2.3/lib64/R'
 export LD_LIBRARY_PATH='/opt/cres/lib/hpc/gcc7/R/4.2.3/lib64/R/lib'

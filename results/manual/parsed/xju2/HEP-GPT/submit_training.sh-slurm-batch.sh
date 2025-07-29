@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=odd_v1
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=odd_v1
+#SBATCH --account=m3443_g
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=1
+#SBATCH --licenses=scratch,cfs
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

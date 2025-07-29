@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chair-2301
-#FLUX: -c=4
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --output=outfiles/etl1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=14g
+#SBATCH --time=6-00:00:00
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/etl

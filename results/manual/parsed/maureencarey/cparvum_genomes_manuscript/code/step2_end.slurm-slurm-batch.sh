@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pot-2032
-#FLUX: --queue=largemem
-#FLUX: --urgency=16
+#SBATCH --account=tumi
+#SBATCH --output=/home/mac9jc/cparvum_genomes/outfiles/step2_prealignmentQC_end.out
+#SBATCH --mail-user=mac9jc@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=largemem
 
 module purge
 module load gcc/9.2.0 bbmap/38.57

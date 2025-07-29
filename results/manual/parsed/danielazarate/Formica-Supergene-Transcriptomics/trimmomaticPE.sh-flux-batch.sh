@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PLACEHOLDER-trimmomatic-log
-#FLUX: --queue=intel
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=PLACEHOLDER-trimmomatic-log
+#FLUX --queue=intel
+#FLUX -t=28800
+#FLUX --urgency=16
 
 date
 module load trimmomatic

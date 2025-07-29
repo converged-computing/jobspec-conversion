@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vulchecker_prepare_data
-#FLUX: -c=2
-#FLUX: --queue=gpu-tk
-#FLUX: --urgency=16
+#FLUX --job-name=vulchecker_prepare_data
+#FLUX -c=2
+#FLUX --queue=gpu-tk
+#FLUX --urgency=16
 
 export PATH='/ukp-storage-1/schroeder_e/ninja:$PATH'
 

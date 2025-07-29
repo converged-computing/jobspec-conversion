@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=obiwan
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=obiwan
+#SBATCH --account=desi
+#SBATCH --output=./slurm_output/elg_sgc_%j.out
+#SBATCH --mail-user=kong.291@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export name_for_run='elg_dr5_eboss'
 export randoms_db='None #run from a fits file'
@@ -27,6 +34,9 @@ export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'
 export XDG_CONFIG_HOME='/dev/shm'
 
+singularity
+exec
+driftingpig/obiwan_composit:v3
 export name_for_run=elg_dr5_eboss
 export randoms_db=None #run from a fits file
 export dataset=dr3

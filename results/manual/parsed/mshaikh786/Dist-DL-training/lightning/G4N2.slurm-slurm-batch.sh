@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-toaster-5044
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=4
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=2,a100
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

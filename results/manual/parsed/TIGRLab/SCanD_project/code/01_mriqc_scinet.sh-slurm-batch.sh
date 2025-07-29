@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -c=80
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc
+#SBATCH --output=logs/mriqc%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --time=18:00:00
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

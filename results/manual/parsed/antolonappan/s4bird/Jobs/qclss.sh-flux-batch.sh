@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=qclss
-#FLUX: -N=20
-#FLUX: -n=400
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=qclss
+#FLUX -N=20
+#FLUX -n=400
+#FLUX -t=300
+#FLUX --urgency=16
 
 export ini='litebird1.ini'
 

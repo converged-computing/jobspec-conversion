@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=copy_methane4
-#FLUX: -t=86700
-#FLUX: --urgency=16
+#FLUX --job-name=copy_methane4
+#FLUX -t=86700
+#FLUX --urgency=16
 
 . /home/rs/anaconda3/etc/profile.d/conda.sh
 conda activate mosdef-study38

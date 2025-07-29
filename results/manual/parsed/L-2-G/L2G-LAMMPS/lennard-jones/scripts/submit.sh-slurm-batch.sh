@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=learningToGrow
-#FLUX: -n=40
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=learningToGrow
+#SBATCH --account=m1759
+#SBATCH --output=l2g.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
+#SBATCH --partition=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 export LAMMPS_DIR='$HOME'
 export OMP_NUM_THREADS='1'

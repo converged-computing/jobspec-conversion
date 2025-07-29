@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ginkgo
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#SBATCH --job-name=ginkgo
+#SBATCH --output=logs/slurm_%j.out
+#SBATCH --mail-user=sm4511@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=1-10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 mkdir -p $SCRATCH/ginkgo/logs

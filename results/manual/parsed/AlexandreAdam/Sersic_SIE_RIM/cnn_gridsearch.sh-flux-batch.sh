@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Train_RIM_analytic_Gridsearch
-#FLUX: -c=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Train_RIM_analytic_Gridsearch
+#FLUX -c=3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source $HOME/environments/carrim/bin/activate
 python $ARIM/pretrain_cnn_gridsearch.py\

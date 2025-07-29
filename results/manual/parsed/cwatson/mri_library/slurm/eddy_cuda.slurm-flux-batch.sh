@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-4595
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=milky-avocado-2902
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export scriptdir='$(dirname $(type -p dti_eddy.sh))'
 

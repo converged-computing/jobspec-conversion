@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=16
-#FLUX: --queue=plgrid
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -c=16
+#FLUX --queue=plgrid
+#FLUX -t=126000
+#FLUX --urgency=16
 
 export APPTAINERENV_TEMPLATEFLOW_HOME='$SCRATCH/templateflow'
 

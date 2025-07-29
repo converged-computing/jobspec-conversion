@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=magic123
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=magic123
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load gcc/7.5.0
 which python 

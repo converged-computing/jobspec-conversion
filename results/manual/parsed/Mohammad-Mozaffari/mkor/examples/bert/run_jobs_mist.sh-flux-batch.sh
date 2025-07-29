@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lamb-p1
-#FLUX: -N=4
-#FLUX: --queue=compute_full_node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lamb-p1
+#FLUX -N=4
+#FLUX --queue=compute_full_node
+#FLUX -t=86400
+#FLUX --urgency=16
 
 OPTIMIZER=lamb
 PHASE=2

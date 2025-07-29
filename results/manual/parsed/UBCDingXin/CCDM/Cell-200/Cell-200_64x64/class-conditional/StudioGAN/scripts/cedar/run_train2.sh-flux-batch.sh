@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=U64_SG2
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=U64_SG2
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load arch/avx512 StdEnv/2020
 module load gcc/9.3.0 python/3.11.2 cuda/11.8.0 opencv/4.8.0

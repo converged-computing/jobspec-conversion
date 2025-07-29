@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-truffle-2949
-#FLUX: --urgency=16
+#SBATCH --output=/vol/bitbucket/jq619/adaptor-thesis/slurm_outputs/finetune-%j.out
+#SBATCH --mail-user=jq619
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PATH='/vol/bitbucket/jq619/idv/bin/:$PATH'
 export WANDB_DIR='/vol/bitbucket/jq619/'

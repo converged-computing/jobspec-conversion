@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=voltage
-#FLUX: -N=4
+#FLUX --job-name=voltage
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load Siesta/4.1-b4-nsc2-intel-2018a-eb
 mkdir cont   # read the comment at the end of this script.

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ORCA
-#FLUX: -N=4
-#FLUX: --queue=nonsusp
-#FLUX: -t=199800
-#FLUX: --urgency=16
+#SBATCH --job-name=ORCA
+#SBATCH --account=uoa99999
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=2-07:30:00
+#SBATCH --partition=nonsusp
+#SBATCH --constraint=ntasks-per-node=16,sb
 
 export P4_RSHCOMMAND='ssh'
 export OMP_NUM_THREADS='1'

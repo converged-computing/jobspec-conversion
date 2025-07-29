@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=macs2_call_peaks
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=macs2_call_peaks
+#FLUX -n=8
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load python/2.7.14/MACS/2.1.1
 queries=($(ls ${inDir}/*.bam | xargs -n 1 basename))

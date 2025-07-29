@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-7212
-#FLUX: -n=4
-#FLUX: --queue=wildfire
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-bike-0342
+#FLUX -n=4
+#FLUX --queue=wildfire
+#FLUX -t=13800
+#FLUX --urgency=16
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MVA2023_object_detection
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=gtest
-#FLUX: --urgency=16
+#FLUX --job-name=MVA2023_object_detection
+#FLUX -N=2
+#FLUX -c=4
+#FLUX --queue=gtest
+#FLUX --urgency=16
 
 export MASTER_PORT='9487'
 export OMP_NUM_THREADS='4'

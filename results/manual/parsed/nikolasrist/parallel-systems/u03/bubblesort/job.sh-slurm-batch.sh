@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fudge-0516
-#FLUX: -n=4
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=hpc
 
 export PIN_ON_SOCKET='$PORT'
 

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-spoon-8711
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=2
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 export OMPI_MCA_pml='ucx'

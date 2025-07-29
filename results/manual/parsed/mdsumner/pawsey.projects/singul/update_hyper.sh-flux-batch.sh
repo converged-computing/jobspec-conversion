@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nalgas-7411
-#FLUX: -c=2
-#FLUX: --queue=copy
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-squidward-0580
+#FLUX -c=2
+#FLUX --queue=copy
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity/3.11.4-slurm
 mv  $MYSOFTWARE/sif_lib/hypertidy_main.sif  $MYSOFTWARE/sif_lib/hypertidy_main_`date -I`.sif

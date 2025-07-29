@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cherry-3579
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-arm-9211
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_class_code/liblinear_fit_code/get_liblinear_data.lsf

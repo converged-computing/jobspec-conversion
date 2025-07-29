@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=visdrone_train
-#FLUX: -c=4
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#SBATCH --job-name=visdrone_train
+#SBATCH --account=def-mpederso
+#SBATCH --output=vis_train-%J.out
+#SBATCH --mail-user=akhilpm135@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=11:50:00
 
 export COMET_DISABLE_AUTO_LOGGING='1'
 

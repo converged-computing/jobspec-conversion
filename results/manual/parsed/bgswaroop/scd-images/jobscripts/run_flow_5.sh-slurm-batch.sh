@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=r400_2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=r400_2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 echo starting_jobscript
 module add CUDA/10.1.243-GCC-8.3.0

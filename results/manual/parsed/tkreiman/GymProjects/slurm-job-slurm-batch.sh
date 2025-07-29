@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=AtariDQN
-#FLUX: --urgency=16
+#SBATCH --job-name=AtariDQN
+#SBATCH --output=AtariDQN.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 set -euxo pipefail
 source ${MODULESHOME}/init/bash

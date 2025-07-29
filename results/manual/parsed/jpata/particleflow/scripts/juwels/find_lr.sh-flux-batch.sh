@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=find_lr
-#FLUX: -c=96
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=booster
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=find_lr
+#FLUX -c=96
+#FLUX --gpus-per-task=4
+#FLUX --queue=booster
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

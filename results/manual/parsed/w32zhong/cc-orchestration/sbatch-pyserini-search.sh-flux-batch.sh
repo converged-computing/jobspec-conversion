@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-9059
-#FLUX: -c=4
-#FLUX: -t=86530
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-muffin-8259
+#FLUX -c=4
+#FLUX -t=86530
+#FLUX --urgency=16
 
 export NCCL_BLOCKING_WAIT='1  # Set this variable to use the NCCL backend'
 export SLURM_ACCOUNT='def-jimmylin'

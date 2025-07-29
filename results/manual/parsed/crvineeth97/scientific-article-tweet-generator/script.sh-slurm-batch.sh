@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-9613
-#FLUX: -n=40
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=ccnsb
+#SBATCH --mail-user=ravindrachelur.v@research.iiit.ac.in
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=long
 
 export EXP_PATH='/scratch/$USER/ire'
 export NUM='1'

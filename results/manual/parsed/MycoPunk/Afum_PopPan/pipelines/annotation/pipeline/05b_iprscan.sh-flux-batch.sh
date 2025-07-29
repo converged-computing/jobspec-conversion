@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-mango-8164
-#FLUX: -n=24
-#FLUX: --queue=intel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-citrus-5998
+#FLUX -n=24
+#FLUX --queue=intel
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module unload perl
 module unload python

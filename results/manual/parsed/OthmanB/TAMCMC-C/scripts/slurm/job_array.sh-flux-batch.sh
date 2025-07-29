@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-underoos-0196
-#FLUX: -c=10
-#FLUX: --queue=serial
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-peanut-butter-9701
+#FLUX -c=10
+#FLUX --queue=serial
+#FLUX -t=172799
+#FLUX --urgency=16
 
 export EIGEN3_INCLUDE_DIR='/home/ob19/Programs/eigen-3.4.0'
 export CXX='g++'

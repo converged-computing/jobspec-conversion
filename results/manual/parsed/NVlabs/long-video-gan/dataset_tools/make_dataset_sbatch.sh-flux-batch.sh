@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-8856
-#FLUX: -n=10
-#FLUX: -c=20
+#FLUX --job-name=pusheena-itch-3627
+#FLUX -n=10
+#FLUX -c=20
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 echo "Starting job..."
 source anaconda3/bin/activate

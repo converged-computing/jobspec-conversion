@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-soup-2342
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=faux-punk-7627
+#FLUX -N=8
+#FLUX -n=8
+#FLUX --queue=normal
+#FLUX -t=300
+#FLUX --urgency=16
 
 export PYTHONPATH='/users/jfavre/Projects/ParaView/Python:\$PYTHONPATH'
 export PV_PLUGIN_PATH='/users/jfavre/Projects/Adamek/ParaViewLightConePlugin/build59/lib64/paraview-5.9/plugins/pvLightConeReader'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-house-8272
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-leopard-7166
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/smsak/jhrrr_sndp_21.qsub

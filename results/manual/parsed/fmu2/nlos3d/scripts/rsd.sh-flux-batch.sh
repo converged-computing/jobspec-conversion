@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bike-1169
-#FLUX: -c=12
-#FLUX: --queue=anything
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-parrot-2198
+#FLUX -c=12
+#FLUX --queue=anything
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nvidia/cuda/11.3
 python setup.py build_ext --inplace

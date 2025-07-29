@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CONCOCT
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CONCOCT
+#SBATCH --output=/!!WORKDIR!!/errorOut/concoct_out.o
+#SBATCH --error=/!!WORKDIR!!/errorOut/concoct_error.e
+#SBATCH --mail-user=user@unibe.ch
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

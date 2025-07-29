@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nalgas-5114
+#FLUX --job-name=delicious-latke-5252
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export MAX_STEPS='100'
 export NCCL_TOPO_FILE='/workspace/bert/dgxa100_nic_affinity.xml'

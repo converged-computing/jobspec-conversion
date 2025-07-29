@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-onion-6197
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CODARcode/SwiftExamples/auen/qtests/run-auen-submit.sh

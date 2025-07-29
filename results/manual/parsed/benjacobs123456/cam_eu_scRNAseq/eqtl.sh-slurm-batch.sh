@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eqtl
-#FLUX: -c=32
-#FLUX: --queue=cclake
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=eqtl
+#SBATCH --account=SAWCER-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=08:00:00
+#SBATCH --partition=cclake
+#SBATCH: --no-requeue
+#SBATCH --array=1-13
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

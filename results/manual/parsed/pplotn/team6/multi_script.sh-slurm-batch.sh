@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=multi
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=multi
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=256G
+#SBATCH --time=08:00:00
+#SBATCH --constraint=v100
 
 export OMPI_MCA_btl_openib_warn_no_device_params_found='0'
 export UCX_MEMTYPE_CACHE='n'

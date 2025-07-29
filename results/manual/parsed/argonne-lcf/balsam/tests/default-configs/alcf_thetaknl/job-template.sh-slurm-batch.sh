@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-soup-7141
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

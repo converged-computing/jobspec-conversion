@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=3dscene
-#FLUX: -c=10
-#FLUX: -t=604740
-#FLUX: --urgency=16
+#FLUX --job-name=3dscene
+#FLUX -c=10
+#FLUX -t=604740
+#FLUX --urgency=16
 
 exec 2>&1      # send errors into stdout stream
 echo "DEBUG: host=$(hostname) pwd=$(pwd) ulimit=$(ulimit -v) \$1=$1 \$2=$2"

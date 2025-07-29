@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CAMP
-#FLUX: -c=128
-#FLUX: --queue=standard
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=CAMP
+#FLUX -c=128
+#FLUX --queue=standard
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='128'
 export OMP_PROC_BIND='true'

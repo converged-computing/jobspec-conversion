@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lettuce-2838
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu-dev
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-kerfuffle-5680
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu-dev
+#FLUX --urgency=16
 
 CODENAME="S3D"
 REPO="git@github.com:unsw-edu-au/S3D_JICF.git"

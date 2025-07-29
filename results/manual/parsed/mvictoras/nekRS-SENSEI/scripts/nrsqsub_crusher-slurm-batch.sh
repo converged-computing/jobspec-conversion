@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-onion-6827
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export NVME_HOME='/mnt/bb/$USER/'
 export ROMIO_HINTS='$(pwd)/.romio_hint'

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-9323
-#FLUX: -c=8
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=150
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=6000
+#SBATCH --time=00:02:30
+#SBATCH --partition=REQUESTED_PARTITION
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sd-script
-#FLUX: --queue=regular
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=sd-script
+#SBATCH --account=m4633
+#SBATCH --mail-user=gaoyang29@berkeley.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:59:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 module load pytorch
 source /pscratch/sd/y/yanggao/sd-scripts/venv/bin/activate

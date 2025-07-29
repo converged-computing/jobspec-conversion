@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=b0d135
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=b0d135
+#SBATCH --output=YB_L0d75A0d75B0d135_checkNumberOfSuitableGrowth_growthFreq25_strain0d05_
+#SBATCH --mail-user=useremail@address.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --partition=gpu
 
 export SINGULARITY_NV='1'
 

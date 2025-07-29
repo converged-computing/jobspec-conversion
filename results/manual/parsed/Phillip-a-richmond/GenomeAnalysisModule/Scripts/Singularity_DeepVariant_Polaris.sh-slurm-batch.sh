@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-3834
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=80G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-17%2
 
 module load singularity
 BIN_VERSION="1.0.0"

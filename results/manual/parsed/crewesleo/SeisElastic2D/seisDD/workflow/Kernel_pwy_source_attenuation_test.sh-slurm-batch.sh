@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=K_test
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=K_test
+#SBATCH --account=w18_trust
+#SBATCH --output=fwi3d_%J.log
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=interactive
 
 export OMP_NUM_THREADS='36'
 export user='$(whoami)'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=alphavr
-#FLUX: -n=10
-#FLUX: -t=519120
-#FLUX: --urgency=16
+#SBATCH --job-name=alphavr
+#SBATCH --output=/mnt/lustre/users/%u/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20000
+#SBATCH --time=6-00:12:00
+#SBATCH --constraint=skylake
 
 ulimit -n 4096
 git status

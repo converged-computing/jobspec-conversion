@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DAC-1
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=DAC-1
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 echo "*"{,,,,,,,,,}
 echo $SLURM_JOB_ID

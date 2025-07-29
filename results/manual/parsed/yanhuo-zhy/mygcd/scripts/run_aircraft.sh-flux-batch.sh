@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-6572
-#FLUX: -c=5
-#FLUX: --queue=general
-#FLUX: -t=75000
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-cupcake-1914
+#FLUX -c=5
+#FLUX --queue=general
+#FLUX -t=75000
+#FLUX --urgency=16
 
 module load gcc/gcc-10.2.0
 module load nvidia/cuda-10.0 nvidia/cudnn-v7.6.5.32-forcuda10.0

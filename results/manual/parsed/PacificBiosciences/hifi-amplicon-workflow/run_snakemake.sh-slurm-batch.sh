@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fudge-9620
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --output=cluster_logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=compute
 
 umask 002
 BATCH=$1

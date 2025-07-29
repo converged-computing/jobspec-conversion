@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-staircase-4201
-#FLUX: --queue=silent_q
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=silent_q
+#SBATCH --constraint=ntasks-per-node=1
 
 source /mnt/common/SILENT/Act3/conda/miniconda3/etc/profile.d/conda.sh
 Nextflow=/mnt/common/Precision/NextFlow/nextflow

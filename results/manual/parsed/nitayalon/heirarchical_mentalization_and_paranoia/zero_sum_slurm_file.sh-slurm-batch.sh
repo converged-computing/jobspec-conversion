@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-butter-8766
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=87150
-#FLUX: --urgency=16
+#SBATCH --output=./slurm_logs/%x_%j_tjob.out
+#SBATCH --error=./slurm_logs/%x_%j_tjob.err
+#SBATCH --mail-user=nitay.alon@tuebingen.mpg.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:12:30
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --chdir=./
+#SBATCH --array=10-999:50%20
 
 export SINGULARITY_BIND='/run,/ptmp,/scratch,/tmp,/opt/ohpc,${HOME}'
 export CONTAINER_PATH='/ptmp/containers/pytorch_1.10.0-cuda.11.3_latest-2021-12-02-ec95d31ea677.sif'

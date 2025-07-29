@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$2
-#FLUX: -c=16
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=$2
+#SBATCH --output=$3/logfiles/snakemake.log
+#SBATCH --error=$3/logfiles/snakemake.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=96g
+#SBATCH --time=5-00:00:00
 
 set -eu
 function usage() { cat << EOF

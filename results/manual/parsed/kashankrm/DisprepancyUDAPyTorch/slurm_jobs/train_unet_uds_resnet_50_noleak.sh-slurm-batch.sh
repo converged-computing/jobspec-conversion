@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_deeplab
-#FLUX: --queue=4gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=train_deeplab
+#SBATCH --output=slurm_logs/gpu_job.%j.out
+#SBATCH --error=slurm_logs/gpu_job.%j.err
+#SBATCH --mail-user=muhammad.karim@iwm.fraunhofer.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=4gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 export TMPDIR='${JOBTMP}  # scratch-directory for the job '
 export WKHTMLTOPDF_PATH='/isi/w/lb27/softwares/wkhtmltopdf/usr/local/bin/wkhtmltopdf'

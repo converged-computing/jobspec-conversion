@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=har
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=har
+#SBATCH --output=har.array.%A.%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --array=1-90
 
 mkdir /scratch/users/k1639346/ceoharyana.nic.in/Voter-List-2021/$SLURM_ARRAY_TASK_ID
 cd /scratch/users/k1639346/ceoharyana.nic.in/Voter-List-2021/$SLURM_ARRAY_TASK_ID

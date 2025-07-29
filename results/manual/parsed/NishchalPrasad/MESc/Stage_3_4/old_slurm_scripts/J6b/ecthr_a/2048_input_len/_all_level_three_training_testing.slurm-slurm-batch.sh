@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=2048_GPTJ6b_ecthr_a
-#FLUX: -c=32
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=2048_GPTJ6b_ecthr_a
+#SBATCH --account=btm@a100
+#SBATCH --output=LEGAL-PE/Level-3_of_Framework/slurm_scripts/J6b/ecthr_a/2048_input_len/2048_GPTJ6b_ecthr_a%j.out
+#SBATCH --error=LEGAL-PE/Level-3_of_Framework/slurm_scripts/J6b/ecthr_a/2048_input_len/2048_GPTJ6b_ecthr_a%j.out
+#SBATCH --mail-user=Nishchal.Prasad@irit.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 module purge
 module load cpuarch/amd

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dino_neps_linear_eval_finetuning
-#FLUX: --queue=mldlc_gpu-rtx2080
-#FLUX: -t=518399
-#FLUX: --urgency=16
+#SBATCH --job-name=dino_neps_linear_eval_finetuning
+#SBATCH --output=/work/dlclarge2/ferreira-dino/metassl-dino/experiments/dino/dino_neps_11_05_2022_distributed_fix/config_8_2_linear_eval/%x.%A.%a.%N.err_out
+#SBATCH --error=/work/dlclarge2/ferreira-dino/metassl-dino/experiments/dino/dino_neps_11_05_2022_distributed_fix/config_8_2_linear_eval/%x.%A.%a.%N.err_out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=5-23:59:59
+#SBATCH --partition=mldlc_gpu-rtx2080
 
 source /home/ferreira/.profile
 source activate dino

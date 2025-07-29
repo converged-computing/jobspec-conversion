@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pancake-2356
-#FLUX: -c=16
-#FLUX: --queue=long
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x.%J.out.txt
+#SBATCH --error=logs/%x.%J.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=10G
+#SBATCH --time=03:00:00
+#SBATCH --partition=long
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

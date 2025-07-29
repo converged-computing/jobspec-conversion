@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-5582
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/BartlettLab/LRR-RLK_Evolution/flanking_regions_inspect.sh

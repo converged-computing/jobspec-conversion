@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=norbench
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=norbench
+#FLUX -c=6
+#FLUX --queue=accel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ${HOME}/.bashrc
 set -o errexit

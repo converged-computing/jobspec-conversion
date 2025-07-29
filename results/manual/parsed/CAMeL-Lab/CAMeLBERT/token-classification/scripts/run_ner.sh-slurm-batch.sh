@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hobbit-6981
-#FLUX: --queue=nvidia
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120000
+#SBATCH --time=11:30:00
+#SBATCH --partition=nvidia
 
 export DATA_DIR='ANERCorp-CamelLabSplits/'
 export MAX_LENGTH='512'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=manchester-fastqc
-#FLUX: --queue=srlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=manchester-fastqc
+#SBATCH --account=srlab
+#SBATCH --mail-user=yaaminiv@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/yaaminiv/Manchester/analyses/fastqc
 
 output_dir=/gscratch/scrubbed/yaaminiv/Manchester/analyses/fastqc
 threads=28

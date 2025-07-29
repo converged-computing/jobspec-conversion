@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=m_202X.Y
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=m_202X.Y
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

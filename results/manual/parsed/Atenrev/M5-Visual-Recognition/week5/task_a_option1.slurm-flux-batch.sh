@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-6981
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-destiny-1157
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_a.py \
     --mode image_to_text  \

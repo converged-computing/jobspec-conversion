@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=llama7b-2-multinode
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=llama7b-2-multinode
+#FLUX -N=2
+#FLUX -c=24
+#FLUX --queue=a100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname --fqdn)'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')'

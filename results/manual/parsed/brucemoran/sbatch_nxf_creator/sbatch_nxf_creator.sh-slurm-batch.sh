@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leg-2403
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 YAML=$1
 declare -a YML_HEAD=($(grep ":" ${YAML} | grep -v "//" | perl -ane 'print "$F[0] ";') )

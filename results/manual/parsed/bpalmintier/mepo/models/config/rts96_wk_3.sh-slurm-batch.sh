@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-egg-9013
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/rts96_wk_3.sh

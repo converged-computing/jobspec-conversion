@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vgg_cub
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=vgg_cub
+#SBATCH --mail-user=jian.jiang@kcl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
 
 source ~/.bashrc
 conda activate KM

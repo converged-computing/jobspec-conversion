@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=SDWebUI
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=SDWebUI
+#SBATCH --account=art4659
+#SBATCH --output=webui_%j.out
+#SBATCH --mail-user=<gatorusername>@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100:1
+#SBATCH --mem=19gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=art4659
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'
 

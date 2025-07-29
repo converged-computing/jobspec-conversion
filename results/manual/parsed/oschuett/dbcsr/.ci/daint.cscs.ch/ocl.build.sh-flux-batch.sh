@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lizard-1037
-#FLUX: -c=12
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-soup-4535
+#FLUX -c=12
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 export PATH='/project/cray/alazzaro/cmake/bin:${PATH}'
 export PKG_CONFIG_PATH='${HOME}/libxsmm/lib:${PKG_CONFIG_PATH}'

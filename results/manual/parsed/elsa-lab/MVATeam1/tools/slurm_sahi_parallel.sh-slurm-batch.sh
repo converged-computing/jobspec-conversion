@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MVA2023_object_detection
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=gtest
-#FLUX: --urgency=16
+#SBATCH --job-name=MVA2023_object_detection
+#SBATCH --account=MST109262
+#SBATCH --output=test.out
+#SBATCH --error=test.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gtest
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_PORT='9487'
 export OMP_NUM_THREADS='4'

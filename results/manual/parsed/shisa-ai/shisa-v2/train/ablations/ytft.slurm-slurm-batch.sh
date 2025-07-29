@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llm-cpt
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=llm-cpt
+#SBATCH --output=/mnt/home/f08944064/logs/%x-%j.out
+#SBATCH --error=/mnt/home/f08944064/logs/%x-%j.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=defq
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_HUB_ENABLE_HF_TRANSFER='1 '
 export ACCELERATE_LOG_LEVEL='info '

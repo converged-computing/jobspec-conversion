@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GPU_job
-#FLUX: -c=32
-#FLUX: --queue=hgx
-#FLUX: -t=176340
-#FLUX: --urgency=16
+#FLUX --job-name=GPU_job
+#FLUX -c=32
+#FLUX --queue=hgx
+#FLUX -t=176340
+#FLUX --urgency=16
 
 module purge # optional
 module load NeSI

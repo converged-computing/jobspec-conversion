@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-truffle-2764
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-puppy-4873
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load Python/3.9.6-GCCcore-11.2.0
 if [ ! -d ".venv" ]; then

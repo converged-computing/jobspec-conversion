@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lentil-3807
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=logs/rc-test_slurm_logs/snakemake_%A.log
+#SBATCH --error=logs/rc-test_slurm_logs/snakemake_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=priority
 
 module load gcc conda2 slurm-drmaa/1.1.0
 source activate rctest

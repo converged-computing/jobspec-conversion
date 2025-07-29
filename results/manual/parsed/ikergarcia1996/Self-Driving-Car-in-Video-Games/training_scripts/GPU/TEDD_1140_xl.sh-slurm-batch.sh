@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TEDD_XL
-#FLUX: -c=40
-#FLUX: --urgency=16
+#SBATCH --job-name=TEDD_XL
+#SBATCH --output=TEDD_XL.out
+#SBATCH --error=TEDD_XL.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200G
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

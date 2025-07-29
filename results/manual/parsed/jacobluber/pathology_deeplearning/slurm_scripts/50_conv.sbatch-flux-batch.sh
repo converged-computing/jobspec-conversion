@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hobbit-3311
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-house-2572
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 function fail {
     echo "FAIL: $@" >&2

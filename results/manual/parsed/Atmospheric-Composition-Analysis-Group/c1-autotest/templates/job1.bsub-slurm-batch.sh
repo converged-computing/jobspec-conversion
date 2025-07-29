@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-despacito-8671
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Atmospheric-Composition-Analysis-Group/c1-autotest/templates/job1.bsub

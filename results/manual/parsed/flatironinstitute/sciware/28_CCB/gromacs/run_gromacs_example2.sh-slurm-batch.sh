@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_gromacs_examplerun2
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=ccb
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm_gromacs_examplerun2
+#SBATCH --output=slurm_gromacs_examplerun2.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=01:00:00
+#SBATCH --partition=ccb
+#SBATCH --constraint=ntasks-per-node=60,rome,ib
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-7759
-#FLUX: -c=6
-#FLUX: -t=87770
-#FLUX: --urgency=16
+#SBATCH --account=def-janehowe
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=64000M
+#SBATCH --time=1-00:22:50
 
 module load StdEnv/2020 python/3.7 cuda cudnn  
 SOURCEDIR=/home/shibin2/projects/def-janehowe/shibin2

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=get_scores
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=get_scores
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=32GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 export TRANSFORMERS_CACHE='/scratch/$USER/.cache/huggingface/transformers'

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=10
-#FLUX: -n=400
-#FLUX: --queue=systest-skx
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --account=A-ccsc
+#SBATCH --output=rateljob.o%j
+#SBATCH --error=rateljob.o%j
+#SBATCH --nodes=10
+#SBATCH --ntasks=400
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=systest-skx
 
 TAU=1
 INTEL=24

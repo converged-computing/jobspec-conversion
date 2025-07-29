@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-house-6714
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-banana-6231
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/petsc_tests/compile.sh

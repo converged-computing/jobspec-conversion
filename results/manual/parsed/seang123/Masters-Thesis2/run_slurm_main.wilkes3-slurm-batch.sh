@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sub_2_no_ln
-#FLUX: --queue=ampere
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=sub_2_no_ln
+#SBATCH --account=KIETZMANN-SL2-GPU
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --mail-user=seanpgies@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:30:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

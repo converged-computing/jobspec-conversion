@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-6490
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=orion
-#FLUX: -t=28200
-#FLUX: --urgency=16
+#SBATCH --account=marine-cpu
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=07:50:00
+#SBATCH --partition=orion
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 ulimit -s unlimited
 ulimit -c 0

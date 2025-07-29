@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_LSTM-bdTrueStat
-#FLUX: -c=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_LSTM-bdTrueStat
+#SBATCH --account=em09
+#SBATCH --output=gpu_LSTM-bdTrueStat.out
+#SBATCH --error=gpu_LSTM-bdTrueStat.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_L0_c5
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train_L0_c5
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load anaconda3
 source activate sbi

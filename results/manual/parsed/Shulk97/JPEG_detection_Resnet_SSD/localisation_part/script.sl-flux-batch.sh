@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-punk-4956
-#FLUX: --queue=gpu_p100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-frito-1069
+#FLUX --queue=gpu_p100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LOCAL_WORK_DIR='/home/2017018/tconst01/ssd/pao_jpeg_bis/localisation_part'
 export DATASET_PATH='/save/2017018/PARTAGE/pascal_voc/'

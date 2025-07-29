@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-9544
-#FLUX: --urgency=16
+#FLUX --job-name=purple-knife-8192
+#FLUX --urgency=16
 

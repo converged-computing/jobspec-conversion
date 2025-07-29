@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kerfuffle-1885
-#FLUX: -c=32
-#FLUX: --queue=gpuq
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-leader-4407
+#FLUX -c=32
+#FLUX --queue=gpuq
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export srclist='/astro/mwaeor/dev/sdc3/catalog/sdc3_inner_lobes.fits" # <- YOUR SOURCELIST HERE'
 export visName='sub_lobes_points"                                      # <- NAME YOUR OUTPUT'

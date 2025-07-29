@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-butter-1996
-#FLUX: --queue=gpuq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0271
+#SBATCH --output=DEEEPCAP%j.out
+#SBATCH --mail-user=21713337@student.uwa.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpuq
+#SBATCH --constraint=p100
 
 export myRep='$MYGROUP/singularity/oct_ca '
 export containerImage='$myRep/oct_ca_latest-fastai-skl-ski-mlflow-d2-opencv-coco.sif'

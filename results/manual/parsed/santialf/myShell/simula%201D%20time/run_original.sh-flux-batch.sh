@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-butter-2377
-#FLUX: --queue=a100q
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-knife-7041
+#FLUX --queue=a100q
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PATH='$PATH:/usr/local/cuda-12.0'
 

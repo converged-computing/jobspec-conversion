@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-buttface-1728
-#FLUX: -c=10
+#FLUX --job-name=grated-bits-3308
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

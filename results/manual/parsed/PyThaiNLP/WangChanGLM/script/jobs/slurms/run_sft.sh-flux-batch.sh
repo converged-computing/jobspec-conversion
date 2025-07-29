@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ChomGPT
-#FLUX: -c=4
-#FLUX: --queue=scads-a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ChomGPT
+#FLUX -c=4
+#FLUX --queue=scads-a100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd /ist/users/patompornp/wangchanx/ChomGPT/script
 conda activate chat

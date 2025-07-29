@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chair-7682
-#FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH: --exclusive
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

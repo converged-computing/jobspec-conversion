@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pixelsnail-bottom-mixup
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pixelsnail-bottom-mixup
+#FLUX -c=6
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

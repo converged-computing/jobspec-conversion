@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=memb_equil
-#FLUX: -n=3
-#FLUX: -c=8
-#FLUX: --queue=volta-gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=memb_equil
+#FLUX -n=3
+#FLUX -c=8
+#FLUX --queue=volta-gpu
+#FLUX -t=54000
+#FLUX --urgency=16
 
 unset OMP_NUM_THREADS
 module purge

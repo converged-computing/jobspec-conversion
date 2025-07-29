@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-staircase-9309
-#FLUX: -c=16
-#FLUX: -t=1080000
-#FLUX: --urgency=16
+#SBATCH --account=def-cbright
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=70000M
+#SBATCH --time=12-12:00:00
 
 n=$1
 start2=`date +%s`

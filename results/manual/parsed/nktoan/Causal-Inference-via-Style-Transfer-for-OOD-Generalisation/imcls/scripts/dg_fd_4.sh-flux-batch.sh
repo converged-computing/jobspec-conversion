@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lettuce-5275
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-leader-8058
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate dassl

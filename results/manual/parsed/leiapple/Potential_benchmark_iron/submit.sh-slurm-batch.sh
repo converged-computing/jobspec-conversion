@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=IAP_test
-#FLUX: -n=16
-#FLUX: --queue=parallelshort
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=IAP_test
+#SBATCH --output=slurm-%j.stdout
+#SBATCH --error=slurm-%j.stderr
+#SBATCH --mail-user=lei.zhang@rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=parallelshort
 
 rm dump*
 rm *.csv

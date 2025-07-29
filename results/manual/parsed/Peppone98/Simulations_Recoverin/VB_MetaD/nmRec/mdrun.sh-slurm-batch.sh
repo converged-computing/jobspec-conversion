@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VB_nmRec
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=VB_nmRec
+#SBATCH --account=IscrC_Meta-Rec
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='8'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu
-#FLUX: --queue=ai,ainlp,tnt
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=test_gpu
+#FLUX --queue=ai,ainlp,tnt
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load GCC/10.3.0
 module load CMake/3.20.1

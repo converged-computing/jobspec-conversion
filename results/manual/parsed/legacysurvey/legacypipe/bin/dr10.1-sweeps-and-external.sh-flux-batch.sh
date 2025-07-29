@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-puppy-9372
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-poodle-8675
+#FLUX --queue=regular
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LEGACYPIPE_DIR='/src/legacypipe'
 export SDSSDIR='/global/cfs/cdirs/sdss/data/sdss/'

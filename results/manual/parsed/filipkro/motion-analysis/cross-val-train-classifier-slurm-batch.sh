@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-general-7389
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2021-7-97
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=alvis
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-1816
-#FLUX: --queue=gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=25000
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu
 
 module load TensorFlow/2.0.0-foss-2019a-Python-3.7.2
 module load matplotlib/3.0.3-fosscuda-2019a-Python-3.7.2

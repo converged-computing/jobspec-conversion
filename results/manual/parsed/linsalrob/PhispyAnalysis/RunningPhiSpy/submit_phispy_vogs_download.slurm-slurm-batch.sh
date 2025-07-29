@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-sundae-4205
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=submit_phispy/submit_phispy-%j.out
+#SBATCH --error=submit_phispy/submit_phispy-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
 
 DATE=20220606
 ASS=$DATE/assembly_summary_$DATE.txt.gz

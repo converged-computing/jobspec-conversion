@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-6622
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=fc_cosmoml
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:4
+#SBATCH --time=08:00:00
+#SBATCH --partition=savio2_1080ti
 
 mpiexec -n 4 /global/home/users/mariusmillea/src/julia-1.5.2/bin/julia \
     --project=/global/home/users/mariusmillea/work/ptsrclens/Project.toml \

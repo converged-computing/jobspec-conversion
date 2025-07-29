@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-egg-3811
-#FLUX: -c=3
-#FLUX: --queue=cpu,mrcieu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=10700
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu,mrcieu
 
 set -euo pipefail
 module load apps/singularity/3.8.3

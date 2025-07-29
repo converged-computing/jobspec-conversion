@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fudge-4853
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-poodle-9117
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load tensorflow/1.5.0_gpu_py3
 module load cuda/9.0.176

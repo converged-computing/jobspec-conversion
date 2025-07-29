@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-platanos-3079
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-eagle-1614
+#FLUX -n=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ../../../../pytorch-1.11/bin/activate
 module load gcc/8.2.0 python_gpu/3.10.4

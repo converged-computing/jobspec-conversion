@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stat_analysis
-#FLUX: --queue=batch,guest
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=stat_analysis
+#SBATCH --output=/work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/stat/script_output/std.out
+#SBATCH --error=/work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/stat/script_output/err.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=12:00:00
+#SBATCH --partition=batch,guest
+#SBATCH --constraint=ntasks-per-node=16
 
 module load qiime2/2022.2
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis

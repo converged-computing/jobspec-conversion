@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=array
-#FLUX: --queue=caslake
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=array
+#SBATCH --account=pi-cdonnat
+#SBATCH --output=logs/array_%A_%a.out
+#SBATCH --error=logs/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=caslake
+#SBATCH --array=1-5
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 echo "My SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID

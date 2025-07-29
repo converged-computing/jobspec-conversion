@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=16
-#FLUX: -N=2
-#FLUX: -n=40
-#FLUX: --queue=skx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=16
+#FLUX -N=2
+#FLUX -n=40
+#FLUX --queue=skx-dev
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='$PYTHONPATH":"$SW"/ShNAPr'

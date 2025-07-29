@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mcmc_hsurf
-#FLUX: -n=112
-#FLUX: --queue=sapphire
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=mcmc_hsurf
+#FLUX -n=112
+#FLUX --queue=sapphire
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/.conda/envs/pylammps/lib:$LD_LIBRARY_PATH '
 export PATH='$HOME/lammps/src/:$PATH'

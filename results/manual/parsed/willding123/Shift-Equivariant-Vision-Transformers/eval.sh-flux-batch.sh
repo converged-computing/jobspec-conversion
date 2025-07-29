@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval1
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=eval1
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load cuda/11.6.2/
 source ~/scratch.cmsc663/miniconda3/bin/activate

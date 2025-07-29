@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=quantest
-#FLUX: -c=16
-#FLUX: --queue=ais-gpu
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=quantest
+#SBATCH --output=output_9.txt
+#SBATCH --mail-user=d.osin@skoltech.ru
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=2
+#SBATCH --mem=32G
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /home/d.osin/:/home --bind /gpfs/gpfs0/d.osin/data_main:/home/dev/data_main -f --nv quantnas.sif bash -c '
     cd /home/QuanToaster;

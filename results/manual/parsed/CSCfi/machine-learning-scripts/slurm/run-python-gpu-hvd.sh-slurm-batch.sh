@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-leg-0207
-#FLUX: -n=4
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:k80:4
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load python-env/3.6.3-ml
 module list

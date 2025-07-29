@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=partseg
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=partseg
+#FLUX -t=86400
+#FLUX --urgency=16
 
 [ ! -d "slurm_logs" ] && echo "Create a directory slurm_logs" && mkdir -p slurm_logs
 module load cuda/11.1.1

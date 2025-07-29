@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=openacc_guide_kernels
-#FLUX: --queue=accel
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=openacc_guide_kernels
+#SBATCH --account=<your
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=512M
+#SBATCH --time=00:05:00
+#SBATCH --partition=accel
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

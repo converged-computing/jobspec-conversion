@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pgd_troc
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pgd_troc
+#SBATCH --output=pgd_troc.eo%j
+#SBATCH --error=pgd_troc.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MPIRUN='Mpirun -np 1'
 

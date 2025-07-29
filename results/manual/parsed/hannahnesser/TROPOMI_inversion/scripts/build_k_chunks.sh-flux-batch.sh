@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=build_kpi
-#FLUX: -c=11
-#FLUX: --queue=huce_cascade
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=build_kpi
+#FLUX -c=11
+#FLUX --queue=huce_cascade
+#FLUX -t=180
+#FLUX --urgency=16
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"
 DATA_DIR=${6}

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-staircase-8602
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-bike-7229
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load git/1.8.3.1
 module load openmpi/1.8/gcc/4.7/cpu

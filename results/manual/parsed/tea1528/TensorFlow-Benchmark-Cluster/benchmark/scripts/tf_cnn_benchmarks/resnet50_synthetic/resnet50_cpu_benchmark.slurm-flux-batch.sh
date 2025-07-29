@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-animal-4852
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=salted-lamp-0029
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load GCC Singularity git
 singularity exec --nv docker://tensorflow/tensorflow:latest \

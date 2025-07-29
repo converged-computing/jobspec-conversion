@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bsu-cpu-rjob
-#FLUX: --queue=bsu-cpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=bsu-cpu-rjob
+#SBATCH --account=mrc-bsu-sl2-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=bsu-cpu
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

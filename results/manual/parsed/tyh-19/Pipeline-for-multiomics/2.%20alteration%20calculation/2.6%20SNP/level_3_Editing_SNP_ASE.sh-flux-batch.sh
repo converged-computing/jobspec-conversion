@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Editing_SNP_ASE
-#FLUX: --queue=CN_BIOT
-#FLUX: --urgency=16
+#FLUX --job-name=Editing_SNP_ASE
+#FLUX --queue=CN_BIOT
+#FLUX --urgency=16
 
 dataset=$1
 tmp="/data/taoyuhuan/projects/exOmics_RNA/level_3_Editing_SNP_ASE/${dataset}/tmp"

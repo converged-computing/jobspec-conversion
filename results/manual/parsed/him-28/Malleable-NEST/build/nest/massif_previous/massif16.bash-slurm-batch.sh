@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=valgrind_massif
-#FLUX: -n=16
-#FLUX: -c=3
-#FLUX: -t=61500
-#FLUX: --urgency=16
+#SBATCH --job-name=valgrind_massif
+#SBATCH --output=massif16_%j.out
+#SBATCH --error=massif16_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=3
+#SBATCH --time=17:05:00
+#SBATCH --chdir=.
 
 export OMP_NUM_THREADS='3'
 

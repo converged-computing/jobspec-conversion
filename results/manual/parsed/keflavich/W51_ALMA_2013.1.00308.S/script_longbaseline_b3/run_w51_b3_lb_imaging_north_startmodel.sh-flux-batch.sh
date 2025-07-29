@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=w51_2017_b3_lb_n_sm
-#FLUX: -n=16
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=w51_2017_b3_lb_n_sm
+#FLUX -n=16
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export FIELD_ID='W51'
 export BAND_TO_IMAGE='B3'

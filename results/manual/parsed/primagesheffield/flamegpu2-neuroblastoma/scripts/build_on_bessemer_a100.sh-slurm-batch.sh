@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=compile.a100-tmp.sh
-#FLUX: -c=12
-#FLUX: --queue=gpu-a100-tmp
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=compile.a100-tmp.sh
+#SBATCH --output=build_output.out
+#SBATCH --error=build_error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu-a100-tmp
+#SBATCH --qos=gpu
 
 cd $SLURM_SUBMIT_DIR
 module unuse /usr/local/modulefiles/live/eb/all

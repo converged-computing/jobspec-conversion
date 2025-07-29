@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ADRP+MMPBSA
-#FLUX: -N=25
-#FLUX: --queue=general
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ADRP+MMPBSA
+#SBATCH --account=pn72qu
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module load slurm_setup
 module load amber

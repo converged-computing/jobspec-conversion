@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lentil-6405
+#FLUX --job-name=nerdy-train-8040
 #FLUX: --exclusive
-#FLUX: --queue=sched_mit_rgmark
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=sched_mit_rgmark
+#FLUX -t=259200
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=TEST
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=TEST
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "===================================================="
 echo " submitted to local node: " $HOSTNAME

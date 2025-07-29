@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME_competition
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME_competition
+#SBATCH --output=JOBNAME_competition.%j.%N.out
+#SBATCH --error=JOBNAME_competition.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --dependency=<FINETUNE>
 
 <GPU4_CONFIG>
 <ENV_LOAD>

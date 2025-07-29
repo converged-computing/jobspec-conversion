@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-caramel-4304
-#FLUX: -n=16
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=data/particles_noflip_omega_539.00000_M_191.0_zmax_0.10609_pflip_0.10000_job_%j.out
+#SBATCH --error=data/particles_noflip_omega_539.00000_M_191.0_zmax_0.10609_pflip_0.10000_job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:08:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

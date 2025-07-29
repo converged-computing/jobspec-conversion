@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-5698
-#FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=rome
+#SBATCH: --exclusive
 
 module load 2022
 module load ParaView-server-osmesa/5.10.1-foss-2022a-mpi

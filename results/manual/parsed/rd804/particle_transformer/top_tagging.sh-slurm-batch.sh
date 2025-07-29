@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ddp-torch
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=ddp-torch
+#SBATCH --output=slurm/top_tagging.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=30G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --nodelist=gpu[020-027]
 
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'

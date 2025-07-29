@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-caramel-8060
-#FLUX: --queue=urtgen_24hrs
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-toaster-8072
+#FLUX --queue=urtgen_24hrs
+#FLUX --urgency=16
 
 dir=/home/
 longTable=/home/DRIAMS_combined_long_table.csv

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=surv_external
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=surv_external
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export MAX_SAVE_STEP_GB='0'
 export NUM_CPUS='4'

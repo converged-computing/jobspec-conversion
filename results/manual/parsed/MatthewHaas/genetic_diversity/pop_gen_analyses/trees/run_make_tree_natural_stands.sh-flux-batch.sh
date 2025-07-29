@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-carrot-9821
-#FLUX: -n=32
-#FLUX: --queue=amdsmall
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-punk-6902
+#FLUX -n=32
+#FLUX --queue=amdsmall
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /home/jkimball/haasx092/main_GBS/210309_samtools
 module load gcc/8.1.0

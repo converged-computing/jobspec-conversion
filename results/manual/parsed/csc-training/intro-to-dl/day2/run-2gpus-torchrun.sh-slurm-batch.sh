@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=red-cherry-6637
-#FLUX: -c=14
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=small-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_462000450
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --gpus-per-task=2
+#SBATCH --mem=120G
+#SBATCH --time=01:00:00
+#SBATCH --partition=small-g
 
 export DATADIR='$COURSE_SCRATCH/data'
 export TORCH_HOME='$COURSE_SCRATCH/torch-cache'

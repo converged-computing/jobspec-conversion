@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-underoos-4636
-#FLUX: --urgency=15
+#FLUX --job-name=hairy-latke-1559
+#FLUX --urgency=15
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

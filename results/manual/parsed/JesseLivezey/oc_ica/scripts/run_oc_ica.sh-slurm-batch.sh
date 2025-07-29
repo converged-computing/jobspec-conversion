@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-4459
-#FLUX: --queue=cortex
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cortex
+#SBATCH --constraint=cortex_k40
 
 module load cuda
 module unload intel

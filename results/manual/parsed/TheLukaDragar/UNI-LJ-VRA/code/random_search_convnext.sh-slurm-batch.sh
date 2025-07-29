@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chair-1262
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export WANDB__SERVICE_WAIT='300'
 export NCCL_DEBUG='INFO'

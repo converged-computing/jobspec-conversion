@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mtl_nntd
-#FLUX: -c=8
-#FLUX: --queue=t4v1,p100,t4v2,rtx6000
-#FLUX: --urgency=16
+#SBATCH --job-name=mtl_nntd
+#SBATCH --output=vlogs/job_%A-%a.log
+#SBATCH --mail-user=amanjitsk@cs.toronto.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8GB
+#SBATCH --partition=t4v1,p100,t4v2,rtx6000
+#SBATCH --array=0-13
 
 echo Running on $(hostname)
 (while true; do

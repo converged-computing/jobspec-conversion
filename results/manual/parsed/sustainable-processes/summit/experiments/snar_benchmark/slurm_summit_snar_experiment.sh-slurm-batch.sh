@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_snar
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm_snar
+#SBATCH --account=LAPKIN-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=skylake
 
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'

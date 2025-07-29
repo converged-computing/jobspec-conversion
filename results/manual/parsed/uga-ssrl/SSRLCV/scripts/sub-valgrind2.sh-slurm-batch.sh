@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=valgrind2
-#FLUX: -c=2
-#FLUX: --queue=gpu_p
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=valgrind2
+#SBATCH --output=log/valgrind2.%j.out
+#SBATCH --error=log/valgrind2.%j.err
+#SBATCH --mail-user=%u@uga.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:K40:1
+#SBATCH --mem=4gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu_p
 
 cd $SLURM_SUBMIT_DIR
 ml CUDA/10.0.130

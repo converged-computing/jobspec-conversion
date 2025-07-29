@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hoomd
-#FLUX: --queue=GPU-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hoomd
+#FLUX --queue=GPU-shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 echo "testing lj-npt on one gpu"
 T=1.3

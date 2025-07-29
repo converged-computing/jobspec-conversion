@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-soup-1000
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-motorcycle-0615
+#FLUX -c=12
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load singularity
 singularity exec \

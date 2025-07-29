@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peanut-butter-4779
-#FLUX: -c=48
-#FLUX: --queue=fasse
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-cupcake-0828
+#FLUX -c=48
+#FLUX --queue=fasse
+#FLUX -t=604800
+#FLUX --urgency=16
 
 chains=(1 2 3 4)
 models=(rtagepropot)

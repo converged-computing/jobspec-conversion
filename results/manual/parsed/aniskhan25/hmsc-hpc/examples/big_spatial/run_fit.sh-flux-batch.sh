@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hmsc-hpc_fit
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=hmsc-hpc_fit
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 ind=$SLURM_ARRAY_TASK_ID
 MT=${1:-0}

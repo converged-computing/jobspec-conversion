@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=”mice_run_500_ADJ”
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=”mice_run_500_ADJ”
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice
 module purge

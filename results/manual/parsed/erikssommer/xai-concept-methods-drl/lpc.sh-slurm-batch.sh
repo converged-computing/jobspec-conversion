@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=lpc-job
-#FLUX: --queue=GPUQ
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=lpc-job
+#SBATCH --account=share-ie-idi
+#SBATCH --output=log.txt
+#SBATCH --mail-user=erik.s.sommer@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=12000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

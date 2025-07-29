@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hippo-3032
-#FLUX: -c=18
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-knife-7281
+#FLUX -c=18
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ~/ermi/categorisation/
 module purge

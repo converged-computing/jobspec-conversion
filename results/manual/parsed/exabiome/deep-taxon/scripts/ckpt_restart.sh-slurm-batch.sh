@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=n1_g1_b16_r0.001
-#FLUX: -n=8
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#SBATCH --job-name=n1_g1_b16_r0.001
+#SBATCH --account=m2865
+#SBATCH --output=./train/datasets/full/chunks_W4000_S4000/resnet_clf/C/n1_g1_b16_r0.001/train.%j.log
+#SBATCH --error=./train/datasets/full/chunks_W4000_S4000/resnet_clf/C/n1_g1_b16_r0.001/train.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=03:59:59
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 INPUT=${1:?"Please provide an input file"}
 FEATS_CKPT=${2:?"Please provide a checkpoint file for features"}

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=firre_proseq
-#FLUX: --queue=long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=firre_proseq
+#SBATCH --output=firre_proseq_nextflow.%j.out
+#SBATCH --error=firre_proseq_nextflow.%j.err
+#SBATCH --mail-user=mism6893@colorado.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=long
 
 module load sra/2.8.0
 module load bbmap/38.05

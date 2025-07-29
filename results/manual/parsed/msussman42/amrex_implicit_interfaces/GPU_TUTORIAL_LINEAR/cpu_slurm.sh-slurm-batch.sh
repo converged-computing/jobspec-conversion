@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cpu test
-#FLUX: --queue=quicktest
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu test
+#SBATCH --output=cpurun.out
+#SBATCH --error=cpurun.err
+#SBATCH --mail-user=msussman@fsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:04:00
+#SBATCH --partition=quicktest
 
 echo module load cuda-12.2
 module load cuda-12.2

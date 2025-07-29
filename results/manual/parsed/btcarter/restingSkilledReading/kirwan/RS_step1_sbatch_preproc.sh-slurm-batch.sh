@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RS1
-#FLUX: -n=6
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=RS1
+#SBATCH --mail-user=ben88@byu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8gb
+#SBATCH --time=20:00:00
 
 export PBS_NODEFILE='`/fslapps/fslutils/generate_pbs_nodefile`'
 export PBS_JOBID='$SLURM_JOB_ID'

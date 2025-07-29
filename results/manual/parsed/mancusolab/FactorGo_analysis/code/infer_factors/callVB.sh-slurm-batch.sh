@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cat-5049
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --mail-user=zzhang39@usc.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=55Gb
+#SBATCH --time=01:00:00
+#SBATCH --array=1
 
 export CC='`which gcc`'
 export OBJCC='`which gcc`'

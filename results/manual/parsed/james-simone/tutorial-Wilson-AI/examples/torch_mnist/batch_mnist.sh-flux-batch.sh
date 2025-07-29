@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST
-#FLUX: -c=4
-#FLUX: --queue=gpu_gce
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=MNIST
+#FLUX -c=4
+#FLUX --queue=gpu_gce
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export WCPROJECT='simone'
 export CONT_DIR='/wclustre/${WCPROJECT}/containers/'

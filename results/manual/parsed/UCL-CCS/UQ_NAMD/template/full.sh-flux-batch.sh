@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ADRP+MMPBSA
-#FLUX: -N=25
-#FLUX: --queue=general
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ADRP+MMPBSA
+#FLUX -N=25
+#FLUX --queue=general
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load slurm_setup
 module load amber

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=paralleltest
-#FLUX: -N=2
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=paralleltest
+#FLUX -N=2
+#FLUX --queue=premium
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

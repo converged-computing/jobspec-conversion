@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-carrot-9879
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/HPCBio/BW_VariantCalling/start_realrecal_block.sh

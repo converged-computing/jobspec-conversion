@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-onion-4270
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-earthworm-5982
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source batch_jobs/_experiment_configuration.sh
 echo "Host - $HOSTNAME"

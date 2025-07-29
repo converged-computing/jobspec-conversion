@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=01_BBDuk
-#FLUX: --queue=rra
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=01_BBDuk
+#SBATCH --output=${outdir}/01_BBDuk/logs/01_BBDuk_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=${maxram}
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=rra
+#SBATCH --qos=rra
+#SBATCH --array=0-$((${
 
 source local.env
 indir=$1

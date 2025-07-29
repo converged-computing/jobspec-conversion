@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nunchucks-9710
-#FLUX: -N=4
-#FLUX: --queue=gpumedium
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-mango-1820
+#FLUX -N=4
+#FLUX --queue=gpumedium
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export SING_IMAGE='/scratch/project_2004600/containers/latest.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin/:/usr/local/sbin,$(pwd)/node_init.sh:/data/ --nv'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-itch-3426
-#FLUX: -N=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-cupcake-3883
+#FLUX -N=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 CONFIG=namd_production_script.conf
 module load openmpi

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-dog-7062
-#FLUX: -c=10
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=learnlab
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=/fsx-codegen/gua/Documents/cruxeval/slurm_logs/slurm-%A-%a.out
+#SBATCH --error=/fsx-codegen/gua/Documents/cruxeval/slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=2
+#SBATCH --mem=0GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=learnlab
+#SBATCH --array=0-3
 
 dirs=(
     # "codellama/CodeLlama-7b-hf"

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=alltoall
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --queue=compute
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=alltoall
+#SBATCH --output=/home/l/lcl_uotiscscc/lcl_uotiscsccs1034/scratch/code-challenge/collective_profiler/examples/alltoall_%j.out
+#SBATCH --error=/home/l/lcl_uotiscscc/lcl_uotiscsccs1034/scratch/code-challenge/collective_profiler/examples/alltoall_%j.err
+#SBATCH --mail-user=yangyiwei2000@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=1
 
 export SUPPRESS_BASHRC='1 #this is pointless - bashrc will have been run already!!'
 export PROJECT_ROOT='/home/l/lcl_uotiscscc/lcl_uotiscsccs1034/scratch/code-challenge/collective_profiler/examples'

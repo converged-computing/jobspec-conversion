@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=daily_interreg
-#FLUX: --queue=1vcpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=daily_interreg
+#SBATCH --output=daily_run_%j.log
+#SBATCH --mail-user=anais.couasnon@deltares.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=1vcpu
 
 source /u/couasnon/miniconda3/bin/activate hydromt-wflow
 conda config --set channel_priority strict

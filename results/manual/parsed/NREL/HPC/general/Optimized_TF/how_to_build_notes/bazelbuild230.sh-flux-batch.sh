@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-spoon-2187
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-hippo-9192
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export TMP='/scratch/$USER/bazel_build'
 export TEST_TMPDIR='/scratch/$USER/bazel_build'

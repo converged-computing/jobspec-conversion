@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cat-8462
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-peas-4792
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh                            # Use this to add the module command to the path of compute nodes.
 module load Python3/3.9.6

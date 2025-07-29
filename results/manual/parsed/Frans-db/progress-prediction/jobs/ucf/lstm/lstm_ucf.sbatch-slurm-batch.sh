@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parsnip-1147
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --partition=general
+#SBATCH --qos=short
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

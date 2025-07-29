@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=uk_modern
-#FLUX: -n=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=uk_modern
+#FLUX -n=32
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/mnt/scratch/projects/env-tsunami-2019/firedrake_dec23/src/petsc/default/lib/:$LD_LIBRARY_PATH'
 export OMP_NUM_THREADS='1'

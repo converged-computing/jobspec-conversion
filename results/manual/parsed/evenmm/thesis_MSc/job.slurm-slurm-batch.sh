@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=b.5-200-parallel
-#FLUX: -c=2
-#FLUX: --queue=CPUQ
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=b.5-200-parallel
+#SBATCH --account=ie-imf
+#SBATCH --output=out-b.5-T-200-lambda-index-%a.out
+#SBATCH --mail-user=evenmm@stud.ntnu.no
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=12000
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=CPUQ
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-20
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

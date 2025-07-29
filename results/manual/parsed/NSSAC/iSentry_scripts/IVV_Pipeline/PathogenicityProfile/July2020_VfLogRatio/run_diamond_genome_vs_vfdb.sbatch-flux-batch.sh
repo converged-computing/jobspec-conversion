@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-diablo-7689
-#FLUX: -c=4
-#FLUX: --queue=bii
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-omelette-2207
+#FLUX -c=4
+#FLUX --queue=bii
+#FLUX -t=14400
+#FLUX --urgency=16
 
 PATH=$PATH:/project/biocomplexity/isentry/bin
 module load gcc

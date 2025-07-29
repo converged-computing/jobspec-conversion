@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=validate
-#FLUX: -n=36
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=validate
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu_titanrtx
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

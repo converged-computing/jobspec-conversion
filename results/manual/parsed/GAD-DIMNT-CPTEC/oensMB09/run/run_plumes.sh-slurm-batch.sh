@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PLUMES
-#FLUX: --queue=${AUX_QUEUE}
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PLUMES
+#SBATCH --output=${ROPERM}/plumes/output/plumes_figs.${RUNTM}.out
+#SBATCH --error=${ROPERM}/plumes/output/plumes_figs.${RUNTM}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=${AUX_QUEUE}
 
 export ndacc='5    # número de dias em que a precipitação deverá ser acumulada (maior ou igual a 1)'
 export noutpday='3 # número de semanas a serem consideradas (múltiplo de 3)'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf-unet-nerve
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-unet-nerve
+#SBATCH --mail-user=jtb470@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100GB
+#SBATCH --time=10:00:00
 
 module purge
 unset XDG_RUNTIME_DIR

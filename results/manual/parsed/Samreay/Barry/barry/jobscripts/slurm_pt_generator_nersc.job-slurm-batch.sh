@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name={name}
-#FLUX: -n=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name={name}
+#SBATCH --account={account}
+#SBATCH --output={output}.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4GB
+#SBATCH --time=04:00:00
+#SBATCH --qos=shared
+#SBATCH --constraint=haswell
 
 source ~/.bashrc.ext
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main

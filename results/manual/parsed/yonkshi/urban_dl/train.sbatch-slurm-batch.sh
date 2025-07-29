@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-1838
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --output=/Midgard/home/%u/run_logs/%J_slurm.out
+#SBATCH --error=/Midgard/home/%u/run_logs/%J_slurm.err
+#SBATCH --mail-user=pyshi@kth.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --constraint=khazadum|rivendell|belegost|shire
 
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"
 nvidia-smi

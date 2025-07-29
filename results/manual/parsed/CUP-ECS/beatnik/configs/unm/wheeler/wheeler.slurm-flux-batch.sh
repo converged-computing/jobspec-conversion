@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BeatnikTest
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=BeatnikTest
+#FLUX -N=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 SPACK_INSTALL=${HOME}/spack
 BEATNIK_SCRATCH=/carc/scratch/users/${USER}/beatnik-wheeler

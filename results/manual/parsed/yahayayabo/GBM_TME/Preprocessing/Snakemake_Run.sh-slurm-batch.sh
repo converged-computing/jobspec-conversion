@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=LIH_GME
-#FLUX: -c=3
-#FLUX: --queue=batch
-#FLUX: -t=86395
-#FLUX: --urgency=16
+#SBATCH --job-name=LIH_GME
+#SBATCH --mail-user=dimitrios.kyriakis@uni.lu
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=23:59:55
+#SBATCH --partition=batch
+#SBATCH --qos=qos-batch
+#SBATCH --constraint=ntasks-per-node=3
 
 conda activate bioinfo_tutorial
 module load swenv/default-env/devel 

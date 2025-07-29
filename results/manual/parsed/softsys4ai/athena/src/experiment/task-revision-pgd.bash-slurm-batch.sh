@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pad1
-#FLUX: -n=16
-#FLUX: --queue=v100-16gb-hiprio
-#FLUX: --urgency=16
+#SBATCH --job-name=pad1
+#SBATCH --output=job-revision-ens-PNE1-%j.out
+#SBATCH --error=job-revision-ens-PNE1-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=v100-16gb-hiprio
 
 module load cuda/11.1
 module load python3/anaconda/ai-lab

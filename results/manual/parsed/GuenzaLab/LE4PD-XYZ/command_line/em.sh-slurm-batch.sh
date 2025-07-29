@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=md
-#FLUX: -n=24
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=md
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 PDB=$1
 FF=$2

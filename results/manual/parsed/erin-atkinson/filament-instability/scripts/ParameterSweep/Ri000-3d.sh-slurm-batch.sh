@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=filament-instability-Ri000-3d
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=filament-instability-Ri000-3d
+#SBATCH --output=../scratch/logs/filament-instability/Ri000-3d.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
 
 module load cuda/11.0.3
 cd ~/filament-instability

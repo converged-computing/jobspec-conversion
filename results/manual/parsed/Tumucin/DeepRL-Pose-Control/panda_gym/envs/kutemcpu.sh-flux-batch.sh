@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PPOexp216
-#FLUX: --queue=kutem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=PPOexp216
+#FLUX --queue=kutem
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Activating Python 3.8.6..."
 module load python/3.8.6

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=google_benchmark
-#FLUX: --queue=debug
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=google_benchmark
+#SBATCH --output=local_benchmark.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:12:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
+#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='66'
 

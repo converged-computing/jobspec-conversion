@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prepost
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=prepost
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "start"
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"

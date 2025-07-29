@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cice-qc
-#FLUX: --queue=acme-small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cice-qc
+#SBATCH --account=condo
+#SBATCH --output=log-cice-qc.o%j
+#SBATCH --error=log-cice-qc.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=acme-small
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE'

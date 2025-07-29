@@ -1,7 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=segunet
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=segunet
+#SBATCH --account=sk09
+#SBATCH --output=logs/segunet.%j.out
+#SBATCH --error=logs/segunet.%j.err
+#SBATCH --mail-user=michele.bianco@epfl.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
 
 module load daint-gpu
 module load gcc/9.3.0

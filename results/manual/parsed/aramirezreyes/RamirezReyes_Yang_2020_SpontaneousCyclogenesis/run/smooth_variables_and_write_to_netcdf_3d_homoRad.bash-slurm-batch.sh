@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-car-3643
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --mail-user=aramirezreyes@ucdavis.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300GB
+#SBATCH --time=14:00:00
+#SBATCH --qos=bigmem
+#SBATCH --licenses=project,SCRATCH
 
 export JULIA_NUM_THREADS='1'
 export TMPDIR='$SCRATCH'

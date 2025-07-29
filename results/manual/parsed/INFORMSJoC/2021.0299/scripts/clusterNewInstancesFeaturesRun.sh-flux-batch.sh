@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=newInstancesFeatures
-#FLUX: --queue=snowy
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=newInstancesFeatures
+#FLUX --queue=snowy
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcccore/10.2.0
 module load cmake/3.18.4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-blackbean-3149
+#FLUX --job-name=psycho-earthworm-6186
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load mpi/openmpi
 gmxdir=/home/alarcj/exe/gromacs-4.0.7_flatbottom/exec/bin

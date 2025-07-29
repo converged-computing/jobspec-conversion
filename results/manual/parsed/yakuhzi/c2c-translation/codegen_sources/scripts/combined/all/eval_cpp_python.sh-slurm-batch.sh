@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=combined_eval_all_cpp_python
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=combined_eval_all_cpp_python
+#SBATCH --output=combined_eval_all_cpp_python_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=03:00:00
 
 MODEL_PATH='models/Online_ST_CPP_Python.pth'
 DUMP_PATH='dump/combined/all/cpp_python'

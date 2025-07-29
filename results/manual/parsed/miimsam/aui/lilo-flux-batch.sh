@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-earthworm-3239
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-truffle-0407
+#FLUX --urgency=16
 

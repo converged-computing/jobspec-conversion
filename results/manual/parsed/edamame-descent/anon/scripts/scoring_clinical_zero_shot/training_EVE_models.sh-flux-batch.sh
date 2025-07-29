@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eve_training
-#FLUX: -c=2
-#FLUX: --queue=gpu_quad,gpu,gpu_marks
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=eve_training
+#FLUX -c=2
+#FLUX --queue=gpu_quad,gpu,gpu_marks
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export dms_index='$SLURM_ARRAY_TASK_ID'
 export model_parameters_location='../../proteingym/baselines/EVE/EVE/default_model_params.json'

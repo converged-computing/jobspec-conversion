@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mspass
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mspass
+#SBATCH --account=MsPASS
+#SBATCH --output=mspass.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
 
 WORK_DIR=$SCRATCH/SAGE_2021
 MSPASS_CONTAINER=$WORK/mspass/mspass_latest.sif

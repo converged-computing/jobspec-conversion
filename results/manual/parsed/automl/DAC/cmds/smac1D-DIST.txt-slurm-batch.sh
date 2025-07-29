@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-2039
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#SBATCH --output=experiments/logs/%x.%N.%A.%a.out
+#SBATCH --error=experiments/logs/%x.%N.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --array=1-25
 
 source activate dac
 experi="1D"

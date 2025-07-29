@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-signal-4411
-#FLUX: --queue=defq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-earthworm-6711
+#FLUX --queue=defq
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -x 
 i=1

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BAIT_2
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=nodes
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=BAIT_2
+#SBATCH --output=nemo.%u.%N.%j.out
+#SBATCH --error=nemo.%u.%N.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=9000M
+#SBATCH --time=2-23:59:59
+#SBATCH --partition=nodes
+#SBATCH --chdir=./
 
 export NPROC='80'
 export XPROC='0'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_markDups
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_markDups
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=48G
+#SBATCH --time=2-00:00:00
 
 cd ${DIR}
 beginTime=`date +%s`

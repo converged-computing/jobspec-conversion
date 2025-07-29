@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=visitation-predictor
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=learnfair
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=visitation-predictor
+#SBATCH --output=/checkpoint/%u/jobs/job.%A_%a.out
+#SBATCH --error=/checkpoint/%u/jobs/job.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=learnfair
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-511%50
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 

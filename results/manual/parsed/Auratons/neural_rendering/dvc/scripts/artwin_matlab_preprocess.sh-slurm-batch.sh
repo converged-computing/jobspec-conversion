@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gen
-#FLUX: -c=16
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gen
+#SBATCH --output=artwin_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

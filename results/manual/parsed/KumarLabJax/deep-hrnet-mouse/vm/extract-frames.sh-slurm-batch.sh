@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=extract-frames
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=extract-frames
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=06:00:00
+#SBATCH --qos=batch
 
 export PATH='/opt/singularity/bin:${PATH}'
 

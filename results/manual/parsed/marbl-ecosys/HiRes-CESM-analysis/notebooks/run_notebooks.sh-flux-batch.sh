@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=${nbname}
-#FLUX: -n=16
-#FLUX: --queue=dav
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=${nbname}
+#FLUX -n=16
+#FLUX --queue=dav
+#FLUX -t=21600
+#FLUX --urgency=16
 
 usage () {
   echo "$0 NOTEBOOK [NOTEBOOK2 ... NOTEBOOKN]"

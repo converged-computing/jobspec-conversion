@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-caramel-3753
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=0
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 export RDZV_HOST='$(hostname)'
 export RDZV_PORT='29400                   '

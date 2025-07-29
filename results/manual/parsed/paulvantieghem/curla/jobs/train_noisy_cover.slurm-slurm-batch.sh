@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_noisy_cover
-#FLUX: --urgency=16
+#SBATCH --job-name=train_noisy_cover
+#SBATCH --output=train_noisy_cover.out
+#SBATCH --error=train_noisy_cover.err
+#SBATCH --mail-user=paul.vantieghemdetenberghe@student.kuleuven.be
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module --force purge
 module use /apps/leuven/${VSC_ARCH_LOCAL}/2021a/modules/all

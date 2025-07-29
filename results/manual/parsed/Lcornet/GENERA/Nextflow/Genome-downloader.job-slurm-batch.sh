@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pastry-0531
-#FLUX: -c=20
-#FLUX: --queue=bio
-#FLUX: -t=435600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=2625
+#SBATCH --time=5-01:00:00
+#SBATCH --partition=bio
 
 export OMP_NUM_THREADS='20'
 export MKL_NUM_THREADS='20'

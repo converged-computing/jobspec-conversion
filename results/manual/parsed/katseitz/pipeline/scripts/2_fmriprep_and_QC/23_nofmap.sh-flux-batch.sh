@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fno_fmap
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fno_fmap
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load singularity/latest

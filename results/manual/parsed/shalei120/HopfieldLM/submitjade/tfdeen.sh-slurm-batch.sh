@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=MT
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#SBATCH --job-name=MT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=small
 
 module load cuda/9.2
 echo $CUDA_VISIBLE_DEVICES

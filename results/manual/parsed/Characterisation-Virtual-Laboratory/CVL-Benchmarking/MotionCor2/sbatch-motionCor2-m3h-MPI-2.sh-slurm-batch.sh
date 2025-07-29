@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=P100MPI2GPU
-#FLUX: -n=3
-#FLUX: --queue=m3h
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=P100MPI2GPU
+#SBATCH --account=br76
+#SBATCH --output=MyJob-%j.out
+#SBATCH --error=MyJob-%j.err
+#SBATCH --mail-user=firstname.lastname@monash.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P100:2
+#SBATCH --mem-per-cpu=228GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=m3h
 
 nvidia-smi -l 1 -q -x -f /home/userName/br76_scratch/relion21_tutorial/pMOSP/nvidiaLogging-m3h-MPI-2.xml &
 nvidiaPID=$!

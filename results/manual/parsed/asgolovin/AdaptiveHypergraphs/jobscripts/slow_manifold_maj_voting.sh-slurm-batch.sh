@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=slow_man_maj_rtr
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=slow_man_maj_rtr
+#SBATCH --output=./output/%j.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:40:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=28
 
 module load slurm_setup
 module load julia/1.8.2

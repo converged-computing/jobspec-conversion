@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-general-9501
-#FLUX: --urgency=16
+#FLUX --job-name=arid-arm-3333
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/garland3/clemsonPhD/old/SIMP_elastic_heat_gradient/job.matlab.pbs

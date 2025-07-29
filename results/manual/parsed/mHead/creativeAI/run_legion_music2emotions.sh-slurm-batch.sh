@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=music2emotion
-#FLUX: -c=6
-#FLUX: --queue=cuda
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=music2emotion
+#SBATCH --output=mus2emo_%j_out.txt
+#SBATCH --error=mus2emo_%j_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=cuda
 
 ml purge
 ml nvidia/cudasdk/10.1

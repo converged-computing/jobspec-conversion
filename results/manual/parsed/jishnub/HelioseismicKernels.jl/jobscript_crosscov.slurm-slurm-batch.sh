@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cc
-#FLUX: -n=56
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cc
+#SBATCH --output=crosscov.out
+#SBATCH --error=crosscov.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=56
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 cd $SCRATCH/jobs
 module purge

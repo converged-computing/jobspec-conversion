@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cyto_stage1
-#FLUX: -N=128
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=cyto_stage1
+#SBATCH --account=m2859_g
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=32,gpu
+#SBATCH --licenses=SCRATCH
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/cytochrome/${1}/out/ly99sim_all.mtz'

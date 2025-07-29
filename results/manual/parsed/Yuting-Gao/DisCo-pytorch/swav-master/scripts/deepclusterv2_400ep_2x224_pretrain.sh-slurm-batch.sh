@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=deepclusterv2_400ep_2x224_pretrain
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#SBATCH --job-name=deepclusterv2_400ep_2x224_pretrain
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=64
+#SBATCH --mem=450G
+#SBATCH --time=1-01:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

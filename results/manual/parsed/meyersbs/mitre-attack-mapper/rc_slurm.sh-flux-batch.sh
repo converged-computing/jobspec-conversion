@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mitre_attack8
-#FLUX: -c=24
-#FLUX: --queue=tier3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=mitre_attack8
+#FLUX -c=24
+#FLUX --queue=tier3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 spack unload python
 spack load py-scikit-learn@0.22 arch=linux-rhel7-x86_64

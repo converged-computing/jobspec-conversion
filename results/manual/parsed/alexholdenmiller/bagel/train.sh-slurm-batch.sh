@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llvm
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=llvm
+#SBATCH --output=logs/res_%j.out
+#SBATCH --error=logs/err_%j.err
+#SBATCH --mail-user=ad6489@nyu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=48GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export WANDB_API_KEY='$(cat wandb_login.txt)'
 

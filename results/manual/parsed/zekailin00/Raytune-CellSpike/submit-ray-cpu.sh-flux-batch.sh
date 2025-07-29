@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Ray-CPU
-#FLUX: -N=5
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=Ray-CPU
+#FLUX -N=5
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

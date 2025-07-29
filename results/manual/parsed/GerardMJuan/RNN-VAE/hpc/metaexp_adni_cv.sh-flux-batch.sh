@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vae_cv
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=vae_cv
+#FLUX --queue=high
+#FLUX --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

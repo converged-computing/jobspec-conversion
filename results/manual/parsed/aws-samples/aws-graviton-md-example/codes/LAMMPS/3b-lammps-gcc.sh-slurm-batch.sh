@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lj
-#FLUX: -N=4
-#FLUX: --queue=queue-1
-#FLUX: --urgency=16
+#SBATCH --job-name=lj
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=queue-1
 
 export OMPI_MCA_mtl_base_verbose='1'
 export NX='32'

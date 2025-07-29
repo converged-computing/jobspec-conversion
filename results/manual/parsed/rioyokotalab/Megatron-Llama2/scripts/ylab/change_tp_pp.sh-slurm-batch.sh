@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=megatron-hf-convert
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron-hf-convert
+#SBATCH --output=outputs/checkpoint-convert/%j.out
+#SBATCH --error=errors/checkpoint-convertk/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 . /etc/profile.d/modules.sh
 module load cuda/11.8

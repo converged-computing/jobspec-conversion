@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-squidward-9423
-#FLUX: -n=64
-#FLUX: --queue=amd_256
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-general-9033
+#FLUX -n=64
+#FLUX --queue=amd_256
+#FLUX --urgency=16
 
 b=$SAMPLE
 wd=${READ_DIR}

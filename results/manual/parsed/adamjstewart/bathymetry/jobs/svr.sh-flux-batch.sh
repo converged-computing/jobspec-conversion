@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=svr
-#FLUX: -N=12
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=svr
+#FLUX -N=12
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LAUNCHER_WORKDIR='~/bathymetry'
 export LAUNCHER_JOB_FILE='svr-job-file.txt'

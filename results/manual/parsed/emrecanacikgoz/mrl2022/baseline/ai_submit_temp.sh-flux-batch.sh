@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eacikgoz17_transformer_baseline_analysis_deu
-#FLUX: --queue=ai
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=eacikgoz17_transformer_baseline_analysis_deu
+#FLUX --queue=ai
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "Setting stack size to unlimited..."
 ulimit -s unlimited

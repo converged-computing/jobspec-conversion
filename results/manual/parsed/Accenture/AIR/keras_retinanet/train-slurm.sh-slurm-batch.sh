@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train-profiling
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=train-profiling
+#SBATCH --output=/scratch/cs/sar-uav-cv/masters-thesis/computer_vision/keras-retinanet/slurm_out/%A-%a-%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=volta
 
 export SINGULARITY_CACHEDIR='/scratch/cs/sar-uav-cv/.singularity'
 

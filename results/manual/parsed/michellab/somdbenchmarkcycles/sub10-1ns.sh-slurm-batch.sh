@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nunchucks-3349
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=somd-array-gpu-%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

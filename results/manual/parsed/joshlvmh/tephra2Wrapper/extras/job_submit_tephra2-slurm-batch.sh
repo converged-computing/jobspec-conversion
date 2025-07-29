@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tephra2
-#FLUX: --queue=veryshort
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=tephra2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100000M
+#SBATCH --time=03:00:00
+#SBATCH --partition=veryshort
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 module load languages/intel/2018-u3

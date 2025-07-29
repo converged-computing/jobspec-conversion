@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nacc-test
-#FLUX: -N=12
-#FLUX: -n=73
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=nacc-test
+#SBATCH --output=nacc-test-%j.out
+#SBATCH --error=nacc-test-%j.err
+#SBATCH --nodes=12
+#SBATCH --ntasks=73
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=7500MB
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export LMOD_EXPERT='1'
 export NODES='12'

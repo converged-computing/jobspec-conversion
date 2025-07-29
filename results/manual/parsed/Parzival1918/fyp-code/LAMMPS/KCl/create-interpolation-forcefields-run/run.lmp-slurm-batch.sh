@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=system
-#FLUX: -N=2
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=system
+#SBATCH --mail-user=pjuanroyo1@sheffield.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --constraint=ntasks-per-node=64,ntasks-per-socket=32
 
 export OMP_NUM_THREADS='1'
 

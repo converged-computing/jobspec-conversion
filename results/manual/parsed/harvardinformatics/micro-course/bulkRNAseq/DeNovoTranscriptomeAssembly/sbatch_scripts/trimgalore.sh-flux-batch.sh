@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tgalore
-#FLUX: --queue=general
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=tgalore
+#FLUX --queue=general
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load cutadapt/1.8.1-fasrc01

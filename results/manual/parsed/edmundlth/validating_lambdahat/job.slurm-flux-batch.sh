@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lambdahat
-#FLUX: -c=2
-#FLUX: --queue=gpu-a100,gpu-a100-short,gpu-a100-preempt
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=lambdahat
+#FLUX -c=2
+#FLUX --queue=gpu-a100,gpu-a100-short,gpu-a100-preempt
+#FLUX -t=7200
+#FLUX --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

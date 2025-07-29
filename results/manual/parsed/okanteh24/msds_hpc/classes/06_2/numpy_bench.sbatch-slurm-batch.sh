@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=numpy
-#FLUX: -c=2
-#FLUX: --queue=development
-#FLUX: --urgency=16
+#SBATCH --job-name=numpy
+#SBATCH --output=numpy_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --partition=development
+#SBATCH --array=0,1
+#SBATCH --exclude=k001
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

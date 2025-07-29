@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=odd_v1
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=odd_v1
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

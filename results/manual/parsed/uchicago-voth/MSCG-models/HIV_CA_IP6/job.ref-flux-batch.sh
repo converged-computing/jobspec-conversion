@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hiv_r15
-#FLUX: -N=2
-#FLUX: -n=112
-#FLUX: --queue=development
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=hiv_r15
+#FLUX -N=2
+#FLUX -n=112
+#FLUX --queue=development
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

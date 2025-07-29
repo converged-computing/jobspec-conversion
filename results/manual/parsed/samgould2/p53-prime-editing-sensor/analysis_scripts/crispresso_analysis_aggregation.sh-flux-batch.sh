@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-milkshake-0947
-#FLUX: --urgency=15
+#FLUX --job-name=dinosaur-poo-4519
+#FLUX --urgency=15
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

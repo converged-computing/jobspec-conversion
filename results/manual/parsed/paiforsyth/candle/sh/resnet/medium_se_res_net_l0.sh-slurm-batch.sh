@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cherry-7658
-#FLUX: -c=6
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=%N-%jstdmedium.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000M
+#SBATCH --time=00:12:00
 
 module purge
 module load python/3.6.3

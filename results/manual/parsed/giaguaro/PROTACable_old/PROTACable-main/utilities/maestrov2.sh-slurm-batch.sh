@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=stage1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 i=$1
 mkdir ../temp_process/${i%.*}_stg1res

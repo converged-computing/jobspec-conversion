@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mom6-solo
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=mom6-solo
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export KMP_STACKSIZE='512m'
 export NC_BLKSZ='1M'

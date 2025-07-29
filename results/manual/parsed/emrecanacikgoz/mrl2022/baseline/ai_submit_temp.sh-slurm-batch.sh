@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=eacikgoz17_transformer_baseline_analysis_deu
-#FLUX: --queue=ai
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=eacikgoz17_transformer_baseline_analysis_deu
+#SBATCH --account=ai
+#SBATCH --output=test-%j.out
+#SBATCH --mail-user=eacikgoz17@ku.edu.tr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_t4:1
+#SBATCH --mem=20G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ai
+#SBATCH --qos=ai
+#SBATCH --constraint=ntasks-per-node=2
 
 echo "Setting stack size to unlimited..."
 ulimit -s unlimited

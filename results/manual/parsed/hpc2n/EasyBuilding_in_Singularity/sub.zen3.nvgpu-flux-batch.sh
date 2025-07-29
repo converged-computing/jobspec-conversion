@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=24
-#FLUX: --queue=amd_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=EB-install
+#FLUX -n=24
+#FLUX --queue=amd_gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SBATCH_CONSTRAINT='zen3&2xA100'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

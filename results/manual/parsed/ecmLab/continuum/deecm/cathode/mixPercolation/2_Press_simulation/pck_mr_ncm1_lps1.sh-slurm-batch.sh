@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NMC_LPS
-#FLUX: -c=4
-#FLUX: --queue=tier3
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=NMC_LPS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20g
+#SBATCH --time=02:30:00
+#SBATCH --partition=tier3
+#SBATCH --constraint=ntasks-per-node=10
 
 nMdl=1        # number of models studied
 iNcm=1        # NMC size studied, iNcm=1 for 5.0um, iNcm=2 for 10um, iNcm=3 for 12um

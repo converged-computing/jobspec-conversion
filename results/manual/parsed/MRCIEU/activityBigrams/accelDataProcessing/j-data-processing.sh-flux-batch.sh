@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-hope-4378
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-lamp-9979
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MRCIEU/activityBigrams/accelDataProcessing/j-data-processing.sh

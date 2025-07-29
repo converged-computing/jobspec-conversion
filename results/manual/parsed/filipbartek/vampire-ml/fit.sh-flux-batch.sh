@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-train-0166
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-banana-6746
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

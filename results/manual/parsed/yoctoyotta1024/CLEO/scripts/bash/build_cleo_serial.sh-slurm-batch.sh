@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=serialbuild
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=serialbuild
+#SBATCH --account=mh1126
+#SBATCH --output=./build/bin/serialbuild_out.%j.out
+#SBATCH --error=./build/bin/serialbuild_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=00:05:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=128
 
 module load gcc/11.2.0-gcc-11.2.0
 spack load cmake@3.23.1%gcc

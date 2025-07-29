@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-banana-5524
-#FLUX: -n=6
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=//data/scratch/avanhilten/GenNet_logs/out_%j.log
+#SBATCH --error=//data/scratch/avanhilten/GenNet_logs/error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=short
 
 module purge
 module load Python/3.7.4-GCCcore-8.3.0

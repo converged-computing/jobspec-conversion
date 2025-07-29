@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phase_4
-#FLUX: -c=3
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_4
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=0
 
 env=${11}
 time=${10}

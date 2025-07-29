@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DatasetConvert
-#FLUX: --queue=cpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=DatasetConvert
+#SBATCH --output=/home/g.derevyanko/Logs/OpenFold2/Dataset/tRosettaConvert_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=cpu
 
 module load gpu/cuda-11.3
 conda activate torch

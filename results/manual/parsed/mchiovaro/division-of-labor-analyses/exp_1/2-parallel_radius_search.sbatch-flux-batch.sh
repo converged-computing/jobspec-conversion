@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_exp_1
+#FLUX --job-name=slurm_exp_1
 #FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=general
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SLURM_ARRAY_TASK_ID
 module load gcc/11.3.0

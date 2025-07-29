@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pipetrain
-#FLUX: --queue=booster
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=pipetrain
+#FLUX --queue=booster
+#FLUX -t=86399
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

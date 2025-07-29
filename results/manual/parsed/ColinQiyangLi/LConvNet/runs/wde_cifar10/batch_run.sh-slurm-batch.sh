@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemur-8111
-#FLUX: -c=2
-#FLUX: --queue=p100
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --partition=p100
+#SBATCH --array=0-119%12
 
 list=(
     "python -m lconvnet.run --cfg runs/wde_cifar10/lr-0.001/conv/RKO/maxmin/multi-trial-B/cfg.yaml"

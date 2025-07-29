@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=thesis
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=thesis
+#SBATCH --output=job-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=00:30:00
 
 echo "Loading modules..."
 module purge

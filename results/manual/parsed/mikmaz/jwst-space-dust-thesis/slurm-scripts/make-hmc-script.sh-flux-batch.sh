@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-malarkey-1636
-#FLUX: -c=5
-#FLUX: --queue=gpu
-#FLUX: -t=223200
-#FLUX: --urgency=16
+#FLUX --job-name=faux-pastry-4935
+#FLUX -c=5
+#FLUX --queue=gpu
+#FLUX -t=223200
+#FLUX --urgency=16
 
 cat <<EoF
 hostname

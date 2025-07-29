@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hyper1.1_K80
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=hyper1.1_K80
+#SBATCH --output=log/hyper_volume_1.1.K80.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=K80
 
 python -u  train.py --batch_size 5 --epoch 50 --save_path /export/team-mic/zhong/test/print_since_pase \
        --num_workers 8 --warmup 10000000 --net_cfg cfg/workers_overlap.cfg \

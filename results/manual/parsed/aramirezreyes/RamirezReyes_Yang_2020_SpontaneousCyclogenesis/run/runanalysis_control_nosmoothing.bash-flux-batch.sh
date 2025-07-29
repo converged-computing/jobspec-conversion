@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-arm-6170
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=red-arm-1377
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TMPDIR='$SCRATCH'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnorm
-#FLUX: --queue=ccn
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=resnorm
+#SBATCH --output=./out/resnet/out.%j.%a.%N.out
+#SBATCH --error=./err/resnet/err.%j.%a.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --partition=ccn
 
 ARRAY_ID=$1
 PARAMETER_FILE=$2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-platanos-3597
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-kitty-5828
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PabloPiaggi/IceNucleationSeeding-SCAN-ML/SeedingSimulations/cluster5000molecules/294K/job.sh

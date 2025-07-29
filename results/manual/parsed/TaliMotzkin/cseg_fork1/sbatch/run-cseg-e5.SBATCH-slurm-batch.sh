@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pancake-1768
-#FLUX: -c=8
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --output=train-cseg-e5-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=128GB
+#SBATCH --time=1-23:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge;
 singularity exec --nv \

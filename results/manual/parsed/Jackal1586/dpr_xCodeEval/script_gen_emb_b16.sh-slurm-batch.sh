@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-muffin-3885
-#FLUX: --queue=RTX8Kq
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=RTX8Kq
+#SBATCH --nodelist=node22
 
 export CUDA_VISIBLE_DEVICES='0,1,2'
 

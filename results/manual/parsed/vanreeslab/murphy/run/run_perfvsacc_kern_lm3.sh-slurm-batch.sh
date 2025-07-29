@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-eagle-5372
-#FLUX: --queue=batch,debug
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2625
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch,debug
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

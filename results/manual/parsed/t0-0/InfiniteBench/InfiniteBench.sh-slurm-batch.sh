@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-puppy-6756
-#FLUX: --urgency=16
+#SBATCH --output=outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source /etc/profile.d/modules.sh
 module load cuda/12.1 nccl/cuda-11.7/2.14.3 clang/15.0

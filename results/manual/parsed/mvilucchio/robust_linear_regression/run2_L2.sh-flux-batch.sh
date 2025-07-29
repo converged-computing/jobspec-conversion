@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-1829
-#FLUX: --queue=parallel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-lemon-3215
+#FLUX --queue=parallel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc
 module load mvapich2

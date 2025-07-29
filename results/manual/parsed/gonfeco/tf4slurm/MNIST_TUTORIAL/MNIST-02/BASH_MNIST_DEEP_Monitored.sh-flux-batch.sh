@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hope-4286
-#FLUX: --queue=thinnodes
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-cattywampus-4689
+#FLUX --queue=thinnodes
+#FLUX -t=600
+#FLUX --urgency=16
 
 TENSORFLOW=$1
 echo "TENSORFLOW: "$TENSORFLOW

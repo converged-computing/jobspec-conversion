@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-milkshake-3683
-#FLUX: --queue=batch
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=hello-leg-0172
+#FLUX --queue=batch
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load java/18.0.2.1
 module load nextflow/22.10.5

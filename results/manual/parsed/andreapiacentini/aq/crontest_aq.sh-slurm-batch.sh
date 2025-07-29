@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=aq-crontest
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=aq-crontest
+#SBATCH --output=HPC_OUT
+#SBATCH --error=HPC_OUT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=36
 
 export KMP_DETERMINISTIC_REDUCTION='true'
 export I_MPI_PIN_DOMAIN='omp'

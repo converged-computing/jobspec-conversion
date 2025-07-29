@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-spoon-8125
-#FLUX: --queue=a100q
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-leader-1443
+#FLUX --queue=a100q
+#FLUX -t=900
+#FLUX --urgency=16
 
 nvidia-smi
 nvcc --version

@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SpiralReco
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SpiralReco
+#SBATCH --output=./job.out.%A_%a
+#SBATCH --error=./job.err.%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=120000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --chdir=./
+#SBATCH --array=1-5
 
 export OMP_NUM_THREADS='16'
 export SINGULARITYENV_OMP_NUM_THREADS='16'

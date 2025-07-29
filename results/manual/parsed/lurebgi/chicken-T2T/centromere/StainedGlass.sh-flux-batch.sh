@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stain
-#FLUX: -c=8
-#FLUX: --queue=basic
-#FLUX: --urgency=16
+#FLUX --job-name=stain
+#FLUX -c=8
+#FLUX --queue=basic
+#FLUX --urgency=16
 
 chr=$1
 module unload python2

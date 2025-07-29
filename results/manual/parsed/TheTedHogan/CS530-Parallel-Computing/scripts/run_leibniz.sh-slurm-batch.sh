@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=groupc
-#FLUX: -n=9
-#FLUX: --queue=defq
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=groupc
+#SBATCH --output=./output/leibniz_output.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=defq
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

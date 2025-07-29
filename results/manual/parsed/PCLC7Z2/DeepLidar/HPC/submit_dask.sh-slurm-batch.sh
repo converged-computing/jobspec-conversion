@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Dask_Generation
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Dask_Generation
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/Dask.out
+#SBATCH --error=/home/b.weinstein/logs/Dask.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=2-00:00:00
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepLidar/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepLidar/lib/python3.6/site-packages/'

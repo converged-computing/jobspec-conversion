@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cupcake-3480
-#FLUX: -N=2
-#FLUX: -c=80
+#FLUX --job-name=astute-noodle-5195
+#FLUX -N=2
+#FLUX -c=80
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

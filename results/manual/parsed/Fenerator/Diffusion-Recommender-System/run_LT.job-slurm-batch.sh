@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LT
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=LT
+#SBATCH --output=LT_Train_LUKE_reweighting_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:2
+#SBATCH --mem=125000M
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2021

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nccl-allreduce-srun
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=nccl-allreduce-srun
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export PMI_DEBUG='1'
 export NCCL_DEBUG='WARN \'

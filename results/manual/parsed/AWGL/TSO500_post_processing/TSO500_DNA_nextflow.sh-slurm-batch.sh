@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leader-4243
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --output=TSO500_DNA_nextflow-%j-%N.out
+#SBATCH --error=TSO500_DNA_nextflow-%j-%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=high
 
 FASTQ_PATH=$1
 SAMPLES_ORDER=$2

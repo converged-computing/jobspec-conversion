@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-3979
-#FLUX: --queue=fnndsc-gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-signal-7221
+#FLUX --queue=fnndsc-gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load anaconda3
 source activate james

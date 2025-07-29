@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kerfuffle-5889
-#FLUX: -c=7
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-squidward-5029
+#FLUX -c=7
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load apptainer

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parsnip-1076
-#FLUX: -N=3
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-truffle-9360
+#FLUX -N=3
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load spark/2.1.1
 start-all.sh

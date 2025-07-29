@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_bwaMem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_bwaMem
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
 
 set -o pipefail
 time=`date +%d-%m-%Y-%H-%M` 

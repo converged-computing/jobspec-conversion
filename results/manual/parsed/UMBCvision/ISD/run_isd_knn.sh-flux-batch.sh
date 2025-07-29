@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=knn_isd_3
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=knn_isd_3
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 set -x
 set -e

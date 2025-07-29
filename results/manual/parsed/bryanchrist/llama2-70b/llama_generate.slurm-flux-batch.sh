@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llama_generate
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=llama_generate
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

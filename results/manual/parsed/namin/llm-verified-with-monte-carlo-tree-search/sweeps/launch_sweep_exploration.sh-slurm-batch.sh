@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mcts-testing
-#FLUX: -c=4
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mcts-testing
+#SBATCH --output=/n/home08/shenniger/llm-verified-with-monte-carlo-tree-search/mylog
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=250GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_requeue
+#SBATCH --constraint=ntasks-per-node=1,h100
+#SBATCH --array=0-180%5
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export discovery_factors='(0.1 0.3 1.0)'

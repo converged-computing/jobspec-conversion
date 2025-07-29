@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NoticIA_Zero
-#FLUX: -c=22
-#FLUX: --urgency=16
+#SBATCH --job-name=NoticIA_Zero
+#SBATCH --output=.slurm/NoticIA_Zero.out.txt
+#SBATCH --error=.slurm/NoticIA_Zero.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=22
+#SBATCH --gres=gpu:4
+#SBATCH --mem=300G
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

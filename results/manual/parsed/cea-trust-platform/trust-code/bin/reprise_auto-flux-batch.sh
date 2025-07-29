@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-house-6637
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-lemur-6587
+#FLUX --urgency=16
 
 export MAX_JOBS_ENCHAINES='`$TRUST_Awk -F= '/MAX_JOBS_ENCHAINES=/ {print $2}' $sub_file` '
 export ARCHIVAGE='`$TRUST_Awk -F= '/ARCHIVAGE=/ {print $2}' $sub_file` '

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=repeatmasker
+#FLUX -c=24
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load icc/2018.3.222-GCC-7.3.0-2.30 impi/2018.3.222 RepeatMasker/4.0.8-Perl-5.28.0-HMMER
 <<README

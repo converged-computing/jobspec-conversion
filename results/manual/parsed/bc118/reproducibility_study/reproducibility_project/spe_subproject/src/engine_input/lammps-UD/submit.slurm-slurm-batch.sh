@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rpd-uamethane
-#FLUX: -t=599
-#FLUX: --urgency=16
+#SBATCH --job-name=rpd-uamethane
+#SBATCH --mail-user=zijiewu@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:09:59
+#SBATCH --constraint=ntasks-per-node=36
 
 export VALET_PATH='$VALET_PATH:$WORKDIR/udsw/valet/etc'
 

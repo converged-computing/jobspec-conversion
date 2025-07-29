@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-4599
-#FLUX: -N=2
-#FLUX: --queue=X
-#FLUX: --urgency=16
+#SBATCH --account=X
+#SBATCH --output=OUTPUT_PATH
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=X
+#SBATCH --qos=X
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-toaster-6845
-#FLUX: -c=8
-#FLUX: --queue=bii-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-rabbit-2927
+#FLUX -c=8
+#FLUX --queue=bii-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

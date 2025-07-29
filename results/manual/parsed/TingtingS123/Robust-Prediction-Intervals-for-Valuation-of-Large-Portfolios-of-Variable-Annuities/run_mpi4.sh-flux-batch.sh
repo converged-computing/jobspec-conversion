@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bootstrap
-#FLUX: -N=4
-#FLUX: -n=10
-#FLUX: --queue=research
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bootstrap
+#FLUX -N=4
+#FLUX -n=10
+#FLUX --queue=research
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge  # Clears all loaded modules for a clean environment.
 module load prun

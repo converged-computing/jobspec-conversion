@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-9998
-#FLUX: -c=32
-#FLUX: --queue=<partition
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-lamp-5520
+#FLUX -c=32
+#FLUX --queue=<partition
+#FLUX -t=432000
+#FLUX --urgency=16
 
 python search_spaces/hat/train.py --configs=search_spaces/hat/configs/wmt14.en-fr/supertransformer/space0.yml

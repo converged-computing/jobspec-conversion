@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=myMPI
-#FLUX: -n=64
-#FLUX: --queue=largemem512GB
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=myMPI
+#SBATCH --output=normal_seq_myMPI_1M_thread_1.o
+#SBATCH --mail-user=chyacinthz@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=largemem512GB
 
 export CC='icc'
 export CXX='icpc'

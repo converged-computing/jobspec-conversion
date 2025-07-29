@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Antibody
-#FLUX: --queue=GPUv100s
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Antibody
+#SBATCH --output=namd2.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=GPUv100s
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0	# 0 for 1st GPU, 1 for 2nd GPU, 0,1 for both'
 export NAMD_DIR='/home2/your_id/tools/namd2/namd2.13_gpu'

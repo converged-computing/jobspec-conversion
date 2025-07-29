@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runParallelTest
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=runParallelTest
+#FLUX --queue=standard
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export slurm_ID='${SLURM_JOB_ID}'
 export numWorkers='$((SLURM_NTASKS-1))'

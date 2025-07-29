@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-eagle-4280
-#FLUX: -n=29
-#FLUX: --queue=batch
-#FLUX: -t=174000
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --mail-user==
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=29
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=250GB
+#SBATCH --time=2-00:20:00
+#SBATCH --partition=batch
 
 module load singularity
 mkdir $1

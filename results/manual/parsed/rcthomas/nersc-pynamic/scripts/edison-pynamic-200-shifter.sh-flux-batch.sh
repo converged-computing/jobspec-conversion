@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=edison-pynamic-200-shifter
-#FLUX: -N=200
-#FLUX: --queue=regular
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=edison-pynamic-200-shifter
+#FLUX -N=200
+#FLUX --queue=regular
+#FLUX -t=1500
+#FLUX --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='300'
 

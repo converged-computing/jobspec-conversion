@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ncclimo_tst
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=ncclimo_tst
+#FLUX --queue=debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PATH='/global/homes/z/zender/bin_${NERSC_HOST}:${PATH}'

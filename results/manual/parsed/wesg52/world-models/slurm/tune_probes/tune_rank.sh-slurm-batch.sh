@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pedo-0510
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=log/%j-%a-run_probes.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=4G
+#SBATCH --array=1-6
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

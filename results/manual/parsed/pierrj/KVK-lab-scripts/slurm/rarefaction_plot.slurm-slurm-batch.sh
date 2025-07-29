@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=rarefaction_plot
-#FLUX: --queue=savio2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=rarefaction_plot
+#SBATCH --account=fc_kvkallow
+#SBATCH --output=/global/home/users/pierrj/slurm_stdout/slurm-%j.out
+#SBATCH --error=/global/home/users/pierrj/slurm_stderr/slurm-%j.out
+#SBATCH --mail-user=pierrj@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio2
+#SBATCH --qos=savio_normal
+#SBATCH --constraint=ntasks-per-node=24
 
 cd /global/scratch/users/pierrj/eccDNA/magnaporthe_pureculture/rawdata/illumina/pureculture_samples/G3_1A/
 cd rarefaction_plot

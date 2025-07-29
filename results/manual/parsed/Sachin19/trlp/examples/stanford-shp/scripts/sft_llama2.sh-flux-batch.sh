@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-latke-4148
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-general-8711
+#FLUX -t=0
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/projects/tir6/general/sachink/huggingface'
 

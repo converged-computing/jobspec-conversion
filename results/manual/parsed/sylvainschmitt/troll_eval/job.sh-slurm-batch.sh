@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=troll_eval
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=troll_eval
+#SBATCH --output=troll_eval.%N.%j.out
+#SBATCH --error=troll_eval.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=4-00:00:00
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # to adapt to your cluster

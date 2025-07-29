@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=A100-Sngle-host
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=A100-Sngle-host
+#SBATCH --account=tkc@a100
+#SBATCH --output=a100-single.out
+#SBATCH --error=a100-single.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load python/3.10.4

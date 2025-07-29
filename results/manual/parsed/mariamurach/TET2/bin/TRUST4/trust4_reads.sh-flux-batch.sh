@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lamp-6322
-#FLUX: -n=29
-#FLUX: --queue=______
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-kerfuffle-8649
+#FLUX -n=29
+#FLUX --queue=______
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load java
 output=output_reads/

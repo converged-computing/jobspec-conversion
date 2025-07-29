@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-car-6897
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --array=2-21%20
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

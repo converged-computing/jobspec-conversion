@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wavprompt
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=wavprompt
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

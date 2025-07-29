@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=insideness
-#FLUX: -n=2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=insideness
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem-per-cpu=16GB
+#SBATCH --time=4-04:00:00
+#SBATCH --qos=cbmm
+#SBATCH --chdir=./log/
+#SBATCH --array=40
 
 cd /om/user/xboix/src/insideness/
 /om2/user/jakubk/miniconda3/envs/torch/bin/python -c 'import torch; print(torch.rand(2,3).cuda())'

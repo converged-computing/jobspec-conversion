@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-taco-6390
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-squidward-3589
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 experi="1D3M"

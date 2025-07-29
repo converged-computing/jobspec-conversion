@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lemur-3652
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --output=%j.log
+#SBATCH --error=%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 srun /bin/hostname
 echo "running with srun on 4 nodes:"

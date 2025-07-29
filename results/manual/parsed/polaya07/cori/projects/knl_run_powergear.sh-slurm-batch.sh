@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifft
-#FLUX: -n=64
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=gearshifft
+#SBATCH --output=./outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl,quad,cache
 
 BOOST_VER=1.65.1
 FFTW_VER=3.3.6.3

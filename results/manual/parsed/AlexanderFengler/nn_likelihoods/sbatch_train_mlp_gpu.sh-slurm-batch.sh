@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=mlp_analytic
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=mlp_analytic
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=/users/afengler/batch_job_out/mlp_train_ddm_analytic_%A_%a.out
+#SBATCH --mail-user=alexander_fengler@brown.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=quadrortx
+#SBATCH --array=1-1
 
 source /users/afengler/.bashrc
 conda deactivate

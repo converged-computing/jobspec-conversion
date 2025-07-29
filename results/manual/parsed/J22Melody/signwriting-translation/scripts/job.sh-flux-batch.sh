@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=baseline
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load nvidia/cuda11.2-cudnn8.1.0
 module load anaconda3

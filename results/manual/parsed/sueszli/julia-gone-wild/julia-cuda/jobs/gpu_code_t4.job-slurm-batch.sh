@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-eagle-3582
-#FLUX: --queue=q_student_gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=00:05:00
+#SBATCH --partition=q_student_gpu
 
 . vars_in.sh
 BINARY="../src/juliaset_gpu"

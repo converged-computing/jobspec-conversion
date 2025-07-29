@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-ricecake-0306
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CovertLab/WholeCell/job.analysis.sh.tmpl

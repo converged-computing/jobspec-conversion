@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=LLM_CMP_${TIME_SUFFIX}
-#FLUX: --queue=bme_gpu4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=LLM_CMP_${TIME_SUFFIX}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:NVIDIAA10080GBPCIe:1
+#SBATCH --mem=64G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=bme_gpu4
+#SBATCH --constraint=ntasks-per-node=1
 
 nvidia-smi
 set -x

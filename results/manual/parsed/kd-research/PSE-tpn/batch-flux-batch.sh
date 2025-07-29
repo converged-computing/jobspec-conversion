@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=batch-kaidong
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=batch-kaidong
+#FLUX -n=16
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export SINGULARITY_LOCALCACHEDIR='`pwd`/tmp'
 export SINGULARITY_TMPDIR='`pwd`/tmp'

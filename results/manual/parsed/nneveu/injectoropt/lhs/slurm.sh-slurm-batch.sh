@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=shared
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=output-%j.txt
+#SBATCH --error=output-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:40:00
+#SBATCH --partition=shared
 
 export PYTHONPATH='/gpfs/slac/staas/fs1/g/accelerator_modeling/nneveu/software/distgen/:$PYTHONPATH'
 export PATH='/gpfs/slac/staas/fs1/g/accelerator_modeling/nneveu/software/OPAL/opal_mpich/bin/:$PATH'

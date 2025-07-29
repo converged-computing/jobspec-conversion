@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-leg-5361
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-earthworm-8826
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export FB='$1'
 export SINGULARITY_BIND=''

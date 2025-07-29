@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=img_cap
-#FLUX: --queue=sail
-#FLUX: --urgency=16
+#SBATCH --job-name=img_cap
+#SBATCH --account=sail
+#SBATCH --output=imgcap.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=sail
 
 export PATH='$PATH:/nfs/stak/users/kannegaa/.local/bin'
 

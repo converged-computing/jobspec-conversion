@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpt-7b-32nodes-final
-#FLUX: -N=32
-#FLUX: -c=96
-#FLUX: -t=8784000
-#FLUX: --urgency=16
+#SBATCH --job-name=mpt-7b-32nodes-final
+#SBATCH --output=log/%x-%j.log
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:a100:8
+#SBATCH --time=101-16:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export TZ='Asia/Singapore'
 export TMPDIR='/fsx/tmp'

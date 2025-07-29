@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=metaicl_train
-#FLUX: --queue=a100-4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=metaicl_train
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=a100-4
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:512'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mhong/li003755/.conda/envs/metaicl/lib/'

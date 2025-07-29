@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fudge-2256
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-squidward-4058
+#FLUX --urgency=16
 
 export SINGULARITYENV_PYTHONNOUSERSITE='true'
 export SINGULARITYENV_OMP_NUM_THREADS='1'

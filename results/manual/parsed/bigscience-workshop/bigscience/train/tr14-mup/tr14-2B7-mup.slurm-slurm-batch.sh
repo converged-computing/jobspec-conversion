@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-signal-7668
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --queue=gpu_p5
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=ajs@a100
+#SBATCH --output=%x.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1,a100
 
 export TRANSFORMERS_CACHE='$ajs_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$ajs_ALL_CCFRWORK/datasets'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=predict_everglades
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=predict_everglades
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda3/envs/Zooniverse/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda3/envs/Zooniverse/lib/python3.7/site-packages/'

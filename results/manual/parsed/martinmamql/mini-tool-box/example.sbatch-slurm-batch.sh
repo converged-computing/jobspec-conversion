@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hobbit-5425
-#FLUX: -c=24
-#FLUX: --queue=gpu_high
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu_high
+#SBATCH --nodelist=compute-1-5
 
 module load singularity # this is for singularity
 ulimit -n 40000 # this is for singularity and large memory jobs, you could change 40000 to suitable numbers

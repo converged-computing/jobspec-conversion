@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cloverleaf_ws_test
-#FLUX: --exclusive
-#FLUX: --queue=
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=cloverleaf_ws_test
+#SBATCH --account=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=nvgpufreq
+#SBATCH --time=00:05:00
+#SBATCH --partition=
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=
 
 num_gpus=$1
 nodes=$2

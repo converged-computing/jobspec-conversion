@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=python-training
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=python-training
+#SBATCH --output=sp-gan-output.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity \

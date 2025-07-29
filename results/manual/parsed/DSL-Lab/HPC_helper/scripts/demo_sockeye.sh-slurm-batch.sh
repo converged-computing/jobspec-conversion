@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=demo_sockeye
-#FLUX: -c=24
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=demo_sockeye
+#SBATCH --account=st-rjliao-1-gpu
+#SBATCH --output=slurm-%j_out.txt
+#SBATCH --error=slurm-%j_err.txt
+#SBATCH --mail-user=yanq@student.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=32G
+#SBATCH --time=00:20:00
 
 export OMP_NUM_THREADS='6'
 

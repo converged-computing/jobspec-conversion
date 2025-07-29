@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dist_deepMNIST
-#FLUX: -N=9
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dist_deepMNIST
+#FLUX -N=9
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export WORKON_HOME='~/Envs'
 export TF_SCRIPT='/scratch/snx3000/youyang9/fjr/tf_workspace/large-scale-tensorflow-benchmark/resnet/resnet_main.py'

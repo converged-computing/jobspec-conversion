@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phytooracle
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phytooracle
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CCTOOLS_HOME='/home/u12/cosi/cctools-7.1.6-x86_64-centos7'
 export PATH='${CCTOOLS_HOME}/bin:$PATH'

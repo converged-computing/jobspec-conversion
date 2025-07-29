@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tt1
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tt1
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 data=$1
 seed=$2

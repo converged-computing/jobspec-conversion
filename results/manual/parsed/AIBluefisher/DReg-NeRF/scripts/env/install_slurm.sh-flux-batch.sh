@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=installation
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=installation
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo "$state Start"
 echo Time is `date`

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load gcc/8.2.0 python_gpu/3.10.4 eth_proxy
 pip install . src/guided-diffusion

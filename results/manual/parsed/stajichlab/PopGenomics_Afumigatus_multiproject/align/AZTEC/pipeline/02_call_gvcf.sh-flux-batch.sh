@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-9902
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-plant-8818
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load picard
 module load java/13

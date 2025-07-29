@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=$uid
-#FLUX: --urgency=16
+#FLUX --job-name=$uid
+#FLUX --urgency=16
 
 unset PYTHONPATH
 module load cudnn/7.3-cuda_9.0

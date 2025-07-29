@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=J56
+#FLUX --job-name=J56
 #FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=standard
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export WORK='/mnt/lustre/a2fs-work3/work/e89/e89/louie/'
 export PYTHONUSERBASE='$WORK/.local'

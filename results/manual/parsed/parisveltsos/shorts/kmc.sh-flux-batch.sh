@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kmc
-#FLUX: --queue=sixhour
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#FLUX --job-name=kmc
+#FLUX --queue=sixhour
+#FLUX -t=21540
+#FLUX --urgency=16
 
 echo "Running"
 cd /home/p860v026/temp/$1

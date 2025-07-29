@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Ae_tauschiiDiversity
-#FLUX: --queue=killable.q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Ae_tauschiiDiversity
+#FLUX --queue=killable.q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='$PATH:/homes/user/usr/bin:/homes/user/usr/bin/bin'
 

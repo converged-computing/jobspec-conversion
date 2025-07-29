@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wy_server
-#FLUX: -N=151
-#FLUX: --exclusive
-#FLUX: --queue=kshdexclu04
-#FLUX: --urgency=16
+#SBATCH --job-name=wy_server
+#SBATCH --output=log/%j.o
+#SBATCH --error=log/%j.e
+#SBATCH --nodes=151
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:4
+#SBATCH --mem=0
+#SBATCH --partition=kshdexclu04
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
+#SBATCH --exclude=j10r2n07,e13r4n02,b01r2n17
 
 mkdir -p log/$SLURM_JOB_ID
 mkdir -p log/$SLURM_JOB_ID/dmesg

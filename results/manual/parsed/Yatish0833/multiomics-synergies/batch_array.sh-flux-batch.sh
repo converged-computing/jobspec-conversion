@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-animal-4905
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=red-general-0020
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e -x
 FWDIR="$(cd "`dirname $0`"/..; pwd)"

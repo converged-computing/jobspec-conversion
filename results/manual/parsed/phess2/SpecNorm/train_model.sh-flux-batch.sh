@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_spec_norm
-#FLUX: -c=20
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train_spec_norm
+#FLUX -c=20
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module use /cm/shared/modulefiles

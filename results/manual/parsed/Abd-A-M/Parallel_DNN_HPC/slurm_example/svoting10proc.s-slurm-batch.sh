@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Voting
-#FLUX: -c=4
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --job-name=Voting
+#SBATCH --output=output.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=02:10:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module load anaconda3/2021.11
 conda activate backup_venv

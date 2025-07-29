@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-citrus-5236
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/softwaresaved/CGPACK-Work/branches/io/hec.caf

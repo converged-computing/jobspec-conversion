@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cattywampus-4120
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-parrot-3101
+#FLUX --urgency=16
 
 declare -a arr=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 RESNEST_ROOT_DIR='centermask2'

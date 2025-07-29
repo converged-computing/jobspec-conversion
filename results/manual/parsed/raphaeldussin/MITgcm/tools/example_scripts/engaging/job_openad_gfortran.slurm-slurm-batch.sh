@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=troadgfortran
-#FLUX: --queue=sched_mit_darwin
-#FLUX: --urgency=16
+#SBATCH --job-name=troadgfortran
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --partition=sched_mit_darwin
 
 export LC_ALL='en_US.iso885915'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SE3LieConv_molecule
-#FLUX: --queue=XXX
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=SE3LieConv_molecule
+#SBATCH --output=XXX/slurm-SE3LieConv_molecule-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:GeForce_GTX_1080Ti:1
+#SBATCH --mem=5G
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=XXX
+#SBATCH --array=0-11%6
 
 source venv/bin/activate
 tasks=(homo lumo gap alpha mu Cv G H r2 U U0 zpve)

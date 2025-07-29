@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llava
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=llava
+#SBATCH --account=CSC538
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 module load rocm/5.6.0
 TRAIN_PATH=/ccs/home/lfsm/froniter_workspace/LLaVA

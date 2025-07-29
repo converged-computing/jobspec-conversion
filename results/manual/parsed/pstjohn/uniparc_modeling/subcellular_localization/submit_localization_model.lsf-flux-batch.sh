@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leopard-6428
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-platanos-2310
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/subcellular_localization/submit_localization_model.lsf

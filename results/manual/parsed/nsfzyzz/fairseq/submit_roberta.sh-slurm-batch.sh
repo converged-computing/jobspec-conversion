@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-knife-3493
-#FLUX: -c=40
-#FLUX: --queue=rise
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/home/eecs/yyaoqing/slurm_logs/slurm.%N.%j..out
+#SBATCH --error=/home/eecs/yyaoqing/slurm_logs/slurm.%N.%j..err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=rise
+#SBATCH --chdir=/data/yyaoqing/fairseq/
+#SBATCH --exclude=ace,blaze,flaminio,freddie,r[10,16],atlas,havoc,steropes
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemur-6745
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-gato-5872
+#FLUX -t=900
+#FLUX --urgency=16
 
 export DATA_DIR='$(mktemp -d -p $TMPDIR)'
 

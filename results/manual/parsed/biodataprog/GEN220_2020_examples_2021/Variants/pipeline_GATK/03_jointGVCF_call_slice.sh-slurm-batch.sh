@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=slice.GVCFGeno
-#FLUX: -n=2
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#SBATCH --job-name=slice.GVCFGeno
+#SBATCH --output=logs/GVCFGenoGATK4.slice_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24G
+#SBATCH --partition=intel
 
 hostname
 MEM=24g

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=m_dist
-#FLUX: -n=4
-#FLUX: --queue=ict_gpu
-#FLUX: -t=919200
-#FLUX: --urgency=16
+#FLUX --job-name=m_dist
+#FLUX -n=4
+#FLUX --queue=ict_gpu
+#FLUX -t=919200
+#FLUX --urgency=16
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

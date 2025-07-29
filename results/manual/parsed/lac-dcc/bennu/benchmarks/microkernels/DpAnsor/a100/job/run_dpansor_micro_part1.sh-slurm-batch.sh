@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=part1_dpansor_micro_cuda_a100
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=part1_dpansor_micro_cuda_a100
+#SBATCH --output=./log/cuda_a100_micro_dp_part1.log
+#SBATCH --mail-user=gaurav.verma@stonybrook.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100-80gb,ib
 
 export TVM_HOME='/mnt/home/gverma/ceph/tvm'
 export PYTHONPATH='/mnt/sw/nix/store/i613v246n7m0f6k22a8bwxsj51d1z6gb-llvm-11.1.0/lib/python3/site-packages:/mnt/home/gverma/ceph/tvm/python'

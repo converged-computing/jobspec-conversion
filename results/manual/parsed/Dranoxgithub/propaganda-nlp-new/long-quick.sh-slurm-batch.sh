@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=long
-#FLUX: --queue=bhuwan
-#FLUX: --urgency=16
+#SBATCH --job-name=long
+#SBATCH --output=./slurm_logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=bhuwan
 
 export WANDB_PROJECT='debug'
 export WANDB_WATCH='all'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-itch-7990
-#FLUX: -c=2
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-pancake-9398
+#FLUX -c=2
+#FLUX --queue=work
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

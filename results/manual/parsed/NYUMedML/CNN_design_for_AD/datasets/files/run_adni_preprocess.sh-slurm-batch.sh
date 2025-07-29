@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adni_preprocess
-#FLUX: -n=24
-#FLUX: -t=1123200
-#FLUX: --urgency=16
+#SBATCH --job-name=adni_preprocess
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=13-00:00:00
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

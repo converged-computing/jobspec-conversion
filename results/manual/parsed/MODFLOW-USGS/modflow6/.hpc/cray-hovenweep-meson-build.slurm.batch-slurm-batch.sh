@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hovenweep-build
-#FLUX: -n=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hovenweep-build
+#SBATCH --account=impd
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --chdir=../
 
 export PKG_CONFIG_PATH='$CRAY_MPICH_DIR/lib/pkgconfig:$PKG_CONFIG_PATH'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-onion-0366
-#FLUX: -c=6
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-citrus-0984
+#FLUX -c=6
+#FLUX -t=864000
+#FLUX --urgency=16
 
 echo "cwd is"
 echo $(pwd)

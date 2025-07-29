@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-general-2173
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=m3160
+#SBATCH --output=log.slurm.stdOut
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
 
 export OMP_NUM_THREADS='24'
 export OMP_PLACES='threads'

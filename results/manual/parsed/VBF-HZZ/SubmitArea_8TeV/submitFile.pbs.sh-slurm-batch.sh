@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-butter-5382
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/VBF-HZZ/SubmitArea_8TeV/submitFile.pbs.sh

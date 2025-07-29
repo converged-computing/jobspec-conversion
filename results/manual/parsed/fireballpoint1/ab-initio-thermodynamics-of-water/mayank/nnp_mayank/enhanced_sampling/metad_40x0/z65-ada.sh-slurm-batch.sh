@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-staircase-2482
-#FLUX: -n=15
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=medium
 
 module load u18/openmpi/4.1.2
 mpirun -np 15 /opt/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_44_159_43_88_157_0-2_0-3_500_40000_index1.lmp

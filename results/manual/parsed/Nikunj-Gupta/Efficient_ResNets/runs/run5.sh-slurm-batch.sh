@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=se_fulldrop_good_ResNet4_num_blocks1x1x1x1_squeeze_and_excitation0_drop0.8
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=se_fulldrop_good_ResNet4_num_blocks1x1x1x1_squeeze_and_excitation0_drop0.8
+#SBATCH --output=se_fulldrop_good_ResNet4_num_blocks1x1x1x1_squeeze_and_excitation0_drop0.8.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=02:00:00
 
 module load python/intel/3.8.6
 module load openmpi/intel/4.0.5

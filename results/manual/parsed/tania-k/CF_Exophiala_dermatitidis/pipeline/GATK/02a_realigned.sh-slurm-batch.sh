@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=realign
-#FLUX: --urgency=16
+#SBATCH --job-name=realign
+#SBATCH --output=logs/realign.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
 
 module load java/8
 module load gatk/3.7

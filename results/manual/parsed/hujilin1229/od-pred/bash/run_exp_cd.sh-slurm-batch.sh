@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-butter-1895
-#FLUX: -c=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=aauhpc_slim
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:00:00
 
 echo Running on "$(hostname)"
 echo Available nodes: "$SLURM_NODELIST"

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -n=120
-#FLUX: --queue=hpc
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=120
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=hpc
 
 export SINGULARITYENV_PATH='${PATH}'
 export SINGULARITYENV_LD_LIBRARY_PATH='${LD_LIBRARY_PATH}'

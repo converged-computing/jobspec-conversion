@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ArcOn_ITER
-#FLUX: -n=64
-#FLUX: --queue=development
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=ArcOn_ITER
+#SBATCH --account=Disc_Gal_Blobs
+#SBATCH --output=ITER.o%j
+#SBATCH --error=ITER.e%j
+#SBATCH --mail-user=michoski@ices.utexas.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=development
 
 export MV2_ON_DEMAND_THRESHOLD='64'
 

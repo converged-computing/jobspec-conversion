@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lemon-1610
-#FLUX: --urgency=16
+#FLUX --job-name=confused-pot-9684
+#FLUX --urgency=16
 

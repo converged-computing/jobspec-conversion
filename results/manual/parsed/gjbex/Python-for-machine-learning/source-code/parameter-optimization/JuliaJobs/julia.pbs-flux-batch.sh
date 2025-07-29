@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-chip-2013
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-citrus-8083
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gjbex/Python-for-machine-learning/source-code/parameter-optimization/JuliaJobs/julia.pbs

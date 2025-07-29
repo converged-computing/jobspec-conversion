@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=picklesauce
-#FLUX: --queue=amd2tb
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=picklesauce
+#FLUX --queue=amd2tb
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

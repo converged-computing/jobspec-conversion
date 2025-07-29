@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=head_neck
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=head_neck
+#SBATCH --output=outputs/eff-%A.out
+#SBATCH --error=outputs/eff-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

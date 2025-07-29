@@ -1,10 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=CUDA_Run_base_1
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CUDA_Run_base_1
+#SBATCH --output=log.slurm-cuda_%A_%a.out
+#SBATCH --error=err.slurm-cuda_%A_%a.out
+#SBATCH --mail-user=j.schenke@hzdr.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:2
+#SBATCH --mem=350000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-9
 
 export CUDA_VISIBLE_DEVICES='0'
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'

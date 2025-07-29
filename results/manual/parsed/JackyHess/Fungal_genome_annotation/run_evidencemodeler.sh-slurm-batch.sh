@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-kitty-4498
-#FLUX: -c=10
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#SBATCH --account=uio
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=2000
+#SBATCH --time=03:20:00
 
 $JAMG_PATH/3rd_party/evidencemodeler/EvmUtils/partition_EVM_inputs.pl --genome $GENOME_PATH --gene_predictions abinitio_gene_predictions.gff3 --transcript_alignments transcript_alignments.gff3 --protein_alignments protein_alignments.gff3 --segmentSize 50000000 --overlapSize 10000 --partition_listing partitions_list.out --repeats $GENOME_PATH.out.gff
 $JAMG_PATH/3rd_party/evidencemodeler/EvmUtils/write_EVM_commands.pl --genome $GENOME_PATH --weights `pwd`/evm_weights.txt --gene_predictions abinitio_gene_predictions.gff3 --transcript_alignments transcript_alignments.gff3 --protein_alignments protein_alignments.gff3 --output_file_name evm.out --partitions partitions_list.out --repeats $GENOME_PATH.out.gff > commands.list

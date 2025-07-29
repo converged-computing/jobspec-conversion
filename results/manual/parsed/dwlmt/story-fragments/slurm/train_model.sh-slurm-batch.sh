@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hope-2581
-#FLUX: -c=24
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem=92g
 
 export CURRENT_TIME='$(date "+%Y_%m_%d_%H%M%S")'
 export STUDENT_ID='${USER}'

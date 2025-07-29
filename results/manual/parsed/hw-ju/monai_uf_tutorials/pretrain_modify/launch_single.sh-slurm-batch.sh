@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-6459
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=a100:1
+#SBATCH --mem=64gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 date;hostname;pwd
 module load singularity

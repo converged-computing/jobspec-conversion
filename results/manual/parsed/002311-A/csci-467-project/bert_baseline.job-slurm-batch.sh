@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leader-3889
-#FLUX: --queue=gpu
-#FLUX: -t=11700
-#FLUX: --urgency=16
+#SBATCH --account=robinjia_1265
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=03:15:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-12
 
 module purge
 module load gcc/11.3.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-kerfuffle-5220
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-arm-6636
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load anaconda3
 source activate

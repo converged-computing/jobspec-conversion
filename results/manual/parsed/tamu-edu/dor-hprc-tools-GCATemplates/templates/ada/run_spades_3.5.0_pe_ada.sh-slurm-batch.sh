@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-snack-0074
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_spades_3.5.0_pe_ada.sh

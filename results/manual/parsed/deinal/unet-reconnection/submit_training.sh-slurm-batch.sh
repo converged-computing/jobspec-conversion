@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-knife-3329
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=4G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 print_usage() {
   printf "Usage: -f feature flags, -p preprocessing flags, -k kernel size"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-malarkey-1567
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-toaster-2031
+#FLUX -t=86340
+#FLUX --urgency=16
 
 OFFSET=3000
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)

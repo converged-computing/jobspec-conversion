@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sl_qa
-#FLUX: -c=12
-#FLUX: --queue=XXX
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sl_qa
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=XXX
+#SBATCH --constraint=ntasks-per-node=1
 
 exp_name=$1  # note we added ${corpus} prefix automatically
 dataset=$2  # one of [vqa, msrvtt, anet]

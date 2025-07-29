@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=webclip
-#FLUX: -c=12
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=webclip
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:nvidia_a100-pcie-40gb:1
+#SBATCH --mem=200000
 
 eval "$(conda shell.bash hook)"
 conda activate webclip

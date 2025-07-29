@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DownClim
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=DownClim
+#SBATCH --output=DownClim.%N.%j.out
+#SBATCH --error=DownClim.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # snakemake depending on your HPC

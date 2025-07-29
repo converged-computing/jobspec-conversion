@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-buttface-8081
-#FLUX: -N=3
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=aauhpc_gpu
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=1-00:00:00
 
 echo Running on "$(hostname)"
 echo Available nodes: "$SLURM_NODELIST"

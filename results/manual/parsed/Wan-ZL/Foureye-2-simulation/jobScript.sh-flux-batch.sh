@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-eagle-6219
-#FLUX: -n=32
-#FLUX: --queue=dev_q
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-peanut-4154
+#FLUX -n=32
+#FLUX --queue=dev_q
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "Scrpt Start"
 echo "Core Number:"

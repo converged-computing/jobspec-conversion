@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-spoon-9026
-#FLUX: --queue=long
-#FLUX: -t=1209540
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-buttface-4462
+#FLUX --queue=long
+#FLUX -t=1209540
+#FLUX --urgency=16
 
 module load python
 module load python2/2.7.13

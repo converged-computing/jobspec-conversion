@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ParallelRun
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ParallelRun
+#SBATCH --output=Multidir.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=3
 
 module purge
 module load gromacs/openmpi/intel/2018.3

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lizard-1774
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=grated-hope-1661
+#FLUX -t=43200
+#FLUX --urgency=16
 
 dataset_path=$1
 fish=$2

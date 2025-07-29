@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nalgas-4263
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shortlab/2016Disoriented/simulation_inputs_outputs/Fig5/Al_100_100/1e-3/Al-case-8.in.pbs

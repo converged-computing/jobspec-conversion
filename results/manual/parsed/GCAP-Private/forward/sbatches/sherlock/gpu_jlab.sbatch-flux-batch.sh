@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-despacito-7719
-#FLUX: --urgency=16
+#FLUX --job-name=arid-signal-2177
+#FLUX --urgency=16
 
 PORT=$1
 NOTEBOOK_DIR=$2

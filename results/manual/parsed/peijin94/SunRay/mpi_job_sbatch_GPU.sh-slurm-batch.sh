@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rayCalc_GPU
-#FLUX: -N=2
-#FLUX: --queue=GPU-V100
-#FLUX: --urgency=16
+#SBATCH --job-name=rayCalc_GPU
+#SBATCH --output=job-%j.log
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:2
+#SBATCH --partition=GPU-V100
+#SBATCH --constraint=ntasks-per-node=2
 
 echo Time is `date`
 echo Directory is $PWD

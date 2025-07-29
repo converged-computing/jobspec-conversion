@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hypertune
-#FLUX: -N=4
-#FLUX: --queue=booster
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=hypertune
+#SBATCH --account=prcoe12
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=23:59:59
+#SBATCH --partition=booster
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

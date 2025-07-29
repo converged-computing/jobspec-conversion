@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mitre_attack8
-#FLUX: -c=24
-#FLUX: --queue=tier3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mitre_attack8
+#SBATCH --account=csec
+#SBATCH --output=mitre_attack8.output
+#SBATCH --error=mitre_attack8.output
+#SBATCH --mail-user=bsm9339@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=50G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=tier3
 
 spack unload python
 spack load py-scikit-learn@0.22 arch=linux-rhel7-x86_64

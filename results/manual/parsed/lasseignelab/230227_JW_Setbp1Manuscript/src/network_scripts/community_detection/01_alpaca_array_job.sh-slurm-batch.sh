@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca
-#FLUX: --queue=express
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=alpaca
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --mail-user=jbarham3@uab.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=255000
+#SBATCH --time=02:00:00
+#SBATCH --partition=express
+#SBATCH --array=1-25
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='jbarham3'

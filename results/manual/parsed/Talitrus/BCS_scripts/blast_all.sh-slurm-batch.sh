@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blastn
-#FLUX: --queue=defq,short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=blastn
+#SBATCH --output=out_err_files/blastn_%A_%a.out
+#SBATCH --error=out_err_files/blastn_%A_%a.err
+#SBATCH --mail-user=bnguyen@gwu.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=defq,short
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p seq_list.txt)
 cd ../data/seq

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=week_trend
-#FLUX: --queue=medium
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=week_trend
+#SBATCH --output=/data/localhost/not-backed-up/ahu/jobname_%A_%a.txt
+#SBATCH --mail-user=ahu@stats.ox.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=12:00:00
+#SBATCH --partition=medium
+#SBATCH --array=0-0%1
 
 python job_week.py
 echo "SLURM_JOBID: " $SLURM_JOBID

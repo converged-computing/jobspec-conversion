@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-diablo-9829
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=output.%j.test.out
+#SBATCH --mail-user=qfeng10@sheffield.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=6G
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 module load Anaconda3/2022.10
 module load cuDNN/8.0.4.30-CUDA-11.1.1

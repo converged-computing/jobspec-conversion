@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-noodle-0280
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64
 
 export PATH='/shared/openmpi-4.1.4-acfl/bin:$PATH'
 export LD_LIBRARY_PATH='/shared/openmpi-4.1.4-acfl/lib:$LD_LIBRARY_PATH'

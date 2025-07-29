@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xp3mixedjsonl
-#FLUX: -c=40
-#FLUX: --queue=cpu_p1
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=xp3mixedjsonl
+#SBATCH --account=six@cpu
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=20:00:00
+#SBATCH --partition=cpu_p1
+#SBATCH --qos=qos_cpu-t3
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

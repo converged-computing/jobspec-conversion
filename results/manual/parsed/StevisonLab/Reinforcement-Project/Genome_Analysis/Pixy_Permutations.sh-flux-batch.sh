@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Pixy_Permutations
-#FLUX: -n=15
-#FLUX: --queue=jro0014_amd
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=Pixy_Permutations
+#FLUX -n=15
+#FLUX --queue=jro0014_amd
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load htslib/1.11
 for x in {1..20} X

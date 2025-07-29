@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-toaster-5258
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=confused-animal-1663
+#FLUX -c=8
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

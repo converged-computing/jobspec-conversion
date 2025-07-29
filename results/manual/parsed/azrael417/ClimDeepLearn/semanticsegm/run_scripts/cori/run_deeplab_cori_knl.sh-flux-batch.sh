@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=climseg_horovod
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=climseg_horovod
+#FLUX --queue=regular
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$(( 136 / ${rankspernode} ))'
 export OMP_PLACES='threads'

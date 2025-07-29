@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-mango-8315
-#FLUX: --queue=defq
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:04:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

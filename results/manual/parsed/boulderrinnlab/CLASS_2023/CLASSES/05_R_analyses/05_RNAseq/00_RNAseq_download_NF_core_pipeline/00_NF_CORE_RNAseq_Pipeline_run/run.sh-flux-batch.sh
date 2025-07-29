@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2023_HEPG2_rna_seq
-#FLUX: --queue=long
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=2023_HEPG2_rna_seq
+#FLUX --queue=long
+#FLUX -t=72000
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "Here we go You've requested $SLURM_CPUS_ON_NODE core."

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=dram
-#FLUX: -c=10
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dram
+#SBATCH --account=kwigg1
+#SBATCH --mail-user=hegartyb@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-2
 
 echo $SLURM_JOB_NODELIST
 echo ${SLURM_ARRAY_TASK_ID}

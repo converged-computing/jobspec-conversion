@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sbatch-nba-dl
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=sbatch-nba-dl
+#SBATCH --output=/scratch/dnp9357/rbda/nba_downloader/logs/demo_%j.out
+#SBATCH --error=/scratch/dnp9357/rbda/nba_downloader/logs/demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10GB
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load python/intel/3.8.6

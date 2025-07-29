@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=res_train
-#FLUX: -c=14
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=res_train
+#FLUX -c=14
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 cd ../

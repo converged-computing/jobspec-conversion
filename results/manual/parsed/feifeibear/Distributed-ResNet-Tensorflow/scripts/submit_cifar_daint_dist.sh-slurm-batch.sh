@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cifar
-#FLUX: -N=9
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar
+#SBATCH --output=dist_cifar.%j.log
+#SBATCH --nodes=9
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
+#SBATCH --constraint=gpu
 
 export WORKON_HOME='~/Envs'
 export WORK_DIR='`pwd`/..'

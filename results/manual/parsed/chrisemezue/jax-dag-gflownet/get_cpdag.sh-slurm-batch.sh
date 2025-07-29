@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-0136
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=06:00:00
 
 export CUDA_VISIBLE_DEVICES='0'
 export SLURM_TMPDIR='/home/mila/c/chris.emezue/scratch/SINGULARITY_CDT_TMP_DIR'

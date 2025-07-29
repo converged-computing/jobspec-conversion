@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bicycle-6406
-#FLUX: -c=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=pppl
+#SBATCH --mail-user=drsmith@pppl.gov
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:4
+#SBATCH --mem=240G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load edgeml
 module list

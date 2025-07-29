@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-blackbean-8716
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --constraint=ntasks-per-node=1
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

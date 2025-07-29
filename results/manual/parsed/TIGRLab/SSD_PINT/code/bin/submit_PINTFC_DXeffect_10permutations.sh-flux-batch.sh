@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=R_DXboots
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=R_DXboots
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 BASEDIR=${SLURM_SUBMIT_DIR}
 function cleanup_ramdisk {

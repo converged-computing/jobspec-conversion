@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=contrastive_finetune
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#SBATCH --job-name=contrastive_finetune
+#SBATCH --output=/home/eecs/paras/slurm/coderep/%j_supervised_finetune_contrastive.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=256000
+#SBATCH --time=5-05:00:00
+#SBATCH --exclude=atlas,blaze,r16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/data/paras/data_cache'

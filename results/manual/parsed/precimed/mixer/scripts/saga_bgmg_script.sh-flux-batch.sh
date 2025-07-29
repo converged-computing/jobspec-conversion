@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mixer
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=mixer
+#FLUX -c=20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MIXER_ROOT='/cluster/projects/nn9114k/oleksanf/github/mixer'
 export OUTDIR='/cluster/projects/nn9114k/oleksanf/saga/mixer_results/    # must end with a forward slash, /'

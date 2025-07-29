@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pancake-8712
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --constraint=haswell
 
 module load 2019
 module load netCDF-Fortran/4.4.4-foss-2018b

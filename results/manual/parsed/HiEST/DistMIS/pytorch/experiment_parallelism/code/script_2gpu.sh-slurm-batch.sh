@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=raytune_2gpu
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=raytune_2gpu
+#SBATCH --output=../results/2gpu/%j.out
+#SBATCH --error=../results/2gpu/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:2
+#SBATCH --time=15:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=.
 
 export PYTHONUNBUFFERED='1'
 

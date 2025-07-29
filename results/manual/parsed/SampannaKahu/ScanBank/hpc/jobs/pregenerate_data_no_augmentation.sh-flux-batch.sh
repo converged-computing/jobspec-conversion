@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-1441
+#FLUX --job-name=joyous-sundae-1482
 #FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --queue=normal_q
+#FLUX -t=288000
+#FLUX --urgency=16
 
 module purge
 current_timestamp() {

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval_thermal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_thermal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 eval "$(conda shell.bash hook)"
 conda activate VTL

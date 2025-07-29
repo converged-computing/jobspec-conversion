@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pre_training_job
-#FLUX: -c=80
-#FLUX: --queue=nlp
-#FLUX: --urgency=16
+#FLUX --job-name=pre_training_job
+#FLUX -c=80
+#FLUX --queue=nlp
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='6'
 

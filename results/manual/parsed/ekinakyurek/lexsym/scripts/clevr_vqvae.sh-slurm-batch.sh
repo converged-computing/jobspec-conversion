@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=clevr
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=208800
-#FLUX: --urgency=50
+#SBATCH --job-name=clevr
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:volta:2
+#SBATCH --time=2-10:00:00
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=2,xeon-g6
 
 export MPI_FLAGS='--tag-output --bind-to socket -map-by core -mca btl ^openib -mca pml ob1 -x PSM2_GPUDIRECT=1 -x NCCL_NET_GDR_LEVEL=5 -x NCCL_P2P_LEVEL=5 -x NCCL_NET_GDR_READ=1'
 export MASTER_ADDR='$(hostname -s)'

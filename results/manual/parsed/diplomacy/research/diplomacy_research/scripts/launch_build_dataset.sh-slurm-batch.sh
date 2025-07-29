@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poo-3545
-#FLUX: -c=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-bengioy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
 
 export COMMIT_HASH='7b694e9d2522e8f2e60bf1861b4c1e416e7351d9'
 export EXPERIMENT_COMMAND='python -u diplomacy_research/scripts/build_dataset.py --filter order_based/no_press_all'

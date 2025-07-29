@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=development
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=development
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 export OMPI_MCA_btl='self,sm,openib'
 export CP2K_DATA_DIR='/hpc/examples/cp2k/data'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-6637
-#FLUX: --queue=physical
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=punim1932
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=physical
 
 export UNZIP_DISABLE_ZIPBOMB_DETECTION='true'
 export CHIPLET_DIR='/tmp/chiplets'

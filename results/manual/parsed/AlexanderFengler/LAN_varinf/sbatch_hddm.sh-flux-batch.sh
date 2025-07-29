@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hddm_sampler
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=hddm_sampler
+#FLUX -t=115200
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

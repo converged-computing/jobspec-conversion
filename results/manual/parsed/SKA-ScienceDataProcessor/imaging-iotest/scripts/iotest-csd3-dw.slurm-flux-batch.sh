@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sdp-iotest
+#FLUX --job-name=sdp-iotest
 #FLUX: --exclusive
-#FLUX: --queue=skylake
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=skylake
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 export I_MPI_PIN_DOMAIN='omp:compact'

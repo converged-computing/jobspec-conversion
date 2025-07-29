@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-8852
-#FLUX: --queue=gpu20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=posttrain_procy_qa-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu20
 
 export HF_DATASETS_CACHE='/hdd_1/zke4/dataset_cache'
 export TRANSFORMERS_CACHE='/sdb/zke4/model_cache'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-signal-7647
-#FLUX: -c=4
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#SBATCH --output=/home/users/mmustaf/jobs_output/job-%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --partition=medium
+#SBATCH --constraint=scratch
 
 module purge
 module load singularity # loads "git" and "go" as well

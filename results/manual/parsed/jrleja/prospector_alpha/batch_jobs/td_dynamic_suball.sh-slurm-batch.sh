@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=td_dynamic
-#FLUX: --queue=conroy-intel,conroy,shared,itc_cluster
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=td_dynamic
+#SBATCH --output=td_dynamic_%a.out
+#SBATCH --error=td_dynamic_%a.err
+#SBATCH --mail-user=joel.leja@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=conroy-intel,conroy,shared,itc_cluster
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_dynamic.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

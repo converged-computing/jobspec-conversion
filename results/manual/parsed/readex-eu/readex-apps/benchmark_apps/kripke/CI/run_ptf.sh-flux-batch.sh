@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=READEX_kripke
-#FLUX: -N=2
+#FLUX --job-name=READEX_kripke
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/lib'
 export SCOREP_SUBSTRATE_PLUGINS='rrl'

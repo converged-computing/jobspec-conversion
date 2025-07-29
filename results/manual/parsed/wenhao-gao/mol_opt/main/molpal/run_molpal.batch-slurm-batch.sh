@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=molpal
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=molpal
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=4000
+#SBATCH --time=00:08:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export NUM_GPUS='$( echo $CUDA_VISIBLE_DEVICES | awk -F ',' '{print NF}' )'
 

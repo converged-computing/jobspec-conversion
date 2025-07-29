@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=abacus
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=abacus
+#FLUX -c=4
+#FLUX --queue=short
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MKLPATH='$MKL_HOME/lib/intel64/'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$INTELPATH'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pythia
-#FLUX: --queue=a40x
-#FLUX: --urgency=16
+#SBATCH --job-name=pythia
+#SBATCH --account=eleuther
+#SBATCH --output=slurm_%x_dpo-base-2.8b_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --partition=a40x
 
 export HYDRA_FULL_ERROR='1'
 

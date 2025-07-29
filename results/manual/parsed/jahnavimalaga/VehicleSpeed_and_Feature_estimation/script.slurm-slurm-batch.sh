@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CompletePipleline
-#FLUX: --queue=rtx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CompletePipleline
+#SBATCH --output=CompletePipleline.out
+#SBATCH --error=CompletePipleline.err
+#SBATCH --mail-user=jahnavimalagavalli@utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=rtx-dev
 
 cd Complete_Pipeline
 path_dir="test/" #"test/archive/new_videos/" #

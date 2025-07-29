@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gasnet-mxm
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=tesla
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=gasnet-mxm
+#SBATCH --account=CORTEX-GPU
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=tesla
+#SBATCH --qos=GPU1
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

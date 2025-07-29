@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mergeBam
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mergeBam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=00:30:00
 
 module purge
 module load samtools/intel/1.6

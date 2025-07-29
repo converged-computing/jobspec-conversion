@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-mango-1807
-#FLUX: -n=8
-#FLUX: --queue=park
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --account=park_contrib
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=00:12:00
+#SBATCH --partition=park
 
 module load gcc  conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1
 module load perl/5.30.0

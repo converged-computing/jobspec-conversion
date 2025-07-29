@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cherry-5882
-#FLUX: --queue=lycium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=jp6g18@soton.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lycium
+#SBATCH --constraint=ntasks-per-node=56
 
 export PYTHONPATH='${PYTHONPATH}:${SLURM_SUBMIT_DIR}/src/'
 

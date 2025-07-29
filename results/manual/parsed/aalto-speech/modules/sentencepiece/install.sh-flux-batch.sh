@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-egg-9322
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-taco-5937
+#FLUX -c=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 set -eu 
 NAME=sentencepiece

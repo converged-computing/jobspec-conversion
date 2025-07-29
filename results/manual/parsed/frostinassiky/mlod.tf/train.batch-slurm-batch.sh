@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=FROG1
-#FLUX: -c=2
-#FLUX: -t=174180
-#FLUX: --urgency=16
+#SBATCH --job-name=FROG1
+#SBATCH --output=gpu.%j.out
+#SBATCH --error=gpu.%j.err
+#SBATCH --mail-user=mengmeng.xu@kaust.edu.sa
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:titan_x_p:1
+#SBATCH --mem=20480
+#SBATCH --time=2-00:23:00
+#SBATCH --array=1
 
 set -e
 module purge

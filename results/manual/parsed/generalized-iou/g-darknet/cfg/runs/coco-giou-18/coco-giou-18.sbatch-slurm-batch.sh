@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=coco-giou-18
-#FLUX: -c=16
-#FLUX: --queue=dgx
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=coco-giou-18
+#SBATCH --output=batch/out/coco-giou-18.out
+#SBATCH --mail-user=tsoi@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=dgx
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

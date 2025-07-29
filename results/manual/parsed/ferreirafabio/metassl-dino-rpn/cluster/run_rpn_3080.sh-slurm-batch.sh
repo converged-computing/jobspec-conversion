@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dino_rpn_ts_bounded_no_warmup
-#FLUX: --queue=alldlc_gpu-rtx3080
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=dino_rpn_ts_bounded_no_warmup
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=23:59:59
+#SBATCH --partition=alldlc_gpu-rtx3080
+#SBATCH --array=0-30%1
 
 source /home/ferreira/.profile
 source activate dino_new

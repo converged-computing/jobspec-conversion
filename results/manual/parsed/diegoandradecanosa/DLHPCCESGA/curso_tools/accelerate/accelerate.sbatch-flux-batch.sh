@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=accel_dist
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=accel_dist
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export NCCL_DEBUG='info'
 export PYTHONFAULTHANDLER='1'

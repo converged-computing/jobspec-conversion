@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=zsc06_sentinel_merge90m_from90m_otb.sh
-#FLUX: --queue=scavenge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=zsc06_sentinel_merge90m_from90m_otb.sh
+#SBATCH --output=/vast/palmer/scratch/sbsc/ga254/stdout/zsc06_sentinel_merge90m_from90m_otb.sh.%A_%a.out
+#SBATCH --error=/vast/palmer/scratch/sbsc/ga254/stderr/zsc06_sentinel_merge90m_from90m_otb.sh.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=scavenge
+#SBATCH --array=1-4
 
 export file='$(ls $IN/??.vrt   | head -$SLURM_ARRAY_TASK_ID | tail -1 )'
 export filename='$(basename $file .vrt  )'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-poo-7976
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-nunchucks-9053
+#FLUX -c=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 MSLIST=$1
 BIND=$( python3 $HOME/parse_settings.py --BIND ) # SEE --> https://github.com/jurjen93/lofar_vlbi_helpers/blob/main/parse_settings.py

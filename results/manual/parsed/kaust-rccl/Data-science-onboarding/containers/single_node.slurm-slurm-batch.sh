@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=horovod_demo
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=horovod_demo
+#SBATCH --output=%x-%j-slurm.out
+#SBATCH --error=%x-%j-slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=128G
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 export IMAGE='$PWD/horovod.sif'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-signal-0024
-#FLUX: -c=4
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lizard-8800
+#FLUX -c=4
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ml torchsparse
 cd $HOME/motion_supervision

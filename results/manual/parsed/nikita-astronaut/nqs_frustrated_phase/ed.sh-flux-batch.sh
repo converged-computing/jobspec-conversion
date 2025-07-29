@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-citrus-3760
-#FLUX: -c=32
-#FLUX: --queue=dgx
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-puppy-8333
+#FLUX -c=32
+#FLUX --queue=dgx
+#FLUX -t=259200
+#FLUX --urgency=16
 
 conda activate tcm-test
 pushd "/zfs/hybrilit.jinr.ru/user/a/astrakh/nqs_frustrated_phase/data/square/24/$1"

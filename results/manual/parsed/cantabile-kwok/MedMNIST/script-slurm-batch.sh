@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chest_new_50
-#FLUX: -c=2
-#FLUX: --queue=2080ti
-#FLUX: --urgency=16
+#SBATCH --job-name=chest_new_50
+#SBATCH --output=5-25-chestmnist_new_50.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --partition=2080ti
 
 module add cuda/10.1
 module add gcc/8.4.0

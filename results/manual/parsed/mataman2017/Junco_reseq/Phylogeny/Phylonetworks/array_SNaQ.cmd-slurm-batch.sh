@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=runsnaq
-#FLUX: -c=30
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=runsnaq
+#SBATCH --output=/projects/VONHOLDT/jsala/C_Phylo/E_Phylonetworks/OE/runsnaq_slurm%a.log
+#SBATCH --error=/projects/VONHOLDT/jsala/C_Phylo/E_Phylonetworks/OE/runsnaq_slurm%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=32G
+#SBATCH --time=2-12:00:00
+#SBATCH --array=0-10
 
 echo "slurm task ID = $SLURM_ARRAY_TASK_ID used as hmax"
 echo "start of SNaQ parallel runs on $(hostname)"

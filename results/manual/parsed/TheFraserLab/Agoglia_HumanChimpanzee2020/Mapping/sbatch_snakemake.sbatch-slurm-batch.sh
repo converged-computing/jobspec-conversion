@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snake
-#FLUX: --queue=hns,normal,hbfraser
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=snake
+#SBATCH --output=snake.out
+#SBATCH --error=snake.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=hns,normal,hbfraser
+#SBATCH --constraint=ntasks-per-node=1
 
 module load conda
 source activate fraserconda

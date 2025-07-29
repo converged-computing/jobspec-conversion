@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cgan
-#FLUX: --queue=magma
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=cgan
+#FLUX --queue=magma
+#FLUX -t=255600
+#FLUX --urgency=16
 
 source ~/.bashrc
 cd $SLURM_SUBMIT_DIR

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-buttface-0859
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=cusp
+#SBATCH --output=scripts/sout/train_latest_2.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 conda activate tfp
 srun python scripts/train_ae.py

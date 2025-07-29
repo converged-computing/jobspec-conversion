@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IKSH_atm2sch2ww3data_RUN
-#FLUX: -n=6
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=IKSH_atm2sch2ww3data_RUN
+#FLUX -n=6
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

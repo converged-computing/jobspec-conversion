@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cattywampus-2336
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-egg-3803
+#FLUX --queue=priority
+#FLUX --urgency=16
 
 set -e
 module load gcc/6.2.0

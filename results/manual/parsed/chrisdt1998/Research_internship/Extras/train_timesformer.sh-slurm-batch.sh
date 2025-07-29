@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=timesformer_dutoit
-#FLUX: -c=4
-#FLUX: --queue=partition_of_your_choice
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=timesformer_dutoit
+#SBATCH --account=um_dke
+#SBATCH --output=C:UsersGebruikerDocumentsGitHubResearch_internshipModellogsslog-%A-%a.out
+#SBATCH --error=C:UsersGebruikerDocumentsGitHubResearch_internshipModellogsslog-%A-%a.err
+#SBATCH --mail-user=c.dutoit@student.maastrichtuniversity.nl
+#SBATCH --mail-type=END,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=partition_of_your_choice
+#SBATCH --constraint=volta32gb,ntasks-per-node=1
+#SBATCH --array=1
 
 module purge
 module load cuda/10.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-chair-3001
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-eagle-8315
+#FLUX -t=21600
+#FLUX --urgency=16
 
 outdir=$SUITESPARSE_PATH
 mkdir -p $outdir

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bug_test
-#FLUX: -c=4
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=bug_test
+#SBATCH --account=def-ssanner
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:02:00
 
 export OMP_NUM_THREADS='16'
 

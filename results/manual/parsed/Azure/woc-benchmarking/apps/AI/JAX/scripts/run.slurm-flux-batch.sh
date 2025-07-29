@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-eagle-0703
+#FLUX --job-name=chocolate-hobbit-8317
 #FLUX: --exclusive
-#FLUX: --queue=ndmv4
-#FLUX: --urgency=16
+#FLUX --queue=ndmv4
+#FLUX --urgency=16
 
 export XLA_FLAGS='--xla_gpu_simplify_all_fp_conversions --xla_gpu_all_reduce_combine_threshold_bytes=136314880'
 export UCX_IB_ENABLE_CUDA_AFFINITY='n'

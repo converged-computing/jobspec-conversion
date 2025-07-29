@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-nunchucks-5886
-#FLUX: --queue=cortex
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --output=man_made_pixelC.o
+#SBATCH --error=man_made_pixelC.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=cortex
+#SBATCH --constraint=ntasks-per-node=4
 
 source /usr/Modules/init/sh
 cd $HOME/scene-sparse/data_analysis

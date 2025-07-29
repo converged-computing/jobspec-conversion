@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run1_masurca
-#FLUX: -c=32
-#FLUX: --queue=bigmem
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=run1_masurca
+#SBATCH --output=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/7_masurca/BAR/run1/%j_out_runBAR1
+#SBATCH --error=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/7_masurca/BAR/run1/%j_err_runBAR1
+#SBATCH --mail-user=yvan.papa@vuw.ac.nz
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=600G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=bigmem
 
 export PATH='/home/software/apps/masurca/3.4.1/bin/../CA8/Linux-amd64/bin:/home/software/apps/masurca/3.4.1/bin:$PATH'
 export PERL5LIB='/home/software/apps/masurca/3.4.1/bin/../lib/perl${PERL5LIB:+:$PERL5LIB}'

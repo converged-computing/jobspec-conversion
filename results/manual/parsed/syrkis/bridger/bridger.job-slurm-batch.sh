@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=brown
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=outs/%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=30000
+#SBATCH --time=01:00:00
+#SBATCH --partition=brown
 
 module load singularity
 module --ignore-cache load CUDA

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IoTwinsTest
-#FLUX: -n=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=IoTwinsTest
+#FLUX -n=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 if [ $# -lt 1 ]; then
   echo "Usage: MNBatchScript_IoTwins-mpi-{X}K.cmd numberOfAgents"

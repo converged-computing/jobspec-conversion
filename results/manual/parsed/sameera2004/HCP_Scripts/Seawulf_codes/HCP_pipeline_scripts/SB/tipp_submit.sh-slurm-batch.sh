@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-punk-2243
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sameera2004/HCP_Scripts/Seawulf_codes/HCP_pipeline_scripts/SB/tipp_submit.sh

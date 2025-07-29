@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sarek
-#FLUX: --queue=medium
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=sarek
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=00:24:00
+#SBATCH --partition=medium
 
 set -eu
 module load java/jdk-11.0.11

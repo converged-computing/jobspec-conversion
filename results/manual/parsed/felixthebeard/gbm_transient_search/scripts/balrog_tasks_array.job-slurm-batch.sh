@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=balrog_loc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=balrog_loc
+#SBATCH --mail-user=fkunzwei@mpe.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000MB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-8
 
 export GBMDATA='/ptmp/fkunzwei/gbm_data'
 export LD_LIBRARY_PATH='$HOME/sw/MultiNest/lib'

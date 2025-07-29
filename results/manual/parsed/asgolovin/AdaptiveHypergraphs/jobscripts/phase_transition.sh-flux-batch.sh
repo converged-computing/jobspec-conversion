@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phase_transition_sweep
-#FLUX: -N=4
-#FLUX: --queue=cm2_inter
-#FLUX: -t=420
-#FLUX: --urgency=16
+#FLUX --job-name=phase_transition_sweep
+#FLUX -N=4
+#FLUX --queue=cm2_inter
+#FLUX -t=420
+#FLUX --urgency=16
 
 module load slurm_setup
 module load julia/1.8.5

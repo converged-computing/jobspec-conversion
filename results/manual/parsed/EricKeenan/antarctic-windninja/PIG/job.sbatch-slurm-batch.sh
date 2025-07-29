@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=phat-despacito-3702
-#FLUX: --queue=shas
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=ucb204_summit1
+#SBATCH --mail-user=eric.keenan@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=24
 
 base_dir=$(pwd)
 meteo_dir="/scratch/summit/erke2265/LISTON_EXPLORE/output/grids/"

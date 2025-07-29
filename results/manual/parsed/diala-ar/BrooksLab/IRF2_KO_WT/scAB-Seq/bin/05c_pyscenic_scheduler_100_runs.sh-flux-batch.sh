@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pyscenic
-#FLUX: -c=24
-#FLUX: --queue=himem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pyscenic
+#FLUX -c=24
+#FLUX --queue=himem
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /cluster/projects/mcgahalab/data/brookslab/sabelo/AB_seq_v2/
 conds=('Tum_CD8' 'Tum_CD8_KO.C3_WT.C0')

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-8398
-#FLUX: -c=20
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-noodle-6657
+#FLUX -c=20
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load gcc python py-torchvision py-torch
 source ../../venv*/bin/activate

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-6455
-#FLUX: -c=6
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=def-lelis
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=8000M
+#SBATCH --time=3-00:00:00
 
 module load python/3.6
 source tensorflow/bin/activate

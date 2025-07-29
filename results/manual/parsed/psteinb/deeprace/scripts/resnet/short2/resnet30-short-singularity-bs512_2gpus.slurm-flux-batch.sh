@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-4265
-#FLUX: --queue=gpu2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-bicycle-9670
+#FLUX --queue=gpu2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

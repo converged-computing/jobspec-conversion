@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nanopolish
-#FLUX: -n=32
-#FLUX: --queue=node
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nanopolish
+#SBATCH --account=snic2020-15-304
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=node
 
 module load bioinfo-tools
 module load nanopolish

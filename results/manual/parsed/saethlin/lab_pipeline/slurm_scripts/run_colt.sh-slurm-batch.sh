@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=colt-h113
-#FLUX: -n=125
-#FLUX: -c=8
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=colt-h113
+#SBATCH --output=logs/%x_%A_%a.log
+#SBATCH --mail-user=kimockb@ufl.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=125
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=1500mb
+#SBATCH --time=02:00:00
+#SBATCH --partition=hpg2-compute
+#SBATCH --qos=narayanan-b
+#SBATCH --constraint=haswell
+#SBATCH --array=67-179
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl='self,vader,openib'

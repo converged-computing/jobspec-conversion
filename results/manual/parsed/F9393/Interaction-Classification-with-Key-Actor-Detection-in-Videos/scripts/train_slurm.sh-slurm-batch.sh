@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-spoon-4552
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16G
+#SBATCH --time=00:20:00
 
 module load python/3.8.10
 module load gcc/8.4.0

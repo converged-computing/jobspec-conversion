@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SDP2
-#FLUX: --queue=serial_requeue
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=SDP2
+#SBATCH --output=out/err_SDP2
+#SBATCH --mail-user=lbywhj@mail.ustc.edu.cn
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000M
+#SBATCH --time=00:24:00
+#SBATCH --partition=serial_requeue
+#SBATCH --array=1-500
 
 export R_LIBS_USER='$HOME/apps/R:$R_LIBS_USER'
 

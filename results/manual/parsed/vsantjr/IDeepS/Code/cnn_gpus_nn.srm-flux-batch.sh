@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cnn_gpus_nn
-#FLUX: -N=4
-#FLUX: -c=10
+#FLUX --job-name=cnn_gpus_nn
+#FLUX -N=4
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: --queue=nvidia_dev
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=nvidia_dev
+#FLUX -t=1200
+#FLUX --urgency=16
 
 echo '========================================'
 echo '- Job ID:' $SLURM_JOB_ID

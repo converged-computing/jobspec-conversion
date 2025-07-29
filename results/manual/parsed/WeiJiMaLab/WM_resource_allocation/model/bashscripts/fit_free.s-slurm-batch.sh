@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SWM_free
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=SWM_free
+#SBATCH --output=SWM_free_%a.out
+#SBATCH --mail-user=aspen.yoo@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=05:00:00
 
 module purge
 module load matlab/2016b

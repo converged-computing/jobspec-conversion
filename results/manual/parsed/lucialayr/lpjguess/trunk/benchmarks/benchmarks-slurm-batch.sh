@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pp_${test_name}
-#FLUX: --urgency=16
+#SBATCH --job-name=pp_${test_name}
+#SBATCH --output=slurm-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 cmake_command="cmake -D CMAKE_BUILD_TYPE=Release"
 make_command="make -j2"

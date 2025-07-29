@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow-master-trinity
-#FLUX: --queue=longq
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Nextflow-master-trinity
+#FLUX --queue=longq
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load singularity  # only needed if containers are yet to be downloaded
 module load nextflow

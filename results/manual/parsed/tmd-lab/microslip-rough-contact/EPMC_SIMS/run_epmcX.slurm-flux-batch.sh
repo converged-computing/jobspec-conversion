@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=EPMC
-#FLUX: -c=16
+#FLUX --job-name=EPMC
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=scavenge
-#FLUX: -t=10500
-#FLUX: --urgency=16
+#FLUX --queue=scavenge
+#FLUX -t=10500
+#FLUX --urgency=16
 
 echo "I ran on:"
 cd $SLURM_SUBMIT_DIR

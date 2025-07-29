@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=discostic
-#FLUX: -N=2
-#FLUX: --queue=multinode
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=discostic
+#FLUX -N=2
+#FLUX --queue=multinode
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export VT_LOGFILE_FORMAT='SINGLESTF'
 export VT_LOGFILE_NAME='simulation'

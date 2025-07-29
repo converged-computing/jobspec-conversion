@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-5076
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32G
 
 export SSD_DIR='$(getSSD)  # get new ssd dir from tmp/tmp_$SLURM_JOBID'
 

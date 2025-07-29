@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-8295
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-eagle-4699
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load pytorch/1.8.1-py39-cuda112-mpi
 source /scratch1/wan410/venv/bin/activate                                             # use the virtual environment

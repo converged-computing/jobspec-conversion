@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-animal-5364
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10000M
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
 
 export CUDA_HOME='/opt/software/cuda/11.3'
 

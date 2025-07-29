@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gmd_paper_inv
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gmd_paper_inv
+#SBATCH --mail-user=fabien.maussion@uibk.ac.at
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

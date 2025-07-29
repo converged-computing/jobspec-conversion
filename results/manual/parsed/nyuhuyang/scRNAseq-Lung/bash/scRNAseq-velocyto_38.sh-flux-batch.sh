@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=velocyto
-#FLUX: --urgency=16
+#FLUX --job-name=velocyto
+#FLUX --urgency=16
 
 conda activate r4.0.3
 spack load -r samtools@1.8

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-8494
-#FLUX: -n=32
-#FLUX: --queue=whwong
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-gato-9716
+#FLUX -n=32
+#FLUX --queue=whwong
+#FLUX -t=604800
+#FLUX --urgency=16
 
 ml load cuda/10.1.105
 ml load cudnn/7.6.5

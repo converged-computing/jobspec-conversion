@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=857_2
-#FLUX: -N=10
-#FLUX: -n=240
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=857_2
+#FLUX -N=10
+#FLUX -n=240
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MXM_TLS='self,shm,rc'

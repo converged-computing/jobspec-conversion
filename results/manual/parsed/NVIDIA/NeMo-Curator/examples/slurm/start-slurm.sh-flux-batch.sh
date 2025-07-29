@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-curator:example-script
-#FLUX: -N=2
+#FLUX --job-name=nemo-curator:example-script
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export BASE_JOB_DIR='`pwd`/nemo-curator-jobs'
 export JOB_DIR='$BASE_JOB_DIR/$SLURM_JOB_ID'

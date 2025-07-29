@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-caramel-6584
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -e
 r=0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -n=2
-#FLUX: -c=64
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=hybrid
+#FLUX -n=2
+#FLUX -c=64
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export UCX_TLS='self, tcp, HPL_RAM_CAP=1.0'
 

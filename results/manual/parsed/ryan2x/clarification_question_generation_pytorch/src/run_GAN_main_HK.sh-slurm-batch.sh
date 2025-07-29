@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GAN_selfcritic_pred_ans_3perid_util_dis
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=GAN_selfcritic_pred_ans_3perid_util_dis
+#SBATCH --output=GAN_selfcritic_pred_ans_3perid_util_dis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=128g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-long
 
 SITENAME=Home_and_Kitchen
 CQ_DATA_DIR=/fs/clip-amr/clarification_question_generation_pytorch/$SITENAME

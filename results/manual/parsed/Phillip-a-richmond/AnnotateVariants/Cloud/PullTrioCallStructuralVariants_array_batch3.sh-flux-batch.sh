@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-buttface-4643
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-itch-8175
+#FLUX -c=32
+#FLUX --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/SVOutput/

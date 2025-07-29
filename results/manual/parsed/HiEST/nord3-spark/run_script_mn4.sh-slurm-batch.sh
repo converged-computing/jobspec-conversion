@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spark01_single
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=spark01_single
+#SBATCH --output=output_%j.out
+#SBATCH --error=output_%j.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH: --exclusive
 
 module load intel/2018.1 singularity/3.5.2
 IMAGE=dcc-spark02.simg

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=git_train
-#FLUX: --queue=gypsum-titanx
-#FLUX: --urgency=16
+#FLUX --job-name=git_train
+#FLUX --queue=gypsum-titanx
+#FLUX --urgency=16
 
 module load conda
 conda create --name transCoder_env python=3.7.6

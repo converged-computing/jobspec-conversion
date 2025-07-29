@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cinnamonbun-9087
-#FLUX: -c=4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=grated-banana-8465
+#FLUX -c=4
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PATH='/ext3/miniconda3/bin:$PATH'
 

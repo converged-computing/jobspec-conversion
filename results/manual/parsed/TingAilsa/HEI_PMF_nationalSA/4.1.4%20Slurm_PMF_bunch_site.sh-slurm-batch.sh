@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=S_15t1mdl_0unc
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=S_15t1mdl_0unc
+#SBATCH --output=/projects/HAQ_LAB/tzhang/pmf_no_gui/CSN_15t1mdl0unc_site/err_out/%x_%A_%a.out
+#SBATCH --error=/projects/HAQ_LAB/tzhang/pmf_no_gui/CSN_15t1mdl0unc_site/err_out/%x_%A_%a.err
+#SBATCH --mail-user=tzhang23@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=1-1296
 
 export LANG='C.UTF-8'
 export CONTAINER='${SINGULARITY_BASE}/wine/wine.sif'

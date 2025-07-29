@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=JupiterNotebook
-#FLUX: --queue=mid
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=JupiterNotebook
+#FLUX --queue=mid
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo "======================="
 echo "Loading Anaconda Module..."

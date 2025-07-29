@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-7369
-#FLUX: -N=8
-#FLUX: --queue=broadwell
-#FLUX: -t=6600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-train-6219
+#FLUX -N=8
+#FLUX --queue=broadwell
+#FLUX -t=6600
+#FLUX --urgency=16
 
 ulimit -a
 module load Python/3.6.3-foss-2017b

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=1_Faceskin_32_Run
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=a100_normal_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=1_Faceskin_32_Run
+#FLUX -N=2
+#FLUX -c=32
+#FLUX --queue=a100_normal_q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MASTER_PORT='12698'
 export WORLD_SIZE='4'

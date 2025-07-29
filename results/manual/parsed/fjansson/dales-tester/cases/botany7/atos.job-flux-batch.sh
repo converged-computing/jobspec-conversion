@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lamp-7345
-#FLUX: -n=512
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-puppy-2341
+#FLUX -n=512
+#FLUX -t=86400
+#FLUX --urgency=16
 
 if [ -z "$TAG" ] 
 then

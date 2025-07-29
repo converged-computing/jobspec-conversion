@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NF
-#FLUX: -n=2
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=NF
+#FLUX -n=2
+#FLUX -c=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='$PATH:$PWD'
 export http_proxy='proxy.saga:3128'

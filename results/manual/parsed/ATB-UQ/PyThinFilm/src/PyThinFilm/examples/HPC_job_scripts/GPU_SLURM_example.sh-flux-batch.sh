@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PyThinFilm_Example
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PyThinFilm_Example
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=deep_gal
-#FLUX: -c=10
-#FLUX: --queue=gpu_p2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=deep_gal
+#FLUX -c=10
+#FLUX --queue=gpu_p2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='.'
 

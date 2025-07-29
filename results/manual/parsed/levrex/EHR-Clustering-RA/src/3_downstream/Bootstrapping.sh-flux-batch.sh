@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Bootstrapping
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Bootstrapping
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module add library/cuda/11.2/gcc.8.3.1

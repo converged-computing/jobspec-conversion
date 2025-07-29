@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-example
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode-example
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
 
 export LOGLEVEL='INFO'
 

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-buttface-6429
-#FLUX: --urgency=16
+#SBATCH --output=/blue/adamginsburg/adamginsburg/ACES/logs/run_simple_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export LOGFILENAME='${LOG_DIR}/casa_log_${jobname}_${SLURM_JOB_ID}_$(date +%Y-%m-%d_%H_%M_%S).log'
 export ACES_ROOTDIR='/orange/adamginsburg/ACES/reduction_ACES/'

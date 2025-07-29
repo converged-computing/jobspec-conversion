@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ATACseq
-#FLUX: -n=12
-#FLUX: --urgency=16
+#SBATCH --job-name=ATACseq
+#SBATCH --output=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=18000
 
 source ~/.bash_profile
 usage(){

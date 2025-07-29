@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-itch-3789
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=def-barrett
+#SBATCH --output=kallisto_bf_BN
+#SBATCH --mail-user=janay.fox@mail.mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=45G
+#SBATCH --time=2-00:00:00
 
 module load singularity/3.8
 module load nixpkgs/16.09

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-latke-8120
-#FLUX: -N=2
+#FLUX --job-name=hanky-bits-4812
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=general-compute
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=general-compute
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export AKRR_NODES='2'
 export AKRR_CORES='16'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gwas
-#FLUX: -t=346800
-#FLUX: --urgency=16
+#SBATCH --job-name=gwas
+#SBATCH --account=p33_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
+#SBATCH --time=4-00:20:00
 
 export NXF_OFFLINE='TRUE'
 

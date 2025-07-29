@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=predict
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=predict
+#SBATCH --output=logs/predict/%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1024
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-141%100
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/apps/cuda/9.0.176/lib64/:/sw/apps/cudnn/6.0/lib64/'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-eagle-8581
-#FLUX: --queue=GPU-shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-lamp-2782
+#FLUX --queue=GPU-shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 set -x  # echo commands to stdout
 set -u  # throw an error if unset variable referenced

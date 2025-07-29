@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CMBS4_DC1_coadd
-#FLUX: -N=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=CMBS4_DC1_coadd
+#SBATCH --account=mp107
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
+#SBATCH --licenses=SCRATCH
 
 export FI_CXI_OPTIMIZED_MRS='false'
 export MPI4PY_RC_RECV_MPROBE='False'

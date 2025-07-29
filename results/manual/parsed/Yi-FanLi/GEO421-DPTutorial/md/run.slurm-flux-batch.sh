@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=liq
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=liq
+#FLUX -t=3540
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2021.11

@@ -1,8 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-general-8404
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 mpirun   /opt/ohpc/pub/apps/lammps/lmp_mpi  -i in.lj

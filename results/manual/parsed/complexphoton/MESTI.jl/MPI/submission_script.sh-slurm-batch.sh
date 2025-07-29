@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid_mpi_job
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid_mpi_job
+#SBATCH --output=hybrid_mpi.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

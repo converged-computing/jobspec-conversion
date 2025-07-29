@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buscocha
-#FLUX: -c=16
-#FLUX: --queue=p1priority,gcpriority
-#FLUX: --urgency=16
+#SBATCH --job-name=buscocha
+#SBATCH --output=buscocha.o%A.%a
+#SBATCH --error=buscocha.e%A.%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1750
+#SBATCH --partition=p1priority,gcpriority
+#SBATCH --array=1-3
 
 export AUGUSTUS_CONFIG_PATH='/networkshare/bin/augustus-3.2.2/config'
 

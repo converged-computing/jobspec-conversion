@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=MACS
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=MACS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40GB
+#SBATCH --time=03:00:00
 
 module load macs2/intel/2.1.1
 val=$SLURM_ARRAY_TASK_ID

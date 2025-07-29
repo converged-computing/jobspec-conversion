@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-6212
-#FLUX: -n=24
-#FLUX: --queue=serc
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=mima_compile.out
+#SBATCH --error=mima_compile.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=03:00:00
+#SBATCH --partition=serc
+#SBATCH --constraint=[CLASS:SH3_CBASE|CLASS:SH3_CPERF]
 
 export PKG_CONFIG_PATH='$PKG_CONFIG_PATH:MPICC_DIR_PKG_CONFIG '
 export CPATH='${INCLUDE}:${CPATH}'

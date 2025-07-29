@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qetest-gr
-#FLUX: -n=16
-#FLUX: --queue=GPU
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=qetest-gr
+#SBATCH --output=R-%x.%j.out
+#SBATCH --error=R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=GPU
 
 export PSEUDO_DIR_HOST='./pseudo/'
 export PSEUDO_DIR_IMG='/pseudo '

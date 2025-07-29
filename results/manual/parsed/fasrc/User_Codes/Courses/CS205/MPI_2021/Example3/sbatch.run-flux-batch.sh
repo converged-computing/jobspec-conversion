@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_pi
-#FLUX: -n=16
-#FLUX: --queue=test
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_pi
+#FLUX -n=16
+#FLUX --queue=test
+#FLUX -t=30
+#FLUX --urgency=16
 
 PRO=mpi_pi
 rm -rf ${PRO}.dat

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-chair-1075
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-picrust-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 source ~/.bashrc
 [[ $(which conda) = ~/miniconda3/bin/conda ]] || module load python/3.6-conda5.2

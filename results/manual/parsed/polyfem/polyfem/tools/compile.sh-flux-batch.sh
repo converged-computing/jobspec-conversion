@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-4313
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-underoos-1846
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CC='${GCC_ROOT}/bin/gcc'
 export CXX='${GCC_ROOT}/bin/g++'

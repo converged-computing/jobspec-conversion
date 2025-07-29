@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-destiny-5634
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=a100:1
+#SBATCH --mem=64gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 date;hostname;pwd
 module load singularity

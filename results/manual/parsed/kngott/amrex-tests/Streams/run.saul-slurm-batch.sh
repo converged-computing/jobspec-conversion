@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FBtest
-#FLUX: -c=8
-#FLUX: --queue=debug
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=FBtest
+#SBATCH --account=nstaff_g
+#SBATCH --output=FBtest.o%A-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:02:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export CRAY_ACCEL_TARGET='nvidia80'
 export AMREX_CUDA_ARCH='8.0'

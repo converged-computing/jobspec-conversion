@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-frito-4194
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=04:30:00
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

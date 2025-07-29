@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GromacsBench
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=GromacsBench
+#FLUX -N=8
+#FLUX --queue=compute
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$[($CORES_PER_CHIP*$HTHREADS_PER_CORE)/$TASKS_PER_CHIP]'
 

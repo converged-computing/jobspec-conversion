@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dask-cluster
-#FLUX: --exclusive
-#FLUX: --queue=cpu_med
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-cluster
+#SBATCH --account=dask_coupling
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=cpu_med
+#SBATCH: --exclusive
 
 NPROC=4                          # Total number of processes
 NPROCPNODE=4                     # Number of processes per node

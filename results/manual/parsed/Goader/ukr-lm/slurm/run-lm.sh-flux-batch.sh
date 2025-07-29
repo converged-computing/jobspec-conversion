@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ukrlm_mlm
-#FLUX: -c=16
-#FLUX: --queue=plgrid-gpu-a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ukrlm_mlm
+#FLUX -c=16
+#FLUX --queue=plgrid-gpu-a100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source modules.sh
 source scratch/masters/masters-venv/bin/activate

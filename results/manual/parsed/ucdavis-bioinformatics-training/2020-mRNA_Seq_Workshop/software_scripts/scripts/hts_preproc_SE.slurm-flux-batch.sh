@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=htstream
-#FLUX: -n=9
-#FLUX: --queue=production
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=htstream
+#FLUX -n=9
+#FLUX --queue=production
+#FLUX -t=3600
+#FLUX --urgency=16
 
 start=`date +%s`
 echo $HOSTNAME

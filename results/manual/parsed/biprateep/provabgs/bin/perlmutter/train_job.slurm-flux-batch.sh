@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-poodle-7405
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-nunchucks-3618
+#FLUX -c=128
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

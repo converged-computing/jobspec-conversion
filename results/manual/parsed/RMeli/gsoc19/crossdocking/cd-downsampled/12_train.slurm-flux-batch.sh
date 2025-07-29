@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --queue=medium
+#FLUX -t=259200
+#FLUX --urgency=16
 
 hostname
 nvidia-smi

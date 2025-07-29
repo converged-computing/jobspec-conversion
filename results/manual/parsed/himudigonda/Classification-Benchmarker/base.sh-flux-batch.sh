@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SwinV1-B-IN1K-ChestXray14
-#FLUX: -c=32
-#FLUX: --queue=public
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SwinV1-B-IN1K-ChestXray14
+#FLUX -c=32
+#FLUX --queue=public
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo_time() {
 	echo "Timestamp: [$(/bin/date '+%Y-%m-%d %H:%M:%S')]......................................................$1"

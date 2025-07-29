@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-soup-8117
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=bbhg-delta-gpu
+#SBATCH --output=slurm-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32g
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge 
 module list  

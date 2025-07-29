@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=main
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 module load Miniconda3/4.9.2
 module load CUDA/10.2.89-GCC-8.3.0 # for CPAB

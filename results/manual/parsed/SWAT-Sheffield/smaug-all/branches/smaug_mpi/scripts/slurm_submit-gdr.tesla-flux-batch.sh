@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gpujob
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=gpujob
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=tesla
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=project
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=project
+#FLUX -c=20
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2020.07

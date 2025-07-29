@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-motorcycle-3076
-#FLUX: --urgency=16
+#FLUX --job-name=tart-parsnip-7997
+#FLUX --urgency=16
 

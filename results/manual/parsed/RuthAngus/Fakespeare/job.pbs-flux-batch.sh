@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-5228
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-hope-8566
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RuthAngus/Fakespeare/job.pbs

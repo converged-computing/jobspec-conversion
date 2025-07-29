@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MyKMCJob
-#FLUX: -c=60
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=MyKMCJob
+#SBATCH --output=MyKMCJob_%j.out
+#SBATCH --error=MyKMCJob_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --time=02:00:00
+#SBATCH --partition=debug
 
 VKMC=/path/to/the/local/copy/of/the/VKMC/repository # We Need to add the full path to the local copy of the VKMC respository here.
 LMP_KMC=$VKMC/Utils/MEAM_KMC # The path to the directory containing the NEB_steps_multiTraj.py module to perform KMC steps with LAMMPS NEB calculations for multiple KMC trajectories.

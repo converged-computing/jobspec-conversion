@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trans-$n-$i-$seed-$tb
-#FLUX: -c=4
-#FLUX: --queue=$partition
-#FLUX: -t=330
-#FLUX: --urgency=16
+#FLUX --job-name=trans-$n-$i-$seed-$tb
+#FLUX -c=4
+#FLUX --queue=$partition
+#FLUX -t=330
+#FLUX --urgency=16
 
 i=0
 n=50

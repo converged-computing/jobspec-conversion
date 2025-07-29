@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Cell_Sim
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#FLUX --job-name=Cell_Sim
+#FLUX -t=1740
+#FLUX --urgency=16
 
 module load intel/2015a
 module load Python/3.5.1-intel-2015a

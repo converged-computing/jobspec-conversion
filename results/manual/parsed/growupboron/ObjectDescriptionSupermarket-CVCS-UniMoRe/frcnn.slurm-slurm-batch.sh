@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cupcake-8892
-#FLUX: --queue=all_usr_prod
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=cvcs_2023_group23
+#SBATCH --output=./logs/frcnn_%j.out
+#SBATCH --error=./logs/frcnn_%j.err
+#SBATCH --mail-user=319399@studenti.unimore.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=03:00:00
+#SBATCH --partition=all_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 if test $(python3 get_last_epoch.py checkpoints/frcnn/checkpoint.pth) -ge 2
 then

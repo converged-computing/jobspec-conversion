@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Benchmark
-#FLUX: -c=4
-#FLUX: --queue=rtx8000
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=Benchmark
+#FLUX -c=4
+#FLUX --queue=rtx8000
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

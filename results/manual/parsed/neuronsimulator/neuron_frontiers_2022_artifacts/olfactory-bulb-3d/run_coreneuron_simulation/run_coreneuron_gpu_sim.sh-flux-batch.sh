@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poo-0090
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=2
+#FLUX --job-name=lovely-platanos-6415
+#FLUX -N=2
+#FLUX -n=16
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module_suffix="$1"
 acc_sync="$2"

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=combine_jsons_and_parquet
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=combine_jsons_and_parquet
+#SBATCH --account=project_462000353
+#SBATCH --output=../logs/combine_jsons_and_parquet_%A_%a.output
+#SBATCH --error=../logs/combine_jsons_and_parquet_%A_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=1500
+#SBATCH --time=12:00:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-8
 
 module purge
 module load LUMI/22.12 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dock
-#FLUX: -c=2
-#FLUX: --queue=any_cpu
-#FLUX: --urgency=16
+#FLUX --job-name=dock
+#FLUX -c=2
+#FLUX --queue=any_cpu
+#FLUX --urgency=16
 
 export PATH='/net/pulsar/home/koes/dkoes/git/smina/build/:$PATH'
 

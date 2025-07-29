@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-9421
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pseudotensor/harm_harmgit/batches/batch.qsub.kraken.rada0.94a

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=careless-install
-#FLUX: -c=16
-#FLUX: --queue=ampere
-#FLUX: --urgency=16
+#SBATCH --job-name=careless-install
+#SBATCH --account=lcls
+#SBATCH --output=careless-install-%j.txt
+#SBATCH --error=careless-install-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=a100:1
+#SBATCH --partition=ampere
 
 nvidia-smi
 source /sdf/group/lcls/ds/ana/sw/conda1/manage/bin/psconda.sh

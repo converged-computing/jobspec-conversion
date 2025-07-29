@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -c=16
-#FLUX: --queue=generic
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc
+#SBATCH --output=/home/cluster/gdehol/logs/res_mriqc_%A-%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
+#SBATCH --partition=generic
 
 export SINGULARITYENV_FS_LICENSE='$FREESURFER_HOME/license.txt'
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'

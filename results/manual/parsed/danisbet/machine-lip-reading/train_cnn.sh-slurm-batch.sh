@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lipreading-train
-#FLUX: -c=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=lipreading-train
+#SBATCH --account=fc_mlsec
+#SBATCH --mail-user=alex_vlissidis@berkeley.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=23:59:00
+#SBATCH --partition=savio2_1080ti
 
 source deactivate
 module purge

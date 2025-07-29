@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-8108
-#FLUX: --queue=cpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/home/rektomar/logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpulong
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-420
+#SBATCH --exclude=n33
 
 srun julia relational_hparams.jl --n $SLURM_ARRAY_TASK_ID --m $1
 exit

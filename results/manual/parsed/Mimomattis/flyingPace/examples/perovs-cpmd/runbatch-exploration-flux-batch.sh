@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runbatch-exploration
-#FLUX: --queue=batch3
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=runbatch-exploration
+#FLUX --queue=batch3
+#FLUX -t=86340
+#FLUX --urgency=16
 
   input="INP-lammps"
   output="OUT"

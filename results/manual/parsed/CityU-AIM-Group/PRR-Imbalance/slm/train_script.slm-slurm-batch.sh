@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_script
-#FLUX: --queue=gpu1
-#FLUX: --urgency=16
+#SBATCH --job-name=train_script
+#SBATCH --output=./experiment/train_script.out
+#SBATCH --error=./experiment/train_script.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu1
+#SBATCH --nodelist=node5
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST
 echo "Running on node "$SLURM_JOB_NODELIST 

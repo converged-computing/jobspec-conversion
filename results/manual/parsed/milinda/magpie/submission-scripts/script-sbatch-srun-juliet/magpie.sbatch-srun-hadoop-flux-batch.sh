@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hadoop-cluster
-#FLUX: -N=4
+#FLUX --job-name=hadoop-cluster
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#FLUX --queue=general
+#FLUX -t=85800
+#FLUX --urgency=16
 
 export MAGPIE_SUBMISSION_TYPE='sbatchsrun'
 export MAGPIE_SCRIPTS_HOME='${HOME}/Workspace/magpie'

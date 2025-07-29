@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-snack-5190
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=run_second_half_marcc.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=00:30:00
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

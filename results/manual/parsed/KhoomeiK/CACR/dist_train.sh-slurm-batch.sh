@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_cac
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=gpu_high
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_cac
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:4
+#SBATCH --mem=120G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu_high
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --chdir=/work/rspandey/train_iais/
 
 NODE_LIST=$( scontrol show hostname $SLURM_JOB_NODELIST | sed -z 's/\n/\:4,/g' )
 NODE_LIST=${NODE_LIST%?}

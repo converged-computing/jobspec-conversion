@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=launch
-#FLUX: -n=2
-#FLUX: --queue=normal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=launch
+#SBATCH --account=Analysis_Lonestar
+#SBATCH --output=setup_sub_fs_137
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=normal
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

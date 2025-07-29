@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-puppy-9275
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=5-33262
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=250G
+#SBATCH --time=2-00:00:00
 
 spack env activate nick
 Rscript ./scripts/Analyses_Mallard_MultistateModel.R

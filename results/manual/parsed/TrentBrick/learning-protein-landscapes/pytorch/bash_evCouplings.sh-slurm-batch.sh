@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-citrus-9759
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=173519
-#FLUX: --urgency=16
+#SBATCH --output=slurm_files/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=2-00:11:59
+#SBATCH --partition=gpu
 
                                            # -N 1 means all cores will be on th$
 hostname

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=diabla
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=diabla
+#SBATCH --account=ncm@v100
+#SBATCH --output=diabla_t0_%j.out
+#SBATCH --error=diabla_t0_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 

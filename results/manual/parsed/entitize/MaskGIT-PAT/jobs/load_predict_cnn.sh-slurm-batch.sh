@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pat_cnn_sa_real
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=pat_cnn_sa_real
+#SBATCH --account=mlprojects
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=00:10:00
 
 export CUDA_VISIBLE_DEVICES='0'
 

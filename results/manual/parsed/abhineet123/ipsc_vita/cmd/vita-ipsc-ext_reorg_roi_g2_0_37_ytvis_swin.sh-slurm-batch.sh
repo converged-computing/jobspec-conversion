@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vita-ipsc-ext_reorg_roi_g2_0_37-swin
-#FLUX: -c=4
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=vita-ipsc-ext_reorg_roi_g2_0_37-swin
+#SBATCH --account=def-nilanjan
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=asingh1@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16000M
+#SBATCH --time=00:24:00
 
 module load cuda cudnn gcc python/3.8
 source ~/venv/vita/bin/activate

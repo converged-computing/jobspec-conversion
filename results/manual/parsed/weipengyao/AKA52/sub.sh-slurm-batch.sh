@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aka_stream_test0
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=aka_stream_test0
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --mail-user=ywppku@gmail.com
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:59:59
+#SBATCH --constraint=ntasks-per-node=40
 
 PROGRAM=/home/a/anticipa/weipeng/CODES/AKA52/aka.exe
 SOURCE=/home/a/anticipa/weipeng/CODES/AKA52/compile_aka52_niagara.sh

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lab1
-#FLUX: --urgency=16
+#SBATCH --job-name=lab1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --constraint=ntasks-per-node=1
 
 SRCDIR=$HOME/hpc4ml/lab1
 cd $SRCDIR

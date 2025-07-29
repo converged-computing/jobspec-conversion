@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=itac_p4est_1_16
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=itac_p4est_1_16
+#SBATCH --account=Nixing-Scale-Bugs
+#SBATCH --output=itac_p4est_1_16.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-itac/bin'
 

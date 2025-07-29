@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-general-8759
-#FLUX: -N=2
-#FLUX: --queue=small
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-eagle-3101
+#FLUX -N=2
+#FLUX --queue=small
+#FLUX -t=28800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Qsite
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Qsite
+#SBATCH --output=mpi_%j.out
+#SBATCH --error=mpi_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=02:00:00
+#SBATCH --qos=debug
+#SBATCH --constraint=schrodinger
 
 export PATH='$PATH:/gpfs/projects/bsc72/Programs/schrodinger2024-1'
 export SCHRODINGER='/gpfs/projects/bsc72/Programs/schrodinger2024-1'

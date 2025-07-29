@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ciftify
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=ciftify
+#FLUX -c=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

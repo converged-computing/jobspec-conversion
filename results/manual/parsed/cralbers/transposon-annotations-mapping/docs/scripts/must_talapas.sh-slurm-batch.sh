@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=kimmust
-#FLUX: --queue=long
-#FLUX: -t=1206000
-#FLUX: --urgency=16
+#SBATCH --job-name=kimmust
+#SBATCH --account=libudalab
+#SBATCH --output=kimmust.out
+#SBATCH --error=kimmust.err
+#SBATCH --mail-user=calbers@uoregon.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=13-23:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=20
 
 module load easybuild
 module load GCC/6.3.0-2.27  OpenMPI/2.0.2

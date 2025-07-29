@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-banana-0403
-#FLUX: --queue=gpu
-#FLUX: -t=258900
-#FLUX: --urgency=16
+#SBATCH --account=uvahydroinformatics
+#SBATCH --output=swmm_ddpg_multi_inp.out
+#SBATCH --error=swmm_ddpg_multi_inp.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=2-23:55:00
+#SBATCH --partition=gpu
 
 export SINGULARITYENV_MPLBACKEND='agg'
 

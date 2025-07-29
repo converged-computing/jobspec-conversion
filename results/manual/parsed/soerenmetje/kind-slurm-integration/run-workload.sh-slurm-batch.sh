@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-hobbit-5499
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export K8S_PORT='$K8S_PORT'
 export K8S_CLUSTER_NAME='$K8S_CLUSTER_NAME'

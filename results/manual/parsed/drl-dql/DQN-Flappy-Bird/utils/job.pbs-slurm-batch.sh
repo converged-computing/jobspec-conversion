@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-latke-0378
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/drl-dql/DQN-Flappy-Bird/utils/job.pbs

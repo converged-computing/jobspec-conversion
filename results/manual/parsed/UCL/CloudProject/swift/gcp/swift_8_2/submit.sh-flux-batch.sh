@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=imb_8_2
-#FLUX: -N=8
-#FLUX: -n=16
+#FLUX --job-name=imb_8_2
+#FLUX -N=8
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -e
 module purge

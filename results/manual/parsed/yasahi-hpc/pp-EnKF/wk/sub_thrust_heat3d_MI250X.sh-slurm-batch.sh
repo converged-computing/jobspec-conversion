@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=heat3d-mpi
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=heat3d-mpi
+#SBATCH --account=CFD173
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

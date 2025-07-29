@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pastry-9819
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=hpg-ai
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:8
+#SBATCH --mem=24gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$(hostname)'
 

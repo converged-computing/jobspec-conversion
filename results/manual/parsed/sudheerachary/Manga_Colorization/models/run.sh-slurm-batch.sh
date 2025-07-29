@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-truffle-9647
-#FLUX: -n=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=1-00:00:00
 
 module add opencv
 module add cuda/8.0

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-rabbit-7666
-#FLUX: -n=30
-#FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=MaxMemPerNode
+#SBATCH --time=00:00:30
+#SBATCH --partition=huce_intel
+#SBATCH: --exclusive
 
 multirunlog="multirun.log"
 cancel_all_jobs()

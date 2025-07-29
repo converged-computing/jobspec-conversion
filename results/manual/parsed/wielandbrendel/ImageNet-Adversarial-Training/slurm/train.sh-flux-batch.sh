@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-plant-5185
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-pastry-6483
+#FLUX -c=10
+#FLUX --urgency=16
 
 export TENSORPACK_PROGRESS_REFRESH='20'
 export TENSORPACK_SERIALIZE='msgpack'

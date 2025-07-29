@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rmpi
-#FLUX: -N=2
-#FLUX: --queue=development
-#FLUX: --urgency=16
+#SBATCH --job-name=rmpi
+#SBATCH --output=rmpi_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=development
+#SBATCH --constraint=ntasks-per-node=2
 
 export LD_LIBRARY_PATH='/cm/local/apps/cuda-driver/libs/396.26/lib:/cm/local/apps/cuda-driver/libs/396.26/lib64:${LD_LIBRARY_PATH}'
 export OMPI_MCA_pml='ucx'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-plant-2477
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_circlator_1.5.5_ada.sh

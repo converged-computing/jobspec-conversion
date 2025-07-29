@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_germVCFmerge
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_germVCFmerge
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=4-00:00:00
 
 set -o pipefail
 module load picard-tools/1.128

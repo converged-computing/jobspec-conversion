@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=p53Char
-#FLUX: -c=5
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=p53Char
+#FLUX -c=5
+#FLUX -t=36000
+#FLUX --urgency=16
 
 set -e ### stops bash script if line ends with error
 echo ${HOSTNAME} ${SLURM_ARRAY_TASK_ID}

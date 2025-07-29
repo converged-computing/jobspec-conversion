@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wpp
-#FLUX: --queue=broadwell
-#FLUX: --urgency=16
+#SBATCH --job-name=wpp
+#SBATCH --output=results/wppDemo.out
+#SBATCH --error=results/wppDemo.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=broadwell
 
 export OMP_NUM_THREADS='$omp_threads'
 

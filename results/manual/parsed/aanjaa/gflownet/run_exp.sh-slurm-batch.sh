@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-car-5911
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 experiment_num=0 # change the number of experiment you want to run 0--> training objective, 1--> buffer, 2--> exploration
 prepend_name="fix_run9_" #prepend to the name of experiment

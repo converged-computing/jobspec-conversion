@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lettuce-2930
-#FLUX: --queue=RM
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-gato-2990
+#FLUX --queue=RM
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load intel/20.4
 module load intelmpi/20.4-intel20.4

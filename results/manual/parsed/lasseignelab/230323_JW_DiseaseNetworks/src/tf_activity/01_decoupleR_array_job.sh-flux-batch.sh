@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gtex_decoupleR
-#FLUX: --queue=largemem
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=gtex_decoupleR
+#FLUX --queue=largemem
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='$USER'

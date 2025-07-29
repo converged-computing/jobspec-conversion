@@ -1,6 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=m9res
-#FLUX: --urgency=16
+#SBATCH --job-name=m9res
+#SBATCH --account=copan
+#SBATCH --output=m9res_%j.out
+#SBATCH --error=m9res_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=7500
+#SBATCH --qos=priority
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 export OMP_NUM_THREADS='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-despacito-5632
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-peas-1523
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "SLURM_JOBID: " $SLURM_JOBID
 echo "SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

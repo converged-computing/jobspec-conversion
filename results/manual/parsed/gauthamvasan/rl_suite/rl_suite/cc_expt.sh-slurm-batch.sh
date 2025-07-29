@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-arm-7814
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-ashique
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150000M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-15
 
 export PYTHONPATH='$PYTHONPATH:/home/vasan/src/rl_suite:/home/vasan/src/incremental_rl'
 export MUJOCO_GL='egl'

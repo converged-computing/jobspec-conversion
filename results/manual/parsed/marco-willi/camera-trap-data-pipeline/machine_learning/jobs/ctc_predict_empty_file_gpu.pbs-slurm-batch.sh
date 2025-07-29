@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-citrus-9209
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/marco-willi/camera-trap-data-pipeline/machine_learning/jobs/ctc_predict_empty_file_gpu.pbs

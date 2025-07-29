@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SM_umbrella_production
-#FLUX: -n=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SM_umbrella_production
+#SBATCH --account=youraccount
+#SBATCH --output=job.%j.out
+#SBATCH --error=job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$ntomp'
 

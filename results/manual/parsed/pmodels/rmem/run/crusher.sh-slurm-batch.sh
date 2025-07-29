@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lizard-0142
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=CSC371_crusher
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)'

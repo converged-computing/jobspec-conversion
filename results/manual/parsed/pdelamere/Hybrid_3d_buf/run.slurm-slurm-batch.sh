@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-toaster-0005
-#FLUX: -n=115
-#FLUX: --queue=t1standard
-#FLUX: --urgency=16
+#SBATCH --mail-user=npbarnes@alaska.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=115
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=t1standard
 
 echo "Setting ulimits"
 ulimit -s unlimited

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run_snakemake
-#FLUX: --queue=cpu-short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_snakemake
+#SBATCH --output=logs/%x.%j.stdout
+#SBATCH --error=logs/%x.%j.stderr
+#SBATCH --mail-user=todd.kennedi@mayo.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cpu-short
 
 source $HOME/.bash_profile
 conda activate aducanumab

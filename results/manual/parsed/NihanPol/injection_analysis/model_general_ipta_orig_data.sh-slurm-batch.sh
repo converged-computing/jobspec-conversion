@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bicycle-9027
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NihanPol/injection_analysis/model_general_ipta_orig_data.sh

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=build-graphs
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=build-graphs
+#SBATCH --output=build-graphs-%A-%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=45G
+#SBATCH --time=03:00:00
+#SBATCH --array=0-20
 
 set -euo pipefail
 IFS=$'\n\t'

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=${SCENARIO}_${PARTITION}_GPU1
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=${PARTITION}
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=${SCENARIO}_${PARTITION}_GPU1
+#SBATCH --account=ec12
+#SBATCH --output=output/${SCENARIO}_${PARTITION}.out
+#SBATCH --error=error/${SCENARIO}_${PARTITION}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=14:00:00
+#SBATCH --partition=${PARTITION}
+#SBATCH --constraint=ntasks-per-node=${NODES}
 
 set -e
 SOURCES="main.cu programs/jacobi.cu programs/cuda_functions.cu programs/scenarios.cu" 

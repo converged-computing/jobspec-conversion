@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-avocado-5863
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/dftfeDevelopers/dftfe-benchmarks/performanceBenchmarks/DFTFEv1.0/Summit/GroundStateCalculations/LargeSystems/BCCMo16x16x16Vac/output/gpurunmpiopt.lsf

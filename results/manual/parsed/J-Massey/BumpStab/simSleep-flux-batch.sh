@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=amd
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=amd
+#FLUX -n=64
+#FLUX --queue=amd
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

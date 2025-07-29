@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bits-5874
-#FLUX: -n=14
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-peanut-butter-2545
+#FLUX -n=14
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load StdEnv/2020
 module load gcc/9.3.0

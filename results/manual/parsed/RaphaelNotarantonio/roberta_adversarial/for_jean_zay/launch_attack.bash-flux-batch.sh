@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pgd
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pgd
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

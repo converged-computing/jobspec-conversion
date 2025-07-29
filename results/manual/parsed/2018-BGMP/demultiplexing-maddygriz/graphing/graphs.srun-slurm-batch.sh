@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=demultiplexGraphs
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=demultiplexGraphs
+#SBATCH --output=/projects/bgmp/maddyg/demultiplex/files/graphs.out
+#SBATCH --error=/projects/bgmp/maddyg/demultiplex/files/graphs.err
+#SBATCH --mail-user=maddyg@uoregon.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=14
 
 module purge
 ml easybuild intel/2017a Python/3.6.1

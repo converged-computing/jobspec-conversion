@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test_mpi_kokkos_gpu
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=gpua30
-#FLUX: --urgency=16
+#FLUX --job-name=test_mpi_kokkos_gpu
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=8
+#FLUX --queue=gpua30
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'
 export OMP_PROC_BIND='spread'

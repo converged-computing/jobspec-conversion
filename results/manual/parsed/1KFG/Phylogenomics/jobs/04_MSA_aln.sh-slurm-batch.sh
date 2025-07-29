@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MSA
-#FLUX: --queue=intel
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=MSA
+#SBATCH --output=MSA.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=03:00:00
+#SBATCH --partition=intel
 
 module load trimal
 module load muscle

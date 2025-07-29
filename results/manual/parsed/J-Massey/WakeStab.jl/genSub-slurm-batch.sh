@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wake-RA
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: --queue=highmem
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=wake-RA
+#SBATCH --output=RAND-RA.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=highmem
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job_name
-#FLUX: -c=16
-#FLUX: --queue=lianglab
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#FLUX --job-name=job_name
+#FLUX -c=16
+#FLUX --queue=lianglab
+#FLUX -t=921600
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate /srv/home/zxu444/anaconda3/envs/lmeval

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-ricecake-7277
-#FLUX: -n=5
-#FLUX: --queue=wrighton-hi
-#FLUX: -t=784800
-#FLUX: --urgency=16
+#SBATCH --mail-user=jrodram@colostate.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10gb
+#SBATCH --time=9-02:00:00
+#SBATCH --partition=wrighton-hi
 
 source /opt/Miniconda2/miniconda2/bin/activate DRAM
 DRAM-v.py distill \

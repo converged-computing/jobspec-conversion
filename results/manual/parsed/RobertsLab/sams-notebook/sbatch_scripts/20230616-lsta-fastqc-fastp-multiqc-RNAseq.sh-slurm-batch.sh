@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20230616-lsta-fastqc-fastp-multiqc-RNAseq
-#FLUX: --queue=srlab
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=20230616-lsta-fastqc-fastp-multiqc-RNAseq
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230616-lsta-fastqc-fastp-multiqc-RNAseq
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*_R1_*.fastq.gz'

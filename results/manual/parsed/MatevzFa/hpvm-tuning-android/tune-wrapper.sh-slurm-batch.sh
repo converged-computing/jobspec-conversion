@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-citrus-6433
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=32G
 
 scratch_dir=/data1/slurm/$SLURM_JOB_ID
 hpvm_image=$HOME/hpvm.sb

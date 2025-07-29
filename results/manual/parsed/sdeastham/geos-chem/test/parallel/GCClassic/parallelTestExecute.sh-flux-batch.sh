@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leopard-6924
-#FLUX: -c=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-onion-5518
+#FLUX -c=24
+#FLUX --queue=REQUESTED_PARTITION
+#FLUX -t=360
+#FLUX --urgency=16
 
 ptRoot=$(cd ..; pwd)
 . "${ptRoot}/scripts/commonFunctionsForTests.sh"

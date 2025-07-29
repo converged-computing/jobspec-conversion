@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=damask
-#FLUX: --queue=course
-#FLUX: --urgency=16
+#SBATCH --job-name=damask
+#SBATCH --output=stdout.%J
+#SBATCH --error=stderr.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=course
+#SBATCH --constraint=ntasks-per-node=6
+#SBATCH: --no-requeue
 
 export PETSC_DIR='/apps/src/petsc-3.6.4/'
 export PETSC_ARCH='arch-linux2-c-opt'

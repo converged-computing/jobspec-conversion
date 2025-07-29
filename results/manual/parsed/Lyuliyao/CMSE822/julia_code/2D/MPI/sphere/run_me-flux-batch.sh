@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parrot-1294
-#FLUX: -n=32
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-egg-0531
+#FLUX -n=32
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ml AOCC/2.2.0 
 ml OpenMPI

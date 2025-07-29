@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blokus_benchmark
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=blokus_benchmark
+#SBATCH --account=project_2010270
+#SBATCH --output=benchmark_blokus_models_%j.out
+#SBATCH --error=benchmark_blokus_models_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=04:00:00
+#SBATCH --partition=medium
 
 module purge
 module load tensorflow/2.15

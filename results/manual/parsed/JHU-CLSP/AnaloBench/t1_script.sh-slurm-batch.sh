@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=mistral16
-#FLUX: --queue=a100
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=mistral16
+#SBATCH --account=danielk_gpu
+#SBATCH --output=Log-mistral16
+#SBATCH --mail-user=xye23@jhu.edu
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=a100
+#SBATCH --constraint=ntasks-per-node=12
 
 module load gcc/9.3.0
 module load cuda/12.1.0

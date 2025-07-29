@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-gato-5577
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-pedo-1902
+#FLUX -c=20
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export RUST_BACKTRACE='1'
 export DATA='data/${MODEL_NAME}.hdf5'

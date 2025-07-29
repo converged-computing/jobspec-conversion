@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gen_data_v0
-#FLUX: -c=36
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=gen_data_v0
+#FLUX -c=36
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PYTHON_JULIAPKG_OFFLINE='yes'
 

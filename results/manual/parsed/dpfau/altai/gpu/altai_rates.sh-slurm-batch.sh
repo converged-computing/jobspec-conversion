@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-spoon-1470
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/dpfau/altai/gpu/altai_rates.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gps_paper_pipeline_scheduler
-#FLUX: -c=4
-#FLUX: --queue=cclake
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gps_paper_pipeline_scheduler
+#FLUX -c=4
+#FLUX --queue=cclake
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='5'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

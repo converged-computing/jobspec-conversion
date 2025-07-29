@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eff
-#FLUX: -c=12
-#FLUX: --queue=plgrid-gpu-a100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eff
+#FLUX -c=12
+#FLUX --queue=plgrid-gpu-a100
+#FLUX -t=43200
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clpi_env

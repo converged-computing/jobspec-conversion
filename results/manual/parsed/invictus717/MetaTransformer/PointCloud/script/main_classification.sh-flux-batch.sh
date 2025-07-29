@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cls
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=cls
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load cuda/11.1.1
 module load gcc

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bert-18
-#FLUX: -N=18
-#FLUX: -n=36
-#FLUX: -c=32
+#FLUX --job-name=bert-18
+#FLUX -N=18
+#FLUX -n=36
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export DATADIR='$DATAPATH/packed_data_hdf5'
 export EVALDIR='$DATAPATH/hdf5/eval_varlength/'

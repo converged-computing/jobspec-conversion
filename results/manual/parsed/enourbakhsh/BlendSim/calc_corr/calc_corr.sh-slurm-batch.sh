@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-platanos-8298
-#FLUX: --urgency=16
+#SBATCH --account=m1727
+#SBATCH --mail-user=erfan@ucdavis.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export OMP_NUM_THREADS='$omp_threads'
 export OMP_PLACES='threads'

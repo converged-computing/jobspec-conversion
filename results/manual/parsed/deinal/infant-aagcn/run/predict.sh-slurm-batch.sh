@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-puppy-8574
-#FLUX: -n=6
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_2004522
+#SBATCH --output=slurm/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 module load pytorch/1.13
 . ./env.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kripke
+#FLUX --job-name=kripke
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=60
+#FLUX --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

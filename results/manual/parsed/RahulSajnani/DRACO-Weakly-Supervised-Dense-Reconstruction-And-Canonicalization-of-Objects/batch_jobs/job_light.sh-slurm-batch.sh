@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-latke-8724
-#FLUX: -n=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=2-00:00:00
+#SBATCH --nodelist=gnode39
 
 source ~/anaconda3/bin/activate
 conda activate DRACO

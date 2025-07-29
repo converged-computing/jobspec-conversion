@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cherry-2791
-#FLUX: --queue=small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=slurm/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --partition=small
 
 module load pytorch/1.13
 . ./env.sh

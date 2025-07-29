@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=1_Faceskin_32_Run
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=a100_normal_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=1_Faceskin_32_Run
+#SBATCH --account=abbott
+#SBATCH --output=/home/yogeshd/Skin/slurm-%j.out
+#SBATCH --mail-user=yogeshd@vt.edu
+#SBATCH --mail-type=BEGIN,END,ABORT
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=a100_normal_q
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='12698'
 export WORLD_SIZE='4'

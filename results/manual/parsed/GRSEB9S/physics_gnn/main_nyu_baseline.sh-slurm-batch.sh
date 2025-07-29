@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=GCNN
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=GCNN
+#SBATCH --output=slurm_out/GCNN_%A_%a.out
+#SBATCH --mail-user=nc2201@courant.nyu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=batch
+#SBATCH --constraint=gpu_12gb
 
 DATASET="NYU"
 NBTRAIN=100000

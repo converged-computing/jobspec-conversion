@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BOHB
-#FLUX: --queue=shared,parallel,lrgmem
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=BOHB
+#SBATCH --mail-user=jpatsol1@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=shared,parallel,lrgmem
+#SBATCH --constraint=ntasks-per-node=24
 
 export SHARE_DIR='test_runs'
 

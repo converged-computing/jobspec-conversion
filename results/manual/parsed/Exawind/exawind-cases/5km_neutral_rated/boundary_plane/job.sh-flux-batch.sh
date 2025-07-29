@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=5km_abl
-#FLUX: -N=70
-#FLUX: -t=172800
-#FLUX: --urgency=50
+#FLUX --job-name=5km_abl
+#FLUX -N=70
+#FLUX -t=172800
+#FLUX --urgency=50
 
 export SPACK_MANAGER='/home/asharma/exawind_spack_latest/spack-manager'
 

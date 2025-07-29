@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=simexvsmecor
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=simexvsmecor
+#FLUX -t=360000
+#FLUX --urgency=16
 
 scenario=${SLURM_ARRAY_TASK_ID}
 module purge

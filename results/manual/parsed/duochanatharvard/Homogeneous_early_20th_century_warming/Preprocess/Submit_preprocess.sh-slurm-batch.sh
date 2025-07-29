@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Buddy
-#FLUX: --queue=${partition_preprocess}
-#FLUX: -t=30000
-#FLUX: --urgency=16
+#SBATCH --job-name=Buddy
+#SBATCH --account=${group_account}
+#SBATCH --output=logs/log_step_05_buddy.%A.%a
+#SBATCH --error=logs/err_step_05_buddy.%A.%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --time=08:20:00
+#SBATCH --partition=${partition_preprocess}
+#SBATCH --array=1-1200
+#SBATCH --dependency=${JOB_assign_missing}
 
 export partition_preprocess='huce_intel"          # TODO'
 export group_account='huybers_lab"                  # TODO'

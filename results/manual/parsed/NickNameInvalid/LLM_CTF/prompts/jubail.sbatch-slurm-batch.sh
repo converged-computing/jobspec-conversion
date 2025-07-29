@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=infer
-#FLUX: -c=2
-#FLUX: --queue=nvidia
-#FLUX: -t=3599
-#FLUX: --urgency=16
+#SBATCH --job-name=infer
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=50GB
+#SBATCH --time=00:59:59
+#SBATCH --partition=nvidia
+#SBATCH --constraint=80g,ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/scratch/bc3194/huggingface_cache'
 export HF_HOME='/scratch/bc3194/huggingface_cache'

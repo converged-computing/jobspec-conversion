@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pastry-3866
-#FLUX: -c=6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=def-miranska
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=10:00:00
+#SBATCH --array=0-99
 
 cp *.json $SLURM_TMPDIR
 cp *.py $SLURM_TMPDIR

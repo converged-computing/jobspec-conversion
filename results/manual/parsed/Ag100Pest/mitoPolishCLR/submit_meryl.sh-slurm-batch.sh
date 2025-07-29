@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=meryldb_mito
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=meryldb_mito
+#SBATCH --output=R-%x.%J.out
+#SBATCH --error=R-%x.%J.err
+#SBATCH --mail-user=amandastahlke@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
 
 module load merqury/1.1
 module load meryl/1.0

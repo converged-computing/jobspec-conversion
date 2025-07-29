@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_rnaseq_trial
-#FLUX: -n=12
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow_rnaseq_trial
+#SBATCH --output=Reports/output.%J.txt
+#SBATCH --error=Reports/error.%J.txt
+#SBATCH --mail-user=<your
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5000M
+#SBATCH --time=3-18:00:00
 
 export PATH='/home/izkf/nextflow/miniconda2/bin:/home/izkf/nextflow/miniconda2/envs/nf-core-rnaseq-1.4.2/bin:$PATH'
 export PYTHONPATH='/home/izkf/nextflow/miniconda2/envs/nf-core-rnaseq-1.4.2/lib/python2.7/site-packages:$PYTHONPATH'

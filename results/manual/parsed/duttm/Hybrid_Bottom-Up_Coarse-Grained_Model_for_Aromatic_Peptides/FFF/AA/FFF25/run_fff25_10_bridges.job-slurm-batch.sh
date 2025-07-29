@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BRIDGES_fff25_200
-#FLUX: --queue=RM
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=BRIDGES_fff25_200
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --mail-user=mh1314@scarletmail.rutgers.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=28
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 

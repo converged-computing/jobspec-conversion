@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-muffin-8634
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-toaster-8683
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4
 module load matplotlib/3.1.1-fosscuda-2019b-Python-3.7.4

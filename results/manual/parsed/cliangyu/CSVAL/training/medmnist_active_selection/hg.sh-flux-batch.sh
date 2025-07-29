@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-0543
-#FLUX: -n=2
-#FLUX: --queue=wildfire
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-leopard-9739
+#FLUX -n=2
+#FLUX --queue=wildfire
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

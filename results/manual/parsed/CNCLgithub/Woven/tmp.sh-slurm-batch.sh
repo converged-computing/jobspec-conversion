@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cloth_gen2_dp_for_cnn
-#FLUX: --queue=psych_gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cloth_gen2_dp_for_cnn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=12:00:00
+#SBATCH --partition=psych_gpu
+#SBATCH --array=0-0
 
 pwd; hostname; date
 gz_objs_dir='/gpfs/milgram/project/yildirim/wb338/gen_test2/depth_map_for_cnn/depth_map_o3d_for_cnn/in'

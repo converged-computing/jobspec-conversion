@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=param_recov_config
-#FLUX: -c=8
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=param_recov_config
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=slurm/slurm_param_recov_config_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=18:00:00
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

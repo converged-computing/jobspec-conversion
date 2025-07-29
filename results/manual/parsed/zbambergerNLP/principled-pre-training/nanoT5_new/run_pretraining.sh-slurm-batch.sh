@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pre_training_job
-#FLUX: -c=80
-#FLUX: --queue=nlp
-#FLUX: --urgency=16
+#SBATCH --job-name=pre_training_job
+#SBATCH --account=nlp
+#SBATCH --output=pre_training_runs/slurm_%A_%a_%N_out.txt
+#SBATCH --error=pre_training_runs/slurm_%A_%a_%N_err.txt
+#SBATCH --mail-user=zachary@campus.technion.ac.il
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:6
+#SBATCH --partition=nlp
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=nlp-ada-2
 
 export GPUS_PER_NODE='6'
 

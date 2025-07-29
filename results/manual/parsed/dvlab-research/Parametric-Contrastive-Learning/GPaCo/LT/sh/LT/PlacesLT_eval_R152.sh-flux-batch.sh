@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpaco_placeslt_r152
-#FLUX: -c=40
-#FLUX: --queue=batch_72h
-#FLUX: --urgency=16
+#FLUX --job-name=gpaco_placeslt_r152
+#FLUX -c=40
+#FLUX --queue=batch_72h
+#FLUX --urgency=16
 
 PORT=$[$RANDOM + 10000]
 source activate py3.8_pt1.8.1 

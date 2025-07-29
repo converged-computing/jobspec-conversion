@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-punk-1702
-#FLUX: -c=7
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-nalgas-5629
+#FLUX -c=7
+#FLUX -t=90000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

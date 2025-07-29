@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ipi
-#FLUX: --exclusive
-#FLUX: --queue=jobs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ipi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=jobs
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 module load intel
 module load intel-mkl

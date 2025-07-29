@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemur-7823
-#FLUX: -n=32
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-nalgas-9182
+#FLUX -n=32
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

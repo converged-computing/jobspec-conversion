@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cinnamonbun-5498
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-train-4184
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load picard
 module load gatk/4

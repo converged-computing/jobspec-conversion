@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-staircase-4531
-#FLUX: -n=48
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-soup-4102
+#FLUX -n=48
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia/1.8.5

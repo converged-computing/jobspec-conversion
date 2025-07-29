@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Event_fix
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Event_fix
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

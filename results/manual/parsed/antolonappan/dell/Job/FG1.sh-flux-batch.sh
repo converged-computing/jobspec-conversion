@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FG1_LBIRD
-#FLUX: -N=32
-#FLUX: -n=500
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=FG1_LBIRD
+#FLUX -N=32
+#FLUX -n=500
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export ini='LB_FG1.ini'
 

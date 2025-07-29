@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cherry-9190
-#FLUX: --urgency=16
+#FLUX --job-name=hello-animal-8487
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_sb3ct/Complex/gromacs_gpu_THIS_SHOULD_WORK_NOW.pbs

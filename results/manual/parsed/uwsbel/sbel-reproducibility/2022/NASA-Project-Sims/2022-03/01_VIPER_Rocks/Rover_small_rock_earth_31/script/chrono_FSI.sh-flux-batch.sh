@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-knife-8866
-#FLUX: --queue=sbel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-lentil-5372
+#FLUX --queue=sbel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_VIPER/Rover_rock_31/script

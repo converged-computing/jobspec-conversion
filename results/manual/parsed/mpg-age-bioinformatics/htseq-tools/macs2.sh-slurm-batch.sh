@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-signal-0685
-#FLUX: -c=2
-#FLUX: --queue=himem,hugemem,blade
-#FLUX: --urgency=16
+#SBATCH --output=${LOGS}${f%-READ_1.fastq.gz}.macs2.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --partition=himem,hugemem,blade
 
 TOP=$(readlink -f ../)/
 BOW=$(readlink -f ../bowtie2_output)/

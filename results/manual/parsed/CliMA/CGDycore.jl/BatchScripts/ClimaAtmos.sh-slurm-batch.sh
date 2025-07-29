@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=30-3-10
-#FLUX: -n=64
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=30-3-10
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 export CLIMACORE_DISTRIBUTED='MPI'

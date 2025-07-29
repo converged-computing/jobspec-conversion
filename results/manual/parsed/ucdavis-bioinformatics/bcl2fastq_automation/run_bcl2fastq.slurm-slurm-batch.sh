@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fat-general-5486
-#FLUX: -c=36
-#FLUX: --queue=dev,gpu,intel,assembly
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=8000
+#SBATCH --time=03:00:00
+#SBATCH --partition=dev,gpu,intel,assembly
+#SBATCH --array=1-8
 
 start=`date +%s`
 hostname

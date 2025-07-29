@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=baseline_cifar_job
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline_cifar_job
+#SBATCH --output=./baseline_cifar_job.out
+#SBATCH --error=./baseline_cifar_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
 
 openai_logdir=$1
 data_dir=$2

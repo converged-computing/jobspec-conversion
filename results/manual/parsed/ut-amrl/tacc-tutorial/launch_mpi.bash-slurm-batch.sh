@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpi-test
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: --queue=gpu-a100
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi-test
+#SBATCH --account=YOUR_ALLOCATION
+#SBATCH --output=launcher.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu-a100
 
 module load python3
 module load cuda/12.0

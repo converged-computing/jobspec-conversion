@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-train-7038
-#FLUX: -c=10
-#FLUX: --queue=tenenbaum
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lemon-9678
+#FLUX -c=10
+#FLUX --queue=tenenbaum
+#FLUX -t=10800
+#FLUX --urgency=16
 
 dirs=(
     # "codellama-7b"

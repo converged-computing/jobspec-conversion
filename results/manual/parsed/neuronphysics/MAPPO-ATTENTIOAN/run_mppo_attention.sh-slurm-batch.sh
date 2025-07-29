@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=MAPPO
-#FLUX: -c=16
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#SBATCH --job-name=MAPPO
+#SBATCH --account=def-gdumas85
+#SBATCH --output=/home/memole/projects/def-gdumas85/memole/MPPO-ATTENTIOAN/logs/MAPPO-attention-seed-1_%N-%j.out
+#SBATCH --error=/home/memole/projects/def-gdumas85/memole/MPPO-ATTENTIOAN/logs/MAPPO-attention-seed-1_%N-%j.err
+#SBATCH --mail-user=sheikhbahaee@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=95000M
+#SBATCH --time=1-10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export SC2PATH='/home/memole/projects/def-gdumas85/memole/MPPO-ATTENTIOAN/3rdparty/StarCraftII'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

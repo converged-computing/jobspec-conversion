@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sarek
-#FLUX: --queue=medium
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=sarek
+#FLUX --queue=medium
+#FLUX -t=1440
+#FLUX --urgency=16
 
 set -eu
 module load java/jdk-11.0.11

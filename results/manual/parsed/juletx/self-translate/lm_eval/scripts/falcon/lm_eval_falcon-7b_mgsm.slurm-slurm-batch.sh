@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lm_eval_falcon-7b_mgsm
-#FLUX: -c=8
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=lm_eval_falcon-7b_mgsm
+#SBATCH --output=../.slurm/lm_eval_falcon-7b_mgsm.out
+#SBATCH --error=../.slurm/lm_eval_falcon-7b_mgsm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --constraint=ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/gaueko0/transformers_cache/'
 export TOKENIZERS_PARALLELISM='false'

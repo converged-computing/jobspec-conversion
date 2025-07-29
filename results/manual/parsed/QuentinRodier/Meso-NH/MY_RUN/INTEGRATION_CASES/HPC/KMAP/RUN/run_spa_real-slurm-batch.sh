@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sparea_kmap
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=sparea_kmap
+#SBATCH --output=sparea_kmap.eo%j
+#SBATCH --error=sparea_kmap.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 export MPIRUN='Mpirun -np 1'
 

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=winograd
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=winograd
+#SBATCH --account=ece_gy_7123-2024sp
+#SBATCH --output=winograd.out
+#SBATCH --mail-user=pa2497@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=25GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=n1s8-v100-1
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 cd /home/pa2497/Thai-Winograd

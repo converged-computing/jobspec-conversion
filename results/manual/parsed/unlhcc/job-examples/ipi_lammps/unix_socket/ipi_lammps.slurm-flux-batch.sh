@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ipi_lammps_example
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=ipi_lammps_example
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export PSM2_CUDA='0'

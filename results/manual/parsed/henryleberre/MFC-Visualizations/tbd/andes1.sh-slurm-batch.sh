@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MFC-PARAVIEW-1
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=MFC-PARAVIEW-1
+#SBATCH --account=CFD154
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
 
 cd $SLURM_SUBMIT_DIR
 date

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-noodle-4044
-#FLUX: -c=4
-#FLUX: --queue=gpuq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=400M
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpuq
 
 python testTF2.py

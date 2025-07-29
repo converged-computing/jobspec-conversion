@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-toaster-0678
-#FLUX: -c=40
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=long
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=1
+#SBATCH --mem=0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nas/home/siyiguo/anaconda3/lib'
 

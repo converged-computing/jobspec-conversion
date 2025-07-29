@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=colabsing
-#FLUX: -c=12
-#FLUX: --queue=bdi
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=colabsing
+#FLUX -c=12
+#FLUX --queue=bdi
+#FLUX -t=300
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/home/jamesl/rp24/scratch_nobackup/jamesl'
 

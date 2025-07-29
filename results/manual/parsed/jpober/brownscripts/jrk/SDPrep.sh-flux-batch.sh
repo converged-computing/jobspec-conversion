@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FHDPrep
-#FLUX: -n=2
-#FLUX: --queue=jpober-test
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=FHDPrep
+#FLUX -n=2
+#FLUX --queue=jpober-test
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source activate PAPER
 PSA64Obs='/users/jkerriga/data/jkerriga/PSA64SingleDay'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=circRNA_ampliconseq
-#FLUX: -c=2
-#FLUX: --queue=ccr,norm
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=circRNA_ampliconseq
+#FLUX -c=2
+#FLUX --queue=ccr,norm
+#FLUX -t=345600
+#FLUX --urgency=16
 
 set -eo pipefail
 module purge

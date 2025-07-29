@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=glidein
-#FLUX: -c=14
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=glidein
+#FLUX -c=14
+#FLUX --queue=gpuA100x4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo `date`
 echo $HOSTNAME

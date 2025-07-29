@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MyMATLABJob
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MyMATLABJob
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
 
 t0=$(date +%s)
 module load matlab/R2021a

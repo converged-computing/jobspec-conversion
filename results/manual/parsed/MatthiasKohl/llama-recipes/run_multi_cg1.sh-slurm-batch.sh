@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llama-multi-cg1
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-multi-cg1
+#SBATCH --output=/home/nvidia/mjoux/llama-recipes/multi_run/%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=475G
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/nvidia/mjoux/llama-recipes
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NTASKS_PER_NODE*$SLURM_JOB_NUM_NODES))'

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=emb
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=rtx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=emb
+#SBATCH --output=embo.txt
+#SBATCH --error=embe.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=rtx
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

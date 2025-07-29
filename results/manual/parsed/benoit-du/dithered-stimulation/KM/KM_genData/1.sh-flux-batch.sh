@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=KM
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=KM
+#FLUX --queue=medium
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MCR_CACHE_ROOT='$(mktemp -d)'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-buttface-6508
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-fork-3987
+#FLUX -N=2
+#FLUX --urgency=16
 
 module add openmpi/4.1.2
 cd /mnt/orangefs/hacker/2022HPC-Genie-LAMMPS/tweak_lammps_Hunter/

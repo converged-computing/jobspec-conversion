@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-squidward-3348
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lemon-9237
+#FLUX -t=86340
+#FLUX --urgency=16
 
 runs=$(pwd)
 MPI_Run=$(dirname "$runs")

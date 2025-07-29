@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sims
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=sims
+#SBATCH --output=simresults/simulation_%a.log
+#SBATCH --mail-user=cecile.ane@wisc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
+#SBATCH --array=1-240
 
 export JULIA_DEPOT_PATH='/workspace/ane/.julia'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-5507
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-despacito-2234
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=boost_usr_prod
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export MASTER_ADDR='$addr'
 export NPROC_PER_NODE='4 # We use this to calculate distributed_world_size (total nr of GPUs) in train_script.sh.'

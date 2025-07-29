@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pred_doc
-#FLUX: --queue=gpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=pred_doc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=02:30:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-3
 
 export PATH='$PATH:/home1/s3412768/.local/bin'
 export PYTORCH_CUDA_ALLOC_CONF='garbage_collection_threshold:0.6,max_split_size_mb:128'

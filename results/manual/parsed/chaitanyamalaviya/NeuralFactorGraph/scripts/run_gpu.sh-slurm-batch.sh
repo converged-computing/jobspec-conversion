@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cattywampus-4098
-#FLUX: -n=2
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=10g
 
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'
 export CPATH='/opt/cudnn-8.0/include:$CPATH'

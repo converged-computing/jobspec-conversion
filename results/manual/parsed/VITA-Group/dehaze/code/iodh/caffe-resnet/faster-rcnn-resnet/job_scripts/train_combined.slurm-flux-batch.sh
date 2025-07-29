@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu
-#FLUX: -t=163800
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --queue=gpu
+#FLUX -t=163800
+#FLUX --urgency=16
 
 echo $PATH
 module list

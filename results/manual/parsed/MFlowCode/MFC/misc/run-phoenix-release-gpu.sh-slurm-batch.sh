@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-latke-5558
-#FLUX: --queue=embers
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=gts-sbryngelson3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=embers
 
 cd "$SLURM_SUBMIT_DIR"
 echo "Running in $(pwd):"

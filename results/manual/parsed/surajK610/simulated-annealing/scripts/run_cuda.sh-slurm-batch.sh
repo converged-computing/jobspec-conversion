@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-puppy-4448
-#FLUX: --queue=3090-gcondo
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=outputs/with_gpu.out
+#SBATCH --error=outputs/with_gpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=3090-gcondo
 
 echo "Current Working Directory (CWD): $(pwd)"
 module load cuda/12.2.2  gcc/10.2   

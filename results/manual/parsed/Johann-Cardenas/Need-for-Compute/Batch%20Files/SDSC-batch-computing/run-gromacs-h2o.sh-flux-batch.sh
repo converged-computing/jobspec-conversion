@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-2020.4-2ufeq67-aocc-3.2.0-io3s466-openmpi-4.1.3-xigazqd-water-cut1.0_GMX50_bare-3072-4-node-128-mpi-1-omp
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs-2020.4-2ufeq67-aocc-3.2.0-io3s466-openmpi-4.1.3-xigazqd-water-cut1.0_GMX50_bare-3072-4-node-128-mpi-1-omp
+#FLUX -N=4
+#FLUX --queue=compute
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export UCX_TLS='shm,rc,ud,dc'

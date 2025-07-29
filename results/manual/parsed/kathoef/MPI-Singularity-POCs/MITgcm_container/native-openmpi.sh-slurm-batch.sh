@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-knife-5439
-#FLUX: -N=2
-#FLUX: --queue=cluster
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=cluster
 
 export MITGCM='$HOME/github/MPI-Singularity-PoC/MITgcm_container/MITgcm'
 export EXPDIR='$PWD/test2'

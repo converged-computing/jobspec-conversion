@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PLUMES
-#FLUX: --queue=${AUX_QUEUE}
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PLUMES
+#FLUX --queue=${AUX_QUEUE}
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export ndacc='5    # número de dias em que a precipitação deverá ser acumulada (maior ou igual a 1)'
 export noutpday='3 # número de semanas a serem consideradas (múltiplo de 3)'

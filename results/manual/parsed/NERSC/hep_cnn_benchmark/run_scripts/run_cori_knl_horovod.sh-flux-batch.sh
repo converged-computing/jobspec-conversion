@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hep_train_tf
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=hep_train_tf
+#FLUX --queue=regular
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load python/3.6-anaconda-4.4
 source activate thorstendl-cori-2.7

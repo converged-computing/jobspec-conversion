@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-9857
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-spoon-5162
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load openmind/anaconda/3-2019.10; module load openmind/cuda/9.1;
 source activate mesh_funcspace;

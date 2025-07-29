@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poodle-1730
-#FLUX: -c=30
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-fudge-5442
+#FLUX -c=30
+#FLUX -t=604800
+#FLUX --urgency=16
 
 singularity exec --overlay /scratch/zp2137/text-mining/overlay-25GB-500K.ext3:ro \
         /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif \

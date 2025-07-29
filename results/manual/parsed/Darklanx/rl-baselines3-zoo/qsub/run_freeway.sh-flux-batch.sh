@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-0932
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-cherry-6034
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Darklanx/rl-baselines3-zoo/qsub/run_freeway.sh

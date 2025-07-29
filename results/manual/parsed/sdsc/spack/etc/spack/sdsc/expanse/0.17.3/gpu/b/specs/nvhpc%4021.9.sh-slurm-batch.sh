@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nvhpc@21.9
-#FLUX: -c=16
-#FLUX: --queue=ind-gpu-shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nvhpc@21.9
+#SBATCH --account=use300
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=93G
+#SBATCH --time=01:00:00
+#SBATCH --partition=ind-gpu-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

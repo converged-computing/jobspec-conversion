@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lizard-3296
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=15
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:10
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=low
 
 export PYTHONUNBUFFERED='1'
 

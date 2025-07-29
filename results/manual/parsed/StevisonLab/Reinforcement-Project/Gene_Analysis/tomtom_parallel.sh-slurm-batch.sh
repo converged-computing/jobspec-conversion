@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_tomtom
-#FLUX: -n=20
-#FLUX: --queue=jro0014_amd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=parallel_tomtom
+#SBATCH --mail-user=npb0015@auburn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=jro0014_amd
 
 module load gnu-parallel/20120222
 Seqs=(`grep ">" ParaCyno.Unique.Ref.fa | sed 's/>//'`)

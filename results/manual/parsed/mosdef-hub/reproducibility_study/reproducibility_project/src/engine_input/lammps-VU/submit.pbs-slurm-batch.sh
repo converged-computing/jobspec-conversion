@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poo-3361
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mosdef-hub/reproducibility_study/reproducibility_project/src/engine_input/lammps-VU/submit.pbs

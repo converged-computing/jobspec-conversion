@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=waypoint_train
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=dev
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=waypoint_train
+#FLUX -N=8
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=dev
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source /private/home/%u/.bashrc
 conda deactivate

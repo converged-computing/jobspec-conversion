@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cherry-7876
-#FLUX: -c=20
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=faux-dog-6672
+#FLUX -c=20
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

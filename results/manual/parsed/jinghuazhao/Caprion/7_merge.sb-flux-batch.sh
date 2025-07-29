@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_merge
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=_merge
+#FLUX --queue=icelake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export TMPDIR='${HPC_WORK}/work'
 export analysis='~/Caprion/analysis'

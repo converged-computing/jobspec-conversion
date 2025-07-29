@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hope-6239
-#FLUX: --queue=normal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=03:00:00
+#SBATCH --partition=normal
 
 remote_name="${USER}_gcs_backup"
 gcs_path="dlab-backup-${USER}"

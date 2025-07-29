@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-banana-3767
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=all
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=angry-general-0180
+#FLUX -N=2
+#FLUX -n=4
+#FLUX --queue=all
+#FLUX -t=120
+#FLUX --urgency=16
 
 ml lang JuliaHPC
 srun -n 4 julia --project -t 1 $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')

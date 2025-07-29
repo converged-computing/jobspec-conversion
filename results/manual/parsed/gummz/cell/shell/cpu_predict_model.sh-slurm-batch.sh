@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pot-3597
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/cpu_predict_model.sh

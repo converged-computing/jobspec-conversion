@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=run_inplace_mpi
-#FLUX: -n=32
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=run_inplace_mpi
+#SBATCH --account=adamginsburg
+#SBATCH --output=/blue/adamginsburg/adamginsburg/ACES/logs/run_inplace_mpi_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=128gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export LOGFILENAME='${LOG_DIR}/casa_log_mpi_inplacepipeline_${SLURM_JOB_ID}_$(date +%Y-%m-%d_%H_%M_%S).log'
 export ACES_ROOTDIR='/orange/adamginsburg/ACES/reduction_ACES/'

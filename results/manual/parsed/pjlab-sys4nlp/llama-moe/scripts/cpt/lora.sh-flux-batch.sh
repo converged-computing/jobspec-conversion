@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-llama-moe-lora-bs16-dropout=0.1
-#FLUX: -N=2
-#FLUX: -c=64
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=cpt-llama-moe-lora-bs16-dropout=0.1
+#FLUX -N=2
+#FLUX -c=64
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

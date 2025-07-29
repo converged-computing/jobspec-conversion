@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cache_igpt
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cache_igpt
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 PARRAY=(20 21 22 23 24 25)    
 p=${PARRAY[`expr $SLURM_ARRAY_TASK_ID % ${#PARRAY[@]}`]}

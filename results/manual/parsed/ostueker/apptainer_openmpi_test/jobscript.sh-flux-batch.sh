@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-chair-3195
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=hello-sundae-2977
+#FLUX -N=2
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PMIX_MCA_gds='^ds12'
 export OMPI_MCA_btl_vader_single_copy_mechanism='none'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$jobname
-#FLUX: -n=4
-#FLUX: --queue=$partition
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=$jobname
+#FLUX -n=4
+#FLUX --queue=$partition
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PATH='/jmain02/home/J2AD004/sxk40/rxw76-sxk40/.local/bin:£PATH'
 

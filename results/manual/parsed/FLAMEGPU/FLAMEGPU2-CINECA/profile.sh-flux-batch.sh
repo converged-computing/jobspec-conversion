@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-0635
-#FLUX: -c=2
+#FLUX --job-name=stanky-snack-8162
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=m100_usr_prod
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --queue=m100_usr_prod
+#FLUX -t=2700
+#FLUX --urgency=16
 
 rm -rf /tmp/nvidia
 ln -s $TMPDIR /tmp/nvidia

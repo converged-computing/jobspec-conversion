@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-dog-7469
-#FLUX: -c=5
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=project_2002044
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:v100:1,nvme:20
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 module load tensorflow
 echo $LOCAL_SCRATCH

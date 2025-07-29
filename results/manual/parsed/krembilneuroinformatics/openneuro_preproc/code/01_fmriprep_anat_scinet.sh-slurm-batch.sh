@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_anat
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep_anat
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=1-00:00:00
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/${OPENNEURO_DSID}/bids'

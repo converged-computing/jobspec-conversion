@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chip-6655
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_process_code/process_valid_lda_data.lsf

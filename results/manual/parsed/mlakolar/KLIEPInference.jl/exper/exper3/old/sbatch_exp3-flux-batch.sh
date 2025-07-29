@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nalgas-6312
-#FLUX: -n=168
-#FLUX: --queue=broadwl
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-cat-4285
+#FLUX -n=168
+#FLUX --queue=broadwl
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load parallel
 module load hdf5

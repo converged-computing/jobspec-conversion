@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-parsnip-0551
-#FLUX: -n=16
-#FLUX: --queue=comp,short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=sn29
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=03:00:00
+#SBATCH --partition=comp,short
+#SBATCH --qos=partner
 
 export lammps='/projects/sn29/apps/clammps/build/lmp_mpi'
 

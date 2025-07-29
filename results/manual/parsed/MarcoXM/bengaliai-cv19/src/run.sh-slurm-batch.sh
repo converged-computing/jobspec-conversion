@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet34
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet34
+#SBATCH --output=stdout
+#SBATCH --error=stderr
+#SBATCH --mail-user=xwang423@fordham.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
+#SBATCH --exclude=node[001,002]
 
 export CUDA_VISIBLE_DEVICES='0'
 export IMG_HEIGHT='137'

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cattywampus-4341
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=romeo
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=zihforschung
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1972M
+#SBATCH --time=04:00:00
+#SBATCH --partition=romeo
+#SBATCH: --exclusive
 
 module load CMake Ninja Clang hwloc
 module list

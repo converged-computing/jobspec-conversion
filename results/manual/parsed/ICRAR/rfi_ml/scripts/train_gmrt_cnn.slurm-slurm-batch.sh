@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gmrt_cnn
-#FLUX: --queue=gpuq
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=gmrt_cnn
+#SBATCH --account=pawsey0245
+#SBATCH --mail-user=kevin.vinsen@icrar.org
+#SBATCH --mail-type=TIME_LIMIT_90
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpuq
 
 module load use.own
 module load broadwell gcc/5.4.0 cuda python magma cffi

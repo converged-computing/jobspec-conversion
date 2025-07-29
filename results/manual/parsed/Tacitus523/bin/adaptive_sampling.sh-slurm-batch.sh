@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=retrain_${iteration_idx_padded}
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=retrain_${iteration_idx_padded}
+#SBATCH --output=$out_file
+#SBATCH --error=$error_file
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-node=$n_parallel_tasks,ntasks-per-node=1
+#SBATCH --dependency=$orca_job_ids
 
 export GMX_MAXBACKUP='-1'
 export PLUMED_MAXBACKUP='-1'

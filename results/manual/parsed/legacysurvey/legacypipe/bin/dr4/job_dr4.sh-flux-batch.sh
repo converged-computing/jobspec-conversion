@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trace
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=trace
+#FLUX -n=2
+#FLUX --queue=shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LEGACY_SURVEY_DIR='/global/cscratch1/sd/desiproc/dr4/legacypipe-dir/../dr4_fixes/legacypipe-dir'
 export UNWISE_COADDS_DIR='/global/cscratch1/sd/desiproc/dr4/unwise-coadds/fulldepth:/global/cscratch1/sd/desiproc/dr4/unwise-coadds/w3w4'

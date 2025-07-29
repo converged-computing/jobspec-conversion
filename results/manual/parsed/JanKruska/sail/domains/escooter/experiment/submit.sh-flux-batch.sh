@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-despacito-9958
+#FLUX --job-name=loopy-cattywampus-5921
 #FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=hpc
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MALLOC_ARENA_MAX='4'
 

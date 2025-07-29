@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-3060
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whichUC_par_75hr.sh

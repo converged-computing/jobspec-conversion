@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet34
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=resnet34
+#FLUX -c=8
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export IMG_HEIGHT='137'

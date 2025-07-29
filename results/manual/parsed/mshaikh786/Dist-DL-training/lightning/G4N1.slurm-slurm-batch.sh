@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-muffin-2517
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=4
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=4,a100
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

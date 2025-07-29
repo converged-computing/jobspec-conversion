@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mypyjob
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=mypyjob
+#SBATCH --account=2017-85
+#SBATCH --output=output_file.o
+#SBATCH --error=error_file.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:K80:2
+#SBATCH --time=5-00:00:00
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

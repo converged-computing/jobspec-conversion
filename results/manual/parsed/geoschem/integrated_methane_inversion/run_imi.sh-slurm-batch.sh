@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lamp-4297
-#FLUX: --urgency=16
+#SBATCH --output=imi_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 source src/utilities/common.sh
 source src/components/setup_component/setup.sh

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evolve-neat
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=evolve-neat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=500MB
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

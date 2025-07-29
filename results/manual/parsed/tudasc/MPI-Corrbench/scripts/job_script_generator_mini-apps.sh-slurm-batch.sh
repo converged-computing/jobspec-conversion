@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-squidward-1821
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 TASKS=8
 APP=$2

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=peg_real
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=peg_real
+#SBATCH --account=um_dke
+#SBATCH --output=pegasus_log/pegasus_real_%A.log
+#SBATCH --mail-user=my_email@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:pascal:1
+#SBATCH --mem=12000
+#SBATCH --time=1-00:00:00
 
 export PATH='$HOME/.local/bin:$PATH'
 

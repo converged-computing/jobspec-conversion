@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=category_selectivity
-#FLUX: -c=2
-#FLUX: --queue=octopus
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=category_selectivity
+#FLUX -c=2
+#FLUX --queue=octopus
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/alexander.lepauvre/sw/github/ECoG'
 

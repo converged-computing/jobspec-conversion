@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=velocyto
-#FLUX: --urgency=16
+#SBATCH --job-name=velocyto
+#SBATCH --output=velocyto_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --constraint=ntasks-per-node=1
 
 conda activate r4.0.3
 spack load -r samtools@1.8

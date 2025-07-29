@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-2939
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-nalgas-3420
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PWD'
 

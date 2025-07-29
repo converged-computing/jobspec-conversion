@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-blackbean-8482
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-punk-1833
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /home/data/NDClab/tools/lab-devOps/scripts/monitor/tools.sh
 module load singularity-3.8.2

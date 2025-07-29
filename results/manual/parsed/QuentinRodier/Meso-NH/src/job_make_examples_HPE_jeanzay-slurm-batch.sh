@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Examples
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=qos_cpu-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Examples
+#SBATCH --account=mnh@cpu
+#SBATCH --output=Examples.eo%j
+#SBATCH --error=Examples.eo%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=qos_cpu-dev
+#SBATCH: --exclusive
 
 export MONORUN='Exec srun -l -n 1 --export=ALL numabind_core_slurm'
 export MPIRUN='Exec srun -l -n 4 --export=ALL numabind_core_slurm'

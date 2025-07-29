@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-puppy-0843
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-frito-8126
+#FLUX -c=24
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory --nocompiler $READEX_CXX'
 

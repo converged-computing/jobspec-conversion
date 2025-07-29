@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -n=28
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:x
+#SBATCH --time=00:08:00
 
 echo $CUDA_VISIBLE_DEVICES
 ml purge  > /dev/null 2>&1 

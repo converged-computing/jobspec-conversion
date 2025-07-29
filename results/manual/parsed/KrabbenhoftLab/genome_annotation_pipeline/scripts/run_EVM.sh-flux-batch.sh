@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-9481
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-knife-2902
+#FLUX --queue=general-compute
+#FLUX -t=259200
+#FLUX --urgency=16
 
 SPECIES=$1 # short name for your species
 GENOME_DIR=$2 # directory containing your genome assembly

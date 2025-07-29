@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parsnip-7847
-#FLUX: --exclusive
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --account=m2294
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=09:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'
 export PYTHONPATH='$root_dir"/dask:"$PYTHONPATH'

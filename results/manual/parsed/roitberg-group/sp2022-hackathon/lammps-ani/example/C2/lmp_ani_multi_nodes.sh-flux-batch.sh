@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -N=10
-#FLUX: -n=80
-#FLUX: --queue=hpg-ai
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_job_test
+#FLUX -N=10
+#FLUX -n=80
+#FLUX --queue=hpg-ai
+#FLUX -t=300
+#FLUX --urgency=16
 
 export LAMMPS_PLUGIN_PATH='/home/jinzexue/hackathon/sp2022-hackathon/lammps-ani/build'
 

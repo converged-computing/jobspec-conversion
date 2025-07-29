@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=25_diiodothiophene_CASTEP_opt
-#FLUX: -N=6
-#FLUX: --exclusive
-#FLUX: --queue=scarf
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=25_diiodothiophene_CASTEP_opt
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=scarf
+#SBATCH: --exclusive
+#SBATCH --constraint=amd
+#SBATCH --array=0
 
 module purge
 module load AMDmodules

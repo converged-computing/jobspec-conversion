@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-parrot-9795
-#FLUX: --queue=rome
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-earthworm-2224
+#FLUX --queue=rome
+#FLUX -t=86400
+#FLUX --urgency=16
 
 nvidia-smi
 source ~/.bashrc

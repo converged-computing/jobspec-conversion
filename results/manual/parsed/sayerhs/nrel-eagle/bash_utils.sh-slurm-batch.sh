@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --account=hfm
+#SBATCH --output=%x_%j.slurm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

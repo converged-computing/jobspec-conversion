@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hpc_gpu1_fairseq
-#FLUX: -c=8
-#FLUX: --queue=gpu1
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=hpc_gpu1_fairseq
+#FLUX -c=8
+#FLUX --queue=gpu1
+#FLUX -t=64800
+#FLUX --urgency=16
 
 module load TensorFlow/1.8.0-foss-2018a-Python-3.6.4-CUDA-9.2.88
 DDIR=data/monument_600

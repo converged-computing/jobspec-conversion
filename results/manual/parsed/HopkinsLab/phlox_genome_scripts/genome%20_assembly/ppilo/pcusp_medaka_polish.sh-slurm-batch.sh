@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=medaka_array
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=medaka_array
+#SBATCH --output=medaka_%A_%a.out
+#SBATCH --error=medaka_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-17
 
 module load intel/19.0.5-fasrc01
 p=$(sed "${SLURM_ARRAY_TASK_ID}q;d" contigs_fofn.txt)

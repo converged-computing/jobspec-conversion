@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Kernel_attenuation
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=Kernel_attenuation
+#SBATCH --account=w18_trust
+#SBATCH --output=slurm.log
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --qos=interactive
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts" '

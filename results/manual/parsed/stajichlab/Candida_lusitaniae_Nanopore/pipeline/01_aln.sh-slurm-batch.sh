@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ClusAln
-#FLUX: -n=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=ClusAln
+#SBATCH --output=logs/Clus.bwa.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=08:00:00
 
 module load bwa/0.7.17
 module unload java

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-rabbit-0424
-#FLUX: -N=128
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-fork-5537
+#FLUX -N=128
+#FLUX --queue=regular
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export EXEC='${HERE}/pretrain_gpt_alcf.py'
 export hfds='${HERE}/hostfile_deepspeed" && [ -f "${hfds}" ] || exit'

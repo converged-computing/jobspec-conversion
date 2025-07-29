@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-dog-2276
-#FLUX: -c=12
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=logs/run_infer_S0_0_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdgpufast
+#SBATCH --constraint=ntasks-per-node=1
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1
 ml PyTorch-Geometric/2.0.2-foss-2021a-CUDA-11.3.1-PyTorch-1.10.0

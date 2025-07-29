@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Exp_Ha50_ser
-#FLUX: -N=2
-#FLUX: --queue=volta
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Exp_Ha50_ser
+#SBATCH --output=outputExp_Ha50_ser
+#SBATCH --error=errorExp_Ha50_ser
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=volta
+#SBATCH --constraint=ntasks-per-node=1
 
 SLURM_NPROCS=`expr $SLURM_JOB_NUM_NODES \* $SLURM_NTASKS_PER_NODE`
 srun hostname -s > hosts.$SLURM_JOB_ID

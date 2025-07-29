@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-onion-9648
-#FLUX: -n=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=[intel18]
 
 ~/julia-1.7.0/bin/julia generate_mesh.jl 
 g++ openmp_version.cpp -fopenmp

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=siammae_k400
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=siammae_k400
+#SBATCH --output=./logs/%j_%x.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export GPUS='$SLURM_JOB_NUM_GPUS'
 export PORT='$master_port'

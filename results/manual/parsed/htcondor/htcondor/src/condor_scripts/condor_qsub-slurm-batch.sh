@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-milkshake-0281
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/htcondor/htcondor/src/condor_scripts/condor_qsub

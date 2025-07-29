@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=16
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=IO-500
+#SBATCH --account=FY140262
+#SBATCH --output=io_500_out_%J
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:40:00
+#SBATCH --constraint=ntasks-per-node=10
 
 filesys_root=/fscratch
 basedir=${filesys_root}/gflofst

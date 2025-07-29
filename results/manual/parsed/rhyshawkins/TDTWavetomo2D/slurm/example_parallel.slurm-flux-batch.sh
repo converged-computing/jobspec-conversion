@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=example_parallel
-#FLUX: --queue=transcale
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=example_parallel
+#FLUX --queue=transcale
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export INTEL_LICENSE_FILE='/softs/intel/l_ics/license:$INTEL_LICENSE_FILE'
 

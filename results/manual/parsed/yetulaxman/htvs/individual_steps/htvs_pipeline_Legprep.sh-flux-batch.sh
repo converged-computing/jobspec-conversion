@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-gato-3567
-#FLUX: -n=10
-#FLUX: --queue=small
-#FLUX: -t=4210
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-platanos-1750
+#FLUX -n=10
+#FLUX --queue=small
+#FLUX -t=4210
+#FLUX --urgency=16
 
 module load maestro parallel
 find $PWD/data_SMILES  -name '*.smi' | \

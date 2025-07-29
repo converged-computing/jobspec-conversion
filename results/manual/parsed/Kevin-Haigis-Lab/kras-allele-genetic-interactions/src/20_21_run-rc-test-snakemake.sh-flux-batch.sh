@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pancake-4542
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-cattywampus-0594
+#FLUX --queue=priority
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc conda2 slurm-drmaa/1.1.0
 source activate rctest

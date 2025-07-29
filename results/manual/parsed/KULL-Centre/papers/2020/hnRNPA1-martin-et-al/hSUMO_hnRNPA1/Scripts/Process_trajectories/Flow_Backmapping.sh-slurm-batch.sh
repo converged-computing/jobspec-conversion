@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hnRNPA1_backmapping
-#FLUX: --queue=sbinlab
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=hnRNPA1_backmapping
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8Gb
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=sbinlab
+#SBATCH --constraint=ntasks-per-node=64
 
 export PATH='/lustre/hpc/sbinlab/software/miniconda3/bin:$PATH'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/lustre/hpc/sbinlab/software/miniconda3/lib:/groups/sbinlab/wyong/usr/local/PLUMED253/lib'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-punk-3355
-#FLUX: -c=20
-#FLUX: --queue=xeon-g6-volta
-#FLUX: -t=2880
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-punk-4219
+#FLUX -c=20
+#FLUX --queue=xeon-g6-volta
+#FLUX -t=2880
+#FLUX --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export GPUS_PER_NODE='1'

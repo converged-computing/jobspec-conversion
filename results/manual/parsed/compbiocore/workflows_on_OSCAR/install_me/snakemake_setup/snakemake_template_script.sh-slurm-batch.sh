@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-house-3579
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8g
+#SBATCH --time=05:00:00
 
 snakemake_start
 snakemake -s /path/to/snakefile -profile oscar

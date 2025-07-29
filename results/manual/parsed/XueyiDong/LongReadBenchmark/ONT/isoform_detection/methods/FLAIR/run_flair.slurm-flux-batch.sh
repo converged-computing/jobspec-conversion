@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-blackbean-6907
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-squidward-5595
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load anaconda3
 source activate

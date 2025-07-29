@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-caramel-4910
-#FLUX: --urgency=16
+#FLUX --job-name=milky-kerfuffle-0461
+#FLUX --urgency=16
 
 resDir="${HOME}/Results"
 if [ -d $resDir ]; then

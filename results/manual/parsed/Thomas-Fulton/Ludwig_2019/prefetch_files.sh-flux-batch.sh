@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hippo-2284
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-hippo-9194
+#FLUX -c=8
+#FLUX --queue=defq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='`pwd`/software/bin:$PATH:`pwd`/software/sratoolkit.2.11.0-ubuntu64/bin/;'
 

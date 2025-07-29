@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-house-2871
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-plant-3645
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX --urgency=16
 
 source activate dac
 experi="3D3M"

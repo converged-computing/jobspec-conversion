@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peas-9567
-#FLUX: -t=244800
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-knife-3724
+#FLUX -t=244800
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 

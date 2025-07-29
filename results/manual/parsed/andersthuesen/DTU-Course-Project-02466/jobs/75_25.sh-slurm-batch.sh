@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-caramel-8002
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/andersthuesen/DTU-Course-Project-02466/jobs/75_25.sh

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TRSV
-#FLUX: -c=40
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=TRSV
+#SBATCH --output=DDT.%j.%N.out
+#SBATCH --mail-user=zacharycetinic@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=12:00:00
 
 module load NiaEnv/2019b
 module load cmake/3.17.3

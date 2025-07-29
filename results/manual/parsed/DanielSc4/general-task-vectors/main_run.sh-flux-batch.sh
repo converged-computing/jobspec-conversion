@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=general_task_vector_main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=general_task_vector_main
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/'
 

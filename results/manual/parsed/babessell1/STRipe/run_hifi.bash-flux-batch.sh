@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_trgt
-#FLUX: --queue=standard
-#FLUX: -t=28740
-#FLUX: --urgency=16
+#FLUX --job-name=run_trgt
+#FLUX --queue=standard
+#FLUX -t=28740
+#FLUX --urgency=16
 
 MODE=$1
 CORES="$SLURM_NTASKS"

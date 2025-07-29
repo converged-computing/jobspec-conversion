@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_jupyter_sing
-#FLUX: --queue=gtx
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=tvp_jupyter_sing
+#FLUX --queue=gtx
+#FLUX -t=7200
+#FLUX --urgency=16
 
 SIMG=/work/06634/eho/singularity_images/deeplabcut_2_1_10.sif
 while getopts "i" opt

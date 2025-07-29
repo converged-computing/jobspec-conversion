@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-staircase-0164
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-poodle-5107
+#FLUX -c=20
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda-11.2.0-gcc-10.2.0-gsjevs3
 source activate torch171

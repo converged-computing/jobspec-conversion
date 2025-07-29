@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TWA_HP
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --job-name=TWA_HP
+#SBATCH --output=log_TWA_HP%a
+#SBATCH --error=log_TWA_HP%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-8
 
 srun julia -t 48 TWA_HP.jl ${SLURM_ARRAY_TASK_ID}

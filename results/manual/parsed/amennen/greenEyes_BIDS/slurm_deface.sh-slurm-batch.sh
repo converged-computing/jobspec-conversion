@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=deface
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=deface
+#SBATCH --output=../derivatives/deface/logs/deface-%A_%a.log
+#SBATCH --mail-user=amennen@princeton.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20000
+#SBATCH --time=01:00:00
+#SBATCH --partition=all
+#SBATCH --array=2-14,16-19,25-26,28-33,35-46
 
 echo "Purging modules"
 module purge

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=alignment.job
-#FLUX: -c=30
-#FLUX: --queue=intel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=alignment.job
+#SBATCH --output=alignment.stdout
+#SBATCH --mail-user=danielaz@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=3G
+#SBATCH --time=05:00:00
+#SBATCH --partition=intel
 
 ________________________________________________________________________________________________________
 ________________________________________________________________________________________________________

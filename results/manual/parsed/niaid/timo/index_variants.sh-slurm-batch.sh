@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-squidward-8602
-#FLUX: -c=20
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=32GB
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 BAM_DIR=$1
 RUNDIR=$2

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cattywampus-9264
-#FLUX: --queue=valhalla
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=bsmith24@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=valhalla
+#SBATCH --qos=valhalla
+#SBATCH --constraint=ntasks-per-node=4
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

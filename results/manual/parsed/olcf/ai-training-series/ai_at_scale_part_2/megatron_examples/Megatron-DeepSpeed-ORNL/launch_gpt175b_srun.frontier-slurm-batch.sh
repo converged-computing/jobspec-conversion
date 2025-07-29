@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt175b_megatron
-#FLUX: -N=24
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt175b_megatron
+#SBATCH --account=STF218
+#SBATCH --output=logs/gpt175b_megatron_24N-%j.o
+#SBATCH --error=logs/gpt175b_megatron_24N-%j.e
+#SBATCH --nodes=24
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'
 export ROCM_HOME='/opt/rocm-5.4.0'

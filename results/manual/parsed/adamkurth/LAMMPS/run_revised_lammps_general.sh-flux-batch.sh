@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-dog-3782
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-destiny-5984
+#FLUX --urgency=16
 
 ng test cases of lammps on agave. 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"               

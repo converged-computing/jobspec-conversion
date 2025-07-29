@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-milkshake-9050
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 FAIRSEQ=/private/home/shru/projects/fairseq-py-moe
 SWEEP_NAME=billion_words_lm_training_v3.0

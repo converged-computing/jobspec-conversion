@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mut_gatk_ptpn11
-#FLUX: -N=3
-#FLUX: -c=32
-#FLUX: -t=169800
-#FLUX: --urgency=16
+#FLUX --job-name=mut_gatk_ptpn11
+#FLUX -N=3
+#FLUX -c=32
+#FLUX -t=169800
+#FLUX --urgency=16
 
 echo "Starting at $(date)"
 echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partition on ${SLURM_CLUSTER_NAME}"

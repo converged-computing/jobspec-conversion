@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_jupyter_sing
-#FLUX: --urgency=16
+#FLUX --job-name=tvp_jupyter_sing
+#FLUX --urgency=16
 
 echo "TACC: unloading xalt"
 module unload xalt

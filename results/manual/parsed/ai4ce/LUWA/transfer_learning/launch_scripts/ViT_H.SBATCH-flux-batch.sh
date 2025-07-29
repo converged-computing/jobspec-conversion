@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ViT_H
-#FLUX: -c=10
-#FLUX: --queue=a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
-#FLUX: -t=158400
-#FLUX: --urgency=16
+#FLUX --job-name=ViT_H
+#FLUX -c=10
+#FLUX --queue=a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
+#FLUX -t=158400
+#FLUX --urgency=16
 
 module purge
 RESOLUTION=256

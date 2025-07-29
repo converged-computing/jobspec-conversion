@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-salad-7694
-#FLUX: --queue=small,ram256g,ram1t
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-poo-4188
+#FLUX --queue=small,ram256g,ram1t
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 set -o pipefail

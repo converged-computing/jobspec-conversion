@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-poo-1029
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-train-9823
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ORNL/TwoFold_DL/train/structure_summit.lsf

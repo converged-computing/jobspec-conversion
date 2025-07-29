@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gauss
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=gauss
+#SBATCH --output=gauss_%j.out
+#SBATCH --error=gauss_%j.err
+#SBATCH --mail-user=akp258@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load cuda/8.0.44

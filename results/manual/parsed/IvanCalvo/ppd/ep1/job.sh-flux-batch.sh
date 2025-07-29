@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=piFactorial
-#FLUX: -c=40
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=piFactorial
+#FLUX -c=40
+#FLUX --queue=fast
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='40'
 

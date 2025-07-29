@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cupcake-2835
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-muffin-7778
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=gpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export HFILE='`generate_pbs_nodefile`'
 export OMP_NUM_THREADS='1'

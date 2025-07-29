@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pat_cnn_dataset_norm
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pat_cnn_dataset_norm
+#SBATCH --account=mlprojects
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=01:00:00
 
 export CUDA_VISIBLE_DEVICES='0'
 

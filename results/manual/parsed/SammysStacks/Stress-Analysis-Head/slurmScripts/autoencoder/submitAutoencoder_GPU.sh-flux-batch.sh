@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AutoencoderModel compressionFactor $1 expansionFactor $2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=AutoencoderModel compressionFactor $1 expansionFactor $2
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'
 

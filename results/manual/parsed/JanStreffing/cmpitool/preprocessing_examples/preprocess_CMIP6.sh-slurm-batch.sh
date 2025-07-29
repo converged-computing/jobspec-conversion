@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cmpitool
-#FLUX: -c=128
-#FLUX: --queue=shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cmpitool
+#SBATCH --account=ab0246
+#SBATCH --output=output_file.log
+#SBATCH --error=error_file.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 module load cdo
 workfolder=/work/ab0246/a270092/postprocessing/cmip6_cmpitool/

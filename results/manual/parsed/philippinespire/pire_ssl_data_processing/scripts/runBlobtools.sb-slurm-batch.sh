@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blob
-#FLUX: --urgency=16
+#SBATCH --job-name=blob
+#SBATCH --output=blob-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SINGULARITY_BIND='/home/e1garcia'
 

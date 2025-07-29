@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-arm-8429
-#FLUX: -c=18
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./logs/%A.out
+#SBATCH --error=./logs/%A.err
+#SBATCH --mail-user=akshaykjagadish@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=80G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
 
 cd ~/ermi/categorisation/
 module purge

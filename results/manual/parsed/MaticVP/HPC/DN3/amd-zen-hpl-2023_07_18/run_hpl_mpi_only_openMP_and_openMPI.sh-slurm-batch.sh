@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hpl-benchmark
-#FLUX: -c=128
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=hpl-benchmark
+#SBATCH --output=hpl_benchmark_tune.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=0
+#SBATCH --time=10:00:00
 
 export UCX_TLS='self, tcp'
 

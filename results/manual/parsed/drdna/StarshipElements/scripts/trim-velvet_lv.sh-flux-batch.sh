@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trim-velvet
-#FLUX: -c=16
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=trim-velvet
+#FLUX -c=16
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "SLURM_NODELIST: "$SLURM_NODELIST
 username=$1

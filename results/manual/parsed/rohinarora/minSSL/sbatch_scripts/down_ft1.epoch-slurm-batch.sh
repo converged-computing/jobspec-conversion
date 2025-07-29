@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=down_ft1
-#FLUX: -c=32
-#FLUX: --queue=ce-mri
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=down_ft1
+#SBATCH --output=xepoch.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=100Gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=ce-mri
 
 source activate simclr1
 python downstream_eval.py --downstream_task fine_tune -tm Scratch --config_file runs/tmp_default/config.yml -e 400 --comment "_default_cfg_ft_scratch_e400" &

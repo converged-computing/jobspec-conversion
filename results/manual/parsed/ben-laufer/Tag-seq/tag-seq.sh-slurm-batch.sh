@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tag-seq
-#FLUX: -n=8
-#FLUX: --queue=production
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=tag-seq
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32000
+#SBATCH --time=00:30:00
+#SBATCH --partition=production
+#SBATCH --chdir=/share/lasallelab/Ben/PEBBLES/tag-seq
 
 start=`date +%s`
 hostname

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-punk-3655
-#FLUX: -c=2
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-poo-5919
+#FLUX -c=2
+#FLUX -t=25200
+#FLUX --urgency=16
 
 gmapfile=/cs/icore/db2175/bin/Eagle_v2.4/tables/genetic_map_hg19_withX.txt.gz
 dir=/vol/sci/bio/data/shai.carmi/db2175/embryo_selection/crohns/

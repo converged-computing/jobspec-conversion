@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=07-racon_ilm_polish
-#FLUX: -c=16
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=07-racon_ilm_polish
+#SBATCH --account=rrg-ziels
+#SBATCH --output=%x.out
+#SBATCH --mail-user=ziels@mail.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=10:00:00
 
 project_path="/project/6049207/AD_metagenome-Elizabeth"
 read_path="${project_path}/illumina_qced/racon_ilm_input/R2Sept2020_qced.renamed.interleaved.fastq"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-onion-1080
-#FLUX: --queue=chaos
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-malarkey-1544
+#FLUX --queue=chaos
+#FLUX -t=72000
+#FLUX --urgency=16
 
 usage() {
   test $# = 0 || echo "$@"

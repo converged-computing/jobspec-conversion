@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tadbitTools
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=tadbitTools
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX -t=172800
+#FLUX --urgency=16
 
 filesPath='/home/jmendietaes/data/2021/microC/sequencedData/merge_RUN208-RUN212/demux_fastq'
 genome='/home/jmendietaes/referenceGenomes/mm10_reordered/mm10.reordered.fa'

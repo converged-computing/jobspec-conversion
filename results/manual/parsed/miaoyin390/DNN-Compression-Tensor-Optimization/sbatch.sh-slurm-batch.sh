@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lizard-2472
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=out.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=v100-32:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPU-shared
 
 echo 'use bridges-2'
 RC=1

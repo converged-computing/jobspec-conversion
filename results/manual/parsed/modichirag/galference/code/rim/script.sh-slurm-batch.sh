@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-latke-2068
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=04:00:00
+#SBATCH --constraint=gpu
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 pip install --user tensorflow

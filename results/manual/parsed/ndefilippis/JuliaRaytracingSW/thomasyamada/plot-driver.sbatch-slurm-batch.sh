@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=plot_TY
-#FLUX: -c=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=plot_TY
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10GB
+#SBATCH --time=01:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NUM_JULIA_THREADS='`nproc`'
 

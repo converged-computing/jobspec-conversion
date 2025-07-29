@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SamDepth
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SamDepth
+#SBATCH --output=/home/vitor/log/samtools-depth.o%A.%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long
+#SBATCH --array=1-96
 
 SAMPLELIST=${SLURM_SUBMIT_DIR}/sample_ids_t1.txt
 SAMPLE=$( awk -v ARRID="$SLURM_ARRAY_TASK_ID" 'FNR==ARRID { print $1 }' $SAMPLELIST )

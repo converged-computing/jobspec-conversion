@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lettuce-1327
-#FLUX: -n=16
-#FLUX: --queue=node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=snic2016-34-27
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=node
 
 export CORES='4'
 export MACHINE_NAME='$(hostname)'

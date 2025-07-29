@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-1sided
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=OSU-1sided
+#SBATCH --output=%x-%j.txt
+#SBATCH --error=%x-errors-%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH: --exclusive
 
 echo -e "Case run:\n"
 cat $0

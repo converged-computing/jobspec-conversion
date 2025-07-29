@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sim_${year}_${sim}
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=sim_${year}_${sim}
+#SBATCH --account=pi-lhansen
+#SBATCH --output=./job-outs/${action_name}/Graph_Simulate/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/xia_${xi_a[$j]}_xic_${xi_c[$j]}_xid_${xi_d[$j]}_xig_${xi_g[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}_varrho_${varrho}/graph_simulate_${year}_${python_name_unit}_${sim}.out
+#SBATCH --error=./job-outs/${action_name}/Graph_Simulate/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/xia_${xi_a[$j]}_xic_${xi_c[$j]}_xid_${xi_d[$j]}_xig_${xi_g[$j]}_PSI0_${PSI_0}_PSI1_${PSI_1}_varrho_${varrho}/graph_simulate_${year}_${python_name_unit}_${sim}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
 
 actiontime=1
 epsilonarraypost=(0.05) # Computation of fine grid and psi10.8, post

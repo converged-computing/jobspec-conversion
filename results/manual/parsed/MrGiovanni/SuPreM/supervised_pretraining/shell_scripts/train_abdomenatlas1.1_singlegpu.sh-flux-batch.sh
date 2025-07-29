@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=abdomenatlas1.1-singlegpu
-#FLUX: -n=12
-#FLUX: --queue=public
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=abdomenatlas1.1-singlegpu
+#FLUX -n=12
+#FLUX --queue=public
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load mamba/latest # only for Sol
 source activate suprem

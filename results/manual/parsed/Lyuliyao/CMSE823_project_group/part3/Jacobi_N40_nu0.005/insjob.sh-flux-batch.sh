@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Incomp_NS
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Incomp_NS
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load intel  ### load necessary modules.
 module load FFmpeg

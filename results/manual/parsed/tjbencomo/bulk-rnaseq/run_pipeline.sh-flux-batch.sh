@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-car-9241
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-cat-3352
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -e
 cd $(pwd)

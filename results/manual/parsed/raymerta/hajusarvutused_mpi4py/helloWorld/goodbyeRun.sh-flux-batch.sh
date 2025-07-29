@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Goodbye
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=Goodbye
+#FLUX -N=2
+#FLUX --urgency=16
 
 export MPI4PYDIR='paralleelarvutused'
 export PYTHONPATH='$HOME/$MPI4PYDIR/install/lib/python'

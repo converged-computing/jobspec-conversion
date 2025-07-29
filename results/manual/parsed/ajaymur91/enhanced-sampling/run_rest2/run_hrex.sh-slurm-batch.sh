@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rest2
-#FLUX: --queue=yethiraj
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=rest2
+#SBATCH --output=JOB.%J.out
+#SBATCH --error=JOB.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=12:00:00
+#SBATCH --partition=yethiraj
 
 nrep=4
 mpirun -n $nrep gmx_mpi mdrun -v -plumed ../plumed.dat -multidir topol0 topol1 topol2 topol3 -replex 500 -maxh 12 -hrex -dlb no

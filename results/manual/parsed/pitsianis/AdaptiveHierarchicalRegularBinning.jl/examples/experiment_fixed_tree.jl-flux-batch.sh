@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-milkshake-5885
-#FLUX: --queue=compsci
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-earthworm-0443
+#FLUX --queue=compsci
+#FLUX --urgency=16
 
 echo julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')
 julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')

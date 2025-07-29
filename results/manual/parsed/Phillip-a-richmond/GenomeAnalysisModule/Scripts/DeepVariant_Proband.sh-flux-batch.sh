@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-6983
-#FLUX: -c=10
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-cat-5091
+#FLUX -c=10
+#FLUX --queue=defq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=coupled-totaldf
-#FLUX: -N=21
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=coupled-totaldf
+#SBATCH --account=m499
+#SBATCH --mail-user=perlmutter@jacobmerson.com
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=21
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu
 
 export FI_CXI_RX_MATCH_MODE='hybrid  # prevents crash for large number of MPI processes, e.g. > 4096'
 export OMP_STACKSIZE='2G   # required for GNU build to prevent a segfault'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=t5_CartPole-v1
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=t5_CartPole-v1
+#SBATCH --output=/scratch/PI/menon/scripts/python/misc/natgrad/ngdqn-final/baseline/cross_validate/out/ng_CartPole-v1_t5.out
+#SBATCH --error=/scratch/PI/menon/scripts/python/misc/natgrad/ngdqn-final/baseline/cross_validate/out/ng_CartPole-v1_t5.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500
+#SBATCH --time=01:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/sw/free/cuda/8.0/lib64/'
 export PATH='/scratch/PI/menon/scripts/python/misc/lasagne:$PATH'

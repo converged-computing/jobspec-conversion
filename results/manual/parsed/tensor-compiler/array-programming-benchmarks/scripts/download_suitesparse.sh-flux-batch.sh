@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-fork-3046
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-milkshake-0214
+#FLUX -t=21600
+#FLUX --urgency=16
 
 mkdir -p data/suitesparse/
 cd data/suitesparse/

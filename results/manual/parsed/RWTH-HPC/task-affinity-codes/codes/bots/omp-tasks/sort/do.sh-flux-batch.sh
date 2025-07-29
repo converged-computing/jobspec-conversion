@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_TASK_AFFINITY_TEST
+#FLUX --job-name=STREAM_TASK_AFFINITY_TEST
 #FLUX: --exclusive
-#FLUX: --queue=c16s
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=c16s
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export KMP_TASK_STEALING_CONSTRAINT='0'
 export OMP_PLACES='cores'

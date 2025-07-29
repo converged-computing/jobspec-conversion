@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-dog-5257
-#FLUX: -n=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10gb
+#SBATCH --time=1-00:00:00
 
 source ~/.bashrc
 source activate pm_env

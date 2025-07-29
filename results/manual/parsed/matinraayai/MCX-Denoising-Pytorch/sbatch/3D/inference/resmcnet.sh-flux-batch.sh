@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-poo-6371
-#FLUX: -c=256
-#FLUX: --queue=ai-jumpstart
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-cattywampus-0779
+#FLUX -c=256
+#FLUX --queue=ai-jumpstart
+#FLUX --urgency=16
 
 source ~/modules/pytorch/latest
 python model_inference.py --config-file configs/3D/inference/resmcnet/absorb-64x64x64.yaml

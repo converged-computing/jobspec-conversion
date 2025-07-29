@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-arm-4266
-#FLUX: -c=6
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=23:59:00
 
 echo "Reached before python lines of file: $1 start"
 date

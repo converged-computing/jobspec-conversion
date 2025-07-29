@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-1843
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/BSC-CNS-EAPM/MN_bash_runners/run_files/nord/run_pele_v1.7.sh

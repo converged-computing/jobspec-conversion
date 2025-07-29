@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cinnamonbun-4655
-#FLUX: -t=194400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-motorcycle-4736
+#FLUX -t=194400
+#FLUX --urgency=16
 
 export MATLABPATH='$'/MouseMotionMapper/'
 

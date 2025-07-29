@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-salad-7491
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCI-CCR-GB/serpentine/workflows/variant_calling/submit.sh

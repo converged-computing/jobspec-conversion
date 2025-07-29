@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-7721
-#FLUX: -c=5
-#FLUX: --queue=gpu
-#FLUX: -t=223200
-#FLUX: --urgency=16
+#SBATCH --output=$1/stdout.txt
+#SBATCH --error=$1/stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15000M
+#SBATCH --time=2-14:00:00
+#SBATCH --partition=gpu
 
 cat <<EoF
 hostname

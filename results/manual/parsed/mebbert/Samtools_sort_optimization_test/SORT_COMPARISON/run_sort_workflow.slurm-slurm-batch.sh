@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NF_Parent_Sort
-#FLUX: --queue=normal
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#SBATCH --job-name=NF_Parent_Sort
+#SBATCH --account=coa_mteb223_uksr
+#SBATCH --output=slurm/slurm-%j.out
+#SBATCH --error=slurm/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=3-00:15:00
+#SBATCH --partition=normal
 
 export NXF_WORK='/mnt/gpfs3_amd/condo/mteb223/mteb223/Samtools_sort_optimization_test/SORT_COMPARISON/work'
 

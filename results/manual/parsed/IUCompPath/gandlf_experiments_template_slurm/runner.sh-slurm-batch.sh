@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-kitty-7457
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/gpu/3.10.10
 echo $SLURM_JOB_NODELIST

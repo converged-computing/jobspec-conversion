@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-taco-4578
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/kempa-liehr/distributed_hctsa/PBS/pbs_runscript.sh

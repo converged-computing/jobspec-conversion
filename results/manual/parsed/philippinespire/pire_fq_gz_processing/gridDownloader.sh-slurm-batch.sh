@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gridDown
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --queue=main
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=gridDown
+#SBATCH --output=gridDown-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=main
+#SBATCH: --exclusive
 
 export SINGULARITY_BIND='/home/e1garcia  #odu'
 

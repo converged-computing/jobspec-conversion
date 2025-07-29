@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-soup-0853
-#FLUX: -n=8
-#FLUX: --queue=defq
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=fat-itch-5744
+#FLUX -n=8
+#FLUX --queue=defq
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 SAVEIFS=$IFS   # Save current IFS
 IFS=$'\n'      # Change IFS to new line

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=convergence
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=1799
-#FLUX: --urgency=16
+#SBATCH --job-name=convergence
+#SBATCH --account=project_465000434
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=400GB
+#SBATCH --time=00:29:59
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
 
 export COMPILER='clang'
 export GPU='V100'

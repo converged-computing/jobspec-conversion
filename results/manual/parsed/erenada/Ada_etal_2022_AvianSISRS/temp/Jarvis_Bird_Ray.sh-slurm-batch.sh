@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bird_ray
-#FLUX: -N=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bird_ray
+#SBATCH --output=out_bird_ray
+#SBATCH --error=out_bird_ray
+#SBATCH --mail-user=literman@uri.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 cd $SLURM_SUBMIT_DIR
 ulimit -l unlimited

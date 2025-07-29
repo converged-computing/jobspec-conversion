@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hg38_Steele_immune_TNFRSF9_noNA
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=hg38_Steele_immune_TNFRSF9_noNA
+#SBATCH --mail-user=jmitch81@jhmi.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=160G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=10
 
 RESULT_DIR="results/20220627_Steele_immune_NA_excluded_hg38"
 COUNTS_LOOM="PDAC_immune_Steele/T_immune_subset_seurat_NA_excluded_counts_matrix.loom"

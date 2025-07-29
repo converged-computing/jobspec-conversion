@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20221215-cgig-nextflow-epdiverse-snp-haws-hawaii-base_config
-#FLUX: --queue=srlab
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#SBATCH --job-name=20221215-cgig-nextflow-epdiverse-snp-haws-hawaii-base_config
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=12-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20221215-cgig-nextflow-epdiverse-snp-haws-hawaii-base_config
 
 bams_dir="/gscratch/scrubbed/samwhite/data/C_gigas/BSseq"
 epi_snp="/gscratch/srlab/programs/epidiverse-pipelines/snp"

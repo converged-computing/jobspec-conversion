@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snpla
-#FLUX: --queue=lu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=snpla
+#SBATCH --account=lu2020-2-7
+#SBATCH --output=lunarc_output/lunarc_output_snpla_%j.out
+#SBATCH --error=lunarc_output/lunarc_output_snpla_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=lu
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

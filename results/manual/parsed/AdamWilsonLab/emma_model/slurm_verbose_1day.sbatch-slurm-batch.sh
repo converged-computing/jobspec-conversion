@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=EMMA model slurm_verbose_1day.sbatch
-#FLUX: --queue=adamw
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=EMMA model slurm_verbose_1day.sbatch
+#SBATCH --output=emma_model_verbose.out
+#SBATCH --mail-user=bmaitner@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=160G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=adamw
+#SBATCH --qos=adamw
+#SBATCH --constraint=INTEL
 
   # Specify directories needed and sif file
   echo "exporting directories"

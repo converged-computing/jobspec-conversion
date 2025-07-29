@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FFT-GPU
+#FLUX --job-name=FFT-GPU
 #FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX -t=28800
+#FLUX --urgency=16
 
 set +x
 mkdir -p ${HOME}/repos/nvstdpar/build-fft-gpu

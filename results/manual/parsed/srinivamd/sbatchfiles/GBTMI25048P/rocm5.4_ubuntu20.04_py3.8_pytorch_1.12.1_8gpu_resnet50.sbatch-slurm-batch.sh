@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-puppy-6729
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=8
 
 source /etc/profile.d/modules.sh
 module purge

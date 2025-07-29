@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-underoos-5916
-#FLUX: --queue=t4_dev_q
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=phat-muffin-2647
+#FLUX --queue=t4_dev_q
+#FLUX -t=600
+#FLUX --urgency=16
 
 module reset
 module load TensorFlow

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-general-4454
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
 
 cd $SLURM_SUBMIT_DIR
 source activate watershed_Dask

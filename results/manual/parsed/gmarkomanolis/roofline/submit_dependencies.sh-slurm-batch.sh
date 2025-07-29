@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lu_c_16
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=lu_c_16
+#SBATCH --output=lu_c_16.out
+#SBATCH --error=lu_c_16.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
 
 module swap PrgEnv-cray/5.2.82 PrgEnv-intel
 module load advisor/2018.1.1.535164

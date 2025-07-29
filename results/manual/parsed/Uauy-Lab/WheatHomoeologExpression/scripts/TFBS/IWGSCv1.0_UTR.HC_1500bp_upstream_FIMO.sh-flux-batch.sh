@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-kerfuffle-6075
-#FLUX: -c=8
-#FLUX: --queue=RG-Cristobal-Uauy
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-onion-5168
+#FLUX -c=8
+#FLUX --queue=RG-Cristobal-Uauy
+#FLUX --urgency=16
 
 cd /nbi/Research-Groups/NBI/Cristobal-Uauy/Jemima/companion_paper/
 source meme-4.11.4

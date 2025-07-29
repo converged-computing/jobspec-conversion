@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=elp
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=elp
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 nvidia-smi
 source activate lipinggpu

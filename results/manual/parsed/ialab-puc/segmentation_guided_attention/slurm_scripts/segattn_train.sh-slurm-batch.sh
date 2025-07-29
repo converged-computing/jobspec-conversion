@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=segattn-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=segattn-rcnn
+#SBATCH --output=output/segattn_wealthy_%j.log
+#SBATCH --error=output/err/segattn_wealthy_%j.err
+#SBATCH --mail-user=afcadiz@uc.cl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1080Ti:1
+#SBATCH --mem=10000mb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ialab-high
+#SBATCH --dependency=500
 
 export PATH='$PATH:/usr/local/cuda-10.0/bin'
 export CUDADIR='/usr/local/cuda-10.0'

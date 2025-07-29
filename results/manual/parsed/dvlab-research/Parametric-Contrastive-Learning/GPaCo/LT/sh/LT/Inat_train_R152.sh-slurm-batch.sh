@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpaco_inat_r152
-#FLUX: -c=56
-#FLUX: --queue=dvlab
-#FLUX: --urgency=16
+#SBATCH --job-name=gpaco_inat_r152
+#SBATCH --output=gpaco_inat_r152.log
+#SBATCH --mail-user=jiequancui@link.cuhk.edu.hk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=56
+#SBATCH --gres=gpu:4
+#SBATCH --partition=dvlab
+#SBATCH --constraint=3090
 
 source activate py3.8_pt1.8.1 
 PORT=$[$RANDOM + 10000]

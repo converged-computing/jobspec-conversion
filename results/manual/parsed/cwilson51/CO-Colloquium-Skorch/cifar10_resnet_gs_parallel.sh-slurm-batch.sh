@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-1636
-#FLUX: -t=90
-#FLUX: --urgency=16
+#SBATCH --account=def-someuser
+#SBATCH --output=parallel-multigpu-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000M
+#SBATCH --time=00:01:30
+#SBATCH --constraint=ntasks-per-node=4
 
 module load python
 module list

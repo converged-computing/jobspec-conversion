@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=purecn
-#FLUX: --queue=priority
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=purecn
+#SBATCH --output=project_%j.out
+#SBATCH --error=project_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=10:00:00
+#SBATCH --partition=priority
 
 date
 . .profile

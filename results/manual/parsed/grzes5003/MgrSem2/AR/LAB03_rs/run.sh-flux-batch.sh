@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MPI_AR_LAB04_GK
-#FLUX: --queue=plgrid
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=MPI_AR_LAB04_GK
+#FLUX --queue=plgrid
+#FLUX -t=1500
+#FLUX --urgency=16
 
 if [ -z "$SCRIPT" ]; then
   TODAY=$(date +"%d_%H_%M")

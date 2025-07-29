@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=96
-#FLUX: --exclusive
-#FLUX: --queue=lva
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=lva
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=12
 
 ns=(192 288 384 480 576 672 768)
 rs=(16 32 96)

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=testlongcontext
-#FLUX: -N=2
-#FLUX: -c=12
+#FLUX --job-name=testlongcontext
+#FLUX -N=2
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=g80n140
-#FLUX: --urgency=16
+#FLUX --queue=g80n140
+#FLUX --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

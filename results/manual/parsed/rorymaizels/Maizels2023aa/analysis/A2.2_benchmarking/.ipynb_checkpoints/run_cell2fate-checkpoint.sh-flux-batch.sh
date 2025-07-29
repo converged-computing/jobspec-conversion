@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bm_c2f
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=bm_c2f
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=64800
+#FLUX --urgency=16
 
 ml Python/3.10.8-GCCcore-12.2.0
 module load CUDA/11.1.1-GCC-10.2.0

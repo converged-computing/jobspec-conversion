@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-frito-8872
-#FLUX: --queue=gpu_shared
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=arid-soup-2206
+#FLUX --queue=gpu_shared
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

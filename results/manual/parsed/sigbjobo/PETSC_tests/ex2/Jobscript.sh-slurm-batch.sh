@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DNA
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=DNA
+#SBATCH --account=nn4654k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000M
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
+#SBATCH --qos=devel
+#SBATCH --constraint=ntasks-per-node=2
 
 module load PETSc/3.4.4
 make clean

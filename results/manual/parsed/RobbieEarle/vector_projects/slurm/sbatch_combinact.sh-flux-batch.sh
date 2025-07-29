@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wrn50_cf100_2
-#FLUX: -c=6
-#FLUX: --queue=p100,t4v1,t4v2
-#FLUX: -t=2520000
-#FLUX: --urgency=16
+#FLUX --job-name=wrn50_cf100_2
+#FLUX -c=6
+#FLUX --queue=p100,t4v1,t4v2
+#FLUX -t=2520000
+#FLUX --urgency=16
 
               # %x=job-name, %A=job ID, %a=array task id, %n=node rank, %t=task rank, %N=hostname
               # Note: You must manually create output directory "logs" before launching job.

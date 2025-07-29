@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline
+#SBATCH --account=iict-sp2.volk.cl.uzh
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
 
 VIDEO=${1:-'~/pose-pipelines/example.mp4'}
 OUTPUT=${2:-'~/pose-pipelines/example.openpose/'}

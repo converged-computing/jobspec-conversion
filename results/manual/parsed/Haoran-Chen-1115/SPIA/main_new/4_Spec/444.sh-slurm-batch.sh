@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-dog-4812
-#FLUX: --queue=GPU
-#FLUX: --urgency=15
+#SBATCH --output=log_%1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=GPU
+#SBATCH --qos=low
+#SBATCH --constraint=ntasks-per-node=6
 
 module load matlab/R2022a 
 NCL=$1

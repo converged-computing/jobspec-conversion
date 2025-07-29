@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=twi_infer_0
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=twi_infer_0
+#SBATCH --account=soc121
+#SBATCH --output=twi_infer_0.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=4
+#SBATCH --mem=90G
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gpu/0.15.4
 module load anaconda3/2020.11

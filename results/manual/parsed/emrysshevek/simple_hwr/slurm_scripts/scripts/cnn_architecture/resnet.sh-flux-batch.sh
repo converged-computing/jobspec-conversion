@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-eagle-9296
-#FLUX: -n=6
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-spoon-6765
+#FLUX -n=6
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export PATH='/panfs/pan.fsl.byu.edu/scr/grp/fslg_hwr/env/hwr4_env:$PATH'
 

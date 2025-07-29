@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HISROC13
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --job-name=HISROC13
+#SBATCH --account=rwth0583
+#SBATCH --output=output.%J.txt
+#SBATCH --mail-user=annika.stein@rwth-aachen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=02:10:00
+#SBATCH --constraint=ntasks-per-node=2
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

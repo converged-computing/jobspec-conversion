@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=matrix-completion-many
-#FLUX: -c=20
-#FLUX: --queue=WORKQ
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=matrix-completion-many
+#SBATCH --account=mikalst
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=00:10:00
+#SBATCH --partition=WORKQ
 
 module load intel/2018b
 module load Python/3.6.6

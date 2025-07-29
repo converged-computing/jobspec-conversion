@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hobbit-6676
-#FLUX: -n=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=spnlsieb
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=nf
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

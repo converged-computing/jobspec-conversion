@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-muffin-2439
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=salted-spoon-8255
+#FLUX -t=12600
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

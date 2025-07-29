@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=aph_reallystarved
-#FLUX: -N=34
-#FLUX: -n=300
-#FLUX: -c=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=aph_reallystarved
+#FLUX -N=34
+#FLUX -n=300
+#FLUX -c=2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

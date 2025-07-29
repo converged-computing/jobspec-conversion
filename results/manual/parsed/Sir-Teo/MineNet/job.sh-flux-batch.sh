@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-citrus-6845
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=confused-plant-4667
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

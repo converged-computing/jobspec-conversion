@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-motorcycle-3766
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-diablo-9933
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0

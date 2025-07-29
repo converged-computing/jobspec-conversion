@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpaw-profile
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=gpaw-profile
+#FLUX -N=4
+#FLUX --queue=compute
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export SUPPRESS_BASHRC='1 #this is pointless - bashrc will have been run already!!'
 export PROJECT_ROOT='/home/l/lcl_uotiscscc/lcl_uotiscsccs1034/scratch/code-challenge/collective_profiler/'

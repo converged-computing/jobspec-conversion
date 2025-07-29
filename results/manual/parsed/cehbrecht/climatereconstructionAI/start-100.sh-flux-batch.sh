@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-dog-8960
-#FLUX: -n=18
-#FLUX: --queue=gpu
-#FLUX: -t=10500
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-car-9764
+#FLUX -n=18
+#FLUX --queue=gpu
+#FLUX -t=10500
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

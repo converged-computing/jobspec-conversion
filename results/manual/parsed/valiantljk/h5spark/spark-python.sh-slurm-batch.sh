@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-signal-6671
-#FLUX: -N=46
-#FLUX: --queue=regular
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=mysparkjob_%j.out
+#SBATCH --error=mysparkjob_%j.err
+#SBATCH --nodes=46
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:08:00
+#SBATCH --partition=regular
+#SBATCH --qos=premium
 
 export SPARK_LOCAL_DIRS='/tmp'
 export PYTHONPATH='$PYTHONPATH:$PWD/src/main/python/h5spark'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-chair-9092
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-snack-9185
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidygp/Pedestrian-Attribute-Recognition/output_results/3.%20dpn107_augmentation/PETA_dpn107_Mosaic_v5.txt

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ibs_vstm
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ibs_vstm
+#FLUX -c=2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MATLABPATH='$HOME/${PROJECT_FOLDER}/matlab'
 

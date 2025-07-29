@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-despacito-1489
-#FLUX: -c=6
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-lemur-2889
+#FLUX -c=6
+#FLUX -t=360
+#FLUX --urgency=16
 
 module load python/3.7
 virtualenv --no-download $SLURM_TMPDIR/env

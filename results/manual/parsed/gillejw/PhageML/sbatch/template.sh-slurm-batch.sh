@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-avocado-4024
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/gillejw/job-%j.out
+#SBATCH --error=/scratch/gillejw/job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=5G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu2
 
 module load python/3.9.2
 module load cuda11.0/toolkit/11.0.3

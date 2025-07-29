@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prep
-#FLUX: --queue=prepost
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=prep
+#SBATCH --account=pr49
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=prepost
+#SBATCH --constraint=mc
 
 export name='$(cd ..; basename -- "$PWD")'
 export GMX='gmx'

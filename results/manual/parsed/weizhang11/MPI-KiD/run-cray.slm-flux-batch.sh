@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=casim1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=casim1
+#FLUX -t=7200
+#FLUX --urgency=16
 
 date
 ulimit -s unlimited

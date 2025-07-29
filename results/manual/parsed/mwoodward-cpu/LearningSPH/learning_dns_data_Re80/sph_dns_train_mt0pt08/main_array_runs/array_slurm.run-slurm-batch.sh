@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mt08_re80
-#FLUX: --queue=standard
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=mt08_re80
+#SBATCH --account=chertkov
+#SBATCH --output=mt08_re80%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=hi_mem
+#SBATCH --array=12
 
 echo "$SLURM_ARRAY_TASK_ID"
 module load julia/1.6.1

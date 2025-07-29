@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=an2month
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=an2month
+#FLUX --queue=short
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module purge
 module load gcc/8.1.0

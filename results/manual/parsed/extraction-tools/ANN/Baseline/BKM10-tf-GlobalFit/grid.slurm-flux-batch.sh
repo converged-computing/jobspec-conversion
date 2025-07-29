@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bike-5550
-#FLUX: --queue=dev
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-dog-6564
+#FLUX --queue=dev
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

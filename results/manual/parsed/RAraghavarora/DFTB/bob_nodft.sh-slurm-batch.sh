@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=nodft-eq-bob
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=nodft-eq-bob
+#SBATCH --account=p_biomolecules
+#SBATCH --output=normalize/eq/only_bob/dip.out
+#SBATCH --error=normalize/eq/only_bob/dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

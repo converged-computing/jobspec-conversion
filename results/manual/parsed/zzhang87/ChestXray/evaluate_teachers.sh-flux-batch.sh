@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_50_small_train
-#FLUX: -n=8
-#FLUX: --queue=terramepp
-#FLUX: --urgency=16
+#FLUX --job-name=resnet_50_small_train
+#FLUX -n=8
+#FLUX --queue=terramepp
+#FLUX --urgency=16
 
 MODEL_DIR=/home/paperspace/Insight
 DATA_DIR=/home/paperspace/Insight/CXR/5_part_all

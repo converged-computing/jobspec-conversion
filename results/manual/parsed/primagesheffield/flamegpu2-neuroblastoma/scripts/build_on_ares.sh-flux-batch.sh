@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=build_fgpu2_nb
-#FLUX: --queue=plgrid
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=build_fgpu2_nb
+#FLUX --queue=plgrid
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load cmake/3.20.1-gcccore-10.3.0

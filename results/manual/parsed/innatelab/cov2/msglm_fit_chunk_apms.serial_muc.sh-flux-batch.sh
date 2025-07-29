@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ast_cov2_msglm_apms
-#FLUX: -c=8
-#FLUX: --queue=serial_std
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ast_cov2_msglm_apms
+#FLUX -c=8
+#FLUX --queue=serial_std
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load charliecloud

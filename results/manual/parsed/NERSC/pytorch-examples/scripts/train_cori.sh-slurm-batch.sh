@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train-cori
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=train-cori
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='32'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

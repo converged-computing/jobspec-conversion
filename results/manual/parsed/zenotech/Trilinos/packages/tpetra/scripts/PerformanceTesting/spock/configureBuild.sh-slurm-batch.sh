@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=configureAndBuildTrilinos
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=configureAndBuildTrilinos
+#SBATCH --account=cfd116
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128/'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128/'

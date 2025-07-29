@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load apptainer/1.2.5
 device="A100" 

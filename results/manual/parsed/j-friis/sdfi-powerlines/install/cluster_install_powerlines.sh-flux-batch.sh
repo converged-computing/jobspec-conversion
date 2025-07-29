@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-dog-6669
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-chair-6991
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export CUDA_HOME='/opt/software/cuda/11.3'
 

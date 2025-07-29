@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=extract_images
-#FLUX: --queue=Nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=extract_images
+#FLUX --queue=Nvidia
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load tensorflow-gpu

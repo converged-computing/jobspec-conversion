@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpucode
-#FLUX: --queue=short-gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=gpucode
+#SBATCH --output=slurm_output.%j
+#SBATCH --error=slurm_error.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P100_SXM:4
+#SBATCH --mem=30G
+#SBATCH --partition=short-gpu
 
 /usr/local/cuda-8.0/bin/nvprof ./lu "$@"
 echo '=====================JOB DIAGNOTICS========================'

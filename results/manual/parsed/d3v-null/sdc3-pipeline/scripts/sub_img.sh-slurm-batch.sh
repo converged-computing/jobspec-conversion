@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-8950
-#FLUX: -c=32
-#FLUX: --queue=gpuq
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=mwaeor
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpuq
+#SBATCH --array=0-1
 
 export srclist='/astro/mwaeor/dev/sdc3/catalog/sdc3_inner_lobes.fits" # <- YOUR SOURCELIST HERE'
 export visName='sub_lobes_points"                                      # <- NAME YOUR OUTPUT'

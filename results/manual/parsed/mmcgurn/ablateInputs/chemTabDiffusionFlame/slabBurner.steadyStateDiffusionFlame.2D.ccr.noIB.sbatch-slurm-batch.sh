@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=flame
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=flame
+#SBATCH --account=chrest
+#SBATCH --mail-user=mtmcgurn@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=supporters
+#SBATCH --constraint=ntasks-per-node=1
 
 export PETSC_DIR='/projects/academic/chrest/mtmcgurn/petsc  '
 export PETSC_ARCH='arch-ablate-opt'

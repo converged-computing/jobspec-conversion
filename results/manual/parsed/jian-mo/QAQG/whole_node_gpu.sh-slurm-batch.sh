@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-milkshake-1585
-#FLUX: -c=24
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=def-lulam50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:lgpu:4
+#SBATCH --mem=0
+#SBATCH --time=00:03:00
 
 hostname
 nvidia-smi

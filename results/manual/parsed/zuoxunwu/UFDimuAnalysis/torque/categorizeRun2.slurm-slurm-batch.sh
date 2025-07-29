@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=categorizeRun2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=categorizeRun2
+#SBATCH --output=categorizeRun2_%A_%a.out
+#SBATCH --mail-user=acarnes@phys.ufl.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1gb
+#SBATCH --time=10:00:00
+#SBATCH --array=0-23
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 export CMS_PATH='/cvmfs/cms.cern.ch'

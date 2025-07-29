@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-car-7318
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-platanos-0050
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

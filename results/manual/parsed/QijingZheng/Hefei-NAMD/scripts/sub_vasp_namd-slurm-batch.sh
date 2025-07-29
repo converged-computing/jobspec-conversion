@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-platanos-1582
-#FLUX: --queue=h3c
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=out_%j.log
+#SBATCH --error=out_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=h3c
+#SBATCH --constraint=ntasks-per-node=24
 
 ulimit -s unlimited
 module load vasp/6.1.0

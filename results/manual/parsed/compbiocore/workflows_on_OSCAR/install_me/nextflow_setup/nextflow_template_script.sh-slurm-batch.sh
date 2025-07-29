@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-mango-4462
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --mail-user=enter_email_here@brown.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8g
+#SBATCH --time=05:00:00
 
 export SINGULARITY_CACHEDIR='$HOME/scratch'
 export NXF_SINGULARITY_CACHEDIR='$HOME/scratch'

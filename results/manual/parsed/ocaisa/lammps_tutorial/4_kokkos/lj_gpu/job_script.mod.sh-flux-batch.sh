@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-snack-0418
-#FLUX: -c=6
-#FLUX: --queue=develgpus
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-spoon-5791
+#FLUX -c=6
+#FLUX --queue=develgpus
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tax-return-parser
-#FLUX: -c=90
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=tax-return-parser
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=90
+#SBATCH --gres=gpu:0
+#SBATCH --mem=32GB
 
 export RAYPORT='$(shuf -i 10000-65500 -n 1)'
 

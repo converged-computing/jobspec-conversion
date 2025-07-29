@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fork-1861
-#FLUX: --queue=conroy_priority,test,shared,itc_cluster
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-rabbit-7091
+#FLUX --queue=conroy_priority,test,shared,itc_cluster
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load python
 source ~/.bashrc

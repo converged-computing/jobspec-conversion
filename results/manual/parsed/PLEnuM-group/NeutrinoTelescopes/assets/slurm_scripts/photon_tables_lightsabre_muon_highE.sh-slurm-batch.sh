@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=photon_tables
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=photon_tables
+#SBATCH --output=logs/lightsabre_${SLURM_ARRAY_TASK_ID}.out
+#SBATCH --error=logs/lightsabre_${SLURM_ARRAY_TASK_ID}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
 
 n_sims=1000
 n_skip=$((SLURM_ARRAY_TASK_ID * n_sims))

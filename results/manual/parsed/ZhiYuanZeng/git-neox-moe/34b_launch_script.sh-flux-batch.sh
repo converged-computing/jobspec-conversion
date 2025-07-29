@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bicycle-5681
-#FLUX: -N=32
-#FLUX: -c=12
+#FLUX --job-name=pusheena-poo-0816
+#FLUX -N=32
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export HOSTNAMES='`scontrol show hostnames "$SLURM_JOB_NODELIST"`'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=p512_node512
-#FLUX: -N=512
-#FLUX: -c=56
+#FLUX --job-name=p512_node512
+#FLUX -N=512
+#FLUX -c=56
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PMI_NO_PREINITIALIZE='y'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

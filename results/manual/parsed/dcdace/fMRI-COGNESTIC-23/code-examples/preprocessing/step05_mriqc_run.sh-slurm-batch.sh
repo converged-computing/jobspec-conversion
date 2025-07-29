@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=08:00:00
 
 PROJECT_PATH=/imaging/correia/da05/workshops/2023-09-COGNESTIC/demo/FaceRecognition
 SUBJECT_DIRS=("$PROJECT_PATH"/data/bids/sub-*)

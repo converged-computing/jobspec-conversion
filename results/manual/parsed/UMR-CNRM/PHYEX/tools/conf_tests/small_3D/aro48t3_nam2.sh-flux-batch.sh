@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-parrot-9840
-#FLUX: -n=4
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-leopard-7751
+#FLUX -n=4
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

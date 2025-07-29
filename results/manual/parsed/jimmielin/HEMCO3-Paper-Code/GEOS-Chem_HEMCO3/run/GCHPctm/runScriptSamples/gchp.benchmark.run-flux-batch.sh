@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-pedo-9746
-#FLUX: -N=2
-#FLUX: -n=48
+#FLUX --job-name=conspicuous-omelette-4131
+#FLUX -N=2
+#FLUX -n=48
 #FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=huce_intel
+#FLUX -t=1200
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

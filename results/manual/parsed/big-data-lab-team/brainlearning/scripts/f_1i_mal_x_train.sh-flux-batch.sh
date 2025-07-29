@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lentil-6385
-#FLUX: -c=6
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-destiny-5768
+#FLUX -c=6
+#FLUX -t=120
+#FLUX --urgency=16
 
 model=f_1i_mal_x
 module load cuda cudnn python/3.6.3

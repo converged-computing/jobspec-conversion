@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=48
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-noodle-7112
-#FLUX: --urgency=16
+#FLUX --job-name=tart-snack-7081
+#FLUX --urgency=16
 
 source /vol/bitbucket/mgg17/diss/venv/bin/activate
 source /vol/cuda/10.0.130/setup.sh

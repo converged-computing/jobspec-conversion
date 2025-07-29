@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reads_QC
-#FLUX: -c=4
-#FLUX: -t=176340
-#FLUX: --urgency=16
+#SBATCH --job-name=reads_QC
+#SBATCH --output=reads_QC.out
+#SBATCH --error=reads_QC.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=256gb
+#SBATCH --time=2-00:59:00
 
 SAMPLE_ID=$1
 echo "SAMPLE_ID=${SAMPLE_ID}"

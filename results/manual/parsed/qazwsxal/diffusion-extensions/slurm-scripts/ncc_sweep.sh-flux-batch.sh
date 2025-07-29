@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-soup-7028
-#FLUX: -c=4
-#FLUX: --queue=res-gpu-small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-lentil-0188
+#FLUX -c=4
+#FLUX --queue=res-gpu-small
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

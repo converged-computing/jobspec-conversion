@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=picrust2
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=picrust2
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='$PATH:$HOME/anaconda3/bin'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-9347
-#FLUX: -N=72
-#FLUX: -n=6912
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=72
+#SBATCH --ntasks=6912
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard96
+#SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

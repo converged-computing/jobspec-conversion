@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lizard-2283
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=/work/donglab/ching.ki/ssRNA-MD/MD_sim/log/exec.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100-sxm2:1
+#SBATCH --mem=8G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 SRC=/work/donglab/ching.ki/ssRNA-MD/MD_sim/src
 DATA=/work/donglab/ching.ki/ssRNA-MD/VAE/data/gro

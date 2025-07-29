@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=7B_wz
-#FLUX: --queue=nvidia
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --job-name=7B_wz
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=100GB
+#SBATCH --time=1-23:59:59
+#SBATCH --partition=nvidia
+#SBATCH --constraint=80g,ntasks-per-node=1
 
 export HF_HOME='/scratch/ltl2113/huggingface_cache'
 

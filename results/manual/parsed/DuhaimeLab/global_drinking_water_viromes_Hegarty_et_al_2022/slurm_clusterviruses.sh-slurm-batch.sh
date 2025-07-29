@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=clustergenomes
-#FLUX: --queue=standard
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=clustergenomes
+#SBATCH --account=kwigg1
+#SBATCH --mail-user=hegartyb@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=70g
+#SBATCH --time=20:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$PATH:"$PWD'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anisopb
-#FLUX: -n=4
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anisopb
+#FLUX -n=4
+#FLUX --queue=boost_usr_prod
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/leonardo/home/userexternal/pdambra0/polynomialsmoothers/install/lib'
 

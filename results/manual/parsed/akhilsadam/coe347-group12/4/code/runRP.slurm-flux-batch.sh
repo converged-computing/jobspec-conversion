@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=of
-#FLUX: -N=4
-#FLUX: -n=48
-#FLUX: --queue=skx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=of
+#FLUX -N=4
+#FLUX -n=48
+#FLUX --queue=skx-dev
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='192'
 

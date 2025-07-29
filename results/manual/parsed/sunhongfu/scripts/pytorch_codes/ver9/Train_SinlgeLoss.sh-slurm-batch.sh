@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=yang_2L30EPO_pytorch
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=yang_2L30EPO_pytorch
+#SBATCH --error=ResNet_error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-smx2:2
+#SBATCH --mem=50000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

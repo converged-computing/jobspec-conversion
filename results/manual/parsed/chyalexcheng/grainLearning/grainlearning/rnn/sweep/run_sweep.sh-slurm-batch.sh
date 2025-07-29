@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lemur-8813
-#FLUX: -n=32
-#FLUX: --queue=fat
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=./job_output/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=fat
 
 module load 2021 Python/3.9.5-GCCcore-10.3.0 TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1 
 module load h5py/3.2.1-foss-2021a matplotlib/3.4.2-foss-2021a plotly.py/5.1.0-GCCcore-10.3.0 

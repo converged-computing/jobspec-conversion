@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mask
-#FLUX: -c=4
-#FLUX: --queue=qTRD
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=mask
+#FLUX -c=4
+#FLUX --queue=qTRD
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load afni
 while IFS= read -r sub_id; do

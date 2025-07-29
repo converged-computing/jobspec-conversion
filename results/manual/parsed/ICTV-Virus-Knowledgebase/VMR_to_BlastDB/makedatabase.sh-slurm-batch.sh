@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ICTV_VMR_makeblastdb_e
-#FLUX: --queue=amd-hdr100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ICTV_VMR_makeblastdb_e
+#SBATCH --output=logs/log.%J.%x.out
+#SBATCH --error=logs/log.%J.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=12:00:00
+#SBATCH --partition=amd-hdr100
 
 ACCESSION_TSV=processed_accessions_e.tsv
 ALL_FASTA=./fasta_new_vmr/vmr_e.fa

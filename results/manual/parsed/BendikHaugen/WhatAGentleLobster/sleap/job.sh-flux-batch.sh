@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=JobLong
-#FLUX: -N=2
-#FLUX: -c=20
-#FLUX: --queue=GPUQ
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=JobLong
+#FLUX -N=2
+#FLUX -c=20
+#FLUX --queue=GPUQ
+#FLUX -t=126000
+#FLUX --urgency=16
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo " the name of the job is: $SLURM_JOB_NAME"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=starAlign-log
-#FLUX: --queue=intel
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=starAlign-log
+#SBATCH --output=starAlign.stdout
+#SBATCH --mail-user=danielaz@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH --partition=intel
 
 date
 cd $SLURM_SUBMIT_DIR

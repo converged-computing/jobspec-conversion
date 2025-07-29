@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gen_image_var
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_image_var
+#SBATCH --output=/home/jrick6/repos/data/logs/imagenette/set0/shard0/%x.%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=00:05:00
+#SBATCH --chdir=/home/jrick6/repos/data
+#SBATCH --array=0-591%50
+#SBATCH --exclude=ice[100,102-105,107-109,110-134,137-150,152-161,165,167,186]
 
 hostname
 nvidia-smi

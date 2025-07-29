@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-plant-6296
-#FLUX: --queue=standard
-#FLUX: -t=59400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-car-0092
+#FLUX --queue=standard
+#FLUX -t=59400
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

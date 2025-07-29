@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-animal-4708
-#FLUX: --queue=genx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=blue-lamp-6288
+#FLUX --queue=genx
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

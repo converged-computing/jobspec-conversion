@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lamp-0577
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=out-install-lammps-mulan-fftdouble-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=01:00:00
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=augmented
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=augmented
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 tiler_type='SharedAugTiler'
 path_wsi="./test_dataset/slides"

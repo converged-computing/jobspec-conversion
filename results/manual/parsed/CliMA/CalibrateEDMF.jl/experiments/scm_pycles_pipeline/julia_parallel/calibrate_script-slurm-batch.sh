@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ekp_bomex
-#FLUX: -n=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ekp_bomex
+#SBATCH --output=slurm_julia_par_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6G
+#SBATCH --time=02:00:00
 
 config=${1?Error: no config file given}
 module purge

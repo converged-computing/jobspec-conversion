@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpujob
-#FLUX: --queue=pascal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpujob
+#SBATCH --account=GALES-SL4-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=pascal
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 

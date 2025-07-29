@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=distributed
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=distributed
+#FLUX -N=4
+#FLUX -c=8
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load cpuarch/amd

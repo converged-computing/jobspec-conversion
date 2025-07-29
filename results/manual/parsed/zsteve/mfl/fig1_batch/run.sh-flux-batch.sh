@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-carrot-5824
-#FLUX: -c=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-gato-0222
+#FLUX -c=8
+#FLUX -t=1800
+#FLUX --urgency=16
 
 ml load python
 ml load scipy-stack

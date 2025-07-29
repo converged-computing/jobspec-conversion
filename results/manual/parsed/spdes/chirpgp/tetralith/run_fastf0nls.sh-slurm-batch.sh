@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-noodle-8708
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=00:50:00
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

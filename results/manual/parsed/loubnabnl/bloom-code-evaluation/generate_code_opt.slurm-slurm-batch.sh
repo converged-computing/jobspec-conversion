@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bs-code-generation-opt-175b
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=bs-code-generation-opt-175b
+#SBATCH --account=six@a100
+#SBATCH --output=/gpfswork/rech/six/uty16tp/logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

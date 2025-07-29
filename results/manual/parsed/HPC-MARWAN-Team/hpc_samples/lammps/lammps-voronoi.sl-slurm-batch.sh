@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lmp-demo
-#FLUX: -n=4
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp-demo
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
+#SBATCH --constraint=ib
 
 export WORK_DIR='/scratch/users/$USER/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/input'

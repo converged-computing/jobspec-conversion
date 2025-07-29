@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hpx-init
-#FLUX: --queue=jenkins-compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hpx-init
+#SBATCH --output=init/slurm_output.%x-o%j
+#SBATCH --error=init/slurm_error.%x-o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=jenkins-compute
+#SBATCH --constraint=ntasks-per-node=16
 
 export CC='gcc'
 export CXX='g++'

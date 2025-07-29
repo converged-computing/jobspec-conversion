@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PacLearn
-#FLUX: -n=32
-#FLUX: --queue=gpu,preempt
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=PacLearn
+#FLUX -n=32
+#FLUX --queue=gpu,preempt
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 hostname

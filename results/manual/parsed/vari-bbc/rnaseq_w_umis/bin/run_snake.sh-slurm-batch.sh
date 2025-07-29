@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rnaseq_workflow
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=rnaseq_workflow
+#SBATCH --output=rnaseq_workflow.o
+#SBATCH --error=rnaseq_workflow.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=long
 
 cd $SLURM_SUBMIT_DIR
 snakemake_module="bbc2/snakemake/snakemake-7.25.0"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lemon-1066
-#FLUX: -n=6
-#FLUX: --queue=huce_intel
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-sundae-8562
+#FLUX -n=6
+#FLUX --queue=huce_intel
+#FLUX -t=60
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

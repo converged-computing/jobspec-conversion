@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mmdetect
-#FLUX: -c=8
-#FLUX: --queue=caspra
-#FLUX: --urgency=16
+#SBATCH --job-name=mmdetect
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=dcu:4
+#SBATCH --partition=caspra
+#SBATCH --constraint=ntasks-per-node=4
 
 export MIOPEN_DEBUG_DISABLE_FIND_DB='1'
 

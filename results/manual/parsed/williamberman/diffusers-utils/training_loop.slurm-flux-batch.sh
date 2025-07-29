@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-chip-2580
-#FLUX: -c=96
+#FLUX --job-name=adorable-frito-3151
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export NCCL_PROTO='simple'

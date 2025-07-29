@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Individual_Samples_scRNA-MultiKClustering_AlternateSeed-${i}
-#FLUX: -c=32
-#FLUX: --queue=allnodes
-#FLUX: --urgency=16
+#SBATCH --job-name=Individual_Samples_scRNA-MultiKClustering_AlternateSeed-${i}
+#SBATCH --output=scripts/Individual_Samples_scRNA-MultiKClustering_AlternateSeed-${i}.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=96g
+#SBATCH --partition=allnodes
 
 declare -a StringArray=("35EE8L 3821AL 49CFCL 4B146L 4C2E5L T47D")
 for i in ${StringArray[@]}

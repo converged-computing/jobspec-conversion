@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-dog-3111
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/stenpiren/Transfer-Learning-for-Time-Series/SRU_study/CuLSTM.sh

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: -n=12
-#FLUX: --queue=short
-#FLUX: -t=57900
-#FLUX: --urgency=16
+#SBATCH --job-name=NAME
+#SBATCH --output=OUT.out
+#SBATCH --error=ERR.out
+#SBATCH --mail-user=youremail@gmail.com
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20gb
+#SBATCH --time=16:05:00
+#SBATCH --partition=short
 
 export PATH='biome_tools/SPAdes-3.13.1-Linux/bin:$PATH'
 

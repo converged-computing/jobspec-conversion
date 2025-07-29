@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-itch-6587
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-platanos-5911
+#FLUX --urgency=16
 
 EXPERIMENT_NAME=lbann_aecycgan_jag
 LBANN_DIR=$(git rev-parse --show-toplevel)

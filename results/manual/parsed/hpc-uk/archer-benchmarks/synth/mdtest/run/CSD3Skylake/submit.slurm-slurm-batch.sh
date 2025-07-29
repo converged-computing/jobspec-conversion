@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mdtest
-#FLUX: -n=32
-#FLUX: --queue=skylake
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=mdtest
+#SBATCH --account=TEST
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=skylake
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

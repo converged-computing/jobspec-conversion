@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NNmd
-#FLUX: --queue=npl-2024
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=NNmd
+#SBATCH --output=jobfile.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6
+#SBATCH --time=00:05:00
+#SBATCH --partition=npl-2024
 
 if [ -z "$1" ]; then
     echo "Usage: $0 <number>"

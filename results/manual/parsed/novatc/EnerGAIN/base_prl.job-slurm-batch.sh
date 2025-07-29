@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-dog-7973
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%A_%a.out
+#SBATCH --error=slurm.%A_%a.err
+#SBATCH --mail-user=lucas.wagner@uol.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:10:00
+#SBATCH --array=1-3
 
 if [ ${SLURM_ARRAY_TASK_ID} -eq 1 ]; then
    STEP_COUNT=500000

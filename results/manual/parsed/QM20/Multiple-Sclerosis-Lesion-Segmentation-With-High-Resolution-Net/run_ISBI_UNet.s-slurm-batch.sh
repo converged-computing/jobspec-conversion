@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ISBI_UNet
-#FLUX: -c=12
-#FLUX: --queue=nvidia
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=ISBI_UNet
+#SBATCH --mail-user=qc690@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --mem=32000
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=nvidia
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load all

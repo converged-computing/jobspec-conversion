@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=clmp_r12
-#FLUX: -c=20
-#FLUX: --exclusive
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=clmp_r12
+#SBATCH --output=clmp_r1r2_-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --partition=main
+#SBATCH: --exclusive
 
 export SINGULARITY_BIND='/home/e1garcia'
 

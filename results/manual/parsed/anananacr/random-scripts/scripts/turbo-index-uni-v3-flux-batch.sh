@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-arm-2722
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-rabbit-3392
+#FLUX --urgency=16
 
 SPLIT=10000  # Size of job chunks
 ROOT=/asap3/petra3/gpfs/p09/2023/data/11016752/processed/rodria

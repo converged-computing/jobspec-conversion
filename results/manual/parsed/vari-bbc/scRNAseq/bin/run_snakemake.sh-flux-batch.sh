@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scRNAseq_workflow
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=scRNAseq_workflow
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-signal-9561
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-sundae-1221
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/karimn/takeup/r-batch-submit.sh

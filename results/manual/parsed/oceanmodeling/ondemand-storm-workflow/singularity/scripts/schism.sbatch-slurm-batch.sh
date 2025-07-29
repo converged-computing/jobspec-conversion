@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-mango-3427
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 export MV2_ENABLE_AFFINITY='0'
 

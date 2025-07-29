@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=okjob
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=okjob
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 opticks-site-source(){ echo $BASH_SOURCE ; }
 opticks-site-(){     source $BASH_SOURCE ; }

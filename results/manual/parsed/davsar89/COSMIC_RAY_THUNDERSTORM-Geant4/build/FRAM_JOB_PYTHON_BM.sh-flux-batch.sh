@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cosmic_t
-#FLUX: --queue=bigmem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cosmic_t
+#FLUX --queue=bigmem
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

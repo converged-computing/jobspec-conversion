@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_berts
-#FLUX: -t=82799
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune_berts
+#SBATCH --output=./sbatch_outs/%A_%a.out
+#SBATCH --error=./sbatch_outs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=22:59:59
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_DATASETS_CACHE='\"/scratch/$USER/.cache/huggingface/datasets\'
 export TRANSFORMERS_CACHE='\"/scratch/$USER/.cache/huggingface/transformers\'

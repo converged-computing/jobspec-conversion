@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-noodle-5938
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge
 module load gnu7/7.3.0

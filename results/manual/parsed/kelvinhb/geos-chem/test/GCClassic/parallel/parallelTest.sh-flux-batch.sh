@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-rabbit-7428
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-lettuce-0801
+#FLUX --urgency=16
 
 this="$(basename ${0})"
 usage="Usage: ${this} -d root-dir -e env-file [-h] [-p partition] [-q] [-s scheduler]"

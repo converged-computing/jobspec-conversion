@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=distr_TF
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=distr_TF
+#SBATCH --output=distr_B0_1GPU_.out
+#SBATCH --error=distr_B0_1GPU_.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --chdir=.
 
 export PYTHONUNBUFFERED='1'
 

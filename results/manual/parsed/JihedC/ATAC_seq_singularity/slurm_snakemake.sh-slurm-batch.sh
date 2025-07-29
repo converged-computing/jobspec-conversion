@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ATAC_snakemake
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ATAC_snakemake
+#SBATCH --mail-user=j.chouaref@lumc.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15000
+#SBATCH --time=1-00:00:00
 
 module purge
 module load genomics/ngs/samtools/1.11/gcc-8.3.1

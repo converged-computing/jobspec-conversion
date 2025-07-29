@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scRNAseq_workflow
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=scRNAseq_workflow
+#SBATCH --output=scRNAseq_workflow.o
+#SBATCH --error=scRNAseq_workflow.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"

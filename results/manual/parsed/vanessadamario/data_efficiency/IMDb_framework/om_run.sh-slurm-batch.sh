@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=foveation
-#FLUX: -c=2
-#FLUX: --queue=cbmm
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=foveation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=40GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=cbmm
+#SBATCH --qos=cbmm
+#SBATCH --array=0-999
 
 hostname
 module add openmind/singularity/3.4.1

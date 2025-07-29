@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lamp-5912
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/benchmarks/nmRec_unbias/trials/trial_40_20/md_40_20.pbs

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-2822
+#FLUX --job-name=scruptious-noodle-2899
 #FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load uppmax
 module load python_ML_packages/3.9.5-gpu python/3.9.5 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-signal-3564
-#FLUX: -n=64
-#FLUX: --queue=rome
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-arm-9335
+#FLUX -n=64
+#FLUX --queue=rome
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'
 export MODEL_NAME='t1_64'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-animal-0084
-#FLUX: -n=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-general-8449
+#FLUX -n=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 method="gconet_$1"
 size=256

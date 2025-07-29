@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_ifs
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_ifs
+#SBATCH --output=prep_ifs.eo%j
+#SBATCH --error=prep_ifs.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export MPIRUN='Mpirun -np 2'
 

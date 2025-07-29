@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cat-6964
-#FLUX: -c=30
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=15GB
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --overlay /scratch/zp2137/text-mining/overlay-25GB-500K.ext3:ro \
         /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif \

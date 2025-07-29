@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=torch2numpy
-#FLUX: --queue=psych_day
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=torch2numpy
+#FLUX --queue=psych_day
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set -e
 cd /gpfs/milgram/project/turk-browne/projects/LocalAggregation-Pytorch/

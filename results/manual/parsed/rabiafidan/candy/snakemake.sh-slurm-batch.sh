@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake
+#SBATCH --output=%j.txt
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
 
 source ~/.bashrc
 conda activate snakemake

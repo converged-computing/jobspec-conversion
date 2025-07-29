@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow_sim
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow_sim
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 module load cuda/11.1
 log_output="$1"

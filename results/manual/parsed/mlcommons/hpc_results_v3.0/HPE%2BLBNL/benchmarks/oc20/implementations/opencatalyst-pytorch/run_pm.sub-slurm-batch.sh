@@ -1,11 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=opencatalyst-opt
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#SBATCH --job-name=opencatalyst-opt
+#SBATCH --account=m4291
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export MODEL_NAME='oc20'
 export MODEL_FRAMEWORK='pytorch'
 
+singularity
+exec
+registry.nersc.gov/das/sfarrell/opencatalyst-opt:23.09.01
 set -euxo pipefail
 : "${MLPERF_RULESET:=2.0.0}"
 : "${DGXNGPU:=4}"

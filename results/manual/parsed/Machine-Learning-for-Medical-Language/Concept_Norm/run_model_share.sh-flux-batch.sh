@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conorm
-#FLUX: --queue=chip-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=conorm
+#FLUX --queue=chip-gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load singularity

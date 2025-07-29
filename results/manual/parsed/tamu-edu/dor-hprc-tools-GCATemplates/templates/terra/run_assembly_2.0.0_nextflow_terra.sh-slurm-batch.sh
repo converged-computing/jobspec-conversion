@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow
-#FLUX: -c=28
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow
+#SBATCH --output=stdout.%j
+#SBATCH --error=stderr.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=54G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load Nextflow/20.10.0
 <<README

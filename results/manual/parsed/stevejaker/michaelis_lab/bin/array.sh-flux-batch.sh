@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-salad-7765
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-dog-5928
+#FLUX -t=30
+#FLUX --urgency=16
 
 LAST_PIECE=16
 if [[ "${SLURM_ARRAY_TASK_ID}" -eq "1" ]]; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SDWebUI
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=SDWebUI
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_50_small_train
-#FLUX: -n=8
-#FLUX: --queue=terramepp
-#FLUX: --urgency=16
+#FLUX --job-name=resnet_50_small_train
+#FLUX -n=8
+#FLUX --queue=terramepp
+#FLUX --urgency=16
 
 MODEL_NAME=mobilenet
 TRAIN_DIR=/home/zzhang52/Insight/runs/3_teachers_100th

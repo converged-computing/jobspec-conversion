@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-hippo-7921
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/PabloPiaggi/IceNucleationSeeding-SCAN-ML/SeedingSimulations/cluster5000molecules/291K/job.sh

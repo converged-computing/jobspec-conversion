@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=single_stage_detector
-#FLUX: --urgency=16
+#SBATCH --job-name=single_stage_detector
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

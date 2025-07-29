@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-dog-3035
-#FLUX: -c=32
-#FLUX: --queue=gpusmall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=confused-frito-9596
+#FLUX -c=32
+#FLUX --queue=gpusmall
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export DATADIR='/scratch/dac/data'
 export TORCH_HOME='/scratch/dac/mvsjober/torch-cache'

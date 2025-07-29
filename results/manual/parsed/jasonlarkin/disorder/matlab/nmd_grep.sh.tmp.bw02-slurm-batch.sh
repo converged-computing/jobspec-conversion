@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-3478
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jasonlarkin/disorder/matlab/nmd_grep.sh.tmp.bw02

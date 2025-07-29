@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: -c=24
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=3
+#FLUX -n=3
+#FLUX -c=24
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load gcc
 module load python/3.8  

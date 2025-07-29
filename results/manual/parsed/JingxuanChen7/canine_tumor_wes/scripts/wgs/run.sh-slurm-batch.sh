@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wgs_master
-#FLUX: -n=8
-#FLUX: --queue=iob_p
-#FLUX: -t=1800000
-#FLUX: --urgency=16
+#SBATCH --job-name=wgs_master
+#SBATCH --output=/scratch/jc33471/canine_tumor/wgs_breed_prediction/wgs_master.out
+#SBATCH --mail-user=jc33471@uga.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=20-20:00:00
+#SBATCH --partition=iob_p
 
 CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh

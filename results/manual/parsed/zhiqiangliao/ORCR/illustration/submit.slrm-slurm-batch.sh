@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peas-9370
-#FLUX: -c=10
-#FLUX: --queue=batch
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=code_%A.out
+#SBATCH --mail-user=zhiqiang.liao@aalto.fi
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=8G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=batch
 
 echo "SLURM_JOBID: " $SLURM_JOBID
 echo "SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

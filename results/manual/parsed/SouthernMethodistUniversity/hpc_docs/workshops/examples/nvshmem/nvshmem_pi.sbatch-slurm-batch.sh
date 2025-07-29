@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nvshmem_pi
-#FLUX: --queue=amd
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=nvshmem_pi
+#SBATCH --output=nvshmem_pi_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6G
+#SBATCH --time=00:05:00
+#SBATCH --partition=amd
 
 echo $SLURM_JOB_PARTITION
 module purge

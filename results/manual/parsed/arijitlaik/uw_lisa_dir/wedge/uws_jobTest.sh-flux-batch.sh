@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-9112
-#FLUX: -N=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-dog-9109
+#FLUX -N=3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "********** CPU-INFO**********"
 lscpu

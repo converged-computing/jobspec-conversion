@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pastry-4481
+#FLUX --job-name=pusheena-lettuce-3843
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"
 readonly checkpointdir="$PWD/B0_mulitnode_AMP/"

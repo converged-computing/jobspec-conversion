@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-signal-0982
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-avocado-1667
+#FLUX --queue=general
+#FLUX -t=86400
+#FLUX --urgency=16
 
 while getopts a:s:x:u: option
 do

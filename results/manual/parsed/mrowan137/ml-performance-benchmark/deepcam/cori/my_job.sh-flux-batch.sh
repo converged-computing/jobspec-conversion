@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=deepcam-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=deepcam-cgpu
+#FLUX -c=10
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export BATCHSIZE='2'
 export DO_PROFILING='false'  # true or false'

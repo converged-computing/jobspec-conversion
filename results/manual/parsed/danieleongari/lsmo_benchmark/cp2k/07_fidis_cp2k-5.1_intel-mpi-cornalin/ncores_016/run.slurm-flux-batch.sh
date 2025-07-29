@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-onion-4798
-#FLUX: -n=16
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-egg-9626
+#FLUX -n=16
+#FLUX --queue=parallel
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

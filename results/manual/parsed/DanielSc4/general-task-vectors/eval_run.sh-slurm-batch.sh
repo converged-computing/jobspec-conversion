@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=general_task_vector_eval
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=general_task_vector_eval
+#SBATCH --output=/home1/p313544/slurm_logs/%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40GB
+#SBATCH --time=08:00:00
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/'
 

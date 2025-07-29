@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-moe-fpt-test_lr_change
-#FLUX: -c=32
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=cpt-moe-fpt-test_lr_change
+#FLUX -c=32
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

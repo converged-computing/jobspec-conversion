@@ -1,9 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=dr_benchmark_small
-#FLUX: -c=4
-#FLUX: --queue=magic
-#FLUX: -t=120000
-#FLUX: --urgency=16
+#SBATCH --job-name=dr_benchmark_small
+#SBATCH --account=doellner
+#SBATCH --output=./status_experiment_distances/log_perplexity-%j_%a.txt
+#SBATCH --error=./status_experiment_distances/err_training-%j_%a.txt
+#SBATCH --mail-user=Tim.Cech@hpi.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=40G
+#SBATCH --time=1-09:20:00
+#SBATCH --partition=magic
+#SBATCH --constraint=ARCH:X86
+#SBATCH --array=1-9999
+#SBATCH --exclude=cx23,cx27,cx28
 
 line=$(sed -n ${SLURM_ARRAY_TASK_ID}p < ./slurm_test/parameters.csv)
 rec_column1=$(cut -d',' -f1 <<< "$line")

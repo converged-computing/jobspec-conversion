@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-milkshake-2392
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-rabbit-1340
+#FLUX --urgency=16
 
 . ~/.bashrc
 here=""

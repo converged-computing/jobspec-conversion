@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=data
-#FLUX: --queue=fichtner_compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=data
+#SBATCH --output=logs/matlab_%j.out
+#SBATCH --error=logs/matlab_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024
+#SBATCH --time=02:00:00
+#SBATCH --partition=fichtner_compute
 
 module load matlab/r2015a
 matlab -nodisplay -singleCompThread -r calculate_data

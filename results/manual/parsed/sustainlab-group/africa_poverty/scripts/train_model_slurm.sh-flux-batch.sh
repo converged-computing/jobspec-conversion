@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name={SLURM_JOB_NAME}
-#FLUX: -c=10
-#FLUX: --queue=atlas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name={SLURM_JOB_NAME}
+#FLUX -c=10
+#FLUX --queue=atlas
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "
 Slurm Environment Variables:

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RA
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=RA
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:30:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=64
 
 module load texlive
 module load conda

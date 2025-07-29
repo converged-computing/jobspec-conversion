@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hope-0643
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-puppy-3616
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

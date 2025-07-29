@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-puppy-3828
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-lettuce-7412
+#FLUX -t=240
+#FLUX --urgency=16
 
 module load mvapich2-2.3.7-gcc-11.2.0
 MV2_USE_ALIGNED_ALLOC=1

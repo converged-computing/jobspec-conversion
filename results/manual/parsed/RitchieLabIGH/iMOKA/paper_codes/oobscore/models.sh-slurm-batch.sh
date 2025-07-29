@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-7301
-#FLUX: -n=8
-#FLUX: -t=173420
-#FLUX: --urgency=16
+#SBATCH --output=./reports/models_%A_%a.out
+#SBATCH --error=./reports/models_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=2-00:10:20
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/work/clorenzi/'

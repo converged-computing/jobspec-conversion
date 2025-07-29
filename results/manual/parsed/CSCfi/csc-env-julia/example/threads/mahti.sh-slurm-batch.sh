@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=threads
-#FLUX: -c=128
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=threads
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=00:15:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

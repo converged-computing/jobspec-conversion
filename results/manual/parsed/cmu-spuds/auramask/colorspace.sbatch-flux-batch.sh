@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=colorspace_exp
-#FLUX: --queue=inferno
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=colorspace_exp
+#FLUX --queue=inferno
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export WANDB_CONSOLE='off'
 

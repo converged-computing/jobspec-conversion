@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-6638
-#FLUX: --queue=amd
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28000
+#SBATCH --time=04:00:00
+#SBATCH --partition=amd
 
 let START=$SLURM_ARRAY_TASK_ID*$N_PER_JOB
 let END=$START+${N_PER_JOB}-1

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HSP90_278K
-#FLUX: --queue=Cascade
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=HSP90_278K
+#FLUX --queue=Cascade
+#FLUX -t=86400
+#FLUX --urgency=16
 
 shopt -s extglob
 nMPI=1

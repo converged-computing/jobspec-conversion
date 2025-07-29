@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-itch-2641
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-car-4184
+#FLUX --queue=main
+#FLUX --urgency=16
 
 set -e
 set -x

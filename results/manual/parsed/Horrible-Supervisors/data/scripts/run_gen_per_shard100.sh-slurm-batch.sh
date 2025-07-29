@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gen_100_shard
-#FLUX: -t=263520
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_100_shard
+#SBATCH --output=/home/jrick6/repos/data/logs/imagenet_subset_custom/per_shard/%x.%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=3-01:12:00
+#SBATCH --chdir=/home/jrick6/repos/data
+#SBATCH --array=61-127%200
+#SBATCH --nodelist=ice[183,192,193]
 
 if [[ ${SLURM_ARRAY_TASK_ID} -le 0 ]]; then
     echo "shard 00000"

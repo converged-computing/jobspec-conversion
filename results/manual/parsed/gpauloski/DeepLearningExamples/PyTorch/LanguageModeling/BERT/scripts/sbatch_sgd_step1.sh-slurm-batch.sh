@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bertsgd
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: --queue=v100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bertsgd
+#SBATCH --account=Deep-Learning-at-Sca
+#SBATCH --output=sbatch_logs/bertsgd.o%j
+#SBATCH --mail-user=jgpauloski@utexas.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=16
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=v100
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

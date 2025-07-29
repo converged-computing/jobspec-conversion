@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-2941
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=astute-banana-0812
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export DS_BUILD_CPU_ADAM='1'
 export DS_BUILD_FUSED_ADAM='1'

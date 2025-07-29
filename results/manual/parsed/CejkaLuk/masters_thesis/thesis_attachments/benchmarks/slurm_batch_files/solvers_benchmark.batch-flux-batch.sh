@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-omelette-3437
-#FLUX: -c=32
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-carrot-4950
+#FLUX -c=32
+#FLUX --queue=amdgpulong
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load CMake/3.24.3-GCCcore-12.2.0
 module load CUDA/12.0.0

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leg-8308
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --output=/home/sankarak/logs/inspect-%j.out
+#SBATCH --error=/home/sankarak/logs/inspect-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=01:20:00
 
 cd $HOME/clouds_dist
 module load singularity/3.4

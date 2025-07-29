@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=maskgan
-#FLUX: -n=36
-#FLUX: --urgency=16
+#SBATCH --job-name=maskgan
+#SBATCH --account=jerin
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=120gb
 
 module load use.own
 module load python/3.7.0

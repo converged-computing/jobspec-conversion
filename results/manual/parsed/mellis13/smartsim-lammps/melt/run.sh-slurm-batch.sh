@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SS-LAMMPS
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=SS-LAMMPS
+#SBATCH --output=SS-LAMMPS.out
+#SBATCH --error=SS-LAMMPS.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
 
 export SMARTSIM_LOG_LEVEL='debug'
 

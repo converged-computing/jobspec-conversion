@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hope-9826
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=./logs/preprocess_FIR-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 source globals.sh
 matlab -nodesktop -nosplash -nodisplay -jvm -r "addpath('scripts/'); preprocess_FIR;"

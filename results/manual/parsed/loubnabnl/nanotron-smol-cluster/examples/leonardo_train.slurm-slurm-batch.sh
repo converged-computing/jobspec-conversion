@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -N=32
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=boost_usr_prod
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=/leonardo_scratch/large/userexternal/lbenalla/trainings/logs/run-%x-%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --partition=boost_usr_prod
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_HOME='$CONDA_PREFIX'
 export LIBRARY_PATH='$CONDA_PREFIX/lib:$LIBRARY_PATH'

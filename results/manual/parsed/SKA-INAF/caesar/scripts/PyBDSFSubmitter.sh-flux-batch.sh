@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pastry-1702
-#FLUX: --urgency=16
+#FLUX --job-name=hello-train-6996
+#FLUX --urgency=16
 
 export BASEDIR='$PWD'
 export OUTPUT_DATADIR='$PWD'

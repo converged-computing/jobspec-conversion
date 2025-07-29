@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-7351
-#FLUX: -n=12
-#FLUX: --queue=plgrid
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=plgmpr21zeus
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=plgrid
 
 module add plgrid/tools/python-intel/3.6.5 2>/dev/null
 mpiexec -n 1 ./zad1.py 7

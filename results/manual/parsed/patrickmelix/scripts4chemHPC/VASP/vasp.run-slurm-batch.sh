@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=GO
-#FLUX: -N=12
-#FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=GO
+#SBATCH --account=p31389
+#SBATCH --mail-user=youradress@domain.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=52,[quest7|quest8|quest9|quest10]
 
 ISTART_RESTART=1 #https://www.vasp.at/wiki/index.php/ISTART
 module load vasp/6.2.0-vtst-openmpi-4.0.5-intel-19.0.5.281-cuda-11.2.1 #Quest

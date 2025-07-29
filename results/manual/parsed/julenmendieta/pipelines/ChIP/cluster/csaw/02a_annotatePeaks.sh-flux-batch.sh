@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=AnnotatePeaks
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=AnnotatePeaks
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

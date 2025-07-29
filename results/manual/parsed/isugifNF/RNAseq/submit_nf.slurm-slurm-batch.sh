@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NF_RNASeq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NF_RNASeq
+#SBATCH --output=R-%x.%J.out
+#SBATCH --error=R-%x.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module load nextflow
 NEXTFLOW=nextflow

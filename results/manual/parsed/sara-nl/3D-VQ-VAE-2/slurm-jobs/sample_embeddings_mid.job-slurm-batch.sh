@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sample-embeddings-mid-lowtau
-#FLUX: -c=6
-#FLUX: --queue=gpu_rtx2080ti_shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sample-embeddings-mid-lowtau
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_rtx2080ti_shared
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

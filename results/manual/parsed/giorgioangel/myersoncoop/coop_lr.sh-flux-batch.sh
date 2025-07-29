@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fc_lr
-#FLUX: -c=24
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fc_lr
+#FLUX -c=24
+#FLUX --queue=short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/dcas/g.angelotti/.conda/envs/coop/lib:$LD_LIBRARY_PATH'
 

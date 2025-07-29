@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=singnbconv
-#FLUX: --queue=celltypes
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=singnbconv
+#FLUX --queue=celltypes
+#FLUX -t=180000
+#FLUX --urgency=16
 
 source ~/.bashrc
 !nvidia-smi

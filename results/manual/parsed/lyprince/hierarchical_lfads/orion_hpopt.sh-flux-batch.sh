@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpopt
-#FLUX: --queue=long
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hpopt
+#FLUX --queue=long
+#FLUX -t=7200
+#FLUX --urgency=16
 
 PROJECTDIR=$HOME/hierarchical_lfads/
 DATADIR=synth_data

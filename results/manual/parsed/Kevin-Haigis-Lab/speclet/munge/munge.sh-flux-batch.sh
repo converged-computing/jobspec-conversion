@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-kitty-4092
-#FLUX: --queue=priority
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-pot-3215
+#FLUX --queue=priority
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load conda2 gcc slurm-drmaa R
 source "$HOME/.bashrc"

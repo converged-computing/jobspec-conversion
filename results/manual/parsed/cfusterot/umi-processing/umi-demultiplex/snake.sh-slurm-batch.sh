@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=demux
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=demux
+#SBATCH --output=/data/gpfs-1/users/cofu10_c/scratch/klara/slurm_logs/demux-%x.%j.out
+#SBATCH --error=/data/gpfs-1/users/cofu10_c/scratch/klara/slurm_logs/demux-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000M
+#SBATCH --time=20:00:00
 
 echo 'Start'
 snakemake \

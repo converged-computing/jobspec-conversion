@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=100
-#FLUX: --queue=shared
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=mpi
+#FLUX -n=100
+#FLUX --queue=shared
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R/3.5.1:$R_LIBS_USER'
 export R_PROFILE='$HOME/apps/R/3.5.1/Rmpi/Rprofile'

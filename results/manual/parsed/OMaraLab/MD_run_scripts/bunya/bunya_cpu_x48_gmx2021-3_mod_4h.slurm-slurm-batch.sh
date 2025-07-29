@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-nalgas-5363
-#FLUX: -c=48
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=a_omara
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=04:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=1
 
 module load  gromacs/2021.3-foss-2021a
 module list

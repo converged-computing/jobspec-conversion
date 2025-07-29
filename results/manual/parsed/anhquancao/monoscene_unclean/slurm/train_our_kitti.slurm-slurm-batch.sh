@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ablate_kitti
-#FLUX: -c=12
-#FLUX: --queue=gpu_p2
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#SBATCH --job-name=ablate_kitti
+#SBATCH --account=kvd@gpu
+#SBATCH --output=ablate_kitti_%j.out
+#SBATCH --error=ablate_kitti_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=19:59:00
+#SBATCH --partition=gpu_p2
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 conda deactivate

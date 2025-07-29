@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-5265
-#FLUX: --urgency=16
+#FLUX --job-name=hello-carrot-1006
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 

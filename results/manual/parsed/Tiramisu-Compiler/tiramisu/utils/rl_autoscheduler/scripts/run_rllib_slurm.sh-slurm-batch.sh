@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hippo-3182
-#FLUX: -N=4
-#FLUX: -c=28
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=outputs/job.train.out
+#SBATCH --error=outputs/job.train.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
 
 . scripts/env.sh
 . $CONDA_DIR/bin/activate

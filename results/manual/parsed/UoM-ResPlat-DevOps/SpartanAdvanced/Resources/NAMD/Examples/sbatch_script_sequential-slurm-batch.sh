@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bike-4664
-#FLUX: -N=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=VR0030
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
 
 jobname="_A2_aspirin_ion_256_run1_"
 date=$(date +%F);

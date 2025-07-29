@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_L0_rnn_a0
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_L0_rnn_a0
+#SBATCH --output=./cluster/uzh/train_L0_rnn/train_logs/train_L0_rnn_a0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
 
 RUN_ID=a0
 TRAIN_FILE_NAME=train_L0_rnn

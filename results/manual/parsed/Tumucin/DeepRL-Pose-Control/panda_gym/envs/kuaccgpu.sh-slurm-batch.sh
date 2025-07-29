@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PPOexp560
-#FLUX: --queue=mid
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PPOexp560
+#SBATCH --output=PPOexp560.out
+#SBATCH --mail-user=tbal21@ku.edu.tr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_t4:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=mid
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/kuacc/users/tbal21/.conda/envs/stableBaselines/panda-gym/panda_gym/envs/utils'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lemur-9761
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=job_outputs/myoutput_%j.out
+#SBATCH --error=job_outputs/myerrors_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:1
+#SBATCH --mem=32000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load ncf/1.0.0-fasrc01
 module load miniconda3/py310_22.11.1-1-linux_x64-ncf

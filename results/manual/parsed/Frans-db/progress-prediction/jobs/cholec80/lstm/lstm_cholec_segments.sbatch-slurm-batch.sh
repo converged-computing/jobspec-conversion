@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-3355
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=5G
+#SBATCH --time=00:30:00
+#SBATCH --partition=general
+#SBATCH --qos=short
+#SBATCH --array=0,1,2,3
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-3256
-#FLUX: -c=32
-#FLUX: --queue=nltmp
-#FLUX: -t=428400
-#FLUX: --urgency=16
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:A100-SXM4:1
+#SBATCH --time=4-23:00:00
+#SBATCH --partition=nltmp
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

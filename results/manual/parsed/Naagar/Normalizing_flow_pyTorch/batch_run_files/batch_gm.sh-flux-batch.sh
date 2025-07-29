@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=S_Cif_q
-#FLUX: -n=20
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=S_Cif_q
+#FLUX -n=20
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load cudnn/7-cuda-10.0
 source venv/bin/activate

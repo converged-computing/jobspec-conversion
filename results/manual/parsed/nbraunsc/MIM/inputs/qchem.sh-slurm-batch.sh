@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-kitty-8635
-#FLUX: --queue=preemptable_q
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=nmayhall_group
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=preemptable_q
 
 export qcSoft='/projects/nmayhall_lab/qchem5'
 export QCPATH='$qcSoft/qchem.librassf-bloch-dev/'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cutadapt
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cutadapt
+#SBATCH --output=cutadapt.out
+#SBATCH --error=cutadapt.err
+#SBATCH --mail-user=daned@uoregon.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=28
 
 ml easybuild ifort/2017.1.132-GCC-6.3.0-2.27 impi/2017.1.132
 ml cutadapt/1.14-Python-2.7.13

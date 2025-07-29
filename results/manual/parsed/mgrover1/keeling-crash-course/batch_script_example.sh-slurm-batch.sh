@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-caramel-7161
-#FLUX: -n=20
-#FLUX: --queue=node
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --mail-user=mailid@illinois.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=126GB
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=node
 
 source ~/anaconda3/bin/activate daskpy ## This is an example of setting the python virtual environment needed for the code.
 echo "#####################################################" ##This is to print any info about the job

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=dgx,dios
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=train_resnet.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --partition=dgx,dios
 
 export PATH='/opt/anaconda/bin:$PATH'
 export LD_LIBRARY_PATH='/mnt/homeGPU/fcastro/conda-envs/newlulc/lib'

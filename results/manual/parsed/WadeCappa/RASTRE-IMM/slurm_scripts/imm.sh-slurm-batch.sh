@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=diimm_512_IC_friendster
-#FLUX: -N=512
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=diimm_512_IC_friendster
+#SBATCH --account=m1641
+#SBATCH --output=/global/homes/w/wadecap/results/jobs/friendster/diimm_512_IC_friendster.o
+#SBATCH --error=/global/homes/w/wadecap/results/jobs/friendster/diimm_512_IC_friendster.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=512
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=cpu,ntasks-per-node=1
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

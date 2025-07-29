@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-gato-3180
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='~/aws-cli/bin:$PATH'
 

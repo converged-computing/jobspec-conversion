@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vtune_hpgmg_1_16
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=vtune_hpgmg_1_16
+#SBATCH --account=Nixing-Scale-Bugs
+#SBATCH --output=vtune_hpgmg_1_16.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

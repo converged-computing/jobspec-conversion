@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPSAPPEKG
-#FLUX: -N=8
+#FLUX --job-name=LAMMPSAPPEKG
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: --queue=wholenode
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=wholenode
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='cores'

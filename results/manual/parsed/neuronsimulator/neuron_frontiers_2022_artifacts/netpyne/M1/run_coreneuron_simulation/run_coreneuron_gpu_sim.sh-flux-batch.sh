@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-taco-0867
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=2
+#FLUX --job-name=dinosaur-onion-0308
+#FLUX -N=2
+#FLUX -n=16
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module_suffix="$1"
 acc_sync="$2"

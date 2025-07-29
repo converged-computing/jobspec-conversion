@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-rabbit-0998
-#FLUX: -n=30
-#FLUX: --queue=huce_intel
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=110000
+#SBATCH --time=00:00:10
+#SBATCH --partition=huce_intel
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bicycle-5150
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=40g
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 module load cuda
 echo Master process running on `hostname`

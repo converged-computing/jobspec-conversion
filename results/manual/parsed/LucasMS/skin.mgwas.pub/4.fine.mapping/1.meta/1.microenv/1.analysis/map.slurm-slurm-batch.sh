@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=confused-noodle-4070
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --output=/work_ifs/sukmb447/projects/skin.mgwas/results/4.fine.mapping/1.meta/1.microenv/1.analysis/log/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4gb
+#SBATCH --time=4-04:00:00
 
 cd $SLURM_SUBMIT_DIR
 INDEX="/work_ifs/sukmb447/projects/skin.mgwas/results/4.fine.mapping/1.meta/1.microenv/1.analysis/paths.txt"

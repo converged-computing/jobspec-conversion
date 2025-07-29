@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=coverm
-#FLUX: -n=20
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#FLUX --job-name=coverm
+#FLUX -n=20
+#FLUX -t=45000
+#FLUX --urgency=16
 
 START=$SECONDS
 module load python/3.6-conda5.2

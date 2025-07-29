@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-knife-1891
-#FLUX: -c=16
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-parsnip-7927
+#FLUX -c=16
+#FLUX -t=1380
+#FLUX --urgency=16
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

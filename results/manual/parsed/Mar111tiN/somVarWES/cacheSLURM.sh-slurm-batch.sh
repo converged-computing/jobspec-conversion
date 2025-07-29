@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=EBcache
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#SBATCH --job-name=EBcache
+#SBATCH --output=slogs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=500M
+#SBATCH --time=1-10:00:00
+#SBATCH --partition=long
 
 export LOGDIR='${HOME}/scratch/slogs/${SLURM_JOB_NAME}-${SLURM_JOB_ID}'
 export TMPDIR='/fast/users/${USER}/scratch/tmp;'

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=NYUSample3
-#FLUX: --queue=m40-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=NYUSample3
+#SBATCH --output=exp/exp_output/run_logs_%j.out
+#SBATCH --error=exp/exp_output/run_logs_%j.err
+#SBATCH --mail-user=lijunzhang@cs.umass.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4096
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=m40-long
+#SBATCH --exclude=node007
 
 echo `pwd`
 set -x -e

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JobName
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=JobName
+#SBATCH --output=outs/reverse/output.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:03:00
+#SBATCH --constraint=ntasks-per-node=8
 
 array_size=$1
 processes=$2

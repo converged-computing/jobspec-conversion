@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_taiyi
-#FLUX: -c=30
-#FLUX: --urgency=16
+#FLUX --job-name=finetune_taiyi
+#FLUX -c=30
+#FLUX --urgency=16
 
 export options=' \'
 

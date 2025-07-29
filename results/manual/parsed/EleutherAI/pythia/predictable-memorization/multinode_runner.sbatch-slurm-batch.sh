@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=memorization
-#FLUX: -N=64
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: --queue=g40
-#FLUX: --urgency=16
+#SBATCH --job-name=memorization
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.out
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=512
+#SBATCH --partition=g40
+#SBATCH: --exclusive
 
 export GIT_DISCOVERY_ACROSS_FILESYSTEM='0'
 

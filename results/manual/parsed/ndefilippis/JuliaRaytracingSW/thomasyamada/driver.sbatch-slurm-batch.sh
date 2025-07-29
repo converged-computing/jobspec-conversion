@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=thomasyamada_simulation
-#FLUX: -c=36
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=thomasyamada_simulation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=24GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NUM_JULIA_THREADS='`nproc`'
 

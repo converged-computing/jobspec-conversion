@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dlrm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

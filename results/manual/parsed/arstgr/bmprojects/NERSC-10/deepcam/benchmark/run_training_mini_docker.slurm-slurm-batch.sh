@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=docker-deepcam-mini
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=ndmv4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=docker-deepcam-mini
+#SBATCH --output=docker-deepcam-mini.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:20:00
+#SBATCH --partition=ndmv4
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64/:$LD_LIBRARY_PATH'

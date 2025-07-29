@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-sundae-8870
-#FLUX: -n=10
-#FLUX: -c=16
-#FLUX: --queue=cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=p200301
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:15:00
+#SBATCH --partition=cpu
+#SBATCH --qos=default
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

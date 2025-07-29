@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=an2month
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=an2month
+#SBATCH --account=IHESD
+#SBATCH --output=an2month-%A.%a.out
+#SBATCH --error=an2month-%A.%a.err
+#SBATCH --mail-user=chris.vernon@pnnl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=short
 
 module purge
 module load gcc/8.1.0

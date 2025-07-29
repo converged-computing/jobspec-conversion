@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_clay_v0.3.5
-#FLUX: -N=2
-#FLUX: --queue=g4-queue
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=train_clay_v0.3.5
+#FLUX -N=2
+#FLUX --queue=g4-queue
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

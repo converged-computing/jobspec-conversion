@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_fm_INF1
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=_fm_INF1
+#SBATCH --account=PETERS-SL3-CPU
+#SBATCH --output=/rds/user/jhz22/hpc-work/work/_fm_%A_%a.out
+#SBATCH --error=/rds/user/jhz22/hpc-work/work/_fm_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128800
+#SBATCH --time=12:00:00
+#SBATCH --partition=skylake
+#SBATCH --array=1-146%15
 
 export job='${SLURM_ARRAY_TASK_ID}'
 export INF='/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF'

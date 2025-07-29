@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: -c=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake
+#FLUX -c=48
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load GCC/11.2.0  OpenMPI/4.1.1  snakemake/6.10.0

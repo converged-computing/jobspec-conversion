@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-animal-3349
-#FLUX: -N=5
-#FLUX: -n=9
-#FLUX: --queue=fpga
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-citrus-4412
+#FLUX -N=5
+#FLUX -n=9
+#FLUX --queue=fpga
+#FLUX --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n/19.4.0_max

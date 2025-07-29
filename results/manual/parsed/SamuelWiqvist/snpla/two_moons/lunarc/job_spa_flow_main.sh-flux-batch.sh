@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spa_flow
+#FLUX --job-name=spa_flow
 #FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=lu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 MAX_SEED_VAL=10
 for ((i=1;i<=$MAX_SEED_VAL;i++)); do

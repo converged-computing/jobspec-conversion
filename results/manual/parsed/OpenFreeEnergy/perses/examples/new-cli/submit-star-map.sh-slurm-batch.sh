@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nunchucks-9992
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/OpenFreeEnergy/perses/examples/new-cli/submit-star-map.sh

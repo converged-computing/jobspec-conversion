@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sel_func_G20.5_zsplit2
-#FLUX: -c=4
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=sel_func_G20.5_zsplit2
+#FLUX -c=4
+#FLUX -t=64800
+#FLUX --urgency=16
 
 n_zbins=2
 tag_cat_extra=""

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pot-4196
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=./combinegate/COVID_COMBINE_GATES_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:04:00
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

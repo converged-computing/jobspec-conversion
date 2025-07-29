@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leader-3571
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=astute-latke-3681
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_a.py \
     --mode text_to_image \

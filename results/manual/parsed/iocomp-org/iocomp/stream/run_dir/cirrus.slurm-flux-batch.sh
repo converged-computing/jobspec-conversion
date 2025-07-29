@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stream
+#FLUX --job-name=stream
 #FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 export IOCOMP_DIR='/work/d403/d403/shr2032/opt/gcc/iocomp/1.1.3'
 export LD_LIBRARY_PATH='${IOCOMP_DIR}/lib:${LD_LIBRARY_PATH}'

@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GRChombo_Proca_Fixed
-#FLUX: --urgency=16
+#SBATCH --job-name=GRChombo_Proca_Fixed
+#SBATCH --output=/home/hd/hd_hd/hd_pb293/JobScripts/GRChombo/SlurmOut/%x_%j.out
+#SBATCH --error=/home/hd/hd_hd/hd_pb293/JobScripts/GRChombo/SlurmOut/%x_%j.err
+#SBATCH --mail-user=shaundbfell@gmail.com
+#SBATCH --mail-type=BEGIN,END,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${PETSC_DIR}/lib'
 export MPIRUN_OPTIONS='--bind-to core --map-by socket:PE=${OMP_NUM_THREADS} --report-bindings'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=i-TEMP-PRESS
-#FLUX: -c=7
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=i-TEMP-PRESS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --time=23:30:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 module purge
 module load cudatoolkit/10.0

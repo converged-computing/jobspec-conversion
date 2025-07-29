@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=snaq
-#FLUX: -c=31
-#FLUX: --queue=long
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#FLUX --job-name=snaq
+#FLUX -c=31
+#FLUX --queue=long
+#FLUX -t=1814400
+#FLUX --urgency=16
 
 t1=$(date +"%s")
 module load julia/1.5.3 

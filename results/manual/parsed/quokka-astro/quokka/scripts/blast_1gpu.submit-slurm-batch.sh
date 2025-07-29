@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hydro3dblast
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hydro3dblast
+#SBATCH --account=cvz-delta-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpuA100x4
+#SBATCH: --exclusive
+#SBATCH --constraint=scratch,ntasks-per-node=1
 
 module purge
 module load gcc/11.2.0

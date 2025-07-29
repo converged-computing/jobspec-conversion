@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=KA_repeatmasker
-#FLUX: -c=48
-#FLUX: --queue=bigmem
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=KA_repeatmasker
+#FLUX -c=48
+#FLUX --queue=bigmem
+#FLUX -t=518400
+#FLUX --urgency=16
 
 threads=48
 module load singularity/3.5.2

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mp_dynesty_1000
-#FLUX: -c=64
-#FLUX: --queue=dark
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=mp_dynesty_1000
+#FLUX -c=64
+#FLUX --queue=dark
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=norbench
-#FLUX: -c=4
-#FLUX: --queue=ifi_accel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=norbench
+#SBATCH --account=ec30
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=10:00:00
+#SBATCH --partition=ifi_accel
 
 source ${HOME}/.bashrc
 set -o errexit

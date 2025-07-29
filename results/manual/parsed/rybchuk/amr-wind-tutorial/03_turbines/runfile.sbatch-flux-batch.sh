@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-kitty-5761
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-cinnamonbun-5493
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export EXAWIND_DIR='/nopt/nrel/ecom/exawind/exawind-2020-09-21/install/gcc'
 export MPI_TYPE_DEPTH='15'

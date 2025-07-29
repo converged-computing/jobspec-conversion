@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lizard-4150
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=kas_dev
+#SBATCH --output=/scratch/jws6pq/Gromacs/1gromacs.out
+#SBATCH --error=/scratch/jws6pq/Gromacs/1gromacs.err
+#SBATCH --mail-user=jws6pq@virginia.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 module load gcc/9.2.0
 module load cuda/11.0.228

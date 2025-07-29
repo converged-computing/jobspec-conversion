@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPRC-GQ_filters-annotate_edit_with_fp_kmers
-#FLUX: -c=8
-#FLUX: --queue=high_priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=HPRC-GQ_filters-annotate_edit_with_fp_kmers
+#FLUX -c=8
+#FLUX --queue=high_priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='`pwd`/../cache/.singularity/cache'
 export MINIWDL__SINGULARITY__IMAGE_CACHE='`pwd`/../cache/.cache/miniwdl'

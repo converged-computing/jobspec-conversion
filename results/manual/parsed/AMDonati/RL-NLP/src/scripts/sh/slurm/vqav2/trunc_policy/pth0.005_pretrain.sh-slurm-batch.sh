@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pth0.005-pretrain-full
-#FLUX: -c=16
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=pth0.005-pretrain-full
+#SBATCH --output=slurm_out/vqa/pth0.005-trunc-pretrain-full-%j.out
+#SBATCH --error=slurm_out/vqa/pth0.005-trunc-pretrain-full-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8g
+#SBATCH --time=4-04:00:00
+#SBATCH --qos=qos_gpu-t4
+#SBATCH --array=1-3
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

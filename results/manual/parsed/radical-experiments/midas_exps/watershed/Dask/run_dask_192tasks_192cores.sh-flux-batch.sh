@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nunchucks-1304
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-itch-9166
+#FLUX -N=8
+#FLUX --queue=compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source activate watershed_Dask

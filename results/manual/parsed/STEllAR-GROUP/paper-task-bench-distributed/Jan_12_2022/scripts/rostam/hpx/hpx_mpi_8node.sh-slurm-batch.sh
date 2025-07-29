@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hpx-plainmpi-join-8node-%j
-#FLUX: --queue=buran
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hpx-plainmpi-join-8node-%j
+#SBATCH --output=hpx-plainmpi-join-8node-%j.txt
+#SBATCH --error=error-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=buran
+#SBATCH --nodelist=buran[08-15]
 
 module load gcc/11.2.0
 module load boost/1.78.0-release

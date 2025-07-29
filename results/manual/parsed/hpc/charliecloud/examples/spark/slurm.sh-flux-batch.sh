@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-animal-4062
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-spoon-0977
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -e
 if [[ -z $SLURM_JOB_ID ]]; then

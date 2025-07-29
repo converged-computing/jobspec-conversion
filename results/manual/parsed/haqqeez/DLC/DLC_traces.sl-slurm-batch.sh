@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TASKNAME
-#FLUX: -t=890
-#FLUX: --urgency=16
+#SBATCH --job-name=TASKNAME
+#SBATCH --account=def-markpb68
+#SBATCH --mail-user=MYEMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6000
+#SBATCH --time=00:14:50
 
 export DLClight='True'
 

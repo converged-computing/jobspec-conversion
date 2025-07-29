@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=megatron-multinode-ib-30b-2
-#FLUX: -N=8
-#FLUX: -c=80
-#FLUX: --queue=h800-ib-2
-#FLUX: --urgency=16
+#FLUX --job-name=megatron-multinode-ib-30b-2
+#FLUX -N=8
+#FLUX -c=80
+#FLUX --queue=h800-ib-2
+#FLUX --urgency=16
 
 export NCCL_DEBUG='info'
 export NCCL_IB_DISABLE='1'

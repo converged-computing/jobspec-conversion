@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-egg-1091
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=blue-plant-1723
+#FLUX -c=4
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load python/3.8
 module load scipy-stack

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_SIMULATE_MOCK
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_SIMULATE_MOCK
+#SBATCH --output=logging/stream_simulate_mock_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2000
+#SBATCH --time=7-00:00:00
 
 stream_index=$SLURM_ARRAY_TASK_ID
 suffix=$(printf "%05d" $stream_index)

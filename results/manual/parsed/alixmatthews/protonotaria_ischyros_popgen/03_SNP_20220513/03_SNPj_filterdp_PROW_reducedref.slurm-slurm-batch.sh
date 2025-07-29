@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=03_SNPj_filterdp_PROW_reducedref
-#FLUX: --queue=comp01
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=03_SNPj_filterdp_PROW_reducedref
+#SBATCH --output=03_SNPj_filterdp_PROW_reducedref_%j.txt
+#SBATCH --error=03_SNPj_filterdp_PROW_reducedref_%j.err
+#SBATCH --mail-user=alix.matthews@smail.astate.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=comp01
+#SBATCH --constraint=ntasks-per-node=32
 
 module load python/anaconda-3.9
 source /share/apps/bin/conda-3.9.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-rabbit-7617
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-frito-6177
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='/ibex/user/$USER/TMPDIR'
 export SINGULARITY_CACHEDIR='/ibex/user/$USER/singularity_cache'

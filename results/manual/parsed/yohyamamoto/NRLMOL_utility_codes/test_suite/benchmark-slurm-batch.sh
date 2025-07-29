@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-underoos-3309
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/yohyamamoto/NRLMOL_utility_codes/test_suite/benchmark

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: --queue=qgpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=setup
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=18
 
 export GMXLIB='/home/kummerer/TETRALOOPS/forcefields/ff-opc-water-model/:/home/kummerer/TETRALOOPS/ff-opc-water-model/amber_na.ff/"              '
 

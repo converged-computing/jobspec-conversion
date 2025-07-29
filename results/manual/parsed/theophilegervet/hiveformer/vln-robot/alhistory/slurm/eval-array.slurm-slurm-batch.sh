@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dataset
-#FLUX: -c=10
-#FLUX: --queue=gpu_p13
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=dataset
+#SBATCH --account=vuo@v100
+#SBATCH --output=logs/%A_%a.out
+#SBATCH --error=logs/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p13
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/opt/YARR/'
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'

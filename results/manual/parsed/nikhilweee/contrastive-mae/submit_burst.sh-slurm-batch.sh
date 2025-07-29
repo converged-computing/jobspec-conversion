@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_both_mr_50
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain_both_mr_50
+#SBATCH --account=csci-ga-2565-2022sp
+#SBATCH --output=sbatch_logs/%A_%x.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=n1s8-v100-1
 
 singularity exec \
     --nv --overlay /scratch/nv2099/overlay-50G-10M.ext3:ro \

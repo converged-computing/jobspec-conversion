@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=unet_radio_train
-#FLUX: -c=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=unet_radio_train
+#SBATCH --output=unet_radio_train%j.out
+#SBATCH --error=unet_radio_train%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-04:00:00
+#SBATCH --qos=qos_gpu-t4
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load tensorflow-gpu/py3/1.15.2

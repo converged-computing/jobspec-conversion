@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=desi-rep
-#FLUX: -c=16
+#FLUX --job-name=desi-rep
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#FLUX -t=460800
+#FLUX --urgency=16
 
 pwd; hostname; date
 nvidia-smi

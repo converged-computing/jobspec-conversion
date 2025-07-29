@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rsfc
-#FLUX: -c=4
-#FLUX: --queue=bluemoon
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=rsfc
+#SBATCH --output=log/%x/ATS/%x-ATS_%A-%a.out
+#SBATCH --error=log/%x/ATS/%x-ATS_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=bluemoon
 
 pwd; hostname; date
 set -e

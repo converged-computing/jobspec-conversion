@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-knife-9450
-#FLUX: --urgency=16
+#FLUX --job-name=purple-muffin-5880
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UKFELs/Puffin/scripts/hartree/puffin.bluewonderphase2.intel2015.lsf

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet50_P4M_Mixup_on_CIFAR
-#FLUX: -n=4
-#FLUX: --queue=gpu-titanxp
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ResNet50_P4M_Mixup_on_CIFAR
+#SBATCH --output=ResNet50_P4M_Mixup_on_CIFAR.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-titanxp
 
 cd  $SLURM_SUBMIT_DIR
 echo "SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR"

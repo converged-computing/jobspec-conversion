@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=snippyArray
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=snippyArray
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=12G
+#SBATCH --time=03:00:00
+#SBATCH --array=1-2317%100
 
 config=$1
 fastqsPath=$2

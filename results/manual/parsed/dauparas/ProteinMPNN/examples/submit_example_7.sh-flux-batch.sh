@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-9612
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-platanos-5074
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS_Bench
-#FLUX: -n=16
-#FLUX: --queue=longjobs
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS_Bench
+#SBATCH --output=results_%j.out
+#SBATCH --error=results_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=longjobs
 
 export OMP_NUM_THREADS='1'
 export WDIR='<REPO_DIR>/bench'

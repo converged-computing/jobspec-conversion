@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=te_mpi
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=te_mpi
+#FLUX -n=4
+#FLUX -c=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='/usr/users/$USER/IDTxl'
 export JAVA_HOME='/usr/users/$USER/jdk-16.0.1'

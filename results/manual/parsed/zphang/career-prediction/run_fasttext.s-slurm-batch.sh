@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fasttext
-#FLUX: -t=36600
-#FLUX: --urgency=16
+#SBATCH --job-name=fasttext
+#SBATCH --output=fasttext_%j.out
+#SBATCH --mail-user=mf3490@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50GB
+#SBATCH --time=10:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load pytorch/python3.6/0.2.0_3
 source activate jobembeddings

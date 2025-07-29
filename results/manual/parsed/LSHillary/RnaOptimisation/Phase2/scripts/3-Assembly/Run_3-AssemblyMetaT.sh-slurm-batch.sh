@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RnaOpt-preprocessing
-#FLUX: -c=2
-#FLUX: --queue=high2
-#FLUX: -t=468000
-#FLUX: --urgency=16
+#SBATCH --job-name=RnaOpt-preprocessing
+#SBATCH --output=logs/RnaOpt-preprocessing_%j.out
+#SBATCH --error=logs/RnaOpt-preprocessing_%j.err
+#SBATCH --mail-user=lhillary@ucdavis.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=5-10:00:00
+#SBATCH --partition=high2
 
 source ~/.bashrc
 cd MetaT

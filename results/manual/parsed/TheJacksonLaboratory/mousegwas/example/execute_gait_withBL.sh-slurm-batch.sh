@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-7386
-#FLUX: --queue=compute
-#FLUX: -t=87300
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:15:00
+#SBATCH --partition=compute
 
 export G='https://raw.githubusercontent.com/TheJacksonLaboratory/mousegwas'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-chess
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=train-chess
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j.out
+#SBATCH --error=%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=256G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=bii-gpu
 
 date
 nvidia-smi

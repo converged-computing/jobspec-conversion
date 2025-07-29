@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-citrus-4948
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
 
 module load anaconda/2020.11
 source activate fastNeRF

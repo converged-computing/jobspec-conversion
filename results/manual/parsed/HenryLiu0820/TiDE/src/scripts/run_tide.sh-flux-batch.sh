@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-8686
-#FLUX: -c=6
-#FLUX: --queue=rise
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-hobbit-0667
+#FLUX -c=6
+#FLUX --queue=rise
+#FLUX -t=87840
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export OMP_NUM_THREADS='1'

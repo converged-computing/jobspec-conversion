@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ner_al_gpu
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ner_al_gpu
+#SBATCH --output=./ner_al_gpu.out.%j
+#SBATCH --error=./ner_al_gpu.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8182
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 export LD_LIBRARY_PATH='${cudaDir}/lib64:${LD_LIBRARY_PATH}'
 export CPATH='${cudaDir}/include:${CPATH}'

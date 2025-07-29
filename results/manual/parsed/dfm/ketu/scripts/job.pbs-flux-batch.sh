@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parsnip-8871
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-buttface-5979
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dfm/ketu/scripts/job.pbs

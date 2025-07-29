@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=t1_CartPole-v0
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=t1_CartPole-v0
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/sw/free/cuda/8.0/lib64/'
 export PATH='/scratch/PI/menon/scripts/python/misc/lasagne:$PATH'

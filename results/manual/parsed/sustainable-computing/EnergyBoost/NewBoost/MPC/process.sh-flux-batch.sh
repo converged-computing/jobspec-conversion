@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MPC
-#FLUX: -c=6
-#FLUX: -t=840
-#FLUX: --urgency=16
+#FLUX --job-name=MPC
+#FLUX -c=6
+#FLUX -t=840
+#FLUX --urgency=16
 
 module load python/3.6.3
 module load scipy-stack

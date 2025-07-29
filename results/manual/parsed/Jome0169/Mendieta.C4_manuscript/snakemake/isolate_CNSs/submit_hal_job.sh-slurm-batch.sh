@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RunHal
-#FLUX: -c=5
-#FLUX: --queue=batch
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=RunHal
+#SBATCH --output=ntr.%j.out
+#SBATCH --error=ntr.%j.err
+#SBATCH --mail-user=john.mendieta@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=100gb
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 source /apps/lmod/lmod/init/zsh

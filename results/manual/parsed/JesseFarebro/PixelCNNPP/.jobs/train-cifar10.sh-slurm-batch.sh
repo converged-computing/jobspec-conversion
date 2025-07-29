@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pancake-1088
-#FLUX: -c=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=train-cifar10-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=16000M
+#SBATCH --time=00:10:00
 
 set -e; pushd ${SLURM_SUBMIT_DIR}
 trap "{ popd; date; }" EXIT

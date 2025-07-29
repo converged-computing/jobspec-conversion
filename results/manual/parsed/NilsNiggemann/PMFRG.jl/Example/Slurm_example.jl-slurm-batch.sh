@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SquareLattice
-#FLUX: -c=32
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SquareLattice
+#SBATCH --output=<path/to/output/file/>SquareLattice%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=25GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 module load lang/Julia/1.8.2-linux-x86_64; julia -O3 -t $SLURM_CPUS_PER_TASK <path/to/this/file/>.Slurm_example.jl $SLURM_ARRAY_TASK_ID
 exit

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_small
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=sweep_small
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PATH='$HOME/.conda/envs/GrooveTransformer/bin:$PATH'
 export WANDB_API_KEY='API_KEY'

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=test_slurm
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=test_slurm
+#SBATCH --output=./fitlogs/job.out.%j
+#SBATCH --error=./fitlogs/job.err.%j
+#SBATCH --mail-user=userid@example.mpg.de
+#SBATCH --mail-type=none
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000MB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --chdir=./
 
 export SINGULARITY_TMPDIR='$(pwd)/tmp'
 export SINGULARITY_CACHEDIR='$(pwd)/tmp'

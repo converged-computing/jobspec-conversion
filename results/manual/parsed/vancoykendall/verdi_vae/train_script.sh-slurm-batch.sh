@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-toaster-4827
-#FLUX: -c=5
-#FLUX: --urgency=16
+#SBATCH --output=job_logs/train_script.sh.log-%j-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:volta:1
+#SBATCH --array=1-4
 
 echo test1
 module load anaconda/2020b cuda/10.2 nccl/2.5.6-cuda10.2

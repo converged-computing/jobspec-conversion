@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Interpolate
-#FLUX: -n=220
-#FLUX: --queue=compute
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=Interpolate
+#SBATCH --account=bm1164
+#SBATCH --output=Logs/SLURM_job.%j.%N.out
+#SBATCH --error=Logs/SLURM_job.%j.%N.err
+#SBATCH --mail-user=clara.henry@mpimet.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=220
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=compute
+#SBATCH --chdir=.
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

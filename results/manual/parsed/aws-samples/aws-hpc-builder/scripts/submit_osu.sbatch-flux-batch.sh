@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cinnamonbun-1942
-#FLUX: -N=2
+#FLUX --job-name=eccentric-hope-0311
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=g16xlargeefa
-#FLUX: --urgency=16
+#FLUX --queue=g16xlargeefa
+#FLUX --urgency=16
 
 export OSU_VERSION='6.1'
 

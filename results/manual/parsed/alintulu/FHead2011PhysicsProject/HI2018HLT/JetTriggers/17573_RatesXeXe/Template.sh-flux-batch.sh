@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lettuce-1666
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-citrus-5328
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HI2018HLT/JetTriggers/17573_RatesXeXe/Template.sh

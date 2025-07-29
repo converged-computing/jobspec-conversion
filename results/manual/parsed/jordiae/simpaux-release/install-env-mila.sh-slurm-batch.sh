@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-sundae-4537
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=logs/install_%j.out
+#SBATCH --error=logs/install_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
 
 module purge
 module load anaconda/3 python/3.7/cuda/11.0/cudnn/8.0/pytorch/1.6.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lmp_benchm
-#FLUX: -c=8
-#FLUX: --queue=gpuq-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lmp_benchm
+#FLUX -c=8
+#FLUX --queue=gpuq-dev
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export ALLINEA_CONFIG_DIR='$HOME/.allinea_topaz'
 export SLURM_OVERLAP='1'

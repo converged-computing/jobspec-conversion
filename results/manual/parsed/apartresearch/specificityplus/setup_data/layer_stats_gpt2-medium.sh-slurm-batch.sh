@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-omelette-1471
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=14000
+#SBATCH --time=04:00:00
 
 export MODEL='models--gpt2-medium'
 export PYTHONPATH='/home/${USER}/git/memitpp:${PYTHONPATH}'

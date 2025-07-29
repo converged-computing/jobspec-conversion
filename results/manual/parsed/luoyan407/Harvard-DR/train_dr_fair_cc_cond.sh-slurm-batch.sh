@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fudge-9137
-#FLUX: -n=8
-#FLUX: --queue=nvidia
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=vit_%j.out
+#SBATCH --mail-user=cw3437@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=nvidia
 
 module purge
 module load all

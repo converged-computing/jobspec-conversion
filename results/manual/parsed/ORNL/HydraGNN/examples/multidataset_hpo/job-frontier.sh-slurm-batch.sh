@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HydraGNN
-#FLUX: -N=2048
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=HydraGNN
+#SBATCH --account=CPH161
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.out
+#SBATCH --nodes=2048
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export MIOPEN_DISABLE_CACHE='1'
 export NNODES='$SLURM_JOB_NUM_NODES # e.g., 100 total nodes'

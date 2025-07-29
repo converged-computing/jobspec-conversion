@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-8249
-#FLUX: -c=20
-#FLUX: -t=480000
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-lemur-6029
+#FLUX -c=20
+#FLUX -t=480000
+#FLUX --urgency=16
 
 export HOME='/om2/user/dapello/'
 

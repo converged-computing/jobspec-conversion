@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FBtest
-#FLUX: -N=256
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=early_science
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=FBtest
+#SBATCH --output=FBtest.o%A
+#SBATCH --nodes=256
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=early_science
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export CRAY_ACCEL_TARGET='nvidia80'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cupcake-5614
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#SBATCH --output=output/%x_%u_%j.out
+#SBATCH --error=output/%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2000
+#SBATCH --partition=mhigh,mhigh
 
 python custom_cnn.py

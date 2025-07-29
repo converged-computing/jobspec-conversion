@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-chip-0271
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
 
 echo $SLURM_JOB_GPUS
 working_dir='/home/hwaranlee/06_convlab/convlab/modules/word_dst/multiwoz/sumbt'

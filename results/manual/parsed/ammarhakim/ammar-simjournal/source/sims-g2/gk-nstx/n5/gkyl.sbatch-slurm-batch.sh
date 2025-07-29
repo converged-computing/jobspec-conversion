@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gkyl
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gkyl
+#SBATCH --account=pppl
+#SBATCH --output=gkyl-%j.out
+#SBATCH --error=gkyl-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 module load intel
 module load intel-mpi

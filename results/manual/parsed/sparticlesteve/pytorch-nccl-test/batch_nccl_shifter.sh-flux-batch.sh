@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-caramel-1795
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=frigid-poo-7335
+#FLUX -N=2
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

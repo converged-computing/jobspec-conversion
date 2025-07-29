@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xu
-#FLUX: -c=32
-#FLUX: --queue=gpusmall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=xu
+#SBATCH --account=Project_2002243
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1,nvme:180
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpusmall
 
 $SCRATCH
 module load pytorch/1.10

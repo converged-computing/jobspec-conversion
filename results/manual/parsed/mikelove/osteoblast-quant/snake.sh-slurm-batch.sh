@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=snake
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=snake
+#SBATCH --mail-user=milove@email.unc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=20:00:00
 
 module load python
 module load samtools

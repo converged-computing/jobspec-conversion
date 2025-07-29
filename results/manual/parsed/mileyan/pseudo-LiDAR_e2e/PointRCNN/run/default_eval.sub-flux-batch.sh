@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -n=4
-#FLUX: --queue=kilian
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -n=4
+#FLUX --queue=kilian
+#FLUX -t=432000
+#FLUX --urgency=16
 
 POINT_STYLE=default
 NUM_GPUS=2

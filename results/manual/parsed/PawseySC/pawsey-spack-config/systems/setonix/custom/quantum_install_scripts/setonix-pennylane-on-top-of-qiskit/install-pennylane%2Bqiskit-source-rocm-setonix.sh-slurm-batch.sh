@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=install-pennylane+qiskit-source-rocm-setonix
-#FLUX: --exclusive
-#FLUX: --queue=gpu-dev
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=install-pennylane+qiskit-source-rocm-setonix
+#SBATCH --account=pawsey0001-gpu
+#SBATCH --output=out-%x
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu-dev
+#SBATCH: --exclusive
 
 script_dir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 . $script_dir/use-pennylane+qiskit-source-rocm-setonix.sh

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fork-2309
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 export MAX_STEPS='100'
 

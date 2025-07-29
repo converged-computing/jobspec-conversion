@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MV_GPU
-#FLUX: --queue=gpu
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#FLUX --job-name=MV_GPU
+#FLUX --queue=gpu
+#FLUX -t=2100
+#FLUX --urgency=16
 
 nvidia-smi
 module load cuda/11.2.0 gcc/10.2

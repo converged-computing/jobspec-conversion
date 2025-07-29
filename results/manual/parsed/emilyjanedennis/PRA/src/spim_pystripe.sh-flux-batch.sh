@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-avocado-4974
-#FLUX: -c=12
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#FLUX --job-name=purple-buttface-7401
+#FLUX -c=12
+#FLUX -t=12000
+#FLUX --urgency=16
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

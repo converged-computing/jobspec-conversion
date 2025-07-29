@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hippo-3049
-#FLUX: -n=24
-#FLUX: --queue=huce_cascade
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=110000
+#SBATCH --time=00:00:10
+#SBATCH --partition=huce_cascade
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=DCTST
-#FLUX: -N=16
-#FLUX: -n=384
+#FLUX --job-name=DCTST
+#FLUX -N=16
+#FLUX -n=384
 #FLUX: --exclusive
-#FLUX: --queue=cpu_small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=cpu_small
+#FLUX -t=3600
+#FLUX --urgency=16
 
 mkdir -p log tmp
 NETINFO=log/netinfo.$SLURM_JOBID.log

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-platanos-8558
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=06:00:00
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 dt=$(date '+%d/%m/%Y %H:%M:%S')

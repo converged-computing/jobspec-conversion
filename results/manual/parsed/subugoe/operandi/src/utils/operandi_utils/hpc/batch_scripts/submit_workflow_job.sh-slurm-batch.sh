@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-blackbean-3721
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=scratch
 
 set -e
 SIF_PATH="/scratch1/users/${USER}/ocrd_all_maximum_image.sif"

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nunchucks-9493
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nksauter/LS49/adse13_196/summit/summit_240.2node.sh

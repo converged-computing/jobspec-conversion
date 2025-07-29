@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -n=8
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=experiment/results_train.txt
+#SBATCH --error=experiment/errors.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:01
+#SBATCH --partition=all
+#SBATCH --nodelist=xeon-09
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 

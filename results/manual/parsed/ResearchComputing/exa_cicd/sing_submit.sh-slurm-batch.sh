@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-eagle-1386
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=ucb1_summit1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export MFIX='/app/mfix/build/mfix/mfix'
 export WD='/scratch/summit/holtat/sing'

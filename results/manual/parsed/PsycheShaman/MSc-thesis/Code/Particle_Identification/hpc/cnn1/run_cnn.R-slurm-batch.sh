@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: -n=2
-#FLUX: --queue=ada
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=MyJob
+#SBATCH --account=stats
+#SBATCH --mail-user=vljchr004@myuct.ac.za
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=ada
 
 module load software/R-3.5.2
 module load python/anaconda-python-3.7 

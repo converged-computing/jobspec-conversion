@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Z
-#FLUX: -n=20
-#FLUX: --queue=normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Z
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=20
 
 for i in {1..10}; do
 RAND=$(echo $RANDOM)  # random initial velocity seed

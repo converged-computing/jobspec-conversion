@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-7213
-#FLUX: -c=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --mail-user=isaac.yellan95@gmail.com
+#SBATCH --mail-type=ARRAY_TASKS,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=1G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=0-239%20
 
 export proj_dir='/home/iyellan/scratch/peak_ages'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-car-4896
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-itch-8265
+#FLUX -c=10
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load Julia
 echo "Julia module loaded."

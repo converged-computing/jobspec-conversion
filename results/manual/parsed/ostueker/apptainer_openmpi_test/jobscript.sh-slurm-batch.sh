@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-omelette-7132
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000M
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export PMIX_MCA_gds='^ds12'
 export OMPI_MCA_btl_vader_single_copy_mechanism='none'

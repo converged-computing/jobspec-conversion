@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=TIESnamd
-#FLUX: -N=195
-#FLUX: --queue=general
-#FLUX: -t=73800
-#FLUX: --urgency=16
+#SBATCH --job-name=TIESnamd
+#SBATCH --account=pn98ve
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --mail-user=bieniekmat@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=195
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:30:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module load slurm_setup
 module load namd

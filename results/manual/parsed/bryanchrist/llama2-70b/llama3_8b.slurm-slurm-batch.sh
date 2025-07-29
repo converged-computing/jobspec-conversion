@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama3-8b_generate
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama3-8b_generate
+#SBATCH --account=sds_dl_phd
+#SBATCH --output=llama3-8b_generate-%A.out
+#SBATCH --error=llama3-8b_generate-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=75G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

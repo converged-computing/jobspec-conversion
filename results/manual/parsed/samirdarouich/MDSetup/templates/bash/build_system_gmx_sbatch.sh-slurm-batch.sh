@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=build_system
-#FLUX: --queue=single
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=build_system
+#SBATCH --output={{folder}}/build_log.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=01:00:00
+#SBATCH --partition=single
 
 module purge
 module load chem/gromacs/2023.3

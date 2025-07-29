@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-destiny-7428
-#FLUX: --urgency=16
+#FLUX --job-name=milky-milkshake-5640
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${SUMMER_CLIP_PATH}'
 export TRANSFORMERS_OFFLINE='1'

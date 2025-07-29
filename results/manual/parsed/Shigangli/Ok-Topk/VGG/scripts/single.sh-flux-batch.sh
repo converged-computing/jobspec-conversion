@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parsnip-0736
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-pedo-6743
+#FLUX -c=12
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load daint-gpu
 module load PyTorch

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pvserver
-#FLUX: --queue=k2-medpri,medpri
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=pvserver
+#SBATCH --output=log.pvserver
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
+#SBATCH --partition=k2-medpri,medpri
 
 module load apps/paraview/5.11.2
 echo starting xvfb

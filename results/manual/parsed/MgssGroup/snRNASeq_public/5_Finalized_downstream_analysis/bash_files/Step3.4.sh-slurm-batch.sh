@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-salad-1206
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=def-cnagy
+#SBATCH --output=/home/malosree/projects/def-gturecki/malosree/Finalized_downstream_analysis/Slurm_files/Step3.4.out
+#SBATCH --error=/home/malosree/projects/def-gturecki/malosree/Finalized_downstream_analysis/Slurm_files/Step3.4.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=12:00:00
 
 module load r/4.1.2
 Rscript /home/malosree/projects/def-gturecki/malosree/Finalized_downstream_analysis/Finalized_scripts/3.4_spatial_reverse_label_transfer.R

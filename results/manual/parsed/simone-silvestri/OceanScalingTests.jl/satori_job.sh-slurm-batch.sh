@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-2282
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

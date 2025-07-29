@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=httools
-#FLUX: --queue=norm
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=httools
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=norm
 
 if [ $# -eq 0 ]
   then

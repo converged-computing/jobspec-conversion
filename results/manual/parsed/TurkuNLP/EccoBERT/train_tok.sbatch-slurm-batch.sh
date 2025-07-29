@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tok
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=tok
+#SBATCH --account=project_2005072
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=07:00:00
+#SBATCH --partition=medium
 
 module load pytorch/1.9
 singularity_wrapper exec python3 train_tokenizer.py --filelist $1 --N 10000 --out $2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prompt_llama
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#FLUX --job-name=prompt_llama
+#FLUX -c=16
+#FLUX --queue=a40
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_IB_DISABLE='1'

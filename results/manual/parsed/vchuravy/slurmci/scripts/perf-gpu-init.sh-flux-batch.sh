@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lemon-2309
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-hobbit-7051
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH='$(pwd)/.slurmdepot/gpu'
 export OPENBLAS_NUM_THREADS='1'

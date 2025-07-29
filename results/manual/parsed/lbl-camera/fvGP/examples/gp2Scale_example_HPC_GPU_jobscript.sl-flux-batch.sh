@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-avocado-3088
-#FLUX: -n=32
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-nalgas-8650
+#FLUX -n=32
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export OMP_NUM_THREADS='8'

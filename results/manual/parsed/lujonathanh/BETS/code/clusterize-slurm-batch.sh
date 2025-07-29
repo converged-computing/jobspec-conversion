@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-squidward-6257
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 usage="clusterize [options] -c \"command\"
 	Creates a script in the temp directory to run the user specified command

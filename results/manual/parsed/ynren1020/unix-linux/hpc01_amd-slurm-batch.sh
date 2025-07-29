@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-signal-9436
-#FLUX: -n=8
-#FLUX: --queue=amd
-#FLUX: -t=1065600
-#FLUX: --urgency=16
+#SBATCH --mail-user=renxx275@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12-08:00:00
+#SBATCH --partition=amd
 
 cd $SLURM_SUBMIT_DIR
 sh /usr/local/modules/profile.modules

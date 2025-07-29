@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bert-vanilla-hidden
-#FLUX: --queue=jag-standard
-#FLUX: --urgency=16
+#SBATCH --job-name=bert-vanilla-hidden
+#SBATCH --output=sample-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titanx:1
+#SBATCH --mem=16G
+#SBATCH --partition=jag-standard
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=music80_04_melodicity
-#FLUX: -n=8
-#FLUX: --queue=aagk80
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=music80_04_melodicity
+#SBATCH --output=OGAN.out
+#SBATCH --mail-user=gabrielguimaraes@college.harvard.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=20-00:00:00
+#SBATCH --partition=aagk80
+#SBATCH --constraint=cuda-7.5
 
 export OMP_NUM_THREADS='8'
 

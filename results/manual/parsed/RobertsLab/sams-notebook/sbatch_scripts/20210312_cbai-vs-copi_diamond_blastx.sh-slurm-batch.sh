@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20210312_cbai-vs-copi_diamond_blastx
-#FLUX: --queue=srlab
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=20210312_cbai-vs-copi_diamond_blastx
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=20-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210312_cbai-vs-copi_diamond_blastx
 
 reads_dir=/gscratch/srlab/sam/data/C_bairdi/RNAseq
 dmnd=/gscratch/srlab/sam/data/C_opilio/blastdbs/GCA_016584305.1_ASM1658430v1_protein.dmnd

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=PPOexp1300
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=PPOexp1300
+#SBATCH --output=PPOexp1300.out
+#SBATCH --mail-user=tbal21@ku.edu.tr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Activating Python 3.6.3..."
 module load python/3.6.1

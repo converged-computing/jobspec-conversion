@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=seq2seq
-#FLUX: -c=16
-#FLUX: --queue=alpha
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=seq2seq
+#FLUX -c=16
+#FLUX --queue=alpha
+#FLUX -t=360000
+#FLUX --urgency=16
 
 while getopts dpl: flag
 do

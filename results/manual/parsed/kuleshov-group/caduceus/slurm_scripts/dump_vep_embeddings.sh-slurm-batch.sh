@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vep_embed
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=vep_embed
+#SBATCH --output=../watch_folder/%x_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=100G
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_LAUNCH_BLOCKING='1'
 export CUBLAS_WORKSPACE_CONFIG=':4096:8  # Needed for setting deterministic functions for reproducibility'

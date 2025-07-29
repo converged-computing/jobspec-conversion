@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=block_srht
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=block_srht
+#FLUX -t=432000
+#FLUX --urgency=16
 
 					  # %x is job name, %j jobid 
 module purge

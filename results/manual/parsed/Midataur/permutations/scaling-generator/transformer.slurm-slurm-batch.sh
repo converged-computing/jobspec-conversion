@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=permutations-transformer-training
-#FLUX: --queue=gpu-a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=permutations-transformer-training
+#SBATCH --account=punim2163
+#SBATCH --mail-user=mpetschack@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu-a100
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

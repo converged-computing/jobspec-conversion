@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poo-7132
-#FLUX: --queue=compute_full_node
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-eagle-5231
+#FLUX --queue=compute_full_node
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export gmx='/scratch/s/scinet/rzon/gmxb/gromacs-2024/gmx_install/bin/gmx'
 export GMX_ENABLE_DIRECT_GPU_COMM='1'

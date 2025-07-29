@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-signal-3073
-#FLUX: --queue=course
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=course
+#SBATCH --chdir=./
 
 module load compilers/intel/2019u5 
 echo "Node list                    : $SLURM_JOB_NODELIST"

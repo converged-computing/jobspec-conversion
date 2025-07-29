@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_train_80g
-#FLUX: --queue=gpu80G
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=hazpi_train_80g
+#SBATCH --mail-user=gael.de-chalendar@cea.fr
+#SBATCH --mail-type=start,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=50G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu80G
 
 set -o errexit
 set -o pipefail

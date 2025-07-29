@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-spoon-6072
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.err
+#SBATCH --error=%x-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --mem=128GB
+#SBATCH --constraint=ntasks-per-node=2
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

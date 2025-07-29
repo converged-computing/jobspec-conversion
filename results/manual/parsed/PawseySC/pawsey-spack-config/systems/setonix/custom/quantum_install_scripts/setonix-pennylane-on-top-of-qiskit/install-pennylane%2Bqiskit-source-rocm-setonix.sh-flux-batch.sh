@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=install-pennylane+qiskit-source-rocm-setonix
+#FLUX --job-name=install-pennylane+qiskit-source-rocm-setonix
 #FLUX: --exclusive
-#FLUX: --queue=gpu-dev
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gpu-dev
+#FLUX -t=1800
+#FLUX --urgency=16
 
 script_dir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 . $script_dir/use-pennylane+qiskit-source-rocm-setonix.sh

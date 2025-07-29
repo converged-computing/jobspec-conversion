@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iFlow
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=iFlow
+#SBATCH --output=slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000M
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu_shared_course
 
 module purge
 module load 2019

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-house-4324
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:30:00
 
 export CUDA_LAUNCH_BLOCKING='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-toaster-8882
-#FLUX: --queue=gpu
-#FLUX: -t=11700
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-latke-4192
+#FLUX --queue=gpu
+#FLUX -t=11700
+#FLUX --urgency=16
 
 module purge
 module load gcc/11.3.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-diablo-1706
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-plant-4600
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load pytorch/nvidia-20.03-py3
 singularity_wrapper exec python monobeast.py $*

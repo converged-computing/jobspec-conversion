@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=uresnet_finetuning
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=uresnet_finetuning
+#SBATCH --output=uresnet_finetuning.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=pgpu03
 
 WORKDIR=/cluster/kappa/90-days-archive/wongjiradlab/twongj01/pytorch-uresnet
 DATADIR=/cluster/kappa/90-days-archive/wongjiradlab/twongj01/ssnet_training_data

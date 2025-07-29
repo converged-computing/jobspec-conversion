@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parsnip-6054
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-pedo-0501
+#FLUX --urgency=16
 

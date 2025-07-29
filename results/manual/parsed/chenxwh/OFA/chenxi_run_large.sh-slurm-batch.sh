@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=ofa_okvqa_large
-#FLUX: --queue=gengpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ofa_okvqa_large
+#SBATCH --output=ok_results/%x_%j.o
+#SBATCH --error=ok_results/%x_%j.e
+#SBATCH --mail-user=chenxi.whitehouse@city.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gengpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/users/adbm760/multimodal/OFA/
+#SBATCH --nodelist=gpu04
 
 export MASTER_ADDR='localhost'
 export MASTER_PORT='8214'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=segattn-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=segattn-rcnn
+#FLUX -c=4
+#FLUX --queue=ialab-high
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='$PATH:/usr/local/cuda-10.0/bin'
 export CUDADIR='/usr/local/cuda-10.0'

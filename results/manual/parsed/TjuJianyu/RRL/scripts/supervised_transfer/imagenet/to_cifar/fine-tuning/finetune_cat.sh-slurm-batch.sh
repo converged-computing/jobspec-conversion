@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cifar
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-95
 
 i=0;
 for ncat in 2 4 5 10; 

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-ricecake-8281
-#FLUX: -N=32
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=thin
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 module load 2021
 module load foss/2021a

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-dog-8652
-#FLUX: --queue=prawnew
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-muffin-5400
+#FLUX --queue=prawnew
+#FLUX -t=3600
+#FLUX --urgency=16
 
 DEVICE="GPU"
 ROUTINE="cheevd"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-ricecake-9922
-#FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --account=waingram_lab
+#SBATCH --mail-user=sampanna@vt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=normal_q
+#SBATCH: --exclusive
 
 module purge
 current_timestamp() {

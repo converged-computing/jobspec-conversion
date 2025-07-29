@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-leg-1469
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/deephyper/dmobo-sc24/experiments/polaris/jobs/nsgaii-10.sh

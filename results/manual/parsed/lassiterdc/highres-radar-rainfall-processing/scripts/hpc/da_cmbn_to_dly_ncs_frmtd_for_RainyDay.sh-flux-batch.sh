@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-5263
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-signal-1837
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load gcc openmpi eccodes anaconda # the stuff other than anaconda was to ensure eccodes loaded correctly

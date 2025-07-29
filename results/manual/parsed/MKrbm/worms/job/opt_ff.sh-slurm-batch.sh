@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=opt_ff
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=opt_ff
+#SBATCH --output=job_log/ffopt_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cpu
+#SBATCH --array=0-250
 
 n_job_per_run=4  # Adjust this for the number of jobs per run
 cd ~/worms/python/rmsKit

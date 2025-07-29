@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=weather-sim2real-finetuning
-#FLUX: --queue=ampere
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=weather-sim2real-finetuning
+#SBATCH --account=MLMI-JS2731-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:00:00
+#SBATCH --partition=ampere
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 

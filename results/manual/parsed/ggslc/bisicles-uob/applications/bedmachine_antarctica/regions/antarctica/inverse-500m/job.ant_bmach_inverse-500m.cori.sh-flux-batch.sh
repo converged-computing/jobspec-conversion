@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=500m_hypre_bdmach_inverse
-#FLUX: -N=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=500m_hypre_bdmach_inverse
+#FLUX -N=12
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PETSC_DIR='/global/common/software/m1041/petsc_install/petsc_haswell_gnu/'
 export PETSC_ARCH=''

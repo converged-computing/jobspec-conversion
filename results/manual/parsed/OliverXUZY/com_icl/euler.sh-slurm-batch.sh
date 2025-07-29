@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=job_name
-#FLUX: -c=16
-#FLUX: --queue=lianglab
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#SBATCH --job-name=job_name
+#SBATCH --output=./eulerlog/o_device_job_name_%j.out
+#SBATCH --error=./eulerlog/o_device_job_name_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=10-16:00:00
+#SBATCH --partition=lianglab
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=euler[01-16],euler[20-28]
 
 source ~/.bashrc
 conda activate /srv/home/zxu444/anaconda3/envs/lmeval

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poo-9780
-#FLUX: --queue=cor,general
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=12000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=cor,general
+#SBATCH --qos=long
 
 module use /opt/insy/modulefiles
 module load cuda/11.2

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=time_com
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=time_com
+#SBATCH --account=class04
+#SBATCH --output=time_com.%j.o
+#SBATCH --error=time_com.%j.e
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

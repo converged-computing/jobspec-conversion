@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-hope-0064
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-noodle-6982
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

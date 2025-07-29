@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chair-0927
-#FLUX: --queue=computeq
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-lentil-9825
+#FLUX --queue=computeq
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load matlab

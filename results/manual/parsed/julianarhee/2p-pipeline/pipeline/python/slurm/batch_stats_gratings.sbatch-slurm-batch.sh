@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-9209
-#FLUX: -n=8
-#FLUX: --queue=cox
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16384
+#SBATCH --time=00:12:00
+#SBATCH --partition=cox
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

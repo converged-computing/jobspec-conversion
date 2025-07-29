@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-animal-0901
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 i=1
 for algo in "ppo-maskable"

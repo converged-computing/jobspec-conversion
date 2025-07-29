@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test_pipeline
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=test_pipeline
+#SBATCH --account=def-dgravel
+#SBATCH --output=/home/belv1601/scratch/output/out/quebec/%a.out
+#SBATCH --mail-user=vincent.bellavance@usherbrooke.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80GB
+#SBATCH --time=10:00:00
+#SBATCH --array=1-195
 
 module use /home/belv1601/.local/easybuild/modules/2020/avx2/Compiler/gcc9/
 module load StdEnv/2020  gcc/9.3.0 r-inla/21.05.02 geos/3.9.1 gdal/3.0.4 proj/7.0.1 udunits

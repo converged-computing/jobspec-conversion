@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-milkshake-9233
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/philippe554/MRP_10_Forex/Jobs/lstmTraining.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=flores
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=flores
+#FLUX -c=64
+#FLUX --queue=gpu_p5
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

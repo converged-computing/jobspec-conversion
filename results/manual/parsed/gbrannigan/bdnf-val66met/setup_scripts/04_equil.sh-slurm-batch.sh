@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Y4
-#FLUX: -N=32
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Y4
+#SBATCH --output=stam.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='2 # gives 4-12ns/day performance,15-6ns/day,1-7ns/day,2-4.log,8-5.log,4-6.log '

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=roberta-flash-attention
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=roberta-flash-attention
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load miniconda/4.12.0
 conda init bash

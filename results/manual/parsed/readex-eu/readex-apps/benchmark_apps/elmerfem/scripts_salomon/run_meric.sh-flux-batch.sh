@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-muffin-7276
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-plant-6134
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/elmerfem/scripts_salomon/run_meric.sh

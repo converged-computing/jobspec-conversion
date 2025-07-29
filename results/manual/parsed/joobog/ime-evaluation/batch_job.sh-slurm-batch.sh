@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=DDNIME
-#FLUX: --urgency=16
+#SBATCH --job-name=DDNIME
+#SBATCH --output=slurm/slurm-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodelist=isc17-c[02,03,04,05,08,09,10,12,14,23]
 
 export MODULEPATH='/gsfs/betke/software/modules:$MODULEPATH'
 

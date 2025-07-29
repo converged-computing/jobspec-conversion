@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=okjob
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=okjob
+#SBATCH --account=junogpu
+#SBATCH --output=/hpcfs/juno/junogpu/%u/okjob/%j.out
+#SBATCH --error=/hpcfs/juno/junogpu/%u/okjob/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=20480
+#SBATCH --partition=gpu
+#SBATCH --qos=debug
 
 okjob-notes(){ cat << EON
 okjob-notes

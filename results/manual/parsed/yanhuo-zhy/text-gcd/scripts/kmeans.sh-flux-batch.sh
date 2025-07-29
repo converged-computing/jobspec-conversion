@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pastry-0828
-#FLUX: -c=5
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pancake-1689
+#FLUX -c=5
+#FLUX --queue=general
+#FLUX --urgency=16
 
  # @Author: yanhuo 1760331284@qq.com
  # @Date: 2023-11-11 16:01:59

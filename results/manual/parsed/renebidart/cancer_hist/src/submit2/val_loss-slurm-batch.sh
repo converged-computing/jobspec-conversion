@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-parrot-2944
-#FLUX: -t=1080
-#FLUX: --urgency=16
+#SBATCH --output=unet_mid2_custom_aug_0001_2-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:18:00
 
 module load cuda cudnn python/3.5.2
 source tensorflow6/bin/activate

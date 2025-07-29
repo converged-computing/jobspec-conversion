@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ExampleJob
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ExampleJob
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_shared_course
 
 SBATCH --output=resnet_18.out
 module purge

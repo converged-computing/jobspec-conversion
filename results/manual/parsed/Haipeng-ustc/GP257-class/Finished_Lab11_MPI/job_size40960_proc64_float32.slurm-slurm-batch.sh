@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poo-3451
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=job_size40960_proc64_float32.%N.%j.out
+#SBATCH --error=job_size40960_proc64_float32.%N.%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=serc
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 MATSIZE=40960
 echo;

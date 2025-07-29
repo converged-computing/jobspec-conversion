@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lettuce-1498
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3128
+#SBATCH --time=01:00:00
 
 set -euo pipefail
 echo Git commit: "$(git rev-parse --verify HEAD)"

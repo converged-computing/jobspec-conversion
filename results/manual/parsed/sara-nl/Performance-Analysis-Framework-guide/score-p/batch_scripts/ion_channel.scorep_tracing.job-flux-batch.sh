@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-scorep
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=4
-#FLUX: --queue=broadwell
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs-scorep
+#FLUX -N=2
+#FLUX -n=16
+#FLUX -c=4
+#FLUX --queue=broadwell
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install_scorep'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crg2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=crg2
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 SF=~/crg2/Snakefile
 CP="/hpf/largeprojects/ccm_dccforge/dccdipg/Common/snakemake"

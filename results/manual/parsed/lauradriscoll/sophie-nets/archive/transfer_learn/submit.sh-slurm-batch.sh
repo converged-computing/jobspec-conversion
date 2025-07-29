@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=l2h00001
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=l2h00001
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 ml python/2.7.13
 module load py-scipystack/1.0_py27 py-tensorflow/1.9.0_py27

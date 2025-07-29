@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GPU_7069
-#FLUX: -c=20
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=GPU_7069
+#FLUX -c=20
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module purge
 module load parabricks/3.1.1 singularity/3.5.1 cuda/10.1 python gatk

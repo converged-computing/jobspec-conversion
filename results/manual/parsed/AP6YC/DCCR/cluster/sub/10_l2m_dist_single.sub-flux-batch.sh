@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DCCR-7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=DCCR-7
+#FLUX -t=86400
+#FLUX --urgency=16
 
 PROJECT_DIR=$HOME/dev/DCCR
 VENV_DIR=$HOME/envs/l2m

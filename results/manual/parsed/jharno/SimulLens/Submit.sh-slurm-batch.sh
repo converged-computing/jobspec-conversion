@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SimulLenS
-#FLUX: -n=28
-#FLUX: --exclusive
-#FLUX: --queue=cosma6
-#FLUX: -t=30000
-#FLUX: --urgency=16
+#SBATCH --job-name=SimulLenS
+#SBATCH --account=dp004
+#SBATCH --output=SimulLenS_%a.out
+#SBATCH --error=SimulLenS_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:20:00
+#SBATCH --partition=cosma6
+#SBATCH: --exclusive
 
 module purge
 module load intel_comp/2018

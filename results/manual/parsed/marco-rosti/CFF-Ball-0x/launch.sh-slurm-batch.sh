@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=A20-k1-ginf-l3
-#FLUX: -c=128
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=A20-k1-ginf-l3
+#SBATCH --output=job_%j.out
+#SBATCH --error=job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --dependency=5932351
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='threads'

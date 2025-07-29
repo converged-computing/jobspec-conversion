@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leopard-2770
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=rpp-aevans-ab
+#SBATCH --output=slurm_out/%x-%j.out
+#SBATCH --mail-user=adam.trefonides@mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2G
+#SBATCH --time=20:00:00
 
 export FB='$1'
 export SINGULARITY_BIND=''

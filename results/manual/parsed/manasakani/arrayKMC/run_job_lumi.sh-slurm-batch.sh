@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid-small
-#FLUX: -c=7
-#FLUX: --queue=standard-g
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid-small
+#SBATCH --account=project_465000929
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=00:05:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)"    # GPU Transfer Library - allows hipcc to behave like {CC}'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)                                 # GPU Transfer Library - allows hipcc to behave like {CC}'

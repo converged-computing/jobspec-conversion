@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cluster_install
-#FLUX: --urgency=16
+#FLUX --job-name=cluster_install
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 git clone https://forgemia.inra.fr/metexplore/cbm/dexom-python.git dexompython

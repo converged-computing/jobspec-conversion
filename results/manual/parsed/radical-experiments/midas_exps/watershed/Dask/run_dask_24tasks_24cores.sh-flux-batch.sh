@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cherry-1227
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-frito-3333
+#FLUX --queue=compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

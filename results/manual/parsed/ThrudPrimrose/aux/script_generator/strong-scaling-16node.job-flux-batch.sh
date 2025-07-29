@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strong-scaling-16node
-#FLUX: -N=16
-#FLUX: --queue=cm2_std
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=strong-scaling-16node
+#FLUX -N=16
+#FLUX --queue=cm2_std
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

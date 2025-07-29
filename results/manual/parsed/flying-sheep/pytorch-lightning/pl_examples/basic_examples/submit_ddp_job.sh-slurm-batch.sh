@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-kerfuffle-5530
-#FLUX: -N=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 source activate $1
  export NCCL_DEBUG=INFO

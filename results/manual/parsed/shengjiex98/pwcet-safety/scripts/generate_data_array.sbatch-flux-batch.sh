@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pwcet-safety-array
-#FLUX: -c=16
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pwcet-safety-array
+#FLUX -c=16
+#FLUX --queue=general
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID."
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"

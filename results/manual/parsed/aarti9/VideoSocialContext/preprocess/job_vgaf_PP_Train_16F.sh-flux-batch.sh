@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-3495
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lamp-3266
+#FLUX -c=6
+#FLUX -t=600
+#FLUX --urgency=16
 
 nvidia-smi
 SOURCEDIR=/scratch/aarti9

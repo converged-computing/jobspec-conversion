@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-3056
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_tf2:keras_mp_20.07_clean_up"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cleanup
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cleanup
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice
 module purge

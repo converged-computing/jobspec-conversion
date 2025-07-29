@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=${JOBRND}
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=${JOBRND}
+#SBATCH --account=mh0735
+#SBATCH --output=LOG.o%
+#SBATCH --error=LOG.e%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1280
+#SBATCH --time=02:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48
 
 export CYCLE_STR_DATE='2014072418'
 export CYCLE_END_DATE='2014072500'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=slice-amazon_s
-#FLUX: --queue=dl
-#FLUX: -t=345540
-#FLUX: --urgency=16
+#SBATCH --job-name=slice-amazon_s
+#SBATCH --account=ST_GRAPHS
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-23:59:00
+#SBATCH --partition=dl
 
 module purge
 module load cuda/9.2.148 

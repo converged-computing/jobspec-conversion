@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=example_cql
-#FLUX: -c=4
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=example_cql
+#SBATCH --account=co_rail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:TITAN:1
+#SBATCH --mem=24G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio3_gpu
+#SBATCH --qos=rail_gpu3_normal
+#SBATCH --array=0-3
 
 export SCRIPT_PATH='$(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}' | head -n 1)'
 export SCRIPT_DIR='$(dirname $SCRIPT_PATH)'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=7b_32k
-#FLUX: -c=48
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=50
+#SBATCH --job-name=7b_32k
+#SBATCH --output=/fsx/loubna/logs/finetune-32k_f/%x-%j-train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:h100:8
+#SBATCH --mem=11G
+#SBATCH --partition=hopper-prod
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=1
 
 export AWS_DEFAULT_REGION='us-east-1'
 export USE_FAST='1'

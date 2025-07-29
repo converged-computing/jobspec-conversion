@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=KMEANS
-#FLUX: --queue=c18g
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=KMEANS
+#FLUX --queue=c18g
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module switch intel gcc/9
 module load cuda/112

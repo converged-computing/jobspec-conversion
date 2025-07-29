@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-truffle-6670
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=
+#SBATCH --output=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=02:00:00
 
 ROSETTA3="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10"
 ROSETTA3_DB="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10/database"

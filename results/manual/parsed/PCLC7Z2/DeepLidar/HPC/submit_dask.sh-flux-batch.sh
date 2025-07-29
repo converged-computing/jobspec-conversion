@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Dask_Generation
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Dask_Generation
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepLidar/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepLidar/lib/python3.6/site-packages/'

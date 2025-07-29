@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=01112019_2.5sd_vid_gen
-#FLUX: -c=5
-#FLUX: --queue=psych_week
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=01112019_2.5sd_vid_gen
+#FLUX -c=5
+#FLUX --queue=psych_week
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfs/milgram/project/chang/pg496/repositories/categorical/lib/linux'
 

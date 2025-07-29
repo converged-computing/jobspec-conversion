@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nunchucks-9467
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 base_path_rc="/home/shaws5/Research_code"
 base_path_rd="/scratch/shaws5/Research_data"

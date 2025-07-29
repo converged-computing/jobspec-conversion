@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=GL-00001
-#FLUX: -n=16
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=GL-00001
+#SBATCH --output=sbatch.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --partition=debug
 
 export PATH='$PATH:/bin'
 export CJST='$(date +%s)'

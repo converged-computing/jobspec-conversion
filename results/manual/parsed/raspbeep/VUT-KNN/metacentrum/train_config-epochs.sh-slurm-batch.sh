@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fudge-6616
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/raspbeep/VUT-KNN/metacentrum/train_config-epochs.sh

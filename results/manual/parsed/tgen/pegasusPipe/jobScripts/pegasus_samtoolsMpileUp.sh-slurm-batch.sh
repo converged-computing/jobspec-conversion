@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_samtoolsMpileUp
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_samtoolsMpileUp
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=4-00:00:00
 
 time=`date +%d-%m-%Y-%H-%M`
 beginTime=`date +%s`

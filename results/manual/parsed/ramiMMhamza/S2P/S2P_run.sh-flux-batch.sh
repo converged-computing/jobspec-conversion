@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-fork-8795
-#FLUX: --queue=V100
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-parrot-0978
+#FLUX --queue=V100
+#FLUX --urgency=16
 
 set -x
 cd /home/ids/hrami

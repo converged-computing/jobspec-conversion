@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leader-5806
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo -e "\033[1;34m    ___   __   _   _   _____   _    _   _____        _____   ____   ____ "
 echo -e "\033[1;34m   |  _| |  \ | | | | |  ___| | \  / | |  _  |  __  |  _  | |  __| |  _ \ "

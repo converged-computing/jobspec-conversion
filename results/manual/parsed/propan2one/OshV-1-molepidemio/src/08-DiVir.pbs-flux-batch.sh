@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hippo-7896
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-parsnip-4991
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/propan2one/OshV-1-molepidemio/src/08-DiVir.pbs

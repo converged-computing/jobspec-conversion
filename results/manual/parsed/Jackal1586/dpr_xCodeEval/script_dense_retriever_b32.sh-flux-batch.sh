@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-onion-5728
-#FLUX: --queue=PV1003q
-#FLUX: --urgency=16
+#FLUX --job-name=confused-hippo-4264
+#FLUX --queue=PV1003q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1,2'
 

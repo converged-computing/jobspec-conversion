@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-8888
-#FLUX: -n=115
-#FLUX: --queue=t1standard
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-muffin-3496
+#FLUX -n=115
+#FLUX --queue=t1standard
+#FLUX --urgency=16
 
 echo "Setting ulimits"
 ulimit -s unlimited

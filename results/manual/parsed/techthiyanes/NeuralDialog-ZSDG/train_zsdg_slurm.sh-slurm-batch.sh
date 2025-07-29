@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-2705
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#SBATCH --mail-user=is33@hw.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=amd-longq
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

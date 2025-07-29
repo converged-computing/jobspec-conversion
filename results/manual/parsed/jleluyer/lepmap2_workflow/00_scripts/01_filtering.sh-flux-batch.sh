@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=filter
-#FLUX: --queue=ibismini
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=filter
+#FLUX --queue=ibismini
+#FLUX -t=1200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 TIMESTAMP=$(date +%Y-%m-%d_%Hh%Mm%Ss)

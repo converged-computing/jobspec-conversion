@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-caramel-5935
-#FLUX: -c=2
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --output=hyperparam_master_%A.out
+#SBATCH --error=hyperparam_master_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=14-00:00:00
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

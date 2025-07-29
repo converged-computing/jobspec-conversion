@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-train-1902
-#FLUX: -n=10
-#FLUX: --queue=small
-#FLUX: -t=4210
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-nunchucks-2018
+#FLUX -n=10
+#FLUX --queue=small
+#FLUX -t=4210
+#FLUX --urgency=16
 
 module load maestro parallel
 ls /scratch/project_2004075/yetukuri/Individual_jobs/LigPrep/data/*.maegz > test_phase_splice.list 

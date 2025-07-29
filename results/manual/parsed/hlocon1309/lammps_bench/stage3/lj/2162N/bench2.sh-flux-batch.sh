@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peanut-7555
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lettuce-0691
+#FLUX -N=2
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

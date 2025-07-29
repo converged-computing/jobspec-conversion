@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test1
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=test1
+#SBATCH --output=/scratch/%u/%x-%N-%A-%a.out
+#SBATCH --mail-user=ktran44@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
+#SBATCH --array=1-12%3
 
 PROBABILITY=0.9
 LENGTH=1000

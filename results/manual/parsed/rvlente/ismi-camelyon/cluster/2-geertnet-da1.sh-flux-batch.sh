@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-signal-2557
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-cinnamonbun-2859
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load 2021
 module load TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1

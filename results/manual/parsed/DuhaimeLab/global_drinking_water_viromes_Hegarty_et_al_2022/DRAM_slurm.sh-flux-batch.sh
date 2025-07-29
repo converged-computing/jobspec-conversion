@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dram
-#FLUX: -c=10
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dram
+#FLUX -c=10
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo $SLURM_JOB_NODELIST
 echo ${SLURM_ARRAY_TASK_ID}

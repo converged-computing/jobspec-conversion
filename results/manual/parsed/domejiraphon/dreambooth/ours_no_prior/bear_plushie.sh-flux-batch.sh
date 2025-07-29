@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bear_plushie
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bear_plushie
+#FLUX -c=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export DATA='bear_plushie'
 export CLASS='stuffed animal'

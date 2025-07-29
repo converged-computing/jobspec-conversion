@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-9461
-#FLUX: --queue=gpu2
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-citrus-1297
+#FLUX --queue=gpu2
+#FLUX --urgency=16
 
 module load cuda/9.1
 SIGNS='["na","HAL","iš","MEŠ"]'

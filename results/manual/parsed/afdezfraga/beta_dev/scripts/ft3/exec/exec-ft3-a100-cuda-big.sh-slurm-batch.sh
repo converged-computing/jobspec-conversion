@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=output/cuda_big_exec_beta_pdf_A100
-#FLUX: -c=32
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=output/cuda_big_exec_beta_pdf_A100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=3G
+#SBATCH --time=00:20:00
 
 module load cesga/2020 cuda/12.2.0
 cd build

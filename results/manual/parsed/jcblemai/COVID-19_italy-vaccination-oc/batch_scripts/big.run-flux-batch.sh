@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poo-8347
-#FLUX: -c=36
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-bicycle-7656
+#FLUX -c=36
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 export MDL_DAYS='150'
 export MDL_NNODES='107'

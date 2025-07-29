@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=angry-staircase-5231
-#FLUX: -c=4
-#FLUX: --queue=default_partition
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/home/yy785/projects/adaptation/downstream/OpenPCDet/pcdet/datasets/ithaca365/outputs/slurm/%x_%j_o.txt
+#SBATCH --error=/home/yy785/projects/adaptation/downstream/OpenPCDet/pcdet/datasets/ithaca365/outputs/slurm/%x_%j_e.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:0
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=default_partition
 
 set -e
 . /home/yy785/anaconda3/etc/profile.d/conda.sh

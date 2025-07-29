@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=evaluate.out
+#SBATCH --error=evaluate.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
 
 source /ikerlariak/igarcia945/envs/pytorch-tximista/bin/activate
 cd ../../

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=deepPPI%j
-#FLUX: -c=10
-#FLUX: --queue=Piramid
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=deepPPI%j
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err-%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:P100:0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=Piramid
+#SBATCH --nodelist=budbud002
 
 HOMEDIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep
 DATADIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep/data

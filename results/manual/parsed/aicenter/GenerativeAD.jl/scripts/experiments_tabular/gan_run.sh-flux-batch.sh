@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-train-1713
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-omelette-0546
+#FLUX -t=86400
+#FLUX --urgency=16
 
 MAX_SEED=$1
 DATASET=$2

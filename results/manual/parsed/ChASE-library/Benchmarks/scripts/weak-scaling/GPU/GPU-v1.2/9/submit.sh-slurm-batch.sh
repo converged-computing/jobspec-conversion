@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-leg-3805
-#FLUX: -N=9
-#FLUX: -n=9
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=9
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:30:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=1
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

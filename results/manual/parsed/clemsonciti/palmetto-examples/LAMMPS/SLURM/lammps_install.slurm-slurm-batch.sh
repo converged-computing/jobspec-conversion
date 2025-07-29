@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-0620
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=03:00:00
 
 echo "-------installing the gpu version-------"
 mkdir ~/software_slurm

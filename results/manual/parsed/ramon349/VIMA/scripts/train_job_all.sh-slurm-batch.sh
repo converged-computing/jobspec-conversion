@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hope-4372
-#FLUX: -c=8
-#FLUX: --queue=general
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=09:00:00
+#SBATCH --partition=general
 
 module purge    
 module load mamba 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-earthworm-6253
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
 
 export MY_APP_ENV='hpc_vub'
 export NCCL_DEBUG='INFO'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=posttasvv
-#FLUX: --queue=transcale
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=posttasvv
+#SBATCH --output=output_%j.txt
+#SBATCH --error=stderr_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000mb
+#SBATCH --time=06:00:00
+#SBATCH --partition=transcale
+#SBATCH --constraint=ntasks-per-node=28,ntasks-per-socket=14
 
 export INTEL_LICENSE_FILE='/softs/intel/l_ics/license:$INTEL_LICENSE_FILE'
 

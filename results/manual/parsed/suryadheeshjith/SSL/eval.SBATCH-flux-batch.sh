@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-house-3883
-#FLUX: -c=24
+#FLUX --job-name=stanky-peas-3511
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=n1c24m128-v100-4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 singularity exec --nv --overlay overlay-15GB-500K.ext3:ro\
     -B data/dataset_v2.sqsh:/dataset:image-src=/\

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ann_paramsweep
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ann_paramsweep
+#FLUX -c=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 /scratch/ab10313/pytorch-example/my_pytorch.ext3:ro \

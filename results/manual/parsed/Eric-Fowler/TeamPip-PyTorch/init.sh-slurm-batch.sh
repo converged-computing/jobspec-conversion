@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-muffin-4581
-#FLUX: --queue=True
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=eee4773
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=True
+#SBATCH --qos=eee4773
 
 echo 'Creating New Project'
 echo ''

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-1733
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-avocado-7524
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 export WORLD_SIZE='4  # Total number of GPUs across all nodes'
 export NODE_RANK='$SLURM_NODEID'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tuneAnalysis
-#FLUX: -c=128
+#FLUX --job-name=tuneAnalysis
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=dc-gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=dc-gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

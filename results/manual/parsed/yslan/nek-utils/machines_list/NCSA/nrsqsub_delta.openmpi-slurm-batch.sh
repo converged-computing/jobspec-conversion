@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pastry-4116
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 : ${PROJ_ID:=""} # xxxx-delta-gpu where "xxxx" is yorur project id
 : ${QUEUE:="gpuA100x4"}

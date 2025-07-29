@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=KMH.flake
-#FLUX: -N=2
-#FLUX: --queue=long1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=KMH.flake
+#SBATCH --output=sLOG_%x_out%A_%a.txt
+#SBATCH --error=sLOG_%x_err%A_%a.txt
+#SBATCH --mail-user=gbellomi@sissa.it
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long1
+#SBATCH --constraint=ntasks-per-node=20
+#SBATCH --array=01-05
 
 module load gnu8/8.3.0
 module load mkl/19.1.3.304

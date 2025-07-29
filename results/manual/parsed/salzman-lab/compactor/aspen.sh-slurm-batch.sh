@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=flu
-#FLUX: --queue=horence,quake,normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=flu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=horence,quake,normal
 
 input_dir='/oak/stanford/groups/horence/NOMAD/nomad_runs/tabula_sapiens/TSP_SS2_tissue/'$1'/'$2'/sample_sheet.csv'
 output_dir='/oak/stanford/groups/horence/NOMAD/nomad_results/tabula_sapiens/TSP_SS2_tissue/'$1'/'$2'/results/'

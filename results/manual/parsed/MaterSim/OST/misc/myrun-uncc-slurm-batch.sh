@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-4329
-#FLUX: --queue=Orion
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=Orion
+#SBATCH --constraint=ntasks-per-node=48,xeon
 
 module load cmake/3.25.0 intel/2020 intel-rtl/2020 ffmpeg/4.2.1 openmpi/4.1.0-intel hdf5/1.10.7-intel-mpi
 conda activate ost

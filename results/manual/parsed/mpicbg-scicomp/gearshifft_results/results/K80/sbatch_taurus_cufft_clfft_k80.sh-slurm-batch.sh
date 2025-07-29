@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifftK80
-#FLUX: --exclusive
-#FLUX: --queue=gpu2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gearshifftK80
+#SBATCH --output=slurmgpu2_array-%A_%a.out
+#SBATCH --error=slurmgpu2_array-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=62000M
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu2
+#SBATCH: --exclusive
+#SBATCH --array=1-2
 
 k=$SLURM_ARRAY_TASK_ID
 CURDIR=$HOME/cuda-workspace/gearshifft

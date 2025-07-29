@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-caramel-2540
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-buttface-8524
+#FLUX -c=2
+#FLUX --queue=general
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0

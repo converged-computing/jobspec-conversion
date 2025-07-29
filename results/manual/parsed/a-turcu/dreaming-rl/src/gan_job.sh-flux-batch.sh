@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DCGAN
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=DCGAN
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 source /data/$USER/.envs/pyenv37/bin/activate
 module load Python/3.7.4-GCCcore-8.3.0 

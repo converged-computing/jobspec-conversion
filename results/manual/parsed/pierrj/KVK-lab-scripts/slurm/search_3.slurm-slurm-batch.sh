@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=search_3
-#FLUX: -N=20
-#FLUX: -c=10
-#FLUX: --queue=savio
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=search_3
+#SBATCH --output=/global/home/users/pierrj/slurm_stdout/slurm-%j.out
+#SBATCH --error=/global/home/users/pierrj/slurm_stderr/slurm-%j.out
+#SBATCH --mail-user=pierrj@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio
+#SBATCH --qos=savio_normal
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load gcc/7.4.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-salad-5552
-#FLUX: -c=12
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-peanut-3892
+#FLUX -c=12
+#FLUX -t=432000
+#FLUX --urgency=16
 
 trap "echo sigterm recieved, exiting!" SIGTERM
 run () {

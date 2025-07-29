@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hpgmg-quant
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hpgmg-quant
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export OMP_NUM_THREADS='$(($CORES/$MPI))'

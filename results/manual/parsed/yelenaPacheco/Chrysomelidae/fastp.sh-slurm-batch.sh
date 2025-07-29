@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fastp
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fastp
+#SBATCH --output=fastp_%A_%a.out
+#SBATCH --error=fastp_%A_%a.err
+#SBATCH --mail-user=yelena.pacheco@usda.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --array=1-100
 
 if [ ! -d trimmed_reads ]
 then

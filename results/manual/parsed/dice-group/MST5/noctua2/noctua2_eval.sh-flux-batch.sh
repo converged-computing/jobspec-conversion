@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leopard-2666
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-lentil-4736
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -eu
 module load lib/NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0

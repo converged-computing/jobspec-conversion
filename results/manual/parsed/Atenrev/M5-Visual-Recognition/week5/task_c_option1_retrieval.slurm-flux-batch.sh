@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bits-7281
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-egg-8362
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python run_retrieval.py \
     --mode symmetric  \

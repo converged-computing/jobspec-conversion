@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=par-finetune
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=par-finetune
+#FLUX --queue=ampere
+#FLUX -t=129600
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh 
 module purge               

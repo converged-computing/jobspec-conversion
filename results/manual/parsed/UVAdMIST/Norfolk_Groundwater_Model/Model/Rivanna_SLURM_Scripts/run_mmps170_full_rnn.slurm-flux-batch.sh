@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-omelette-3721
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-eagle-4232
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

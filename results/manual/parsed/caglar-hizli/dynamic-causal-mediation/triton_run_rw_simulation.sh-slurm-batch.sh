@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-9863
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=triton_run_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --array=1-10
 
 export SRDIR='out/sampler_rw'
 export SDIR='out/counterfactual/samples'

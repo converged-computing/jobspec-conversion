@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-sundae-5439
-#FLUX: -n=8
-#FLUX: --queue=cox
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-house-9843
+#FLUX -n=8
+#FLUX --queue=cox
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

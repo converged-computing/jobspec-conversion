@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-dog-5710
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lentil-5944
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

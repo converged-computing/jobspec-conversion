@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_picHSMetrics
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_picHSMetrics
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4096
+#SBATCH --time=1-08:00:00
 
 module load R/2.15.2
 beginTime=`date +%s`

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parsnip-3574
-#FLUX: --queue=standard
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=e681
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 export PKG_CONFIG_PATH='$PKG_CONFIG_PATH:/opt/cray/pe/mpich/8.0.16/ofi/gnu/9.1/lib/pkgconfig'
 export WORK='/work/e681/e681/skailasa'

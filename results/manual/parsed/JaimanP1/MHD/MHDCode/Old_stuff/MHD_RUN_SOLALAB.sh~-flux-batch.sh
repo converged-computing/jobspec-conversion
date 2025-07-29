@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hope-5596
-#FLUX: -N=2
+#FLUX --job-name=gloopy-taco-0396
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=solarlab
-#FLUX: --urgency=16
+#FLUX --queue=solarlab
+#FLUX --urgency=16
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

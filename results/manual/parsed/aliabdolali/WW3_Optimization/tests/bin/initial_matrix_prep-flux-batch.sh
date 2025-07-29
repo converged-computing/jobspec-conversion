@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-milkshake-5049
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-salad-1648
+#FLUX --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

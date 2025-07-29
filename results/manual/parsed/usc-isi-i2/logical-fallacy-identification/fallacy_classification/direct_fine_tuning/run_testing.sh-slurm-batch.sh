@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test_direct_finetuning
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_direct_finetuning
+#SBATCH --output=testing-%x-%j.out
+#SBATCH --error=testing-%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10240
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=nodes
+#SBATCH --chdir=direct_fine_tuning
 
 echo $(pwd)
 nvidia-smi

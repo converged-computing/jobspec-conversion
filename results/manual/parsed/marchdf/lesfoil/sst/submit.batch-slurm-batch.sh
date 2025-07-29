@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lesfoil
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lesfoil
+#SBATCH --account=hfm
+#SBATCH --output=out.%x_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=4genome_250000_mem6G
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=4genome_250000_mem6G
+#SBATCH --account=oddite
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
 
 module purge
 module load python/miniconda3.7 gcc/9.1.0 git/2.31.1 cmake/3.21.4 

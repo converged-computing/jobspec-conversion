@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poo-1217
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-toaster-6422
+#FLUX -c=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

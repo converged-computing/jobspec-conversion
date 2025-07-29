@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phase_1
-#FLUX: -c=60
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=0
+#SBATCH --partition=normal
 
 source ~/.bashrc
 conda activate $6

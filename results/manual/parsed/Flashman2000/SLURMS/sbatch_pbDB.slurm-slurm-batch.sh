@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cinnamonbun-9126
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=vst14@case.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpup100
 
 module purge
 module load parabricks/3.1.1 singularity/3.5.1 cuda/10.1

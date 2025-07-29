@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-puppy-9054
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/espfit-experiment/experiments/openff-default/train/metric/lsf-submit-rna.sh

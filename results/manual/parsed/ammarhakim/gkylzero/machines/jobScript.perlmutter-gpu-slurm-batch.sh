@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=<Job
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=<Job
+#SBATCH --account=<Account
+#SBATCH --mail-user=<your
+#SBATCH --mail-type=END,FAIL,REQUEUE
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export DVS_MAXNODES='24_'
 export MPICH_MPIIO_DVS_MAXNODES='24'

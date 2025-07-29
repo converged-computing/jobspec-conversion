@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=width_cf100_dense_81624
-#FLUX: -c=10
-#FLUX: --queue=all
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=width_cf100_dense_81624
+#FLUX -c=10
+#FLUX --queue=all
+#FLUX -t=129600
+#FLUX --urgency=16
 
 source /home/TUE/20180170/miniconda3/etc/profile.d/conda.sh
 source activate torch151

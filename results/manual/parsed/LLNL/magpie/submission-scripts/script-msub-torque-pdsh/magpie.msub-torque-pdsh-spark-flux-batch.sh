@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-gato-2017
-#FLUX: --urgency=16
+#FLUX --job-name=red-kerfuffle-6070
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/magpie/submission-scripts/script-msub-torque-pdsh/magpie.msub-torque-pdsh-spark

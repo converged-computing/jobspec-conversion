@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpe
-#FLUX: -c=42
-#FLUX: --queue=small-g
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=mpe
+#FLUX -c=42
+#FLUX --queue=small-g
+#FLUX -t=144000
+#FLUX --urgency=16
 
 env="MPE"
 num_landmarks=3

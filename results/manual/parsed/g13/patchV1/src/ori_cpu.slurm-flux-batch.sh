@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=plotV1
-#FLUX: -c=3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=plotV1
+#FLUX -c=3
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -e
 module purge

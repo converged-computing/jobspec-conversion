@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=generate_pixel_list_${experiment_id}_${data_range_index_start}_${data_range_index_end}
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_pixel_list_${experiment_id}_${data_range_index_start}_${data_range_index_end}
+#SBATCH --output=output-%J.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 experiment_id="$1"
 echo experiment_id: "$experiment_id"

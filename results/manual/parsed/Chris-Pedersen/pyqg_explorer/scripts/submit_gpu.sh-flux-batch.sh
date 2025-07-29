@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_cnn
-#FLUX: -c=10
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=train_cnn
+#FLUX -c=10
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

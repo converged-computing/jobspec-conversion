@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Muframex
-#FLUX: --queue=GPU
-#FLUX: --urgency=16
+#FLUX --job-name=Muframex
+#FLUX --queue=GPU
+#FLUX --urgency=16
 
 nvidia-smi
 cd $(pwd)

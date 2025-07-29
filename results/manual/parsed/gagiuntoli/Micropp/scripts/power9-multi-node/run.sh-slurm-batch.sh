@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=micropp
-#FLUX: -n=320
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=micropp
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=320
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --qos=debug
+#SBATCH: --exclusive
+#SBATCH --chdir=.
 
 export OMP_NUM_THREADS='1'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

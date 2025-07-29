@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export BASEDIR='/projects/hpcapps/tkaiser'
 export MYVERSION='may12'

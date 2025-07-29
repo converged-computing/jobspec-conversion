@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bm-2080Ti
-#FLUX: --queue=CLUSTER
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bm-2080Ti
+#SBATCH --output=2080Ti_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2080Ti:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=CLUSTER
+#SBATCH --array=0-1
 
 source activate device_benchmarking;
 PLATFORM="rtx8000"

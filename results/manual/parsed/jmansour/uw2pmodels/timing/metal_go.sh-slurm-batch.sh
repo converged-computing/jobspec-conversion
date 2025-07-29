@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-4236
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=m18
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 export PYTHONPATH='/home/jmansour/underworld2:/home/jmansour/underworld2/glucifer:$PYTHONPATH'
 export PREFIXSTRING='`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 ; echo ''`'

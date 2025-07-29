@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cat-0515
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zjwegert/GridapTopOpt.jl/scripts/Benchmarks/jobtemplate.sh

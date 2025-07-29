@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=baby-lm
+#FLUX --job-name=baby-lm
 #FLUX: --exclusive
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --queue=ampere
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

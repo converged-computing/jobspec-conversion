@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-citrus-8606
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

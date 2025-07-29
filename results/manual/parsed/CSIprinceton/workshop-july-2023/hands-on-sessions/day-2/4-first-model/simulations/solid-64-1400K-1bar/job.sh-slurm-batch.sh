@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=si-1b-1400K
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=si-1b-1400K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

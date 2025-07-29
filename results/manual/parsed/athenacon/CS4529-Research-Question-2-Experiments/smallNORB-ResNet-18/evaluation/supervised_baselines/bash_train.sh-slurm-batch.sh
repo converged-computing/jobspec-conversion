@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-platanos-9573
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --mail-user=u16ak20@abdn.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 nvidia-smi
 module load miniconda3

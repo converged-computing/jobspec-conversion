@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=AB_MA1_2_CpG_feat
-#FLUX: -N=14
-#FLUX: -n=448
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=AB_MA1_2_CpG_feat
+#SBATCH --account=HENDERSON-SL3-CPU
+#SBATCH --output=logs/alphabeta_per_cytosine_MA1_2_CpG_gene_regions_%A_%a.out
+#SBATCH --error=logs/alphabeta_per_cytosine_MA1_2_CpG_gene_regions_%A_%a.err
+#SBATCH --nodes=14
+#SBATCH --ntasks=448
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=skylake
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH: --no-requeue
+#SBATCH --array=1-5
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

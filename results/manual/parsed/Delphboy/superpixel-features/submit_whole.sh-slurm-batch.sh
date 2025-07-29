@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pastry-4708
-#FLUX: --queue=small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=small
+#SBATCH --chdir=/jmain02/home/J2AD007/txk47/hxs67-txk47/superpixel-features
 
 module load cuda/10.2
 module load python/anaconda3

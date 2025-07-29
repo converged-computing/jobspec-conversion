@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-5477
-#FLUX: --urgency=16
+#FLUX --job-name=blue-rabbit-7525
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/reprogramming_batch/run.sh

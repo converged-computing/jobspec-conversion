@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=parallel_onenode_v2
-#FLUX: -n=4
-#FLUX: --queue=sla-prio
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=parallel_onenode_v2
+#FLUX -n=4
+#FLUX --queue=sla-prio
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

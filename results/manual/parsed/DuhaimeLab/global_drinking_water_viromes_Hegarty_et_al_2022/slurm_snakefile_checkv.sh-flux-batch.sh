@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=checkV
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=checkV
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /etc/profile.d/http_proxy.sh
 if [[ $SLURM_JOB_NODELIST ]] ; then

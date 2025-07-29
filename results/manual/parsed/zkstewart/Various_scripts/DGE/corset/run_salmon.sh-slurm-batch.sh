@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-arm-0296
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zkstewart/Various_scripts/DGE/corset/run_salmon.sh

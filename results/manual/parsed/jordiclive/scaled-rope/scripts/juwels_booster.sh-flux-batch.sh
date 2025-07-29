@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-mango-6987
-#FLUX: -c=8
-#FLUX: --queue=develbooster
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-puppy-9377
+#FLUX -c=8
+#FLUX --queue=develbooster
+#FLUX --urgency=16
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

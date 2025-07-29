@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=runParallelTest
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=runParallelTest
+#SBATCH --account=hpc_build
+#SBATCH --output=runParallelTest_%A.out
+#SBATCH --error=runParallelTest_%A.err
+#SBATCH --mail-user=teh1m@virginia.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=8
 
 export slurm_ID='${SLURM_JOB_ID}'
 export numWorkers='$((SLURM_NTASKS-1))'

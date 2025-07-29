@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dino_neps_hpo
-#FLUX: --queue=alldlc_gpu-rtx2080
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=dino_neps_hpo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=23:59:59
+#SBATCH --partition=alldlc_gpu-rtx2080
+#SBATCH --array=0-5%2
 
 source /home/ferreira/.profile
 source activate dino

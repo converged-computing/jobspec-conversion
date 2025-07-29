@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-7887
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-leg-7828
+#FLUX --queue=short
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SCRATCH
 module load Anaconda3/2022.05

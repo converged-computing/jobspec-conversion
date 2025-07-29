@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_eval
-#FLUX: --queue=gpu_shared
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=train_eval
+#SBATCH --output=slurm_output_%A_%a.out
+#SBATCH --mail-user=f.lippert@uva.nl
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_shared
 
 source activate fluxrgnn
 module load 2020

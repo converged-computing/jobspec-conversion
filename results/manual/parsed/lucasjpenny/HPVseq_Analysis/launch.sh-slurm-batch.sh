@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake-submission
-#FLUX: --queue=all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake-submission
+#SBATCH --mail-user=lucas.penny@uhn.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=all
 
 . env.sh
 module load samtools/1.9

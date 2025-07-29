@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=h3ahlatyping
-#FLUX: -c=2
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=h3ahlatyping
+#SBATCH --output=ggvphlatyping-%j-stdout.log
+#SBATCH --error=ggvphlatyping-%j-stderr.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=5GB
+#SBATCH --time=14-00:00:00
 
 cd /scratch3/users/nanje/hlatyping/h3a_hlatypes
 echo "Submitting SLURM job"

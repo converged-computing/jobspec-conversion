@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-motorcycle-9765
-#FLUX: -c=6
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=60G
+#SBATCH --time=10-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=helios-cn003
 
 echo "cwd is"
 echo $(pwd)

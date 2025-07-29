@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cinnamonbun-6316
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=128
-#FLUX: --queue=knl
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-staircase-7190
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=128
+#FLUX --queue=knl
+#FLUX -t=900
+#FLUX --urgency=16
 
 export KMP_AFFINITY='SCATTER'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

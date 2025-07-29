@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=polyglot-single
-#FLUX: -c=24
+#FLUX --job-name=polyglot-single
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=express
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=express
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e
 source ~/.bashrc

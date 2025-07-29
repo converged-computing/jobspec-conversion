@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-signal-2857
-#FLUX: -c=64
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=a100:4
+#SBATCH --mem=512G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 date;hostname;pwd
 module load singularity

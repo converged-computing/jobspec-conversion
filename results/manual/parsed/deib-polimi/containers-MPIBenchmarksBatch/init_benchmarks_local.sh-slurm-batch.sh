@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-ricecake-1784
-#FLUX: --queue=hpc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=hpc
 
 scripts_dir=~/workspace/bench
 mkdir -p $scripts_dir

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=aln_eval
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=aln_eval
+#SBATCH --mail-user=cmcwhite@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:05:00
 
 export SINGULARITYENV_CUDA_VISIBLE_DEVICES='$CUDA_VISIBLE_DEVICES'
 

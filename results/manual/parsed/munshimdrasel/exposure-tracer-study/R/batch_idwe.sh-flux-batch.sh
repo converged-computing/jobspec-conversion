@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=batch_idwe
-#FLUX: --queue=bigmem
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=batch_idwe
+#FLUX --queue=bigmem
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load gnu10/10.3.0
 module load openmpi

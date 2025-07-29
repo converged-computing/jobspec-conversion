@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-destiny-8539
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/ExaConstit/workflows/Stage3/main_simulations/flux.sh

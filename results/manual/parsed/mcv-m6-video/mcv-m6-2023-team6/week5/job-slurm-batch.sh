@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-poo-3186
-#FLUX: -n=10
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#SBATCH --output=%x_%u_%j.out
+#SBATCH --error=%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=60GB
+#SBATCH --partition=mhigh,mhigh
 
 eval "$(conda shell.bash hook)"
 conda activate m6

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nn_training
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=nn_training
+#SBATCH --output=../slurm_log/train_output.out
+#SBATCH --error=../slurm_log/train_error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=100000
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 module load gcc12-env/12.3.0
 module load miniconda3/23.5.2

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=distance_estimation
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=distance_estimation
+#FLUX -c=8
+#FLUX --queue=boost_usr_prod
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load profile/deeplrn python

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iCLIPv3
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=ccr,norm
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=iCLIPv3
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=lscratch:24
+#SBATCH --mem-per-cpu=350g
+#SBATCH --time=18:00:00
+#SBATCH --partition=ccr,norm
 
 export NXF_SINGULARITY_CACHEDIR='$PWD/.singularity'
 export SINGULARITY_CACHEDIR='$PWD/.singularity'

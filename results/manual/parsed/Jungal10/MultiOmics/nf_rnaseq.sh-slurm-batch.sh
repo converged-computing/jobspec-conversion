@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rnaseq_projectname
-#FLUX: -n=50
-#FLUX: --urgency=16
+#SBATCH --job-name=rnaseq_projectname
+#SBATCH --output=/home/storage/DataLake/WIP/Logs/rnaseq_projectname%j.out
+#SBATCH --error=/home/storage/DataLake/WIP/Logs/rnaseq_projectname%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=50
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60GB
+#SBATCH --chdir=/home/storage/DataLake/Sandbox/
 
 OUTDIR="/home/storage/DataLake/WIP/RNASeq/outdir_projectname"
 WORKDIR="/home/cache/work_dias/"

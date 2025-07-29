@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: --queue=v6_384
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=../example/log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=v6_384
+#SBATCH --constraint=ntasks-per-node=10
 
 module load gcc/10.2.0
 module load cmake/3.21.2

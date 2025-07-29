@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_test
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_test
+#SBATCH --output=mpi_test.o
+#SBATCH --error=mpi_test.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:30:00
+#SBATCH --partition=shared
 
 export R_LIBS_USER='$HOME/software/R/3.6.1:$R_LIBS_USER'
 export R_PROFILE='$HOME/software/R/3.6.1/Rmpi/Rprofile'

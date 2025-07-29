@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-caramel-0482
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#SBATCH --output=logs/h14.out
+#SBATCH --error=logs/h14.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --partition=bigmem
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/h14.1.log \

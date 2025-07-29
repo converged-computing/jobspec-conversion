@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-butter-6988
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=phat-staircase-6447
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo "start"
 nvidia-smi

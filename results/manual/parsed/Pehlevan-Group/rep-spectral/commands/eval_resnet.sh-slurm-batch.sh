@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-7611
-#FLUX: -c=2
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=out/resnet_gelu_eval_%j.out
+#SBATCH --error=out/resnet_gelu_eval_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40000
+#SBATCH --time=00:08:00
 
 model='34'      # width of intermediate layer 
 epochs="200"    # epochs 

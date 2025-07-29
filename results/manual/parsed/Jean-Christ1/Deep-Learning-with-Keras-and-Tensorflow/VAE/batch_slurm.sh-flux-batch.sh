@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VAE
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=VAE
+#FLUX -c=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export FIDLE_OVERRIDE_VAE8_run_dir='./run/CelebA.$SLURM_JOB_ID'
 export FIDLE_OVERRIDE_VAE8_scale='1'

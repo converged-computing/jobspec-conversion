@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf_faster_rcnn_train
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_faster_rcnn_train
+#SBATCH --output=output.%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:2
+#SBATCH --mem=10240M
+#SBATCH --time=01:00:00
 
 cd $HOME/master_thesis/yellow_sticky_network
 module unload intelmpi

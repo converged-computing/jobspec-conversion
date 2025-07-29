@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-animal-4771
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CMCC-Foundation/ML4Fires/launch.sh

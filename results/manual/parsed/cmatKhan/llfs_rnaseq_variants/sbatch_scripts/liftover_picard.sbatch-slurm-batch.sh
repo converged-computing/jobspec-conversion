@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=liftover
-#FLUX: --urgency=16
+#SBATCH --job-name=liftover
+#SBATCH --output=job_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15G
 
 input_dir=/ref/mblab/data/llfs/geno_chip
 output_dir=lifted_over_vcf

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=plasma-python
-#FLUX: -n=20
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=plasma-python
+#FLUX -n=20
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load gcc/4.9.3
 module load python3/3.5.2

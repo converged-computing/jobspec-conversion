@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-truffle-1547
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --account=mtnihrio
+#SBATCH --output=run.sh.o.%j
+#SBATCH --error=run.sh.e.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=long
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

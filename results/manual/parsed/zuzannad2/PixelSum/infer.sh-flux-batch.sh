@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=infer-pixelsum
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=infer-pixelsum
+#FLUX -c=48
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export ENCODER='Team-PIXEL/pixel-base'
 export DECODER='gpt2'

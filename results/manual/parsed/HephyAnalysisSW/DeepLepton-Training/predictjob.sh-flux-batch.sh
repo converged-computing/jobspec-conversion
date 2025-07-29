@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=predict
-#FLUX: -c=4
-#FLUX: --queue=g
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=predict
+#FLUX -c=4
+#FLUX --queue=g
+#FLUX -t=28800
+#FLUX --urgency=16
 
 SIF='/cvmfs/unpacked.cern.ch/registry.hub.docker.com/cernml4reco/deepjetcore3:latest'
 data_dir="/scratch-cbe/users/${USER}/DeepLepton"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-leg-6254
-#FLUX: -c=128
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fat-blackbean-0941
+#FLUX -c=128
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 algo=$1
 teacher=$2

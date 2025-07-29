@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=football
-#FLUX: -c=52
-#FLUX: --queue=standard-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=football
+#SBATCH --account=project_462000215
+#SBATCH --output=../results/lumi_output/job_%A_%a.out
+#SBATCH --error=../results/lumi_output/array_job_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=52
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard-g
 
 SLURM_CPUS_PER_TASK=52
 srun --cpus-per-task=$SLURM_CPUS_PER_TASK singularity run --cleanenv \

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=analyze-peak-betta
-#FLUX: -c=40
-#FLUX: --queue=memory
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=analyze-peak-betta
+#SBATCH --account=proj5057
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=memory
 
 module load Singularity/3.3.0
 genomes=(

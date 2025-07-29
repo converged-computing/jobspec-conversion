@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ChildMindDL
-#FLUX: --queue=gpu-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ChildMindDL
+#SBATCH --account=TG-IBN140002
+#SBATCH --output=Child_mind_p100.%j.%N.out
+#SBATCH --mail-user=adelorme@ucsd.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=25G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-shared
 
 source ~/.bashrc
 cd /projects/ps-nemar/child_mind_2020

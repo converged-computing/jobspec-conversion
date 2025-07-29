@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_COVERAGE_MLP_MARGINALIZED_BIAS
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_INFERENCE_COVERAGE_MLP_MARGINALIZED_BIAS
+#FLUX -c=2
+#FLUX -t=604800
+#FLUX --urgency=16
 
 model_query="$BASE/out/coverage/$EXPERIMENT_BATCH_SIZE/marginalized/$EXPERIMENT_ACTIVATION/ratio-estimator-mlp-$EXPERIMENT_TASK_EPOCHS-dropout-$EXPERIMENT_DROPOUT-wd-$EXPERIMENT_WEIGHT_DECAY-batchnorm-0-*/best-model.th"
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)

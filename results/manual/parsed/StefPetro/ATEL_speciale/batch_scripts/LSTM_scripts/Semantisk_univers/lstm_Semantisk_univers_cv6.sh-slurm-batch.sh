@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-sundae-8248
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/StefPetro/ATEL_speciale/batch_scripts/LSTM_scripts/Semantisk_univers/lstm_Semantisk_univers_cv6.sh

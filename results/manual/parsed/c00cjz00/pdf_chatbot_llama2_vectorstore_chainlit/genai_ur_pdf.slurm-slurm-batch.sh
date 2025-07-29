@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_t2g_
-#FLUX: -c=4
-#FLUX: --queue=gp4d
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=_t2g_
+#SBATCH --account=MST110386
+#SBATCH --output=genai_%j.out
+#SBATCH --error=genai_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gp4d
+#SBATCH --constraint=ntasks-per-node=1
 
 iam=$(whoami)
 charbot_dir=/work/${iam}/chainlit_demo

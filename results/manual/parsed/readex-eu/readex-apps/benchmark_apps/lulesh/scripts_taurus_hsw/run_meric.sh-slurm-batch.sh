@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh_meric
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=lulesh_meric
+#SBATCH --account=p_readex
+#SBATCH --output=lulesh_meric.out
+#SBATCH --error=lulesh_meric.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=2500M
+#SBATCH --time=10:00:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export MERIC_MODE='2'
 export MERIC_DEBUG='0'

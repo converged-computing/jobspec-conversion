@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-truffle-3538
-#FLUX: -N=16
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=pr49
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

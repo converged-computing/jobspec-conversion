@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chip-2978
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-peas-9904
+#FLUX --urgency=16
 

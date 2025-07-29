@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MV_GPU
-#FLUX: --queue=gpu
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#SBATCH --job-name=MV_GPU
+#SBATCH --output=./Results/job-%J.out
+#SBATCH --error=./Results/job-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=00:35:00
+#SBATCH --partition=gpu
 
 nvidia-smi
 module load cuda/11.2.0 gcc/10.2

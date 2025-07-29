@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Genopipe
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Genopipe
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=general
 
 module load python/3.6.6
 module load plink

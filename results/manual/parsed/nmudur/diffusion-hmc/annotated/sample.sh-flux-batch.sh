@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-butter-9101
-#FLUX: --queue=fink_gpu
-#FLUX: -t=225
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-plant-8107
+#FLUX --queue=fink_gpu
+#FLUX -t=225
+#FLUX --urgency=16
 
 PROJDIR="/n/holylfs05/LABS/finkbeiner_lab/Users/nmudur/project_dirs/CMD_2D/diffusion-models-for-cosmological-fields/annotated/results/"
 MODELRUN="Run_5-7_0-50/"

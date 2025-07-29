@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-malarkey-9082
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 source /etc/profile
 module load py-numpy/1.24.3/gcc-13.1.0

@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=Variance metrics
-#FLUX: --queue=GPUQ
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=Variance metrics
+#SBATCH --account=ie-idi
+#SBATCH --output=variance-train-3-%2a.out
+#SBATCH --mail-user=sebastvi@stud.ntnu.no,ingebrin@stud.ntnu.no
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=A100,ntasks-per-node=1
+#SBATCH --array=1-50%10
 
 export ARRAY_RUN_NAME='variance_03_exp$(printf %02.0f $SLURM_ARRAY_TASK_ID)'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ivae-gpu
-#FLUX: --queue=gpu
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=ivae-gpu
+#SBATCH --output=slurm_log/ivae-gpu.%A_%a.out
+#SBATCH --error=slurm_log/ivae-gpu.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:06:00
+#SBATCH --partition=gpu
 
 module add nvidia/9.0
 source ~/.bashrc

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ISIMIP3a-pos-GSWP3
-#FLUX: -n=28
-#FLUX: --queue=broadwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=ISIMIP3a-pos-GSWP3
+#FLUX -n=28
+#FLUX --queue=broadwell
+#FLUX -t=432000
+#FLUX --urgency=16
 
 echo EMPIEZA TODO `date`
 ml SciPy-bundle/2021.10-foss-2021b

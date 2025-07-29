@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Polyp
-#FLUX: --urgency=16
+#SBATCH --job-name=Polyp
+#SBATCH --output=SimT_BAPA1.out
+#SBATCH --error=error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=node2
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST
 echo "Running on node "$SLURM_JOB_NODELIST 

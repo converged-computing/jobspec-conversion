@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pt_test
-#FLUX: -n=32
-#FLUX: --queue=normal
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=pt_test
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:/opt/apps/intel14/mvapich2_2_0/python/2.7.6/lib/python2.7/site-packages/mpi4py/bin'
 export MV2_SMP_USE_LIMIC2='0'

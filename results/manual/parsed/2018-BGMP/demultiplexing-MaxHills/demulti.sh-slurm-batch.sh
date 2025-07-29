@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Hills_demultiplex
-#FLUX: --queue=short
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=Hills_demultiplex
+#SBATCH --output=/projects/bgmp/mhills/demultiplex/slurm_demultiplex.out
+#SBATCH --error=/projects/bgmp/mhills/demultiplex/slurm_demultiplex.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=09:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=28
 
 cd /projects/bgmp/mhills/demultiplex
 module purge

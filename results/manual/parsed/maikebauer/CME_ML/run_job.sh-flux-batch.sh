@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Train_CNN
-#FLUX: --queue=zen2_0256_a40x2
-#FLUX: --urgency=16
+#FLUX --job-name=Train_CNN
+#FLUX --queue=zen2_0256_a40x2
+#FLUX --urgency=16
 
 export PYTORCH_ENABLE_MPS_FALLBACK='1'
 

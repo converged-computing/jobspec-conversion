@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=testlongcontext
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=g80n140
-#FLUX: --urgency=16
+#SBATCH --job-name=testlongcontext
+#SBATCH --output=gpt_neox_20.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=g80n140
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

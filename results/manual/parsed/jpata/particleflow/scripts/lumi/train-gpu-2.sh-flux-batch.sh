@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mlpf-train-clic-hits-ln-full
-#FLUX: -c=8
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=small-g
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=mlpf-train-clic-hits-ln-full
+#FLUX -c=8
+#FLUX --gpus-per-task=2
+#FLUX --queue=small-g
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export IMG='/scratch/project_465000301/tf-rocm.simg'
 export PYTHONPATH='hep_tfds'

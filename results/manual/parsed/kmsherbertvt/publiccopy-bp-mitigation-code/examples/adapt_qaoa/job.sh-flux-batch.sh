@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-truffle-5418
-#FLUX: -c=20
-#FLUX: --queue=normal_q
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-peanut-butter-4101
+#FLUX -c=20
+#FLUX --queue=normal_q
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NTHREAD='20'
 export JULIAENV='/home/gbarron/bp-mitigation-code/'

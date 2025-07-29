@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate-original
-#FLUX: --urgency=16
+#SBATCH --job-name=evaluate-original
+#SBATCH --output=/ukp-storage-1/fang/rational_bert/logs/pretrain/acabert/%x.out
+#SBATCH --error=/ukp-storage-1/fang/rational_bert/logs/pretrain/acabert/%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
 
 export CXX='g++'
 export CUDA_LAUNCH_BLOCKING='1'

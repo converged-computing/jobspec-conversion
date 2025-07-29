@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-poodle-0572
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-bits-5351
+#FLUX -c=32
+#FLUX --queue=csmpi_fpga_long
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

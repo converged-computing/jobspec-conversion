@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eval_cat
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eval_cat
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 singularity exec \

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-salad-6202
-#FLUX: -N=10
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-pastry-4617
+#FLUX -N=10
+#FLUX -n=256
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

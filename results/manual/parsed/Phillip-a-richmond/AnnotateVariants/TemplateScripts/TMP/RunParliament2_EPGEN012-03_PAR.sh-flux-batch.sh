@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poo-3024
-#FLUX: -c=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-cat-4048
+#FLUX -c=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load singularity
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/

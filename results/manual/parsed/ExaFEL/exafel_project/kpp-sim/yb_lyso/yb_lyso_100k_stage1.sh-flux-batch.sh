@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage_1
-#FLUX: -N=64
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stage_1
+#FLUX -N=64
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

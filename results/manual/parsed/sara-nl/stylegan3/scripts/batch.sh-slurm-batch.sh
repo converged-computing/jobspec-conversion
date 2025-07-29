@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-4766
-#FLUX: -c=72
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
 
 cd ~/NKI/stylegan3/
 source load_env.sh

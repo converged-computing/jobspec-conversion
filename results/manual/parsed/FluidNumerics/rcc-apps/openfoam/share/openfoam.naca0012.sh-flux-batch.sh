@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-knife-5582
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-cherry-2677
+#FLUX --urgency=16
 
 spack env deactivate
 spack env activate -d /opt/spack-pkg-env

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cnn-extr_rnd_seed
-#FLUX: --queue=plgrid-testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cnn-extr_rnd_seed
+#SBATCH --account=process2
+#SBATCH --output=%x-%A_%3a.out
+#SBATCH --error=%x-%A_%3a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=plgrid-testing
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-9
 
 TSTAMP=$(date '+%m%d')
 PROJECT=PROCESS_UC1

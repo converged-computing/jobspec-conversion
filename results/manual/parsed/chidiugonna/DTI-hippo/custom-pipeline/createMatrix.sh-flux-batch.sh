@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rpt-tractography
-#FLUX: -n=28
-#FLUX: --queue=standard
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=rpt-tractography
+#FLUX -n=28
+#FLUX --queue=standard
+#FLUX -t=144000
+#FLUX --urgency=16
 
 . $PWD/parseParams.sh
 parseparams $*

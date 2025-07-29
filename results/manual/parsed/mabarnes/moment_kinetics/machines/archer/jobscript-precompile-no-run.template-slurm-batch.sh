@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-dog-6689
-#FLUX: -n=16
-#FLUX: --queue=serial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=ACCOUNT
+#SBATCH --output=PRECOMPILEDIRslurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=serial
+#SBATCH --qos=serial
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hobbit-7933
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/NVT/W6/nvt_6.pbs

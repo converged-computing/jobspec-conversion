@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cf42
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cf42
+#SBATCH --account=project_2002029
+#SBATCH --output=train2.out
+#SBATCH --error=train2.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=14G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PYTHONPATH='../venv-torch/lib64/python3.7/site-packages:$PYTHONPATH'
 

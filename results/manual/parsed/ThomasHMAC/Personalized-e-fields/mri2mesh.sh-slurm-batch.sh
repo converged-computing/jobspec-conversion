@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mri2mesh
-#FLUX: -c=6
-#FLUX: --queue=high-moby
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=mri2mesh
+#SBATCH --output=/projects/ttan/UBC-TMS/simnibs/code/logs/mri2mesh_UBC-TMS_60k_vertices_new_subjects_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=2G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=high-moby
+#SBATCH --array=1-2
 
 export SUBJECTS_DIR='/projects/ttan/UBC-TMS/simnibs/mri2mesh'
 

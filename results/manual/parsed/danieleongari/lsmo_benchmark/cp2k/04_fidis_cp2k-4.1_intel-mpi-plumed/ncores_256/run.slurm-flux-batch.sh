@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leopard-7695
-#FLUX: -N=10
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=purple-butter-5758
+#FLUX -N=10
+#FLUX -n=256
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

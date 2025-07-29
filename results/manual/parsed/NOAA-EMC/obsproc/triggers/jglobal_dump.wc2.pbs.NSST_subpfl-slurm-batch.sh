@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-salad-6583
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/obsproc/triggers/jglobal_dump.wc2.pbs.NSST_subpfl

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-9453
-#FLUX: -c=12
-#FLUX: --queue=gpufermi
-#FLUX: --urgency=16
+#SBATCH --output=openacc.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpufermi
 
 cp 500.bmp *.c $PFSDIR/.
 cd $PFSDIR

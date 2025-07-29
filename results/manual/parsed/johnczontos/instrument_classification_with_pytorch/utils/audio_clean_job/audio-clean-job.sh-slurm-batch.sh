@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=audio-clean
-#FLUX: -c=8
-#FLUX: --queue=cascades
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=audio-clean
+#SBATCH --account=cascades
+#SBATCH --output=temp/audio-clean.out
+#SBATCH --error=temp/audio-clean.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cascades
+#SBATCH --nodelist=cn-m-2
 
 module load cuda/11.7 sox
 cd /nfs/guille/eecs_research/soundbendor/zontosj/instrument_classification_with_pytorch/data/rwc_all

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ht
-#FLUX: -c=74
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ht
+#SBATCH --output=logs/ht-%j.out
+#SBATCH --error=logs/ht-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=74
+#SBATCH --gres=gpu:4
+#SBATCH --mem=1T
+#SBATCH --time=02:00:00
+#SBATCH --qos=sched_level_2
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 echo " "
 echo " Nodelist:= " $SLURM_JOB_NODELIST

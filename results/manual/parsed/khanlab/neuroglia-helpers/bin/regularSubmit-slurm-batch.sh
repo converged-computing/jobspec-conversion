@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-onion-3134
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 execpath=`dirname $0`
 execpath=`realpath $execpath`

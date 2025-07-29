@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow_gpu
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow_gpu
+#SBATCH --account=glab
+#SBATCH --mail-user=pg2328@columbia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-23:59:00
 
 module load intel-parallel-studio/2017
 module load cuda80/toolkit cuda80/blas cudnn/5.1 

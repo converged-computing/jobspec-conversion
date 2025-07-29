@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemur-0763
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-toaster-3454
+#FLUX --urgency=16
 
 source src/utilities/common.sh
 source src/components/setup_component/setup.sh

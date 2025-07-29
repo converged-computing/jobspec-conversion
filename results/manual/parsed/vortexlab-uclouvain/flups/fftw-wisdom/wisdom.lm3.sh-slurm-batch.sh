@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Wisdom-generation
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Wisdom-generation
+#SBATCH --output=wisdom%j.out
+#SBATCH --error=wisdom%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2625
+#SBATCH --time=12:00:00
+#SBATCH --partition=batch
 
 module purge
 module load releases/2021b

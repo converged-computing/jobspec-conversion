@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lwz_nerf_gpujob
-#FLUX: --queue=ampere
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=lwz_nerf_gpujob
+#FLUX --queue=ampere
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

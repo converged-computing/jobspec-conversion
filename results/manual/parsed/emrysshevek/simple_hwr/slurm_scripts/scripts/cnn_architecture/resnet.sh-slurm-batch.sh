@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-truffle-7312
-#FLUX: -n=6
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --output=/panfs/pan.fsl.byu.edu/scr/grp/fslg_hwr/taylor_simple_hwr/slurm_scripts/scripts/cnn_architecture/log_resnet.slurm
+#SBATCH --mail-user=taylornarchibald@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=10666
+#SBATCH --time=1-12:00:00
+#SBATCH --constraint=rhel7&pascal
 
 export PATH='/panfs/pan.fsl.byu.edu/scr/grp/fslg_hwr/env/hwr4_env:$PATH'
 

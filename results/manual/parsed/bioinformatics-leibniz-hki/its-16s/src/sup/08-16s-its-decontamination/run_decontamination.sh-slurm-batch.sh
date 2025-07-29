@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DECONTAMINATION
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=DECONTAMINATION
+#SBATCH --output=../../logs/09-decontamination/decontamination_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=standard
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

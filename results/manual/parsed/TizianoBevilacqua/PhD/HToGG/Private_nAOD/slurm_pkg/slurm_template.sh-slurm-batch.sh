@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-caramel-9912
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=t3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chair-4537
-#FLUX: -n=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-chip-6442
+#FLUX -n=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load fosscuda/2019b

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gatk2
-#FLUX: --urgency=16
+#SBATCH --job-name=gatk2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 bam_list=$1
 gatk_memory="118g"

@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --account=ubec
+#SBATCH --output=log/CHE9314_vc.%j.out
+#SBATCH --error=log/CHE9314_.vc%j.err
+#SBATCH --mail-user=your@email.com
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:50G
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
 
 OUTPUT=/path/to/output/folder/NanoRCS/output/processed_data/00_preprocessing_sarek_tissue_vcf/variant_calling/SAMPLES
 if [[ ! -d $OUTPUT ]]; then

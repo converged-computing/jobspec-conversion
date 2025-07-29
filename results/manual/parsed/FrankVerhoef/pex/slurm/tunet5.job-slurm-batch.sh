@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Tune_T5
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Tune_T5
+#SBATCH --output=slurm/outputs/train_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2022

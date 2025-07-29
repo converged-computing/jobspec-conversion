@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=deep
-#FLUX: --queue=production
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=deep
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=production
+#SBATCH --constraint=ntasks-per-node=4
 
 DockerImage="deephdc/deep-oc-dogs_breed_det"
 ContainerName="dogs-cpu"

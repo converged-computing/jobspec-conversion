@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cherry-0815
-#FLUX: --queue=physical
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=phat-fudge-2799
+#FLUX --queue=physical
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export UNZIP_DISABLE_ZIPBOMB_DETECTION='true'
 export CHIPLET_DIR='/tmp/chiplets'

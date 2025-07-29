@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cosmic_t
-#FLUX: --queue=bigmem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cosmic_t
+#SBATCH --account=NN9526K
+#SBATCH --output=/cluster/work/users/dsarria/slurm_logs/R-%x.%j.out
+#SBATCH --error=/cluster/work/users/dsarria/slurm_logs/R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=bigmem
+#SBATCH --constraint=ntasks-per-node=32
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

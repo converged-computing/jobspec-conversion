@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=OF10_GccOpt_wmake_libso_OpenFOAM
-#FLUX: --queue=infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=OF10_GccOpt_wmake_libso_OpenFOAM
+#SBATCH --account=bddir15
+#SBATCH --output=GccOpt_wmake_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=infer
 
 export WM_NCOMPPROCS='160'
 

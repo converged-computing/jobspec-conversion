@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ParrLO
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --urgency=16
+#FLUX --job-name=ParrLO
+#FLUX -N=2
+#FLUX -c=24
+#FLUX --urgency=16
 
 module load cuda/11.1.1
 module load cmake/3.20.3

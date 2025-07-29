@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=mpi
+#FLUX -n=2
+#FLUX -t=1200
+#FLUX --urgency=16
 
 image="library://marcodelapierre/beta/openfoam:v1812"
 module unload xalt

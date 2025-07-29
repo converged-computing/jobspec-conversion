@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MARIAN
-#FLUX: -c=4
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=MARIAN
+#FLUX -c=4
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='$(pwd)/cache'
 

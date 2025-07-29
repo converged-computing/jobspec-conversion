@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=WriteOut
-#FLUX: -n=100
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=WriteOut
+#SBATCH --account=bm1164
+#SBATCH --output=Logs/SLURM_job.%j.%N.out
+#SBATCH --error=Logs/SLURM_job.%j.%N.err
+#SBATCH --mail-user=clara.henry@mpimet.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=compute
+#SBATCH --chdir=.
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

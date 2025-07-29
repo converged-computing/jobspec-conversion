@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-lab
-#FLUX: -c=2
-#FLUX: --queue=accel_ai
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter-lab
+#FLUX -c=2
+#FLUX --queue=accel_ai
+#FLUX -t=18000
+#FLUX --urgency=16
 
 port=8888
 node=$(hostname -s)

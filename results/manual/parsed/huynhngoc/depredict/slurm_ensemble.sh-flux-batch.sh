@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ensemble
-#FLUX: --queue=smallmem
-#FLUX: --urgency=16
+#FLUX --job-name=ensemble
+#FLUX --queue=smallmem
+#FLUX --urgency=16
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

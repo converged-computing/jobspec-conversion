@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Wisdom-generation
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=Wisdom-generation
+#FLUX -n=8
+#FLUX --queue=batch
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load releases/2021b

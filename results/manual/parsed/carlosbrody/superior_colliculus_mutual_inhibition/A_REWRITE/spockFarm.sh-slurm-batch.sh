@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spockFarm
-#FLUX: --queue=Brody
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=spockFarm
+#SBATCH --output=log2-spockFarm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=Brody
 
 module load julia/1.2.0
 echo "Slurm Job ID, unique: $SLURM_JOB_ID"

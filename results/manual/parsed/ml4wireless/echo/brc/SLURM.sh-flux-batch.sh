@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jobs_echo
-#FLUX: -N=8
-#FLUX: --queue=savio2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=jobs_echo
+#FLUX -N=8
+#FLUX --queue=savio2
+#FLUX -t=259200
+#FLUX --urgency=16
 
 JOBSJSON=$1
 ECHO_DIR=$(pwd)

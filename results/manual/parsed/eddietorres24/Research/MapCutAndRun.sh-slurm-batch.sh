@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ET_mapChIPseq
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ET_mapChIPseq
+#SBATCH --output=../MapCutAndRun.%j.out
+#SBATCH --error=../MapCutAndRun.%j.err
+#SBATCH --mail-user=evt82290@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=50gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 source config.txt

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-milkshake-5827
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-buttface-5499
+#FLUX -c=24
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

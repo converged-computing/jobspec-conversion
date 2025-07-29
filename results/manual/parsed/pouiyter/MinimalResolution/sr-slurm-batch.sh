@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=127
-#FLUX: --queue=node
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=out1
+#SBATCH --error=err1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=127
+#SBATCH --partition=node
+#SBATCH --nodelist=node1
 
 ./mr_st 35 36
 ./BPtab 35

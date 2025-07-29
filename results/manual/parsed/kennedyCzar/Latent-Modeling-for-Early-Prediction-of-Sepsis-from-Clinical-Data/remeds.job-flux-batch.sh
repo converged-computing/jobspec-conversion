@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GCVAE
-#FLUX: --queue=audace2018
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=GCVAE
+#FLUX --queue=audace2018
+#FLUX -t=604800
+#FLUX --urgency=16
 
 ulimit -l unlimited
 unset SLURM_GTIDS

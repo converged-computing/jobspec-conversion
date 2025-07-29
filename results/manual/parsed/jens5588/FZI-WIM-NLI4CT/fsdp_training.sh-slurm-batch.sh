@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=llama_recipes
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=advanced
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_recipes
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:full:4
+#SBATCH --mem-per-cpu=500000mb
+#SBATCH --time=12:00:00
+#SBATCH --partition=advanced
 
 export PYTHONPATH='$PYTHONPATH:/home/abc/FZI-WIM-NLI4CT'
 export FI_PROVIDER='efa'

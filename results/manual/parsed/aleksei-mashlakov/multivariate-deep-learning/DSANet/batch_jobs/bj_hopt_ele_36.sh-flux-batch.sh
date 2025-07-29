@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dsaehopt
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=dsaehopt
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PYTHONWARNINGS='ignore'
 

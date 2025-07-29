@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-squidward-4019
-#FLUX: -n=24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=haswell
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dtan_job
-#FLUX: -c=4
-#FLUX: --queue=rtx3090
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dtan_job
+#FLUX -c=4
+#FLUX --queue=rtx3090
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/avihaina/.conda/envs/torch_env/lib/'
 export PATH='/opt/rh/devtoolset-9/root/usr/bin/:$PATH'

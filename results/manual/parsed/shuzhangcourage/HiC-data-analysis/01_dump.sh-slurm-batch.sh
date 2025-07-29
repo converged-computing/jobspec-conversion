@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dump
-#FLUX: --queue=fat
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dump
+#SBATCH --output=dump.%A_%a.out
+#SBATCH --error=dump.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=fat
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-2
 
 inputFileName="./input/Dump_input_parameters.txt"
 parameters=`sed "${SLURM_ARRAY_TASK_ID}q;d" $inputFileName`

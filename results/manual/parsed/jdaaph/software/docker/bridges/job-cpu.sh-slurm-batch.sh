@@ -1,11 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test-cpu
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=28
-#FLUX: --queue=RM-small
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-cpu
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=28
+#SBATCH --time=00:10:00
+#SBATCH --partition=RM-small
 
 source /etc/profile.d/modules.sh
 module load singularity/2.6.0

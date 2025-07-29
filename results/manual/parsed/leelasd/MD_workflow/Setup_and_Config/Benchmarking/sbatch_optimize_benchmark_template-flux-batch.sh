@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nunchucks-3077
-#FLUX: -N=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-blackbean-8836
+#FLUX -N=8
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ntpn=32
 jobname=optimize_bench

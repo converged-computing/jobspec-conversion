@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gs-julia-1MPI-1GPU
-#FLUX: --queue=batch
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=gs-julia-1MPI-1GPU
+#SBATCH --account=CSC383_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=batch
 
 date
 GS_DIR=/lustre/orion/proj-shared/csc383/wgodoy/GrayScott.jl

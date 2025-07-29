@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hpcc_test
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=hpcc_test
+#SBATCH --account=a17-benchmarking
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=28
 
 module load gcc/6.3.0/1
 module load intel/mpi/64/2017.2.174

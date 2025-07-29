@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-earthworm-7378
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-rabbit-6435
+#FLUX --queue=dgx
+#FLUX --urgency=16
 
 lscpu
 nvidia-smi

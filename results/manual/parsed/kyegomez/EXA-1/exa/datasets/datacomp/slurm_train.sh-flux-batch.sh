@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=<job_name>
-#FLUX: -c=6
-#FLUX: --queue=<partition_name>
-#FLUX: --urgency=16
+#FLUX --job-name=<job_name>
+#FLUX -c=6
+#FLUX --queue=<partition_name>
+#FLUX --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

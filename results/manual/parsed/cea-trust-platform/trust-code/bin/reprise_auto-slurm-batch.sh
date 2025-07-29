@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-signal-4816
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MAX_JOBS_ENCHAINES='`$TRUST_Awk -F= '/MAX_JOBS_ENCHAINES=/ {print $2}' $sub_file` '
 export ARCHIVAGE='`$TRUST_Awk -F= '/ARCHIVAGE=/ {print $2}' $sub_file` '

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-noodle-7133
-#FLUX: -n=6
-#FLUX: --queue=amilan
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-signal-3273
+#FLUX -n=6
+#FLUX --queue=amilan
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load intel

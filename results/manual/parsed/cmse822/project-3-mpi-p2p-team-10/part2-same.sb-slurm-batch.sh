@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HW3-NON-BLOCKING-SAME
-#FLUX: --exclusive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=HW3-NON-BLOCKING-SAME
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:01:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2,amd20
 
 module purge
 module load intel/2021a

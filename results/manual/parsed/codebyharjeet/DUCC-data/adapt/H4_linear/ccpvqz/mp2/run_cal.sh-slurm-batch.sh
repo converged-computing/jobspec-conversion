@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test13
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test13
+#SBATCH --account=nmayhall_group
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal_q
+#SBATCH: --exclusive
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

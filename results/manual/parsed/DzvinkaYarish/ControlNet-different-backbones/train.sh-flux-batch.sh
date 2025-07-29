@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-earthworm-5178
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-ricecake-9720
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=240000
+#FLUX --urgency=16
 
 module load any/python/3.8.3-conda
 conda activate controlnet

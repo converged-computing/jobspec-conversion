@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phase_1
-#FLUX: -c=60
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=phase_1
+#FLUX -c=60
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate $6

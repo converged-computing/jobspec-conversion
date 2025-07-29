@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=my_multinode_job
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=luna
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=my_multinode_job
+#SBATCH --account=devtech
+#SBATCH --output=my_multinode_job_%j.out
+#SBATCH --error=my_multinode_job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=8
+#SBATCH --time=04:00:00
+#SBATCH --partition=luna
+#SBATCH --constraint=gpu
 
 export SUBMIT_ACCOUNT='devtech'
 export SHARE_SOURCE='/lustre/fsw/nvresearch/mmardani/source'

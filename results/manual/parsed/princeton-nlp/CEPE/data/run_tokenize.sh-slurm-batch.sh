@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tokenize
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=tokenize
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --array=0
 
 python tokenize_files.py

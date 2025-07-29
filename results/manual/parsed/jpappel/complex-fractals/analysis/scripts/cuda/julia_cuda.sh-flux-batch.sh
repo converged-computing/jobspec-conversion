@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cupcake-4672
+#FLUX --job-name=arid-train-2910
 #FLUX: --exclusive
-#FLUX: --queue=gpu-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gpu-shared
+#FLUX -t=1800
+#FLUX --urgency=16
 
 THREADS=1
 BLOCK_SIZE=1

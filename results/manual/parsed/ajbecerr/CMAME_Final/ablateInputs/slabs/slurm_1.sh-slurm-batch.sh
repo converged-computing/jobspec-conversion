@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=2dSlab
-#FLUX: --queue=pbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=2dSlab
+#SBATCH --account=sunyb
+#SBATCH --mail-user=ajbecerr@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=pbatch
 
 export PETSC_DIR='/usr/workspace/ajbecerr/petsc" #UPDATE to the real path of petsc'
 export PETSC_ARCH='arch-ablate-opt'

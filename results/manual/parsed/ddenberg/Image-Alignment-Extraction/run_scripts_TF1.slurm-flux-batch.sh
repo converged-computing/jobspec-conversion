@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TF1
-#FLUX: -c=16
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#FLUX --job-name=TF1
+#FLUX -c=16
+#FLUX -t=7140
+#FLUX --urgency=16
 
 module purge
 module load matlab/R2023a

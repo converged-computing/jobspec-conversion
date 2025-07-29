@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gnn_wb
-#FLUX: -n=152
-#FLUX: --queue=accelerated
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gnn_wb
+#FLUX -n=152
+#FLUX --queue=accelerated
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source /hkfs/home/project/hk-project-test-p0021478/cc7738/anaconda3/etc/profile.d/conda.sh
 conda activate base

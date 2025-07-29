@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mldock-gnn
-#FLUX: --exclusive
-#FLUX: --queue=bdw18
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mldock-gnn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=bdw18
+#SBATCH: --exclusive
 
 export PATH='/home/users/${USER}/.local/bin:${PATH}'
 export PYTHONUSERBASE='/home/users/${USER}/.local'

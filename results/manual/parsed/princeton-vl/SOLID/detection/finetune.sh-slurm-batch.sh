@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-nalgas-9088
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PYTHONPATH='${PYTHONPATH}:${PWD}'
 

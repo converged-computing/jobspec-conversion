@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=simul
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --job-name=simul
+#SBATCH --mail-user=louislenezet@gmail.com
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=50G
+#SBATCH --constraint=avx2
+#SBATCH --chdir=/groups/dog/llenezet/imputation/script/test_quality/wf_test
 
 source /local/miniconda3/etc/profile.d/conda.sh
 conda activate env_nf

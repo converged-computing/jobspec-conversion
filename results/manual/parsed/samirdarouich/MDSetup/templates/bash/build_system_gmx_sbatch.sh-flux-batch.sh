@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=build_system
-#FLUX: --queue=single
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=build_system
+#FLUX --queue=single
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load chem/gromacs/2023.3

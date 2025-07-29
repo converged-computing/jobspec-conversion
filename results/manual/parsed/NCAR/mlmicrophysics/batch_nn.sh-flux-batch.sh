@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=micro_nn
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=micro_nn
+#FLUX -t=82800
+#FLUX --urgency=16
 
 export PATH='/glade/u/home/ggantos/ncar_20200417/bin:$PATH'
 

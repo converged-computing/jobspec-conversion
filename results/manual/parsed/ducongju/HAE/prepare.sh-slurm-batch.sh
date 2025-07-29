@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=HAE
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=HAE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/nvidia/lib'
 

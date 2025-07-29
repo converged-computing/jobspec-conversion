@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nn_art_transfer
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=nn_art_transfer
+#SBATCH --output=nn_job_%j.log
+#SBATCH --mail-user=ap1751@york.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=4gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 echo "Pulling latest"
 git pull

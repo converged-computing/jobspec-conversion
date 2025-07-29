@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-salad-3772
-#FLUX: -c=80
-#FLUX: --queue=milan
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-cinnamonbun-3275
+#FLUX -c=80
+#FLUX --queue=milan
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

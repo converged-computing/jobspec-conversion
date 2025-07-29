@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-gato-9452
-#FLUX: -c=24
-#FLUX: --queue=clara-job
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=64gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=clara-job
 
 if [ -z "$SLURM_ARRAY_TASK_ID" ]; then
     SLURM_ARRAY_TASK_ID=1

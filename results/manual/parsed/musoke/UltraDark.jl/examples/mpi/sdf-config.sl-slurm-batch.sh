@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Run an UltraDark test simulation
-#FLUX: -n=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Run an UltraDark test simulation
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=00:10:00
 
 export JULIA_DEBUG='UltraDark'
 

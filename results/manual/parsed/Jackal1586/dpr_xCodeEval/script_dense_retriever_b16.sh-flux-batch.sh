@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parrot-4331
-#FLUX: --queue=NV100q
-#FLUX: --urgency=16
+#FLUX --job-name=phat-itch-7920
+#FLUX --queue=NV100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1,2,3'
 

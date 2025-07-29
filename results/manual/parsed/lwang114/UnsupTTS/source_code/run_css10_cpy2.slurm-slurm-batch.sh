@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=wav2vecu_css10
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=wav2vecu_css10
+#SBATCH --output=wav2vecu_css10_%j.out
+#SBATCH --error=wav2vecu_css10_%j.err
+#SBATCH --mail-user=limingw@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=sched_level_2
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 function error
 {

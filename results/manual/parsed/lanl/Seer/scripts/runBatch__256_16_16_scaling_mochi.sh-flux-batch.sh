@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fork-9957
-#FLUX: -N=16
-#FLUX: --queue=scaling
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-lettuce-6007
+#FLUX -N=16
+#FLUX --queue=scaling
+#FLUX --urgency=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

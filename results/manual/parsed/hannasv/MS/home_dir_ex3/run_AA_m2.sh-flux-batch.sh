@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-avocado-0533
-#FLUX: -n=32
-#FLUX: --queue=defq
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=arid-snack-2153
+#FLUX -n=32
+#FLUX --queue=defq
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-5681
-#FLUX: -c=26
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=26
+#SBATCH --mem=0
+#SBATCH --time=00:04:00
 
 time julia -t 26 post_sim.jl

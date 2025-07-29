@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=varnorm
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=qTRD
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=varnorm
+#FLUX -n=4
+#FLUX -c=4
+#FLUX --queue=qTRD
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load afni
 BASEDIR=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/FBIRN

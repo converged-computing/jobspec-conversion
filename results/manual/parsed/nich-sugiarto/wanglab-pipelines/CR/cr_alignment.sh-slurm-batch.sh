@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=${smallBase}_alignment
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=${smallBase}_alignment
+#SBATCH --output=${folder}/log/${smallBase}_alignment.%j.out
+#SBATCH --error=${folder}/log/${smallBase}_alignment.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 mkdir -p PBS
 mkdir -p deduplicated

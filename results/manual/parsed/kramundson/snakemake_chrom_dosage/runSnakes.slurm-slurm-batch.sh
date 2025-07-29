@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snake_mapping
-#FLUX: --queue=production
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=snake_mapping
+#SBATCH --output=pipeline_test.out
+#SBATCH --error=pipeline_test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=production
 
 date
 hostname

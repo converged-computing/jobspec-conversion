@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Filter
-#FLUX: -n=10
-#FLUX: --queue=long
-#FLUX: -t=360300
-#FLUX: --urgency=16
+#FLUX --job-name=Filter
+#FLUX -n=10
+#FLUX --queue=long
+#FLUX -t=360300
+#FLUX --urgency=16
 
 export PATH='~/.local:$PATH'
 

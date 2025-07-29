@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-citrus-1503
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0309-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CXX='hipcc'

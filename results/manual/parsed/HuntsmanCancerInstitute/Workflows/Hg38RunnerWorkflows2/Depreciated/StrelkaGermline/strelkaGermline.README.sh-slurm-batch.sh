@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hope-2816
-#FLUX: --queue=hci-rw
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=hci-rw
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=hci-rw
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity/3.6.4

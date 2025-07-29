@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-egg-1198
-#FLUX: --queue=a100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=faux-malarkey-7340
+#FLUX --queue=a100
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='true'
 export CUDA_HOME='/home/gulhane.2/cuda/setup.sh'

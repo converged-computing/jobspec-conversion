@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=KavehJob2
-#FLUX: --queue=lrgmem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=KavehJob2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lrgmem
+#SBATCH --constraint=ntasks-per-node=36
 
 module reset
 module load python/2.7

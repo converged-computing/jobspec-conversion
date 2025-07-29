@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-poo-7197
-#FLUX: -c=2
-#FLUX: --queue=p100
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-lamp-3808
+#FLUX -c=2
+#FLUX --queue=p100
+#FLUX --urgency=16
 
 list=(
     "python -m lconvnet.run --cfg runs/wde_cifar10/lr-0.001/conv/RKO/maxmin/multi-trial-B/cfg.yaml"

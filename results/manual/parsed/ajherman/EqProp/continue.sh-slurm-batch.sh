@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -N=15
-#FLUX: --queue=shared-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=main
+#SBATCH --nodes=15
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=shared-gpu
 
 cores=8
 for dir in "$1"/*

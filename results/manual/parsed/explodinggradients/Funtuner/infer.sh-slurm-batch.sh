@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RM
-#FLUX: -n=8
-#FLUX: --queue=gpu_v100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=RM
+#SBATCH --account=scw2050
+#SBATCH --output=o.%x.%j
+#SBATCH --error=e.%x.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_v100
 
 export PYTHONPATH='${PYTHONPATH}:/home/c.scmse/Funtuner'
 

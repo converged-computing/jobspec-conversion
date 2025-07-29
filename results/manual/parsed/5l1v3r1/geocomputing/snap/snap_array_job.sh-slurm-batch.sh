@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snap_array_job
-#FLUX: -c=4
-#FLUX: --queue=small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=snap_array_job
+#SBATCH --account=<INSERT-YOUR-PROJECT>
+#SBATCH --output=out_%A_%a.txt
+#SBATCH --error=err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2000
+#SBATCH --time=02:00:00
+#SBATCH --partition=small
+#SBATCH --array=1-3
 
 module load snap
 readlink -f /appl/data/geo/sentinel/s2_example_data/L2A/S2* > image_path_list.txt

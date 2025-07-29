@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-5525
-#FLUX: -N=3
-#FLUX: -n=64
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=E5v4
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

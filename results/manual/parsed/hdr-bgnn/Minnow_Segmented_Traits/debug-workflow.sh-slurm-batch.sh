@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=MinnowTraits
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=MinnowTraits
+#SBATCH --account=PAS2136
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
 
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'
 

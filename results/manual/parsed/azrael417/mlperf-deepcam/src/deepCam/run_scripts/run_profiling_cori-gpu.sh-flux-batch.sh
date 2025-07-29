@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=profile_cam5
+#FLUX --job-name=profile_cam5
 #FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --queue=regular
+#FLUX -t=300
+#FLUX --urgency=16
 
 rankspernode=1
 totalranks=$(( ${SLURM_NNODES} * ${rankspernode} ))

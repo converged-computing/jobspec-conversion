@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_SUMMARIZE_MOCK_INFERENCE
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_INFERENCE_SUMMARIZE_MOCK_INFERENCE
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 out=$BASE/out
 mkdir -p $out

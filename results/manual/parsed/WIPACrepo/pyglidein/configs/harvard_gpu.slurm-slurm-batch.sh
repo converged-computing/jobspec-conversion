@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=angry-rabbit-5465
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/n/home00/briedel/out/%j.out
+#SBATCH --error=/n/home00/briedel/out/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=11600
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 echo `date`
 echo $HOSTNAME

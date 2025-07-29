@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nf_ontreadprep
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nf_ontreadprep
+#SBATCH --account=PAS2380
+#SBATCH --output=slurm-nf_ontreadprep-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
 
 if [[ -z "$SLURM_JOB_ID" ]]; then is_slurm=false; else is_slurm=true; fi
 readonly SCRIPT_NAME=nf_ontreadprep.sh

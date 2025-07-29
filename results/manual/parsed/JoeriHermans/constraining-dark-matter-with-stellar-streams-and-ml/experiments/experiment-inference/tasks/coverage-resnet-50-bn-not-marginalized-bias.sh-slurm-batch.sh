@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_COVERAGE_RESNET_50_BN_NOT_MARGINALIZED_BIAS
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_INFERENCE_COVERAGE_RESNET_50_BN_NOT_MARGINALIZED_BIAS
+#SBATCH --output=logging/coverage_resnet_50_bn_not_marginalized_bias_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5000
+#SBATCH --time=7-00:00:00
 
 model_query="$BASE/out/coverage/$EXPERIMENT_BATCH_SIZE/not-marginalized/$EXPERIMENT_ACTIVATION/ratio-estimator-resnet-50-$EXPERIMENT_TASK_EPOCHS-dropout-$EXPERIMENT_DROPOUT-wd-$EXPERIMENT_WEIGHT_DECAY-batchnorm-1-*/best-model.th"
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)

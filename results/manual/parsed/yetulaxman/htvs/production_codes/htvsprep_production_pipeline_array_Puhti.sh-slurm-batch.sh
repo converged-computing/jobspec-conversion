@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=angry-destiny-6301
-#FLUX: --queue=small
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2004075
+#SBATCH --output=array_job_out_%A_%a.txt
+#SBATCH --error=array_job_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=20
+#SBATCH --array=1-7%2
 
 module load maestro
 cd ${SLURM_SUBMIT_DIR}

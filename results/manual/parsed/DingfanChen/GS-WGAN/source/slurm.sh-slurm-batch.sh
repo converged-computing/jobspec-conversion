@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-banana-3299
-#FLUX: --queue=gpu20
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu20
 
 __conda_setup="$('/BS/dchen-projects/work/Software/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=res
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=res
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate /data/inet-multimodal-ai/wolf6245/envs/physionet22

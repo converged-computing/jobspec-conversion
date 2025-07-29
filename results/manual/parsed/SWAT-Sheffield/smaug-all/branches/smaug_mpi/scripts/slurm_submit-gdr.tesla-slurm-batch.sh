@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpujob
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpujob
+#SBATCH --account=SHEFFIELD-GPU
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=tesla
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dreamfusion
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=dreamfusion
+#FLUX -t=32400
+#FLUX --urgency=16
 
 MODEL_NAME="checkpoints/stable-diffusion-v1-5" # "path-to-pretrained-model" runwayml/stable-diffusion-v1-5
 DATA_DIR="data/$2/image.jpg" # "path-to-dir-containing-your-image"

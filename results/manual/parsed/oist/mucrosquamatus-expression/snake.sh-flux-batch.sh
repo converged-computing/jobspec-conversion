@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=align
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=align
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 . $HOME/.bashrc 
 . ~/sasha_env/bin/activate

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=my_dask_job
-#FLUX: -N=3
-#FLUX: -c=2
-#FLUX: --queue=regular2
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=my_dask_job
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1000
+#SBATCH --time=00:40:00
+#SBATCH --partition=regular2
+#SBATCH --constraint=ntasks-per-node=3
 
 module purge
 module load gnu8/8.3.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s_seq_depth
-#FLUX: --queue=hbfraser
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=s_seq_depth
+#FLUX --queue=hbfraser
+#FLUX -t=32400
+#FLUX --urgency=16
 
 module load fraserconda
 source activate fraserconda

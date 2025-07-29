@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca
-#FLUX: -n=10
-#FLUX: -c=3
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#SBATCH --job-name=alpaca
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=a800
+#SBATCH --constraint=ntasks-per-node=20
 
 module load anaconda/3-2023.03
 source activate

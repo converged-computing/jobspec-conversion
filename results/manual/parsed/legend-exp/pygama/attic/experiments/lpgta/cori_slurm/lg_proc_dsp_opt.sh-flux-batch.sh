@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-snack-7965
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-peanut-2049
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /global/u1/l/lgprod/pygama/experiments/lpgta
 date

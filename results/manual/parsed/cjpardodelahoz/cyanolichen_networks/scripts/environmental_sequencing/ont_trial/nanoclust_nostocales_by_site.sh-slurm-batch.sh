@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pastry-9687
-#FLUX: -c=32
-#FLUX: --queue=scavenger
-#FLUX: --urgency=16
+#SBATCH --output=log/environmental_sequencing/ont_trial/nanoclust_nostocales_by_site_%A_%a.out
+#SBATCH --error=log/environmental_sequencing/ont_trial/nanoclust_nostocales_by_site_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=4G
+#SBATCH --partition=scavenger
+#SBATCH --array=1-5
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

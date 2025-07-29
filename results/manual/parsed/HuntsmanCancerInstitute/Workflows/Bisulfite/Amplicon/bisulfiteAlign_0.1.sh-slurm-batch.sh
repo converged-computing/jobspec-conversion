@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bisulfiteAlign_0.1
-#FLUX: --queue=hci-kp
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=bisulfiteAlign_0.1
+#SBATCH --account=hci-kp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=hci-kp
+#SBATCH --constraint=c20
 
 set -e; start=$(date +'%s')
 echo -e "---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

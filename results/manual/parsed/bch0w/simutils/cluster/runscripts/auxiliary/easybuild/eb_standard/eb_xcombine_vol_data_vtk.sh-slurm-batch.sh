@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=combine_vol_data_vtk
-#FLUX: --queue=nesi_research
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=combine_vol_data_vtk
+#SBATCH --account=nesi00263
+#SBATCH --output=combine_vol_data_vtk_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:30
+#SBATCH --partition=nesi_research
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

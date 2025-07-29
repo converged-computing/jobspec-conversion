@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=geforce
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=./out/test.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=00:30:00
+#SBATCH --partition=geforce
+#SBATCH --qos=short
 
 module load spack
 module add cuda-11.4.2-gcc-11.2.0-rxy4qhm            # 载入 CUDA 9.0 模块

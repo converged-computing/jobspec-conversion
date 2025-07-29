@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-9614
-#FLUX: --queue=zhuang
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/n/holyscratch01/zhuang_lab/Users/pzheng/MERFISH_Analysis/Logs/Merlin_jobs/%j.stdout
+#SBATCH --error=/n/holyscratch01/zhuang_lab/Users/pzheng/MERFISH_Analysis/Logs/Merlin_jobs/%j.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=zhuang
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

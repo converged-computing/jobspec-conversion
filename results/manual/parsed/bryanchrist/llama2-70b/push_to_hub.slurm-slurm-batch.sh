@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=push_to_hub
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=push_to_hub
+#SBATCH --account=bryan_research
+#SBATCH --output=push_to_hub-%A.out
+#SBATCH --error=push_to_hub-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

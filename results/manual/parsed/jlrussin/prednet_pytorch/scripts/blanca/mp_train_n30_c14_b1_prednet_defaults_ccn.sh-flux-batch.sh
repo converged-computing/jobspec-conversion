@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pot-8549
-#FLUX: -N=30
-#FLUX: -n=30
-#FLUX: -c=14
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-cattywampus-8437
+#FLUX -N=30
+#FLUX -n=30
+#FLUX -c=14
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export HOME='`getent passwd $USER | cut -d':' -f6`'
 export PYTHONUNBUFFERED='1'

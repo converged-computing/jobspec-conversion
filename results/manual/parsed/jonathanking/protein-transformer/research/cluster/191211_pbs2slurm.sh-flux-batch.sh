@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pt-sweep
-#FLUX: --queue=dept_gpu
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#FLUX --job-name=pt-sweep
+#FLUX --queue=dept_gpu
+#FLUX -t=2419200
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch-build

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sms_call
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=sms_call
+#SBATCH --output=sms_call.%J.out
+#SBATCH --error=sms_call.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
+#SBATCH --array=1-14
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 cluster_values=( 16 )

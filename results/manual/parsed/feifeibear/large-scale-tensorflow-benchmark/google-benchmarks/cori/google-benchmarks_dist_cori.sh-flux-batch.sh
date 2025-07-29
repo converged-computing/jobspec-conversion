@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dist
-#FLUX: -N=128
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=dist
+#FLUX -N=128
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='66'
 export TF_SCRIPT='/global/cscratch1/sd/yyang420/fjr/tensorflow/distributed-tensorflow-benchmarks/google-benchmarks/tf_cnn_benchmarks/tf_cnn_benchmarks.py'

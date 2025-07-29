@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dask_job
-#FLUX: -n=102
-#FLUX: -c=10
-#FLUX: --queue=cluster
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_job
+#SBATCH --nodes=1
+#SBATCH --ntasks=102
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=3G
+#SBATCH --time=02:00:00
+#SBATCH --partition=cluster
 
 module load singularity/3.5.2
 CONTAINER_FILE="pangeo-notebook_2022.07.27.sif"

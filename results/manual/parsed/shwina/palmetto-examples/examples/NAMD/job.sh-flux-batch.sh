@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fudge-2699
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-poodle-9180
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shwina/palmetto-examples/examples/NAMD/job.sh

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=polarnet_val
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=polarnet_val
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
+#SBATCH --array=0-248
 
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'
 export PYTHONPATH='$PYTHONPATH:$code_dir'

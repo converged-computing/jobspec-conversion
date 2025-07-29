@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=rtx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --output=myjob-t.o%j
+#SBATCH --error=myjob-t.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=rtx
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

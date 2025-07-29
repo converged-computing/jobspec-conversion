@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: -c=2
-#FLUX: --queue=hi
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --output=array_job_out_%A_%a.txt
+#SBATCH --error=array_job_err_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=15000
+#SBATCH --partition=hi
+#SBATCH --array=1-871
 
 module load freebayes/0.9.14-15-gc6f49c0
 	#another script generates jobs for scaffolds 0-9870

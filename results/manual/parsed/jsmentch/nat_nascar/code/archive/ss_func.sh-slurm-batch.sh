@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=func
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=func
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=45GB
+#SBATCH --time=2-00:00:00
 
 set -eu # Stop on errors
 fmriprep_version=23.0.0

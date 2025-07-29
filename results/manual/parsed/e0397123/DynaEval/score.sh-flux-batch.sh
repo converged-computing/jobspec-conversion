@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=score
-#FLUX: --queue=new
-#FLUX: --urgency=16
+#FLUX --job-name=score
+#FLUX --queue=new
+#FLUX --urgency=16
 
 export dataset='feddial'
 export dataset_dir='data/${dataset}'

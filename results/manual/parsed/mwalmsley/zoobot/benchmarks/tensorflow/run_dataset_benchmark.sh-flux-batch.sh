@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-peanut-7230
-#FLUX: -c=24
+#FLUX --job-name=gassy-lamp-0916
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/share/nas2/walml/miniconda3/envs/zoobot38_tf/lib/'
 

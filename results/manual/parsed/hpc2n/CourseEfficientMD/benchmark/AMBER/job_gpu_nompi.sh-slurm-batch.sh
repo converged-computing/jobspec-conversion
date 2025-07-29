@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lettuce-6215
-#FLUX: -n=14
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --account=SNICyyyy-xx-yy
+#SBATCH --output=job_str.out
+#SBATCH --error=job_str.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --time=00:25:00
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'
 export init='step3_charmm2amber'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_bench
-#FLUX: -n=12
-#FLUX: --queue=pascal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=gmx_bench
+#FLUX -n=12
+#FLUX --queue=pascal
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${cpucores}'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

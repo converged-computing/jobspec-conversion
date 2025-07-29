@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=LB-AMBER_s2
-#FLUX: -N=4
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=LB-AMBER_s2
+#SBATCH --account=snic2021-3-15
+#SBATCH --output=slurm.err
+#SBATCH --error=slurm.out
+#SBATCH --mail-user=sergiopc@kth.se
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=128
 
 ml PDC
 ml GROMACS/2020.5-cpeCray-21.11

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch
+#SBATCH --output=pytorch_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=23:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=A100
+#SBATCH: --no-requeue
+#SBATCH --exclude=compute-0-7,compute-0-5
 
 export WANDB_CACHE_DIR='/share/nas2/walml/WANDB_CACHE_DIR'
 

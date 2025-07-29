@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-arm-1481
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lemur-9674
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_a.py \
     --mode text_to_image \

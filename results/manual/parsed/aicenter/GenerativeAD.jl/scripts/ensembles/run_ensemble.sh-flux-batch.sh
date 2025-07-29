@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lentil-7529
-#FLUX: --queue=cpufast
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-animal-0497
+#FLUX --queue=cpufast
+#FLUX -t=3600
+#FLUX --urgency=16
 
 MODEL=$1 		# which model to run
 DATASET=$2      # which dataset to run

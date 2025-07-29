@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lentil-3262
-#FLUX: -c=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=90000
+#SBATCH --time=00:06:00
+#SBATCH --partition=REQUESTED_PARTITION
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

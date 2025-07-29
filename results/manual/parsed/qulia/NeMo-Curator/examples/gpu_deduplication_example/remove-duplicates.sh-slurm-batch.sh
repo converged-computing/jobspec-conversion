@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-data-curator:remove-duplicates
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nemo-data-curator:remove-duplicates
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
 
 set -eux
 base_dir=`pwd`

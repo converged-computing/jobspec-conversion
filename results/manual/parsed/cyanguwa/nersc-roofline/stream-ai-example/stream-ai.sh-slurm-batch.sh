@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stream-ai
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=stream-ai
+#SBATCH --account=m888
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='$t'
 

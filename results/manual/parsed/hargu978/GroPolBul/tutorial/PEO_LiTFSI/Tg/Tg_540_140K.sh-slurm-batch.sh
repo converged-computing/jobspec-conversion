@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tg
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tg
+#SBATCH --account=naiss2023-1-37
+#SBATCH --output=slurm2.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMP_NUM_THREADS='1'
 

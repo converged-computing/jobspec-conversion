@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-omelette-7351
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-chair-1006
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX -t=172800
+#FLUX --urgency=16
 
 CORES=32
 PROJ= /hpcfs/users/a1680844/20131906_HickeyT_JC_NormalBreast

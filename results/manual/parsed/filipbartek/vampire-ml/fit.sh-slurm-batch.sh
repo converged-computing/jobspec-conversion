@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chip-0138
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3128
+#SBATCH --time=10:00:00
 
 export MKL_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

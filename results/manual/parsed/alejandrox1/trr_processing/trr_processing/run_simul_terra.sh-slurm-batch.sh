@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bicycle-4518
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
 
 module load mpi/openmpi
 gmxdir=/home/alarcj/exe/gromacs-4.0.7_flatbottom/exec/bin

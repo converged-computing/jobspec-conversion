@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llama7
-#FLUX: -N=16
-#FLUX: -c=16
-#FLUX: --queue=kempner_project
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama7
+#SBATCH --account=kempner_lab
+#SBATCH --output=/n/holyscratch01/kempner_lab/Lab/logs/%j.log
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=0
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=kempner_project
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPICH_GPU_SUPPORT_ENABLED='1'

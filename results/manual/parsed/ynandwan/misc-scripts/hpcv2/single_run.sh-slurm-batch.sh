@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-bicycle-9923
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ynandwan/misc-scripts/hpcv2/single_run.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-poo-5690
-#FLUX: --queue=preemptable_q
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-nunchucks-7313
+#FLUX --queue=preemptable_q
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export qcSoft='/projects/nmayhall_lab/qchem5'
 export QCPATH='$qcSoft/qchem.librassf-bloch-dev/'

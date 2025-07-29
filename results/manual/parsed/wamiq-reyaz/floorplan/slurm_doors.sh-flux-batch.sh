@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doors
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=doors
+#FLUX -c=6
+#FLUX --queue=batch
+#FLUX -t=21600
+#FLUX --urgency=16
 
 conda activate faclab
 which conda

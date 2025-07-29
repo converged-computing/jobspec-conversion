@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=retr-flow
-#FLUX: -c=4
-#FLUX: --queue=gpu_titanrtx_short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=retr-flow
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --mem=75G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_titanrtx_short
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

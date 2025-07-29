@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BOHB
-#FLUX: --queue=shared,parallel,lrgmem
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=BOHB
+#FLUX --queue=shared,parallel,lrgmem
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SHARE_DIR='test_runs'
 

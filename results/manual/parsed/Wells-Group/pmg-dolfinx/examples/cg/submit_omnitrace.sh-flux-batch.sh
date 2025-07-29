@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=examplejob
-#FLUX: -N=2
+#FLUX --job-name=examplejob
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SPACK_DIR='/scratch/project_465000356/adrianj/spack'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=logu-%A_%a
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=logu-%A_%a
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WANDB_MODE='offline'
 

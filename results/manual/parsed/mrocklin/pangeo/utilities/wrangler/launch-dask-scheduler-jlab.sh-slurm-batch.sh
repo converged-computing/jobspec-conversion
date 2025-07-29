@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dask-scheduler
-#FLUX: -n=6
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-scheduler
+#SBATCH --output=scheduler.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
 
 export JUPYTER_RUNTIME_DIR='$WORK'
 

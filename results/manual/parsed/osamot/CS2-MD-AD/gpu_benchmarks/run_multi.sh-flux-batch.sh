@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarking
-#FLUX: -N=32
+#FLUX --job-name=benchmarking
+#FLUX -N=32
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tiger_snek
-#FLUX: -n=15
-#FLUX: --queue=core
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tiger_snek
+#FLUX -n=15
+#FLUX --queue=core
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load java/sun_jdk1.8.0_151
 source activate v3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-5925
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-butter-6871
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yunzc/multi_level_weighted_additive_spanners/compute_mlst_apprx_d.sh

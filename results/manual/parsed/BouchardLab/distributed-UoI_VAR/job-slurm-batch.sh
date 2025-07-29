@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=VAR_Test
-#FLUX: -n=16
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=VAR_Test
+#SBATCH --output=./test/1/stdout.log
+#SBATCH --error=./test/1/stderr.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
 
 module load gsl
 module load eigen3

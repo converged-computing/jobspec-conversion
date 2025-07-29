@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pedo-1022
-#FLUX: -N=2
-#FLUX: -n=49
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-blackbean-3649
+#FLUX -N=2
+#FLUX -n=49
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CP2K_DATA_DIR='/home/ongari/aiida-database/data/cp2k/data '
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-mango-3799
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pseudotensor/harm_harmgit/batches/batch.qsub.kraken.sashaa99t1.5708

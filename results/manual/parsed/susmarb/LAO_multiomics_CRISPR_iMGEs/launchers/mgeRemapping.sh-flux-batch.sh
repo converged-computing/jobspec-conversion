@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-2649
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-lemon-7639
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/susmarb/LAO_multiomics_CRISPR_iMGEs/launchers/mgeRemapping.sh

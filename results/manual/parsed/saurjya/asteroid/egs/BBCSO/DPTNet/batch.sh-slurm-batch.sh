@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-onion-8742
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=128000
+#SBATCH --time=3-08:00:00
+#SBATCH --qos=turing
 
 module purge
 module load baskerville

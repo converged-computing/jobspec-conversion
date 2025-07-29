@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pedo-3568
-#FLUX: --urgency=16
+#FLUX --job-name=arid-leg-8901
+#FLUX --urgency=16
 
 for seed in 1 2 3 4 5
 do

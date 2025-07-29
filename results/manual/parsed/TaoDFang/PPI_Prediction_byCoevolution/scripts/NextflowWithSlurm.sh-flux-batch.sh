@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NextflowWithSlurm
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=NextflowWithSlurm
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load anaconda3
 module load singularityce

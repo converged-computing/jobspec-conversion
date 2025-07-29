@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hope-7533
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 case=e2000_bn_cirrradbg_rhmini1to1.2_1.5xco2seed18_binprecip_2
 create_newcase -case $case -compset 'E_1850_CAM5' -res f19_g16 -mach omega # B_2000_CAM5, B_1850-2000_CAM5, B_RCP8.5_CAM5_CN

@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=coupled
-#FLUX: -N=21
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=coupled
+#SBATCH --account=m499
+#SBATCH --mail-user=perlmutter@jacobmerson.com
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=21
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 export OMP_PLACES='cores'

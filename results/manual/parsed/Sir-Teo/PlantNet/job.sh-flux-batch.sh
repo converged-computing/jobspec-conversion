@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-kerfuffle-6469
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-cinnamonbun-3724
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

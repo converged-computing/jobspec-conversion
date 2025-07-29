@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=imstats_ACES
-#FLUX: -n=32
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=imstats_ACES
+#FLUX -n=32
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export WORK_DIR='/blue/adamginsburg/adamginsburg/ACES/workdir'
 export IPYTHON='/orange/adamginsburg/miniconda3/envs/python39/bin/ipython'

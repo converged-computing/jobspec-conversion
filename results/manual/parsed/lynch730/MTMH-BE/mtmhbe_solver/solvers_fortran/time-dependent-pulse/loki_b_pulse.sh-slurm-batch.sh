@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NLK_sweep
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NLK_sweep
+#SBATCH --output=NLK_sweep.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=36
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/shared/hpc/matlab/$MATLAB_VER/bin/glnxa64:/shared/hpc/matlab/$MATLAB_VER/sys/os/glnxa64'
 export PATH='$PATH:/shared/hpc/matlab/$MATLAB_VER/extern/include'

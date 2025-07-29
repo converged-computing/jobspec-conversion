@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_supervised_resnet50_lineareval
-#FLUX: -c=8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=cifar_supervised_resnet50_lineareval
+#FLUX -c=8
+#FLUX -t=21600
+#FLUX --urgency=16
 
 i=0;
 for wd in 1e-2 5e-2 1e-4 5e-4 1e-3 5e-3;

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-caramel-1310
-#FLUX: --urgency=16
+#SBATCH --account=bbk00014
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

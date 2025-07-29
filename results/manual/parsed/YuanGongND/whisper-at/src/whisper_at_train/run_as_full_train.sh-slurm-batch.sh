@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=w-as-high
-#FLUX: -c=16
-#FLUX: --queue=a5
-#FLUX: --urgency=16
+#SBATCH --job-name=w-as-high
+#SBATCH --output=./log/%j_as.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48000
+#SBATCH --partition=a5
+#SBATCH --qos=regular
 
 export TORCH_HOME='../../pretrained_models'
 

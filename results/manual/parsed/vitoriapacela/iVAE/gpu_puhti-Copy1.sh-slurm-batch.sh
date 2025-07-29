@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=iVAE
+#SBATCH --account=Project_2002842
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=8000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load pytorch/1.4

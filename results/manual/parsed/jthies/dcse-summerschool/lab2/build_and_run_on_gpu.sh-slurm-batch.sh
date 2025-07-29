@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-soup-0305
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --account=research-eemcs-diam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpu
 
 source trilinos-env-gpu.sh
 cd build-gpu

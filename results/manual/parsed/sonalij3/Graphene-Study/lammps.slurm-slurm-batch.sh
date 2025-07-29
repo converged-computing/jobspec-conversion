@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=8024_C-1100K
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=8024_C-1100K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 echo
 echo "Begin job ..."

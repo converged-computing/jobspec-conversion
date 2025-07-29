@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-2421
-#FLUX: -c=48
-#FLUX: --urgency=16
+#FLUX --job-name=purple-destiny-7367
+#FLUX -c=48
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia/1.8.5

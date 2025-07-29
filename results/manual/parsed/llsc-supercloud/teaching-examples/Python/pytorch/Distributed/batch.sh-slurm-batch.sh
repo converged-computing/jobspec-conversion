@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch
+#SBATCH --output=%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:2
+#SBATCH --constraint=ntasks-per-node=2
 
 export MPI_FLAGS='--tag-output --bind-to socket -map-by core -x PSM2_GPUDIRECT=1 -x NCCL_NET_GDR_LEVEL=5 -x NCCL_P2P_LEVEL=5 -x NCCL_NET_GDR_READ=1'
 export MASTER_ADDR='$(hostname -s)'

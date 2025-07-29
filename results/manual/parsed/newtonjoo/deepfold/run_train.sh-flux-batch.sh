@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --urgency=16
 
 echo "train run"
 log=./logs/train_log

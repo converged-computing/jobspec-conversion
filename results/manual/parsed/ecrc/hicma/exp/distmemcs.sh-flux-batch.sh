@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hicma
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=hicma
+#FLUX -c=40
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 export STARPU_CALIBRATE='0'
 

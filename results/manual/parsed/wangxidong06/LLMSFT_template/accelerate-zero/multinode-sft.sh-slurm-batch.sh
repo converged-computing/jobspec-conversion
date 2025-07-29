@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-despacito-4959
-#FLUX: -N=12
-#FLUX: --urgency=16
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --qos=gpugpu
 
 export NCCL_ALGO='Ring'
 export NCCL_TOPO_FILE='/home/bingxing2/apps/nccl/conf/dump.xml'

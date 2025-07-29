@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-animal-6840
-#FLUX: --queue=medium
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=08:00:00
+#SBATCH --partition=medium
+#SBATCH --chdir=./
 
 StudyFolder=$1 #Location of Subject folders (named by subjectID)
 Subject=$2 #Space delimited list of subject IDs

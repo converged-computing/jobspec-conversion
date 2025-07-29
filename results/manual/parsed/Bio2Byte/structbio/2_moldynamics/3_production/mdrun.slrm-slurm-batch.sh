@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=npt_pme
-#FLUX: --queue=pascal_gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=npt_pme
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=pascal_gpu
 
 export OMP_PROC_BIND='TRUE'
 

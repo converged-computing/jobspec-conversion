@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-9739
-#FLUX: -n=32
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=fat-general-0204
+#FLUX -n=32
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

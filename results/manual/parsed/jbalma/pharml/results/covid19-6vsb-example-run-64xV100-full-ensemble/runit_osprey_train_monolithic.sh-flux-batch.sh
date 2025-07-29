@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -N=4
+#FLUX --job-name=resnet
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=spider
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=spider
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MLD_RDK_ENV_INSTALL_DIR='~/cuda90_env'
 export SCRATCH='/lus/scratch/jbalma'

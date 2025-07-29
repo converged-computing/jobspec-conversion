@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-8202
-#FLUX: -n=8
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-lentil-3332
+#FLUX -n=8
+#FLUX --queue=priority
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load conda2/4.2.13
 source activate snakemake

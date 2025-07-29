@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=würstchen
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=a100-cu117
-#FLUX: --urgency=16
+#SBATCH --job-name=würstchen
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=a100-cu117
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

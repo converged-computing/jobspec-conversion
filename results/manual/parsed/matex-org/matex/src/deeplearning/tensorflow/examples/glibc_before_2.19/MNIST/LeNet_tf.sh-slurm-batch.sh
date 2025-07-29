@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=LeNet.TF
-#FLUX: --urgency=16
+#SBATCH --job-name=LeNet.TF
+#SBATCH --output=LeNet.TF.out.%j
+#SBATCH --error=LeNet.TF.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 train_batch=256
 nodes=1

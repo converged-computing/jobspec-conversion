@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-toaster-1731
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-lemur-5662
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source $HOME/venvs/pf/bin/activate
 module load eSpeak-NG/1.51-GCC-11.3.0

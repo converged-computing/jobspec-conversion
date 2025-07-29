@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ucf101_mb
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ucf101_mb
+#SBATCH --output=logs/test_i3d.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=17GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 CUDA_VISIBLE_DEVICES="2,3" \
 python train_ucf101.py \

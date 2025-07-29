@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=enduro_SL
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=enduro_SL
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 echo "---------------------------"
 echo "Job started on" `date`

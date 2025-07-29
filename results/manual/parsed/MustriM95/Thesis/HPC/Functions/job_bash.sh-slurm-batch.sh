@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-3166
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MustriM95/Thesis/HPC/Functions/job_bash.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=YC-variants
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=YC-variants
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 import socket
 set +u

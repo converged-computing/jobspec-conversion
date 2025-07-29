@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-staircase-7347
-#FLUX: -N=4
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_titanrtx
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

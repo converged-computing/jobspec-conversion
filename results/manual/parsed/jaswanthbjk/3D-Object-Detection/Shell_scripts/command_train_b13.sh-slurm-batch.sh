@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=br4_FPointNet
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=br4_FPointNet
+#SBATCH --output=/home/jbandl2s/train.%j.out
+#SBATCH --error=/home/jbandl2s/train.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=32
 
 module load cuda
 source ~/anaconda3/bin/activate ~/anaconda3/envs/3DOD_Env

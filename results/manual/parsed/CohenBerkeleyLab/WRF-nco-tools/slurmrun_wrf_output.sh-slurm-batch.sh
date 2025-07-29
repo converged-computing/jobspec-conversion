@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=proc_wrf
-#FLUX: --queue=savio
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=proc_wrf
+#SBATCH --account=co_aiolos
+#SBATCH --mail-user=jlaughner@berkeley.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=savio
+#SBATCH --qos=aiolos_savio_normal
+#SBATCH --constraint=ntasks-per-node=4
 
 export WRFPROCMODE='$mode'
 export JLL_WRFSCRIPT_DIR='$scriptdir'

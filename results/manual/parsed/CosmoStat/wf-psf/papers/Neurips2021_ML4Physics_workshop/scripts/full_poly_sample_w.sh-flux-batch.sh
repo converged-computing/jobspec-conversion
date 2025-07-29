@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=poly_sample_w
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=poly_sample_w
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load tensorflow-gpu/py3/2.4.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-7551
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-milkshake-0898
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpbentley/sea_turtle_genomes/scripts/conservation_genomics/genetic_load/17_snpEff.sh

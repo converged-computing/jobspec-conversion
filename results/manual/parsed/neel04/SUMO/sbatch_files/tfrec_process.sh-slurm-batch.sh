@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BDD100K_preprocessing
-#FLUX: --queue=compute-od-gpu
-#FLUX: -t=356982
-#FLUX: --urgency=16
+#SBATCH --job-name=BDD100K_preprocessing
+#SBATCH --output=slurm-%j.out
+#SBATCH --mail-user=neelgupta04@outlook.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-03:09:42
+#SBATCH --partition=compute-od-gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export RAY_OBJECT_STORE_ALLOW_SLOW_STORAGE='0'
 export JOBLIB_TEMP_FOLDER='/tmp'

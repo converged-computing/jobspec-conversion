@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cat-8791
-#FLUX: -n=24
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-platanos-2817
+#FLUX -n=24
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='256m'
 

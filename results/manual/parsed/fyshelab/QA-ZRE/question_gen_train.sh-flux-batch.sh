@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_mml_pgg_off_fold_1
-#FLUX: -c=3
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=train_mml_pgg_off_fold_1
+#FLUX -c=3
+#FLUX -t=60
+#FLUX --urgency=16
 
 export NCCL_BLOCKING_WAIT='1  #Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'
 export MASTER_ADDR='$(hostname) #Store the master node’s IP address in the MASTER_ADDR environment variable.'

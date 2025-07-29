@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bike-9974
-#FLUX: -c=2
-#FLUX: --queue=tier3
-#FLUX: -t=7566
-#FLUX: --urgency=16
+#SBATCH --account=StaMp
+#SBATCH --output=./LogsTest/Ax_%A_%a.out
+#SBATCH --error=./LogsTest/Ax_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1024
+#SBATCH --time=02:06:06
+#SBATCH --partition=tier3
 
 folder=$1
 echo " * Submitting job array..."

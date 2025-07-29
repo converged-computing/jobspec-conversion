@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-earthworm-0359
-#FLUX: -N=8
-#FLUX: -n=32
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --account=w19_mcpgpu
+#SBATCH --output=out_%j
+#SBATCH --error=err_%j
+#SBATCH --mail-user=mc0710@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=8
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH --qos=standard
 
 export AF_PATH='/usr/projects/p18_ebhlight3d/arrayfire/arrayfire_install          '
 export PETSC_DIR='/usr/projects/p18_ebhlight3d/petsc_3.10.0_install               '

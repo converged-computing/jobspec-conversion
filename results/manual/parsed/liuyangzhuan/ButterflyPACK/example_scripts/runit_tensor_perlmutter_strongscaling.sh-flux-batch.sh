@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tensorbf
-#FLUX: -N=16
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tensorbf
+#FLUX -N=16
+#FLUX --queue=regular
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-lab
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter-lab
+#FLUX -c=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export DASK_DISTRIBUTED__DASHBOARD__LINK='proxy/{port}/status'
 

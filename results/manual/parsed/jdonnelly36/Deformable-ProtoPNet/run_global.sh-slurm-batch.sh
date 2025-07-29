@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=global_analysis
-#FLUX: -c=12
-#FLUX: --queue=dgx
-#FLUX: -t=87825
-#FLUX: --urgency=16
+#SBATCH --job-name=global_analysis
+#SBATCH --output=global_analysis_%j.out
+#SBATCH --mail-user=jonathan.donnelly@maine.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30gb
+#SBATCH --time=1-00:23:45
+#SBATCH --partition=dgx
 
 source /home/jdonnelly/protoPNet/bin/activate
 MODELDIR='saved_models/resnet50/datasets/CUB_200_2011/train/001/'

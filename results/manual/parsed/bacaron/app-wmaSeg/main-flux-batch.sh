@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peanut-butter-4937
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-underoos-1445
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bacaron/app-wmaSeg/main

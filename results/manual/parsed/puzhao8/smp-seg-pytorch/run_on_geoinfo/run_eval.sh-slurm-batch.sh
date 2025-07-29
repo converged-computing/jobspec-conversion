@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=/home/p/u/puzhao/smp-seg-pytorch/run_logs/%x-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=36GB
+#SBATCH --time=7-00:00:00
 
 echo "start"
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"

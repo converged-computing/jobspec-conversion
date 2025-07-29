@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mt-h96
-#FLUX: -n=4
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mt-h96
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=optuna-bisphere
-#FLUX: -N=2
-#FLUX: --queue=cpuonly
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=optuna-bisphere
+#FLUX -N=2
+#FLUX --queue=cpuonly
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export FNAME='bisphere'
 export FRAMEWORK='optuna'

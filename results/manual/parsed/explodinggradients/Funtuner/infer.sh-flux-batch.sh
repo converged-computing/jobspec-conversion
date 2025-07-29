@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RM
-#FLUX: -n=8
-#FLUX: --queue=gpu_v100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=RM
+#FLUX -n=8
+#FLUX --queue=gpu_v100
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/home/c.scmse/Funtuner'
 

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-9707
-#FLUX: --exclusive
-#FLUX: --queue=p100_dev_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=hpcbigdata2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=p100_dev_q
+#SBATCH: --exclusive
 
 DBFILE=$1
 QUERYFILE=$2

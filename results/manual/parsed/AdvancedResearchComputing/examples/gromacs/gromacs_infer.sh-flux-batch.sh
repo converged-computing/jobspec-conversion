@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-fudge-3749
-#FLUX: --queue=t4_dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=arid-spoon-4153
+#FLUX --queue=t4_dev_q
+#FLUX -t=300
+#FLUX --urgency=16
 
 module reset
 module load GROMACS/2020.4-fosscuda-2020b

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-egg-6641
-#FLUX: --queue=RM
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 export GMX_MAXCONSTRWARN='-1'

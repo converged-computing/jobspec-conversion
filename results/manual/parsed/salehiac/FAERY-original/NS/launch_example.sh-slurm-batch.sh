@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-butter-4749
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/salehiac/FAERY-original/NS/launch_example.sh

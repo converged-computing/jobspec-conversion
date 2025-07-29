@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-carrot-8768
-#FLUX: -c=36
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=180G
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-11
 
 export MDL_DAYS='30'
 export MDL_NNODES='107'

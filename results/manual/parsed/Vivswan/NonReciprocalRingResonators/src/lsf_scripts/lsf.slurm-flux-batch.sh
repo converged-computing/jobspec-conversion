@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=@name@
-#FLUX: -c=2
-#FLUX: --queue=smp
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=@name@
+#FLUX -c=2
+#FLUX --queue=smp
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source "${HOME}/.bashrc";
 module load intel intel-mpi lumerical;

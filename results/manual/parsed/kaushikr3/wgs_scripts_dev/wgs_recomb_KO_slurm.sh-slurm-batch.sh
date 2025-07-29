@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CT_pckA_KO
-#FLUX: -c=4
-#FLUX: --queue=panda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CT_pckA_KO
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=panda
 
 export PATH='${python_path}:${PATH}'
 

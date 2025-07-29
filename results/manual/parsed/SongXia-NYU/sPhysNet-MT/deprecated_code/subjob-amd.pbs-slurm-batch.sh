@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=AMD-DNN-embed
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=AMD-DNN-embed
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:mi50:1
+#SBATCH --mem=7GB
+#SBATCH --time=00:20:00
 
 module purge
 singularity exec --nv \

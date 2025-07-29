@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ray
-#FLUX: -n=16
-#FLUX: --queue=mcore
-#FLUX: --urgency=16
+#SBATCH --job-name=ray
+#SBATCH --output=../log/ray-%j.out
+#SBATCH --error=../log/ray-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=80000
+#SBATCH --partition=mcore
 
 module load ray
 PREFIX=$1

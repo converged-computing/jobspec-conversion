@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nmmaGRBtophat.job
-#FLUX: --queue=shared
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=nmmaGRBtophat.job
+#FLUX --queue=shared
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/thussenot/MultiNest/lib/:$LD_LIBRARY_PATH'
 

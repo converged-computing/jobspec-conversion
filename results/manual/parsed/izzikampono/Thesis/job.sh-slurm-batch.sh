@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=python_cpu
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=python_cpu
+#SBATCH --output=output.log
+#SBATCH --error=error_file_jobsh.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=00:10:00
 
 module purge
 module load Python/3.9.6-GCCcore-11.2.0

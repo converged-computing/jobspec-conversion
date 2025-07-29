@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sc10_plotDerv_levelplot_equi7_for_annex2.R.sh
-#FLUX: --queue=scavenge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sc10_plotDerv_levelplot_equi7_for_annex2.R.sh
+#FLUX --queue=scavenge
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load R/3.4.4-foss-2018a-X11-20180131  # new path 
 cd /gpfs/loomis/project/fas/sbsc/ga254/dataproces/NED_MERIT/

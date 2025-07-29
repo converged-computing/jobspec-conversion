@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=example_inputs/ARPA-E/6-31/fig1g
-#FLUX: -c=8
-#FLUX: --queue=haswell
-#FLUX: --urgency=16
+#FLUX --job-name=example_inputs/ARPA-E/6-31/fig1g
+#FLUX -c=8
+#FLUX --queue=haswell
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='8'
 export OMP_NUM_THREADS='8'

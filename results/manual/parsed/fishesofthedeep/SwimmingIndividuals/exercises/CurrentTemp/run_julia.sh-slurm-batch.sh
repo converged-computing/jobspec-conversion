@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SI_HC
-#FLUX: -c=8
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SI_HC
+#SBATCH --output=serial_job_%j.out
+#SBATCH --mail-user=matthew.woodstock@whoi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
 
 date
 module load julia                  # Load the julia module

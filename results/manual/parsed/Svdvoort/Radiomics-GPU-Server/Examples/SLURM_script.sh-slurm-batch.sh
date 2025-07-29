@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-soup-8651
-#FLUX: -n=6
-#FLUX: --queue=GPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/path/to/out/out_%j.log
+#SBATCH --error=/path/to/out/error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:Quadro:1
+#SBATCH --mem-per-cpu=14G
+#SBATCH --time=01:00:00
+#SBATCH --partition=GPU
 
 MY_TMP_DIR=/slurmtmp/${SLURM_JOB_USER}.${SLURM_JOB_ID}
 mv <path/to/your/data/> ${MY_TMP_DIR}

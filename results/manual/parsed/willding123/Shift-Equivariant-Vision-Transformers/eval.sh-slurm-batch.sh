@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=eval1
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=eval1
+#SBATCH --output=eval1.out
+#SBATCH --error=eval1.err
+#SBATCH --mail-user=pding@umd.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=a100:1
+#SBATCH --mem=40G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 module load cuda/11.6.2/
 source ~/scratch.cmsc663/miniconda3/bin/activate

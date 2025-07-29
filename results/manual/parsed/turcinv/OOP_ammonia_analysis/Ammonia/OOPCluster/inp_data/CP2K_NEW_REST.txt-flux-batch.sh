@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ch102
-#FLUX: -N=4
+#FLUX --job-name=ch102
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=cpu,scpu,bfill
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=cpu,scpu,bfill
+#FLUX -t=14400
+#FLUX --urgency=16
 
 input=cluster_hybrid.inp
 log=cluster_hybrid.log

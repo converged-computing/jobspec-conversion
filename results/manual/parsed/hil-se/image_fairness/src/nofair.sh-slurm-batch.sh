@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=image_fairness_nofair
-#FLUX: --queue=tier3
-#FLUX: -t=270303
-#FLUX: --urgency=16
+#SBATCH --job-name=image_fairness_nofair
+#SBATCH --account=loop
+#SBATCH --output=log/%J_%a.o
+#SBATCH --error=log/%J_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-03:05:03
+#SBATCH --partition=tier3
 
 spack unload -a
 spack load /lklqe3u

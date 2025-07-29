@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=red-signal-7228
-#FLUX: -N=5
-#FLUX: --queue=cee,owners
-#FLUX: --urgency=16
+#SBATCH --output=
+#SBATCH --error=
+#SBATCH --mail-user=galvisf@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --partition=cee,owners
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=16
 
 module load openmpi
 module load scalapack

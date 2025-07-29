@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-avocado-1531
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --array=1-5
 
 export TORCH_HOME='$project'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lizard-1010
-#FLUX: -c=31
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --output=ddf_%j.out
+#SBATCH --error=ddf_%j.err
+#SBATCH --mail-user=jurjendejong@strw.leidenuniv.nl
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=31
+#SBATCH --partition=normal
+#SBATCH --exclude=wn-ca-10,wn-hb-01
 
 TARGET_FOLDER=$(realpath $1)
 OUTPUT=$PWD/ddf

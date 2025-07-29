@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=clvisc
-#FLUX: -n=4
-#FLUX: --queue=lcsc
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=clvisc
+#SBATCH --output=log/%a_%j.out
+#SBATCH --error=log/%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=4096
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=lcsc
+#SBATCH --constraint=hawaii
+#SBATCH --chdir=/lustre/nyx/hyihp/lpang/PyVisc/bin/
 
 export PATH='/lustre/nyx/hyihp/lpang/anaconda/bin:$PATH'
 export PYTHONPATH='/lustre/nyx/hyihp/lpang/anaconda/lib/python/:$PYTHONPATH'

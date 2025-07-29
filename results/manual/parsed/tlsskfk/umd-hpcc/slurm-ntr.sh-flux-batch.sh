@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cat-7524
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-staircase-6112
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export HOME='/scratch/zt1/project/jpurcel8-prj/shared'
 export SOFTWARE_DIR='$HOME/fmriprep/software'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bicycle-0488
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-lizard-0570
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rishabv90/GPU-programming/HistogramGeneration/Assignment4/run_hw4_ocelote.pbs

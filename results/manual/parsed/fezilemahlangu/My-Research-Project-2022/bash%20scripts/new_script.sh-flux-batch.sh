@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gym
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=gym
+#FLUX --queue=batch
+#FLUX -t=36000
+#FLUX --urgency=16
 
 echo "---------------------------"
 echo "Job started on" `date`

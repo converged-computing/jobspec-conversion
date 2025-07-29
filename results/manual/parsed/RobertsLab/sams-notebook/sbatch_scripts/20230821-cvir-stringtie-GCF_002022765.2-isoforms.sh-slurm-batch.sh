@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20230821-cvir-stringtie-GCF_002022765.2-isoforms
-#FLUX: --queue=srlab
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#SBATCH --job-name=20230821-cvir-stringtie-GCF_002022765.2-isoforms
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=3-12:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230821-cvir-stringtie-GCF_002022765.2-isoforms
 
 threads=28
 genome_index_name="cvir_GCF_002022765.2"

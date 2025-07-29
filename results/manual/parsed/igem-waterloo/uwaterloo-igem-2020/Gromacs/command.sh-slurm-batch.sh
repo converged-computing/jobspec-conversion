@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-animal-8512
-#FLUX: -n=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-bingalls
+#SBATCH --mail-user=mrastwoo@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=1-00:00:00
 
 module load  gcc/7.3.0 openmpi/3.1.2 gromacs/2020.2
 gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -n index.ndx -o md_0_10.tpr

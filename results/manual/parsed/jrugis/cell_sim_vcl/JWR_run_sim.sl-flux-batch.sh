@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cell_sim_vcl
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=cell_sim_vcl
+#FLUX -t=900
+#FLUX --urgency=16
 
 echo $HOSTNAME
 module load intel/2015a

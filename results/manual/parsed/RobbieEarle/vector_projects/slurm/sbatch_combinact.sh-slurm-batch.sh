@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=wrn50_cf100_2
-#FLUX: -c=6
-#FLUX: --queue=p100,t4v1,t4v2
-#FLUX: -t=2520000
-#FLUX: --urgency=16
+#SBATCH --job-name=wrn50_cf100_2
+#SBATCH --output=logs_new/wrn50_cf100_2/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=29-04:00:00
+#SBATCH --partition=p100,t4v1,t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0-10%11
 
               # %x=job-name, %A=job ID, %a=array task id, %n=node rank, %t=task rank, %N=hostname
               # Note: You must manually create output directory "logs" before launching job.

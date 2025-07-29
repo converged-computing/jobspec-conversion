@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_faceswap
-#FLUX: --queue=gtx1080
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_faceswap
+#SBATCH --output=run_faceswap-id-%J.out
+#SBATCH --mail-user=chenmis@post.bgu.ac.il
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=07:00:00
+#SBATCH --partition=gtx1080
 
 echo "SLURM_JOBID"=$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

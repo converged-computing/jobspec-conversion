@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-eagle-6110
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=frarzani@physik.fu-berlin.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=15000
+#SBATCH --time=1-00:00:00
+#SBATCH --chdir=/home/frarzani/pqc-symmetry
+#SBATCH --array=0-87
 
 export MPLCONFIGDIR='../mpl'
 

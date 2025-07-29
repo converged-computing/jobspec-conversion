@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prod
-#FLUX: --urgency=16
+#SBATCH --job-name=prod
+#SBATCH --output=../slurm_logs/prod_%A_%a.out
+#SBATCH --error=../slurm_logs/prod_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 module load cuda/11.6
 module load gromacs/22.2

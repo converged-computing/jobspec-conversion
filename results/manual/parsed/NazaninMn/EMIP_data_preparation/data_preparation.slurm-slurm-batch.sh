@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemon-5713
-#FLUX: -c=7
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=gutintelligencelab
+#SBATCH --output=test_.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=150gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load apptainer

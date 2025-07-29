@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=16
-#FLUX: --queue=normal,mygroup
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep
+#FLUX -c=16
+#FLUX --queue=normal,mygroup
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$HOME/.freesurfer.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

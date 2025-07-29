@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sac_dylam_agent
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=sac_dylam_agent
+#SBATCH --output=sac_dylam_agent.log
+#SBATCH --mail-user=mgm4@cin.ufpe.br
+#SBATCH --mail-type=FAIL,END,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=1
+#SBATCH --mem=24G
+#SBATCH --partition=short
 
 module load Python3.10 Xvfb freeglut glew MuJoCo
 source $HOME/.pyvenvs/rl/bin/activate

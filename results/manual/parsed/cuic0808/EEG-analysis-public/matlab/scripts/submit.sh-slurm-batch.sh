@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wavelet
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=wavelet
+#SBATCH --account=p31274
+#SBATCH --output=/home/yyr4332/logs/%A.log
+#SBATCH --mail-user=yyu@u.northwestern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=05:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge all
 module load matlab/r2020b

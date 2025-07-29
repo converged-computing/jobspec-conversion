@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-parsnip-4622
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.err
+#SBATCH --error=%x-%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=128GB
+#SBATCH --constraint=ntasks-per-node=2
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

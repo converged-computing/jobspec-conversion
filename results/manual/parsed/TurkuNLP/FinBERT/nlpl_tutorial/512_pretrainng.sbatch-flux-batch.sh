@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=512_pretraining
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=512_pretraining
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export BERT_DIR='/path/to/git_clone/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'

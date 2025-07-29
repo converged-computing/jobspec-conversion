@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sharegpt-base-filtered
-#FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#SBATCH --job-name=sharegpt-base-filtered
+#SBATCH --output=/fsx/user02/logs/%x-%j.out
+#SBATCH --error=/fsx/user02/logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_HUB_ENABLE_HF_TRANSFER='1'
 export ACCELERATE_LOG_LEVEL='info'

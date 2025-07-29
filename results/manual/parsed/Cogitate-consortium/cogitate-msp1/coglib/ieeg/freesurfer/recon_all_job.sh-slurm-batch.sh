@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=recon_all
-#FLUX: --queue=octopus
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=recon_all
+#SBATCH --output=/mnt/beegfs/XNAT/COGITATE/ECoG/phase_2/processed/bids/derivatives/fs/recon_all-%A_%a.out
+#SBATCH --mail-user=alex.lepauvre@ae.mpg.de
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=octopus
 
 export SUBJECTS_DIR='$FREESURFER_PATH'
 

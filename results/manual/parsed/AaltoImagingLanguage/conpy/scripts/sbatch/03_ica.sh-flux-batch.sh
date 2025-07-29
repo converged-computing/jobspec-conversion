@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-avocado-2319
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-peanut-8486
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DISPLAY=':99.0'

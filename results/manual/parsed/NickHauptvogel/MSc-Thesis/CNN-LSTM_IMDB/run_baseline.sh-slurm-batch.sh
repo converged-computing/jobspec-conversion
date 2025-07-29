@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-despacito-1736
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titanx:1
+#SBATCH --time=00:20:00
+#SBATCH --array=1-10
 
 folder="CNN-LSTM_IMDB/"
 out_folder="results/sse"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-animal-8326
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-bike-5539
+#FLUX -c=16
+#FLUX --queue=a40
+#FLUX -t=345600
+#FLUX --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m deep-learning-base.supervised_training \
 --dataset imagenet \

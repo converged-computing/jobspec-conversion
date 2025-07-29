@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BUSCO
-#FLUX: -c=4
-#FLUX: --queue=small,amdsmall
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=BUSCO
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=62gb
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=small,amdsmall
 
 module load python/2
 src=/home/research/genome/assemblies_configs/

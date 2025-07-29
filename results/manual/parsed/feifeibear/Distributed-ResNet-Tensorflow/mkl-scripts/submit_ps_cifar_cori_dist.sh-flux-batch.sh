@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_horovod
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=cifar_horovod
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export KMP_BLOCKTIME='1'
 export KMP_SETTINGS='1'

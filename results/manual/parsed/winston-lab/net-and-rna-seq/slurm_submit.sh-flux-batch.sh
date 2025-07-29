@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NET_RNAseq-snakemake
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=NET_RNAseq-snakemake
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

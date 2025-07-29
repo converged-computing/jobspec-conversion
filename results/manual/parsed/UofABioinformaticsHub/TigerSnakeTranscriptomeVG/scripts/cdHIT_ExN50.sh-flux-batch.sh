@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-4343
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=arid-egg-3626
+#FLUX -n=8
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 TRINITYDIR=/apps/software/Trinity/2.5.1-foss-2016b/trinityrnaseq-Trinity-v2.5.1/util/misc
 MATRIXDIR=/home/a1671704/fastdir/Data_TigerSnake/3_transcriptomeAssembly/cdHITandDeNovo/downstreamAnalysis

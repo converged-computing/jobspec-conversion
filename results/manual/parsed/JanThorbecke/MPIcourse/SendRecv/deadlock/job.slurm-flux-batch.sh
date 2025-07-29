@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=deadlock
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=deadlock
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=compute
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMPI_MCA_btl_self_rndv_eager_limit='256'
 export OMPI_MCA_btl_self_eager_limit='256'

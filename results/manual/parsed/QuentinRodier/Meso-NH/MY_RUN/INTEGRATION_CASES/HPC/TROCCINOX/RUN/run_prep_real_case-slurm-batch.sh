@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_troc
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_troc
+#SBATCH --output=prep_troc.eo%j
+#SBATCH --error=prep_troc.eo%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export MPIRUN='Mpirun -np 64'
 

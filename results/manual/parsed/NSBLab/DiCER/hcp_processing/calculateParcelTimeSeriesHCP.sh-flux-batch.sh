@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hcpParcelTS
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hcpParcelTS
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export subject='$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${SUBJECT_LIST})'
 

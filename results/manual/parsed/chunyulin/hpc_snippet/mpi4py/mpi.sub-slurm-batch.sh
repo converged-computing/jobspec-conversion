@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py
-#FLUX: --queue=ctest
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi4py
+#SBATCH --account=GOV109092
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=ctest
+#SBATCH --constraint=ntasks-per-node=4
 
 export UCX_LOG_LEVEL='error'
 

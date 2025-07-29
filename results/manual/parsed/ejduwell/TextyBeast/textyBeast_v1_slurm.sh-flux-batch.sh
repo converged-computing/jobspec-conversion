@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dtaScrape
-#FLUX: --queue=gpu
-#FLUX: -t=5100
-#FLUX: --urgency=16
+#FLUX --job-name=dtaScrape
+#FLUX --queue=gpu
+#FLUX -t=5100
+#FLUX --urgency=16
 
 echo "Starting at $(date)"
 echo ""

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pool2d_TVMquick
-#FLUX: -c=6
-#FLUX: --queue=alpha
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pool2d_TVMquick
+#SBATCH --output=template_runner_pool2d_%j.log
+#SBATCH --mail-user=s0144002@msx.tu-dresden.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=11000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=alpha
 
 export TVM_HOME='/home/s0144002/tvm_alpha_power'
 export PYTHONPATH='$TVM_HOME/python:${PYTHONPATH}'

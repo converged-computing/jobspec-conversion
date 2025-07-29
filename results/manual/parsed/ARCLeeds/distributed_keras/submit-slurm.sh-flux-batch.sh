@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-buttface-9030
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=arid-signal-4486
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load cuda
 module load Anaconda3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=UCI_Datarun
-#FLUX: --queue=shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=UCI_Datarun
+#FLUX --queue=shared
+#FLUX -t=21600
+#FLUX --urgency=16
 
 if [[ "$USER" == "jpatsol1@jhu.edu" ]]; then
 	export NCORES=$SLURM_NTASKS

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-eagle-4875
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --output=32nodes-lstm-topkDSA-density2.txt
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=12
+#SBATCH --time=01:30:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 conda activate py38_oktopk

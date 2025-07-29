@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-destiny-8477
-#FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dev
+#SBATCH: --exclusive
+#SBATCH --constraint=m5a4xlarge
 
 spack install \
   --no-check-signature \

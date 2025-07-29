@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-earthworm-6326
-#FLUX: -n=28
-#FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=*FIXME*
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH: --exclusive
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-general-1052
-#FLUX: --queue=gpu
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-spoon-7683
+#FLUX --queue=gpu
+#FLUX -t=4500
+#FLUX --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export BG_FILES='data/eacl/en/train.tsv data/eacl/fi/train.tsv data/eacl/sv/train.tsv'

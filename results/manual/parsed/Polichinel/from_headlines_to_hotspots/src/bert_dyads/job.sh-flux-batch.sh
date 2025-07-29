@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lemur-1274
-#FLUX: --queue=alvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=salted-underoos-5986
+#FLUX --queue=alvis
+#FLUX -t=18000
+#FLUX --urgency=16
 
 input_file=$1  # opting to also take the file as an input argument
 eval `head -n $SLURM_ARRAY_TASK_ID $input_file | tail -1`

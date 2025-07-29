@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-squidward-6079
-#FLUX: -N=14
-#FLUX: --queue=bdwall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-onion-1170
+#FLUX -N=14
+#FLUX --queue=bdwall
+#FLUX -t=3600
+#FLUX --urgency=16
 
 singularityImage="../fpadsim-v1.4.img"
 files=$(find input -iname "*.promc")

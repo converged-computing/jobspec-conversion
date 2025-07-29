@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=score_radio_g001_2
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=score_radio_g001_2
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$WORK/GitHub/score'
 

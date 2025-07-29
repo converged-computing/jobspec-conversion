@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-rabbit-2677
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --output=logs/scan_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=11:59:00
+#SBATCH --array=1-1260
 
 export MCR_CACHE_ROOT='/tmp/$SLURM_JOB_ID'
 

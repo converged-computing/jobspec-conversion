@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_Osu_bw_job
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: --queue=cclake
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_Osu_bw_job
+#SBATCH --account=support-cpu
+#SBATCH --output=rfm_Osu_bw_job.out
+#SBATCH --error=rfm_Osu_bw_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=cclake
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=cpu-p-[1-280,337-672]
 
 export SLURM_MPI_TYPE='pmix_v3'
 export UCX_NET_DEVICES='mlx5_1:1'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=det_training
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=det_training
+#SBATCH --account=abhinav
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:p6000:2
+#SBATCH --mem=64gb
+#SBATCH --time=01:00:00
+#SBATCH --qos=medium
+#SBATCH --array=0-1
+#SBATCH --exclude=vulcan24
 
 ​
 ​

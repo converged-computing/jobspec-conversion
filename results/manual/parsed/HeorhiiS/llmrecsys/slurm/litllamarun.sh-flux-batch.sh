@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-punk-0923
-#FLUX: -c=40
-#FLUX: --queue=nvidia
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#FLUX --job-name=fat-diablo-8461
+#FLUX -c=40
+#FLUX --queue=nvidia
+#FLUX -t=19800
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

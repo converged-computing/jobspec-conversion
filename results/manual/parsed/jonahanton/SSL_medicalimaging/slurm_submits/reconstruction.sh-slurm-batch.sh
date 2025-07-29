@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-underoos-9615
-#FLUX: --urgency=16
+#SBATCH --output=/vol/bitbucket/g21mscprj03/SSL/out/reconstruction/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'
 

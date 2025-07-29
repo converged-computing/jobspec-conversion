@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-onion-1996
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-pastry-9558
+#FLUX -t=3600
+#FLUX --urgency=16
 
 mkdir -p bemchmark_results
 module load module load nvidia_sdk/nvhpc/23.5

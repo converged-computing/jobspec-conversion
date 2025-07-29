@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-motorcycle-4654
-#FLUX: --queue=gputest
-#FLUX: -t=420
-#FLUX: --urgency=16
+#FLUX --job-name=milky-avocado-5002
+#FLUX --queue=gputest
+#FLUX -t=420
+#FLUX --urgency=16
 
 mkdir -p logs
 echo "START: $(date)"

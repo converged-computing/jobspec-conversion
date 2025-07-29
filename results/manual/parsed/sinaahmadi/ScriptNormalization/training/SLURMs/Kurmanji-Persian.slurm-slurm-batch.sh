@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Kurmanji-Persian
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=Kurmanji-Persian
+#SBATCH --output=/scratch/sahmad46/training/Kurmanji-Persian-%a-%j.txt
+#SBATCH --mail-user=sahmad46@gmu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100.80gb:1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1,20,40,60,80,100
 
 ml gnu10; ml cuda; ml cudnn; ml nvidia-hpc-sdk; ml python;
 echo "Start process"

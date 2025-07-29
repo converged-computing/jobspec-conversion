@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tart-salad-5837
-#FLUX: --queue=standard
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=/scratch/js4yd/Baisman30mDREAMzs/RHESSysDREAM-A.out
+#SBATCH --mail-user=js4yd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=40
+#SBATCH --chdir=/scratch/js4yd/Baisman30mDREAMzs/
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3 singularity python/3.6.6

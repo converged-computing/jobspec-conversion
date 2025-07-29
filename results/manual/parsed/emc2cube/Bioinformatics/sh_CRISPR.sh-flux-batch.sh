@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lamp-3019
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-onion-9661
+#FLUX --urgency=16
 
 threads=$(nproc --all --ignore=1)
 mem="128"

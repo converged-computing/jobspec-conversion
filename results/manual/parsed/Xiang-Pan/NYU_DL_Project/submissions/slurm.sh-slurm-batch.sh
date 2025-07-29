@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=milky-noodle-2346
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=csci_ga_2572_2022sp_04
+#SBATCH --output=demo_%j.out
+#SBATCH --error=demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=n1s8-v100-1
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo_case
-#FLUX: -N=184
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=demo_case
+#FLUX -N=184
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -e
 cmd() {

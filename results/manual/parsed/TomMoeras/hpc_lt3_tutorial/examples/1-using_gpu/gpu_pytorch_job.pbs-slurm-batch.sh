@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poodle-2613
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/TomMoeras/hpc_lt3_tutorial/examples/1-using_gpu/gpu_pytorch_job.pbs

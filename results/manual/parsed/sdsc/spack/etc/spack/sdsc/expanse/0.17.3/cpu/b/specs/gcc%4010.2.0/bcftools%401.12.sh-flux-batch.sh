@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bcftools@1.12
-#FLUX: -c=16
-#FLUX: --queue=ind-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bcftools@1.12
+#FLUX -c=16
+#FLUX --queue=ind-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

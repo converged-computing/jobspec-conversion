@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bike-9666
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/coreyjadams/NEXT_SparseEventID/infer_yolo.sh

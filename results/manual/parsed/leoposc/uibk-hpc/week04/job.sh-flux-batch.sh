@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=96
+#FLUX --job-name=test
+#FLUX -n=96
 #FLUX: --exclusive
-#FLUX: --queue=lva
-#FLUX: --urgency=16
+#FLUX --queue=lva
+#FLUX --urgency=16
 
 ns=(768)
 rs=(96)

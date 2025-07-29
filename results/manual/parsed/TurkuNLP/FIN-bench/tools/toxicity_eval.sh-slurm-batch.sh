@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=run_eval
-#FLUX: -c=60
-#FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_eval
+#SBATCH --account=project_462000119
+#SBATCH --output=logs/toxicity-eval-%x-%j.out
+#SBATCH --error=logs/toxicity-eval-%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=20G
+#SBATCH --time=02:30:00
+#SBATCH --partition=small-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='hsn'
 export CACHE_DIR='/scratch/project_462000185/risto/huggingface-t5-checkpoints/cache_dir/'

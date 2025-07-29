@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=placid-squidward-1331
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=def-jemerson
+#SBATCH --output=/project/def-jemerson/chbank/16_07_2020_18_01_42/results/ouptut_%j.o
+#SBATCH --error=/project/def-jemerson/chbank/16_07_2020_18_01_42/results/errors_%j.o
+#SBATCH --mail-user=pavithran.sridhar@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --array=0-1:1
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/pavi/chflow

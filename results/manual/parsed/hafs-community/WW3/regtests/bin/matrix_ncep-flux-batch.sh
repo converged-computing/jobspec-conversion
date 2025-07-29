@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-general-9111
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-puppy-6121
+#FLUX --urgency=16
 
   source $(dirname $0)/../../model/bin/w3_setenv
   main_dir=$WWATCH3_DIR

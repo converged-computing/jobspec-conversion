@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=.slurm/%x-%j.out
+#SBATCH --error=.slurm/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=all
+#SBATCH --qos=wimi-compute
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=spgpu2
 
 pc=sppc1
 if [ "$pc" = sppc1 ]; then

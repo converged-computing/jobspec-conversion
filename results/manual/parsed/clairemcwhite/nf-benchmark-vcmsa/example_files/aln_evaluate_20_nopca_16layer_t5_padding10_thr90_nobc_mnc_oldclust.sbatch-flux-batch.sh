@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=aln_eval
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=aln_eval
+#FLUX -c=8
+#FLUX -t=300
+#FLUX --urgency=16
 
 export SINGULARITYENV_CUDA_VISIBLE_DEVICES='$CUDA_VISIBLE_DEVICES'
 

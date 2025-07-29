@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nalgas-7701
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/huangc/WGvarINDEL/x2-WGindel

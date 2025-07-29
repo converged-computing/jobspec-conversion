@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=synimport
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=synimport
+#SBATCH --output=./results/synimport.%j.o
+#SBATCH --mail-user=ivan.g.raikov@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=32,haswell
+#SBATCH --licenses=SCRATCH
 
 module swap PrgEnv-intel PrgEnv-gnu
 module unload darshan

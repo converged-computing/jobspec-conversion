@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preseq
-#FLUX: -c=6
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=preseq
+#FLUX -c=6
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 module purge
 module load preseq/3.2.0

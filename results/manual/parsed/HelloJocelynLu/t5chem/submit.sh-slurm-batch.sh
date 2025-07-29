@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bicycle-2044
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=12:00:00
 
 module purge
 script=$1

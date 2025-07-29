@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kerfuffle-0919
-#FLUX: -c=60
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=phat-peas-5975
+#FLUX -c=60
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 PEPs=( ExternalData/TAIR10/TAIR10.proteins.fa NobtDNA/NIOBT_r1.0.proteins.fa SlycDNA/Slyc.proteins.fa)

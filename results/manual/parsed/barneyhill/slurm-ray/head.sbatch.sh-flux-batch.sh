@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=head
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=head
+#FLUX --queue=short
+#FLUX --urgency=16
 
 source /users/lindgren/hjo721/job-scripts/conda.sh aminosgym
 echo "this machine has $(nproc) cpus"

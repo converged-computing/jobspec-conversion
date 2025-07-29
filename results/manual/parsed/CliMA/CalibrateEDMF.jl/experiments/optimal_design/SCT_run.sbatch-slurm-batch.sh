@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hadgem
-#FLUX: -n=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hadgem
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6G
+#SBATCH --time=02:00:00
 
 module load julia/1.10.1
 julia --project -e 'using Pkg; Pkg.instantiate(); Pkg.API.precompile()'

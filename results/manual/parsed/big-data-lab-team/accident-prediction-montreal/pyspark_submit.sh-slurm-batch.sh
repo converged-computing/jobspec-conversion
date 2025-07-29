@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-4075
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=24
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=def-glatard
+#SBATCH --mail-user=hantoine02@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=24
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYSPARK_PYTHON='/home/tguedon/acc_env/bin/python'
 export PYTHONPATH='${PYTHONPATH}:${PWD}'

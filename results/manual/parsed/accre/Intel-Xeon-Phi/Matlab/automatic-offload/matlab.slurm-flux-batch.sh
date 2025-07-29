@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-animal-3038
-#FLUX: --queue=mic
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-animal-5938
+#FLUX --queue=mic
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export BLAS_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'
 export LAPACK_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'

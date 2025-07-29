@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=03-ont-wf-human-variation-calling
-#FLUX: -c=24
-#FLUX: --queue=prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=03-ont-wf-human-variation-calling
+#SBATCH --output=./logs/slurm-%j-%x.out
+#SBATCH --mail-user=leah.kemp@esr.cri.nz
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=130G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=prod
 
 SAMPLE="OM1052A"
 WKDIR="/NGS/humangenomics/active/2022/run/ont_human_workflow/"

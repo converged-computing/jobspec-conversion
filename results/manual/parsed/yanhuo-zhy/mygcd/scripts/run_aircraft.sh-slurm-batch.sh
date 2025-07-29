@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pastry-2782
-#FLUX: -c=5
-#FLUX: --queue=general
-#FLUX: -t=75000
-#FLUX: --urgency=16
+#SBATCH --output=/home/pszzz/hyzheng/mygcd/slurm_output/run_aircraft_baseline_seed0.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=20:50:00
+#SBATCH --partition=general
+#SBATCH --qos=normal
 
 module load gcc/gcc-10.2.0
 module load nvidia/cuda-10.0 nvidia/cudnn-v7.6.5.32-forcuda10.0

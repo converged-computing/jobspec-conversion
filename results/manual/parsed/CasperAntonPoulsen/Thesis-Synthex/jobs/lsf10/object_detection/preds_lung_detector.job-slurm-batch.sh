@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-8121
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/object_detection/preds_lung_detector.job

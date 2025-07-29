@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run-function
-#FLUX: -c=8
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=run-function
+#SBATCH --account=thermaltext
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=dgx_normal_q
+#SBATCH --constraint=ntasks-per-node=1
 
 module load Python/3.11.3-GCCcore-12.3.0
 python3 --version

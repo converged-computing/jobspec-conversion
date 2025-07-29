@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-underoos-8690
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-diablo-2145
+#FLUX --urgency=16
 

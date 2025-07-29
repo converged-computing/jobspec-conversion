@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-despacito-2262
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --output=np-8-2048.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
+#SBATCH --nodelist=node-01,node-02,node-03,node-04,node-05,node-06,node-07,node-08
 
 mpirun --mca btl_tcp_if_exclude docker0,lo -np 8 jacobi-np8-2048 -- 2048 10000

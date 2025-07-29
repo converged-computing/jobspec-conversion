@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=0318
-#FLUX: -n=8
-#FLUX: --queue=bme_gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=0318
+#SBATCH --output=/hpc/data/home/bme/zhangzb1/Kaggle/HAT/slurm/0318.out
+#SBATCH --error=/hpc/data/home/bme/zhangzb1/Kaggle/HAT/slurm/0318.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:NVIDIAA10080GBPCIe:1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=bme_gpu
 
 source ~/.bashrc
 cd /hpc/data/home/bme/zhangzb1/Kaggle/HAT/hat

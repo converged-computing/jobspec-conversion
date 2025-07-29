@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=benzophenone-xlinker
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=benzophenone-xlinker
+#FLUX --queue=shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 prefix=benzophenone-xlinker
 rtemp=298

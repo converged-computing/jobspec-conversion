@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wind_downscaling
-#FLUX: --queue=nodes123
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=wind_downscaling
+#FLUX --queue=nodes123
+#FLUX -t=43200
+#FLUX --urgency=16
 
 HOME_DIR="/home/mrmn/letoumelinl/train"
 DATA_DIR="/scratch/mrmn/letoumelinl/ARPS"

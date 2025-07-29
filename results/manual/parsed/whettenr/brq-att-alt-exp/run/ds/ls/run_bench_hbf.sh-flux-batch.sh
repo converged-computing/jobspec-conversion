@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ls_hbf
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ls_hbf
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load pytorch-gpu/py3/2.1.1
 conda activate aa

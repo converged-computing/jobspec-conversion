@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=R
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: --urgency=16
+#SBATCH --job-name=R
+#SBATCH --output=array_%A_%a.out
+#SBATCH --error=array_%A_%a.err
+#SBATCH --mail-user=***
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --partition=a100
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=543-543%1
 
 export PATH='$PATH:~/HFS/code/'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_direct_finetuning
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=test_direct_finetuning
+#FLUX --queue=nodes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo $(pwd)
 nvidia-smi

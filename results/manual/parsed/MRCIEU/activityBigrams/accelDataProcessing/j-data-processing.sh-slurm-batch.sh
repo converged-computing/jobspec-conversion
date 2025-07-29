@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-5935
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MRCIEU/activityBigrams/accelDataProcessing/j-data-processing.sh

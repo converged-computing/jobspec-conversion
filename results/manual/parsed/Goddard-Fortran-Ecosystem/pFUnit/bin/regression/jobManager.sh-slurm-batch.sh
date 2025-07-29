@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pFUnit
-#FLUX: -n=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=pFUnit
+#SBATCH --account=k3002
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 OK=0
 ERR=1

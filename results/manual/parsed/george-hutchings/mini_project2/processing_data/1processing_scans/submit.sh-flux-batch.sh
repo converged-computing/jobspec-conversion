@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GHpscan
-#FLUX: --queue=gpu-large
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=GHpscan
+#FLUX --queue=gpu-large
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge   # libraries used
 module load TensorFlow/2.0.0-fosscuda-2019b-Python-3.7.4

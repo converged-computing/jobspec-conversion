@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarks
-#FLUX: -n=16
+#FLUX --job-name=benchmarks
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=general
+#FLUX -t=14400
+#FLUX --urgency=16
 
 spack load openmpi/nb2qima72b5usivgbcdbkwn5ivmcwlxk
 mpirun -n 1 all_to_all 0

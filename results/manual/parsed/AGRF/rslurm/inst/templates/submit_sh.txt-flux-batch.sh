@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name={{{jobname}}}
-#FLUX: --urgency=16
+#FLUX --job-name={{{jobname}}}
+#FLUX --urgency=16
 
 export SINGULARITYENV_SLURM_ARRAY_TASK_ID='${SLURM_ARRAY_TASK_ID}'
 

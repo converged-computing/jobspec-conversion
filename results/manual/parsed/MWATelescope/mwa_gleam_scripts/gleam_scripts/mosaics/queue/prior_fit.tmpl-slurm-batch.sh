@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leg-5917
-#FLUX: --queue=gpuq
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=mwasci
+#SBATCH --output=/home/phancock/queue/prior_fit_WEEK.sh.o%A_%a
+#SBATCH --error=/home/phancock/queue/prior_fit_WEEK.sh.e%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32gb
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpuq
+#SBATCH --array=1-20
 
 export PATH='/group/mwaops/phancock/code/Aegean:$PATH'
 export PYTHONPATH='/group/mwaops/phancock/code/Aegean:$PYTHONPATH'

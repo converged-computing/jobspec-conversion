@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-salad-3985
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-fudge-9261
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export MODULEPATH='/mnt/home/gkrawezik/modules/rocky8:$MODULEPATH'
 

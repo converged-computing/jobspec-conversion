@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-eagle-9715
-#FLUX: -N=2
-#FLUX: --queue=gpumedium
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-plant-8592
+#FLUX -N=2
+#FLUX --queue=gpumedium
+#FLUX -t=900
+#FLUX --urgency=16
 
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'
 

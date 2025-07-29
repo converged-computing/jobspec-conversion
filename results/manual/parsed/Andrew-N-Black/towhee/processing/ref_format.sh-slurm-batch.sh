@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ref_format_ncbi
-#FLUX: -n=64
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#SBATCH --job-name=ref_format_ncbi
+#SBATCH --account=fnrchook
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12-00:00:00
 
 export PATH='$PATH:~/genmap-build/bin'
 

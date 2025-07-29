@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=8
-#FLUX: --queue=aquila
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --output=%x%A.out
+#SBATCH --error=%x%A.err
+#SBATCH --mail-user=yw3642@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=aquila
+#SBATCH --nodelist=agpu7
 
 module purge                        # 清除所有已加载的模块
 module load anaconda3 cuda/11.1.1              # 加载anaconda (load virtual env for training)

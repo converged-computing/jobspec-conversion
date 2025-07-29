@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-motorcycle-5443
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --output=cluster_logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
 
 umask 002
 SAMPLE=$1

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psm
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=psm
+#SBATCH --output=./logs/train_psm.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=17GB
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 python train_stereo.py \
 --dataset='SceneFlow' \

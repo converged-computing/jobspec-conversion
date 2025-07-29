@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=open_clip_crop2
-#FLUX: -N=10
-#FLUX: -c=15
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#SBATCH --job-name=open_clip_crop2
+#SBATCH --output=/zhangpai21/yzy/lightning_logs/256t576_zero_14/slurm_logs/slurm_yzy_%x_%j.out
+#SBATCH --error=/zhangpai21/yzy/lightning_logs/256t576_zero_14/slurm_logs/slurm_yzy_%x_%j.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=15
+#SBATCH --gres=gpu:8
+#SBATCH --partition=dev
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

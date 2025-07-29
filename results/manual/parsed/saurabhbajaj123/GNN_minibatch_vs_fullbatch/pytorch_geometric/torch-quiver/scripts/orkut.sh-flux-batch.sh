@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quiv-ork
-#FLUX: -c=56
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=quiv-ork
+#FLUX -c=56
+#FLUX --queue=gpu-preempt
+#FLUX -t=1500
+#FLUX --urgency=16
 
 nvidia-smi --query-gpu=gpu_name --format=csv,noheader
 nvidia-smi topo -m

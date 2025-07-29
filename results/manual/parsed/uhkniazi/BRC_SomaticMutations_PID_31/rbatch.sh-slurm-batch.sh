@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rbatch_1
-#FLUX: --queue=cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=rbatch_1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40000MB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-73
 
 number=$SLURM_ARRAY_TASK_ID
 module load r/4.1.1-gcc-9.4.0-withx-rmath-standalone-python-3.8.12

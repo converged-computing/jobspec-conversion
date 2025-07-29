@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=distributed
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=distributed
+#SBATCH --output=logs/gpu_multi_mpi%j.out
+#SBATCH --error=logs/gpu_multi_mpi%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:05:00
+#SBATCH --constraint=a100,ntasks-per-node=8
 
 module purge
 module load cpuarch/amd

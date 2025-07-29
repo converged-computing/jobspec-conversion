@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prefetch
+#FLUX --job-name=prefetch
 #FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#FLUX --queue=defq
+#FLUX --urgency=16
 
 module purge
 module load userspace/custom opt/all userspace/all

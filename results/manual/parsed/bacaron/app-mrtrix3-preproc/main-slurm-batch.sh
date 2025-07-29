@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-blackbean-8679
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SINGULARITYENV_OMP_NUM_THREADS='$OMP_NUM_THREADS'
 

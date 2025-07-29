@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-muffin-3790
-#FLUX: -n=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-omelette-1940
+#FLUX -n=6
+#FLUX -t=600
+#FLUX --urgency=16
 
 MEMORY_PER_TASK=$(( $SLURM_CPUS_PER_TASK*$SLURM_MEM_PER_CPU ))
 echo SLURM_NTASKS: $SLURM_NTASKS  

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=segformer_b1_gta_train-split_bilateral_train_a
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=segformer_b1_gta_train-split_bilateral_train_a
+#FLUX -c=2
+#FLUX --queue=gpu,gpub
+#FLUX -t=604800
+#FLUX --urgency=16
 
 max_iters=40000
 main_config="./local_configs/segformer/B1/segformer.b1.512x512.gta2cs.40k.batch2_bilateral.py"

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=takeup_pp
-#FLUX: --queue=broadwl
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=takeup_pp
+#SBATCH --output=temp/log/takeup_postprocess-%j.log
+#SBATCH --error=temp/log/takeup_postprocess-%j.log
+#SBATCH --mail-user=karimn2.0@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --time=04:00:00
+#SBATCH --partition=broadwl
 
 LATEST_VERSION=62
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

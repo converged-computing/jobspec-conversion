@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ticket_287014
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --job-name=ticket_287014
+#SBATCH --account=uppmax2023-2-25
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=9-00:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools Nextflow 
 rm -f metontiime2.nf

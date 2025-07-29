@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=streamflow
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=streamflow
+#SBATCH --output=../output/streamflow.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=24
 
 module load python
 module load mpi4py

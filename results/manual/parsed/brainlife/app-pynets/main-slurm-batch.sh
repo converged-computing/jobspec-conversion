@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=PyNets
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PyNets
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=56G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=24
 
 export SINGULARITY_TMPDIR='$WORKINGDIR'
 

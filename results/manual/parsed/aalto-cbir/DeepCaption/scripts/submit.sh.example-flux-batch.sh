@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-nalgas-0598
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-leopard-0456
+#FLUX --queue=gpu
+#FLUX -t=120
+#FLUX --urgency=16
 
 module purge
 module load python-env/intelpython3.6-2018.3

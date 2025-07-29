@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=itrust-random_forest
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=itrust-random_forest
+#FLUX -t=600
+#FLUX --urgency=16
 
 features="$1"
 source ../../.experiments_env/bin/activate

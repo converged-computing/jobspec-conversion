@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-6780
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-signal-9928
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/margot-demol/PhD/launch/dask.pbs

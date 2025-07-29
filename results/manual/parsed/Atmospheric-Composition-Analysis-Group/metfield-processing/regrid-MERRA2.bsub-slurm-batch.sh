@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-4341
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Atmospheric-Composition-Analysis-Group/metfield-processing/regrid-MERRA2.bsub

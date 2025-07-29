@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-8235
-#FLUX: --urgency=16
+#FLUX --job-name=salted-citrus-9235
+#FLUX --urgency=16
 
 usage ()
 {

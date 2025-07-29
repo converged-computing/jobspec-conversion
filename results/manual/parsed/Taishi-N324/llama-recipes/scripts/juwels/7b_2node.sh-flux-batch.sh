@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-taco-1494
-#FLUX: -N=64
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-muffin-0769
+#FLUX -N=64
+#FLUX -c=10
+#FLUX --queue=booster
+#FLUX --urgency=16
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

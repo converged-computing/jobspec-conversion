@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=genotype
-#FLUX: -n=4
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=genotype
+#FLUX -n=4
+#FLUX --queue=quanah
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel/18.0.3.222 bcftools/1.9
 module load intel R

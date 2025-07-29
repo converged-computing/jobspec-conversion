@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ip
-#FLUX: -n=8
-#FLUX: --queue=volta
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=ip
+#SBATCH --account=labate
+#SBATCH --output=ip.o%j
+#SBATCH --mail-user=hzhao25@cougarnet.uh.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=volta
 
 hostname
 module add cudatoolkit/11.6

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=weather-sim2real-finetuning
-#FLUX: --queue=ampere
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=weather-sim2real-finetuning
+#FLUX --queue=ampere
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

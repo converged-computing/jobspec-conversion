@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=itrust-decision_tree
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=itrust-decision_tree
+#SBATCH --output=outputs/decision_tree-%A-%a.out
+#SBATCH --error=errors/decision_tree-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --array=28,30,31,32,34,36
 
 dataset="$1"
 source ../.experiments_env/bin/activate

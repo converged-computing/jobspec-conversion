@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=flask_server
-#FLUX: --exclusive
-#FLUX: --queue=a100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=flask_server
+#SBATCH --output=flask_server.out
+#SBATCH --error=flask_server.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --partition=a100
+#SBATCH: --exclusive
 
 module load cuda/12.2.1
 module load python/3.9.13

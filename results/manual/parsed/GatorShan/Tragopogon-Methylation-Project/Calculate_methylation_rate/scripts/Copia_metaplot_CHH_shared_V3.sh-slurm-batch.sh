@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Copia_metaplot_CHH_shared_V3
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Copia_metaplot_CHH_shared_V3
+#SBATCH --output=Copia_metaplot_CHH_shared_V3_%j.out
+#SBATCH --error=Copia_metaplot_CHH_shared_V3_%j.error
+#SBATCH --mail-user=shan158538@ufl.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500mb
+#SBATCH --time=04:00:00
+#SBATCH --qos=soltis
 
 date;hostname;pwd
 module purge

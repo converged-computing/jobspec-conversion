@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=ips_fastran
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ips_fastran
+#SBATCH --account=atom
+#SBATCH --output=ips.out
+#SBATCH --error=ips.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell,haswell
 
+singularity
+exec
+docker:registry.services.nersc.gov/rwp53/ips-massive-serial:dev
 module load gcc
 module load python
 WORK_DIRECTORY=tokamak_design_nb_debug_shifter

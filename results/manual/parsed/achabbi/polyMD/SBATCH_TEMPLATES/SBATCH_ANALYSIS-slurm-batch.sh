@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NAME2_analysis
-#FLUX: --queue=depablo-tc
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=NAME2_analysis
+#SBATCH --account=pi-depablo
+#SBATCH --output=LOG/NAME2_analysis.ou
+#SBATCH --error=LOG/NAME2_analysis.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=06:00:00
+#SBATCH --partition=depablo-tc
+#SBATCH --qos=depablo-tc-sn
+#SBATCH --constraint=ntasks-per-node=1
 
 CONF="/project2/depablo/achabbi/scripts/conformation.py"
 module load gromacs/2022.4+oneapi-2021

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lamp-3993
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/stivalaa/gpu_hashtables/utils/timetests_iit_1000only_edward_pbs_script.sh

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-train-1376
-#FLUX: --queue=standard
-#FLUX: -t=59400
-#FLUX: --urgency=16
+#SBATCH --account=spinquest
+#SBATCH --output=result_%a_${3}.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:30:00
+#SBATCH --partition=standard
 
 sbatch --array=${1}-${2} <<EOT
 module purge

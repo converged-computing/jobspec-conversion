@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pedo-2951
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/y4suda/REMM/MD_simulation/Script/REST2/run_REST2.sh

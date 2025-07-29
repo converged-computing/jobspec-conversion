@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rmpi
-#FLUX: -N=2
-#FLUX: --queue=development
-#FLUX: --urgency=16
+#FLUX --job-name=rmpi
+#FLUX -N=2
+#FLUX --queue=development
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/cm/local/apps/cuda-driver/libs/396.26/lib:/cm/local/apps/cuda-driver/libs/396.26/lib64:${LD_LIBRARY_PATH}'
 export OMPI_MCA_pml='ucx'

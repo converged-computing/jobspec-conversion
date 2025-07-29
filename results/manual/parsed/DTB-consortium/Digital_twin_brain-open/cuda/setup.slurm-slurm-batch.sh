@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: --queue=kshdexclu04
-#FLUX: --urgency=16
+#SBATCH --job-name=setup
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:1
+#SBATCH --partition=kshdexclu04
 
 date
 module purge

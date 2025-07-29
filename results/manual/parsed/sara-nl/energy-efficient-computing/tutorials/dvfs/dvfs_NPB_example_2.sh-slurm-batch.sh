@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NPB_dvfs
-#FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=3300
-#FLUX: --urgency=16
+#SBATCH --job-name=NPB_dvfs
+#SBATCH --output=NPB_dfvs.%j.out
+#SBATCH --error=NPB_dfvs.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:55:00
+#SBATCH --partition=rome
+#SBATCH: --exclusive
 
 module load 2023
 module load foss/2023a

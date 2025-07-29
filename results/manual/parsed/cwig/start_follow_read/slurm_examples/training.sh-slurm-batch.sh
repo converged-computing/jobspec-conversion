@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-snack-3011
-#FLUX: -n=24
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=2666M
+#SBATCH --time=3-00:00:00
 
 module load cuda/8.0
 module load cudnn/6.0_cuda-8.0

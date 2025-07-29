@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-7039
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=201600
-#FLUX: --urgency=16
+#SBATCH --output=array_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=2-08:00:00
+#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-buttface-4514
-#FLUX: -N=8
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-cattywampus-2026
+#FLUX -N=8
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONPATH='$SLURM_SUBMIT_DIR:$PYTHONPATH'
 export OMP_PLACES='threads'

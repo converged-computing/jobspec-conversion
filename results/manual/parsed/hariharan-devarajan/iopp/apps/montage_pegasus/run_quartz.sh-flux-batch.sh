@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=montage-pegasus
-#FLUX: --queue=pdebug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=montage-pegasus
+#FLUX --queue=pdebug
+#FLUX -t=7200
+#FLUX --urgency=16
 
 CPWD=$PWD
 source /usr/workspace/iopp/install_scripts/bin/iopp-init

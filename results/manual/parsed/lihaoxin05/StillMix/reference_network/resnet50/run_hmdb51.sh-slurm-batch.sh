@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemur-0672
-#FLUX: --queue=DGXq
-#FLUX: --urgency=16
+#SBATCH --output=run-%j.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=DGXq
+#SBATCH --nodelist=node19
 
 export CUDA_VISIBLE_DEVICES='6'
 

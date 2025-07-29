@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -n=5
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --mail-user=herobd@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=2048M
+#SBATCH --time=00:30:00
 
 export PBS_NODEFILE='`/fslapps/fslutils/generate_pbs_nodefile`'
 export PBS_JOBID='$SLURM_JOB_ID'

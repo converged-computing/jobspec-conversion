@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llm4
-#FLUX: -c=64
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=llm4
+#SBATCH --output=llm4.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=490GB
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='/usr/local/cuda-12/bin:/usr/local/cuda-12/lib64:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-12/lib64:/usr/lib:/usr/lib64:/usr/lib32:$LD_LIBRARY_PATH'

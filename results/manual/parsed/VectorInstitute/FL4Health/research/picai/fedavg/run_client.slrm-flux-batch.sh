@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-taco-4936
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-despacito-8251
+#FLUX -c=8
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export CUDA_LAUNCH_BLOCKING='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=get_redundancy
-#FLUX: --queue=cbmm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=get_redundancy
+#FLUX --queue=cbmm
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd /om/user/scasper/workspace/
 singularity exec -B /om:/om --nv /om/user/xboix/singularity/xboix-tensorflow1.14.simg \

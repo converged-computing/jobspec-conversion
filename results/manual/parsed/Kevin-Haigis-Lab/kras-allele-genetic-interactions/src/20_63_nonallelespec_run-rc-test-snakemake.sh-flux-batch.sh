@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-1197
-#FLUX: --queue=priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-caramel-2380
+#FLUX --queue=priority
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.1

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cov2_msglm_parsars_ptm
-#FLUX: -N=60
-#FLUX: -c=7
-#FLUX: --queue=cm2_large
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --job-name=cov2_msglm_parsars_ptm
+#SBATCH --output=/gpfs/scratch/pn69ha/ge68wan2/logs/cov2/msglm_fit_parsars_ptm_%A_%a.log
+#SBATCH --mail-user=alexey.stukalov@tum.de
+#SBATCH --mail-type=end
+#SBATCH --nodes=60
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=8-00:00:00
+#SBATCH --partition=cm2_large
 
 source /etc/profile.d/modules.sh
 module load slurm_setup

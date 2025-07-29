@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-6887
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/openforcefield/open-forcefield-group/nmr/ace_x_y_nh2/code/submit.sh

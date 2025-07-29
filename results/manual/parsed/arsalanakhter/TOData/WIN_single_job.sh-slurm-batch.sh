@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kitty-0909
-#FLUX: -n=12
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --partition=short
 
 set -e
 function cleanup() {

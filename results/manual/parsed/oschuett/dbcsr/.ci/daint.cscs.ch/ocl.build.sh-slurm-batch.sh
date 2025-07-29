@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-9871
-#FLUX: -c=12
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=cscsci
+#SBATCH --constraint=mc,ntasks-per-node=1
 
 export PATH='/project/cray/alazzaro/cmake/bin:${PATH}'
 export PKG_CONFIG_PATH='${HOME}/libxsmm/lib:${PKG_CONFIG_PATH}'

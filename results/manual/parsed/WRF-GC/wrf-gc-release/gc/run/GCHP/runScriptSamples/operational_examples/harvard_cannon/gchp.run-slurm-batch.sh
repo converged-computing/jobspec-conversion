@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kitty-6476
-#FLUX: -N=2
-#FLUX: -n=96
-#FLUX: --exclusive
-#FLUX: --queue=seas_compute
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=180000
+#SBATCH --time=00:08:00
+#SBATCH --partition=seas_compute
+#SBATCH: --exclusive
 
 export OMPI_MCL_btl='openib'
 

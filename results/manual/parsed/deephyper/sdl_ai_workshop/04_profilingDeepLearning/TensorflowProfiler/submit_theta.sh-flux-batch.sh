@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-dog-4653
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-itch-0722
+#FLUX --urgency=16
 

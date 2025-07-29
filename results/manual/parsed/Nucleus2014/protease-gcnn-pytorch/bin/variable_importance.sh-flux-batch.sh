@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vi1
-#FLUX: --queue=main
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=vi1
+#FLUX --queue=main
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /scratch/cl1205/protease-gcnn-pytorch/model
 data=$1

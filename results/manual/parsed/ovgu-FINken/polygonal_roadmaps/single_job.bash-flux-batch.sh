@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-noodle-4635
-#FLUX: --queue=ci
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-bits-0527
+#FLUX --queue=ci
+#FLUX -t=3600
+#FLUX --urgency=16
 
 SCENARIO=$1
 N_AGENTS=$2

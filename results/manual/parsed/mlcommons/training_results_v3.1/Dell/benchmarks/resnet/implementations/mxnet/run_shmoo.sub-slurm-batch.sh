@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
-#FLUX: --urgency=16
+#SBATCH --job-name=image_classification
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MODEL_NAME='image_classification'
 export MODEL_FRAMEWORK='mxnet'

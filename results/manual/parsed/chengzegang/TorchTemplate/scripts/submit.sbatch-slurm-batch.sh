@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vit
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=tandon_a100_2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=vit
+#SBATCH --output=vit_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=tandon_a100_2
 
 export NCCL_DEBUG='INFO'
 export LOGLEVEL='INFO'

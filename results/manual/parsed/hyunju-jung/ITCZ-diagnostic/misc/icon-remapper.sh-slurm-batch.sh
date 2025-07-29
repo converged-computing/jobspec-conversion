@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=remap
-#FLUX: -n=8
-#FLUX: --queue=cip
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=remap
+#SBATCH --output=remap.out
+#SBATCH --error=remap.err
+#SBATCH --mail-user=hyunju.jung@kit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=01:00:00
+#SBATCH --partition=cip
+#SBATCH --array=120-1080
 
 module purge
 module load spack cdo

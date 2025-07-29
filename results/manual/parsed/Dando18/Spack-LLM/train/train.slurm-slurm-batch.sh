@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=bhatele-lab-aac
+#SBATCH --output=train-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=a100:4
+#SBATCH --mem=512000
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu
 
 export HF_HOME='~/scratch/.cache/huggingface'
 export TOKENIZERS_PARALLELISM='false'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-spoon-3988
-#FLUX: -N=16
-#FLUX: -n=64
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-lemur-2436
+#FLUX -N=16
+#FLUX -n=64
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

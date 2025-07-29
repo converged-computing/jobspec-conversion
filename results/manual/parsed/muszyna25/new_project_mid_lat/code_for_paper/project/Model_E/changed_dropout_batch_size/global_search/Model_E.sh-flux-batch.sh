@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-ricecake-9715
-#FLUX: -N=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-chair-3511
+#FLUX -N=5
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -u
 BATCH_START_TIME=$(date)

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pedo-8546
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-signal-2276
+#FLUX -N=16
+#FLUX -n=16
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=13800
+#FLUX --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

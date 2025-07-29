@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pastry-1309
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-diablo-7853
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00088.sh

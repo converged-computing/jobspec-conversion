@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-soup-9222
-#FLUX: --queue=slurm_courtesy
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=cuda_Training-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:gtx1080:1
+#SBATCH --time=00:12:00
+#SBATCH --partition=slurm_courtesy
 
 module load usermods
 module load user/cuda

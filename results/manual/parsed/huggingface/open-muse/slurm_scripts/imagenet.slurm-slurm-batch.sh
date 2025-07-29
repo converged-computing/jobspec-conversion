@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=imagenet-test-run
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=imagenet-test-run
+#SBATCH --output=/admin/home/suraj/logs/maskgit-imagenet/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

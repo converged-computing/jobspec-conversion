@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
+#FLUX --job-name=benchmark
 #FLUX: --exclusive
-#FLUX: --queue=lva
-#FLUX: --urgency=16
+#FLUX --queue=lva
+#FLUX --urgency=16
 
 ALLSCALE_API_DIR=/home/cb76/cb761222/allscale_api/code
 MIMALLOC=/home/cb76/cb761222/mimalloc/build/libmimalloc.so

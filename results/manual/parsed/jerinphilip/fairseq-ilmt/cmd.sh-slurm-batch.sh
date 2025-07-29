@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bt
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=bt
+#SBATCH --account=shashanks
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 export ILMULTI_CORPUS_ROOT='$DATA'
 

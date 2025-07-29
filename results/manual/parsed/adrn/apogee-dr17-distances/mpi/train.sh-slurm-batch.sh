@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=joaquin-train
-#FLUX: -N=4
-#FLUX: --queue=cca
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=joaquin-train
+#SBATCH --output=logs/train.o%j
+#SBATCH --error=logs/train.e%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cca
+#SBATCH --constraint=ntasks-per-node=64,rome
 
 source ~/.bash_profile
 init_conda

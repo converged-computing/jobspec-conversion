@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=water-NaCl
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=water-NaCl
+#SBATCH --output=water-NaCl.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load gromacs/openmpi/intel/2020.4

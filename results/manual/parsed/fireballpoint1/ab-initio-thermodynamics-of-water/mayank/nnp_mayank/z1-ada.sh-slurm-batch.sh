@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-poo-1958
-#FLUX: -n=10
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=medium
 
 export LD_LIBRARY_PATH='/opt/lammps-7Aug19_nnp_plumed/lib/nnp/lib'
 

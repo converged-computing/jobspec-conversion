@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=26
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --output=resnet.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=26
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128GB
+#SBATCH --time=14:00:00
 
 TODAY=`date +"%Y-%m-%d"`
 VARIANT="4l_256hd"

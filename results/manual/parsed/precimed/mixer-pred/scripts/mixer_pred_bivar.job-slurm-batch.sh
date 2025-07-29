@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bivar
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bivar
+#SBATCH --account=p697
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=slurm
+#SBATCH --array=1-20
 
 export THREADS='16 '
 export ANALYSIS_ROOT='/cluster/projects/p697/users/nadinepa/MiXeR_Pred'

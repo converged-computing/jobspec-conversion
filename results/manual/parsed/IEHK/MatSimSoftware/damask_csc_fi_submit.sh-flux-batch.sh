@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=damasktest
-#FLUX: -n=4
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=damasktest
+#FLUX -n=4
+#FLUX --queue=parallel
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export DAMASK_NUM_THREADS='1'
 

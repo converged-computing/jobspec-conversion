@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-carrot-8123
-#FLUX: --queue=gpu-v100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-parrot-9141
+#FLUX --queue=gpu-v100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 scontrol show job $SLURM_JOB_ID
 data_root=/mnt/qb/hennig/data/

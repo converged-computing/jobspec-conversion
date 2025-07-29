@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peanut-8562
-#FLUX: -N=24
-#FLUX: -n=2304
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=24
+#SBATCH --ntasks=2304
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard96
+#SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

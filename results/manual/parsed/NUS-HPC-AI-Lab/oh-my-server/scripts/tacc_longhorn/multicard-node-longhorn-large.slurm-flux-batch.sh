@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=v100
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=v100
+#FLUX -t=1800
+#FLUX --urgency=16
 
 pwd
 date

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-muffin-3327
-#FLUX: -c=3
-#FLUX: --queue=mcovert
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=arid-onion-2467
+#FLUX -c=3
+#FLUX --queue=mcovert
+#FLUX -t=84600
+#FLUX --urgency=16
 
 function get_port {
   local DESIRED_PORT=$1

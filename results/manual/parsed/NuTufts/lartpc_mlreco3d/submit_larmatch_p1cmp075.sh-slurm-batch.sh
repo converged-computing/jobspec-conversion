@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mlreco_p100
-#FLUX: --queue=gpu,ccgpu,wongjiradlab
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=mlreco_p100
+#SBATCH --output=gridlog_mlreco_p100.log
+#SBATCH --error=gridlog_train_larmatch.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:4
+#SBATCH --mem=8g
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=gpu,ccgpu,wongjiradlab
 
 WORKDIR=/cluster/tufts/wongjiradlabnu/twongj01/mlreco/lartpc_mlreco3d/
 container=/cluster/tufts/wongjiradlabnu/larbys/larbys-container/singularity_minkowskiengine_u20.04.cu111.torch1.9.0_comput8.sif

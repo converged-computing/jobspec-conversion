@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=premd_100nM_Na_Aqvist
-#FLUX: -n=64
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=premd_100nM_Na_Aqvist
+#FLUX -n=64
+#FLUX --queue=work
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export FI_CXI_DEFAULT_VNI='$(od -vAn -N4 -tu < /dev/urandom)'

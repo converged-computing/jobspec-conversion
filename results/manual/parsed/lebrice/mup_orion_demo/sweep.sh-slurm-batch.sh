@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mup_sweep
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mup_sweep
+#SBATCH --output=/network/scratch/n/normandf/mup/logs/slurm-%A_%a.out
+#SBATCH --error=/network/scratch/n/normandf/mup/logs/slurm-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:2
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-20
 
 export EXP_NAME='${EXP_NAME:-"gpt2_wikitext103_long_deeper"}'
 

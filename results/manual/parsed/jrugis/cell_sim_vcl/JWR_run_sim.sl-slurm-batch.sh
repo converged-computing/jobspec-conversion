@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cell_sim_vcl
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=cell_sim_vcl
+#SBATCH --account=nesi00119
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=00:15:00
+#SBATCH --constraint=avx
 
 echo $HOSTNAME
 module load intel/2015a

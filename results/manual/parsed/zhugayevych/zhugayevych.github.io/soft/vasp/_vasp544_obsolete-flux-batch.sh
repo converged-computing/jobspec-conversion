@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-5658
-#FLUX: -c=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-cat-0714
+#FLUX -c=16
+#FLUX --queue=AMG
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export SCR='/scr/$SLURM_JOB_NAME'

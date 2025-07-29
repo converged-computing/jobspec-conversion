@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Jupylab
-#FLUX: -c=2
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#FLUX --job-name=Jupylab
+#FLUX -c=2
+#FLUX --queue=boost_usr_prod
+#FLUX -t=4500
+#FLUX --urgency=16
 
 cd $SCRATCH/SMR3941-ICTP/
 source $HOME/Conda_init.txt

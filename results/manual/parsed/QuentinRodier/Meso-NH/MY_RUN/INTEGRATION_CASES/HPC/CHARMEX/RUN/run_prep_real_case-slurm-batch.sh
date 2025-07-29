@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prep_charmex
-#FLUX: -n=4
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#SBATCH --job-name=prep_charmex
+#SBATCH --output=prep_charmex.eo%j
+#SBATCH --error=prep_charmex.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:20:00
 
 export MPIRUN='Mpirun -np 4'
 

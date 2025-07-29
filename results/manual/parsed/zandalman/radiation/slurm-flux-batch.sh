@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-eagle-9933
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-sundae-4228
+#FLUX -t=180
+#FLUX --urgency=16
 
 module load miniconda
 conda activate /gpfs/loomis/project/phys678/conda_envs/phys678

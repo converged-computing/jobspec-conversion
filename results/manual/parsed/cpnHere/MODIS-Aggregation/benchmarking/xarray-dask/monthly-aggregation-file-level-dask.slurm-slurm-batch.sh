@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mod_agg
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=mod_agg
+#SBATCH --account=pi_jianwu
+#SBATCH --output=%x-%j_dask-monthly-aggregation-file-level.out
+#SBATCH --error=%x-%j_dask-monthly-aggregation-file-level.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=MaxMemPerNode
+#SBATCH --partition=batch
+#SBATCH --qos=long+
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 srun /umbc/xfs1/cybertrn/common/Softwares/anaconda3/bin/python monthly-aggregation-file-level-dask.py

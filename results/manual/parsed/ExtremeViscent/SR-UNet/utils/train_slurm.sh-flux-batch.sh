@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bunet
-#FLUX: -n=36
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bunet
+#FLUX -n=36
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_PORT='11451'
 export WORLD_SIZE='8'

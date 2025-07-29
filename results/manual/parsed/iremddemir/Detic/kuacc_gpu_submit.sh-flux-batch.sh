@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Test
-#FLUX: --queue=ai
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Test
+#FLUX --queue=ai
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Activating Python 3.9.5"
 module load python/3.9.5

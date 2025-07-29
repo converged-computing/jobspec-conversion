@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-2867
-#FLUX: -N=81
-#FLUX: -n=324
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=blue-destiny-2416
+#FLUX -N=81
+#FLUX -n=324
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

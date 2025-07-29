@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=S2_TEannot
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=S2_TEannot
+#SBATCH --output=TEannot-step2-%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=intel
 
 module load repet/2.5
 if  [ ! -n "$ProjectName" ] || [ ! -n "$ALIGNERS_AVAIL" ]; then

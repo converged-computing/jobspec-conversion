@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dataset_gen
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dataset_gen
+#FLUX -c=12
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python3 -u ./src/train/train_L0.py \
 --run_simulator \

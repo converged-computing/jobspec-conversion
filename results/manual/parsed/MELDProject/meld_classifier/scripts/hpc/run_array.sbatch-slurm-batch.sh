@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run-meld
-#FLUX: --queue=pascal
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=run-meld
+#SBATCH --account=CAMBRC-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:59:00
+#SBATCH --partition=pascal
 
 export OMP_NUM_THREADS='1'
 

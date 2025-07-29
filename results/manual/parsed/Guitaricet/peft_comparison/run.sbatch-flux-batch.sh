@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reloraF
-#FLUX: -c=12
+#FLUX --job-name=reloraF
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=g40x
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --queue=g40x
+#FLUX -t=86399
+#FLUX --urgency=16
 
 export WANDB_WATCH='false'
 export WANDB_DIR='/fsx/vlialin/wandb/wandb_dir'

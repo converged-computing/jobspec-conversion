@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-4845
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hollygene/Dosage_Compensation/src/bash_scripts/tophat_all_old.sh

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1node
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=1node
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MPICH_VERSION_DISPLAY='1'

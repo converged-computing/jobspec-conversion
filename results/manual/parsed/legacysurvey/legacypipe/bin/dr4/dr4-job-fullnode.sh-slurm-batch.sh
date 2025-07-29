@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=OneNode
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=OneNode
+#SBATCH --account=desi
+#SBATCH --mail-user=kburleigh@lbl.gov
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --licenses=SCRATCH
 
 export outdir='/scratch1/scratchdirs/desiproc/DRs/data-releases/dr4'
 export statdir='${outdir}/progress'

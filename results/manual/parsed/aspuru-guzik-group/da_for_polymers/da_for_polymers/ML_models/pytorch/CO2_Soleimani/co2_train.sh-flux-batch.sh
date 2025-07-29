@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-milkshake-6808
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-ricecake-9379
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.9.6
 source /project/6025683/stanlo/opv_project/bin/activate

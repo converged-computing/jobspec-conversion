@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=3dscene
-#FLUX: -c=10
-#FLUX: -t=604740
-#FLUX: --urgency=16
+#SBATCH --job-name=3dscene
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=5500
+#SBATCH --time=6-23:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 exec 2>&1      # send errors into stdout stream
 echo "DEBUG: host=$(hostname) pwd=$(pwd) ulimit=$(ulimit -v) \$1=$1 \$2=$2"

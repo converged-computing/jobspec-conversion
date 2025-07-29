@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-onion-0791
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-earthworm-7460
+#FLUX --urgency=16
 

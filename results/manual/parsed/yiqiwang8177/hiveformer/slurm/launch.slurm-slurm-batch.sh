@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hiveformer
-#FLUX: -c=10
-#FLUX: --queue=gpu_p13
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=hiveformer
+#SBATCH --account=vuo@v100
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p13
+#SBATCH --constraint=ntasks-per-node=1
 
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'
 

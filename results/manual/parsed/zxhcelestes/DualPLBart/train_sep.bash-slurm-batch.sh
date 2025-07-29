@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lijie
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=lijie
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 nvidia-smi
 python -u train_sep.py \

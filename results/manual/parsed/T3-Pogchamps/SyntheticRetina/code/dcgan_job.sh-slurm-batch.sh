@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nalgas-7466
-#FLUX: -c=6
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:03:00
 
 module load cuda cudnn
 source tensorflow/bin/activate

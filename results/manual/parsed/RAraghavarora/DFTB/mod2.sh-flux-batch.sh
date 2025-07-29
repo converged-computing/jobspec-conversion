@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cm-eq-30k
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=cm-eq-30k
+#FLUX -n=8
+#FLUX --queue=gpu2
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

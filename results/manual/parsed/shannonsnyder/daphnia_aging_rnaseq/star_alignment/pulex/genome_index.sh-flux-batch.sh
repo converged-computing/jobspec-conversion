@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=star_index
-#FLUX: -n=4
-#FLUX: -c=12
-#FLUX: --queue=memory
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=star_index
+#FLUX -n=4
+#FLUX -c=12
+#FLUX --queue=memory
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load easybuild
 module load icc/2017.1.132-GCC-6.3.0-2.27

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_gan_zoo_cifar10
-#FLUX: --queue=%partition
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_gan_zoo_cifar10
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=%partition
+#SBATCH --qos=%qos
 
 module purge
 module load %modules

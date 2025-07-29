@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Unlock
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Unlock
+#SBATCH --output=Unlock-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)

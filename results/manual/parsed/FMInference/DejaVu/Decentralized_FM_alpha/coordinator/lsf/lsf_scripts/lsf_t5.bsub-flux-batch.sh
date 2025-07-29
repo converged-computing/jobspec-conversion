@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-knife-8193
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-squidward-7684
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FMInference/DejaVu/Decentralized_FM_alpha/coordinator/lsf/lsf_scripts/lsf_t5.bsub

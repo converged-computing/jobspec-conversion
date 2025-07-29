@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-kerfuffle-8047
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --account=def-geof
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000M
+#SBATCH --time=00:00:30
+#SBATCH --array=1-10
 
 source /home/syz/sdecouplings/bin/activate
 SRAND=$RANDOM

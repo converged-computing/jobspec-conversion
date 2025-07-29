@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-general-4797
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=out-install-lammps-mulan-fftdouble
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
 
 export LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/rocm-4.5.0/hipfft/lib:$LD_LIBRARY_PATH'

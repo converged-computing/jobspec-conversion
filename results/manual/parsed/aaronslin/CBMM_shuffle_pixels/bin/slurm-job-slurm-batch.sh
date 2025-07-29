@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=shuffle_pixels
-#FLUX: --urgency=16
+#SBATCH --job-name=shuffle_pixels
+#SBATCH --output=slurm_out/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --array=1-20
 
 set -euxo pipefail
 ${SLURM_ARRAY_TASK_ID:=3}

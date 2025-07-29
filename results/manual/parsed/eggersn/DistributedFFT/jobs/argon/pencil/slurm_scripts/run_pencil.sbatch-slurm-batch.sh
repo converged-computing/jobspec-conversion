@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pencil
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pencil
+#SBATCH --account=st
+#SBATCH --output=pencil.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=all
+#SBATCH: --exclusive
+#SBATCH --nodelist=argon-tesla1,
 
 module load mpi/u2004/openmpi-4.1.1-cuda
 echo "Modules loaded"

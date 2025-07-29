@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FBtest
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=debug
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=FBtest
+#SBATCH --account=nstaff_g
+#SBATCH --output=FBtest.o%A-%a
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export MPICH_OFI_NIC_POLICY='NUMA'
 export MPIACX_NFLAGS='256'

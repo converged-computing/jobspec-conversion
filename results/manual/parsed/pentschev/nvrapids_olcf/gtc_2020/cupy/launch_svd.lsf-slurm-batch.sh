@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-carrot-1337
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pentschev/nvrapids_olcf/gtc_2020/cupy/launch_svd.lsf

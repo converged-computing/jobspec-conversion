@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_local
-#FLUX: --queue=genomics
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=test_local
+#FLUX --queue=genomics
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load singularity
 module load mamba

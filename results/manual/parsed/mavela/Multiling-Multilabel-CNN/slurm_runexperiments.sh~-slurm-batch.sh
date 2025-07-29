@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nalgas-1648
-#FLUX: --queue=gpu
-#FLUX: -t=136800
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002026
+#SBATCH --output=/scratch/project_2002026/cnn/multiling-cnn/pretty/slurm-log/bert-%j.out
+#SBATCH --error=/scratch/project_2002026/cnn/multiling-cnn/pretty/slurm-log/bert-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=1-14:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OUTPUT_DIR='/scratch/project_2002026/cnn/multiling-cnn/pretty/output'

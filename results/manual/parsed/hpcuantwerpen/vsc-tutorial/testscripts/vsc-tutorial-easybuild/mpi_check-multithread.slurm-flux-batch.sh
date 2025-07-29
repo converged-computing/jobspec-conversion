@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_check-multithread
-#FLUX: -n=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_check-multithread
+#FLUX -n=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module load calcua/2020a

@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Test
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=Test
+#SBATCH --output=Test_%j.txt
+#SBATCH --error=Test_%j.err
+#SBATCH --mail-user=youremail
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=15:00:00
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-10
 
 module load bwa/0.7.12
 module load samtools/1.9

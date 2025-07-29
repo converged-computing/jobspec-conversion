@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=modalFT_r101
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#SBATCH --job-name=modalFT_r101
+#SBATCH --output=/nfs/hpc/share/browjost/detr_apple/logdirs/modalFT_r101dc5/modalFineTune-%a.out
+#SBATCH --error=/nfs/hpc/share/browjost/detr_apple/logdirs/modalFT_r101dc5/modalFineTune-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=dgx
+#SBATCH --nodelist=dgx2-3
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

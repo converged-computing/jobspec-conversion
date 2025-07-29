@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=twitch
-#FLUX: -c=60
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=twitch
+#SBATCH --account=general
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=240G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 which python;
 snakemake   train_features_2_vec      -call --config root=twitch_one gnn_model=gat env=local device=cuda:0 r2v=false crosswalk=false fairwalk=true node2vec=false dataset=twitch  --nolock --ignore-incomplete;

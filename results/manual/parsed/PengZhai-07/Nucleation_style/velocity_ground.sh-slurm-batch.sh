@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=velocity_ground
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=velocity_ground
+#SBATCH --account=yiheh1
+#SBATCH --output=log/%x-%a.log
+#SBATCH --error=log/error-%x-%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10gb
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=6
 
 export MPIRUN_OPTIONS='--bind-to core --map-by node:PE=${SLURM_CPUS_PER_TASK} -report-bindings'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

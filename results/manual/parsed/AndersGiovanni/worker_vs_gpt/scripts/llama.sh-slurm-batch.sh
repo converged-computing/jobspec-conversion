@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llama
-#FLUX: -c=12
-#FLUX: --queue=brown,red
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=llama
+#SBATCH --account=researchers
+#SBATCH --output=run_outputs/llama.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:a100_40gb:4
+#SBATCH --time=04:00:00
+#SBATCH --partition=brown,red
 
 hostname
 nvidia-smi

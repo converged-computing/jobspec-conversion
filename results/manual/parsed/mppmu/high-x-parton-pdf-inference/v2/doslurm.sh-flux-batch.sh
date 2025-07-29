@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_slurm
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=test_slurm
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='$(pwd)/tmp'
 export SINGULARITY_CACHEDIR='$(pwd)/tmp'

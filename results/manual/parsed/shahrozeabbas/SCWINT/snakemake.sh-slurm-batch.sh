@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pastry-4204
-#FLUX: -c=36
-#FLUX: --queue=largemem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=600g
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=largemem
 
 source /data/abbass2/Apps/conda/bin/activate snakes
 snakemake --use-conda --cores 32

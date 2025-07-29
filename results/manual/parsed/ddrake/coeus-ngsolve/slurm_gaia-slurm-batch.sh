@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -c=12
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --output=myjob.log
+#SBATCH --mail-user=my-email@pdx.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=medium
 
 pwd; hostname;
 echo "Starting at wall clock time:"

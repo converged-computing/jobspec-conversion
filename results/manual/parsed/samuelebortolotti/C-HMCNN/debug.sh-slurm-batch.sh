@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-3121
-#FLUX: --queue=chaos
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=shared-sml-staff
+#SBATCH --output=/nfs/data_chaos/sbortolotti/logs/C-HMCNN/debug_resnet.out
+#SBATCH --error=/nfs/data_chaos/sbortolotti/logs/C-HMCNN/debug_resnet.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=20:00:00
+#SBATCH --partition=chaos
 
 usage() {
   test $# = 0 || echo "$@"

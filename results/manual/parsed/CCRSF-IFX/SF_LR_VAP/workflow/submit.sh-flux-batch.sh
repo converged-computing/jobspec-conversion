@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lentil-1490
-#FLUX: -n=2
-#FLUX: --queue=norm
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cat-9631
+#FLUX -n=2
+#FLUX --queue=norm
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /mnt/ccrsf-ifx/Software/tools/Anaconda/3.11/etc/profile.d/conda.sh
 conda activate snakemake

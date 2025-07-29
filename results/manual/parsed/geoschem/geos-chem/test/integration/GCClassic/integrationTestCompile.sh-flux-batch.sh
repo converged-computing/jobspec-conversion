@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-5898
-#FLUX: -c=8
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-egg-9961
+#FLUX -c=8
+#FLUX --queue=REQUESTED_PARTITION
+#FLUX -t=30
+#FLUX --urgency=16
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

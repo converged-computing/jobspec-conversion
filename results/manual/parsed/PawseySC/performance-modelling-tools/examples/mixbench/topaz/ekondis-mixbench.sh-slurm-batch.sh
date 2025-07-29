@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-3922
-#FLUX: -c=8
-#FLUX: --queue=gpuq-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuq-dev
 
 module load python/3.6.3
 module load cuda/11.4.2

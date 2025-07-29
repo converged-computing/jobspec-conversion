@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fit-pipe
-#FLUX: --queue=priority
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=fit-pipe
+#SBATCH --account=park
+#SBATCH --output=logs/%j_sample-pipeline.log
+#SBATCH --error=logs/%j_sample-pipeline.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=priority
 
 module load gcc/6.2.0 slurm-drmaa/1.1.3 conda2
 source "$HOME/.bashrc"

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=my_job_name
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=my_job_name
+#SBATCH --output=my_job_output.log
+#SBATCH --error=my_job_error.log
+#SBATCH --mail-user=your@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 export EXE='/bin/hostname'
 

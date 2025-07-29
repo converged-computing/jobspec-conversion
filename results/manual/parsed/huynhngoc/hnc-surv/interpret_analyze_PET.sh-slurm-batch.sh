@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=interpret_analyze
-#FLUX: --queue=smallmem,hugemem,orion,hugemem-avx2
-#FLUX: --urgency=16
+#SBATCH --job-name=interpret_analyze
+#SBATCH --output=outputs/interpret-analyze-%A-%a.out
+#SBATCH --error=outputs/interpret-analyze-%A-%a.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --partition=smallmem,hugemem,orion,hugemem-avx2
+#SBATCH --exclude=cn-11,cn-12,cn-14
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LB-AMBER_s1
-#FLUX: -N=4
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=LB-AMBER_s1
+#FLUX -N=4
+#FLUX --queue=main
+#FLUX -t=1800
+#FLUX --urgency=16
 
 ml PDC
 ml GROMACS/2020.5-cpeCray-21.11

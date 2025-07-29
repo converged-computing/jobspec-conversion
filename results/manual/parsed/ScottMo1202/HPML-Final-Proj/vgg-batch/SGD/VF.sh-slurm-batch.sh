@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VF
-#FLUX: -c=24
-#FLUX: --queue=rtx8000
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=VF
+#SBATCH --output=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:rtx8000:2
+#SBATCH --mem=160GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=rtx8000
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load anaconda3/2020.07

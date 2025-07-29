@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=InRes5
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=InRes5
+#FLUX -c=8
+#FLUX --urgency=16
 
 export WEIGHT_ONE='7'
 export WEIGHT_TWO='2'

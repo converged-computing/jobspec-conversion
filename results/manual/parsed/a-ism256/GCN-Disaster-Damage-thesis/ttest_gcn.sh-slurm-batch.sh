@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ttestgcn
-#FLUX: --queue=msfea-ai
-#FLUX: --urgency=16
+#SBATCH --job-name=ttestgcn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=32G
+#SBATCH --partition=msfea-ai
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load python/3.8.2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CylceGAN
-#FLUX: -c=4
-#FLUX: --queue=p2
-#FLUX: --urgency=16
+#FLUX --job-name=CylceGAN
+#FLUX -c=4
+#FLUX --queue=p2
+#FLUX --urgency=16
 
 module purge
 module load python/anaconda3

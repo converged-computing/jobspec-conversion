@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_utils
-#FLUX: --queue=icelake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=_utils
+#FLUX --queue=icelake-himem
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PERL5LIB=''
 export TMPDIR='${HPC_WORK}/work'

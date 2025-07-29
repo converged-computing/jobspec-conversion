@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example1
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=example1
+#SBATCH --output=example1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
 
 module load vis/gnuplot
 python example1.py

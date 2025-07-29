@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-arm-1319
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-signal-0412
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/mini-dlperf/old/pbs_scripts/uat/performance_test/rn50_fps_8gpu.qsub

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=news_adj_poly
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=news_adj_poly
+#SBATCH --account=pa210503
+#SBATCH --output=runs/outputs/polyjuice_news_random_adj.out.log
+#SBATCH --error=runs/errors/polyjuice_news_random_adj.error.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=56G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /users/pa21/ptzouv/tkaravangelis/mice
 module purge

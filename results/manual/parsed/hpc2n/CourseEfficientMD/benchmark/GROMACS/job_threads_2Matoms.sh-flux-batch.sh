@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-9535
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=milky-leader-5752
+#FLUX -n=4
+#FLUX -c=7
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 1000 -nsteps 2000'

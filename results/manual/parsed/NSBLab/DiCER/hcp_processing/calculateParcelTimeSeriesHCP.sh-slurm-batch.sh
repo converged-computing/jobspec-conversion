@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hcpParcelTS
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hcpParcelTS
+#SBATCH --account=kg98
+#SBATCH --mail-user=kevin.aquino@monash.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=00:30:00
+#SBATCH --qos=shortq
+#SBATCH --array=1-447
 
 export subject='$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${SUBJECT_LIST})'
 

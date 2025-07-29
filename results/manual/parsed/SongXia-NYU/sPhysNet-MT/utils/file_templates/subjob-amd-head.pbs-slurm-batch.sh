@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=amd-e322
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=amd-e322
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:mi50:1
+#SBATCH --mem=20GB
+#SBATCH --time=1-12:00:00
 
 module purge

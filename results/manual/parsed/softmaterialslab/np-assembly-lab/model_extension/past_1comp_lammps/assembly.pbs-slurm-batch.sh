@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=E2
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=E2
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --mail-user=vjadhao@iu.edu
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=48
 
 module swap PrgEnv-intel PrgEnv-gnu
 module load lammps/gnu

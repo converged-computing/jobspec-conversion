@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-puppy-8213
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lentil-3064
+#FLUX -n=5
+#FLUX -t=0
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/projects/tir6/general/sachink/huggingface'
 

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hope-5158
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: --queue=c7gnpg
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/log/gpcnet.out
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c7gnpg
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64
 
 export GPCNET_VERSION='git'
 

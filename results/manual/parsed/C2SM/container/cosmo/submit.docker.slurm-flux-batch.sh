@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=testsuite
-#FLUX: -N=8
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=testsuite
+#FLUX -N=8
+#FLUX --queue=normal
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MALLOC_MMAP_MAX_='0'
 export MALLOC_TRIM_THRESHOLD_='536870912'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-MicroBenchmark
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=OSU-MicroBenchmark
+#FLUX -N=2
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 

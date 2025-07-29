@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gc-train
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=gc-train
+#SBATCH --output=logs/slurm/train/%j.out
+#SBATCH --error=logs/slurm/train/%j.err
+#SBATCH --mail-user=germanarutyunov@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=type_a|type_b|type_c
 
 chmod +x ./scripts/prepare.sh
 source ./scripts/prepare.sh

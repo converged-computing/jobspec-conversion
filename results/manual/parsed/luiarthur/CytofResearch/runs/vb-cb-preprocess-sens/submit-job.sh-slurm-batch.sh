@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vb-cb-sens
-#FLUX: -N=2
-#FLUX: --queue=128x24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=vb-cb-sens
+#SBATCH --output=out/slurm-job.out
+#SBATCH --mail-user=alui2@ucsc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=48G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=128x24
 
 echo "SCRATCH_DIR: $SCRATCH_DIR"
 BATCHSIZE=2000

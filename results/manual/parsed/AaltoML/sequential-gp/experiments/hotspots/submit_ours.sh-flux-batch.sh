@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-knife-3435
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=fat-butter-5257
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load miniconda
 source activate ovcexperiment

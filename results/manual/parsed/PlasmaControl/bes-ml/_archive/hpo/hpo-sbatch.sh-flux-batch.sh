@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-underoos-9158
-#FLUX: -c=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-cattywampus-9954
+#FLUX -c=128
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load edgeml
 module list

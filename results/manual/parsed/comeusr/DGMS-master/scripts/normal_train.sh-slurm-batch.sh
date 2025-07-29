@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-eagle-7491
-#FLUX: --urgency=16
+#SBATCH --output=/home/wang4538/DGMS-master/out/%j.out
+#SBATCH --error=/home/wang4538/DGMS-master/out/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ --num-classes 10"
 MODEL="--network resnet18 --mask --empirical True"

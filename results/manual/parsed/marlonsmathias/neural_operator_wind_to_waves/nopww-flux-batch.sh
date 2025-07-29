@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-buttface-8634
-#FLUX: -n=16
-#FLUX: --queue=arandu
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-spoon-7594
+#FLUX -n=16
+#FLUX --queue=arandu
+#FLUX --urgency=16
 
 echo "Running on"
 hostname

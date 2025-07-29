@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CN_CH_zl
-#FLUX: --queue=cpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=CN_CH_zl
+#SBATCH --output=SAV_test_CH_CN.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=18:00:00
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='1           # 设置全局 OpenMP 线程为1 '
 export PETSC_DIR='/home/yangchao/zl/petsc-3.6.4'

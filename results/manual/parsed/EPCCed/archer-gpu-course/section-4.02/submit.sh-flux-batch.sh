@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-pancake-1226
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-fudge-7310
+#FLUX --queue=gpu
+#FLUX -t=120
+#FLUX --urgency=16
 
 export TMPDIR='$(pwd)'
 

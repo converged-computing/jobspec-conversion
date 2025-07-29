@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-omelette-1671
-#FLUX: -c=24
-#FLUX: --queue=topola
-#FLUX: --urgency=16
+#SBATCH --account=G74-17
+#SBATCH --output=slurm%A_%a.out
+#SBATCH --mail-user=j.bazinska@student.uw.edu.pl
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --partition=topola
+#SBATCH --array=[1-32]
 
 export LD_LIBRARY_PATH='/icm/home/bazinska/miniconda3/lib:$LD_LIBRARY_PATH'
 

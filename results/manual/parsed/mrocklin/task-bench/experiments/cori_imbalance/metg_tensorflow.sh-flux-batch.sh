@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lamp-0182
+#FLUX --job-name=reclusive-animal-6007
 #FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'
 

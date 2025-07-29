@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cluster
-#FLUX: -c=4
-#FLUX: --queue=cs
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cluster
+#SBATCH --output=../dataset/output/cluster_moodys/shard_%A_%a.out
+#SBATCH --error=../dataset/output/cluster_moodys/shard_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=cs
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-3
 
 module purge
 singularity exec $nv \

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lettuce-0433
-#FLUX: -N=2
-#FLUX: -n=13
-#FLUX: --queue=fat_soil_shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=13
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=fat_soil_shared
 
 export PYTHONUNBUFFERED='1'
 

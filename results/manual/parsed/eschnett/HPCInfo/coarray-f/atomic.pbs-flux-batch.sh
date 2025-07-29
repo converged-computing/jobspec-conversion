@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-salad-9607
-#FLUX: --urgency=16
+#FLUX --job-name=purple-cherry-4244
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/eschnett/HPCInfo/coarray-f/atomic.pbs

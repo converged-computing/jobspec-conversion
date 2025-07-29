@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=solarRL
-#FLUX: -c=6
-#FLUX: -t=840
-#FLUX: --urgency=16
+#FLUX --job-name=solarRL
+#FLUX -c=6
+#FLUX -t=840
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

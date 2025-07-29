@@ -1,9 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=brvit
-#FLUX: -c=16
-#FLUX: --queue=dpart
-#FLUX: -t=129600
-#FLUX: --urgency=50
+#SBATCH --job-name=brvit
+#SBATCH --account=furongh
+#SBATCH --output=brvit.out
+#SBATCH --error=brvit.err
+#SBATCH --mail-user=pding@umd.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=dpart
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=1
 
 nvidia-smi
 module load cuda/11.3.1   

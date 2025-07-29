@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-3879
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 pipe="ATACseq"
 cwd=$1

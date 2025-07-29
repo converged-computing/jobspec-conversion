@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPCG_cpu
-#FLUX: -N=2
+#FLUX --job-name=HPCG_cpu
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#FLUX --queue=general
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

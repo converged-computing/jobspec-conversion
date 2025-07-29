@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=A300K_6_Simple
-#FLUX: -c=10
-#FLUX: --queue=gpusmall
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=A300K_6_Simple
+#SBATCH --account=project_2001083
+#SBATCH --output=out/fasttest.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64000
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpusmall
 
 export PATH='/scratch/project_2001083/sanchit/xc/bin:$PATH'
 export PYTHONUSERBASE='/scratch/project_2001083/sanchit/xc/myenv'

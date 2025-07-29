@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold-reference
-#FLUX: -N=16
+#FLUX --job-name=mlperf-hpc:openfold-reference
+#FLUX -N=16
 #FLUX: --exclusive
-#FLUX: -t=8100
-#FLUX: --urgency=16
+#FLUX -t=8100
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DATESTAMP='$(date +"%y%m%d%H%M%S%N")'

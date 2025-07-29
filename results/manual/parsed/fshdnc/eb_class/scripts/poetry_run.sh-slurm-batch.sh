@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpusmall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=project_2004993
+#SBATCH --output=/scratch/project_2004993/li/eb_class/output/%j.out
+#SBATCH --error=/scratch/project_2004993/li/eb_class/output/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1,nvme:10
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpusmall
 
 export SING_IMAGE='/scratch/project_2004993/sifs/eb_class_latest.sif'
 

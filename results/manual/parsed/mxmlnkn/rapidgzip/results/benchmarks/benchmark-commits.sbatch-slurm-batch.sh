@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-9433
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=romeo
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=zihforschung
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=1972M
+#SBATCH --time=08:00:00
+#SBATCH --partition=romeo
+#SBATCH: --exclusive
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

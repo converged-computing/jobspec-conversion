@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milestoning
-#FLUX: -c=4
-#FLUX: --queue=free
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=milestoning
+#FLUX -c=4
+#FLUX --queue=free
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source env.sh
 cd equilibration

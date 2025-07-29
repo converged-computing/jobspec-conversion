@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wmpi
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=wmpi
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

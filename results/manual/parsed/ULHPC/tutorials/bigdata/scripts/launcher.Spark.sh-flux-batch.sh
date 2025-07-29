@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Spark
-#FLUX: -N=3
-#FLUX: -c=28
+#FLUX --job-name=Spark
+#FLUX -N=3
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export SPARK_HOME='$EBROOTSPARK'

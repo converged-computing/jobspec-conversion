@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-staircase-4647
-#FLUX: -c=16
-#FLUX: -t=1080000
-#FLUX: --urgency=16
+#FLUX --job-name=angry-arm-0714
+#FLUX -c=16
+#FLUX -t=1080000
+#FLUX --urgency=16
 
 n=$1
 start2=`date +%s`

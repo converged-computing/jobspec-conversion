@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xspecfem3D
-#FLUX: -N=2
-#FLUX: -n=144
-#FLUX: --queue=nesi_research
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=xspecfem3D
+#SBATCH --account=nesi00263
+#SBATCH --output=specfem3D_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=nesi_research
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

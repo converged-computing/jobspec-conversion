@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=emodel1_jester
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=emodel1_jester
+#SBATCH --output=eccv_model1_%j.log
+#SBATCH --error=eccv_model1_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=128000M
+#SBATCH --time=1-00:00:00
 
 export DATA_ROOT='$TMPFS/20bn-jester'
 

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-butter-1071
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=cscsci
+#SBATCH --constraint=mc,ntasks-per-node=4
 
 export PATH='/project/cray/alazzaro/cmake/bin:$PATH'
 

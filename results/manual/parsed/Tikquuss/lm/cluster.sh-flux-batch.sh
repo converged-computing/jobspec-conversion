@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=KABROLG
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=KABROLG
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load cuda/10.1
 source ../lm/bin/activate

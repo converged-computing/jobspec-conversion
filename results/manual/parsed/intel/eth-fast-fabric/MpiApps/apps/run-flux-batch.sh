@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-despacito-9955
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-rabbit-6636
+#FLUX --urgency=16
 
 MPICH_PREFIX=${MPICH_PREFIX:-`cat .prefix 2>/dev/null`}
 trap "exit 1" SIGHUP SIGTERM SIGINT

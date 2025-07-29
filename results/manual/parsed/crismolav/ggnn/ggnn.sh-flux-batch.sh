@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=task1
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=task1
+#FLUX --queue=high
+#FLUX --urgency=16
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'
 

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=GMX
-#FLUX: -N=4
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=GMX
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 

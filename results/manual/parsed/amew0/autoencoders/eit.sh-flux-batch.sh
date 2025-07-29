@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=img-auto-vscode
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=img-auto-vscode
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 path="./output/img/imgs-"
 j=$SLURM_JOB_ID

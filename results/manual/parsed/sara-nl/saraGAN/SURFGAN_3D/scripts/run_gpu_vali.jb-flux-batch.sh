@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=confused-buttface-5402
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-mango-9783
+#FLUX -N=4
+#FLUX -n=16
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='6'
 export PATH='/sw/arch/Debian9/EB_production/2019/software/CUDA/10.0.130/:$PATH'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=exp
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=benchmark
-#FLUX: --urgency=16
+#SBATCH --job-name=exp
+#SBATCH --output=LOG-%j-%x.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=benchmark
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --nodelist=compute-107,compute-108
 
 mpirun \
     --map-by ppr:8:node \

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=36
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=example
+#FLUX -c=36
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export TMPDIR='$(mktemp -d --tmpdir="$SCRATCH") || exit 1'
 

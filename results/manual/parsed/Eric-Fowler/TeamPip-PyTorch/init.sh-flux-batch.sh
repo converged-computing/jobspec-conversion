@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-platanos-5931
-#FLUX: --queue=True
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-pastry-9504
+#FLUX --queue=True
+#FLUX -t=36000
+#FLUX --urgency=16
 
 echo 'Creating New Project'
 echo ''

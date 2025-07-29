@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-train-0545
-#FLUX: --queue=paula-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=10:00:00
+#SBATCH --partition=paula-gpu
 
 module load matplotlib
 pip install --upgrade pip

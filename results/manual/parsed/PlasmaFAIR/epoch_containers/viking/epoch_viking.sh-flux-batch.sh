@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=epoch
-#FLUX: --queue=nodes
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=epoch
+#FLUX --queue=nodes
+#FLUX -t=60
+#FLUX --urgency=16
 
 method="Singularity"
 output_dir="."

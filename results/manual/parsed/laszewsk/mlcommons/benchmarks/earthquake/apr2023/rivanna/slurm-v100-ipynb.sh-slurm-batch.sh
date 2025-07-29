@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=earthquake-2
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=earthquake-2
+#SBATCH --account=comp4gc
+#SBATCH --output=%u-%j-v100.out
+#SBATCH --error=%u-%j-v100.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=bii-gpu
 
 hostname
 echo "SLURM_CPUS_ON_NODE: $SLURM_CPUS_ON_NODE"

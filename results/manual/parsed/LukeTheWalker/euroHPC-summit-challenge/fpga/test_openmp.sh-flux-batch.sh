@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-banana-8424
-#FLUX: -c=256
-#FLUX: --queue=cpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=blue-general-2212
+#FLUX -c=256
+#FLUX --queue=cpu
+#FLUX -t=180
+#FLUX --urgency=16
 
 module load ifpgasdk && module load 520nmx && module load CMake && module load intel && module load deploy/EasyBuild
 cd build

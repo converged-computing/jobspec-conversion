@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-house-1828
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-soup-9226
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module load daint-gpu
 module load cray-python

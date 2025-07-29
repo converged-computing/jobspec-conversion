@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bike-7972
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
+#SBATCH --array=6-7%8
 
 C4_PATH=$1
 srun --container-image nvcr.io/nvidia/pytorch:21.12-py3 \

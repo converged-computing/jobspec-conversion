@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vQTL
-#FLUX: --urgency=16
+#SBATCH --job-name=vQTL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
+#SBATCH --array=1-22:1
 
 echo "Activating environment..."
 source activate vQTL

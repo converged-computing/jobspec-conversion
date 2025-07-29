@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cherry-7300
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
 
 export PMIX_MCA_gds='hash'
 

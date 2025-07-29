@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rot
-#FLUX: -n=48
-#FLUX: --queue=skx-normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=rot
+#FLUX -n=48
+#FLUX --queue=skx-normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SegFo_B5_gta-train_base_encoder-soup_d
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=SegFo_B5_gta-train_base_encoder-soup_d
+#FLUX -c=2
+#FLUX --queue=gpu,gpub
+#FLUX -t=604800
+#FLUX --urgency=16
 
 max_iters=40000
 main_config="./local_configs/segformer/B5/segformer.b5.512x512.gta2cs.40k.batch2.py"

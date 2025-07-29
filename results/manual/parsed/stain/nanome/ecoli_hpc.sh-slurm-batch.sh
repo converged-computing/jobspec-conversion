@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nanome.ecoli_demo_hpc
-#FLUX: -n=4
-#FLUX: --queue=inference
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nanome.ecoli_demo_hpc
+#SBATCH --output=log/%x.%j.log
+#SBATCH --mail-user=yang.liu@jax.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=12G
+#SBATCH --time=02:00:00
+#SBATCH --partition=inference
 
 set -e
 date; hostname; pwd

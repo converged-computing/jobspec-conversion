@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nucl_hrex
-#FLUX: --queue=yethiraj
-#FLUX: --urgency=16
+#SBATCH --job-name=nucl_hrex
+#SBATCH --output=JOB.%J.out
+#SBATCH --error=JOB.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=yethiraj
 
 export spack_root='/home/ajay/software/spack'
 export GMX_MAXBACKUP='-1'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=transdecoder_downstream
-#FLUX: -n=32
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=transdecoder_downstream
+#SBATCH --output=%x.out
+#SBATCH --error=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=12:00:00
+#SBATCH --partition=batch
+#SBATCH --chdir=/projects/dveiga/analysis/git/BRCA_isoforms/transdecoder_globalAlignment
 
 set -u
 dir_r=/projects/banchereau-lab/tools/3_4_4/bin

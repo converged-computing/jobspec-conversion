@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ACES_CS21_analysis
-#FLUX: -n=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=ACES_CS21_analysis
+#FLUX -n=64
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export USE_DASK='True'
 

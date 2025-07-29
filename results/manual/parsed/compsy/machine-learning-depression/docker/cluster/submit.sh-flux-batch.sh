@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=python_cpu
-#FLUX: -N=30
-#FLUX: -c=23
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=python_cpu
+#FLUX -N=30
+#FLUX -c=23
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MPLBACKEND='agg'
 export OMP_NUM_THREADS='23'

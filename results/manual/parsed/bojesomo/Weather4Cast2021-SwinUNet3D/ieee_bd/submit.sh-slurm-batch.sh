@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ibd4
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ibd4
+#SBATCH --account=kuex0005
+#SBATCH --output=ibd4.%j.out
+#SBATCH --error=ibd4.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load cuda/11.3 miniconda/3 gcc/9.3

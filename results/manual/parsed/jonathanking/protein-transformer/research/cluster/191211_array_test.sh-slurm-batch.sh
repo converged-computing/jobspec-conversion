@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=array_test
-#FLUX: -c=4
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=array_test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10g
 
 export PATH='/opt/anaconda3/bin:$PATH'
 export LD_LIBRARY_PATH='LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64/'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-carrot-8393
-#FLUX: -N=4
-#FLUX: -n=64
+#FLUX --job-name=hairy-butter-7290
+#FLUX -N=4
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=serc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 MATSIZE=20240
 echo;

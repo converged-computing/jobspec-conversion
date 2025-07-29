@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-frito-0945
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-salad-0469
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yasahi-hpc/P3-miniapps/wk/sub_stdpar_heat3d_mpi_V100_RDMA_CUDA.sh

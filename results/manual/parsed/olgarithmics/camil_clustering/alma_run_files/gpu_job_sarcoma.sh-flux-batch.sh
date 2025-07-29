@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu
-#FLUX: -c=10
-#FLUX: --queue=gpuhm
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=test_gpu
+#FLUX -c=10
+#FLUX --queue=gpuhm
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

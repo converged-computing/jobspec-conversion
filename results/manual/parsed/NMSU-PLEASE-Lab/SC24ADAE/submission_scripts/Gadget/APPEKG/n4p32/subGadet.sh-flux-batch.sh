@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Gadget-CLEAN
-#FLUX: -N=4
+#FLUX --job-name=Gadget-CLEAN
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=wholenode
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=wholenode
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/apps/spack/anvil/apps/fftw/2.1.5-gcc-8.4.1-cac36sv/lib'
 

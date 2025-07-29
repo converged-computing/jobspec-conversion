@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pedo-9250
-#FLUX: --queue=train
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-lizard-0202
+#FLUX --queue=train
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 for i in 1 2 3 4 5
 do

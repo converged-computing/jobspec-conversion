@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SNAP_runh0064
-#FLUX: -N=2
-#FLUX: --queue=standard
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=SNAP_runh0064
+#FLUX -N=2
+#FLUX --queue=standard
+#FLUX -t=10800
+#FLUX --urgency=16
 
 source $HOME/telegraf_run_chicoma.sh
 date;hostname;pwd

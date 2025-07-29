@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-eagle-0254
-#FLUX: --queue=gpu20
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=<absolute-path-to-code>/slurmlogs/%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu20
+#SBATCH --array=1-5%1
 
 echo "$SLURM_JOB_ID" > "$SLURM_JOB_ID"
 eval "$(conda shell.bash hook)"

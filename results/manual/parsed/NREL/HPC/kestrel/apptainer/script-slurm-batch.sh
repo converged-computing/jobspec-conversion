@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=apptainer
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=apptainer
+#SBATCH --output=apptainer.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export STARTDIR='`pwd`'
 export CDIR='/nopt/nrel/apps/software/apptainer/1.1.9/examples'

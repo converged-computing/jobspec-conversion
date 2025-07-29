@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-malarkey-1066
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-platanos-8498
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/lib/python3.10/site-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}'
 export PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/bin/:$PATH'

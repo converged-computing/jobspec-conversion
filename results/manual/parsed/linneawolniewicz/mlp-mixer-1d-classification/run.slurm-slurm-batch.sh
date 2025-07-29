@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=optuna_mlp_mixer
-#FLUX: -c=8
-#FLUX: --queue=koa
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=optuna_mlp_mixer
+#SBATCH --account=koa
+#SBATCH --output=logs/slurm_output/job-%A.out
+#SBATCH --mail-user=linneamw@hawaii.edu
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=156gb
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=koa
 
 source ~/profiles/auto.profile
 source activate pytorch

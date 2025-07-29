@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cnnf
-#FLUX: -c=6
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --job-name=cnnf
+#SBATCH --output=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train/20231208/b/slurm.log
+#SBATCH --error=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train/20231208/b/slurm_error.log
+#SBATCH --mail-user=seth.bryant@gfz-potsdam.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=30G
+#SBATCH --time=02:10:00
 
 base_dir=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train_data/20231208
 out_dir=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train/20231208/b

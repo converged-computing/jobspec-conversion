@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gkyl
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gkyl
+#SBATCH --mail-user=jdoe@msn.com
+#SBATCH --mail-type=END,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=00:30:00
+#SBATCH --qos=pppl-short
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'
 

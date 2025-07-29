@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cattywampus-0871
-#FLUX: --queue=Teach-Standard
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-citrus-1331
+#FLUX --queue=Teach-Standard
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

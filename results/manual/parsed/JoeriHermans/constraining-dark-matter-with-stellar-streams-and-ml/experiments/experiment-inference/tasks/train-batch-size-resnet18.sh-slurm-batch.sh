@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_TRAIN_BATCH_SIZE_RESNET18
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_INFERENCE_TRAIN_BATCH_SIZE_RESNET18
+#SBATCH --output=logging/train_batch_size_resnet18_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5000
+#SBATCH --time=7-00:00:00
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 out=$BASE/out/batch-size/$EXPERIMENT_TASK_BATCH_SIZE/marginalized/$EXPERIMENT_ACTIVATION/ratio-estimator-resnet-18-$EXPERIMENT_TASK_EPOCHS-dropout-$EXPERIMENT_DROPOUT-wd-$EXPERIMENT_WEIGHT_DECAY-batchnorm-$EXPERIMENT_TASK_BATCHNORM-$suffix

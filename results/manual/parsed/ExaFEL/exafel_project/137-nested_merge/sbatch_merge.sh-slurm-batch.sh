@@ -1,14 +1,25 @@
 #!/bin/bash
-#FLUX: --job-name=merge_phase1_<tag_template>
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=merge_phase1_<tag_template>
+#SBATCH --account=lcls
+#SBATCH --output=1node_<tag_template>.log
+#SBATCH --error=1node_<tag_template>.err
+#SBATCH --mail-user=loriordan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export TARDATA='$DW_JOB_STRIPED/subsel/*.tar'
 export MERGE_ROOT='$DW_JOB_STRIPED/merge_multi'
 export TAG='1n_merge_<tag_template>'
 export MULTINODE='False'
 
+singularity
+exec
+docker:mlxd/xfel:latest
 cd $1
 mkdir $DW_JOB_STRIPED/subsel
 for ii in $(ls $DW_JOB_STRIPED/TAR_95-114/<glob_template>);

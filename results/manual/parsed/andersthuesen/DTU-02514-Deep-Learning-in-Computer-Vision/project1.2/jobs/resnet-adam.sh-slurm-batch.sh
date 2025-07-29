@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chair-9597
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/andersthuesen/DTU-02514-Deep-Learning-in-Computer-Vision/project1.2/jobs/resnet-adam.sh

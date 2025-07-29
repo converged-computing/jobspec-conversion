@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milky-soup-1350
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=outfile
+#SBATCH --error=errfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=a100:1
+#SBATCH --mem=8gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 echo wassup
 nvidia-smi

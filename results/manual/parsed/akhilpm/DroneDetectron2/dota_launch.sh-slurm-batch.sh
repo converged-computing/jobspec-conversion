@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dota_train
-#FLUX: -c=4
-#FLUX: -t=35400
-#FLUX: --urgency=16
+#SBATCH --job-name=dota_train
+#SBATCH --account=def-mpederso
+#SBATCH --output=dota_train-%J.out
+#SBATCH --mail-user=akhilpm135@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=09:50:00
 
 module load gcc python cuda/11.4 opencv/4.5.5
 source ~/envs/detectron2/bin/activate

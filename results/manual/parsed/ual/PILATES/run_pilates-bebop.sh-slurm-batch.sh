@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=land_use
-#FLUX: --queue=bdwall
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=land_use
+#SBATCH --account=POLARIS
+#SBATCH --mail-user=jauld@anl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=bdwall
 
 set -eu
 main() {

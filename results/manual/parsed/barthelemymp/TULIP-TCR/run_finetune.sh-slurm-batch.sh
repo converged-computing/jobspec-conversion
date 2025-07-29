@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=3
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --output=ft.out
+#SBATCH --error=ft.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:50:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_MODE='offline'
 

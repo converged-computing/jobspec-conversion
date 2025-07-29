@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_kernelfit
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline_kernelfit
+#FLUX -n=2
+#FLUX --queue=shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-platanos-5354
-#FLUX: -c=12
-#FLUX: --queue=ccr
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --mail-user=capaldobj@nih.gov
+#SBATCH --mail-type=BEGIN,TIME_LIMIT_90,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ccr
 
 module purge
 module load nextflow

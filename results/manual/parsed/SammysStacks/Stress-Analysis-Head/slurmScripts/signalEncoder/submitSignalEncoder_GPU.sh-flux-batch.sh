@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lizard-8047
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-puppy-7900
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'
 

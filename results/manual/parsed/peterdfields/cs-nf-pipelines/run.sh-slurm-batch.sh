@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CS_nextflow_example
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CS_nextflow_example
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 module use --append /projects/omics_share/meta/modules

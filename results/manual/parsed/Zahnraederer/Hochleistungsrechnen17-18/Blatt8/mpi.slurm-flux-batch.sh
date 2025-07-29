@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-signal-9927
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --queue=west
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=red-lamp-3147
+#FLUX -N=3
+#FLUX -n=3
+#FLUX --queue=west
+#FLUX -t=60
+#FLUX --urgency=16
 
 . /etc/profile.d/wr-spack.sh
 spack load --dependencies mpi

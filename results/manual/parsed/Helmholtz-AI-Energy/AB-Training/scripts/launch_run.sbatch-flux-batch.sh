@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=madonna
-#FLUX: -N=4
-#FLUX: --queue=accelerated
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=madonna
+#FLUX -N=4
+#FLUX --queue=accelerated
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export EXT_DATA_PREFIX='/hkfs/home/dataset/datasets/'
 export TOMOUNT='${TOMOUNT}'

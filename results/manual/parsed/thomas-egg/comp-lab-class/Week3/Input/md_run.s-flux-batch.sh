@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=md_run
-#FLUX: -c=12
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=md_run
+#FLUX -c=12
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load gromacs/openmpi/intel/2020.4

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tag_struc2vec
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: --queue=cpuonly
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=tag_struc2vec
+#FLUX -N=2
+#FLUX -n=20
+#FLUX --queue=cpuonly
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /hkfs/home/project/hk-project-test-p0021478/cc7738/anaconda3/etc/profile.d/conda.sh
 conda activate base

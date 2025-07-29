@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ghais_rna_seq
-#FLUX: --queue=batch
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=ghais_rna_seq
+#FLUX --queue=batch
+#FLUX -t=82800
+#FLUX --urgency=16
 
 SNK_DIR="/hpcfs/users/a1667917/Ghais/Rat_RNA_Seq/Nanopore_RNA_Seq_cdna_Pipeline"
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"

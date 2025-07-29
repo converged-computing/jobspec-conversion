@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Root
-#FLUX: --queue=shortq
-#FLUX: --urgency=16
+#SBATCH --job-name=Root
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=shortq
 
 export WORK_DIR='/data/$USER/root_$SLURM_JOB_ID'
 export INPUT_DIR='$PWD/hist'

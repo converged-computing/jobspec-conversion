@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sweep
-#FLUX: -c=16
-#FLUX: --queue=gpuA40x4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sweep
+#FLUX -c=16
+#FLUX --queue=gpuA40x4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'
 

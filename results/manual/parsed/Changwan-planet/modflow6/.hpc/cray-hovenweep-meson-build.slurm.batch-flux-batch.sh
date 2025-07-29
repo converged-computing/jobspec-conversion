@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hovenweep-build
-#FLUX: -n=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=hovenweep-build
+#FLUX -n=2
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PKG_CONFIG_PATH='$CRAY_MPICH_DIR/lib/pkgconfig:$PKG_CONFIG_PATH'
 

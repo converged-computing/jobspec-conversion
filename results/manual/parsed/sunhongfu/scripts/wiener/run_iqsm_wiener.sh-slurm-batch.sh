@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PA_TI
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=PA_TI
+#SBATCH --output=iqsm_hand.out
+#SBATCH --error=iqsm_hand.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-smx2:1
+#SBATCH --mem=10000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate pytorch_1.7

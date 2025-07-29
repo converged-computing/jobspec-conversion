@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-eagle-9170
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8gb
+#SBATCH --time=02:00:00
 
 module load python/3.9.4
 module load pytorch/1.8.1-py39-cuda112

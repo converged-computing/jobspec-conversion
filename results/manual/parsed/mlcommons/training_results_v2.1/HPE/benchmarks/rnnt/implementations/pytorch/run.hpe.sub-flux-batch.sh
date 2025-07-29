@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MLPerf21-rnnt
-#FLUX: -c=8
+#FLUX --job-name=MLPerf21-rnnt
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: --urgency=16
+#FLUX --queue=mlperf
+#FLUX --urgency=16
 
 export LOGDIR='${curDir}/logs/${SLURM_JOB_ID} #/lvol/logs/shm2'
 export WORLD_SIZE='${SLURM_NPROCS}'

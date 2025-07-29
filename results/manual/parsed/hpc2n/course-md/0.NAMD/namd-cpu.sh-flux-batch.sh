@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bicycle-2587
-#FLUX: -n=28
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-plant-3767
+#FLUX -n=28
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

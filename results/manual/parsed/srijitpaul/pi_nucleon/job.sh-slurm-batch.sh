@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-soup-9460
-#FLUX: -N=24
-#FLUX: -n=768
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --mail-user=s.paul@cyi.ac.cy
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=24
+#SBATCH --ntasks=768
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
 
 module load autohbw/default
 module swap craype-haswell craype-mic-knl

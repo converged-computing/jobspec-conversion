@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=echo
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=echo
+#SBATCH --account=<yourProject>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
 
 module purge
 module load slurm_setup

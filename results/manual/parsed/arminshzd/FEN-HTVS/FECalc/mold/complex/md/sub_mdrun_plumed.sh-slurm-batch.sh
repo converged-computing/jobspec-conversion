@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-3914
-#FLUX: -c=5
-#FLUX: --queue=gm4-pmext
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --output=R_%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gm4-pmext
+#SBATCH --qos=gm4
+#SBATCH --constraint=ntasks-per-node=4
 
 NCPU=$(($SLURM_NTASKS_PER_NODE))
 NTHR=$(($SLURM_CPUS_PER_TASK))

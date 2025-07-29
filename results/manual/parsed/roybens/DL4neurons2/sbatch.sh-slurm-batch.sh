@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=izhi
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=izhi
+#SBATCH --output=/global/cscratch1/sd/vbaratha/izhi/runs/slurm/%A_%a.out
+#SBATCH --error=/global/cscratch1/sd/vbaratha/izhi/runs/slurm/%A_%a.err
+#SBATCH --mail-user=vbaratham@berkeley.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --array=1-2
+#SBATCH --licenses=SCRATCH,project
 
 cd /global/cscratch1/sd/vbaratha/izhi
 MODELNAME=hh_ball_stick_9param

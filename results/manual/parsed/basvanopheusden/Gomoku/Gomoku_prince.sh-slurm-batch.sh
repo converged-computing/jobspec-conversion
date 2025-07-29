@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Gomoku
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Gomoku
+#SBATCH --output=Gomoku_%j.out
+#SBATCH --mail-user=gvg218@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=6GB
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-199
 
 export MATLABPATH='$MATLABPATH:$SCRATCH/Gomoku/Code:$SCRATCH/Gomoku/Code/mcs:$SCRATCH/Gomoku/Code/mcs/gls:$SCRATCH/Gomoku/Code/mcs/minq5:$direc'
 

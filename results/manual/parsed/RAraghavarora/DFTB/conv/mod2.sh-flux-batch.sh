@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nn-dftb-ra
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=nn-dftb-ra
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=gpu2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

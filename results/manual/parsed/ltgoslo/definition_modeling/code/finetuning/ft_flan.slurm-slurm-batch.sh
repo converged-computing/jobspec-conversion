@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=flan_t5_finetuning
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=flan_t5_finetuning
+#SBATCH --account=ec30
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=2
+#SBATCH --mem=8G
+#SBATCH --time=09:00:00
+#SBATCH --partition=accel
 
 source ${HOME}/.bashrc
 module purge

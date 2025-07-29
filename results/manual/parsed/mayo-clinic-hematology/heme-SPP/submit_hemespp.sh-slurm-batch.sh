@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mcmicro_SMM_multisample
-#FLUX: --queue=cpu-short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mcmicro_SMM_multisample
+#SBATCH --output=mcmicro-%J.log
+#SBATCH --mail-user=howe.michael@mayo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
+#SBATCH --partition=cpu-short
+#SBATCH --chdir=/research/labs/hematology/hemedata/m302618/projects/spatial/cdx_pipeline_mforge/MCMICRO/
 
 export NXF_APPTAINER_CACHEDIR='/research/labs/hematology/hemedata/m302618/apptainer/containers'
 

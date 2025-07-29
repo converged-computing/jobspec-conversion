@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-6197
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-despacito-6282
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 IMG=/home/software/singularity/tf-2.14.0.simg
 cd ~/particleflow

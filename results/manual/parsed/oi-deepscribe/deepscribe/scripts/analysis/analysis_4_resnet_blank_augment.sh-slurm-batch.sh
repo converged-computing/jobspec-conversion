@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-noodle-3410
-#FLUX: --queue=gpu2
-#FLUX: --urgency=16
+#SBATCH --output=slogs/confusion-4-resnet-%j.out
+#SBATCH --error=slogs/confusion-4-resnet-%j.err
+#SBATCH --mail-user=eddiecwilliams@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --partition=gpu2
 
 module load cuda/9.1
 SIGNS='["na","HAL","iš","MEŠ"]'

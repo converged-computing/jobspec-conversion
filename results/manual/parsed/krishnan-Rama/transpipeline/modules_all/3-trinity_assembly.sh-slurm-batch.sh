@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Gbull
-#FLUX: -c=64
-#FLUX: --queue=jumbo
-#FLUX: --urgency=16
+#SBATCH --job-name=Gbull
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=300000
+#SBATCH --partition=jumbo
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

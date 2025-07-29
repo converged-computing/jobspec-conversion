@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=merge_bam
-#FLUX: -c=25
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=merge_bam
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-merge_bam-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=25
+#SBATCH --mem=100G
+#SBATCH --time=03:00:00
 
 DESCRIPTION="Merge BAM files and sort the output BAM file"
 SCRIPT_VERSION="2023-12-06"

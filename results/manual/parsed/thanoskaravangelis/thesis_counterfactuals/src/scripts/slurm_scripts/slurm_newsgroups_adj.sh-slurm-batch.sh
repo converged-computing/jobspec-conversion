@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=adj_newsgroups_run_gradient
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=adj_newsgroups_run_gradient
+#SBATCH --account=pa210503
+#SBATCH --output=runs/outputs/adj_newsgroups_run.out.log
+#SBATCH --error=runs/errors/adj_newsgroups_run.error.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=56G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /users/pa21/ptzouv/tkaravangelis/mice_newsgroups
 module purge

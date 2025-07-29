@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dmd
-#FLUX: -c=30
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=dmd
+#FLUX -c=30
+#FLUX --queue=all
+#FLUX --urgency=16
 
 module load singularity/3.5.3
 SING_IMG='/database/hub/SINGULARITY_GALAXY/diamond:2.1.7--h5b5514e_0'

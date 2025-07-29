@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HPL
-#FLUX: --queue=tjet,ujet,sjet,vjet,xjet,kjet
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=HPL
+#FLUX --queue=tjet,ujet,sjet,vjet,xjet,kjet
+#FLUX -t=10800
+#FLUX --urgency=16
 
 date
 echo "host name is `hostname` : $SLURM_ARRAY_TASK_ID gages_ids_nodes.txt fort.14"

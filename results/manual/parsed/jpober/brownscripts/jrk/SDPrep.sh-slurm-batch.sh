@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FHDPrep
-#FLUX: -n=2
-#FLUX: --queue=jpober-test
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=FHDPrep
+#SBATCH --output=SlurmOut/Prep_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=01:00:00
+#SBATCH --partition=jpober-test
+#SBATCH --array=0-68:1
 
 source activate PAPER
 PSA64Obs='/users/jkerriga/data/jkerriga/PSA64SingleDay'

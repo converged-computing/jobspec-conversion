@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cinnamonbun-8232
-#FLUX: --queue=gpu22
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-animal-5585
+#FLUX --queue=gpu22
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "$SLURM_JOB_ID" > "$SLURM_JOB_ID"
 eval "$(conda shell.bash hook)"

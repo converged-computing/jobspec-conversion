@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train_baseline
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_baseline
+#SBATCH --output=../../jobs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6000:1
+#SBATCH --time=12:00:00
 
 nvidia-smi
 localhost=$RANDOM

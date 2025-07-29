@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pyt_train_both
-#FLUX: --queue=gpu-a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pyt_train_both
+#SBATCH --account=OTH21021
+#SBATCH --output=pyt_train_both.o%j
+#SBATCH --error=pyt_train_both.e%j
+#SBATCH --mail-user=jvantassel@tacc.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-a100
 
 set -e
 cd ..

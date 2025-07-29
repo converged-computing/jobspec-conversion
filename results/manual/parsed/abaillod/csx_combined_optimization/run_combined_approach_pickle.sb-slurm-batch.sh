@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CSX
-#FLUX: -t=87839
-#FLUX: --urgency=16
+#SBATCH --job-name=CSX
+#SBATCH --account=apam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:23:59
+#SBATCH --constraint=ntasks-per-node=32
 
 source ~/.bashrc
 conda activate simsopt

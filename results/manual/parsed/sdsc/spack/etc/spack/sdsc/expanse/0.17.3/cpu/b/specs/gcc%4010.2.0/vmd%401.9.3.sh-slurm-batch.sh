@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vmd@1.9.3
-#FLUX: -c=16
-#FLUX: --queue=ind-shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=vmd@1.9.3
+#SBATCH --account=use300
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
+#SBATCH --partition=ind-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

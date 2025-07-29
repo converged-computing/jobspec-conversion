@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=features
-#FLUX: -c=6
-#FLUX: --queue=cbio-gpu
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#FLUX --job-name=features
+#FLUX -c=6
+#FLUX --queue=cbio-gpu
+#FLUX -t=6000
+#FLUX --urgency=16
 
 echo 'Running train_clf.sh...'
 echo "SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID

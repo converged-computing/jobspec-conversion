@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-sundae-4280
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-diablo-3906
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/takosa/masterthesis/run.sh

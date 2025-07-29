@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-nalgas-7574
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --account=project_2009056
+#SBATCH --mail-user=pytorchregisterlabeling@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
 
 if [[ -z "$SLURM_JOB_ID" ]]; then
   PARTITION="gpusmall"

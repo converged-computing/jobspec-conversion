@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-banana-6213
-#FLUX: --queue=all
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=logs/cnn_step1_check_%j.out
+#SBATCH --error=logs/cnn_step1_check_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --time=00:10:00
+#SBATCH --partition=all
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

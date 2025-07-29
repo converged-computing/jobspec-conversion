@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sleep
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=sleep
+#SBATCH --output=out.sleep.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=normal
 
 module purge
 module ohpc

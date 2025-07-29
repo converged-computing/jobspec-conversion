@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=AcTh_Training
-#FLUX: -c=2
-#FLUX: --queue=gpu_4_a100
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=AcTh_Training
+#FLUX -c=2
+#FLUX --queue=gpu_4_a100
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge                                       # Unload all currently loaded modules.
 module load devel/cuda/11.8

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=select_variants
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=select_variants
+#SBATCH --account=hpc_p_anderson
+#SBATCH --output=%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=skylake
 
 module load nixpkgs/16.09 
 module load gcc/5.4.0

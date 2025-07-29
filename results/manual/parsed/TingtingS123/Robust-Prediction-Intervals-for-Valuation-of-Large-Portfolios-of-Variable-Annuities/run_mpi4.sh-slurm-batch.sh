@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bootstrap
-#FLUX: -N=4
-#FLUX: -n=10
-#FLUX: --queue=research
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=bootstrap
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=research
 
 module purge  # Clears all loaded modules for a clean environment.
 module load prun

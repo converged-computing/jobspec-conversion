@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=openmm_cg_cuda
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=openmm_cg_cuda
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 whoami
 id -a

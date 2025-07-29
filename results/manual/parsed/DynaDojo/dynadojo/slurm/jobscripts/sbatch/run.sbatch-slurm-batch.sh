@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dynadojo_run
-#FLUX: -t=150
-#FLUX: --urgency=16
+#SBATCH --job-name=dynadojo_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=00:02:30
+#SBATCH --array=1-500%100
 
 PARAMS_FILE=$1
 JOBS=$2 #default to None if not provided

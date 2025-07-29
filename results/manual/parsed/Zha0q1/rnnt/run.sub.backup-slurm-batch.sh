@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rnn_speech_recognition
-#FLUX: --urgency=16
+#SBATCH --job-name=rnn_speech_recognition
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-buttface-5234
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pot-0483
-#FLUX: -c=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#SBATCH --output=slurm_output/slurm.%N.%j.out
+#SBATCH --error=slurm_output/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:01:00
+#SBATCH --partition=dgx2q
 
 ulimit -s 10240
 mkdir -p ~/output/g001

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hobbit-2027
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/ST_Cylinder_3D/logs/run_val_wod_f3_3_v3_2_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=40G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdgpufast
+#SBATCH --constraint=ntasks-per-node=3
 
 export NCCL_LL_THRESHOLD='0'
 

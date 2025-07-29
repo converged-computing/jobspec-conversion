@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pastry-4223
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-platanos-9464
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UoB-HPC/benchmarks/gromacs/bdw22-swan/scale.job

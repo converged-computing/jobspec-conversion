@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=misTreat
-#FLUX: -n=160
-#FLUX: --queue=mpi
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=misTreat
+#SBATCH --error=misTreat.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=mpi
+#SBATCH --array=18
 
 ulimit -l unlimited
 module load gcc/6.2.0 R/4.0.1

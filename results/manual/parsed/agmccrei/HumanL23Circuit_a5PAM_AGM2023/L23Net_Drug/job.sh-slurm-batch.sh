@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=LFPy Circuit
-#FLUX: -N=10
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=LFPy Circuit
+#SBATCH --account=rrg-etayhay
+#SBATCH --output=output.out
+#SBATCH --error=error.out
+#SBATCH --mail-user=agmccrei@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --constraint=ntasks-per-node=40
 
 module load NiaEnv/2018a
 module load intel/2018.2

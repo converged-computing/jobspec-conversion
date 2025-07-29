@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=emb_train_multi_gpu
-#FLUX: --queue=allgroups
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=emb_train_multi_gpu
+#FLUX --queue=allgroups
+#FLUX -t=432000
+#FLUX --urgency=16
 
 work_dir="/home/girottopie/Code/mr_white_game"
 dataset_name="it_20M_lines_polished"

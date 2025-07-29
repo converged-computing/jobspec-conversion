@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kerfuffle-2125
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=sparse-barrier-%j.out
+#SBATCH --error=sparse-barrier-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
 
 source ./open_lth/slurm-setup.sh cifar10
 CKPT_ROOT=$HOME/scratch/open_lth_data/

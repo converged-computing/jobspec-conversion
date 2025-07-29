@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-knife-6617
-#FLUX: -N=4
+#FLUX --job-name=bloated-chair-0943
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export COMMIT_HASH='$1'
 export WD='$2'

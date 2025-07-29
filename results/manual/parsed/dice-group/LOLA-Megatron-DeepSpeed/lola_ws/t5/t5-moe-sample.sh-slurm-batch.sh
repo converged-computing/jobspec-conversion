@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=T5 - MoE Sample
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=T5 - MoE Sample
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

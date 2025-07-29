@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MCe2eAV
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=MCe2eAV
+#SBATCH --output=.logs/%A_%a.out
+#SBATCH --error=.logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=96GB
+#SBATCH --time=16:00:00
+#SBATCH --array=0
 
 echo `hostname`
 module load cuda/11.1.1

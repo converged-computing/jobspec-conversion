@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-buttface-0653
-#FLUX: -N=8
-#FLUX: --queue=epyc-64
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-poodle-9423
+#FLUX -N=8
+#FLUX --queue=epyc-64
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

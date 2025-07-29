@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=navigation-analysis-habitat
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=priority
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=navigation-analysis-habitat
+#SBATCH --output=/checkpoint/%u/jobs/job.%j.out
+#SBATCH --error=/checkpoint/%u/jobs/job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=priority
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'
 export GLOG_minloglevel='3'

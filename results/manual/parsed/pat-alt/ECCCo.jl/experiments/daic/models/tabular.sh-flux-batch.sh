@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Train Tabular (ECCCo)
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=general
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=Train Tabular (ECCCo)
+#FLUX --gpus-per-task=1
+#FLUX --queue=general
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

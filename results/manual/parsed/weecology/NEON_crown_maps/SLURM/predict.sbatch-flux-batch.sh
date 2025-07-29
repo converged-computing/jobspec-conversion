@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DeepForest
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=DeepForest
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export SLURM_TMPDIR='/orange/idtrees-collab/tmp/'
 export TMPDIR='/orange/idtrees-collab/tmp/'

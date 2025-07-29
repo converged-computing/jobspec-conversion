@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=T5 - MoE Sample
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=T5 - MoE Sample
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

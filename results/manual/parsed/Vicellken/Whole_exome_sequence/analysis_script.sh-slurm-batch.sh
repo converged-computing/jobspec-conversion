@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pancake-9238
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Vicellken/Whole_exome_sequence/analysis_script.sh

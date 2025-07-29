@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PLUTO
-#FLUX: --queue=qcpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=PLUTO
+#SBATCH --account=FTA-23-25
+#SBATCH --mail-user=m.mencagli@cineca.it
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=qcpu
+#SBATCH --constraint=ntasks-per-node=128
 
 source ${HOME}/modules_files/pluto_mod
 cd ${HOME}/programming/gpluto_from_leo/Test_Problems/MHD/Orszag_Tang

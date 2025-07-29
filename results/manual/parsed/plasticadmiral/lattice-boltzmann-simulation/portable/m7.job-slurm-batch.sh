@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hpc
-#FLUX: -N=90
-#FLUX: --queue=multiple
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpc
+#SBATCH --output=output.out
+#SBATCH --nodes=90
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=multiple
+#SBATCH --constraint=ntasks-per-node=40
 
 module load devel/python/3.8.6_gnu_10.2
 module load mpi/openmpi/4.1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poo-3025
+#FLUX --job-name=psycho-chair-8350
 #FLUX: --exclusive
-#FLUX: --queue=t4_dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --queue=t4_dev_q
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_NUM_THREADS='32'

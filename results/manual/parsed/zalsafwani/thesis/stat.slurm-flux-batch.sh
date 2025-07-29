@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stat_analysis
-#FLUX: --queue=batch,guest
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=stat_analysis
+#FLUX --queue=batch,guest
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load qiime2/2022.2
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis

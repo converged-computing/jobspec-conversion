@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=athenapk_gpu
-#FLUX: --exclusive
-#FLUX: --queue=kurruf_gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=athenapk_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=90G
+#SBATCH --partition=kurruf_gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_VISIBLE_DEVICES='3'
 

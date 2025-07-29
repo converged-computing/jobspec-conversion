@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hippo-4492
-#FLUX: -N=3
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --output=R-cam16.out
+#SBATCH --error=R-cam16.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpu_titanrtx
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

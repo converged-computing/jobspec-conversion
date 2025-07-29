@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=predictvisits_bootstrap_${race}_${originmode}
-#FLUX: --queue=bigmem2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=predictvisits_bootstrap_${race}_${originmode}
+#SBATCH --output=slurmlogs/predictvisits_bootstrap_${race}_${originmode}_job_%A_%a.out
+#SBATCH --error=slurmlogs/predictvisits_bootstrap_${race}_${originmode}_job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5g
+#SBATCH --time=10:00:00
+#SBATCH --partition=bigmem2
+#SBATCH --constraint=ntasks-per-node=27
+#SBATCH --array=${i}
 
 for originmode in mainspec mintime
 do

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=poc-llama7b
-#FLUX: -c=8
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=poc-llama7b
+#FLUX -c=8
+#FLUX --queue=gpu-preempt
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load miniconda/22.11.1-1
 module load gcc/11.2.0

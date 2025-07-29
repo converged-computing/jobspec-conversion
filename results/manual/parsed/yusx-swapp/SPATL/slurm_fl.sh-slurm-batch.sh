@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=multi-head fl
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=151200
-#FLUX: --urgency=16
+#SBATCH --job-name=multi-head fl
+#SBATCH --output=notran_50clients.%J.out
+#SBATCH --error=notran_50clients.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=1-18:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=frost-6
 
 cd /work/LAS/jannesar-lab/yusx/MHFL
 source /work/LAS/jannesar-lab/yusx/anaconda3/bin/activate /work/LAS/jannesar-lab/yusx/anaconda3/envs/mhfl

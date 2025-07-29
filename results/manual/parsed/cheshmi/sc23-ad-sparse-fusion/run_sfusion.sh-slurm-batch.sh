@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fusion
-#FLUX: --queue=skx-normal
-#FLUX: -t=39605
-#FLUX: --urgency=16
+#SBATCH --job-name=fusion
+#SBATCH --output=fusion_gs.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=11:00:05
+#SBATCH --partition=skx-normal
 
 export OMP_NUM_THREADS='20'
 

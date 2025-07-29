@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet.Keras
-#FLUX: --urgency=16
+#FLUX --job-name=ImageNet.Keras
+#FLUX --urgency=16
 
 train_batch=128
 nodes=1

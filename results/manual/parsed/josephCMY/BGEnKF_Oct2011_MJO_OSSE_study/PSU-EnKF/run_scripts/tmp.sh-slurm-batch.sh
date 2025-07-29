@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CTRL
-#FLUX: -N=7
-#FLUX: -n=476
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CTRL
+#SBATCH --output=log.expt_CTRL
+#SBATCH --error=err.expt_CTRL
+#SBATCH --nodes=7
+#SBATCH --ntasks=476
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='cores'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=llm-attacks
-#FLUX: --queue=sail
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=llm-attacks
+#SBATCH --account=sail
+#SBATCH --output=gcg_multiple.out
+#SBATCH --error=gcg_multiple.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=sail
 
 module load gcc/9.2 cmake python3/3.10 cuda/11.7
 source ../../.venv/bin/activate

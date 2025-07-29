@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-1375
-#FLUX: --queue=RTXA6Kq
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=RTXA6Kq
+#SBATCH --nodelist=node09
 
 export CUDA_VISIBLE_DEVICES='2'
 

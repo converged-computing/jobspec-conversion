@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=madonna
-#FLUX: -N=4
-#FLUX: --queue=accelerated
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=madonna
+#SBATCH --account=hk-project-madonna
+#SBATCH --output=/hkfs/work/workspace/scratch/qv2382-madonna-ddp/madonna/logs/slurm/slurm-%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=05:00:00
+#SBATCH --partition=accelerated
+#SBATCH --constraint=ntasks-per-node=4
 
 export EXT_DATA_PREFIX='/hkfs/home/dataset/datasets/'
 export TOMOUNT='${TOMOUNT}'

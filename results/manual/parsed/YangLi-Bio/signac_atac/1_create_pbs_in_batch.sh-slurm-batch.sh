@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-6965
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/Signac
 data_list="../dataset_list.txt"

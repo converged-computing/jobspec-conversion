@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pairwise.l2.4.4e-5.1500
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pairwise.l2.4.4e-5.1500
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='${root}/pretrain_models/huggingface'
 export HF_DATASETS_CACHE='${root}/pretrain_models/huggingface'

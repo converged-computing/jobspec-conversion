@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dr_benchmark_small
-#FLUX: -c=4
-#FLUX: --queue=magic
-#FLUX: -t=120000
-#FLUX: --urgency=16
+#FLUX --job-name=dr_benchmark_small
+#FLUX -c=4
+#FLUX --queue=magic
+#FLUX -t=120000
+#FLUX --urgency=16
 
 line=$(sed -n ${SLURM_ARRAY_TASK_ID}p < ./slurm_test/parameters.csv)
 rec_column1=$(cut -d',' -f1 <<< "$line")

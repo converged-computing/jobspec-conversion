@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ImputeGenotypes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ImputeGenotypes
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load java-1.8.0_40
 module load singularity/3.5.3

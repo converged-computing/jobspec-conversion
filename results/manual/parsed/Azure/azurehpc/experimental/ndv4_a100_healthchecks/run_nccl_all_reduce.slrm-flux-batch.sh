@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-nalgas-5651
-#FLUX: -c=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-egg-3548
+#FLUX -c=12
+#FLUX -t=300
+#FLUX --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 

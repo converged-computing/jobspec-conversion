@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-kerfuffle-4512
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-kitty-6279
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export BATCH_DIRECTORY='ablation_methods_s135_r3s2'
 export TO_LOAD_CHECKPOINT='False'

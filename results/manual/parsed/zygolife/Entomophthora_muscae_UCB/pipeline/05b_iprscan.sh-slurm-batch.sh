@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lemur-8791
-#FLUX: -n=24
-#FLUX: --queue=intel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=logs/iprscan.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=96G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=intel
 
 module load funannotate
 module load iprscan

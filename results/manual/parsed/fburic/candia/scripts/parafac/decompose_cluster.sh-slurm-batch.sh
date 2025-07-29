@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peas-8404
-#FLUX: -n=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=decompose-%j.out
+#SBATCH --error=decompose-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
 
 if [ "$#" -lt 2 ]; then
     echo "[ERROR] Correct syntax:"

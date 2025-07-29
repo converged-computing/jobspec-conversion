@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pot-0809
-#FLUX: --urgency=16
+#SBATCH --output=run_inversion_%j.out
+#SBATCH --error=run_inversion_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 printf "\n=== PARSING CONFIG FILE ===\n"
 invPath={INVERSION_PATH}

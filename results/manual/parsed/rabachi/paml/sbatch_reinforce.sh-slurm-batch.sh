@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reinforce_paml_2_traj200
-#FLUX: -c=2
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=reinforce_paml_2_traj200
+#SBATCH --output=reinforce_paml_2_traj200_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --partition=cpu
+#SBATCH --array=1-10
 
 module load pytorch1.0-cuda9.0-python3.6
 . /h/abachiro/mjpro200-py.env

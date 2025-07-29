@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-banana-9271
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-cattywampus-7967
+#FLUX -n=16
+#FLUX --queue=intel
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load picard
 module load java/13

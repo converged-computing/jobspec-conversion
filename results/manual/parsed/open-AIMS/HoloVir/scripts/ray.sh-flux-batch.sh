@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ray
-#FLUX: -n=16
-#FLUX: --queue=mcore
-#FLUX: --urgency=16
+#FLUX --job-name=ray
+#FLUX -n=16
+#FLUX --queue=mcore
+#FLUX --urgency=16
 
 module load ray
 PREFIX=$1

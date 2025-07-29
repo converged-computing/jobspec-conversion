@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=meshnbody
+#FLUX --job-name=meshnbody
 #FLUX: --exclusive
-#FLUX: --queue=gpu_preempt
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gpu_preempt
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 hsize=16

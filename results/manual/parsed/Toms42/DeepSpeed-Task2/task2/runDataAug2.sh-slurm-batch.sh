@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-latke-7934
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=training-outputs/hostname_%j.out
+#SBATCH --error=training-outputs/hostname_%j.err
+#SBATCH --mail-user=tscherli@andrew.cmu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 . /home/tscherli/.bash_profile
 echo "Starting Docker Image"

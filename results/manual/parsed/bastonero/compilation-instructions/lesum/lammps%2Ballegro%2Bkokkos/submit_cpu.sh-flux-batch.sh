@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS-ALLEGRO
-#FLUX: -c=2
-#FLUX: --queue=mpi
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=LAMMPS-ALLEGRO
+#FLUX -c=2
+#FLUX --queue=mpi
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export LAMMPS_BIN='/path/to/lammps/build/bin'
 export PATH='$LAMMPS_BIN:$PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=argoverse
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=argoverse
+#FLUX -c=12
+#FLUX -t=28800
+#FLUX --urgency=16
 
 DATA_DIR=/vast/xl3136/argoverse-tracking/test
 OUT_DIR=/vast/xl3136/argoverse_kitti/test

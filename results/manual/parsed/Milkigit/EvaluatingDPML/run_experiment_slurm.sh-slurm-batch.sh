@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DiPrivML
-#FLUX: -n=100
-#FLUX: --urgency=16
+#SBATCH --job-name=DiPrivML
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
 
 export KMP_DUPLICATE_LIB_OK='TRUE'
 export THEANO_FLAGS='device=cpu'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=64
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=<project_id>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='hsn '

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=verify_simclr
-#FLUX: --queue=long
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=verify_simclr
+#FLUX --queue=long
+#FLUX -t=7200
+#FLUX --urgency=16
 
 . /etc/profile
 module load anaconda/3

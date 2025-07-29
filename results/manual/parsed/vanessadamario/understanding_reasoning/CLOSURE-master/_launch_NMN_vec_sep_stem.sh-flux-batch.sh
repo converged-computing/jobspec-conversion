@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vec_sep_NPS
-#FLUX: --queue=use-everything
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=vec_sep_NPS
+#FLUX --queue=use-everything
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module add openmind/singularity/3.4.1
 hostname

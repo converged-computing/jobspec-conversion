@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-1175
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: --queue=parallel
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=les_reacting.out
+#SBATCH --error=les_reacting.out
+#SBATCH --mail-user=nicholas.curtis@uconn.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=4
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=06:00:00
+#SBATCH --partition=parallel
+#SBATCH --exclude=cn[65-69,71-136,325-343,345-353,355-358,360-364,369-398,400-401],gpu[07-10]
 
 export IPM_NESTED_REGIONS='1'
 

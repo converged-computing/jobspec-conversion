@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bicycle-8381
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-itch-1507
+#FLUX -c=8
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

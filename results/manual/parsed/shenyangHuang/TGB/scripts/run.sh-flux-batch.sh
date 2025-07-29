@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peas-9944
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=purple-pancake-6375
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HOME='/home/mila/h/huangshe'
 

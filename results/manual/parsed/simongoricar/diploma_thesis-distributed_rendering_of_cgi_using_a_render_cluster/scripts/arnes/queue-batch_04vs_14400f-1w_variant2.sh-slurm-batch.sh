@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-1w_var2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_14400f-1w_var2
+#SBATCH --output=/d/hpc/projects/FRI/sg7710/distributed-rendering-logs/%A.sbatch.qb_04vs_14400f-1w_var2.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=amd&rome
+#SBATCH --exclude=wn[201-224]
 
 export RUST_LOG='debug'
 

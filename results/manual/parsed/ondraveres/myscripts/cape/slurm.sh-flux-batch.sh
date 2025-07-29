@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=exp2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=exp2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo Hello
 sleep 10

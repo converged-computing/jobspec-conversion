@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sc31_reproject_stream_basin.sh
-#FLUX: -c=2
-#FLUX: --queue=day
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sc31_reproject_stream_basin.sh
+#SBATCH --output=/gpfs/scratch60/fas/sbsc/ga254/stdout/sc31_reproject_stream_basin.sh.%J.out
+#SBATCH --error=/gpfs/scratch60/fas/sbsc/ga254/stderr/sc31_reproject_stream_basin.sh.%J.err
+#SBATCH --mail-user=email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=day
 
 export DIR='/project/fas/sbsc/ga254/dataproces/NHDplus'
 export MERIT='/gpfs/scratch60/fas/sbsc/ga254/dataproces/RIVER_NETWORK_MERIT'

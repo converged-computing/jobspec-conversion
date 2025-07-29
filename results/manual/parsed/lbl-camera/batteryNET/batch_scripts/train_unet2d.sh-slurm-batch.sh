@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-squidward-5124
-#FLUX: -c=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=als_g
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --time=01:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=gpu
 
 export SLURM_CPU_BIND='cores'
 

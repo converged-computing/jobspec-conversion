@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pts256CR76.000RaC80
-#FLUX: -n=2
-#FLUX: --queue=legacy
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=pts256CR76.000RaC80
+#FLUX -n=2
+#FLUX --queue=legacy
+#FLUX -t=604800
+#FLUX --urgency=16
 
 python /run/preprocess/code.py
 cd /network/group/aopp/oceans/AW002_PARKINSON_MUSH/optimalStates-restructured/Le200/CR76.000/RaC80/pts256-0; 

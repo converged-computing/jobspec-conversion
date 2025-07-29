@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cpu-meld
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: --queue=skylake-himem
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cpu-meld
+#FLUX -N=2
+#FLUX -n=64
+#FLUX --queue=skylake-himem
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

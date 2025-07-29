@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-nunchucks-2236
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-parsnip-8667
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MorrellLAB/BAD_Mutations/Manuscript_Scripts/additional_1000genes/jobs/run_alignment_list00.job

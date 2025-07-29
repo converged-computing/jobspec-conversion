@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet18_width_barlowtwins
-#FLUX: --queue=long
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet18_width_barlowtwins
+#SBATCH --output=sbatch_out/resnet18_width_barlowtwins.%A.%a.out
+#SBATCH --error=sbatch_err/resnet18_width_barlowtwins.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=04:30:00
+#SBATCH --partition=long
+#SBATCH --array=0-191%64
 
 . /etc/profile
 module load anaconda/3

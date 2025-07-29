@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-latke-8606
-#FLUX: -n=28
+#FLUX --job-name=blue-knife-3270
+#FLUX -n=28
 #FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX -t=2400
+#FLUX --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

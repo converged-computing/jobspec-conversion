@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-noodle-1934
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=def-bentahar
+#SBATCH --output=/home/fgrcl/scratch/job-logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=125G
+#SBATCH --time=5-00:00:00
+#SBATCH --array=1-$2
 
 sbatch <<EOT
 module load python/3.10 cuda cudnn

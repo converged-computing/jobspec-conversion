@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-2042
-#FLUX: -c=16
-#FLUX: --queue=AI
-#FLUX: --urgency=16
+#SBATCH --output=log-%A-%x_%a.out
+#SBATCH --error=log-%A-%x_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=AI
 
 source $HOME/alx-bio/scripts/_base.sh
 conda_init conda

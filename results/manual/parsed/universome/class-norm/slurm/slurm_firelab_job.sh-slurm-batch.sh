@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-spoon-2059
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
 
 mkdir -p /tmp/skoroki/czsl/data
 cp -r "/ibex/scratch/skoroki/datasets/${dataset}_feats" /tmp/skoroki/czsl/data

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-butter-9591
-#FLUX: --queue=cortex
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-hippo-1132
+#FLUX --queue=cortex
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda
 module unload intel

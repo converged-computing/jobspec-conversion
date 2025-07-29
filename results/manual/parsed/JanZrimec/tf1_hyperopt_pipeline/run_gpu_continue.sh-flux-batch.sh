@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-snack-8710
-#FLUX: -n=32
-#FLUX: --queue=vera
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-motorcycle-5286
+#FLUX -n=32
+#FLUX --queue=vera
+#FLUX -t=604800
+#FLUX --urgency=16
 
 source $HOME/loadenv_gpu.sh
 cd /c3se/users/zrimec/Vera/projects/DeepExpression/2019_2_22

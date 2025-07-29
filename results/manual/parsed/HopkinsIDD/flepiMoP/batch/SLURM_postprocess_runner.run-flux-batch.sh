@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-5458
-#FLUX: -c=48
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-destiny-4751
+#FLUX -c=48
+#FLUX --urgency=16
 
 export PATH='~/aws-cli/bin:$PATH'
 

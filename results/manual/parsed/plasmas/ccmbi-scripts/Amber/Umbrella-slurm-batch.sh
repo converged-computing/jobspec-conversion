@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-plant-0080
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/plasmas/ccmbi-scripts/Amber/Umbrella

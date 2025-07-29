@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-mango-1494
-#FLUX: -c=32
-#FLUX: --queue=research
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=research
 
 module load nvidia/cuda/11.3
 python setup.py build_ext --inplace

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=AC-Baseline
-#FLUX: --queue=defq
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#SBATCH --job-name=AC-Baseline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:15:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=1,TitanX
 
 export LOCAL_ENV='/var/scratch/mbn781/Venue-Accessibility-Google-Reviews/'
 export PATH='/path/to/cuda-11.1/bin:$PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gfn
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=gfn
+#FLUX -c=8
+#FLUX --queue=long
+#FLUX --urgency=16
 
 echo "Arg 0: $0"
 echo "Arg 1: $1"

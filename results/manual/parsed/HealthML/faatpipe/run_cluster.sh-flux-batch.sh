@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=controljob_%j
-#FLUX: --queue=vcpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=controljob_%j
+#FLUX --queue=vcpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 snakemake_env="install/snakemake"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-9941
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-staircase-4594
+#FLUX --queue=standard
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2019.10-py3.7

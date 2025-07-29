@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-caramel-4754
-#FLUX: -c=6
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=def-aspuru
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000M
+#SBATCH --time=00:01:00
 
 module load python/3.6 scipy-stack
 module load StdEnv/2020 gcc/9.3.0

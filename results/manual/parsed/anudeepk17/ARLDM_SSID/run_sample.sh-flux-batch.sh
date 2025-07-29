@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arldm
-#FLUX: --queue=research
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=arldm
+#FLUX --queue=research
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export HYDRA_FULL_ERROR='1'
 export TORCH_CUDA_ARCH_LIST='7.0 7.5 8.0+PTX'

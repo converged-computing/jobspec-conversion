@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-hippo-5722
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-motorcycle-6776
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 ml load py-tensorflow/2.1.0_py36
 ml load py-keras/2.3.1_py36

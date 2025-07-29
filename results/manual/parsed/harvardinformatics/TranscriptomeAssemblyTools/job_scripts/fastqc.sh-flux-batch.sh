@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FastQC
-#FLUX: --queue=True
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=FastQC
+#FLUX --queue=True
+#FLUX -t=180
+#FLUX --urgency=16
 
 """
 For this script to initialize a conda environment, a version of python that supports

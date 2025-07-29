@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NS_call
-#FLUX: -c=12
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=NS_call
+#SBATCH --output=NS_calibration
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=1G
+#SBATCH --time=7-00:00:00
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 

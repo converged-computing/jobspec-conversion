@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dist
-#FLUX: -N=128
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=dist
+#SBATCH --output=dist_inception.%j.log
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
+#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='66'
 export TF_SCRIPT='/global/cscratch1/sd/yyang420/fjr/tensorflow/distributed-tensorflow-benchmarks/google-benchmarks/tf_cnn_benchmarks/tf_cnn_benchmarks.py'

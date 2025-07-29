@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_$patient
-#FLUX: -c=5
-#FLUX: --queue=long
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep_$patient
+#FLUX -c=5
+#FLUX --queue=long
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='/data/project/vislab'
 

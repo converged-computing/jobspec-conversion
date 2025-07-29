@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-arm-6459
-#FLUX: -n=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=20:00:00
+#SBATCH --exclude=titan2
 
 gpu_id=$CUDA_VISIBLE_DEVICES
 echo $gpu_id

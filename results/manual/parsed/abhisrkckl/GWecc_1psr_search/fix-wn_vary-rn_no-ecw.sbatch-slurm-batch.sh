@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gwecc-search
-#FLUX: --urgency=16
+#SBATCH --job-name=gwecc-search
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24G
 
 /home/susobhan/Data/susobhan/miniconda/envs/gwecc/bin/activate
 PYTHON=$CONDA_PREFIX/bin/python

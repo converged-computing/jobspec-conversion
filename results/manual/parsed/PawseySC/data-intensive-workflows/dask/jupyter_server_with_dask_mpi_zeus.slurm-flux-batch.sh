@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hobbit-2923
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-noodle-4024
+#FLUX -N=2
+#FLUX -n=56
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

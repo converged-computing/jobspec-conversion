@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=an-cockrell
-#FLUX: -t=648000
-#FLUX: --urgency=16
+#FLUX --job-name=an-cockrell
+#FLUX -t=648000
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load python3

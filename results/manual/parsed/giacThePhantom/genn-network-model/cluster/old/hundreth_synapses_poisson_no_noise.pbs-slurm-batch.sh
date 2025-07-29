@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hope-2507
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/hundreth_synapses_poisson_no_noise.pbs

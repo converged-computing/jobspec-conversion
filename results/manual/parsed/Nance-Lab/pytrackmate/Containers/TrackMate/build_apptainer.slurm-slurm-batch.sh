@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-citrus-4015
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=cheme
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:05:00
+#SBATCH --partition=compute
+#SBATCH --chdir=.
 
 export APPTAINERENV_NEWHOME='$(pwd)'
 

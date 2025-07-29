@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: --queue=regular
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-job
+#SBATCH --account=m3930
+#SBATCH --output=gpu-job.o%j
+#SBATCH --error=gpu-job.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 ncu --set default --section SourceCounters --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg ./sobel_cpu_omp_offload

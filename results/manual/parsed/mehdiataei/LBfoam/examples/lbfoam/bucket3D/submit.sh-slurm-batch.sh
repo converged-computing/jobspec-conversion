@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bubble3D
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=bubble3D
+#SBATCH --output=mpi_ex_%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
 
 cd $SLURM_SUBMIT_DIR
 module load gcc/7.3.0

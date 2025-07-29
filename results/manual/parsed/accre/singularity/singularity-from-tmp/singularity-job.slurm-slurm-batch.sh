@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-citrus-2794
-#FLUX: --urgency=16
+#SBATCH --output=%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --array=0-20
 
 image=python-2.12-numpy-1.13.img
 src=/scratch/singularity-images/${image}

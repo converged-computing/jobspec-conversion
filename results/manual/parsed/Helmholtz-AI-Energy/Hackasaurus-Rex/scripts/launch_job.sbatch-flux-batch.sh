@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hackasaurous
+#FLUX --job-name=hackasaurous
 #FLUX: --exclusive
-#FLUX: --queue=accelerated
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=accelerated
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export TOMOUNT='${TOMOUNT}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

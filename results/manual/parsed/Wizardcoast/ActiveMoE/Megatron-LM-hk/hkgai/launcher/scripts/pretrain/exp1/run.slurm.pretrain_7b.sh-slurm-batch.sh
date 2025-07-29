@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Megatron-LM
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=Pretrain-Experiment
-#FLUX: --urgency=16
+#SBATCH --job-name=Megatron-LM
+#SBATCH --account=root
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=Pretrain-Experiment
+#SBATCH: --exclusive
 
 export LOGLEVEL='INFO'
 

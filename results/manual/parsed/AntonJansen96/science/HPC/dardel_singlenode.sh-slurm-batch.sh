@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bench2
-#FLUX: -N=2
-#FLUX: --queue=main
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=bench2
+#SBATCH --account=snic2021-1-38
+#SBATCH --mail-user=anton.jansen@scilifelab.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=32
 
 ml PDC/21.09 
 ml all-spack-modules/0.16.3

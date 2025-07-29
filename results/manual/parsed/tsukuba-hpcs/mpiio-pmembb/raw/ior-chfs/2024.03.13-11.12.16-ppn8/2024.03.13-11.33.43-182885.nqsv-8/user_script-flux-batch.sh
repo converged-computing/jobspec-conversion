@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-milkshake-1836
-#FLUX: --urgency=16
+#FLUX --job-name=blank-peas-0235
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/ior-chfs/2024.03.13-11.12.16-ppn8/2024.03.13-11.33.43-182885.nqsv-8/user_script

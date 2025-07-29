@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-staircase-2597
-#FLUX: --queue=thinnodes
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=thinnodes
 
 TENSORFLOW=$1
 echo "TENSORFLOW: "$TENSORFLOW

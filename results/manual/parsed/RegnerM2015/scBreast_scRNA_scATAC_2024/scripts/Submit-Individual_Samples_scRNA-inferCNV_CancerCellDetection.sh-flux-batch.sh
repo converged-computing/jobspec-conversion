@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Individual_Samples_scRNA-inferCNV_CancerCellDetection-${i}
-#FLUX: -c=32
-#FLUX: --queue=allnodes
-#FLUX: --urgency=16
+#FLUX --job-name=Individual_Samples_scRNA-inferCNV_CancerCellDetection-${i}
+#FLUX -c=32
+#FLUX --queue=allnodes
+#FLUX --urgency=16
 
 declare -a StringArray=("35A4AL 35EE8L 3821AL 3B3E9L 3C7D1L 3D388L 3FCDEL 43E7BL 43E7CL 44F0AL 45CB0L 4C2E5L 4D0D2L")
 for i in ${StringArray[@]}

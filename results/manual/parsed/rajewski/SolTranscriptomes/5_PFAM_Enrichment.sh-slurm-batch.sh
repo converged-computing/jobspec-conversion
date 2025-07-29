@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hello-animal-7603
-#FLUX: -c=60
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=/bigdata/littlab/arajewski/FULTranscriptomes/logs/PFAM-%A.out
+#SBATCH --mail-user=araje002@ucr.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=7G
+#SBATCH --time=02:00:00
+#SBATCH --partition=short
 
 set -e
 PEPs=( ExternalData/TAIR10/TAIR10.proteins.fa NobtDNA/NIOBT_r1.0.proteins.fa SlycDNA/Slyc.proteins.fa)

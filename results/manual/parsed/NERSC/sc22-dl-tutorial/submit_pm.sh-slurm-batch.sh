@@ -1,14 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=pm-crop64
-#FLUX: -c=32
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=pm-crop64
+#SBATCH --account=ntrain4_g
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export NCCL_NET_GDR_LEVEL='PHB'
 export BENCHY_CONFIG_FILE='benchy-run-${SLURM_JOBID}.yaml'
 export MASTER_ADDR='$(hostname)'
 export CUDA_VISIBLE_DEVICES='3,2,1,0'
 
+singularity
+exec
+nersc/sc22-dl-tutorial:latest
 DATADIR=/pscratch/sd/j/joshr/nbody2hydro/datacopies
 LOGDIR=${SCRATCH}/sc22-dl-tutorial/logs
 mkdir -p ${LOGDIR}

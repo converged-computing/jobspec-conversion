@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline
+#FLUX -t=259200
+#FLUX --urgency=16
 
 RULES=Snakefile
 CONFIG=../config/config.yaml

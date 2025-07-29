@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=us_vec
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=us_vec
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=serial_v1
-#FLUX: --queue=sla-prio
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=serial_v1
+#SBATCH --account=ebf11-fa23
+#SBATCH --output=serial_v1_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=sla-prio
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ipi
-#FLUX: -c=4
-#FLUX: --queue=jobs
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=ipi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:10:00
+#SBATCH --partition=jobs
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load gcc

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poodle-4748
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Azure/woc-benchmarking/apps/hpc/cp2k/cp2k_benchmarking.sh

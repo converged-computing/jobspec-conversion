@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-buttface-9988
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=red-leg-1886
+#FLUX -c=8
+#FLUX --queue=medium
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/n/data1/hms/dbmi/park/SOFTWARE/Sentieon/sentieon-genomics-202112.06/lib:$LD_LIBRARY_PATH'
 export SENTIEON_LICENSE='license.rc.hms.harvard.edu:8990'

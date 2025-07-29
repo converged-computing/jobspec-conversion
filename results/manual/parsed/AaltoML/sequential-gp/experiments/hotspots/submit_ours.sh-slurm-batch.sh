@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hope-2228
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=./hotspots_ours_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000M
+#SBATCH --time=03:00:00
+#SBATCH --constraint=volta
+#SBATCH --array=1-50
 
 module load miniconda
 source activate ovcexperiment

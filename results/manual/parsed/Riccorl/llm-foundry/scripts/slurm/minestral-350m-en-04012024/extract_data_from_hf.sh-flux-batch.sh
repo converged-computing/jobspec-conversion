@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=extract_data_from_hf
-#FLUX: -c=4
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=extract_data_from_hf
+#FLUX -c=4
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='$WORK/hf_cache'
 

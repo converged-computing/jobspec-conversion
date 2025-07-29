@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stencil-bench
-#FLUX: -n=8
-#FLUX: --queue=hgx2q
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=stencil-bench
+#SBATCH --output=sbatch_output_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=03:00:00
+#SBATCH --partition=hgx2q
 
 . ./scripts/modules.sh > /dev/null
 MAX_NUM_GPUS=8

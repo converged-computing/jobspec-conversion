@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ips_fastran
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=ips_fastran
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load gcc
 module load python

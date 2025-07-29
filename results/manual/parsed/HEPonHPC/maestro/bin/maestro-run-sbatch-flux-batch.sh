@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=A14run3-2ndcenter-stfid10k-np150-pa3
-#FLUX: -N=5
-#FLUX: --queue=bdw
-#FLUX: -t=576000
-#FLUX: --urgency=16
+#FLUX --job-name=A14run3-2ndcenter-stfid10k-np150-pa3
+#FLUX -N=5
+#FLUX --queue=bdw
+#FLUX -t=576000
+#FLUX --urgency=16
 
 module purge
 source /home/oyildiz/mohan/pythia/pythia8-diy-master/install/bin/latest-160522/rivetenv.sh

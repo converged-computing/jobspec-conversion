@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GPUtest
-#FLUX: --queue=owners
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=GPUtest
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50G
+#SBATCH --time=02:00:00
+#SBATCH --partition=owners
+#SBATCH --constraint=GPU_MEM:16GB,GPU_BRD:GEFORCE,GPU_SKU:RTX_2080Ti,GPU_CC:7.5
 
 ml gsl
 ml python/3.9

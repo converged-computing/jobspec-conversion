@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20230616-lsta-fastqc-fastp-multiqc-RNAseq
-#FLUX: --queue=srlab
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=20230616-lsta-fastqc-fastp-multiqc-RNAseq
+#FLUX --queue=srlab
+#FLUX -t=172800
+#FLUX --urgency=16
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*_R1_*.fastq.gz'

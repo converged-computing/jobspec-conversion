@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=reindex_GC_trees
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=reindex_GC_trees
+#SBATCH --output=./results/reindex_GC_trees.%j.o
+#SBATCH --mail-user=ivan.g.raikov@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH
 
 export PYTHONPATH='$HOME/.local/cori/2.7-anaconda/lib/python2.7/site-packages:$PYTHONPATH'
 

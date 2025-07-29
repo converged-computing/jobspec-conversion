@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FIRECAST
-#FLUX: -n=150
-#FLUX: --queue=intel
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=FIRECAST
+#SBATCH --mail-user=batti.filippi@@@@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=150
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=intel
 
 export MPIRUN='mpirun -np 120'
 

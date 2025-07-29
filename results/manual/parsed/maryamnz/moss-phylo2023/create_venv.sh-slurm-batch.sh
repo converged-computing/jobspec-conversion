@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-malarkey-2035
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=moss_phylo_%j_slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:30:00
 
 if [[ ! -d moss_phylo ]] ; then 
 echo Making functional term transformers test environment [ moss_phylo ]

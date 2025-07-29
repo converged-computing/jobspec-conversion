@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dlana_batch_mc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dlana_batch_mc
+#SBATCH --output=dlana_batch_mc_tmw.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-250
 
 container=/cluster/tufts/wongjiradlab/larbys/larbys-containers/singularity_dldependencies_pytorch1.3.sing
 RUN_DLANA_DIR=/cluster/tufts/wongjiradlab/larbys/run_dlana_jobs

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=affine4Of4
-#FLUX: -c=6
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=affine4Of4
+#SBATCH --output=logs/%x_%A_%a.out
+#SBATCH --error=logs/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=v100
+#SBATCH --chdir=/home/santamgp/Documents/CertifyingAffineTransformationsOnPointClouds/3D-RS-PointCloudCertifying/
+#SBATCH --array=19-24
 
 module load gcc
 echo "######################### SLURM JOB ########################"

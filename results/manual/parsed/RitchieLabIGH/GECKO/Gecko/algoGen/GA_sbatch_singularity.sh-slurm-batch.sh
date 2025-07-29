@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-platanos-6573
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --output=GECKO_%j.out
+#SBATCH --error=GECKO_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=90000
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 

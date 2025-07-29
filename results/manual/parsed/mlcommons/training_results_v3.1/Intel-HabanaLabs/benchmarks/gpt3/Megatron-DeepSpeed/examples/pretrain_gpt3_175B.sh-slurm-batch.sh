@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt3_175b
-#FLUX: -N=128
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron_gpt3_175b
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

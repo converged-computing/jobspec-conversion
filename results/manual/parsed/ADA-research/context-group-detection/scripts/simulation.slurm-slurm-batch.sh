@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=simulation
-#FLUX: --queue=cpu-medium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=simulation
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=thomasmaliappis@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=10:00:00
+#SBATCH --partition=cpu-medium
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/data1/context-group-detection/'
 

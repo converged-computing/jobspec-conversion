@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SNVcaller_1_1
-#FLUX: -c=10
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=SNVcaller_1_1
+#SBATCH --output=SNVtest.out
+#SBATCH --error=SNVtest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10gb
+#SBATCH --time=16:00:00
 
 while getopts "R:L:I:O:V:D:C:P:Q:B:M:" arg; do 
   case $arg in

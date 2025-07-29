@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lizard-6534
-#FLUX: -N=8
-#FLUX: --queue=broadwell
-#FLUX: -t=6600
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:50:00
+#SBATCH --partition=broadwell
 
 ulimit -a
 module load Python/3.6.3-foss-2017b

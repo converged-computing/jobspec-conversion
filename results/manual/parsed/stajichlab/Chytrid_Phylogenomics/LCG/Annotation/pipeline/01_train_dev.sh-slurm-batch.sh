@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TrainFun
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=260100
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainFun
+#SBATCH --output=logs/train.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64gb
+#SBATCH --time=3-00:15:00
+#SBATCH --partition=intel
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

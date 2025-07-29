@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=TR_cn_t_post_hand_newloss_1
-#FLUX: -N=4
-#FLUX: -c=12
-#FLUX: --queue=rtx8000,a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
-#FLUX: -t=158400
-#FLUX: --urgency=16
+#SBATCH --job-name=TR_cn_t_post_hand_newloss_1
+#SBATCH --output=%x.out
+#SBATCH --mail-user=[replace
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=1-20:00:00
+#SBATCH --partition=rtx8000,a100_2,a100_1,tandon_a100_2,tandon_a100_1,stake_a100_1,stake_a100_2
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 

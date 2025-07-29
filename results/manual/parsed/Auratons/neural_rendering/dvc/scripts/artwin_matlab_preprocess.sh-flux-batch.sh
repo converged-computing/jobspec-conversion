@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gen
-#FLUX: -c=16
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gen
+#FLUX -c=16
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

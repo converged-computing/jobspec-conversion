@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=one
-#FLUX: -N=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#SBATCH --job-name=one
+#SBATCH --account=accountname
+#SBATCH --output=a_4.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=12:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONPATH='/home/arup/miniconda3/envs/meld_conda/lib/python3.9/site-packages/:$PYTHONPATH'
 

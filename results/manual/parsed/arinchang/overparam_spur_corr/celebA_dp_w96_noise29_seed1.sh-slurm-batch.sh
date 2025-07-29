@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-leader-1856
-#FLUX: -c=6
-#FLUX: --queue=rise
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/slurm.%N.%j..out
+#SBATCH --error=slurm_logs/slurm.%N.%j..err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=rise
+#SBATCH --chdir=/home/eecs/arinchang/overparam_spur_corr
+#SBATCH --nodelist=ace
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=25
-#FLUX: --queue=normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -N=25
+#FLUX --queue=normal
+#FLUX -t=43200
+#FLUX --urgency=16
 
 TAU=1
 INTEL=24

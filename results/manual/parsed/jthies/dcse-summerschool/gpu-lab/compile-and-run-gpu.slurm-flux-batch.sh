@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-poo-5236
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-pedo-9291
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load 2022r2
 module load cuda/11.1.1

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lemur-0637
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./logs/tuneTabnet.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PYTHONUNBUFFERED='TRUE'
 

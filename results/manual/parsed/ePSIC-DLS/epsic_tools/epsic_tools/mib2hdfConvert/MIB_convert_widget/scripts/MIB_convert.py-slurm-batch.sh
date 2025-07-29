@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=epsic_mib_convert
-#FLUX: --queue=cs04r
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=epsic_mib_convert
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=05:00:00
+#SBATCH --partition=cs04r
 
 import hyperspy.api as hs
 print(f"hyperspy version: {hs.__version__}")

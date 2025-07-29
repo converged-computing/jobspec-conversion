@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=land_use
-#FLUX: --exclusive
-#FLUX: --queue=TPS
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=land_use
+#SBATCH --account=TPS
+#SBATCH --mail-user=jauld@anl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=11:00:00
+#SBATCH --partition=TPS
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64
 
 set -eu
 main() {

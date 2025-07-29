@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buildstuff
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=buildstuff
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export STARTDIR='`pwd`'
 export MDY='`date +%m%d%y_$LETTER`'

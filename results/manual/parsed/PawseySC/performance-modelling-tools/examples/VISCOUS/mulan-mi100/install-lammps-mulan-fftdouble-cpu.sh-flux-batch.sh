@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-malarkey-3302
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-latke-2208
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

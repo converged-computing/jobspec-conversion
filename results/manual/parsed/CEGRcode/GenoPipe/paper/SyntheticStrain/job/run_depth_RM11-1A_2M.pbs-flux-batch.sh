@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-staircase-1548
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-blackbean-7223
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CEGRcode/GenoPipe/paper/SyntheticStrain/job/run_depth_RM11-1A_2M.pbs

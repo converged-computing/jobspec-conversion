@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=movebetas_bodymap
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=movebetas_bodymap
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 output_log_dir="log/movebetas"
 error_log_dir="log/movebetas"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kimltrfindp
-#FLUX: --queue=short
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=kimltrfindp
+#FLUX --queue=short
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module load easybuild
 module load GCC/6.3.0-2.27  OpenMPI/2.0.2

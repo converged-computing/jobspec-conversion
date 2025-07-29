@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage_1
-#FLUX: -N=128
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stage_1
+#FLUX -N=128
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/psii/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='8'

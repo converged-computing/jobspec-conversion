@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_model
-#FLUX: --queue=gpu-short
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=train_model
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=thomasmaliappis@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:30:00
+#SBATCH --partition=gpu-short
+#SBATCH --array=0-24
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/data1/context-group-detection/'
 

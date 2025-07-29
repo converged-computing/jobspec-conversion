@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SQTL
-#FLUX: --queue=general
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SQTL
+#FLUX --queue=general
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -e
 module load python/3.9.6

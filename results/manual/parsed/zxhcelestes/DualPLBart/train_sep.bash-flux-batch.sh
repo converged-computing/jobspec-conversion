@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lijie
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=lijie
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 nvidia-smi
 python -u train_sep.py \

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SVIM
-#FLUX: -c=20
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#FLUX --job-name=SVIM
+#FLUX -c=20
+#FLUX --queue=standard
+#FLUX --urgency=16
 
 source ~/.bashrc
 ref="/dfs7/jje/jenyuw/Eval-sv-temp/reference"

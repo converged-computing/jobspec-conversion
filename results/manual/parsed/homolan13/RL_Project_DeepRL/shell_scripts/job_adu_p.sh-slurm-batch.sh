@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=p_adu
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=p_adu
+#SBATCH --mail-user=yanis.schaerer@students.unibe.ch
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx2080ti:2
+#SBATCH --mem=2G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U -e simglucose_local # Gym will also be installed
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime python p_training_adult.py

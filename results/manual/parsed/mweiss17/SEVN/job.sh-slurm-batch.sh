@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pot-4057
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=00:10:00
 
 mkdir $SCRATCH/trained_models
 mkdir $SCRATCH/trained_models/ppo/

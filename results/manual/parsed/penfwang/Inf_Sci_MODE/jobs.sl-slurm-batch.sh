@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bicycle-0785
-#FLUX: -c=2
-#FLUX: --queue=large
-#FLUX: -t=218100
-#FLUX: --urgency=16
+#SBATCH --account=vuw03334
+#SBATCH --output=log.%j.out
+#SBATCH --error=log.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=3600
+#SBATCH --time=2-12:35:00
+#SBATCH --partition=large
+#SBATCH --array=1-30
 
 file_path=/nesi/project/vuw03334/binary_DE/algorithms1
 module load Python/3.8.1-gimkl-2018b

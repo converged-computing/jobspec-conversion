@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stream
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=stream
+#SBATCH --account=d403-sb
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH --qos=lowpriority
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 export IOCOMP_DIR='/work/d403/d403/shr2032/opt/gcc/iocomp/1.1.3'
 export LD_LIBRARY_PATH='${IOCOMP_DIR}/lib:${LD_LIBRARY_PATH}'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-2515
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-chip-2239
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic '
 export NVCC_WRAPPER_DEFAULT_COMPILER='CC'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-kerfuffle-6614
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0420-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export GMX_MAXBACKUP='-1'
 

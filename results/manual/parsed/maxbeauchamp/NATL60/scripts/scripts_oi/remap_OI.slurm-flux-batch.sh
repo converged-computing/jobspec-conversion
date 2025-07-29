@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=build_dataset
-#FLUX: -c=40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=build_dataset
+#FLUX -c=40
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PYTHONPATH='${HOME}/DINAE_keras/:${HOME}/PB_ANDA:${PYTHONPATH}:${HOME}/4DVARNN-DinAE:${HOME}/NATL60:/gpfswork/rech/yrf/uba22to/esmf/esmpy/lib/python3.7/site-packages:/gpfswork/rech/yrf/uba22to/esmf/xesmf/lib/python3.7/site-packages'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfswork/rech/yrf/uba22to/esmf/lib/libO/Linux.intel.64.openmpi.default'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=term-project
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=term-project
+#SBATCH --account=eecs587f23_class
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
 
 module load cuda
 module load gcc

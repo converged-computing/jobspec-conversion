@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=StableBeluga2
-#FLUX: -c=8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=StableBeluga2
+#SBATCH --output=/p/haicluster/llama/FastChat/logs/%j.txt
+#SBATCH --error=/p/haicluster/llama/FastChat/logs/%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:7
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export BLABLADOR_DIR='/p/haicluster/llama/FastChat'
 export LOGDIR='$BLABLADOR_DIR/logs'

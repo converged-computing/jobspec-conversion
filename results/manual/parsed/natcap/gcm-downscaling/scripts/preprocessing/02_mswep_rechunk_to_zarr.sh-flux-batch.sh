@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-destiny-7063
-#FLUX: -c=10
-#FLUX: --queue=hns,normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-arm-2028
+#FLUX -c=10
+#FLUX --queue=hns,normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 CONTAINER=ghcr.io/natcap/gcm-downscaling:latest
 WORKSPACE_DIR="$L_SCRATCH/$WORKSPACE_NAME"

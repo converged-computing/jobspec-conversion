@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=survival-modeling
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=survival-modeling
+#SBATCH --mail-user=abhishek1015@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --partition=gpu
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

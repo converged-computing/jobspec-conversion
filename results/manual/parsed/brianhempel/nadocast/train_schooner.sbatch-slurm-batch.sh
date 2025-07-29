@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=grated-gato-5924
-#FLUX: -N=25
-#FLUX: -c=20
-#FLUX: --exclusive
-#FLUX: --queue=largejobs
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x_%J_stdout.txt
+#SBATCH --error=%x_%J_stderr.txt
+#SBATCH --mail-user=brianhempel@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=31G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=largejobs
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/scratch/brianhempel/
 
 export HOME='/home/brianhempel'
 export PATH='$PATH:$HOME/.local/bin:$HOME/bin'

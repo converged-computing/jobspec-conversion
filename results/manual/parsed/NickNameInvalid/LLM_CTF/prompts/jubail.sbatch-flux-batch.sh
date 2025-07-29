@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=infer
-#FLUX: -c=2
-#FLUX: --queue=nvidia
-#FLUX: -t=3599
-#FLUX: --urgency=16
+#FLUX --job-name=infer
+#FLUX -c=2
+#FLUX --queue=nvidia
+#FLUX -t=3599
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch/bc3194/huggingface_cache'
 export HF_HOME='/scratch/bc3194/huggingface_cache'

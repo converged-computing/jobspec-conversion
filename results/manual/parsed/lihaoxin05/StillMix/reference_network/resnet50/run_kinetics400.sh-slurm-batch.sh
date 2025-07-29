@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-butter-7119
-#FLUX: --queue=DGXq
-#FLUX: --urgency=16
+#SBATCH --output=run-%j.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=DGXq
+#SBATCH --nodelist=node20
 
 export CUDA_VISIBLE_DEVICES='2'
 

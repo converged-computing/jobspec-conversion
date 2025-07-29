@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=Maya_9_eval
-#FLUX: --urgency=16
+#FLUX --job-name=Maya_9_eval
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 export OMP_NUM_THREADS='1'

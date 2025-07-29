@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-rabbit-1776
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_titanrtx
 
 export MPICC='mpicc'
 export MPICXX='mpicpc'

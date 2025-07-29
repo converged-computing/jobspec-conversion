@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=new
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=log_dir/train.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=new
+#SBATCH --nodelist=hlt06
 
 export dataset='empathetic'
 export dataset_dir='data/${dataset}'

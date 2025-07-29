@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leader-9139
-#FLUX: -c=96
+#FLUX --job-name=sticky-pastry-3051
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/fsx/leandro/.cache'
 export LAUNCHER='accelerate launch \'

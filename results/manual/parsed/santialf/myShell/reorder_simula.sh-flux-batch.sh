@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lamp-8669
-#FLUX: --queue=milanq
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=confused-pancake-0423
+#FLUX --queue=milanq
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

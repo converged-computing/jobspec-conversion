@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ddl_imagenet
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ddl_imagenet
+#SBATCH --output=ddl_imagenet.%j.%N.out
+#SBATCH --error=ddl_imagenet.%j.%N.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=1200
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 MASTER=`/bin/hostname -s`
 MASTER_IP=`/bin/hostname -i`

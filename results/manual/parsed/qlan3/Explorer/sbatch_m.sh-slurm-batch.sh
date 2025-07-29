@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-3619
-#FLUX: --urgency=16
+#SBATCH --output=output/%x/%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --exclude=nc20552,nc11001,nc11002,nc11103,nc11126,nc10303,nc20305,nc10249,nc20325,nc11124,nc20529,nc20526,nc20342,nc20354,nc30616,nc30305,nc20133,nc10220
 
 echo "Current working directory: `pwd`"
 echo "Starting run at: `date`"

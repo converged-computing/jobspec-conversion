@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=manual_gather
-#FLUX: --queue=standard
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=manual_gather
+#FLUX --queue=standard
+#FLUX -t=50400
+#FLUX --urgency=16
 
 module purge
 module load htslib/1.10.2 bcftools/1.9 intel/18.0 intelmpi/18.0 parallel/20200322 vcftools/0.1.16

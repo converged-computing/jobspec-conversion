@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=murout1
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=murout1
+#SBATCH --mail-user=felix.krones@oii.ox.ac.uk
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=180G
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=28,gpu_mem:32GB
 
 module load Anaconda3
 source activate /data/inet-multimodal-ai/wolf6245/envs/physionet22

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ImageNet.Keras
-#FLUX: --urgency=16
+#SBATCH --job-name=ImageNet.Keras
+#SBATCH --output=ImageNet.Keras.out.%j
+#SBATCH --error=ImageNet.Keras.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 train_batch=128
 nodes=1

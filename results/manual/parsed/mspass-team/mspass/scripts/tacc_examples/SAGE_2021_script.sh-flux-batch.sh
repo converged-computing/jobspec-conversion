@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mspass
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=mspass
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=normal
+#FLUX -t=7200
+#FLUX --urgency=16
 
 WORK_DIR=$SCRATCH/SAGE_2021
 MSPASS_CONTAINER=$WORK/mspass/mspass_latest.sif

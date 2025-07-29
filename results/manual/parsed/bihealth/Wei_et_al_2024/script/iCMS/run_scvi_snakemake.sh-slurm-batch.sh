@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_scvi
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake_scvi
+#SBATCH --output=/fast/users/twei_m/scratch/snakemake_scvi_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300M
+#SBATCH --time=02:00:00
 
 export SBATCH_DEFAULTS=' --output=/fast/users/twei_m/scratch/snakemake_scvi_%j.log'
 

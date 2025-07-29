@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Forward
-#FLUX: -n=100
-#FLUX: --queue=compute
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=Forward
+#FLUX -n=100
+#FLUX --queue=compute
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

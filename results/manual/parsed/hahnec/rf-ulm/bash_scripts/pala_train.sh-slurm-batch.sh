@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=rf-ulm_train
-#FLUX: -c=4
-#FLUX: --queue=gpu-invest
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=rf-ulm_train
+#SBATCH --account=ws_00000
+#SBATCH --mail-user=christopher.hahne@unibe.ch
+#SBATCH --mail-type=none
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx3090:1
+#SBATCH --mem=80G
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu-invest
+#SBATCH --qos=job_gpu_sznitman
+#SBATCH --array=1-1%5
 
 module load Python/3.9.5-GCCcore-10.3.0
 module load CUDA/11.8.0

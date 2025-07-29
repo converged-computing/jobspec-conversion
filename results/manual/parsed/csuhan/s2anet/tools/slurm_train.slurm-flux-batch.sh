@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-rabbit-3046
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-lemur-4365
+#FLUX -n=4
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load scl/gcc4.9
 module load nvidia/cuda/10.0

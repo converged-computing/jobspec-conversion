@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tf-wavenet-singleton-fast-generate
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-wavenet-singleton-fast-generate
+#SBATCH --output=generate.log
+#SBATCH --mail-user=brinton@cs.stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='..:$LD_LIBRARY_PATH'
 

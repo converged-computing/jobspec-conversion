@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=aco_cuda_p1
-#FLUX: --queue=gpu2080
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=aco_cuda_p1
+#SBATCH --output=/home/b/b_mene01/outputs/compile.out
+#SBATCH --mail-user=b_mene01@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu2080
+#SBATCH --constraint=ntasks-per-node=1
 
 module load GCC/8.2.0-2.31.1
 module load GCCcore/8.2.0

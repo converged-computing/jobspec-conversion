@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pancake-3224
-#FLUX: --queue=gpu_shared
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-soup-9481
+#FLUX --queue=gpu_shared
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

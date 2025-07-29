@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=single_node_multi_gpu
-#FLUX: -c=4
-#FLUX: --gpus-per-task=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=single_node_multi_gpu
+#SBATCH --account=def-eugenium
+#SBATCH --output=logs/single_node_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=4
+#SBATCH --mem=128G
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 export TORCH_NCCL_BLOCKING_WAIT='1'

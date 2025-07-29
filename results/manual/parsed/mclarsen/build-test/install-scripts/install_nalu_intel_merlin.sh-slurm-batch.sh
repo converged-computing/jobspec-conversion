@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-noodle-9522
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mclarsen/build-test/install-scripts/install_nalu_intel_merlin.sh

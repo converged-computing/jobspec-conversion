@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-mango-4530
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=placid-pot-0597
+#FLUX -n=2
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load nextflow/22.04.3
 module load singularityCE

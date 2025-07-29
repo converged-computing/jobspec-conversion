@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-mango-5585
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export TEMPLATEFLOW_HOME='$BIDS_DIR/code/templateflow; 			[ ! -d $TEMPLATEFLOW_HOME ] && mkdir -p $TEMPLATEFLOW_HOME'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='$TEMPLATEFLOW_HOME;		[ ! -d $SINGULARITYENV_TEMPLATEFLOW_HOME ] && mkdir -p $SINGULARITYENV_TEMPLATEFLOW_HOME'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=s1_align.sl
-#FLUX: -c=8
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#SBATCH --job-name=s1_align.sl
+#SBATCH --account=nesi00319
+#SBATCH --mail-user=murray.cadzow@otago.ac.nz
+#SBATCH --mail-type=FAIL,TIME_LIMIT_90
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2000
+#SBATCH --time=05:59:00
+#SBATCH --constraint=sb
 
 export OPENBLAS_MAIN_FREE='1'
 

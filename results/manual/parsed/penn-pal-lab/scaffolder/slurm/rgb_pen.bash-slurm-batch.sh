@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pancake-0424
-#FLUX: --queue=dineshj-compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50G
+#SBATCH --time=12:00:00
+#SBATCH --partition=dineshj-compute
+#SBATCH --qos=dj-med
+#SBATCH --array=0-3
+#SBATCH --exclude=kd-2080ti-1.grasp.maas,kd-2080ti-2.grasp.maas,kd-2080ti-3.grasp.maas,kd-2080ti-4.grasp.maas,dj-2080ti-0.grasp.maas
 
 export WANDB_RUN_GROUP='$EXPERIMENT; '
 export WANDB__SERVICE_WAIT='600;'

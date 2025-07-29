@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-mango-7617
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-onion-5058
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AidanKelley/fourier-stabilization/scripts/pdfrate_brendel.sh

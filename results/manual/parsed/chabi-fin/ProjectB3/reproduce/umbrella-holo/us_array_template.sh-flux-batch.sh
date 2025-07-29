@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=2d-umbrella
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=2d-umbrella
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-train-8757
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-plant-7808
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zhangylch/EANN/program/lammps-interface/example/job-mpi.sh

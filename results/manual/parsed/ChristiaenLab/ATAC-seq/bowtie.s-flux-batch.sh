@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bowtie
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bowtie
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load bowtie2/intel/2.3.2

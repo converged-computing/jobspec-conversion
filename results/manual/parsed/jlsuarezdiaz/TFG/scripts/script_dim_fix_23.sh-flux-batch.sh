@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dim23
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#FLUX --job-name=dim23
+#FLUX --queue=muylarga
+#FLUX --urgency=16
 
 export PYTHONPATH='`pwd`'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocessing
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=preprocessing
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'
 

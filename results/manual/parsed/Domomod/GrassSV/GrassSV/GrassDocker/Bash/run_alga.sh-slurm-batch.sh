@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=alga
-#FLUX: --queue=fast
-#FLUX: --urgency=16
+#SBATCH --job-name=alga
+#SBATCH --output=alga-slurm.out
+#SBATCH --error=alga-slurm.err
+#SBATCH --mail-user=domionato@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fast
 
 module load gcc/7.4.0
 module load bowtie/1.0.0

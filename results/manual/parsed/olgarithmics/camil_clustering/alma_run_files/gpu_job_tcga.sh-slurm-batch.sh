@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_gpu
+#SBATCH --output=/home/ofourkioti/Projects/camil_clustering/results/tcga_camil_sb.txt
+#SBATCH --error=/home/ofourkioti/Projects/camil_clustering/results/tcga_exp.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-animal-0654
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-avocado-6698
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zoerechav/MuonBundle_SelfVeto/simulation_scripts/dagfiles/21217/processing/step_1_snowstorm_propagation/jobs/step_1_snowstorm_propagation_0.sh

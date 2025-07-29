@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Anchors
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Anchors
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/anchors.out
+#SBATCH --error=/home/b.weinstein/logs/anchors.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=25GB
+#SBATCH --time=3-00:00:00
 
 export PATH='${PATH}:/home/b.weinstein/miniconda3/envs/DeepForest/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda3/envs/DeepForest/lib/python3.7/site-packages/'

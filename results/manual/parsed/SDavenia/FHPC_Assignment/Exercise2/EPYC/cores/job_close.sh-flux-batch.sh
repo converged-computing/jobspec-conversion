@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gemm_first_attempt
-#FLUX: -c=128
+#FLUX --job-name=gemm_first_attempt
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=EPYC
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/u/dssc/erivar00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow-master-RNAseq
-#FLUX: --queue=workq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=Nextflow-master-RNAseq
+#SBATCH --account=pawsey0001
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=workq
 
 module load singularity  # just in case image pull is needed
 module load nextflow

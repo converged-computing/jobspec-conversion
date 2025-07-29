@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=r2024_04_22
-#FLUX: -n=8
-#FLUX: --queue=conroy_priority,shared,itc_cluster
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=r2024_04_22
+#SBATCH --output=/n/holyscratch01/conroy_lab/vchandra/mage/logs/reduce/reduce_2024_04_22_v0.out
+#SBATCH --error=/n/holyscratch01/conroy_lab/vchandra/mage/logs/reduce/reduce_2024_04_22_v0.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4500
+#SBATCH --time=05:00:00
+#SBATCH --partition=conroy_priority,shared,itc_cluster
+#SBATCH --constraint=intel
 
 source activate pypeit2
 cd /n/home03/vchandra/outerhalo/08_mage/pipeline/

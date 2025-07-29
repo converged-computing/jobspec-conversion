@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vmcts
-#FLUX: -c=16
-#FLUX: --queue=kempner_requeue
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=vmcts
+#SBATCH --account=kempner_fellows
+#SBATCH --output=/n/holyscratch01/kempner_fellows/Users/dbrandfonbrener/vmcts/logs/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=250GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=kempner_requeue
+#SBATCH --constraint=ntasks-per-node=1,a100
+#SBATCH --array=0-500%20
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export model_arg_temps='(0.2 0.4 0.6 0.8 1.0)'

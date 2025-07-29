@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2L_ray
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=2L_ray
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NUM_JULIA_THREADS='`nproc`'
 

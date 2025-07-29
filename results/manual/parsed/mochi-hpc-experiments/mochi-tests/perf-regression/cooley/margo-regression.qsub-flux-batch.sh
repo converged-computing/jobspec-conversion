@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-2538
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-soup-6814
+#FLUX --urgency=16
 

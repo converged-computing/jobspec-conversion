@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poo-8436
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --account=awaken
+#SBATCH --output=logs/job_output_filename.%j.out
+#SBATCH --mail-user=XX@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:59:00
+#SBATCH --partition=debug
 
 export EXAWIND_DIR='/nopt/nrel/ecom/exawind/exawind-2020-09-21/install/gcc'
 export MPI_TYPE_DEPTH='15'

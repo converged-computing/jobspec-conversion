@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_trgt
-#FLUX: --queue=standard
-#FLUX: -t=28740
-#FLUX: --urgency=16
+#SBATCH --job-name=run_trgt
+#SBATCH --account=bioinf593f23_class
+#SBATCH --output=logs/trgt.out
+#SBATCH --error=logs/trgt.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=07:59:00
+#SBATCH --partition=standard
 
 MODE=$1
 CORES="$SLURM_NTASKS"

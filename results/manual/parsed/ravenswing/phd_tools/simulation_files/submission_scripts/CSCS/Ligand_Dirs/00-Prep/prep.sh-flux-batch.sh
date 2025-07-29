@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prep
-#FLUX: --queue=prepost
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=prep
+#FLUX --queue=prepost
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export name='$(cd ..; basename -- "$PWD")'
 export GMX='gmx'

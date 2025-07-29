@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lamp-7651
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-peanut-0842
+#FLUX -t=3600
+#FLUX --urgency=16
 
 executable=../../gpu_offload.o
 matrix_size=$1

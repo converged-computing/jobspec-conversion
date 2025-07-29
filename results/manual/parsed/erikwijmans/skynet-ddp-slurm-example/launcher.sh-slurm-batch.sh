@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cifar10-ddp
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar10-ddp
+#SBATCH --output=logs.out
+#SBATCH --error=logs.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 

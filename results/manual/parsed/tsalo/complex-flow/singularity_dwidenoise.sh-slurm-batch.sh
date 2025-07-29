@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dwi
-#FLUX: -c=4
-#FLUX: --queue=centos7
-#FLUX: --urgency=16
+#SBATCH --job-name=dwi
+#SBATCH --account=iacc_nbc
+#SBATCH --output=dwi_out
+#SBATCH --error=dwi_err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=centos7
 
 export NPROCS='`echo $LSB_HOSTS | wc -w`'
 export OMP_NUM_THREADS='$NPROCS'

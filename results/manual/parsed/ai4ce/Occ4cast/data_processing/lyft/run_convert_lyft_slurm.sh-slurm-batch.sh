@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lyft
-#FLUX: -c=12
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lyft
+#SBATCH --output=log/lyft_%A_%a.out
+#SBATCH --error=log/lyft_%A_%a.err
+#SBATCH --mail-user=xl3136@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=12GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-89
 
 sleep $(( (RANDOM%10) + 1 )) # to avoid issues when submitting large amounts of jobs
 DATA_PATH=/lyft/train

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cworkshop_pytorch_cv
-#FLUX: -c=4
-#FLUX: --queue=qTRDGPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cworkshop_pytorch_cv
+#FLUX -c=4
+#FLUX --queue=qTRDGPU
+#FLUX -t=3600
+#FLUX --urgency=16
 
 sleep 10s 
 eval "$(conda shell.bash hook)"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mclap
+#FLUX --job-name=mclap
 #FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --queue=all
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_pipeline
-#FLUX: --queue=exacloud
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_pipeline
+#SBATCH --output=jobs/run_pipeline_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=exacloud
 
 indices_folder="/home/groups/MaxsonLab/indices"
 fastq_folder="/home/groups/MaxsonLab/nguythai/projects/pipeline_maintenance/cutTag-pipeline-singularity/.test/downsampled_fastqs"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-animal-1967
-#FLUX: --queue=RM
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-kitty-1313
+#FLUX --queue=RM
+#FLUX -t=600
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 export GMX_MAXCONSTRWARN='-1'

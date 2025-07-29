@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=download_dataset
-#FLUX: --queue=testing
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=download_dataset
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:20:00
+#SBATCH --partition=testing
 
 export ENV='/home/s2042096/data1/.conda/envs/thesis'
 export CWD='$(pwd)'

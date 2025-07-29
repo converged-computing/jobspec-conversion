@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-itch-6436
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-cupcake-4786
+#FLUX -c=8
+#FLUX --urgency=16
 
 printenv $SLURM_STEP_GPUS
 nvidia-smi

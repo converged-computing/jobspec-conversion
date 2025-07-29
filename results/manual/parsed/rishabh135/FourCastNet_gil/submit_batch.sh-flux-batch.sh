@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=afno
-#FLUX: -N=16
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=afno
+#FLUX -N=16
+#FLUX -c=32
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

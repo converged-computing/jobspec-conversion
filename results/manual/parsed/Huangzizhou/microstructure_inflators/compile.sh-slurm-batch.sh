@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cinnamonbun-9123
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export GMP_DIR='$GMP_ROOT'
 export MPFR_DIR='$MPFR_ROOT'

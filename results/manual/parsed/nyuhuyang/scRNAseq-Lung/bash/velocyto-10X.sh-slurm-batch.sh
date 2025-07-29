@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=velocyto
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#SBATCH --job-name=velocyto
+#SBATCH --output=velocyto-scRNA-gliobma-time.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80G
+#SBATCH --partition=panda
 
 spack load -r python@3.6.0+shared~tk~ucs4
 spack load -r samtools@1.8

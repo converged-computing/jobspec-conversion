@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pedo-3558
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/rahulrahaman/Timestamp-and-SkipTag/qsub_files/50salads_single_frame

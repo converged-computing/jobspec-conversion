@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-underoos-7087
-#FLUX: --queue=amd
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=64
 
 module load openmpi/4.1.1/amd-intel
 module load lammps/2020/amd-intel

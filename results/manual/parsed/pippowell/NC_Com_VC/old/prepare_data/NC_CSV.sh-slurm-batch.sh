@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parsnip-5015
-#FLUX: -c=10
-#FLUX: --queue=workq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=output_5595q.o%j
+#SBATCH --error=errors_5595q.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=12:00:00
+#SBATCH --partition=workq
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/p/ppowell/miniconda3/envs/EEG_Vis_CL/lib/'
 

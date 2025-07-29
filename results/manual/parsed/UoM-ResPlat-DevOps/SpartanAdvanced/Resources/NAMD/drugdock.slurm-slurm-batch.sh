@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-banana-5390
-#FLUX: -N=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 jobname="_A2_aspirin_short_example_01_"
 date=$(date +%F);

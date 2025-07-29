@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-buttface-3649
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/liuyangzhuan/ButterflyPACK/example_scripts/runit_krr_test_summit.sh

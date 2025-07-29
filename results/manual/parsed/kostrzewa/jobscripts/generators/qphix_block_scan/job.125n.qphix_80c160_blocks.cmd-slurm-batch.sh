@@ -1,11 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=qphix_block_benchmark
-#FLUX: -N=125
-#FLUX: -c=48
-#FLUX: --exclusive
-#FLUX: --queue=skl_usr_prod
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=qphix_block_benchmark
+#SBATCH --account=INF18_lqcd123_1
+#SBATCH --output=outputs/out.%x.%J.out
+#SBATCH --error=outputs/err.%x.%J.err
+#SBATCH --mail-user=bartosz_kostrzewa@fastmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=125
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=82G
+#SBATCH --time=12:00:00
+#SBATCH --partition=skl_usr_prod
+#SBATCH --qos=skl_qos_bprod
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='disable'
 export HFI_NO_CPUAFFINITY='1'

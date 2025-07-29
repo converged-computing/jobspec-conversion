@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cherry-5323
-#FLUX: --urgency=16
+#FLUX --job-name=astute-itch-2823
+#FLUX --urgency=16
 
 module load anaconda/2020.11
 source activate fastNeRF

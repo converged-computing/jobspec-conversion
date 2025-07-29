@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=reg_offsets
-#FLUX: --queue=biochem,normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=reg_offsets
+#SBATCH --output=reg_offsets.out
+#SBATCH --error=reg_offsets.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=biochem,normal
+#SBATCH --qos=normal
 
 module load python/3.6.1
 source $py3env/bin/activate

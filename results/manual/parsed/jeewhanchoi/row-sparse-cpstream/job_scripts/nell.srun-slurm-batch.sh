@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nell
-#FLUX: -c=56
-#FLUX: --queue=fat
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nell
+#SBATCH --account=hpctensor
+#SBATCH --output=nell.out
+#SBATCH --error=nell.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=56
+#SBATCH --mem=512G
+#SBATCH --time=12:00:00
+#SBATCH --partition=fat
+#SBATCH --constraint=ntasks-per-node=1
 
 export KMP_AFFINITY='granularity=fine,compact,1'
 export OMP_NUM_THREADS='56'

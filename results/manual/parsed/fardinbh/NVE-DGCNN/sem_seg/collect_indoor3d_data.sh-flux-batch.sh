@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-blackbean-2740
-#FLUX: -c=12
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-lemon-2697
+#FLUX -c=12
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.6
 source ~/tensorflow/bin/activate

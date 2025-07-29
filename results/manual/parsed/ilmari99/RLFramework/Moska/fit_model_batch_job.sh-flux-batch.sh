@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moska_no_cumulate
-#FLUX: -c=64
-#FLUX: --queue=gpusmall
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=moska_no_cumulate
+#FLUX -c=64
+#FLUX --queue=gpusmall
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export CUDNN_PATH='$CUDNN_PATH'
 export LD_LIBRARY_PATH='${CUDNN_PATH}/lib'

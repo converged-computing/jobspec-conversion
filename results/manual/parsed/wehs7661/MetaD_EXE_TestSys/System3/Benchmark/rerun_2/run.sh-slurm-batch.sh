@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rerun_2
-#FLUX: -N=4
-#FLUX: --queue=RM
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rerun_2
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=7
 
 source /home/wehs7661/src/plumed2/sourceme.sh
 source /home/wehs7661/pkgs/gromacs/2020.2/bin/GMXRC

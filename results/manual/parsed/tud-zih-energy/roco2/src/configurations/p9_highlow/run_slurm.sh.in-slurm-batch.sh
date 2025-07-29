@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-punk-8020
-#FLUX: -c=176
-#FLUX: --exclusive
-#FLUX: --queue=ml
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#SBATCH --output=roco2_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=176
+#SBATCH --gres=gpu:0
+#SBATCH --time=01:59:59
+#SBATCH --partition=ml
+#SBATCH: --exclusive
 
 export GOMP_CPU_AFFINITY='0-175'
 export SCOREP_ENABLE_TRACING='1'

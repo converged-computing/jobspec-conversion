@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poodle-6601
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: --queue=checkpt
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=hpc_hpcadmin9
+#SBATCH --output=output.mpirun
+#SBATCH --nodes=2
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=checkpt
 
 module purge
 IMG="/home/admin/singularity/openfoam9.sdfibm-openmpi.4.0.3-pmi2.sif"

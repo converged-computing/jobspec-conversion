@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SCELoss
-#FLUX: -c=4
-#FLUX: --queue=gpgpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=SCELoss
+#SBATCH --account=punim0784
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpgpu
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

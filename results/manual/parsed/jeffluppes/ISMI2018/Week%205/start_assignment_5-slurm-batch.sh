@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-milkshake-8666
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 module load python/3.5.2
 pip uninstall -y tensorflow-gpu

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cattywampus-4588
-#FLUX: -c=2
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#FLUX --job-name=purple-parrot-8487
+#FLUX -c=2
+#FLUX --queue=muylarga
+#FLUX --urgency=16
 
 export PATH='/home/profesia/anaconda/condabin:$PATH'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lemon-3919
-#FLUX: -n=15
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=long
+#SBATCH --qos=medium
 
 module load openmpi/4.0.1

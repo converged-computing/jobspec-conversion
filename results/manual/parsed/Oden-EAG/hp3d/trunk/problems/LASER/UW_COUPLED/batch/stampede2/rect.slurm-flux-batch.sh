@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hp3d
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=skx-normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hp3d
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=skx-normal
+#FLUX -t=300
+#FLUX --urgency=16
 
 export KMP_INIT_AT_FORK='FALSE'
 

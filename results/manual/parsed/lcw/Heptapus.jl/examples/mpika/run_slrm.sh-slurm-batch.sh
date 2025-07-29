@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_mpi_cudanative
-#FLUX: -n=2
-#FLUX: --queue=allgpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test_mpi_cudanative
+#SBATCH --output=out_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titanv:2
+#SBATCH --mem-per-cpu=12GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=allgpu
 
 source /etc/profile
 module load compile/gcc/7.2.0 openmpi/3.0.0 lib/cuda/10.1.243

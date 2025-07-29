@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=proj-benchmark
-#FLUX: -N=3
+#FLUX --job-name=proj-benchmark
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: --queue=cs
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=cs
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export TOTAL_CPUS='$(( SLURM_JOB_NUM_NODES * PBS_NUM_PPN ))'
 

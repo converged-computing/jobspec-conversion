@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-poo-1314
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/architvasan/Benchmarks/Pilot1/ST1/Inf_STRev_MultiNode_CheckList/pbs-script

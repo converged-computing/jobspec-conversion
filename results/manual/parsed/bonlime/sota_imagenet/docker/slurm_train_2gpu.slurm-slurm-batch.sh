@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=imagenet experiments
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=imagenet experiments
+#SBATCH --output=logs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
 
 python3 -m torch.distributed.launch \
     --nproc_per_node=2 \

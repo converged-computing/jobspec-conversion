@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pastry-3271
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-eagle-1111
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ucd-plse/MPAS-tuning/scripts/build_MPAS_atm_intel_gptl.sh

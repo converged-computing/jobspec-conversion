@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cat-4781
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2GB
+#SBATCH --time=4-00:00:00
 
 module purge
 module load biopython/intel/1.70

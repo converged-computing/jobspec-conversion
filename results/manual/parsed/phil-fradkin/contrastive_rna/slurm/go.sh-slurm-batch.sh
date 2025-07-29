@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=go
-#FLUX: -c=2
-#FLUX: --queue=rtx6000,t4v2
-#FLUX: --urgency=16
+#SBATCH --job-name=go
+#SBATCH --output=slurm_out/go_slurm.%A_%a.out
+#SBATCH --error=slurm_out/go_slurm.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=rtx6000,t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0-2
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

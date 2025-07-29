@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=osmi-a100-nvidia
-#FLUX: --queue=bii-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=osmi-a100-nvidia
+#FLUX --queue=bii-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "# cloudmesh status=running progress=1 pid=$$"
 nvidia-smi

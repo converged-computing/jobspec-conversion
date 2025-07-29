@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conversion
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=conversion
+#FLUX -t=1200
+#FLUX --urgency=16
 
 echo "Job Parameters:"
 echo "CONFIG_PATH: $CONFIG_PATH"

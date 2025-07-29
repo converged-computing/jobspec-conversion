@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-parrot-4169
-#FLUX: --queue=gpu2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=resnet50-singularity-ngpu4-bs128_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8000
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

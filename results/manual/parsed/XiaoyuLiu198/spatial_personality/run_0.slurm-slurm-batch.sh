@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=twi_infer_t
-#FLUX: -c=16
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=twi_infer_t
+#SBATCH --account=bckz-delta-gpu
+#SBATCH --output=twi_infer_0.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=4
+#SBATCH --mem=90G
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=ntasks-per-node=1
 
 current_date_time="`date +%Y%m%d%H%M%S`"
 echo $current_date_time

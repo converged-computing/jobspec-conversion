@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla-k80:8
+#SBATCH --mem=30GB
+#SBATCH --time=03:00:00
+#SBATCH --qos=cbmm
+#SBATCH --array=0
 
 export PYTHONPATH='$PYTHONPATH:/raid/poggio/home/vanessad/ImageNet_dogs_framework/tensorflow_models/official/resnet'
 

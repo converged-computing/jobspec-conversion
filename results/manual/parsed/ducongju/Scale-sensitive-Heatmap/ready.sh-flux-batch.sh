@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sacle-sensitive
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=sacle-sensitive
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 eval "$(/opt/app/conda/bin/conda shell.bash hook)"
 module load app/cuda/10.1

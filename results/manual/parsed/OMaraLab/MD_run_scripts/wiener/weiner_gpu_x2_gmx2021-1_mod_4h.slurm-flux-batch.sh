@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-spoon-8667
-#FLUX: -c=28
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-leader-2265
+#FLUX -c=28
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MV2_ENABLE_AFFINITY='0'

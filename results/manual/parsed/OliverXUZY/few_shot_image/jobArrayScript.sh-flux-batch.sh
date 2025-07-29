@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vary_num
-#FLUX: -c=12
-#FLUX: --queue=lianglab
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#FLUX --job-name=vary_num
+#FLUX -c=12
+#FLUX --queue=lianglab
+#FLUX -t=921600
+#FLUX --urgency=16
 
 source ~/.bashrc
 (

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-itch-3070
-#FLUX: -N=48
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-leopard-9256
+#FLUX -N=48
+#FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

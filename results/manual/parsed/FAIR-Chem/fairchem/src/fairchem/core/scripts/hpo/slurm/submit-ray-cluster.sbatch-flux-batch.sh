@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-caramel-7240
-#FLUX: -c=80
-#FLUX: --gpus-per-task=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-punk-5877
+#FLUX -c=80
+#FLUX --gpus-per-task=8
+#FLUX -t=600
+#FLUX --urgency=16
 
 redis_password=$(uuidgen)
 export redis_password

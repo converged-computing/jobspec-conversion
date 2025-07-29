@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-general-6019
-#FLUX: --urgency=16
+#SBATCH --output=openfoam-%j.log
+#SBATCH --error=openfoam-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 spack env deactivate
 spack env activate -d /opt/spack-pkg-env

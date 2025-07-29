@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-1562
-#FLUX: -n=4
-#FLUX: --queue=small
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_200xxxx
+#SBATCH --output=output.txt
+#SBATCH --error=errors.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:10:00
+#SBATCH --partition=small
 
 module load r-env-singularity
 if test -f ~/.Renviron; then

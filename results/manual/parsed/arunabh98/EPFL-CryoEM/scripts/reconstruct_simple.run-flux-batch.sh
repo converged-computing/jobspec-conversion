@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-0289
-#FLUX: -c=5
+#FLUX --job-name=psycho-lemon-7978
+#FLUX -c=5
 #FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo STARTING AT `date`
 module purge

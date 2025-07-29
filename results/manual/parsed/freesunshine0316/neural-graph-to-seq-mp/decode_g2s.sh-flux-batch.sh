@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peanut-butter-2877
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-kitty-1389
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/lsong10/ws/exp.graph_to_seq/neural-graph-to-seq-mp'
 

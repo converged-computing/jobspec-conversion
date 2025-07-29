@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=<simulation_name>
-#FLUX: -n=128
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=<simulation_name>
+#SBATCH --account=<project_id>
+#SBATCH --output=<simulation_name>.o%j
+#SBATCH --error=<simulation_name>.e%j
+#SBATCH --mail-user=<email_address>
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
 
 module load LUMI/23.09 partition/C EasyBuild-user
 module load OpenFOAM/v2312-cpeGNU-23.09

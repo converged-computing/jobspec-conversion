@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pot-7315
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=blank-pedo-2793
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='TRUE # set thread affinity'
 

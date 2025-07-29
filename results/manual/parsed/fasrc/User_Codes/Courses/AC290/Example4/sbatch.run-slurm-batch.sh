@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mmult
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=mmult
+#SBATCH --output=mmult.out
+#SBATCH --error=mmult.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:00:30
+#SBATCH --partition=shared
 
 module load gcc/8.2.0-fasrc01
 module load openmpi/3.1.1-fasrc01

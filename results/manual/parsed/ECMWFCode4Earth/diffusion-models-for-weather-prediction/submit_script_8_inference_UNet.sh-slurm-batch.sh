@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=EvalUNet
-#FLUX: -t=13500
-#FLUX: --urgency=16
+#SBATCH --job-name=EvalUNet
+#SBATCH --output=/data/compoundx/WeatherDiff/job_log/%x-%u-%j.out
+#SBATCH --error=/data/compoundx/WeatherDiff/job_log/%x-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=03:45:00
 
 helpFunction()
 {

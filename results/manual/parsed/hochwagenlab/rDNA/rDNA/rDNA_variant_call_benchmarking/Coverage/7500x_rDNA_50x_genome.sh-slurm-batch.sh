@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-3180
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=
+#SBATCH --error=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
 
 module purge
 module load numpy/python2.7/intel/1.14.0

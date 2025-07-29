@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=zen1_tnews
-#FLUX: -c=30
-#FLUX: --urgency=16
+#SBATCH --job-name=zen1_tnews
+#SBATCH --output=%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:1
 
 export CUDA_VISIBLE_DEVICES='1'
 export CUDA_LAUNCH_BLOCKING='1'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cherry-3089
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=log.run.out
+#SBATCH --error=log.run.stderr
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='8'
 export OMP_WAIT_POLICY='active'

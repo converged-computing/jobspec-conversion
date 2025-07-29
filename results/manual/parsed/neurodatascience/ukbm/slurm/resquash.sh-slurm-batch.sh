@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-omelette-2166
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
 
 helpstr="$(basename "$0") [-h] [-p] [-j dataset_description.json] subject_list singularity_img output_dir topdir squashfs - Re-squashes the input SquashFS files without the subjects listed
 where:

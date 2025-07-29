@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=t2t
-#FLUX: --queue=pascal
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=t2t
+#SBATCH --account=T2-CS107-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=pascal
 
 if [[ "$SLURM_JOBID" != "" ]]; then
     module purge

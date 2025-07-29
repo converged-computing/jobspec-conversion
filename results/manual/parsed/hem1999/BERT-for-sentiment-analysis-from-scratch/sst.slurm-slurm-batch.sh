@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_basics
-#FLUX: --queue=gpuq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_basics
+#SBATCH --output=gpu_basics.%j.out
+#SBATCH --error=gpu_basics.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100.80gb:1
+#SBATCH --mem=20G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpuq
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 set echo 
 umask 0022 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=for_gst_2log
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=for_gst_2log
+#SBATCH --output=grid_study_laporta_ism2_fortran.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=18
 
 export OMP_NUM_THREADS='8'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/shared/hpc/matlab/$MATLAB_VER/bin/glnxa64:/shared/hpc/matlab/$MATLAB_VER/sys/os/glnxa64'

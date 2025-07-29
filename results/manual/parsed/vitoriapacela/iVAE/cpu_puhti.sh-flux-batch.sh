@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=iVAE
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=iVAE
+#FLUX -c=10
+#FLUX --queue=small
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load pytorch/1.4

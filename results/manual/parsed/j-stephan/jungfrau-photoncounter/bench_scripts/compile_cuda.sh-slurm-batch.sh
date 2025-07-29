@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=CUDA_Compile
-#FLUX: -n=4
-#FLUX: --queue=fwkt_v100
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=CUDA_Compile
+#SBATCH --account=fwkt_v100
+#SBATCH --output=log.cc.slurm-%j.out
+#SBATCH --error=err.cc.slurm-%j.out
+#SBATCH --mail-user=j.schenke@hzdr.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=25G
+#SBATCH --time=23:00:00
+#SBATCH --partition=fwkt_v100
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 

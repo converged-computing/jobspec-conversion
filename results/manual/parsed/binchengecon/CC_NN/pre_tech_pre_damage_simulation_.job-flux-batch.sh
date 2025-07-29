@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=modification
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=modification
+#FLUX --queue=gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load python/anaconda-2021.05
 echo 

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=mesh_nbody_benchmark
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=mesh_nbody_benchmark
+#SBATCH --account=ftb@gpu
+#SBATCH --output=mesh_nbody_benchmark_%j.out
+#SBATCH --error=mesh_nbody_benchmark_%j.out
+#SBATCH --mail-user=denise.lanzieri@cea.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:15:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=4
 
 export TMPDIR='$JOBSCRATCH'
 

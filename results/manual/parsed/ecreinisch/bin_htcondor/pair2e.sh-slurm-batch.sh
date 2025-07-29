@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-banana-1427
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ ! "$#" -eq 12 ]; then
 	echo "$0 needs 12 arguments. Found only $#"

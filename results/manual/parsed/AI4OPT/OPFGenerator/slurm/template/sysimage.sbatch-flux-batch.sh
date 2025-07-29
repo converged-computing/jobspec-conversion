@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sysimage_OPF
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=sysimage_OPF
+#FLUX -t=3600
+#FLUX --urgency=16
 
 . {{{:env_path}}}
 cd {{{:opfgenerator_dir}}}

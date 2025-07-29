@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-general-5575
-#FLUX: -t=45
-#FLUX: --urgency=16
+#SBATCH --output=hostname_%A_%a.out
+#SBATCH --error=hostname_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:00:45
+#SBATCH --array=1-168
+#SBATCH --nodelist=spyder[06-09]
 
 folder="test_suite/mod_large_random/Kripke/" # specify the folder on which to run on
 sample_files=($(find "$folder" -type f -name "*.sp"))

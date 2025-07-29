@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rnn.stackexchange.multi_test.general
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=rnn.stackexchange.multi_test.general
+#SBATCH --output=slurm_output/train.rnn.stackexchange.multi_test.general.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=titanx
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export ATTENTION='general'
 export EXP_NAME='rnn.stackexchange.multi_test.$ATTENTION'

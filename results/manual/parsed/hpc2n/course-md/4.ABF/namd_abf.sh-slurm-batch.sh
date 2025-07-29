@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-banana-1874
-#FLUX: -n=28
-#FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --account=*FIXME*
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:2
+#SBATCH --time=00:40:00
+#SBATCH: --exclusive
 
 ml purge > /dev/null 2>&1
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

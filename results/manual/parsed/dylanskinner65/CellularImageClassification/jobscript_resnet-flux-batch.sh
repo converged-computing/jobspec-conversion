@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cherry-4209
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-poo-7743
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export CUDA_LAUNCH_BLOCKING='1'

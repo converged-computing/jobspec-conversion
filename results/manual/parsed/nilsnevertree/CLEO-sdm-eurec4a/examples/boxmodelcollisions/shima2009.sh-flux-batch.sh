@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=shima2009
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=shima2009
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=everwatch_workflow_dryrun
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=everwatch_workflow_dryrun
+#SBATCH --output=/blue/ewhite/everglades/everwatch-workflow/logs/everglades_dryrun_workflow.out
+#SBATCH --error=/blue/ewhite/everglades/everwatch-workflow/logs/everglades_dryrun_workflow.err
+#SBATCH --mail-user=henrysenyondo@ufl.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=a100:1
+#SBATCH --mem=200gb
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
 
 export TEST_ENV='True'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=compute_ZINB
-#FLUX: -c=3
-#FLUX: --queue=gpup100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=compute_ZINB
+#FLUX -c=3
+#FLUX --queue=gpup100
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load cuda/9.0
 module load python/3.6-anaconda

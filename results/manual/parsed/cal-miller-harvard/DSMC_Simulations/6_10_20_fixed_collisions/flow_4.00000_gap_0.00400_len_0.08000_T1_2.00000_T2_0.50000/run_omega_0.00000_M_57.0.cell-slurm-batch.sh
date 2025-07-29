@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peanut-butter-1246
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --output=data/particles_exit_omega_0.00000_M_57.0_zmax_0.14609_pflip_0.10000_job_%j.out
+#SBATCH --error=data/particles_exit_omega_0.00000_M_57.0_zmax_0.14609_pflip_0.10000_job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:08:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

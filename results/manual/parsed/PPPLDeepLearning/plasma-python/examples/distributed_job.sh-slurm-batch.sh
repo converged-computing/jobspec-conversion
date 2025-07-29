@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-punk-7804
-#FLUX: -N=10
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:02:00
+#SBATCH --constraint=ntasks-per-node=16,ntasks-per-socket=8
 
 module load anaconda
 module load cudatoolkit/7.5 cudann

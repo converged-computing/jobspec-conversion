@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=name
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=blcy
-#FLUX: --urgency=16
+#SBATCH --job-name=name
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:4
+#SBATCH --mem-per-cpu=64G
+#SBATCH --partition=blcy
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=1
 
 export OMPI_MCA_btl_openib_allow_ib='true'
 export OMPI_MCA_pml='ucx'

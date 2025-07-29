@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stream_benchmark
-#FLUX: --urgency=16
+#SBATCH --job-name=stream_benchmark
+#SBATCH --output=stream_output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 sudo apt update
 sudo apt install -y gcc gfortran make libopenblas-dev

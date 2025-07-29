@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-mango-1789
-#FLUX: -n=64
-#FLUX: --queue=amd_256
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=amd_256
 
 b=$SAMPLE
 wd=${READ_DIR}

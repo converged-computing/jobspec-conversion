@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-noodle-4050
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 frameworks=("numba")
 benchmarks=("azimint_hist" "azimint_naive"

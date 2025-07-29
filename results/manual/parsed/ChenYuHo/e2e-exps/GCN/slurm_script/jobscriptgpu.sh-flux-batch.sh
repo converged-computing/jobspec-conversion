@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GCN
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=GCN
+#FLUX -n=2
+#FLUX --queue=batch
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

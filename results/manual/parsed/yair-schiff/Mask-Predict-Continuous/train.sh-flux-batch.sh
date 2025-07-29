@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cherry-0257
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-underoos-8234
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='${PWD}"  # Add root directory to PYTHONPATH to enable module imports'
 export NCCL_DEBUG='INFO'

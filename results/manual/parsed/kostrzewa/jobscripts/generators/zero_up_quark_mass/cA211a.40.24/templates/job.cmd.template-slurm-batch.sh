@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kaon_=ENS=_=NSTORE=
-#FLUX: -c=3
-#FLUX: --queue=pascal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=kaon_=ENS=_=NSTORE=
+#SBATCH --mail-user=bartosz_kostrzewa@fastmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:pascal:2
+#SBATCH --mem=80G
+#SBATCH --time=06:00:00
+#SBATCH --partition=pascal
+#SBATCH --constraint=ntasks-per-node=2
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/qbigwork2/bartek/libs/bleeding_edge/pascal/quda_develop-dynamic_clover/lib'
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/pascal_9c0e0dc8e96d9beb8de56a0e58a406cb486ce300_gdr${gdr}_p2p${p2p}'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-caramel-8068
-#FLUX: -t=30600
-#FLUX: --urgency=16
+#FLUX --job-name=astute-toaster-8749
+#FLUX -t=30600
+#FLUX --urgency=16
 
 cd ~/$projects/papr
 module load StdEnv/2020

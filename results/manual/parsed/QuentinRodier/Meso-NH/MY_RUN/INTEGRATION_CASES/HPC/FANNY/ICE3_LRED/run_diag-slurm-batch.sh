@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=diag_fanny
-#FLUX: -N=2
-#FLUX: -n=256
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=diag_fanny
+#SBATCH --output=diag_fanny.eo%j
+#SBATCH --error=diag_fanny.eo%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export MPIRUN='Mpirun -np 256'
 

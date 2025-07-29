@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tvp_ipython
-#FLUX: -n=20
-#FLUX: --queue=vis
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=tvp_ipython
+#FLUX -n=20
+#FLUX --queue=vis
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo job $JOB_ID execution at: `date`
 NODE_HOSTNAME=`hostname -s`

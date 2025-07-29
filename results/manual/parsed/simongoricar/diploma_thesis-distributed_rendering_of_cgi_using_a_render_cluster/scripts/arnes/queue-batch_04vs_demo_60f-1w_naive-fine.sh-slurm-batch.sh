@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_demo_60f-1w_naive-fine
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_demo_60f-1w_naive-fine
+#SBATCH --output=/d/hpc/projects/FRI/sg7710/distributed-rendering-logs/%A.sbatch.qb_04vs_demo_60f-1w_naive-fine.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=16,amd&rome
+#SBATCH --exclude=wn[201-224]
 
 export RUST_LOG='debug'
 

@@ -1,12 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=test_%j.out
+#SBATCH --mail-user=USER@DOMAIN
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=96gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 CHECKPOINT_PATH=checkpoints_2_node
 VOCAB_FILE=../data/vocab.txt

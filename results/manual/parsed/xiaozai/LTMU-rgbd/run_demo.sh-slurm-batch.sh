@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=LTMU
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=LTMU
+#SBATCH --output=/home/yans/LTMU-rgbd/logs/log-demo-dimp-ltmu-output.txt
+#SBATCH --error=/home/yans/LTMU-rgbd/logs/log-demo-dimp-ltmu-error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:teslav100:1
+#SBATCH --mem-per-cpu=64000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
 
 module load CUDA/10.0
 module load fgci-common

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xc
-#FLUX: -n=30
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=xc
+#SBATCH --account=xtyang
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16000
+#SBATCH --time=5-00:00:00
 
 module load rcac
 module use /depot/xtyang/etc/modules

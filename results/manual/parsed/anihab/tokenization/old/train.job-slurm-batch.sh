@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dnabert2
-#FLUX: --queue=soc-gpu-np
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dnabert2
+#SBATCH --account=soc-gpu-np
+#SBATCH --output=/uufs/chpc.utah.edu/common/home/u1049062/OUT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=soc-gpu-np
 
 set -x
 nvidia-smi 

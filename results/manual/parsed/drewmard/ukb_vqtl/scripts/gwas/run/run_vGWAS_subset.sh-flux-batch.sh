@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vQTL
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=vQTL
+#FLUX -n=4
+#FLUX --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=neutrophil.count.rint.ALL

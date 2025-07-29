@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pirlnav
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=pirlnav
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TG1km
-#FLUX: -N=5
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=TG1km
+#SBATCH --account=m1795
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=knl
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

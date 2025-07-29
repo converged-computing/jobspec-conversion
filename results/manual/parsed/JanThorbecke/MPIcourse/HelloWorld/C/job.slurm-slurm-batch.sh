@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-mpi
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=9
-#FLUX: --urgency=16
+#SBATCH --job-name=hello-mpi
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:00:09
+#SBATCH --partition=compute
+#SBATCH: --exclusive
 
 echo $SLURM_JOB_NODELIST
 sleep 10 

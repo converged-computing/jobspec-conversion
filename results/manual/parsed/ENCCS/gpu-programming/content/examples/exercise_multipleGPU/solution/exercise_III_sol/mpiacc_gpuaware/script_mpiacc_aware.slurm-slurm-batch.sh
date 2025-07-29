@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpuaware-mpiacc
-#FLUX: --queue=standard-g
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=gpuaware-mpiacc
+#SBATCH --account=project_465000485
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=00:05:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=4
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

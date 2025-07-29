@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cache_mls
-#FLUX: --queue=skylake,cclake
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cache_mls
+#SBATCH --account=MLMI-tw581-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=skylake,cclake
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

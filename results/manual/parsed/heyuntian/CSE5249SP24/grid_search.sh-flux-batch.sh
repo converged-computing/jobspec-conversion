@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peanut-butter-9682
-#FLUX: --queue=a100
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-poodle-8044
+#FLUX --queue=a100
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source /home/he.1773/.bashrc
 source activate confMILE

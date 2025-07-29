@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=data
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=data
+#FLUX -c=8
+#FLUX --queue=brown
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Running on $(hostname):"
 nvidia-smi

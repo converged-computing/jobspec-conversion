@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-kerfuffle-2743
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-lemon-0155
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load compilers/cuda/9.2
 . ~/miniconda/etc/profile.d/conda.sh

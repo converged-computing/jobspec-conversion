@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-1168
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#FLUX --job-name=angry-house-4092
+#FLUX --queue=64c512g
+#FLUX --urgency=16
 
 if [ ! $# -eq 1 ]; then
     echo -e "Usage: $0 <raw_data_dir>"

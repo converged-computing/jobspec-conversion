@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-earthworm-1082
-#FLUX: -n=4
-#FLUX: --queue=cloud
-#FLUX: --urgency=16
+#SBATCH --output=sing_test_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cloud
 
 export MPI_MCA_mca_base_component_show_load_errors='0'
 export PMIX_MCA_mca_base_component_show_load_errors='0'

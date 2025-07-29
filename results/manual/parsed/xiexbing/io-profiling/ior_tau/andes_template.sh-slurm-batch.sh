@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RUN
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN
+#SBATCH --account=stf008
+#SBATCH --output=o.hacc
+#SBATCH --error=e.hacc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
 
 export PATH='/gpfs/alpine/stf008/scratch/bing/hacc_io/tau/tau2/x86_64/bin:$PATH'
 

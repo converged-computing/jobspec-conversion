@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pedo-1460
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/wildan37/gaya_pemberhenti/run_aluminum.sh

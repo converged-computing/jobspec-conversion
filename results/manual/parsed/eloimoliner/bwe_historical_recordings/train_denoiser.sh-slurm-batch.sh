@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=training_array_metrics
-#FLUX: -c=10
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=training_array_metrics
+#SBATCH --output=/scratch/work/%u/unet_dir/denoising_pytorch/experiments/%a_training_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=2-23:59:59
+#SBATCH --constraint=volta
+#SBATCH --array=[21,22,23]
 
 module load anaconda 
 source activate /scratch/work/molinee2/conda_envs/2022_torchot

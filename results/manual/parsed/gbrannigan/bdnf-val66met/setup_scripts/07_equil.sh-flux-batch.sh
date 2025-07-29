@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=V4
-#FLUX: -n=64
-#FLUX: --queue=normal
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#FLUX --job-name=V4
+#FLUX -n=64
+#FLUX --queue=normal
+#FLUX -t=19800
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pot-2675
-#FLUX: -c=5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-underoos-2428
+#FLUX -c=5
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'
 export LD_LIBRARY_PATH='$CUDAROOT/lib64:$LD_LIBRARY_PATH'

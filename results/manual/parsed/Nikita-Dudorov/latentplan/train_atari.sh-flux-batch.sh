@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tap-atari-inference
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tap-atari-inference
+#FLUX -c=6
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

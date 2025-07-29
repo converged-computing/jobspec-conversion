@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=b0-1
-#FLUX: -c=40
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=b0-1
+#FLUX -c=40
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export SLURM_MPI_TYPE='openmpi'

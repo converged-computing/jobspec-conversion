@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-eagle-7755
-#FLUX: -n=32
-#FLUX: --queue=t4_normal_q
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-egg-8228
+#FLUX -n=32
+#FLUX --queue=t4_normal_q
+#FLUX -t=252000
+#FLUX --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0 '
 export OMPI_MCA_btl_openib_if_exclude='mlx5_1 '

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gene_pile
-#FLUX: -n=12
-#FLUX: --queue=highmem
-#FLUX: --urgency=16
+#FLUX --job-name=gene_pile
+#FLUX -n=12
+#FLUX --queue=highmem
+#FLUX --urgency=16
 
 source /home/ssmith/.bashrc
 source activate wgs_env

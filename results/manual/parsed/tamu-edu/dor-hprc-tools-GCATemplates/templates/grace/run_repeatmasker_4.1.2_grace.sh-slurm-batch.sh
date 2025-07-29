@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=repeatmasker
+#SBATCH --output=stdout.%x.%j
+#SBATCH --error=stderr.%x.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=180G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load GCC/9.3.0  OpenMPI/4.0.3  RepeatMasker/4.1.2-p1-HMMER
 <<README

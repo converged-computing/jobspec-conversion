@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=inversion
-#FLUX: --queue=singlepe
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=inversion
+#FLUX --queue=singlepe
+#FLUX -t=14400
+#FLUX --urgency=16
 
 myiter=antbe6 #name (APPL) of this iteration
 previter=antbe5 #name of previous iteration

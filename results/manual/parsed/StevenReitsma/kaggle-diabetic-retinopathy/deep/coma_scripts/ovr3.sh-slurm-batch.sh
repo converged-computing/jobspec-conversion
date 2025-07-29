@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=OVR_3
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=OVR_3
+#SBATCH --mail-user=s.reitsma@ru.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 export LD_LIBRARY_PATH='/home/sreitsma/cudnn-6.5-linux-x64-v2:/usr/local/cuda-6.5/lib64:$LD_LIBRARY_PATH'
 export PATH='/usr/local/cuda-6.5/bin:$PATH'

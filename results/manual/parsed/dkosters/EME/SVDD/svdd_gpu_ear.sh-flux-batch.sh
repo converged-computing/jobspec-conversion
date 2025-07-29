@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-7074
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-cat-9778
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-nalgas-1792
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-hippo-3197
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export R_LIBS=''
 export PYTHONPATH=''

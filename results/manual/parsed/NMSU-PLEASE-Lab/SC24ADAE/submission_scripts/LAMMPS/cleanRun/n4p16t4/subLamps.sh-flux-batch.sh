@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -N=4
+#FLUX --job-name=lammps
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=wholenode
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=wholenode
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4 #$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

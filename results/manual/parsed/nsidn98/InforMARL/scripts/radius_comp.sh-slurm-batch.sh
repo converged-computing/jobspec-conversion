@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rad_comp
-#FLUX: -c=40
-#FLUX: --urgency=16
+#SBATCH --job-name=rad_comp
+#SBATCH --output=rad_comp_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:volta:1
+#SBATCH --array=0-5
 
 source /etc/profile
 module load anaconda/2022a

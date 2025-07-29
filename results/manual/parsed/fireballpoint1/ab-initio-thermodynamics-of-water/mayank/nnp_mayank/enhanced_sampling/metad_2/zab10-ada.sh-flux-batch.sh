@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-2749
-#FLUX: -n=15
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-malarkey-4791
+#FLUX -n=15
+#FLUX --queue=long
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load openmpi/4.0.1
 mpirun -np 15 /global/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_142_35_141__0-2_0-3_500_40000_index1.lmp

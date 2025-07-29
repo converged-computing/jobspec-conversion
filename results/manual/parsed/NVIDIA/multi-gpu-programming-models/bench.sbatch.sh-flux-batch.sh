@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-6015
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-cherry-2714
+#FLUX -n=8
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SRUN_ARGS='--cpu-bind=none --mpi=none --no-container-remap-root --container-mounts=$CONTAINER_MNTS --container-workdir=/mnt --container-name=$CONTAINER_NAME'
 export OMPI_MCA_coll_hcoll_enable='0'

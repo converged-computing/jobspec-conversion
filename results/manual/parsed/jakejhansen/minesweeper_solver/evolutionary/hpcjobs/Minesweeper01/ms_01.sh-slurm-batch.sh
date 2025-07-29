@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-peanut-butter-8343
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jakejhansen/minesweeper_solver/evolutionary/hpcjobs/Minesweeper01/ms_01.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=icon-single-percision
+#FLUX --job-name=icon-single-percision
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/sw/spack-levante/gcc-12.3.0-ab6j4u/lib64:$LD_LIBRARY_PATH'
 export INPUT='1500k.nc'

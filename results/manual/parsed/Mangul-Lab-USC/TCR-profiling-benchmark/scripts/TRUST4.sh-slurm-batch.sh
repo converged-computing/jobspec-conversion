@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TRUST4.job
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=TRUST4.job
+#SBATCH --account=mangul_341
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16GB
+#SBATCH --time=2-00:00:00
 
 export LC_CTYPE='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

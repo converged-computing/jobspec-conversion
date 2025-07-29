@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nalgas-0445
-#FLUX: -N=10
-#FLUX: -n=256
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-kitty-3860
+#FLUX -N=10
+#FLUX -n=256
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

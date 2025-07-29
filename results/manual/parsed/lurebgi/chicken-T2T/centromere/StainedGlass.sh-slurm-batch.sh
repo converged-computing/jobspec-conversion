@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stain
-#FLUX: -c=8
-#FLUX: --queue=basic
-#FLUX: --urgency=16
+#SBATCH --job-name=stain
+#SBATCH --output=nuc-%j.out
+#SBATCH --error=nuc-%j.err
+#SBATCH --mail-user=luohao.xu@univie.ac.at
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=6000
+#SBATCH --partition=basic
 
 chr=$1
 module unload python2

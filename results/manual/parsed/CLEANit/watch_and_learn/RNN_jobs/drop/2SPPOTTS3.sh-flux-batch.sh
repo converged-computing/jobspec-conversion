@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-muffin-2683
-#FLUX: --queue=bumblebee
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=placid-chip-4930
+#FLUX --queue=bumblebee
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source activate tensorflow
 module load cudnn/7.0-9.0

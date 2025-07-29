@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mRNA_countA
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mRNA_countA
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 basePath=$1
 REFERENCE_DIR=$2

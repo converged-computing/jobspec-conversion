@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cherry-3098
-#FLUX: --queue=gpu
-#FLUX: -t=136800
-#FLUX: --urgency=16
+#FLUX --job-name=angry-cat-2900
+#FLUX --queue=gpu
+#FLUX -t=136800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OUTPUT_DIR='/scratch/project_2002026/cnn/multiling-cnn/pretty/output'

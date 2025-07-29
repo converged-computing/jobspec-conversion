@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=XAIATTACK-RTE
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=XAIATTACK-RTE
+#SBATCH --output=../logs/cluster/%x.out.%A_%a
+#SBATCH --error=../logs/cluster/%x.err.%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000
+#SBATCH --time=12:00:00
 
 export DATASET='rte'
 export MODEL='distilbert-base-uncased'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-0311
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=05:00:00
 
 export SLURM_EXPORT_ENV='ALL'
 

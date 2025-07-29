@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CASE6P15
-#FLUX: -N=8
-#FLUX: -n=129
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=CASE6P15
+#SBATCH --account=SKA-SDP
+#SBATCH --nodes=8
+#SBATCH --ntasks=129
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=compute
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

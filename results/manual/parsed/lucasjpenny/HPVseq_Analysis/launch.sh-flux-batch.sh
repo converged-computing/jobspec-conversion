@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake-submission
-#FLUX: --queue=all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake-submission
+#FLUX --queue=all
+#FLUX -t=86400
+#FLUX --urgency=16
 
 . env.sh
 module load samtools/1.9

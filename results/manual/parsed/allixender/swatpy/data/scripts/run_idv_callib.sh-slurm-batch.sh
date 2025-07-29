@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=swat_callib_x
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=swat_callib_x
+#SBATCH --mail-user=alexander.kmoch@ut.ee
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/gpfs/hpc/home/kmoch/swat
 
 module load python-3.7.1
 source activate daskgeo2020a

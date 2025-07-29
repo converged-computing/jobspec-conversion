@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=openmm
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=openmm
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 . /hpc/mp/spack/opt/spack/linux-ubuntu20.04-zen2/gcc-10.3.0/\
 lmod-8.7.2-uutt23puvwraegsi7w7ck3xbhrgk22mu/lmod/lmod/init/$(basename $SHELL)

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-ricecake-3830
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=arid-house-3368
+#FLUX -N=2
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

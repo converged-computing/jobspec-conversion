@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-puppy-4800
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=500MB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=prio
 
 module add GROMACS/2020.5-RAMD-2.0-fosscuda-2019b;
 mkdir sim${SLURM_ARRAY_TASK_ID};

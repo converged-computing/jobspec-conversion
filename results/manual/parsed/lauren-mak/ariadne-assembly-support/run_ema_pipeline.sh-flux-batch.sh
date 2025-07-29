@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-ricecake-2315
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-buttface-2996
+#FLUX --queue=panda
+#FLUX --urgency=16
 
 export LUIGI_CONFIG_PATH='${2}'
 

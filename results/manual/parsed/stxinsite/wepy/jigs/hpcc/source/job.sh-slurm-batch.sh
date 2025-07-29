@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lysozyme_test
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lysozyme_test
+#SBATCH --output=_output/sub_logs/lysozyme_test.%J.out
+#SBATCH --error=_output/sub_logs/lysozyme_test.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:8
+#SBATCH --mem=20gb
+#SBATCH --time=04:00:00
+#SBATCH --constraint=[intel18|intel16]
 
 export ANACONDA_DIR='$HOME/.pyenv/versions/miniconda3-latest'
 

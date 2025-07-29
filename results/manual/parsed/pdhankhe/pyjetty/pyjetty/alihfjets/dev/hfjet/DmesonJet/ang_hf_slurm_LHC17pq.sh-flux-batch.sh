@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hfMC18a4a2
-#FLUX: --queue=std
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=hfMC18a4a2
+#FLUX --queue=std
+#FLUX -t=86400
+#FLUX --urgency=16
 
 FILE_PATHS='/home/preeti/analysis/pyjetty/pyjetty/alihfjets/dev/hfjet/files_D0count_pp5TeV_enhanceMC_758.txt'
 NFILES=$(wc -l < $FILE_PATHS)

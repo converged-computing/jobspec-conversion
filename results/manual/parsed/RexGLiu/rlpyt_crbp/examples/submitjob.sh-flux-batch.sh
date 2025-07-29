@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_breakout
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: -t=705600
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_breakout
+#FLUX -n=16
+#FLUX --queue=gpu
+#FLUX -t=705600
+#FLUX --urgency=16
 
 module load anaconda/3-5.2.0
 module load cuda/10.1.105

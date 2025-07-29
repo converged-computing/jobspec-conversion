@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: --urgency=16
+#SBATCH --job-name=job
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 INPUTDECK="main.k"
 if ls d3dump* 1>/dev/null 2>&1; then

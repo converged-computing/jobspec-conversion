@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_DMR
+#FLUX --job-name=yrv_DMR
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 module load singularity/3.7
 chmod +x /vortexfs1/home/yaamini.venkataraman/06-BAT-DMRcalling.sh

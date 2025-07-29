@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-7153
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-train-0227
+#FLUX -c=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export FSLSUB_LOCAL_RUN='YES'
 export FSLOUTPUTTYPE='NIFTI'

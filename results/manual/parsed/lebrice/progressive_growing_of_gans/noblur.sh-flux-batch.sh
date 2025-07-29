@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pancake-0137
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-citrus-2319
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd ~/IFT6085/progressive_growing_of_gans
 source ~/miniconda3/bin/activate

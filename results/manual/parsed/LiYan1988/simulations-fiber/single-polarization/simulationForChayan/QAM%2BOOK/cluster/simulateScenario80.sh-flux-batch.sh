@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=simulateScenario80
-#FLUX: --queue=glenn
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=simulateScenario80
+#FLUX --queue=glenn
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load matlab
 cp  -r $SLURM_SUBMIT_DIR/* $TMPDIR

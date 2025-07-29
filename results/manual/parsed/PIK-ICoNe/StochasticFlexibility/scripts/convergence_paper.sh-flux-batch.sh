@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-rabbit-7781
-#FLUX: --queue=largemem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-cupcake-5441
+#FLUX --queue=largemem
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "SLURM TASK ID: $SLURM_ARRAY_TASK_ID"
 module load julia

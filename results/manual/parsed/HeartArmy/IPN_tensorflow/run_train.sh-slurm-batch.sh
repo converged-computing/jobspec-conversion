@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cherry-2633
-#FLUX: -n=10
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm_%j.out
+#SBATCH --error=slurm_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=nvidia
 
 python train.py

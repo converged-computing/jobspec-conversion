@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Py
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Train_Py
+#FLUX --queue=skylake
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python
 module load numpy/1.14.1-python-2.7.14

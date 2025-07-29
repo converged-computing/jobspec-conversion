@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-poo-2977
-#FLUX: -c=12
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-house-3994
+#FLUX -c=12
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1
 ml PyTorch-Geometric/2.0.2-foss-2021a-CUDA-11.3.1-PyTorch-1.10.0

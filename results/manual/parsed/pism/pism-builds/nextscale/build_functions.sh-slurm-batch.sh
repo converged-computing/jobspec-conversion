@@ -1,6 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=petsc_config
-#FLUX: --urgency=16
+#SBATCH --job-name=petsc_config
+#SBATCH --account=ice
+#SBATCH --output=./petsc_config-%j.out
+#SBATCH --error=./petsc_config-%j.err
+#SBATCH --mail-user=albrecht@pik-potsdam.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --qos=short
 
 N=2
 echo 'PETSC_DIR = ' ${PETSC_DIR}

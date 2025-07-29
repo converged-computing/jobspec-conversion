@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=render
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=render
+#FLUX -n=4
+#FLUX --queue=core
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set -e
 singularity_seurat="/sw/courses/scrnaseq/singularity/2024-seurat-r4.3.0.sif"

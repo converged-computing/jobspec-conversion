@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WE43_Maud_refinements
-#FLUX: --queue=thrust2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=WE43_Maud_refinements
+#FLUX --queue=thrust2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 find . -name \*CPU* -type f -delete
 declare -a runStart=(1 33 65 97)

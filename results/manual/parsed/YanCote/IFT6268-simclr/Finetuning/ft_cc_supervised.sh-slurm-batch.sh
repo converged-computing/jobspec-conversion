@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-frito-2899
-#FLUX: -t=840
-#FLUX: --urgency=16
+#SBATCH --account=def-bengioy
+#SBATCH --output=out_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:14:00
 
 format_time() {
   ((h=${1}/3600))

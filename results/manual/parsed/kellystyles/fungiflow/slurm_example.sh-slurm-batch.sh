@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fungiflow
-#FLUX: -c=16
-#FLUX: --queue=parallel
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=fungiflow
+#SBATCH --output=/output/path/fungiflow_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=120G
+#SBATCH --time=08:00:00
+#SBATCH --partition=parallel
+#SBATCH --array=1-4%4
 
 """
 This script will run the Fungiflow pipeline

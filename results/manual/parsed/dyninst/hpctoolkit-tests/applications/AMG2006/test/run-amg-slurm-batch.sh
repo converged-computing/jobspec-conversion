@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bike-6688
-#FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='2'
 export OMP_WAIT_POLICY='active'

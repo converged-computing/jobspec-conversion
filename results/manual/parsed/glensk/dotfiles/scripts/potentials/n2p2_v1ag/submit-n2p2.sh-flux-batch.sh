@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NNP-mpi
-#FLUX: -n=28
-#FLUX: -t=258600
-#FLUX: --urgency=16
+#FLUX --job-name=NNP-mpi
+#FLUX -n=28
+#FLUX -t=258600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

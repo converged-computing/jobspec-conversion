@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-ricecake-1347
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-lentil-9121
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/lib'
 

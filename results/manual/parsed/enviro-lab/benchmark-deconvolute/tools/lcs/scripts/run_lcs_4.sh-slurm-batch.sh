@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-soup-5368
-#FLUX: --queue=Draco
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2tb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=Draco
+#SBATCH --constraint=ntasks-per-node=32
 
 module purge &>/dev/null
 module load anaconda3 &>/dev/null || source "$(dirname $(which conda))/../etc/profile.d/conda.sh" || (echo 'make sure you have conda installed'; exit 1)

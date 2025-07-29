@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FLOFS_atm2adc2ww3_RUN
-#FLUX: -N=50
-#FLUX: -n=500
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=FLOFS_atm2adc2ww3_RUN
+#FLUX -N=50
+#FLUX -n=500
+#FLUX -t=28800
+#FLUX --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

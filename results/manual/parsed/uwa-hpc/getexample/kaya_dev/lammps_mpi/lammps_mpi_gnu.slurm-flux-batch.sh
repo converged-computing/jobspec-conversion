@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_mpi
-#FLUX: -N=2
-#FLUX: --queue=workq
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=lammps_mpi
+#FLUX -N=2
+#FLUX --queue=workq
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load lammps

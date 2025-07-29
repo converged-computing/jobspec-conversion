@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RL3
-#FLUX: -c=8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=RL3
+#FLUX -c=8
+#FLUX -t=360000
+#FLUX --urgency=16
 
 cd ~/RL3NeurIPS/
 module purge

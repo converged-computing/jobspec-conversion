@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=name=pt-sweep
-#FLUX: --queue=dept_gpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=name=pt-sweep
+#FLUX --queue=dept_gpu
+#FLUX -t=0
+#FLUX --urgency=16
 
 work_dir=$(pwd)
 user=$(whoami)

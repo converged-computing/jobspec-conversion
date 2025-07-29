@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-underoos-3329
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/hundreth_synapses_poisson_extract_feature.pbs

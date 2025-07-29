@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: --queue=kshdexclu04
-#FLUX: --urgency=16
+#FLUX --job-name=setup
+#FLUX --queue=kshdexclu04
+#FLUX --urgency=16
 
 date
 module purge

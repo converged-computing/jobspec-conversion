@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=plink
-#FLUX: --queue=standard
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=plink
+#SBATCH --account=berglandlab
+#SBATCH --output=/scratch/aob2x/ld/logs/ld.%A_%a.out
+#SBATCH --error=/scratch/aob2x/ld/logs/ld.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=00:15:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 module load plink/1.90b6.16
 cd /scratch/aob2x/ld

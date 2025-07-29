@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_pipeline
-#FLUX: -c=5
-#FLUX: --queue=general
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=run_pipeline
+#FLUX -c=5
+#FLUX --queue=general
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load SAMtools
 idsFile=$1

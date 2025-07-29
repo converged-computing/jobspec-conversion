@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-rabbit-3491
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --output=logs/compile_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=18:00:00
 
 export MCR_CACHE_ROOT='/tmp/$SLURM_JOB_ID'
 

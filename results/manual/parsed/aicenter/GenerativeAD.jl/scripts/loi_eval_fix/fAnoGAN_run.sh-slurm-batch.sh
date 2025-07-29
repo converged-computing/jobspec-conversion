@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cat-9677
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 DATASET=$1
 module load Julia/1.5.1-linux-x86_64

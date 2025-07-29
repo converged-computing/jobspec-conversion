@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-truffle-8328
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=06:00:00
 
 export PATH='$here:$PATH'
 

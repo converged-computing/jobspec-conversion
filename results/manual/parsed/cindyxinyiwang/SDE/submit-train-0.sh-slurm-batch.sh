@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=multlin
-#FLUX: -t=3600000
-#FLUX: --urgency=16
+#SBATCH --job-name=multlin
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12g
+#SBATCH --time=41-16:00:00
 
 export PYTHONPATH='$(pwd)"                                                       '
 export CUDA_VISIBLE_DEVICES='0" '

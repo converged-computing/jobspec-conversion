@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gurobitest
-#FLUX: --queue=test
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=gurobitest
+#SBATCH --output=test.out
+#SBATCH --error=test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:00:30
+#SBATCH --partition=test
 
 module load python
 module load gurobi

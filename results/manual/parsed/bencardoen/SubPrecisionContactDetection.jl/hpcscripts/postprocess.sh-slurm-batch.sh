@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-chip-9056
-#FLUX: -c=6
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --account=ACCOUNT
+#SBATCH --mail-user=EMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=120G
+#SBATCH --time=18:00:00
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export SINGULARITY_BINDPATH='/scratch/$USER,$SLURM_TMPDIR'

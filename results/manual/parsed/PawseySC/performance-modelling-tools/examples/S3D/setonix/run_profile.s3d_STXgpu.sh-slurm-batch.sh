@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pot-3370
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=gpu-dev
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0007-gpu
+#SBATCH --output=stdout
+#SBATCH --error=stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=gpu-dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='1'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-dlrm:hugectr
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=mlperf-dlrm:hugectr
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MODEL_NAME='recommendation'
 export MODEL_FRAMEWORK='pytorch'

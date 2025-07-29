@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-8827
-#FLUX: --queue=longq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-arm-9212
+#FLUX --queue=longq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load nextflow/19.01.0.5050-bin
 module load singularity/3.3.0

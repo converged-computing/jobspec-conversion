@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-buttface-1519
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=angry-lettuce-2871
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load tensorflow/1.0.1-cuda-foss-2016b
 module load Python/3.6.1-foss-2016b

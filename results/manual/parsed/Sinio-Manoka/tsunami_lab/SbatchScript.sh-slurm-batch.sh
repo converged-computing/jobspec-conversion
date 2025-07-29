@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tsunami
-#FLUX: -c=72
-#FLUX: --queue=s_hadoop
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=tsunami
+#SBATCH --output=tsunami_output.txt
+#SBATCH --error=tsunami_error.txt
+#SBATCH --mail-user=minawe.mohamad.khaled@uni-jena.de
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --time=03:00:00
+#SBATCH --partition=s_hadoop
 
    module load tools/python/3.8
    module load compiler/gcc/11.2.0

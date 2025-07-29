@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-staircase-6917
-#FLUX: --queue=hci-rw
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-parrot-2064
+#FLUX --queue=hci-rw
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity/3.6.4

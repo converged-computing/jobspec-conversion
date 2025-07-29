@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-eagle-8682
-#FLUX: -n=40
-#FLUX: --queue=gpu_4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=90000mb
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu_4
 
 export PATH='/opt/intel/intelpython3/bin:$PATH'
 

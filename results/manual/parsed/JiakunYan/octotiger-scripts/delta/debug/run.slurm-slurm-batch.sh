@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: --queue=medusa
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=medusa
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load octotiger

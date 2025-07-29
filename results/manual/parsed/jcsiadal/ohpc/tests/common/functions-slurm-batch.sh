@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-spoon-1610
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 ERROR () {
     echo "[OHPC-TEST:ERROR]: $1" >&2

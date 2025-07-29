@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fork-8601
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=top5norm_SPMD.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 module load anaconda/2023a
 module load mpi/openmpi-4.1.3

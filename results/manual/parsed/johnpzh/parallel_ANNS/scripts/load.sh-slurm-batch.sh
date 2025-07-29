@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-1296
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/johnpzh/parallel_ANNS/scripts/load.sh

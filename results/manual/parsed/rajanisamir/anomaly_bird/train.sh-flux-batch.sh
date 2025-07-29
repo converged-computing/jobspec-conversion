@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-malarkey-1711
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-eagle-9226
+#FLUX --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=param-sweep
-#FLUX: --queue=gpu-volatile
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=param-sweep
+#FLUX --queue=gpu-volatile
+#FLUX -t=28800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

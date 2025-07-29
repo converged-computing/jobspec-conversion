@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-toaster-1768
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-cat-1943
+#FLUX -t=7200
+#FLUX --urgency=16
 
 RUN_DIR=$1
 echo $RUN_DIR

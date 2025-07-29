@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=feots_integrate
-#FLUX: --urgency=16
+#SBATCH --job-name=feots_integrate
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export OMP_NUM_THREADS='8'
 

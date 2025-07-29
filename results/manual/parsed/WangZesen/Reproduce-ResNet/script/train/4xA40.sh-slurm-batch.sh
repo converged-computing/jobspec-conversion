@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --output=log/%A/log.out
+#SBATCH --error=log/%A/err.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=14:00:00
 
 export LOGLEVEL='INFO'
 

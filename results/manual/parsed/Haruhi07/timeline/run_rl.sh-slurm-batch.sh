@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=clustering
-#FLUX: --queue=gpu_short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=clustering
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_short
 
 module load lang/perl/5.30.0-bioperl-gcc
 module load lang/python/anaconda/3.8-2020.07

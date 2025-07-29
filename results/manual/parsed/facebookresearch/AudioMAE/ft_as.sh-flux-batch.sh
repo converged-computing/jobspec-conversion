@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=aud
-#FLUX: -c=10
-#FLUX: --queue=learnlab
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=aud
+#FLUX -c=10
+#FLUX --queue=learnlab
+#FLUX -t=86400
+#FLUX --urgency=16
 
 if [ -z "$1" ]
 then

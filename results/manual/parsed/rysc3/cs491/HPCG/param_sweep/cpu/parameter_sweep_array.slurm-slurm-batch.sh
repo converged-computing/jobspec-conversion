@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HPCG_cpu
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=HPCG_cpu
+#SBATCH --mail-user=rscherbarth@unm.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=general
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --array=1-72
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

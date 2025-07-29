@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pspec
-#FLUX: --queue=pCluster
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=pspec
+#SBATCH --account=cluster
+#SBATCH --output=pspec.o%j
+#SBATCH --error=pspec.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=pCluster
 
 module load compilers/intel/2019.4.243
 module load intelmpi/2019.4.243

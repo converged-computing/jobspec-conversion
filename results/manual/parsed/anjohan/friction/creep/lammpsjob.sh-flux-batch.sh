@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pot-9237
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-underoos-2191
+#FLUX --urgency=16
 
 source /cluster/bin/jobsetup
 module load intel/2018.1

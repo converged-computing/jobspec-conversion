@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-punk-1729
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_jupyter
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=gpipe-answer-%j.out
+#SBATCH --error=gpipe-answer-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gtx1080ti:2
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu_shared_jupyter
 
 export PYTHONUNBUFFERED='1'
 

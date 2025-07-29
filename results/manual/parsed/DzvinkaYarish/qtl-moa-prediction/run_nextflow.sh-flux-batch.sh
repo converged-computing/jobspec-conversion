@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moa
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moa
+#FLUX -c=4
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export root='/gpfs/space/home/dzvenymy'
 

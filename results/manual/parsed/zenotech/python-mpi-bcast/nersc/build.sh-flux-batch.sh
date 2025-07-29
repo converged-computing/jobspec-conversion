@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-destiny-6947
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-general-7412
+#FLUX --queue=debug
+#FLUX -t=1200
+#FLUX --urgency=16
 
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
 source ../activate.sh 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=linmos
-#FLUX: -n=36
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=linmos
+#FLUX -n=36
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 module load rclone

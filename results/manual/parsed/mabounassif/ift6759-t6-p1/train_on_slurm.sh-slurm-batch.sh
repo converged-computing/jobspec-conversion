@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-car-3875
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=./results/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k20:0
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/intel2016.4/cuda/10.0.130/extras/CUPTI/lib64'
 

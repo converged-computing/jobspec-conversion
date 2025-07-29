@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VQA
-#FLUX: --queue=workq
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=VQA
+#FLUX --queue=workq
+#FLUX -t=32400
+#FLUX --urgency=16
 
 export PATH='/scratch/alfadlmm/miniconda2/bin:$PATH'
 

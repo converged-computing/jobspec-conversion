@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-mango-8100
-#FLUX: -c=10
-#FLUX: --queue=doppelbock
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/snormanh_lab/shared/projects/naturalsound-iEEG-sanitized-mixtures/analysis/logs/%a.txt
+#SBATCH --mail-user=guoyang_liao@urmc.rochester.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=128G
+#SBATCH --time=04:00:00
+#SBATCH --partition=doppelbock
+#SBATCH --array=0-13
 
 project=naturalsound-iEEG-sanitized-mixtures
 non_list=(modulus real rect)

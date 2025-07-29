@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-car-1265
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-butter-9011
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

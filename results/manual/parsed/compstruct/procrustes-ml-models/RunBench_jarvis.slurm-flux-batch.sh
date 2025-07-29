@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-motorcycle-2861
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-hobbit-9785
+#FLUX -c=32
+#FLUX --urgency=16
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 rs='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'

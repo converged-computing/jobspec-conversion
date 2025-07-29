@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_4xA100_4tp
-#FLUX: -c=64
+#FLUX --job-name=finetune_4xA100_4tp
+#FLUX -c=64
 #FLUX: --exclusive
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=gpuA100x4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module reset # drop modules and explicitly load the ones needed
              # (good job metadata and reproducibility)

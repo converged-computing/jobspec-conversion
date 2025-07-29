@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-snack-0647
-#FLUX: -c=2
-#FLUX: --queue=short
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=hostname_%j.out
+#SBATCH --error=hostname_%j.err
+#SBATCH --mail-user=daniel_lee@g.harvard.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1000M
+#SBATCH --time=00:12:00
+#SBATCH --partition=short
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 rm slurm*

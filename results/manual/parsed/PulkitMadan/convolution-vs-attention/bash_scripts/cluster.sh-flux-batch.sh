@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=refactoring_test
-#FLUX: -c=4
-#FLUX: -t=169200
-#FLUX: --urgency=16
+#FLUX --job-name=refactoring_test
+#FLUX -c=4
+#FLUX -t=169200
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

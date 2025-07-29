@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=egfp-qmmm-nvt
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=egfp-qmmm-nvt
+#SBATCH --account=ta072
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:20:00
+#SBATCH --partition=standard
+#SBATCH --qos=reservation
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='cores'

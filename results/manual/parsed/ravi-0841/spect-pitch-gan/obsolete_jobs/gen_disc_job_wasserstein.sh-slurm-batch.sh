@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leopard-4462
-#FLUX: -c=6
-#FLUX: --queue=gpuk80
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpuk80
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_HOME='$PWD:/home/$USER'
 

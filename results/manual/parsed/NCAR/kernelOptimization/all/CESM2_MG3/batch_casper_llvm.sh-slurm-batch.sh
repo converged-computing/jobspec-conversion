@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-puppy-8273
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/kernelOptimization/all/CESM2_MG3/batch_casper_llvm.sh

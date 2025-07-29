@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ABQIH
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=ABQIH
+#FLUX --queue=short
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load easybuild
 module load prl

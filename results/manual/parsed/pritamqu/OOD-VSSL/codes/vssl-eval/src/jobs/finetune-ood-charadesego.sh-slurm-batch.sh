@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-rabbit-8815
-#FLUX: --queue=v100_full_node
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/user/OUTPUTS/logs/%A.out
+#SBATCH --error=/scratch/user/OUTPUTS/logs/%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=v100_full_node
+#SBATCH --array=0-1%1
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

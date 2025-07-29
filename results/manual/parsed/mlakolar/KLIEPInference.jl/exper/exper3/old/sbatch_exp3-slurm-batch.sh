@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-hope-8378
-#FLUX: -n=168
-#FLUX: --queue=broadwl
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=168
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=broadwl
 
 module load parallel
 module load hdf5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cattywampus-9957
-#FLUX: --queue=small
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=confused-sundae-4446
+#FLUX --queue=small
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load maestro
 cd ${SLURM_SUBMIT_DIR}

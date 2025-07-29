@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kitty-9133
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=tart-bits-0589
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

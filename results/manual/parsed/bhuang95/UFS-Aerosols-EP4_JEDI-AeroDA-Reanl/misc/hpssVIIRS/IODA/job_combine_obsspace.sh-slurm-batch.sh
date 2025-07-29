@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bashtest
-#FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=bashtest
+#SBATCH --account=chem-var
+#SBATCH --output=./viirs2ioda.out
+#SBATCH --error=./viirs2ioda.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH: --exclusive
 
 export PYTHONPATH='${PYTHONPATH}:${IODABUILT}/lib/python3.10/pyiodaconv'
 export LD_LIBRARY_PATH='/home/Mariusz.Pagowski/MAPP_2018/libs/fortran-datetime/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}'

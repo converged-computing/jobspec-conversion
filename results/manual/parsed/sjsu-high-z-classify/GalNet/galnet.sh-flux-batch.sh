@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=m2_valid
-#FLUX: --queue=gpus
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=m2_valid
+#FLUX --queue=gpus
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module purge
 module load intel-python3

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-hobbit-2841
-#FLUX: -c=6
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2017-11-7
+#SBATCH --output=gdca.%A_%a.out
+#SBATCH --error=gdca.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=06:00:00
+#SBATCH --array=1-700
 
 export JULIA_PKGDIR='$myjulia'
 export PATH='$myjulia/bin/:$PATH'

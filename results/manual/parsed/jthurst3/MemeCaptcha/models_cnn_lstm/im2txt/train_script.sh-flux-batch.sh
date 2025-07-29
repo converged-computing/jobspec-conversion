@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=first_train
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=first_train
+#FLUX -N=2
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load caffe
 IM2TXT_DIR=/public/jthurst3/MemeCaptcha

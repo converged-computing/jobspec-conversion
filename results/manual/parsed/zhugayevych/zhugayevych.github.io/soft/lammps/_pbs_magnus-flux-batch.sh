@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-carrot-3072
-#FLUX: -n=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=faux-pastry-5005
+#FLUX -n=16
+#FLUX --queue=AMG
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export LAMMPS_POTENTIALS='~/lammps/_res'

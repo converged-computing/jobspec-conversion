@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-9996
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-fork-0675
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

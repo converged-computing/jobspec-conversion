@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=COMP_model_run_5
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=COMP_model_run_5
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 		## Load in bash functions and VALET packages
 			. "/work/thsu/rschanta/RTS/functions/bash-utility/get_bash.sh"

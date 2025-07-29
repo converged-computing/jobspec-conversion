@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Bert
-#FLUX: --queue=gpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=Train_Bert
+#FLUX --queue=gpu
+#FLUX -t=9000
+#FLUX --urgency=16
 
 source ./slurm/.secrets
 module purge

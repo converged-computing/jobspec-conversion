@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-plant-5324
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=large
-#FLUX: --urgency=16
+#SBATCH --output=slurm/%j.out
+#SBATCH --error=slurm/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=large
+#SBATCH: --exclusive
+#SBATCH --constraint=jubail,ntasks-per-node=32
 
 sleep 20
 outdir=$1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-signal-9253
-#FLUX: -N=2
+#FLUX --job-name=creamy-general-1455
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=arm8xlarge
-#FLUX: --urgency=16
+#FLUX --queue=arm8xlarge
+#FLUX --urgency=16
 
 export HPCC_VERSION='1.5.0'
 export OMP_NUM_THREADS='1'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-banana-0192
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-itch-3081
+#FLUX --urgency=16
 

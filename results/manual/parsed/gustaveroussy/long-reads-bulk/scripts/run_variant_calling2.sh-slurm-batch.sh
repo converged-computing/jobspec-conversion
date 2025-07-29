@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chr20_variant_calling2
-#FLUX: -n=10
-#FLUX: --queue=shortq
-#FLUX: --urgency=16
+#SBATCH --job-name=chr20_variant_calling2
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --partition=shortq
 
 WDIR="/mnt/beegfs/scratch/bioinfo_core/B23043_NADR_02"
 SAMPLE_NAME="3700_R10"

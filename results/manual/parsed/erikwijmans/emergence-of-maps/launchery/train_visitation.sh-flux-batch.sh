@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=visitation-predictor
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=learnfair
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=visitation-predictor
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=learnfair
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=01112019_2.5sd_vid_gen
-#FLUX: -c=5
-#FLUX: --queue=psych_week
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=01112019_2.5sd_vid_gen
+#SBATCH --output=cluster/01112019_2.5sd_vid_gen.out
+#SBATCH --error=cluster/01112019_2.5sd_vid_gen.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=240G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=psych_week
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfs/milgram/project/chang/pg496/repositories/categorical/lib/linux'
 

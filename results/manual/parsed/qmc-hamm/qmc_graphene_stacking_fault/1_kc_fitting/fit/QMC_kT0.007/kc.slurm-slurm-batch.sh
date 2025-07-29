@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kT0.007
-#FLUX: -c=20
-#FLUX: --queue=secondary
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=kT0.007
+#SBATCH --output=kT0.007/kc.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=04:00:00
+#SBATCH --partition=secondary
 
 export ASE_LAMMPSRUN_COMMAND='/home/krongch2/projects/lammps/lammps/src/lmp_mpi'
 

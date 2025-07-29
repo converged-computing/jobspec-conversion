@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Mutect2
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Mutect2
+#SBATCH --account=robinson
+#SBATCH --output=/fast/users/a1742674/outputs/SomaticVcalling/slurm-%j.out
+#SBATCH --mail-user=nandini.sandran@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=batch
 
 module load Java/1.8.0_121
 module load GATK/4.0.0.0-Java-1.8.0_121

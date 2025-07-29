@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dum
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dum
+#SBATCH --output=/dev/null
+#SBATCH --mail-user=apalaci6@ur.rochester.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=debug
+#SBATCH --array=1-20
 
 script_name='dummy' ##name of python script to run
 output_dir="LOGS/$script_name"

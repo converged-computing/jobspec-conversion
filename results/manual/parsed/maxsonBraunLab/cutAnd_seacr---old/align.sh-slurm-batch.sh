@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=align
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=align
+#SBATCH --output=logs/%x.%j.out
+#SBATCH --error=logs/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10gb
+#SBATCH --time=04:00:00
+#SBATCH --array=0-31
 
 THREADS=8
 BOWTIE_IDX="home/groups/MaxsonLab/indices/GRch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.bowtie_index"

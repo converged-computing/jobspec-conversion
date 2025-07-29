@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leopard-5811
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu-dev
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-peas-9766
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu-dev
+#FLUX --urgency=16
 
 CODENAME="TCLB"
 REPO="https://github.com/FluidNumerics/TCLB.git"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prep_wind_for_ww3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=prep_wind_for_ww3
+#FLUX -t=3600
+#FLUX --urgency=16
 
 dirin=../era5/
 file=era5

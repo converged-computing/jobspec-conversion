@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nunchucks-8885
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-fudge-3575
+#FLUX -n=4
+#FLUX --urgency=16
 
 pipe="ATACseq"
 cwd=$1

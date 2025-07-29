@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cat-4140
-#FLUX: --queue=fasse
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=reports/lookahead_%x_%A_%a.out
+#SBATCH --error=reports/lookahead_%x_%A_%a.err
+#SBATCH --mail-user=nvelez@fas.harvard.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=08:00:00
+#SBATCH --partition=fasse
 
 module load ncf
 module load Anaconda/5.0.1-fasrc01

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lentil-1371
-#FLUX: -c=8
-#FLUX: --queue=gpuq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-chip-4502
+#FLUX -c=8
+#FLUX --queue=gpuq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

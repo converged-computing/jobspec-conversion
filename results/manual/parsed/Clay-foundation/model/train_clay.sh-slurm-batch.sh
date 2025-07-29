@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_clay_v0.3.5
-#FLUX: -N=2
-#FLUX: --queue=g4-queue
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_clay_v0.3.5
+#SBATCH --output=model_train_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --partition=g4-queue
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

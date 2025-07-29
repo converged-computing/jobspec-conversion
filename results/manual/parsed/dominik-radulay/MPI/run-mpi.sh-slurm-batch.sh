@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-train-3827
-#FLUX: --queue=course
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=course
+#SBATCH --chdir=./
 
 export numMPI='${SLURM_NTASKS:-1} # if '-n' not used then default to 1'
 

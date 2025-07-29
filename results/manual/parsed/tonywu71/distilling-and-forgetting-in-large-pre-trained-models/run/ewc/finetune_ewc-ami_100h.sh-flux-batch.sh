@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_ewc_ami_100h
-#FLUX: --queue=ampere
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=finetune_ewc_ami_100h
+#FLUX --queue=ampere
+#FLUX -t=14400
+#FLUX --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

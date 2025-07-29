@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=apogee-expand
-#FLUX: -N=4
-#FLUX: --queue=cca
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=apogee-expand
+#SBATCH --output=logs/expand.o%j
+#SBATCH --error=logs/expand.e%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cca
+#SBATCH --constraint=skylake
 
 source ~/.bash_profile
 init_conda

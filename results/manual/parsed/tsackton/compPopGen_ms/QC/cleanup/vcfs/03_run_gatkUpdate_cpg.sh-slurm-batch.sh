@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gatkUpdate
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gatkUpdate
+#SBATCH --output=logs/out_%j
+#SBATCH --error=logs/err_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
 
 set -o errexit
 source activate gatk

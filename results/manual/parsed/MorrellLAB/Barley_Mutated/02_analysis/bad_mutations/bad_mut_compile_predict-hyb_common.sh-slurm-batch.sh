@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=phat-train-1239
-#FLUX: --queue=small,ram256g,ram1t
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=bad_mut_compile_predictions.sh.%j.out
+#SBATCH --error=bad_mut_compile_predictions.sh.%j.err
+#SBATCH --mail-user=liux1299@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=small,ram256g,ram1t
+#SBATCH --constraint=ntasks-per-node=16
 
 set -e
 set -o pipefail

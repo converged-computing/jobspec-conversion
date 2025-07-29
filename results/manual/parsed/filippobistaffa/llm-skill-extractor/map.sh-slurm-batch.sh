@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-map
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-cpp-map
+#SBATCH --output=map.out
+#SBATCH --error=map.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=64G
+#SBATCH --time=00:30:00
 
 if [ "$USER" == "filippo.bistaffa" ]
 then

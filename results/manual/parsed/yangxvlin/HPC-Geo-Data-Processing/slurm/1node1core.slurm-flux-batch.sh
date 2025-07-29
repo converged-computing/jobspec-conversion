@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-bits-3266
-#FLUX: --queue=physical
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-lemon-5342
+#FLUX --queue=physical
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /home/$USER/COMP90024/HPC-Geo-Data-Processing/slurm
 module load Python/3.6.1-intel-2017.u2

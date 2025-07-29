@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=qsirecon1
-#FLUX: -c=40
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=qsirecon1
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=01:00:00
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

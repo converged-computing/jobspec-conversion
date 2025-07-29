@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=abcd2bids
-#FLUX: -c=2
-#FLUX: --queue=IB_16C_96G
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=abcd2bids
+#SBATCH --account=iacc_nbc
+#SBATCH --output=/home/data/abcd/abcd-hispanic-via/code/log/%x/%x_%A-%a.out
+#SBATCH --error=/home/data/abcd/abcd-hispanic-via/code/log/%x/%x_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=12gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=IB_16C_96G
+#SBATCH --qos=pq_nbc
 
 pwd; hostname; date
 set -e

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ANNRP_hparam_search
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ANNRP_hparam_search
+#SBATCH --output=logs/hparam_search.%A_%a.log
+#SBATCH --mail-user=jgolabek1@ufl.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=7000mb
+#SBATCH --time=20:00:00
+#SBATCH --array=1-500%40
 
 pwd; hostname; date
 module load tensorflow/2.4.1

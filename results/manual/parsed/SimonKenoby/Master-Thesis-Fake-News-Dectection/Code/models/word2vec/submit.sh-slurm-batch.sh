@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=keras_gpu_test
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=keras_gpu_test
+#SBATCH --output=res.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='2'
 export MKL_NUM_THREADS='2'

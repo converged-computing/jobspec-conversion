@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hobbit-2859
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=mandziuk-lab
+#SBATCH --output=logs/slurm-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=dgx
 
 date "+%Y-%m-%d %H:%M:%S"
 echo "SLURMD_NODENAME: ${SLURMD_NODENAME}"

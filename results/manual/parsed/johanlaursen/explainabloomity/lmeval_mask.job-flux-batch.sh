@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peas-4841
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-lizard-3442
+#FLUX -c=8
+#FLUX --queue=red,brown
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/jocl/explainabloomity/lm-evaluation-harness':$PYTHONPATH'
 export PATH='/home/jocl/.conda/envs/lmeval/bin':$PATH'

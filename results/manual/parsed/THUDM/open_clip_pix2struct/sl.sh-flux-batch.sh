@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=open_clip_crop2
-#FLUX: -N=10
-#FLUX: -c=15
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#FLUX --job-name=open_clip_crop2
+#FLUX -N=10
+#FLUX -c=15
+#FLUX --queue=dev
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

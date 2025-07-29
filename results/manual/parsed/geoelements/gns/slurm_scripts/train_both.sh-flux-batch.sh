@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pyt_train_both
-#FLUX: --queue=gpu-a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pyt_train_both
+#FLUX --queue=gpu-a100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -e
 cd ..

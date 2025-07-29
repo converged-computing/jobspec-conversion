@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-7925
-#FLUX: --queue=physical
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-animal-6934
+#FLUX --queue=physical
+#FLUX -t=50400
+#FLUX --urgency=16
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

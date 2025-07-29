@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llama2-finetune-7b-hf
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=llama2-finetune-7b-hf
+#SBATCH --account=def-whkchun
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 pip install --upgrade pip
 module load python/3.11.5

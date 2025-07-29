@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=evolinc
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=evolinc
+#SBATCH --account=meixiazhao
+#SBATCH --output=/blue/meixiazhao/lee.gwonjin/Soybean_project/scripts/outtext/evolinc_TE.out
+#SBATCH --error=/blue/meixiazhao/lee.gwonjin/Soybean_project/scripts/outtext/evolinc_TE.err
+#SBATCH --mail-user=lee.gwonjin@ufl.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=24G
+#SBATCH --time=7-00:00:00
 
 cd /blue/meixiazhao/lee.gwonjin/Soybean_project/lncRNA/evolinc
 module load singularity

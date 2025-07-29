@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=celldetect
-#FLUX: -c=16
-#FLUX: --queue=a6000
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=celldetect
+#SBATCH --output=slurm_output_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=10:00:00
+#SBATCH --partition=a6000
+#SBATCH --nodelist=ptolemaeus
 
 JOBS_SOURCE="/home/l.leek/src/CellDetect/"
 SINGULARITYIMAGE="/home/l.leek/docker_singularity_images/u20c114s.sif"

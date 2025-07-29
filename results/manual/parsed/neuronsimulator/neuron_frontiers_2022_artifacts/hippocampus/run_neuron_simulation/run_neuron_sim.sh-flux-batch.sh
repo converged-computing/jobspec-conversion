@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pot-1987
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: -c=2
+#FLUX --job-name=tart-truffle-5052
+#FLUX -N=2
+#FLUX -n=80
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=prod
+#FLUX -t=28800
+#FLUX --urgency=16
 
 hip_prefix=/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus
 module purge

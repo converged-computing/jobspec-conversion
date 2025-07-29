@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Apollo
-#FLUX: -N=8
-#FLUX: -n=216
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=Apollo
+#FLUX -N=8
+#FLUX -n=216
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export PYTHONPATH='/usr/local/other/MPI4PY/PYTHON3/lib/python3.7/site-packages/'
 

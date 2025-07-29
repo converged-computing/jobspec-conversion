@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=python_sweep
-#FLUX: --queue=regular
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=python_sweep
+#SBATCH --output=job-%j.log
+#SBATCH --mail-user=r.tappe.maestro@student.rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=regular
 
 module purge
 module load networkx

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ex08cl
-#FLUX: -c=10
-#FLUX: --queue=pascal-deep.p
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=ex08cl
+#FLUX -c=10
+#FLUX --queue=pascal-deep.p
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 module load CUDA/11.1.1-GCC-10.2.0
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

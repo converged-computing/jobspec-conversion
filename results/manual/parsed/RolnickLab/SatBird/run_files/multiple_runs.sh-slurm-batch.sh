@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ebird_baseline
-#FLUX: --queue=long
-#FLUX: -t=125940
-#FLUX: --urgency=16
+#SBATCH --job-name=ebird_baseline
+#SBATCH --output=job_output_%j.txt
+#SBATCH --error=job_error_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50Gb
+#SBATCH --time=1-10:59:00
+#SBATCH --partition=long
+#SBATCH --array=1-3:1
 
 export COMET_API_KEY='$COMET_API_KEY'
 export HYDRA_FULL_ERROR='1'

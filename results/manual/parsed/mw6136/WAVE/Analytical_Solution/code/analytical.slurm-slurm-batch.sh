@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-6312
-#FLUX: -t=117000
-#FLUX: --urgency=16
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --mail-user=schroeder@princeton.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-08:30:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NTASKS='$(echo "$SLURM_NNODES*$(echo $SLURM_TASKS_PER_NODE | cut -d '(' -f 1)" | bc -l)'

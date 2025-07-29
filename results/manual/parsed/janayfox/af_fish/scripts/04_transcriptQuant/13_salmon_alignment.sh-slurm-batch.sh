@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poodle-8710
-#FLUX: -c=2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=def-barrett
+#SBATCH --mail-user=janay.fox@mail.mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20G
+#SBATCH --time=3-00:00:00
 
 module load singularity/3.8
 module load gcc/9.3.0

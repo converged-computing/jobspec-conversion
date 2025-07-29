@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pastry-5994
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-poo-7295
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

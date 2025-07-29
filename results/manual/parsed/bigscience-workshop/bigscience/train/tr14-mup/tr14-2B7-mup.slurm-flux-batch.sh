@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-frito-3590
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --queue=gpu_p5
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-peanut-butter-6887
+#FLUX -N=8
+#FLUX -c=16
+#FLUX --queue=gpu_p5
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='$ajs_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$ajs_ALL_CCFRWORK/datasets'

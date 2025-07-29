@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=process_video
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=process_video
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 echo "Command: $0 $@"

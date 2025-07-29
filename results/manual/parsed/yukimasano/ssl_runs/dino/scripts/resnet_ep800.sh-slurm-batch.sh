@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dino_resnet800
-#FLUX: -N=10
-#FLUX: -c=10
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=dino_resnet800
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=80
+#SBATCH --mem=450G
+#SBATCH --time=2-22:00:00
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 module load anaconda3
 source activate ssl_runs

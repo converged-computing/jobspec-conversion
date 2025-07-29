@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hvd-tf2-train-cnn-cifar-gpu
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=hvd-tf2-train-cnn-cifar-gpu
+#FLUX -N=2
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,vader,openib'
 export OMPI_MCA_btl_openib_if_include='mlx5_0:1'

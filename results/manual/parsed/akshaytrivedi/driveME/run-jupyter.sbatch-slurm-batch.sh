@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jupyterTest2
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyterTest2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20GB
+#SBATCH --time=12:00:00
 
 module load jupyter-kernels/py2.7
 module load scikit-image/intel/0.13.1

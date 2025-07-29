@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=simforagger-tutorial
-#FLUX: -N=2
-#FLUX: --queue=general
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=simforagger-tutorial
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=32
 
 export GASNET_MAX_SEGSIZE='128MB/P'
 export UPCXX='/opt/spack/opt/spack/linux-rocky8-cascadelake/gcc-12.1.0/upcxx-2020.10.0-6eh2prmiaolqfqinq4wjbb5by6z2phw6/bin/upcxx'

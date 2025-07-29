@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lesion
-#FLUX: --queue=nklab
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lesion
+#FLUX --queue=nklab
+#FLUX -t=86400
+#FLUX --urgency=16
 
 SORT_TASK_INDEX=$1
 NONSORT_TASK_INDEX=$2

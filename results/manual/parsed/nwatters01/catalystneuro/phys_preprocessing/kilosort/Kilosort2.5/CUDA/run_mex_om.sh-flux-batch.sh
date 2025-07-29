@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-plant-5907
-#FLUX: --queue=jazayeri
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-staircase-0097
+#FLUX --queue=jazayeri
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=preseq
-#FLUX: -c=6
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#SBATCH --job-name=preseq
+#SBATCH --output=logs/preseq.%A_%a.out
+#SBATCH --error=logs/preseq.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=20Gb
+#SBATCH --partition=bigmem
 
 module purge
 module load preseq/3.2.0

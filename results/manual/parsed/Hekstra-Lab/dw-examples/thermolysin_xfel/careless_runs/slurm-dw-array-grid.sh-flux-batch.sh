@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=thl_dw
-#FLUX: --queue=gpu_requeue,seas_gpu
-#FLUX: -t=80
-#FLUX: --urgency=16
+#FLUX --job-name=thl_dw
+#FLUX --queue=gpu_requeue,seas_gpu
+#FLUX -t=80
+#FLUX --urgency=16
 
 PARAM_FILE=slurm_params.txt
 MY_PARAMS=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ${PARAM_FILE})

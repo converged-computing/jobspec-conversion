@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-car-2991
-#FLUX: --queue=LM
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --mail-user=rgrous83@uw.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000GB
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=LM
+#SBATCH --constraint=LM&PH2
 
 module load gcc/5.3.0
 module load perl/5.18.4-threads

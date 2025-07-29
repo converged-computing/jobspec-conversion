@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=audio-caption
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=audio-caption
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load java/1.8.0.162
 run_script=$1

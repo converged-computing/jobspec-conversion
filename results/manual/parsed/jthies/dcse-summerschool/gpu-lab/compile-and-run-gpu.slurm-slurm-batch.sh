@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-gato-3009
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=education-eemcs-courses-summerschool2023
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
 
 module load 2022r2
 module load cuda/11.1.1

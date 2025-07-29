@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=bookcorpus-preprocess
-#FLUX: -c=128
-#FLUX: --queue=yolo
-#FLUX: --urgency=16
+#SBATCH --job-name=bookcorpus-preprocess
+#SBATCH --output=/ukp-storage-1/zhang/slurm_logs/bookcorpus-preprocess-%j.out
+#SBATCH --mail-user=hao.zhang@stud.tu-darmstadt.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:1
+#SBATCH --mem=256GB
+#SBATCH --partition=yolo
+#SBATCH --qos=yolo
+#SBATCH --constraint=gpu_model:a180
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/beegfs/work/zhang/conda/env/lib'
 export WANDB_CACHE_DIR='/ukp-storage-1/zhang/wandb/cache'

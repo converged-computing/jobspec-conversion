@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-car-0468
-#FLUX: -N=12
-#FLUX: --queue=scc
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=scc
+#SBATCH --constraint=ntasks-per-node=60,ib-icelake
 
 INBASE="/mnt/home/usteinwandel/ceph/dm_sims/doug/run_4096_G4/output/"
 OUTBASE="$HOME/ceph/rockstar_out"

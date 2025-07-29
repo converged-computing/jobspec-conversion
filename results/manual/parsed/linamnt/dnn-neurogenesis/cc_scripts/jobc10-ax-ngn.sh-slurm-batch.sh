@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=c10ngn
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=c10ngn
+#SBATCH --output=./output/%x-%j-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:t4:1
+#SBATCH --mem=128000M
+#SBATCH --time=2-00:00:00
 
 SOURCEDIR=~/ndl/cc_scripts
 VENV=~/pytorch_gpu

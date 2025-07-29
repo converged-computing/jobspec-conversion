@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hippo-0081
-#FLUX: --queue=RM-shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=placid-diablo-8917
+#FLUX --queue=RM-shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -x
 GENOME=/path/to/genome/hg38.fa 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-squidward-6892
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-puppy-6620
+#FLUX --urgency=16
 
 define_modules_config()
 {

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-banana-5609
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=openhpc-compute-[2-15]
 
 export UCX_NET_DEVICES='mlx5_0:1 # force IB only - host'
 export SINGULARITYENV_OMPI_MCA_btl_openib_if_include='mlx5_0:1 # force IB only - container'

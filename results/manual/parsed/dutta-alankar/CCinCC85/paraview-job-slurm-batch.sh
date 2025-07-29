@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=visualization
-#FLUX: --queue=debug
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#SBATCH --job-name=visualization
+#SBATCH --output=%x-%j.log
+#SBATCH --mail-user=alankardutta@iisc.ac.in
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-20:00:00
+#SBATCH --partition=debug
 
 export PROG='pvserver'
 

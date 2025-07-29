@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cl_test
-#FLUX: -N=2
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=cl_test
+#FLUX -N=2
+#FLUX --queue=boost_usr_prod
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge
 module load --auto profile/deeplrn

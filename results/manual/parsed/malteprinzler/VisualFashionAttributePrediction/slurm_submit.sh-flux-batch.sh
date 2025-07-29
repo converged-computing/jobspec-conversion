@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lemon-5163
-#FLUX: --queue=2080ti-long
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-destiny-2268
+#FLUX --queue=2080ti-long
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

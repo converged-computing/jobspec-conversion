@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HPC_WITH_PYTHON
-#FLUX: -N=4
-#FLUX: --queue=dev_multiple
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=HPC_WITH_PYTHON
+#SBATCH --output=HPC_OUTPUT.out
+#SBATCH --error=HPC_ERROR.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=00:30:00
+#SBATCH --partition=dev_multiple
+#SBATCH --constraint=ntasks-per-node=40
 
 module load devel/python/3.10.0_gnu_11.1
 module load compiler/gnu/12.1

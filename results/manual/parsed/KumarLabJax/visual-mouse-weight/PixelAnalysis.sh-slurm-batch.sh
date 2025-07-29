@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pixel_analysis
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#SBATCH --job-name=pixel_analysis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=06:00:00
+#SBATCH --qos=low
 
 trim_sp() {
     local var="$*"

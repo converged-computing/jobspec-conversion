@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ddp-torch
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=ddp-torch
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=64G
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$SLURM_NPROCS'

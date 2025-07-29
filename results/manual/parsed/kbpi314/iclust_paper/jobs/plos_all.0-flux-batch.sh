@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-6430
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-taco-4713
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kbpi314/iclust_paper/jobs/plos_all.0

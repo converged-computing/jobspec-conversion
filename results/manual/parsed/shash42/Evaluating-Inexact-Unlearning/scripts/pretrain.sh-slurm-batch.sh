@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-4684
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --mail-user=shashwat.goel@research.iiit.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=40G
+#SBATCH --time=4-00:00:00
+#SBATCH --exclude=gnode58,gnode17
 
 chmod +x src/learn.py
 CUDA_VISIBLE_DEVICES=$(nvidia-smi --query-gpu=memory.free --format=csv,nounits,noheader | nl -v 0 | sort -nrk 2 | cut -f 1 | head -n 1 | xargs)\

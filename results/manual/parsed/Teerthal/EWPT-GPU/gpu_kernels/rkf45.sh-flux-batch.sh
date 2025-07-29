@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-chip-1696
-#FLUX: --queue=public
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-house-6911
+#FLUX --queue=public
+#FLUX -t=1200
+#FLUX --urgency=16
 
 MV2_USE_ALIGNED_ALLOC=1
 module load mvapich2-2.3.7-gcc-11.2.0

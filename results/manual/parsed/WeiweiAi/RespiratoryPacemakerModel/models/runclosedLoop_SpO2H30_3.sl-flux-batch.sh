@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=closedLoop_SpO2H30_3
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=closedLoop_SpO2H30_3
+#FLUX -c=8
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export model_name='closedLoop_SpO2H'
 export para_name='parL3'

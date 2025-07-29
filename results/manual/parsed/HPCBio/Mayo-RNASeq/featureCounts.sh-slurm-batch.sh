@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=counts
-#FLUX: --queue=classroom
-#FLUX: --urgency=16
+#SBATCH --job-name=counts
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --partition=classroom
+#SBATCH --array=1-4
 
 cd ~/mouse-rnaseq-2020/
 module load Subread/2.0.0-IGB-gcc-8.2.0

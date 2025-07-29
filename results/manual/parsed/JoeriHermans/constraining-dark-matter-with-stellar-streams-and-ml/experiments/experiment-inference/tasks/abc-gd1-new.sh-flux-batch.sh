@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_ABC_GD1_NEW
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_INFERENCE_ABC_GD1_NEW
+#FLUX -t=86400
+#FLUX --urgency=16
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 out=$BASE/out/gd1/abc-new-$suffix

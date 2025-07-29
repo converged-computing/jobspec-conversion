@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=snpe_c
+#FLUX --job-name=snpe_c
 #FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=lu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

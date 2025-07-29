@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=thermalmetrics
-#FLUX: -c=72
-#FLUX: --queue=cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=thermalmetrics
+#SBATCH --account=iidd
+#SBATCH --output=glm3pb0_sing.out
+#SBATCH --mail-user=lplatt@usgs.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --mem=192GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cpu
 
 module load singularity/3.3.0
 ulimit -u 1541404

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lamp-7310
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cupcake-1720
+#FLUX --queue=cpu
+#FLUX --urgency=16
 
 echo "Start processing"
 conda activate astod

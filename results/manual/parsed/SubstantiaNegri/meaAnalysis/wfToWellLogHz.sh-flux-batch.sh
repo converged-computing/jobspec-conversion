@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-destiny-7759
-#FLUX: -n=4
-#FLUX: --queue=priority
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-banana-5494
+#FLUX -n=4
+#FLUX --queue=priority
+#FLUX -t=900
+#FLUX --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 module load gcc/6.2.0 R/3.4.1

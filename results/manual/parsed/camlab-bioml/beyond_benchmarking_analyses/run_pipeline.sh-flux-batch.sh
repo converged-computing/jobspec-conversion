@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peanut-3386
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-malarkey-6004
+#FLUX -t=0
+#FLUX --urgency=16
 
 source ~/env/bin/activate
 module load singularity

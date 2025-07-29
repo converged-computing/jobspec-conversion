@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=srm
-#FLUX: -c=4
-#FLUX: -t=161999
-#FLUX: --urgency=16
+#SBATCH --job-name=srm
+#SBATCH --account=def-hasanc
+#SBATCH --output=../logs/%x.out
+#SBATCH --error=../logs/%x.err
+#SBATCH --mail-user=gbhatia880@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=128G
+#SBATCH --time=1-20:59:59
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

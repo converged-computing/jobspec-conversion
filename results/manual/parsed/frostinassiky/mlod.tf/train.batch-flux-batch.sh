@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FROG1
-#FLUX: -c=2
-#FLUX: -t=174180
-#FLUX: --urgency=16
+#FLUX --job-name=FROG1
+#FLUX -c=2
+#FLUX -t=174180
+#FLUX --urgency=16
 
 set -e
 module purge

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fvecVCF
-#FLUX: --queue=ram256g,ram1t,amd2tb,amdlarge,amdsmall,small,astyanax,cavefish
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#SBATCH --job-name=fvecVCF
+#SBATCH --output=CMS_fvecVCF.out
+#SBATCH --error=CMS_fvecVCF.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=230gb
+#SBATCH --time=1-04:00:00
+#SBATCH --partition=ram256g,ram1t,amd2tb,amdlarge,amdsmall,small,astyanax,cavefish
+#SBATCH --array=1001-2360
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh
 conda activate diplo

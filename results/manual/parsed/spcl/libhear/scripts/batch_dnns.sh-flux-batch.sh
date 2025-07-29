@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm_resnet
-#FLUX: -N=16
-#FLUX: -n=256
+#FLUX --job-name=dlrm_resnet
+#FLUX -N=16
+#FLUX -n=256
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=25200
+#FLUX --urgency=16
 
 BLOCK_SIZE=262144
 BIN_DIR=$1

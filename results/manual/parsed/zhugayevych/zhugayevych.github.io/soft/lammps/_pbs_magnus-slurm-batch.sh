@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-salad-0273
-#FLUX: -n=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%x.e%j
+#SBATCH --error=%x.e%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=7gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=AMG
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export LAMMPS_POTENTIALS='~/lammps/_res'

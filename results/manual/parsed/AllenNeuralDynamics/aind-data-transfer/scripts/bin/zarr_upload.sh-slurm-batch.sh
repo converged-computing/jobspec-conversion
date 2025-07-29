@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-1269
-#FLUX: -n=64
-#FLUX: --queue=aind
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --output=/allen/programs/mindscope/workgroups/omfish/carsonb/hpc_outputs/%j_zarr_test.log
+#SBATCH --mail-user=carson.berry@alleninstitute.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=aind
+#SBATCH --nodelist=n111
+#SBATCH --exclude=n69,n74
 
 set -e
 pwd; date

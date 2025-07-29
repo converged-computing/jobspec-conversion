@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PTB_pipe
-#FLUX: --queue=p100_4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=PTB_pipe
+#FLUX --queue=p100_4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 CONFIG='small_nets'
 module purge

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bike-2414
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load conda/2019.10

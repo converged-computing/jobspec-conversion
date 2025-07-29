@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tl_c10k_fro
-#FLUX: --queue=gpu-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=tl_c10k_fro
+#SBATCH --mail-user=rui@uidaho.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=102G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu-long
+#SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:$LD_LIBRARY_PATH'
 

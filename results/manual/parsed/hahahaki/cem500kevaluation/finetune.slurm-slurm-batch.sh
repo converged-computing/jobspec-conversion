@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=finetunemocounet
-#FLUX: -c=6
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=finetunemocounet
+#SBATCH --output=/home/codee/scratch/sourcecode/cem-dataset/evaluation/pretrain_500k_test_%j_%N.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=128000M
+#SBATCH --time=00:40:00
+#SBATCH --constraint=ntasks-per-node=4
 
 source /home/codee/miniconda3/etc/profile.d/conda.sh
 conda activate base

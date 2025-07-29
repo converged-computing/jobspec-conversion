@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=testdlrm
-#FLUX: -n=8
+#FLUX --job-name=testdlrm
+#FLUX -n=8
 #FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX -t=2400
+#FLUX --urgency=16
 
 echo $SLURM_NODELIST
 echo $SLURM_NODELIST > hostfile1

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multilabel_model
-#FLUX: --queue=stv-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=multilabel_model
+#SBATCH --output=model_%A.out
+#SBATCH --error=model_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a6000:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=stv-gpu
 
 module purge 
 module load anaconda3

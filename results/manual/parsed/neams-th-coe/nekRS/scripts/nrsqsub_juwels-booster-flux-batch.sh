@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-0032
-#FLUX: --urgency=16
+#FLUX --job-name=grated-lamp-8469
+#FLUX --urgency=16
 
 export ROMIO_HINTS='$(pwd)/.romio_hint'
 

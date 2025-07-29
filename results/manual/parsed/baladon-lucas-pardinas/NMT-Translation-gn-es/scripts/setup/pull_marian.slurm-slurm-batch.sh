@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MARIAN
-#FLUX: -c=4
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MARIAN
+#SBATCH --output=docker.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --qos=normal
 
 export SINGULARITY_TMPDIR='$(pwd)/cache'
 

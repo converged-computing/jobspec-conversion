@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cupcake-5149
-#FLUX: -n=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-cat-2794
+#FLUX -n=4
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export CASA='${CASAPATH}/bin/casa'
 export CASAPATH='/orange/adamginsburg/casa/${CASAVERSION}'

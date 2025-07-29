@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-ricecake-0061
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/marco-willi/camera-trap-data-pipeline/machine_learning/jobs/ctc_create_tfrecord.pbs

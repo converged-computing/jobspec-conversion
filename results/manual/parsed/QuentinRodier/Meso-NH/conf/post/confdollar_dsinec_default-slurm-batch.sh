@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-malarkey-4407
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/QuentinRodier/Meso-NH/conf/post/confdollar_dsinec_default

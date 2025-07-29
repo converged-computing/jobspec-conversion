@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=platypus
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=platypus
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load nixpkgs/16.09 gcc/7.3.0 platypus/0.8.1
 cd /scratch/edegreef/whales/dedupRG_bam/samtools_filter/downsampled

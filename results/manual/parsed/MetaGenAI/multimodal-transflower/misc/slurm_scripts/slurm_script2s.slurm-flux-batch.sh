@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-salad-8033
-#FLUX: -c=6
+#FLUX --job-name=arid-snack-1618
+#FLUX -c=6
 #FLUX: --exclusive
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export MASTER_PORT='1234'
 export MASTER_ADDRESS='$(echo $slurm_nodes | cut -d' ' -f1)'

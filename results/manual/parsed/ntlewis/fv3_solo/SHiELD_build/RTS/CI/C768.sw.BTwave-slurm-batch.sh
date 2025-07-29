@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-2824
-#FLUX: -n=384
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=384
+#SBATCH --cpus-per-task=1
 
 export OMP_STACKSIZE='256m'
 

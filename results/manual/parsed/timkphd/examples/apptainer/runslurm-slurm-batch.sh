@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=02:00:00
+#SBATCH --partition=standard
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export FI_PROVIDER='tcp'
 export MPIR_CVAR_DEBUG_SUMMARY='1'

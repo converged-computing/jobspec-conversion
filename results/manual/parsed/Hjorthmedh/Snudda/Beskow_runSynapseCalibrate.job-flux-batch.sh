@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snudda_simulate
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=snudda_simulate
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic'
 export CRAY_ROOTFS='DSL'

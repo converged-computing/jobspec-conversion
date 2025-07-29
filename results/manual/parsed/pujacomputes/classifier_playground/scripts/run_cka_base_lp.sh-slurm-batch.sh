@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ftnoaugs
-#FLUX: --queue=pvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ftnoaugs
+#SBATCH --account=kdml
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=pvis
 
 cd ../
 m1_ckpt='/p/lustre1/trivedi1/vision_data/moco_v2_800ep_pretrain.pth.tar'

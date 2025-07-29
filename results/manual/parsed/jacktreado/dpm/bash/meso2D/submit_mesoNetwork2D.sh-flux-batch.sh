@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cupcake-6782
-#FLUX: --urgency=16
+#FLUX --job-name=astute-general-4114
+#FLUX --urgency=16
 
 cellsdir=~/dpm
 srcdir=$cellsdir/src

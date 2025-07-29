@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kromosynth-conf-duration_delta_pitch_combinations-singleCellWin
-#FLUX: -n=35
-#FLUX: --queue=ifi_accel
-#FLUX: -t=930
-#FLUX: --urgency=16
+#FLUX --job-name=kromosynth-conf-duration_delta_pitch_combinations-singleCellWin
+#FLUX -n=35
+#FLUX --queue=ifi_accel
+#FLUX -t=930
+#FLUX --urgency=16
 
 for iteration in {1..100}; do
     # Generate the SLURM script to be submitted

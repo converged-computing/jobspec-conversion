@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-6206
-#FLUX: --queue=urtgen_24hrs
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100000
+#SBATCH --partition=urtgen_24hrs
 
 dir=/massstorage/URT/GEN/BIO3/PRIV/Team/Diane/RESEARCH/Hackathon/October/DRIAMSB
 longTable=/home/gallia/scratch/u230399/DRIAMS_combined_long_table.csv

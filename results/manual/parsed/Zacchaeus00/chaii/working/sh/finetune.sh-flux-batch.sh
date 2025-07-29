@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=8
-#FLUX: --queue=aquila
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=finetune
+#FLUX -c=8
+#FLUX --queue=aquila
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge                        # 清除所有已加载的模块
 module load anaconda3 cuda/11.1.1              # 加载anaconda (load virtual env for training)

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lentil-1435
-#FLUX: -c=36
-#FLUX: --queue=dev,gpu,intel,assembly
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-bicycle-6386
+#FLUX -c=36
+#FLUX --queue=dev,gpu,intel,assembly
+#FLUX -t=10800
+#FLUX --urgency=16
 
 start=`date +%s`
 hostname

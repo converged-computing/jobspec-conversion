@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cinnamonbun-2832
-#FLUX: -c=4
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-dog-5171
+#FLUX -c=4
+#FLUX --queue=amd_a100nv_8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ -e flask_port_forwarding_command ]
 then

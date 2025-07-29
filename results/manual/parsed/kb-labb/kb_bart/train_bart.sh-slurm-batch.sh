@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=kb_bart
-#FLUX: -N=16
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=kb_bart
+#SBATCH --output=logs/faton.log
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=40G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=gn40
 
 export MASTER_ADDR='`/bin/hostname -s`'
 export MASTER_PORT='13673'

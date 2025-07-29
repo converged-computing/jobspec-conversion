@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ml-matlab
-#FLUX: --queue=alvis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=ml-matlab
+#FLUX --queue=alvis
+#FLUX -t=900
+#FLUX --urgency=16
 
 ml purge
 ml MATLAB

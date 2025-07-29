@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vq2d_val
-#FLUX: -c=6
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=vq2d_val
+#SBATCH --output=./logs/slurm_eval/eval_vq2d-%j.out
+#SBATCH --error=./logs/slurm_eval/eval_vq2d-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=64GB
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-100
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 

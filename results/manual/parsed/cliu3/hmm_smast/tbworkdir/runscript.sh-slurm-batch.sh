@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-5295
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cliu3/hmm_smast/tbworkdir/runscript.sh

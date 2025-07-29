@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ja_ex
-#FLUX: -c=44
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=ja_ex
+#FLUX -c=44
+#FLUX -t=28800
+#FLUX --urgency=16
 
 header_offset=1
 module --force purge

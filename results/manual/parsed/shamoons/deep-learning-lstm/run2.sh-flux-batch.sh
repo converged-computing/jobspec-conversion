@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-3908
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-car-1315
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-9.0'
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64'

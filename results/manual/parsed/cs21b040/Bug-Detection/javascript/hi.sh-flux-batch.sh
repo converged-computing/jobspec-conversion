@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SELAB
-#FLUX: -n=3
-#FLUX: --queue=mediumq
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=SELAB
+#FLUX -n=3
+#FLUX --queue=mediumq
+#FLUX -t=18000
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh
 module load anaconda/2023.03-1

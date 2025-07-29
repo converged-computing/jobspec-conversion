@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bits-9027
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/mpi_gpu_tests/compile.sh

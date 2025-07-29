@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DTEG
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=DTEG
+#SBATCH --mail-user=guibletwm
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=200g
+#SBATCH --time=2-00:00:00
 
 module load nextflow
 module load singularity

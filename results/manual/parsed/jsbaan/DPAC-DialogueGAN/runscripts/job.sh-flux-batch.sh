@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-knife-7930
-#FLUX: --queue=gpu_shared
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-latke-5619
+#FLUX --queue=gpu_shared
+#FLUX -t=64800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/hpc/sw/NCCL/2.0.5/lib:/hpc/eb/Debian9/cuDNN/7.0.5-CUDA-9.0.176/lib64:/hpc/eb/Debian$'
 

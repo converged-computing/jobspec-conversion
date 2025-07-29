@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-car-2862
-#FLUX: --queue=batch
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --mail-user=sunlibocs@gmail.com@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64GB
+#SBATCH --time=23:30:00
+#SBATCH --partition=batch
 
 source activate /fast/users/a1746546/envs/myenv
 module load GCC/5.4.0-2.26

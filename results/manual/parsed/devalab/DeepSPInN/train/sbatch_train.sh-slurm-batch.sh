@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DeepSPInN Training
-#FLUX: -n=39
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=DeepSPInN Training
+#SBATCH --account=research
+#SBATCH --output=ir_nmr_file.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=39
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=3000
+#SBATCH --time=4-00:00:00
 
 ulimit -n 40960
 source /home2/sriram.devata/miniconda3/etc/profile.d/conda.sh

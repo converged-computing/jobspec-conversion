@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-5598
-#FLUX: --queue=normal_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=davidxie_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal_q
+#SBATCH --constraint=ntasks-per-node=1
 
 module load R/4.0.2-foss-2020a
 mkdir -p $1"/DMS/DMS_output"

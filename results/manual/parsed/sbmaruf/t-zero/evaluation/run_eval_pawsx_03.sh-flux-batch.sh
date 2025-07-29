@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-5485
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-train-6493
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'
 

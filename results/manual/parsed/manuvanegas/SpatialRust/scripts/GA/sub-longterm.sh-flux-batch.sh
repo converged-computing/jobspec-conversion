@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fittest
-#FLUX: --queue=htc
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fittest
+#FLUX --queue=htc
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load julia/1.9.0

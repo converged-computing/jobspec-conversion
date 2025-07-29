@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_gpt
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune_gpt
+#SBATCH --output=finetune_gpt_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=253GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=0
 
 export MASTER_ADDR='$(hostname -s)'
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=calculate_pi
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --job-name=calculate_pi
+#SBATCH --output=Job %J
+#SBATCH --error=err.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
 
 cd /home/pi/pi_cluster/mpi_pi_demo
 start_time=`date +%s`

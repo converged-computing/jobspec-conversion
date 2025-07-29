@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=th_new/hmg_ldc3d
-#FLUX: -N=6
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=th_new/hmg_ldc3d
+#FLUX -N=6
+#FLUX --queue=cpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export GCC_PATH='/sw/spack/deltas11-2023-03/apps/linux-rhel8-x86_64/gcc-8.5.0/gcc-11.4.0-yycklku'

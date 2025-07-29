@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ppo_agent
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=ppo_agent
+#FLUX -c=32
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load Python3.10 Xvfb freeglut glew MuJoCo
 source $HOME/.pyvenvs/rl/bin/activate

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-latke-9974
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titanx:1
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-30
 
 export CUDNN_PATH='$HOME/.conda/envs/TF_KERAS_3_GPU/lib/python3.10/site-packages/nvidia/cudnn'
 export LD_LIBRARY_PATH='$CUDNN_PATH/lib:$HOME/TensorRT-8.6.1.6/lib:$LD_LIBRARY_PATH'

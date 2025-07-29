@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-general-3058
-#FLUX: -n=4
-#FLUX: --queue=copyq
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-house-1919
+#FLUX -n=4
+#FLUX --queue=copyq
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 

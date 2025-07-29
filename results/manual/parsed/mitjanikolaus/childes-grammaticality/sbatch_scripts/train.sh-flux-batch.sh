@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=finetune
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module purge
 module load cpuarch/amd

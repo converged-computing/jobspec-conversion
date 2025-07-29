@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mri_std
-#FLUX: --queue=whitehill
-#FLUX: -t=194400
-#FLUX: --urgency=16
+#SBATCH --job-name=mri_std
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=2-06:00:00
+#SBATCH --partition=whitehill
+#SBATCH --constraint=A100
 
 module load cuda11.1/toolkit/11.1.1
 module load cudnn/8.1.1.33-11.2/3k5bbs63

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HW6 CS 601.471/671 homework
-#FLUX: --queue=a100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=HW6 CS 601.471/671 homework
+#SBATCH --account=danielk_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=a100
+#SBATCH --qos=qos_gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/scratch4/danielk/schaud31'
 

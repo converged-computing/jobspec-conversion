@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gmgpolar-setup
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=gmgpolar-setup
+#SBATCH --output=slurm-%A-setup.out
+#SBATCH --error=slurm-%A-setup.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 origin_NOT_coarse=0	# origin_NOT_coarse
 theta_aniso=0		# theta_aniso

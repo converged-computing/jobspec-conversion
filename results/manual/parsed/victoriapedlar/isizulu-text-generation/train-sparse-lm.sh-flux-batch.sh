@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sparse_lm
-#FLUX: -n=6
-#FLUX: --queue=a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sparse_lm
+#FLUX -n=6
+#FLUX --queue=a100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/pdlvic001/.local/lib/python3.8/site-packages/nvidia/cublas/lib/:$LD_LIBRARY_PATH'
 

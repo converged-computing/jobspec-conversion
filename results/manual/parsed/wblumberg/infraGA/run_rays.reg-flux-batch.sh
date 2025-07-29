@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rays
-#FLUX: -n=28
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=rays
+#FLUX -n=28
+#FLUX -t=600
+#FLUX --urgency=16
 
 source ./common.reg || exit 1
 cd /discover/nobackup/wgblumbe/infraGA

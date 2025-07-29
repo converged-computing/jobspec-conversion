@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-lemon-3889
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=results_amd.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:15:00
+#SBATCH --constraint=amd
 
 echo "   "
 echo "Running on node: " $SLURM_NODELIST

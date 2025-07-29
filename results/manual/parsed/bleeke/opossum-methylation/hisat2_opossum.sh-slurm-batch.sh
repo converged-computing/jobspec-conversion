@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HISATmap
-#FLUX: -n=4
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=HISATmap
+#SBATCH --output=hisat2_map_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-57
 
 echo "start"
 date

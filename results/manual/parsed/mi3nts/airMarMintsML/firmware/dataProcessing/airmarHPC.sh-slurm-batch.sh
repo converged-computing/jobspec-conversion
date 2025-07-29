@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=airMar
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=airMar
+#SBATCH --output=airMar.%j.out
+#SBATCH --error=airMar.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-1
 
 ml load matlab
 echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"

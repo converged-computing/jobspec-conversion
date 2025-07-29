@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-platanos-6295
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=als_g
+#SBATCH --output=%x-%a.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=regular
+#SBATCH --constraint=gpu
+#SBATCH --array=0-240:10%4
 
 export SLURM_CPU_BIND='cores'
 

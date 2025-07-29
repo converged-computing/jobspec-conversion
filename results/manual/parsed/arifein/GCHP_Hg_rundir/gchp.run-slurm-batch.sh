@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-ricecake-6160
-#FLUX: -n=24
-#FLUX: --queue=fdr
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32000
+#SBATCH --time=00:30:00
+#SBATCH --partition=fdr
 
 log="gchp.log"
 source runConfig.sh > ${log}

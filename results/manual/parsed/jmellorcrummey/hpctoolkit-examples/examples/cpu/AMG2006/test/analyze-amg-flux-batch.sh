@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pancake-0180
+#FLUX --job-name=misunderstood-toaster-0579
 #FLUX: --exclusive
-#FLUX: --queue=interactive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=interactive
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load OpenMPI
 hpcstruct amg2006 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_run
-#FLUX: -n=2
-#FLUX: --queue=6g-per-core
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=pipeline_run
+#FLUX -n=2
+#FLUX --queue=6g-per-core
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load singularity-3.5.3
 ls /home/data/NDClab/data/base-eeg/CMI/rawdata/ -F | grep / > subjects.txt

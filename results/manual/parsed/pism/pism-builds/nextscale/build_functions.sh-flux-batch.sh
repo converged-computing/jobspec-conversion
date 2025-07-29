@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=petsc_config
-#FLUX: --urgency=16
+#FLUX --job-name=petsc_config
+#FLUX --urgency=16
 
 N=2
 echo 'PETSC_DIR = ' ${PETSC_DIR}

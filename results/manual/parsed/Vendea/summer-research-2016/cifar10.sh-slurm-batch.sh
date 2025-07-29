@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-kerfuffle-5698
-#FLUX: -n=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=00:10:00
 
 . ~/.profile
 module load gcc/6.1.0

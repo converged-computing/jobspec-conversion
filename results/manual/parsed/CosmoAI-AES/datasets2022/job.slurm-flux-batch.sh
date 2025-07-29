@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Cosmo-test
-#FLUX: --queue=GPUQ
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Cosmo-test
+#FLUX --queue=GPUQ
+#FLUX -t=345600
+#FLUX --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

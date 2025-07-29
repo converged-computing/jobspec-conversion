@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=slab
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=sgs-only
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=slab
+#SBATCH --account=st
+#SBATCH --output=slab.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=sgs-only
+#SBATCH: --exclusive
 
 export PATH='$PATH:/home/eggersn/opt/krypton/openmpi-4.1.1/bin'
 

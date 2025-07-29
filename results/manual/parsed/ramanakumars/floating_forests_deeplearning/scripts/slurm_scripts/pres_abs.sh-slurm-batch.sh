@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pres_abs_resnet50_ff_image_mod
-#FLUX: -n=10
-#FLUX: -t=1245600
-#FLUX: --urgency=16
+#SBATCH --job-name=pres_abs_resnet50_ff_image_mod
+#SBATCH --output=pres_abs_resnet50_ff_image_mod.out
+#SBATCH --error=pres_abs_resnet50_ff_image_mod.err
+#SBATCH --mail-user=jarrett.byrnes@umb.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=14-10:00:00
 
 module load proj-7.1.0-gcc-8.4.0-sjt4ita
 module load R/4.0.3

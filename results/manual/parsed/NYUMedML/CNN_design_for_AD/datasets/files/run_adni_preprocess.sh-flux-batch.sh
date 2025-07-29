@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adni_preprocess
-#FLUX: -n=24
-#FLUX: -t=1123200
-#FLUX: --urgency=16
+#FLUX --job-name=adni_preprocess
+#FLUX -n=24
+#FLUX -t=1123200
+#FLUX --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

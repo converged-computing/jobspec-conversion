@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peas-3687
-#FLUX: -n=96
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
 
 export OMP_STACKSIZE='256m'
 

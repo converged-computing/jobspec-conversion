@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Eval_Bert
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Eval_Bert
+#SBATCH --output=slurm/outputs/eval_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 source ./slurm/.secrets
 module purge

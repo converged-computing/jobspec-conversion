@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=phi3_solve
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=phi3_solve
+#SBATCH --account=bryan_research
+#SBATCH --output=phi3_solve-%A.out
+#SBATCH --error=phi3_solve-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=50G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

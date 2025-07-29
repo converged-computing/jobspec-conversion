@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-arm-5956
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-gato-1762
+#FLUX --urgency=16
 
 MODIFIER="$1"
 GPUTYPE="$2"

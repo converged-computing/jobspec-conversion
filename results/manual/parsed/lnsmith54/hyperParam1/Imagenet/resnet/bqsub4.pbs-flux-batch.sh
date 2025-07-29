@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-6158
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-taco-5533
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lnsmith54/hyperParam1/Imagenet/resnet/bqsub4.pbs

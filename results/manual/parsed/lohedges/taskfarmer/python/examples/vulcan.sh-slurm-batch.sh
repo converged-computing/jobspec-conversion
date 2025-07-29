@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: --queue=vulcan
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=vulcan
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=vulcan
+#SBATCH --qos=vulcan_debug
+#SBATCH --constraint=ntasks-per-node=8
 
 user=`whoami`
 cd /clusterfs/vulcan/pscratch/$user/taskfarmer/python

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=${parsec_bench_names[$1]}-s
-#FLUX: --queue=${partition_pool[$node_number]}
-#FLUX: --urgency=16
+#FLUX --job-name=${parsec_bench_names[$1]}-s
+#FLUX --queue=${partition_pool[$node_number]}
+#FLUX --urgency=16
 
 home_root="/u/lgm4xn"
 script_dir="${PWD}"

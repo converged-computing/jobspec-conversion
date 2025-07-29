@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-house-7969
-#FLUX: --queue=cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=p200053
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=cpu
+#SBATCH --qos=default
+#SBATCH --constraint=ntasks-per-node=128
 
 source ${MODULES} ${OMPIVERSION}
 for version in ${CODE_VERSION}

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Epidemic Grid Simulation on SocialEvolution
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=Epidemic Grid Simulation on SocialEvolution
+#SBATCH --output=tracing_runs/job_output/slurm/slurm-%A_%a.out
+#SBATCH --error=tracing_runs/job_output/slurm/slurm-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=40
 
 export MPLBACKEND='Agg'
 

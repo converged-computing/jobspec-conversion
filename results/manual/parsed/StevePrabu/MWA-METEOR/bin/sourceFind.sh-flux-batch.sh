@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leader-0564
-#FLUX: -n=36
-#FLUX: --queue=workq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-toaster-9199
+#FLUX -n=36
+#FLUX --queue=workq
+#FLUX -t=10800
+#FLUX --urgency=16
 
 start=`date +%s`
 module load singularity

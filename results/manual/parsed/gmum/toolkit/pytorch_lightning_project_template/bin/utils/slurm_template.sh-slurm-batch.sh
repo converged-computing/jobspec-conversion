@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name={batch_name}
-#FLUX: --queue=gpu4_medium,gpu4_long,gpu4_short,gpu8_short,gpu8_medium,gpu8_long
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name={batch_name}
+#SBATCH --output={save_path}/out
+#SBATCH --error={save_path}/err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=10000
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu4_medium,gpu4_long,gpu4_short,gpu8_short,gpu8_medium,gpu8_long
 
 export CUDA_VISIBLE_DEVICES='0'
 

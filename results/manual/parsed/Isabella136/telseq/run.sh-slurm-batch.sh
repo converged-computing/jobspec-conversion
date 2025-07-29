@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=all_samples
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=all_samples
+#SBATCH --account=boucher
+#SBATCH --output=logs/%j_disp.log
+#SBATCH --error=logs/%j_disp.log
+#SBATCH --mail-user=nbonin@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64gb
+#SBATCH --time=5-00:00:00
+#SBATCH --qos=boucher
 
 pwd; hostname; date
 module load snakemake

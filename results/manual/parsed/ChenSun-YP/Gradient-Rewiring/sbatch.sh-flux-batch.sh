@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-egg-2349
-#FLUX: -N=6
-#FLUX: -t=740
-#FLUX: --urgency=16
+#FLUX --job-name=placid-punk-2114
+#FLUX -N=6
+#FLUX -t=740
+#FLUX --urgency=16
 
 module load python/3.8
 virtualenv --no-download $SLURM_TMPDIR/env

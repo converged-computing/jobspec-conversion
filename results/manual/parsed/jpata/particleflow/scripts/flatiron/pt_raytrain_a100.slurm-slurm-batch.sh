@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pt_raytrain
-#FLUX: -c=64
-#FLUX: --gpus-per-task=4
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pt_raytrain
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=a100-80gb,ib
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

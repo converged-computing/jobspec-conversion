@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-3655
-#FLUX: -c=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-peas-8720
+#FLUX -c=20
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -e -o pipefail
 source config_cgpu.sh $@

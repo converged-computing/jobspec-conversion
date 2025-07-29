@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LJ5-NS
-#FLUX: -c=10
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=LJ5-NS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=30GB
+#SBATCH --time=2-22:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 source ~/.bashrc

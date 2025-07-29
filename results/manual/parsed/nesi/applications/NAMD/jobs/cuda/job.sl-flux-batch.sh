@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS_JOB
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=GROMACS_JOB
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

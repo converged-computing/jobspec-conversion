@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lentil-6801
-#FLUX: -n=32
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=BDDCML_benchmark.out
+#SBATCH --mail-user=cejkaluk@fjfi.cvut.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem-per-cpu=1000G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --exclude=g[01-10]
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:${BDDCML}/deps/magma/2.7.1/lib'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

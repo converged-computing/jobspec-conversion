@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-rabbit-5775
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-general-2038
+#FLUX -c=3
+#FLUX --queue=gpu_shared_course
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load 2019

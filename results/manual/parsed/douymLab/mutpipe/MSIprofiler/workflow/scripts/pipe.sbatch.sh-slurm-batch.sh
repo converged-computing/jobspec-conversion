@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LZ_MSIprofiler
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=LZ_MSIprofiler
+#SBATCH --output=/storage/douyanmeiLab/lujinhong/logs/22_4_18/LZ_MSIprofiler/%x_%J_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000M
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 set +u
 module load gcc

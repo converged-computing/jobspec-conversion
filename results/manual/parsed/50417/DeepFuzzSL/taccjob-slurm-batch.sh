@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: --queue=gtx
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --account=DeepFuzzCPS
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --mail-user=sohil.shrestha@mavs.uta.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=gtx
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda9_0/cudnn/7.0/lib64 '
 

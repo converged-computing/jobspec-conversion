@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-destiny-5396
-#FLUX: --queue=gpuq
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-bike-8848
+#FLUX --queue=gpuq
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load singularity
 module load cuda

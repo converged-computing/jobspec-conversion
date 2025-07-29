@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nf_bactfinder
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nf_bactfinder
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-nf_bactfinder-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 readonly NF_REPO=https://github.com/jelmerp/nf_bactfinder
 readonly CONDA_ENV=/fs/project/PAS0471/jelmer/conda/nextflow

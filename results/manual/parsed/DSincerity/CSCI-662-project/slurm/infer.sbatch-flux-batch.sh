@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Infer-FT-Blenderbot-Small-ESCOV
-#FLUX: -c=10
+#FLUX --job-name=Infer-FT-Blenderbot-Small-ESCOV
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=108000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='2'

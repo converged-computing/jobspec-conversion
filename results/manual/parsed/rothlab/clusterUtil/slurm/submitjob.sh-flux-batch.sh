@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-8264
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-frito-0221
+#FLUX --urgency=16
 
 set -eEuo pipefail +H
 function handle_error {

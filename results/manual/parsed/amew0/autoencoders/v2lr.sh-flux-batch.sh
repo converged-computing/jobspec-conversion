@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=v2lr-auto-vscode
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=v2lr-auto-vscode
+#FLUX --queue=gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 path="./output/v2lr/v2lr-"
 j=$SLURM_JOB_ID

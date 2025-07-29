@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parrot-8117
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-kerfuffle-8374
+#FLUX --urgency=16
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SAT
-#FLUX: --queue=g100_meteo_prod
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=SAT
+#SBATCH --account=OGS_devC
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300gb
+#SBATCH --time=01:30:00
+#SBATCH --partition=g100_meteo_prod
+#SBATCH --qos=qos_meteo
+#SBATCH --constraint=ntasks-per-node=24
 
 export UCX_TLS='ib'
 export SLURM_PMIX_DIRECT_CONN_UCX='false'

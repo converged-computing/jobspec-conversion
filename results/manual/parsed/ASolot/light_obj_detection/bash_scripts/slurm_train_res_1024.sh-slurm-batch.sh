@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ams288-res-1024
-#FLUX: --queue=pascal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ams288-res-1024
+#SBATCH --account=MASCOLO-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=02:00:00
+#SBATCH --partition=pascal
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

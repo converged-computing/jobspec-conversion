@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cuda-video
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=cuda-video
+#SBATCH --account=cmsc416-aac
+#SBATCH --output=cuda-video-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100_1g.5gb
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/opencv-4.5.2-xxyodykxk3vuw64tlvm6sujgaxnctgep/lib64'
 

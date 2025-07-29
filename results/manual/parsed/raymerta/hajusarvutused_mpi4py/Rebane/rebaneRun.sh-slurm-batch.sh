@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Rebane
-#FLUX: -n=12
-#FLUX: --urgency=16
+#SBATCH --job-name=Rebane
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
 
 export MPI4PYDIR='paralleelarvutused'
 export PYTHONPATH='$HOME/$MPI4PYDIR/install/lib/python'

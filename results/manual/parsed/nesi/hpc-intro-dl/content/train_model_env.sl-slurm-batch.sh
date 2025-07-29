@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-rabbit-5458
-#FLUX: -c=2
-#FLUX: --queue=hgx
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=nesi99991
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=hgx
 
 nvidia-smi
 echo "CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}"

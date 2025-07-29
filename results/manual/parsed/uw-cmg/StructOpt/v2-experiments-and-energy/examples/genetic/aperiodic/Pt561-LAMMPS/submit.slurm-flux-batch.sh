@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-truffle-5302
-#FLUX: --queue=stem
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-cattywampus-9541
+#FLUX --queue=stem
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module load lammps-31Jan14
 module load compile/intel

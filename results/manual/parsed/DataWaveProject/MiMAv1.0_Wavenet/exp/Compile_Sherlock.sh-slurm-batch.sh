@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mima-compile
-#FLUX: -n=24
-#FLUX: --urgency=16
+#SBATCH --job-name=mima-compile
+#SBATCH --output=mima_compile_%j.out
+#SBATCH --error=mima_compile_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=CPU_GEN:RME
 
 export LD='${FC}'
 export CC_SPP='${CC}'

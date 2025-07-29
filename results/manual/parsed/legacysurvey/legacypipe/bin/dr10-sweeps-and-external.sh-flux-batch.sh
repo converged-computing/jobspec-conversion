@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fudge-0138
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-hope-1530
+#FLUX --queue=regular
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LEGACYPIPE_DIR='$HOM/git/legacypipe/'
 export PYTHONPATH='/usr/local/lib/python:$LEGACYPIPE_DIR/py'

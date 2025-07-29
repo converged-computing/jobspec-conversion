@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-motorcycle-8904
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=12:00:00
+#SBATCH --partition=general
 
 module purge    
 module load mamba 

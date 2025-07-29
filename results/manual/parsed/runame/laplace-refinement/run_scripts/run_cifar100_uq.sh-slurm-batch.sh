@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-2277
-#FLUX: --queue=gpu-v100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=cifar100_uq_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu-v100
+#SBATCH --array=1-5
 
 scontrol show job $SLURM_JOB_ID
 data_root=/mnt/qb/hennig/data/

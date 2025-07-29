@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Atezo_LR
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Atezo_LR
+#SBATCH --output=./slurmouts/Atezo/LR_%j.out
+#SBATCH --mail-user=jjb509@nyu.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20GB
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=0-5
 
 module purge
 settings=(KIRC.LOO KIRC.MC BLCA.LOO BLCA.MC PANCAN.LOO PANCAN.MC)

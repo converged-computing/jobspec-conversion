@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mask-rcnn-fpn-2conv-livecell
-#FLUX: --queue=tier3
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=mask-rcnn-fpn-2conv-livecell
+#FLUX --queue=tier3
+#FLUX -t=432000
+#FLUX --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

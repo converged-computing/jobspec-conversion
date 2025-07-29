@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t5-ost
+#FLUX --job-name=t5-ost
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TRANSFORMERS_OFFLINE='1'
 export MASTER_ADDR='127.0.0.1'

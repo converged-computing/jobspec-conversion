@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-platanos-0705
-#FLUX: --queue=a800
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=416-15:00:00
+#SBATCH --partition=a800
 
 module load julia-1.7.1
 project_dir=~/research/AD_Excitation

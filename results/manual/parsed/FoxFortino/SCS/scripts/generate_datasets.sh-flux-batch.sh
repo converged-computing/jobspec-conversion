@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gen_data
-#FLUX: -c=8
-#FLUX: --queue=idle
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=gen_data
+#FLUX -c=8
+#FLUX --queue=idle
+#FLUX -t=604800
+#FLUX --urgency=16
 
 UD_QUIET_JOB_SETUP=YES
 . /opt/shared/slurm/templates/libexec/common.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LearnRawPreferences_qbert
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=LearnRawPreferences_qbert
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export TACC_LAUNCHER_PPN='1'
 export EXECUTABLE='$TACC_LAUNCHER_DIR/init_launcher'

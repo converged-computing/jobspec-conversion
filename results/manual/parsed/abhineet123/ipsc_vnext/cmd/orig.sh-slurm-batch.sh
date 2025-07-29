@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=imgn_r50_V4
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=imgn_r50_V4
+#SBATCH --account=def-nilanjan
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=asingh1@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=500M
+#SBATCH --time=00:00:30
 
 module load python/3.6
 nvidia-smi

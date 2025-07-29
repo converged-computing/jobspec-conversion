@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leader-9083
-#FLUX: -c=128
+#FLUX --job-name=cowy-hope-3774
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=romeo
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=romeo
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc

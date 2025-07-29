@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hope-2632
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ye-luo/miniqmc/testing/miniqmc_openshift_rhea.sh

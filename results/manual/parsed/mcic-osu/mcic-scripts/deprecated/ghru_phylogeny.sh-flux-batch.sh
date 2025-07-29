@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ghru_phylogeny
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=ghru_phylogeny
+#FLUX -t=18000
+#FLUX --urgency=16
 
 function Help() {
     echo

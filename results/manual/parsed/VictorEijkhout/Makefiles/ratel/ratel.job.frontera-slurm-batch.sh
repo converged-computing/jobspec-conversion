@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=25
-#FLUX: --queue=normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --account=A-ccsc
+#SBATCH --output=rateljob.o%j
+#SBATCH --error=rateljob.o%j
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=40
 
 TAU=1
 INTEL=24

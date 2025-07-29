@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-buttface-8912
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:5
+#SBATCH --mem=36GB
+#SBATCH --time=7-00:00:00
 
 echo "start"
 nvidia-smi

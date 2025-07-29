@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=${job}
+#FLUX --job-name=${job}
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LAMMPS='~/NUFEB/lammps/src/lmp_png'
 

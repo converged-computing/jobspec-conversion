@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=barcode55_sup
-#FLUX: -c=40
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=barcode55_sup
+#SBATCH --account=cgates1
+#SBATCH --output=/nfs/mm-isilon/bioinfcore/ActiveProjects/Freeman_freemanz_ONT7-Amplicon_weishwu_9946-ZF/outputs/logs/%x-%j.log
+#SBATCH --mail-user=weishwu@umich.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export NXF_SINGULARITY_CACHEDIR='${pjdir}/env/nextflow_singularity_images/'
 

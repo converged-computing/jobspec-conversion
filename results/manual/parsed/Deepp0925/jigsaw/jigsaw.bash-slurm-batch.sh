@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=jigsaw_bot
-#FLUX: --queue=gpu-shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=jigsaw_bot
+#SBATCH --account=aub101
+#SBATCH --output=testgpu.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --mem=95G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 DATASET="BOT"
 module purge

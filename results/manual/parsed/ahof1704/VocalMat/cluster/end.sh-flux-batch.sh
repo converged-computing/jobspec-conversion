@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-dog-3776
-#FLUX: -c=20
-#FLUX: --queue=scavenge
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-hope-5381
+#FLUX -c=20
+#FLUX --queue=scavenge
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

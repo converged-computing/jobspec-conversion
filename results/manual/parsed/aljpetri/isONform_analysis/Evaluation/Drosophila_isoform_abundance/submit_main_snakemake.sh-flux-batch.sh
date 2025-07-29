@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=IsONformDrosophila
-#FLUX: -n=20
-#FLUX: --queue=core
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=IsONformDrosophila
+#FLUX -n=20
+#FLUX --queue=core
+#FLUX -t=432000
+#FLUX --urgency=16
 
 set -o errexit
 module load gcc/9.3.0

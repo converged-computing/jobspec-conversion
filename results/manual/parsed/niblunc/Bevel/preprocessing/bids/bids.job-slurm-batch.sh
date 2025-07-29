@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BEVEL_BIDS
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=BEVEL_BIDS
+#SBATCH --output=/projects/niblab/bids_projects/Experiments/Bevel/error_files/bids_error_%a_out.txt
+#SBATCH --error=/projects/niblab/bids_projects/Experiments/Bevel/error_files/bids_error_%a_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80000
+#SBATCH --time=02:00:00
 
 if [ ${SLURM_ARRAY_TASK_ID} -lt 10 ]; then
     sub="sub-00${SLURM_ARRAY_TASK_ID}"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-eagle-2997
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-sundae-1623
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidygp/Pedestrian-Attribute-Recognition/output_results/2.%20resnet50_augmentation/PETA_resnet50_Mosaic_v1.txt

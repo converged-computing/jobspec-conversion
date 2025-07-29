@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fcn1_ttq
-#FLUX: -c=5
-#FLUX: -t=187200
-#FLUX: --urgency=16
+#SBATCH --job-name=fcn1_ttq
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-04:00:00
+#SBATCH --array=1-2
+#SBATCH --exclude=sls-sm-5
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"
 echo "SLURM_JOBID="$SLURM_JOBID 

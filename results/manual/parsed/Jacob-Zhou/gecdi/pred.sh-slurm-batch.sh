@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-5277
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 set -o nounset
 set -o errexit

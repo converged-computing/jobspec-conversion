@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jittor
-#FLUX: -n=32
-#FLUX: --queue=xahdtest
-#FLUX: --urgency=16
+#SBATCH --job-name=jittor
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=dcu:4
+#SBATCH --partition=xahdtest
 
 export LD_LIBRARY_PATH='/work/home/ac310l39ky/miniconda3/envs/jittor/lib:$LD_LIBRARY_PATH'
 

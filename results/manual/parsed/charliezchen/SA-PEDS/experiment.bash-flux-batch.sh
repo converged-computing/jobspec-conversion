@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_cpu_job
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=run_cpu_job
+#FLUX -c=20
+#FLUX -t=3600
+#FLUX --urgency=16
 
 mlist=(1 2 4 8 16 32 64 128)
 test=("Ackley")

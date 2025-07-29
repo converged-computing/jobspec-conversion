@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=TF-resnet50
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=TF-resnet50
+#SBATCH --output=%J-tf-resnet50.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 mpirun  \ 
       --map-by numa  \

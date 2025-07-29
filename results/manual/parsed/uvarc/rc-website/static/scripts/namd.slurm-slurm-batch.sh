@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-underoos-1433
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=mygroup
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=40
 
 module purge
 module load goolf namd

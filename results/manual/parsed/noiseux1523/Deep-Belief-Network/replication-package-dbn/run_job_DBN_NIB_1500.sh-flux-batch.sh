@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-underoos-1908
-#FLUX: --urgency=16
+#FLUX --job-name=hello-poodle-4219
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/noiseux1523/Deep-Belief-Network/replication-package-dbn/run_job_DBN_NIB_1500.sh

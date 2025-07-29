@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cupcake-5655
-#FLUX: -n=4
-#FLUX: --queue=cidsegpu1
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:12:00
+#SBATCH --partition=cidsegpu1
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Arrangement_Classification

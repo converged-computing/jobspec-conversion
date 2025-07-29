@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cattywampus-2645
-#FLUX: --queue=seas_gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --mail-user=andersjohansson@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=seas_gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export FLUX='1'
 

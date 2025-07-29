@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tap_rstudio
-#FLUX: --queue=v100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=tap_rstudio
+#SBATCH --output=rstudio.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=v100
 
 export SINGULARITYENV_PASSWORD='$RSTUDIO_PASSWORD '
 

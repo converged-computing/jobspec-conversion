@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_singularity_gpu_info
-#FLUX: -c=2
-#FLUX: --queue=shared
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow_singularity_gpu_info
+#SBATCH --account=sds196
+#SBATCH --output=nextflow_singularity_gpu_info.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2000M
+#SBATCH --time=00:50:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 export NFX_OPTS='-Xms=512m -Xmx=4g'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpujob
-#FLUX: --queue=ampere
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpujob
+#SBATCH --account=MLMI-rfsm2-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:00:00
+#SBATCH --partition=ampere
 
 export WANDB_API_KEY='150e3a3656bc3e6c76366ee98da5b0fd9f7c16ea'
 export OMP_NUM_THREADS='1'

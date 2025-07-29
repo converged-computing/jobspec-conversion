@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mp_dynesty_1000
-#FLUX: -c=64
-#FLUX: --queue=dark
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=mp_dynesty_1000
+#SBATCH --output=./SLURM_Outputs/%x.out
+#SBATCH --mail-user=jacob.hjortlund@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=0
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=dark
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

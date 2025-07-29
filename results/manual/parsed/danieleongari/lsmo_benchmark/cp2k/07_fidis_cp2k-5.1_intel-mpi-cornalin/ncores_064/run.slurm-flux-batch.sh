@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-itch-2257
-#FLUX: -N=3
-#FLUX: -n=64
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-peanut-butter-3703
+#FLUX -N=3
+#FLUX -n=64
+#FLUX --queue=parallel
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

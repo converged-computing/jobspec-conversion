@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tjarray
-#FLUX: -c=4
-#FLUX: --queue=papago
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=tjarray
+#FLUX -c=4
+#FLUX --queue=papago
+#FLUX -t=172800
+#FLUX --urgency=16
 
 hostname
 srun hostname

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=heudiconv_%s_%s
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=heudiconv_%s_%s
+#SBATCH --account=def-patricia
+#SBATCH --output=heudiconv_%s_%s.out
+#SBATCH --error=heudiconv_%s_%s.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=04:00:00
 
 sbatch_template="#!/bin/bash
 module load StdEnv/2020 apptainer/1.1.8

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-4960
-#FLUX: -n=4
-#FLUX: -t=46799
-#FLUX: --urgency=16
+#SBATCH --account=es_eawag
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpumem:16G
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=12:59:59
+#SBATCH --constraint=ntasks-per-node=4
 
 export COMPUTERNAME='EULER'
 

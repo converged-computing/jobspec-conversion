@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lemur-7371
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

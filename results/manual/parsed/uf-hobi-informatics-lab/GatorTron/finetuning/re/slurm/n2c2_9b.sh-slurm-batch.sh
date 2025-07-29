@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=re
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=re
+#SBATCH --output=/red/gatortron-phi/workspace/2021gatortron/nemo_downstream/re/log/re_n2c2_9b_%j.out
+#SBATCH --mail-user=alexgre@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=2000gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 pwd; hostname; date
 echo "start RE..."

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=UFS-Land
-#FLUX: -n=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=UFS-Land
+#SBATCH --account=fv3-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --chdir=.
 
 module purge
 module load stack-intel/2021.5.0  

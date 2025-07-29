@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=compile_cleo
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=compile_cleo
+#SBATCH --account=mh1126
+#SBATCH --output=./compile_cleo_out.%j.out
+#SBATCH --error=./compile_cleo_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=30G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=128
 
 cleoenv=$1        # get from command line argument
 buildtype=$2      # get from command line argument

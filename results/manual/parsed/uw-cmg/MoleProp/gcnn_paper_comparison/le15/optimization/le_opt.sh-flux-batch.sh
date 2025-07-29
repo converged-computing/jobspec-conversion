@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fudge-7128
-#FLUX: --queue=sbel_cmg
-#FLUX: -t=1209690
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-leopard-4023
+#FLUX --queue=sbel_cmg
+#FLUX -t=1209690
+#FLUX --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

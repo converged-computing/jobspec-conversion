@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-1854
-#FLUX: -N=2
-#FLUX: -n=48
-#FLUX: --queue=general_requeue
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-carrot-8538
+#FLUX -N=2
+#FLUX -n=48
+#FLUX --queue=general_requeue
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export IPM_NESTED_REGIONS='1'
 

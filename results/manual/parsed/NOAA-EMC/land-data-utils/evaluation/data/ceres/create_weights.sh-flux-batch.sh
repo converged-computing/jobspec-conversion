@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=regrid_weights
-#FLUX: -n=2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=regrid_weights
+#FLUX -n=2
+#FLUX --queue=debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module use /scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.5.1/envs/unified-env-rocky8/install/modulefiles/Core

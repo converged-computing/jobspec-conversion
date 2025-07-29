@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ssl-mamba
-#FLUX: -c=24
-#FLUX: --queue=gpu_p2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ssl-mamba
+#SBATCH --account=uul@v100
+#SBATCH --output=ssl-mamba%j.log
+#SBATCH --error=ssl-mamba%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:8
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p2
+#SBATCH --array=0-6%1
 
 export TORCH_NCCL_BLOCKING_WAIT='1'
 export MASTER='$(hostname --ip-address)'

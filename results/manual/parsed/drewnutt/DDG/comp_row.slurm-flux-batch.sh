@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=compute_seqs
-#FLUX: --queue=any_cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=compute_seqs
+#FLUX --queue=any_cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='/net/pulsar/home/koes/dkoes/local/bin:$PATH'
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/:/net/pulsar/home/koes/dkoes/local/cuda-10.1/lib64:/net/pulsar/home/koes/dkoes/local/lib:/net/antonin/usr/local/cuda-10.0/lib64:/usr/lib64:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-10.0/lib64:/lib:$LD_LIBRARY_PATH'

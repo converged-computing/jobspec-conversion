@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ps2cctbx
-#FLUX: -N=100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=ps2cctbx
+#SBATCH --account=m2859
+#SBATCH --nodes=100
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --qos=premium
+#SBATCH --constraint=knl,quad,cache
 
+singularity
+exec
+registry.services.nersc.gov/asmit/iota_ps2_v2:latest
 NODES=100
 NUM_RANKS=$((NODES*68))
 t_start=`date +%s`

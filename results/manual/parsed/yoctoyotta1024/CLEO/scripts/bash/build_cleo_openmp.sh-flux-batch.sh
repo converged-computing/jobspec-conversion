@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=openmpbuild
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=openmpbuild
+#FLUX --queue=compute
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load gcc/11.2.0-gcc-11.2.0
 spack load cmake@3.23.1%gcc

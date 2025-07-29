@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=save_whisper_ewc_params
-#FLUX: --queue=ampere
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=save_whisper_ewc_params
+#FLUX --queue=ampere
+#FLUX -t=25200
+#FLUX --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

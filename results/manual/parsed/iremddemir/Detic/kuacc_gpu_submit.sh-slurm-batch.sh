@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Test
-#FLUX: --queue=ai
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Test
+#SBATCH --account=ai
+#SBATCH --output=test-%j.out
+#SBATCH --mail-user=idemir18@ku.edu.tr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ai
+#SBATCH --constraint=ntasks-per-node=2,tesla_t4|tesla_k80
 
 echo "Activating Python 3.9.5"
 module load python/3.9.5

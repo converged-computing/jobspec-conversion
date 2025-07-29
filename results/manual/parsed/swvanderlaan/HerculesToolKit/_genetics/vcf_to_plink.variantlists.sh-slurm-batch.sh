@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vcf_to_plink_variantlists
-#FLUX: -t=15300
-#FLUX: --urgency=16
+#SBATCH --job-name=vcf_to_plink_variantlists
+#SBATCH --output=/hpc/dhl_ec/data/references/1000G/Phase3/vcf_to_plink_variantlists.log
+#SBATCH --error=/hpc/dhl_ec/data/references/1000G/Phase3/vcf_to_plink_variantlists.errors
+#SBATCH --mail-user=s.w.vanderlaan-2@umcutrecht.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:128G
+#SBATCH --mem=64G
+#SBATCH --time=04:15:00
 
                                                                     														# or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     														# Multiple type values may be specified in a comma separated list. 

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-knife-1400
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=m4367
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SBATCH_ACCOUNT='m4367'
 export SALLOC_ACCOUNT='m4367'

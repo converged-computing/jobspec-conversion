@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-noodle-1630
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000mb
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 workdir=$(pwd)
 echo $workdir

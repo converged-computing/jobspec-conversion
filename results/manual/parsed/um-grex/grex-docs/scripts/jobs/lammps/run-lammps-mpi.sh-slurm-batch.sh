@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Lammps-Test
-#FLUX: -n=16
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=Lammps-Test
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1500M
+#SBATCH --time=03:00:00
 
 module load intel/2019.5 ompi/3.1.4 lammps/29Sep21
 echo "Starting run at: `date`"

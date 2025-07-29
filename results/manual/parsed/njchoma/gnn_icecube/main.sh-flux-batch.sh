@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=IceCube_GNN
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=IceCube_GNN
+#FLUX -t=172800
+#FLUX --urgency=16
 
 mkdir -p slurm_out
 TRAINFILE='/misc/vlgscratch4/BrunaGroup/choma/icecube/train.pickle'

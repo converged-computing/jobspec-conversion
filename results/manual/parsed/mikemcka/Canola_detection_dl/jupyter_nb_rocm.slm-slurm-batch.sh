@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pyfast
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=pyfast
+#SBATCH --account=pawsey0149-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITYENV_ROCM_HOME='$ROCM_HOME'
 export OMP_NUM_THREADS='1'

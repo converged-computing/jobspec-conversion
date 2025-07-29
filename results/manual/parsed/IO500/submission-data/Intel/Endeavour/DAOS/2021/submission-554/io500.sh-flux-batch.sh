@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fork-6411
-#FLUX: -N=10
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-peas-0794
+#FLUX -N=10
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 io500_ini="$1"          # You can set the ini file here
 io500_mpirun="mpirun --bind-to hwthread --host eia501,eia502,eia503,eia504,eia505,eia506,eia507,eia508,eia509,eia510"

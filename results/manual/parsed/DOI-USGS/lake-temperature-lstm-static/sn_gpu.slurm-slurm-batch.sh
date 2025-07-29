@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: --queue=cpu
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake
+#SBATCH --account=watertemp
+#SBATCH --output=log/sbatch_all_%a_%A.out
+#SBATCH --error=log/sbatch_all_%a_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:59:59
+#SBATCH --partition=cpu
 
 source ~/.bashrc
 conda activate ltls

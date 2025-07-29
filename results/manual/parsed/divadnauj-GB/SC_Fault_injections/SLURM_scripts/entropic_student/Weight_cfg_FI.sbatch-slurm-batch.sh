@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=WeightsSplit
-#FLUX: --queue=cuda
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=WeightsSplit
+#SBATCH --mail-user=juan.guerrero@polito.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=cuda
+#SBATCH --constraint=ntasks-per-node=8
 
 source ~/miniconda3/bin/activate
 conda deactivate

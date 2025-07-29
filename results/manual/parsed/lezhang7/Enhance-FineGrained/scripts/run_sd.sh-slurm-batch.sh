@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=siglip_Apr1_all
-#FLUX: -c=24
-#FLUX: --queue=short-unkillable
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=siglip_Apr1_all
+#SBATCH --output=./slurm_logs/sdgen/job_output-%j.txt
+#SBATCH --error=./slurm_logs/sdgen/job_error-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:a100l:4
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
+#SBATCH --partition=short-unkillable
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$SLURM_NTASKS_PER_NODE'

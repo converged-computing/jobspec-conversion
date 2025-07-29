@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=upload
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=upload
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /home/mila/c/chris.emezue/scratch/pet-masakhane-results2/pet-masakhane
 module load python/3

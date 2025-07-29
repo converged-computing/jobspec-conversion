@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anneal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=anneal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=02:00:00
 
 module purge
 source /scratch/work/courses/CHEM-GA-2671-2022fa/software/lammps-gcc-30Oct2022/setup_lammps.bash

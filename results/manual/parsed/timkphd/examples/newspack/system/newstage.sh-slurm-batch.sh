@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=standard
+#SBATCH: --exclusive
 
 export STARTDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220511a'

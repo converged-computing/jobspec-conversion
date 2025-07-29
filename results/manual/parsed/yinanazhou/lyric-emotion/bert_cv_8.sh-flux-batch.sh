@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leader-5403
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-animal-8679
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load python/3.8
 module load scipy-stack

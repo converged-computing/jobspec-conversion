@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gp_s_m_single
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gp_s_m_single
+#SBATCH --output=/scratch/mr6744/pytorch/outputs_slurm/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:2
+#SBATCH --mem=30GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec --nv \

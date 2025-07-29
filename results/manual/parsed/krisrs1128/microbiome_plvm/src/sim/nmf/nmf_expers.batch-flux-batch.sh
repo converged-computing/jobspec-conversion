@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nmf_expers
-#FLUX: --queue=normal,hns
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=nmf_expers
+#FLUX --queue=normal,hns
+#FLUX -t=144000
+#FLUX --urgency=16
 
 module load llvm/4.0.0
 module load R/3.4.0

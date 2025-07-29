@@ -1,15 +1,22 @@
 #!/bin/bash
-#FLUX: --job-name=vit-era5
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=vit-era5
+#SBATCH --account=ntrain4
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MASTER_ADDR='$(hostname)'
 export CUDA_VISIBLE_DEVICES='3,2,1,0'
 
+singularity
+exec
+nersc/pytorch:ngc-23.07-v0
 DATADIR=/pscratch/sd/s/shas1693/data/sc23_tutorial_data/downsampled
 LOGDIR=${SCRATCH}/sc23-dl-tutorial/logs
 mkdir -p ${LOGDIR}

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=create_full_dataset
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=create_full_dataset
+#SBATCH --account=project_2001284
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=150000
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 id -a
 module purge

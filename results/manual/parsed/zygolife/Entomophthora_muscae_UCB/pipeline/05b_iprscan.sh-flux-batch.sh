@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-bike-4363
-#FLUX: -n=24
-#FLUX: --queue=intel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-nalgas-6651
+#FLUX -n=24
+#FLUX --queue=intel
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load funannotate
 module load iprscan

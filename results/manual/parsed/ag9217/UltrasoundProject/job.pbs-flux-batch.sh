@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cinnamonbun-5605
-#FLUX: --urgency=16
+#FLUX --job-name=purple-lemur-3041
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ag9217/UltrasoundProject/job.pbs

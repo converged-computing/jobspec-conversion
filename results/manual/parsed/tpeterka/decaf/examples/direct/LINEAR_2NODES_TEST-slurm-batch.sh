@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=my_job
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=my_job
+#SBATCH --output=my_job.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
 
 ARCH=LINUX
 num_procs=8

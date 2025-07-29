@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=laiona6plus-f8-vanilla-resblocks
-#FLUX: -N=2
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=laiona6plus-f8-vanilla-resblocks
+#SBATCH --output=/admin/home/suraj/logs/maskgit-imagenet/%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}'
 export LAUNCHER='python -u -m torch.distributed.run \'

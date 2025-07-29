@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Anteater_Maker_Round1
-#FLUX: -c=40
-#FLUX: -t=46800
-#FLUX: --urgency=16
+#FLUX --job-name=Anteater_Maker_Round1
+#FLUX -c=40
+#FLUX -t=46800
+#FLUX --urgency=16
 
 export PATH='$PATH:/gpfs/fs0/project/j/jweir/tools/tRNAscan-SE-2.0'
 export ZOE='/gpfs/fs0/project/j/jweir/tools/snap/Zoe'

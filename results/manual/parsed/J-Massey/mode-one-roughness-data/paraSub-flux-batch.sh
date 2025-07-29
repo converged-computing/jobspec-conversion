@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-knife-1979
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=24600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-parrot-2560
+#FLUX -n=64
+#FLUX --queue=amd
+#FLUX -t=24600
+#FLUX --urgency=16
 
 module purge
 module load paraview/5.10.1 python/3.11

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fastcpc
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=fastcpc
+#FLUX -c=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export TRITON_CACHE_DIR='$HOME/.cache/triton # Important - avoids OOM error when /tmp is full'
 

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_mdrun
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_mdrun
+#SBATCH --output=gmx_mdrun_slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 thisfile=$(basename "${BASH_SOURCE[0]}")
 echo "${thisfile}"

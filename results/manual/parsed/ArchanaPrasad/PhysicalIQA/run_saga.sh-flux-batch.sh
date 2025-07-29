@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=astute-arm-0865
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=mics
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-pancake-3871
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=mics
+#FLUX -t=72000
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate ai2

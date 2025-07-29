@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-gato-3334
-#FLUX: -c=10
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-cupcake-0358
+#FLUX -c=10
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export WANDB_MODE='online'
 export WANDB_ENTITY='jarmy-naija'

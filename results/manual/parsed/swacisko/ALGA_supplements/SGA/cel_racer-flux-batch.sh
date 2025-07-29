@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-spoon-5569
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-bike-4562
+#FLUX -c=18
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/cel_racer.1.log \

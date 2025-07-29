@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-kerfuffle-7988
-#FLUX: -n=32
-#FLUX: --queue=defq
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#SBATCH --output=output/slurm.%N.%j.out
+#SBATCH --error=output/slurm.%N.%j.err
+#SBATCH --mail-user=hannasv@fys.uio.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024G
+#SBATCH --time=1-00:24:00
+#SBATCH --partition=defq
 
 ulimit -s 10240
 mkdir -p ~/output

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-3613
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=red-signal-6098
+#FLUX --queue=GPU-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$PROJECT/anaconda3/lib'
 export CUDA_HOME='/jet/packages/cuda/v11.7.1'

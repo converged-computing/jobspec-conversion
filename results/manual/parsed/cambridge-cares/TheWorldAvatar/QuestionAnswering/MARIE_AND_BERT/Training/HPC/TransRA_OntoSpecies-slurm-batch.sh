@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=OntoSpecies_TransRA
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=OntoSpecies_TransRA
+#SBATCH --account=COMO-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=ampere
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 

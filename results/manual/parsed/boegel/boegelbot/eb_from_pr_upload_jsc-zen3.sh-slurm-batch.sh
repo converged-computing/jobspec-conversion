@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bike-3774
-#FLUX: -n=4
-#FLUX: --queue=jsczen3c
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --output=/project/def-maintainers/boegelbot/slurmjobs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000M
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=jsczen3c
 
 export PYTHONPATH='${EB_PREFIX}/easybuild-framework:${EB_PREFIX}/easybuild-easyblocks:${EB_PREFIX}/easybuild-easyconfigs'
 export PATH='${EB_PREFIX}/easybuild-framework:${HOME}/.local/bin:${PATH}'

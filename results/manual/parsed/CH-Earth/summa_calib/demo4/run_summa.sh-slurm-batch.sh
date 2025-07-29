@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=demo4summa
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=demo4summa
+#SBATCH --account=<account>
+#SBATCH --output=slurm_outputs/%x-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100MB
+#SBATCH --time=00:30:00
+#SBATCH --array=0-2
 
 control_file=$1   # "control_active.txt"
 nJob=3            # number of jobs in job array. Should be the same as in --array.

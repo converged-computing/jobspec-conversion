@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=launch_cci_pipeline_CCI_CellClass_L1
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=launch_cci_pipeline_CCI_CellClass_L1
+#FLUX --queue=long
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

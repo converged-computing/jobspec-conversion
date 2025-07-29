@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=kid_decoupleR
-#FLUX: --queue=largemem
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=kid_decoupleR
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --mail-user=jbarham3@uab.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=255000
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=largemem
+#SBATCH --array=0-34
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='jbarham3' #change this to your user'

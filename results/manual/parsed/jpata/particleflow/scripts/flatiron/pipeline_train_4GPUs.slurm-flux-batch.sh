@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pipetrain
-#FLUX: --gpus-per-task=4
+#FLUX --job-name=pipetrain
+#FLUX --gpus-per-task=4
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/sw/nix/store/3xpm36w2kcri3j1m5j15hg025my1p4kx-cuda-11.8.0/extras/CUPTI/lib64/'
 export TF_GPU_THREAD_MODE='gpu_private'

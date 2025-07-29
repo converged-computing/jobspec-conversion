@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=V4
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=V4
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='15'

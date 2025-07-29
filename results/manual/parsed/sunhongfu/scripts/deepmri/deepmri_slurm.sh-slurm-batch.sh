@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xuanyu_test_tensor_gpu
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=xuanyu_test_tensor_gpu
+#SBATCH --output=tensor_out.txt
+#SBATCH --error=tensor_error.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem-per-cpu=50000
+#SBATCH --partition=gpu
 
 module load cuda/9.2.148.1
 module load gnu7

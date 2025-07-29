@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=q03
-#FLUX: -N=4
-#FLUX: -n=160
-#FLUX: --queue=ramirez-ruiz
-#FLUX: -t=604740
-#FLUX: --urgency=16
+#FLUX --job-name=q03
+#FLUX -N=4
+#FLUX -n=160
+#FLUX --queue=ramirez-ruiz
+#FLUX -t=604740
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "Running program on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS total tasks, with each node getting $SLURM_NTASKS_PER_NODE running on cores."

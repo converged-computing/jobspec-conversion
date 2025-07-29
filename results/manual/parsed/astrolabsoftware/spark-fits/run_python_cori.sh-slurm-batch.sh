@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sparkFITS
-#FLUX: -N=6
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=sparkFITS
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
+singularity
+exec
+nersc/spark-2.3.0:v1
 module load spark
 module load sbt
 SCALA_VERSION=2.11.8

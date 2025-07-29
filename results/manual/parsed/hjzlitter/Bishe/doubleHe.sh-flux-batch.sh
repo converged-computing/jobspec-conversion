@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Annealing
-#FLUX: -n=20
-#FLUX: --queue=GPU-V100
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=Annealing
+#FLUX -n=20
+#FLUX --queue=GPU-V100
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/snst/huysh20/.lammps_command'
 export LAMMPS_POTENTIALS='/home/snst/huysh20/.lammps_command'

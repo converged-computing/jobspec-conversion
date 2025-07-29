@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-egg-7637
-#FLUX: -c=24
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=def-rnoumeir
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64000M
+#SBATCH --time=12:00:00
 
 module restore tensorenvironment
 SOURCEDIR=~/scratch/Pointnet

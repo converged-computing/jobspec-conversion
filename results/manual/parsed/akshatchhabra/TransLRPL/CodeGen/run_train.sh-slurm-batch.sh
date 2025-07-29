@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess
-#FLUX: --queue=gypsum-titanx
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocess
+#SBATCH --output=output_train_with_reload_csharp.txt
+#SBATCH --error=error_train_with_reload_csharp.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=240000
+#SBATCH --partition=gypsum-titanx
+#SBATCH --array=2
 
 module load conda
 conda activate transCoder_env

@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=preproc-fourcastnet
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=preproc-fourcastnet
+#SBATCH --account=m4134
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --mail-user=$EMAIL
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --qos=flex
+#SBATCH --constraint=haswell
 
 export N_WORKERS='32'
 export N_THREADS_PER='2'

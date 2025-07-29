@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=val2cumulative
-#FLUX: -N=32
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=val2cumulative
+#SBATCH --account=CFD162
+#SBATCH --mail-user=kevmoor@sandia.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export rocm_version='5.4.3'
 export FI_MR_CACHE_MONITOR='memhooks'

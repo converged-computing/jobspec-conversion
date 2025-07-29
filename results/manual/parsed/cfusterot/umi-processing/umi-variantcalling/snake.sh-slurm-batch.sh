@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=variantcalling
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=variantcalling
+#SBATCH --output=/data/gpfs-1/users/cofu10_c/scratch/P3473/slurm_logs/%x.%j.out
+#SBATCH --error=/data/gpfs-1/users/cofu10_c/scratch/P3473/slurm_logs/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24000M
+#SBATCH --time=6-00:00:00
 
 snakemake \
     --nt \

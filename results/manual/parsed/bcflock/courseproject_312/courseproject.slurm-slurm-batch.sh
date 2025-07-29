@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=312cp
-#FLUX: --gpus-per-task=1
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=312cp
+#SBATCH --output=./test.o%j
+#SBATCH --mail-user=bcf26@case.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=18:00:00
 
 module load cuda/8.0 singularity/3.5.1 hdf5/1.10.1 python
 mkdir $PFSDIR/course-project

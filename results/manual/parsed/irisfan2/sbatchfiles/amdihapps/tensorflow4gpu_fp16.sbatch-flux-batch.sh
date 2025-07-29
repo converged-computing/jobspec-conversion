@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-punk-8082
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-punk-9506
+#FLUX -c=10
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

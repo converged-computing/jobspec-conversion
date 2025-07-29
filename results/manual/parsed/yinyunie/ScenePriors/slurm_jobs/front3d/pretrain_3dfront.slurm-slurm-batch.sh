@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_3dfront_bedroom
-#FLUX: -c=32
-#FLUX: --queue=submit
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain_3dfront_bedroom
+#SBATCH --output=./slurm_jobs/job_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --mem=300gb
+#SBATCH --partition=submit
+#SBATCH --qos=normal
+#SBATCH --constraint=rtx_a6000|rtx_3090|rtx_2080
 
 date;hostname;pwd
 echo "Job Name = $SLURM_JOB_NAME"

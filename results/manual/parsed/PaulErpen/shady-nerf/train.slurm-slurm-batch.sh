@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=paul-erpenstein-thesis
-#FLUX: --queue=pDLVC
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=paul-erpenstein-thesis
+#SBATCH --account=dlvc
+#SBATCH --output=slurm_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8192mb
+#SBATCH --time=01:00:00
+#SBATCH --partition=pDLVC
 
 echo "================ ================ ================ ================"
 echo "$(date)|$(hostname)|$(pwd)|$(id)"

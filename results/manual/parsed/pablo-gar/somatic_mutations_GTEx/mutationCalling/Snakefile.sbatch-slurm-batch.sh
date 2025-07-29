@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bits-1898
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_mutationCalling.out
+#SBATCH --error=/scratch/users/paedugar/somaticMutationsProject/clusterFiles/1_Snakemake_mutationCalling.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=hbfraser,hns,normal
 
 PATH=$HOME/bin:$PATH:$HOME/.local/bin:$HOME/gatk-4.0.3.0:$HOME/samtools_1.6/bin
 export PATH

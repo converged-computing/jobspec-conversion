@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=diffae
-#FLUX: -n=8
-#FLUX: --queue=gpuserial
-#FLUX: -t=576000
-#FLUX: --urgency=16
+#SBATCH --job-name=diffae
+#SBATCH --account=PAS2405
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=6-16:00:00
+#SBATCH --partition=gpuserial
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

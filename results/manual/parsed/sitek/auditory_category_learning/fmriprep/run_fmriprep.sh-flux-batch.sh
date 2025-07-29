@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-eagle-6661
-#FLUX: -c=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-leg-0245
+#FLUX -c=12
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module add freesurfer
 module add fsl

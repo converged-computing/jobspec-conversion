@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gauss
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gauss
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml python/3.6.1
 cd $HOME/proj/attfield

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=covid-19_x0072
-#FLUX: --queue=pascal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=covid-19_x0072
+#SBATCH --account=COVID19DOCK-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=pascal
+#SBATCH --array=1-3%1
 
 export OMP_NUM_THREADS='1'
 

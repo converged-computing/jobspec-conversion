@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=_gwas2vcf
-#FLUX: --queue=cardio
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=_gwas2vcf
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/user/jhz22/hpc-work/work/_gwas2vcf_%A_%a.out
+#SBATCH --error=/rds/user/jhz22/hpc-work/work/_gwas2vcf_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
+#SBATCH --array=1-91
 
 export TMPDIR='/rds/user/jhz22/hpc-work/work'
 export prot='$(cut -f1 ${INF}/work/inf1.tmp | grep -v BDNF | sort | uniq | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lemon-6476
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=m3018
+#SBATCH --output=slurm.derived.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
 
 RUN_DIR=$1
 echo $RUN_DIR

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mkt_gem5
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=mkt_gem5
+#SBATCH --mail-user=mtaram@ucsd.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=main
+#SBATCH --nodelist=cortado01
 
 home_root="/u/mtaram"
 spec_root=$home_root/spec2017/

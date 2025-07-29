@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune_scalapack
-#FLUX: -N=17
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=GPTune_scalapack
+#FLUX -N=17
+#FLUX --queue=premium
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

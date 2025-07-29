@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=read
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=burst
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=read
+#SBATCH --account=ccsd
+#SBATCH --output=read.o
+#SBATCH --error=read.e
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH --partition=burst
+#SBATCH: --exclusive
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'
 

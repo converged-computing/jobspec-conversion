@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resource.creator
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=resource.creator
+#SBATCH --output=/hpc/local/CentOS7/dhl_ec/software/MetaGWASToolKit/resource.creator.log
+#SBATCH --error=/hpc/local/CentOS7/dhl_ec/software/MetaGWASToolKit/resource.creator.errors
+#SBATCH --mail-user=s.w.vanderlaan-2@umcutrecht.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:64G
+#SBATCH --mem=8G
+#SBATCH --time=03:00:00
 
                                                                     # or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     # Multiple type values may be specified in a comma separated list. 

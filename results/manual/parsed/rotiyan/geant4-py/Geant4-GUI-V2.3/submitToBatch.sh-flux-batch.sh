@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-malarkey-0772
-#FLUX: --queue=htc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-plant-3901
+#FLUX --queue=htc
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load singularity 
 module load spack

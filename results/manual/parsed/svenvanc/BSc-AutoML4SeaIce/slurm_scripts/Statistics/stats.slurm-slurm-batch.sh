@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stats
-#FLUX: --queue=cpu-short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=stats
+#SBATCH --output=0_stats_real_log/%x_%j.out
+#SBATCH --error=0_stats_real_log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=00:30:00
+#SBATCH --partition=cpu-short
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

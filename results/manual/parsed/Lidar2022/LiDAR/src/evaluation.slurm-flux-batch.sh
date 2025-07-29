@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_job
-#FLUX: -n=32
-#FLUX: --queue=gpuq
-#FLUX: -t=431940
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_job
+#FLUX -n=32
+#FLUX --queue=gpuq
+#FLUX -t=431940
+#FLUX --urgency=16
 
 set echo 
 umask 0022 

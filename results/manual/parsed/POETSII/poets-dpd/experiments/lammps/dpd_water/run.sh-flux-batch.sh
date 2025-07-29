@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peas-4382
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-knife-7630
+#FLUX --urgency=16
 
 module load lammps/2020/intel
 mpiexec -np $SLURM_NTASKS lmp -in dpd_water_100x100x100_t1000.txt

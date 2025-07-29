@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=t2i-lineart-resume
-#FLUX: -c=96
+#FLUX --job-name=t2i-lineart-resume
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export MODEL_DIR='stabilityai/stable-diffusion-xl-base-1.0'
 export LAUNCHER='accelerate launch \'

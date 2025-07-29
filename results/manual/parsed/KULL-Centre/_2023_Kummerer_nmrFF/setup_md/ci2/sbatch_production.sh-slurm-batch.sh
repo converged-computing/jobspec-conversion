@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ci2_opt
-#FLUX: --queue=qgpu
-#FLUX: -t=234000
-#FLUX: --urgency=16
+#SBATCH --job-name=ci2_opt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=2-17:00:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=18
+#SBATCH --array=1-5
 
 echo "========= Job started  at `date` =========="
 echo This job is running on the following node\(s\):

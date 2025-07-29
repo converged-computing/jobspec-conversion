@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pancake-9680
-#FLUX: --queue=cpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-general-2624
+#FLUX --queue=cpulong
+#FLUX -t=259200
+#FLUX --urgency=16
 
 srun julia relational_hparams.jl --n $SLURM_ARRAY_TASK_ID --m $1
 exit

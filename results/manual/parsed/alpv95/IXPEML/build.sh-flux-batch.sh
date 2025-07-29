@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BUILD
-#FLUX: -c=2
-#FLUX: --queue=kipac
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=BUILD
+#FLUX -c=2
+#FLUX --queue=kipac
+#FLUX -t=7200
+#FLUX --urgency=16
 
 ml python/3.9
 ml py-scipy/1.6.3_py39

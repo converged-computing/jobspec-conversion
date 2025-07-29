@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$EXPERIMENT_NAME
-#FLUX: -c=40
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=$EXPERIMENT_NAME
+#SBATCH --account=def-mmehride
+#SBATCH --output=log_$EXPERIMENT_NAME.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=01:00:00
+#SBATCH --constraint=cascade
 
 export MKL_ENABLE_INSTRUCTIONS='AVX512'
 export OMP_PROC_BIND='true'

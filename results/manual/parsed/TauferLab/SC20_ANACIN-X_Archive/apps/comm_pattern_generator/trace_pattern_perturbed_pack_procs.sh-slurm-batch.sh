@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-3901
-#FLUX: --urgency=16
+#SBATCH --output=comm_pattern-%j.out
+#SBATCH --error=comm_pattern-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 n_procs=$1
 app=$2

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=analyze
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=analyze
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10Gb
+#SBATCH --partition=high
 
 module load Tensorflow-gpu/1.12.0-foss-2017a-Python-3.6.4
 module load scikit-learn/0.19.1-foss-2017a-Python-3.6.4

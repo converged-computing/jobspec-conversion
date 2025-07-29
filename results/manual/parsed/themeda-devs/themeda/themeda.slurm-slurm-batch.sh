@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=themeda
-#FLUX: -c=4
-#FLUX: --queue=gpu-a100
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=themeda
+#SBATCH --account=punim1932
+#SBATCH --mail-user=robert.turnbull@unimelb.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=gpu-a100
 
 export PATH='/home/rturnbull/runting/poetry-py3.9.6/bin:$PATH'
 export THEMEDA_DATA_DIR='/data/gpfs/projects/punim1932/data'

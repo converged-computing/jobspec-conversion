@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-egg-8545
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/yunhuige/Cyclic_peptides/sequences/cb2rr/RUNS/non-natural/73/old/qsub.sh

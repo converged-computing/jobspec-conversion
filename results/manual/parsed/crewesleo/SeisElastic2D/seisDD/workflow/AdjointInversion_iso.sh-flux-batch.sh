@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Iso
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=Iso
+#FLUX -N=16
+#FLUX -n=32
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

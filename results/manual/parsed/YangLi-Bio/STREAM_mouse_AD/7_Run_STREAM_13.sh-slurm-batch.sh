@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Run_STREAM_13+_months
-#FLUX: -t=123659
-#FLUX: --urgency=16
+#SBATCH --job-name=Run_STREAM_13+_months
+#SBATCH --account=PCON0022
+#SBATCH --output=Run_STREAM_13+_months.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=300GB
+#SBATCH --time=1-10:20:59
+#SBATCH --constraint=ntasks-per-node=8
 
 set -e
 cd /fs/ess/PCON0022/liyang/STREAM/Case_2_AD/Codes/

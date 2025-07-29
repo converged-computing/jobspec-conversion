@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-gato-0713
-#FLUX: -c=10
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=11-00:00:00
+#SBATCH --array=1-4
 
 source activate varaedes
 ref=${aedes_in_path}refs/aegy/VectorBase-50_AaegyptiLVP_AGWG_Genome.fasta

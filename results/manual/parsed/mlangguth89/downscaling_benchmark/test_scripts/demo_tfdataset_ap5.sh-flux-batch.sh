@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-bicycle-2696
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-nunchucks-4184
+#FLUX -c=40
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MALLOC_MMAP_MAX_='40960'
 

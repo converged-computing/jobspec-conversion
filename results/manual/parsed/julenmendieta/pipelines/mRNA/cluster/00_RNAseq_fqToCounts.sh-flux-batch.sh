@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mRNA_fqToQ
-#FLUX: -c=12
-#FLUX: --queue=short
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=mRNA_fqToQ
+#FLUX -c=12
+#FLUX --queue=short
+#FLUX -t=36000
+#FLUX --urgency=16
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

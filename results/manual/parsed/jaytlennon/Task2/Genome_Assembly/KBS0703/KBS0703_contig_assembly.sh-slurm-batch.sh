@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-punk-1076
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jaytlennon/Task2/Genome_Assembly/KBS0703/KBS0703_contig_assembly.sh

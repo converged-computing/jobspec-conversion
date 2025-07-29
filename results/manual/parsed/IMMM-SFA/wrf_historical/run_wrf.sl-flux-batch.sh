@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wrf_conus
-#FLUX: -N=7
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=wrf_conus
+#FLUX -N=7
+#FLUX --queue=regular
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export FOR_IGNORE_EXCEPTIONS='1'

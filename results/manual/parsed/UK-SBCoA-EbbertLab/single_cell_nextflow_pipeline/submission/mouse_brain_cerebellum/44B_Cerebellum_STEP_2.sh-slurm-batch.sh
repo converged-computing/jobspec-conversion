@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=43BHEK_unmapped
-#FLUX: --queue=normal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=43BHEK_unmapped
+#SBATCH --account=coa_mteb223_uksr
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=400G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=normal
 
     # --ont_reads_txt "/scratch/bag222/data/ont_data/R10_V14_cDNA_Test_202310/final_data/*.txt" \
     # --contamination_ref "../../references/master_contaminant_reference.fasta" \

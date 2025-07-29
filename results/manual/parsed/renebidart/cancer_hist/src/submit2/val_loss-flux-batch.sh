@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-1098
-#FLUX: -t=1080
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-destiny-4581
+#FLUX -t=1080
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow6/bin/activate

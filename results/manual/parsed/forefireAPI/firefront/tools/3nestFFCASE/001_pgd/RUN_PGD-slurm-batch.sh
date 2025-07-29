@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FCAST_PGD
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=intel
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=FCAST_PGD
+#SBATCH --mail-user=batti.filippi@@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=intel
+#SBATCH: --exclusive
 
 export MPIRUN='mpirun -np 4'
 

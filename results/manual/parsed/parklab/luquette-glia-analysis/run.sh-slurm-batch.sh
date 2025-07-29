@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-9877
-#FLUX: --queue=priopark
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=park_contrib
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=priopark
 
 word=$1
 shift

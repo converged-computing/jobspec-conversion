@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-staircase-9434
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-soup-5560
+#FLUX --queue=compute
+#FLUX -t=300
+#FLUX --urgency=16
 
 export APPTAINERENV_NEWHOME='$(pwd)'
 

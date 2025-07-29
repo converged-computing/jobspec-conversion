@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-onion-2487
-#FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^openib,smcuda'

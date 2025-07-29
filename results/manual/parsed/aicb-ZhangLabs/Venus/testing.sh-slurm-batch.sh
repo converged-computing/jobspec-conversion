@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=testing1
-#FLUX: -c=32
-#FLUX: --queue=zhanglab.p
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=testing1
+#SBATCH --output=/srv/disk00/cheyul1/Venus/logs/22-05-10/testing1.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=zhanglab.p
 
 repo_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/Venus
 out_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/testing1

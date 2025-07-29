@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lemur-1477
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#SBATCH --output=tmp/%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
 
 PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:64 pasero-decode $@

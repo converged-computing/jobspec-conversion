@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=$1
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=$1
+#SBATCH --output=./$1.$2-%A.out
+#SBATCH --error=./$1.$2-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=180G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=$3
 
 sbatch <<EOT
 source ${HOME}/.bashrc

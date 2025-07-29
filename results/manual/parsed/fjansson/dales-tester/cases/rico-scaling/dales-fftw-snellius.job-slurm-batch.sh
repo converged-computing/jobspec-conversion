@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leader-9485
-#FLUX: --queue=rome
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=rome
+#SBATCH --constraint=ntasks-per-node=128
 
 module load 2022
 module load foss/2022a

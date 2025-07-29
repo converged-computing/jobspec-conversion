@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-dog-8913
-#FLUX: -n=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=210
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=90000
+#SBATCH --time=00:03:30
+#SBATCH --partition=REQUESTED_PARTITION
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

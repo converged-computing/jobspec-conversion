@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=srunpy
-#FLUX: -N=6
-#FLUX: -c=36
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=srunpy
+#SBATCH --account=cavs
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=1GB
+#SBATCH --time=00:15:00
 
 source ~/acavs
 unset LD_PRELOAD

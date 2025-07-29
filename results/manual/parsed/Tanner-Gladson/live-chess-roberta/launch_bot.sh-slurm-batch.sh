@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=live-chess-roberta
-#FLUX: -c=4
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=live-chess-roberta
+#SBATCH --output=./slurm_output/preprocess-%A.out
+#SBATCH --mail-user=tannergladson@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 ENV_NAME="lichess-bot"
 PYTHON_VERSION="3.9.18"

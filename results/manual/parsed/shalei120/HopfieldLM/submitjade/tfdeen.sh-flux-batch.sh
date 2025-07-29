@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=MT
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#FLUX --job-name=MT
+#FLUX --queue=small
+#FLUX --urgency=16
 
 module load cuda/9.2
 echo $CUDA_VISIBLE_DEVICES

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-knife-8207
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-kerfuffle-7739
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 module purge
 module load shared

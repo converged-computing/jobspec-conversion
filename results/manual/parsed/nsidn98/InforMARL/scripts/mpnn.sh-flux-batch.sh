@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mpnn
-#FLUX: -c=20
-#FLUX: --urgency=16
+#FLUX --job-name=mpnn
+#FLUX -c=20
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda/2022a

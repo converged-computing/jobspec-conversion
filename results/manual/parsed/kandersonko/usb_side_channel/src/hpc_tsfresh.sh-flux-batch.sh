@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pedo-4145
-#FLUX: --queue=gpu-8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=red-nalgas-5829
+#FLUX --queue=gpu-8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

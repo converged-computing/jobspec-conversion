@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-5721
-#FLUX: --queue=a800-9000
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-leader-7284
+#FLUX --queue=a800-9000
+#FLUX -t=600
+#FLUX --urgency=16
 
 export RANK_SIZE='1'
 

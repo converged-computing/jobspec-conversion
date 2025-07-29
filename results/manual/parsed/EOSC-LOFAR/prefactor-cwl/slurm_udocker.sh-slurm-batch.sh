@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-frito-9977
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 module load python
 source /nfs/home2/molenaar/spack/share/spack/setup-env.sh

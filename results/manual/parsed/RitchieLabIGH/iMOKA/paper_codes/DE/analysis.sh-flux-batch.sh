@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-7338
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-omelette-1372
+#FLUX -n=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/nfs/work/td/,/lustre/lorenzic/'

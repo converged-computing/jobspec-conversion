@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fudge-7239
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-snack-5507
+#FLUX --urgency=16
 
 CONDA_ENV_NAME=
 MAIN_HOME=/home

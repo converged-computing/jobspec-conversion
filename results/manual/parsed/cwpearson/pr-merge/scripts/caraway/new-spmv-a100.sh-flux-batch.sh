@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-eagle-1404
-#FLUX: --queue=A100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-avocado-2583
+#FLUX --queue=A100
+#FLUX -t=10800
+#FLUX --urgency=16
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

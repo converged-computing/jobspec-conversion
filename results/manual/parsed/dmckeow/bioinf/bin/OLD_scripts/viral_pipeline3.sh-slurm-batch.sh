@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cupcake-9784
-#FLUX: -n=8
-#FLUX: --queue=amdlarge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=72GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdlarge
 
 module load minimap2/2.17
 module load samtools

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-omelette-0380
-#FLUX: --queue=gpu
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=red-cattywampus-4760
+#FLUX --queue=gpu
+#FLUX -t=518400
+#FLUX --urgency=16
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/

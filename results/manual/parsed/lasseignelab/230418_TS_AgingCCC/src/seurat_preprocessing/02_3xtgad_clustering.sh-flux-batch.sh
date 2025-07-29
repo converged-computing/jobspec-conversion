@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=clustering
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=clustering
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='$USER'

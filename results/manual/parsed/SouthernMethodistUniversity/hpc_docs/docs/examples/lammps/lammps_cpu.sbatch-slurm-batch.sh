@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=64
-#FLUX: --queue=dev
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --output=lammps_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24G
+#SBATCH --partition=dev
 
 module purge                           # Unload all modules
 module load gcc lammps                 # Load LAMMPS

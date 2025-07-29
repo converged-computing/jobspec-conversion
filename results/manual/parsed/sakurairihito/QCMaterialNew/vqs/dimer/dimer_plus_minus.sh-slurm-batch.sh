@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=uccgsd_dimer_tau_plus
-#FLUX: -n=4
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=uccgsd_dimer_tau_plus
+#SBATCH --output=stdout.%J
+#SBATCH --error=stderr.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
 
 export OMP_NUM_THREADS='1'
 

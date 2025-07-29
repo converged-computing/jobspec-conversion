@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bobthejob
-#FLUX: -n=3
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=bobthejob
+#FLUX -n=3
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OPT_DIR='/software/projects/pawsey0407/setonix/'

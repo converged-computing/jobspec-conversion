@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-truffle-2641
-#FLUX: -N=2
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-peas-6610
+#FLUX -N=2
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='11'
 export KMP_SETTINGS='True'

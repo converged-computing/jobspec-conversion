@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parsnip-3053
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=def-afyshe-ab
+#SBATCH --mail-user=jam10@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=00:05:00
 
 export APPTAINERENV_FS_LICENSE='$my_licence_fs'
 

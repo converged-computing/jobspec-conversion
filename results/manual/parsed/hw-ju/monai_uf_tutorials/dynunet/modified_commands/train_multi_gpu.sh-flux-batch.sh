@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-2141
-#FLUX: -c=4
-#FLUX: --gpus-per-task=2
+#FLUX --job-name=bricky-toaster-3667
+#FLUX -c=4
+#FLUX --gpus-per-task=2
 #FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=hpg-ai
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

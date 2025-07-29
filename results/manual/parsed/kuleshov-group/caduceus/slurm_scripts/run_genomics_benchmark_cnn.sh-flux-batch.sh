@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-frito-8039
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-bits-0616
+#FLUX -c=2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd ../ || exit  # Go to the root directory of the repo
 source setup_env.sh

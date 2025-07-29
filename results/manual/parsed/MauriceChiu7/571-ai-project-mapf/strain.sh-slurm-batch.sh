@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=primal-train
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=primal-train
+#SBATCH --account=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150000
+#SBATCH --time=1-00:00:00
 
 module purge
 module load anaconda

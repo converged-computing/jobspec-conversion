@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-0131
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:16gb:1
+#SBATCH --mem=8GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=main
 
 source batch_jobs/_experiment_configuration.sh
 echo "Host - $HOSTNAME"

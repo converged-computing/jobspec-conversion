@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-5875
-#FLUX: -c=6
-#FLUX: -t=419
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-plant-1286
+#FLUX -c=6
+#FLUX -t=419
+#FLUX --urgency=16
 
 module load cuda cudnn 
 module load python/3

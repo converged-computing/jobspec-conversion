@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=petscVec
-#FLUX: -n=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=petscVec
+#SBATCH --output=petscVec%j.out
+#SBATCH --error=petscVec%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-1815
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=def-jrouat
+#SBATCH --mail-user=luca.celotti@usherbrooke.ca
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
 
 module load python/3.6
 source ~/projects/def-jrouat/lucacehe/denv2/bin/activate

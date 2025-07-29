@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bbt
-#FLUX: --queue=compute
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=bbt
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:nvidia_a100_80gb_pcie:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=compute
 
 source ~/.local/bin/miniconda3/etc/profile.d/conda.sh
 conda activate bbt

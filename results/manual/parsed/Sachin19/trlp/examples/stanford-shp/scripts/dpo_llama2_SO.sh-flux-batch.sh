@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-7676
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-chip-0874
+#FLUX -n=5
+#FLUX -t=0
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/projects/tir6/general/sachink/huggingface'
 

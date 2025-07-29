@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=th_new/hmg_ldc3d
-#FLUX: -N=16
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=th_new/hmg_ldc3d
+#SBATCH --account=bcfx-delta-cpu
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=246G
+#SBATCH --time=02:00:00
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=12,scratch
 
 export OMP_NUM_THREADS='1'
 export GCC_PATH='/sw/spack/deltas11-2023-03/apps/linux-rhel8-x86_64/gcc-8.5.0/gcc-11.4.0-yycklku'

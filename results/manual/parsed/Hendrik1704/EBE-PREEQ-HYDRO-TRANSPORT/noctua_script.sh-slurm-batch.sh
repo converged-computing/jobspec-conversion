@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=normal
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=hpc-prf-flucurhi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0-1
 
 module load numlib/GSL/2.7-GCC-11.3.0
 module load toolchain/intel/2022.00

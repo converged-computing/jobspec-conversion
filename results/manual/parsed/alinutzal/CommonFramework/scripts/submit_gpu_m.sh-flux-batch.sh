@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gnn4itk
-#FLUX: -c=20
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=gnn4itk
+#FLUX -c=20
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export NCCL_NET_GDR_LEVEL='PHB'
 export NCCL_P2P_LEVEL='NVL'

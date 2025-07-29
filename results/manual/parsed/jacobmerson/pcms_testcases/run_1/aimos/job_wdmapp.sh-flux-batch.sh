@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-motorcycle-4265
-#FLUX: -N=8
-#FLUX: -n=320
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=confused-signal-3192
+#FLUX -N=8
+#FLUX -n=320
+#FLUX -t=1800
+#FLUX --urgency=16
 
 run() {
   local hostfile=$1

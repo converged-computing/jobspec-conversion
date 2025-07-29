@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vcf_to_plink_variantlists
-#FLUX: -t=15300
-#FLUX: --urgency=16
+#FLUX --job-name=vcf_to_plink_variantlists
+#FLUX -t=15300
+#FLUX --urgency=16
 
                                                                     														# or ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), 
                                                                     														# Multiple type values may be specified in a comma separated list. 

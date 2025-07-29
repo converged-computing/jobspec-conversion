@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dk_test
-#FLUX: -N=2
-#FLUX: --queue=premium
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=dk_test
+#FLUX -N=2
+#FLUX --queue=premium
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load cray-petsc-64
 module load cray-hdf5-parallel

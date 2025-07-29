@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
-#FLUX: --queue=lindahl1,lindahl2,lindahl3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=jobname
+#FLUX --queue=lindahl1,lindahl2,lindahl3
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

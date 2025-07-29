@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=job_name
-#FLUX: -N=4
-#FLUX: --urgency=16
+#SBATCH --job-name=job_name
+#SBATCH --output=path/to/output/file/-%J.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodelist=wnode01,wnode02,wnode03,wnode04
 
 source /home/s.fiscale/anaconda3/etc/profile.d/conda.sh
 conda activate name_of_your_conda_environment

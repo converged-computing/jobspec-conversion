@@ -1,11 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=Tmunu
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: --queue=gpuA40x4
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=Tmunu
+#SBATCH --account=bbuu-delta-gpu
+#SBATCH --output=/u/shu1/Tmunu/Log/Tmunu_%x_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpuA40x4
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,"scratch"
+#SBATCH: --no-requeue
+#SBATCH --array=1-$this_arraySize%$MaxRunningJobs
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/spack/delta-2022-03/apps/fftw/3.3.10-gcc-11.2.0-ipxfmko/lib'
 export C_INCLUDE_PATH='$C_INCLUDE_PATH:/sw/spack/delta-2022-03/apps/fftw/3.3.10-gcc-11.2.0-ipxfmko/include'

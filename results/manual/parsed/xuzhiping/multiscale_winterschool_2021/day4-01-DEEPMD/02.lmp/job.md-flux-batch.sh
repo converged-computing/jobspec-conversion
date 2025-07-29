@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dpmd
-#FLUX: --queue=course
-#FLUX: --urgency=16
+#FLUX --job-name=dpmd
+#FLUX --queue=course
+#FLUX --urgency=16
 
 module load compiles/intel/2019/u4/config
 module load lib/gcc/7.4.0/e5/config

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cc
-#FLUX: -n=56
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=cc
+#FLUX -n=56
+#FLUX -t=600
+#FLUX --urgency=16
 
 cd $SCRATCH/jobs
 module purge

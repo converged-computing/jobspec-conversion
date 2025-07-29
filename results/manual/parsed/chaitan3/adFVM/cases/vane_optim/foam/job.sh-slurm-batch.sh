@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pedo-3733
-#FLUX: -N=16
-#FLUX: --urgency=16
+#SBATCH --mail-user=talnikar@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/sources/petsc/arch-linux2-c-opt/lib'
 export PYTHONPATH='$HOME/.local/lib/python.7/site-packages/:$PYTHONPATH'

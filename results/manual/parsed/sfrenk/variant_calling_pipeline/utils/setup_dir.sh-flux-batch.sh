@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-motorcycle-5508
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-itch-1500
+#FLUX --urgency=16
 
 snakefile_dir='/nas/longleaf/home/sfrenk/pipelines/snakemake'
 usage="Create directory with Snakemake files required for pipeline \n\n setup_dir -s <directory containing call_variants.Snakefile> -d <directory containing fastq files (default: current directory)> -p <pipeline (human or elegans)> \n\n"

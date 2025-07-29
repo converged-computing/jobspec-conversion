@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parrot-2327
-#FLUX: -N=2
-#FLUX: -n=64
+#FLUX --job-name=spicy-poo-8883
+#FLUX -N=2
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=large
-#FLUX: --urgency=16
+#FLUX --queue=large
+#FLUX --urgency=16
 
 sleep 20
 outdir=$1

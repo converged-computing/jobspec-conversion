@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kernel
-#FLUX: -n=224
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=kernel
+#FLUX -n=224
+#FLUX -t=21600
+#FLUX --urgency=16
 
 cd $SCRATCH/jobs
 module purge

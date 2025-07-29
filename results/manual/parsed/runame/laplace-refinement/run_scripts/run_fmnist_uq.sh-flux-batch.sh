@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-malarkey-0965
-#FLUX: --queue=gpu-2080ti
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-hippo-7461
+#FLUX --queue=gpu-2080ti
+#FLUX -t=259200
+#FLUX --urgency=16
 
 scontrol show job $SLURM_JOB_ID
 declare -a datasets=("R-FMNIST" "FMNIST-OOD")

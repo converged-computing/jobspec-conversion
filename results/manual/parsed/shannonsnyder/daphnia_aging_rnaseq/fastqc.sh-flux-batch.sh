@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fastqc
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=fastqc
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load fastqc/0.11.5
 module load easybuild

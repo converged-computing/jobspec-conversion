@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=slic
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=slic
+#SBATCH --output=LOGS/slic%J.out
+#SBATCH --error=LOGS/slic%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/gmarti/
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'
 

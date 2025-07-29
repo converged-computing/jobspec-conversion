@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=10x_te_process_step2
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=10x_te_process_step2
+#SBATCH --account=congle
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --array=166-166
 
 module add python/3.6.4
 module add miniconda

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-bike-5874
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-parsnip-1952
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 echo "Running snakemake..."

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-sundae-2545
-#FLUX: --urgency=16
+#FLUX --job-name=placid-taco-2927
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/GB/dalton/mcscf/casscf/PBS_umb_sk_dal.03

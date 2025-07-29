@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cherry-2729
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tomasvicar/nnunet_metacentrum_example/code/run_metacentrum_plan.pbs

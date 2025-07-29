@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=swav_RN50w2_400ep_pretrain
-#FLUX: -N=16
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=swav_RN50w2_400ep_pretrain
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=128
+#SBATCH --mem=450G
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

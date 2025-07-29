@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HPCG_params
-#FLUX: --queue=condo
-#FLUX: --urgency=16
+#SBATCH --job-name=HPCG_params
+#SBATCH --mail-user=rscherbarth@unm.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --partition=condo
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-2
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

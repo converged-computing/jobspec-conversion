@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lammps-test
-#FLUX: -N=2
-#FLUX: --queue=shas
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps-test
+#SBATCH --output=lammps-test.%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=shas
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load intel/17.4

@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xgenerate_databases
-#FLUX: -N=10
-#FLUX: -n=40
-#FLUX: -c=10
-#FLUX: --queue=nesi_research
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=xgenerate_databases
+#SBATCH --account=nesi00263
+#SBATCH --output=generate_databases_%j.out
+#SBATCH --nodes=10
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=10
+#SBATCH --time=00:15:00
+#SBATCH --partition=nesi_research
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

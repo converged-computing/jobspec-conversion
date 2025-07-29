@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
-#FLUX: --exclusive
-#FLUX: --queue=partition
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=jobname
+#SBATCH --account=example
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH --partition=partition
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 set -x
 CONTAINER="${CONTAINER:=ghcr.io/nvidia/t5x:vit-2023-07-21}"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-5014
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=arid-kitty-8400
+#FLUX --queue=test
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PERMEDCOE_IMAGES='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/images/)/'
 export PERMEDCOE_ASSETS='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/assets/)/'

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DCCR-7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=DCCR-7
+#SBATCH --output=/home/sap625/logs/out/%j.out
+#SBATCH --error=/home/sap625/logs/err/%j.err
+#SBATCH --mail-user=sap625@mst.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 PROJECT_DIR=$HOME/dev/DCCR
 VENV_DIR=$HOME/envs/l2m

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=equiformer
-#FLUX: -c=8
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=equiformer
+#SBATCH --output=outslurm/slurm-%j.txt
+#SBATCH --error=outslurm/slurm-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2000
+#SBATCH --time=1-06:00:00
 
 export SCRIPTDIR='${HOME_DIR}/equilibrium-forcefields/equiformer'
 

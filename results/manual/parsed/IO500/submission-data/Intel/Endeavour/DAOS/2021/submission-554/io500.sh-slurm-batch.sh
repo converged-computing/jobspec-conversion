@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-car-0463
-#FLUX: -N=10
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --account=ku0598
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=6
 
 io500_ini="$1"          # You can set the ini file here
 io500_mpirun="mpirun --bind-to hwthread --host eia501,eia502,eia503,eia504,eia505,eia506,eia507,eia508,eia509,eia510"

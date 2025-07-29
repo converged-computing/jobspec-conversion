@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_omp_example1
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=ccb
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_omp_example1
+#FLUX -N=2
+#FLUX -c=16
+#FLUX --queue=ccb
+#FLUX -t=600
+#FLUX --urgency=16
 
 module -q purge                       # purge current modules
 module -q load openmpi                # Load openmpi

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lettuce-2399
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 cc=0
 for wopt in opt pess;

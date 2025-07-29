@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cats
-#FLUX: -c=28
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cats
+#SBATCH --output=cat_out
+#SBATCH --error=cat_error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=100000M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-54
 
 export WORK_DIR='/user/work/fo18103/PredictionOfHelminthsInfection'
 

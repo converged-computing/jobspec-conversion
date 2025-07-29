@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-staircase-6260
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-poodle-9381
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ge-utils/BLAH/src/scripts/pbs_submit.sh

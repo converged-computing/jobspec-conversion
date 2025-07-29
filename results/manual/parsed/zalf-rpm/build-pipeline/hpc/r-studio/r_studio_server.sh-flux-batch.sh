@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-underoos-0108
-#FLUX: -c=40
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=blue-car-1893
+#FLUX -c=40
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export RSTUDIO_SESSION_TIMEOUT='0'
 export PASSWORD='$(openssl rand -base64 15)'

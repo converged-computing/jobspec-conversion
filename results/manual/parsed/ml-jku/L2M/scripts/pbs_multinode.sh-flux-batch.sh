@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-8275
-#FLUX: --urgency=16
+#FLUX --job-name=tart-leader-1531
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ml-jku/L2M/scripts/pbs_multinode.sh

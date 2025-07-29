@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fusion-data-pipeline
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=fusion-data-pipeline
+#SBATCH --account=project_2005083
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python-data
 srun python workflow.py

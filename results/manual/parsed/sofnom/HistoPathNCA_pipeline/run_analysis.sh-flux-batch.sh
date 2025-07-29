@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-blackbean-5429
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-ricecake-8426
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module unload gcc/cray/8.1.0
 module load gcc/8.1.0

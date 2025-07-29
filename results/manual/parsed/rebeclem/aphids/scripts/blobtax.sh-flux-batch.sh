@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blob_array
-#FLUX: -n=20
-#FLUX: --queue=atlas
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=blob_array
+#FLUX -n=20
+#FLUX --queue=atlas
+#FLUX -t=172800
+#FLUX --urgency=16
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p namelist.txt)
 t1=$(date +"%s")

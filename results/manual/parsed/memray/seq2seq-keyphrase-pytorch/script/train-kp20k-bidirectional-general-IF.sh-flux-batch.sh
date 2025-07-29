@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train-kp20k-bidirectional-TeacherForcing-IF
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=train-kp20k-bidirectional-TeacherForcing-IF
+#FLUX --queue=titanx
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export EXP_NAME='rnn.teacher_forcing.input_feeding'
 export ATTENTION='general'

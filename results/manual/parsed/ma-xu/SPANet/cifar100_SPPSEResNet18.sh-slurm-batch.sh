@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hope-6785
-#FLUX: -n=4
-#FLUX: --queue=public
-#FLUX: -t=1800000
-#FLUX: --urgency=16
+#SBATCH --output=outlog/out_%j.log
+#SBATCH --mail-user=xuma@my.unt.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=20-20:00:00
+#SBATCH --partition=public
+#SBATCH --qos=large
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

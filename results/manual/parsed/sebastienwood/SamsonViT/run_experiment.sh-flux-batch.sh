@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leader-8838
-#FLUX: -c=32
-#FLUX: -t=259800
-#FLUX: --urgency=16
+#FLUX --job-name=astute-butter-5542
+#FLUX -c=32
+#FLUX -t=259800
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 

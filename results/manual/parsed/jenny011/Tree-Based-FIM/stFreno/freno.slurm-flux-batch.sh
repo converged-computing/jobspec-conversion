@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-nunchucks-6391
-#FLUX: --queue=debug
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-staircase-7989
+#FLUX --queue=debug
+#FLUX -t=720
+#FLUX --urgency=16
 
 source /gpfsnyu/home/jz2915/config.sh
 module purge

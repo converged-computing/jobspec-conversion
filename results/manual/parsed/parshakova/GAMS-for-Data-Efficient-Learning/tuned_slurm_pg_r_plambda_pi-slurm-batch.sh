@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tjarray
-#FLUX: -c=4
-#FLUX: --queue=papago
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=tjarray
+#SBATCH --account=papago
+#SBATCH --output=/tmp-network/user/tparshak/tuned_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=papago
 
 hostname
 srun hostname

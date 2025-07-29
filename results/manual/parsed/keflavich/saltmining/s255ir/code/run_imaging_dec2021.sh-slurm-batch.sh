@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=s255ir_dec2021_lb
-#FLUX: -n=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=s255ir_dec2021_lb
+#SBATCH --account=adamginsburg
+#SBATCH --output=s255ir_dec2021_lb_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export FIELD_ID='S255IR-SMA1'
 export BAND_TO_IMAGE='B6'

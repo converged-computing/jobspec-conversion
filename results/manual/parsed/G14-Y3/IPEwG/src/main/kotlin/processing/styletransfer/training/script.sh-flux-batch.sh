@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-4070
-#FLUX: --urgency=16
+#FLUX --job-name=fat-hobbit-4810
+#FLUX --urgency=16
 
 export PATH='/vol/bitbucket/${USER}/myvenv/bin/:$PATH'
 

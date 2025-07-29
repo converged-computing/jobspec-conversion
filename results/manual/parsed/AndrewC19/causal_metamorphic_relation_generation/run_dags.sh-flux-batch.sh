@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-milkshake-2541
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-lettuce-8560
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 

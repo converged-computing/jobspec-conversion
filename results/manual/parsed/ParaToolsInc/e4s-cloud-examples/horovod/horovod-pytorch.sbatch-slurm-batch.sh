@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hvd-torch
-#FLUX: -N=2
-#FLUX: -n=72
-#FLUX: --exclusive
-#FLUX: -t=5
-#FLUX: --urgency=16
+#SBATCH --job-name=hvd-torch
+#SBATCH --nodes=2
+#SBATCH --ntasks=72
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:05
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=36
 
 export MV2_HOMOGENEOUS_CLUSTER='1'
 export MV2_SUPPRESS_JOB_STARTUP_PERFORMANCE_WARNING='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-poo-8459
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-pedo-0120
+#FLUX --urgency=16
 
 module load nvidia/11.1
 module load anaconda3/latest

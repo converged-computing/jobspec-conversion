@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-muffin-3558
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ericotjo001/explainable_ai/gax/legacy/v1/_quick_start/01gax.pbs

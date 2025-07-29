@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-muffin-4571
-#FLUX: -n=16
-#FLUX: --queue=arandu
-#FLUX: --urgency=16
+#SBATCH --output=slurm_out_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=arandu
+#SBATCH --array=1-4
 
 echo "Running on"
 hostname

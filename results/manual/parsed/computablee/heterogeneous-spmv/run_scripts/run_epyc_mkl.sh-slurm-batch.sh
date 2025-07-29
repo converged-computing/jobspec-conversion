@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-taco-8117
-#FLUX: -n=128
-#FLUX: --queue=RM
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=RM
 
 cp -r $PROJECT/matrices $RAMDISK
 module load intel/20.4

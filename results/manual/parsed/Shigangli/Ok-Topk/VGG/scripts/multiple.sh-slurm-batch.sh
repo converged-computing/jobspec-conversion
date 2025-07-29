@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leopard-4411
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=g34
+#SBATCH --output=dnn_2nodes_2dense.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 __conda_setup="$('/project/g34/shigang/anaconda38/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

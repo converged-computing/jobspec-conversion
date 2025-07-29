@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-general-2024
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-diablo-4941
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pdebuyl/cg_md_polymerization/scripts/pbs_epoxy_espp.sh

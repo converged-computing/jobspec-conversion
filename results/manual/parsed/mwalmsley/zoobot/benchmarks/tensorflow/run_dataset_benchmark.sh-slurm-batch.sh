@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-muffin-4705
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=%x_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=3-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=A100
+#SBATCH: --no-requeue
+#SBATCH --exclude=compute-0-0
 
 export LD_LIBRARY_PATH='/share/nas2/walml/miniconda3/envs/zoobot38_tf/lib/'
 

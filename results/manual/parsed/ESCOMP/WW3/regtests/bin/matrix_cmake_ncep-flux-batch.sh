@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bike-4584
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-buttface-6531
+#FLUX --urgency=16
 
 usage ()
 {

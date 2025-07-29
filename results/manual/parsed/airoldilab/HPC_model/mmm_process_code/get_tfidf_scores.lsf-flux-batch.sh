@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-onion-7208
-#FLUX: --urgency=16
+#FLUX --job-name=fat-toaster-3732
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_process_code/get_tfidf_scores.lsf

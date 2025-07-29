@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hope-3939
-#FLUX: --urgency=16
+#FLUX --job-name=grated-pot-3876
+#FLUX --urgency=16
 

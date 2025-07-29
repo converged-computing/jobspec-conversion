@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=F182Ap_fwd
-#FLUX: -c=8
-#FLUX: --queue=mf_nes2.8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=F182Ap_fwd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=mf_nes2.8
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1-24
+#SBATCH --exclude=c-3-[341-344], c-6-[231-234], c-8-[251-254]
 
 pdbfile="15183_04-F182A.pdb"
 psffile="15183_04-F182A.psf"

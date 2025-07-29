@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_patient
-#FLUX: -N=8
-#FLUX: -n=32
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_patient
+#FLUX -N=8
+#FLUX -n=32
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module reset
 module load devel/CMake

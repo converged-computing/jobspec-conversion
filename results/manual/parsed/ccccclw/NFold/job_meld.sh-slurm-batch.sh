@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=1dj7B00
-#FLUX: -n=30
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=1dj7B00
+#SBATCH --output=meld.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem-per-cpu=800mb
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=gpu
 
 source ~/.load_OpenMM_cuda10             #load OpenMM+Meld
 [[ -d Data ]] || python setup_Meld.py   #check if there is already a Data/, we are continuing a killed simulation, otherwise start new setup_aMeld.py simulation.

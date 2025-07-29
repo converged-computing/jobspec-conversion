@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=l2_reg
-#FLUX: -c=2
-#FLUX: --queue=gpu-a100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=l2_reg
+#SBATCH --account=walkerlab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu-a100
 
 array=(0.00001 0.0001 0.001 0.01 0.1 0.5 1)
 module load singularity

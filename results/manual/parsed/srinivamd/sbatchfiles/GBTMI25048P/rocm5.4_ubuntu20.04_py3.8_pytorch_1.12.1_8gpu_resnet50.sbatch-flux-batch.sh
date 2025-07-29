@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-2152
-#FLUX: -c=12
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-bits-4801
+#FLUX -c=12
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

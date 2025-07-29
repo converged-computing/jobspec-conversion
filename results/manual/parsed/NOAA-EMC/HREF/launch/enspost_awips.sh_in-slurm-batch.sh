@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-7555
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HREF/launch/enspost_awips.sh_in

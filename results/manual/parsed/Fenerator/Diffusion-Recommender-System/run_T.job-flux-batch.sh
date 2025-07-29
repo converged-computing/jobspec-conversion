@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=T-seed
-#FLUX: -c=3
-#FLUX: --queue=gpu_titanrtx_shared_course
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=T-seed
+#FLUX -c=3
+#FLUX --queue=gpu_titanrtx_shared_course
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load 2021

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-latke-0329
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-noodle-4628
+#FLUX --queue=priority
+#FLUX -t=3600
+#FLUX --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 minimum=10

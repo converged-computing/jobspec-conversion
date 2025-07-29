@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=build_container
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=build_container
+#SBATCH --output=container_build.%j.out
+#SBATCH --mail-user=magitz@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1gb
+#SBATCH --time=01:00:00
 
 date;hostname;pwd
 module load singularity

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval-harness
+#FLUX --job-name=eval-harness
 #FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#FLUX --queue=defq
+#FLUX --urgency=16
 
 export PROGRAM='\'
 export CMD='$LAUNCHER $PROGRAM'

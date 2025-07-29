@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=debug-ABC
-#FLUX: -n=5
-#FLUX: --queue=wildfire
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=debug-ABC
+#SBATCH --output=outs.%x-%A.o
+#SBATCH --error=outs.%x-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=wildfire
+#SBATCH --array=1-2
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

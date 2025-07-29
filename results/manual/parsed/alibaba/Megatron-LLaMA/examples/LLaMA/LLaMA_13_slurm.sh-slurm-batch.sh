@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_llama_13b
-#FLUX: -N=512
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=megatron_llama_13b
+#SBATCH --nodes=512
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

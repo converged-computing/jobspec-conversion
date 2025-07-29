@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gen-net-job
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gen-net-job
+#SBATCH --mail-user=yourmail@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=32000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='0'
 export LD_LIBRARY_PATH='/storage/software/python/3.6.3/CUDA-9.0/pkgs/cudatoolkit-9.0-h13b8566_0/lib/:$LD_LIBRARY_PATH'

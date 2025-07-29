@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HEMnet
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --job-name=HEMnet
+#SBATCH --output=out_%x_%j.txt
+#SBATCH --error=error_%x_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem=80000
 
 MY_DIR=/clusterdata/s4463993
 cd $MY_DIR

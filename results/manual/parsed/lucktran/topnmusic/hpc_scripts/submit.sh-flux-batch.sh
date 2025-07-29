@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ast_finetuned
-#FLUX: --queue=dgxs
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ast_finetuned
+#FLUX --queue=dgxs
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/3.12
 module load cuda/12.2

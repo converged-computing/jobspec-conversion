@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=out_heat
-#FLUX: -n=4
-#FLUX: --queue=cpu_short
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=out_heat
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:30
+#SBATCH --partition=cpu_short
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK} '
 export OMP_PLACES='threads'

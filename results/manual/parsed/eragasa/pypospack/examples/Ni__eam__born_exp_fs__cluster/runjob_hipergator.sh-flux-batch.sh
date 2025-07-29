@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Ni_fs
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=Ni_fs
+#FLUX -n=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 

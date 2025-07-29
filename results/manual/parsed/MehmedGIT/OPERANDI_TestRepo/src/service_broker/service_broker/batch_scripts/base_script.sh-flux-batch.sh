@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-1067
-#FLUX: -c=2
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-snack-2115
+#FLUX -c=2
+#FLUX --queue=medium
+#FLUX --urgency=16
 
 hostname
 slurm_resources

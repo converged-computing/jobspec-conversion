@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-earthworm-9748
-#FLUX: --urgency=16
+#SBATCH --mail-user=sx119
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 if [ -z "$1"]; then 
   echo "no provided file for submittion"

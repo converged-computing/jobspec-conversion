@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-motorcycle-4488
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-signal-8580
+#FLUX -c=8
+#FLUX --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

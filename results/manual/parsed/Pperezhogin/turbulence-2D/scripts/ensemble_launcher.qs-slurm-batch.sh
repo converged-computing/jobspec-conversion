@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Pawar_256
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Pawar_256
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module purge
 module load openmpi/intel/4.0.5 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocess
+#SBATCH --account=project_2001284
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=200000
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
 
 module purge
 module load pytorch

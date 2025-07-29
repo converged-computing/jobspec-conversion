@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=act_max
-#FLUX: --queue=ml
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=act_max
+#FLUX --queue=ml
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source ../.bashrc
 conda activate act_max

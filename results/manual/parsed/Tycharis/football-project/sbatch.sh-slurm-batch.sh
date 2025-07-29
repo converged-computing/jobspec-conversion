@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-4364
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module load icc
 ${PROTEIN_PROJECT_DIR}/program.o --bondEn ${1} --iterations ${2} --split ${3} --blocks ${4} --length ${5} --runId ${SLURM_ARRAY_TASK_ID:-0} \

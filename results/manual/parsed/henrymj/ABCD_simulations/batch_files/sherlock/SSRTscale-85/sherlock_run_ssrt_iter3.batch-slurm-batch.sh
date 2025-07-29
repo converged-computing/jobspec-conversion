@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ssrt
-#FLUX: -n=24
-#FLUX: --queue=russpold,normal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=ssrt
+#SBATCH --output=.out/ssrt3.out
+#SBATCH --error=.err/ssrt3.err
+#SBATCH --mail-user=henrymj@stanford.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=russpold,normal
 
 export PYTHONPATH=''
 

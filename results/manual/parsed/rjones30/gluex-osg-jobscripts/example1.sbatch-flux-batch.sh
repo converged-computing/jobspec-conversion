@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=example1_job
-#FLUX: --queue=7452
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=example1_job
+#FLUX --queue=7452
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo Job started on `hostname` `date`
 src=/home/richard.uconn/gluex-osg-jobscripts

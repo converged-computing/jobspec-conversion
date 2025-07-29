@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-dog-1918
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=red-citrus-8503
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load Python/3.6.1-foss-2016b
 module load AdapterRemoval/2.2.1-foss-2016b

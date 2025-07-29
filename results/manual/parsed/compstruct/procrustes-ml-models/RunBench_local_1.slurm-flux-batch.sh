@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-hippo-0790
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-general-7588
+#FLUX -c=4
+#FLUX --urgency=16
 
 ws=${TRAIN_HOME}
 SCRATCH=$ws

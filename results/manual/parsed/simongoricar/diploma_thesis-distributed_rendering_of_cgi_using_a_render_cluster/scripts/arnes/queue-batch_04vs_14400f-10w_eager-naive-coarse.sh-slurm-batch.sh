@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-10w_eager-naive-coarse
-#FLUX: -n=11
-#FLUX: -c=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_14400f-10w_eager-naive-coarse
+#SBATCH --output=/d/hpc/projects/FRI/sg7710/distributed-rendering-logs/%A.sbatch.qb_04vs_14400f-10w_eager-naive-coarse.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=11
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=10:00:00
+#SBATCH --constraint=amd&rome
+#SBATCH --exclude=wn[201-224]
 
 export RUST_LOG='debug'
 

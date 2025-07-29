@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-4950
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=log/cnn_k562_classification_sampling.out-%A_%a
+#SBATCH --error=log/cnn_k562_classification_sampling.err-%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --array=1-10%3
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

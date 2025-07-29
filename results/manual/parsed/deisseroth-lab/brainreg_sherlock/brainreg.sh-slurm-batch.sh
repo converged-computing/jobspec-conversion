@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-animal-6720
-#FLUX: -c=16
-#FLUX: --queue=owners
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=./logs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=owners
 
 ml python/3.9 gcc
 source ${GROUP_HOME}/projects/registration/brainreg/venv/bin/activate

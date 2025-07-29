@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-spoon-1711
-#FLUX: -c=2
-#FLUX: --queue=parallel
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-hippo-8773
+#FLUX -c=2
+#FLUX --queue=parallel
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

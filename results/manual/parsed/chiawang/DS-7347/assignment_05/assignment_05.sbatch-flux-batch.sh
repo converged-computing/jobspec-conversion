@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=assignment_05
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#FLUX --job-name=assignment_05
+#FLUX --queue=htc
+#FLUX --urgency=16
 
 module purge
 wget https://github.com/chiawang/DS-7347/blob/main/assignment_05/assignment_05.R

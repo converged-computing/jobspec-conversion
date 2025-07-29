@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-knife-6683
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-leader-6138
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 uname -a                                          # Display assigned cluster info
 srun echo "I am on"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FINAL_RUN_MULTGPU_DDP_PM_NOFLASH
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=FINAL_RUN_MULTGPU_DDP_PM_NOFLASH
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load python

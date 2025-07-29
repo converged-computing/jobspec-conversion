@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pdb_data_curation_array
-#FLUX: -c=12
-#FLUX: --queue=nodes
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pdb_data_curation_array
+#FLUX -c=12
+#FLUX --queue=nodes
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CC='$GCC'
 export CXX='$GPLUSPLUS'

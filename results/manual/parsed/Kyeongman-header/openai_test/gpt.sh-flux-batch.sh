@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pot-5220
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-toaster-8706
+#FLUX --urgency=16
 
 source activate torch
 ml cuda

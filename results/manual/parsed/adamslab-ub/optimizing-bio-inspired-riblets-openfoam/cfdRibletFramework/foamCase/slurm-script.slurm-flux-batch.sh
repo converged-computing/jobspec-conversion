@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nalgas-3445
+#FLUX --job-name=joyous-pancake-8910
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 

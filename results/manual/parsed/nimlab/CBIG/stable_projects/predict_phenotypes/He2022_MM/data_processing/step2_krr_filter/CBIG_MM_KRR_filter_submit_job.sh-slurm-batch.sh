@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-motorcycle-9826
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nimlab/CBIG/stable_projects/predict_phenotypes/He2022_MM/data_processing/step2_krr_filter/CBIG_MM_KRR_filter_submit_job.sh

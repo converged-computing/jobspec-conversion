@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=3dFWHMx
-#FLUX: --queue=all
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=3dFWHMx
+#FLUX --queue=all
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo "Purging modules"
 module purge

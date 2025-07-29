@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poo-3945
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-underoos-7176
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 spack load r@3.6.3%gcc@9.4.0 arch=linux-centos7-skylake
 spack load r-raster@3.4-5%gcc@9.4.0 arch=linux-centos7-skylake

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-8993
-#FLUX: -n=2
-#FLUX: --queue=gpu-el8
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --partition=gpu-el8
+#SBATCH --exclude=gpu[38-39]
 
 python scripts/test_gpu_avail.py

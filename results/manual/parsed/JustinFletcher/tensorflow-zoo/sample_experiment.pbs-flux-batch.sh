@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-2368
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-poo-4001
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JustinFletcher/tensorflow-zoo/sample_experiment.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bgen2bfile_infomaf
-#FLUX: -c=20
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bgen2bfile_infomaf
+#FLUX -c=20
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CHR=${SLURM_ARRAY_TASK_ID}
 /gfs/work/ceijsbouts/app/plink2 \

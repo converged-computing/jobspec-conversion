@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-caramel-2935
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=python_array_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500M
+#SBATCH --time=00:30:00
+#SBATCH --array=1-100
 
 module load scicomp-python-env # use the normal scicomp environment for python
 srun python serial.py

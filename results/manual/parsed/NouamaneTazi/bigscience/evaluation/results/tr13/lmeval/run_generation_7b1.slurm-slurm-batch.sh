@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate_t0
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=evaluate_t0
+#SBATCH --account=six@a100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=1,a100
+#SBATCH --array=0-2
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-house-8949
-#FLUX: -n=2
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=test.out
+#SBATCH --error=test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 export MATLABPATH='../../matlab'
 

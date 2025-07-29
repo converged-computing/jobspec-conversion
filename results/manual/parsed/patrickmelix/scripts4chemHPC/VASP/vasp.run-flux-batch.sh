@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GO
-#FLUX: -N=12
+#FLUX --job-name=GO
+#FLUX -N=12
 #FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=short
+#FLUX -t=14400
+#FLUX --urgency=16
 
 ISTART_RESTART=1 #https://www.vasp.at/wiki/index.php/ISTART
 module load vasp/6.2.0-vtst-openmpi-4.0.5-intel-19.0.5.281-cuda-11.2.1 #Quest

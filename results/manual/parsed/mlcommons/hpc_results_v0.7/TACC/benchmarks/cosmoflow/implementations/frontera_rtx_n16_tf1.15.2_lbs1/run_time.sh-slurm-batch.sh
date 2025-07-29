@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cosmoflow
-#FLUX: -N=16
-#FLUX: --queue=rtx
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=cosmoflow
+#SBATCH --account=allocation-id
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
+#SBATCH --partition=rtx
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_HOME='$TACC_CUDA_DIR'
 export CUDNN_ROOT='$TACC_CUDNN_DIR'

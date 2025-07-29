@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: -n=2
-#FLUX: --queue=ada
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=MyJob
+#FLUX -n=2
+#FLUX --queue=ada
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load software/R-3.5.2
 module load python/anaconda-python-3.7 

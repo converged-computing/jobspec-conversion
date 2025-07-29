@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-1567
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-poodle-4984
+#FLUX -c=10
+#FLUX --queue=small
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load geoconda
 python csc_stac_example.py

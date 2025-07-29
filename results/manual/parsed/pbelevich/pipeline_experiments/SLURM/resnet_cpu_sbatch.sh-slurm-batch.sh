@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_cpu_sbatch
-#FLUX: -N=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=q2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_cpu_sbatch
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=q2
 
 srun --label resnet_cpu.sh

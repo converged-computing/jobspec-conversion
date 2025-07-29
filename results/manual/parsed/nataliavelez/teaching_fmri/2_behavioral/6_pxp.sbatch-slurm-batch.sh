@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-mango-8100
-#FLUX: --queue=fasse
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --output=reports/pxp_%j.out
+#SBATCH --error=reports/pxp_%j.err
+#SBATCH --mail-user=nvelez@fas.harvard.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:02:00
+#SBATCH --partition=fasse
 
 module load ncf
 module load matlab/R2021a-fasrc01

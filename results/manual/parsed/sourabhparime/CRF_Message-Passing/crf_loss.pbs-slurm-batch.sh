@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-frito-4052
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sourabhparime/CRF_Message-Passing/crf_loss.pbs

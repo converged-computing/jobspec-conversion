@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pancake-0979
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=xpress_g
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --qos=regular
+#SBATCH --constraint=gpu,ntasks-per-node=2
 
 export PMI_MAX_KVS_ENTRIES='128'
 export LCI_ENABLE_PRG_NET_ENDPOINT='0'

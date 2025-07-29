@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-gato-5478
-#FLUX: --queue=norm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=02:00:00
+#SBATCH --partition=norm
+#SBATCH --constraint=ntasks-per-node=4
 
 PARAMETER_FILE='sample_ids.txt'
 BWA_INDEX='path/to/index_base'

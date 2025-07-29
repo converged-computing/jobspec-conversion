@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chair-3156
-#FLUX: -N=2
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2004600
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=64G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'
 

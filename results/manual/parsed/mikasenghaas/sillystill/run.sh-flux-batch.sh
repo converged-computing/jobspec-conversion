@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-plant-4706
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-general-0121
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load gcc python 
 source ~/venvs/sillystill/bin/activate

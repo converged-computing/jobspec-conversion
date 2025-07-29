@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mbert_acl
-#FLUX: --queue=all-HiPri
-#FLUX: -t=715
-#FLUX: --urgency=16
+#SBATCH --job-name=mbert_acl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --time=00:11:55
+#SBATCH --partition=all-HiPri
+#SBATCH --qos=normal
 
                       #   bigmem-LoPri, bigmem-HiPri, gpuq, CS_q, CDS_q, ...
 source ~/fairseq/bin/activate

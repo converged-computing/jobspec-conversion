@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-7293
-#FLUX: -c=9
-#FLUX: --queue=klab-gpu
-#FLUX: --urgency=16
+#SBATCH --output=ecoset_multi_output.o%j
+#SBATCH --error=ecoset_multi_error.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --gres=gpu:H100.80gb:1
+#SBATCH --partition=klab-gpu
 
 echo "running in shell: " "$SHELL"
 spack load cuda@11.8.0

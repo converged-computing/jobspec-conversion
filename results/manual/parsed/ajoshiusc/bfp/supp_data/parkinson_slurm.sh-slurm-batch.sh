@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-truffle-5400
-#FLUX: -n=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16000
+#SBATCH --time=10:00:00
 
 echo ${subid}
 module load gcc/8.3.0 motif zlib mesa

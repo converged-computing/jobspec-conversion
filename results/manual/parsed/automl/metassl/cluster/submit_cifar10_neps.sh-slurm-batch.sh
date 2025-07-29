@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=C10_Combined
-#FLUX: --queue=alldlc_gpu-rtx2080
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=C10_Combined
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:59:59
+#SBATCH --partition=alldlc_gpu-rtx2080
+#SBATCH --array=0-199%10
 
 source activate metassl
 python -m metassl.train_simsiam --config "metassl/default_metassl_config_cifar10.yaml" \

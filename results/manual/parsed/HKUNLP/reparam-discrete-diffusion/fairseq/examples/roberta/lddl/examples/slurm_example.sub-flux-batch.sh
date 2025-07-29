@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-train-7576
+#FLUX --job-name=fat-motorcycle-2490
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 readonly docker_image=${DOCKER_IMAGE:-"lddl:latest"}

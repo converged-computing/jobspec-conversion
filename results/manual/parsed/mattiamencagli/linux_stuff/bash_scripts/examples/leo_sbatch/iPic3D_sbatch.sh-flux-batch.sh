@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iPic3D
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=iPic3D
+#FLUX --queue=boost_usr_prod
+#FLUX -t=1200
+#FLUX --urgency=16
 
 source ${HOME}/modules_files/iPic3D_mod
 DIR="${HOME}/programming/iPic3D/"

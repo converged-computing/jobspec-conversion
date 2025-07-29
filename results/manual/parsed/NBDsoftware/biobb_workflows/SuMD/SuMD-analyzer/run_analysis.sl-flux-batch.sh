@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SuMD_analysis
-#FLUX: -n=5
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=SuMD_analysis
+#FLUX -n=5
+#FLUX -t=2400
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/pnavarro/.conda/envs/sumd_analyzer/lib/python3.10/site-packages/'
 export PATH='/home/pnavarro/.conda/envs/sumd_analyzer/bin:$PATH'

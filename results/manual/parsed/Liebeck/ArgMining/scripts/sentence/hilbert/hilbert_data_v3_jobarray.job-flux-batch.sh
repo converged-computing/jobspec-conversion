@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-6024
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-signal-5779
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Liebeck/ArgMining/scripts/sentence/hilbert/hilbert_data_v3_jobarray.job

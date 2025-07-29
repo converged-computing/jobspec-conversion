@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-poodle-8324
-#FLUX: -n=36
-#FLUX: --queue=comp
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=72G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=comp
+#SBATCH --qos=partner
 
 module load openmpi/1.10.3-gcc4-mlx-verbs
 lammps=~/p2015120004/apps/lammps-stable_29Oct2020/bin/lmp_monarch

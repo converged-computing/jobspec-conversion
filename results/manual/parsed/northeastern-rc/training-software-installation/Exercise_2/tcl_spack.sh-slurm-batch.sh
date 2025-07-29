@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spack-install
-#FLUX: -c=2
-#FLUX: --queue=reservation
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=spack-install
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=01:00:00
+#SBATCH --partition=reservation
 
 module load python/3.8.1
 source ~/spack/share/spack/setup-env.sh

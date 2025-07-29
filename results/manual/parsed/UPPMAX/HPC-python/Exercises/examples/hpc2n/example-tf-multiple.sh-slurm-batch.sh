@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-soup-9368
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=hpc2n2024-052
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:05:00
 
 module purge  > /dev/null 2>&1
 module load GCC/11.3.0  OpenMPI/4.1.4 TensorFlow/2.11.0-CUDA-11.7.0 scikit-learn/1.1.2

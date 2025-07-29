@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -c=4
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX -c=4
+#FLUX -t=129600
+#FLUX --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate fsd

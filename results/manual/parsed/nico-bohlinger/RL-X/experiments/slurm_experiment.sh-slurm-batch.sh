@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rlx_experiment
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=rlx_experiment
+#SBATCH --output=log/out_and_err.txt
+#SBATCH --error=log/out_and_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 eval "$(/home/bohlinger/miniconda3/bin/conda shell.bash hook)"
 conda activate rlx

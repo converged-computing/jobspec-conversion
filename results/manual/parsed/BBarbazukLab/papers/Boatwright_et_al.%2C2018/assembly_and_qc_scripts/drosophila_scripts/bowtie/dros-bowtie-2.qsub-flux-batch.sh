@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-7113
-#FLUX: --urgency=16
+#FLUX --job-name=confused-gato-3869
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BBarbazukLab/papers/Boatwright_et_al.%2C2018/assembly_and_qc_scripts/drosophila_scripts/bowtie/dros-bowtie-2.qsub

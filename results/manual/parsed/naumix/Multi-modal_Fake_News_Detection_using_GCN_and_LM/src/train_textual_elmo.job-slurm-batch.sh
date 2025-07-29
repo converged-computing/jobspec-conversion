@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PROJECTAI_ELMo
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=PROJECTAI_ELMo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000M
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.44-GCCcore-5.4.0/lib64:$LD_LIBRARY_PATH'
 

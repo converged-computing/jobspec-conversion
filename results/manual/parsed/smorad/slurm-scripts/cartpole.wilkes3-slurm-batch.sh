@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rllib_cartpole
-#FLUX: -c=3
-#FLUX: --queue=ampere
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=rllib_cartpole
+#SBATCH --account=PROROK-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=ampere
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_mae_s
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=train_mae_s
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname -s)'
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'

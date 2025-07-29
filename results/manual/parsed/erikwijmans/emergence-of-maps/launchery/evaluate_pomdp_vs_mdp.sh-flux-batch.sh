@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=navigation-analysis-habitat
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=learnlab,learnfair
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=navigation-analysis-habitat
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=learnlab,learnfair
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'
 export GLOG_minloglevel='3'

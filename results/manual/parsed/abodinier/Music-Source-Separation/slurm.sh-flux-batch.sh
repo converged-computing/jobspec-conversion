@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=UQS37
-#FLUX: -c=2
-#FLUX: --queue=gpu_p2
-#FLUX: -t=345599
-#FLUX: --urgency=16
+#FLUX --job-name=UQS37
+#FLUX -c=2
+#FLUX --queue=gpu_p2
+#FLUX -t=345599
+#FLUX --urgency=16
 
 hostname
 echo --------------------------------------

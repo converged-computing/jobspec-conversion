@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rBdCoupling_biglow
-#FLUX: -n=128
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=rBdCoupling_biglow
+#SBATCH --account=mmc
+#SBATCH --output=foam3run_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
 
 source $HOME/.bash_profile
 cores=$SLURM_NTASKS

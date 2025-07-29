@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-underoos-5550
-#FLUX: -n=100
-#FLUX: -c=46
+#FLUX --job-name=angry-chair-4717
+#FLUX -n=100
+#FLUX -c=46
 #FLUX: --exclusive
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX -t=518400
+#FLUX --urgency=16
 
 /bin/bash
 conda activate hetero_mod

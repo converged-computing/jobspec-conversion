@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=clean_data
-#FLUX: --queue=standard
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=clean_data
+#SBATCH --account=mihalcea0
+#SBATCH --output=/home/%u/logs/%x-%j.log
+#SBATCH --mail-user=ianbstew@umich.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=150g
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard
 
 DATA_FILE=../../data/reddit_data/subreddit_submissions_2018-01_2019-12.gz
 COMMENT_DATA=../../data/reddit_data/advice_subreddit_filter_comment_question_data.gz

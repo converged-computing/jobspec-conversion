@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sad
-#FLUX: -N=16
-#FLUX: -c=4
-#FLUX: --queue=physical
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=sad
+#SBATCH --account=punim0614
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=100000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=physical
 
 export BASENJIDIR='/data/gpfs/projects/punim0614/andy/basenji21/basenji'
 export PATH='$BASENJIDIR/bin:$PATH'

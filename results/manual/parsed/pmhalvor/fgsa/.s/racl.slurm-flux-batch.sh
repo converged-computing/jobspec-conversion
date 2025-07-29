@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fgsa-racl
-#FLUX: --queue=accel
-#FLUX: -t=63000
-#FLUX: --urgency=16
+#FLUX --job-name=fgsa-racl
+#FLUX --queue=accel
+#FLUX -t=63000
+#FLUX --urgency=16
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

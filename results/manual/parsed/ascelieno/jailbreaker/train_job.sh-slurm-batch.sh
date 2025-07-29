@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-9370
-#FLUX: --queue=amd_gpu
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#SBATCH --account=hpc2n2023-124
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=5-05:00:00
+#SBATCH --partition=amd_gpu
 
 ml GCCcore/11.3.0 Python/3.10.4
 source venv/bin/activate

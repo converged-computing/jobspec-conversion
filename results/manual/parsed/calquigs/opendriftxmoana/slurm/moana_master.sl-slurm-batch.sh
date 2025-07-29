@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=all_settlement_test
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=all_settlement_test
+#SBATCH --account=vuw03073
+#SBATCH --output=/nesi/project/vuw03073/testScripts/slurmOut/all_settlement_test_%a.%j.txt
+#SBATCH --mail-user=calquigs@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=3G
+#SBATCH --time=04:00:00
+#SBATCH --array=0-11
 
 export SLURM_EXPORT_ENV='ALL'
 export HDF5_USE_FILE_LOCKING='FALSE'

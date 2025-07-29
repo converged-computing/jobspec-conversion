@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=prob142
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=prob142
+#SBATCH --output=prob142-%j.out
+#SBATCH --error=prob142-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=24G
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=cascade
 
 module load rust 
 cargo run --release

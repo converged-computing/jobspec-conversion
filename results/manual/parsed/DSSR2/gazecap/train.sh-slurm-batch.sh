@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-dog-8842
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=train.out
+#SBATCH --mail-user=dineshsathiaraj2@gmail.com
+#SBATCH --mail-type=BEGIN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:2
+#SBATCH --mem=180G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_BLOCKING_WAIT='1'

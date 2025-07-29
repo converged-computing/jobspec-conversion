@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_DARTS
-#FLUX: --queue=mlhiwidlc_gpu-rtx2080
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=run_DARTS
+#FLUX --queue=mlhiwidlc_gpu-rtx2080
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'
 

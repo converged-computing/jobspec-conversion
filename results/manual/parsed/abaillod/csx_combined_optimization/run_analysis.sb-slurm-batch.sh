@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=simsopt
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=simsopt
+#SBATCH --account=apam
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:01:00
 
 source ~/.bashrc
 module load gcc/10.2.0

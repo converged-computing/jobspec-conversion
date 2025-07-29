@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-gato-3332
-#FLUX: -c=36
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-nalgas-0381
+#FLUX -c=36
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export MDL_DAYS='90'
 export MDL_NNODES='107'

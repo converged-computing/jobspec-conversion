@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lamp-9191
-#FLUX: -c=12
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#SBATCH --output=logs/spim_pystripe_%j.out
+#SBATCH --error=logs/spim_pystripe_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=25000
+#SBATCH --time=03:20:00
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

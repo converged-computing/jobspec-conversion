@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=te_mpi
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=te_mpi
+#SBATCH --output=demo_multivariate_te_mpi_res.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=4gb
+#SBATCH --time=02:00:00
 
 export PYTHONPATH='/usr/users/$USER/IDTxl'
 export JAVA_HOME='/usr/users/$USER/jdk-16.0.1'

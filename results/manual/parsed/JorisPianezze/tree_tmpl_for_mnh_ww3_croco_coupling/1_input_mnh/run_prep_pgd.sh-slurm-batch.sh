@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PREP_PGD
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PREP_PGD
+#SBATCH --output=output_PREP_PGD.eo%j
+#SBATCH --error=output_PREP_PGD.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export PREP_PGD_FILES='${PREP_PGD_FILES:-"$HOME/PREP_PGD_FILES_WWW"}'
 

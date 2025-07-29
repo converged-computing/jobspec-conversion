@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=motif_array
-#FLUX: -c=24
-#FLUX: --queue=shared,parallel,skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=motif_array
+#FLUX -c=24
+#FLUX --queue=shared,parallel,skylake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 ml R/3.6.1
 ml atlas

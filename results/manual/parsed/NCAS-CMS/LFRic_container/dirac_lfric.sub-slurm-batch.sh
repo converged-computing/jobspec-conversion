@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LFRic
-#FLUX: -n=6
-#FLUX: --queue=skylake
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=LFRic
+#SBATCH --account=DIRAC-DS006-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=skylake
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

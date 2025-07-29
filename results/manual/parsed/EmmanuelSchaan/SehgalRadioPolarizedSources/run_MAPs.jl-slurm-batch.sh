@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chip-4713
-#FLUX: -N=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=mp107
+#SBATCH --output=log/%x-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=8,gpu
 
 srun julia $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')
 exit

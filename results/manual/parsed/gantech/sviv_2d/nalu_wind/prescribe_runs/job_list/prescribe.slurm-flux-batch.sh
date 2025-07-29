@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=prescribed
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=prescribed
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SPACK_MANAGER='~/spack-manager'
 

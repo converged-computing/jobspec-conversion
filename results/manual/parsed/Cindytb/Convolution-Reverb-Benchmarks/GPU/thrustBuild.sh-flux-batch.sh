@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leg-4907
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-plant-3829
+#FLUX --urgency=16
 
 host=$(hostname)
 if [[ "$host" = *"cims"* ]]; then 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=M1_sim
-#FLUX: -n=50
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=M1_sim
+#SBATCH --output=./stdout/M1_sim.o%j.out
+#SBATCH --error=./stdout/M1_sim.e%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=50
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=2-00:00:00
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

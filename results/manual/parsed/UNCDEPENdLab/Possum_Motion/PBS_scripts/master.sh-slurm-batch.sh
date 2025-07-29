@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peanut-butter-5116
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/UNCDEPENdLab/Possum_Motion/PBS_scripts/master.sh

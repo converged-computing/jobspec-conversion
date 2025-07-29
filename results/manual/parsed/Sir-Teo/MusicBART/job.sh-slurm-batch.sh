@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-buttface-4037
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --nv \
   --overlay /scratch/wz1492/overlay-25GB-500K.ext3:ro \

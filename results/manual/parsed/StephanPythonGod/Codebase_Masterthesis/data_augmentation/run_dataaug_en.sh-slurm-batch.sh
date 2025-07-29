@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dataaug-en
-#FLUX: --queue=gpu_4
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=dataaug-en
+#SBATCH --output=output_en.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40gb
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu_4
+#SBATCH --array=1-4
 
 echo "Starting ..."
 module load devel/cuda/11.8

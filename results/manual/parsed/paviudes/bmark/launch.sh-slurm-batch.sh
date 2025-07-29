@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=self_5_to_17_imps
-#FLUX: --queue=reserved
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=self_5_to_17_imps
+#SBATCH --account=rac-2018-hpcg1742
+#SBATCH --mail-user=pavithran.sridhar@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4096
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=reserved
 
 ./benchmarking input.txt

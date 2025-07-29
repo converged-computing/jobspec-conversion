@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leader-3160
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/daily.hi.o3.plot_max

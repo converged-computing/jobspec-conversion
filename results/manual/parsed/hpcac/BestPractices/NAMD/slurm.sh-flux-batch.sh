@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=namd2
-#FLUX: -N=2
-#FLUX: --queue=thor
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=namd2
+#FLUX -N=2
+#FLUX --queue=thor
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load md/namd/2.12-hpcx-2.0.0-intel-2018.1.163

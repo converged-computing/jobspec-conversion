@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load anaconda3/2021.5

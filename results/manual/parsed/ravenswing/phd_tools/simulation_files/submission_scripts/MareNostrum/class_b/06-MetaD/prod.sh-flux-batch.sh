@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-knife-4469
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-puppy-0651
+#FLUX -N=4
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

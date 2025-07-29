@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bsc-cnn-job
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#FLUX --job-name=bsc-cnn-job
+#FLUX -c=8
+#FLUX --queue=brown
+#FLUX -t=19800
+#FLUX --urgency=16
 
 module load Anaconda3/2023.03-1
 cd "/home/nizp/BSc-Project/ResNet50" 

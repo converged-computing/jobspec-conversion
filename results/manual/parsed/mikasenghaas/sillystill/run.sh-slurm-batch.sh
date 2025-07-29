@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-chair-5183
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=cs-552
+#SBATCH --output=logs/slurm/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --qos=cs-552
 
 module load gcc python 
 source ~/venvs/sillystill/bin/activate

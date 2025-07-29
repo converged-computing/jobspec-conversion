@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-poo-0013
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-chair-7724
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

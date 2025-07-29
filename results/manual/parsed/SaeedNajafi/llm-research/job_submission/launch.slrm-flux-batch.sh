@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama-research
-#FLUX: --queue=a40
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=llama-research
+#FLUX --queue=a40
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname --fqdn)'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')'

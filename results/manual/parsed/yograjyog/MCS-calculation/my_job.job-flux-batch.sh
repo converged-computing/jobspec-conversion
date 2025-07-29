@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prostate_calc
-#FLUX: -N=4
-#FLUX: --queue=gpu05,gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=prostate_calc
+#FLUX -N=4
+#FLUX --queue=gpu05,gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load utilities/multi

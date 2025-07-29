@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=matlab
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#SBATCH --job-name=matlab
+#SBATCH --output=matlab_%a-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=htc
+#SBATCH --array=1-46
 
 module purge
 module load matlab

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hddqn_agent
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=hddqn_agent
+#SBATCH --output=hddqn_agent.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=1
+#SBATCH --mem=24G
 
 module use /opt/easybuild/modules/all/
 module load Python3.10 Xvfb freeglut glew MuJoCo

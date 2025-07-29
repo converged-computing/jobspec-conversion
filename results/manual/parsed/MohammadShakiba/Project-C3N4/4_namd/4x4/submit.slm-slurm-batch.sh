@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hippo-3706
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=general-compute
+#SBATCH --constraint=ntasks-per-node=18
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

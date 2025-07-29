@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sparsifier
-#FLUX: --queue=amdrtx
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=sparsifier
+#FLUX --queue=amdrtx
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load cuda/11.7.1
 source activate sparseml_artf

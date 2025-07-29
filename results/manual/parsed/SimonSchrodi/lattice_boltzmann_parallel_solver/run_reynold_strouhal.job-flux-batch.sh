@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPC_WITH_PYTHON_Reynold_Strouhal
-#FLUX: -N=2
-#FLUX: --queue=multiple
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=HPC_WITH_PYTHON_Reynold_Strouhal
+#FLUX -N=2
+#FLUX --queue=multiple
+#FLUX -t=2400
+#FLUX --urgency=16
 
 module load devel/python/3.8.1_gnu_9.2-pipenv
 module load mpi/openmpi/4.0

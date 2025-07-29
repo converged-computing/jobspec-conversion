@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-rabbit-1086
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#SBATCH --output=output-%j.log
+#SBATCH --error=error-%j.log
+#SBATCH --mail-user=co.d.quach@vanderbilt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=standard
 
 {% extends "slurm.sh" %}
 {% block header %}

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pointllama
-#FLUX: -c=16
-#FLUX: --queue=
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=pointllama
+#FLUX -c=16
+#FLUX --queue=
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module reset
 module load cuda/11.6.1

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=BERT_Agave
-#FLUX: -n=24
-#FLUX: --queue=wildfire
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BERT_Agave
+#SBATCH --output=MTDNN_Agave.OUT
+#SBATCH --error=MTDNN_Agave.ERROR
+#SBATCH --mail-user=mihirparmar@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=wildfire
 
 export OMP_NUM_THREADS='24'
 

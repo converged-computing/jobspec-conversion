@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cherry-3589
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-pedo-9616
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module -s swap PrgEnv-intel PrgEnv-gnu

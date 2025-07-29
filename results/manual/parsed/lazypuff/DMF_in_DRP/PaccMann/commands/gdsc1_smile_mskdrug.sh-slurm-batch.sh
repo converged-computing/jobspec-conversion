@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-earthworm-0918
-#FLUX: --queue=general
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --mail-user=qhz@email.unc.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=51200
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=general
+#SBATCH --array=1-10
 
 source paccmann_predict/bin/activate
 python /nas/longleaf/home/qhz/paccmann_predictor/examples/IC50/train_paccmann.py \

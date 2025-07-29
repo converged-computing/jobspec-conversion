@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-avocado-7394
-#FLUX: --exclusive
-#FLUX: --queue=genoa
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=genoa
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --array=1,2,3,4,5
 
 export OMP_NUM_THREADS='1'
 

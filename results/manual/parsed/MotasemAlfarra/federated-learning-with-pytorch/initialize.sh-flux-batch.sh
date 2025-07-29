@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-platanos-3749
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-eagle-0787
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=600
+#FLUX --urgency=16
 
 source activate rs_fl
 nvidia-smi

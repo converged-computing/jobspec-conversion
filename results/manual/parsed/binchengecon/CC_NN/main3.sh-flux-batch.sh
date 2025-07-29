@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=modification
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=modification
+#FLUX --queue=gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 pre_tech_pre_damage_export_folder="/scratch/midway3/bincheng/pre_tech_pre_damage_models_12052023_tensorboard_version_iteration_50000_wihtout_v_diff_j_val"
 pre_tech_post_damage_export_folder="${pre_tech_pre_damage_export_folder}/pre_tech_post_damage"

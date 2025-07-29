@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=myxo-sim
-#FLUX: -n=9
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=myxo-sim
+#FLUX -n=9
+#FLUX -t=82800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

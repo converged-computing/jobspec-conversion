@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlm_wnre
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=mlm_wnre
+#FLUX -N=8
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export BALAUR_CACHE='/network/scratch/m/mirceara/.cache/balaur'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=chong_data_analysis
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=chong_data_analysis
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=/users/afengler/batch_job_out/chong_data_analysis_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-0
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Iden_matrix_interval_1_train
-#FLUX: -n=28
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Iden_matrix_interval_1_train
+#SBATCH --account=122821643660
+#SBATCH --output=Output/output_iden_matrix_interval_1_train
+#SBATCH --mail-user=shaowen1994@tamu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 module load Anaconda/2-5.0.1
 source activate my_tensorflow-gpu-1.4.1

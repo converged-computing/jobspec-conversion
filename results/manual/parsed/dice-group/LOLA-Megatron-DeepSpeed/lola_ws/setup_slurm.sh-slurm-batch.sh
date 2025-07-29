@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Deepspeed Megatron: dependencies installation
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Deepspeed Megatron: dependencies installation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$VENVPATH/venv-lola/lib/python3.10/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH'
 

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-kitty-5066
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=30g
 
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'
 export CPATH='/opt/cudnn-8.0/include:$CPATH'

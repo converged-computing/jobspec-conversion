@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peanut-butter-6710
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/ST-UDA/logs/wod_train_f0_0_all_v3_2_time_beam32_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=21-00:00:00
+#SBATCH --partition=amdgpuextralong
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_LL_THRESHOLD='0'
 

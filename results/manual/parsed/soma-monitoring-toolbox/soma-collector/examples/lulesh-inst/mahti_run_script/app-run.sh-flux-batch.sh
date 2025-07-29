@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=soma-symbiomon
-#FLUX: --queue=medium
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=soma-symbiomon
+#FLUX --queue=medium
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SOMA_SERVER_ADDR_FILE='`pwd`/server.add'
 export SOMA_NODE_ADDR_FILE='`pwd`/node.add'

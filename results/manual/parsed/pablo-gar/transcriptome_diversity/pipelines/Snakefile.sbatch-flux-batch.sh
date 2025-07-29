@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-truffle-6293
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-omelette-5081
+#FLUX --queue=hbfraser,hns,normal
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load conda
 conda activate base

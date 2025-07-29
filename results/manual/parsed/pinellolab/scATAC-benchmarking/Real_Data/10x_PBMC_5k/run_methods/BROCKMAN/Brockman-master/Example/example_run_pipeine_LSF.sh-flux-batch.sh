@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-snack-4335
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-knife-0563
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pinellolab/scATAC-benchmarking/Real_Data/10x_PBMC_5k/run_methods/BROCKMAN/Brockman-master/Example/example_run_pipeine_LSF.sh

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iaf2msa2
-#FLUX: --exclusive
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#SBATCH --job-name=iaf2msa2
+#SBATCH --output=preproc_onenode_out.txt
+#SBATCH --error=preproc_onenode_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=64c512g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 root_home=$1
 sample_name=$2

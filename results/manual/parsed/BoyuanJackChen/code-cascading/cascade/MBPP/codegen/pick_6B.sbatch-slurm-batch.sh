@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=6B_mbpp
-#FLUX: --queue=nvidia
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=6B_mbpp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=100GB
+#SBATCH --time=2-23:59:59
+#SBATCH --partition=nvidia
+#SBATCH --constraint=80g,ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/scratch/bc3194/huggingface_cache'
 

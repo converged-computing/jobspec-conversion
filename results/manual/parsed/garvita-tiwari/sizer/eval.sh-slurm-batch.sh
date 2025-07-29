@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-5824
-#FLUX: --queue=gpu20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/inf0/user/gtiwari/slurm-%A.out
+#SBATCH --error=/scratch/inf0/user/gtiwari/slurm-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu20
 
 echo "canonical pose data for whole body"
 cd /BS/garvita/work/code/sizer

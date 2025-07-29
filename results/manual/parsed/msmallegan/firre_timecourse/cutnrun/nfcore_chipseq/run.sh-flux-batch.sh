@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cutnrun_chip_nfcore
-#FLUX: --queue=long
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=cutnrun_chip_nfcore
+#FLUX --queue=long
+#FLUX -t=144000
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load singularity/3.1.1

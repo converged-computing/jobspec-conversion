@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hope-5051
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j-%x.out
+#SBATCH --error=logs/%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4GB
+#SBATCH --time=2-00:00:00
 
 export APPTAINER_CACHEDIR='$NOBACKUPDIR/apptainer_cachedir'
 export APPTAINER_TMPDIR='$NOBACKUPDIR/apptainer_tmpdir'

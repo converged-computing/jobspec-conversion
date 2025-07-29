@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fudge-3500
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=24G
+#SBATCH --time=04:00:00
+#SBATCH --partition=general
+#SBATCH --qos=short
+#SBATCH --array=1,2,3,4
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

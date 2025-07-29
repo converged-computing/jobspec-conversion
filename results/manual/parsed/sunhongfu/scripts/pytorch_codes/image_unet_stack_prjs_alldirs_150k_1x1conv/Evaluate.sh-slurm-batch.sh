@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_image_unet_stack_prjs_150k_1x1conv
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_image_unet_stack_prjs_150k_1x1conv
+#SBATCH --output=eval_image_unet_stack_prjs_150k_1x1conv.out
+#SBATCH --error=eval_image_unet_stack_prjs_150k_1x1conv.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-smx2:1
+#SBATCH --mem=10000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

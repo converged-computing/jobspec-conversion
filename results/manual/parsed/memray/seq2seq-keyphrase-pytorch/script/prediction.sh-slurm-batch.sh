@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prediction
-#FLUX: --queue=titanx
-#FLUX: --urgency=16
+#SBATCH --job-name=prediction
+#SBATCH --output=prediction.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=titanx
+#SBATCH --constraint=ntasks-per-node=1
 
 directory_exp='/ihome/pbrusilosky/rum20/seq2seq-keyphrase-pytorch/exp/'
 directory_data='/ihome/pbrusilosky/rum20/seq2seq-keyphrase-pytorch/data/'

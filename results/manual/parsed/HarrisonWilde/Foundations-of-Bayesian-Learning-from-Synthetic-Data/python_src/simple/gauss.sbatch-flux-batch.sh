@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-2213
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-ricecake-8127
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load GCC/8.2.0-2.31.1 GCCcore/8.2.0 Python/3.7.2

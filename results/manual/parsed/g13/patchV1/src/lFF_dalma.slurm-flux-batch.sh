@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=plotLearn
-#FLUX: -c=2
-#FLUX: --queue=nvidia
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=plotLearn
+#FLUX -c=2
+#FLUX --queue=nvidia
+#FLUX -t=2400
+#FLUX --urgency=16
 
 cd ${HOME}/repos/patchV1/src
 fdr0=/scratch/wd554/patchV1

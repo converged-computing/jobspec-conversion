@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parrot-3166
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-banana-5617
+#FLUX -N=2
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-6153
-#FLUX: -c=24
-#FLUX: --queue=main
-#FLUX: -t=346320
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-pancake-4065
+#FLUX -c=24
+#FLUX --queue=main
+#FLUX -t=346320
+#FLUX --urgency=16
 
 export MAXJOBSN='24  # must equal value of "--cpus-per-task'
 

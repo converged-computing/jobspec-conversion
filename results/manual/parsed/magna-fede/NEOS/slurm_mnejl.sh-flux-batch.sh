@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Unfolding
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Unfolding
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 WORKDIR="/home/fm02/MEG_NEOS/NEOS"
 SCRIPT="temp_UnfoldOverlapCorrection_allfixations.ipy"

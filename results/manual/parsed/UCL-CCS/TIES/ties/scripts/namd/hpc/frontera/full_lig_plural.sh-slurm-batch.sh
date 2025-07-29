@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -N=13
-#FLUX: -n=13
-#FLUX: --queue=development
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --output=log_%j.o
+#SBATCH --error=log_%j.e
+#SBATCH --mail-user=bieniekmat@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=13
+#SBATCH --ntasks=13
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=development
 
 module load namd
 TASKS_PER_JOB=55 # 1 reserved for comm

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=H016
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#SBATCH --job-name=H016
+#SBATCH --output=%j.o
+#SBATCH --error=%j.e
+#SBATCH --mail-user=zly18810602991@163.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=8
 
 export IAMGE_NAME='/lustre/home/acct-medkwf/medkwf4/software/CRUK/dockstore-cgpwxs_3.1.7.sif'
 

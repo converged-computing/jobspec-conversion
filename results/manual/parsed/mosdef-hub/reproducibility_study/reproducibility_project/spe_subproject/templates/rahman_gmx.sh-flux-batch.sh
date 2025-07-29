@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kitty-6853
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-frito-6226
+#FLUX --queue=standard
+#FLUX --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

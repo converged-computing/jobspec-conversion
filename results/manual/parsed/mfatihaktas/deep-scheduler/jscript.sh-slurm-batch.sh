@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=redsmall_plots_wDolly
-#FLUX: --queue=main
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=redsmall_plots_wDolly
+#SBATCH --output=log/redsmall_plots_wDolly.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=12:00:00
+#SBATCH --partition=main
 
 export MV2_ENABLE_AFFINITY='0'
 

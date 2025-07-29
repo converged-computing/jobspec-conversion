@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-6456
-#FLUX: -N=2
-#FLUX: -n=49
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=49
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export CP2K_DATA_DIR='$AIIDA_CODE_DIR/data/cp2k/data'
 

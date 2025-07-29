@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-house-7239
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-punk-6614
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/expanse/projects/qstore/mia326/sids/pde/lib:$LD_LIBRARY_PATH'
 export OMPI_MCA_btl_openib_allow_ib='1'

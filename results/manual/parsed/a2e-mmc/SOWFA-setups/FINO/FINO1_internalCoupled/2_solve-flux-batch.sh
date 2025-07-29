@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rOffshoreFino
-#FLUX: -n=360
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=rOffshoreFino
+#FLUX -n=360
+#FLUX -t=864000
+#FLUX --urgency=16
 
 source $HOME/.bash_profile
 cores=$SLURM_NTASKS

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-0742
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-itch-5476
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nksauter/LS49/adse13_196/summit/summit_240_6_3nvme.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=translate_data
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=translate_data
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 export TRANSFORMERS_CACHE='/scratch/$USER/.cache/huggingface/transformers'

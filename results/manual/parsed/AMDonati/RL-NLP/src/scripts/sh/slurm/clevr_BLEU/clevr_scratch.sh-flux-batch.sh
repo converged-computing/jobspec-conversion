@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=C-scratch-B
-#FLUX: -c=16
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=C-scratch-B
+#FLUX -c=16
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

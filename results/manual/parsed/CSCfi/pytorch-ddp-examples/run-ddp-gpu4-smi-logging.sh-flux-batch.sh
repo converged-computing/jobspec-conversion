@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-arm-5165
-#FLUX: -c=40
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-lentil-8017
+#FLUX -c=40
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge
 module load pytorch

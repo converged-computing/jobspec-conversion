@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ShalCNN
-#FLUX: --queue=gpu3
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ShalCNN
+#FLUX --queue=gpu3
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export GPUARRAY_FORCE_CUDA_DRIVER_LOAD=''
 export HDF5_USE_FILE_LOCKING='FALSE'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=docker-hpl
-#FLUX: -N=16
-#FLUX: -c=12
+#FLUX --job-name=docker-hpl
+#FLUX -N=16
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=top500
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=top500
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export BASE_DIR='/workspace'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64/:$LD_LIBRARY_PATH'

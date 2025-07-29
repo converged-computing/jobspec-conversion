@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_prior
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_prior
+#SBATCH --output=train_prior.out
+#SBATCH --error=train_prior.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=batch
+#SBATCH --constraint=gpu_12gb&pascal
+#SBATCH --exclude=weaver1, weaver2, weaver3, weaver4, weaver5, vine5, vine11
 
 module load python-3.6
 cd ../

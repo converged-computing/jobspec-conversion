@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Get_Training_Data
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Get_Training_Data
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load pytorch/python3.6/0.2.0_3

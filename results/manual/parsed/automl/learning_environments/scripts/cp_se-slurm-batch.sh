@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cartpole_se_master
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=260639
-#FLUX: --urgency=16
+#SBATCH --job-name=cartpole_se_master
+#SBATCH --output=/home/ferreira/Projects/learning_environments/scripts/log/%x.%N.%A.%a.out
+#SBATCH --error=/home/ferreira/Projects/learning_environments/scripts/log/%x.%N.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:23:59
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --chdir=/home/ferreira/Projects/learning_environments
+#SBATCH --array=0-7
+#SBATCH --exclude=kisexe18
 
 export HTTP_PROXY='http://tfproxy.informatik.uni-freiburg.de:8080'
 export HTTPS_PROXY='https://tfproxy.informatik.uni-freiburg.de:8080'

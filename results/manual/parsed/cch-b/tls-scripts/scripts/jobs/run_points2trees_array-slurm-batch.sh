@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-9086
-#FLUX: --queue=high-mem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/work/scratch-pw3/ucfacc2/sbatch_logs/is/%x_%j_%A_%a.out
+#SBATCH --error=/work/scratch-pw3/ucfacc2/sbatch_logs/is/%x_%j_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=192000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=high-mem
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=warpx
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=warpx
+#SBATCH --account=<account_to_charge>
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=MI250
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

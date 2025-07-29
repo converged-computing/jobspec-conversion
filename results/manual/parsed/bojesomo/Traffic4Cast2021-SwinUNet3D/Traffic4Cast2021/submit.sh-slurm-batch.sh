@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=T4C
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=T4C
+#SBATCH --account=kuex0005
+#SBATCH --output=t4c.%j.out
+#SBATCH --error=t4c.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 

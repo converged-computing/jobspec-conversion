@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-noodle-5273
-#FLUX: --urgency=16
+#FLUX --job-name=arid-pastry-1664
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sevdokim/HyperonMC-factory/generate_1target_qsub_scratch.sh

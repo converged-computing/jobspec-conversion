@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: --queue=gpu3
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs
+#FLUX --queue=gpu3
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "### Starting at: $(date) ###"
 source /storage/hpc/hpc-poc/micore/gromacs-gputhread/bin/GMXRC

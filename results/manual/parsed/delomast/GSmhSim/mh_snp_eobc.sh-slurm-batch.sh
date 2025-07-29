@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-animal-1573
-#FLUX: --queue=medium
-#FLUX: -t=428400
-#FLUX: --urgency=16
+#SBATCH --output=arrayScrm_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=4-23:00:00
+#SBATCH --partition=medium
+#SBATCH --array=1-200%75
 
 echo "My SLURM_JOB_ID: " $SLURM_JOB_ID
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

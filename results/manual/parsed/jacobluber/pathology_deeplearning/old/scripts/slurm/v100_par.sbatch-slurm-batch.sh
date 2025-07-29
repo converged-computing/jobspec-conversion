@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-pastry-9202
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/v100par.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/v100par.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100x:4
+#SBATCH --mem=100gb
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuv100x,ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

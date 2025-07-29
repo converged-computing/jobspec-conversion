@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=PELE_MPI_test
-#FLUX: -n=50
-#FLUX: --urgency=16
+#SBATCH --job-name=PELE_MPI_test
+#SBATCH --output=mpi_%j.out
+#SBATCH --error=mpi_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=50
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
 
 export SCHRODINGER='/sNow/easybuild/centos/7.4.1708/Skylake/software/schrodinger2017-4/'
 export SCHRODINGER_PYTHONPATH='/sNow/easybuild/centos/7.4.1708/Skylake/software/schrodinger2017-4/internal/lib/python2.7/site-packages'

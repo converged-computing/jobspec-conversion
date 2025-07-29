@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-earthworm-9164
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-car-0939
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module use ~/environment-modules-lisa
 module load 2020

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lysozyme_test
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=lysozyme_test
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export ANACONDA_DIR='$HOME/.pyenv/versions/miniconda3-latest'
 

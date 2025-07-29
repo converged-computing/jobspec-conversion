@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-banana-2752
-#FLUX: -N=32
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-mango-2252
+#FLUX -N=32
+#FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

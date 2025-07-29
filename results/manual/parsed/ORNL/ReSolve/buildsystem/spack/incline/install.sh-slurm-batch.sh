@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resolve_spack
-#FLUX: -n=3
-#FLUX: --queue=incline
-#FLUX: --urgency=16
+#SBATCH --job-name=resolve_spack
+#SBATCH --account=exasgd
+#SBATCH --output=spack_install.%J.output
+#SBATCH --error=spack_install.%J.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=incline
 
 export HTTPS_PROXY='http://proxy01.pnl.gov:3128'
 export https_proxy='http://proxy01.pnl.gov:3128'

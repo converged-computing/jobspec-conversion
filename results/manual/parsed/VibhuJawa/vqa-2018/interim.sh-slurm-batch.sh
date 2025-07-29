@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leader-7063
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=shared
 
 python extract_annotations_interim.py --folder /home-3/pmahaja2@jhu.edu/scratch/vqa2018_data/
 python extract_annotations_processed.py --dir /home-3/pmahaja2@jhu.edu/scratch/vqa2018_data/

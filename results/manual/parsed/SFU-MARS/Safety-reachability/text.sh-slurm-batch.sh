@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tt
-#FLUX: -c=6
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=tt
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
+#SBATCH --qos=overcap
+#SBATCH --nodelist=cs-venus-01
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate wpnr

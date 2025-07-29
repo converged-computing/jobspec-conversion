@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PC_DARTS_NASBENCH
-#FLUX: -c=2
-#FLUX: --queue=bosch_gpu-rtx2080
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#SBATCH --job-name=PC_DARTS_NASBENCH
+#SBATCH --output=log/log_$USER_%Y-%m-%d.out
+#SBATCH --error=log/err_$USER_%Y-%m-%d.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000
+#SBATCH --time=11-00:00:00
+#SBATCH --partition=bosch_gpu-rtx2080
+#SBATCH --chdir=/home/siemsj/projects/darts_weight_sharing_analysis
+#SBATCH --array=1-12
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lettuce-1449
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=ucb1_summit2
+#SBATCH --output=/scratch/summit/holtat/exa_slurm_output/tumbler_120k_small_ws_%j
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

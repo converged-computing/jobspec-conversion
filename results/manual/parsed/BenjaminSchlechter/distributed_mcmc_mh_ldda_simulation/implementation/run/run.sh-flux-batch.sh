@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mcmcprobsat
-#FLUX: --urgency=16
+#FLUX --job-name=mcmcprobsat
+#FLUX --urgency=16
 
 echo "$ run.sh $@"
 date

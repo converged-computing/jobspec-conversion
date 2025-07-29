@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=samglove
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=samglove
+#SBATCH --output=slurm_%j.out
+#SBATCH --mail-user=nuclearr.d@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=5GB
+#SBATCH --time=2-00:00:00
 
 module purge
 singularity exec --nv /beegfs/work/public/singularity/cuda10.1-cudnn7-devel-ubuntu18.04.sif bash -c "                                                                                                              

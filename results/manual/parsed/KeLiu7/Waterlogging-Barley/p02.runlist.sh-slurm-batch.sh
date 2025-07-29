@@ -1,9 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-nalgas-2942
-#FLUX: -N=5
-#FLUX: -n=5
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --nodes=5
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=8
 
 runlist=$1
 mkfifo testfifo

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-leopard-7985
-#FLUX: -n=4
-#FLUX: --queue=dcc
-#FLUX: -t=605
-#FLUX: --urgency=16
+#FLUX --job-name=tart-egg-4452
+#FLUX -n=4
+#FLUX --queue=dcc
+#FLUX -t=605
+#FLUX --urgency=16
 
 sleep 5
 /usr/local/cuda-9.2/samples/bin/x86_64/linux/release/deviceQuery

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sciml_em_denoise
-#FLUX: --queue=%partition
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sciml_em_denoise
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=%partition
+#SBATCH --qos=%qos
 
 module purge
 module load %modules

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hpl_mpi_test
-#FLUX: -n=64
+#FLUX --job-name=hpl_mpi_test
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=cf1
-#FLUX: -t=42900
-#FLUX: --urgency=16
+#FLUX --queue=cf1
+#FLUX -t=42900
+#FLUX --urgency=16
 
 export PATH='~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_nehalem:$PATH	# lr4/savio are hashwell, but can't find binary for it...'
 

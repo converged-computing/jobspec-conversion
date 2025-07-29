@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=F001_valid
-#FLUX: -n=4
-#FLUX: --queue=gpu4_short,gpu8_short,gpu4_medium,gpu4_long,gpu8_long,gpu8_medium
-#FLUX: --urgency=16
+#SBATCH --job-name=F001_valid
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=40G
+#SBATCH --partition=gpu4_short,gpu8_short,gpu4_medium,gpu4_long,gpu8_long,gpu8_medium
+#SBATCH --exclude=gpu-0007
 
 export OUTFILENAME='$TEST_OUTPUT/out_filename_Stats.txt'
 export OUTFILENAMEUNIQ='$TEST_OUTPUT/out_filename_Stats_unique.txt'

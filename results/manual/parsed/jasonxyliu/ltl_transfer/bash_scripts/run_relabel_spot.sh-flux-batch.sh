@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-knife-5077
-#FLUX: -N=3
-#FLUX: -n=144
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-carrot-2703
+#FLUX -N=3
+#FLUX -n=144
+#FLUX -t=356400
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

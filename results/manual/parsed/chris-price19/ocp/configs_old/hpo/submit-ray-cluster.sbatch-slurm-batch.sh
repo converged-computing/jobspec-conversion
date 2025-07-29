@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=h1c2
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=g_vsheno
-#FLUX: -t=525600
-#FLUX: --urgency=16
+#SBATCH --job-name=h1c2
+#SBATCH --error=err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=8
+#SBATCH --time=6-02:00:00
+#SBATCH --partition=g_vsheno
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load gcc-9.2.0/9.2.0

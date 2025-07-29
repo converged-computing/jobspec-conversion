@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=da-im_cs6-HP-WIDER
-#FLUX: --queue=1080ti-long
-#FLUX: --urgency=16
+#FLUX --job-name=da-im_cs6-HP-WIDER
+#FLUX --queue=1080ti-long
+#FLUX --urgency=16
 
 python tools/train_net_step.py \
     --dataset cityscapes_cars_HPlen3+kitti_car_train \

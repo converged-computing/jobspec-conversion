@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=testDiT-XL
-#FLUX: -c=4
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=testDiT-XL
+#SBATCH --output=outlog/DiT_cfg1.5_a1004_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=120GB
+#SBATCH --time=1-06:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='12'
 

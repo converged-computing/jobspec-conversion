@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=process_results
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=process_results
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 if type "module" > /dev/null 2>&1; then
     # Load modules

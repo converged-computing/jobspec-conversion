@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_run
-#FLUX: -n=48
-#FLUX: --queue=medium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake_run
+#SBATCH --output=logs/slurm/out/stdout.%j.%N
+#SBATCH --error=logs/slurm/err/stderr.%j.%N
+#SBATCH --mail-user=paul.villanueva@usda.gov
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=medium
 
 cd /project/fsepru/paul.villanueva/repos/snakemake-genome-assembly-practice
 source /home/${USER}/.bashrc

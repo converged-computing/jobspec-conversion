@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-car-5187
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-platanos-9719
+#FLUX -c=4
+#FLUX -t=7200
+#FLUX --urgency=16
 
 for current_dataset in {1..10}
 do

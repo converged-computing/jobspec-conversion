@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=install_privateer
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=install_privateer
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export CC='$GCC'
 export CXX='$GPLUSPLUS'

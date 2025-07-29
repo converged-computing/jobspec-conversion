@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pot-3807
+#FLUX --job-name=wobbly-itch-7171
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)

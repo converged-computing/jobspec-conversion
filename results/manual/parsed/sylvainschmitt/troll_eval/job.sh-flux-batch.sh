@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=troll_eval
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=troll_eval
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # to adapt to your cluster

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=picrust_analysis
-#FLUX: --queue=batch,guest
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=picrust_analysis
+#FLUX --queue=batch,guest
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /work/claytonlab/ereisher/philzoo2/qiime2/picrust
 module load picrust2/2.4

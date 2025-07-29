@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=OMNI_SMAC
-#FLUX: -c=4
-#FLUX: --queue=mlhiwidlc_gpu-rtx2080
-#FLUX: --urgency=16
+#SBATCH --job-name=OMNI_SMAC
+#SBATCH --output=log/%x.%N.%j.out
+#SBATCH --error=log/%x.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --partition=mlhiwidlc_gpu-rtx2080
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'
 

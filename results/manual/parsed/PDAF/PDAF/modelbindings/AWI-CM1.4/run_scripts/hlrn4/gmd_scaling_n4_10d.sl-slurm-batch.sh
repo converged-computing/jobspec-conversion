@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-plant-2981
-#FLUX: -N=12
-#FLUX: -n=1152
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=12
+#SBATCH --ntasks=1152
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard96
+#SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

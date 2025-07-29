@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test_driver
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=premium
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=test_driver
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=premium
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64:/opt/intel/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-muffin-4768
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 dir='slurm/scripts'  # directory where the slurm scripts are
 template_cpu='template_epyc.sbatch'  # template for cpu slurm

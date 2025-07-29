@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-citrus-3389
-#FLUX: -n=8
-#FLUX: --queue=openfoam
-#FLUX: --urgency=16
+#SBATCH --account=cfd
+#SBATCH --output=openfoam-%j.log
+#SBATCH --error=openfoam-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=openfoam
+#SBATCH --constraint=ntasks-per-node=8
 
 source /etc/profile.d/openmpi.sh
 source /etc/profile.d/openfoam.sh

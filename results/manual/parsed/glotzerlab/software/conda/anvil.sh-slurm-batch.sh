@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=glotzerlab-software build
-#FLUX: -c=32
-#FLUX: --queue=shared
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=glotzerlab-software build
+#SBATCH --account=dmr140129
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=08:00:00
+#SBATCH --partition=shared
 
 export OUTPUT_FOLDER='$PROJECT/software/conda'
 export CC='$GCC_HOME/bin/gcc'

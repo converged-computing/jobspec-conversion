@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=whap
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=whap
+#FLUX --queue=small
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='/projappl/project_2001443/whatshapenv/bin:$PATH" '
 

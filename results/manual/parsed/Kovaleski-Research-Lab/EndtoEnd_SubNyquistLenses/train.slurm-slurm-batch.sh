@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=coop_training
-#FLUX: --queue=gpu32,gpu40,gpu80
-#FLUX: --urgency=16
+#SBATCH --job-name=coop_training
+#SBATCH --output=/cgi/home/lindsaymb/workspace/documents/code/rcdo/slurm_logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --partition=gpu32,gpu40,gpu80
+#SBATCH --array=0-100%34
 
 distances=($(seq 0.01 0.0009 0.1))
 enroot start --rw \

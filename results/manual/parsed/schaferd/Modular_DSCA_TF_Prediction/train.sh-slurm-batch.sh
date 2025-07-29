@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pot-2847
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=/nobackup/users/schaferd/ae_project_outputs/slurm_outputs/modular_out/slurm%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=20:00:00
 
 source params.sh
 HOME2=/nobackup/users/$(whoami)

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fashion_feat_train
-#FLUX: --queue=clara-job
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=fashion_feat_train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=30G
+#SBATCH --time=10:00:00
+#SBATCH --partition=clara-job
+#SBATCH --constraint=ntasks-per-node=1
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

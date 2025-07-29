@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-sundae-2007
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-butter-4639
+#FLUX --queue=general
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python
 pip3 install -r requirements.txt --user

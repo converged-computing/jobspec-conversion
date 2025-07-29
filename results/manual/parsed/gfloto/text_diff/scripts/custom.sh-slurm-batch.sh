@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=baseline_pretrained_2
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline_pretrained_2
+#SBATCH --account=def-ssanner
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='16'
 

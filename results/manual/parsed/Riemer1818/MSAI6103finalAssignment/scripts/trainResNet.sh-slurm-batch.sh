@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: --queue=SCSEGPU_M1
-#FLUX: --urgency=16
+#SBATCH --job-name=MyJob
+#SBATCH --output=output_%x_%j.out
+#SBATCH --error=error_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=6G
+#SBATCH --partition=SCSEGPU_M1
+#SBATCH --qos=q_amsai
 
 module load anaconda3/23.5.2
 eval "$(conda shell.bash hook)"

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=leclerce_experiments
-#FLUX: --exclusive
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=leclerce_experiments
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=main
+#SBATCH: --exclusive
+#SBATCH --array=11
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

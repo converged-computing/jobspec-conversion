@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Diff2D_xpu
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=Diff2D_xpu
+#SBATCH --account=class04
+#SBATCH --output=Diff2D_xpu.%j.o
+#SBATCH --error=Diff2D_xpu.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 module load Julia/1.7.2-CrayGNU-21.09-cuda

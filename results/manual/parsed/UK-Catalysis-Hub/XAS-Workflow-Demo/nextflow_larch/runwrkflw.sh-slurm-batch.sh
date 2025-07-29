@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_wrkflw
-#FLUX: -c=40
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#SBATCH --job-name=run_wrkflw
+#SBATCH --output=run%J.out
+#SBATCH --error=run%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --partition=htc
 
 module load singularity
 module load nextflow

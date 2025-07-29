@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-7359
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=salted-leopard-6421
+#FLUX -n=4
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia-1_8_5

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=r1
-#FLUX: -N=8
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=r1
+#FLUX -N=8
+#FLUX --queue=regular
+#FLUX -t=14400
+#FLUX --urgency=16
 
 prefix='relax'
 currindex=1

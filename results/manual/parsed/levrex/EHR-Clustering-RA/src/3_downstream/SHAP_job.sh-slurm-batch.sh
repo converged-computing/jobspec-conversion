@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SHAP_example
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=SHAP_example
+#SBATCH --mail-user=t.d.maarseveen@lumc.nl
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 INPUT_FILE='/exports/reum/tdmaarseveen/RA_Clustering/new_data/7_final/MMAE_clustering_270.csv' # all_data_MAUI_clustering_240_NEW # _PsA
 ONLY_CATEGORIC="0"

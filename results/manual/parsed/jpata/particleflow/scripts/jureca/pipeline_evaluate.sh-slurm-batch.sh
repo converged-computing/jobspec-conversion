@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pipeeval
-#FLUX: --queue=dc-gpu
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeeval
+#SBATCH --account=raise-ctp2
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:59:59
+#SBATCH --partition=dc-gpu
 
 export CUDA_VISIBLE_DEVICES='0'
 

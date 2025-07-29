@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pastry-9392
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-platanos-5433
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export OUTPUT_DIR='models'
 export PRED_DIR='predictions'

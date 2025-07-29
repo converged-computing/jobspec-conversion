@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cat-3585
-#FLUX: -c=24
-#FLUX: --queue=amdcpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-avocado-8252
+#FLUX -c=24
+#FLUX --queue=amdcpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='1'
 

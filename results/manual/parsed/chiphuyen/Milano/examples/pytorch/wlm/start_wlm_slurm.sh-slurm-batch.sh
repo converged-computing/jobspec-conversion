@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Milano
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Milano
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=6000
+#SBATCH --time=1-00:00:00
 
 docker run --runtime=nvidia --rm --name AAA -v \
 /home/okuchaiev:/home/okuchaiev -v /mnt:/mnt --shm-size=1G \

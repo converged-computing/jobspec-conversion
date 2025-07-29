@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-8127
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --mail-user=snodgras@iastate.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=36
+#SBATCH: --no-requeue
 
 module use /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core/
 module load plink

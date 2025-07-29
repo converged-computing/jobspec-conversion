@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-cattywampus-4901
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blank-pastry-1877
+#FLUX -n=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load eth_proxy
 module load gcc/9.3.0

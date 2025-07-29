@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TEP
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=TEP
+#SBATCH --account=laszka
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=16GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-5
 
 export PATH='$PWD/gambit-project/:$PATH'
 

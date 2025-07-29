@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_echomorph
-#FLUX: --queue=gpu
-#FLUX: -t=180600
-#FLUX: --urgency=16
+#FLUX --job-name=train_echomorph
+#FLUX --queue=gpu
+#FLUX -t=180600
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

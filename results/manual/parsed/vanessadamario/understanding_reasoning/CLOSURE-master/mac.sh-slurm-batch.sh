@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MACCoGenT
-#FLUX: --queue=normal
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=MACCoGenT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60GB
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=8GB
+#SBATCH --chdir=path_to_folder/understanding_reasoning/CLOSURE-master/output_slurm
+#SBATCH --array=0
 
 module add clustername/singularity/3.4.1
 hostname

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FFT-GPU-PERF
+#FLUX --job-name=FFT-GPU-PERF
 #FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-fft-gpu-nsight

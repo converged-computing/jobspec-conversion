@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-2442
-#FLUX: -N=3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=aramirezreyes@ucdavis.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=premium
+#SBATCH --constraint=haswell
+#SBATCH --licenses=project,SCRATCH
 
 export TMPDIR='$SCRATCH'
 

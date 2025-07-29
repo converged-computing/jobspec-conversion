@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ldhat
-#FLUX: -n=2
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ldhat
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=quanah
+#SBATCH --chdir=./
+#SBATCH --array=1-237
 
 module load intel R
 source activate bcftools

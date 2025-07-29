@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=prompt-multinode-experiments
-#FLUX: -c=8
-#FLUX: --queue=t4v2
-#FLUX: --urgency=50
+#SBATCH --job-name=prompt-multinode-experiments
+#SBATCH --output=job_%x_%j.out
+#SBATCH --error=job_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64G
+#SBATCH --partition=t4v2
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='52069'

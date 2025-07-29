@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-salad-9886
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-bicycle-2243
+#FLUX -t=21600
+#FLUX --urgency=16
 
 cd /home/shawa/venka210/simMutualism || return
 module purge

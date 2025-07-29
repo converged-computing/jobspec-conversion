@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=multiPatch_barlow_fracTrain_stl10_results
-#FLUX: --queue=long
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=multiPatch_barlow_fracTrain_stl10_results
+#SBATCH --output=sbatch_out/multiPatch_barlow_fracTrain_stl10_results.%A.%a.out
+#SBATCH --error=sbatch_err/multiPatch_barlow_fracTrain_stl10_results.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=20GB
+#SBATCH --time=20:00:00
+#SBATCH --partition=long
+#SBATCH --array=0-5%10
 
 . /etc/profile
 module load anaconda/3

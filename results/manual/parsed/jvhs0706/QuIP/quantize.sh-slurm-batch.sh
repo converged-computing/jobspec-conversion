@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-1485
-#FLUX: -c=8
-#FLUX: -t=179
-#FLUX: --urgency=16
+#SBATCH --account=rrg-hongyanz
+#SBATCH --output=%N-%j.out
+#SBATCH --mail-user=haochen.sun@uwaterloo.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=48000M
+#SBATCH --time=00:02:59
 
 deactivate
 module purge

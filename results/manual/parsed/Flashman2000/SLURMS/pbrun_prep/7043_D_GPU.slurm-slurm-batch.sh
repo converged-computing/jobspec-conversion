@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GPU_7043
-#FLUX: -c=20
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=GPU_7043
+#SBATCH --mail-user=vst14@case.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=185G
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=gpu4v100
 
 module purge
 module load parabricks/3.1.1 singularity/3.5.1 cuda/10.1 python gatk

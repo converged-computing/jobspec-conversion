@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jet_m10_sliced
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=jet_m10_sliced
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=80
 
 export num_runs='10'
 export OMP_PROC_BIND='false '

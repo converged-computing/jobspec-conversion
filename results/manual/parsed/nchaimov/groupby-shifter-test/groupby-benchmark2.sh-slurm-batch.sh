@@ -1,17 +1,23 @@
 #!/bin/bash
-#FLUX: --job-name=GroupBy
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=32
-#FLUX: --queue=debug
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=GroupBy
+#SBATCH --output=GroupBy-%j.out
+#SBATCH --error=GroupBy-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:15:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'
 export SPARK_HOME='/opt/spark'
 export SPARK_CONF_DIR='/global/homes/n/nchaimov/groupby-shifter-test/conf'
 export MASTER='`hostname`'
 
+singularity
+exec
+docker:nchaimov/spark202-shifter:v8
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 export SPARK_HOME=/opt/spark
 export SPARK_CONF_DIR="/global/homes/n/nchaimov/groupby-shifter-test/conf"

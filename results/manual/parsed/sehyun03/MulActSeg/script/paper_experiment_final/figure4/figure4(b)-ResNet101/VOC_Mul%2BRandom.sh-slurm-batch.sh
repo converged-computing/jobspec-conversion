@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=deepstem101
-#FLUX: -c=10
-#FLUX: --queue=3090
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=deepstem101
+#SBATCH --output=sbatch_log/pytorch-1gpu.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=3090
 
 export WANDB_SPAWN_METHOD='fork'
 

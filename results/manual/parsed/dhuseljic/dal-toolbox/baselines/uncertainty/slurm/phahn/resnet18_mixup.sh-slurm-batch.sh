@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RES-MIX
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=RES-MIX
+#SBATCH --output=/mnt/stud/work/phahn/uncertainty/logs/%x_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --array=1-3%3
 
 source /mnt/stud/home/phahn/.zshrc
 rm /mnt/stud/work/phahn/uncertainty/uncertainty-evaluation/.git/index.lock

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-car-9262
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --output=tune_fp.out-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --constraint=opteron
+#SBATCH --array=1-1
 
 export CUDA_VISIBLE_DEVICES=''
 

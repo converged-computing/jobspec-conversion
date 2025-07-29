@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dreambooth-inference
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=dreambooth-inference
+#SBATCH --output=dreambooth_inference_log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=6-06:00:00
 
 hostname
 which python3

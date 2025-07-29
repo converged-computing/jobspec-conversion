@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=VisualImag
-#FLUX: -n=4
-#FLUX: --queue=xgpu
-#FLUX: --urgency=16
+#SBATCH --job-name=VisualImag
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:4
+#SBATCH --partition=xgpu
 
 module load anaconda/3
 module load cuda/10.1

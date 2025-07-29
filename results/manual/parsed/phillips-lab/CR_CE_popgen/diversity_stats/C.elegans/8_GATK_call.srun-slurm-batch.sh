@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GATK4
-#FLUX: --queue=phillips
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=GATK4
+#SBATCH --account=phillipslab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=phillips
+#SBATCH --array=0-5
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

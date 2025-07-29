@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pancake-7499
-#FLUX: --urgency=16
+#FLUX --job-name=tart-taco-1685
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/victor45664/espnet/egs2/librispeech/asr1/lmkd_exp/debug_lmkd.sh

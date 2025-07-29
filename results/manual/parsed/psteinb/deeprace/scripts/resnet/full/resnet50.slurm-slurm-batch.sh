@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lizard-1073
-#FLUX: --queue=gpu2
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --output=resnet50.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=14:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

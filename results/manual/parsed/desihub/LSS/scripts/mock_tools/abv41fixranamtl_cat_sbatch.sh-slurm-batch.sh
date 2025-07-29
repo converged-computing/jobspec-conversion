@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-snack-7161
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=desi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
+#SBATCH --array=1-24
 
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
 PYTHONPATH=$PYTHONPATH:$HOME/LSS/py

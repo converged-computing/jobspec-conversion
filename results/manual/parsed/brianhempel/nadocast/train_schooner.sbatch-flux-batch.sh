@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-0845
-#FLUX: -N=25
-#FLUX: -c=20
+#FLUX --job-name=arid-carrot-9093
+#FLUX -N=25
+#FLUX -c=20
 #FLUX: --exclusive
-#FLUX: --queue=largejobs
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=largejobs
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export HOME='/home/brianhempel'
 export PATH='$PATH:$HOME/.local/bin:$HOME/bin'

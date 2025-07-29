@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-1224
-#FLUX: --queue=shortrun
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=siamdl%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=shortrun
+#SBATCH --constraint=a6000
 
 if [[ ! -z ${SLURM_JOBID+z} ]]; then
     echo "Setting up SLURM environment"

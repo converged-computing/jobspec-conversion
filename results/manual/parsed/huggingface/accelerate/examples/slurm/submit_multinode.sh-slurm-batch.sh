@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=multinode
-#FLUX: -N=4
-#FLUX: -c=160
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode
+#SBATCH --output=O-%x.%j
+#SBATCH --error=E-%x.%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=160
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:59:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=.
 
 export GPUS_PER_NODE='4'
 export LAUNCHER='accelerate launch \'

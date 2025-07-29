@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LST
-#FLUX: --queue=defq
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=LST
+#SBATCH --account=dyarkon1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=defq
 
 set -e
 date

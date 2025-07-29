@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Unbias401
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Unbias401
+#FLUX -c=7
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_HW_SUBSET='1T'

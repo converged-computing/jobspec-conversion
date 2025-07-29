@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=maskgan
-#FLUX: -n=36
-#FLUX: --urgency=16
+#FLUX --job-name=maskgan
+#FLUX -n=36
+#FLUX --urgency=16
 
 module load use.own
 module load python/3.7.0

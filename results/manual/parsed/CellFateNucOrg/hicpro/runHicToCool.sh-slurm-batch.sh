@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hic2mcool
-#FLUX: -c=2
-#FLUX: --queue=all
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=hic2mcool
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=05:00:00
+#SBATCH --partition=all
+#SBATCH --array=1
 
 export LANGUAGE='en_US:en'
 export LANG='C'

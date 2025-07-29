@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pairwise.l2.4.4e-5.1500
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pairwise.l2.4.4e-5.1500
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:a40:1
+#SBATCH --mem=50g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=4
 
 export TRANSFORMERS_CACHE='${root}/pretrain_models/huggingface'
 export HF_DATASETS_CACHE='${root}/pretrain_models/huggingface'

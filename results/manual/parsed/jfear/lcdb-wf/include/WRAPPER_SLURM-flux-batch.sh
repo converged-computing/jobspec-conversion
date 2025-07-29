@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lcdb-wf
-#FLUX: --queue=norm
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lcdb-wf
+#FLUX --queue=norm
+#FLUX -t=86400
+#FLUX --urgency=16
 
 if [[ ! -e logs ]]; then mkdir -p logs; fi
 (

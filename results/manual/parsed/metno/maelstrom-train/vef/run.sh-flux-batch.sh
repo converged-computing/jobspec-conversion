@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=maelstrom-vef
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=24
-#FLUX: --queue=booster
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=maelstrom-vef
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=24
+#FLUX --queue=booster
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export LD_PRELOAD='/p/home/jusers/nipen1/juwels/local/lib/libvefprospector_full.so'

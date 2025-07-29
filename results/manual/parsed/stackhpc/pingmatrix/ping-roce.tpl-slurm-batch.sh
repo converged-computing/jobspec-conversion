@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name={job_prefix}
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name={job_prefix}
+#SBATCH --output={job_prefix}.out
+#SBATCH --error={job_prefix}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude={exclude_nodes}
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_1:1'

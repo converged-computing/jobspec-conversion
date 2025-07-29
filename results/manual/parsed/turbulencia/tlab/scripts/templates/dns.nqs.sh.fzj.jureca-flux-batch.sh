@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lettuce-9762
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#FLUX --job-name=astute-taco-4620
+#FLUX --queue=batch
+#FLUX --urgency=16
 
 export TOOLS_HOME='$HOME/bin'
 export PATH='$PATH:$TOOLS_HOME'

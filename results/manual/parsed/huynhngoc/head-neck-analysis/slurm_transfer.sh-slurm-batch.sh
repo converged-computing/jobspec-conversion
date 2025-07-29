@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=transfer
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=transfer
+#SBATCH --output=outputs/unet-%A.out
+#SBATCH --error=outputs/unet-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

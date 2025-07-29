@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-fork-5784
-#FLUX: -c=4
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --time=08:00:00
+#SBATCH --partition=amd_a100nv_8
+#SBATCH --constraint=ntasks-per-node=2
 
 if [ -e port_forwarding_command ]
 then

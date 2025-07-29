@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-lab
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-lab
+#SBATCH --output=./logs/jupyter-lab-%J.log
+#SBATCH --error=./logs/jupyter-lab-%J-errors.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2G
+#SBATCH --time=03:00:00
 
 export DASK_DISTRIBUTED__DASHBOARD__LINK='proxy/{port}/status'
 

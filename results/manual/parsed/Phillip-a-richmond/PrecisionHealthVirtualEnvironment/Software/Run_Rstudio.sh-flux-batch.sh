@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-parrot-5048
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-carrot-3405
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Phillip-a-richmond/PrecisionHealthVirtualEnvironment/Software/Run_Rstudio.sh

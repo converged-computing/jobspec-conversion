@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nonorm
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=nonorm
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=Peter_Shen@hms.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=00:04:00
+#SBATCH --partition=short
 
 source /home/pzs2/keras/bin/activate
 today=`date '+%m_%d__%H_%M'`;

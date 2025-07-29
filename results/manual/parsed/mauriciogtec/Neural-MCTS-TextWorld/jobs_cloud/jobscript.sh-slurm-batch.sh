@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gnormal
-#FLUX: -N=16
-#FLUX: -n=256
-#FLUX: --queue=normal
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=gnormal
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='1'

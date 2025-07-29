@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-parsnip-7986
-#FLUX: --queue=hgx2q
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:10
+#SBATCH --partition=hgx2q
+#SBATCH --nodelist=g002
 
 export OMPI_MCA_opal_cuda_support='true'
 

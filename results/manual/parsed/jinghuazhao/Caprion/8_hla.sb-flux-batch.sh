@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=_HATK
-#FLUX: --queue=cardio
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=_HATK
+#FLUX --queue=cardio
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export analysis='~/Caprion/analysis'
 export cookhla='${HPC_WORK}/CookHLA'

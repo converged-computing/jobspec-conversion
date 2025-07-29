@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-platanos-7573
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=1450_slurm_NiAlMo
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 module load gcc/10.2.0 cuda spack gnu8 gsl
 . /home/apps/spack/share/spack/setup-env.sh

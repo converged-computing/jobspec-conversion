@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=parallel
-#FLUX: --queue=day
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=parallel
+#FLUX --queue=day
+#FLUX -t=3600
+#FLUX --urgency=16
 
 NUM_LIST=($(seq 0 1 5))
 echo "rng seed = " ${NUM_LIST[${SLURM_ARRAY_TASK_ID}]}

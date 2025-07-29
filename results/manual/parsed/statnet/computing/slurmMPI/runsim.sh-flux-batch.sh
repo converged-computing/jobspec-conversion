@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-staircase-1965
-#FLUX: -N=6
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-kerfuffle-1088
+#FLUX -N=6
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load icc_18-ompi_1.8.8
 module load r_3.2.5

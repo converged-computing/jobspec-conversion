@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NF
-#FLUX: -n=2
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NF
+#SBATCH --account=nn9036k
+#SBATCH --output=nfSLURMLOG
+#SBATCH --mail-user=animesh.sharma@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=1-00:00:00
 
 export PATH='$PATH:$PWD'
 export http_proxy='proxy.saga:3128'

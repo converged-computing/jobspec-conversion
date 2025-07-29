@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bike-2465
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-cat-9059
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00103.sh

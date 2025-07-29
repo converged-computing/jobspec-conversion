@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BrightnessTremor
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=BrightnessTremor
+#SBATCH --account=nesi00219
+#SBATCH --output=stdout_%a.txt
+#SBATCH --error=stderr_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000
+#SBATCH --time=04:00:00
+#SBATCH --array=0-12
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

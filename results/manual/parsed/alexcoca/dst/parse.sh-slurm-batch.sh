@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=parse
-#FLUX: -n=76
-#FLUX: --queue=icelake
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=parse
+#SBATCH --account=BYRNE-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=76
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=icelake
+#SBATCH --array=0-4
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

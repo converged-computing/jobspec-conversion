@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnorm
-#FLUX: --queue=ccn
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=resnorm
+#FLUX --queue=ccn
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ARRAY_ID=$1
 PARAMETER_FILE=$2

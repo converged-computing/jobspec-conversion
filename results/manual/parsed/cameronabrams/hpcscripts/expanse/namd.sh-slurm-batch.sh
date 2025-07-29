@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -N=2
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --account=dxu100
+#SBATCH --output=namd.%j.%N.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=128
 
 export OMP_NUM_THREADS='${NCPU}'
 

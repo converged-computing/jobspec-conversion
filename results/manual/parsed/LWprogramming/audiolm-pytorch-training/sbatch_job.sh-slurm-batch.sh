@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=audiolm-e2e-openslr-dev-clean
-#FLUX: --queue=g40x
-#FLUX: --urgency=16
+#SBATCH --job-name=audiolm-e2e-openslr-dev-clean
+#SBATCH --output=../audiolm-pytorch-results/output-%A.log
+#SBATCH --error=../audiolm-pytorch-results/error-%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --partition=g40x
 
 while getopts "r:p:s:S:C:F:t:" opt; do
   case ${opt} in

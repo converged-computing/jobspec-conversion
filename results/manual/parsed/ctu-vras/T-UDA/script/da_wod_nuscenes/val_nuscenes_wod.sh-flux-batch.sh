@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-gato-5229
-#FLUX: -c=24
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-snack-4278
+#FLUX -c=24
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 cd ../..
 ml torchsparse/1.4.0-foss-2021a-CUDA-11.3.1

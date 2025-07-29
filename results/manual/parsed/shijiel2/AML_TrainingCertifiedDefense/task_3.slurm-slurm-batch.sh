@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=task_3
-#FLUX: -c=24
-#FLUX: --queue=gpgpumse
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=task_3
+#SBATCH --account=punim1629
+#SBATCH --output=task_3.log
+#SBATCH --mail-user=404notfxxkingfound@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64G
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpgpumse
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Loading required modules"
 module load fosscuda/2020b

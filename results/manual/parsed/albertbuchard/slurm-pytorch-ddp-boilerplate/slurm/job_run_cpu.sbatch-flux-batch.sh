@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=slurm-pytorch-ddp-boilerplate
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=shared-cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=slurm-pytorch-ddp-boilerplate
+#FLUX -N=2
+#FLUX -c=12
+#FLUX --queue=shared-cpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export VENV_PATH='$HOME/venv/slurm-pytorch-ddp-boilerplate'
 export MASTER_PORT='$master_port'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IO-500
-#FLUX: -N=16
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=IO-500
+#FLUX -N=16
+#FLUX -t=2400
+#FLUX --urgency=16
 
 filesys_root=/fscratch
 basedir=${filesys_root}/gflofst

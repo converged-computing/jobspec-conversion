@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=interpret
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=interpret
+#SBATCH --output=outputs/interpret-%A.out
+#SBATCH --error=outputs/interpret-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

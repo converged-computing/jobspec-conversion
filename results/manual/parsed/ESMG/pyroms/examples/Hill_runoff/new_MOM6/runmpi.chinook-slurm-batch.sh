@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=runoff-remap
-#FLUX: --queue=t1small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=runoff-remap
+#SBATCH --account=akwaters
+#SBATCH --output=bdry.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=t1small
+#SBATCH: --no-requeue
 
 cd $SLURM_SUBMIT_DIR
 . /usr/share/Modules/init/bash

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-8265
-#FLUX: -c=32
-#FLUX: --queue=q_thesis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=c.out
+#SBATCH --error=c.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:15:00
+#SBATCH --partition=q_thesis
 
 export OMP_NUM_THREADS='32'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-punk-7925
-#FLUX: --queue=mhealth,...
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=hello-carrot-2905
+#FLUX --queue=mhealth,...
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export IFS=';'
 

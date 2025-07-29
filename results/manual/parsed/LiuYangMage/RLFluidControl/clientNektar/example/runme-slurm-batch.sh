@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cyl3_5
-#FLUX: -N=8
-#FLUX: -t=174600
-#FLUX: --urgency=16
+#SBATCH --job-name=cyl3_5
+#SBATCH --output=Re11K.out
+#SBATCH --error=Re11K.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:30:00
 
  module load mpi/mvapich2-2.3a_intel
  module load python/3.5.2

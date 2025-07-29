@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb
-#FLUX: -c=8
-#FLUX: --queue=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb
+#SBATCH --output=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb.%j.out
+#SBATCH --error=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=50G
+#SBATCH --time=06:00:00
+#SBATCH --partition=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
 
 export MKL_NUM_THREADS='1'
 

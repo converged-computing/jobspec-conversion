@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cupcake-6260
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpu-high|gpu-mid
+#SBATCH --exclude=yu-compute-01,scaglione-compute-01,compling-compute-02,rush-compute-01
 
 export PYTHONPATH='${PWD}"  # Add root directory to PYTHONPATH to enable module imports'
 export NCCL_DEBUG='INFO'

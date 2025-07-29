@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-2750
-#FLUX: -c=12
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#SBATCH --account=def-ycoady
+#SBATCH --output=nerfstudio_train_model_%j.out
+#SBATCH --mail-user=ribas.w@northeastern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32G
+#SBATCH --time=02:59:00
 
 programname=$0
 function usage {

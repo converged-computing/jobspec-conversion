@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-5835
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-taco-0158
+#FLUX -t=600
+#FLUX --urgency=16
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 DIR=$(sed -n "${SLURM_ARRAY_TASK_ID}p" input_folders)

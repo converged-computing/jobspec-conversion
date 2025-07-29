@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=dgemm_thin
-#FLUX: --exclusive
-#FLUX: --queue=THIN
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=dgemm_thin
+#SBATCH --output=dgemm_thin_job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=490G
+#SBATCH --time=02:00:00
+#SBATCH --partition=THIN
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=24
+#SBATCH --chdir=/u/dssc/mdepet00/assignment/exercise2
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='spread'

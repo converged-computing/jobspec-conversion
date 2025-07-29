@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pot-4945
-#FLUX: --queue=gpu-2080ti
-#FLUX: -t=100800
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-lettuce-5942
+#FLUX --queue=gpu-2080ti
+#FLUX -t=100800
+#FLUX --urgency=16
 
 scontrol show job $SLURM_JOB_ID 
 echo "---------- JOB INFOS ------------"

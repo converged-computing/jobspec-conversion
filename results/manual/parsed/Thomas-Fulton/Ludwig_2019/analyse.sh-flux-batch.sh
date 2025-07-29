@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-3558
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-ricecake-1519
+#FLUX -c=8
+#FLUX --queue=defq
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'
 export LANG='C.UTF-8 ; '

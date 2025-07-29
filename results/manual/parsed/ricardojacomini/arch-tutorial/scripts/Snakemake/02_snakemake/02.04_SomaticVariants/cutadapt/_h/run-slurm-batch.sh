@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cutadapt
-#FLUX: -c=4
-#FLUX: --queue=defq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=cutadapt
+#SBATCH --output=cutadapt.job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=02:00:00
+#SBATCH --partition=defq
 
 module load snakemake/7.6.0
 snakemake --jobs 200 --latency-wait 240 --cluster 'sbatch --parsable --distribution=arbitrary' --snakefile ../_h/snakemake.slurm.script

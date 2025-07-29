@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=s1245
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=s1245
+#SBATCH --output=outputs/shrec6_1-2-4-5.txt
+#SBATCH --mail-user=dpere013@odu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 enable_lmod
 module load python/3.6

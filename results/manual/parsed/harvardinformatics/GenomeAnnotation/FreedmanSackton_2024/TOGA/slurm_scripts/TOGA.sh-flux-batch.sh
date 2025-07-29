@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=toga
-#FLUX: --queue=shared
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=toga
+#FLUX --queue=shared
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module purge
 module load python

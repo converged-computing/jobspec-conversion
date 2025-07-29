@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=veros_mysetup
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=mycluster
-#FLUX: --urgency=16
+#SBATCH --job-name=veros_mysetup
+#SBATCH --account=myaccount
+#SBATCH --mail-user=your@email.xyz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=mycluster
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 

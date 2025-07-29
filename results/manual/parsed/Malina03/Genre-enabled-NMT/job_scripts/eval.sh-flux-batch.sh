@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load TensorFlow/2.11.0-foss-2022a-CUDA-11.7.0

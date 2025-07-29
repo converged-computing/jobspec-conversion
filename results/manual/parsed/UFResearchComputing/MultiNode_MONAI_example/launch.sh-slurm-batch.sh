@@ -1,12 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=multinode_pytorch
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode_pytorch
+#SBATCH --output=train.%j.out
+#SBATCH --mail-user=<your
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem-per-cpu=96gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peanut-7639
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=validation.%j.out
+#SBATCH --error=validation.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
+#SBATCH --constraint=v100
 
 module purge
 module load gcc/8.3.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifft
-#FLUX: -n=64
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=gearshifft
+#FLUX -n=64
+#FLUX --queue=regular
+#FLUX -t=1200
+#FLUX --urgency=16
 
 BOOST_VER=1.65.1
 FFTW_VER=3.3.6.3

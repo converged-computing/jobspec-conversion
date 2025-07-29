@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DRO_compas_seed_avg
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#FLUX --job-name=DRO_compas_seed_avg
+#FLUX -c=6
+#FLUX --queue=gpu_shared_course
+#FLUX -t=16200
+#FLUX --urgency=16
 
 module purge
 module load 2019

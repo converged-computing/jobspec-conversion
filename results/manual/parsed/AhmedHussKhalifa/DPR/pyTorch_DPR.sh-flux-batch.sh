@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-eagle-1198
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=astute-plant-0999
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$CUDA_HOME/lib64:$LD_LIBRARY_PATH'
 

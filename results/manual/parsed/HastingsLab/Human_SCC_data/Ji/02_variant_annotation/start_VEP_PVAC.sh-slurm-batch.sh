@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Merge
-#FLUX: --queue=general
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Merge
+#SBATCH --mail-user=eknodel@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40000
+#SBATCH --time=10:00:00
+#SBATCH --partition=general
 
 source activate vep_env
 module load bcftools-1.14-gcc-11.2.0

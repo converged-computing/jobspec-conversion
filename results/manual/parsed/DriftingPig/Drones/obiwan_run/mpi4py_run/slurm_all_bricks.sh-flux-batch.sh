@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=obiwan
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=obiwan
+#FLUX -N=4
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export name_for_run='elg_dr5_eboss'
 export randoms_db='None #run from a fits file'

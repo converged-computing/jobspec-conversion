@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stianrh_AMD_Refiner
-#FLUX: --queue=WORKQ
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=stianrh_AMD_Refiner
+#SBATCH --account=ie-idi
+#SBATCH --output=terminal_output/refiner_log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=WORKQ
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

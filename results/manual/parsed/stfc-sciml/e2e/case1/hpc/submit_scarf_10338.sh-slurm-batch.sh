@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-4222
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=scarf
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=scarf
+#SBATCH: --exclusive
+#SBATCH --constraint=scarf17
 
 export BASE_DIR='/home/vol08/scarf688/git/intel-e2e-benchmark/case1'
 export RELION_IMG='$BASE_DIR/relion.sif'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_Sysinfo_job
-#FLUX: -n=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_Sysinfo_job
+#SBATCH --output=rfm_Sysinfo_job.out
+#SBATCH --error=rfm_Sysinfo_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_1:1'

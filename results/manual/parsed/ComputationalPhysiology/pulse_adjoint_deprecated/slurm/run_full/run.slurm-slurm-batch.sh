@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SubName
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=SubName
+#SBATCH --account=NN9249K
+#SBATCH --output=slurmfiles/impact-%j.out
+#SBATCH --mail-user=henriknf@simula.no
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=4-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export CC='gcc'
 export CXX='g++'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=text2table
-#FLUX: -N=3
-#FLUX: -c=96
-#FLUX: --queue=oermannlab
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=text2table
+#FLUX -N=3
+#FLUX -c=96
+#FLUX --queue=oermannlab
+#FLUX -t=432000
+#FLUX --urgency=16
 
 echo "hostname:"
 hostname

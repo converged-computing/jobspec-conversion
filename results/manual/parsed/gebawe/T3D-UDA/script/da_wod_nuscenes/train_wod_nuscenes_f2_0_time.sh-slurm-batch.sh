@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lemur-1455
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/T-UDA/logs/train_uda_wod_nuscenes_f2_0_time_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=amdgpuextralong
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_LL_THRESHOLD='0'
 

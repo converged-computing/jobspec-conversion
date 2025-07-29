@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=roberta_job
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=roberta_job
+#SBATCH --output=logs/job_outputs/roberta_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --array=1
 
 module purge
 module load 2019

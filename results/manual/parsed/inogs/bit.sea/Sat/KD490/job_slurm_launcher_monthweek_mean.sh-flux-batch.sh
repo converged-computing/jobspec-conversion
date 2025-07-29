@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=KID490_check
-#FLUX: -N=15
-#FLUX: --queue=gll_meteo_prod
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=KID490_check
+#FLUX -N=15
+#FLUX --queue=gll_meteo_prod
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/gpfs/work/OGS20_PRACE_P/COPERNICUS/bit.sea'
 

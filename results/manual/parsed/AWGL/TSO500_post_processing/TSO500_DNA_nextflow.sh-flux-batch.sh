@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-animal-0404
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-signal-5764
+#FLUX --queue=high
+#FLUX --urgency=16
 
 FASTQ_PATH=$1
 SAMPLES_ORDER=$2

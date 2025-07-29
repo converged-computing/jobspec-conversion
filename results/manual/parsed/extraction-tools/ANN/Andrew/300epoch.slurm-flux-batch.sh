@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-1569
-#FLUX: --queue=standard
-#FLUX: -t=59400
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-chip-9022
+#FLUX --queue=standard
+#FLUX -t=59400
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2019.10-py3.7

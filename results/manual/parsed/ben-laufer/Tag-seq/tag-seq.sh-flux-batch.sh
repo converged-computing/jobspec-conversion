@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tag-seq
-#FLUX: -n=8
-#FLUX: --queue=production
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=tag-seq
+#FLUX -n=8
+#FLUX --queue=production
+#FLUX -t=1800
+#FLUX --urgency=16
 
 start=`date +%s`
 hostname

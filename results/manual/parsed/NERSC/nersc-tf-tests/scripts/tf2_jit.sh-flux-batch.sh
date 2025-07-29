@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf-jit-test
-#FLUX: -c=32
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=tf-jit-test
+#FLUX -c=32
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export NCCL_DEBUG='${NCCL_DEBUG:-WARN}'
 export TF_CPP_MIN_LOG_LEVEL='${TF_CPP_MIN_LOG_LEVEL:-0} #3'

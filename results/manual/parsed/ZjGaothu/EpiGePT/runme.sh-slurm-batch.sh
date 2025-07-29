@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-general-4268
-#FLUX: -n=32
-#FLUX: --queue=whwong
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=output_pre.txt
+#SBATCH --error=error_pre.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=250G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=whwong
 
 ml load cuda/10.1.105
 ml load cudnn/7.6.5

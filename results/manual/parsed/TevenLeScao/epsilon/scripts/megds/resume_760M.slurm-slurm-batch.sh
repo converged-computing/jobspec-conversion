@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=epsilon-760M
-#FLUX: -N=8
-#FLUX: -c=40
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=epsilon-760M
+#SBATCH --account=ajs@v100
+#SBATCH --output=/gpfswork/rech/six/uhk85as/code/epsilon/logs/tests/%x-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:08:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
+#SBATCH --array=0-0
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

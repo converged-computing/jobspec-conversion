@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ShalCNN
-#FLUX: --queue=gpu3
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ShalCNN
+#SBATCH --account=general-gpu
+#SBATCH --output=ShallCNN-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:GeForce GTX 1080 Ti:1
+#SBATCH --mem=10G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu3
+#SBATCH --qos=normal
 
 export GPUARRAY_FORCE_CUDA_DRIVER_LOAD=''
 export HDF5_USE_FILE_LOCKING='FALSE'

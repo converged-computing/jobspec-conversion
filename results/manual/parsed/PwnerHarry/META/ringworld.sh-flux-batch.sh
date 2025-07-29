@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-house-2082
-#FLUX: -c=24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-blackbean-5295
+#FLUX -c=24
+#FLUX -t=172800
+#FLUX --urgency=16
 
 TARGET="0.35"
 BEHAVIOR="0.4"

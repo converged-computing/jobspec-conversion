@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-eagle-0274
-#FLUX: -N=2
-#FLUX: -c=5
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH: --exclusive
 
 echo "#################### Job submission script. #############################"
 cat $0

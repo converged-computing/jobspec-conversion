@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=inversion
-#FLUX: --queue=singlepe
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=inversion
+#SBATCH --account=mod3eval
+#SBATCH --output=slurm.%j.antbe6.out
+#SBATCH --error=slurm.%j.antbe6.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=singlepe
 
 myiter=antbe6 #name (APPL) of this iteration
 previter=antbe5 #name of previous iteration

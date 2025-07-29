@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pluc_braker
-#FLUX: --exclusive
-#FLUX: --queue=condo
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=pluc_braker
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=condo
+#SBATCH --qos=condo
+#SBATCH: --exclusive
+#SBATCH --constraint=douglas&768gb,ntasks-per-node=32
 
 module purge
 module load singularity/3.9.7

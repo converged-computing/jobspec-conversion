@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=porechop_array
-#FLUX: -c=32
-#FLUX: --queue=standard
-#FLUX: --urgency=16
+#SBATCH --job-name=porechop_array
+#SBATCH --account=True
+#SBATCH --output=myoutput_%j.out
+#SBATCH --error=myerrors_%j.err
+#SBATCH --mail-user=email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=standard
+#SBATCH --array=1-12
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

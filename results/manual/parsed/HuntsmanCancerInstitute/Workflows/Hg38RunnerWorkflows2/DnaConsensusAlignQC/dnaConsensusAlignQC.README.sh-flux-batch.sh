@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peanut-butter-7942
-#FLUX: --queue=hci-rw
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-mango-1244
+#FLUX --queue=hci-rw
+#FLUX -t=345600
+#FLUX --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity

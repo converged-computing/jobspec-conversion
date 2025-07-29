@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-1837
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --output=log/%j-train_probes.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=4G
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

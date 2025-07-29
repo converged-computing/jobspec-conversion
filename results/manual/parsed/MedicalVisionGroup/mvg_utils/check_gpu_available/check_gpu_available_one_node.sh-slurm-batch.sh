@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chk_gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=chk_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=1GB
 
 set -e # fail fully on first line failure
 echo "$(hostname)"

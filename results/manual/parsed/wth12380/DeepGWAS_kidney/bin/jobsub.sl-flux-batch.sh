@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-avocado-7034
-#FLUX: --queue=l40-gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-bike-2506
+#FLUX --queue=l40-gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/nas/longleaf/home/wth12380/.conda/envs/RTensorFlow/lib/python3.10/site-packages/tensorrt_libs:$LD_LIBRARY_PATH'
 

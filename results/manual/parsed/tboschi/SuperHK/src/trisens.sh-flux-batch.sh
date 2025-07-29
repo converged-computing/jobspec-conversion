@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-squidward-3254
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-puppy-9289
+#FLUX --urgency=16
 
 usage="
 usage: $0 -r <root> -d <sample> -1 <mh1> -2 <mh2> [-x] [<options>]

@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nalgas-9956
-#FLUX: -N=64
-#FLUX: -n=64
-#FLUX: --queue=broadwell
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=64
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=broadwell
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,verbose,compact,1,0'

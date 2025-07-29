@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-car-8092
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-lemon-7923
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HI2018HLT/GeneralDebug/17624_SnapshotTesting/Template.sh

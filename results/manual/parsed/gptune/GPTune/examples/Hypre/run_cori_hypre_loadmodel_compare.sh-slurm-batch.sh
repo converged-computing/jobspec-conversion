@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_driver
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=premium
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=test_driver
+#SBATCH --mail-user=younghyun@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=20:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=haswell
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64:/opt/intel/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64'

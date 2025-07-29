@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lettuce-6664
-#FLUX: -c=48
-#FLUX: --queue=hpc4-3d
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#FLUX --job-name=faux-cinnamonbun-5874
+#FLUX -c=48
+#FLUX --queue=hpc4-3d
+#FLUX -t=259199
+#FLUX --urgency=16
 
 export OPENBLAS_NUM_THREADS='2'
 

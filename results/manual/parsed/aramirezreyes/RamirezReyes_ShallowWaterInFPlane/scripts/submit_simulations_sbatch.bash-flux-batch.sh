@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-general-4077
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-avocado-2456
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

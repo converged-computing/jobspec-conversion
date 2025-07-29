@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RL3
-#FLUX: -c=8
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=RL3
+#SBATCH --output=./logs/tjob.out.%A_%a
+#SBATCH --error=./logs/tjob.err.%A_%a
+#SBATCH --mail-user=akshaykjagadish@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=1-16:00:00
 
 cd ~/RL3NeurIPS/
 module purge

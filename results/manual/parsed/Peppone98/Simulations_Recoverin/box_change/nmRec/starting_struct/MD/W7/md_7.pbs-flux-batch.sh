@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-snack-8883
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-bike-1139
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/MD/W7/md_7.pbs

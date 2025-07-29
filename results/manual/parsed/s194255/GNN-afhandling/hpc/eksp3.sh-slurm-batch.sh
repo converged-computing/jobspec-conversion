@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-kerfuffle-0494
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/s194255/GNN-afhandling/hpc/eksp3.sh

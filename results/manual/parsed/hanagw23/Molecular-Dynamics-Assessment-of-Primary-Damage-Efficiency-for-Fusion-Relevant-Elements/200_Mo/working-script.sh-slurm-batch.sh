@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parrot-2982
-#FLUX: -N=3
-#FLUX: -n=96
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-23:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

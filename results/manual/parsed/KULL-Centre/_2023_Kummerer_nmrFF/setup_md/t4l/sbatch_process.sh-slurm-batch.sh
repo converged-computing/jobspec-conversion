@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=t4l_opt
-#FLUX: --queue=qgpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=t4l_opt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-5
 
 echo "========= Job started  at `date` =========="
 echo This job is running on the following node\(s\):

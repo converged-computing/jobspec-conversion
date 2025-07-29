@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hicma
-#FLUX: -c=128
-#FLUX: --queue=users
-#FLUX: --urgency=16
+#SBATCH --job-name=hicma
+#SBATCH --output=/ibex/scratch/omairyrm/hicma-amd/hicma-dev/amd-exp/out/%j
+#SBATCH --error=/ibex/scratch/omairyrm/hicma-amd/hicma-dev/amd-exp/err/%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --partition=users
 
 export STARPU_CALIBRATE='0'
 

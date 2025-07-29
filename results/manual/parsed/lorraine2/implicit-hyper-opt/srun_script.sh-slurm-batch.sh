@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=%A_%a
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=%A_%a
+#SBATCH --output=slurm_out/slurm_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4GB
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='/pkgs/cuda-9.2/lib64:$LD_LIBRARY_PATH'
 

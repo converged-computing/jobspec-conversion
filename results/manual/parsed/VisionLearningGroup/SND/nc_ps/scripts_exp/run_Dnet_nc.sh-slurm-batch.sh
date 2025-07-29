@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-plant-9999
-#FLUX: --queue=gpu-L
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu-L
+#SBATCH --constraint=gpu6
 
 d=$(date)
 echo $d nvidia-smi

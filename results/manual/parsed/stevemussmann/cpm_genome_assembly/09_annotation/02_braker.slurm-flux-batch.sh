@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pluc_braker
+#FLUX --job-name=pluc_braker
 #FLUX: --exclusive
-#FLUX: --queue=condo
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --queue=condo
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module purge
 module load singularity/3.9.7

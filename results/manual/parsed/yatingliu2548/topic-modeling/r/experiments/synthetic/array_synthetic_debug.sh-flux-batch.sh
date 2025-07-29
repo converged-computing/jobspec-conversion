@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=array
-#FLUX: -n=5
-#FLUX: --queue=amd
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=array
+#FLUX -n=5
+#FLUX --queue=amd
+#FLUX -t=126000
+#FLUX --urgency=16
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 echo "My SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=soss2015
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=soss2015
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load matlab
 echo $1

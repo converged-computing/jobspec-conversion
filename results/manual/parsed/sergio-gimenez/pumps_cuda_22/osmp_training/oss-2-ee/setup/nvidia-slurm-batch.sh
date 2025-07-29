@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=oss-2-ee
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=oss-2-ee
+#SBATCH --output=oss-2-ee_%j.out
+#SBATCH --error=oss-2-ee_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:15:00
+#SBATCH --qos=debug
+#SBATCH --chdir=.
 
 export OSS2EE_MPI_LIB_DIR='/apps/INTEL/2017.2-028/impi/2017.2.191/lib64'
 export OSS2EE_MPI_INC_DIR='/apps/INTEL/2017.2-028/impi/2017.2.191/include64'

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-snack-2489
-#FLUX: -N=10
-#FLUX: --urgency=16
+#SBATCH --output=/home/Matt.Long/run_bench_%j.out
+#SBATCH --error=/home/Matt.Long/run_bench_%j.out
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=4
 
 source wfenv.sh
 source inputs.sh

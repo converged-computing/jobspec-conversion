@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=find-gpu
-#FLUX: --queue=accel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=find-gpu
+#SBATCH --account=ec37
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=2G
+#SBATCH --time=00:10:00
+#SBATCH --partition=accel
+#SBATCH --qos=devel
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

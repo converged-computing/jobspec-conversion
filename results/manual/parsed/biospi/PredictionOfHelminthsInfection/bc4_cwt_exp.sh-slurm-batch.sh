@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cwt
-#FLUX: -c=28
-#FLUX: --queue=hmem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=cwt
+#SBATCH --output=cwt_job_out
+#SBATCH --error=cwt_job_error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=480000M
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=hmem
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-28
 
 export WORK_DIR='/user/work/fo18103/PredictionOfHelminthsInfection'
 

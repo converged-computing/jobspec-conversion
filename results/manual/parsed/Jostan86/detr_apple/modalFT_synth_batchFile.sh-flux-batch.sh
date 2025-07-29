@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=modalFineTune
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#FLUX --job-name=modalFineTune
+#FLUX --queue=dgx
+#FLUX --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

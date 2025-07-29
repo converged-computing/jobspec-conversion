@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MOM6
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MOM6
+#SBATCH --account=cimes2
+#SBATCH --mail-user=cheng.zhang@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=512000M
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/lib64:/home/cz3321/torch_gpu/lib'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=wd
+#SBATCH --output=log_files/out_%A_%a
+#SBATCH --error=log_files/err_%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-1620%700
 
 py_map_creator=map_index_cf.py
 initiator=initialize.py

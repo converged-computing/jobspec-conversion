@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ciftify
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ciftify
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=04:00:00
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

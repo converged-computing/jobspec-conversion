@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_transConv
-#FLUX: --queue=gpulab02
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch_transConv
+#FLUX --queue=gpulab02
+#FLUX --urgency=16
 
 env_name="trans"
 seq_lens=(336)

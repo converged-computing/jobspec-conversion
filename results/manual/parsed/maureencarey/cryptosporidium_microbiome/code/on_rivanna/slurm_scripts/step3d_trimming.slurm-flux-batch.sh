@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-2457
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-toaster-5144
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load gcc bbmap

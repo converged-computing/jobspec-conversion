@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=collagen_quantification
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=collagen_quantification
+#SBATCH --output=collagen_seg_quantification_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100gb
+#SBATCH --time=01:00:00
+#SBATCH --qos=pinaki.sarder-b
 
 pwd; hostname; date
 module load singularity

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -N=2
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=resnet
+#FLUX -N=2
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /apps/daint/UES/6.0.UP02/sandbox-dl/modules/all
 module load daint-gpu

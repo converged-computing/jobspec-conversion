@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-poo-4761
-#FLUX: -c=4
-#FLUX: --queue=v100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-rabbit-1913
+#FLUX -c=4
+#FLUX --queue=v100
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 set -x

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Daytona_dengue
-#FLUX: -c=25
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Daytona_dengue
+#SBATCH --account=bphl-umbrella
+#SBATCH --output=daytona_dengue.%j.out
+#SBATCH --error=daytona_dengue.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=25
+#SBATCH --mem=100gb
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=bphl-umbrella
 
 module load apptainer
 bash ./kraken2_viral.sh

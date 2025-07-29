@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=variantCalling
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=variantCalling
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 module load nextflow
 module load singularity

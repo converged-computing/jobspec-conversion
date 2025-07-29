@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hobbit-3621
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=log.analyze-parallel.out
+#SBATCH --error=log.analyze-parallel.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 OUT=hpctoolkit-amg2013
 module use /global/common/software/m3977/hpctoolkit/2021-11/modules

@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch.distributed
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: --queue=TrixieMain
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch.distributed
+#SBATCH --account=dt-mtp
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --partition=TrixieMain
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

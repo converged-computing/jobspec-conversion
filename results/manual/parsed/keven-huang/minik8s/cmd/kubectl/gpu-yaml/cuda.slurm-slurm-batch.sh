@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cublas
-#FLUX: -c=6
-#FLUX: --queue=dgx2
-#FLUX: --urgency=16
+#SBATCH --job-name=cublas
+#SBATCH --output=result/%j.out
+#SBATCH --error=result/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --partition=dgx2
+#SBATCH --constraint=ntasks-per-node=1
 
 ulimit -s unlimited
 ulimit -l unlimited

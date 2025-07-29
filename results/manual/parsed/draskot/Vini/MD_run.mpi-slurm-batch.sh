@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MD_run
-#FLUX: -N=4
-#FLUX: --queue=computes_thin
-#FLUX: --urgency=16
+#SBATCH --job-name=MD_run
+#SBATCH --output=MD_run.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=computes_thin
+#SBATCH --constraint=ntasks-per-node=24
 
 NULL=0   #checking if MD_prep job finished or an error occured
 error=0 ; echo $error > error 

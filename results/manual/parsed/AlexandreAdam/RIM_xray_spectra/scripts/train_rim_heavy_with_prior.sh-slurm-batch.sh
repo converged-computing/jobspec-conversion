@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Train_RIM_xray_prior
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_RIM_xray_prior
+#SBATCH --account=rrg-lplevass
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:23:00
+#SBATCH --array=1
 
 source $HOME/environments/milex/bin/activate
 python $HOME/scratch/RIM_xray_spectra/scripts/train_rim.py \

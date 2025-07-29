@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=codellama_humaneval
-#FLUX: -c=16
-#FLUX: --queue=r8nv-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=codellama_humaneval
+#SBATCH --output=codellama_13b_humaneval_inst.out
+#SBATCH --error=codellama_13b_humaneval_inst.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=r8nv-gpu
+#SBATCH --qos=gpu-short
+#SBATCH --constraint=40G
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lizard-7552
-#FLUX: --exclusive
-#FLUX: --queue=g100_usr_prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=IscrC_HOPE
+#SBATCH --output=myJob.out
+#SBATCH --error=myJob.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=g100_usr_prod
+#SBATCH: --exclusive
 
 module load spack 
 spack load adios2@2.9.1

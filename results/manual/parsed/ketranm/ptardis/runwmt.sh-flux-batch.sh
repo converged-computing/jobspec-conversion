@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buggy2k
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --job-name=buggy2k
+#FLUX -t=356400
+#FLUX --urgency=16
 
 module load cuda80/toolkit/8.0.44
 module load cuDNN/cuda80/5_5.1.5-1

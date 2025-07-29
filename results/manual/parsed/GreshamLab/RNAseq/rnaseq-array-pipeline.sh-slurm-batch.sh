@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=%a_rnaseq-array-pipeline
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=%a_rnaseq-array-pipeline
+#SBATCH --output=%A_%a.o
+#SBATCH --error=%A_%a.e
+#SBATCH --mail-user=${USER}@nyu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-3
 
 module purge
 module load trim_galore/0.4.4

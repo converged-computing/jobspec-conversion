@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bloom
-#FLUX: -c=4
-#FLUX: --queue=sphinx
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --job-name=bloom
+#SBATCH --output=/afs/cs.stanford.edu/u/biyuan/exe_log/bloom_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=03:59:00
+#SBATCH --partition=sphinx
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

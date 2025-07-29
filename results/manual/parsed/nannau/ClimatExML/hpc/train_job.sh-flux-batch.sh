@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-blackbean-3347
-#FLUX: -c=6
-#FLUX: -t=432960
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-onion-0027
+#FLUX -c=6
+#FLUX -t=432960
+#FLUX --urgency=16
 
 export PROJECT_DIR='$SLURM_TMPDIR # code uses project dir as base.'
 export DATA_DIR='$SLURM_TMPDIR/data'

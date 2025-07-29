@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bicycle-5201
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/_2023_Thomasen_Martini/A1_variants/Run_simulations/relax_grompp.sh

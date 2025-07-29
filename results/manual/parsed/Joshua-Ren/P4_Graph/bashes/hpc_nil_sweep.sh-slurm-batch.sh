@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pcba_reset
-#FLUX: -c=2
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=pcba_reset
+#SBATCH --account=NLP-CDT-SL2-GPU
+#SBATCH --output=./logs/stage1.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=ampere
 
 export NCCL_P2P_DISABLE='1'
 export NCCL_IB_DISABLE='1'

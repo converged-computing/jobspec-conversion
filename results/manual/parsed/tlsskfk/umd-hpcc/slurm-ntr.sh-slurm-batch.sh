@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-car-1558
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4096
+#SBATCH --time=1-00:00:00
 
 export HOME='/scratch/zt1/project/jpurcel8-prj/shared'
 export SOFTWARE_DIR='$HOME/fmriprep/software'

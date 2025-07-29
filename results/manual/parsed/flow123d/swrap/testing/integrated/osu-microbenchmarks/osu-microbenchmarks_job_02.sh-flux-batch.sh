@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-sundae-6097
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-leader-6794
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/flow123d/swrap/testing/integrated/osu-microbenchmarks/osu-microbenchmarks_job_02.sh

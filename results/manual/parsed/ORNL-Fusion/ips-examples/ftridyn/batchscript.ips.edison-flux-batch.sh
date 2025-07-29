@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-arm-6831
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-poodle-0782
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR   # optional, since this is the default behavior
 source /project/projectdirs/atom/users/tyounkin/ips-examples/ftridyn/env.ips.edison

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=salted-parsnip-5075
-#FLUX: -N=18
-#FLUX: --exclusive
-#FLUX: --queue=haswell64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --mail-user=mplaneta@os.inf.tu-dresden.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=18
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:30:00
+#SBATCH --partition=haswell64
+#SBATCH: --exclusive
 
 export MODULEPATH='~s9951545/.modules:$MODULEPATH'
 export CORRT_GOSSIP_SEEDS='$RANDOM'

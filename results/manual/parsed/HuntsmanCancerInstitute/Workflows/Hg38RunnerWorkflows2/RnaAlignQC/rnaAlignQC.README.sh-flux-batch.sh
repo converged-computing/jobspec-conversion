@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-earthworm-2332
-#FLUX: --queue=hci-rw
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-motorcycle-3941
+#FLUX --queue=hci-rw
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load singularity
 dataBundle=/uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/atlatl/data

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=trial_job
-#FLUX: -n=5
-#FLUX: --queue=your_partition_name
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=trial_job
+#SBATCH --output=logs/output_%A_%a.txt
+#SBATCH --error=logs/error_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=your_partition_name
+#SBATCH --array=1-30
 
 module load julia
 SEED=$(head /dev/urandom | tr -dc 0-9 | head -c 10)

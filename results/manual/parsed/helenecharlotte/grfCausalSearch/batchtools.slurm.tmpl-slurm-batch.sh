@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=<%=
-#FLUX: -c=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=<%=
+#SBATCH --output=<%=
+#SBATCH --error=<%=
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=01:00:00
 
 export DEBUGME='<%= Sys.getenv("DEBUGME") %>'
 

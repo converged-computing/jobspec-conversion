@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vscode
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=vscode
+#SBATCH --account=csstaff
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu
 
 export CRAY_CUDA_MPS='1'
 export HV_WORKSPACE='$SCRATCH/gt4py_vscode_workspace # TODO make unique'

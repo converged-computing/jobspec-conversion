@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-nunchucks-3909
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-staircase-4606
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /om2/user/avbalsam/prednet
 hostname

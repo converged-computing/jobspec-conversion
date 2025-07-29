@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=google_benchmark
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=google_benchmark
+#SBATCH --output=benchmark_daint.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=gpu
 
 export WORKON_HOME='~/Envs'
 

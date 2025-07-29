@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jigsaws_pointer
-#FLUX: --queue=k80
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=jigsaws_pointer
+#SBATCH --output=runlogs/jigsaws_pointer.%j.out
+#SBATCH --error=runlogs/jigsaws_pointer.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=04:30:00
+#SBATCH --partition=k80
 
 source  .env/bin/activate
 module load python/3.5.0

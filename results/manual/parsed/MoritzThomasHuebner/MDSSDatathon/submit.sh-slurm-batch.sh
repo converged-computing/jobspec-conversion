@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Py
-#FLUX: --queue=skylake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_Py
+#SBATCH --output=log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1000
+#SBATCH --time=01:00:00
+#SBATCH --partition=skylake
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python
 module load numpy/1.14.1-python-2.7.14

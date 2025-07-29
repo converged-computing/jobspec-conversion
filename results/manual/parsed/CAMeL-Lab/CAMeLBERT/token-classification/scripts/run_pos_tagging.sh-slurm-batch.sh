@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-squidward-9411
-#FLUX: --queue=condo
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120000
+#SBATCH --time=11:30:00
+#SBATCH --partition=condo
 
 export DATA_DIR='/scratch/ba63/magold_files/EGY'
 export MAX_LENGTH='512'

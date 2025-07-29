@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-ricecake-3858
-#FLUX: -N=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-lemon-1608
+#FLUX -N=4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 jar=damds-1.1-jar-with-dependencies.jar
 x='x'

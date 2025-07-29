@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-frito-3589
-#FLUX: --queue=DGXq
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-caramel-5162
+#FLUX --queue=DGXq
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

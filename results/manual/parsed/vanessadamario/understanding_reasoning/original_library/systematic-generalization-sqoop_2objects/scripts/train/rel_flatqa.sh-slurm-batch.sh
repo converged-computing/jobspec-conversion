@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=17336907_4RN
-#FLUX: --queue=normal
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#SBATCH --job-name=17336907_4RN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=13GB
+#SBATCH --time=10:30:00
+#SBATCH --partition=normal
+#SBATCH --array=0
 
 module add clustername/singularity/3.4.1
 singularity exec -B /om:/om --nv path_to_singularity-tensorflow2.simg \

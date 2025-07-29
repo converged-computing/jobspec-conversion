@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-punk-0602
-#FLUX: -n=24
-#FLUX: --urgency=16
+#FLUX --job-name=faux-staircase-6718
+#FLUX -n=24
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='256m'
 

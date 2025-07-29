@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=my_cpl_demo
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=my_cpl_demo
+#SBATCH --account=y23
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 

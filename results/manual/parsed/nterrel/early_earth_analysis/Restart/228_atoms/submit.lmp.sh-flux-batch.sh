@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_ani
-#FLUX: --queue=hpg-ai
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=lammps_ani
+#FLUX --queue=hpg-ai
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export LAMMPS_ANI_ROOT='/blue/roitberg/apps/lammps-ani'
 export LAMMPS_ROOT='${LAMMPS_ANI_ROOT}/external/lammps/'

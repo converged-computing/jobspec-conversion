@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=trn_SNR
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=trn_SNR
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1080:1
+#SBATCH --mem=20000M
+#SBATCH --time=01:20:00
+#SBATCH --partition=gpu
 
 export IFN_DIR_DATASET='/beegfs/data/shared'
 export IFN_DIR_CHECKPOINT='${PWD}/../../experiments/'

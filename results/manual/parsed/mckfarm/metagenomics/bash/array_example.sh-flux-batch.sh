@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=humann2_results
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=humann2_results
+#FLUX -n=4
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge all
 module load singularity

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpivalg_p4est_4_64
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mpivalg_p4est_4_64
+#SBATCH --account=Nixing-Scale-Bugs
+#SBATCH --output=mpivalg_p4est_4_64.%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

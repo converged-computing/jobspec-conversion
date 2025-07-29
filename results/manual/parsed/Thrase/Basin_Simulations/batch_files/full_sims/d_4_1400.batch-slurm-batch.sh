@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=14
-#FLUX: -c=8
-#FLUX: --queue=cisds
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=14
+#SBATCH --account=erickson
+#SBATCH --output=../batch_output/d_4_1400.out
+#SBATCH --error=../batch_output/d_4_1400.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=cisds
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=n243
 
 julia -t8 ../../Basin.jl ../../input_files/dynamic/large_simulations/d_4_1400.dat

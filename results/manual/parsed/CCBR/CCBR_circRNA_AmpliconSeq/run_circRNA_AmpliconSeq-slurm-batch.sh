@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=circRNA_ampliconseq
-#FLUX: -c=2
-#FLUX: --queue=ccr,norm
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=circRNA_ampliconseq
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10g
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=ccr,norm
 
 set -eo pipefail
 module purge

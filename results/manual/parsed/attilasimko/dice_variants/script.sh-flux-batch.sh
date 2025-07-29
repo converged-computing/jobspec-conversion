@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-8176
-#FLUX: --queue=alvis
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-peas-8908
+#FLUX --queue=alvis
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export var1='$1'
 export var2='$2'

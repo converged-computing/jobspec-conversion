@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=vQTL
-#FLUX: --urgency=16
+#FLUX --job-name=vQTL
+#FLUX --urgency=16
 
 echo "Activating environment..."
 source activate vQTL

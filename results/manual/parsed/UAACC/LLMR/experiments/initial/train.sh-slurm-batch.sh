@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=t5-ost
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=t5-ost
+#SBATCH --account=rrg-lilimou
+#SBATCH --output=/project/def-lilimou/mrli/logs/output-%j.log
+#SBATCH --error=/project/def-lilimou/mrli/logs/error-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:4
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 export TRANSFORMERS_OFFLINE='1'
 export MASTER_ADDR='127.0.0.1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-onion-2333
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-ricecake-9360
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BenHuiHui/kf/submit.pbs

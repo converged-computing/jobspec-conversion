@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pancake-9001
-#FLUX: --urgency=16
+#FLUX --job-name=confused-cupcake-2983
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/timurbazhirov/EPW/scripts/hopper/submit

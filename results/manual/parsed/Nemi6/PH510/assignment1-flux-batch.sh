@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SCMcG_Assignment_1
-#FLUX: -n=80
-#FLUX: --queue=teaching
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=SCMcG_Assignment_1
+#FLUX -n=80
+#FLUX --queue=teaching
+#FLUX -t=1200
+#FLUX --urgency=16
 
   module purge
   module load nvidia/sdk/21.3

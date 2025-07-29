@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cinnamonbun-6986
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=log-intel.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
 
 if [ X"$SLURM_STEP_ID" = "X" -a X"$SLURM_PROCID" = "X"0 ]
 then

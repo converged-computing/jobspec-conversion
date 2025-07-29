@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpu4_pencil_small_cuda
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=gpu_4
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu4_pencil_small_cuda
+#SBATCH --account=st
+#SBATCH --output=gpu4_pencil_small_cuda.%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu_4
+#SBATCH: --exclusive
 
 module load compiler/gnu/8.3.1
 module load devel/cuda/11.0

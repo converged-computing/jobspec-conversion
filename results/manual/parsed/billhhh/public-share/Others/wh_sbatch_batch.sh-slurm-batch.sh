@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peanut-0869
-#FLUX: -c=2
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=axxx@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
 
 nvidia-smi -l > nv-smi_sa.log.${SLURM_JOB_ID} 2>&1 &
 python ./main.py

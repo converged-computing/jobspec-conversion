@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=surf.discoal
-#FLUX: --queue=astyanax,small,amdsmall,cavefish
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=surf.discoal
+#FLUX --queue=astyanax,small,amdsmall,cavefish
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /home/mcgaughs/shared/Software/diploSHIC
 discoal="/home/mcgaughs/shared/Software/discoal/discoal"

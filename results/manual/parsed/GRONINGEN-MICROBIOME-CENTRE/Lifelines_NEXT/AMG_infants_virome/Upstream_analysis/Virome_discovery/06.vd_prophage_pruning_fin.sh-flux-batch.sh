@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VirusDiscovery
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=VirusDiscovery
+#FLUX -c=2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PATH='/scratch/hb-llnext/tools/mmseqs/bin/:$PATH'
 

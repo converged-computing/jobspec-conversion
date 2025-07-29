@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=render_ftle
-#FLUX: -N=16
-#FLUX: -c=48
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=render_ftle
+#FLUX -N=16
+#FLUX -c=48
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load cmake/3.13.2
 module load gcc/8

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rsfc
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=rsfc
+#FLUX -c=4
+#FLUX --queue=short
+#FLUX -t=10800
+#FLUX --urgency=16
 
 pwd; hostname; date
 set -e

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_depredict
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=train_depredict
+#SBATCH --output=outputs/eff-%A.out
+#SBATCH --error=outputs/eff-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=200G
+#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/ray'

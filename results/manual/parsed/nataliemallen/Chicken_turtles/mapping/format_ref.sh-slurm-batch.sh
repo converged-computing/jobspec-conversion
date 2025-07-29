@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ref_format
-#FLUX: -n=64
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#SBATCH --job-name=ref_format
+#SBATCH --account=johnwayne
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=allen715@purdue.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12-00:00:00
 
 module load biocontainers
 module load bioawk

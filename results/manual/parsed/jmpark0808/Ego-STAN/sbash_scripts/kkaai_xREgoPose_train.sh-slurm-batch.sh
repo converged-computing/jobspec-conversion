@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-kitty-2123
-#FLUX: -c=24
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --account=rrg-pfieguth
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=1-00:12:00
 
 module load python/3.9 cuda cudnn
 source ~/torch/bin/activate

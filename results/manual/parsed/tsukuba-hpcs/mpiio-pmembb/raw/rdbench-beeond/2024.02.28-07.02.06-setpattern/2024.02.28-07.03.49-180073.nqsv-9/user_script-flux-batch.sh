@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cat-1270
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-hobbit-0442
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/rdbench-beeond/2024.02.28-07.02.06-setpattern/2024.02.28-07.03.49-180073.nqsv-9/user_script

@@ -1,12 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cherry-8581
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: -c=12
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=bala-gatorflow
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=12
+#SBATCH --gpus-per-task=8
+#SBATCH --mem-per-cpu=1024gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --qos=bala-gatorflow
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='WARN #change to INFO if debugging DDP'
 

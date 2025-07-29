@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=XNAT
-#FLUX: -c=7
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=XNAT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 module load tools/Singularity
 if ! test -f "xnat-singularity.sif"; then

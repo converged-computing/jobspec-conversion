@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-destiny-5521
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-earthworm-3202
+#FLUX -c=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

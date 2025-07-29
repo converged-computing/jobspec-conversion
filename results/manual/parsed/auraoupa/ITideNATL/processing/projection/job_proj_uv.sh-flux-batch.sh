@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=projuv
-#FLUX: -c=2
+#FLUX --job-name=projuv
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set -e
 eval "$(conda shell.bash hook)"

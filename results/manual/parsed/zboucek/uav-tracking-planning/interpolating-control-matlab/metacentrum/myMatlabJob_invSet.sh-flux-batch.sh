@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-truffle-2303
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-milkshake-4148
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zboucek/uav-tracking-planning/interpolating-control-matlab/metacentrum/myMatlabJob_invSet.sh

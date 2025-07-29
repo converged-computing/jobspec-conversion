@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-egg-5133
-#FLUX: -N=128
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=m4388_g
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=512
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu&hbm80g
 
 export EXEC='${HERE}/pretrain_gpt_alcf.py'
 export hfds='${HERE}/hostfile_deepspeed" && [ -f "${hfds}" ] || exit'

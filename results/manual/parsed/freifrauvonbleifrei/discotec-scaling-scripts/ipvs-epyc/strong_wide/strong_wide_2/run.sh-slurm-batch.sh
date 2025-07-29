@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=strong_wide
-#FLUX: -n=65
-#FLUX: --exclusive
-#FLUX: -t=9600
-#FLUX: --urgency=16
+#SBATCH --job-name=strong_wide
+#SBATCH --output=./%x.%j.out
+#SBATCH --error=./%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=65
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:40:00
+#SBATCH: --exclusive
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='$SGPP_DIR/lib/sgpp:$LIB_GLPK:$LIB_BOOST_DIR:$LD_LIBRARY_PATH'
 export I_MPI_PIN_PROCESSOR_EXCLUDE_LIST='48-95'

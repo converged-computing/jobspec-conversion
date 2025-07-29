@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-milkshake-0226
-#FLUX: --queue=short,debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=iotest.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=short,debug
 
 mypid=$$
 echo 'My pid is '$mypid

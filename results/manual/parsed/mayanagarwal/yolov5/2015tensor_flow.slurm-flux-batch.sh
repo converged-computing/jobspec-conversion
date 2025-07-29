@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parsnip-6613
-#FLUX: --queue=shortgpgpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-bits-9350
+#FLUX --queue=shortgpgpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 source /usr/local/module/spartan_old.sh

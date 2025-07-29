@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bike-8943
-#FLUX: --queue=long
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-kitty-8254
+#FLUX --queue=long
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export WORKFLOW_DIR='/scratch/shared/pwesolowski/mgr-pipeline/merlin/'
 export DATA_DIR='/scratch/shared/pwesolowski/mgr-pipeline/joined-recommender'

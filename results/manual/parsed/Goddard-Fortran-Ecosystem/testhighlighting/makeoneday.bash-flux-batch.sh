@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pedo-6542
-#FLUX: --urgency=16
+#FLUX --job-name=milky-hobbit-2574
+#FLUX --urgency=16
 
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink

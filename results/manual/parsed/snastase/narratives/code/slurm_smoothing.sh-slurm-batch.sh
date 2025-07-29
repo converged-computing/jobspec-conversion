@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=smoothing
-#FLUX: -c=2
-#FLUX: --queue=all
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=smoothing
+#SBATCH --output=../derivatives/logs/smoothing-surfmask-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10000
+#SBATCH --time=08:00:00
+#SBATCH --partition=all
+#SBATCH --array=1-345
 
 echo "Purging modules"
 module purge

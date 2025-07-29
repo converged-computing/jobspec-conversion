@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pfc_cor_inc
-#FLUX: -c=2
-#FLUX: --queue=gpu-a100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=pfc_cor_inc
+#SBATCH --account=walkerlab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu-a100
 
 array=("cor" "inc")
 cat ${array[$SLURM_ARRAY_TASK_ID]}

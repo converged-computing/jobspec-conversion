@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-label-vicuna
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-cpp-label-vicuna
+#SBATCH --output=label-vicuna-%j.out
+#SBATCH --error=label-vicuna-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=64G
+#SBATCH --time=00:30:00
 
 HOSTNAME=$(hostname)
 if [ "$HOSTNAME" == "vega.iiia.csic.es" ]

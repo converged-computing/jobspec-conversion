@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leg-4525
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-mango-5090
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source ./GLOBAL_VAR.sh
 tis="$1"

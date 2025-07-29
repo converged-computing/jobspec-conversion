@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-9305
-#FLUX: --queue=standard
-#FLUX: -t=59400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-leopard-9239
+#FLUX --queue=standard
+#FLUX -t=59400
+#FLUX --urgency=16
 
 sbatch --array=${1}-${2} <<EOT
 module purge

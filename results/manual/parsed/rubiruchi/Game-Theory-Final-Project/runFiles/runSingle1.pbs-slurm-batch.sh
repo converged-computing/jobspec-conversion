@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-5126
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/rubiruchi/Game-Theory-Final-Project/runFiles/runSingle1.pbs

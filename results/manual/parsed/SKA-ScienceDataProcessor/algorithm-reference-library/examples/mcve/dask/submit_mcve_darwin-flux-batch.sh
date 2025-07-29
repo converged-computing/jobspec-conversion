@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=SDP_ARL
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: --queue=sandybridge
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=SDP_ARL
+#FLUX -N=4
+#FLUX -n=32
+#FLUX --queue=sandybridge
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export OMP_NUM_THREADS='1'

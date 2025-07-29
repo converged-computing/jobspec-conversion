@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-itch-6665
-#FLUX: -c=16
-#FLUX: --queue=general
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=arid-motorcycle-4732
+#FLUX -c=16
+#FLUX --queue=general
+#FLUX -t=60
+#FLUX --urgency=16
 
 gmx=gmx_plumed
 protein=complex.pdb

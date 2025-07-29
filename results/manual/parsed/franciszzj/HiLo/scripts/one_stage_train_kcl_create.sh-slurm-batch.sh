@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=openpsg
-#FLUX: -c=7
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=openpsg
+#SBATCH --output=/scratch/users/%u/logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --mem=262144
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'
 

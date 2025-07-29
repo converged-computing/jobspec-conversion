@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=molecule
-#FLUX: --queue=amd_a100_4
-#FLUX: -t=171000
-#FLUX: --urgency=16
+#FLUX --job-name=molecule
+#FLUX --queue=amd_a100_4
+#FLUX -t=171000
+#FLUX --urgency=16
 
 source /home01/$USER/.bashrc
 module purge

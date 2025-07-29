@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mixer_real
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mixer_real
+#SBATCH --account=p697_norment
+#SBATCH --output=MIXER_REAL-%A_%a.txt
+#SBATCH --error=MIXER_REAL-%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-20
 
 export COMORMENT='/ess/p697/data/durable/s3-api/github/comorment'
 export SINGULARITY_BIND='$COMORMENT/mixer/reference:/REF:ro'

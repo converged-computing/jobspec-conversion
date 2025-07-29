@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=s4cmbrocks
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=s4cmbrocks
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 source $HOME/.bashrc.ext
 cd $SLURM_SUBMIT_DIR

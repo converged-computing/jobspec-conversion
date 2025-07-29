@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dav_nav
-#FLUX: -N=16
-#FLUX: -c=10
-#FLUX: --queue=learnlab,learnfair
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=dav_nav
+#SBATCH --output=data/logs/%j.out
+#SBATCH --error=data/logs/%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:2
+#SBATCH --mem=250GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=learnlab,learnfair
+#SBATCH --constraint=ntasks-per-node=2,volta32gb
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 

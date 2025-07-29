@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cSGLDImageNet
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --job-name=cSGLDImageNet
+#SBATCH --output=log/run_train_imagenet_csgld_short_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=4
+#SBATCH --time=9-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=long
+#SBATCH --constraint=volta
 
 echo
 echo "cSGLD assumes a multi-GPU training, in our case 1 cycle tooks 15-17 hours (45 epochs) on 4 v100."

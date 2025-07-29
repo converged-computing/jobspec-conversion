@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cat-5173
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/home/a1018048/slurm/snakemake_rnaseq/%x_%j.out
+#SBATCH --error=/home/a1018048/slurm/snakemake_rnaseq/%x_%j.err
+#SBATCH --mail-user=stephen.pederson@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=batch
 
 CORES=8
 if [ -d "/hpcfs" ]; then

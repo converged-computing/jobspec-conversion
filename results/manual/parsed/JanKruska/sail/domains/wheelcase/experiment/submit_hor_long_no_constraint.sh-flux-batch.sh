@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-punk-2344
+#FLUX --job-name=rainbow-toaster-0312
 #FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=hpc
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MALLOC_ARENA_MAX='4'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=isoOctane
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=isoOctane
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='48'
 export OMP_PROC_BIND='spread'

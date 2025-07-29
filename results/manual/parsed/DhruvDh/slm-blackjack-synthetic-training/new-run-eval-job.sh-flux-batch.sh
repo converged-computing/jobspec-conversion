@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval_task
-#FLUX: -c=16
-#FLUX: --queue=GPU
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=eval_task
+#FLUX -c=16
+#FLUX --queue=GPU
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export TOKENIZERS_PARALLELISM='false'
 

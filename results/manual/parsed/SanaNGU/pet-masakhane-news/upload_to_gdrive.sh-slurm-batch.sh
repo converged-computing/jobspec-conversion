@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=upload
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=upload
+#SBATCH --output=/home/mila/c/chris.emezue/pet-masakhane-news/slurmoutput_upload_%j.txt
+#SBATCH --error=/home/mila/c/chris.emezue/pet-masakhane-news/slurmerror_upload_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=50G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 cd /home/mila/c/chris.emezue/scratch/pet-masakhane-results2/pet-masakhane
 module load python/3

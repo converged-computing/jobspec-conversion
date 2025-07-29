@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CJH_cat2hypDD
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CJH_cat2hypDD
+#SBATCH --account=nesi00228
+#SBATCH --output=cat2hypDDout_%a.txt
+#SBATCH --error=cat2hypDDerr_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=02:00:00
+#SBATCH --array=0-301
+#SBATCH --exclude=compute-chem-001
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

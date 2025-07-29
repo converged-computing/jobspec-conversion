@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=biz_ddp
-#FLUX: -c=8
-#FLUX: --queue=dgx-spa
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=biz_ddp
+#FLUX -c=8
+#FLUX --queue=dgx-spa
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module load cuda
 python tokenizer_train.py hparams/tokenizer.yaml

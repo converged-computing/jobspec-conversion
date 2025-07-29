@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parsnip-0149
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=vminin_lab
+#SBATCH --mail-user=igoldst1@uci.edu
+#SBATCH --mail-type=begin,end
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-2
 
 module purge
 module load julia-1_8_5

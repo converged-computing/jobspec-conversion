@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ke
-#FLUX: -n=8
-#FLUX: --queue=cip
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ke
+#FLUX -n=8
+#FLUX --queue=cip
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load python/3.9-2021.11

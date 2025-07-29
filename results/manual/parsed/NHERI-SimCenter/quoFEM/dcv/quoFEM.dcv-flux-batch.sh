@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dcvserver
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=dcvserver
+#FLUX --queue=development
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "TACC: job $SLURM_JOB_ID execution at: `date`"
 NODE_HOSTNAME=`hostname -s`

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chk_gpu
-#FLUX: --urgency=16
+#FLUX --job-name=chk_gpu
+#FLUX --urgency=16
 
 set -e # fail fully on first line failure
 echo "$(hostname)"

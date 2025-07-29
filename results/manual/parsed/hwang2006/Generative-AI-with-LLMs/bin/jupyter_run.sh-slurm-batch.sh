@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-8088
-#FLUX: -c=4
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=amd_a100nv_8
+#SBATCH --constraint=ntasks-per-node=1
 
 if [ -e port_forwarding_command ]
 then

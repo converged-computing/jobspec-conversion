@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=python-mpi
-#FLUX: -n=24
-#FLUX: -c=2
-#FLUX: --queue=parallel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=python-mpi
+#SBATCH --output=python-mpi%J.out
+#SBATCH --error=python-mpi%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=10:00:00
+#SBATCH --partition=parallel
 
 export PATH='$USERAPPL/appl_taito/myconda3/bin:$PATH'
 export PYTHONPATH='$PYTHONPATH:$PENCIL_HOME/python'

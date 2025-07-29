@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cardiac-fibers
+#FLUX --job-name=cardiac-fibers
 #FLUX: --exclusive
-#FLUX: --queue=mi210q
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --queue=mi210q
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='verbose'
 

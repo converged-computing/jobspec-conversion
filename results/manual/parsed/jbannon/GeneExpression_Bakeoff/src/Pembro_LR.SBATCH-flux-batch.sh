@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Pembro_LR
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Pembro_LR
+#FLUX -N=2
+#FLUX -c=2
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 settings=(STAD.MC STAD.LOO SKCM.MC SKCM.LOO PANCAN.MC PANCAN.LOO)

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MD_attack
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=MD_attack
+#FLUX -c=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

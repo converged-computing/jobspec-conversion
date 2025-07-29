@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-sundae-0407
-#FLUX: --queue=magic
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=renard
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=magic
+#SBATCH --constraint=ARCH:X86
 
 snakemake --unlock
 snakemake --profile slurm

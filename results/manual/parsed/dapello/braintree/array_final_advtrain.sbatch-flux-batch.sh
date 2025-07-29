@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-signal-0174
-#FLUX: -c=20
-#FLUX: -t=480000
-#FLUX: --urgency=16
+#FLUX --job-name=blue-cherry-0950
+#FLUX -c=20
+#FLUX -t=480000
+#FLUX --urgency=16
 
 export HOME='/om2/user/dapello/'
 

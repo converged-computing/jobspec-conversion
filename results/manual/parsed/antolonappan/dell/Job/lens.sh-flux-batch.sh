@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Lensing
-#FLUX: -N=16
-#FLUX: -n=100
-#FLUX: -c=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Lensing
+#FLUX -N=16
+#FLUX -n=100
+#FLUX -c=2
+#FLUX -t=600
+#FLUX --urgency=16
 
 export ini='LB_FG2.ini'
 

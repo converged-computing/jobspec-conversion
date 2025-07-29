@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_basics
-#FLUX: --queue=gpuq
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_basics
+#FLUX --queue=gpuq
+#FLUX -t=39600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pot-7440
-#FLUX: --urgency=16
+#FLUX --job-name=arid-gato-1862
+#FLUX --urgency=16
 
 hours=6
 mem=128000

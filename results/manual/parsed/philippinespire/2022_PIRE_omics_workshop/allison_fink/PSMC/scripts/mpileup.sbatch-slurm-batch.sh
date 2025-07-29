@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Sfa_denovoSSL_100k_mpileup
-#FLUX: -c=40
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=Sfa_denovoSSL_100k_mpileup
+#SBATCH --output=Sfa_denovoSSL_100k_mpileup-%j.out
+#SBATCH --mail-user=br450@rutgers.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=2000
+#SBATCH --partition=main
+#SBATCH --array=1-130
 
 export SINGULARITY_BIND='/home/e1garcia'
 

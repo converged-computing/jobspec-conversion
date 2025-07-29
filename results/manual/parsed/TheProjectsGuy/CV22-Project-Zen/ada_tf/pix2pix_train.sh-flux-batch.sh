@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=p2p-s2m
-#FLUX: -n=10
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=p2p-s2m
+#FLUX -n=10
+#FLUX -t=129600
+#FLUX --urgency=16
 
 echo "[BLOCK] ======= Inspecting node ======="
 echo "Host: $HOSTNAME"

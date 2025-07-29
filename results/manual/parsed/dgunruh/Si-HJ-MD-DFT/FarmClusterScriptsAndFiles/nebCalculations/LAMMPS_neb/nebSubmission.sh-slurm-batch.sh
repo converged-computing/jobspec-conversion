@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NEB
-#FLUX: -n=64
-#FLUX: --queue=med2
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=NEB
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50G
+#SBATCH --time=00:01:00
+#SBATCH --partition=med2
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=14-14
 
 export OMP_NUM_THREADS='1'
 export j='$SLURM_JOB_ID'

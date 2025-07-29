@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=type_eval
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=type_eval
+#SBATCH --output=/home/eecs/paras/slurm/coderep/%j_supervised_type_eval.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=04:00:00
+#SBATCH --exclude=atlas,blaze,r16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/data/paras/data_cache'

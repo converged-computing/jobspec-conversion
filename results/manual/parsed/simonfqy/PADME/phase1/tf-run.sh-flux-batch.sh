@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-taco-1192
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=19
-#FLUX: --urgency=16
+#FLUX --job-name=confused-car-8669
+#FLUX -n=2
+#FLUX -c=4
+#FLUX -t=19
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

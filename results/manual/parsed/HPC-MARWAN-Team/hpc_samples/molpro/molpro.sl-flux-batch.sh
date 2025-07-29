@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Molpro
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#FLUX --job-name=Molpro
+#FLUX --queue=defq
+#FLUX --urgency=16
 
 export WORK_DIR='/data/$USER/${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/myInput'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-5220
-#FLUX: --queue=jic-short,RG-Cristobal-Uauy
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-diablo-8554
+#FLUX --queue=jic-short,RG-Cristobal-Uauy
+#FLUX --urgency=16
 
 CHR_NAME="2B"
 t_id=$SLURM_ARRAY_TASK_ID

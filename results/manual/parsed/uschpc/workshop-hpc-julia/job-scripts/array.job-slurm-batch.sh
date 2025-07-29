@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-animal-8742
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=<project_id>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --partition=main
+#SBATCH --array=1-5
 
 module purge
 module load julia/1.10.2

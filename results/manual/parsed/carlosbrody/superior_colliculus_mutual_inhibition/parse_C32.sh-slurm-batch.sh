@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=parseC32
-#FLUX: --queue=Brody
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=parseC32
+#SBATCH --output=log-parseC32-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=Brody
 
 module load julia/0.6.3
 echo "Slurm Job ID: $SLURM_JOB_ID"

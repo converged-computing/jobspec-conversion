@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-9955
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --time=00:05:00
+#SBATCH --constraint=a100
 
 export IMAGE='$JAX_IMAGE'
 

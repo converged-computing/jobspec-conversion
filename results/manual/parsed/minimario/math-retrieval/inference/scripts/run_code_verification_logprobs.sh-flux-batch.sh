@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-9575
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-bike-1886
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 dirs=(
     # "codellama-7b"

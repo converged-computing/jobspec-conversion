@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=info_flux
-#FLUX: --queue=tier3
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=info_flux
+#SBATCH --account=silico
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=mr8236@rit.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=05:00:00
+#SBATCH --partition=tier3
+#SBATCH --array=0-99
 
 spack unload --all
 spack load amber@20 /6r7gnm4

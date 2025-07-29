@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi4py_pybind11
-#FLUX: -N=4
-#FLUX: -c=16
+#FLUX --job-name=mpi4py_pybind11
+#FLUX -N=4
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=skylake
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --queue=skylake
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

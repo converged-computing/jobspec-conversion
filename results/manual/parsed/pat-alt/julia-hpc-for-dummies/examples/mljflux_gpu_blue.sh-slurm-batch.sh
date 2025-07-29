@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MLJFlux on GPU
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MLJFlux on GPU
+#SBATCH --account=innovation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=3G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load 2023r1
 previous=$(/usr/bin/nvidia-smi --query-accounted-apps='gpu_utilization,mem_utilization,max_memory_usage,time' --format='csv' | /usr/bin/tail -n '+2')

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xfst
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=xfst
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-28
 
 module load lang/r/4.1.2-gcc
 cd $SLURM_SUBMIT_DIR

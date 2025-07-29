@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-fpt-resume-200b
-#FLUX: -N=7
-#FLUX: -c=64
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=cpt-fpt-resume-200b
+#FLUX -N=7
+#FLUX -c=64
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 export NCCL_DEBUG='INFO'

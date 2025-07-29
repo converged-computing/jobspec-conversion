@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poodle-9164
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-avocado-5793
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /scratch/$USER/
 module purge

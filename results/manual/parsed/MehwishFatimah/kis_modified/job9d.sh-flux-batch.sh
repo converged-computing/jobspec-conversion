@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sim9d
-#FLUX: -c=10
-#FLUX: --queue=pascal-deep.p
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=sim9d
+#FLUX -c=10
+#FLUX --queue=pascal-deep.p
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 module load CUDA/10.0.130
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

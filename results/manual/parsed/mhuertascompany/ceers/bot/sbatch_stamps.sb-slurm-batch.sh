@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=zoobot_COSMOS-Web
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=zoobot_COSMOS-Web
+#SBATCH --output=/n03data/huertas/COSMOS-Web/jobs/bars_zoobot.out
+#SBATCH --error=/n03data/huertas/COSMOS-Web/jobs/bars_zoobot.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load intelpython/3-2024.1.0
 module load gcc/13.2.0

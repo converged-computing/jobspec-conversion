@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-noodle-8515
-#FLUX: -c=128
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-nunchucks-5462
+#FLUX -c=128
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -e -o pipefail
 source config.sh $@

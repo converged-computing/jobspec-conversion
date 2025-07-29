@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tf_faster_rcnn_train
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tf_faster_rcnn_train
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd $HOME/master_thesis/yellow_sticky_network
 module unload intelmpi

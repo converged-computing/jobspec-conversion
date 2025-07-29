@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-5807
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/HazyResearch/deepdive/runner/compute-driver/torque/compute-remote-taskinit

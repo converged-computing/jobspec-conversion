@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ppong
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=ppong
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH: --exclusive
 
 export TPN='$SLURM_CPUS_ON_NODE'
 export OMP_NUM_THREADS='1'

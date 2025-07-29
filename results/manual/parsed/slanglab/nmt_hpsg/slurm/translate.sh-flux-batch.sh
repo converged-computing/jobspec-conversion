@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=translate-nematus
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=translate-nematus
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 TASK_ID=$(printf '%0'$digits'd' $SLURM_ARRAY_TASK_ID)
 echo $CUDA_VISIBLE_DEVICES

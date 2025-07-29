@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stream_benchmark
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=stream_benchmark
+#SBATCH --output=bandwidth/dgx2q.out
+#SBATCH --error=error/dgx2q.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=14:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load cuda12.3/toolkit/12.3.2

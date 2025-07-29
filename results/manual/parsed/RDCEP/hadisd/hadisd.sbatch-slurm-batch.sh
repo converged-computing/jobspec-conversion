@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-parrot-3937
-#FLUX: -n=160
-#FLUX: --exclusive
-#FLUX: --queue=sandyb,westmere,bigmem,amd
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=sandyb,westmere,bigmem,amd
+#SBATCH: --exclusive
 
 module load parallel
 srun="srun --exclusive -N1 -n1 -c2"

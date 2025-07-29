@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-peanut-2400
-#FLUX: -c=4
-#FLUX: --queue=cox
-#FLUX: -t=840
-#FLUX: --urgency=16
+#SBATCH --output=./slurm_out/pipline_output.out
+#SBATCH --error=./slurm_err/pipline_errors.err
+#SBATCH --mail-user=leander.lauenburg@gmail.com
+#SBATCH --mail-type=FAILED,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:7
+#SBATCH --mem=200000
+#SBATCH --time=00:14:00
+#SBATCH --partition=cox
 
 echo "#############SETUP#############"
 echo ""

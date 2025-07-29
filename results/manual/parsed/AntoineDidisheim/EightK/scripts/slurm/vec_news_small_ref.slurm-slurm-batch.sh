@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=vec_news_ref_
-#FLUX: -c=4
-#FLUX: --queue=cascade
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=vec_news_ref_
+#SBATCH --account=punim2039
+#SBATCH --output=/home/adidishe/EightK/out/vec_news_ref_%a.out
+#SBATCH --error=/home/adidishe/EightK/out/vec_news_ref_%a.err
+#SBATCH --mail-user=antoine.didisheim@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=24G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cascade
+#SBATCH --chdir=/home/adidishe/EightK
+#SBATCH --array=0-26
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

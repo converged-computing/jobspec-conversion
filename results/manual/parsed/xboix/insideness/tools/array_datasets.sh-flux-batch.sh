@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=insideness
-#FLUX: -n=2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=insideness
+#FLUX -n=2
+#FLUX -t=360000
+#FLUX --urgency=16
 
 cd /om/user/xboix/src/insideness/
 /om2/user/jakubk/miniconda3/envs/torch/bin/python -c 'import torch; print(torch.rand(2,3).cuda())'

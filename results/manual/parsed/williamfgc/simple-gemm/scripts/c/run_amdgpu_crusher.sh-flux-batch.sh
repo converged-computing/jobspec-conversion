@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=M_C_gpu_Float32
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=M_C_gpu_Float32
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 PROJDIR=../../simple-gemm/c
 EXECUTABLE=$PROJDIR/gemm-dense-hip

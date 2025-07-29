@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-hippo-2452
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/swarnalilouha/Utility-Scripts/Haplo-ST_custom_scripts/blast.sh

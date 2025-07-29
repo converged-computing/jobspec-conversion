@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=decode
-#FLUX: -n=8
-#FLUX: --queue=cox
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=decode
+#SBATCH --output=decode_%A_%a.out
+#SBATCH --error=decode_%A_%a.err
+#SBATCH --mail-user=rhee@g.harvard.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32764
+#SBATCH --time=00:02:00
+#SBATCH --partition=cox
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

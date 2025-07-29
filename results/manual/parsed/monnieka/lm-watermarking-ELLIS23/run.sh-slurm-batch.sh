@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cinnamonbun-4174
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=tra23_ELLIS
+#SBATCH --output=out/out_%A_%j.out
+#SBATCH --error=err/out_%A_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=52GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_PROC_BIND='true'
 

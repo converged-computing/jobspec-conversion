@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-earthworm-0035
-#FLUX: -N=11
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-despacito-5641
+#FLUX -N=11
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export JULIA_PROJECT='/home/dcs/csrxgb/julia_stuff/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/julia_stuff/cmdstan-2.23.0'

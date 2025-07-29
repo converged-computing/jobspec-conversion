@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-latke-3694
-#FLUX: -c=128
-#FLUX: --queue=test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --output=logs/slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=00:01:00
+#SBATCH --partition=test
 
 export OMP_NUM_THREADS='128'
 export MKL_NUM_THREADS='128'

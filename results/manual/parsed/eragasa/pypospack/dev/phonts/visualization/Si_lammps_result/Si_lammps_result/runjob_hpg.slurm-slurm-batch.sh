@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Si_phonts_LAMMPS_P
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Si_phonts_LAMMPS_P
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --mail-user=xue.xiong@ufl.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=phillpot-b
 
 echo slurm_job_id:$SLURM_JOB_ID
 echo slurm_job_name:$SLURM_JOB_NAME

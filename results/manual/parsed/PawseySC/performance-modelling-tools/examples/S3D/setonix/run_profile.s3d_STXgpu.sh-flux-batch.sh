@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-motorcycle-9477
-#FLUX: -c=8
+#FLUX --job-name=swampy-despacito-5476
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=gpu-dev
-#FLUX: --urgency=16
+#FLUX --queue=gpu-dev
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MPICH_GPU_SUPPORT_ENABLED='1'

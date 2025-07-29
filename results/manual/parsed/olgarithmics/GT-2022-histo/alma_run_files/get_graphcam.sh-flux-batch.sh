@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PatchExtractor
-#FLUX: -c=10
-#FLUX: --queue=gpuhm
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=PatchExtractor
+#FLUX -c=10
+#FLUX --queue=gpuhm
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

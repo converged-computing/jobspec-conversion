@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=July2023Sequencing
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=594000
-#FLUX: --urgency=16
+#SBATCH --job-name=July2023Sequencing
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=200gb
+#SBATCH --time=6-21:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=2,AMD
 
 cd $SLURM_SUBMIT_DIR
 ml fastp/0.23.2

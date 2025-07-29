@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TEFLoN2_Snakemake
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=TEFLoN2_Snakemake
+#SBATCH --account=your_project
+#SBATCH --output=/path/tmp/teflon2.%j.out
+#SBATCH --error=/path/tmp/teflon2.%j.err
+#SBATCH --mail-user=your.mail.gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=long
 
 		#!/bin/bash
 	###Charge module

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=waterbirds-dro
-#FLUX: -c=8
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=waterbirds-dro
+#FLUX -c=8
+#FLUX --queue=gpu-rtx6k
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/gscratch/zlab/bparan/projects/transformers_cache'
 

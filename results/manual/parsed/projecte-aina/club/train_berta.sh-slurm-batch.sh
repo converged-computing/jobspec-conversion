@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-dog-1233
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=2-00:00:00
 
 load_config() {
     module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.0.1 openmpi/4.0.1 atlas/3.10.3 scalapack/2.0.2 \

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=AAPM_131
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=AAPM_131
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='1'

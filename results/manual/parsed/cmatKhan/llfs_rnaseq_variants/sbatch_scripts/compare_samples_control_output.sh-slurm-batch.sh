@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rna_dna_compare
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=rna_dna_compare
+#SBATCH --output=rna_dna_compare.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=00:30:00
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/llfs_rna_dna_compare_test/llfs_rnaseq_latest.sif

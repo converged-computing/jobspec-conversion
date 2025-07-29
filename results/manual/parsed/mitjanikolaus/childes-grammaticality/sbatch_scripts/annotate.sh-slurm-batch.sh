@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=annotate
-#FLUX: -c=10
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=annotate
+#SBATCH --account=eqb@a100
+#SBATCH --output=out/annotate_%j.out
+#SBATCH --error=out/annotate_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 module purge
 module load cpuarch/amd

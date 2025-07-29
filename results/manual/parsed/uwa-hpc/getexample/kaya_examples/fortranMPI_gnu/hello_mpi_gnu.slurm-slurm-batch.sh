@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GE-fortranMPI_gnu
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: --queue=test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=GE-fortranMPI_gnu
+#SBATCH --account=ea007
+#SBATCH --nodes=2
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=test
+#SBATCH --constraint=ntasks-per-node=10
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

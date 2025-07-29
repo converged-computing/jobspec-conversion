@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pleioFDR
-#FLUX: -c=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=pleioFDR
+#FLUX -c=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load MATLAB/2019a

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pedo-6033
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=blue-muffin-8280
+#FLUX -t=600
+#FLUX --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=akya_2020_sys_1gpu
-#FLUX: -n=40
-#FLUX: --queue=akya-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=akya_2020_sys_1gpu
+#SBATCH --account=bsavas
+#SBATCH --output=DNMT3a-%j.out
+#SBATCH --error=DNMT3a-%j.err
+#SBATCH --mail-user=buusrasavas@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=akya-cuda
+#SBATCH --nodelist=akya7
 
 export OMP_NUM_THREADS='20'
 

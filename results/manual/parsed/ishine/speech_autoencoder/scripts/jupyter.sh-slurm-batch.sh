@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: --queue=bme_gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --output=/hpc/data/home/bme/guochx/jupyter.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=bme_gpu
 
 module load 7/compiler/cuda/11.4
 source /hpc/data/home/bme/guochx/.bashrc

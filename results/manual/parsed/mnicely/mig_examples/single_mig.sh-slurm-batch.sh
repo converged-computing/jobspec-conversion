@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-toaster-1846
-#FLUX: --queue=dgxa100-mig
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=dgxa100-mig
 
 GID=$1
 POWER=$2

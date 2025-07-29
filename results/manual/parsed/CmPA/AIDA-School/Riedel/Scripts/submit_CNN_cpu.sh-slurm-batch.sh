@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-car-9251
-#FLUX: --queue=dp-dam
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=cuda-out.%j
+#SBATCH --error=cuda-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=dp-dam
 
 export PYTHON_EGG_CACHE='/p/project/joaiml/hpc_course/morris'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-8311
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --account=proj_1371
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --partition=normal
+#SBATCH --constraint=type_a
+#SBATCH --nodelist=cn-[016]
 
 module load openmpi/4.1.4
 module load CUDA/11.7

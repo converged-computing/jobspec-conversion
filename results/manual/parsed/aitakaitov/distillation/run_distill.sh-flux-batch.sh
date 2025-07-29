@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pastry-3367
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-knife-9000
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aitakaitov/distillation/run_distill.sh

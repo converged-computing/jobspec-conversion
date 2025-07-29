@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-signal-9221
-#FLUX: -c=20
-#FLUX: --queue=normal_q
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=qc_group
+#SBATCH --mail-user=mute-arcjobs@saem.xyz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=200G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=normal_q
 
 export NTHREAD='20'
 export JULIAENV='/home/gbarron/bp-mitigation-code/'

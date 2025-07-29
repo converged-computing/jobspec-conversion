@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rf
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rf
+#SBATCH --account=ccsd
+#SBATCH --output=./rf.o
+#SBATCH --error=./rf.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=0
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'
 

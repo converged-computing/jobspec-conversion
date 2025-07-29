@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CA_EX8_stream
-#FLUX: --exclusive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=CA_EX8_stream
+#SBATCH --output=/home/hpc/rzku/hpcv651h/ex_08/ex08_stream.out
+#SBATCH --error=/home/hpc/rzku/hpcv651h/ex_08/ex08_stream.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 set -x
 set -v

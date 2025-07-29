@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=climseg-cgpu
-#FLUX: --exclusive
-#FLUX: -t=208800
-#FLUX: --urgency=16
+#SBATCH --job-name=climseg-cgpu
+#SBATCH --account=m1759
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-10:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

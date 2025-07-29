@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=big_train
-#FLUX: -N=2
-#FLUX: --queue=big_suma_rtx3090
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=big_train
+#FLUX -N=2
+#FLUX --queue=big_suma_rtx3090
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_P2P_DISABLE='1'
 export NCCL_ASYNC_ERROR_HANDLING='1'

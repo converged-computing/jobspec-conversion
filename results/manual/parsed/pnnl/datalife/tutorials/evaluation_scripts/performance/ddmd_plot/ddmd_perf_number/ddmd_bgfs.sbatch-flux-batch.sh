@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=org_ddmd_n2t12i5_100ps_pfs1
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=dlt
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=org_ddmd_n2t12i5_100ps_pfs1
+#FLUX -N=2
+#FLUX -n=12
+#FLUX --queue=dlt
+#FLUX -t=1800
+#FLUX --urgency=16
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=false

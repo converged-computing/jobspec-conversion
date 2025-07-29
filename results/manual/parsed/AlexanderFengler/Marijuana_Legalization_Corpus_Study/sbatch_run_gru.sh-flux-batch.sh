@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_gru
-#FLUX: -c=14
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train_gru
+#FLUX -c=14
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 conda deactivate

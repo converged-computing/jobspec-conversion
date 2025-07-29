@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arrayscript
-#FLUX: --queue=icb_cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=arrayscript
+#FLUX --queue=icb_cpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 BASEDIR=$1
 TOTALTASKS=$2

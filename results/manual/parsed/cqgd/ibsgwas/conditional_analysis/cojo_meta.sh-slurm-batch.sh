@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cojo_meta
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cojo_meta
+#SBATCH --output=/gfs/work/ceijsbouts/ibs/jobs/stream/job_%A_%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH --array=1-5
 
 TRAIT="metal_ICD_ROME_EURUSA_Qonly_Qnon"
 extract_dir="/gfs/work/ceijsbouts/ibs/clump/extract"

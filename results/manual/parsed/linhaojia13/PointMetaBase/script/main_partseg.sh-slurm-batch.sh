@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=partseg
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=partseg
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=[v100]
+#SBATCH --array=0
 
 [ ! -d "slurm_logs" ] && echo "Create a directory slurm_logs" && mkdir -p slurm_logs
 module load cuda/11.1.1

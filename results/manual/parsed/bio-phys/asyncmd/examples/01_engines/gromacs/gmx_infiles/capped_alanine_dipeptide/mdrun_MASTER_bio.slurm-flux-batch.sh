@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-sundae-4152
-#FLUX: -c=2
-#FLUX: --queue=s.bio
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-kerfuffle-6993
+#FLUX -c=2
+#FLUX --queue=s.bio
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPI_NUM_RANKS='$SLURM_NTASKS_PER_NODE'

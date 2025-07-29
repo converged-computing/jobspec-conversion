@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=$uid
-#FLUX: --urgency=16
+#SBATCH --job-name=$uid
+#SBATCH --output=$uid.out
+#SBATCH --error=$uid.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16g
 
 unset PYTHONPATH
 module load cudnn/7.3-cuda_9.0

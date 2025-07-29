@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pedo-9954
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zaspel/MPLA/src/clusterscripts/amg_poisson_3d_amg2013.pbs

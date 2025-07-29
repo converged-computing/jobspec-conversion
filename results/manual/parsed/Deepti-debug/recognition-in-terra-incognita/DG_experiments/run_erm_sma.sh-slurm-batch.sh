@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rerm_sma
-#FLUX: -n=38
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=rerm_sma
+#SBATCH --account=research
+#SBATCH --output=../logs/rerm_sma_final2.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=38
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
 
 cd 
 source env_vinet/bin/activate

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=vary_num
-#FLUX: -c=12
-#FLUX: --queue=lianglab
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#SBATCH --job-name=vary_num
+#SBATCH --output=./log/python_array_job_slurm_%A_%a.out
+#SBATCH --error=./log/python_array_job_slurm_%A_%a.err
+#SBATCH --mail-user=zxu444@wisc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --mem=40GB
+#SBATCH --time=10-16:00:00
+#SBATCH --partition=lianglab
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 (

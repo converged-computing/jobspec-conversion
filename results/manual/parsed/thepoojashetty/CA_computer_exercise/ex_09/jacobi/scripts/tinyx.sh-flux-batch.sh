@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=CA_EX9_stream
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=CA_EX9_stream
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -x
 set -v

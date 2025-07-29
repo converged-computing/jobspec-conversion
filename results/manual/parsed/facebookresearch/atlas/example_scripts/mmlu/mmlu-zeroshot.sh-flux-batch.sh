@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mmlu
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=learnlab
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=mmlu
+#FLUX -N=8
+#FLUX -c=10
+#FLUX --queue=learnlab
+#FLUX -t=28800
+#FLUX --urgency=16
 
 size=xl
 DATA_DIR='/checkpoint/plewis/atlas_opensourcing/'

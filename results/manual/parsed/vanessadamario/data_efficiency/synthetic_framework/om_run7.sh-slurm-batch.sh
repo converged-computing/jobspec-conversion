@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=teacher_clas
-#FLUX: --queue=use-everything
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=teacher_clas
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=2GB
+#SBATCH --time=04:30:00
+#SBATCH --partition=use-everything
+#SBATCH --chdir=/om/user/vanessad/synthetic_framework/slurm_output/march15
+#SBATCH --array=0-109
 
 hostname
 module add openmind/singularity/3.4.1

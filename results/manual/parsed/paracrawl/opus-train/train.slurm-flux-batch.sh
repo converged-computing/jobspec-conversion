@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-dog-1373
-#FLUX: --queue=pascal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-snack-5169
+#FLUX --queue=pascal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 if [ "$1" == "-h" ]
 then

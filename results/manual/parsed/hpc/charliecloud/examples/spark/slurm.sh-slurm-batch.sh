@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-puppy-9202
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 set -e
 if [[ -z $SLURM_JOB_ID ]]; then

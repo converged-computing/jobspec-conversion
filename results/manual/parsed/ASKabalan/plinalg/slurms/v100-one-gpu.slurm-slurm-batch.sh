@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=V100-One-GPU-host
-#FLUX: -c=10
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=V100-One-GPU-host
+#SBATCH --account=nih@v100
+#SBATCH --output=v100-one-GPU.out
+#SBATCH --error=v100-one-GPU.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:04:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=v100-16g,ntasks-per-node=1
 
 export MODULEPATH='$NVHPC/modulefiles:$MODULEPATH'
 

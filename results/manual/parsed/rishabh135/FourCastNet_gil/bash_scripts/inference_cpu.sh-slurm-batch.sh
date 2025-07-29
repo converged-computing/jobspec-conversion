@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fourcastnet_inference_cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=fourcastnet_inference_cpu
+#SBATCH --account=gdsp-k|standby
+#SBATCH --output=/scratch/gilbreth/gupt1075/inference_cpu.out
+#SBATCH --error=/scratch/gilbreth/gupt1075/inference_cpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export PRECXX11ABI='1'
 

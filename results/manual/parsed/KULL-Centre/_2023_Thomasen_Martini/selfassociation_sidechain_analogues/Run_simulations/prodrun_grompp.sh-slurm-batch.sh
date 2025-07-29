@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=md_grompp
-#FLUX: --queue=qgpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=md_grompp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=qgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "========= Job started  at `date` =========="
 cd $SLURM_SUBMIT_DIR

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xtc
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=xtc
+#SBATCH --account=education-eemcs-courses-cse3000
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 export MPLCONFIGDIR='./envs/$PROJECT_NAME/.cache/matplotlib/'
 export HF_DATASETS_CACHE='./envs/$PROJECT_NAME/.cache/huggingface/'

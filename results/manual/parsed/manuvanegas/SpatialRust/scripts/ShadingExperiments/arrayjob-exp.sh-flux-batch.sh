@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=shadeexp
-#FLUX: -n=5
-#FLUX: --queue=htc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=shadeexp
+#FLUX -n=5
+#FLUX --queue=htc
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

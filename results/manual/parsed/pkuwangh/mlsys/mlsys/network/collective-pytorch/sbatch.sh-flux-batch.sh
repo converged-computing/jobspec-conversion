@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=collective
-#FLUX: -N=8
-#FLUX: --urgency=16
+#FLUX --job-name=collective
+#FLUX -N=8
+#FLUX --urgency=16
 
 export MLSYS_ROOT='${CURR_DIR}/../../..'
 export MADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

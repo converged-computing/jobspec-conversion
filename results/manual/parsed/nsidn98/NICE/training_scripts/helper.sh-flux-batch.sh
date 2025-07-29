@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-8693
-#FLUX: -n=40
+#FLUX --job-name=butterscotch-dog-8803
+#FLUX -n=40
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export PMIX_MCA_gds='hash'
 

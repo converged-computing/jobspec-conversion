@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WISDM
-#FLUX: -c=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=WISDM
+#SBATCH --output=WISDM_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64gb
+#SBATCH --time=01:00:00
+#SBATCH --nodelist=fang-s009
 
 pwd; hostname; date
 echo "Running Job"

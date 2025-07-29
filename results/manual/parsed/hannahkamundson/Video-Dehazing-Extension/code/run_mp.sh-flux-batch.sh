@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=predehaze
-#FLUX: -c=40
-#FLUX: --queue=gpu-a100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=predehaze
+#FLUX -c=40
+#FLUX --queue=gpu-a100
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_PORT='12340'
 export MASTER_ADDR='$master_addr'

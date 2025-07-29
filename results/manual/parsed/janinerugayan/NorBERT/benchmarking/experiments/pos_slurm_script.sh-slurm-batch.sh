@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=norbert_pos
-#FLUX: -n=8
-#FLUX: --queue=accel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=norbert_pos
+#SBATCH --account=nn9851k
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=05:00:00
+#SBATCH --partition=accel
 
 module purge
 module use -a /cluster/projects/nn9851k/software/easybuild/install/modules/all/

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20220921-cvir-ceabigr-nextflow-epidiverse-snp
-#FLUX: --queue=srlab
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#SBATCH --job-name=20220921-cvir-ceabigr-nextflow-epidiverse-snp
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=12-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20220921-cvir-ceabigr-nextflow-epidiverse-snp
 
 bams_dir="/gscratch/scrubbed/samwhite/data/C_virginica/BSseq/120321-cvBS"
 epi_snp="/gscratch/srlab/programs/epidiverse-pipelines/snp"

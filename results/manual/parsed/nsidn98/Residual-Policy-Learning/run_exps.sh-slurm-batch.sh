@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-latke-3288
-#FLUX: -n=16
-#FLUX: --urgency=16
+#SBATCH --output=run.sh.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/gridsan/sidnayak/.mujoco/mujoco200/bin'
 

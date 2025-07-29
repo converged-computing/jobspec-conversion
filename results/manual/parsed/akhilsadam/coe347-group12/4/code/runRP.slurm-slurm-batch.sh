@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=of
-#FLUX: -N=4
-#FLUX: -n=48
-#FLUX: --queue=skx-dev
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=of
+#SBATCH --account=COE-347-S22
+#SBATCH --output=ofo.%j
+#SBATCH --error=ofe.%j
+#SBATCH --mail-user=akhil.sadam@utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=4
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=skx-dev
 
 export OMP_NUM_THREADS='192'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-despacito-7341
-#FLUX: -c=6
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --mem=127518M
+#SBATCH --time=00:12:00
 
 model=f_1i_mal_y
 module load cuda cudnn python/3.6.3

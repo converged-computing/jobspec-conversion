@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=deeplabv3plus_r50_gta_train-split_pixmix_train_a
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=deeplabv3plus_r50_gta_train-split_pixmix_train_a
+#SBATCH --output=train_a-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=32000M
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu,gpub
+#SBATCH --constraint=ntasks-per-node=1
 
 max_iters=40000
 main_config="./local_configs/ResNet/50/deeplabv3plus.r50.512x512.gta2cs.40k.batch2_pixmix.py"

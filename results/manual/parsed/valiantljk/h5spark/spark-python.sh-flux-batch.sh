@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pot-0186
-#FLUX: -N=46
-#FLUX: --queue=regular
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-ricecake-0279
+#FLUX -N=46
+#FLUX --queue=regular
+#FLUX -t=480
+#FLUX --urgency=16
 
 export SPARK_LOCAL_DIRS='/tmp'
 export PYTHONPATH='$PYTHONPATH:$PWD/src/main/python/h5spark'

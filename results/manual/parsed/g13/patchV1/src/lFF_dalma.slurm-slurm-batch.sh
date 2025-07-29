@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=plotLearn
-#FLUX: -c=2
-#FLUX: --queue=nvidia
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=plotLearn
+#SBATCH --output=log/pLearn_%J.out
+#SBATCH --mail-user=wd554@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:${gpu}
+#SBATCH --mem=64GB
+#SBATCH --time=00:40:00
+#SBATCH --partition=nvidia
 
 cd ${HOME}/repos/patchV1/src
 fdr0=/scratch/wd554/patchV1

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-parrot-6579
-#FLUX: -N=138
-#FLUX: -n=13248
-#FLUX: --queue=standard96
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=138
+#SBATCH --ntasks=13248
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=standard96
+#SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

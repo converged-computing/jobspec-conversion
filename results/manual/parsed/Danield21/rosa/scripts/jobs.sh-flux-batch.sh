@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-staircase-4217
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-mango-7736
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load python/3.8
 source /home/mila/m/marawan.gamal/scratch/.venv/rosa/bin/activate

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RespTest
-#FLUX: --queue=shared
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=RespTest
+#SBATCH --output=out_resptest.dat
+#SBATCH --error=err_resptest.dat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=02:30:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 date
 module purge

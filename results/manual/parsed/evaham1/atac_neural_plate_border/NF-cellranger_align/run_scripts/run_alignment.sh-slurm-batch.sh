@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Integrated-npb/NF-cellranger_align
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Integrated-npb/NF-cellranger_align
+#SBATCH --mail-user=eva.hamrud@crick.ac.uk
+#SBATCH --mail-type=ALL,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
 
 export TERM='xterm'
 export NXF_VER='21.10.6'

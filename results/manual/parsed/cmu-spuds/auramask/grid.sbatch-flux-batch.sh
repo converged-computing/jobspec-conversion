@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lfw-multiembed-unet
-#FLUX: --queue=inferno
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=lfw-multiembed-unet
+#FLUX --queue=inferno
+#FLUX -t=28800
+#FLUX --urgency=16
 
 if [ -f /etc/bashrc ]; then
 . /etc/bashrc

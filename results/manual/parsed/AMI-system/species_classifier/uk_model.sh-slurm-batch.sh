@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-staircase-9240
-#FLUX: -c=6
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --output=train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150G
+#SBATCH --time=1-06:00:00
+#SBATCH --qos=turing
 
 module purge; module load baskerville
 module load bask-apps/live

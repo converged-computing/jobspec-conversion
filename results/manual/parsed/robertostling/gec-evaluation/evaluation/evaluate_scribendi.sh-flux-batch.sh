@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bike-5881
-#FLUX: --queue=alvis
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-knife-3233
+#FLUX --queue=alvis
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'
 export TRANSFORMERS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

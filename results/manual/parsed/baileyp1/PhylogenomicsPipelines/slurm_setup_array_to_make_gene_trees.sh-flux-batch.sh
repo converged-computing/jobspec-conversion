@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=make_gene_trees
-#FLUX: --urgency=16
+#FLUX --job-name=make_gene_trees
+#FLUX --urgency=16
 
 geneFile=$1
 listFile=$2

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-noodle-8481
-#FLUX: -n=4
-#FLUX: --queue=a6000-gcondo
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-hippo-6481
+#FLUX -n=4
+#FLUX --queue=a6000-gcondo
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load python/3.9.0
 module load cuda/11.3.1

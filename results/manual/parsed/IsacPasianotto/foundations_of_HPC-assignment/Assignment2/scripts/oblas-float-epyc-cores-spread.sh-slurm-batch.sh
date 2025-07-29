@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ex2-AMD
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ex2-AMD
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=01:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
+#SBATCH --nodelist=epyc[007]
 
 export LD_LIBRARY_PATH='/u/dssc/ipasia00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

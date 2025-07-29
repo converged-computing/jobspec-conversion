@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SPEAQeasy
-#FLUX: --queue=shared
-#FLUX: --urgency=16
+#SBATCH --job-name=SPEAQeasy
+#SBATCH --output=./SPEAQeasy_output.log
+#SBATCH --error=./SPEAQeasy_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --partition=shared
 
 export NXF_JVM_ARGS='-Xms8g -Xmx10g'
 

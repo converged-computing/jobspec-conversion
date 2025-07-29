@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NextflowWithSlurm
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=NextflowWithSlurm
+#SBATCH --output=/shares/von-mering.imls.uzh/tao/nextflow/slurm_reports/output_%A_%a.txt
+#SBATCH --error=/shares/von-mering.imls.uzh/tao/nextflow/slurm_reports/error_%A_%a.txt
+#SBATCH --mail-user=tao.fang@uzh.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=5-00:00:00
 
 module load anaconda3
 module load singularityce

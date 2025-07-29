@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nequip
-#FLUX: -n=2
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=nequip
+#SBATCH --account=s1167
+#SBATCH --output=log.out
+#SBATCH --error=log.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=12
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
+#SBATCH --array=0-9
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

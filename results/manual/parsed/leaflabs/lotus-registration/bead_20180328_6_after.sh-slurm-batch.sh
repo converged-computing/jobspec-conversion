@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hope-9684
-#FLUX: -n=20
-#FLUX: --queue=om_all_nodes
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x.slurm.%N.%j.out
+#SBATCH --error=%x.slurm.%N.%j.err
+#SBATCH --mail-user=jkinney@mit.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=om_all_nodes
 
 export TZ='America/New_York'
 

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Cycle-StyleGAN
-#FLUX: -c=8
-#FLUX: --queue=cuda
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Cycle-StyleGAN
+#SBATCH --output=/home/mla_group_13/experiments_output/cycle-stylegan_%j.log
+#SBATCH --mail-user=s286886@studenti.polito.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+#SBATCH --partition=cuda
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/mla_group_13/FaceFilter/ae-stylegan
 
 module load nvidia/cudasdk/11.6
 module load intel/python/3/2019.4.088

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval-srl
-#FLUX: -c=8
-#FLUX: --queue=amd_a100nv_8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=eval-srl
+#FLUX -c=8
+#FLUX --queue=amd_a100nv_8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1      '
 

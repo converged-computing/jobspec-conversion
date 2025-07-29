@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=prometeo
-#FLUX: --urgency=16
+#FLUX --job-name=prometeo
+#FLUX --urgency=16
 
 if [[ "$QUEUE" == "short" ]]; then
    USE_CUDA=0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-milkshake-2511
-#FLUX: -n=40
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-fork-6801
+#FLUX -n=40
+#FLUX -t=21600
+#FLUX --urgency=16
 
 cd $WorkingDir
 cd Run_Outputs/$RunName/GPUFlags

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=velocity_ground
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=velocity_ground
+#FLUX -c=8
+#FLUX --queue=standard
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export MPIRUN_OPTIONS='--bind-to core --map-by node:PE=${SLURM_CPUS_PER_TASK} -report-bindings'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

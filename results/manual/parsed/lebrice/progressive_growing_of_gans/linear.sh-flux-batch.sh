@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-4397
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-salad-8590
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd ~/IFT6085/progressive_growing_of_gans
 source ~/miniconda3/bin/activate

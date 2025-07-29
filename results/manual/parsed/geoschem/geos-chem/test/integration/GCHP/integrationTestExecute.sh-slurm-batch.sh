@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bicycle-0358
-#FLUX: -n=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=150000
+#SBATCH --time=00:05:00
+#SBATCH --partition=REQUESTED_PARTITION
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

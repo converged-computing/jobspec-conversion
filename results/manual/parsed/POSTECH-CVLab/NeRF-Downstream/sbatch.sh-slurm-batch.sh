@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nerf-downstream
-#FLUX: --queue=A100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=nerf-downstream
+#SBATCH --output=sbatch_log/pytorch-1gpu.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=A100
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sims
-#FLUX: -n=24
-#FLUX: --queue=russpold,normal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=sims
+#SBATCH --output=.out/sims2.out
+#SBATCH --error=.err/sims2.err
+#SBATCH --mail-user=henrymj@stanford.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=russpold,normal
 
 export PYTHONPATH=''
 

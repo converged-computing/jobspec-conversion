@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Genus-species
-#FLUX: -n=64
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=Genus-species
+#SBATCH --account=fnrquail
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=your email address (e.g.jeon96@purdue.edu) without quotation marks
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=127G
+#SBATCH --time=14-00:00:00
 
 export PATH='$PATH:~/genmap-build/bin'
 

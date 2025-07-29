@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=meta-TCT-simulations
-#FLUX: -c=72
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=meta-TCT-simulations
+#FLUX -c=72
+#FLUX -t=32400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

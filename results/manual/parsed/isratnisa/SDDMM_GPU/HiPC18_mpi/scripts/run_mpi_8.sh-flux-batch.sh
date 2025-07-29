@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-8586
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-lemon-5372
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/isratnisa/SDDMM_GPU/HiPC18_mpi/scripts/run_mpi_8.sh

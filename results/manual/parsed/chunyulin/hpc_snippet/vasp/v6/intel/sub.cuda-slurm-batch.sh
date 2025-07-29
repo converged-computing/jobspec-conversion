@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-platanos-6826
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --account=GOV109092
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:${NGPU}
+#SBATCH --constraint=ntasks-per-node=${NGPU}
 
 export I_MPI_PMI_LIBRARY='/lib64/libpmi.so'
 export I_MPI_OFI_PROVIDER='mlx'

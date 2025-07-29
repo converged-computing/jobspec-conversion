@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mnist_with_pytorch.sh
-#FLUX: --queue=gpu
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=mnist_with_pytorch.sh
+#FLUX --queue=gpu
+#FLUX -t=180
+#FLUX --urgency=16
 
 echo "# cloudmesh status=running progress=1 pid=$$"
 nvidia-smi --list-gpus

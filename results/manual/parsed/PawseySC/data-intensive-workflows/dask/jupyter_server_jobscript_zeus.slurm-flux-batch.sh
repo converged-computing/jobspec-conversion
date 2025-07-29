@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-dog-7965
-#FLUX: -n=28
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-destiny-0717
+#FLUX -n=28
+#FLUX --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

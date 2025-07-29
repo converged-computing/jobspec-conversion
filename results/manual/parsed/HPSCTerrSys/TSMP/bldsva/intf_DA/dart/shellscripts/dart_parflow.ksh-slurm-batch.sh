@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dartParFlow
-#FLUX: -n=48
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dartParFlow
+#SBATCH --account=hbn33
+#SBATCH --output=mpiMPMD-out.%j
+#SBATCH --error=mpiMPMD-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=48
 
 export LOGNAME='$WORK/$1'
 export LOGNAME_S='$WORK/rundart01'

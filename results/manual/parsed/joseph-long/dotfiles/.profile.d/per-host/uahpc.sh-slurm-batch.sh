@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=docker_to_singularity
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=docker_to_singularity
+#SBATCH --account=jrmales
+#SBATCH --mail-user=josephlong@email.arizona.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=standard
 
 export MANPATH='$MANPATH:/home/u32/josephlong/devel/texlive/2021/texmf-dist/doc/man'
 export INFOPATH='$INFOPATH:/home/u32/josephlong/devel/texlive/2021/texmf-dist/doc/info'

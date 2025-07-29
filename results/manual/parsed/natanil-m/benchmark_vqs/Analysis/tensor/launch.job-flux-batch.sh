@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myjobtest
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpuA100x8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=myjobtest
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpuA100x8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module reset # drop modules and explicitly load the ones needed
              # (good job metadata and reproducibility)

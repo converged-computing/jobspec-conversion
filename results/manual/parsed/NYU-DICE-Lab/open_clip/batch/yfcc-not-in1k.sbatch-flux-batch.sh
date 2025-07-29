@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yfcc-not-in1k
-#FLUX: -c=8
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=yfcc-not-in1k
+#FLUX -c=8
+#FLUX -t=172740
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-4941
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-rabbit-4751
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge; module load singularity
 singularity exec --bind /gpfs/home/gologr01/DeepPit/:/DeepPit/ cuda_1906.sif bash -c 'jupyter nbconvert --to script DeepPit/100b_test_dice_table.ipynb'

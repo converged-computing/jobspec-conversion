@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lentil-5860
-#FLUX: -c=2
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-malarkey-6504
+#FLUX -c=2
+#FLUX --queue=work
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

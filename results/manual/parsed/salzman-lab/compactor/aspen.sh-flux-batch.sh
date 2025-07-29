@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=flu
-#FLUX: --queue=horence,quake,normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=flu
+#FLUX --queue=horence,quake,normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 input_dir='/oak/stanford/groups/horence/NOMAD/nomad_runs/tabula_sapiens/TSP_SS2_tissue/'$1'/'$2'/sample_sheet.csv'
 output_dir='/oak/stanford/groups/horence/NOMAD/nomad_results/tabula_sapiens/TSP_SS2_tissue/'$1'/'$2'/results/'

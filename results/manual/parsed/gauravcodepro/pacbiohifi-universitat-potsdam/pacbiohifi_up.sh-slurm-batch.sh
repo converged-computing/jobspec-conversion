@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-train-6462
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
                      echo "there are two assembly configurations available, either perform the assembly"
             echo "on the single reads or perform the assembly using the paternal and the maternal sequences"

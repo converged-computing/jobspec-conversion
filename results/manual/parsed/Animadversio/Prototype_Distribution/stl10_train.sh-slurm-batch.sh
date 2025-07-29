@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-house-5290
-#FLUX: -c=16
-#FLUX: --queue=gpu_quad
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=stl10_train_%A.%a.out
+#SBATCH --mail-user=binxu_wang@hms.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_quad
+#SBATCH --array=6-10
 
 export unit_name='$(echo "$param_list" | head -n $SLURM_ARRAY_TASK_ID | tail -1)'
 

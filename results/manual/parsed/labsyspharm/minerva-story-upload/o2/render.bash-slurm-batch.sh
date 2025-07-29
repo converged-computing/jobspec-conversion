@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-avocado-8885
-#FLUX: --queue=short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1g
+#SBATCH --time=00:30:00
+#SBATCH --partition=short
+#SBATCH --array=0-14
 
 module load conda3
 eval "$(conda shell.bash hook)"

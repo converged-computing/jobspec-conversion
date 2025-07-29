@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=True
-#FLUX: --queue=defq
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=True
+#FLUX --queue=defq
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export GPG_TTY='$(tty)'
 export LANG='en_US.UTF-8'

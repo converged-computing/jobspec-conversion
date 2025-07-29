@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-8104
-#FLUX: -c=48
+#FLUX --job-name=stanky-caramel-1709
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

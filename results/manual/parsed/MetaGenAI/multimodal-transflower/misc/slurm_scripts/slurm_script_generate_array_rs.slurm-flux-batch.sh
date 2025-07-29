@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fudge-1886
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-hippo-8309
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SLURM_ARRAY_TASK_ID='$(($SLURM_ARRAY_TASK_ID+1))'
 export index='$i'

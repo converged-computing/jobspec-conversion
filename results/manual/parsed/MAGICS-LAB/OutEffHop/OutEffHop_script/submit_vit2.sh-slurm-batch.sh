@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ViT-gate_softmax1
-#FLUX: -c=24
-#FLUX: --queue=gengpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ViT-gate_softmax1
+#SBATCH --account=pxxxxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=180G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gengpu
+#SBATCH --constraint=sxm,ntasks-per-node=2
 
 module purge
 module load python-miniconda3/4.12.0

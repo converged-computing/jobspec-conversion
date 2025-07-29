@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vQTL
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --job-name=vQTL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --array=1-1857:1
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=neutrophil.count.rint.ALL

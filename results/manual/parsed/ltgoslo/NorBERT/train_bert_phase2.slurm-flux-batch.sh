@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BERT
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=BERT
+#FLUX -N=4
+#FLUX -n=16
+#FLUX -c=6
+#FLUX --queue=accel
+#FLUX -t=540000
+#FLUX --urgency=16
 
 export BERT_ROOT='$EBROOTNLPLMINNVIDIA_BERT'
 export LOCAL_ROOT='`pwd`'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=paraphrase
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=paraphrase
+#SBATCH --output=.slurm/paraphrase.out.txt
+#SBATCH --error=.slurm/paraphrase.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

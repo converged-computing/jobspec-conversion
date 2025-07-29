@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold-reference
-#FLUX: -N=18
-#FLUX: -n=18
-#FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:openfold-reference
+#SBATCH --nodes=18
+#SBATCH --ntasks=18
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=3-00:00:00
+#SBATCH: --exclusive
 
 export CONT='/scratch/nnisbet/mlperf_hpc-openfold_latest.sif'
 export OMP_NUM_THREADS='1'

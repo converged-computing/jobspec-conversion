@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpujob
-#FLUX: -n=4
-#FLUX: --queue=ampere
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpujob
+#SBATCH --account=CHANGEME-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=02:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

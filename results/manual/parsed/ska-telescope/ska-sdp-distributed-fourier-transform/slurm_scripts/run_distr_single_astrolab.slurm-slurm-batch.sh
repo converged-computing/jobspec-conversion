@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DFFT
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --exclusive
-#FLUX: --queue=astro-cpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=DFFT
+#SBATCH --account=astro
+#SBATCH --output=/home/%u/work/slurm-scripts/slurm_out/slurm-std-%A.out
+#SBATCH --error=/home/%u/work/slurm-scripts/slurm_out/slurm-err-%A.out
+#SBATCH --mail-user=$USER@cnlab.net
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=astro-cpu
+#SBATCH: --exclusive
 
 export DASK_CONFIG='${dask_config_path}'
 export PYTHONPATH='${project_path}:$PYTHONPATH'

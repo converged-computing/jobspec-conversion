@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-parsnip-7883
-#FLUX: --urgency=16
+#FLUX --job-name=confused-hippo-9933
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pierresegonne/SGGM/run.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=el-id
-#FLUX: -c=8
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=el-id
+#FLUX -c=8
+#FLUX -t=180
+#FLUX --urgency=16
 
 export VAR='$SLURM_ARRAY_TASK_ID'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conda_setup
-#FLUX: --queue=gpuA100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=conda_setup
+#SBATCH --output=conda_setup.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuA100
 
 uenv verbose cuda-12.2.0 cudnn-12.x-8.8.0
 uenv miniconda3-py39

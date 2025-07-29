@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Gromacs
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Gromacs
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:v100:2
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

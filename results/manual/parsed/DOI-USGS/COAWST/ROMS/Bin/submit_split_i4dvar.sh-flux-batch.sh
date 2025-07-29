@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=WC13_split_i4dvar
-#FLUX: -n=12
+#FLUX --job-name=WC13_split_i4dvar
+#FLUX -n=12
 #FLUX: --exclusive
-#FLUX: --queue=p_omg_1
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=p_omg_1
+#FLUX -t=3600
+#FLUX --urgency=16
 
 My4DVarScript() {
      DataDir=$1                # Data directory

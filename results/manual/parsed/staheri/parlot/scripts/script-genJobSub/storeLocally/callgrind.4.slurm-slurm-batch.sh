@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leader-5909
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: --queue=soc-kp
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=soc-kp
+#SBATCH --output=callgrind.4.%j.output
+#SBATCH --error=callgrind.4.%j.output
+#SBATCH --mail-user=staheri@cs.utah.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=6400
+#SBATCH --time=00:15:00
+#SBATCH --partition=soc-kp
 
 export PIN_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/'
 export PTOOL_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/source/tools'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pt4pc
-#FLUX: -c=4
-#FLUX: --queue=gpu1
-#FLUX: --urgency=16
+#FLUX --job-name=pt4pc
+#FLUX -c=4
+#FLUX --queue=gpu1
+#FLUX --urgency=16
 
 export PYTHONPATH='./'
 

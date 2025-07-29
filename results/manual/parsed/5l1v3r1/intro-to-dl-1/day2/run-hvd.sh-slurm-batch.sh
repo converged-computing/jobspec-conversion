@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bicycle-7099
-#FLUX: -n=2
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_2003959
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 export DATADIR='/scratch/project_2003959/data'
 export KERAS_HOME='/scratch/project_2003959/keras-cache'

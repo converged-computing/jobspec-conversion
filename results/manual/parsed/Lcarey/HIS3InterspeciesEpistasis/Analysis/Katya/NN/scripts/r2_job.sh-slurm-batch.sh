@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=R2_calculations
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=R2_calculations
+#SBATCH --output=r2_log_hist
+#SBATCH --mail-user=ekaterina.putintseva@ist.ac.at
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
+#SBATCH: --no-requeue
+#SBATCH --array=3-12
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

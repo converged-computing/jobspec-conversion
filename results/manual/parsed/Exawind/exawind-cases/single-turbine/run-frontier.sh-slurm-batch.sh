@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=single-turbine
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=single-turbine
+#SBATCH --account=CFD162
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
 
 set -e
 cmd() {

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-egg-9598
-#FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=all
+#SBATCH: --exclusive
 
 export JULIA_EXLUSIVE='1'
 

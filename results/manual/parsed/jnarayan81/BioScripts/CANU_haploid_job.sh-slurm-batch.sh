@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CANUAssembly
-#FLUX: -n=200
-#FLUX: --queue=defq
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=CANUAssembly
+#SBATCH --mail-user=jitendra.narayan@unamur.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=200
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=40960
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=defq
 
 export PATH='$PATH:/home/unamur/URBE/jnarayan/CANUAssembly/canu/Linux-amd64/bin'
 

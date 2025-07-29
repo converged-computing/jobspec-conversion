@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CompileSIMPLE
-#FLUX: -c=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=CompileSIMPLE
+#SBATCH --account=${MASSIVE_ACCOUNT}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=4096
+#SBATCH --time=00:05:00
+#SBATCH --qos=shortq
 
 export INTEL_DIR='/usr/local/intel/2017u4/'
 

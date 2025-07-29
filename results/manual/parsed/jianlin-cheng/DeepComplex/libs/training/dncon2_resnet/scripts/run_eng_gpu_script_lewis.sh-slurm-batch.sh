@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=VB3D-GPU
-#FLUX: -c=8
-#FLUX: --queue=gpu4
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=VB3D-GPU
+#SBATCH --account=engineering-gpu
+#SBATCH --mail-user=nax35@mail.missouri.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:Tesla V100-PCIE-32GB:1
+#SBATCH --mem=128G
+#SBATCH --time=00:04:00
+#SBATCH --partition=gpu4
 
 echo "### Starting at: $(date) ###"
 module load gcc/gcc-5.4.0

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=seqtrain
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=seqtrain
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 export WANDB__SERVICE_WAIT='300'
 

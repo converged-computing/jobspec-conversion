@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-chair-7762
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --mail-user=shashwat.goel@research.iiit.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=4-00:00:00
+#SBATCH --exclude=gnode58,gnode17
 
 cat cifar10-noise.sh
 logdir='logs/Final-cifar10-resnet110'

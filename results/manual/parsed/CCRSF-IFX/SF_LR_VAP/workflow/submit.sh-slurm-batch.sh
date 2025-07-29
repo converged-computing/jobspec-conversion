@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-puppy-0698
-#FLUX: -n=2
-#FLUX: --queue=norm
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4g
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=norm
+#SBATCH: --no-requeue
 
 source /mnt/ccrsf-ifx/Software/tools/Anaconda/3.11/etc/profile.d/conda.sh
 conda activate snakemake

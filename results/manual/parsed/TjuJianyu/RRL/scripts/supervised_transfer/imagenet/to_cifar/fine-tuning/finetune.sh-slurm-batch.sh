@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_ft
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_ft
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-239
 
 i=0;
 for lr in 0.005 0.01 0.05; 

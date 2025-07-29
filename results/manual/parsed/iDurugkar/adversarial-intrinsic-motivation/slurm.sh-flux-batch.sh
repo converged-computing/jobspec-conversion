@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rnd
-#FLUX: -c=8
-#FLUX: --queue=titans
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=rnd
+#FLUX -c=8
+#FLUX --queue=titans
+#FLUX -t=345600
+#FLUX --urgency=16
 
 SEED=$(($SLURM_ARRAY_TASK_ID + 1010))
 SEED2=$(($SLURM_ARRAY_TASK_ID + 3 + 1010))

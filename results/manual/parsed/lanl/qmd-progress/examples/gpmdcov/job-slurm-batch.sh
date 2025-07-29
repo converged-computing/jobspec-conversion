@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-taco-9259
-#FLUX: -N=16
-#FLUX: -n=40
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=16
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=40
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

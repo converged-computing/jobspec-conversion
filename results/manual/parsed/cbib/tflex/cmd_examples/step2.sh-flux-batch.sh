@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakestar
+#FLUX --job-name=snakestar
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 scontrol show job $SLURM_JOB_ID
 tflexPath="/mnt/cbib/thesis_gbm/tflex"

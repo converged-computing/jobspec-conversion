@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=subtract
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=subtract
+#FLUX -c=10
+#FLUX --urgency=16
 
 SCRIPT_DIR=/home/lofarvwf-jdejong/scripts/lofar_vlbi_helpers/imaging/split_facets
 POLYREG=poly_${SLURM_ARRAY_TASK_ID}.reg

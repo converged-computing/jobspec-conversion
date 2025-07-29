@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nn_boulder
-#FLUX: --queue=nelson
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=nn_boulder
+#SBATCH --output=./out/nn_boulder%a.out
+#SBATCH --error=./err/nn_boulder%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:30:00
+#SBATCH --partition=nelson
+#SBATCH --array=10,20,30,40,50,60,70,80,90,100
 
 export GHZHANG17_TASK_ID='$SLURM_ARRAY_TASK_ID'
 export GHZHANG17_JOB_ID='$SLURM_JOB_ID'

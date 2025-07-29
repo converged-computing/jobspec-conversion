@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cherry-9012
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-cat-7890
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SvenRogge/supporting-info/2018_AccChemRes_v51_p138_MechanicalStability/MIL47V_lp/scripts/NPT/job_restart.sh

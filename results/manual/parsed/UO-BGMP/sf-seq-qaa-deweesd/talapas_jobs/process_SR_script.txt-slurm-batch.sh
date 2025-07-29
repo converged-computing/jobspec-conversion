@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=PS_trimmed_data
-#FLUX: --queue=gpu
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=PS_trimmed_data
+#SBATCH --output=Process_S2.out
+#SBATCH --error=Process_S2.err
+#SBATCH --mail-user=daned@uoregon.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=28
 
 module purge
 module load slurm easybuild intel/2017a Stacks/1.46

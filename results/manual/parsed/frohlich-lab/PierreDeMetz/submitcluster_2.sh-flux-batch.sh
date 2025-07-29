@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-animal-5977
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-noodle-8560
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export WANDB_API_KEY='########'
 

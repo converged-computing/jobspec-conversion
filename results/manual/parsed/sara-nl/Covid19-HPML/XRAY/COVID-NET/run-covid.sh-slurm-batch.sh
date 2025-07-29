@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bicycle-4715
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 clear
 module use ~/environment-modules-lisa

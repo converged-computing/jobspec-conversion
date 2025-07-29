@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-underoos-5527
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=confused-kitty-6618
+#FLUX --queue=single
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "Start time: $(date)"
 echo "SLURM_JOB_NODELIST: $SLURM_JOB_NODELIST"

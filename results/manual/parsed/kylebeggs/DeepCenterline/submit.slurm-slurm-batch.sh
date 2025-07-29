@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-animal-7489
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --mail-user=kbeggs07@knights.ucf.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 module load anaconda/anaconda3
 module list

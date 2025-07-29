@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fat-eagle-4034
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --mail-user=aramirezreyes@ucdavis.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=knl
+#SBATCH --licenses=project,SCRATCH
 
 export JULIA_NUM_THREADS='1'
 export TMPDIR='$SCRATCH'

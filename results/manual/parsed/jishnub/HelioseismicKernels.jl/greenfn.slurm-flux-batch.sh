@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gfn
-#FLUX: -n=420
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gfn
+#FLUX -n=420
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SCRATCH/jobs
 julia="$PROJECT/julia-1.6.1/bin/julia"

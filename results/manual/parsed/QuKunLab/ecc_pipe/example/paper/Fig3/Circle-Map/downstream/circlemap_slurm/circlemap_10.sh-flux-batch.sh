@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=circlemap_10
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=CPU-Small
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=circlemap_10
+#FLUX -N=2
+#FLUX -n=80
+#FLUX --queue=CPU-Small
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo Running on $SBATCH_PARTITION paratation
 echo Time is `date`

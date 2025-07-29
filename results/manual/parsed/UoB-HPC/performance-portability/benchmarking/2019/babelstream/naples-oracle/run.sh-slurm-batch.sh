@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poodle-9526
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='64 OMP_PROC_BIND=spread OMP_PLACES=cores'
 

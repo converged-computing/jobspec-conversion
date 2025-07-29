@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-1830
-#FLUX: --queue=standard
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-kitty-7614
+#FLUX --queue=standard
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3 singularity python/3.6.6

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BERL
-#FLUX: -N=6
-#FLUX: -n=216
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=BERL
+#SBATCH --mail-user=paul.templier@isae-supaero.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=6
+#SBATCH --ntasks=216
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=36
 
 export OMP_NUM_THREADS='1'
 

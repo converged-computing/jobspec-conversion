@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-0087
-#FLUX: --urgency=16
+#SBATCH --output=sim_param_opt.out-%j-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-24
 
 source /etc/profile
 module load anaconda3-5.0.1

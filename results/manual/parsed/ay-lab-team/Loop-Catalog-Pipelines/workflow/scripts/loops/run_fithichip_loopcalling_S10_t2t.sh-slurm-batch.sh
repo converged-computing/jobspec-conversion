@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-signal-2035
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ay-lab-team/Loop-Catalog-Pipelines/workflow/scripts/loops/run_fithichip_loopcalling_S10_t2t.sh

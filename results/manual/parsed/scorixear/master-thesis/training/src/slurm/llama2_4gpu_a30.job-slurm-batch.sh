@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llama2-7b-4gpu-10e
-#FLUX: -c=8
-#FLUX: --queue=paula
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=llama2-7b-4gpu-10e
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a30:4
+#SBATCH --mem=256G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=paula
+#SBATCH --constraint=ntasks-per-node=1
 
 export GPUS_PER_NODE='4'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

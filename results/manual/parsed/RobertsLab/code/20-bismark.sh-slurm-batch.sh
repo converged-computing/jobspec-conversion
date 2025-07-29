@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=BISMARK
-#FLUX: --queue=coenv
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=BISMARK
+#SBATCH --account=coenv
+#SBATCH --mail-user=$USER@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=coenv
+#SBATCH --chdir=
 
 set -e
 reads_dir=""

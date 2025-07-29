@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=solve_MIP
-#FLUX: -n=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=solve_MIP
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=4-04:00:00
 
   # Standard output and error log (%j expands to jobId)
 module load StdEnv/2023

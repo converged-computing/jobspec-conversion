@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-1175
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-poo-8450
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load cuda/11.2
 module load fftw/3.3.5

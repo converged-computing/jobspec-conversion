@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chair-5915
-#FLUX: -n=10
-#FLUX: -c=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=blanca-ccn
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=bnode[0202-0207,0211,0216,0221,0224]
 
 export HOME='`getent passwd $USER | cut -d':' -f6`'
 export PYTHONUNBUFFERED='1'

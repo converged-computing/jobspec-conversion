@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-egg-8600
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=innovation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=8G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 module load 2022r2 openmpi py-torch
 srun python gpu_dl_pytorch.py > gpu_dl_pytorch.log

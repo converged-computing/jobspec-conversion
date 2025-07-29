@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=optuna2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=optuna2
+#SBATCH --output=./out/array_%A_%a.out
+#SBATCH --error=./err/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-9
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 nvidia-smi

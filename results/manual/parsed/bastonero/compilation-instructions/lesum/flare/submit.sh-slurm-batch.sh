@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TEST
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=TEST
+#SBATCH --output=slurm-report.out
+#SBATCH --error=slurm-report.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=12
 
 export OMP_NUM_THREADS='12'
 

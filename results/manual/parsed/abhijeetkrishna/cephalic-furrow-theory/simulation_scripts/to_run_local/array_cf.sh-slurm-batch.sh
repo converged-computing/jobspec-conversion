@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-9923
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 job_id=0
 py_map_creator=map_index_cf.py

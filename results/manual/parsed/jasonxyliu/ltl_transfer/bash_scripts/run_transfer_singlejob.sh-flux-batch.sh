@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-bike-3719
-#FLUX: -n=99
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=milky-onion-9666
+#FLUX -n=99
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leopard-0042
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=slurm-cpu-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:10:00
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

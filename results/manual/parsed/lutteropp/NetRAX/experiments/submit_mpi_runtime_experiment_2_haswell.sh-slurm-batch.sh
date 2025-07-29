@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-platanos-6537
-#FLUX: -N=8
-#FLUX: -n=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 module purge
 module load Python

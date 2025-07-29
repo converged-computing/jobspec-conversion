@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=LipNet
-#FLUX: --queue=standard
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=LipNet
+#SBATCH --output=output
+#SBATCH --mail-user=t22104@students.iitmandi.ac.in
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=8
 
 module load DL-Conda_3.7
 source /home/apps/DL/DL-CondaPy3.7/bin/activate torch

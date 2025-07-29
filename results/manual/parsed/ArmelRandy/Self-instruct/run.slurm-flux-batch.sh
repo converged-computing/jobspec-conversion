@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=self-instruct
-#FLUX: -c=48
+#FLUX --job-name=self-instruct
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export WANDB_PROJECT='test'
 export HF_DATASETS_CACHE='/fsx/armel/.cache'

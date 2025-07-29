@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tr8b-104B-pile
-#FLUX: -N=128
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=tr8b-104B-pile
+#SBATCH --account=six@gpu
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.launch \'
 export CMD=' \'

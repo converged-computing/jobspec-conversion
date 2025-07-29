@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gkyl
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gkyl
+#SBATCH --account=m0000
+#SBATCH --mail-user=jdoe@fusion.pl
+#SBATCH --mail-type=END,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'
 

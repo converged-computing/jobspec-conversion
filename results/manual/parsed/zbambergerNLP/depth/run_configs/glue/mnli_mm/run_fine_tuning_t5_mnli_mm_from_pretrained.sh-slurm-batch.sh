@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=principled-pre-training
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=principled-pre-training
+#SBATCH --output=fine_tuning_runs/slurm_%N_%j_out.txt
+#SBATCH --error=fine_tuning_runs/slurm_%N_%j_err.txt
+#SBATCH --mail-user=zachary@campus.technion.ac.il
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2
+#SBATCH --nodelist=bruno1,bruno2,galileo1,galileo2,newton3,newton4,newton5,tdk-bm4
 
 export DS_SKIP_CUDA_CHECK='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

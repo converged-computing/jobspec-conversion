@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=libri-p20
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=libri-p20
+#SBATCH --output=./logs/libri-p20-%A-%a-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=190000M
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-19%1
 
 echo "Running on: $(hostname)"
 batch_size=300

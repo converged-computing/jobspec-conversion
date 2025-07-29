@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=analyse_occurence
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=analyse_occurence
+#SBATCH --account=rpp-julemai
+#SBATCH --mail-user=juliane.mai@uwaterloo.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-200
 
 module purge
 module load StdEnv/2020 netcdf gcc/9.3.0 gdal/3.0.4

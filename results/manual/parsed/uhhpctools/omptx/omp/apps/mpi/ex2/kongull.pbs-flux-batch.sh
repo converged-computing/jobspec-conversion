@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-puppy-0959
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-signal-5282
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uhhpctools/omptx/omp/apps/mpi/ex2/kongull.pbs

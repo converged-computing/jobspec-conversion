@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=glnexus
+#FLUX --job-name=glnexus
 #FLUX: --exclusive
-#FLUX: --queue=nodelong
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --queue=nodelong
+#FLUX -t=360000
+#FLUX --urgency=16
 
 set -e
 GVCFDIR=$1

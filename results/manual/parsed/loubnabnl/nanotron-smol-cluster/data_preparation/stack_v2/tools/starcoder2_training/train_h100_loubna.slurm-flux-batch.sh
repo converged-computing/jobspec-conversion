@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=7b_32k
-#FLUX: -c=48
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=50
+#FLUX --job-name=7b_32k
+#FLUX -c=48
+#FLUX --queue=hopper-prod
+#FLUX --urgency=50
 
 export AWS_DEFAULT_REGION='us-east-1'
 export USE_FAST='1'

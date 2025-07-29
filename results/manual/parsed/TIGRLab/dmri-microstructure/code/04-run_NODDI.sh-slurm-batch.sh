@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=qsiprep
-#FLUX: -c=4
-#FLUX: --queue=high-moby
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=qsiprep
+#SBATCH --output=qsiprep_%j.out
+#SBATCH --error=qsiprep_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4096
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=high-moby
+#SBATCH --array=1-187
 
 STUDY="TAY"
 sublist="/scratch/mjoseph/bids/${STUDY}/code/subject_list_dwi.txt"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-hobbit-5776
-#FLUX: -c=8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=astute-lemur-2877
+#FLUX -c=8
+#FLUX -t=36000
+#FLUX --urgency=16
 
 LATEST_VERSION=101
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

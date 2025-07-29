@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-salad-7032
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/garland3/clemsonPhD/IDETC2017/job.mpiMatlab.pbs

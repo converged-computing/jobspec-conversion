@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FEP_test8
-#FLUX: --queue=mf_nes2.8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=FEP_test8
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=mf_nes2.8
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=8
 
 lambda=$SLURM_ARRAY_TASK_ID
 printf "Start Time:$( date )\n"

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dsanet_128_24
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=57000
-#FLUX: --urgency=16
+#SBATCH --job-name=dsanet_128_24
+#SBATCH --account=Project_2002244
+#SBATCH --output=job_out_ep_electricity_128_24.txt
+#SBATCH --error=job_err_ep_electricity_128_24.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=12G
+#SBATCH --time=15:50:00
+#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.2.0

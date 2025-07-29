@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-6916
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-chip-2502
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=86399
+#FLUX --urgency=16
 
 module load caffe
 echo STARTING AT `date`

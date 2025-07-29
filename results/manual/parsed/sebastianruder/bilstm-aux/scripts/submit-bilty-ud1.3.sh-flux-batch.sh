@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leopard-3292
-#FLUX: --urgency=16
+#FLUX --job-name=red-kerfuffle-4479
+#FLUX --urgency=16
 
 SUBMIT=0
 PARTITION=nodes

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-spoon-6357
-#FLUX: --queue=gpu2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=resnet30-bs512_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bertpl4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bertpl4
+#SBATCH --output=logs/bert_rerank/output_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export TOKENIZERS_PARALLELISM='true'
 

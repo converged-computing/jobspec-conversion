@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-sundae-2218
-#FLUX: -N=6
-#FLUX: -n=6
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=west6.out
+#SBATCH --error=west6.err
+#SBATCH --nodes=6
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

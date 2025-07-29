@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-6150
-#FLUX: -c=16
-#FLUX: --queue=gpu_short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu_short
 
 export PATH='/sw/arch/RedHatEnterpriseServer7/EB_production/2019/software/CUDA/10.0.130-GCC-7.3.0-2.30/bin:/sw/arch/RedHatEnterpriseServer7/EB_production/2019/software/binutils/2.30-GCCcore-7.3.0/bin:/sw/arch/RedHatEnterpriseServer7/EB_production/2019/software/GCCcore/7.3.0/bin:/home/twesterh/conda/condabin:/hpc/sw/hpc/bin:/hpc/sw/hpc/sbin:/usr/lib64/qt-3.3/bin:/hpc/eb/modules-tcl-1.923/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'
 export LD_LIBRARY_PATH='/sw/arch/RedHatEnterpriseServer7/EB_production/2019/software/CUDA/10.0.130-GCC-7.3.0-2.30/lib64'

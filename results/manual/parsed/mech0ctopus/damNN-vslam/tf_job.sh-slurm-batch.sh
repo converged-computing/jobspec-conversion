@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-banana-9634
-#FLUX: -n=6
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=02:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=V100
 
 module load python/gcc-8.2.0/3.7.6
 module load cuda10.1/toolkit/10.1.105

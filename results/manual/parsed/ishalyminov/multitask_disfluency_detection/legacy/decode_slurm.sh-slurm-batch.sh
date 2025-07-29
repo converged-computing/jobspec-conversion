@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-6462
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#SBATCH --mail-user=is33@hw.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=amd-longq
 
 module purge
 module load shared

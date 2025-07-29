@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hope-2943
-#FLUX: -n=2
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20000
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal256
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

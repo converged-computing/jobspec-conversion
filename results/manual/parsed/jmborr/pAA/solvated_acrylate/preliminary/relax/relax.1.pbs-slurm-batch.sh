@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=r1
-#FLUX: -N=8
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=r1
+#SBATCH --output=r1.o%j
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --licenses=SCRATCH
 
 prefix='relax'
 currindex=1

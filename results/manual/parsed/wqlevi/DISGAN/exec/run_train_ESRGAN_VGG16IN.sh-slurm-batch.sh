@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=TORCH-GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TORCH-GPU
+#SBATCH --output=./log/inst_n.out.%j
+#SBATCH --error=./log/inst_n.err.%j
+#SBATCH --mail-user=qi.wang@tuebingen.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
+#SBATCH --chdir=/u/wangqi/torch_env/crop_gan
 
 module purge 
 module load anaconda/3/2020.02

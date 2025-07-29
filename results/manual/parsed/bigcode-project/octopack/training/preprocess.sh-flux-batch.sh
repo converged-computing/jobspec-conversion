@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jsonl
-#FLUX: -c=40
-#FLUX: --queue=cpu_p1
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=jsonl
+#FLUX -c=40
+#FLUX --queue=cpu_p1
+#FLUX -t=18000
+#FLUX --urgency=16
 
 OUTPUT=/gpfswork/rech/ajs/commun/code/bigcode/finetune/train
 TOKENIZER_FILE=/gpfswork/rech/ajs/commun/code/bigcode/bigcode-evaluation-harness/santacoder/tokenizer.json

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pmiscan
-#FLUX: -c=5
-#FLUX: -t=172800
-#FLUX: --urgency=50
+#FLUX --job-name=pmiscan
+#FLUX -c=5
+#FLUX -t=172800
+#FLUX --urgency=50
 
 lr=1.0
 warmup_steps=4000

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=4_filter_gvcf_TRIAL
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=4_filter_gvcf_TRIAL
+#SBATCH --output=/work/gr-fe/rueger/G2G-HBV/data/log/4_filter_gvcf_TRIAL.%J.out
+#SBATCH --error=/work/gr-fe/rueger/G2G-HBV/data/log/4_filter_gvcf_TRIAL.%J.err
+#SBATCH --mail-user=sina.rueeger@epfl.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=60gb
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/work/gr-fe/rueger/G2G-HBV/
 
 export TMPDIR='/scratch/rueger/$SLURM_JOB_ID'
 

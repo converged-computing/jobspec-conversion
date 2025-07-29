@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-squidward-3263
-#FLUX: --queue=compsci-gpu
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-plant-0789
+#FLUX --queue=compsci-gpu
+#FLUX --urgency=16
 
 set -e
 SLURM_ARRAY_TASK_ID=204

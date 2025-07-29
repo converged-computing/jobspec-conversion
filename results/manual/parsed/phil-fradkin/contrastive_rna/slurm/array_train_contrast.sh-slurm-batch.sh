@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=cont_9.1
-#FLUX: -c=7
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#SBATCH --job-name=cont_9.1
+#SBATCH --account=deadline
+#SBATCH --output=slurm_out/array_gpu_train_contrast_model_slurm.%A_%a.out
+#SBATCH --error=slurm_out/array_gpu_train_contrast_model_slurm.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:4
+#SBATCH --mem=160G
+#SBATCH --partition=a40
+#SBATCH --qos=deadline
+#SBATCH --array=0-0
+#SBATCH --exclude=gpu052
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

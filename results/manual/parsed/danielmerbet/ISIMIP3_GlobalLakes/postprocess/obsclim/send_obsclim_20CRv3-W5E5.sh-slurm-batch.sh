@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ISIMIP3a-pos-GSWP3
-#FLUX: -n=28
-#FLUX: --queue=broadwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=ISIMIP3a-pos-GSWP3
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=230G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=broadwell
 
 echo EMPIEZA TODO `date`
 ml SciPy-bundle/2021.10-foss-2021b

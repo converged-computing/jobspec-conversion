@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=8
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=/home/hanliu/slurm_out/%j.%N.stdout
+#SBATCH --error=/home/hanliu/slurm_out/%j.%N.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --partition=general
+#SBATCH --chdir=/net/scratch/hanliu/radiology/prostatex
 
 export FOLD='4'
 export msin='ABDEFKT'

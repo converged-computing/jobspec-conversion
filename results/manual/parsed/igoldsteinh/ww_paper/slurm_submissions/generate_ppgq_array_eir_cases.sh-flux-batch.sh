@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-spoon-9645
-#FLUX: -n=4
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=arid-noodle-7680
+#FLUX -n=4
+#FLUX --queue=standard
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia-1_8_5

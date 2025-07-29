@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=smplx-obj-write
-#FLUX: -c=2
-#FLUX: --queue=spgpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=smplx-obj-write
+#FLUX -c=2
+#FLUX --queue=spgpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 my_job_header
 conda activate soma3.7

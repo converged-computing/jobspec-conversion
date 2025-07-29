@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-kerfuffle-7002
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-pastry-2377
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HPC-project-717-and-718/BFR/bfr_parallel_test.sh

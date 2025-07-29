@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mel1
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=mel1
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=50400
+#FLUX --urgency=16
 
 module purge
 module load cuda/8.0.44

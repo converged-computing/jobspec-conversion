@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=script3
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=cpu-compute-spot
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=script3
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=cpu-compute-spot
 
 set -e
 cmd="pip install --upgrade git+https://github.com/pytorch/ignite.git && python check_idist.py --backend=gloo"

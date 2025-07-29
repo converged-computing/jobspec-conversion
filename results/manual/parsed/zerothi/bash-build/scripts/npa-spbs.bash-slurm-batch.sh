@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-caramel-1689
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zerothi/bash-build/scripts/npa-spbs.bash

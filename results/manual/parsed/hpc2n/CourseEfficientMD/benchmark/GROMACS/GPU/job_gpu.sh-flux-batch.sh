@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=astute-punk-8134
-#FLUX: -n=4
-#FLUX: -c=7
+#FLUX --job-name=lovable-peanut-butter-0984
+#FLUX -n=4
+#FLUX -c=7
 #FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 10000 -nsteps 20000'

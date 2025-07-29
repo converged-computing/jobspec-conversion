@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=setup_v2
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=setup_v2
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load rubberband/intel/1.8.1

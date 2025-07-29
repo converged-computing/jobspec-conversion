@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pixsim
-#FLUX: -N=150
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=pixsim
+#FLUX -N=150
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export TMPDIR='/dev/shm'
 export OMP_NUM_THREADS='${node_thread}'

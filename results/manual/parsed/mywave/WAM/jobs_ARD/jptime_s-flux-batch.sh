@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ptime_s
-#FLUX: --queue=pCluster
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=ptime_s
+#FLUX --queue=pCluster
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load compilers/intel/2019.4.243
 module load intelmpi/2019.4.243

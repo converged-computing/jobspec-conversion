@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-car-5562
-#FLUX: -N=121
-#FLUX: -n=484
-#FLUX: --queue=develbooster
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=slai
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=121
+#SBATCH --ntasks=484
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:30:00
+#SBATCH --partition=develbooster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

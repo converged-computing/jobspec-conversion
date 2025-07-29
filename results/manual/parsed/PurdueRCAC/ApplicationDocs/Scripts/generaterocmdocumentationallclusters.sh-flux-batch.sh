@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-leopard-5298
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-chip-0589
+#FLUX --urgency=16
 
 export bell='$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles'
 export negishi='$repo_path/Clusters/Negishi-Modulefiles'

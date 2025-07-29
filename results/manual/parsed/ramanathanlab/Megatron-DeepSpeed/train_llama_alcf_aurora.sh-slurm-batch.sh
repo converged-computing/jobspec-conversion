@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-spoon-3939
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ramanathanlab/Megatron-DeepSpeed/train_llama_alcf_aurora.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PGML
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PGML
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ -d "model-final" ]
 then

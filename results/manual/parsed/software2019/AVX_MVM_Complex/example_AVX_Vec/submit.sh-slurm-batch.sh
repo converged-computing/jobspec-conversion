@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=m_2501_3500
-#FLUX: --queue=test
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=m_2501_3500
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=test
 
 export I_MPI_DEBUG='5 '
 export MPI_DSM_VERBOSE='1 '

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=transfer-model
-#FLUX: -c=4
-#FLUX: --queue=spgpu
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=transfer-model
+#SBATCH --account=shdpm0
+#SBATCH --output=output_slurm/transfer-model_log.txt
+#SBATCH --error=output_slurm/transfer-model_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10g
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=spgpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-10
 
 my_job_header
 conda activate soma3.7

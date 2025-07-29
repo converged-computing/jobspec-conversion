@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -N=15
-#FLUX: --queue=shared-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=main
+#FLUX -N=15
+#FLUX --queue=shared-gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cores=8
 for dir in "$1"/*

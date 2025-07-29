@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ITER_SOLVERS
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ITER_SOLVERS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=skx6240L
 
 export OMP_NUM_THREADS='${NTH} '
 

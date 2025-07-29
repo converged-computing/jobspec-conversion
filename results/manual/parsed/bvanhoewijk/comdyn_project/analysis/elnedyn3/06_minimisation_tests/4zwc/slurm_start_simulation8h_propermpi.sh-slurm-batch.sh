@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-milkshake-8013
-#FLUX: -n=160
-#FLUX: --queue=genoa
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=genoa
+#SBATCH --array=1,2,3,4,5
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

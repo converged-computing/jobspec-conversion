@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tile_800
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tile_800
+#SBATCH --output=tile_forward_measurement.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --nodelist=renyi
 
 export CUDA_VISIBLE_DEVICES='1'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chair-3724
-#FLUX: -c=2
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=prichmond@bcchr.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=defq
 
 	# Removed LOOSE DP/GQ thresholds
 	# Added SPLICEAI

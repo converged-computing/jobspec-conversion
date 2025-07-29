@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-diablo-6117
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=rome
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=24
 
 export OMP_NUM_THREADS='1'
 

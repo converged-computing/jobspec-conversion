@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=WRAP_META_PIPELINE
-#FLUX: --queue=geva
-#FLUX: --urgency=16
+#SBATCH --job-name=WRAP_META_PIPELINE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --partition=geva
 
 function parse_yaml {
    local prefix=$2

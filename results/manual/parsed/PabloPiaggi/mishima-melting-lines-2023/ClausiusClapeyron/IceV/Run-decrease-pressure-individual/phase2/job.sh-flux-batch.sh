@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=liqV
-#FLUX: -n=4
-#FLUX: -c=32
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=liqV
+#FLUX -n=4
+#FLUX -c=32
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export SLURM_WHOLE='1'

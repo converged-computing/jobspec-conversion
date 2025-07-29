@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lda_expers
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=lda_expers
+#FLUX --queue=normal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /home/kriss1/.bash_profile
 module load python/3.6.1

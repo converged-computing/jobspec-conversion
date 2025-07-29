@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pedo-4668
+#FLUX --job-name=moolicious-eagle-9632
 #FLUX: --exclusive
-#FLUX: --queue=n1s16-t4-2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=n1s16-t4-2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fgsa-racl
-#FLUX: --queue=accel
-#FLUX: -t=63000
-#FLUX: --urgency=16
+#SBATCH --job-name=fgsa-racl
+#SBATCH --account=ec37
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=17:30:00
+#SBATCH --partition=accel
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

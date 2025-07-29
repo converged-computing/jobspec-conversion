@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-8103
-#FLUX: --queue=cpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-cherry-2028
+#FLUX --queue=cpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load OpenMPI
 module load Julia

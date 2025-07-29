@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sort
-#FLUX: -c=16
-#FLUX: --queue=rimlsfnwi
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=sort
+#FLUX -c=16
+#FLUX --queue=rimlsfnwi
+#FLUX -t=3600
+#FLUX --urgency=16
 
 wd=/ceph/rimlsfnwi/data/cellbio/mhlanga/thsieh
 sub=microC

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mmsrl
-#FLUX: -c=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=mmsrl
+#FLUX -c=10
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export DATA_PATH='$WORK/data'
 

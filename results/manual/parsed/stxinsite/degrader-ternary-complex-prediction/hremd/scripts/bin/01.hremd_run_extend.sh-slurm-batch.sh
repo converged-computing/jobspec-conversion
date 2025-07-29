@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hremd_run
-#FLUX: -n=20
-#FLUX: --exclusive
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hremd_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --qos=restrained
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=20
+#SBATCH: --no-requeue
 
 module load cuda
 source /bgfs01/insite/utsab.shrestha/programs/gmx_plumed4/gromacs-2018.8/install_dir/bin/GMXRC.bash

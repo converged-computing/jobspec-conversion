@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow-mpi-gpu
-#FLUX: -N=3
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow-mpi-gpu
+#SBATCH --account=ddp315
+#SBATCH --output=tensorflow-mpi-gpu.o%j.%N
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:4
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 export PS_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f1 -d ' ')'
 export WORKER_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f2 -d ' ')'

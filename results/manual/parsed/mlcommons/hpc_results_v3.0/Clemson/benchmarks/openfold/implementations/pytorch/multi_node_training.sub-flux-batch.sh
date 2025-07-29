@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:openfold-reference
-#FLUX: -N=18
-#FLUX: -n=18
+#FLUX --job-name=mlperf-hpc:openfold-reference
+#FLUX -N=18
+#FLUX -n=18
 #FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CONT='/scratch/nnisbet/mlperf_hpc-openfold_latest.sif'
 export OMP_NUM_THREADS='1'

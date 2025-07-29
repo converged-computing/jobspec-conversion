@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-banana-8495
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-sundae-1432
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/benchmarks/membr_Rec_bias/trials_GPU/trial_4_2/md_meta4_2.pbs

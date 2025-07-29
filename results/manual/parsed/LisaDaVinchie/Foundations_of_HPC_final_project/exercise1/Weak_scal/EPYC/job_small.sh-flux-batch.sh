@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Weak_scal
-#FLUX: -N=2
-#FLUX: -n=4
+#FLUX --job-name=Weak_scal
+#FLUX -N=2
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=EPYC
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

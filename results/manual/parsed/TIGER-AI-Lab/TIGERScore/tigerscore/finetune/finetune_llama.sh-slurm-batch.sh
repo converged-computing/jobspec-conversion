@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=llama_finetune
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=llama_finetune
+#SBATCH --output=../../jobs/%x/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=a100
 
 export NCCL_IB_DISABLE='1;'
 export NCCL_P2P_DISABLE='1;'

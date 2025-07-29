@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ra-conv2
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ra-conv2
+#SBATCH --account=p_biomolecules
+#SBATCH --output=conv2/new2/dip.out
+#SBATCH --error=conv2/new2/dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=7000MB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

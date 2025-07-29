@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tf-wavenet-stretched
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-wavenet-stretched
+#SBATCH --output=train.log
+#SBATCH --mail-user=brinton@cs.stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='..:$LD_LIBRARY_PATH'
 

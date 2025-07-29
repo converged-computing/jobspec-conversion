@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=INGEST_DATA
-#FLUX: --queue=sintef
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=INGEST_DATA
+#FLUX --queue=sintef
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export DATE='`date +%F_%H%M`'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=filip_rn50
-#FLUX: -c=8
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=filip_rn50
+#SBATCH --output=filip_rn50_%j.log
+#SBATCH --mail-user=bf996@nyu.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=192GB
+#SBATCH --time=1-23:59:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'

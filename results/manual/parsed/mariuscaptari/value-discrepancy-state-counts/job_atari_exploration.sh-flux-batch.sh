@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-avocado-1132
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lizard-2446
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='.8'

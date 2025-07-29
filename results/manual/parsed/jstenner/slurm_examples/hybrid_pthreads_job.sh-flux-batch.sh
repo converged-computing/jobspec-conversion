@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid_job_test
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hybrid_job_test
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 echo "Date start        = $(date)"
 echo "Hostname          = $(hostname -s)"

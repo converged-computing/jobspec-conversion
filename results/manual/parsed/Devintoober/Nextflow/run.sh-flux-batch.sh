@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=group1
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=group1
+#FLUX --queue=long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "Booyakasha, Big up Yaself -- you've requested $SLURM_CPUS_ON_NODE core."

@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lemur-0821
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=rome16q
-#FLUX: -t=1
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:00:01
+#SBATCH --partition=rome16q
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_1:1'

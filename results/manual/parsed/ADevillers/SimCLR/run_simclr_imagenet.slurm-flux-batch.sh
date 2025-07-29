@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expe
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=expe
+#FLUX -N=8
+#FLUX -c=10
+#FLUX -t=72000
+#FLUX --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

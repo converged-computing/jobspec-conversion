@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llema_zero_shot
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=llema_zero_shot
+#SBATCH --account=sds_kropkoclass
+#SBATCH --output=llema_zero_shot-%A.out
+#SBATCH --error=llema_zero_shot-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

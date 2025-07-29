@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ITS
-#FLUX: --queue=informatik-mind
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=ITS
+#SBATCH --output=./integrating_topics_syntax.%j.out
+#SBATCH --error=./integrating_topics_syntax.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=64000
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=informatik-mind
 
 module purge
 module load anaconda3/latest

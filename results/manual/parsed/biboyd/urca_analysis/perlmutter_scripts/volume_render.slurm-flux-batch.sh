@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-gato-4527
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-fork-9001
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export MPICH_MAX_THREAD_SAFETY='multiple'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bits-7688
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-taco-1386
+#FLUX -c=32
+#FLUX --urgency=16
 
 FullRunStart=`date +%s`
 echo "Timestamp. Starting analysis: $date"

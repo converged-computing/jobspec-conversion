@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=LULC_UNET_training
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=LULC_UNET_training
+#SBATCH --output=oversample_grass_ce_multi_unet.out
+#SBATCH --error=oversample_grass_ce_multi_unet.err
+#SBATCH --mail-user=add.your@own.mail
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=12000
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 echo "$(date)"
 module purge

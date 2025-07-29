@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=100c100
-#FLUX: --queue=stampede
-#FLUX: --urgency=16
+#SBATCH --job-name=100c100
+#SBATCH --output=/home-mscluster/npather/disentangle/100c100.%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=stampede
+#SBATCH --array=0-2
 
 python3 main.py \
 --aicrowd_challenge=false \

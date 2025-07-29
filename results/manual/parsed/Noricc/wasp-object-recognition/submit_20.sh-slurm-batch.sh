@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=retrain
-#FLUX: -n=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=retrain
+#SBATCH --account=computehpc
+#SBATCH --output=retrain_%j.out
+#SBATCH --error=retrain_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export OMP_SCHEDULE='static'
 export OMP_PLACES='cores'

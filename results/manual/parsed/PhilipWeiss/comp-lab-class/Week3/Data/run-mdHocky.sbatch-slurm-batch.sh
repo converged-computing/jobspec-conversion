@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mdrun
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mdrun
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 module purge
 module load gromacs/openmpi/intel/2020.4

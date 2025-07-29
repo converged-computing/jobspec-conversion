@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt
-#FLUX: -N=4
+#FLUX --job-name=megatron_gpt
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export NCCL_DEBUG='INFO'

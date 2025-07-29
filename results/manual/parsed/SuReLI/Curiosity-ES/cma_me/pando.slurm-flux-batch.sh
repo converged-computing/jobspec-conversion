@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cma_me_main_dm_control_maze
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=24
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=cma_me_main_dm_control_maze
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=24
+#FLUX --queue=long
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export WANDB_MODE='online'
 export XPSLURM='True'

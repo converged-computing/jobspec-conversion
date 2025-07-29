@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=receptor_relax
-#FLUX: --queue=standard
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=receptor_relax
+#SBATCH --account=maom99
+#SBATCH --output=FastRelax.log
+#SBATCH --mail-user=limcaoco@med.umich.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000m
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-10
 
 RECEPTOR=${1}
 RECEPTOR_JOB_NAME=${2}

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_singularity_gpu_info
-#FLUX: -c=2
-#FLUX: --queue=shared
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=nextflow_singularity_gpu_info
+#FLUX -c=2
+#FLUX --queue=shared
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export NFX_OPTS='-Xms=512m -Xmx=4g'
 

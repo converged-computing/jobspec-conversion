@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-banana-8815
-#FLUX: -c=2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 cd ../ || exit  # Go to the root directory of the repo
 source setup_env.sh

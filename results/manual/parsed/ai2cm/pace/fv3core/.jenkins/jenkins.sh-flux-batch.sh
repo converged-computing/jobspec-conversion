@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-0898
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-latke-9282
+#FLUX --urgency=16
 
 export python_env='${python_env}'
 export TEST_DATA_ROOT='${SCRATCH}/jenkins/scratch/fv3core_fortran_data/'

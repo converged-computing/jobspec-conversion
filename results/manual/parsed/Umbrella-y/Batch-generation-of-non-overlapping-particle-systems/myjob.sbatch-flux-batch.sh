@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-motorcycle-5650
-#FLUX: -N=4
-#FLUX: -c=16
-#FLUX: --queue=hpib
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-muffin-4700
+#FLUX -N=4
+#FLUX -c=16
+#FLUX --queue=hpib
+#FLUX --urgency=16
 
 export FI_PROVIDER='verbs'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

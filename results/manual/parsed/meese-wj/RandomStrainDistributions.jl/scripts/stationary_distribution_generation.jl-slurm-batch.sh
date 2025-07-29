@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=g_3e-2
-#FLUX: -c=16
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=g_3e-2
+#SBATCH --output=%x-%A_%a.out
+#SBATCH --mail-user=meese022@umn.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=10g
+#SBATCH --time=05:00:00
+#SBATCH --array=1-7
 
     pwd
     module swap julia julia/1.8.0

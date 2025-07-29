@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ihuman_emt_a549_1
-#FLUX: -c=16
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=ihuman_emt_a549_1
+#FLUX -c=16
+#FLUX --queue=standard
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load matlab/R2020a
 module load gurobi

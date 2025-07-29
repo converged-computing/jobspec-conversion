@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dockerMap
-#FLUX: -c=7
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dockerMap
+#FLUX -c=7
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 pwd
 echo $SLURM_CPUS_PER_TASK 

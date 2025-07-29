@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WGS_pipelines
-#FLUX: --queue=cn1107
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=WGS_pipelines
+#FLUX --queue=cn1107
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module load jdk/1.8.0
 module load singularity/2.5.2

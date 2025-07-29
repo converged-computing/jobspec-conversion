@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ls_hbf
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ls_hbf
+#SBATCH --account=dha@v100
+#SBATCH --output=log/hbf_ls_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t4
+#SBATCH --constraint=v100-32g
 
 module load pytorch-gpu/py3/2.1.1
 conda activate aa

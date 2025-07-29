@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-dog-3943
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-egg-8436
+#FLUX -c=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load StdEnv/2020  gcc/9.3.0  cuda/11.7

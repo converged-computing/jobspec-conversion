@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MESONH
-#FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MESONH
+#SBATCH --output=output_PREP_PGD.eo%j
+#SBATCH --error=output_PREP_PGD.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal256
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 ulimit -s unlimited
 ulimit -c 0

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-general-7390
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12g
+#SBATCH --array=0-0%1
 
 python src/main.py \
   --dataset yelp \

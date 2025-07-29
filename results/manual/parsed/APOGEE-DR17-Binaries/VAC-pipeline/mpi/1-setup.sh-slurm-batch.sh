@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=apogee-setup
-#FLUX: -N=2
-#FLUX: --queue=cca
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=apogee-setup
+#SBATCH --output=logs/apogee-setup.o%j
+#SBATCH --error=logs/apogee-setup.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=cca
+#SBATCH --constraint=rome
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/vac-pipeline
 source hq-config/init.sh

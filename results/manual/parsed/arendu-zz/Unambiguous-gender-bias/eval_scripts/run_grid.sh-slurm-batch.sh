@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=genderrun
-#FLUX: -c=4
-#FLUX: --queue=learnfair
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=genderrun
+#SBATCH --mail-user=adirendu@fb.com
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=2048
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=learnfair
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1
 
 set -e
 module load anaconda3/5.0.1 cuda/10.1 cudnn/v7.6-cuda.10.0

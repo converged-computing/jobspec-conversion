@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --queue=xeon40
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=log_%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=xeon40
+#SBATCH: --exclusive
 
 ulimit -s unlimited
 source /home/energy/surna/anaconda3/etc/profile.d/conda.sh

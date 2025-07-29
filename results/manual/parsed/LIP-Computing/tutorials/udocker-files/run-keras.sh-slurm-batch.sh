@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run_keras
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=run_keras
+#SBATCH --output=keras-%j.out
+#SBATCH --error=keras-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --partition=gpu
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

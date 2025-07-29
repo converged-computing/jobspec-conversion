@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MTGA
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=MTGA
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 INPUTFILE=input.in
 ARGS=$(cat $INPUTFILE | head -n $SLURM_ARRAY_TASK_ID | tail -n 1)

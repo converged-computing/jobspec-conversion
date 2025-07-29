@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=coco-baseline4
-#FLUX: -c=8
-#FLUX: --queue=napoli-gpu
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=coco-baseline4
+#SBATCH --output=batch/out/coco-baseline4.out
+#SBATCH --mail-user=tsoi@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1080ti:4
+#SBATCH --mem=42G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=napoli-gpu
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

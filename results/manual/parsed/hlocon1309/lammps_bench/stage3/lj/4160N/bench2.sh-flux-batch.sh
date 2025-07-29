@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-1470
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-lamp-4670
+#FLUX -N=4
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

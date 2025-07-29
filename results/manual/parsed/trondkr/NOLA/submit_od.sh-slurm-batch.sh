@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kvile_od
-#FLUX: -N=10
-#FLUX: -t=388800
-#FLUX: --urgency=16
+#SBATCH --job-name=kvile_od
+#SBATCH --account=nn8103k
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-12:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

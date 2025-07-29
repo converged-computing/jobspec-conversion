@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpunb
-#FLUX: --queue=batch
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpunb
+#SBATCH --output=gpunb.info
+#SBATCH --error=gpunb.info
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2GB
+#SBATCH --time=12:30:00
+#SBATCH --partition=batch
 
 module load Singularity
 module load CUDA/10.2.89

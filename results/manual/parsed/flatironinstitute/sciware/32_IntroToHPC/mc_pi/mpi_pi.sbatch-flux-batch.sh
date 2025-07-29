@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-gato-8964
-#FLUX: --queue=scc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-cupcake-7813
+#FLUX --queue=scc
+#FLUX -t=600
+#FLUX --urgency=16
 
 echo $SLURM_JOBID
 source load_env.sh

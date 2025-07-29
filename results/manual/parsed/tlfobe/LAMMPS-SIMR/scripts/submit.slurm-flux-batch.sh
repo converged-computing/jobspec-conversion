@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-butter-2127
-#FLUX: --queue=RM-shared
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=phat-frito-1937
+#FLUX --queue=RM-shared
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export lmp_mpi='/home/tfobe/Programs/lammps-22Aug18/src/lmp_mpi'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=F150A_1504
-#FLUX: -c=8
-#FLUX: --queue=mf_nes2.8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=F150A_1504
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=mf_nes2.8
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1-40
+#SBATCH --exclude=c-3-[341-344], c-6-[231-234], c-8-[251-254]
 
 fepfile="15183_04-F150A.fep"
 pdbfile="15183_04-F150A.pdb"

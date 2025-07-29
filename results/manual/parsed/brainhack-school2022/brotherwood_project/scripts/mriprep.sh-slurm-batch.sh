@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=preprocessing
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocessing
+#SBATCH --account=def-charesti
+#SBATCH --output=log/%x-%A-%a.out
+#SBATCH --error=log/%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-272
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'
 

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lizard-8264
-#FLUX: --urgency=16
+#SBATCH --output=its_threads_%A_%a.out
+#SBATCH --error=its1-big-threads_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 OUTPUT=../output1
 derepout= ../derep_out

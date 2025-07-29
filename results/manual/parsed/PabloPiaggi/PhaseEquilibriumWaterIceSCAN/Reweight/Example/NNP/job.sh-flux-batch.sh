@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rerun0
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=rerun0
+#FLUX -n=4
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

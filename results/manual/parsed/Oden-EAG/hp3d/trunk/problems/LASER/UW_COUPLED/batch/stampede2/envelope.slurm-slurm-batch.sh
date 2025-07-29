@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hp3d
-#FLUX: -N=16
-#FLUX: -n=64
-#FLUX: --queue=skx-normal
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=hp3d
+#SBATCH --account=A-ti2
+#SBATCH --output=hp3d.o%j
+#SBATCH --error=hp3d.e%j
+#SBATCH --mail-user=stefan@oden.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=16
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:29:00
+#SBATCH --partition=skx-normal
 
 export KMP_STACKSIZE='24M   # p=3'
 export KMP_INIT_AT_FORK='FALSE'

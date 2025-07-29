@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=p-high
-#FLUX: --exclusive
-#FLUX: --queue=sched_mit_raffaele
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=p-high
+#SBATCH --output=err/job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=sched_mit_raffaele
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 startt=`date +%s`
 EXPNAME=$1

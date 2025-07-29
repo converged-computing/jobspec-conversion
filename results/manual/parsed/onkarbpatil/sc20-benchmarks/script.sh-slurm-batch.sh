@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=placid-arm-8304
-#FLUX: -N=4
-#FLUX: --queue=skylake-gold
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=skylake-gold
+#SBATCH --qos=long
+#SBATCH --nodelist=cn61[4-7]
 
 echo ${SLURM_JOB_NODELIST}
 module unload

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ae_vctk
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ae_vctk
+#SBATCH --output=/mnt/home/slurmlogs/vctk/autoencoder/symAD_vctk_48000_hop300.out
+#SBATCH --error=/mnt/home/slurmlogs/vctk/autoencoder/symAD_vctk_48000_hop300.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=xxx
 
 tag_name="autoencoder/symAD_vctk_48000_hop300"
 stage=0

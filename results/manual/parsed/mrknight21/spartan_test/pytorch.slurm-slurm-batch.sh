@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-carrot-3651
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 module load foss/2022a 
 module load PyTorch/1.12.1

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cyaneapopgen
-#FLUX: -c=32
-#FLUX: --queue=ycga_bigmem
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cyaneapopgen
+#SBATCH --output=cyaneapopgen_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ycga_bigmem
 
 module purge # Unload any existing modules that might conflict
 module load SAMtools

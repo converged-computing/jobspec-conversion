@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dtaScrape
-#FLUX: --queue=gpu
-#FLUX: -t=5100
-#FLUX: --urgency=16
+#SBATCH --job-name=dtaScrape
+#SBATCH --account=tark
+#SBATCH --mail-user=eduwell@mcw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10gb
+#SBATCH --time=01:25:00
+#SBATCH --partition=gpu
 
 echo "Starting at $(date)"
 echo ""

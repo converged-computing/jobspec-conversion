@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TuneCNN
-#FLUX: -c=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=TuneCNN
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
 
 cd ~/Vulpi2021-terrain-deep-learning
 docker build -t terrain-gpu -f DockerfileGPU .

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=reproducer
-#FLUX: -N=4
-#FLUX: --queue=early_science
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=reproducer
+#SBATCH --account=m3890_g
+#SBATCH --output=job%j.out
+#SBATCH --error=job%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:06:00
+#SBATCH --partition=early_science
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export WORK='$CFS/m3562/nks/LY99'
 export OUT_DIR='${PWD}'

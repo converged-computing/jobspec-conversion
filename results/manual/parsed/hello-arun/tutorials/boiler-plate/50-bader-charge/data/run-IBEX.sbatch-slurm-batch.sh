@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=__jobName
-#FLUX: --queue=batch
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=__jobName
+#SBATCH --output=./std.out
+#SBATCH --error=./std.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
+#SBATCH --partition=batch
+#SBATCH --constraint=amd,ntasks-per-node=20
 
 export VASP_HOME='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin'
 export OMP_NUM_THREADS='1'

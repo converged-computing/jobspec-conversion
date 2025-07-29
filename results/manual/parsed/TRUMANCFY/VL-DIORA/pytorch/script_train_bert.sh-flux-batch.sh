@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-spoon-2374
-#FLUX: -c=5
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-hope-2548
+#FLUX -c=5
+#FLUX --urgency=16
 
 export MASTER_ADDR='127.0.0.1'
 export MASTER_PORT='8098'

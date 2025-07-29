@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-chip-5439
-#FLUX: -t=840
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-dog-1629
+#FLUX -t=840
+#FLUX --urgency=16
 
 format_time() {
   ((h=${1}/3600))

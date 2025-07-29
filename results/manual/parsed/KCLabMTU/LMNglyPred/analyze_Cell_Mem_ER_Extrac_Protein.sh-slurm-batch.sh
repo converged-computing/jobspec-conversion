@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leg-9723
-#FLUX: -c=18
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --mem=200G
+#SBATCH --array=1-9285
 
 export FILENAME='$(ls ${BASEDIR}/*.fasta | sed -n ${SLURM_ARRAY_TASK_ID}p)'
 

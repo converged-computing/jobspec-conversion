@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=IP_ddpg
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=IP_ddpg
+#SBATCH --account=def-whitem
+#SBATCH --output=/home/sungsu/scratch/output_log/IP/ddpg/%A%a.out
+#SBATCH --error=/home/sungsu/scratch/output_log/IP/ddpg/%A%a.err
+#SBATCH --mail-user=slurmjob@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048M
+#SBATCH --time=01:00:00
+#SBATCH --array=0-89:1
 
 ENV_NAME=InvertedPendulum-v2
 AGENT_NAME=ddpg

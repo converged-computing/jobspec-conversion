@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cat-6291
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=log.analyze-parallel.out
+#SBATCH --error=log.analyze-parallel.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 BINARY=xhpcg
 OUT=hpctoolkit-${BINARY}

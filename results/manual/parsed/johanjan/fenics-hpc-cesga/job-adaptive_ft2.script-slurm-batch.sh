@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fenics-cube
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: --queue=thinnodes
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fenics-cube
+#SBATCH --output=output_file.o
+#SBATCH --error=error_file.e
+#SBATCH --nodes=4
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=thinnodes
+#SBATCH --constraint=ntasks-per-node=24
 
 export ATP_ENABLED='1'
 

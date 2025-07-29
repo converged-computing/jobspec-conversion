@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-toaster-0266
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-staircase-9587
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

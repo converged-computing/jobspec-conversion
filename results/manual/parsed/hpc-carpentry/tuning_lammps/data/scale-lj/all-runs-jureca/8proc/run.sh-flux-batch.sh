@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poo-9851
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=astute-lemon-5682
+#FLUX --queue=devel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

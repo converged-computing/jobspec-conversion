@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rvsfs
-#FLUX: --queue=jnovembre
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=rvsfs
+#FLUX --queue=jnovembre
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load python
 source /software/python-anaconda-2020.02-el7-x86_64/etc/profile.d/conda.sh

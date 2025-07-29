@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bwbench
-#FLUX: --queue=all
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=bwbench
+#FLUX --queue=all
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='40'
 

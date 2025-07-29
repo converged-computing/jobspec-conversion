@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-underoos-8454
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-parsnip-3441
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load kallisto/0.43.1-foss-2016b
 module load SAMtools/1.3.1-foss-2016b

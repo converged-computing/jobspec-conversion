@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poo-0661
-#FLUX: -n=8
-#FLUX: --queue=amd
-#FLUX: -t=1065600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-noodle-1161
+#FLUX -n=8
+#FLUX --queue=amd
+#FLUX -t=1065600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 sh /usr/local/modules/profile.modules

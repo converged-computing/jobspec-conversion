@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=med
-#FLUX: -c=8
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=med
+#SBATCH --account=DBIC
+#SBATCH --output=./log/med_%A_%a.o
+#SBATCH --error=./log/med_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
 
 CANLABCORE_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/CanlabCore/CanlabCore'"
 SPM12_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/spm12'"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-mango-1745
-#FLUX: -n=16
-#FLUX: --queue=shared
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-general-8276
+#FLUX -n=16
+#FLUX --queue=shared
+#FLUX -t=240
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

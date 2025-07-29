@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-egg-0408
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-frito-9648
+#FLUX --queue=gpu2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/3.9.2
 module load cuda11.0/toolkit/11.0.3

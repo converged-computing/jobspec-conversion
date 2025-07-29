@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=3DU
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=3DU
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"
 NUM_GPUS=`echo $GPU_DEVICE_ORDINAL | tr ',' '\n' | wc -l`

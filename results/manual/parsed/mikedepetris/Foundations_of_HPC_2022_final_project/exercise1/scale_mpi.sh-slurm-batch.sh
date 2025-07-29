@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_scale
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_scale
+#SBATCH --output=scale_mpi_epyc_job_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=490G
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=128
+#SBATCH --chdir=/u/dssc/mdepet00/assignment/exercise1
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vak
-#FLUX: --queue=serial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=vak
+#SBATCH --account=PAA0202
+#SBATCH --mail-user=provost.27@osu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --partition=serial
+#SBATCH --constraint=ntasks-per-node=1
 
 cd $SLURM_SUBMIT_DIR
 module load gnu/9.1.0

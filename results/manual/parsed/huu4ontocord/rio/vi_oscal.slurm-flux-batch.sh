@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vi_oscar_all
-#FLUX: -c=10
-#FLUX: --queue=prepost
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=vi_oscar_all
+#FLUX -c=10
+#FLUX --queue=prepost
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-8537
-#FLUX: -c=5
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-5-300
+#SBATCH --output=/home/j/juliezhu/pfs/coevolve_yeast/out/%A_%a.out
+#SBATCH --error=/home/j/juliezhu/pfs/coevolve_yeast/error/%A_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=06:00:00
+#SBATCH --array=1-3
 
 ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1
 ml Python/3.6.6

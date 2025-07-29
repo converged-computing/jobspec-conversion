@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lettuce-0463
-#FLUX: --queue=nvidia
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-lemon-1076
+#FLUX --queue=nvidia
+#FLUX -t=41400
+#FLUX --urgency=16
 
 export DATA_DIR='data/alhafni'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=2_deeplab_AR_detect
-#FLUX: -N=1484
-#FLUX: --queue=regular
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=2_deeplab_AR_detect
+#FLUX -N=1484
+#FLUX --queue=regular
+#FLUX -t=2700
+#FLUX --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu
 module use /global/common/software/m1517/teca/cori/develop/modulefiles

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rmodel_Ssci
-#FLUX: -n=36
-#FLUX: --queue=nocona
-#FLUX: --urgency=16
+#FLUX --job-name=rmodel_Ssci
+#FLUX -n=36
+#FLUX --queue=nocona
+#FLUX --urgency=16
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

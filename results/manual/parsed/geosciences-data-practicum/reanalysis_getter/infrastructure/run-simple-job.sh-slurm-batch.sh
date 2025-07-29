@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dask-jetstream
-#FLUX: -c=10
-#FLUX: --queue=bigmem2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-jetstream
+#SBATCH --account=pi-moyer
+#SBATCH --output=dask_scheduler.out
+#SBATCH --error=dask_scheduler.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=140G
+#SBATCH --time=00:10:00
+#SBATCH --partition=bigmem2
 
 PATH_TO_PROJECT='/project2/moyer/jetstream'
 PATH_TO_REPO='/home/ivanhigueram/reanalysis_getter'

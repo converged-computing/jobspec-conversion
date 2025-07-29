@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PARAMETER_SET='42'
 

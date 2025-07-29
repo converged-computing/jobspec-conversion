@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=multiqc
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=multiqc
+#SBATCH --output=before-fastp-multiqc-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=100GB
 
 cd /home/tly/wgs-pika/results/multiqc/
 module purge

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lamp-4170
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
 
 export JULIA_DEPOT_PATH='$(pwd)/.slurmdepot/gpu'
 export OPENBLAS_NUM_THREADS='1'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: -c=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --account=eqb@a100
+#SBATCH --output=out/train_all_parent_w_speaker_codes_c_0_latest.out
+#SBATCH --error=out/train_all_parent_w_speaker_codes_c_0_latest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export PYTHONPATH='.'
 

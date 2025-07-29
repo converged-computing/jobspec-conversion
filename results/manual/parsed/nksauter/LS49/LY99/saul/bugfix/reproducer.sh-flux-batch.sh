@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reproducer
-#FLUX: -N=4
-#FLUX: --queue=early_science
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=reproducer
+#FLUX -N=4
+#FLUX --queue=early_science
+#FLUX -t=360
+#FLUX --urgency=16
 
 export WORK='$CFS/m3562/nks/LY99'
 export OUT_DIR='${PWD}'

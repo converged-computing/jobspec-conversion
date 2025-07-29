@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-buttface-0242
-#FLUX: -c=6
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1,vmem:20g
+#SBATCH --mem=10g
+#SBATCH --time=2-00:00:00
+#SBATCH --exclude=gsm-04
 
 export PYTHONPATH='/cs/labs/daphna/avihu.dekel/DALLE-pytorch:/cs/labs/daphna/avihu.dekel/stylegan2'
 

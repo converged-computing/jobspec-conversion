@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-nalgas-9462
-#FLUX: -c=4
-#FLUX: -t=9600
-#FLUX: --urgency=16
+#FLUX --job-name=hello-diablo-9531
+#FLUX -c=4
+#FLUX -t=9600
+#FLUX --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

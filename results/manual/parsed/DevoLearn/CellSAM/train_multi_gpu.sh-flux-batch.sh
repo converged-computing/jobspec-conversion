@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=n-5nodes
-#FLUX: -N=5
-#FLUX: -n=5
-#FLUX: -c=24
-#FLUX: --queue=a100
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#FLUX --job-name=n-5nodes
+#FLUX -N=5
+#FLUX -n=5
+#FLUX -c=24
+#FLUX --queue=a100
+#FLUX -t=1728000
+#FLUX --urgency=16
 
 export MASTER_PORT='$(python - <<EOF'
 export NNODES='$SLURM_NNODES'

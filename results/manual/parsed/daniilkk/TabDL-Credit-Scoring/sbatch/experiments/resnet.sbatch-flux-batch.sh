@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=8
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#FLUX --job-name=resnet
+#FLUX -c=8
+#FLUX -t=12000
+#FLUX --urgency=16
 
 export PYTHONPATH='$(pwd)'
 

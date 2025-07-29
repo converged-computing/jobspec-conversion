@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leader-7803
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-leopard-0185
+#FLUX -c=6
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load python/3.6.3

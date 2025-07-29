@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval_$dir$sffx_$data
-#FLUX: -c=8
-#FLUX: --queue=jag-hi
-#FLUX: --urgency=16
+#FLUX --job-name=eval_$dir$sffx_$data
+#FLUX -c=8
+#FLUX --queue=jag-hi
+#FLUX --urgency=16
 
 dir="$1"
 sffx="$2"

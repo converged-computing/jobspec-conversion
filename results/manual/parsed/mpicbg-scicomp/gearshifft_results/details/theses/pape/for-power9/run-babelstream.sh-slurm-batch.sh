@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-9458
-#FLUX: -c=176
-#FLUX: --exclusive
-#FLUX: --queue=ml
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=p_gearshifft
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=176
+#SBATCH --gres=gpu:6
+#SBATCH --time=01:00:00
+#SBATCH --partition=ml
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 set -eo pipefail
 function cpuList {

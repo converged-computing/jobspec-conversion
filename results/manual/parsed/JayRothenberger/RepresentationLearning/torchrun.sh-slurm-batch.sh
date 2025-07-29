@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=clr_torch
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=16
-#FLUX: --queue=disc
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=clr_torch
+#SBATCH --output=/ourdisk/hpc/ai2es/jroth/AI2ES_DL_Torch/torch_clr_%04a_stdout.txt
+#SBATCH --error=/ourdisk/hpc/ai2es/jroth/AI2ES_DL_Torch/torch_clr_%04a_stderr.txt
+#SBATCH --mail-user=jay.c.rothenberger@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=250000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=disc
+#SBATCH --chdir=/ourdisk/hpc/ai2es/jroth/AI2ES_DL_Torch/simclr_mods
 
 export LSCRATCH='/lscratch/15937969'
 export LOGLEVEL='INFO'

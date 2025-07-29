@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=trial_job
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=trial_job
+#SBATCH --output=outputs/trial_job_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:0
+#SBATCH --mem=32000M
+#SBATCH --time=04:30:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --array=1-1%1
 
 module purge
 module load 2019

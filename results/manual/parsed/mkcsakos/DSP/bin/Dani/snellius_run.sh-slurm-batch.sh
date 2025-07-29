@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-latke-7052
-#FLUX: --queue=rome
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=seg_4_bili_train4_%j_out.txt
+#SBATCH --error=seg_4_bili_train4_%j_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=rome
 
 echo "gpus $SLURM_GPUS on node: $SLURM_GPUS_ON_NODE"
 echo "nodes nnodes: $SLURM_NNODES, nodeid: $SLURM_NODEID, nodelist $SLURM_NODELIST"

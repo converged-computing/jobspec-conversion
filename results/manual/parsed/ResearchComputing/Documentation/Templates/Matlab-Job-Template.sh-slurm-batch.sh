@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Matlab_Gen_Parallel
-#FLUX: -n=12
-#FLUX: --queue=shas-testing
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=Matlab_Gen_Parallel
+#SBATCH --output=MATLAB_GEN_PARALLEL.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=shas-testing
+#SBATCH --qos=testing
 
 module purge
 module load matlab

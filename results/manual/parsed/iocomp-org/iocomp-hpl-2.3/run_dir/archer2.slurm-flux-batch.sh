@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpl
-#FLUX: --queue=standard
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hpl
+#FLUX --queue=standard
+#FLUX -t=300
+#FLUX --urgency=16
 
 export PPN='${SLURM_NTASKS_PER_NODE}'
 export OMP_NUM_THREADS='1'

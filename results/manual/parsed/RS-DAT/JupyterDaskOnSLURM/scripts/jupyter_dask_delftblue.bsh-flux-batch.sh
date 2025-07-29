@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cherry-3044
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=salted-chip-1880
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX -t=82800
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate jupyter_dask

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=openai_vllm
-#FLUX: -c=72
-#FLUX: --queue=GPU4v100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=openai_vllm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=gpu:4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=GPU4v100
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

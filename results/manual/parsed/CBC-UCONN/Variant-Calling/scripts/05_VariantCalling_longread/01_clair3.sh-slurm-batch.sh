@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=clair3_gvcf
-#FLUX: -c=4
-#FLUX: --queue=xeon
-#FLUX: --urgency=16
+#SBATCH --job-name=clair3_gvcf
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=50G
+#SBATCH --partition=xeon
+#SBATCH --qos=general
 
 hostname
 date

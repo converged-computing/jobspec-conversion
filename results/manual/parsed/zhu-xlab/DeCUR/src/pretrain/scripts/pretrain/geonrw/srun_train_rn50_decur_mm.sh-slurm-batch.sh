@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lf2_bt_rn50
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=lf2_bt_rn50
+#SBATCH --output=srun_outputs/geonrw/B3B1_train_rn50_decur_%j.out
+#SBATCH --error=srun_outputs/geonrw/B3B1_train_rn50_decur_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=06:00:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

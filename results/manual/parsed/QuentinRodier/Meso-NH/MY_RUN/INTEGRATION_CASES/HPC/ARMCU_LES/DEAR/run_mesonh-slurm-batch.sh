@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_armles
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_armles
+#SBATCH --output=run_armles.eo%j
+#SBATCH --error=run_armles.eo%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MPIRUN='Mpirun -np 128'
 

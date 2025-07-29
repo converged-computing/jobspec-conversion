@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=c6145
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1gb
+#SBATCH --time=00:10:00
+#SBATCH --partition=c6145
 
 set -eu
 rm -rf install petsc-3.5.3 src

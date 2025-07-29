@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run
-#FLUX: -N=24
+#FLUX --job-name=run
+#FLUX -N=24
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 export LOCALDATAPATH='/localscratch'
 

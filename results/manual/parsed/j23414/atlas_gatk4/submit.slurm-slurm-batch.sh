@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=NX_GATK
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NX_GATK
+#SBATCH --account=isu_gif_vrsc
+#SBATCH --output=slurm.%x.%J.out
+#SBATCH --error=slurm.%x.%J.err
+#SBATCH --mail-user=jenchang@iastate.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 start=`date +%s`
 module load singularity

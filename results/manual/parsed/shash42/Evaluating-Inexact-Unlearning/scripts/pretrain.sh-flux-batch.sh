@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-latke-6741
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-omelette-2460
+#FLUX -t=345600
+#FLUX --urgency=16
 
 chmod +x src/learn.py
 CUDA_VISIBLE_DEVICES=$(nvidia-smi --query-gpu=memory.free --format=csv,nounits,noheader | nl -v 0 | sort -nrk 2 | cut -f 1 | head -n 1 | xargs)\

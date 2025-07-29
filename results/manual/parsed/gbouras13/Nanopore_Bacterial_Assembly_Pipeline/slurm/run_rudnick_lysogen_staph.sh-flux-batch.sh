@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=staph_bact_assembly
-#FLUX: --queue=batch
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=staph_bact_assembly
+#FLUX --queue=batch
+#FLUX -t=255600
+#FLUX --urgency=16
 
 SNK_DIR="/hpcfs/users/a1667917/Bacteria_Multiplex/Nanopore_Bacterial_Assembly_Pipeline"
 PROF_DIR="$SNK_DIR/snakemake_profile"

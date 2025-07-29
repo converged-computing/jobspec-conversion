@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-mango-5433
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-cupcake-3615
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load lammps/2018/cuda
 echo

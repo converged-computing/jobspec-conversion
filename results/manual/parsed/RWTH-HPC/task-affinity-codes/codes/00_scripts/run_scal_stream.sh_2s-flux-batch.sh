@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-knife-9696
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-lamp-1051
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RWTH-HPC/task-affinity-codes/codes/00_scripts/run_scal_stream.sh_2s

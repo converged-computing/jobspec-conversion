@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-earthworm-3526
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ocean-transport/pleiades_llc_recipes/python_cli_data_export/job_extract.sh

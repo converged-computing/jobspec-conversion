@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-banana-0008
-#FLUX: --queue=small-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-animal-5264
+#FLUX --queue=small-g
+#FLUX -t=600
+#FLUX --urgency=16
 
 export ROCM_GPU='`rocminfo |grep -m 1 -E gfx[^0]{1} | sed -e 's/ *Name: *\(gfx[0-9,a-f]*\) *$/\1/'` '
 

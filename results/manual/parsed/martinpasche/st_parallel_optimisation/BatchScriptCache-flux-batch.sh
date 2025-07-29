@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poo-3612
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-despacito-6140
+#FLUX -t=10800
+#FLUX --urgency=16
 
 source /etc/profile
 module load py-numpy/1.24.3/gcc-13.1.0

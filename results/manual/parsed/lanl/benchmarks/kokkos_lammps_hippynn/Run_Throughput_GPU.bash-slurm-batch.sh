@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Ag-MD
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Ag-MD
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export lmpexec='pathto/lammps-kokkos-mliap/build/lmp'
 export HIPPYNN_USE_CUSTOM_KERNELS='pytorch'

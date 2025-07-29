@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-caramel-0015
-#FLUX: -n=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_titanrtx
 
 source /home/davidr/scripts/nki_torch.sh
 JOBSPERNODE=4

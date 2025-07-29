@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-noodle-3524
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm_%x_%j.out
+#SBATCH --mail-user=$USER@chop.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=3-00:00:00
+#SBATCH: --no-requeue
 
 if [[ ! -f ./config.yaml ]]; then
     echo "Must have a config.yaml to be able to run"

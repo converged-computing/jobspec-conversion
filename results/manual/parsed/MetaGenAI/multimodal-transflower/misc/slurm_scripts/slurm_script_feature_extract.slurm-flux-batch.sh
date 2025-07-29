@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=feature_extraction
-#FLUX: -n=6
-#FLUX: --queue=cpu_p1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=feature_extraction
+#FLUX -n=6
+#FLUX --queue=cpu_p1
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MASTER_PORT='1234'
 export MASTER_ADDRESS='$(echo $slurm_nodes | cut -d' ' -f1)'

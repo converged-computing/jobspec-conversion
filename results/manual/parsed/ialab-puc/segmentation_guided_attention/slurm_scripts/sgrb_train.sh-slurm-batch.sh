@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=sgrb-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=sgrb-rcnn
+#SBATCH --output=output/sgrb_beautiful_%j.log
+#SBATCH --error=output/err/sgrb_beautiful_%j.err
+#SBATCH --mail-user=afcadiz@uc.cl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:Geforce-GTX:1
+#SBATCH --mem=10000mb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=ialab-high
+#SBATCH --nodelist=hydra
+#SBATCH --dependency=500
 
 pyenv/bin/python3 train.py  --model sgrb \
 --max_epochs 40 \

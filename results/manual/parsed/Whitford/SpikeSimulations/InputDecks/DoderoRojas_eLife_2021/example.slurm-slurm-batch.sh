@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sim-wg-tmb
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: -t=86100
-#FLUX: --urgency=16
+#SBATCH --job-name=sim-wg-tmb
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=7
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=23:55:00
+#SBATCH --partition=short
+#SBATCH: --exclusive
+#SBATCH --constraint=E5-2680v4@2.40GHz,ntasks-per-node=4
 
 module load gcc/6.4.0  openmpi/3.1.2  cmake/3.10.0
 CUTOFF=8

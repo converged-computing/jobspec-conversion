@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=prior-$var-gt-edge_pruning
-#FLUX: --queue=gpu
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=prior-$var-gt-edge_pruning
+#SBATCH --output=prog_files/gtprio-pre_$var-%j.out
+#SBATCH --error=prog_files/gtprio-pre_$var-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32000
+#SBATCH --time=00:12:00
+#SBATCH --partition=gpu
 
 for strength in "0.3"
 do

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lentil-4629
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-leopard-6237
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load PrgEnv-nvidia
 make clean ; make

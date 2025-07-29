@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hope-1917
-#FLUX: --urgency=16
+#FLUX --job-name=astute-chip-7861
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Aeryan-Dapouyeh/TempoArt/Text_to_video_Zero/BatchJobs/GPUScript.sh

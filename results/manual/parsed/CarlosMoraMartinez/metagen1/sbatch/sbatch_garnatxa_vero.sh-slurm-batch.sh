@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_nf
-#FLUX: -c=4
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_nf
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=8-00:00:00
+#SBATCH --qos=long
 
 module load anaconda #3_2022.10
 nextflow run all.nf -c config/run_samples_garnatxa_vero.config -profile conda -resume -with-report report.html -with-dag pipeline_dag.html

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-diablo-3530
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/ST-UDA/logs/run_val_uda_wod_kitti_wod_f0_0_intensity_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=40G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdgpufast
+#SBATCH --constraint=ntasks-per-node=3
 
 export NCCL_LL_THRESHOLD='0'
 

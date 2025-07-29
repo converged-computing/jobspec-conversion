@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cherry-5411
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-gato-2539
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_b.py \
     --loss "ntxent" \

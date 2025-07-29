@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-toaster-0685
-#FLUX: --queue=plgrid
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=plglscclass23-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=plgrid
 
 function load_module_if_needed() {
   module_name=$1

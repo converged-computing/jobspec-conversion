@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-despacito-7210
-#FLUX: -n=20
-#FLUX: --queue=vera
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-lemur-7500
+#FLUX -n=20
+#FLUX --queue=vera
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load MATLAB/2019a
 module load GCCcore/10.3.0

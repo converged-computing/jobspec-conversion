@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lnopt
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=lnopt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=4
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100
 
 cd ~/denoiser_recon/
 module load python/3.10 cuda cudnn nccl

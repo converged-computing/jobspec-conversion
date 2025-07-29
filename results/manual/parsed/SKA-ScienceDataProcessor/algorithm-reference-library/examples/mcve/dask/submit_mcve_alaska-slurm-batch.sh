@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SDP_ARL
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=SDP_ARL
+#SBATCH --account=SKA-SDP
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=compute
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 

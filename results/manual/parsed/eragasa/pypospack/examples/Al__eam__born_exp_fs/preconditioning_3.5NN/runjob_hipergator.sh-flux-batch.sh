@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Al_pre
-#FLUX: -n=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Al_pre
+#FLUX -n=128
+#FLUX -t=86400
+#FLUX --urgency=16
 
 pwd; hostname; date
 module load intel/2016.0.109

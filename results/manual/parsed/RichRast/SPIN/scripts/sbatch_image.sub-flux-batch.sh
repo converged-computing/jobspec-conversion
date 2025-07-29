@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NPT_imputation
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=NPT_imputation
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /home/rr568/NPT/non-parametric-transformers/scripts/init_env.sh
 echo 'Begin npt'

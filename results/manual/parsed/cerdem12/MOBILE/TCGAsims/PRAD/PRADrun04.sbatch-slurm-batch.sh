@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1203PRADSPINK1
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=1203PRADSPINK1
+#SBATCH --account=hpc2n2023-130
+#SBATCH --output=matlab_%J.out
+#SBATCH --error=matlab_%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 module add MATLAB/2023a.Update4
 module add GCCcore/11.3.0

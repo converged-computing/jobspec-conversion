@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_wrapper
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_wrapper
+#SBATCH --output=outfile.txt
+#SBATCH --error=errfile.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=30G
+#SBATCH --time=12:00:00
+#SBATCH --nodelist=compute-21
 
 singularity run --mount type=bind,src=$(pwd),dst=/rootvol \
         /mnt/beegfs/singularity/images/nextflow_kallisto_sc.sif run \

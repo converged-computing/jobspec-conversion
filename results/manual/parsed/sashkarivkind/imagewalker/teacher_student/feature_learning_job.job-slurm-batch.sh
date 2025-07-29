@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-arm-9059
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sashkarivkind/imagewalker/teacher_student/feature_learning_job.job

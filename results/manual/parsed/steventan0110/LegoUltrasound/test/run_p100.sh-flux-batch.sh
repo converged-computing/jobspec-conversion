@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=matlab_p100
-#FLUX: -c=6
-#FLUX: --queue=gpup100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=matlab_p100
+#FLUX -c=6
+#FLUX --queue=gpup100
+#FLUX -t=43200
+#FLUX --urgency=16
 
 ml cuda/8.0
 ml gcc/5.5.0

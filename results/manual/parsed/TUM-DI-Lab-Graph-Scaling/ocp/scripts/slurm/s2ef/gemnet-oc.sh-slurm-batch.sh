@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=s2ef-gemnet-oc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=s2ef-gemnet-oc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=500gb
+#SBATCH --time=1-00:00:00
+#SBATCH --nodelist=lundquist
 
 export PATH='/usr/local/bin:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-11.1/lib64:/usr/local/extras/CUPTI/lib64:/usr/local/lib:$LD_LIBRARY_PATH'

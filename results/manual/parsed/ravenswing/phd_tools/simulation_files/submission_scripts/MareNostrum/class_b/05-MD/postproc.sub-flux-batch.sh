@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pp
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pp
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export FN='$(basename -- "$PWD")'
 export GMX='gmx_mpi'

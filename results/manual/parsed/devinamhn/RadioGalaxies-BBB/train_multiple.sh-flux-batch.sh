@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vi_ensemble
-#FLUX: -c=17
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=vi_ensemble
+#FLUX -c=17
+#FLUX -t=1380
+#FLUX --urgency=16
 
 pwd;
 nvidia-smi

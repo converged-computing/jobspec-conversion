@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-eagle-8498
-#FLUX: -N=10
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=astute-leader-3677
+#FLUX -N=10
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 io500_ini="$1"          # You can set the ini file here
 io500_mpirun="mpirun"

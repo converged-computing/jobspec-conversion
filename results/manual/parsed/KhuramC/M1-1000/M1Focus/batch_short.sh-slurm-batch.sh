@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=M1_H_short
-#FLUX: -n=24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=M1_H_short
+#SBATCH --output=out_short.txt
+#SBATCH --error=error_short.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=2-00:00:00
 
 START=$(date)
 echo "Started running at $START."

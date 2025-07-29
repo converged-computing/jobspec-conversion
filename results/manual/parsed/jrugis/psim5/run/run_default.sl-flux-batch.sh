@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psim5
-#FLUX: -n=8
-#FLUX: --queue=large
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=psim5
+#FLUX -n=8
+#FLUX --queue=large
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml SUNDIALS/4.1.0-gimkl-2018b
 echo $HOSTNAME

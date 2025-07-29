@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MeasureVessels
-#FLUX: --queue=normal
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=MeasureVessels
+#SBATCH --account=sbergman_retina
+#SBATCH --output=helpers/MeasureVessels/slurm_runs_rnd/slurm-%x_%j.out
+#SBATCH --error=helpers/MeasureVessels/slurm_runs_rnd/slurm-%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=02:30:00
+#SBATCH --partition=normal
+#SBATCH --array=1-582
 
 ARIA_target="vein" # [artery|vein|all] # note, thoguht, that I am invoking ARIA with random AV calling
 source $HOME/retina/configs/config.sh

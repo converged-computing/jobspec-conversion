@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astronaut
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=astronaut
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32GB
+#SBATCH --time=04:00:00
 
 export DATA='astronaut'
 export CLASS='astronaut'

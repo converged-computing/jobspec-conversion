@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-animal-6065
-#FLUX: -c=4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=cifar/logs/%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

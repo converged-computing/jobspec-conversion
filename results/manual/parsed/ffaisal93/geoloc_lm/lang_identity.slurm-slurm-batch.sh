@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=python-cpu
-#FLUX: --queue=normal
-#FLUX: -t=87055
-#FLUX: --urgency=16
+#SBATCH --job-name=python-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --time=1-00:10:55
+#SBATCH --partition=normal
 
 source vnv/geo_vnv/bin/activate
 pip install spacy

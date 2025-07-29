@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=diimm_512_IC_friendster
-#FLUX: -N=512
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=diimm_512_IC_friendster
+#FLUX -N=512
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=heat3d-mpi
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=heat3d-mpi
+#FLUX --queue=batch
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

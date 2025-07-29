@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-plant-5083
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-banana-5332
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 source deactivate # Remove previous environments.
 source activate cuda9-py38-pytorch1.5

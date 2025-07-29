@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cpu-training-quad
-#FLUX: --queue=CPUQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu-training-quad
+#SBATCH --account=ie-idi
+#SBATCH --output=job_cpu.out
+#SBATCH --mail-user=orjanic@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=01:00:00
+#SBATCH --partition=CPUQ
+#SBATCH --constraint=ntasks-per-node=48
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

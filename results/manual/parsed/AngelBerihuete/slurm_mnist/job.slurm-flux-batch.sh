@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tf2-test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=tf2-test
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load anaconda3

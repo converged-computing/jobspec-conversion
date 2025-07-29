@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-frito-2196
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-arm-7431
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3,4'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=neau0001_pytorch
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=neau0001_pytorch
+#SBATCH --output=/home/neau0001/%x-%j.out.txt
+#SBATCH --error=/home/neau0001/%x-%j.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export RES_DIR='sg2im_torch1.13/checkpoints/'
 export OUT_DIR='/scratch/user/neau0001/sg2im_torch1.13/'

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-itch-6248
-#FLUX: -n=64
-#FLUX: --queue=genoa
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=genoa
+#SBATCH --array=1,2
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

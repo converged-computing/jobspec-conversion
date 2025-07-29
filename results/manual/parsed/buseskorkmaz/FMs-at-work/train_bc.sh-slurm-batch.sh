@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-banana-5324
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/buseskorkmaz/FMs-at-work/train_bc.sh

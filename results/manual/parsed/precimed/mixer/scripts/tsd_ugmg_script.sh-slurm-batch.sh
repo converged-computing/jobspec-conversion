@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mixer
-#FLUX: -c=8
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=mixer
+#SBATCH --account=p33_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=7600M
+#SBATCH --time=16:00:00
+#SBATCH --array=1-20
 
 export MIXER_ROOT='/cluster/projects/p33/users/ofrei/github/mixer'
 export OUTDIR='/cluster/projects/p33/users/ofrei/mixer_results/    # must end with a forward slash, /'

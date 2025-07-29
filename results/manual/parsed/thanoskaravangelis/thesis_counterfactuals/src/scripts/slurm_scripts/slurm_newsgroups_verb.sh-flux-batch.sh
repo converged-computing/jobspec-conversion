@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=verb_newsgroups_run_gradient
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=verb_newsgroups_run_gradient
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice_newsgroups
 module purge

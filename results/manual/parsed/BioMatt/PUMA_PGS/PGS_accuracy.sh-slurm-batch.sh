@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-2864
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=def-kmj477
+#SBATCH --mail-user=thorstem@myumanitoba.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --time=12:00:00
+#SBATCH --array=1-100
 
 module load StdEnv/2020 gcc/9.3.0
 module load gemma/0.98.3

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DEQ_1
-#FLUX: -c=12
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=DEQ_1
+#SBATCH --account=s995
+#SBATCH --output=DEQ_4layer_relu.%j.out
+#SBATCH --error=DEQ_4layer_relu.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=01:00:00
+#SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PYTHONPATH='/scratch/snx3000/simonsch/DSGE/DSGE_DEQ/src/sudden_stop/venv/lib/python3.8/site-packages:$PYTHONPATH'

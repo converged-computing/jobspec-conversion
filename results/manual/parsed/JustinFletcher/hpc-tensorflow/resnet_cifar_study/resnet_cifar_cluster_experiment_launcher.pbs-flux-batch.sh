@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-chip-4467
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-peas-7005
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JustinFletcher/hpc-tensorflow/resnet_cifar_study/resnet_cifar_cluster_experiment_launcher.pbs

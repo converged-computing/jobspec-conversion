@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-p2p
-#FLUX: -N=2
+#FLUX --job-name=OSU-p2p
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$nr_threads'
 export OMP_PLACES='cores'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ibd4
+#FLUX --job-name=ibd4
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load cuda/11.3 miniconda/3 gcc/9.3

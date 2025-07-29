@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2048_GPTJ6b_ecthr_a
-#FLUX: -c=32
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=2048_GPTJ6b_ecthr_a
+#FLUX -c=32
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load cpuarch/amd

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chwm-sampler
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=chwm-sampler
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
 
 export LAMMPS_BIN='/global/homes/e/ejragasa/edison_bin/lmp_serial'
 export PYTHONPATH='$PYFLAMESTK_DIR:$PYTHONPATH'

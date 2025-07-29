@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vi_oscar_all
-#FLUX: -c=10
-#FLUX: --queue=prepost
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=vi_oscar_all
+#SBATCH --account=six@gpu
+#SBATCH --output=vi_oscar_all_%x-%j.stdout
+#SBATCH --error=vi_oscar_all_%x-%j.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --partition=prepost
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

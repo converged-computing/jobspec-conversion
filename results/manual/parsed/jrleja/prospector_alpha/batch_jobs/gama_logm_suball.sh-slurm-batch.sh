@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gama_logm
-#FLUX: --queue=conroy,shared,conroy-intel,itc_cluster
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=gama_logm
+#SBATCH --output=gama_logm_%a.out
+#SBATCH --error=gama_logm_%a.err
+#SBATCH --mail-user=joel.leja@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=conroy,shared,conroy-intel,itc_cluster
 
 IDFILE=$APPS"/prospector_alpha/data/gama.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

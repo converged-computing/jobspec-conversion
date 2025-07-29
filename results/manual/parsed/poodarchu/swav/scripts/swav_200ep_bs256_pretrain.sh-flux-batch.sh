@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swav_200ep_bs256_pretrain
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=swav_200ep_bs256_pretrain
+#FLUX -c=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 DATASET_PATH="/data/Datasets/ILSVRC2012/train"
 EXPERIMENT_PATH="./experiments/swav_200ep_bs256_pretrain"

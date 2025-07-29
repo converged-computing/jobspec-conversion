@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peas-4828
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=128000
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-3
 
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4
 module load matplotlib/3.1.1-fosscuda-2019b-Python-3.7.4

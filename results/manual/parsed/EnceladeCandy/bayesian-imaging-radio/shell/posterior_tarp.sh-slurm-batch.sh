@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Posterior_vp_postneurips_pc
-#FLUX: -t=719
-#FLUX: --urgency=16
+#SBATCH --job-name=Posterior_vp_postneurips_pc
+#SBATCH --account=rrg-lplevass
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:11:59
+#SBATCH --array=1-500%100
 
 module load python
 source $HOME/diffusion/bin/activate

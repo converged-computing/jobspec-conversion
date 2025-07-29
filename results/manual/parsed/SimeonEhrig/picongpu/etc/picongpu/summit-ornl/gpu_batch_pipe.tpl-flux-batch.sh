@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-squidward-1291
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-diablo-8507
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SimeonEhrig/picongpu/etc/picongpu/summit-ornl/gpu_batch_pipe.tpl

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-8007
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-lentil-5488
+#FLUX --urgency=16
 
 usage="clusterize [options] -c \"command\"
 	Creates a script in the temp directory to run the user specified command

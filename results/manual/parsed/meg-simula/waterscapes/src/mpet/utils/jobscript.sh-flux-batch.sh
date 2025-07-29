@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MPET
-#FLUX: -n=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=MPET
+#FLUX -n=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/.local/lib/python2.7/site-packages/'
 

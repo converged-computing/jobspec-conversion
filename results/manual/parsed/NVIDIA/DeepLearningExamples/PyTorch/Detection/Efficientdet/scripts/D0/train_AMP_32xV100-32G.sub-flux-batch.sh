@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-spoon-2421
+#FLUX --job-name=adorable-buttface-5221
 #FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX -t=28800
+#FLUX --urgency=16
 
 readonly datadir="/coco2017"
 readonly checkpointdir="$PWD/results/"

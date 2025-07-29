@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ntms
-#FLUX: -c=8
-#FLUX: --queue=informatik-mind
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ntms
+#SBATCH --output=output/ntms_%j_out.txt
+#SBATCH --error=output/ntms_%j_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:V100:4
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
+#SBATCH --partition=informatik-mind
 
 module load anaconda3/latest
 . $ANACONDA_HOME/etc/profile.d/conda.sh

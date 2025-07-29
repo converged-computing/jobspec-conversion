@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-onion-7231
-#FLUX: -c=8
+#FLUX --job-name=stinky-pastry-7552
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=n1s8-v100-1
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

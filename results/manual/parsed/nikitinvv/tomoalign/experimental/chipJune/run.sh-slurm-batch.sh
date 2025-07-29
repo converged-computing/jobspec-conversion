@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-latke-9512
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 python admm94.py 1 10 200 0 /data/staff/tomograms/vviknik/tomoalign_vincent_data/chipJune/chip_16nmZP_tube_lens_interlaced_4000prj_3s_094
 python admm94.py 1 5 200 0 /data/staff/tomograms/vviknik/tomoalign_vincent_data/chipJune/chip_16nmZP_tube_lens_interlaced_4000prj_3s_094

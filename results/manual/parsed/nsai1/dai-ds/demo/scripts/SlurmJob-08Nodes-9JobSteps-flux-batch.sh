@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-parrot-7110
-#FLUX: -N=8
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-spoon-6162
+#FLUX -N=8
+#FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 1
 srun /opt/ucs/demo/workloads/dgemm 2

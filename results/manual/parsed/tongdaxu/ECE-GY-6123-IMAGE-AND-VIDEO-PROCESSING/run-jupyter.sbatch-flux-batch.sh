@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jupyterTest2
-#FLUX: -c=4
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=jupyterTest2
+#FLUX -c=4
+#FLUX -t=50400
+#FLUX --urgency=16
 
 module purge
 module load python3/intel/3.6.3

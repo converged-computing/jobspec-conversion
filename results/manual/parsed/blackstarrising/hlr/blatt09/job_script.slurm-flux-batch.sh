@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-arm-8400
-#FLUX: -N=4
-#FLUX: -n=5
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#FLUX --job-name=salted-truffle-9722
+#FLUX -N=4
+#FLUX -n=5
+#FLUX --queue=west
+#FLUX --urgency=16
 
 rm output/*
 . /etc/profile.d/modules.sh

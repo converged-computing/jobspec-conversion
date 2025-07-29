@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemur-7386
-#FLUX: -n=40
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-puppy-4539
+#FLUX -n=40
+#FLUX --queue=long
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export EXP_PATH='/scratch/$USER/ire'
 export NUM='1'

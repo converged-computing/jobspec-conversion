@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-truffle-8549
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/g-rutter/MD-scripts/PBS/resumable.pbs

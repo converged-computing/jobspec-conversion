@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-1134
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=24600
-#FLUX: --urgency=16
+#SBATCH --output=pview.out
+#SBATCH --error=pview.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:50:00
+#SBATCH --partition=amd
 
 module purge
 module load paraview/5.10.1 python/3.11

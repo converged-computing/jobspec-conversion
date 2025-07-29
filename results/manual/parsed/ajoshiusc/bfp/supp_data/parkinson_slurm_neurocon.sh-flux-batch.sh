@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-6915
-#FLUX: -n=4
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-staircase-5251
+#FLUX -n=4
+#FLUX -t=36000
+#FLUX --urgency=16
 
 echo ${subid}
 module load gcc/8.3.0 motif zlib mesa

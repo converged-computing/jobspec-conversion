@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20230426-pgen-fastqc-fastp-multiqc-RNAseq
-#FLUX: --queue=srlab
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=20230426-pgen-fastqc-fastp-multiqc-RNAseq
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230426-pgen-fastqc-fastp-multiqc-RNAseq
 
 https://robertslab.github.io/sams-notebook/2022/03/23/Differential-Gene-Expression-P.generosa-DGE-Between-Tissues-Using-Nextlow-NF-Core-RNAseq-Pipeline-on-Mox.html
 fastq_pattern='*.fq.gz'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TrainTauVertexRHORHO
-#FLUX: --queue=plgrid
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=TrainTauVertexRHORHO
+#FLUX --queue=plgrid
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export PYTHONPATH='$ANACONDA_PYTHON_PATH'
 

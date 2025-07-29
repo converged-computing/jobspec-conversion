@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fudge-0075
-#FLUX: -n=20
-#FLUX: --queue=node
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=node
 
 set -eu
 source ${SLURM_SUBMIT_DIR:-$(pwd)}/../UPSCb-common/src/bash/functions.sh

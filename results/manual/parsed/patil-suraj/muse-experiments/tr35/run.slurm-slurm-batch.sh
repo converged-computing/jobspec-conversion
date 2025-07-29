@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=coyo-f8-filtered-resumed-laiona5-384
-#FLUX: -N=4
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=coyo-f8-filtered-resumed-laiona5-384
+#SBATCH --output=/admin/home/suraj/logs/maskgit-imagenet/%x-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}'
 export LAUNCHER='python -u -m torch.distributed.run \'

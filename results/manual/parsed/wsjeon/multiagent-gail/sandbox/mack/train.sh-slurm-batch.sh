@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=6
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=rpp-bengioy
+#SBATCH --output=/home/jeonwons/scratch/slurm_output/slurm-%a.out
+#SBATCH --mail-user=jeonwons@mila.quebec
+#SBATCH --mail-type=ARRAY_TASKS,ALL,TIME_LIMIT_50,TIME_LIMIT_80,TIME_LIMIT_90,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=20:00:00
+#SBATCH --array=0-139
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-sundae-2495
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-cherry-8875
+#FLUX -n=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/cuda/10.0/lib64:/opt/cudnn/cuda-10.0/7.3/cuda/lib64'
 export BERT_BASE_DIR='/bos/usr0/zhuyund/uncased_L-12_H-768_A-12'

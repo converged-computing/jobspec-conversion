@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dim23
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#SBATCH --job-name=dim23
+#SBATCH --output=large_output_dim23.info
+#SBATCH --error=large_error_dim23.info
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=muylarga
 
 export PYTHONPATH='`pwd`'
 

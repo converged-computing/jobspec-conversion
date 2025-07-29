@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=extra_rgb_rn34
-#FLUX: -c=10
-#FLUX: --queue=p2
-#FLUX: -t=3600
-#FLUX: --urgency=15
+#FLUX --job-name=extra_rgb_rn34
+#FLUX -c=10
+#FLUX --queue=p2
+#FLUX -t=3600
+#FLUX --urgency=15
 
 export WANDB_PROJECT='invvis'
 export WANDB_NAME='${SLURM_JOB_NAME}'

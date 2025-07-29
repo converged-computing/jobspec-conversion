@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=microbedb-process
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#SBATCH --job-name=microbedb-process
+#SBATCH --account=rrg-fiona-ad
+#SBATCH --output=%x_%a.out
+#SBATCH --mail-user=nolan_w@sfu.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000M
+#SBATCH --time=02:59:00
 
 set -e -o pipefail            # Halt on error
 shopt -s nullglob

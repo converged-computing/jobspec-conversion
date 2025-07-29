@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Pump
-#FLUX: -N=4
-#FLUX: --queue=multiple
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Pump
+#FLUX -N=4
+#FLUX --queue=multiple
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export KMP_AFFINITY='compact,1,0'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=baselines
-#FLUX: -c=6
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=baselines
+#FLUX -c=6
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module load StdEnv/2020 cuda scipy-stack python/3.8
 source /home/ruizhipu/envs/py38/bin/activate

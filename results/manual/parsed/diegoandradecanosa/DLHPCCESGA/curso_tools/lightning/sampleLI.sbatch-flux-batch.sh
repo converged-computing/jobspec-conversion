@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bits-0384
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-soup-6856
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

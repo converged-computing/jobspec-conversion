@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vasptest
-#FLUX: -n=128
-#FLUX: --queue=wholenode
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=vasptest
+#SBATCH --account=dmr970008
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --mail-user=computation.management@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=wholenode
 
 export I_MPI_FABRICS='shm'
 export OMP_NUM_THREADS='1'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DeepSphere_climate_equi
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=DeepSphere_climate_equi
+#SBATCH --output=climate-equi-normal-cpu-%j.log
+#SBATCH --error=climate-equi-normal-cpu-%j-e.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

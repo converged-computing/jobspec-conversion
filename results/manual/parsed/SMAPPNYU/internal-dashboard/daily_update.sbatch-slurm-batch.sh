@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cpu_jupyter
-#FLUX: -c=20
-#FLUX: -t=93600
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu_jupyter
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=40GB
+#SBATCH --time=1-02:00:00
 
 export JUPYTERLAB_DIR='/scratch/zc1245/share_new2/'
 

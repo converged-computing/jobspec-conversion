@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Diabetes_ADRQN
-#FLUX: -t=169200
-#FLUX: --urgency=16
+#FLUX --job-name=Diabetes_ADRQN
+#FLUX -t=169200
+#FLUX --urgency=16
 
 module --quiet load anaconda/3
 conda activate diabetes_pomdp

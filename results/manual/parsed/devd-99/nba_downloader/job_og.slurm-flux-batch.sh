@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sbatch-nba-dl
-#FLUX: -c=2
+#FLUX --job-name=sbatch-nba-dl
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load python/intel/3.8.6

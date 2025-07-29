@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-carrot-7554
-#FLUX: --queue=spider
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=spider
+#SBATCH --constraint=V100
 
 export LR='0.0005 # CNN'
 

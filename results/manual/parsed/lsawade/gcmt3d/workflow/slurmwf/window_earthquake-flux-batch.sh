@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=invert_C$CID
-#FLUX: -N=2
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=invert_C$CID
+#FLUX -N=2
+#FLUX -t=600
+#FLUX --urgency=16
 
 CMTSOLUTION=$1
 if [ -z "$CMTSOLUTION" ]

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dlctest0
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dlctest0
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='/mnt/home/evanschaffer/anaconda3/bin:$PATH'
 export PYTHONPATH='/mnt/home/evanschaffer/anaconda3/envs/deeplabcut'

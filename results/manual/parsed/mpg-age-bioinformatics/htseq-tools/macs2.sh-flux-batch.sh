@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-2338
-#FLUX: -c=2
-#FLUX: --queue=himem,hugemem,blade
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-butter-9832
+#FLUX -c=2
+#FLUX --queue=himem,hugemem,blade
+#FLUX --urgency=16
 
 TOP=$(readlink -f ../)/
 BOW=$(readlink -f ../bowtie2_output)/

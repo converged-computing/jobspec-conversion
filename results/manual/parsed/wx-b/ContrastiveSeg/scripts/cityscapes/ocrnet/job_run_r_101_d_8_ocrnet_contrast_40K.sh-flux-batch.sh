@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-mango-9584
-#FLUX: -n=40
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-citrus-4170
+#FLUX -n=40
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source /home/jc3/miniconda2/etc/profile.d/conda.sh
 conda activate pytorch-0.4.1

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-7751
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Jim-Walk/Dissertation-Project/babel/int_stream/launch.pbs

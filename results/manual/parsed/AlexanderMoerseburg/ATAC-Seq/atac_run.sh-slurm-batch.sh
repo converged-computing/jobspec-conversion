@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=atac-run
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --queue=skylake
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=atac-run
+#SBATCH --account=CHIARUGI-SL2-CPU
+#SBATCH --mail-user=sa941@medschl.cam.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=10
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50000mb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=skylake
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

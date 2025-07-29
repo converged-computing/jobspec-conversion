@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=proxy_distribution
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=proxy_distribution
+#SBATCH --output=slurm_logs/job-%A_%a.out
+#SBATCH --error=slurm_logs/job-%A_%a.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export WORLD_SIZE='16 # set it equal to total number of gpus across all nodes (=total number of tasks across all nodes)'
 export MASTER_ADDR='$master_addr'

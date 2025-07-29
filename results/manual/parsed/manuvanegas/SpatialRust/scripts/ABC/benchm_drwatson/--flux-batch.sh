@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=debug-ABC
-#FLUX: -n=5
-#FLUX: --queue=wildfire
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=debug-ABC
+#FLUX -n=5
+#FLUX --queue=wildfire
+#FLUX -t=900
+#FLUX --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

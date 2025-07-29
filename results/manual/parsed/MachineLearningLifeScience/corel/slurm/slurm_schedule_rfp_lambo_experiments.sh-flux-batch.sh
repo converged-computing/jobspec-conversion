@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RFP_LAMBO
-#FLUX: -c=6
-#FLUX: --queue=boomsma
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#FLUX --job-name=RFP_LAMBO
+#FLUX -c=6
+#FLUX --queue=boomsma
+#FLUX -t=302400
+#FLUX --urgency=16
 
 HOME_DIR=/home/pcq275/
 LAMBO_DIR=${HOME_DIR}/lambo/

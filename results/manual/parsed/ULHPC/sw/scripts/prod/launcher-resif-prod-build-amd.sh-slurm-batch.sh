@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RESIF-Prod-CPU-epyc
-#FLUX: -c=16
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=100
+#SBATCH --job-name=RESIF-Prod-CPU-epyc
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --mail-user=hpc-team@uni.lu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=urgent
+#SBATCH --constraint=epyc,ntasks-per-node=8
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

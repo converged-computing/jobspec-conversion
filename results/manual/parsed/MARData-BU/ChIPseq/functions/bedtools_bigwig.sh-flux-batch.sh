@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BIGWIG
-#FLUX: -c=20
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=BIGWIG
+#FLUX -c=20
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 module purge
 module load BEDTools/2.30.0-GCC-10.2.0

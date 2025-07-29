@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=isa-scclevr-EncStudy-ResNet_S2
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=isa-scclevr-EncStudy-ResNet_S2
+#SBATCH --output=log_files/isa-scclevr-EncStudy-ResNet_S2.log
+#SBATCH --error=log_files/isa-scclevr-EncStudy-ResNet_S2.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=125000
+#SBATCH --time=12:00:00
+#SBATCH --constraint=gpu
 
 module purge
 module load anaconda/3/2021.11 # <-> python 3.9.

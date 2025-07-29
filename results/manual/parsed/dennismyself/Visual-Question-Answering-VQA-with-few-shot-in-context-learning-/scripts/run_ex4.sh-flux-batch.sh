@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MLMI8_RICES_fewshot
-#FLUX: --queue=ampere
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=MLMI8_RICES_fewshot
+#FLUX --queue=ampere
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

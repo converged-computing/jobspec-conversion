@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-signal-4129
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_TOPO_FILE='/nccl/p4d-24xl-topo.xml'
 

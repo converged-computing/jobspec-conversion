@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=stianrh_AMD_Training
-#FLUX: --queue=V100-IDI
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=stianrh_AMD_Training
+#SBATCH --account=share-ie-idi
+#SBATCH --output=terminal_output/train_log.out
+#SBATCH --mail-user=stianrh@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=15000
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=V100-IDI
+#SBATCH --constraint=ntasks-per-node=24
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

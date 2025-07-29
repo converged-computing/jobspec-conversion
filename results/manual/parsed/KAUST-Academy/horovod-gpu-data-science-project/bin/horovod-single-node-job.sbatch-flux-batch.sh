@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pancake-3725
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-ricecake-5782
+#FLUX --gpus-per-task=1
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=WuK
-#FLUX: --exclusive
-#FLUX: --queue=gpu_v100
-#FLUX: --urgency=16
+#SBATCH --job-name=WuK
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=gpu_v100
+#SBATCH: --exclusive
 
 if true; then
     SYSUEST_HOME=~/SYSuEST

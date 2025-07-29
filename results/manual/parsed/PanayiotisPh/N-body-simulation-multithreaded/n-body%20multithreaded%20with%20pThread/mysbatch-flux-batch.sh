@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=count3
-#FLUX: -c=40
-#FLUX: --queue=CSUG
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=count3
+#FLUX -c=40
+#FLUX --queue=CSUG
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module use /share/apps/eb/modules/all
 module load EasyBuild

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MAGs_SRR7877884
-#FLUX: -c=62
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=MAGs_SRR7877884
+#FLUX -c=62
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 export OMP_PLACES='threads'

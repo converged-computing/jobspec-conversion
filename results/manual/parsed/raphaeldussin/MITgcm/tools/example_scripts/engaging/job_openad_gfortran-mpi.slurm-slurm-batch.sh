@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=troadmpi
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=sched_mit_darwin
-#FLUX: --urgency=16
+#SBATCH --job-name=troadmpi
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --partition=sched_mit_darwin
 
 export LC_ALL='en_US.iso885915'
 

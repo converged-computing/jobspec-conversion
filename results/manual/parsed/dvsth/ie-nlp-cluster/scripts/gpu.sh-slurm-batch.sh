@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ieneurips
-#FLUX: -c=6
-#FLUX: --queue=compsci-gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=ieneurips
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --partition=compsci-gpu
 
 hostname
 nvidia-smi --query-gpu=gpu_name,memory.total,memory.free --format=csv

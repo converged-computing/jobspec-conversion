@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arp
-#FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=arp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export OMP_STACKSIZE='4G'
 export KMP_STACKSIZE='4G'

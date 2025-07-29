@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-puppy-9458
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-buttface-6511
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

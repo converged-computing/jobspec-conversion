@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NFmaster
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=NFmaster
+#FLUX -t=86400
+#FLUX --urgency=16
 
 metadata=$1
 reference=$2

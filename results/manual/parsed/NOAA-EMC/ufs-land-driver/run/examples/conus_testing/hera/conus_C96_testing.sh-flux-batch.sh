@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=UFS-Land
-#FLUX: -n=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=UFS-Land
+#FLUX -n=4
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load stack-intel/2021.5.0  

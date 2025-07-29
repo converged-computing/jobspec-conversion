@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=godcaster_whisper
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=godcaster_whisper
+#FLUX -c=12
+#FLUX --queue=debug
+#FLUX -t=518400
+#FLUX --urgency=16
 
 cd godcaster
 cd src/captions

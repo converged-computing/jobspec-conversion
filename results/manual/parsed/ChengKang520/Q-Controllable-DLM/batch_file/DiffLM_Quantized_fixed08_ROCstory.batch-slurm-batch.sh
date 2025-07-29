@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Q_fixed08_ROCstorys
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Q_fixed08_ROCstorys
+#SBATCH --output=Q_fixed08_ROCstory.out
+#SBATCH --error=Q_fixed08_ROCstory.err
+#SBATCH --mail-user=kangchen@fel.cvut.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_MCA_mpi_warn_on_fork='0 #disable MPI warnings'
 

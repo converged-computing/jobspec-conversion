@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=L_CL_water_parsley
-#FLUX: -c=8
-#FLUX: --queue=gpu4-biggin
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=L_CL_water_parsley
+#FLUX -c=8
+#FLUX --queue=gpu4-biggin
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${​​​​SLURM_CPUS_PER_TASK}'
 

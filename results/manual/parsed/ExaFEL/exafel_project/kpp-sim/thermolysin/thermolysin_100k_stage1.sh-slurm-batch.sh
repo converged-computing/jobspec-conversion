@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stage_1
-#FLUX: -N=64
-#FLUX: --queue=regular
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=stage_1
+#SBATCH --account=m2859_g
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=16,gpu
+#SBATCH --licenses=SCRATCH
 
 export SCRATCH_FOLDER='$SCRATCH/thermolysin/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

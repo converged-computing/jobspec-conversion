@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=heuristic-self-play
-#FLUX: --queue=bii
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=heuristic-self-play
+#FLUX --queue=bii
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CHESS_DIR='/scratch/tma5gv/chess'
 export MODEL_DIR='$CHESS_DIR/model'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cpujob
-#FLUX: -n=19
-#FLUX: --queue=icelake
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=cpujob
+#SBATCH --account=MPHIL-DIS-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=19
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=icelake
 
 export OMP_NUM_THREADS='4'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

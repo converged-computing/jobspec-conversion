@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=inet_supervised_resnet152_lineareval
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=inet_supervised_resnet152_lineareval
+#FLUX -c=8
+#FLUX -t=18000
+#FLUX --urgency=16
 
 i=0;
 for wd in 1e-6 1e-5 1e-4;

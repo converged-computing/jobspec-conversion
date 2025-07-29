@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50-mc
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=17400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50-mc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=04:50:00
+#SBATCH --partition=gpu
 
 module purge
 module load Singularity

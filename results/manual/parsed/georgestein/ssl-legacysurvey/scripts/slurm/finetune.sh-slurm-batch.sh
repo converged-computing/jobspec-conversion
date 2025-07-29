@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pastry-8056
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=m3900
+#SBATCH --output=sout/finetune_lens_grrrssgbjcgnr_%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --time=12:00:00
+#SBATCH --qos=early_science
+#SBATCH --constraint=gpu
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

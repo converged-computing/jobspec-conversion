@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mask
-#FLUX: -c=4
-#FLUX: --queue=qTRD
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=mask
+#SBATCH --account=psy53c17
+#SBATCH --output=/data/users2/jwardell1/nshor_docker/examples/oulu-project/jobs/out%A_%a.out
+#SBATCH --error=/data/users2/jwardell1/nshor_docker/examples/oulu-project/jobs/error%A_%a.err
+#SBATCH --mail-user=jwardell1@student.gsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32g
+#SBATCH --time=20:00:00
+#SBATCH --partition=qTRD
 
 module load afni
 while IFS= read -r sub_id; do

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cinnamonbun-5459
-#FLUX: -c=6
-#FLUX: --queue=gpuk80
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-spoon-7221
+#FLUX -c=6
+#FLUX --queue=gpuk80
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_HOME='$PWD:/home/$USER'
 

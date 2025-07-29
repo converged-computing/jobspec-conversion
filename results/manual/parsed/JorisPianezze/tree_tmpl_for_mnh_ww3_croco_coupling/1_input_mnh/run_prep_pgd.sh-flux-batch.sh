@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PREP_PGD
+#FLUX --job-name=PREP_PGD
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PREP_PGD_FILES='${PREP_PGD_FILES:-"$HOME/PREP_PGD_FILES_WWW"}'
 

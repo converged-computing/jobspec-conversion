@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-carrot-5186
-#FLUX: -N=20
-#FLUX: --queue=parallel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-kerfuffle-3512
+#FLUX -N=20
+#FLUX --queue=parallel
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 python/3.6.6 mpi4py

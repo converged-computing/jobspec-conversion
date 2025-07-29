@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=multiPatch_vicreg_sweep
-#FLUX: --queue=long
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=multiPatch_vicreg_sweep
+#SBATCH --output=sbatch_out/multiPatch_vicreg_sweep.%A.%a.out
+#SBATCH --error=sbatch_err/multiPatch_vicreg_sweep.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=long
+#SBATCH --array=0-9%10
 
 . /etc/profile
 module load anaconda/3

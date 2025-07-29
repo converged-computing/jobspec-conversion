@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hope-9056
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 SECONDS=0
 echo -e "~~~   ***   ~~~"

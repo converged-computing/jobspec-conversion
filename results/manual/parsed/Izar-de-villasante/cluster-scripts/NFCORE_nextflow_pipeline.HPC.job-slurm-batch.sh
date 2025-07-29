@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=job_CLIP_nextflow
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=job_CLIP_nextflow
+#SBATCH --output=job_CLIP_nextflow_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=02:00:00
 
 export NXF_EXECUTOR='slurm          # set SLURM as the default executor (=spawns sbatch jobs)'
 export NXF_OPTS='-Xms500M -Xmx2G"  # restrict Java VM memory usage'

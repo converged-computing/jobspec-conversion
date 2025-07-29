@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: --queue=gpu-a100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet
+#SBATCH --output=debug/myresnet.%j.out
+#SBATCH --error=debug/myresnet.%j.err
+#SBATCH --mail-user=kchen346@wisc.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu-a100
 
 node=$SLURM_JOB_NODELIST
 module load tacc-apptainer

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: --queue=nv-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --output=ret-%j.err
+#SBATCH --error=ret-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=nv-gpu
+#SBATCH --qos=gpu-short
+#SBATCH --constraint=Volta
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

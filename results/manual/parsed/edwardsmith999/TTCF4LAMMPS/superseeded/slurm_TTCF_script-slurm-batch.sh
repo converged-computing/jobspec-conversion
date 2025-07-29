@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ttcf
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ttcf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-1000
 
  module load gcc/8.2.0
  module load openmpi/4.0.0

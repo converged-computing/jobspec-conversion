@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-toaster-9810
-#FLUX: --queue=gpu20
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lamp-9003
+#FLUX --queue=gpu20
+#FLUX --urgency=16
 
 __conda_setup="$('/BS/dchen-projects/work/Software/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then

@@ -1,12 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=cosmoflow-opt
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#SBATCH --job-name=cosmoflow-opt
+#SBATCH --account=m4291
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export MODEL_NAME='cosmoflow'
 export MODEL_FRAMEWORK='pytorch'
 
+singularity
+exec
+registry.nersc.gov/das/cosmoflow-opt:23.09.00
 set -euxo pipefail
 : "${DGXSYSTEM:=DGXA100}"
 : "${DGXNGPU:=4}"

@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-5638
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_titanrtx
 
 export OMP_NUM_THREADS='6'
 export PATH='/sw/arch/Debian9/EB_production/2019/software/CUDA/10.0.130/:$PATH'

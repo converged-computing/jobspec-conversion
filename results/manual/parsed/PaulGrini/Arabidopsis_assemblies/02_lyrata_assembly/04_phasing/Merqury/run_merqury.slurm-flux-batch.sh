@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=merqury
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=merqury
+#FLUX -c=10
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PATH='$PATH:/cluster/projects/nn9525k/Programs/meryl-1.0/Linux-amd64/bin'
 export MERQURY='/cluster/projects/nn9525k/Programs/merqury'

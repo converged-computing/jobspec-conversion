@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=python_train_BERT
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=python_train_BERT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load TensorFlow/2.5.0-fosscuda-2020b

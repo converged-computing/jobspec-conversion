@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-5108
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=xeonv3
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --partition=xeonv3
+#SBATCH: --exclusive
 
 source /home/ydamour/qp2/quantum_package.rc # here 
 module load intel/2019.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_hicexplorer
-#FLUX: -c=8
-#FLUX: --queue=workq
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake_hicexplorer
+#FLUX -c=8
+#FLUX --queue=workq
+#FLUX --urgency=16
 
 module purge
 module load system/Miniconda3-4.7.10

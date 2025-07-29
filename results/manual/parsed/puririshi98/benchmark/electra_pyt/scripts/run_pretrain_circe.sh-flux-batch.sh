@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-staircase-4704
-#FLUX: -N=8
+#FLUX --job-name=ornery-underoos-9946
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=28800
+#FLUX --urgency=16
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_pyt:pretrain"

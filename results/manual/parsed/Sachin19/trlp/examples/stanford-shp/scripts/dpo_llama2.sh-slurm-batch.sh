@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bits-1214
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --output=./slurm-outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50g
+#SBATCH --exclude=tir-0-32,tir-0-36,tir-0-11,tir-1-11,tir-1-32,tir-1-18
 
 export HF_DATASETS_CACHE='/projects/tir6/general/sachink/huggingface'
 

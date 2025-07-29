@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=liquid
-#FLUX: -n=16
-#FLUX: --queue=NVIDIAGeForceRTX4090
-#FLUX: --urgency=16
+#SBATCH --job-name=liquid
+#SBATCH --output=output.out1
+#SBATCH --error=error.err1
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=NVIDIAGeForceRTX4090
+#SBATCH --nodelist=node30
 
 module load compiler/gcc/7.3.1
 module load compiler/intel/2021.3.0

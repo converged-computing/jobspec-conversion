@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pot-5504
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-chip-6506
+#FLUX -t=720000
+#FLUX --urgency=16
 
 export TMPDIR='TMP'
 export REF_PATH='/data/DCEG_Trios/new_cgr_data/TriosCompass_v2/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s'

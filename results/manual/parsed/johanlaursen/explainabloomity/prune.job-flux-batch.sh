@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-8114
-#FLUX: -c=4
-#FLUX: --queue=red,brown
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-hobbit-0799
+#FLUX -c=4
+#FLUX --queue=red,brown
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "prune_percent=$1"
 echo "metric=$2"

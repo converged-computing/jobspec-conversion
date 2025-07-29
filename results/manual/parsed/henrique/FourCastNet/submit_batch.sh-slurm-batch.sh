@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=afno
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=nvgpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=afno
+#SBATCH --account=usup
+#SBATCH --output=afno_backbone_finetune.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=06:00:00
+#SBATCH --partition=nvgpu
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chair-3001
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=example_1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:rtx2080:1
+#SBATCH --mem=32g
+#SBATCH --partition=gpu
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

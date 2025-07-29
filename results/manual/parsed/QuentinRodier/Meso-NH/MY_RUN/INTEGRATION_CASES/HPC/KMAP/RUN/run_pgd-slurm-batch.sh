@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pgd_kmap
-#FLUX: -n=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=pgd_kmap
+#SBATCH --output=pgd_kmap.eo%j
+#SBATCH --error=pgd_kmap.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 export MPIRUN='Mpirun -np 4'
 

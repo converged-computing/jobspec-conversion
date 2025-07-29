@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-egg-1723
-#FLUX: -n=32
-#FLUX: --queue=amdsmall
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-platanos-5240
+#FLUX -n=32
+#FLUX --queue=amdsmall
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /home/jkimball/haasx092/AMOVA
 module load gcc/8.1.0

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-train-5289
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=15
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:6
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=low
 
 export PYTHONUNBUFFERED='1'
 

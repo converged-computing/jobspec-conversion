@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cf100_100_12
-#FLUX: -c=6
-#FLUX: --queue=p100,t4v1,t4v2
-#FLUX: --urgency=16
+#SBATCH --job-name=cf100_100_12
+#SBATCH --output=logs_new/cf100_100_12_2/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --partition=p100,t4v1,t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0
 
 ​
 GPUS_PER_NODE=1

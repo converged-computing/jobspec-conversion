@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-motorcycle-2997
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-parsnip-6515
+#FLUX -t=1800
+#FLUX --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

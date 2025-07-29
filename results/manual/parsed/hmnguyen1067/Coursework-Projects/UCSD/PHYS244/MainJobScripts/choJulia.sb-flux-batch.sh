@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=choJL
-#FLUX: -c=16
-#FLUX: --queue=shared
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=choJL
+#FLUX -c=16
+#FLUX --queue=shared
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='16'
 

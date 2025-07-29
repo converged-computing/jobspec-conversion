@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-motorcycle-6575
-#FLUX: --queue=short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=../stds/synth_%j.out
+#SBATCH --error=../stds/synth_%j.err
+#SBATCH --mail-user=joeri.vanengelen@deltares.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=short
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/visualization/mesa/lib'
 export PATH='$HOME/visualization/mesa/bin:$PATH'

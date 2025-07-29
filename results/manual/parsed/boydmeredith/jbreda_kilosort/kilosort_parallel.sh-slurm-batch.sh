@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-latke-0749
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/gpfs/jbreda/ephys/kilosort/W122/logs/output_%a_%j.out
+#SBATCH --error=/scratch/gpfs/jbreda/ephys/kilosort/W122/logs/error_%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 input_base_path="/scratch/gpfs/jbreda/ephys/kilosort/W122/preprocessed_W122_19523713" 
 repo_path="/scratch/gpfs/jbreda/ephys/kilosort/Brody_Lab_Ephys"

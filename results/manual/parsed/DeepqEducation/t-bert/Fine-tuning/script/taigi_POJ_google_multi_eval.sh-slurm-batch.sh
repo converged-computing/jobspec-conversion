@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: --queue=gp4d
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --account=GOV109042
+#SBATCH --output=taigi_POJ_512_google_multi_2e5_eval_log_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=gp4d
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge 
 module load miniconda3

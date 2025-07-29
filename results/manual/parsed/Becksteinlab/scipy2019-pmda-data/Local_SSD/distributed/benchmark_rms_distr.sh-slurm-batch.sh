@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PMDA_BM
-#FLUX: --queue=compute
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=PMDA_BM
+#SBATCH --mail-user=sfan19@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=24
 
 bash /home/sfan19/.bashrc
 echo $SLURM_JOB_ID

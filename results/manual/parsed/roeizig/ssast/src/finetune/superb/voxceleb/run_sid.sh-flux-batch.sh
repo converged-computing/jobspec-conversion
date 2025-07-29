@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=s3p-sid
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=s3p-sid
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export TORCH_HOME='.'
 

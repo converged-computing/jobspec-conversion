@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-toaster-4877
-#FLUX: --exclusive
-#FLUX: --queue=n1s16-t4-2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=dl18
+#SBATCH --output=demo_%j.out
+#SBATCH --error=demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=20:00:00
+#SBATCH --partition=n1s16-t4-2
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

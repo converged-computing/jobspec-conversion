@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=KID490_check
-#FLUX: -N=15
-#FLUX: --queue=gll_meteo_prod
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=KID490_check
+#SBATCH --account=OGS_prod_0
+#SBATCH --nodes=15
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=115gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=gll_meteo_prod
+#SBATCH --qos=gll_qos_meteoogs
+#SBATCH --constraint=ntasks-per-node=10
+#SBATCH --dependency=8354394
 
 export PYTHONPATH='$PYTHONPATH:/gpfs/work/OGS20_PRACE_P/COPERNICUS/bit.sea'
 

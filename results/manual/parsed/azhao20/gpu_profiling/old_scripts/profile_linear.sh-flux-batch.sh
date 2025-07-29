@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-poodle-4610
-#FLUX: -c=8
-#FLUX: --queue=seas_gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-frito-2433
+#FLUX -c=8
+#FLUX --queue=seas_gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load python/3.10.12-fasrc01
 module load gcc/12.2.0-fasrc01

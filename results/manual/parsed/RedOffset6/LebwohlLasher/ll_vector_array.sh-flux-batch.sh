@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ll_mpi_numba_array
-#FLUX: --queue=teach_cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=ll_mpi_numba_array
+#FLUX --queue=teach_cpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 echo 'running mpi test'
 module load languages/miniconda

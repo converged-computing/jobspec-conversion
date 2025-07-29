@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=safetyscores
-#FLUX: --urgency=16
+#FLUX --job-name=safetyscores
+#FLUX --urgency=16
 
 python3 main.py

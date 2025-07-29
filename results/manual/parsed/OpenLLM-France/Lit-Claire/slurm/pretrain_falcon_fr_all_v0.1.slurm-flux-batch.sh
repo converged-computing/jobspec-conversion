@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Falcon
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=Falcon
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load cpuarch/amd

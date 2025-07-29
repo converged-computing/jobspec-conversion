@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cherry-6360
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-lemur-6322
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/floswald/parallelTest/julia/iridis/submit.sh

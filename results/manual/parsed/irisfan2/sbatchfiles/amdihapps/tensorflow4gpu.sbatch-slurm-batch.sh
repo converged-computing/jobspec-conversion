@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-peanut-6360
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64GB
+#SBATCH --constraint=ntasks-per-node=4
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

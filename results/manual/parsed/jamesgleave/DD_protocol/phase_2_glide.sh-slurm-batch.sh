@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phase_2
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --partition=normal
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

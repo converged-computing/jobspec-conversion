@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Rec_test
-#FLUX: -N=3
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=nvidia_dev
-#FLUX: --urgency=16
+#SBATCH --job-name=Rec_test
+#SBATCH --output=logs/slurm/slurm-%A.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=60GB
+#SBATCH --partition=nvidia_dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

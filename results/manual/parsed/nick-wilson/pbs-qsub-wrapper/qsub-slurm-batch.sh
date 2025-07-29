@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pancake-8440
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/pbs-qsub-wrapper/qsub

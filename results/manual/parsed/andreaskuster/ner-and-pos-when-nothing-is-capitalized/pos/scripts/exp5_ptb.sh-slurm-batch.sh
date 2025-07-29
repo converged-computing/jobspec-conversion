@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-knife-5142
-#FLUX: -c=128
-#FLUX: --queue=amdv100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/users2/kustera/log/nlp_out_exp5.txt
+#SBATCH --error=/users2/kustera/log/nlp_err_exp5.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=500G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdv100
 
 module load python/3.7.2
 module load CMake

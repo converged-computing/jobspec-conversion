@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-despacito-1216
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-taco-7948
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=streamBenchmark.2
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=streamBenchmark.2
+#SBATCH --account=nn2849k
+#SBATCH --output=/cluster/home/jeremie/myRepo/pgm-jlg-upc-svn/trunk/otherThanSpmv/BenchmarkingUPC/StreamBenchmark//results/abel/comJob_1_out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6000MB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export GASNET_PHYSMEM_MAX='63G'
 export GASNET_PHYSMEM_NOPROBE='1'

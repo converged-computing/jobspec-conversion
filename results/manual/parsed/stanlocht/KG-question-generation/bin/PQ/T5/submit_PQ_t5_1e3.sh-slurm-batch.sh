@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=KGQG-1e3
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=KGQG-1e3
+#SBATCH --output=slurmouts/slurm_output_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32000M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2019

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-1870
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=astute-animal-9545
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load openmpi/4.0.3
 module load gcc/11.1.0

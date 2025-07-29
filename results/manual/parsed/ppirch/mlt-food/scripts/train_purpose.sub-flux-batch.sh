@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_purpose
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=train_purpose
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load anaconda3
 source activate food-regression

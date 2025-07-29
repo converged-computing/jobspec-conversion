@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-despacito-9949
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-knife-5110
+#FLUX -c=2
+#FLUX --queue=gpu_shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge all
 module load 2021

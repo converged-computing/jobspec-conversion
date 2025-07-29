@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-soup-3696
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-muffin-2142
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_HCP_main_step3_per_loss_age.pbs

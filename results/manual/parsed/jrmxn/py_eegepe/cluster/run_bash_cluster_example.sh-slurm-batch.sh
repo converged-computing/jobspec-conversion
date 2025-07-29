@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=s00
-#FLUX: -c=3
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=s00
+#SBATCH --account=dsi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=4gb
+#SBATCH --time=12:00:00
 
 module load tensorflow/anaconda3-5.1.0
 pip install numpy scipy pandas matplotlib seaborn fooof pycircstat noisyopt pykalman sympy keras

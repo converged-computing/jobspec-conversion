@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-eagle-2950
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/titoeb/DeepMRI/submissions/submission_CnCNN_V2.sh

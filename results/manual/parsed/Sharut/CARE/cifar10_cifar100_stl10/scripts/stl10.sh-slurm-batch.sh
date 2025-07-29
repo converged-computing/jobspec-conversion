@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-1056
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=test.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:2
+#SBATCH: --exclusive
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

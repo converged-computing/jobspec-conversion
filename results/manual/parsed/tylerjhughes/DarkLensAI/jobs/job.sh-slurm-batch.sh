@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=data_simulation
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=data_simulation
+#SBATCH --output=jobs/running/myjob-%j.out
+#SBATCH --error=jobs/running/myjob-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-10
 
 export PYTHONPATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib/python3.7/site-packages:$PYTHONPATH'
 

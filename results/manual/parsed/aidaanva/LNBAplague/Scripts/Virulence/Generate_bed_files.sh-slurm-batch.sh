@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Virulence_BAMtoBed
-#FLUX: --queue=short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Virulence_BAMtoBed
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=01:00:00
+#SBATCH --partition=short
+#SBATCH --array=0-15%7
 
 BAMDIR=$1
 BAMFILES=($(find $BAMDIR -name *.bam))

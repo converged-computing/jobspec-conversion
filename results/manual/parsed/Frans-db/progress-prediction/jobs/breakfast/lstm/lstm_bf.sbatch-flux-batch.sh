@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-despacito-8769
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-pot-5996
+#FLUX -c=2
+#FLUX --queue=general
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

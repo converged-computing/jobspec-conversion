@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-8003
-#FLUX: --queue=gpu2
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=test.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu2
 
 module load singularity/2.4.2
 hostname

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=example
+#FLUX --job-name=example
 #FLUX: --exclusive
-#FLUX: --queue=gpgpu-1
-#FLUX: --urgency=16
+#FLUX --queue=gpgpu-1
+#FLUX --urgency=16
 
 module purge
 module load namd/2.12/gpu

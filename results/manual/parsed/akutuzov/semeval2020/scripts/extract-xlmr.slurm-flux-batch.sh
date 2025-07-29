@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=XLMR_extract
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=XLMR_extract
+#FLUX -c=6
+#FLUX --queue=accel
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 module purge   # Recommended for reproducibility

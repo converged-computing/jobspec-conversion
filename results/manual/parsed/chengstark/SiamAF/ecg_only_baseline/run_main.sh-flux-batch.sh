@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-taco-0415
-#FLUX: --queue=overflow
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-caramel-4277
+#FLUX --queue=overflow
+#FLUX -t=864000
+#FLUX --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

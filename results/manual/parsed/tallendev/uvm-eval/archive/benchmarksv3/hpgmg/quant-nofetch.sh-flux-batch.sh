@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpgmg-quant-nofetch
+#FLUX --job-name=hpgmg-quant-nofetch
 #FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export CUDA_VISIBLE_DEVICES='0'

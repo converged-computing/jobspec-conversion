@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lentil-7937
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=slurm-esm1nv-train-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export HYDRA_FULL_ERROR='1'
 

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=nmf_expers
-#FLUX: --queue=normal,hns
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=nmf_expers
+#SBATCH --output=pipeline%j.out
+#SBATCH --error=pipeline%j.err
+#SBATCH --mail-user=kriss1@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=normal,hns
+#SBATCH --qos=normal
 
 module load llvm/4.0.0
 module load R/3.4.0

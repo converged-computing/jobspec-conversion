@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=elm
-#FLUX: -N=8
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=elm
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:8
+#SBATCH --mem=16GB
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export HOSTNAMES='`scontrol show hostnames "$SLURM_JOB_NODELIST"`'
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

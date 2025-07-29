@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lettuce-7345
-#FLUX: -c=8
-#FLUX: --queue=cocoflops
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-dog-1427
+#FLUX -c=8
+#FLUX --queue=cocoflops
+#FLUX -t=604800
+#FLUX --urgency=16
 
 if [ "$(hostname)" = "cocoflops1.stanford.edu" ] || [ "$(hostname)" = "cocoflops2.stanford.edu" ]; then
     # >>> conda initialize >>>

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sparkFITS
-#FLUX: -N=6
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=sparkFITS
+#FLUX -N=6
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load spark
 module load sbt

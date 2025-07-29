@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-2163
-#FLUX: -c=24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=def-bengioy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
 
 TARGET="0.35"
 BEHAVIOR="0.4"

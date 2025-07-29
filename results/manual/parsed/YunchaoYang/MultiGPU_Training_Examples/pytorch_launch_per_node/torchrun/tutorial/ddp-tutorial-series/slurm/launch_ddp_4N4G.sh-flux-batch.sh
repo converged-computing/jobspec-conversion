@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-butter-0671
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=angry-noodle-1001
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --queue=hpg-ai
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN #change to INFO if debugging DDP'
 export LOGLEVEL='INFO'

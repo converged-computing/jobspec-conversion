@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=darts-mpi
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=darts-mpi
+#SBATCH --account=courses01
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 echo "Running darts-mpi.x with 2 MPI-tasks"
 /usr/bin/time -f "Elapsed time = %E" aprun -n 2 ./darts-mpi.x

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MIRT0
-#FLUX: -c=12
-#FLUX: --queue=batch
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=MIRT0
+#FLUX -c=12
+#FLUX --queue=batch
+#FLUX -t=216000
+#FLUX --urgency=16
 
 module purge
 module load gcc/11.1.0

@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mnist_tf_mpi
-#FLUX: -n=32
-#FLUX: -c=10
-#FLUX: --exclusive
-#FLUX: --queue=gpu_p1
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=mnist_tf_mpi
+#SBATCH --account=changeme@gpu
+#SBATCH --output=mnist_tf_mpi_log_%j.out
+#SBATCH --error=mnist_tf_mpi_log_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu_p1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 cd ${SLURM_SUBMIT_DIR}
 module purge

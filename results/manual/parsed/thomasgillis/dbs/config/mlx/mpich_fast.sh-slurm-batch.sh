@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-itch-0668
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=p200210
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=short
 
 echo "loading modules"
 module use /apps/USE/easybuild/release/2021.5/modules/all

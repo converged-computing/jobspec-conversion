@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ESM
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ESM
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo $OMP_NUM_THREADS
 source activate base

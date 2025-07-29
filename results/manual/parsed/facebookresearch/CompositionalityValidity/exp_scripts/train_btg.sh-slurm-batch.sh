@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=${dataset}-${split}-${SAVE_NAME}-s${seed}
-#FLUX: --queue=learnlab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=${dataset}-${split}-${SAVE_NAME}-s${seed}
+#SBATCH --output=${base_dir}/logs/${dataset}/${SAVE_NAME}_${split}_output.log
+#SBATCH --error=${base_dir}/logs/${dataset}/${SAVE_NAME}_${split}_error.log
+#SBATCH --mail-user=kaisersun@meta.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=learnlab
+#SBATCH --constraint=ntasks-per-node=1,volta32gb,ib4
+#SBATCH --chdir=${base_dir}
 
 export dataset='NACS'
 export split='length'

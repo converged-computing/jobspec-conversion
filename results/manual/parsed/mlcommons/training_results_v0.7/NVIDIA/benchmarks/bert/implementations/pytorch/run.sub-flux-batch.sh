@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-rabbit-3073
+#FLUX --job-name=moolicious-banana-4879
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

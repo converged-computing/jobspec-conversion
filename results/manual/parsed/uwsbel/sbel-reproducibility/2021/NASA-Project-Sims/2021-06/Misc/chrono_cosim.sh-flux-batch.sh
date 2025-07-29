@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-9960
-#FLUX: -c=2
-#FLUX: --queue=sbel
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=red-carrot-4601
+#FLUX -c=2
+#FLUX --queue=sbel
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

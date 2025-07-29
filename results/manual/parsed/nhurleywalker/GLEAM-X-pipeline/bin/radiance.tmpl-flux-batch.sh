@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-parsnip-0069
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-fork-7639
+#FLUX --queue=STANDARDQ
+#FLUX -t=1380
+#FLUX --urgency=16
 
 export PYTHON_EGG_CACHE='/tmp'
 

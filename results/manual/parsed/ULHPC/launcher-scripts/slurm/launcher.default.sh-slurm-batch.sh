@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-sundae-8232
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=28
 
 echo "SLURM_JOBID  = ${SLURM_JOBID}"
 echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-leopard-9677
-#FLUX: -n=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-lamp-3029
+#FLUX -n=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module add opencv
 module add cuda/8.0

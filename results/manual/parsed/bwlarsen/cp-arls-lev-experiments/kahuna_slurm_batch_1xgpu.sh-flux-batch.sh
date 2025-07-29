@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-malarkey-7451
-#FLUX: -c=4
+#FLUX --job-name=pusheena-banana-8828
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=1xgpu
-#FLUX: -t=561600
-#FLUX: --urgency=16
+#FLUX --queue=1xgpu
+#FLUX -t=561600
+#FLUX --urgency=16
 
 module load matlab
 echo Hostname:

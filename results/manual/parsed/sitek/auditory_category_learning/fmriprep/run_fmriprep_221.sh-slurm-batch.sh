@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-malarkey-5448
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=80G
+#SBATCH --time=3-00:00:00
 
 module add freesurfer
 module add fsl

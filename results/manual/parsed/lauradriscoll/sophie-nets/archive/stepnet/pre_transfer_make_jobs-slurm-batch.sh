@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pre_transfer
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=pre_transfer
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=3-00:00:00
 
 rnn_type_array=("LeakyRNN")
 activation_array=("softplus" "retanh")

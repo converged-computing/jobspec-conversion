@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=job_wgpu
-#FLUX: -t=87839
-#FLUX: --urgency=16
+#SBATCH --job-name=job_wgpu
+#SBATCH --output=./slurm/%j_%x.out
+#SBATCH --error=./slurm/%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:23:59
+#SBATCH --array=1-9
 
 declare -a METHODS=("icm" "proto" "diayn" "icm_apt" "ind_apt" "aps" "smm" "rnd" "disagreement")
 singularity \

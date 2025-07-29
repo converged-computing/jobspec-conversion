@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cupy
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=cupy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=00:01:00
+#SBATCH --constraint=v100
 
 module purge
 module load anaconda3/2022.5

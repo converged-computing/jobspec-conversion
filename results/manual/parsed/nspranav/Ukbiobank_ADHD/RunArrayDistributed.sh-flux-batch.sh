@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ConvLr00001
-#FLUX: -c=5
-#FLUX: --queue=qTRDGPUH
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#FLUX --job-name=ConvLr00001
+#FLUX -c=5
+#FLUX --queue=qTRDGPUH
+#FLUX -t=460800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MODULEPATH='/apps/Compilers/modules-3.2.10/Debug-Build/Modules/3.2.10/modulefiles/'

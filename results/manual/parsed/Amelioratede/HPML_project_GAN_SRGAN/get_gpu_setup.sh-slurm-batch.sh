@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=setup
-#FLUX: -c=20
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#SBATCH --job-name=setup
+#SBATCH --output=setup.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:rtx8000:4
+#SBATCH --mem=16GB
+#SBATCH --time=14:00:00
 
 nvidia-smi -L
 nvidia-smi -l 60

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=viro_wt
-#FLUX: -c=10
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=viro_wt
+#SBATCH --account=def-nike-ab
+#SBATCH --mail-user=icamps@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=1000
+#SBATCH --time=5-00:00:00
 
 SLURM_CPUS_PER_TASK=20
 cd 04_eq_gamd/

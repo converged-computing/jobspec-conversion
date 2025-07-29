@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-5344
-#FLUX: -n=20
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=gpu
+#SBATCH: --no-requeue
 
 module load nvidia/cuda/10.0
 module load anaconda/3.7

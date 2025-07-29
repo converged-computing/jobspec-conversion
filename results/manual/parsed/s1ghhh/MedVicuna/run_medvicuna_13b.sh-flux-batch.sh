@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=2
+#FLUX -c=12
+#FLUX --queue=long
+#FLUX --urgency=16
 
 export WANDB_MODE='offline'
 export LOGLEVEL='INFO'

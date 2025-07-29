@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-avocado-3889
-#FLUX: --exclusive
-#FLUX: --queue=solarlab
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --partition=solarlab
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=node[812]
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

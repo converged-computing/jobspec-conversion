@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chip-5345
-#FLUX: --queue=research
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-bicycle-5540
+#FLUX --queue=research
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load intel/compiler
 module load intel/mkl

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ec_two
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ec_two
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000M
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-7
+#SBATCH --exclude=a00610,a00621,a00636,a00637,a00701,a00818,a00861,a00862,a00863,a00885,a00886,a00756,a00757,a00860,a00701
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

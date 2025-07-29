@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pot-9804
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=12:00:00
 
 Workdir=.
 SSUsearch=ssusearch

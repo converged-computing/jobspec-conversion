@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chip-2489
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ginevracoal/adversarial-protein-sequences/exec/attack_protherm.pbs

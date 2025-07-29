@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=amd-e{}
-#FLUX: -c=4
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=amd-e{}
+#FLUX -c=4
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

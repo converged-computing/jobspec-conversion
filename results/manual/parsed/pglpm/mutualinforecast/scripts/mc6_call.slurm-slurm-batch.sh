@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=prior_mc
-#FLUX: --queue=CPUQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=prior_mc
+#SBATCH --account=mh-kin
+#SBATCH --mail-user=piero.mana@ntnu.no
+#SBATCH --mail-type=END,TIME_LIMIT,TIME_LIMIT_90,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=CPUQ
+#SBATCH --array=1-20
 
 call="source('$1')"
 WORKDIR=${SLURM_SUBMIT_DIR}

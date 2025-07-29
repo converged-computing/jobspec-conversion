@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=m3_ep2
-#FLUX: --queue=gpu-short
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=m3_ep2
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=b.a.companjen@library.leidenuniv.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=15G
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu-short
 
 export CWD='$(pwd)'
 export RUNDIR='$SCRATCH/yolov5'

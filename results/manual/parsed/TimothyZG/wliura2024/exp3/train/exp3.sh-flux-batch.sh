@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-animal-9808
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=fat-soup-7810
+#FLUX -t=18000
+#FLUX --urgency=16
 
 cp -a data/. $SLURM_TMPDIR/data
 module purge

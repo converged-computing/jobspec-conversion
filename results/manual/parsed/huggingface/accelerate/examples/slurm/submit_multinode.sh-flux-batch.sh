@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=multinode
-#FLUX: -N=4
-#FLUX: -c=160
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#FLUX --job-name=multinode
+#FLUX -N=4
+#FLUX -c=160
+#FLUX -t=7140
+#FLUX --urgency=16
 
 export GPUS_PER_NODE='4'
 export LAUNCHER='accelerate launch \'

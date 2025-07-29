@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=bam2bedpe_chunks_${CHUNK
-#FLUX: --queue=himem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=bam2bedpe_chunks_${CHUNK
+#SBATCH --output=./%j-%x.out
+#SBATCH --error=./%j-%x.err
+#SBATCH --mail-user=ming.han@uhn.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=himem
+#SBATCH --chdir=${OUT_DIR}/logs_slurm
 
 usage(){
     echo 

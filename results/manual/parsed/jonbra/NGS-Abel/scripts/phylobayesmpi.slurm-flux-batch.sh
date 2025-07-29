@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pbmpiORG1
-#FLUX: -n=61
-#FLUX: --queue=long
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#FLUX --job-name=pbmpiORG1
+#FLUX -n=61
+#FLUX --queue=long
+#FLUX -t=2160000
+#FLUX --urgency=16
 
 STR="$(ls *.phy -x1)"
 module load phylobayesmpi

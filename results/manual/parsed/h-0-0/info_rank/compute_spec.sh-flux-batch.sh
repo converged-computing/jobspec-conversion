@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mnist
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=mnist
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export EXE='/bin/hostname'
 

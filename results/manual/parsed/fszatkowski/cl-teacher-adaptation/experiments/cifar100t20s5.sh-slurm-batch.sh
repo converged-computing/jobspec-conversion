@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-6934
-#FLUX: -n=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=3-00:00:00
 
 set -e
 eval "$(conda shell.bash hook)"

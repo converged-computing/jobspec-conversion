@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-7242
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-lamp-1998
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

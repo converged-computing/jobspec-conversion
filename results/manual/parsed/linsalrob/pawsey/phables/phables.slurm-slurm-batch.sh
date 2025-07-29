@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=phables
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=phables
+#SBATCH --account=pawsey1018
+#SBATCH --output=phables-%A_%a.out
+#SBATCH --error=phables-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --time=1-00:00:00
 
 set -euo pipefail
 ACCLIST="SRR_Acc_List.txt"

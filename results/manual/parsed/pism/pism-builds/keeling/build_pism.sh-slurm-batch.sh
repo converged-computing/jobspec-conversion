@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bike-5832
-#FLUX: --queue=t1small
-#FLUX: --urgency=16
+#SBATCH --output=pism.%j
+#SBATCH --mail-user=aaschwanden@alaska.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=t1small
 
 export PATH='$PATH:.'
 

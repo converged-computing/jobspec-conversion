@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ptime_s
-#FLUX: --queue=pCluster
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=ptime_s
+#SBATCH --output=ptime_s.o%j
+#SBATCH --error=ptime_s.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=pCluster
+#SBATCH --constraint=ntasks-per-node=1
 
 module load compilers/intel/2019.4.243
 module load intelmpi/2019.4.243

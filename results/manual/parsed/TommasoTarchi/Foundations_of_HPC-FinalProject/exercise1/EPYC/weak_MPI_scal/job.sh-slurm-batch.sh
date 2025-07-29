@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=weak_MPI_scal
-#FLUX: -N=2
-#FLUX: -n=256
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=weak_MPI_scal
+#SBATCH --output=summary.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='$alloc'

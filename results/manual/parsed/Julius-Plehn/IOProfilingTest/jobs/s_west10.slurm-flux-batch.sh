@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-arm-9241
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-underoos-0292
+#FLUX -N=10
+#FLUX -n=10
+#FLUX --queue=west
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SCOREP_ENABLE_TRACING='TRUE'
 

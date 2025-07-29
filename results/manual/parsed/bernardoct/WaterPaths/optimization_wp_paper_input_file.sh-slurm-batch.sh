@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=borg_input_file
-#FLUX: -N=16
-#FLUX: -n=48
-#FLUX: --exclusive
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#SBATCH --job-name=borg_input_file
+#SBATCH --output=output/borg_input_file.out
+#SBATCH --error=error/borg_input_file.err
+#SBATCH --mail-user=bct52@cornell.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=16
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-20:00:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='5'
 

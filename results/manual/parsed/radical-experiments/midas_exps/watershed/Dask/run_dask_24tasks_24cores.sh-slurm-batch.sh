@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hobbit-9553
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

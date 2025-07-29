@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=v2_54_ws
-#FLUX: --queue=bosch_gpu-rtx2080
-#FLUX: --urgency=16
+#SBATCH --job-name=v2_54_ws
+#SBATCH --output=logs/hpo/%A-%a.%x.o
+#SBATCH --error=logs/hpo/%A-%a.%x.e
+#SBATCH --mail-user=ozturk@informatik.uni-freiburg.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=bosch_gpu-rtx2080
+#SBATCH --array=1-53%20
 
 source /home/ozturk/anaconda3/bin/activate metadl
 pwd

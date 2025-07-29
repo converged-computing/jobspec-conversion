@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=image-fit
-#FLUX: -c=4
-#FLUX: --queue=batch_default
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=image-fit
+#SBATCH --output=slurm_outputs/log-%x.%A_%a.out
+#SBATCH --mail-user=vsundar4@wisc.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx2080ti:1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch_default
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOB_ID}"

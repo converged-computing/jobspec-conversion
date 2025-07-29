@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peas-7438
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=12000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=03:20:00
+#SBATCH --partition=gpu
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0

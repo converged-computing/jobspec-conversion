@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hic2mcool
-#FLUX: -c=2
-#FLUX: --queue=all
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=hic2mcool
+#FLUX -c=2
+#FLUX --queue=all
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export LANGUAGE='en_US:en'
 export LANG='C'

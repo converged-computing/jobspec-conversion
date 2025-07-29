@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mts-arr
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mts-arr
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
+#SBATCH --array=1-12
 
 set -o pipefail -e
 source $PWD/conf/astronet.conf

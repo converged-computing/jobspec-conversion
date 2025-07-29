@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cpujob
-#FLUX: -n=12
-#FLUX: --queue=skylake
-#FLUX: -t=15720
-#FLUX: --urgency=16
+#SBATCH --job-name=cpujob
+#SBATCH --account=SKA-SDP-SL2-CPU
+#SBATCH --output=results/mpi/mpitest-peta4.%j.out
+#SBATCH --error=results/mpi/mpitest-peta4.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:22:00
+#SBATCH --partition=skylake
 
 export ARLROOT='/home/mf582/scratch/ARL/algorithm-reference-library'
 export OMP_NUM_THREADS='1'

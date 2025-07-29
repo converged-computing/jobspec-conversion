@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-taco-1751
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-parsnip-5859
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='eno1'
 export NCCL_IB_DISABLE='1 '

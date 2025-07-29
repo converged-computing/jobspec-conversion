@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-animal-8522
-#FLUX: -c=28
+#FLUX --job-name=persnickety-blackbean-7240
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX -t=43140
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

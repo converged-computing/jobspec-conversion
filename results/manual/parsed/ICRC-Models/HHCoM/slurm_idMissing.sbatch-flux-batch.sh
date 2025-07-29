@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=idMissing
-#FLUX: --queue=ckpt
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=idMissing
+#FLUX --queue=ckpt
+#FLUX -t=900
+#FLUX --urgency=16
 
 export TZ='America/Los_Angeles'
 

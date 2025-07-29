@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=colabfold
-#FLUX: -c=24
-#FLUX: -t=259080
-#FLUX: --urgency=16
+#SBATCH --job-name=colabfold
+#SBATCH --account=def-gsponer
+#SBATCH --output=outputs/%A.%a.out
+#SBATCH --mail-user=CWL@student.ubc.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=120000
+#SBATCH --time=2-23:58:00
+#SBATCH --array=0-1
 
 sbatch <<EOT
 module load gcc/9.3.0 openmpi/4.0.3 cuda/11.4 cudnn/8.2.0 kalign/2.03 hmmer/3.2.1 openmm-alphafold/7.5.1 hh-suite/3.3.0 python/3.8 mmseqs2

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_test_info_v5
-#FLUX: -c=2
-#FLUX: --queue=shared
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow_test_info_v5
+#SBATCH --account=sds196
+#SBATCH --output=nextflow_test_info_v5.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2000M
+#SBATCH --time=00:50:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load cpu/0.15.4

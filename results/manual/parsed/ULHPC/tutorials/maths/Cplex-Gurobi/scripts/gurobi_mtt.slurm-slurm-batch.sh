@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Multi-threaded_gurobi
-#FLUX: -c=28
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Multi-threaded_gurobi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-destiny-2918
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-milkshake-7731
+#FLUX -c=8
+#FLUX --queue=defq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'
 

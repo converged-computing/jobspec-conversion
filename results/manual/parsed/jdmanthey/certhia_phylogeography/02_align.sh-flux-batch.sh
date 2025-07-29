@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bam
-#FLUX: -n=12
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bam
+#FLUX -n=12
+#FLUX --queue=quanah
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel java bwa samtools
 workdir=/lustre/scratch/jmanthey/01b_certhia_genomics2

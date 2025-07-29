@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-taco-0744
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-cattywampus-6478
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-avocado-1682
-#FLUX: -n=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-malarkey-2127
+#FLUX -n=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 export UCX_TLS='sm,tcp,self'
 

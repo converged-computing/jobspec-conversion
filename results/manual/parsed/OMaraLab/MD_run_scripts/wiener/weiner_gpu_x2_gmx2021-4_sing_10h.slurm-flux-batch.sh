@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peanut-7011
-#FLUX: -c=28
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=milky-parrot-6157
+#FLUX -c=28
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='/scratch/aibn/uqadaqu1/tmp/ '
 

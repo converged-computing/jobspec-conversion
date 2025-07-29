@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leg-0655
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:10:00
 
 ml GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5
 ml TensorFlow/2.4.1 

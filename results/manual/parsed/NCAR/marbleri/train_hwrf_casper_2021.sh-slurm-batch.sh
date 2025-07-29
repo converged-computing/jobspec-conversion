@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leg-3502
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/marbleri/train_hwrf_casper_2021.sh

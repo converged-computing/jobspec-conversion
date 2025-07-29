@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NMC_LPS
-#FLUX: -c=4
-#FLUX: --queue=tier3
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=NMC_LPS
+#FLUX -c=4
+#FLUX --queue=tier3
+#FLUX -t=9000
+#FLUX --urgency=16
 
 nMdl=1        # number of models studied
 iNcm=1        # NMC size studied, iNcm=1 for 5.0um, iNcm=2 for 10um, iNcm=3 for 12um

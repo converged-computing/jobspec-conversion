@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-avocado-4907
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=joc
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_pyt:pretrain"

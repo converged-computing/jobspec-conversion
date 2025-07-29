@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-milkshake-5832
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/trinity/home/jwilbers/MedNet/output/out_%j.log
+#SBATCH --error=/trinity/home/jwilbers/MedNet/error/err_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=14G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=short
 
 module purge
 module load Python/3.7.2-GCCcore-8.2.0

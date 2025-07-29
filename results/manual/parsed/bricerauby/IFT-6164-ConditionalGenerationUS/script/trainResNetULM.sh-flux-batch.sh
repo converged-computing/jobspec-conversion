@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=trainResNetUlm
-#FLUX: -c=6
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=trainResNetUlm
+#FLUX -c=6
+#FLUX -t=86340
+#FLUX --urgency=16
 
 cd ~/IFT-6164-ConditionalGenerationUS
 module load python/3.9

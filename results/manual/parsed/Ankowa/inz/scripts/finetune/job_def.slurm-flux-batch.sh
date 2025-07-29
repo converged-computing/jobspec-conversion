@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-itch-4520
-#FLUX: -n=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-squidward-6228
+#FLUX -n=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 gpu_id=$CUDA_VISIBLE_DEVICES
 echo $gpu_id

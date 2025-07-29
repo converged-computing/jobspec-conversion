@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bwa
-#FLUX: -n=4
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bwa
+#SBATCH --output=/OutputDir/bwa.out
+#SBATCH --error=/ErrorDir/bwa.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 numThreads=4
 nonChrM=$(cat ${genomeChrFile} | awk '{print $1}' | grep -v chrM | tr '\n' ' ')

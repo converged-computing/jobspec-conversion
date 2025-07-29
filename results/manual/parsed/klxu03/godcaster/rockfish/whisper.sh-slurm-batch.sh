@@ -1,9 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=godcaster_whisper
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=godcaster_whisper
+#SBATCH --account=ia1
+#SBATCH --output=out.godcaster_whisper.log
+#SBATCH --error=err.godcaster_whisper.log
+#SBATCH --mail-user=kxu39@jhu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=48000
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=debug
+#SBATCH --qos=normal
+#SBATCH --array=0-9
 
 cd godcaster
 cd src/captions

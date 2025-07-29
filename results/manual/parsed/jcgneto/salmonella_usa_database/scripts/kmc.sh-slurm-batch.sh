@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=kmc-matrix
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=kmc-matrix
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200gb
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 module load kmc/3.1
 <<COMM

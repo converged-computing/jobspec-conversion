@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peas-2151
-#FLUX: -c=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=tart-malarkey-8917
+#FLUX -c=10
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export TORCH_HOME='$project'
 

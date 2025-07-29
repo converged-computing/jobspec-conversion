@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pico
-#FLUX: -N=32
-#FLUX: --queue=regular
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=pico
+#SBATCH --account=mp107
+#SBATCH --output=out_pico_%j.log
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --partition=regular
 
 export OMP_NUM_THREADS='${node_thread}'
 export OMP_PLACES='threads'

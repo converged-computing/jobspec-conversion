@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NPT_Equilibration
-#FLUX: -n=64
-#FLUX: -c=2
-#FLUX: --queue=cops
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=NPT_Equilibration
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=cops
 
 export OMP_NUM_THREADS='$ntomp'
 

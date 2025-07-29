@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-muffin-9446
-#FLUX: -N=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=<account_id>
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3GB
+#SBATCH --time=00:20:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module purge
 module load gcc/8.3.0

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=LeNet.Hybrid
-#FLUX: --urgency=16
+#SBATCH --job-name=LeNet.Hybrid
+#SBATCH --output=LeNet.Hybrid.out.%j
+#SBATCH --error=LeNet.Hybrid.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 train_batch=64
 nodes=1

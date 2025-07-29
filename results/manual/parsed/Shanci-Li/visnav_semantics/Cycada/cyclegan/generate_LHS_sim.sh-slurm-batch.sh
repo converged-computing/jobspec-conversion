@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-gato-9079
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=21599
-#FLUX: --urgency=16
+#SBATCH --account=topo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=05:59:59
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --chdir=/home/shanli/visnav_semantics/cycada/cyclegan
 
 export PYTHONPATH='/home/shanli/visnav_semantics:$PYTHONPATH'
 

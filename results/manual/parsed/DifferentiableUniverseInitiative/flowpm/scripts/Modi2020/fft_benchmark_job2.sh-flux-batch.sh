@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leopard-4171
-#FLUX: -N=2
+#FLUX --job-name=carnivorous-leader-6605
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 for nc in 128; do 

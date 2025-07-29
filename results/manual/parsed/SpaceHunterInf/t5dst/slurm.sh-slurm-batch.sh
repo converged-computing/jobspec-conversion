@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=557flant5dst
-#FLUX: -c=2
-#FLUX: -t=3596400
-#FLUX: --urgency=16
+#SBATCH --job-name=557flant5dst
+#SBATCH --output=./log/slurm-out-%j.txt
+#SBATCH --error=./log/slurm-err-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:rtx_6000_ada:2
+#SBATCH --time=41-15:00:00
+#SBATCH --array=0-2
 
 eval "$(conda shell.bash hook)"
 N="$SLURM_ARRAY_TASK_ID"

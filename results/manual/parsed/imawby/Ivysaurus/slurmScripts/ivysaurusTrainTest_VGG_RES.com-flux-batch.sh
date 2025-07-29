@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-diablo-2154
-#FLUX: -c=5
-#FLUX: --queue=astro
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-muffin-6828
+#FLUX -c=5
+#FLUX --queue=astro
+#FLUX -t=28800
+#FLUX --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

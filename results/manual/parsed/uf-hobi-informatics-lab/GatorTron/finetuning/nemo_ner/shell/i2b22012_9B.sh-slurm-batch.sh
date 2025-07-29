@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ner_training
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ner_training
+#SBATCH --output=./2021gatortron/nemo_downstream/nemo_ner/log/9b_i2b22012_%j.out
+#SBATCH --mail-user=alexgre@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=2000gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 pwd; hostname; date
 echo "ner training..."

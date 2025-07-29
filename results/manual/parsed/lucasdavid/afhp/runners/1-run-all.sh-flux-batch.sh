@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pbn-supcon
-#FLUX: --queue=nvidia_long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pbn-supcon
+#FLUX --queue=nvidia_long
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 if [[ "`hostname`" == "sdumont"* ]]; then

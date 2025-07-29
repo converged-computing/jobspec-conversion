@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=diabla
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=diabla
+#FLUX -c=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

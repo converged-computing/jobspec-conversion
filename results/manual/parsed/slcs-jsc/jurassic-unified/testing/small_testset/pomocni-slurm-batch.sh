@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=milky-hope-6965
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --queue=gpus
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=slen
+#SBATCH --output=out
+#SBATCH --error=err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpus
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='24'
 

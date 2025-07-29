@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quokka_benchmark
-#FLUX: -N=64
+#FLUX --job-name=quokka_benchmark
+#FLUX -N=64
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

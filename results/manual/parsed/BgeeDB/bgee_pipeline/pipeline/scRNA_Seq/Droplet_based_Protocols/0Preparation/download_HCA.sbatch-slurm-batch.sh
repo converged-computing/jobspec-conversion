@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=HCA
-#FLUX: -c=4
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=HCA
+#SBATCH --account=mrobinso_bgee
+#SBATCH --output=/users/smoretti/bgee_pipeline.git/pipeline/scRNA_Seq/Droplet_based_Protocols/download_HCA.out
+#SBATCH --error=/users/smoretti/bgee_pipeline.git/pipeline/scRNA_Seq/Droplet_based_Protocols/download_HCA.err
+#SBATCH --mail-user=sara.fonsecacosta@unil.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
 
 export manifest_file='../../../source_files/scRNA_Seq/Manifest_file.tsv'
 export tmp_folder_Download_data='/tmp/DOWNLOAD_HCA_DATA.$RANDOM'

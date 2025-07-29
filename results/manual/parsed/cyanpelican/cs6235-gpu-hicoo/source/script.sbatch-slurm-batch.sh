@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-hicoo
-#FLUX: --queue=soc-gpu-kp
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-hicoo
+#SBATCH --account=soc-gpu-kp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=60G
+#SBATCH --time=00:30:00
+#SBATCH --partition=soc-gpu-kp
+#SBATCH --qos=soc-gpu-kp
+#SBATCH --constraint=ntasks-per-node=1
 
 ulimit -c unlimited -s
 nvidia-smi

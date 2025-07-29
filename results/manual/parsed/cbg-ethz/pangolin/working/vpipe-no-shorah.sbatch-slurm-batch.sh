@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=COVID-vpipe-cons
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=COVID-vpipe-cons
+#SBATCH --mail-user=ivan.topolsky@bsse.ethz.ch carrara@nexus.ethz.ch shuqing.yu@nexus.ethz.ch schmittu@ethz.ch
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16384
+#SBATCH --time=23:00:00
 
 export SNAKEMAKE_PROFILE='$(realpath ../profiles/smk-simple-slurm/ )'
 

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=exp_run_imagenet_hparam_sweep
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=exp_run_imagenet_hparam_sweep
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --output=output/exp_run_imagenet_hparam_sweep.%A.%a.out
+#SBATCH --error=sbatch_err/exp_run_imagenet_hparam_sweep.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32GB
+#SBATCH --time=04:00:00
+#SBATCH --array=0-1
 
 cluster_name=beluga
 compute_node_data_dir=$SLURM_TMPDIR/ImageNet

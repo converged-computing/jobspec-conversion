@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-cattywampus-3129
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=1
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export nnUNet_raw='/home/ljulius/algorithm/nnunet/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

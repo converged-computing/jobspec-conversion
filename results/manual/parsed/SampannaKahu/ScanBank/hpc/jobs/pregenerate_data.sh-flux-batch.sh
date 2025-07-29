@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pancake-3692
+#FLUX --job-name=fat-fork-8867
 #FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --queue=normal_q
+#FLUX -t=288000
+#FLUX --urgency=16
 
 module purge
 current_timestamp() {

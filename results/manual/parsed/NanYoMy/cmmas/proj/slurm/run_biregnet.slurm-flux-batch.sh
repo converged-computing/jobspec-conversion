@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=biregnet
-#FLUX: --queue=gpu2
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=biregnet
+#FLUX --queue=gpu2
+#FLUX -t=864000
+#FLUX --urgency=16
 
 nvidia-smi -L
 echo $CUDA_VISIBLE_DEVICES

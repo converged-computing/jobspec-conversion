@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ExaCLAMR
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ExaCLAMR
+#SBATCH --output=multiprocess_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --time=01:00:00
 
 module purge
 module load gcc/8.3.0-wbma

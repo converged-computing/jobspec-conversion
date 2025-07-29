@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TwImgCfM
-#FLUX: -n=4
-#FLUX: --queue=gpu05,gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=TwImgCfM
+#SBATCH --output=%j.%N.%a.cfmatrix-image.out.log
+#SBATCH --error=%j.%N.%a.cfmatrix-image.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=25600
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu05,gpu
 
 export PATH='$HOME/software/bin:$PATH;'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BDD100K_preprocessing
-#FLUX: --queue=compute-od-gpu
-#FLUX: -t=356982
-#FLUX: --urgency=16
+#FLUX --job-name=BDD100K_preprocessing
+#FLUX --queue=compute-od-gpu
+#FLUX -t=356982
+#FLUX --urgency=16
 
 export RAY_OBJECT_STORE_ALLOW_SLOW_STORAGE='0'
 export JOBLIB_TEMP_FOLDER='/tmp'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bm-2080Ti
-#FLUX: --queue=CLUSTER
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=bm-2080Ti
+#FLUX --queue=CLUSTER
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source activate device_benchmarking;
 PLATFORM="rtx8000"

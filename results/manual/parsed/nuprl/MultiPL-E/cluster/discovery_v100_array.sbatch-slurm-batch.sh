@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=v100-arrayjob
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=v100-arrayjob
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100-sxm2:1
+#SBATCH --mem=40G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 JOB_FILE=$1
 EXTRA_ARGS=${@:2}

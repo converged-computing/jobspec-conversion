@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-dog-3060
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/informs11_10ADP10GW.sh

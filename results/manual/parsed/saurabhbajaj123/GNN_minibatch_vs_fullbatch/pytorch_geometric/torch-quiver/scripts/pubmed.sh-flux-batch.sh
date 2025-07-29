@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quiv-pub
-#FLUX: -c=12
+#FLUX --job-name=quiv-pub
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=gypsum-m40
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=gypsum-m40
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd /work/sbajaj_umass_edu/GNN_minibatch_vs_fullbatch/pytorch_geometric/torch-quiver
 source /work/sbajaj_umass_edu/pygenv1/bin/activate

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lettuce-0062
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lamp-4941
+#FLUX -c=2
+#FLUX --queue=priority
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.3

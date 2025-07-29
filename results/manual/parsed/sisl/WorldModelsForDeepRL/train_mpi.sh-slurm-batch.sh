@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cinnamonbun-1820
-#FLUX: -n=17
-#FLUX: --queue=gpu
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --output=mpi/mpi_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=17
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=gpu
 
 export DISPLAY=':99.0'
 

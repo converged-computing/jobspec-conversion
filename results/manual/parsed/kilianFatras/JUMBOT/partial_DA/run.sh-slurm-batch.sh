@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PDA_OH_UOT_all
-#FLUX: --urgency=16
+#SBATCH --job-name=PDA_OH_UOT_all
+#SBATCH --output=results/OH_PDA_UOT_reproduced.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 conda activate python37
 setcuda 10.2

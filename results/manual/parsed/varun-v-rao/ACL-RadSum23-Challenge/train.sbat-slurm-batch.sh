@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bert2bert
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bert2bert
+#SBATCH --account=bioinf585w23_class
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 my_job_header
 /bin/hostname

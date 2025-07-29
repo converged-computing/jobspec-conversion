@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SCMcG_Assignment_1
-#FLUX: -n=80
-#FLUX: --queue=teaching
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=SCMcG_Assignment_1
+#SBATCH --account=teaching
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=teaching
 
   module purge
   module load nvidia/sdk/21.3

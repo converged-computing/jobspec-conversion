@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50_vicreg_lambda_pdim
-#FLUX: --queue=long
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50_vicreg_lambda_pdim
+#SBATCH --output=sbatch_out/resnet50_vicreg_lambda_pdim.%A.%a.out
+#SBATCH --error=sbatch_err/resnet50_vicreg_lambda_pdim.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16GB
+#SBATCH --time=02:30:00
+#SBATCH --partition=long
+#SBATCH --array=0-23%25
 
 . /etc/profile
 module load anaconda/3

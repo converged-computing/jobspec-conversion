@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bench_insitu
-#FLUX: -N=4
+#FLUX --job-name=bench_insitu
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export OMP_PLACES='cores'

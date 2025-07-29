@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-dog-2381
-#FLUX: -c=12
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=g34
+#SBATCH --output=dnn_single_node_1.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 module load PyTorch

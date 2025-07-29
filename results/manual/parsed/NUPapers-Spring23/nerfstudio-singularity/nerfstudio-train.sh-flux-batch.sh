@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leg-0234
-#FLUX: -c=12
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#FLUX --job-name=phat-leopard-3451
+#FLUX -c=12
+#FLUX -t=10740
+#FLUX --urgency=16
 
 programname=$0
 function usage {

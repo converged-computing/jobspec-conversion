@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=khalil-chipseq
-#FLUX: -c=8
-#FLUX: --queue=priority
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=khalil-chipseq
+#FLUX -c=8
+#FLUX --queue=priority
+#FLUX -t=28800
+#FLUX --urgency=16
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=MVVGE-svd
-#FLUX: -n=2
-#FLUX: -c=2
-#FLUX: --queue=gpu_p100
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=MVVGE-svd
+#SBATCH --output=logs/stdout-%x_%j.log
+#SBATCH --error=logs/stderr-%x_%j.log
+#SBATCH --mail-user=mmalekis@uwaterloo.ca
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu_p100
 
 echo "Cuda device: $CUDA_VISIBLE_DEVICES"
 echo "======= Start memory test ======="

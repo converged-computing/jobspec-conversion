@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-soup-9249
-#FLUX: -n=2
-#FLUX: --queue=quick,norm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=02:00:00
+#SBATCH --partition=quick,norm
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 PWIZ='src/pwiz_sandbox'

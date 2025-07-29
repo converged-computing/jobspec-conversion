@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=REAL
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=REAL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 export KMP_STACKSIZE='64000000'
 export OMP_NUM_THREADS='1'

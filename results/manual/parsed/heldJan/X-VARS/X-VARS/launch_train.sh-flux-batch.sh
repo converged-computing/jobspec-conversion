@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-kitty-3798
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14700
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-bits-2478
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=14700
+#FLUX --urgency=16
 
 source /gpfs/home/acad/ulg-intelsig/jheld/anaconda3/etc/profile.d/conda.sh
 conda activate vars-ex

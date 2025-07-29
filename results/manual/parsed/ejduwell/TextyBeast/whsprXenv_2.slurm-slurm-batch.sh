@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=dtaScrape
-#FLUX: --queue=gpu
-#FLUX: -t=10200
-#FLUX: --urgency=16
+#SBATCH --job-name=dtaScrape
+#SBATCH --account=tark
+#SBATCH --output=/scratch/g/tark/installTesting/dataScraping/output/%x-%j.out
+#SBATCH --mail-user=eduwell@mcw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10gb
+#SBATCH --time=02:50:00
+#SBATCH --partition=gpu
 
 module load python/3.9.1
 module load ffmpeg

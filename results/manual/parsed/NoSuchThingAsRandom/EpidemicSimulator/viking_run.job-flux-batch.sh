@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=EpidemicSimulatorTesting
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=EpidemicSimulatorTesting
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export RUST_LOG='warn,visualisation,osm_data=trace,sim=trace,run=debug,load_census_data=trace,voronoice=off'
 export RUST_BACKTRACE='1'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-8755
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --output=/dev/null
+#SBATCH --error=/work/thoma525/slurm_errors-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-100
+#SBATCH --exclude=/work/public/exclude_defq
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

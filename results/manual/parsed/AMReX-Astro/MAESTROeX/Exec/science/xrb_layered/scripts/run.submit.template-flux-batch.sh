@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-carrot-0887
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-buttface-4363
+#FLUX -t=36000
+#FLUX --urgency=16
 
 XRB=$MAESTROEX_HOME/Exec/science/xrb_layered
 MAESTRO_EXEC=$XRB/Maestro2d.gnu.x86-milan.MPI.ex

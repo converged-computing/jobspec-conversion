@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=joint_6
-#FLUX: --queue=gpu-shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=joint_6
+#SBATCH --account=cla173
+#SBATCH --output=exp_texture_joint_6.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=6
 
 module load matlab
 matlab -nodisplay -nosplash -nojvm -r "exp_texture_joint_6()"

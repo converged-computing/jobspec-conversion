@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-caramel-1490
-#FLUX: -c=64
+#FLUX --job-name=rainbow-car-3364
+#FLUX -c=64
 #FLUX: --exclusive
-#FLUX: --queue=tcm
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=tcm
+#FLUX -t=259200
+#FLUX --urgency=16
 
 . /vol/tcm01/westerhout_tom/conda/etc/profile.d/conda.sh
 conda activate tcm-test

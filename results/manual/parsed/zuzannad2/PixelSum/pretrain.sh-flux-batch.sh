@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain-pixel
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=270000
-#FLUX: --urgency=16
+#FLUX --job-name=pretrain-pixel
+#FLUX -c=48
+#FLUX --queue=gpu
+#FLUX -t=270000
+#FLUX --urgency=16
 
 export ENCODER='Team-PIXEL/pixel-base'
 export DECODER='gpt2-large'

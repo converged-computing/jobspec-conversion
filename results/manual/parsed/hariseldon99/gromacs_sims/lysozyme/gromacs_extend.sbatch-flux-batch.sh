@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lysozyme-extend
-#FLUX: -n=24
-#FLUX: --queue=GPU
-#FLUX: -t=655200
-#FLUX: --urgency=16
+#FLUX --job-name=lysozyme-extend
+#FLUX -n=24
+#FLUX --queue=GPU
+#FLUX -t=655200
+#FLUX --urgency=16
 
 export SIFPATH='$SIFDIR/gromacs'
 export SIFIMG='gromacs-2022.3_20230206.sif'

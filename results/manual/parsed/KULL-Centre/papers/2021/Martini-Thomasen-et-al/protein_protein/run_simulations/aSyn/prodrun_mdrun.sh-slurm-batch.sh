@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lizard-3190
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/protein_protein/run_simulations/aSyn/prodrun_mdrun.sh

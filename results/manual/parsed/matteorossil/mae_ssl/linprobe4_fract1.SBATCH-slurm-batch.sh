@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lp_200K_deblur_new
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=lp_200K_deblur_new
+#SBATCH --output=/scratch/mr6744/pytorch/outputs_slurm/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

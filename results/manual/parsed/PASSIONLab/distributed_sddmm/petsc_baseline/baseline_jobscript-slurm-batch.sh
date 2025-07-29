@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=petsc_baseline
-#FLUX: -N=256
-#FLUX: --queue=regular
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=petsc_baseline
+#SBATCH --mail-user=vivek_bharadwaj@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=256
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:30:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

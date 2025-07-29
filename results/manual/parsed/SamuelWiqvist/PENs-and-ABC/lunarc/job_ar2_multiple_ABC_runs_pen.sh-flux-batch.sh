@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ar2_multi_ABC_pen
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=ar2_multi_ABC_pen
+#FLUX --queue=gpu
+#FLUX -t=360000
+#FLUX --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

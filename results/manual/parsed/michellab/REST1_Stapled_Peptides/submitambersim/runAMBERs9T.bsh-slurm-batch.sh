@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=checksoluteT
-#FLUX: --queue=GTX
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=checksoluteT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GTX
 
 export LD_LIBRARY_PATH='/users/common/miniconda2/lib/:$LD_LIBRARY_PATH'
 

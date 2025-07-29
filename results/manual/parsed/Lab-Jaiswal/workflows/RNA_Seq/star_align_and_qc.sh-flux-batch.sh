@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STAR_align_and_QC
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=STAR_align_and_QC
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load star #Load STAR into path
 module load picard #Load Picard into path

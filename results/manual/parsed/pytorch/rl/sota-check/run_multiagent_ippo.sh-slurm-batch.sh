@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=marl_ippo
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=marl_ippo
+#SBATCH --output=slurm_logs/marl_ippo_%j.txt
+#SBATCH --error=slurm_errors/marl_ippo_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=weak-scalability
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=weak-scalability
+#FLUX -t=3600
+#FLUX --urgency=16
 
 HOME_MURPHY=/home/ucl/tfl/tgillis/murphy
 SCRATCH=$GLOBALSCRATCH

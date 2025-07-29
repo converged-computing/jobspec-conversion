@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nwm-conus-assim
-#FLUX: -N=32
-#FLUX: --queue=debug
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=nwm-conus-assim
+#FLUX -N=32
+#FLUX --queue=debug
+#FLUX -t=25200
+#FLUX --urgency=16
 
                               # this deadline (start > (deadline - time[-min]))
                               # descriptor to export

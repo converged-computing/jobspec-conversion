@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-download
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tgi-download
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$(realpath $RELEASE_DIR/bin/)":$PATH'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

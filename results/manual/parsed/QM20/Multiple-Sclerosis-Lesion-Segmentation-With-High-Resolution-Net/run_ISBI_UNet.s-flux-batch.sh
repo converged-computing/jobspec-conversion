@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ISBI_UNet
-#FLUX: -c=12
-#FLUX: --queue=nvidia
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=ISBI_UNet
+#FLUX -c=12
+#FLUX --queue=nvidia
+#FLUX -t=144000
+#FLUX --urgency=16
 
 module purge
 module load all

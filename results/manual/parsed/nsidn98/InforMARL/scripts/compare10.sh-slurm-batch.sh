@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=marl_10_compare
-#FLUX: -c=40
-#FLUX: --urgency=16
+#SBATCH --job-name=marl_10_compare
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:volta:1
+#SBATCH --array=0-2
 
 source /etc/profile
 module load anaconda/2020b

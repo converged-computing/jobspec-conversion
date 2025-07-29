@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=COMP_Dune_3_5_10
-#FLUX: --queue=thsu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=COMP_Dune_3_5_10
+#FLUX --queue=thsu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=10_1_-1_0.2_0.2_0.1_-0.01
-#FLUX: -N=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=10_1_-1_0.2_0.2_0.1_-0.01
+#SBATCH --account=r00458
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --mail-user=fanbsun@iu.edu
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=24
 
 export OMP_NUM_THREADS='1'
 

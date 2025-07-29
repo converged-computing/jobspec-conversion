@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=correlators_cA211a.30.32_cov_displ__NSTORE_
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=kepler
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=correlators_cA211a.30.32_cov_displ__NSTORE_
+#SBATCH --mail-user=bartosz_kostrzewa@fastmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:kepler:4
+#SBATCH --mem=62G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=kepler
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/qbigwork2/bartek/libs/bleeding_edge/kepler/quda_develop-dynamic_clover/lib'
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/kepler_9c0e0dc8e96d9beb8de56a0e58a406cb486ce300_gdr${gdr}_p2p${p2p}'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=soma-symbiomon
-#FLUX: --queue=medium
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=soma-symbiomon
+#SBATCH --account=project_2006549
+#SBATCH --output=slurm-lulesh-%j.out
+#SBATCH --error=slurm-lulesh-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=medium
 
 export SOMA_SERVER_ADDR_FILE='`pwd`/server.add'
 export SOMA_NODE_ADDR_FILE='`pwd`/node.add'

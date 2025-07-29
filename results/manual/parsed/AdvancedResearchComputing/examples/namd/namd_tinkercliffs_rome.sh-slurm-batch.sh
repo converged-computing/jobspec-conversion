@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-7337
-#FLUX: --queue=dev_q
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=dev_q
+#SBATCH --constraint=ntasks-per-node=32
 
 module reset
 module load NAMD

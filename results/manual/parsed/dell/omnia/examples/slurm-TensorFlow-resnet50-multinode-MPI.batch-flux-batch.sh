@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TF-resnet50
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=TF-resnet50
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 mpirun  \ 
       --map-by numa  \

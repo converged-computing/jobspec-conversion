@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sl_eval_ret_mc
-#FLUX: -c=12
-#FLUX: --queue=XXX
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sl_eval_ret_mc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300G
+#SBATCH --time=12:00:00
+#SBATCH --partition=XXX
+#SBATCH --constraint=ntasks-per-node=1
 
 dataset=$1  # coco, flickr, msrvtt, ..., see complete list below
 pretrained_path=$2  # path to pth file

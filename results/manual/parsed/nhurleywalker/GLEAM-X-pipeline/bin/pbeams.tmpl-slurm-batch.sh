@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-itch-7796
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=STANDARDQ
+#SBATCH --array=1-NUMBEAMS
 
 base=BASEDIR
 absmem=ABSMEM

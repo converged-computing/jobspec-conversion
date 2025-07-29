@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=32
-#FLUX: --queue=DGX
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -c=32
+#FLUX --queue=DGX
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'

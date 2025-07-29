@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Unet_TD
-#FLUX: -c=4
-#FLUX: --queue=GPUQ
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=Unet_TD
+#FLUX -c=4
+#FLUX --queue=GPUQ
+#FLUX -t=180000
+#FLUX --urgency=16
 
 nvidia-smi
 nvidia-smi nvlink -s

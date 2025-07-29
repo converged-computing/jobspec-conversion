@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_IASI_PULL_STATS_CLR
-#FLUX: --queue=high_mem
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN_IASI_PULL_STATS_CLR
+#SBATCH --account=pi_strow
+#SBATCH --output=/home/sbuczko1/LOGS/sbatch/pull_stats_iasi_clr-%A_%a.out
+#SBATCH --error=/home/sbuczko1/LOGS/sbatch/pull_stats_iasi_clr-%A_%a.err
+#SBATCH --mail-user=sbuczko1@umbc.edu
+#SBATCH --mail-type=TIME_LIMIT_50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28000
+#SBATCH --time=08:00:00
+#SBATCH --partition=high_mem
+#SBATCH --qos=medium+
+#SBATCH --array=0-12
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

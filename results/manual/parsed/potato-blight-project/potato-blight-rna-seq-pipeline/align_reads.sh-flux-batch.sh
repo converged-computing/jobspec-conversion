@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=align_reads
-#FLUX: -n=20
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=align_reads
+#FLUX -n=20
+#FLUX -t=864000
+#FLUX --urgency=16
 
 set -e
 module purge; module load bluebear

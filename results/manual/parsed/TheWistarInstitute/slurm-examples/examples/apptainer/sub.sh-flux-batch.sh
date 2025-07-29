@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sample
-#FLUX: -n=2
-#FLUX: --queue=defq
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=sample
+#FLUX -n=2
+#FLUX --queue=defq
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load apptainer
 apptainer pull docker://<image>

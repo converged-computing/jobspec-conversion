@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=exp
-#FLUX: -N=2
+#FLUX --job-name=exp
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=benchmark
-#FLUX: --urgency=16
+#FLUX --queue=benchmark
+#FLUX --urgency=16
 
 mpirun \
     --map-by ppr:8:node \

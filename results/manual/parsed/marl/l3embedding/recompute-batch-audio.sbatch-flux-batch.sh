@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=recompute-batch-audio
-#FLUX: -c=20
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=recompute-batch-audio
+#FLUX -c=20
+#FLUX -t=604800
+#FLUX --urgency=16
 
 source ~/.bashrc
 cd /home/$USER/dev

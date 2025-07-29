@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=firre_bidir
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=firre_bidir
+#SBATCH --output=nextflow.%j.out
+#SBATCH --error=nextflow.%j.err
+#SBATCH --mail-user=mism6893@colorado.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 module load samtools/1.8
 module load bedtools/2.28.0

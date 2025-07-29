@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lamp-7641
-#FLUX: --queue=longq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --mail-user=darcy.a.jones@postgrad.curtin.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=longq
 
 module load nextflow/19.01.0.5050-bin
 module load singularity/3.3.0

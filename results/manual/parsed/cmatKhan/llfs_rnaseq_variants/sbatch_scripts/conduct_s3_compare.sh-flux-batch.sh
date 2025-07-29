@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rna_dna_comp.out
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=rna_dna_comp.out
+#FLUX -t=1200
+#FLUX --urgency=16
 
 set -e
 eval $(spack load --sh singularityce@3.11.4)

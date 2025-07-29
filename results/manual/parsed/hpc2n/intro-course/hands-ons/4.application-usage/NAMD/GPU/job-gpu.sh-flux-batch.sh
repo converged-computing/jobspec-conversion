@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -n=28
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=namd
+#FLUX -n=28
+#FLUX -t=480
+#FLUX --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 ml purge  > /dev/null 2>&1 

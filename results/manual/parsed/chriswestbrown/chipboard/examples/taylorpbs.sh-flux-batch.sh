@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-5575
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-squidward-2522
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chriswestbrown/chipboard/examples/taylorpbs.sh

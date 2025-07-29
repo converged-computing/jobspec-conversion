@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cherry-4711
-#FLUX: -c=20
-#FLUX: --queue=bio
-#FLUX: -t=1731600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=7500
+#SBATCH --time=20-01:00:00
+#SBATCH --partition=bio
 
 export OMP_NUM_THREADS='20'
 export MKL_NUM_THREADS='20'

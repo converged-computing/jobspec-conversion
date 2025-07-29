@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=angry-hope-9733
-#FLUX: -n=3
-#FLUX: --queue=gpu
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --account=carney-tserre-condo
+#SBATCH --output=../../slurm/OVR/%j.out
+#SBATCH --error=../../slurm/OVR/%j.err
+#SBATCH --mail-user=mohit_vaishnav@brown.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=quadrortx
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

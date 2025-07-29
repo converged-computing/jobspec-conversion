@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-soup-1861
-#FLUX: -n=8
-#FLUX: --queue=rome16q
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lentil-3918
+#FLUX -n=8
+#FLUX --queue=rome16q
+#FLUX -t=240
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

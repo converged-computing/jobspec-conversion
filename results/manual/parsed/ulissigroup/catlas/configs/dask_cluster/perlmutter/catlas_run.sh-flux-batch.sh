@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peas-8484
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-lentil-0713
+#FLUX --queue=debug
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SHIFTER_IMAGETYPE='docker'
 export SHIFTER_IMAGE='ulissigroup/catlas:latest'

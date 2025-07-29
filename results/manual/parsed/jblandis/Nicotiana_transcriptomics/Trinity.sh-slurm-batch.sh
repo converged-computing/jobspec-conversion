@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Trinity
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Trinity
+#SBATCH --output=trin_%j.out
+#SBATCH --error=trin_%j.err
+#SBATCH --mail-user=email@school.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=intel
 
 date
 module unload perl/5.20.2

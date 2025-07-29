@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hogan
-#FLUX: --queue=gpuq
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=hogan
+#SBATCH --output=./output/mandelbrot_cuda.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpuq
 
 module load gcc/9.2.0
 module load cmake/gcc/3.18.0

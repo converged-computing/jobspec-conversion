@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca
-#FLUX: -n=10
-#FLUX: -c=3
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#FLUX --job-name=alpaca
+#FLUX -n=10
+#FLUX -c=3
+#FLUX --queue=a800
+#FLUX --urgency=16
 
 module load anaconda/3-2023.03
 source activate

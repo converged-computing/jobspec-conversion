@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=associator
-#FLUX: --queue=preempt
-#FLUX: --urgency=16
+#FLUX --job-name=associator
+#FLUX --queue=preempt
+#FLUX --urgency=16
 
 module purge
 module load tensorflow2

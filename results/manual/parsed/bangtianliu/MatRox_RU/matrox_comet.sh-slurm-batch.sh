@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PPoPP_artifact
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=PPoPP_artifact
+#SBATCH --account=mit162
+#SBATCH --output=ppopp.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=12:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=24
 
 export MODULEPATH='/share/apps/compute/modulefiles:$MODULEPATH'
 export MKLROOT='/share/apps/compute/intel/intelmpi2018/compilers_and_libraries/linux/mkl/'

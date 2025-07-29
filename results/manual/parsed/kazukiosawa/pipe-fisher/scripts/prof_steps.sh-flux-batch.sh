@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fat-blackbean-6526
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=purple-latke-7387
+#FLUX -N=8
+#FLUX -n=8
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 export NSYS_NODE_INTERVAL='$((ngpus/stages))'

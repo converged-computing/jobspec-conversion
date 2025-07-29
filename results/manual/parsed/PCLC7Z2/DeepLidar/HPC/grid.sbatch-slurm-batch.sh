@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Grid
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Grid
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/Grid.out
+#SBATCH --error=/home/b.weinstein/logs/Grid.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=20GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepLidar/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepLidar/lib/python3.6/site-packages/'

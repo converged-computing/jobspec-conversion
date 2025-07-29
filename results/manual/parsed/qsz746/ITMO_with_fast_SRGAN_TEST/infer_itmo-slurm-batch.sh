@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cherry-5006
-#FLUX: -c=2
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --account=def-panos
+#SBATCH --mail-user=$USER@ece.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=00:50:00
 
 export LD_LIBRARY_PATH='{$LD_LIBRARY_PATH}:$CUDA_HOME/lib64:/cvmfs/soft.computecanada.ca/easybuild/software/2017/CUDA/cuda10.1/cudnn/7.6.5/lib64/'
 

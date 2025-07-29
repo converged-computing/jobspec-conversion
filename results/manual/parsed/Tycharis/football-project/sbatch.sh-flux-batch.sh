@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hope-8825
-#FLUX: --urgency=16
+#FLUX --job-name=placid-muffin-2122
+#FLUX --urgency=16
 
 module load icc
 ${PROTEIN_PROJECT_DIR}/program.o --bondEn ${1} --iterations ${2} --split ${3} --blocks ${4} --length ${5} --runId ${SLURM_ARRAY_TASK_ID:-0} \

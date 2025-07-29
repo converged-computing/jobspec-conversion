@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hpgmg-faults-quant
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpgmg-faults-quant
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
+#SBATCH --nodelist=voltron
 
 export IGNORE_CC_MISMATCH='1'
 export OMP_NUM_THREADS='64'

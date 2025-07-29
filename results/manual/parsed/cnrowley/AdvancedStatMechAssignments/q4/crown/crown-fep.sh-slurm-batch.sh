@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fep
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=fep
+#SBATCH --account=rrg-crowley-ac
+#SBATCH --output=std.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024M
+#SBATCH --time=12:00:00
 
 module purge
 module load   StdEnv/2020  intel/2020.1.217 namd-multicore/2.14

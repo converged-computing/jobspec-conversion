@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-leg-9149
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/DrJupiter/diffusers-joint-optimization/expansion/gbara100.sh

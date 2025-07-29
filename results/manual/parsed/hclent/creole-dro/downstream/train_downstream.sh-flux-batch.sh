@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-kerfuffle-6643
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-train-3512
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 conda activate machamp
 module load gcc/9.1.0

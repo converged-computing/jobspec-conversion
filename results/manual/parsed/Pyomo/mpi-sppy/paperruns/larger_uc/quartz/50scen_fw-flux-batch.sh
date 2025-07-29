@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=50scen_fw
-#FLUX: -N=12
-#FLUX: --queue=pbatch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=50scen_fw
+#FLUX -N=12
+#FLUX --queue=pbatch
+#FLUX -t=300
+#FLUX --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mri_align
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=mri_align
+#FLUX --queue=normal
+#FLUX -t=18000
+#FLUX --urgency=16
 
 source $HOME/.bashrc
 source $HOME/miniconda3/etc/profile.d/conda.sh

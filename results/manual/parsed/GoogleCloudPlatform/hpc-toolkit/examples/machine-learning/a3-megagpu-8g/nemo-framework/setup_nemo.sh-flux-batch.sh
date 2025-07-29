@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-sundae-4475
+#FLUX --job-name=anxious-peanut-0916
 #FLUX: --exclusive
-#FLUX: --queue=a3mega
-#FLUX: --urgency=16
+#FLUX --queue=a3mega
+#FLUX --urgency=16
 
 : "${NEMOFW_VERSION:=23.11}"
 srun docker build --build-arg="NEMOFW_VERSION=${NEMOFW_VERSION}" -t nemofw:tcpxo-"${NEMOFW_VERSION}" .

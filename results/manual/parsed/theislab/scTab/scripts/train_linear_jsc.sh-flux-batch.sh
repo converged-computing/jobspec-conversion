@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-4576
-#FLUX: --queue=booster
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-nunchucks-0299
+#FLUX --queue=booster
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ~/"$USER" || exit
 ml purge

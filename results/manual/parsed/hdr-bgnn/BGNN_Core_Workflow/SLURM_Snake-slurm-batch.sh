@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Download_2_Morph
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=Download_2_Morph
+#SBATCH --account=PAS2136
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
 
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'
 

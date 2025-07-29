@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-parrot-3503
-#FLUX: --queue=GPU-small
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-parsnip-9447
+#FLUX --queue=GPU-small
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PYTHONPATH='/pylon5/pscstaff/welling/git/tensorflow_apps/src:$PYTHONPATH'
 export LD_PRELOAD='/usr/lib64/libtcmalloc_minimal.so.4'

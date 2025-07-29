@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chieh
-#FLUX: --exclusive
-#FLUX: --queue=ser-par-10g-2
-#FLUX: --urgency=16
+#SBATCH --job-name=chieh
+#SBATCH --output=./sbrunex.out
+#SBATCH --error=./sbrunex.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=ser-par-10g-2
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='/home/wu.chie/App/miniconda/bin:$PATH'
 

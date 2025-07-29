@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sample_job
-#FLUX: --exclusive
-#FLUX: --queue=b1164
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=sample_job
+#SBATCH --account=b1164
+#SBATCH --output=spack-dev-build.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a30:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=b1164
+#SBATCH: --exclusive
 
 module purge
 module load python-anaconda3

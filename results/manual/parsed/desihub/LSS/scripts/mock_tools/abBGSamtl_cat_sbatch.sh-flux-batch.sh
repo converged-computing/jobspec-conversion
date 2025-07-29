@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bits-6976
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-chair-5562
+#FLUX -t=10800
+#FLUX --urgency=16
 
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
 PYTHONPATH=$PYTHONPATH:$HOME/LSS/py

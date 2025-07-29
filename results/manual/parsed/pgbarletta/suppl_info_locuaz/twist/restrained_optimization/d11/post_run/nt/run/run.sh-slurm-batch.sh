@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=nt_npt
-#FLUX: -c=8
-#FLUX: --queue=m100_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=nt_npt
+#SBATCH --account=IscrC_BARTWIST
+#SBATCH --output=salida_npt
+#SBATCH --error=error_npt
+#SBATCH --mail-user=pbarletta@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=m100_usr_prod
+#SBATCH --dependency=9749158
 
 export OMP_NUM_THREADS='8'
 export OMP_PLACES='threads'

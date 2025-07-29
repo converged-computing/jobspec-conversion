@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=roberta
-#FLUX: -n=40
+#FLUX --job-name=roberta
+#FLUX -n=40
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=720000
+#FLUX --urgency=16
 
 ip=`curl ifconfig.me`
 module load cuda/10.1.105_418.39

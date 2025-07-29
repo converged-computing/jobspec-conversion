@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: -N=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export GREASY_NWORKERS_PER_NODE='${SLURM_NTASKS_PER_NODE}'
 export OMP_TARGET_OFFLOAD='MANDATORY'

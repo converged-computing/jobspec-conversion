@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-mango-4489
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --account=fwkt_v100
+#SBATCH --output=./logs/hostname_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=23:59:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 module load cuda/11.2
 module load python

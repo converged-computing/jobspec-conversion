@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=abinit
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=kshctest
-#FLUX: --urgency=16
+#SBATCH --job-name=abinit
+#SBATCH --output=../output/balanced=8_64_4.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=kshctest
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export UCX_LOG_LEVEL='error'
 

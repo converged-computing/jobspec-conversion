@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=manet-run
-#FLUX: --queue=GPU-shared
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=manet-run
+#SBATCH --output=/ocean/projects/iri180005p/mmehta1/ControlNet/logs/manet.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=v100-32:1
+#SBATCH --time=1-23:59:00
+#SBATCH --partition=GPU-shared
 
 set -x
 cd /ocean/projects/iri180005p/mmehta1/ControlNet

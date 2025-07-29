@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=julia_cpu_example
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=julia_cpu_example
+#SBATCH --output=julia_example.%J.out
+#SBATCH --error=julia_example.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 module load julia/1.9 cuda/12.2 
 julia julia_cpu.jl

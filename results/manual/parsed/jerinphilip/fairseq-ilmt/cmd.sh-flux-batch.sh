@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bt
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bt
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export ILMULTI_CORPUS_ROOT='$DATA'
 

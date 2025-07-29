@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Hamiltonian_Solver_agrace
-#FLUX: --queue=RM-shared
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=Hamiltonian_Solver_agrace
+#SBATCH --output=slurm_logs/mpi_test_%j.log
+#SBATCH --mail-user=agrace2@binghamton.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6000MB
+#SBATCH --time=00:05:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=3
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

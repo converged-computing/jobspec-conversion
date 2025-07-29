@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-gato-9763
-#FLUX: --queue=All
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-plant-1770
+#FLUX --queue=All
+#FLUX --urgency=16
 
 export WANDB_SILENT='true'
 

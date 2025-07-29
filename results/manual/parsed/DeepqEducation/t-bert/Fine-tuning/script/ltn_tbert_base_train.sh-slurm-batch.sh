@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune
-#FLUX: --queue=gp4d
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune
+#SBATCH --account=GOV109042
+#SBATCH --output=ltn_512_Tbert_base_5000_2e5_train_log_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=gp4d
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge 
 module load miniconda3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$FREESURFER_HOME/license.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cherry-5298
-#FLUX: -c=16
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-dog-1357
+#FLUX -c=16
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export GMP_DIR='$GMP_ROOT'
 export MPFR_DIR='$MPFR_ROOT'

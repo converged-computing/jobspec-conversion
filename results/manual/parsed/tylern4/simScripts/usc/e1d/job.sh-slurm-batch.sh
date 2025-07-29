@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=e1d_sim
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=e1d_sim
+#SBATCH --output=log/e1d_sim_%A_%a.out
+#SBATCH --error=log/e1d_sim_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
+#SBATCH --array=1-199
 
 export TMPDIR='/work/tylerns/e1d_sim/$SLURM_ARRAY_JOB_ID/$SLURM_ARRAY_TASK_ID'
 export SINGULARITY_CACHEDIR='$TMPDIR/sing_cache'

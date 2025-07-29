@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=imgkfc16
-#FLUX: -N=16
-#FLUX: -n=64
-#FLUX: --queue=v100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=imgkfc16
+#FLUX -N=16
+#FLUX -n=64
+#FLUX --queue=v100
+#FLUX -t=43200
+#FLUX --urgency=16
 
 scontrol show hostnames $SLURM_NODELIST > /tmp/hostfile
 cat /tmp/hostfile

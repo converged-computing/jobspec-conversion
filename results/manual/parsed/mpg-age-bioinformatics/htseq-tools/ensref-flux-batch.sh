@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=${fa%.fa}_samtoolsIndex
-#FLUX: -c=72
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=${fa%.fa}_samtoolsIndex
+#FLUX -c=72
+#FLUX -t=43200
+#FLUX --urgency=16
 
 HOMESOURCE="source ~/.bashrc"
 SLURMPARTITION="hooli"

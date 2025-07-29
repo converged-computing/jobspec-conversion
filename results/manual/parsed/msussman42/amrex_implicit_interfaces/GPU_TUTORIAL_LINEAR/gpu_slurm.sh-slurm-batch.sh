@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu test
-#FLUX: --queue=genacc_q
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu test
+#SBATCH --output=run.out
+#SBATCH --error=run.err
+#SBATCH --mail-user=msussman@fsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:04:00
+#SBATCH --partition=genacc_q
 
 echo module load cuda-12.2
 module load cuda-12.2

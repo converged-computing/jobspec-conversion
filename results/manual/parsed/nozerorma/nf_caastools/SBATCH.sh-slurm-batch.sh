@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=nfct-discovery
-#FLUX: -N=6
-#FLUX: -c=20
-#FLUX: --queue=haswell
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=nfct-discovery
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --mail-user=miguel.ramon@upf.edu
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=8G
+#SBATCH --time=08:00:00
+#SBATCH --partition=haswell
+#SBATCH --constraint=ntasks-per-node=1
 
 module load Nextflow
 TRAIT_DIR="/gpfs42/robbyfs/scratch/lab_anavarro/mramon/nf_caastools/Data/Traitfiles/"

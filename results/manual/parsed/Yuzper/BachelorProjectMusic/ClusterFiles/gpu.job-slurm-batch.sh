@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Baseline_CRNN_Model
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=Baseline_CRNN_Model
+#SBATCH --output=jobsOut/job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a30:1
+#SBATCH --mem=160G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 module load singularity

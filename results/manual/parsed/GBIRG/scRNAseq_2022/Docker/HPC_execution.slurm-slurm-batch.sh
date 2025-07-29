@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=unique_name
-#FLUX: -c=40
-#FLUX: --queue=main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=unique_name
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=190000
+#SBATCH --time=01:00:00
+#SBATCH --partition=main
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export SINGULARITY_BIND='${workdir}/run:/run,${workdir}/tmp:/tmp,${workdir}/database.conf:/etc/rstudio/database.conf,${workdir}/rsession.sh:/etc/rstudio/rsession.sh,${workdir}/var/lib/rstudio-server:/var/lib/rstudio-server'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ref_F150A
-#FLUX: --queue=mf_ilg2.3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ref_F150A
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=mf_ilg2.3
+#SBATCH --constraint=ntasks-per-node=64
+#SBATCH --array=1-40
+#SBATCH --exclude=c-16-24
 
 pdbfile="F150A_autoWAT.pdb"
 psffile="F150A_autoWAT.psf"

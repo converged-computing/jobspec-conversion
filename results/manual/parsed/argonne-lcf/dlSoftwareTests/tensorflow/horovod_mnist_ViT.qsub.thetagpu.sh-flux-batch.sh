@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-itch-7085
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-nalgas-1794
+#FLUX --urgency=16
 

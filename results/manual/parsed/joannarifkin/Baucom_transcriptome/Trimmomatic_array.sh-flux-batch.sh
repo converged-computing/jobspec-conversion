@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Trimmomatic_Rifkin
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=Trimmomatic_Rifkin
+#FLUX --queue=standard
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 module load Bioinformatics

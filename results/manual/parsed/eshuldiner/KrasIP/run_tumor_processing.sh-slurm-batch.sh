@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-caramel-1346
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=mwinslow
+#SBATCH --mail-user=eshuldin
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
 
 ml python/3.6.4
 module load miniconda/3

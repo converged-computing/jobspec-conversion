@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chair-4709
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/mpi_gpu_tests/mps_GPU.sh

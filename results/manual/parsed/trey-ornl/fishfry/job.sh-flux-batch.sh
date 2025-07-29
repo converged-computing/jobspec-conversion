@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-taco-0537
+#FLUX --job-name=scruptious-omelette-8316
 #FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-despacito-4532
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=tart-omelette-5602
+#FLUX -c=4
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MY_APP_ENV='hpc_vub'
 export NCCL_DEBUG='INFO'

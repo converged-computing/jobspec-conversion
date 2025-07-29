@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=discostic
-#FLUX: -N=2
-#FLUX: --queue=multinode
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=discostic
+#SBATCH --output=discostic.o%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=multinode
+#SBATCH --constraint=ntasks-per-node=72,hwperf
 
 export VT_LOGFILE_FORMAT='SINGLESTF'
 export VT_LOGFILE_NAME='simulation'

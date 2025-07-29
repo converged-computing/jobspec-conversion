@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-milkshake-6840
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export INF='/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF'
 export ukbdir='${INF}/ukb'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-mango-1303
-#FLUX: --exclusive
-#FLUX: --queue=lanka-v3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lanka-v3
+#SBATCH: --exclusive
+#SBATCH --array=1-6
 
 export SCRATCH='/data/scratch/pahrens'
 export PATH='$SCRATCH/julia:$PATH'

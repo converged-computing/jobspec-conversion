@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=parents
-#FLUX: -c=5
-#FLUX: --queue=phillips
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=parents
+#SBATCH --account=phillipslab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=20G
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=phillips
+#SBATCH --array=0-5
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

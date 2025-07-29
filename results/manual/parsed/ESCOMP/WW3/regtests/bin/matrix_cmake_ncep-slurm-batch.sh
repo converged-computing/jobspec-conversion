@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-chip-3970
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 usage ()
 {

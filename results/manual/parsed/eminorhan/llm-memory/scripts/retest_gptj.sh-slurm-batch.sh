@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=retest_gptj
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=retest_gptj
+#SBATCH --output=retest_gptj_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=200GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-23
 
 module purge
 module load cuda/11.6.2

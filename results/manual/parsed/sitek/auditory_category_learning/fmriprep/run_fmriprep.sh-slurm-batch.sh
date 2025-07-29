@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-5241
-#FLUX: -c=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=100G
+#SBATCH --time=3-00:00:00
 
 module add freesurfer
 module add fsl

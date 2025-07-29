@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-mango-2914
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/opentargets/genetics-v2g-data/interval_master.sh

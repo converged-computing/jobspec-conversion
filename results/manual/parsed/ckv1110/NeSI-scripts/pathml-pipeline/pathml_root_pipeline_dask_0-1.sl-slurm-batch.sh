@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pathml_dask_tile-only
-#FLUX: -c=12
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pathml_dask_tile-only
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
 
 export SINGULARITY_BIND='/nesi/project/uoa03709/work-dir:/var/inputdata'
 export NAME='TCGA-02-0003-01Z-00-DX1.6171b175-0972-4e84-9997-2f1ce75f4407Region01'

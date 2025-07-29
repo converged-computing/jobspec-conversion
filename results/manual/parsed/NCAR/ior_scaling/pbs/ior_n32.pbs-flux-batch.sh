@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-omelette-7808
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-chip-1819
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/ior_scaling/pbs/ior_n32.pbs

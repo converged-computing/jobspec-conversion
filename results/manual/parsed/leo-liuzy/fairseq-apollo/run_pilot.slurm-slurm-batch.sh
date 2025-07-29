@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=XLM_pilot_run_21Langs_debug
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=XLM_pilot_run_21Langs_debug
+#SBATCH --output=slurm_logs/slurm-%A.out
+#SBATCH --error=slurm_logs/slurm-%A.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=164g
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_IB_DISABLE='1'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lentil-2803
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hariharan-devarajan/iopp/apps/montage_pegasus/run_lassen.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_splitServer
-#FLUX: -c=4
+#FLUX --job-name=run_splitServer
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc900'
 

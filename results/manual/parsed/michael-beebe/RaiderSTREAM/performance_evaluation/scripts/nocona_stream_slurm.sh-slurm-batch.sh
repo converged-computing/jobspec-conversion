@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_MULTI_TESTING
-#FLUX: -N=2
-#FLUX: --queue=nocona
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_MULTI_TESTING
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --partition=nocona
+#SBATCH --constraint=ntasks-per-node=128
 
 export STREAM_ARRAY_SIZE='8700000'
 export OMP_NUM_THREADS='1   # 64 cores per socketet'

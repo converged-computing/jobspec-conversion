@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-blackbean-9405
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-citrus-2637
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/NVT/W5/nvt_5.pbs

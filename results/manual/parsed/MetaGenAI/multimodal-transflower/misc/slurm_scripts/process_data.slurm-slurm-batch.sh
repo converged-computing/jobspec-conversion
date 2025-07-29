@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=process_data
-#FLUX: -n=160
-#FLUX: -c=2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=process_data
+#SBATCH --account=imi@cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=2
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_cpu-t3
 
 export ROOT_FOLDER='/gpfswork/rech/imi/usc19dv/captionRLenv/'
 export DATA_FOLDER='/gpfsscratch/rech/imi/usc19dv/data/UR5/'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-squidward-0682
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-onion-3796
+#FLUX -c=2
+#FLUX -t=604800
+#FLUX --urgency=16
 
 FEATURE_MANIFEST_ROOT=/disk/nfs/ostrom/s2324992/data/yoruba/feature_manifest
 MAX_TOKENS=24000 #,30000(transformertts)

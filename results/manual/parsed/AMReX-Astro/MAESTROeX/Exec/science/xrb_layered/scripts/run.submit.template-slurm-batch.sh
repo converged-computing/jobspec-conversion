@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-banana-8589
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=m3018
+#SBATCH --output=slurm.run1.%j.out
+#SBATCH --mail-user=simon.guichandut@mail.mcgill.ca
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu,ntasks-per-node=64
 
 XRB=$MAESTROEX_HOME/Exec/science/xrb_layered
 MAESTRO_EXEC=$XRB/Maestro2d.gnu.x86-milan.MPI.ex

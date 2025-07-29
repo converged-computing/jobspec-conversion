@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-general-0657
-#FLUX: --queue=gpu
-#FLUX: -t=258900
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lentil-9964
+#FLUX --queue=gpu
+#FLUX -t=258900
+#FLUX --urgency=16
 
 export SINGULARITYENV_MPLBACKEND='agg'
 

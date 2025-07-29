@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MULTINODE
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=MULTINODE
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load python/anaconda3 compilers/cmake-3.20 compilers/gcc-8.3.0 gpu/cuda-11.1
 source activate mark15

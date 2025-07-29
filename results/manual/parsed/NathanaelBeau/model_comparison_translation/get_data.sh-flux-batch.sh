@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=getdata
-#FLUX: -c=40
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=getdata
+#FLUX -c=40
+#FLUX -t=32400
+#FLUX --urgency=16
 
 module purge
 module load anaconda-py3/2019.03

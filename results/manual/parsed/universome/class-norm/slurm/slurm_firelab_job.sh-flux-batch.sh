@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-noodle-1474
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lamp-4438
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 mkdir -p /tmp/skoroki/czsl/data
 cp -r "/ibex/scratch/skoroki/datasets/${dataset}_feats" /tmp/skoroki/czsl/data

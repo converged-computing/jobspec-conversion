@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-car-8583
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-chip-2614
+#FLUX --urgency=16
 
 set -euo pipefail
 shifter_flags="--module=none --clearenv --env=PAPERMILL_EXECUTION=True"

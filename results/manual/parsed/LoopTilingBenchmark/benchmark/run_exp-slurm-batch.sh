@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=comp_422_openmp
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=soc-gpu-kp
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=comp_422_openmp
+#SBATCH --account=soc-gpu-kp
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=soc-gpu-kp
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$HOME/lib/openmp-build/runtime/src:$LD_LIBRARY_PATH'
 

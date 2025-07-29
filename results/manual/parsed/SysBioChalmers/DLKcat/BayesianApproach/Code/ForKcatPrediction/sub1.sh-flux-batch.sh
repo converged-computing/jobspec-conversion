@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-7257
-#FLUX: -n=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-motorcycle-9801
+#FLUX -n=2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load GCCcore/8.3.0
 module load MATLAB intel/2018b GMP

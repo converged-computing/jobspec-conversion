@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-chair-6978
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-arm-7232
+#FLUX --urgency=16
 
 python train.py \
 --name event_cnnlstm \

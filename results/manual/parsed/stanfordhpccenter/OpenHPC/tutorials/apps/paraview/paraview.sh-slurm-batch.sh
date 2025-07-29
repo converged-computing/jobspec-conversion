@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=paraview-server
-#FLUX: --urgency=16
+#SBATCH --job-name=paraview-server
+#SBATCH --output=paraview.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 mkdir -p /opt/ohpc/pub/apps/paraview/src && cd /opt/ohpc/pub/apps/paraview/src
 wget https://www.paraview.org/files/v5.10/ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64.tar.gz

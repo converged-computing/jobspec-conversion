@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=a178-vanilla
-#FLUX: -n=8
-#FLUX: --queue=mf_titanx
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=a178-vanilla
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=mf_titanx
+#SBATCH --dependency=3755380
 
 export NAMD='/beegfs/DATA/mobley/limvt/local/namd/2.12-multicore-CUDA'
 export LD_LIBRARY_PATH='${NAMD}/libcudart.so.6.5'

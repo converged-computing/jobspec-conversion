@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dales
-#FLUX: -n=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dales
+#FLUX -n=128
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load prgenv/gnu
 module load gcc/11.1.0

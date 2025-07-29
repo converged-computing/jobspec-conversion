@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fastp_array
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fastp_array
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load fastp/0.23.4-GCC-11.3.0

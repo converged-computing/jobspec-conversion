@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=NACO-CQTau
-#FLUX: --queue=m3g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=NACO-CQTau
+#SBATCH --account=pd87
+#SBATCH --output=pipeline_output%j.out
+#SBATCH --error=pipeline_output_error%j.err
+#SBATCH --mail-user=<iain.hammond@monash.edu>
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=8000
+#SBATCH --time=01:00:00
+#SBATCH --partition=m3g
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='$OMP_NUM_THREADS'

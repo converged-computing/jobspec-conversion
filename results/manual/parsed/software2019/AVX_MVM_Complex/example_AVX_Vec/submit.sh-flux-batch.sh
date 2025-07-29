@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=m_2501_3500
-#FLUX: --queue=test
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=m_2501_3500
+#FLUX --queue=test
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export I_MPI_DEBUG='5 '
 export MPI_DSM_VERBOSE='1 '

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=profile
-#FLUX: -N=64
-#FLUX: --queue=large
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=profile
+#FLUX -N=64
+#FLUX --queue=large
+#FLUX -t=300
+#FLUX --urgency=16
 
 task="rs"
 pp="lci"

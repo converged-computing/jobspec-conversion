@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pancake-2717
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --array=21-300%120
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

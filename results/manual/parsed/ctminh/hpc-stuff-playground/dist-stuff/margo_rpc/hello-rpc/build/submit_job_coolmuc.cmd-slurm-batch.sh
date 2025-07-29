@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rpc_margo_test
-#FLUX: -N=2
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=rpc_margo_test
+#SBATCH --output=./logs/rpc_margo_test_%J.out
+#SBATCH --error=./logs/rpc_margo_test_%J.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=cm2_tiny
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=./
 
 module load slurm_setup
 module use ~/.modules

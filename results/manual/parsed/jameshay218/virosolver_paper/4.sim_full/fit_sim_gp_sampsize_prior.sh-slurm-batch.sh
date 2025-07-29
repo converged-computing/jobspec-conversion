@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FIT_MA_SIM_PRIOR
-#FLUX: --queue=shared
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=FIT_MA_SIM_PRIOR
+#SBATCH --output=jobmessages/job%j-%a.out
+#SBATCH --error=jobmessages/jobERR%j-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:24:00
+#SBATCH --partition=shared
+#SBATCH --array=1-960
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'
 

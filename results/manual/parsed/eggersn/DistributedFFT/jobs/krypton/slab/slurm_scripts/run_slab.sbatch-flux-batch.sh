@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=slab
-#FLUX: -n=4
+#FLUX --job-name=slab
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=sgs-only
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=sgs-only
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/eggersn/opt/krypton/openmpi-4.1.1/bin'
 

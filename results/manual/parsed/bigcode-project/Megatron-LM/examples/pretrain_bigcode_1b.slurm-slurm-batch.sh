@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1b-starcoder
-#FLUX: -N=16
-#FLUX: -c=38
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --job-name=1b-starcoder
+#SBATCH --output=/fsx/bigcode/bigcode-training/logs/1b/%x-%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=38
+#SBATCH --gres=gpu:8
+#SBATCH --partition=production-cluster
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

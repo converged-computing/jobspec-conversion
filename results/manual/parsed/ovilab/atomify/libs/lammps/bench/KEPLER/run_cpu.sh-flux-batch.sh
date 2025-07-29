@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-9365
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-parrot-1707
+#FLUX -t=43200
+#FLUX --urgency=16
 
 mpirun -np 1 lmp_cpu -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.cpu.128K.1

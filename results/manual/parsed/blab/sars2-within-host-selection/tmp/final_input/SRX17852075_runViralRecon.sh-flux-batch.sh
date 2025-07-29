@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SRX17852075
-#FLUX: -n=15
-#FLUX: --queue=campus-new
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=SRX17852075
+#FLUX -n=15
+#FLUX --queue=campus-new
+#FLUX -t=3600
+#FLUX --urgency=16
 
 load_modules() {
   module purge

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-noodle-6464
-#FLUX: -N=2
-#FLUX: -c=4
+#FLUX --job-name=joyous-hobbit-6893
+#FLUX -N=2
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=hpc6anpg
-#FLUX: --urgency=16
+#FLUX --queue=hpc6anpg
+#FLUX --urgency=16
 
 export WRF_VERSION='3.9.1'
 export JOB_DIR='${PREFIX}/spooler/wrf_sample_3.9'

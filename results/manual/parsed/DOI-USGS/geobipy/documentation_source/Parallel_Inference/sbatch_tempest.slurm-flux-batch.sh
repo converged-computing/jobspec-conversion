@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tempest_synth
-#FLUX: -N=3
-#FLUX: -n=101
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tempest_synth
+#FLUX -N=3
+#FLUX -n=101
+#FLUX --queue=workq
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export NUMBA_CPU_NAME='skylake'

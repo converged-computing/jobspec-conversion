@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-9533
-#FLUX: -n=16
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=<account_id>
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3GB
+#SBATCH --time=00:20:00
 
 module purge
 module purge

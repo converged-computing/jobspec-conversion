@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=G8
-#FLUX: --queue=GPU-small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=G8
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:20:00
+#SBATCH --partition=GPU-small
+#SBATCH --constraint=ntasks-per-node=40
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mammoth_generate
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=mammoth_generate
+#SBATCH --account=ds5559
+#SBATCH --output=mammoth_generate-%A.out
+#SBATCH --error=mammoth_generate-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

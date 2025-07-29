@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-5722
-#FLUX: -c=6
-#FLUX: --queue=alpha
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-leader-2715
+#FLUX -c=6
+#FLUX --queue=alpha
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module --force purge
 mkdir -p V-"$1"_d-"$3"/Data/precip V-"$1"_d-"$3"/models/precip

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Orszag_tang_full_scale_analysis
-#FLUX: -N=32
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Orszag_tang_full_scale_analysis
+#SBATCH --account=csc380
+#SBATCH --output=/lustre/orion/ast181/proj-shared/rcaddy/JSI_Workshop_Talk_2023/data/otv_full_scale/%x-%j-analysis.out
+#SBATCH --mail-user=r.caddy@pitt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export PYTHONPATH='${PYTHONPATH}:/lustre/orion/ast181/proj-shared/rcaddy/JSI_Workshop_Talk_2023/python'
 export PATH='/ccs/home/rcaddy/miniconda_crusher/bin:$PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=exampleJob
-#FLUX: -c=8
-#FLUX: --queue=small-g
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=exampleJob
+#FLUX -c=8
+#FLUX --queue=small-g
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export EBU_USER_PREFIX='/project/project_465000861/EasyBuild'
 export PYTORCH_HIP_ALLOC_CONF='max_split_size_mb:500'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=qsub_example
-#FLUX: -n=24
-#FLUX: --queue=wildfire
-#FLUX: --urgency=16
+#FLUX --job-name=qsub_example
+#FLUX -n=24
+#FLUX --queue=wildfire
+#FLUX --urgency=16
 
 GMX_VERSION=4.6.7
 DEFFNM="md"

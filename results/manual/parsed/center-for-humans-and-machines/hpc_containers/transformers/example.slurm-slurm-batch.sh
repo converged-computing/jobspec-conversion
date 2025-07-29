@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=transformers
-#FLUX: -N=2
-#FLUX: -c=72
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=transformers
+#SBATCH --output=./job.out.%j
+#SBATCH --error=./job.err.%j
+#SBATCH --mail-user=david.carreto.fidalgo@gmail.com
+#SBATCH --mail-type=none
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=0
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu
+#SBATCH --chdir=./
 
 export OMP_NUM_THREADS='18'
 export OMP_PLACES='cores'

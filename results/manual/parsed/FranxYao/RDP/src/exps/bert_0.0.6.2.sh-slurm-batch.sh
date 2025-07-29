@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bert_0.0.6.2
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bert_0.0.6.2
+#SBATCH --output=/home/%u/slurm_logs/slurm-%x-%A-%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%x-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16g
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0
 
 python main.py\
   --model_name=bertnet\

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-0022
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=blank-truffle-2243
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/pavi/chflow

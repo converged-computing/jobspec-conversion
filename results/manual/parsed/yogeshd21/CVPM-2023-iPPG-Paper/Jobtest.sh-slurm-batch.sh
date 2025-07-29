@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Test_frames
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=p100_normal_q
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Test_frames
+#SBATCH --account=abbott
+#SBATCH --output=/home/yogeshd/Frames/slurm-%j.out
+#SBATCH --mail-user=yogeshd@vt.edu
+#SBATCH --mail-type=BEGIN,END,ABORT
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=p100_normal_q
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='21621'
 export WORLD_SIZE='4'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-llama-moe-lora-bs16-dropout=0.1
-#FLUX: -N=2
-#FLUX: -c=64
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#SBATCH --job-name=cpt-llama-moe-lora-bs16-dropout=0.1
+#SBATCH --output=logs/%x-%j.log
+#SBATCH --error=logs/%x-%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --partition=MoE
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

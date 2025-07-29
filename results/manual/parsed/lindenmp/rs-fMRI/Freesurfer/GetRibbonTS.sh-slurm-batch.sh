@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FreeSurf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=FreeSurf
+#SBATCH --account=kg98
+#SBATCH --mail-user=linden.parkes@monash.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-186
 
 export WHERESMYSCRIPT='/projects/kg98/Linden/Scripts/rs-fMRI/Freesurfer'
 export WHEREERRORLOG='/projects/kg98/Linden/Scripts/rs-fMRI/Freesurfer/errorLog'

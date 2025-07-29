@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evalwav2gpt2
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=evalwav2gpt2
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 mkdir -p logs
 PYTHON_VIRTUAL_ENVIRONMENT=wavprompt

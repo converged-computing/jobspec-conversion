@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-soup-4409
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-truffle-0607
+#FLUX --urgency=16
 
 YAML=$1
 declare -a YML_HEAD=($(grep ":" ${YAML} | grep -v "//" | perl -ane 'print "$F[0] ";') )

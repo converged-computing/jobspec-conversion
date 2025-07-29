@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dl2_${tag1}_${runs}
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=dl2_${tag1}_${runs}
+#FLUX --queue=short
+#FLUX --urgency=16
 
 here=$(pwd)
 configbase=${here}/config_base.yaml

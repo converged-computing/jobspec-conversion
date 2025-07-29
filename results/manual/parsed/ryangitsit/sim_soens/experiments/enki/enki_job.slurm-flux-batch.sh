@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST_sweep
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=576000
-#FLUX: --urgency=16
+#FLUX --job-name=MNIST_sweep
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=576000
+#FLUX --urgency=16
 
 module purge 
 module load python/3.10.9/anaconda

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:Tesla-V100-32GB:1
+#SBATCH --mem=4000M
+#SBATCH --time=3-00:00:00
 
 module load nvidia/cuda11.2-cudnn8.1.0
 module load anaconda3

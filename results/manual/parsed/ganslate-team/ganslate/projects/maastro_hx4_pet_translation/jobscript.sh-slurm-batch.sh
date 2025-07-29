@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hx4_pet_pix2pix
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=hx4_pet_pix2pix
+#SBATCH --output=/home/zk315372/Chinmay/Git/ganslate/projects/maastro_hx4_pet_translation/slurm_logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:pascal:2
+#SBATCH --mem=4G
+#SBATCH --time=05:00:00
 
 module load cuda
 echo; echo

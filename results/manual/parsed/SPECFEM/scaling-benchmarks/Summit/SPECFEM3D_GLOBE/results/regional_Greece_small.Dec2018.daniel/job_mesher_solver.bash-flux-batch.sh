@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-punk-6643
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-gato-2809
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SPECFEM/scaling-benchmarks/Summit/SPECFEM3D_GLOBE/results/regional_Greece_small.Dec2018.daniel/job_mesher_solver.bash

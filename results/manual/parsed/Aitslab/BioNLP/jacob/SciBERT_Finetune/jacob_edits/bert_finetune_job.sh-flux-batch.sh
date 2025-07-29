@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-soup-4014
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-butter-5838
+#FLUX -t=57600
+#FLUX --urgency=16
 
 nvidia-smi
 ml Anaconda/2021.05-nsc1

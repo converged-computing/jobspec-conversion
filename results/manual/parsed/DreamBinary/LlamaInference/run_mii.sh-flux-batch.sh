@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-salad-0029
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu_4090
-#FLUX: --urgency=16
+#FLUX --job-name=arid-kitty-2434
+#FLUX -N=2
+#FLUX -c=6
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu_4090
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

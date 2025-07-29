@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=EnsPgdArchs
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=EnsPgdArchs
+#SBATCH --output=log/imagenet/run_attack_dnn__multiple_archs_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=volta
 
 export CUDA_VISIBLE_DEVICES='3'
 

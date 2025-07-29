@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-truffle-4077
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-diablo-2893
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=7200
+#FLUX --urgency=16
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

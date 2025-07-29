@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=exp01
-#FLUX: -N=6
-#FLUX: --queue=EPICALL
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=exp01
+#SBATCH --output=logs/exp01.log
+#SBATCH --mail-user=magnuspw@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=80000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=EPICALL
+#SBATCH --constraint=ntasks-per-node=2
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cw
-#FLUX: --queue=teach_gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=cw
+#SBATCH --account=COMS030144
+#SBATCH --output=./bc4_out/log_%j.out
+#SBATCH --error=./bc4_out/log_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=teach_gpu
 
 mkdir -p ./bc4_out
 module purge

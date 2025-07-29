@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-2379
-#FLUX: --queue=classroom
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-kerfuffle-2182
+#FLUX --queue=classroom
+#FLUX -t=3600
+#FLUX --urgency=16
 
 BATCH -J GroupC
 module load gcc/10.2.0

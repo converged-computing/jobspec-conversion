@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=oly_stringtie
-#FLUX: --queue=srlab
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#SBATCH --job-name=oly_stringtie
+#SBATCH --account=srlab
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500G
+#SBATCH --time=25-00:00:00
+#SBATCH --partition=srlab
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20190625_stringtie_oly_v081
 
 set -e
 module load intel-python3_2017

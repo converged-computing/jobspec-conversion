@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-6991
-#FLUX: -n=6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=PAS1855
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 set -e -u -o pipefail
 module load python/3.6-conda5.2

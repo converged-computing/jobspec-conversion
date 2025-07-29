@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=interval_cl
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=interval_cl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --qos=normal
 
 source .env
 trap "kill 0" INT

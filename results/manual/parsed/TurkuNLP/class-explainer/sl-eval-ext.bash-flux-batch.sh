@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=kw_selec
-#FLUX: --queue=small
-#FLUX: -t=11700
-#FLUX: --urgency=16
+#FLUX --job-name=kw_selec
+#FLUX --queue=small
+#FLUX -t=11700
+#FLUX --urgency=16
 
 mkdir -p logs
 rm logs/current.err

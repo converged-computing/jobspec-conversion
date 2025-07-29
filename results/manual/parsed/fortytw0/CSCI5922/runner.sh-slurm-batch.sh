@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-job
-#FLUX: -n=24
-#FLUX: --queue=sgpu-testing
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-job
+#SBATCH --output=gpu-csci5922.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=sgpu-testing
 
 ​
 ​module purge

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leader-1090
-#FLUX: -n=12
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-buttface-5526
+#FLUX -n=12
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 CORES=12
 module load FastQC/0.11.7

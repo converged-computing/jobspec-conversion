@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llm-cpt
-#FLUX: -N=10
+#FLUX --job-name=llm-cpt
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#FLUX --queue=defq
+#FLUX --urgency=16
 
 export HF_HUB_ENABLE_HF_TRANSFER='1 '
 export ACCELERATE_LOG_LEVEL='info '

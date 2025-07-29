@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: -c=48
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake
+#SBATCH --output=stdout.%x.%j
+#SBATCH --error=stderr.%x.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=360G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load GCC/11.2.0  OpenMPI/4.1.1  snakemake/6.10.0

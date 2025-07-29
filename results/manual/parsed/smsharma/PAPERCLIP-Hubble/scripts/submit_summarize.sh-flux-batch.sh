@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=summarize_mixtral
-#FLUX: --queue=iaifi_gpu_priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=summarize_mixtral
+#FLUX --queue=iaifi_gpu_priority
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 export ENV='outlines'

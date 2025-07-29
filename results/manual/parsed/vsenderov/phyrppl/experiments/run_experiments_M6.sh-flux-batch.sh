@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=M6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=M6
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export OMP_STACKSIZE=' 32G" '
 export RPPL_FLAGS=' --target omp -j $NCORES"    # OMP'

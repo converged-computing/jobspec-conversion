@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-9181
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --mail-user=mats.sjoberg@aalto.fi
+#SBATCH --mail-type=FAIL,REQUEUE,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=8GB
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpu
 
 module purge
 module load python-env/intelpython3.6-2018.3

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=plutogpu
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=plutogpu
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

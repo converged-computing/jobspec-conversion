@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Soda_lake_kernel
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Soda_lake_kernel
+#SBATCH --account=w18_trust
+#SBATCH --output=slurm.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=interactive
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts" '

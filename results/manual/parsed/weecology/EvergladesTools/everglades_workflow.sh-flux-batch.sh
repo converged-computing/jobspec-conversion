@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=everglades_workflow
-#FLUX: -c=60
-#FLUX: --queue=gpu
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=everglades_workflow
+#FLUX -c=60
+#FLUX --queue=gpu
+#FLUX -t=288000
+#FLUX --urgency=16
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting everglades workflow on $(hostname) in $(pwd)"
 echo "INFO [$(date "+%Y-%m-%d %H:%M:%S")] Loading required modules"

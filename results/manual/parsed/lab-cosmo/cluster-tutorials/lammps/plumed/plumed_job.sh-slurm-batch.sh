@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=plumed
-#FLUX: --queue=jobs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=plumed
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=jobs
+#SBATCH --constraint=ntasks-per-node=2
 
 module load intel
 module load intel-mkl

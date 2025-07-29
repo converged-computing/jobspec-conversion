@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-car-3158
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-signal-9345
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

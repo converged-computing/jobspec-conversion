@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-itch-2363
-#FLUX: -c=4
-#FLUX: -t=9296
-#FLUX: --urgency=16
+#FLUX --job-name=phat-rabbit-4168
+#FLUX -c=4
+#FLUX -t=9296
+#FLUX --urgency=16
 
 module purge
 module load StdEnv/2023

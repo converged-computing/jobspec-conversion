@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-8373
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-avocado-7809
+#FLUX -t=600
+#FLUX --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

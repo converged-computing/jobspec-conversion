@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Caveman
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#SBATCH --job-name=Caveman
+#SBATCH --output=%j.o
+#SBATCH --error=%j.e
+#SBATCH --mail-user=zly18810602991@163.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=8
 
 export IAMGE_NAME='/lustre/home/acct-medkwf/medkwf4/software/CRUK/dockstore-cgpwxs_3.1.7.sif'
 export IAMGE_NAME_WRAPPER='/lustre/home/acct-medkwf/medkwf4/software/CRUK/docker-caveman_v1.0.0.sif'

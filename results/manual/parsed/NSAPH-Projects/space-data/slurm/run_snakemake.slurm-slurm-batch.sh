@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-snack-9214
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=slurm/slurm.%N.%j.out
+#SBATCH --error=slurm/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
 
 dataverse="harvard"            # harvard or demo
 singularity_within_snakemake=1 # 1 or 0

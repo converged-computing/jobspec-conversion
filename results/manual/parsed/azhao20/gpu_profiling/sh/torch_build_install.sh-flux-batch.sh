@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peas-9066
-#FLUX: -c=64
-#FLUX: --queue=gpu_test
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-leader-1000
+#FLUX -c=64
+#FLUX --queue=gpu_test
+#FLUX -t=720
+#FLUX --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DIR='${HOME}'

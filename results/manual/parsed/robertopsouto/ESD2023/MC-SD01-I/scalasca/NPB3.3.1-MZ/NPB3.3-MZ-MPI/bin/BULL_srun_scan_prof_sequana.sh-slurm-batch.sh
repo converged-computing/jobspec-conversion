@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NPB_BT-MZ
-#FLUX: --exclusive
-#FLUX: --queue=sequana_cpu_dev
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=NPB_BT-MZ
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=sequana_cpu_dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export SPACK_USER_CONFIG_PATH='${workdir}/.spack/${partition}/${version}'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

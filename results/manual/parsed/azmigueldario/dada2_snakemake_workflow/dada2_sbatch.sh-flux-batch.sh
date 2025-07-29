@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lizard-9626
-#FLUX: --queue=synergy,cpu2019,cpu2021
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-punk-6618
+#FLUX --queue=synergy,cpu2019,cpu2021
+#FLUX -t=172800
+#FLUX --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/dada2-analysis.log.txt"

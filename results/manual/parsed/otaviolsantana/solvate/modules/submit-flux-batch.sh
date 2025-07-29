@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leg-5863
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-chair-4116
+#FLUX --urgency=16
 
 TEST_SLUR=`echo $(which sbatch)`     # SLURM System
 TEST_PBSS=`echo $(which qsub)`       # Torque/PBS (Portable Batch System)

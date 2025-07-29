@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-earthworm-6392
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=00:04:00
 
 time julia main_rk4.jl

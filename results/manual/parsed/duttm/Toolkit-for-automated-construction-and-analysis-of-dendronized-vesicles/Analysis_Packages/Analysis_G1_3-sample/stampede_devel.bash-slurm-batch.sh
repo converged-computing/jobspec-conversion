@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=G2_basic_ves
-#FLUX: -n=64
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=G2_basic_ves
+#SBATCH --account=YYYYY
+#SBATCH --output=G2.out
+#SBATCH --error=G2.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 gro=*.gro
 xtc=*.xtc

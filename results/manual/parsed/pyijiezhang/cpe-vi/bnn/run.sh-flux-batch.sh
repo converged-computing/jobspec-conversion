@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mfvi
-#FLUX: -n=2
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=mfvi
+#FLUX -n=2
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate bayesianize

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess
-#FLUX: --queue=gypsum-titanx
-#FLUX: --urgency=16
+#FLUX --job-name=preprocess
+#FLUX --queue=gypsum-titanx
+#FLUX --urgency=16
 
 module load conda
 conda activate transCoder_env

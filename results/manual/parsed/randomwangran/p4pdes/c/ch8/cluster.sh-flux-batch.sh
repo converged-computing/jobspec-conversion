@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-rabbit-1251
-#FLUX: -n=12
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=astute-cat-0379
+#FLUX -n=12
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 ulimit -s unlimited
 ulimit -l unlimited

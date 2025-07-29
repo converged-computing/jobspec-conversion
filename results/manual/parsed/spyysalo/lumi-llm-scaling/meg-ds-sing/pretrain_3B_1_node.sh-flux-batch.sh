@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leg-7975
+#FLUX --job-name=carnivorous-cupcake-2227
 #FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=standard-g
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export MASTER_PORT='9999'

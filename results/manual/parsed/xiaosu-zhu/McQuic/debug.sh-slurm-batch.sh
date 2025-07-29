@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mcquic_pretraining
-#FLUX: -c=48
-#FLUX: --queue=A800
-#FLUX: --urgency=16
+#SBATCH --job-name=mcquic_pretraining
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:a800:1
+#SBATCH --partition=A800
 
 export HF_ENDPOINT='https://hf-mirror.com'
 export PYTHONPATH='/ssdfs/datahome/tj24011/workspace/McQuic'

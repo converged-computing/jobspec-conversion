@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=EM-EARTH-MERG
-#FLUX: -n=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=EM-EARTH-MERG
+#SBATCH --account=rrg-mclark
+#SBATCH --error=errors1
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=1-00:00:00
 
 module load StdEnv/2020 gcc/9.3.0 openmpi/4.0.3
 module load gdal/3.5.1 libspatialindex/1.8.5

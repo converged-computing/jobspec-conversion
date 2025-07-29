@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nbody_benchmark
-#FLUX: -n=16
-#FLUX: -c=10
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=nbody_benchmark
+#SBATCH --account=ftb@gpu
+#SBATCH --output=nbody_benchmark%j.out
+#SBATCH --error=nbody_benchmark%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load tensorflow-gpu/py3/2.4.1+nccl-2.8.3-1

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Runacc2Fasta
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Runacc2Fasta
+#SBATCH --account=cohen_theodore
+#SBATCH --output=Runacc2Fasta_%A.out
+#SBATCH --error=Runacc2Fasta_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 dirtemplate='/home/yc954/project.cohen/sm_Bioproj2Lineage/dirTemplate/'
 bioproj='PRJNA736718'

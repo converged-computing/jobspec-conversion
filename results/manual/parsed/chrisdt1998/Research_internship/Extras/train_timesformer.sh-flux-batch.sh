@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=timesformer_dutoit
-#FLUX: -c=4
-#FLUX: --queue=partition_of_your_choice
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=timesformer_dutoit
+#FLUX -c=4
+#FLUX --queue=partition_of_your_choice
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load cuda/10.0

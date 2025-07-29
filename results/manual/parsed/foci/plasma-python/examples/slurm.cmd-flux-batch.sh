@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-hope-9041
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=red-citrus-9094
+#FLUX -N=3
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='tcp,self,sm'
 

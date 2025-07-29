@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=slurm-pytorch-ddp-boilerplate
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=shared-cpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm-pytorch-ddp-boilerplate
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=4G
+#SBATCH --time=00:15:00
+#SBATCH --partition=shared-cpu
+#SBATCH --constraint=ntasks-per-node=2
 
 export VENV_PATH='$HOME/venv/slurm-pytorch-ddp-boilerplate'
 export MASTER_PORT='$master_port'

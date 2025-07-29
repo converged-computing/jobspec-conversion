@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-2027
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=h.wilde@warwick.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4571
+#SBATCH --time=2-00:00:00
 
 export JULIA_PROJECT='/home/dcs/csrxgb/julia_stuff/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/julia_stuff/cmdstan-2.23.0'

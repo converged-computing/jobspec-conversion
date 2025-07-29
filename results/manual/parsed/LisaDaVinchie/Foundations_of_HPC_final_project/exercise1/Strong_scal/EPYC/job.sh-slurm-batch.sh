@@ -1,12 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Strong_scal
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: -c=64
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Strong_scal
+#SBATCH --output=summary.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=64
+#SBATCH --time=01:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

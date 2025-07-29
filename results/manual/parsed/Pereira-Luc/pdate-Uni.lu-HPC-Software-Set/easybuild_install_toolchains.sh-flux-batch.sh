@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=install_eb_modules_toolchains
-#FLUX: --queue=batch
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=install_eb_modules_toolchains
+#FLUX --queue=batch
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export EASYBUILD_JOB_BACKEND='Slurm'
 

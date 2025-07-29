@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-dog-0287
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=blue-bike-8039
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 . ./miniconda3/etc/profile.d/conda.sh
 conda activate

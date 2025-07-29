@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-malarkey-3714
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-parrot-8388
+#FLUX --queue=test
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load geoconda
 datadir=/appl/data/geo/sentinel/s2_example_data/L2A

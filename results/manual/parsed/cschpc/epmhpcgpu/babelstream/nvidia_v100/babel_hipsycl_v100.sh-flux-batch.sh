@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=babel_hipsycl
-#FLUX: --queue=gpumedium
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=babel_hipsycl
+#FLUX --queue=gpumedium
+#FLUX -t=120
+#FLUX --urgency=16
 
 for i in {1..10}; do
         echo $i

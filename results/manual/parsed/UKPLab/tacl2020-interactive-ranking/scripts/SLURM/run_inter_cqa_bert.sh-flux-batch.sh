@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=intcqa_bert_quick
-#FLUX: -c=24
+#FLUX --job-name=intcqa_bert_quick
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 

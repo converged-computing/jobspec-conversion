@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep_$patient
-#FLUX: -c=5
-#FLUX: --queue=long
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep_$patient
+#SBATCH --output=$logs/fmriprep_$patient.out
+#SBATCH --mail-user=snolin@uab.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=25000
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=long
 
 export SINGULARITY_BINDPATH='/data/project/vislab'
 

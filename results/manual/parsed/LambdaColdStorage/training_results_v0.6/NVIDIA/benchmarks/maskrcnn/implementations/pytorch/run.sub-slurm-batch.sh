@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=object_detection
-#FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=object_detection
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export MLPERF_HOST_OS='$(cat /etc/issue | head -1 | cut -f1-3 -d" ") / $(cat /etc/dgx-release | grep -E "DGX_PRETTY_NAME|DGX_OTA_VERSION" |cut -f2 -d= |cut -f2 -d '"' |paste -sd' ')'
 

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fst_epoch{epoch_number}
-#FLUX: -N=20
-#FLUX: --queue=medium
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=fst_epoch{epoch_number}
+#SBATCH --account=project_<1234567>
+#SBATCH --output=output.txt
+#SBATCH --mail-user=<erkki.esimerkki@domain.com>
+#SBATCH --mail-type=END
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=128
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='cores'

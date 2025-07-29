@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=decoding
-#FLUX: -c=64
-#FLUX: --queue=xnat
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=decoding
+#FLUX -c=64
+#FLUX --queue=xnat
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/$USER/sw/github/ECoG'
 

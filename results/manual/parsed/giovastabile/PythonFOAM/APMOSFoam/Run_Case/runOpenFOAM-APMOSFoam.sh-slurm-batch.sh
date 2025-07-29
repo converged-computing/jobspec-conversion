@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=APMOS_CHECK
-#FLUX: -N=4
-#FLUX: --queue=knlall
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=APMOS_CHECK
+#SBATCH --account=DL4TURB
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=knlall
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/gpfs/fs1/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-7.3.0/python-3.6.7-7eq7ubsfsxwib5oi7yk5ek7edv3cr7vt/lib:$LD_LIBRARY_PATH'
 export I_MPI_FABRICS='shm:tmi'

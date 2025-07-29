@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Grid-search California Housing (ECCCo)
-#FLUX: -n=14
-#FLUX: -c=14
-#FLUX: --queue=general
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#SBATCH --job-name=Grid-search California Housing (ECCCo)
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=14
+#SBATCH --mem-per-cpu=2GB
+#SBATCH --time=00:35:00
+#SBATCH --partition=general
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

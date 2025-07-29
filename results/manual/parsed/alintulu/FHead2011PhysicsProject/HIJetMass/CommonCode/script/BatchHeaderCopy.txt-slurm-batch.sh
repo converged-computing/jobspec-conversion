@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-caramel-2701
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HIJetMass/CommonCode/script/BatchHeaderCopy.txt

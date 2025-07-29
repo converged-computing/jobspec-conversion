@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=memory_encoding
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=memory_encoding
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export WANDB_EXECUTABLE='$CONDA_PREFIX/bin/python'
 export WANDB_MODE='offline'

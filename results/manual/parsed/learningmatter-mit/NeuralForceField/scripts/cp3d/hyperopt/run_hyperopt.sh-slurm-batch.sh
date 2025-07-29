@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pedo-0174
-#FLUX: -c=32
-#FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
-#FLUX: -t=600000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=300G
+#SBATCH --time=6-22:40:00
+#SBATCH --partition=sched_mit_rafagb_amd,sched_mit_rafagb
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 export SLURM_GPUS_PER_NODE='1'
 export LD_LIBRARY_PATH='lib/$CONDA_PREFIX/:$LD_LIBRARY_PATH'

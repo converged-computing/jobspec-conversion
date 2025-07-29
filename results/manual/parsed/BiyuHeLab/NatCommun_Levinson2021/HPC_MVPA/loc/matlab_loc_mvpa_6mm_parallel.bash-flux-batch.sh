@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-hobbit-6622
-#FLUX: -n=11
-#FLUX: --queue=gpu4_short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-cupcake-3532
+#FLUX -n=11
+#FLUX --queue=gpu4_short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SCRATCH=' # SCRATCH DIRECTORY FOR CLUSTER'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pedo-7419
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-blackbean-3324
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kyleabeauchamp/RepexRuns/code/submit.sh

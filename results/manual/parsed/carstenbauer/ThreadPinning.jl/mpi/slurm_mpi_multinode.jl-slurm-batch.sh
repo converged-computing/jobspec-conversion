@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-carrot-9820
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=all
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=sl_mpi_multinode_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=all
+#SBATCH --constraint=ntasks-per-socket=1
 
 ml lang JuliaHPC
 srun -n 4 julia --project -t 1 $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20220810_pycno_fastp
-#FLUX: --queue=srlab
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=20220810_pycno_fastp
+#FLUX --queue=srlab
+#FLUX -t=864000
+#FLUX --urgency=16
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

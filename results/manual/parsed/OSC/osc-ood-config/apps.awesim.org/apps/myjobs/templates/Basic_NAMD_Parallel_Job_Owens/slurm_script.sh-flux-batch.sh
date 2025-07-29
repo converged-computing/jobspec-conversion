@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ondemand/sys/myjobs/basic_namd_parallel
-#FLUX: -N=2
+#FLUX --job-name=ondemand/sys/myjobs/basic_namd_parallel
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load intel/19.0.5  
 module load mvapich2/2.3.4

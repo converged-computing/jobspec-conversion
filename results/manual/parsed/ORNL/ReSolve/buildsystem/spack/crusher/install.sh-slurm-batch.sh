@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resolve_spack
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=resolve_spack
+#SBATCH --account=csc359_crusher
+#SBATCH --output=spack_install.%J.output
+#SBATCH --error=spack_install.%J.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=batch
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128'

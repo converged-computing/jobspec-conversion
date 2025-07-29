@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fc_rn
-#FLUX: -c=24
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fc_rn
+#SBATCH --mail-user=giorgio.angelotti@isae.fr
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 export LD_LIBRARY_PATH='/home/dcas/g.angelotti/.conda/envs/coop/lib:$LD_LIBRARY_PATH'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-salad-4720
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ratt-ru/montblanc-support/compile_python.sh

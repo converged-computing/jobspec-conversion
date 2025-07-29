@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=5
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=repeatmasker
+#FLUX -c=5
+#FLUX -t=21600
+#FLUX --urgency=16
 
 Print_help() {
     echo

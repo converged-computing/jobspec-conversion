@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-plant-3725
-#FLUX: -c=6
-#FLUX: -t=150
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-noodle-8650
+#FLUX -c=6
+#FLUX -t=150
+#FLUX --urgency=16
 
 source $HOME/Venvs/pytorch.1.2.0/bin/activate 
 module load cuda/10.0.130

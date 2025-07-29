@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=donut-train
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=donut-train
+#FLUX -c=8
+#FLUX --urgency=16
 
 nvidia-smi
 cd ~/donut

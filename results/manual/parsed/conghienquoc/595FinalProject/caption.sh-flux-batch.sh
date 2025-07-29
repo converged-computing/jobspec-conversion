@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hippo-8312
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=hello-cinnamonbun-0464
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python3.7-anaconda
 module load tensorflow/1.15.5

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rnd
-#FLUX: -c=8
-#FLUX: --queue=titans
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=rnd
+#SBATCH --output=/scratch/cluster/ishand/results/zoo2/rnd_td3_%A_%a.out
+#SBATCH --error=/scratch/cluster/ishand/results/zoo2/rnd_td3_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=titans
+#SBATCH --constraint=ntasks-per-node=1
 
 SEED=$(($SLURM_ARRAY_TASK_ID + 1010))
 SEED2=$(($SLURM_ARRAY_TASK_ID + 3 + 1010))

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eqtl
-#FLUX: -c=32
-#FLUX: --queue=cclake
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=eqtl
+#FLUX -c=32
+#FLUX --queue=cclake
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

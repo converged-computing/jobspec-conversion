@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jacobiMPI
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=jacobiMPI
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 if command -v sinfo  2>/dev/null # if on cluster
 then

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-6135
-#FLUX: --queue=train
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --mail-user=feisi@meta.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=train
 
 for batch in 1024 2048 4096 8192
 do

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=csfever_01_colbert_train
-#FLUX: -c=4
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=csfever_01_colbert_train
+#FLUX -c=4
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'
 export PYTHONPATH='.:$PYTHONPATH'

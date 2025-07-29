@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-6412
-#FLUX: --queue=PV1003q
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-ricecake-7968
+#FLUX --queue=PV1003q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2'
 

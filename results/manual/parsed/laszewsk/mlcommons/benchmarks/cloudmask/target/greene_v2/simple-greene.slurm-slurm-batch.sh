@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=simple-cloudmask-gpu-greene
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=simple-cloudmask-gpu-greene
+#SBATCH --output=outputs/simple-v100-greene-%u-%j.out
+#SBATCH --error=outputs/simple-v100-greene-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
 
 export USER_SCRATCH='/scratch/$USER/github-fork'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

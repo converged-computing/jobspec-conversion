@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hobbit-5919
-#FLUX: -c=16
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-pot-3947
+#FLUX -c=16
+#FLUX -t=604800
+#FLUX --urgency=16
 
 PROJECT_NAME="remeshing-project"
 module purge

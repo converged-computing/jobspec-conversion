@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-citrus-8257
-#FLUX: -n=4
-#FLUX: --queue=isi
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-banana-6533
+#FLUX -n=4
+#FLUX --queue=isi
+#FLUX -t=360000
+#FLUX --urgency=16
 
 set -e -x
 echo "SLURM_JOBID=$SLURM_JOBID"

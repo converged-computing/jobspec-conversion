@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-3670
-#FLUX: -N=2
-#FLUX: --queue=epyc-64
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-milkshake-7282
+#FLUX -N=2
+#FLUX --queue=epyc-64
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load julia/1.10.2

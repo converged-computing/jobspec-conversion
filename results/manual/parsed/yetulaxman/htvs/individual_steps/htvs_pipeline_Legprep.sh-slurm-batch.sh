@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-poo-1276
-#FLUX: -n=10
-#FLUX: --queue=small
-#FLUX: -t=4210
-#FLUX: --urgency=16
+#SBATCH --account=project_2004075
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:10:10
+#SBATCH --partition=small
 
 module load maestro parallel
 find $PWD/data_SMILES  -name '*.smi' | \

@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-house-0379
-#FLUX: --urgency=15
+#SBATCH --mail-user=samgould@mit.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --qos=low
+#SBATCH --array=1-75
+#SBATCH --exclude=c[5-22]
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/
 config=/net/bmc-lab2/data/lab/sanchezrivera/samgould/singular_competition_assay_data_PE_a549/config_join.txt

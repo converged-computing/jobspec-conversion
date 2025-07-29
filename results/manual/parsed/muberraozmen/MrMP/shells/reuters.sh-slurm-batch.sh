@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bicycle-1245
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=out.log
+#SBATCH --error=err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:01:00
+#SBATCH --array=1-2
 
 dataset=reuters
 cuda_on=$true

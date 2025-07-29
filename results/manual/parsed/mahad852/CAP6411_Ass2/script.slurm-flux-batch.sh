@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GPU-Example
-#FLUX: -c=2
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=GPU-Example
+#FLUX -c=2
+#FLUX -t=86399
+#FLUX --urgency=16
 
 module load anaconda/anaconda3
 source /apps/anaconda/anaconda3/etc/profile.d/conda.sh

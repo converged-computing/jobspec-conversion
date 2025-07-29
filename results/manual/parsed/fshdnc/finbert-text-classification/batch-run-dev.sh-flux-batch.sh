@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-9992
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-general-6977
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

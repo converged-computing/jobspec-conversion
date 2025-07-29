@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=data-proc
-#FLUX: -c=8
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=data-proc
+#SBATCH --account=cse
+#SBATCH --mail-user=tjung2@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu-rtx6k
 
 cat $0
 echo "--------------------"

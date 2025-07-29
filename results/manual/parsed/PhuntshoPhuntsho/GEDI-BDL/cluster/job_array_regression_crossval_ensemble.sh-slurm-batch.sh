@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hobbit-9480
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/PhuntshoPhuntsho/GEDI-BDL/cluster/job_array_regression_crossval_ensemble.sh

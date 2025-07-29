@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cupcake-5600
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-lizard-3137
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source $HOME/.load_modules.sh
 source $HOME/dune/venv/bin/activate

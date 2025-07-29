@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-taco-2112
-#FLUX: -n=14
-#FLUX: -t=10200
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-train-0900
+#FLUX -n=14
+#FLUX -t=10200
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms1g -Xmx4g'
 export NXF_SINGULARITY_CACHEDIR='$PWD/sing-img'

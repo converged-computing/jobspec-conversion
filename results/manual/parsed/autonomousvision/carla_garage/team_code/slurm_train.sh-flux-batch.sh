@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_id_000
-#FLUX: -c=32
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=train_id_000
+#FLUX -c=32
+#FLUX --queue=a100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CARLA_ROOT='/path/to/carla_9_10'
 export PYTHONPATH='${CARLA_ROOT}/PythonAPI/carla/":${PYTHONPATH}'

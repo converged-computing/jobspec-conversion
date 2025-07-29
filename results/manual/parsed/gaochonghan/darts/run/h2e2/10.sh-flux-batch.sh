@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=a10
-#FLUX: -c=4
-#FLUX: --queue=dell
-#FLUX: --urgency=16
+#FLUX --job-name=a10
+#FLUX -c=4
+#FLUX --queue=dell
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

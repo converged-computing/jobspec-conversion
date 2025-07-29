@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlp_analytic
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=mlp_analytic
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=64800
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 conda deactivate

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-blackbean-7248
-#FLUX: -N=2
+#FLUX --job-name=fat-lamp-8308
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=rosa.p
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=rosa.p
+#FLUX -t=28800
+#FLUX --urgency=16
 
 redis_password=$(uuidgen)
 export redis_password

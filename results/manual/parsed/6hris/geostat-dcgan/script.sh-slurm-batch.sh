@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dcgan_model
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=dcgan_model
+#SBATCH --output=job_output_%j.out
+#SBATCH --mail-user=cdowdy@ufl.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=200GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
 
 export NCCL_P2P_DISABLE='1'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bdnmc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bdnmc
+#SBATCH --output=grid_bdnmc2.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=1-00:00:00
+#SBATCH --array=34-79
 
 CONTAINER=/cluster/tufts/wongjiradlab/twongj01/coherent/coherent_bdnmc_20200302.simg
 WORKDIR=/cluster/tufts/wongjiradlab/twongj01/coherent/run_bdnmc_jobs

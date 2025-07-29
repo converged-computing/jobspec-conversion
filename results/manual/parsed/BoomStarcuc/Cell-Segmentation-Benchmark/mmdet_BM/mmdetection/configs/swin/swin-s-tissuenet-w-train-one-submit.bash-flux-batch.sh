@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-6903
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-salad-4976
+#FLUX --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin'

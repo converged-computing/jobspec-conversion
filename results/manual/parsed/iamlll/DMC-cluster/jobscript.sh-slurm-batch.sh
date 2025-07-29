@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=giant
-#FLUX: --urgency=16
+#SBATCH --job-name=giant
+#SBATCH --output=giant-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=7gb
+#SBATCH --array=1-10
 
 cd $SLURM_SUBMIT_DIR
 echo "Date              = $(date)"

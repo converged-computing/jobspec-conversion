@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Inat
-#FLUX: -c=40
-#FLUX: --queue=batch_72h
-#FLUX: --urgency=16
+#SBATCH --job-name=Inat
+#SBATCH --output=Inat.log
+#SBATCH --mail-user=jqcui@cse.cuhk.edu.hk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --partition=batch_72h
+#SBATCH --constraint=ubuntu18,highcpucount
 
 PORT=$[$RANDOM + 10000]
 python paco_lt.py \

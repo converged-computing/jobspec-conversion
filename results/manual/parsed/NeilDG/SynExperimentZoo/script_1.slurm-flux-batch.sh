@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SR_1
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=SR_1
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 NETWORK_VERSION=$1
 ITERATION=$2

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-earthworm-3604
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=20
-#FLUX: --urgency=16
+#SBATCH --output=heavyAI.out
+#SBATCH --error=heavyAI.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=00:00:20
+#SBATCH --partition=gpu
 
 export container_image='/n/singularity_images/OOD/omnisci/heavyai-ee-cuda_v7.2.2.sif'
 export SING_BINDS='$SING_BINDS -B ${HEAVYAIBASE}/var/lib/heavyai:/var/lib/heavyai '

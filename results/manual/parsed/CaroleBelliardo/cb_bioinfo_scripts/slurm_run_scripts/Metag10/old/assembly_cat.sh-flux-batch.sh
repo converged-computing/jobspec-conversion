@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mg
-#FLUX: -c=70
-#FLUX: --queue=infinity
-#FLUX: --urgency=16
+#FLUX --job-name=mg
+#FLUX -c=70
+#FLUX --queue=infinity
+#FLUX --urgency=16
 
 module load singularity/3.5.3
 SING_IMG='/lerins/hub/projects/25_Metag_PublicData/tools_metagData/Singularity/MetagAssembler.sif'

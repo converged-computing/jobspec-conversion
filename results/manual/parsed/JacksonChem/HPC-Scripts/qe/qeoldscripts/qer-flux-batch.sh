@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leg-5632
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-pastry-1603
+#FLUX --urgency=16
 
 NPROC=$1
 QHR=$2

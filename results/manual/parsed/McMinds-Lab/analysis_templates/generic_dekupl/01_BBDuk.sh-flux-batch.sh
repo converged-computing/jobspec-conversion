@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=01_BBDuk
-#FLUX: --queue=rra
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=01_BBDuk
+#FLUX --queue=rra
+#FLUX -t=518400
+#FLUX --urgency=16
 
 source local.env
 indir=$1

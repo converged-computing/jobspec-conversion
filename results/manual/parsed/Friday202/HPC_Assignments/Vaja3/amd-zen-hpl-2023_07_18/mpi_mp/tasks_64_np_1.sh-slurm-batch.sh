@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=64_1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=64_1
+#SBATCH --output=mpi_mp/tasks_64_np_1.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=250G
+#SBATCH --time=02:00:00
 
 export UCX_TLS='self, tcp'
 

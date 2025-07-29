@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-muffin-6433
-#FLUX: -n=32
-#FLUX: --queue=t4_normal_q
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --account=birdnet
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=t4_normal_q
 
 export OMPI_MCA_mpi_warn_on_fork='0 '
 export OMPI_MCA_btl_openib_if_exclude='mlx5_1 '

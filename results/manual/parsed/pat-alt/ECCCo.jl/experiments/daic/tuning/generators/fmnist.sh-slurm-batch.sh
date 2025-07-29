@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Grid-search Fashion MNIST (ECCCo)
-#FLUX: -n=1000
-#FLUX: --queue=general
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=Grid-search Fashion MNIST (ECCCo)
+#SBATCH --nodes=1
+#SBATCH --ntasks=1000
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=general
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

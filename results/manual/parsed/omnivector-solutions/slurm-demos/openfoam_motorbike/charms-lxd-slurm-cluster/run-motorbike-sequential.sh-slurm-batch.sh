@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=motorbike-seq
-#FLUX: --queue=osd-slurmd
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=motorbike-seq
+#SBATCH --output=/nfs/R-%x.%j.out
+#SBATCH --error=/nfs/R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=osd-slurmd
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10
 if [[ ! -d $OPENFOAM_DIR ]]

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bits-0383
-#FLUX: -c=72
-#FLUX: --queue=lgns28
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/%j.txt
+#SBATCH --mail-user=shurjo@umich.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=gpu:10
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=lgns28
 
 echo $CUDA_VISIBLE_DEVICES
 echo $HOSTNAME

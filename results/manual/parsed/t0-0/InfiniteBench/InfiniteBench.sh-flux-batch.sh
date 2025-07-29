@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-ricecake-2042
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-itch-8056
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load cuda/12.1 nccl/cuda-11.7/2.14.3 clang/15.0

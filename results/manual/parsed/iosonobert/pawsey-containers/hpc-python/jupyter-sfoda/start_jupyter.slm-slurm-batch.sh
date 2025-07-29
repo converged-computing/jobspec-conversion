@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter_notebook
-#FLUX: -c=8
-#FLUX: --queue=work
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter_notebook
+#SBATCH --account=pawsey0106
+#SBATCH --output=jupyter-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=08:00:00
+#SBATCH --partition=work
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_BINDPATH='$MYSOFTWARE:$MYSOFTWARE,$MYSCRATCH:$MYSCRATCH,/run:/run,$HOME:$HOME '
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

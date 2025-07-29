@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_plain
-#FLUX: -N=4
-#FLUX: -c=14
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=amg2013_plain
+#SBATCH --account=p_readex
+#SBATCH --output=amg2013_plain.out
+#SBATCH --error=amg2013_plain.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --mem=2200M
+#SBATCH --time=00:30:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 cd ..
 module purge

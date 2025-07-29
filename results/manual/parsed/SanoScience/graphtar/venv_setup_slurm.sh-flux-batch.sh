@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=venv_setup
-#FLUX: --queue=plgrid-now
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=venv_setup
+#FLUX --queue=plgrid-now
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module add .plgrid
 module add plgrid/apps/cuda/11.1.1-gcc-10.2.0

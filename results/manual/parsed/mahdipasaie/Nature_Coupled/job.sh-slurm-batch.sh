@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-rabbit-9182
-#FLUX: -n=14
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-oforion
+#SBATCH --nodes=1
+#SBATCH --ntasks=14
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10000M
+#SBATCH --time=7-00:00:00
 
 module load StdEnv/2020
 module load gcc/9.3.0

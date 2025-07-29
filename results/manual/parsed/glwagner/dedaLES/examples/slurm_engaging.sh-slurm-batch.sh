@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=merge
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=merge
+#SBATCH --output=job_%j.out
+#SBATCH --error=job_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=01:00:00
+#SBATCH --partition=sched_mit_hill
+#SBATCH --constraint=ntasks-per-node=16
 
 . /home/glwagner/software/miniconda3/etc/profile.d/conda.sh
 conda activate dedalus

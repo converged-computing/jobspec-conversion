@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vulchecker_prepare_data
-#FLUX: -c=2
-#FLUX: --queue=gpu-tk
-#FLUX: --urgency=16
+#SBATCH --job-name=vulchecker_prepare_data
+#SBATCH --account=tk-student
+#SBATCH --output=/ukp-storage-1/schroeder_e/vulchecker_prepare_data.txt
+#SBATCH --mail-user=marco.schroeder@stud.tu-darmstadt.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --partition=gpu-tk
 
 export PATH='/ukp-storage-1/schroeder_e/ninja:$PATH'
 

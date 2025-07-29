@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid
+#SBATCH --account=def-raymond
+#SBATCH --output=data/%x-%j.out
+#SBATCH --mail-user=mvasmer@pitp.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=0-59
 
 pwd
 echo "SLURM_JOB_ID=$SLURM_JOB_ID"

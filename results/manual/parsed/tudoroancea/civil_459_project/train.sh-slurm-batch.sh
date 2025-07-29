@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mtr
-#FLUX: -c=20
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=mtr
+#SBATCH --account=civil-459-2023
+#SBATCH --output=mtr.out
+#SBATCH --error=mtr.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64G
+#SBATCH --time=15:00:00
 
 set -x
 while true

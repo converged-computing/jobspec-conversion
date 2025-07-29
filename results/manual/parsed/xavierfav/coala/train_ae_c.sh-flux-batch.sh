@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rep-learning
-#FLUX: --queue=gpu
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=rep-learning
+#FLUX --queue=gpu
+#FLUX -t=252000
+#FLUX --urgency=16
 
 printf "[----]\n"
 printf "Starting execution of job $SLURM_JOB_ID from user $LOGNAME\n"

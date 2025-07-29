@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=norbench
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=norbench
+#SBATCH --account=ec30
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --mem=7G
+#SBATCH --time=23:00:00
+#SBATCH --partition=accel
 
 module purge
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/

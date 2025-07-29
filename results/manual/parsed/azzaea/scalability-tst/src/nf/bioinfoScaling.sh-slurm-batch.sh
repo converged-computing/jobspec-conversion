@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-frito-1212
-#FLUX: --urgency=16
+#SBATCH --mail-user=azzaea@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module load Java/15.0.1 # For working on biocluster- change for AWS
 echo "Analysis done on: "

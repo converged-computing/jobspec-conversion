@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cinnamonbun-9886
-#FLUX: --queue=PA40q
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=PA40q
+#SBATCH --nodelist=node07
 
 export CUDA_VISIBLE_DEVICES='1'
 

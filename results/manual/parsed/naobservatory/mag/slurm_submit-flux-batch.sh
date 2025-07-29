@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fudge-3572
-#FLUX: -n=4
-#FLUX: --queue=sched_mit_hill
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-signal-1095
+#FLUX -n=4
+#FLUX --queue=sched_mit_hill
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load jdk/18.0.1.1
 module load singularity/3.7.0

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=peakAnalysis
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=peakAnalysis
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

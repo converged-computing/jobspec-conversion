@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-knife-8330
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-noodle-3604
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_ABCD_main_step3_fluid_intelligence_cleaned_split1.pbs

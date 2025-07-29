@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=orca_run
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#SBATCH --job-name=orca_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16gb
+#SBATCH --partition=intel
 
 export MODULEPATH='/opt/easybuild/modules/all'
 export OMP_NUM_THREADS='4'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=demand_scenarios
-#FLUX: --queue=community.q
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=demand_scenarios
+#SBATCH --output=logs/%A_%a.out
+#SBATCH --error=logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6400
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=community.q
+#SBATCH --array=1-40
 
 scen_name=$(awk -v line="${SLURM_ARRAY_TASK_ID}" -v field="2" 'NR==line{print $field}' scenarios_2018_04_29_theta01.txt)
 echo "Solving scenario $scen_name."

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-squidward-1227
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-rabbit-1266
+#FLUX --urgency=16
 
 source /usr/local/gromacs/bin/GMXRC
 j=0

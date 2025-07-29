@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_TASK_AFFINITY_TEST
-#FLUX: --exclusive
-#FLUX: --queue=c16s
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_TASK_AFFINITY_TEST
+#SBATCH --account=jara0001
+#SBATCH --output=sbatch_output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=c16s
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export KMP_TASK_STEALING_CONSTRAINT='0'
 export OMP_PLACES='cores'

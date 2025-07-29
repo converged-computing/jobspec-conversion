@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ex3modules_intel_xeon_gold_6130
-#FLUX: -c=64
-#FLUX: --queue=xeongold16q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ex3modules_intel_xeon_gold_6130
+#SBATCH --output=slurm/ex3/jobs/%j-%x-out.txt
+#SBATCH --error=slurm/ex3/jobs/%j-%x-err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=xeongold16q
 
 JOBS=$((${SLURM_NTASKS}*${SLURM_CPUS_PER_TASK}))
 echo "SLURM_JOB_NAME=${SLURM_JOB_NAME}" >&2

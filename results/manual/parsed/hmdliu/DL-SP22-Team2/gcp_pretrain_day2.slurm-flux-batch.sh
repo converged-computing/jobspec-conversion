@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -c=24
+#FLUX --job-name=torch
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=n1c24m128-v100-4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=n1c24m128-v100-4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

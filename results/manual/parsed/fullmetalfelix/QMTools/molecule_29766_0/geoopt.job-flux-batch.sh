@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=go_16
-#FLUX: -c=10
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=go_16
+#FLUX -c=10
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export PSI_SCRATCH='/tmp/'

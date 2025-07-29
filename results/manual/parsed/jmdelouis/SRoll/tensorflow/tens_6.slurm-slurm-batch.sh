@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sroll4
-#FLUX: -N=6
-#FLUX: -n=144
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=sroll4
+#SBATCH --nodes=6
+#SBATCH --ntasks=144
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=118000
+#SBATCH --time=00:10:00
+#SBATCH --constraint=HSW24,ntasks-per-node=24
 
 export OMP_NUM_THREADS='1'
 export MXM_TLS='self,shm,rc'

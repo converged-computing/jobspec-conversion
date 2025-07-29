@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-butter-5559
-#FLUX: -c=5
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-cupcake-5373
+#FLUX -c=5
+#FLUX -t=21600
+#FLUX --urgency=16
 
 ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1
 ml Python/3.6.6

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lentil-2511
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=wildfire
-#FLUX: -t=173520
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-hope-9355
+#FLUX -N=2
+#FLUX -n=4
+#FLUX --queue=wildfire
+#FLUX -t=173520
+#FLUX --urgency=16
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Color_Classification

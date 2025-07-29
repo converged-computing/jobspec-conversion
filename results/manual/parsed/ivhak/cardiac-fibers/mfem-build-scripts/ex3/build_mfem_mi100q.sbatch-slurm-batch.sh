@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=build-mfem-mi100q
-#FLUX: -n=4
-#FLUX: --queue=mi100q
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=build-mfem-mi100q
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=mi100q
+#SBATCH --nodelist=n004
 
 MFEM_BUILD_DIR=./build-mi100q
 MFEM_INSTALL_DIR=/global/D1/homes/iverh/packages/mi100q/mfem-4.5

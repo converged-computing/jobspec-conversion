@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Ltools
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Ltools
+#FLUX -t=600
+#FLUX --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

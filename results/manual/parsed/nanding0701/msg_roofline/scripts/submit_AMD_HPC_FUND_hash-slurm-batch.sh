@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=8
-#FLUX: --queue=mi1008x
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=mi1008x
 
 module use /share/bpotter/modulefiles/
 module load rocshmem/1.6.3

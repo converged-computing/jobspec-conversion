@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=biomachina
-#FLUX: --urgency=16
+#FLUX --job-name=biomachina
+#FLUX --urgency=16
 
 set -e
 for ARGUMENT in "$@"

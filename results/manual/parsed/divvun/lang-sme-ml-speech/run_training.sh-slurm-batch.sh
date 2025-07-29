@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TestGPUOnSaga
-#FLUX: --queue=accel
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#SBATCH --job-name=TestGPUOnSaga
+#SBATCH --account=nn9866k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=11:50:00
+#SBATCH --partition=accel
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cluster/projects/nn9866k/extra/lib'
 

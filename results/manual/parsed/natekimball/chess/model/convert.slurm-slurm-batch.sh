@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-osmi
-#FLUX: --queue=bii-gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=train-osmi
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=%u-%j.out
+#SBATCH --error=%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=bii-gpu
+#SBATCH --constraint=a100_80gb
 
 module load anaconda
 conda activate chess

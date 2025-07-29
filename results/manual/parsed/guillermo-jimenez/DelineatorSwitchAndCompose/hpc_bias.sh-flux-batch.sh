@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DelBias
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#FLUX --job-name=DelBias
+#FLUX --queue=medium
+#FLUX --urgency=16
 
 ORIGINAL_SLURM_ARRAY_TASK_ID=$SLURM_ARRAY_TASK_ID;
 WINDOW_SIZE=20;

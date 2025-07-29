@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-8402
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pCT-collaboration/topas_pCT/pCT/Preprocessing.sh

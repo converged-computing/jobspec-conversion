@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemur-2433
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-noodle-4420
+#FLUX --urgency=16
 
 mkdir -p out
 mkdir -p slurm

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Cifar10-4node
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Cifar10-4node
+#SBATCH --account=TRAINING-OPEN
+#SBATCH --output=Cifar10-4node.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

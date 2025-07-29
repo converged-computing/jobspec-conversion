@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nf-cellranger_mkref_(1)
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-cellranger_mkref_(1)
+#SBATCH --output=/users/bop20pp/personal_git/MeioticDrive2022/nextflow/work/88/bd23563a52ceb2a6d11d3775072983/.command.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=65536M
+#SBATCH --time=04:00:00
+#SBATCH --chdir=/users/bop20pp/personal_git/MeioticDrive2022/nextflow/work/88/bd23563a52ceb2a6d11d3775072983
+#SBATCH: --no-requeue
 
 set -e
 set -u

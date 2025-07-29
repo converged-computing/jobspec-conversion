@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=nprior_20_111
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=nprior_20_111
+#SBATCH --account=rrg-ebrahimi
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=SLRUMReport@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=127000M
+#SBATCH --time=00:08:00
+#SBATCH --constraint=ntasks-per-node=32
 
 export TORCH_HOME='$SLURM_TMPDIR/Pytorch_zoo'
 

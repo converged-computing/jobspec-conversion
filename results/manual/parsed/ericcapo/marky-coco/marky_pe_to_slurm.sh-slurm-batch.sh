@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-taco-9146
-#FLUX: -n=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=snic2021-5-53
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 chmod +x workflow/genesearch.sh
 sample="$1"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dist_google_benchmark
-#FLUX: -N=128
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=dist_google_benchmark
+#FLUX -N=128
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export WORKON_HOME='~/Envs'
 export ROOT_DIR='/scratch/snx3000/youyang9/fjr/tf_workspace/large-scale-tensorflow-benchmark'

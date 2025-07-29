@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ZINC_BB_known
-#FLUX: --queue=amd-short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ZINC_BB_known
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=amd-short
+#SBATCH --array=0-99
 
 CURRENT_ARRAY=$((SLURM_ARRAY_TASK_ID))
 echo "Current array index: $CURRENT_ARRAY"

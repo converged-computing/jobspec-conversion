@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=coverage_scaff3
-#FLUX: --queue=small
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=coverage_scaff3
+#SBATCH --account=project_2001443
+#SBATCH --output=/scratch/project_2001443/bam/logs/coverage_scaff3_%j.out
+#SBATCH --error=/scratch/project_2001443/bam/logs/coverage_scaff3_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=small
+#SBATCH --array=1-91
 
 module load biokit
 cd /scratch/project_2001443

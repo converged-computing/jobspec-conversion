@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-2161
-#FLUX: -c=5
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-poo-4917
+#FLUX -c=5
+#FLUX --urgency=16
 
 echo test1
 module load anaconda/2020b cuda/10.2 nccl/2.5.6-cuda10.2

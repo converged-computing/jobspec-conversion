@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wps-wrf
-#FLUX: -n=2
-#FLUX: --queue=longjobs
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=wps-wrf
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --mail-user=<user>@<domain>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=longjobs
 
 module load namd/2.13-gcc_CUDA
 namd2 ubq_ws_eq.conf

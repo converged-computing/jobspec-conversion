@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=n00n
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=n00n
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load 2021
 module load Julia/1.6.1-linux-x86_64

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Accs2Runaccs
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Accs2Runaccs
+#SBATCH --account=XXXXXXXXXXXXXXXX
+#SBATCH --output=Accs2Runaccs_%A.out
+#SBATCH --error=Accs2Runaccs_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1
 
 dirtemplate='/path/to/cloned/repo/Bioproj2Lineage/' # this should point to the cloned github repo! 
 bioproj='PRJNA736718'

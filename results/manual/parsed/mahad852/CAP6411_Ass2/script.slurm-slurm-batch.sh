@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GPU-Example
-#FLUX: -c=2
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=GPU-Example
+#SBATCH --mail-user=ma649596@ucf.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --time=23:59:59
 
 module load anaconda/anaconda3
 source /apps/anaconda/anaconda3/etc/profile.d/conda.sh

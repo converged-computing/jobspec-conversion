@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=spa_flow
-#FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=spa_flow
+#SBATCH --account=lu2020-2-7
+#SBATCH --output=lunarc_output/spa_flow_%j.out
+#SBATCH --error=lunarc_output/spa_flow_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=lu
+#SBATCH: --exclusive
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

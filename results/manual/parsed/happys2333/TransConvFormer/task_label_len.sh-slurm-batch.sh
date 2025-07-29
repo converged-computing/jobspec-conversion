@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_transConv
-#FLUX: --queue=gpulab02
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch_transConv
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpulab02
+#SBATCH --qos=gpulab02
+#SBATCH --constraint=ntasks-per-node=6
 
 env_name="trans"
 seq_lens=(336)

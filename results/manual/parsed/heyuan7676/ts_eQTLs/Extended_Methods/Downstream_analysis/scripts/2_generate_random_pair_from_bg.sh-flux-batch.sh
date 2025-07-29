@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fork-0865
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-avocado-7183
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source ./GLOBAL_VAR.sh
 module load python/2.7

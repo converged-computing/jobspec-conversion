@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-5911
-#FLUX: -c=6
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-leader-7949
+#FLUX -c=6
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 your_folder=/share/home/xudeshu/ #本人所在的根目录
 input_folder=/data/xudeshu/HSCR_bulk_RNA_data/ # 原始数据目录

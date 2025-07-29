@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NAMD-cpu
-#FLUX: -c=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=NAMD-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
 
 module load namd/3.06b.cpu
 cd $SLURM_SUBMIT_DIR

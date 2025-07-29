@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=process
-#FLUX: --queue=shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=process
+#FLUX --queue=shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 protname="1UBQ" 
 traj="traj.xtc"

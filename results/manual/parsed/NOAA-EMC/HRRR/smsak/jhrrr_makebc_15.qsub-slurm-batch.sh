@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-toaster-6849
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/smsak/jhrrr_makebc_15.qsub

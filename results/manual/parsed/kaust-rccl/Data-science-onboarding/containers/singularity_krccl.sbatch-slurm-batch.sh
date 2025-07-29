@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lentil-3786
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export SINGULARITY_TMPDIR='/ibex/user/$USER/TMPDIR'
 export SINGULARITY_CACHEDIR='/ibex/user/$USER/singularity_cache'

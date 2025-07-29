@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-eagle-1937
-#FLUX: -n=20
-#FLUX: --queue=stats.p
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-lamp-3699
+#FLUX -n=20
+#FLUX --queue=stats.p
+#FLUX -t=14400
+#FLUX --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county
 Rscript scripts/tidy_posterior_predictive_and_generated_quantities.R

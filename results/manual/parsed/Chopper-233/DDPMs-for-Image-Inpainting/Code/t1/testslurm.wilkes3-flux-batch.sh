@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=slurm-script-test
-#FLUX: --queue=ampere
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=slurm-script-test
+#FLUX --queue=ampere
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

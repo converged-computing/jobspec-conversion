@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=build_kpi
-#FLUX: -c=11
-#FLUX: --queue=huce_cascade
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=build_kpi
+#SBATCH --output=%x_%j_%a.out
+#SBATCH --mail-user=hnesser@g.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=11
+#SBATCH --mem=40000
+#SBATCH --time=00:03:00
+#SBATCH --partition=huce_cascade
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"
 DATA_DIR=${6}

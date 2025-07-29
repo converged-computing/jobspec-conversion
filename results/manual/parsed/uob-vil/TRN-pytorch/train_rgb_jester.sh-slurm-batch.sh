@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poodle-5293
-#FLUX: -c=5
-#FLUX: --queue=small
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-10:00:00
+#SBATCH --partition=small
 
 set -ex
 NPROC=$(nproc)

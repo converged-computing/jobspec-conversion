@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-sundae-2436
-#FLUX: -c=2
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
 
 export BASE_DIR='/mnt/beegfs/work/stfc/pearl008/intel-e2e-benchmark/case1'
 export RELION_IMG='$BASE_DIR/relion.sif'

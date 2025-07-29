@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-poodle-7875
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load octotiger

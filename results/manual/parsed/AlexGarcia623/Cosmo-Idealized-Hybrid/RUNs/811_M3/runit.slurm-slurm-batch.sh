@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=S811M3
-#FLUX: -n=512
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=S811M3
+#SBATCH --output=./output/output_%j.out
+#SBATCH --error=./output/error_%j.err
+#SBATCH --mail-user=j.rose@ufl.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3750mb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=hpg2-compute
+#SBATCH --qos=paul.torrey-b
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^vader,tcp,openib'

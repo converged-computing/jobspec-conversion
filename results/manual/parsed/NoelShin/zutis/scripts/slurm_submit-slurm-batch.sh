@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=coco20k_vit_b_16
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=coco20k_vit_b_16
+#SBATCH --account=T2-CS151-GPU
+#SBATCH --output=../logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

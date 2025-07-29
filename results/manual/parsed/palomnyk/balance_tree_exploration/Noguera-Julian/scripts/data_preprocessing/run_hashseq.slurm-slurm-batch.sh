@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hashseq
-#FLUX: --queue=Orion
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=hashseq
+#SBATCH --output=/users/amyerke/slurmLogs/Noguera-Julian_%x.%j.out
+#SBATCH --error=/users/amyerke/slurmLogs/Noguera-Julian_%x.%j.out
+#SBATCH --mail-user=amyerke@uncc.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500gb
+#SBATCH --time=05:00:00
+#SBATCH --partition=Orion
+#SBATCH --constraint=ntasks-per-node=1
 
 echo Job: $SLURM_JOB_NAME with ID $SLURM_JOB_ID
 echo Running on host: `hostname`

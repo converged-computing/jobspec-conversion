@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GroupByKNL
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=32
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=GroupByKNL
+#SBATCH --output=GroupByKNL-%j.out
+#SBATCH --error=GroupByKNL-%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=knl,quad,cache
+#SBATCH --licenses=SCRATCH
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'
 export SPARK_HOME='/opt/spark'
@@ -13,6 +16,9 @@ export SPARK_CONF_DIR='/global/homes/n/nchaimov/groupby-shifter-test/conf-knl'
 export MASTER='`hostname`'
 export SPARK_WORKER_CORES='32'
 
+singularity
+exec
+docker:nchaimov/spark202-shifter:v8
 ulimit -n 32768
 ulimit -u 32768
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle"

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=blip_graph_test
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=blip_graph_test
+#SBATCH --account=dune
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=gpu
+#SBATCH --array=0-9
+#SBATCH --dependency=<optimize_blip_graph_prep_id>
 
 export LOCAL_SCRATCH='/pscratch/sd/${USER:0:1}/${USER}/$SLURM_JOB_ID/$SLURM_ARRAY_TASK_ID'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=job_22
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=job_22
+#SBATCH --output=std-out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1,v100s
 
 export OMP_NUM_THREADS='10'
 

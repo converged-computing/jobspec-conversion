@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-1589
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=R-%x.out.%j
+#SBATCH --error=R-%x.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=12400
+#SBATCH --time=1-00:00:00
 
 export PYTHONPATH='$OUT/rtg.zip'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-house-1899
+#FLUX --job-name=misunderstood-snack-8032
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export MAX_STEPS='100'
 export NCCL_ALGO='RING'

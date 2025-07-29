@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=colmap_%j
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=colmap_%j
+#SBATCH --output=colmap_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:GTX1080Ti:4
+#SBATCH --mem=64G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

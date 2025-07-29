@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=motif_intersection
-#FLUX: -n=5
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=motif_intersection
+#FLUX -n=5
+#FLUX --queue=cm2_tiny
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

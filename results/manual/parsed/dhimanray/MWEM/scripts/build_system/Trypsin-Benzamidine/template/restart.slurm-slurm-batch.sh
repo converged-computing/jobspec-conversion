@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=milestoning
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=milestoning
+#SBATCH --account=andricio_lab
+#SBATCH --error=slurm-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=standard
 
 module load cuda/10.1.243
 module load namd/2.14b2/gcc.8.4.0-cuda.10.1.243

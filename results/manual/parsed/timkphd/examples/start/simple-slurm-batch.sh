@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quickStart
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=quickStart
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='4'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=transcripts
-#FLUX: --queue=componc_cpu,componc_gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=transcripts
+#SBATCH --output=slurm%j_snkmk.out
+#SBATCH --mail-user=preskaa@mskcc.org
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=componc_cpu,componc_gpu
 
 source /home/preskaa/miniconda3/bin/activate nf-core
 module load singularity/3.7.1

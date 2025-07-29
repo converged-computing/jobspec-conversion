@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=medical
-#FLUX: -c=4
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=medical
+#SBATCH --output=MRI%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=rtx_a5000:1
+#SBATCH --mem=64G
+#SBATCH --time=6-23:00:00
+#SBATCH --qos=batch
 
 pyenv activate venv
 module load cuda

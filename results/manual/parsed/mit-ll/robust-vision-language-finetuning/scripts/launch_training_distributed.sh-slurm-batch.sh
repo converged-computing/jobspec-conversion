@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leopard-7272
-#FLUX: -N=4
-#FLUX: --exclusive
-#FLUX: --queue=gaia
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:2
+#SBATCH --partition=gaia
+#SBATCH: --exclusive
+#SBATCH --constraint=xeon-g6,ntasks-per-node=2
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

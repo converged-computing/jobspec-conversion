@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=xtc
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=xtc
+#FLUX -c=8
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='./envs/$PROJECT_NAME/.cache/matplotlib/'
 export HF_DATASETS_CACHE='./envs/$PROJECT_NAME/.cache/huggingface/'

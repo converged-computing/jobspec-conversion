@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-toaster-2643
-#FLUX: -c=4
-#FLUX: --queue=cox
-#FLUX: -t=840
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-buttface-2938
+#FLUX -c=4
+#FLUX --queue=cox
+#FLUX -t=840
+#FLUX --urgency=16
 
 echo "#############SETUP#############"
 echo ""

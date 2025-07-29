@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ex1
-#FLUX: --queue=burst
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=ex1
+#SBATCH --account=ebf11-fa23_p_gpu
+#SBATCH --output=ex1_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=8GB
+#SBATCH --time=00:15:00
+#SBATCH --partition=burst
+#SBATCH --qos=burst4x
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

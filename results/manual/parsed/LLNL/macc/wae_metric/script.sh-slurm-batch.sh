@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-ricecake-8051
-#FLUX: --queue=pbatch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=lbpm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=pbatch
 
 source ~/.bashrc
 source activate tfgpu

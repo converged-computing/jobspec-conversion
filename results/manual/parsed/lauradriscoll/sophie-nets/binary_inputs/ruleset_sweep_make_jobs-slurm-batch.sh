@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_task
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sweep_task
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
 
 rnn_type_array=("LeakyRNN")
 activation_array=("softplus")

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-0668
-#FLUX: -n=4
-#FLUX: --queue=maxwell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-hobbit-2076
+#FLUX -n=4
+#FLUX --queue=maxwell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 setpkgs -a tensorflow_0.12
 source activate FCN

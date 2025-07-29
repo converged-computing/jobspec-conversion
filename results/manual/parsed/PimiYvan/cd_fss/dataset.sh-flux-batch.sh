@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia_smi
-#FLUX: -c=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=nvidia_smi
+#FLUX -c=16
+#FLUX -t=300
+#FLUX --urgency=16
 
 export CUDA_AVAILABLE_DEVICES='0  # 0,1 if you want to use say 2 gpus you ask for'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_nf
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=test_nf
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load  Nextflow/23.04.2
 module load Anaconda3/5.3.0

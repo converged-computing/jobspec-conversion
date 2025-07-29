@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=srun-launcher
-#FLUX: -N=2
-#FLUX: -c=10
+#FLUX --job-name=srun-launcher
+#FLUX -N=2
+#FLUX -c=10
 #FLUX: --exclusive
-#FLUX: --queue=xyz-cluster
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=xyz-cluster
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'
 export MASTER_PORT='6000'

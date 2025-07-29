@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=VCFtoMAF
-#FLUX: -n=8
-#FLUX: --queue=core
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=VCFtoMAF
+#SBATCH --account=snic2021-22-358
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=core
 
 export NXF_OFFLINE='TRUE'
 export NXF_HOME='/castor/project/proj/nobackup/nf-core2/nf-core-sarek-2.7.1/workflow/'

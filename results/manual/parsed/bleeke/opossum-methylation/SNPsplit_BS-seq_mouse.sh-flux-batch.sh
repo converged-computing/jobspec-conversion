@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SNPsplit
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SNPsplit
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "IT HAS BEGUN"
 date

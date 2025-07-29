@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mb_DaPars2-%A-%a
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=mb_DaPars2-%A-%a
+#FLUX -t=518400
+#FLUX --urgency=16
 
 module load gcc/8.2.0
 module load python/anaconda2.7-4.4.0_genomics

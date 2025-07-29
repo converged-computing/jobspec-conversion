@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ensemble
-#FLUX: --queue=orion
-#FLUX: --urgency=16
+#SBATCH --job-name=ensemble
+#SBATCH --output=outputs/ensemble-%A.out
+#SBATCH --error=outputs/ensemble-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=orion
+#SBATCH --constraint=avx2
 
 module load singularity
 if [ $# -lt 2 ];

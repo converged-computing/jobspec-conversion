@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_mnist
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch_mnist
+#FLUX -n=4
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export WANDB_MODE='offline'
 

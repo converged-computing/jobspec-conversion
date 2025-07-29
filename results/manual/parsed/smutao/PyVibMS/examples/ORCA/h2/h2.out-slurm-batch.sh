@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: --exclusive
-#FLUX: --queue=standard-mem-s,standard-mem-m,standard-mem-l,medium-mem-1-s,medium-mem-1-m,medium-mem-1-l,high-mem-1,gpgpu-1,high-mem-2
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example_%j.out
+#SBATCH --error=example_%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=250G
+#SBATCH --partition=standard-mem-s,standard-mem-m,standard-mem-l,medium-mem-1-s,medium-mem-1-m,medium-mem-1-l,high-mem-1,gpgpu-1,high-mem-2
+#SBATCH: --exclusive
 
 cat ${0}
 inpf="h2.inp"

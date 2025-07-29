@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Matlab-mcr-job
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=Matlab-mcr-job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000M
+#SBATCH --time=03:00:00
+#SBATCH --partition=compute
 
 MCR=/global/software/matlab/mcr/v93
 module load mcr/mcr

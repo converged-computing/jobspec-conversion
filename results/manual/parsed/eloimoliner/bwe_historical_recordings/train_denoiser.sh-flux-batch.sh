@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=training_array_metrics
-#FLUX: -c=10
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#FLUX --job-name=training_array_metrics
+#FLUX -c=10
+#FLUX -t=259199
+#FLUX --urgency=16
 
 module load anaconda 
 source activate /scratch/work/molinee2/conda_envs/2022_torchot

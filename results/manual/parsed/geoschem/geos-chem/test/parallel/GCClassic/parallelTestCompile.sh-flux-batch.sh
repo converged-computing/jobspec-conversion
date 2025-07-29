@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-train-4099
-#FLUX: -c=8
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-salad-4211
+#FLUX -c=8
+#FLUX --queue=REQUESTED_PARTITION
+#FLUX -t=30
+#FLUX --urgency=16
 
 ptRoot=$(cd ..; pwd)
 . "${ptRoot}/scripts/commonFunctionsForTests.sh"

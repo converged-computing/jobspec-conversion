@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test-warpx
-#FLUX: -N=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=test-warpx
+#SBATCH --account=csc340
+#SBATCH --output=test-warpx.output
+#SBATCH --error=test-warpx.error
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 module load craype-accel-amd-gfx90a
 module load rocm/5.1.0

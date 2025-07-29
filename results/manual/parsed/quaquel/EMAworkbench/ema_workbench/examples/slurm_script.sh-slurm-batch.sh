@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Python_test
-#FLUX: -n=8
-#FLUX: --queue=compute
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=Python_test
+#SBATCH --account=research-tpm-mas
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4GB
+#SBATCH --time=00:06:00
+#SBATCH --partition=compute
 
 module load 2023r1
 module load openmpi

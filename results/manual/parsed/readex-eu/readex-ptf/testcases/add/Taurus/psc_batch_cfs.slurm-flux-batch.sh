@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=add
-#FLUX: -n=16
-#FLUX: --queue=haswell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=add
+#FLUX -n=16
+#FLUX --queue=haswell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MPI_JOB
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI_JOB
+#SBATCH --account=nesi00119
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=00:59:00
+#SBATCH --constraint=sb
 
 export LD_LIBRARY_PATH='/projects/nesi00119/code/JWR_petsc/petsc-3.5.4/linux-intel/lib:$LD_LIBRARY_PATH'
 

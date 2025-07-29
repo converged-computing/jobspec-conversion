@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-salad-9287
-#FLUX: --queue=cortex
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-general-6502
+#FLUX --queue=cortex
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MODULEPATH='/global/software/sl-6.x64_64/modfiles/apps:$MODULEPATH'
 

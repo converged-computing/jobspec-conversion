@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-5474
-#FLUX: -n=40
-#FLUX: --urgency=16
+#SBATCH --account=PAS1960
+#SBATCH --output=Run_Outputs/%x/Errs_And_Outs/XF_Outputs/XF_%a.output
+#SBATCH --error=Run_Outputs/%x/Errs_And_Outs/XF_Errors/XF_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
 
 module load xfdtd/7.10.2.3 #7.9.2.2
 module load cuda

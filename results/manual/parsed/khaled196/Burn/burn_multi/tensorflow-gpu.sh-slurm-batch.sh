@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CNN_Burn
-#FLUX: -c=40
-#FLUX: --queue=Nvidia
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=CNN_Burn
+#SBATCH --account=43299_sp0039
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem=180000
+#SBATCH --time=06:00:00
+#SBATCH --partition=Nvidia
 
 module load tensorflow-gpu
 RUNDIR=/storage02/43299_sp0039/burn_multi/

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lemon-8090
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-lettuce-6067
+#FLUX -t=131400
+#FLUX --urgency=16
 
 sbcmd="sbatch --ntasks=1 --cpus-per-task={threads} --mem={resources.mem_mb}"
 sbcmd+=" --time={resources.runtime} --output=[Working Iliad Directory]/logs/{rule}.{wildcards}.o"

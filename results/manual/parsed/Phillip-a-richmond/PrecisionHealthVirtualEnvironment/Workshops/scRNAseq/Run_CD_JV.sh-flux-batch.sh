@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-7047
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-leopard-0055
+#FLUX -c=8
+#FLUX --queue=defq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PASSWORD='$(openssl rand -base64 8)'
 export LANG='en_US.UTF-8'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=1_process_data
-#FLUX: -c=256
-#FLUX: --queue=parallel
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=1_process_data
+#SBATCH --output=%x_%j_12H.out
+#SBATCH --error=%x_%j_12H.err
+#SBATCH --mail-user=daniel.wrench@vuw.ac.nz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=256
+#SBATCH --mem=150G
+#SBATCH --time=07:00:00
+#SBATCH --partition=parallel
 
 module load GCC/11.3.0
 module load OpenMPI/4.1.4

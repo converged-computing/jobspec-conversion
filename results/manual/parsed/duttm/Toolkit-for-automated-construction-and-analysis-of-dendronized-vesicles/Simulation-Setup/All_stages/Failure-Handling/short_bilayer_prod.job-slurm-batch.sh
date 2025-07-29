@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=G1_Bialyer_Basic
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=G1_Bialyer_Basic
+#SBATCH --account=rut129
+#SBATCH --output=output.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=249325M
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMPI_MCA_btl='self,vader'
 export OMP_NUM_THREADS='4'

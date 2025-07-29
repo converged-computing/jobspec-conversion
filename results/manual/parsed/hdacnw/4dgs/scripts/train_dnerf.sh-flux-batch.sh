@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-banana-1209
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-buttface-6322
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CUDA_HOME='/opt/common/cuda/cuda-11.8.0/'
 export LD_LIBRARY_PATH='/opt/common/cudnn/cudnn-11.x-8.8.0.121/lib64:/opt/common/cuda/cuda-11.8.0/lib64'

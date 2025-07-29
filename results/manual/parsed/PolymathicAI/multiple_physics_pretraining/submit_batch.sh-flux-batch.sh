@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='6'

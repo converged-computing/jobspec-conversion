@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=small
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=small
+#FLUX -c=3
+#FLUX --queue=gpu_shared
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/IR2'
 

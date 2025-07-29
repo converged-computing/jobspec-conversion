@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BUILD
-#FLUX: -c=2
-#FLUX: --queue=kipac
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=BUILD
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=25G
+#SBATCH --time=02:00:00
+#SBATCH --partition=kipac
 
 ml python/3.9
 ml py-scipy/1.6.3_py39

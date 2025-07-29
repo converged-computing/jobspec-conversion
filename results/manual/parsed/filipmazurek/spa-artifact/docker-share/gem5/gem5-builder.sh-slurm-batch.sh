@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-5372
-#FLUX: -c=9
-#FLUX: --urgency=16
+#SBATCH --output=compilation.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --mem=1024
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/hpc/group/brownlab/fjm7/miniconda3/envs/gem5_env/lib'
 

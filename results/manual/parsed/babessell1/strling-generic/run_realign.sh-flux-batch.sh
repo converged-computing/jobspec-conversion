@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=realign
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=realign
+#FLUX --queue=standard
+#FLUX -t=172800
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda init bash

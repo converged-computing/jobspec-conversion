@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-2179
-#FLUX: --queue=gpu2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=resnet50-singularity-bs512-ngpu4.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8000
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

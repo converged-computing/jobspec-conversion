@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=clf
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=clf
+#SBATCH --mail-user=ag4508@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=2-02:00:00
 
 module load python/intel/2.7.12
 module load pytorch/0.2.0_1

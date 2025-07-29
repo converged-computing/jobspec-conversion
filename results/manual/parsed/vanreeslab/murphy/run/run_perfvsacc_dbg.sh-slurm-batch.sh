@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-taco-4400
-#FLUX: --queue=sched_mit_wvanrees
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --time=12:00:00
+#SBATCH --partition=sched_mit_wvanrees
+#SBATCH --constraint=ntasks-per-node=36
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=corrn_gpu_job
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=corrn_gpu_job
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load  cuda/11.8.0 
 module load  eth_proxy

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peas-5105
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-lemon-0457
+#FLUX -t=10800
+#FLUX --urgency=16
 
 nvidia-smi
 ml Anaconda3

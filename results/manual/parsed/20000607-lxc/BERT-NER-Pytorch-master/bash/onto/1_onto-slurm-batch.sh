@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=1_bert
-#FLUX: -c=8
-#FLUX: --queue=rtx8000,v100
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=1_bert
+#SBATCH --output=./1_onto.o
+#SBATCH --error=./1_onto.e
+#SBATCH --mail-user=318112194@qq.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=00:08:00
+#SBATCH --partition=rtx8000,v100
 
 cd /scratch/zt2080/shizhe/eres/BERT-NER-Pytorch-master
 python run_ner_softmax.py --model_type=bert\

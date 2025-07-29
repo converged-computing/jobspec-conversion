@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-squidward-3862
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sufyazi/tfbs-variant-calling-nf/run-cluster-submit-remaind-rerun-trunc.pbs

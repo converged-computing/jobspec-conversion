@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cat-2218
-#FLUX: --queue=compsci-gpu
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-bicycle-4652
+#FLUX --queue=compsci-gpu
+#FLUX -t=864000
+#FLUX --urgency=16
 
 source /usr/xtmp/vs196/mammoproj/Env/trainenv2/bin/activate
 echo "start running"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-citrus-4557
-#FLUX: -n=10
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=hello-cupcake-6216
+#FLUX -n=10
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/opt/lammps-7Aug19_nnp_plumed/lib/nnp/lib'
 

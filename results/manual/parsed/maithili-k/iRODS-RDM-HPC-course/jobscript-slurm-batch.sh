@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-ricecake-9470
-#FLUX: --queue=short
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:04:00
+#SBATCH --partition=short
 
 cd $HOME/iRODS-RDM-HPC-course
 rodscoll='/surfZone1/home/irods-user1/YOUR OUTPUT COLLECTION'

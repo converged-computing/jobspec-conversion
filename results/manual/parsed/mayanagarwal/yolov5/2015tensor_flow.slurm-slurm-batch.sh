@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-kitty-6253
-#FLUX: --queue=shortgpgpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=hpcadmingpgpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=shortgpgpu
 
 module purge
 source /usr/local/module/spartan_old.sh

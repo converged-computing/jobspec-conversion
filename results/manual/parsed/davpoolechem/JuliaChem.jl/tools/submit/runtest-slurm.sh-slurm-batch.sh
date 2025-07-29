@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=juliachem-runtest
-#FLUX: -c=16
-#FLUX: --queue=haswell
-#FLUX: --urgency=16
+#SBATCH --job-name=juliachem-runtest
+#SBATCH --output=juliachem-runtest.log
+#SBATCH --error=juliachem-runtest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=haswell
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='16'
 

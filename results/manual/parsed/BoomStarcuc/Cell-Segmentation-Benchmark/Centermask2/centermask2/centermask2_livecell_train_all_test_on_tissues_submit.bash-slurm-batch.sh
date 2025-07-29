@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cinnamonbun-9779
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 declare -a arr=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 RESNEST_ROOT_DIR='centermask2'

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=20210601
-#FLUX: -N=8
-#FLUX: -n=1024
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=20210601
+#SBATCH --output=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_mpas.o%j
+#SBATCH --error=/mnt/beegfs/julio.fernandez/MPAS/testcase/runs/GFS2/2021060100/logs/my_job_mpas.e%j
+#SBATCH --nodes=8
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
 
 export executable='atmosphere_model'
 export PMIX_MCA_gds='hash'

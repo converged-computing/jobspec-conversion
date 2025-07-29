@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gsfe
-#FLUX: --queue=cm3atou
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gsfe
+#SBATCH --output=lmp_gsfe.out
+#SBATCH --error=lmp_gsfe.err
+#SBATCH --mail-user=youremailaddress@yourinstitution.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cm3atou
+#SBATCH --constraint=ntasks-per-node=4
 
 cd ${SLURM_SUBMIT_DIR}
 module load intel/2022a

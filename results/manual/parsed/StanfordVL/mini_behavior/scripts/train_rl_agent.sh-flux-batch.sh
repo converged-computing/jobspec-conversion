@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mini_bh_prelim
-#FLUX: -c=4
-#FLUX: --queue=svl
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=mini_bh_prelim
+#FLUX -c=4
+#FLUX --queue=svl
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.1/lib64:/usr/lib/x86_64-linux-gnu'
 

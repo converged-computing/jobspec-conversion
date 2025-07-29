@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=glimpse
-#FLUX: --queue=amd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=glimpse
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=1
 
 module load nextflow/22.04.3
 module load any/singularity/3.11.1

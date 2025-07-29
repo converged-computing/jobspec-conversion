@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-gato-2518
-#FLUX: -c=4
-#FLUX: --queue=amd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-omelette-1032
+#FLUX -c=4
+#FLUX --queue=amd
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/drchajan/devel/python/FC/drchajan/src:/home/drchajan/devel/python/FC/fever-baselines/src:$PYTHONPATH'
 

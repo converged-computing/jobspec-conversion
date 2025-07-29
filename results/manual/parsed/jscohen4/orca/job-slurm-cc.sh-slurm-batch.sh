@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-6003
-#FLUX: -n=97
-#FLUX: --queue=high
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=97
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=high
 
 export PATH='<your path>:$PATH'
 

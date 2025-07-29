@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-blackbean-2476
-#FLUX: -n=8
-#FLUX: -c=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=3G
+#SBATCH --time=00:15:00
 
 MEMORY_PER_TASK=$(( $SLURM_CPUS_PER_TASK*$SLURM_MEM_PER_CPU ))
 echo SLURM_NTASKS: $SLURM_NTASKS  

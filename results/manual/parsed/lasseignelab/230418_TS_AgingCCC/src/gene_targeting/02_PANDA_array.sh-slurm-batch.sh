@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PANDA
-#FLUX: --queue=largemem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=PANDA
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --mail-user=${USER}@uab.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=255000
+#SBATCH --time=12:00:00
+#SBATCH --partition=largemem
+#SBATCH --array=0-7
 
 module load Singularity/3.5.2-GCC-5.4.0-2.26
 wd="${USER_DATA}/projects/230418_TS_AgingCCC/"

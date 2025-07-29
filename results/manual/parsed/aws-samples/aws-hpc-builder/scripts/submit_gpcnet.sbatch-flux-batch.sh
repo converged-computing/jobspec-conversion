@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leopard-6914
-#FLUX: -N=10
+#FLUX --job-name=doopy-lemon-9415
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: --queue=c7gnpg
-#FLUX: --urgency=16
+#FLUX --queue=c7gnpg
+#FLUX --urgency=16
 
 export GPCNET_VERSION='git'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=REPLACE_JOB_NAME
-#FLUX: -c=4
-#FLUX: --queue=deep
-#FLUX: --urgency=16
+#SBATCH --job-name=REPLACE_JOB_NAME
+#SBATCH --output=REPLACE_OUTPUT_PATH-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64000
+#SBATCH --partition=deep
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

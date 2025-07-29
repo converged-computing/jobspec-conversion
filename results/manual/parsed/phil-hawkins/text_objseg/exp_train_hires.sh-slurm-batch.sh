@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-3935
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/phil-hawkins/text_objseg/exp_train_hires.sh

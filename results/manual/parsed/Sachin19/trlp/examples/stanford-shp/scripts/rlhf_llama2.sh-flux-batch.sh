@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-1724
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-cinnamonbun-9768
+#FLUX -t=0
+#FLUX --urgency=16
 
 module load cuda-11.1.1 cudnn-11.1.1-v8.0.4.30
 module load gcc-7.4

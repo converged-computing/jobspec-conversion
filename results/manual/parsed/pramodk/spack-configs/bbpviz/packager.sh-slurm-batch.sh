@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=build
-#FLUX: --exclusive
-#FLUX: --queue=interactive
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=build
+#SBATCH --account=proj16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=interactive
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export IFORTCFG='$HOME/spackconfig/bbpviz/cfg/ifort.cfg'
 export ICPCCFG='$HOME/spackconfig/bbpviz/cfg/icc.cfg'

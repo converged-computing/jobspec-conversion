@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rts_setup
-#FLUX: --queue=workq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=rts_setup
+#FLUX --queue=workq
+#FLUX -t=600
+#FLUX --urgency=16
 
 module use /pawsey/mwa/software/python3/modulefiles
 module load python-singularity

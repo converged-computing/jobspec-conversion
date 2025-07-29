@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gfn
-#FLUX: -n=420
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gfn
+#SBATCH --output=greenfn.out
+#SBATCH --error=greenfn.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=420
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 cd $SCRATCH/jobs
 julia="$PROJECT/julia-1.6.1/bin/julia"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spinel
-#FLUX: -N=8
-#FLUX: -n=1024
-#FLUX: --queue=i8cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=spinel
+#SBATCH --nodes=8
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=i8cpu
 
 echo start AL sample
 srun -n 8 abics_mlref input.toml >> abics_mlref.out

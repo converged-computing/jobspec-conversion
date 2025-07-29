@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dphubert
-#FLUX: -c=16
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=dphubert
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=240000M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=ntasks-per-node=4
 
 set -x
 tsv_dir=data/librispeech        # data path

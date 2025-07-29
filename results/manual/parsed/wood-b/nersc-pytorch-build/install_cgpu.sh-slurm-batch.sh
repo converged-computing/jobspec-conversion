@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-plant-4768
-#FLUX: -c=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=slurm-build-cgpu-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=04:00:00
+#SBATCH --constraint=gpu
 
 set -e -o pipefail
 source config_cgpu.sh $@

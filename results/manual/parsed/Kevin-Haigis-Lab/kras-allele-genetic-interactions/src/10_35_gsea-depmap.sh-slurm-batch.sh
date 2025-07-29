@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-kitty-8888
-#FLUX: -c=2
-#FLUX: --queue=short
-#FLUX: -t=270
-#FLUX: --urgency=16
+#SBATCH --output=logs/gsea-slurm/gsea_%A_%a.log
+#SBATCH --error=logs/gsea-slurm/gsea_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=00:04:30
+#SBATCH --partition=short
 
 module load gcc java
 GSEA_PATH=/home/jc604/mysoftware/gsea-3.0.jar

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leader-9338
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 CURDIR=`pwd`
 for ENV in swimmer swimmer_large block block_large wheeled wheeled_large waypoint waypoint_large; do

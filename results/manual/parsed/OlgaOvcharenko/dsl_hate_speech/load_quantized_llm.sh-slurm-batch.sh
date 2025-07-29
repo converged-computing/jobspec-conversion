@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lamp-0956
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=logs/log-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpumem:32G
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

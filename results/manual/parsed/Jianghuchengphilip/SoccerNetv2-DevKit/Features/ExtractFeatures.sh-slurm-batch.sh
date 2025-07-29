@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SN_feat
-#FLUX: -c=4
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --job-name=SN_feat
+#SBATCH --output=log/%x.%3a.%A.out
+#SBATCH --error=log/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=45G
+#SBATCH --time=03:59:00
+#SBATCH --array=0-549
 
 date
 echo "Loading anaconda..."

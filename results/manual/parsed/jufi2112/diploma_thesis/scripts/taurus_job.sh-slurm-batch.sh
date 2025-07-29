@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=grid_search_sequential_seed_1431
-#FLUX: --queue=ml
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=grid_search_sequential_seed_1431
+#SBATCH --account=p_da_studenten
+#SBATCH --output=/scratch/ws/1/s8732099-da/slurm_output/grid_search_sequential_seed_1431_normal.out
+#SBATCH --error=/scratch/ws/1/s8732099-da/slurm_output/grid_search_sequential_seed_1431_error.out
+#SBATCH --mail-user=julien.fischer@mailbox.tu-dresden.de
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000M
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=ml
 
 export PYTHONPATH='$PYTHONPATH:/scratch/ws/1/s8732099-da/git/gaea_release/AutoDL-Projects'
 

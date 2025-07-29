@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Event_fix
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Event_fix
+#SBATCH --account=GEO111
+#SBATCH --output=Event_fix.%J.o.txt
+#SBATCH --error=Event_fix.%J.e.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Landspill Utah Hill Maya
-#FLUX: --queue=defq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Landspill Utah Hill Maya
+#SBATCH --output=slurm-job-%j.out
+#SBATCH --error=slurm-job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=40
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='20'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=str_sh_rnaseq
-#FLUX: -c=24
-#FLUX: --queue=teramem_inter
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=str_sh_rnaseq
+#SBATCH --output=/gpfs/scratch/pr63la/ra52noz2/%x.%j.%N.out
+#SBATCH --mail-user=adam.sorbie@med.uni-muenchen.de
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=250gb
+#SBATCH --time=16:00:00
+#SBATCH --partition=teramem_inter
+#SBATCH --chdir=/gpfs/scratch/pr63la/ra52noz2
 
 export OMP_NUM_THREADS='24'
 

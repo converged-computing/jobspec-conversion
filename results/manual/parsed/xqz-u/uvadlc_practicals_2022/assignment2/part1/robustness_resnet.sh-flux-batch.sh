@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=robustness_resnet
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=robustness_resnet
+#FLUX --queue=gpu_shared_course
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load 2021

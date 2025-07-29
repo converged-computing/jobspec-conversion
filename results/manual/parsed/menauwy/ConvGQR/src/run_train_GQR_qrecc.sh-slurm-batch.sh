@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_qrecc
-#FLUX: -c=10
-#FLUX: --queue=amd-gpu-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_qrecc
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4g.40gb:1
+#SBATCH --mem=100G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=amd-gpu-long
 
 conda init bash
 source ~/.bashrc

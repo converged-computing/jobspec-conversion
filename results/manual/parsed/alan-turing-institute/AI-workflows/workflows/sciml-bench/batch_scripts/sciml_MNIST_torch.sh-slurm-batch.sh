@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sciml_MNIST_torch
-#FLUX: --queue=%partition
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=sciml_MNIST_torch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=%partition
+#SBATCH --qos=%qos
 
 module purge
 module load %modules

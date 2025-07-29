@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chair-5957
-#FLUX: -n=8
-#FLUX: --queue=general
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-blackbean-6117
+#FLUX -n=8
+#FLUX --queue=general
+#FLUX -t=60
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

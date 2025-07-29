@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=0744m640
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=0744m640
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=16,haswell
+#SBATCH --licenses=SCRATCH
 
 export LEGACY_SURVEY_DIR='/global/cfs/cdirs/cosmo/work/legacysurvey/dr9m'
 export DUST_DIR='/global/cfs/cdirs/cosmo/data/dust/v0_1'
@@ -24,6 +26,9 @@ export MPICH_GNI_FORK_MODE='FULLCOPY'
 export KMP_AFFINITY='disabled'
 export MPICH_RANK_REORDER_METHOD='0'
 
+singularity
+exec
+docker:legacysurvey/legacypipe:mpi
 nmpi=48
 brick=0744m640
 outdir=/global/cscratch1/sd/dstn/dr9m-mpi

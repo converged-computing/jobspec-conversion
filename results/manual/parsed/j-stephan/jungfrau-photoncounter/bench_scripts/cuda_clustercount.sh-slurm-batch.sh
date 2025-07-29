@@ -1,10 +1,20 @@
 #!/bin/bash
-#FLUX: --job-name=ClusterCountGpu
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=fwkt_v100
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ClusterCountGpu
+#SBATCH --account=fwkt_v100
+#SBATCH --output=log.ob.slurm-%A_%a.out
+#SBATCH --error=err.ob.slurm-%A_%a.out
+#SBATCH --mail-user=j.schenke@hzdr.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200000
+#SBATCH --time=10:00:00
+#SBATCH --partition=fwkt_v100
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-8
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'
 export CUDA_VISIBLE_DEVICES='0'

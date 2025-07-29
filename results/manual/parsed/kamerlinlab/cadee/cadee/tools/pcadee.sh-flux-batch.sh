@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leg-4216
-#FLUX: -n=16
-#FLUX: --queue=node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-noodle-4671
+#FLUX -n=16
+#FLUX --queue=node
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CORES='4'
 export MACHINE_NAME='$(hostname)'

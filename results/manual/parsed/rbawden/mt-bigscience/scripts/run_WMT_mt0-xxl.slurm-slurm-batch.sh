@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wmt
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=wmt
+#SBATCH --account=ncm@v100
+#SBATCH --output=wmt_mt0-xxl_%j.out
+#SBATCH --error=wmt-mt0-xxl_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=12:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf_hello
-#FLUX: --queue=express
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tf_hello
+#FLUX --queue=express
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4  

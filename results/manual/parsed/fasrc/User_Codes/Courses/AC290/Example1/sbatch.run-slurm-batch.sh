@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_hello
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_hello
+#SBATCH --output=mpi_hello.out
+#SBATCH --error=mpi_hello.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:00:30
+#SBATCH --partition=shared
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}
 PRO=mpi_hello

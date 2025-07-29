@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=impute2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=impute2
+#SBATCH --output=impute2_%A_%a.out
+#SBATCH --error=impute2_%A_%a.err
+#SBATCH --mail-user=emmarg@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-32
 
 module load conda 
 conda activate /Genomics/argo/users/emmarg/miniforge3/envs/impute2

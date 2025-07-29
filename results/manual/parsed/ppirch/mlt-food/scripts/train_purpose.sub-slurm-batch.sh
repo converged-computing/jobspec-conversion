@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_purpose
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_purpose
+#SBATCH --output=./outs/%x.jobid-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
 
 module load anaconda3
 source activate food-regression

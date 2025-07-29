@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-6629
-#FLUX: --queue=lycium
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-cherry-5006
+#FLUX --queue=lycium
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${SLURM_SUBMIT_DIR}/src/'
 

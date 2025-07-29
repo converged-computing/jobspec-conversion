@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=-gpu
-#FLUX: -N=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=-gpu
+#SBATCH --account=s1183
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=8,gpu
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export NO_STOP_MESSAGE='1'

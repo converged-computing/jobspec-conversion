@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-omelette-4773
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-egg-8810
+#FLUX -t=21600
+#FLUX --urgency=16
 
 input_base_path="/scratch/gpfs/jbreda/ephys/kilosort/W122/preprocessed_W122_19523713" 
 repo_path="/scratch/gpfs/jbreda/ephys/kilosort/Brody_Lab_Ephys"

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-2327
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/ci-neb/ts2-old/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20_replicas-5/run.slurm

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-staircase-1338
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-eagle-7695
+#FLUX --urgency=16
 

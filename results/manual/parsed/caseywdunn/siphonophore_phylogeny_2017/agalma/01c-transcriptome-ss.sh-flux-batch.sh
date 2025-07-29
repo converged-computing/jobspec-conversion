@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-8065
-#FLUX: -c=20
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-squidward-5031
+#FLUX -c=20
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export AGALMA_DB='/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite'
 export BIOLITE_RESOURCES='threads=${SLURM_CPUS_ON_NODE},memory=${SLURM_MEM_PER_NODE}M'

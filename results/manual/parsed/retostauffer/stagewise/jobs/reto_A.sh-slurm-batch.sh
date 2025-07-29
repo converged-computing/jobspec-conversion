@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=retoA
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=retoA
+#SBATCH --output=slurm-%x-%j_%a.out
+#SBATCH --error=slurm-%x-%j_%a.err
+#SBATCH --mail-user=Reto.Stauffer@uibk.ac.at
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:05:00
 
 export SINGULARITY_BIND='/home/c403/c4031021/stagewise:/stagewise'
 

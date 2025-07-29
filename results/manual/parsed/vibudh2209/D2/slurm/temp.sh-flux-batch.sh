@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phase_3
-#FLUX: -n=3
-#FLUX: -c=64
-#FLUX: --urgency=16
+#FLUX --job-name=phase_3
+#FLUX -n=3
+#FLUX -c=64
+#FLUX --urgency=16
 
 t_nod=$2
 if [ $t_nod == 64 ];then t_nod=48;fi

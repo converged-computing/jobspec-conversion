@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-blackbean-7647
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-cat-6768
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

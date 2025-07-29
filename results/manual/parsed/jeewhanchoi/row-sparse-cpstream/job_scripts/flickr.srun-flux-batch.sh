@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cc
-#FLUX: -c=56
-#FLUX: --queue=fat
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=cc
+#FLUX -c=56
+#FLUX --queue=fat
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export KMP_AFFINITY='granularity=fine,compact,1'
 export OMP_NUM_THREADS='56'

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-general-8734
-#FLUX: -n=4
-#FLUX: --queue=small
-#FLUX: -t=4210
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:10:10
+#SBATCH --partition=small
 
 module load maestro parallel
 "$SCHRODINGER/pipeline" -prog mydb phase_inputWnjC.inp -OVERWRITE -HOST localhost:4 -NJOBS 4 -WAIT

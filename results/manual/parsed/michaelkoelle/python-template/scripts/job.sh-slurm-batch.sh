@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cinnamonbun-4095
-#FLUX: --queue=All
-#FLUX: --urgency=16
+#SBATCH --mail-user=<INSERT
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=All
 
 export WANDB_SILENT='true'
 

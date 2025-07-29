@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=atac2BigWig
-#FLUX: --queue=kellis
-#FLUX: --urgency=16
+#SBATCH --job-name=atac2BigWig
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=kellis
+#SBATCH --array=1-646%20
 
 export sample='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $1 }')'
 export celltype='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $2 }')'

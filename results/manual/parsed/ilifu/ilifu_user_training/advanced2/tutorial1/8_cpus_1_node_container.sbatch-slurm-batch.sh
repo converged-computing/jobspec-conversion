@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=8-cpus-1-node-container
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=8-cpus-1-node-container
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=00:01:00
+#SBATCH --constraint=ntasks-per-node=8
 
 echo "Submitting SLURM job: simple_mpi.py using Singularity container over 8 cores & 1 node"
 module add mpich/3.3a2

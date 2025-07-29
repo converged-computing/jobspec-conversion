@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-motorcycle-9055
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=03:00:00
 
 canu=/data/lowelab/edotau/software/canu/Linux-amd64/bin/canu
 module add java/9-gcb01

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=4docc
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=4docc
+#SBATCH --output=log/eval_%j.out
+#SBATCH --error=log/eval_%j.err
+#SBATCH --mail-user=xl3136@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=96GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /scratch/$USER/Occ4D/baselines/4docc
 singularity exec --nv \

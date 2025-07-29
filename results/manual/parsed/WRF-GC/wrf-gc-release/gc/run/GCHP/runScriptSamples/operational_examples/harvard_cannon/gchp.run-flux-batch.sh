@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-sundae-0919
-#FLUX: -N=2
-#FLUX: -n=96
+#FLUX --job-name=stinky-noodle-9710
+#FLUX -N=2
+#FLUX -n=96
 #FLUX: --exclusive
-#FLUX: --queue=seas_compute
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --queue=seas_compute
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMPI_MCL_btl='openib'
 

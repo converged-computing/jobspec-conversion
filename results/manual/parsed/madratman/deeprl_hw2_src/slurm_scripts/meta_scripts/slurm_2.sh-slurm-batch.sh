@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-destiny-1359
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=log_2.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8192
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --nodelist=clamps
 
 uname -a                                          # Display assigned cluster info
 srun echo "I am on"

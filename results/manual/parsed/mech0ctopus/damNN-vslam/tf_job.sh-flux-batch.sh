@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lizard-9730
-#FLUX: -n=6
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=milky-leg-7864
+#FLUX -n=6
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/gcc-8.2.0/3.7.6
 module load cuda10.1/toolkit/10.1.105

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=langevin_overdamped
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=langevin_overdamped
+#SBATCH --output=langevin_overdamped
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50g
+#SBATCH --partition=normal
 
 echo "Loading module"
 echo "Loaded module. Running python"

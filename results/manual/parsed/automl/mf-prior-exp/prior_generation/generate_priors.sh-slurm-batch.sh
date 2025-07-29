@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=priors-mfpbench
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=priors-mfpbench
+#SBATCH --output=logs/%a.log
+#SBATCH --error=logs/%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=03:00:00
+#SBATCH --partition=bosch_cpu-cascadelake
+#SBATCH --array=0-4
 
 WORKDIR="/work/dlclarge1/mallik-mf-prior/mf-prior-exp"
 PRIORDIR="${WORKDIR}/src/mf-prior-bench/priors"

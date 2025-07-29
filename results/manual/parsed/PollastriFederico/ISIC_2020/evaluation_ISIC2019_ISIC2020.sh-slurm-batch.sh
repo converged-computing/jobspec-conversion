@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ISIC
-#FLUX: --queue=prod
-#FLUX: --urgency=16
+#SBATCH --job-name=ISIC
+#SBATCH --output=/homes/sallegretti/standard_output/evaluation_ISIC2019%a_o.txt
+#SBATCH --error=/homes/sallegretti/standard_error/evaluation_ISIC2019%a_e.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=prod
+#SBATCH --array=1
+#SBATCH --exclude=aimagelab-srv-10,softechict-nvidia
 
 module load anaconda3
 if [ "$SLURM_ARRAY_TASK_ID" -eq "1" ]; then

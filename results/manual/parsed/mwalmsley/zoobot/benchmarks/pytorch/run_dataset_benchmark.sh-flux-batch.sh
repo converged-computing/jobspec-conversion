@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pastry-9349
-#FLUX: -c=24
+#FLUX --job-name=cowy-ricecake-6331
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTORCH_KERNEL_CACHE_PATH='/share/nas2/walml/.cache/torch/kernels'

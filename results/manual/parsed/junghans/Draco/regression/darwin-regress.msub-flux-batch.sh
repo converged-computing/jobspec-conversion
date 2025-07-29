@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-noodle-2728
-#FLUX: --queue=haswell
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-noodle-3715
+#FLUX --queue=haswell
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export VENDOR_DIR='/usr/projects/draco/vendors'
 export CXX='`which mpiicpc`'

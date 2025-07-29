@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=iql_discrete
-#FLUX: -n=32
-#FLUX: --urgency=16
+#FLUX --job-name=iql_discrete
+#FLUX -n=32
+#FLUX --urgency=16
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

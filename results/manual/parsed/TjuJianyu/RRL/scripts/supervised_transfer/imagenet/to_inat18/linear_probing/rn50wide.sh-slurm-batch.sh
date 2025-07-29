@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_supervised_rn50wide_lineareval_bn
-#FLUX: -c=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_supervised_rn50wide_lineareval_bn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-47
 
 i=0;
 for wd in 1e-6 1e-5 1e-4;

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=distr_TF
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=distr_TF
+#FLUX -c=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

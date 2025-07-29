@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-ricecake-3183
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=flair_ont_subsample.out
+#SBATCH --mail-user=du.m@wehi.edu.au
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=50G
+#SBATCH --time=2-00:00:00
 
 module load anaconda3
 source activate

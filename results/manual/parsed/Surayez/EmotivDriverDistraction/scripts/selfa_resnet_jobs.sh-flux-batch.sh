@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SelfA_ResNet
-#FLUX: --queue=m3f
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=SelfA_ResNet
+#FLUX --queue=m3f
+#FLUX -t=72000
+#FLUX --urgency=16
 
 problem=Emotiv266
 model=SelfA_ResNet

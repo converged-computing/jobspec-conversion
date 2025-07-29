@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-citrus-2428
-#FLUX: -n=32
-#FLUX: --queue=_______
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=_______
+#SBATCH --output=mixcr_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000000
+#SBATCH --time=02:00:00
+#SBATCH --partition=_______
+#SBATCH --array=1-21
 
 module load java
 output=bcr/output

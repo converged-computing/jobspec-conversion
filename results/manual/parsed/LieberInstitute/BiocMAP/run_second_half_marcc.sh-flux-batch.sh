@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lentil-9843
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-butter-1591
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

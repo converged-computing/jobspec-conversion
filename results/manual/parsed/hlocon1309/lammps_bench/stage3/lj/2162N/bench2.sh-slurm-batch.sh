@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kerfuffle-3933
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --account=proj_1371
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
+#SBATCH --constraint=type_b
+#SBATCH --nodelist=cn-[017,018]
 
 module load openmpi/4.1.4
 module load CUDA/11.7

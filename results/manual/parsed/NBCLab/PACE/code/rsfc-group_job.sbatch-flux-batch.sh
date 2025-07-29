@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=amygdala
-#FLUX: -c=6
-#FLUX: --queue=bluemoon
-#FLUX: -t=106200
-#FLUX: --urgency=16
+#FLUX --job-name=amygdala
+#FLUX -c=6
+#FLUX --queue=bluemoon
+#FLUX -t=106200
+#FLUX --urgency=16
 
 pwd; hostname; date
 set -e

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=find_lr
-#FLUX: -c=96
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=booster
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=find_lr
+#SBATCH --account=prcoe12
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH --partition=booster
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

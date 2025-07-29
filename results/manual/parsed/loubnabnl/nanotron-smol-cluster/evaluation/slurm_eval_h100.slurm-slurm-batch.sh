@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-6275
-#FLUX: -c=48
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=50
+#SBATCH --output=/fsx/loubna/logs/leaderboard/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:4
+#SBATCH --partition=hopper-prod
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='HF_HUB_ENABLE_HF_TRANSFER=1 ACCELERATE_LOG_LEVEL=info TRANSFORMERS_VERBOSITY=info accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

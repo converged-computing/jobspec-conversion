@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=training_ubresnet
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=training_ubresnet
+#SBATCH --output=log_training_ubresnet.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2500
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-5
+#SBATCH --nodelist=pgpu03
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-larbys-pytorch/singularity-larbys-pytorch-0.3-larcv1-nvidia384.66.img
 WORKDIR_IN_CONTAINER=/cluster/kappa/wongjiradlab/twongj01/ubresnet/training/workdir

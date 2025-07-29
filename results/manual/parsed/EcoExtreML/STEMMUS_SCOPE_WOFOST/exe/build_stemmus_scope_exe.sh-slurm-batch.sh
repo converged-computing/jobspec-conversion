@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stemmus_scope
-#FLUX: -c=32
-#FLUX: --queue=thin
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=stemmus_scope
+#SBATCH --output=./slurm_%j.out
+#SBATCH --error=./slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:05:00
+#SBATCH --partition=thin
 
 set -euo pipefail
 module load 2021

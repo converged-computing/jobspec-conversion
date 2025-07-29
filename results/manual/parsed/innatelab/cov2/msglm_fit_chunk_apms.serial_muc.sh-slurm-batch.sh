@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ast_cov2_msglm_apms
-#FLUX: -c=8
-#FLUX: --queue=serial_std
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ast_cov2_msglm_apms
+#SBATCH --output=/gpfs/scratch/pn69ha/ge68wan2/logs/cov2/msglm_fit_%A_%a.%N.log
+#SBATCH --mail-user=alexey.stukalov@tum.de
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=serial_std
+#SBATCH --constraint=ntasks-per-socket=1
 
 source /etc/profile.d/modules.sh
 module load charliecloud

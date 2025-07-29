@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GnuParallel
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=GnuParallel
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

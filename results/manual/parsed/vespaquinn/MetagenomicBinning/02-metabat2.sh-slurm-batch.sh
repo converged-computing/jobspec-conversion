@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=metabat2
-#FLUX: -c=16
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=metabat2
+#SBATCH --output=/!!WORKDIR!!/errorOut/metabat2_out.o
+#SBATCH --error=/!!WORKDIR!!/errorOut/metabat2_error.e
+#SBATCH --mail-user=user@unibe.ch
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=1-12:00:00
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=idMissing
-#FLUX: --queue=ckpt
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=idMissing
+#SBATCH --account=csde-ckpt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=00:15:00
+#SBATCH --partition=ckpt
+#SBATCH --constraint=ntasks-per-node=1
 
 export TZ='America/Los_Angeles'
 

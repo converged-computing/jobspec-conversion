@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cice-qc
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cice-qc
+#FLUX --queue=compute
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE'

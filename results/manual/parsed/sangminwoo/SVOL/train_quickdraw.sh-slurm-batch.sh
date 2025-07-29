@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-sundae-5152
-#FLUX: --queue=part1
-#FLUX: --urgency=16
+#SBATCH --output=./logs/%j_out.txt
+#SBATCH --error=./logs/%j_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=part1
 
 root=/mnt/server15_hard2/sangmin/data/svol/
 anno_root=/mnt/server15_hard2/sangmin/data/svol/annos/

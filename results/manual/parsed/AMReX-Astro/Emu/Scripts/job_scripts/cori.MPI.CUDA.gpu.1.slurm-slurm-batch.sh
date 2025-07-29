@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=emu_gpu_test
-#FLUX: -c=10
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=emu_gpu_test
+#SBATCH --account=m3018
+#SBATCH --mail-user=eugene.willcox@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

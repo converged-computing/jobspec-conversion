@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-5555
-#FLUX: -n=29
-#FLUX: --queue=batch
-#FLUX: -t=174000
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-cupcake-9346
+#FLUX -n=29
+#FLUX --queue=batch
+#FLUX -t=174000
+#FLUX --urgency=16
 
 module load singularity
 mkdir $1

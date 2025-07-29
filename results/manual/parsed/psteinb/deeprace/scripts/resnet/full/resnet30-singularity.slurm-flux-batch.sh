@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-parrot-7450
-#FLUX: --queue=gpu2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pedo-2279
+#FLUX --queue=gpu2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

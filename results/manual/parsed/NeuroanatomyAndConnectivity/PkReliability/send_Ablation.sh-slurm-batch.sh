@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=AblationAnalysis
-#FLUX: -c=3
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=AblationAnalysis
+#SBATCH --output=./logs/AblationAnalysis-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=short
+#SBATCH --constraint=skl-compat
+#SBATCH --array=1-912:1
 
 SUBJECT_LIST=./text_files/subjectsWithParietalPeak.txt
 module load Python/3.9.6-GCCcore-11.2.0

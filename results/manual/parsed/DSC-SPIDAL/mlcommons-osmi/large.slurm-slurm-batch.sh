@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-sundae-0095
-#FLUX: --queue=bii-gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --account=bii_dsc_community
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=bii-gpu
 
 source ~/.bashrc
 conda activate osmi

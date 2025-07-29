@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peas-1478
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-milkshake-5332
+#FLUX -n=4
+#FLUX --urgency=16
 
 pipe="fastq2bam"
 cwd=$1

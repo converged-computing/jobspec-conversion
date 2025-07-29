@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-0602
-#FLUX: -N=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=ncemhub
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export PYTHONUNBUFFERED='1'

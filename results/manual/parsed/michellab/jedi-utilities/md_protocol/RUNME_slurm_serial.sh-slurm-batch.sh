@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$pdb
-#FLUX: -n=16
-#FLUX: --queue=serial
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=$pdb
+#SBATCH --output=JEDI2_MDtest.out
+#SBATCH --error=JEDI2_MDtest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=serial
 
 function globexist # To check if ligands exist ([-e *GMX*] crashes if there is more than 1)
   {

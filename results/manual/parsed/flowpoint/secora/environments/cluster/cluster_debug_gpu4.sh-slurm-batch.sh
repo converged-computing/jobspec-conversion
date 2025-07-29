@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chip-7950
-#FLUX: --queue=gpu4
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/slurm_debug.%j.out
+#SBATCH --error=slurm_logs/slurm_debug.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --time=00:50:00
+#SBATCH --partition=gpu4
+#SBATCH --constraint=ntasks-per-node=32
 
 export HF_HOME='/scratch/fhoels2s/huggingface'
 export MASTER_ADDR='localhost'

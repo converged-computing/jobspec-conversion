@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-earthworm-3058
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-pastry-5704
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MASTER_PORT='$RANDOM'
 

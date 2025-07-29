@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-spoon-2409
-#FLUX: --queue=XAS
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-kitty-2959
+#FLUX --queue=XAS
+#FLUX --urgency=16
 
 export OCR_INSTALL='/home/rsalmon/dhome/fastfw/src/ocr/ocr/install'
 export APPS_ROOT='/home/rsalmon/dhome/fastfw/src/apps/apps'

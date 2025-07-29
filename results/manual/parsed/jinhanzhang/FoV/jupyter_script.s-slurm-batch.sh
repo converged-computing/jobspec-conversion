@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=jhfov
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#SBATCH --job-name=jhfov
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64GB
+#SBATCH --time=1-23:59:00
 
 module purge
 module load cudnn/8.6.0.163-cuda11

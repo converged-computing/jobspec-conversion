@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=roli-nvt
-#FLUX: -n=12
-#FLUX: -c=2
-#FLUX: --queue=GPU
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=roli-nvt
+#SBATCH --mail-user=telegram:5545394160
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=GPU
+#SBATCH --qos=elevated
 
 export USE_OPENMP='true'
 export NVT='nvt'

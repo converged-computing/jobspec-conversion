@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-arm-9648
-#FLUX: --queue=standard
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --account=indikar99
+#SBATCH --mail-user=cstansbu@umich.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 CONFIG='config/cluster'
 CORES=36

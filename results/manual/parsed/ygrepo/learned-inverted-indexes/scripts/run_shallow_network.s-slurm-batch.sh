@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=yg390
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=yg390
+#SBATCH --mail-user=yg390@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64GB
+#SBATCH --time=10:00:00
 
 module purge
 module load python3/intel/3.6.3

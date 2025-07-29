@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fcsgx
-#FLUX: --queue=milan
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=fcsgx
+#FLUX --queue=milan
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='/nesi/project/landcare03691/fcs-gx/scripts:$PATH'
 export TMPDIR='/nesi/nobackup/ga03048/fcsgx'

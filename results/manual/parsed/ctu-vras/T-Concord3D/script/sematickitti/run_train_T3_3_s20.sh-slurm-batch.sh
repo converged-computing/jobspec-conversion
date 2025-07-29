@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poo-4748
-#FLUX: -c=6
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=logs/run_train_T3_3_s20_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdgpulong
+#SBATCH --constraint=ntasks-per-node=1
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1
 ml PyTorch-Geometric/2.0.2-foss-2021a-CUDA-11.3.1-PyTorch-1.10.0

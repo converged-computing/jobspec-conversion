@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-1719
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=128
-#FLUX: --queue=knl
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=%j.stdout
+#SBATCH --error=%j.stderr
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=128
+#SBATCH --time=00:15:00
+#SBATCH --partition=knl
+#SBATCH --constraint=ntasks-per-node=1
 
 export KMP_AFFINITY='SCATTER'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

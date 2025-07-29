@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-bits-6199
-#FLUX: --queue=dcs-gpu
-#FLUX: -t=38400
-#FLUX: --urgency=16
+#SBATCH --account=dcs-res
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=190G
+#SBATCH --time=10:40:00
+#SBATCH --partition=dcs-gpu
 
 export CXX='g++'
 

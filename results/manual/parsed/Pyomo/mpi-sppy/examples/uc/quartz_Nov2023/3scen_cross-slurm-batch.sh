@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=3scen_cross
-#FLUX: --queue=pbatch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=3scen_cross
+#SBATCH --account=mpisppy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=pbatch
 
 export MPICH_ASYNC_PROGRESS='1'
 

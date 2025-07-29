@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-citrus-7727
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/kanha95/HPC-IIT-Delhi/pbsbatch.sh

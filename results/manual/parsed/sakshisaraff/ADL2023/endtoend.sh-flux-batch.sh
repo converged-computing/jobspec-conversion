@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=coursework
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=coursework
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module add python

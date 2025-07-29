@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nvt
+#SBATCH --output=nvt.out
+#SBATCH --error=nvt.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=02:00:00
+#SBATCH --qos=class_a
+#SBATCH --constraint=ntasks-per-node=24
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=c19
-#FLUX: --queue=dis
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=c19
+#SBATCH --account=CONDO
+#SBATCH --output=hpc_output_bdwall_two.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=dis
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-5
 
 set -eu
 mkdir -p $SLURM_SUBMIT_DIR/02_future_runs/outputs

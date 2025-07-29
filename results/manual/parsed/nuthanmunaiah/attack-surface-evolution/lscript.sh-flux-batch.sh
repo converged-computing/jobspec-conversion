@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-frito-1682
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-hobbit-0622
+#FLUX --queue=work
+#FLUX --urgency=16
 
 subject=$1
 cpus=$2

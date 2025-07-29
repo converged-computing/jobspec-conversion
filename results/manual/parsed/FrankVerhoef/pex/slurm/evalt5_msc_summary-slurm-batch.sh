@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Eval_MSC_Summary
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Eval_MSC_Summary
+#SBATCH --output=slurm/outputs/eval_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=5-12,37-40%4
 
 source ./slurm/.secrets
 module purge

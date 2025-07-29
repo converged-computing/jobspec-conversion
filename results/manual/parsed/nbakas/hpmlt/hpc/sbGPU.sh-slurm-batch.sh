@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-diablo-2665
-#FLUX: -n=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=${account_name}
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --qos=dev
+#SBATCH --constraint=ntasks-per-node=4
 
 module load env/staging/2022.1
 module load Python/3.10.4-GCCcore-11.3.0

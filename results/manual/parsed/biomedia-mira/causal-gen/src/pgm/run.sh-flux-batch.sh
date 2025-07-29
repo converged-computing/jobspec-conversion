@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-plant-7045
-#FLUX: -c=4
-#FLUX: --queue=gpus
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-hope-3405
+#FLUX -c=4
+#FLUX --queue=gpus
+#FLUX --urgency=16
 
 model_name='ukbb192_beta5_dgauss'
 exp_name=$model_name'-dscm'

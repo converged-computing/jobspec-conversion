@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cinnamonbun-0860
-#FLUX: -n=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --mail-user=jw983@jbs.cam.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=05:00:00
 
 module load python27-mpi4py/2.0.0
 module load miniconda2

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-soup-1332
-#FLUX: -c=128
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=debug
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=xpress
+#SBATCH --output=run/test.%j.out
+#SBATCH --error=run/test.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gpus-per-task=4
+#SBATCH --time=00:03:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export LCI_SERVER_MAX_SENDS='1024'
 export LCI_SERVER_MAX_RECVS='4096'

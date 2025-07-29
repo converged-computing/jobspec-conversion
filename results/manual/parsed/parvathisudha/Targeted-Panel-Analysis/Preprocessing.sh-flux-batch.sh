@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Test
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=Test
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module load bwa/0.7.12
 module load samtools/1.9

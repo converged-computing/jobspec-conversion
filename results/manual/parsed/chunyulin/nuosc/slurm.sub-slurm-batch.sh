@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nuosc
-#FLUX: -c=4
-#FLUX: --queue=gtest
-#FLUX: --urgency=16
+#SBATCH --job-name=nuosc
+#SBATCH --account=GOV109092
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --partition=gtest
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load nvhpc/21.7

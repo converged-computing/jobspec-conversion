@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-blackbean-2346
-#FLUX: --queue=shas
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --output=matlab_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=shas
+#SBATCH --qos=debug
 
 module purge
 module load matlab

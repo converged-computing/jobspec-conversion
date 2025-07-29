@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-6195
-#FLUX: -c=32
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=out-%x
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:20:00
 
 checkout="c901382c4c76b108e4e6d190e9236848dc764526" # 8 August 2022
 dir="kokkos-tools-mulan"

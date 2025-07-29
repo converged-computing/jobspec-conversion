@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmodeler_model
-#FLUX: -c=30
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=repeatmodeler_model
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=your.email@uconn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=50G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 hostname
 date

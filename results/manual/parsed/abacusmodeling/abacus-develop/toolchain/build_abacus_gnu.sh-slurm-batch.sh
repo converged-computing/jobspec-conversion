@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=build
-#FLUX: -n=16
-#FLUX: --urgency=16
+#SBATCH --job-name=build
+#SBATCH --output=install.log
+#SBATCH --error=install.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
 
 export PATH='${PREFIX}/bin":\${PATH}'
 

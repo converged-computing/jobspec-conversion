@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=forknet
-#FLUX: -N=2
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=forknet
+#SBATCH --output=./forknet_gpu_job.out.%j
+#SBATCH --error=./forknet_gpu_job.err.%j
+#SBATCH --mail-user=%u@cbs.mpg.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=92500
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpu,ntasks-per-node=1
+#SBATCH --chdir=.
 
 redis_password=$(uuidgen)
 export redis_password

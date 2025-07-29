@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cattywampus-0466
+#FLUX --job-name=confused-lemon-9067
 #FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 set -x
 env | grep "SLURMD_NODENAME="

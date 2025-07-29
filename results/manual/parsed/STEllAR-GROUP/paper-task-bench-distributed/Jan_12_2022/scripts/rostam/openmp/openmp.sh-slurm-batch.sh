@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=openmp_1node_%j
-#FLUX: -c=48
-#FLUX: --queue=buran
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=openmp_1node_%j
+#SBATCH --output=openmp-1node-%j.txt
+#SBATCH --error=error-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=00:50:00
+#SBATCH --partition=buran
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=buran01
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

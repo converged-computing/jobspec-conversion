@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lettuce-8355
-#FLUX: --urgency=16
+#SBATCH --output=delay_%j.out
+#SBATCH --error=delay_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export TOIL_SLURM_ARGS='--export=ALL --job-name delaycal -p normal'
 export SING_USER_DEFINED_PATH='$PTH'

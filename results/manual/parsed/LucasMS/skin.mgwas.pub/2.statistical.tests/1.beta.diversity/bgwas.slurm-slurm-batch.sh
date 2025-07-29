@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-egg-9329
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=/work_ifs/sukmb447/projects/skin.mgwas/results/2.statistical.tests/1.beta.diversity/log/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16gb
 
 cd $SLURM_SUBMIT_DIR
 module load miniconda2/4.6.14

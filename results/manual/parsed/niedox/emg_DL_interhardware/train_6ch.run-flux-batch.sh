@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-gato-5572
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-lettuce-9550
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 slmodules -s x86_E5v2_Mellanox_GPU
 module load gcc cuda cudnn mvapich2 openblas

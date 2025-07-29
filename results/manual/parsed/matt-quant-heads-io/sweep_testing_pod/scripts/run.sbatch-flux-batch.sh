@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sweep_test_%a
-#FLUX: --urgency=16
+#FLUX --job-name=sweep_test_%a
+#FLUX --urgency=16
 
 source /scratch/${USER}/overlay/env.sh
 conda activate sweep_testing_pod

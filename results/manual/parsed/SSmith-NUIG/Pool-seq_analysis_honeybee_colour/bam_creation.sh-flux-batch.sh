@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=align_col
-#FLUX: -n=8
-#FLUX: --urgency=16
+#FLUX --job-name=align_col
+#FLUX -n=8
+#FLUX --urgency=16
 
 source /home/ssmith/.bashrc
 source activate wgs_env

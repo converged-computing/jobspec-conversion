@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=train.%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-5
 
 conda_setup="/home/smg/$(whoami)/miniconda3/etc/profile.d/conda.sh"
 if [[ -f "${conda_setup}" ]]; then

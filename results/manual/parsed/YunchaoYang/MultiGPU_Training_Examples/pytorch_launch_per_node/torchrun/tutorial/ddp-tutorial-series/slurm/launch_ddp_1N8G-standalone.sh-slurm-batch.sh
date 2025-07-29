@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poodle-9820
-#FLUX: -c=16
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=24gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='WARN #change to INFO if debugging DDP'
 export LOGLEVEL='INFO'

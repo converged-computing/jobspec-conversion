@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ISO
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ISO
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PMIX_MCA_gds='hash'
 export LD_LIBRARY_PATH='\$LD_LIBRARY_PATH:${HOME}/local/lib64'

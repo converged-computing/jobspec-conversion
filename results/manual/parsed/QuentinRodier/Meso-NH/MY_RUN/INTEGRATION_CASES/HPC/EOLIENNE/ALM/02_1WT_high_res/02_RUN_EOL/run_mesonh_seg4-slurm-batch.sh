@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ALM2_024
-#FLUX: -N=32
-#FLUX: -n=2048
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=ALM2_024
+#SBATCH --output=ideal_fire.eo%j
+#SBATCH --error=ideal_fire.eo%j
+#SBATCH --nodes=32
+#SBATCH --ntasks=2048
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
 
 export MPIRUN='Mpirun -np 2048'
 

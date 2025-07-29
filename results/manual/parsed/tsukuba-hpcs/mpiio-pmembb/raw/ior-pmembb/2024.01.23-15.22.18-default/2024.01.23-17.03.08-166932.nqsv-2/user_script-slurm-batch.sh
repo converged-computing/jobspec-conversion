@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pancake-6535
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/ior-pmembb/2024.01.23-15.22.18-default/2024.01.23-17.03.08-166932.nqsv-2/user_script

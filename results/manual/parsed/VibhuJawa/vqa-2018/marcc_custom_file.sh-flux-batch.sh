@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-butter-1495
-#FLUX: -N=4
-#FLUX: -n=24
-#FLUX: --queue=gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-kitty-9788
+#FLUX -N=4
+#FLUX -n=24
+#FLUX --queue=gpu
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load cuda/9.0
 python test.py

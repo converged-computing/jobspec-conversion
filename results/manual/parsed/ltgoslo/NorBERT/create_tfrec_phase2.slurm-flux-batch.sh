@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BERT_TFR
-#FLUX: -n=8
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=BERT_TFR
+#FLUX -n=8
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export MAX_PR='77 # max predictions per sequence'
 export MAX_SEQ_LEN='512 # max sequence length (128 for the 1st phase, 512 for the 2nd phase)'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-citrus-1631
-#FLUX: -n=4
-#FLUX: -c=7
+#FLUX --job-name=butterscotch-frito-8710
+#FLUX -n=4
+#FLUX -c=7
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

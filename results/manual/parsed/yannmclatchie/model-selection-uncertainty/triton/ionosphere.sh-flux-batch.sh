@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-gato-3425
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-carrot-2380
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load r
 module load gcc/11.2.0

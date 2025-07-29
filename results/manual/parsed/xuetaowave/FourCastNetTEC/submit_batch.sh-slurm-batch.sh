@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=afno
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=GPU-8A100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=afno
+#SBATCH --output=afno_backbone_finetune.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:2
+#SBATCH --time=01:00:00
+#SBATCH --partition=GPU-8A100
+#SBATCH --qos=gpu_8a100
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

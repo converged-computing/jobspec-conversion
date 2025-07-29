@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-mango-1792
-#FLUX: --urgency=16
+#SBATCH --output=cluster_logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 umask 002
 snakemake --reason \

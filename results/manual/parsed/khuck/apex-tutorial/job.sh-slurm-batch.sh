@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-diablo-2995
-#FLUX: -c=8
-#FLUX: --queue=True
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=project_2006549
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=True
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='close'

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bits-3093
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --output=triton_run_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=16:00:00
+#SBATCH --array=1-4
 
 module load anaconda
 module load tensorflow

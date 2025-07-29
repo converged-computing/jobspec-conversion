@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cinnamonbun-1434
-#FLUX: -t=28801
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=38g
+#SBATCH --time=08:00:01
 
 ACCESSION=$1
 THREADS=$2

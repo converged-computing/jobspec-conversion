@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-kitty-3768
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=purple-pedo-7191
+#FLUX -t=86400
+#FLUX --urgency=16
 
 singularity exec --nv \
   --overlay /scratch/wz1492/overlay-25GB-500K.ext3:ro \

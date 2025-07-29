@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-2043
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-milkshake-4054
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AnyDSL/molecular-dynamics/md.sh

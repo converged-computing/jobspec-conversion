@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-cinnamonbun-1437
-#FLUX: -N=11
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-pot-9566
+#FLUX -N=11
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export JULIA_PROJECT='/home/dcs/csrxgb/julia_stuff/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/julia_stuff/cmdstan-2.23.0'

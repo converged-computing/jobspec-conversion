@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sft3b
-#FLUX: -c=16
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=sft3b
+#SBATCH --account=imi@a100
+#SBATCH --output=./out/out_finetune_llama3b-%A_%a.out
+#SBATCH --error=./out/out_finetune_llama3b-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=20:00:00
+#SBATCH --constraint=a100,ntasks-per-node=1
+#SBATCH --array=0,1,2,3,4,5
 
 module purge
 module load cpuarch/amd

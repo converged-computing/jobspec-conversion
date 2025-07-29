@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=e1f_data
-#FLUX: -n=28
-#FLUX: --queue=defq,BigMem,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
-#FLUX: --urgency=16
+#FLUX --job-name=e1f_data
+#FLUX -n=28
+#FLUX --queue=defq,BigMem,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
+#FLUX --urgency=16
 
 export CC='$(which gcc)'
 export CXX='$(which g++)'

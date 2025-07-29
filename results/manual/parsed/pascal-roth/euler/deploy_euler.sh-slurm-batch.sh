@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=imp_train-$(date +%Y-%m-%dT%H:%M)
-#FLUX: -c=16
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=imp_train-$(date +%Y-%m-%dT%H:%M)
+#SBATCH --mail-user=roth.pascal@outlook.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=rtx_3090:1
+#SBATCH --mem=4096
+#SBATCH --time=23:00:00
 
 COMMAND="export EXPERIMENT_DIRECTORY=/app/shared && python /app/shared/viplanner/viplanner/multi_env.py"  # multi_env.py"  # m2f_overfit.py"
 CODE_DIR="/cluster/project/rsl/rothpa/vip_project/viplanner"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-general-8636
-#FLUX: -N=3
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-salad-2418
+#FLUX -N=3
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stream
-#FLUX: --queue=standard
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=stream
+#SBATCH --account=e609
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 export STREAM_DIR='$(cd ${SLURM_SUBMIT_DIR}/../../ && pwd) '
 export IOCOMP_DIR='/work/e609/e609/shr203/opt/gnu/8.0.0/iocomp/2.0.0'

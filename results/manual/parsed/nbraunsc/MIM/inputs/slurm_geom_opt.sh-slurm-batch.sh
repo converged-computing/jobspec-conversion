@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-noodle-7960
-#FLUX: --queue=normal_q
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=nmayhall_group
+#SBATCH --mail-user=nbraunsc@vt.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal_q
 
 if [ -z ${HOME+x} ];
 then

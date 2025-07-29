@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=A100-Single-host
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --job-name=A100-Single-host
+#SBATCH --account=tkc@a100
+#SBATCH --output=a100-single.out
+#SBATCH --error=a100-single.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:04:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export MODULEPATH='$NVHPC/modulefiles:$MODULEPATH'
 

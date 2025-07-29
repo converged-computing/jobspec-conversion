@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-4375
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-buttface-4760
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load gcc # load a compiler (gcc/11.4.0)
 gcc -O3 -march=native -DSTREAM_TYPE=double -DSTREAM_ARRAY_SIZE=20000000 \

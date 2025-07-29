@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pot-5646
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-hobbit-2507
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FMInference/DejaVu/Decentralized_FM_alpha/coordinator/lsf/lsf_scripts/lsf_debug_global_coordinator.bsub

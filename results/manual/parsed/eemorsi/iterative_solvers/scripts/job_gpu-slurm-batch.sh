@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ITER_SOLVERS
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=ITER_SOLVERS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=skx6240L&mhz-2600
 
 export nvcudadir='$nvhome/$target/$version/cuda'
 export nvcompdir='$nvhome/$target/$version/compilers'

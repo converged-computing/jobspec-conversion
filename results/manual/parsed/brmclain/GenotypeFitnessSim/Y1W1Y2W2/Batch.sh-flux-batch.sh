@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bmmclainMPCY1W1Y2W2
-#FLUX: -n=48
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#FLUX --job-name=bmmclainMPCY1W1Y2W2
+#FLUX -n=48
+#FLUX -t=90000
+#FLUX --urgency=16
 
 module load python/3.9
 cd /project/meisel/users/bmmclain/Y1W1Y2W2

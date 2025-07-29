@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate bioinformatics

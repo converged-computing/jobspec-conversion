@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Re200_St0.6_AR1.91_psi90
-#FLUX: -N=4
-#FLUX: --queue=small-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Re200_St0.6_AR1.91_psi90
+#SBATCH --output=slurm-%j.out
+#SBATCH --error=slurm-%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=small-gpu
+#SBATCH --constraint=ntasks-per-node=20
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

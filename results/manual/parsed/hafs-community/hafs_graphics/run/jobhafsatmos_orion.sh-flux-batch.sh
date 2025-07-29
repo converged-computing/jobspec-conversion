@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=jobhafsgraph
-#FLUX: -N=12
+#FLUX --job-name=jobhafsgraph
+#FLUX -N=12
 #FLUX: --exclusive
-#FLUX: --queue=orion
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=orion
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export HOMEgraph='${HOMEgraph:-/mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics}'
 export USHgraph='${USHgraph:-${HOMEgraph}/ush}'

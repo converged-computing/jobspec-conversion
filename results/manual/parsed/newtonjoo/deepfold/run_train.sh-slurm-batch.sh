@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=logs/train.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "train run"
 log=./logs/train_log

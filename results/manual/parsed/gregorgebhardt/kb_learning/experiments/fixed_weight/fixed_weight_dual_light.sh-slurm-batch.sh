@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fw_dual_light
-#FLUX: -n=12
-#FLUX: -c=8
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=fw_dual_light
+#SBATCH --account=project00720
+#SBATCH --output=/home/yy05vipo/git/kb_learning/experiments/fixed_weight/l_%j.stdout
+#SBATCH --error=/home/yy05vipo/git/kb_learning/experiments/fixed_weight/l_%j.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=05:00:00
+#SBATCH --constraint=avx2
+#SBATCH --chdir=/home/yy05vipo/git/kb_learning/experiments
 
 export OMP_NUM_THREADS='8'
 

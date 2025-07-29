@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TSS-seq-snakemake
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=TSS-seq-snakemake
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=43200
+#FLUX --urgency=16
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

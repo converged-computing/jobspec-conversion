@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=Train
-#FLUX: --urgency=16
+#FLUX --job-name=Train
+#FLUX --urgency=16
 
 module load gcc/7.3
 module load miniconda

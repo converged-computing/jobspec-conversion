@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Beagle_CE
-#FLUX: -c=8
-#FLUX: --queue=phillips
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=Beagle_CE
+#SBATCH --account=phillipslab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=phillips
+#SBATCH --array=0-5
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

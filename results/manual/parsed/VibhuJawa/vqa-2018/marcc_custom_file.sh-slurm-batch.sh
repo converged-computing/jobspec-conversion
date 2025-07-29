@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-puppy-3247
-#FLUX: -N=4
-#FLUX: -n=24
-#FLUX: --queue=gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=16:00:00
+#SBATCH --partition=gpu
 
 module load cuda/9.0
 python test.py

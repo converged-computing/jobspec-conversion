@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hope-9204
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-cherry-8794
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "started the RunBench at $(date)"
 module load python/3.6

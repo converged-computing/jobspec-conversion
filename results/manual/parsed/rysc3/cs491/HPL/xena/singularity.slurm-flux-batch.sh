@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-0361
-#FLUX: -N=2
-#FLUX: --queue=singleGPU
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-cherry-7956
+#FLUX -N=2
+#FLUX --queue=singleGPU
+#FLUX --urgency=16
 
 export CONT='$(pwd)/nvidia-benchmarks-24.03.sif'
 export MOUNT='$(pwd)/HPL.dat'

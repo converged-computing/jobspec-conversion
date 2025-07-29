@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ja_ex
-#FLUX: -c=44
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=ja_ex
+#SBATCH --account=rrg-ggalex
+#SBATCH --output=./slurm_runs/%j-%u-%x-%N.out
+#SBATCH --error=./slurm_runs/%j-%u-%x-%N.err
+#SBATCH --mail-user=gaox67@mcmaster.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=44
+#SBATCH --mem=3G
+#SBATCH --time=08:00:00
+#SBATCH --array=1-888
 
 header_offset=1
 module --force purge

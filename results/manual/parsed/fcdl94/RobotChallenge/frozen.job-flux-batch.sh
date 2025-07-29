@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=RGBDTC
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=RGBDTC
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ml purge
 ml PyTorch

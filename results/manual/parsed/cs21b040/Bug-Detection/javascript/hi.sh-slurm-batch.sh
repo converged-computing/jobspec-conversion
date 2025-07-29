@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SELAB
-#FLUX: -n=3
-#FLUX: --queue=mediumq
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=SELAB
+#SBATCH --output=/scratch/%u/%x-%N-%j.out
+#SBATCH --error=/scratch/%u/%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50000M
+#SBATCH --time=05:00:00
+#SBATCH --partition=mediumq
+#SBATCH --qos=mediumq
 
 . /etc/profile.d/modules.sh
 module load anaconda/2023.03-1

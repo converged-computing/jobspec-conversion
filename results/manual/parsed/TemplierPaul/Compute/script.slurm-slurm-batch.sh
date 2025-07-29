@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: -c=24
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=24
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gcc
 module load python/3.8  

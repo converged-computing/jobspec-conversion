@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-4272
-#FLUX: -n=8
-#FLUX: --urgency=16
+#SBATCH --output=node_1_core_8.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
 
 TWITTER=$1
 MELB_GRID=$2

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=${name}
-#FLUX: -c=36
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=${name}
+#SBATCH --output=${output}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=38000
+#SBATCH --time=3-00:00:00
 
 export PATH='$(pwd):/work/scitas-share/ddossant/xtb/6.4.1/intel-19.0.5/bin:$PATH'
 export OMP_STACKSIZE='4G'

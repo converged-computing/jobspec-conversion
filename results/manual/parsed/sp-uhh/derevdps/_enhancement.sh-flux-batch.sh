@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX -c=8
+#FLUX --queue=all
+#FLUX -t=345600
+#FLUX --urgency=16
 
 pc=sppc1
 if [ "$pc" = sppc1 ]; then

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=03_saf_maf_gl_all_maxdepth
-#FLUX: -c=4
-#FLUX: --queue=medium
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=03_saf_maf_gl_all_maxdepth
+#SBATCH --output=log_%j
+#SBATCH --mail-user=YOURMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=100G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=medium
 
 NB_CPU=4 #change accordingly in SLURM header
 REGIONS="" # to remove the options to focus on a limited number of regions

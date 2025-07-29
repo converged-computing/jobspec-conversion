@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-parrot-8861
-#FLUX: --queue=hgx2q
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=arid-taco-5082
+#FLUX --queue=hgx2q
+#FLUX -t=10
+#FLUX --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'
 

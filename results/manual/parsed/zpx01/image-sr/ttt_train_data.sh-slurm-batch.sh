@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-6447
-#FLUX: -c=8
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:12:00
+#SBATCH --chdir=/home/yossi_gandelsman/ttt/image-sr
 
 export PYTHONUNBUFFERED='1'
 

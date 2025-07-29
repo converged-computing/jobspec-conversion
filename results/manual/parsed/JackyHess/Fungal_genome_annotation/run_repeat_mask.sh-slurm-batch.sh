@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-6220
-#FLUX: -c=10
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#SBATCH --account=uio
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=6000
+#SBATCH --time=2-18:40:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$JAMG_PATH/3rd_party/transdecoder/util/lib64/'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-carrot-4343
-#FLUX: -N=2
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=austmathjea_fat
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=24
 
 echo Running on "$(hostname)"
 echo Running job: "$SLURM_JOB_NAME"

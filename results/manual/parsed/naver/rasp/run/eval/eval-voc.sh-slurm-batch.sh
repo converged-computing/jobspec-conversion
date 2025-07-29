@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=inference
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=inference
+#SBATCH --output=/scratch/1/user/sroy/class-inc/logs/out.stdout
+#SBATCH --error=/scratch/1/user/sroy/class-inc/logs/error.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64gb
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpu_22g+
 
 export CUDA_VISIBLE_DEVICES='$1'
 

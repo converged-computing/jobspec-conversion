@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mlm_cont
-#FLUX: -n=128
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=mlm_cont
+#SBATCH --output=mlm_test%j.out
+#SBATCH --error=mlm_test%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=v100-32g,ntasks-per-node=4
 
 export OMP_NUM_THREADS='10'
 export CUDA_LAUNCH_BLOCKING='1'

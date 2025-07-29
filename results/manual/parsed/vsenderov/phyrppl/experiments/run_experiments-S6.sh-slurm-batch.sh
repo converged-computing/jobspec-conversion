@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Anatinae
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=Anatinae
+#SBATCH --mail-user=viktor.senderov@nrm.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=7-00:00:00
 
 export OMP_STACKSIZE=' 32G" '
 export RPPL_FLAGS=' --target omp -j $NCORES"    # OMP'

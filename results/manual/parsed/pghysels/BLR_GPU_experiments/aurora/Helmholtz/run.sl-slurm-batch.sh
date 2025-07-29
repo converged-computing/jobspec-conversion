@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-3318
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pghysels/BLR_GPU_experiments/aurora/Helmholtz/run.sl

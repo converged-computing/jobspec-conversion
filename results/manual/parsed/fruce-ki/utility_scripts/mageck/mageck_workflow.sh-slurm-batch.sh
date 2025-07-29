@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mageck-wf
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=mageck-wf
+#SBATCH --output=mageck-wf.out
+#SBATCH --error=mageck-wf.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=50000
 
 set -x
 function usage() {

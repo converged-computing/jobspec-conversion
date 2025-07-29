@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bs2-run
-#FLUX: --queue=core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bs2-run
+#FLUX --queue=core
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load bioinfo-tools
 module load snakemake/5.10.0

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=DASK_JUPYTER
-#FLUX: -N=2
-#FLUX: -n=10
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=DASK_JUPYTER
+#SBATCH --nodes=2
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 export VENV='$HOME/.envs/jupyter_dask_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter/$SLURM_JOBID/'

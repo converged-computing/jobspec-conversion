@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: --queue=cpu_p1
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX -c=8
+#FLUX --queue=cpu_p1
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

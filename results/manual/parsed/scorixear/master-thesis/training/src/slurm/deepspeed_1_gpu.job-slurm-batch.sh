@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=deepspeed-llama7b-1gpu
-#FLUX: -c=4
-#FLUX: --queue=clara
-#FLUX: --urgency=16
+#SBATCH --job-name=deepspeed-llama7b-1gpu
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --partition=clara
+#SBATCH --constraint=ntasks-per-node=1
 
 export GPUS_PER_NODE='1'
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

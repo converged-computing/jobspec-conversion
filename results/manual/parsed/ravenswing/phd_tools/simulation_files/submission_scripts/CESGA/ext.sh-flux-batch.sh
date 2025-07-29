@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-poo-7318
-#FLUX: -c=32
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-itch-8232
+#FLUX -c=32
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export GMX='gmx_mpi'
 

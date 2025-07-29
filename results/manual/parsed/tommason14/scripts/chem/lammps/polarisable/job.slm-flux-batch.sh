@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-sundae-8888
-#FLUX: -n=36
-#FLUX: --queue=comp
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-milkshake-5918
+#FLUX -n=36
+#FLUX --queue=comp
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load openmpi/1.10.3-gcc4-mlx-verbs
 lammps=~/p2015120004/apps/lammps-stable_29Oct2020/bin/lmp_monarch

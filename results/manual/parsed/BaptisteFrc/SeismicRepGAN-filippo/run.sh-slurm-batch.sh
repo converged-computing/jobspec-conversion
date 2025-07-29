@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RepGAN_3
-#FLUX: --queue=gpua100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=RepGAN_3
+#SBATCH --output=%x.o%j
+#SBATCH --error=error_3.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=512gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpua100
 
 export thisuser='$(whoami)'
 export hmd='/gpfs/users'

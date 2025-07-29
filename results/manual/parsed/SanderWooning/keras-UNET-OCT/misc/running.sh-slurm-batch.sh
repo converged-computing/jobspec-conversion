@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lemon-3632
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/nfs/home1/swooning/slurm_output/out_%j.log
+#SBATCH --error=/nfs/home1/swooning/slurm_output/error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 module load 2019
 module load Miniconda2

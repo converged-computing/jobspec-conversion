@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Exp
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=Exp
+#FLUX -c=18
+#FLUX --queue=gpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 export DATA_DIR='./DATA'
 export WANDB_DIR='$HOME/CEConvDL2/CEConv/WANDB'

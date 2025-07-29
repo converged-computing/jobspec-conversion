@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-banana-5305
-#FLUX: -c=2
-#FLUX: --queue=amdfast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=logs/waymo_%a.out
+#SBATCH --error=logs/waymo_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=30G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdfast
+#SBATCH --constraint=ntasks-per-node=1
 
 ml torchsparse
 cd $HOME

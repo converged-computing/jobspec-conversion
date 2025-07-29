@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bactopia3_tools
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=bactopia3_tools
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-bactopia3_tools-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=40G
+#SBATCH --time=03:00:00
 
 DESCRIPTION="Run Bactopia v3 tools for follow-up analyses to the main Bactopia workflow"
 SCRIPT_VERSION="2023-12-16"

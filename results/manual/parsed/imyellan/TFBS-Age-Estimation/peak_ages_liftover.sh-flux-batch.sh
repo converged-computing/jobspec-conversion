@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-spoon-6095
-#FLUX: -c=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-pot-0851
+#FLUX -c=3
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export proj_dir='/home/iyellan/scratch/peak_ages'
 

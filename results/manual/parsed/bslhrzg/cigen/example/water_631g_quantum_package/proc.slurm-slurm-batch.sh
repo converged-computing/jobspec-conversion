@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=h2o_6
-#FLUX: -n=16
-#FLUX: --queue=devtaras
-#FLUX: --urgency=16
+#SBATCH --job-name=h2o_6
+#SBATCH --output=output-%x-%N.%j
+#SBATCH --error=error-%x-%N.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=devtaras
 
 source ~/venv_python3/bin/activate
 d=/auto/tms7/herzog1/build/qp2/bin

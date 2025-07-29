@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-dog-7242
-#FLUX: -c=4
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#SBATCH --account=rrg-franlp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20000
+#SBATCH --time=02:59:00
 
 export CUBLAS_WORKSPACE_CONFIG=':16:8'
 

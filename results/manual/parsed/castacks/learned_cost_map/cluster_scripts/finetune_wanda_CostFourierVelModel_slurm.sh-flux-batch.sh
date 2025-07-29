@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_CostFourierVelModel_balanced
-#FLUX: --queue=dgx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=finetune_CostFourierVelModel_balanced
+#FLUX --queue=dgx
+#FLUX -t=86400
+#FLUX --urgency=16
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

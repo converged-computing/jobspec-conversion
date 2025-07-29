@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-train-6084
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/box_change/nmRec/starting_struct/NPT/W2/npt_2.pbs

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=poly_graph_training
-#FLUX: --queue=comm_gpu_inter
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=poly_graph_training
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=3
+#SBATCH --time=04:00:00
+#SBATCH --partition=comm_gpu_inter
 
 export NUM_CORES='$((SLURM_JOB_NUM_NODES * SLURM_CPUS_ON_NODE))'
 

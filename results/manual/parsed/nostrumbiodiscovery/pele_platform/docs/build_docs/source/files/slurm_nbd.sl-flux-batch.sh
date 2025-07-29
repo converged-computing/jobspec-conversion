@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=PELE_MPI
-#FLUX: -n=60
-#FLUX: --urgency=16
+#FLUX --job-name=PELE_MPI
+#FLUX -n=60
+#FLUX --urgency=16
 
 export SCHRODINGER='/sNow/easybuild/centos/7.4.1708/Skylake/software/schrodinger2017-4/'
 export PELE='/shared/work/NBD_Utilities/PELE/PELE_Softwares/bin/PELE1.6/'

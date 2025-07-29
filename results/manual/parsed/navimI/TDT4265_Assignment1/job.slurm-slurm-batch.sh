@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=my_training_job
-#FLUX: -c=4
-#FLUX: --queue=GPUQ
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=my_training_job
+#SBATCH --account=ie-idi
+#SBATCH --output=/cluster/home/haakohu/out.slurm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=64GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=GPUQ
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo " the name of the job is: $SLURM_JOB_NAME"

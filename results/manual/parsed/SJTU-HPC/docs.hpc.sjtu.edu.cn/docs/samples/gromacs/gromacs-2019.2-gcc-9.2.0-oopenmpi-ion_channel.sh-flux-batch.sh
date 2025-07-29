@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-butter-3956
-#FLUX: -n=40
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#FLUX --job-name=grated-chair-0927
+#FLUX -n=40
+#FLUX --queue=cpu
+#FLUX --urgency=16
 
 module purge
 module load gromacs/2019.4-gcc-9.2.0-openmpi

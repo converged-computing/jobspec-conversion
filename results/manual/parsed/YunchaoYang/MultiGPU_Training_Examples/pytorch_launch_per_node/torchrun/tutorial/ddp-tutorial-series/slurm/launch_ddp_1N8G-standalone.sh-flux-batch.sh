@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lemur-9922
-#FLUX: -c=16
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pastry-3690
+#FLUX -c=16
+#FLUX --gpus-per-task=8
+#FLUX --queue=hpg-ai
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN #change to INFO if debugging DDP'
 export LOGLEVEL='INFO'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poo-6792
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-motorcycle-7114
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/drmeister/jd-macrocycles/synthesized/G_182/prod/gmx_prod.sh

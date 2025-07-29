@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=job_test
-#FLUX: --urgency=16
+#SBATCH --job-name=job_test
+#SBATCH --account=dgx2
+#SBATCH --output=mpi_test_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'
 

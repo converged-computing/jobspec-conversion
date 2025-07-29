@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Inat
-#FLUX: -c=40
-#FLUX: --queue=batch_72h
-#FLUX: --urgency=16
+#FLUX --job-name=Inat
+#FLUX -c=40
+#FLUX --queue=batch_72h
+#FLUX --urgency=16
 
 source activate py3.6pt1.5
 python iNaturalTrain_reslt.py \

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gen
-#FLUX: -c=5
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gen
+#SBATCH --output=/wrk/users/eliel/projects/embeddia/eunlg/jobs/res/%A_%a.txt
+#SBATCH --error=/wrk/users/eliel/projects/embeddia/eunlg/jobs/err/%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=10G
+#SBATCH --time=10:00:00
+#SBATCH --chdir=/wrk/users/eliel/projects/embeddia/eunlg
 
 module purge
 module load Python/3.7.0-intel-2018b

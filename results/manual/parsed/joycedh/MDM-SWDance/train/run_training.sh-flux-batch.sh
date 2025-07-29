@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=train-mdm-new
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --queue=gpu-long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train-mdm-new
+#FLUX -n=4
+#FLUX -c=2
+#FLUX --queue=gpu-long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='.":$PYTHONPATH'
 

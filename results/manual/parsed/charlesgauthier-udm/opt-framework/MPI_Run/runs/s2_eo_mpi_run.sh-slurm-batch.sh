@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hello-caramel-4863
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --account=def-sonol
+#SBATCH --mail-user=charles.gauthier.1@umontreal.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=249G
+#SBATCH --time=23:59:00
+#SBATCH --constraint=ntasks-per-node=32
 
 runs=$(pwd)
 MPI_Run=$(dirname "$runs")

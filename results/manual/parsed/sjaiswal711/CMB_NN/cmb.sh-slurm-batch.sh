@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lizard-4384
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=48
 
 source activate /home/apps/DL/DL-CondaPy3.7
 python cmb.py

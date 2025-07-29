@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=apt_test
-#FLUX: -c=2
-#FLUX: --queue=bosch_cpu-cascadelake
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=apt_test
+#FLUX -c=2
+#FLUX --queue=bosch_cpu-cascadelake
+#FLUX -t=240
+#FLUX --urgency=16
 
 export PYTHONPATH='$PWD'
 

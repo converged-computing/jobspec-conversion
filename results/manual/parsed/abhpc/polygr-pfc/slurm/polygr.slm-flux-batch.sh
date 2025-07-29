@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=polygrpfc
-#FLUX: -N=4
-#FLUX: --queue=MX
-#FLUX: --urgency=16
+#FLUX --job-name=polygrpfc
+#FLUX -N=4
+#FLUX --queue=MX
+#FLUX --urgency=16
 
 export DISPLAY=''
 

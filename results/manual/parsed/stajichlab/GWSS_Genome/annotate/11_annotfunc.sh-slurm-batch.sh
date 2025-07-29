@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gwss_predict_fun
-#FLUX: -n=16
-#FLUX: --queue=intel,batch,stajichlab
-#FLUX: --urgency=16
+#SBATCH --job-name=gwss_predict_fun
+#SBATCH --output=logs/annotfunc.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16gb
+#SBATCH --partition=intel,batch,stajichlab
+#SBATCH --array=1
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'
 

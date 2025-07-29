@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-underoos-4171
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=XXX
+#SBATCH --output=log_out.%j
+#SBATCH --error=log_err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=10:00:00
+#SBATCH --partition=batch
 
 NTASKS=12
 module --force purge

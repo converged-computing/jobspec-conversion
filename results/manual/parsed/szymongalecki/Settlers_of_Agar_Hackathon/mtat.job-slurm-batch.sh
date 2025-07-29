@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-gpu-condaenv
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch-gpu-condaenv
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu
+#SBATCH --mem=200G
+#SBATCH --time=23:00:00
+#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 module load Anaconda3

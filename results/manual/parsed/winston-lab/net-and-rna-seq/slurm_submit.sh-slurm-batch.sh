@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NET_RNAseq-snakemake
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=NET_RNAseq-snakemake
+#SBATCH --output=snakemake.log
+#SBATCH --error=snakemake.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=400M
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

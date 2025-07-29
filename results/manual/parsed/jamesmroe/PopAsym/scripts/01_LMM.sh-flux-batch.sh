@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LMM
-#FLUX: -c=2
-#FLUX: -t=43260
-#FLUX: --urgency=16
+#FLUX --job-name=LMM
+#FLUX -c=2
+#FLUX -t=43260
+#FLUX --urgency=16
 
 export FREESURFER_HOME='/cluster/projects/p23/tools/mri/freesurfer/freesurfer.6.0.0'
 export SUBJECTS_DIR='${1}/subjects'

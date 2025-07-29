@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bits-1540
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2004600
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 export DS_BUILD_CPU_ADAM='1'
 export DS_BUILD_FUSED_ADAM='1'

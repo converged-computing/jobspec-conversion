@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=h2o4b
-#FLUX: -n=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=h2o4b
+#FLUX -n=4
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf-distr-cnn
-#FLUX: -n=8
-#FLUX: --queue=standard-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-distr-cnn
+#SBATCH --account=<project>
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='hsn'

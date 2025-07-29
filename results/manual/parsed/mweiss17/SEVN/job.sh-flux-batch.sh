@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parrot-3766
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-pedo-1187
+#FLUX -c=6
+#FLUX -t=600
+#FLUX --urgency=16
 
 mkdir $SCRATCH/trained_models
 mkdir $SCRATCH/trained_models/ppo/

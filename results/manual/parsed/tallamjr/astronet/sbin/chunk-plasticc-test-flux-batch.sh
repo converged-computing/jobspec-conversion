@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunkpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chunkpt
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -o pipefail -e
 source $PWD/conf/astronet.conf

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-gato-0299
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#FLUX --job-name=grated-parrot-3064
+#FLUX --queue=work
+#FLUX --urgency=16
 
 subject=$1
 version=$2

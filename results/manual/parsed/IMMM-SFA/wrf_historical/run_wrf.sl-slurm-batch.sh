@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wrf_conus
-#FLUX: -N=7
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=wrf_conus
+#SBATCH --account=<account
+#SBATCH --output=wrf_conus.o%j
+#SBATCH --nodes=7
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
+#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='1'
 export FOR_IGNORE_EXCEPTIONS='1'

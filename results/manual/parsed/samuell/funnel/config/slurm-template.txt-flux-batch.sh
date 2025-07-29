@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name={{.TaskId}}
-#FLUX: --urgency=16
+#FLUX --job-name={{.TaskId}}
+#FLUX --urgency=16
 
 {{if ne .Cpus 0 -}}
 {{printf "#SBATCH --cpus-per-task %d" .Cpus}}

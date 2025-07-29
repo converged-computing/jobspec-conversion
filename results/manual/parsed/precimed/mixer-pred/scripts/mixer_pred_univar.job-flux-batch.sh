@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=plsa2d
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=plsa2d
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export THREADS='16 	# note this is equal to the number of cpus used when batching above'
 export APPTAINER_BIND=''

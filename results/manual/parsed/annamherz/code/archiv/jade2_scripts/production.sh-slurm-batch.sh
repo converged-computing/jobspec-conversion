@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=prod
-#FLUX: -c=5
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=prod
+#SBATCH --output=../slurm_logs/prod_%A_%a.out
+#SBATCH --error=../slurm_logs/prod_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 source $scripts_dir/extract_execution_model_bash.sh

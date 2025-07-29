@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=grated-dog-5727
-#FLUX: --queue=ram1t,amd2tb,amd512
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=sedaghat
+#SBATCH --output=/home/panwei/lin00374/snpnet/pbs/slurm-%j.out
+#SBATCH --mail-user=lin00374@umn.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ram1t,amd2tb,amd512
+#SBATCH --array=11-20
 
 module load plink/2.00-alpha-091019
 plink2 --bfile ../110K_QCed --pheno ../MET_20PC.txt --pheno-name PC${SLURM_ARRAY_TASK_ID} --variance-standardize --covar ../noMET_20PC.txt  --glm hide-covar --out mPC${SLURM_ARRAY_TASK_ID}

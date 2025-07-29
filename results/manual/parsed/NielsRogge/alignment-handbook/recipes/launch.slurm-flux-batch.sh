@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-muffin-5483
+#FLUX --job-name=doopy-butter-9656
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export CMD=' \'
 export LAUNCHER='ACCELERATE_LOG_LEVEL=info accelerate launch \'

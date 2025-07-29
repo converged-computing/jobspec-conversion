@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bits-5157
-#FLUX: -n=15
-#FLUX: --queue=campus-new
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=01:00:00
+#SBATCH --partition=campus-new
 
 load_modules() {
   module purge

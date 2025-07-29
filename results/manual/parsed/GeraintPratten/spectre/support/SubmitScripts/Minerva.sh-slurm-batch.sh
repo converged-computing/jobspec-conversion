@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=spectre
-#FLUX: -N=2
-#FLUX: --queue=nr
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=spectre
+#SBATCH --output=spectre.out
+#SBATCH --error=spectre.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nr
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH: --no-requeue
 
 export SPECTRE_BUILD_DIR='/work/nfischer/spectre/build_2021-03-18-Release'
 export SPECTRE_RUN_DIR='${PWD}'

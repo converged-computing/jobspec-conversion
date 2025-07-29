@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PostDiscovery
-#FLUX: -c=2
-#FLUX: -t=93540
-#FLUX: --urgency=16
+#SBATCH --job-name=PostDiscovery
+#SBATCH --output=./out/08.sti/VD_Chiliadal_%A_%a.out
+#SBATCH --error=./err/08.sti/VD_Chiliadal_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16gb
+#SBATCH --time=1-01:59:00
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

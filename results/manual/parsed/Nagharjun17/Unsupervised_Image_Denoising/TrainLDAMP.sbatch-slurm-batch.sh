@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TrainLDAMP
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=TrainLDAMP
+#SBATCH --output=TrainLDAMP.%j.out
+#SBATCH --error=TrainLDAMP.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge; 
 module load anaconda3/2020.07

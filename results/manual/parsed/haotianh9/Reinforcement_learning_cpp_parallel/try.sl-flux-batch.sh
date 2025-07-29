@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-fork-8161
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: -t=59
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-citrus-7275
+#FLUX -N=4
+#FLUX -c=4
+#FLUX -t=59
+#FLUX --urgency=16
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

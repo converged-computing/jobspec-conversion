@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=small
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=small
+#SBATCH --output=small_%j.out
+#SBATCH --error=small_%j.err
+#SBATCH --mail-user=akp258@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load cuda/8.0.44

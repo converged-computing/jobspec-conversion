@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=exp17_cnn
-#FLUX: -c=10
-#FLUX: --queue=gpu_p1
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=exp17_cnn
+#SBATCH --output=./exp17/pytorch_job_%j.out
+#SBATCH --error=./exp17/pytorch_job_%j.err
+#SBATCH --mail-user=mauricio.diaz@inria.fr
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p1
+#SBATCH --chdir=/gpfswork/rech/zft/upd53tc/jobs/AD-DL/train/patch_level/multi_cnn
+#SBATCH --array=0-4
 
 eval "$(conda shell.bash hook)"
 conda activate clinicadl_env_py37

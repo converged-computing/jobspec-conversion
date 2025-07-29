@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-staircase-7662
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/akiraawan/IDC_Group1/run.pbs

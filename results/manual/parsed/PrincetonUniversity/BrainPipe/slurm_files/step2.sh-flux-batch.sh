@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bicycle-0633
-#FLUX: -c=10
-#FLUX: --queue=all
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=tart-knife-2123
+#FLUX -c=10
+#FLUX --queue=all
+#FLUX -t=1200
+#FLUX --urgency=16
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

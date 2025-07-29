@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quiv-red
-#FLUX: -c=56
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=quiv-red
+#FLUX -c=56
+#FLUX --queue=gpu-preempt
+#FLUX -t=1500
+#FLUX --urgency=16
 
 cd /work/sbajaj_umass_edu/GNN_minibatch_vs_fullbatch/pytorch_geometric/torch-quiver
 source /work/sbajaj_umass_edu/pygenv1/bin/activate

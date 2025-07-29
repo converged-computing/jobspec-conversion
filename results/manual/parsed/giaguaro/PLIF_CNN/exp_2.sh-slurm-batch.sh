@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LrgSklCNN
-#FLUX: -N=3
-#FLUX: -c=6
-#FLUX: --urgency=16
+#SBATCH --job-name=LrgSklCNN
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --nodelist=gn[13,19-20]
 
 export WORLD_SIZE='12'
 export MASTER_PORT='12346'

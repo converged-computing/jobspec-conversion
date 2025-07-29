@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-sundae-1476
-#FLUX: -t=45
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-butter-6416
+#FLUX -t=45
+#FLUX --urgency=16
 
 folder="test_suite/mod_large_random/Kripke/" # specify the folder on which to run on
 sample_files=($(find "$folder" -type f -name "*.sp"))

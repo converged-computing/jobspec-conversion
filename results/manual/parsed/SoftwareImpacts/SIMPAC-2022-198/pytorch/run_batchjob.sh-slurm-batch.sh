@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=vnn
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=vnn
+#SBATCH --account=zhangh
+#SBATCH --output=./batchjob/vnn_%a.o
+#SBATCH --error=./batchjob/vnn_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=16G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-49
 
 module purge 
 module load pytorch/1.11

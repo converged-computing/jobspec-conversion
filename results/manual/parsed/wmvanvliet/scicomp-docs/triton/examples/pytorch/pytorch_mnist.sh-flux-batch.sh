@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-caramel-5383
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=confused-chip-0635
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load anaconda
 python pytorch_mnist.py

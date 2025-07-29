@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xxx
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=xxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=200M
+#SBATCH --time=30-00:00:00
+#SBATCH --constraint=ntasks-per-node=12,ntasks-per-socket=12
 
 export CUDA_MPS_PIPE_DIRECTORY='$SLURM_SUBMIT_DIR/nvidia-mps.$SLURM_JOB_ID'
 export CUDA_MPS_LOG_DIRECTORY='$SLURM_SUBMIT_DIR/nvidia-log.$SLURM_JOB_ID'

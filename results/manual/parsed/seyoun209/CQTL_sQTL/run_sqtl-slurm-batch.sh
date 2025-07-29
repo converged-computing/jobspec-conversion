@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SQTL
-#FLUX: --queue=general
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SQTL
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=general
 
 set -e
 module load python/3.9.6

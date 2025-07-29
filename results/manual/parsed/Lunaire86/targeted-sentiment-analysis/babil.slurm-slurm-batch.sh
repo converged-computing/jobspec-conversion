@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=in5550
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=in5550
+#SBATCH --account=nn9447k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=03:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 source ${HOME}/.bashrc
 if [ -n "${SLURM_JOB_NODELIST}" ]; then

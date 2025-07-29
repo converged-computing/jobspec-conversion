@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=python_sweep_test
-#FLUX: --queue=vulture
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=python_sweep_test
+#SBATCH --output=test-job-%j.log
+#SBATCH --mail-user=r.tappe.maestro@student.rug.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500MB
+#SBATCH --time=00:01:00
+#SBATCH --partition=vulture
 
 module purge
 module load matplotlib

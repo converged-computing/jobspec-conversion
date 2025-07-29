@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb
-#FLUX: -c=8
-#FLUX: --queue=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=run_compute_pred_accuracy_mrmashrss_sparse_LD_V_all_chr_init_prior_finemapped_bc_ukb
+#FLUX -c=8
+#FLUX --queue=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='1'
 

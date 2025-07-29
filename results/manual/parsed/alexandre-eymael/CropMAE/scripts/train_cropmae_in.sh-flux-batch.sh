@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cropmae_in
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=cropmae_in
+#FLUX -N=4
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export GPUS='$SLURM_JOB_NUM_GPUS'
 export PORT='$master_port'

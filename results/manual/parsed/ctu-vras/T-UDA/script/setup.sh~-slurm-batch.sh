@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-noodle-8470
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/Spvnas/logs/run_single_frame_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 python train.py configs/semantic_kitti/spvcnn/cr0p5.yaml --distributed False

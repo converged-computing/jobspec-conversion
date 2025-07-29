@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gnormal
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=gnormal
+#FLUX -N=16
+#FLUX -n=32
+#FLUX --queue=development
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

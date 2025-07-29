@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-poodle-3354
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-bits-3708
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/GettingStarted/DataScience/Containers/Polaris/job_submission_dl.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lentil-0989
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-pastry-3090
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load singularity

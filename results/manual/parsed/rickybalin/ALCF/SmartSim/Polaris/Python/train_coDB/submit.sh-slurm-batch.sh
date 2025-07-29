@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-motorcycle-1100
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/rickybalin/ALCF/SmartSim/Polaris/Python/train_coDB/submit.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fork-9457
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-staircase-0586
+#FLUX --urgency=16
 
 module load openmpi/3.0.0
 PYTHON_PROGRAM=${PYTHON_PROGRAM:-python3}

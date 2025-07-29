@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-destiny-4747
-#FLUX: -n=20
-#FLUX: --queue=cidsegpu1_contrib_res
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-taco-6448
+#FLUX -n=20
+#FLUX --queue=cidsegpu1_contrib_res
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge;
 module load anaconda3/5.3.0;

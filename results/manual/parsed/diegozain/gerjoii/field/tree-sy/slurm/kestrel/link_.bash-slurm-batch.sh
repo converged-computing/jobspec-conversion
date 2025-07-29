@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cattywampus-0959
-#FLUX: -c=10
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --mail-user=diegodomenzain@u.boisestate.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
 
 ulimit -v unlimited
 ulimit -s unlimited

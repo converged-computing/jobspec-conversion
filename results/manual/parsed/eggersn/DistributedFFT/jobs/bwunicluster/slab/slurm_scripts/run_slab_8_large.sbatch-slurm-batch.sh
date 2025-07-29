@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpu8_slab
-#FLUX: -N=8
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=gpu_8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu8_slab
+#SBATCH --account=st
+#SBATCH --output=gpu8_slab.%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu_8
+#SBATCH: --exclusive
 
 module load compiler/gnu/8.3.1
 module load devel/cuda/11.0

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jobname
-#FLUX: -n=20
-#FLUX: --queue=hebbe
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#SBATCH --job-name=jobname
+#SBATCH --account=SNIC2017-1-649
+#SBATCH --output=stdout
+#SBATCH --error=stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:10:00
+#SBATCH --partition=hebbe
 
 export GPAW_SETUP_PATH='$GPAW_SETUP_PATH:./'
 

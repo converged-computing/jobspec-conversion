@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemur-1013
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lemur-0698
+#FLUX --queue=gpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=array
-#FLUX: --queue=kicp
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=array
+#SBATCH --account=kicp
+#SBATCH --output=logs/log_delayedSFR_HLO3.out
+#SBATCH --error=logs/log_delayedSFR_HLO3.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=12:00:00
+#SBATCH --partition=kicp
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 nvidia-smi

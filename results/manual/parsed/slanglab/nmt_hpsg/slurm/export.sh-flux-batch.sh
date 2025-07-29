@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hpsg-export
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hpsg-export
+#FLUX -t=1800
+#FLUX --urgency=16
 
 INPUT_DIR=./logon/lingo/lkb/src/tsdb/home/erg/1214
 TASK_ID=$(printf '%0'$digits'd' $SLURM_ARRAY_TASK_ID)

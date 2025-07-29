@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_imagenet
-#FLUX: -c=16
-#FLUX: -t=172740
-#FLUX: --urgency=16
+#FLUX --job-name=train_imagenet
+#FLUX -c=16
+#FLUX -t=172740
+#FLUX --urgency=16
 
 module load python/intel/3.8.6
 module load cuda/10.2.89

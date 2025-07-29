@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bash_ab_141_spw25_2sigma
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bash_ab_141_spw25_2sigma
+#SBATCH --output=ab_142_spw27_3sigma_%j.log
+#SBATCH --mail-user=abulatek@ufl.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20gb
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export LOGFILENAME='casa_clean_ab_141_spw25_2sigma.log'
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'

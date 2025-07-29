@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemur-3539
-#FLUX: --queue=compsci
-#FLUX: --urgency=16
+#SBATCH --output=%x-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --partition=compsci
+#SBATCH --constraint=ntasks-per-node=1
 
 echo julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')
 julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')

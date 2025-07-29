@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MiXeR_Pred
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MiXeR_Pred
+#SBATCH --account=p697
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=1-00:00:00
 
 export MIXER_OUT_PREFIX='$1'
 

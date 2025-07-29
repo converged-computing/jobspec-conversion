@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Matlab-mcr-job
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=Matlab-mcr-job
+#FLUX --queue=compute
+#FLUX -t=10800
+#FLUX --urgency=16
 
 MCR=/global/software/matlab/mcr/v93
 module load mcr/mcr

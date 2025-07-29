@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LOTlibSearch
-#FLUX: -N=4
-#FLUX: --queue=colala
-#FLUX: -t=360900
-#FLUX: --urgency=16
+#FLUX --job-name=LOTlibSearch
+#FLUX -N=4
+#FLUX --queue=colala
+#FLUX -t=360900
+#FLUX --urgency=16
 
 module load numpy
 module load python/2.7.6

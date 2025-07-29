@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=proteus_build
-#FLUX: -n=64
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=proteus_build
+#SBATCH --account=hpc_proteus02o
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=workq
 
 export PROTEUS_PREFIX='${PWD}/proteus_env'
 export PROTEUS_ARCH='mike'

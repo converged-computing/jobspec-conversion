@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mts-arr
-#FLUX: -c=24
+#FLUX --job-name=mts-arr
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -o pipefail -e
 source $PWD/conf/astronet.conf

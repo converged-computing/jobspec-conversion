@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-punk-8894
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-mango-0989
+#FLUX -c=2
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cd ../ || exit  # Go to the root directory of the repo
 source setup_env.sh

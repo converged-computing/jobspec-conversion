@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmodeler.v2
-#FLUX: -c=21
-#FLUX: --queue=rosalind
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=repeatmodeler.v2
+#SBATCH --output=repeatmodeler.03082024.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=21
+#SBATCH --mem=150G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=rosalind
 
 export PATH='/scratch/nchen11_lab/Repeat/NINJA-0.95-cluster_only/NINJA:$PATH'
 

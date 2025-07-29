@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=flat
-#FLUX: -c=8
-#FLUX: --queue=gpushort
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=flat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=32000
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpushort
+#SBATCH --array=1-5
 
 echo starting_jobscript
 module add CUDA/10.1.243-GCC-8.3.0

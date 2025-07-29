@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Extract driving data from bag file
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Extract driving data from bag file
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=14-33
 
 BAGS=(
     '2022-04-28-11-59-00_e2e_elva_forw_inTrain_camera_0.8.bag' \

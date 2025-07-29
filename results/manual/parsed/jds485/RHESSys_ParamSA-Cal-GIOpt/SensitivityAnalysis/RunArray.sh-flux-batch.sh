@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-taco-5584
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-blackbean-9794
+#FLUX --queue=standard
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 SINGIMAGE='/share/resources/containers/singularity/rhessys'

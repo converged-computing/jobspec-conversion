@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpl_mpi_test
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=cf1
-#FLUX: -t=42900
-#FLUX: --urgency=16
+#SBATCH --job-name=hpl_mpi_test
+#SBATCH --account=scs
+#SBATCH --output=J%j_%N.out
+#SBATCH --mail-user=tin@lbl.gov
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=11:55:00
+#SBATCH --partition=cf1
+#SBATCH --qos=cf_normal
+#SBATCH: --exclusive
 
 export PATH='~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_nehalem:$PATH	# lr4/savio are hashwell, but can't find binary for it...'
 

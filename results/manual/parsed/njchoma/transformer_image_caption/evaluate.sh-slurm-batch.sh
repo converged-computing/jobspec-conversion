@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-6184
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm_out/caption_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=2-00:00:00
 
 ROOT_DIR="/scratch/ovd208/COCO_features/data"
 ARTIFACTS_DIR="$SCRATCH/artifacts/image_captioning"

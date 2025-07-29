@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-hope-6743
-#FLUX: --urgency=16
+#FLUX --job-name=red-kitty-6706
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carstenbauer/JuliaHLRS23/exercises/Day3/1_montecarlo_pi/solution_proposal/hawk_job.qbs

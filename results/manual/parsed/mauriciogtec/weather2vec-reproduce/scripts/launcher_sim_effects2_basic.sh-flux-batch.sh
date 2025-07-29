@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-squidward-2762
-#FLUX: -c=8
-#FLUX: --queue=fasse_gpu
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-avocado-9831
+#FLUX -c=8
+#FLUX --queue=fasse_gpu
+#FLUX -t=3540
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate cuda116

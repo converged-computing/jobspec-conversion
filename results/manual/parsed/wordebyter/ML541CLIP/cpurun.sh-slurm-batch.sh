@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ML541-final
-#FLUX: -n=20
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ML541-final
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=30g
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=EPYC-7543&(A100|V100)
 
 module load python/3.12.3/mftt2ua
 module load cuda11.7/toolkit/11.7.1

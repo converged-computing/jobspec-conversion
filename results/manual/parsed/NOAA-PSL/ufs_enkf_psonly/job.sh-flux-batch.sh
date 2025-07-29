@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=C96_enkf_psonly
-#FLUX: -N=20
-#FLUX: --queue=hercules
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=C96_enkf_psonly
+#FLUX -N=20
+#FLUX --queue=hercules
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export NODES='$SLURM_NNODES'
 export corespernode='$SLURM_CPUS_ON_NODE'

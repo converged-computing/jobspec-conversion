@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-omelette-0085
-#FLUX: -c=6
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --output=./logs/%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=32000M
+#SBATCH --time=11:00:00
+#SBATCH --array=0-200
 
 U_SIZE=$1
 V_SIZE=$2

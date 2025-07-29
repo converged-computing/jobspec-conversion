@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scheduler
-#FLUX: -c=2
-#FLUX: --queue=cluster-name
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=scheduler
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:0
+#SBATCH --mem=0
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=cluster-name
 
 while getopts f:e: flag
 do

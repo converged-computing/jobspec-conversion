@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-taco-4710
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-blackbean-3910
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PATH='/groups/esm/common/julia-1.3:$PATH'
 

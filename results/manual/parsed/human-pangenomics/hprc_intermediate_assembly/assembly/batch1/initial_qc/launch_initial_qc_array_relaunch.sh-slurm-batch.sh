@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HPRC-qc-batch1
-#FLUX: -c=4
-#FLUX: --queue=high_priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=HPRC-qc-batch1
+#SBATCH --output=qc_submit_logs/qc_submit_%x_%j_%A_%a.log
+#SBATCH --mail-user=juklucas@ucsc.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=200gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=high_priority
+#SBATCH --array=[4]%1
 
 export SINGULARITY_CACHEDIR='`pwd`/outputs/cache/.singularity/cache '
 export MINIWDL__SINGULARITY__IMAGE_CACHE='`pwd`/outputs/cache/.cache/miniwdl '

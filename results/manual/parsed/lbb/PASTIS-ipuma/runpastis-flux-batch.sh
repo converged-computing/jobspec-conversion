@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-eagle-2169
-#FLUX: -n=81
-#FLUX: --queue=ipuq
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-latke-9867
+#FLUX -n=81
+#FLUX --queue=ipuq
+#FLUX -t=86460
+#FLUX --urgency=16
 
 export IPUOF_CONFIG_PATH='/cm/shared/apps/graphcore/vipu/etc/ipuof.conf.d/p64_cl_a01_a16.conf'
 export OMPI_MCA_opal_common_ucx_opal_mem_hooks='1'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-motorcycle-2630
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/dev/null
+#SBATCH --error=/dev/null
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export BATCH_DIRECTORY='ablation_methods_s135_r3s2'
 export TO_LOAD_CHECKPOINT='False'

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mmlu
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=learnlab
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=mmlu
+#SBATCH --output=run_dir/%A.out
+#SBATCH --error=run_dir/%A.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --time=08:00:00
+#SBATCH --partition=learnlab
+#SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 size=xl
 DATA_DIR='/checkpoint/plewis/atlas_opensourcing/'

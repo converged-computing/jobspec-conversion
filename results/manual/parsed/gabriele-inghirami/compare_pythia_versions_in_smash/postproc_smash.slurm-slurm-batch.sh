@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=postproc_smash
-#FLUX: -n=160
-#FLUX: -c=2
-#FLUX: --queue=main
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=postproc_smash
+#SBATCH --account=hyihp
+#SBATCH --output=sl_%x_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=01:30:00
+#SBATCH --partition=main
 
 container=$LH/fedora_38_std.sif
 datadir=$LH/compare_pythia_versions_in_smash/RUNS/

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name={{job_name}}
-#FLUX: -n=20
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name={{job_name}}
+#SBATCH --output={{log_path}}.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=150
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=single
 
 module purge
 module load chem/gromacs/2023.3

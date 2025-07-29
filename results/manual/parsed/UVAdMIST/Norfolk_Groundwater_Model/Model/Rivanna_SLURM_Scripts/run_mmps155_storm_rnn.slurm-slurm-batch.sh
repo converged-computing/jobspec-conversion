@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-9292
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=uvahydroinformatics
+#SBATCH --output=keras_%A_%a.out
+#SBATCH --error=keras_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-19
 
 module purge
 module load singularity tensorflow/1.6.0-py36

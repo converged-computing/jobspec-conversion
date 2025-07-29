@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=job_test
-#FLUX: --urgency=16
+#FLUX --job-name=job_test
+#FLUX --urgency=16
 
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'
 

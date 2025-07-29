@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rpc_pipeline
-#FLUX: --queue=clara
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=rpc_pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=10GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=clara
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-1
 
 PMPNN_PATH=/work/ta905ttoo-rfd/ProteinMPNN
 PMPNN_PYTHON=/home/sc.uni-leipzig.de/ta905ttoo/.conda/envs/mlfold/bin/python

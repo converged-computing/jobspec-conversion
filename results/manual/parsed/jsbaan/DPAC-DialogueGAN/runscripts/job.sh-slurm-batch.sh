@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-egg-0935
-#FLUX: --queue=gpu_shared
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu_shared
 
 export LD_LIBRARY_PATH='/hpc/sw/NCCL/2.0.5/lib:/hpc/eb/Debian9/cuDNN/7.0.5-CUDA-9.0.176/lib64:/hpc/eb/Debian$'
 

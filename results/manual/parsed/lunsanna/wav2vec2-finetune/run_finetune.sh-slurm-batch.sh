@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=no_augment
-#FLUX: -c=4
-#FLUX: --queue=gpu-nvlink,dgx-spa
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=no_augment
+#SBATCH --output=output_%a.out
+#SBATCH --error=errors_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=09:00:00
+#SBATCH --partition=gpu-nvlink,dgx-spa
+#SBATCH --array=0-3
 
 module load anaconda
 module load cuda 

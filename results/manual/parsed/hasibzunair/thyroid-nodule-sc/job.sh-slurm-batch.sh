@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cinnamonbun-2058
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=def-abhamza
+#SBATCH --output=./logs/log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=64GB
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=8
 
 module load cuda cudnn 
 nvidia-smi

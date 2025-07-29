@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CIFAR10_resnet18_random_experiment
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=CIFAR10_resnet18_random_experiment
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load 2022

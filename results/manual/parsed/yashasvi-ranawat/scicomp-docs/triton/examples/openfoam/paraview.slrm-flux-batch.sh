@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cinnamonbun-2474
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=astute-chip-1590
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 module use /share/apps2/singularity/modules
 module purge

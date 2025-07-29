@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --account=triffid
+#SBATCH --output=nova-%x.%j.out
+#SBATCH --error=nova-%x.%j.err
+#SBATCH --mail-user=arnstrm@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=amd
+#SBATCH --qos=triffid
+#SBATCH: --exclusive
 
 POSITIONAL=()
 while [[ $# -gt 0 ]]; do

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-car-1570
-#FLUX: -t=57540
-#FLUX: --urgency=16
+#SBATCH --account=rrg-khalile2
+#SBATCH --output=%N-%j.out
+#SBATCH --mail-user=changy.liu@mail.utoronto.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:59:00
 
 echo "Running on Graham cluster"
 module load python/3.8

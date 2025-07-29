@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=comsol_runex
-#FLUX: -N=2
-#FLUX: -c=16
+#FLUX --job-name=comsol_runex
+#FLUX -N=2
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=highmem
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=highmem
+#FLUX -t=3600
+#FLUX --urgency=16
 
 inp=$1  # First input argument: Name of input without extention
 std=$2  # Second input argument: Type of study

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=talos-EAT2
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=talos-EAT2
+#SBATCH --account=p_biomolecules
+#SBATCH --output=talos_EAT/talos2_dip.out
+#SBATCH --error=talos_EAT/talos2_dip.err
+#SBATCH --mail-user=leonardo.medrano@nano.tu-dresden.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu2
 
 export OMP_NUM_THREADS='1'
 

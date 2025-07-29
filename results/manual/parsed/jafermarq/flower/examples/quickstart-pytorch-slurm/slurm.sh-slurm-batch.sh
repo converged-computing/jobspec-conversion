@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-eagle-8781
-#FLUX: -N=3
-#FLUX: --queue=cclake
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=<YOUR-PROJECT-CODE>
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:03:00
+#SBATCH --partition=cclake
+#SBATCH --constraint=ntasks-per-node=1
 
 source activate flower-slurm
 ip=$(hostname --ip-address)

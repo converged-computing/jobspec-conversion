@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pot-0462
-#FLUX: -c=12
-#FLUX: --queue=ccr
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-animal-1223
+#FLUX -c=12
+#FLUX --queue=ccr
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load nextflow

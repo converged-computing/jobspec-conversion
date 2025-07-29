@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_bcast
-#FLUX: -N=64
-#FLUX: -c=128
+#FLUX --job-name=mpi_bcast
+#FLUX -N=64
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --queue=all
+#FLUX -t=300
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 export SLURM_EXPORT_ENV='ALL'

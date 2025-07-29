@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-punk-6778
-#FLUX: -N=4
-#FLUX: -c=16
-#FLUX: --queue=hpib
-#FLUX: --urgency=16
+#SBATCH --account=zhuyiying
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=hpib
+#SBATCH --constraint=ntasks-per-node=1
 
 export FI_PROVIDER='verbs'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FCAST_SPA2
-#FLUX: --queue=intel
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=FCAST_SPA2
+#SBATCH --mail-user=batti.filippi@@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=intel
 
 export MPIRUN='mpirun -np 20'
 

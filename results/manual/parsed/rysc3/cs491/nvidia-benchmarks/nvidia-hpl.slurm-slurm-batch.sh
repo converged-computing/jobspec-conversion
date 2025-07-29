@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia-hpl
-#FLUX: --queue=condo
-#FLUX: --urgency=16
+#SBATCH --job-name=nvidia-hpl
+#SBATCH --mail-user=rscherbarth@unm.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=condo
+#SBATCH --constraint=ntasks-per-node=4
 
 module load singularity
 module load openmpi

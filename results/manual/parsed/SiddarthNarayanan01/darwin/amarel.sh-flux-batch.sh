@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=darwin
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=darwin
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OLLAMA_DEBUG='1'
 export OLLAMA_NUM_PARALLEL='4'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=uji
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=uji
+#FLUX -c=32
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.5
 module load cuda/9.0

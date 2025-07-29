@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-5837
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-itch-7186
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pvrancx/DQN-tensorflow/hydra_job.sh

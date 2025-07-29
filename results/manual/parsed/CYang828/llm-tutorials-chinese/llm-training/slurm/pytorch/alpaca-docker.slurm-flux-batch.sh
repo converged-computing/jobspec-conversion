@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca
-#FLUX: -n=10
-#FLUX: -c=3
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#FLUX --job-name=alpaca
+#FLUX -n=10
+#FLUX -c=3
+#FLUX --queue=a800
+#FLUX --urgency=16
 
 sudo docker run -it --gpus all --network=host \
 --shm-size 4G \

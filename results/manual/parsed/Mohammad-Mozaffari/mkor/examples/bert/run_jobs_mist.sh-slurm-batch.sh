@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lamb-p1
-#FLUX: -N=4
-#FLUX: --queue=compute_full_node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=lamb-p1
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute_full_node
 
 OPTIMIZER=lamb
 PHASE=2

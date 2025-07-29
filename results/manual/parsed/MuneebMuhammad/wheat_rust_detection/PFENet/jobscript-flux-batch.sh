@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pfenet
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pfenet
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "Executing on $HOSTNAME"
 date

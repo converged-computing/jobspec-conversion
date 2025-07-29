@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=config_3090_6
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=config_3090_6
+#SBATCH --output=sch_logs/config_3090_6.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3090:1
+#SBATCH --mem=64GB
+#SBATCH --time=10:00:00
 
 nvidia-smi
 ifconfig | grep -o 'inet [0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}'

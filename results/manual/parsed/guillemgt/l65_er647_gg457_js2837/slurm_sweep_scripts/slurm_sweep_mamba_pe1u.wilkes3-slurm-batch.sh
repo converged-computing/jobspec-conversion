@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=F_mamba_pe1u
-#FLUX: --queue=ampere
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=F_mamba_pe1u
+#SBATCH --account=COMPUTERLAB-SL2-GPU
+#SBATCH --output=./logs/exp1_mamba_pe1u_config-seed-job_%A_%a.out
+#SBATCH --error=./logs/exp1_mamba_pe1u_config-seed-job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --partition=ampere
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-8
 
 export OMP_NUM_THREADS='1'
 

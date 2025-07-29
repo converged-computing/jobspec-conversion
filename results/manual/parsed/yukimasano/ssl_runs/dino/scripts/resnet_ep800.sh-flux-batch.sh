@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dino_resnet800
-#FLUX: -N=10
-#FLUX: -c=10
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=dino_resnet800
+#FLUX -N=10
+#FLUX -c=10
+#FLUX -t=252000
+#FLUX --urgency=16
 
 module load anaconda3
 source activate ssl_runs

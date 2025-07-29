@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-citrus-5943
-#FLUX: --queue=awhite
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=awhite
+#SBATCH --constraint=A100
 
 module load anaconda3/2020.11
 module load cuda/11.0

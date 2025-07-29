@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poo-8083
-#FLUX: --queue=ztestpreemp
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=/workspaces/%u/yolov7logs/slurm-%j-run.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ztestpreemp
+#SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --bind /datasets:/datasets --bind /staging:/staging --bind /workspaces:/workspaces \
     --nv \

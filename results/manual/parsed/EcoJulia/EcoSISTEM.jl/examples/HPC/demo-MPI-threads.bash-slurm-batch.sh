@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lentil-1668
-#FLUX: -n=2
-#FLUX: -c=32
-#FLUX: --queue=nodes
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=project0000
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=32
+#SBATCH --mem-per-cpu=256G
+#SBATCH --time=12:00:00
+#SBATCH --partition=nodes
+#SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='32'

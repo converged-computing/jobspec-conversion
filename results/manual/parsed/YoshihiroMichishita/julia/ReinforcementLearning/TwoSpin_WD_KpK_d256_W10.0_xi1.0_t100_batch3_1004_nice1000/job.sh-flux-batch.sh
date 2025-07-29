@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-5831
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-butter-6553
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/YoshihiroMichishita/julia/ReinforcementLearning/TwoSpin_WD_KpK_d256_W10.0_xi1.0_t100_batch3_1004_nice1000/job.sh

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-peas-5111
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 SUBMIT=0
 PARTITION=nodes

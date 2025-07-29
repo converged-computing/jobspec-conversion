@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=diff_exp.txt
-#FLUX: -c=4
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=diff_exp.txt
+#SBATCH --output=/external/rprshnas01/kcni/jxia/chromatin-accessibility/Adult/logs/slurm-diff_exp.txt-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-16:00:00
+#SBATCH --chdir=/external/rprshnas01/kcni/jxia/chromatin-accessibility/Adult
 
 export __Init_Default_Modules='1'
 export TMOUT='7200'

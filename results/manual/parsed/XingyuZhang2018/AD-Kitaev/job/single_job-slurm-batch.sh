@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-snack-3624
-#FLUX: --queue=a100
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100_80G:1
+#SBATCH --time=416-15:00:00
+#SBATCH --partition=a100
 
 module load julia-1.7.1
 project_dir=~/research/AD_Kitaev

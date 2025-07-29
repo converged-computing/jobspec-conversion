@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-poo-2055
-#FLUX: -c=8
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-butter-4035
+#FLUX -c=8
+#FLUX -t=720
+#FLUX --urgency=16
 
 module load StdEnv/2020 python/3.7
 module load gurobi/9.1.0

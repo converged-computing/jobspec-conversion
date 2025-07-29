@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_primitives_raw
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=train_primitives_raw
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set -u
 set -e

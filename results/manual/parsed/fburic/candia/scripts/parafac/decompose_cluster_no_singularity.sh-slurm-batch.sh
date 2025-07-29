@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-sundae-6911
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=decompose-%j.out
+#SBATCH --error=decompose-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
 
 if [ "$#" -lt 2 ]; then
     echo "[ERROR] Correct syntax:"

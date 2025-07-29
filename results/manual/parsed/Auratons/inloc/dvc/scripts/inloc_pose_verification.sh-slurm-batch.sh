@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=inloc
-#FLUX: -c=17
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=inloc
+#SBATCH --output=logs/inloc_algo_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=17
+#SBATCH --gres=gpu:1
+#SBATCH --mem=150G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=node-12
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${CURRENT_DIR}/../../functions/vlfeat/toolbox/mex/mexa64/'
 

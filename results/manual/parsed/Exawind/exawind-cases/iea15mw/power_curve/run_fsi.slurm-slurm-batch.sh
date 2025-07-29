@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=iea15mw_powercurve
-#FLUX: -N=40
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=iea15mw_powercurve
+#SBATCH --account=hfm
+#SBATCH --output=out.%x_%j
+#SBATCH --nodes=40
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --array=1-12
 
 export SPACK_MANAGER='/home/gvijayak/exawind/source/spack-manager'
 

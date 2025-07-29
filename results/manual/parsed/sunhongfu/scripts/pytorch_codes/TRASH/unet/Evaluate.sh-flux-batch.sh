@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sun_test_pytorch
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=sun_test_pytorch
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

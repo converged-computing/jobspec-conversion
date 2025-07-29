@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=faux-avocado-5930
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: --queue=general-compute
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --output=/gpfs/scratch/xdtas/edge12core/xdmod.benchmark.io.mdtest/2018.12.31.13.33.16.469128/stdout
+#SBATCH --error=/gpfs/scratch/xdtas/edge12core/xdmod.benchmark.io.mdtest/2018.12.31.13.33.16.469128/stderr
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:07:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=supporters
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=12,CPU-E5645,IB
 
 export AKRR_NODES='8'
 export AKRR_CORES='96'

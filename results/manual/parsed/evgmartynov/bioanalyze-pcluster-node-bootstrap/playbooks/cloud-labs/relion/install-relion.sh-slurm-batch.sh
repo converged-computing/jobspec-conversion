@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-train-4913
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=dev
+#SBATCH: --exclusive
+#SBATCH --constraint=m5a4xlarge
 
 srun -v -v -N 4 -n 4 spack install \
   -v -y \

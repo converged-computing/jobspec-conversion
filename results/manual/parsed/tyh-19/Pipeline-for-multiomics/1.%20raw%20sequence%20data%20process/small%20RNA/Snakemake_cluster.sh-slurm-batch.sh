@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_cluster
-#FLUX: --queue=CN_BIOT
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake_cluster
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=CN_BIOT
 
 mkdir -p cluster_log
 snakefile="small_pipeline" #"QIAseq_pipeline"

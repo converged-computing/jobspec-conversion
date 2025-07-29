@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-itch-8343
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=astute-car-7404
+#FLUX -N=2
+#FLUX --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 export OMPI_MCA_pml='ucx'

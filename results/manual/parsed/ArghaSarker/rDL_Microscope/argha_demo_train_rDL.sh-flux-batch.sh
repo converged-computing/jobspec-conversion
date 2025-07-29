@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-9248
-#FLUX: -N=2
-#FLUX: -c=54
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-leader-2733
+#FLUX -N=2
+#FLUX -c=54
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='lo'
 

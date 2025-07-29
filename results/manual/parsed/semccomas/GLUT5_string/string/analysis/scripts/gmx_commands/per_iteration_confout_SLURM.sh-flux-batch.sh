@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conf
-#FLUX: --queue=tcb
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=conf
+#FLUX --queue=tcb
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load gromacs/2020.2
 trajext='../../../../../2021071200_GLUT5_string_influx_TMD/GLUT5_string/string/string_sims/TMD_initial_path'

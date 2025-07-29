@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cattywampus-9870
-#FLUX: -c=4
-#FLUX: --queue=cs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-hippo-1848
+#FLUX -c=4
+#FLUX --queue=cs
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Starting Tensorize"
 singularity exec --overlay $SCRATCH/overlay-50G-10M.ext3:ro /scratch/work/public/singularity/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif /bin/bash -c "

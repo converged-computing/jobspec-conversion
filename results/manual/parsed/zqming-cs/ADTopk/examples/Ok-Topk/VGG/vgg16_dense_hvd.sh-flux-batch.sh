@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-despacito-2563
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=purple-soup-0439
+#FLUX -N=16
+#FLUX -n=16
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=9000
+#FLUX --urgency=16
 
 module load daint-gpu
 conda activate py39mpi

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-house-7887
-#FLUX: -c=16
-#FLUX: --queue=gpu_quad
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-signal-2617
+#FLUX -c=16
+#FLUX --queue=gpu_quad
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PYTHONPATH='$root_path/":$PYTHONPATH'
 

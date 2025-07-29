@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Filter
-#FLUX: -n=10
-#FLUX: --queue=long
-#FLUX: -t=360300
-#FLUX: --urgency=16
+#SBATCH --job-name=Filter
+#SBATCH --output=OUT_filter.out
+#SBATCH --error=ERR_filter.out
+#SBATCH --mail-user=youremail@gmail.com
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=120gb
+#SBATCH --time=4-04:05:00
+#SBATCH --partition=long
 
 export PATH='~/.local:$PATH'
 

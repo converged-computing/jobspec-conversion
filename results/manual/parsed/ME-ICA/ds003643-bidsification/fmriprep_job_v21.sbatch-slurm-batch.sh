@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lpp
-#FLUX: -c=8
-#FLUX: --queue=IB_40C_512G
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=lpp
+#SBATCH --account=iacc_nbc
+#SBATCH --output=/home/data/nbc/external-datasets/ds003643/code/jobs/fmriprep-v21-%a.out
+#SBATCH --error=/home/data/nbc/external-datasets/ds003643/code/jobs/fmriprep-v21-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=4gb
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=IB_40C_512G
+#SBATCH --qos=pq_nbc
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='$HOME/.cache/templateflow'
 

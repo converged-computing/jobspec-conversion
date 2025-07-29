@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FredericMasterThesisGAN
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=FredericMasterThesisGAN
+#SBATCH --output=output_%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
+#SBATCH --mem=2
+#SBATCH --time=00:05:00
 
 module load python/3.8.7
 module load cuda/11.0

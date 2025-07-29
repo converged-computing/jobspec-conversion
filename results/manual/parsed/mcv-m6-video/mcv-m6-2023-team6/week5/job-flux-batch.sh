@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fork-6192
-#FLUX: -n=10
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-pedo-3945
+#FLUX -n=10
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate m6

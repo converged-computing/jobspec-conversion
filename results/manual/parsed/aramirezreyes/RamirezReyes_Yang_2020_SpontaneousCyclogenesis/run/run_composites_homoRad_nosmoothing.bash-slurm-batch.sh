@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cinnamonbun-0673
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --mail-user=aramirezreyes@ucdavis.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --qos=premium
+#SBATCH --constraint=knl
+#SBATCH --licenses=project,SCRATCH
 
 export JULIA_NUM_THREADS='64'
 export TMPDIR='$SCRATCH'

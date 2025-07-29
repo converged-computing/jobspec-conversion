@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ToData
-#FLUX: -c=101
-#FLUX: --queue=msibigmem
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=ToData
+#FLUX -c=101
+#FLUX --queue=msibigmem
+#FLUX -t=84600
+#FLUX --urgency=16
 
     pwd
     module swap julia julia/1.8.0

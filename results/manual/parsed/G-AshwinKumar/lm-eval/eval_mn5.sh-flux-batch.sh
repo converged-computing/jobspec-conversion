@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval-mn5
-#FLUX: -c=80
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=eval-mn5
+#FLUX -c=80
+#FLUX -t=7200
+#FLUX --urgency=16
 
 MODEL_NAME="c4ai-command-r-v01"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

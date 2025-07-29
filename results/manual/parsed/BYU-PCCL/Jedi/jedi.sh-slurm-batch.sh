@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-latke-7791
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ "$1" = help ]; then
     echo "Usage: jedi.sh    {run_all | run_local | dashboard | run_fsl | fsl_pull} [options]"

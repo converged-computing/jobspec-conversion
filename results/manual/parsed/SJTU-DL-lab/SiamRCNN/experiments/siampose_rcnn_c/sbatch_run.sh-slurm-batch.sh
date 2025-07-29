@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=siam_rcnn
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=siam_rcnn
+#SBATCH --output=siampose_ct
+#SBATCH --error=siampose_cterr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --nodelist=node5
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'
 

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-latke-0515
-#FLUX: -c=2
-#FLUX: --urgency=16
+#SBATCH --output=OKS-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --nodelist=belldevcv01
 
 python oks.py $@

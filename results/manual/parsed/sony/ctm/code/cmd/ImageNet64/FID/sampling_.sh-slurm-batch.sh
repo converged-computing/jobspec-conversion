@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-general-7185
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=sampling-job-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_COMM_WORLD_RANK='0'
 export OMPI_COMM_WORLD_LOCAL_RANK='0'

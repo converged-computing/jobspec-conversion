@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=v1-mix-small
-#FLUX: -N=16
-#FLUX: -c=16
-#FLUX: --queue=kempner_project
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#FLUX --job-name=v1-mix-small
+#FLUX -N=16
+#FLUX -c=16
+#FLUX --queue=kempner_project
+#FLUX -t=601200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPICH_GPU_SUPPORT_ENABLED='1'

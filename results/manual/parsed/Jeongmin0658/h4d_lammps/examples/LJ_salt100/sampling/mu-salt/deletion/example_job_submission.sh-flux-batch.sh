@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lamp-6392
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-nalgas-1698
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Jeongmin0658/h4d_lammps/examples/LJ_salt100/sampling/mu-salt/deletion/example_job_submission.sh

@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=symb_class
-#FLUX: -N=3
-#FLUX: -n=96
-#FLUX: --exclusive
-#FLUX: --queue=high
-#FLUX: -t=59999940
-#FLUX: --urgency=16
+#SBATCH --job-name=symb_class
+#SBATCH --mail-user=wdlynch@ucdavis.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=3
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=694-10:39:00
+#SBATCH --partition=high
+#SBATCH: --exclusive
+#SBATCH --array=0-20%1
 
 export PATH='$GDIR/miniconda3/bin:$PATH'
 

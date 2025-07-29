@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiGAP
-#FLUX: -n=16
-#FLUX: -c=2
-#FLUX: --queue=high
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cSiaSiGAP
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=high
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export j='$SLURM_JOB_ID'

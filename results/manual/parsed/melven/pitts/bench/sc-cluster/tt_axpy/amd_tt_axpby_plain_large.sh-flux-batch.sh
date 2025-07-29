@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bicycle-0426
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=confused-leopard-6422
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='100M'
 

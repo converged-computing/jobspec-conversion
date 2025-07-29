@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50-mc
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=17400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet50-mc
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=17400
+#FLUX --urgency=16
 
 module purge
 module load Singularity

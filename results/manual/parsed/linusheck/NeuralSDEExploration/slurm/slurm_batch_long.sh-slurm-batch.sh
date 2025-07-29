@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=tipes
+#SBATCH --output=/home/linushe/outputs/%x.%A_%4a.out
+#SBATCH --mail-user=linus.heck@rwth-aachen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=50G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=medium
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

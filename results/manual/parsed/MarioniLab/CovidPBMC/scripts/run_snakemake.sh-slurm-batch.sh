@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-plant-0837
-#FLUX: --urgency=16
+#SBATCH --output=/mnt/scratchb/jmlab/morgan02/Covid/logs/Snakemake_run.out
+#SBATCH --error=/mnt/scratchb/jmlab/morgan02/Covid/logs/Snakemake_run.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12000
 
 DT=$(date '+%d-%m_%H-%M')
 BASEDIR=/mnt/scratchb/jmlab/morgan02/Covid/

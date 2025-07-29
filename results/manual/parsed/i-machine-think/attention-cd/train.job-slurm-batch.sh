@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SHA-LSTM
-#FLUX: --queue=gpu_shared
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=SHA-LSTM
+#SBATCH --output=training_WIKI_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000M
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=gpu_shared
 
 seed=$SLURM_ARRAY_TASK_ID
 fn="save/WIKI_$seed.pt"

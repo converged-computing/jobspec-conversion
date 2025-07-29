@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=borg_input_file
-#FLUX: -N=16
-#FLUX: -n=48
+#FLUX --job-name=borg_input_file
+#FLUX -N=16
+#FLUX -n=48
 #FLUX: --exclusive
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#FLUX -t=504000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='5'
 

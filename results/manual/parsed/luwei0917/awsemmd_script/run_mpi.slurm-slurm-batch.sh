@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CTBP_WL
-#FLUX: -n=2
-#FLUX: --queue=commons
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CTBP_WL
+#SBATCH --mail-user=luwei0917@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=commons
 
 echo "My job ran on:"
 echo $SLURM_NODELIST

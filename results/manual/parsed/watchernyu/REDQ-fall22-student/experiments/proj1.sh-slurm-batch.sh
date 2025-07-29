@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fat-nalgas-8084
-#FLUX: --queue=aquila,parallel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=logs/%A_%a.out
+#SBATCH --error=logs/%A_%a.err
+#SBATCH --mail-user=NETID@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=aquila,parallel
+#SBATCH --constraint=cpu
+#SBATCH --array=0-11
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/workspace/.mujoco/mujoco210/bin'
 export MUJOCO_PY_MUJOCO_PATH='/workspace/.mujoco/mujoco210/'

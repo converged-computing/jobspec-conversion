@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=single_run_task
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=single_run_task
+#FLUX --queue=gpu
+#FLUX -t=108000
+#FLUX --urgency=16
 
 DATASET=$1
 PARENT_DIR="all_results"

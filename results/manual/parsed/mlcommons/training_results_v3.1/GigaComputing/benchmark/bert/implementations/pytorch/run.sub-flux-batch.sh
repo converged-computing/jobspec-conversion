@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-house-8980
+#FLUX --job-name=arid-diablo-3017
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'
 export MODEL_NAME='language_model'

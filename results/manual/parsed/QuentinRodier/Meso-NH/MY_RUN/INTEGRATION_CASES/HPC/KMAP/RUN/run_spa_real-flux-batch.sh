@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sparea_kmap
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=sparea_kmap
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 1'
 

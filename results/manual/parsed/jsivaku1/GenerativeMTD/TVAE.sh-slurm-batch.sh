@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TVAE
-#FLUX: --queue=gpucompute
-#FLUX: --urgency=16
+#SBATCH --job-name=TVAE
+#SBATCH --output=TVAE_output.txt
+#SBATCH --error=TVAE_error.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=30GB
+#SBATCH --partition=gpucompute
 
 module load cuda11.1/toolkit/11.1.1
 conda activate deepmtd

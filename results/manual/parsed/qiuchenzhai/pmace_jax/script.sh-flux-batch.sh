@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=demo_pmace_jax
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=demo_pmace_jax
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load anaconda/2020.11-py38
 module load cudnn/cuda-12.1_8.9

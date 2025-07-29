@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cat-2913
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=wildfire
-#FLUX: -t=173520
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/slurm.%j.out
+#SBATCH --error=./slurm/slurm.%j.err
+#SBATCH --mail-user=tgokhale@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:12:00
+#SBATCH --partition=wildfire
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Color_Classification

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dme211trimming
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=dme211trimming
+#SBATCH --output=tmp/dme211/%A_dme211trimming.out
+#SBATCH --error=tmp/dme211/%A_dme211trimming.err
+#SBATCH --mail-user=dhm267@nyu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=$(pwd) 
 mkdir -p ${WORKDIR}"/tmp/dme211"

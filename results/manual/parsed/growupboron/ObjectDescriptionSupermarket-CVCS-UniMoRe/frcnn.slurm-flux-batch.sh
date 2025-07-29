@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-general-7674
-#FLUX: --queue=all_usr_prod
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-lettuce-9039
+#FLUX --queue=all_usr_prod
+#FLUX -t=10800
+#FLUX --urgency=16
 
 if test $(python3 get_last_epoch.py checkpoints/frcnn/checkpoint.pth) -ge 2
 then

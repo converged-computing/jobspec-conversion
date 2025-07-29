@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tf_mnist_multi_gpus
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_mnist_multi_gpus
+#SBATCH --output=tf_mnist_multi_gpus%A_%a.out
+#SBATCH --error=tf_mnist_multi_gpus%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-1
 
 set -x
 cd ${SLURM_SUBMIT_DIR}

@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=LIKWID
-#FLUX: -N=4
-#FLUX: --queue=micro
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=LIKWID
+#SBATCH --account=pr83te
+#SBATCH --output=quadrant-0192.out
+#SBATCH --error=quadrant-0192.e
+#SBATCH --mail-user=munch@lnm.mw.tum.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=micro
+#SBATCH --constraint=ntasks-per-node=48
+#SBATCH --chdir=./
+#SBATCH: --no-requeue
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

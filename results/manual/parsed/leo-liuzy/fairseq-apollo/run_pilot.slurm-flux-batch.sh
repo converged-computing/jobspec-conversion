@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=XLM_pilot_run_21Langs_debug
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=XLM_pilot_run_21Langs_debug
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 

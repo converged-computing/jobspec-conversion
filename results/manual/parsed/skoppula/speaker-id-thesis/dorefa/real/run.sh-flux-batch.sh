@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dorefa
-#FLUX: --queue=sm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dorefa
+#FLUX --queue=sm
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"
 echo "SLURM_JOBID="$SLURM_JOBID 

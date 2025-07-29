@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ds_bloom
-#FLUX: -c=8
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=ds_bloom
+#FLUX -c=8
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export HOME='$WORK"/home/'
 

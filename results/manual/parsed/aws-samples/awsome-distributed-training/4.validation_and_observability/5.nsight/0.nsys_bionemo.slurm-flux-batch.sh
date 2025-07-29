@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-6852
-#FLUX: -N=4
+#FLUX --job-name=confused-poo-4192
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export HYDRA_FULL_ERROR='1'
 

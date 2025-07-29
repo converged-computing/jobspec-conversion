@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-9018
-#FLUX: -N=32
-#FLUX: --queue=premium
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=milky-general-2044
+#FLUX -N=32
+#FLUX --queue=premium
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

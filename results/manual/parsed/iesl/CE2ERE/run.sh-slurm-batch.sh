@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=longformer_5
-#FLUX: -c=5
-#FLUX: --queue=2080ti-long
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#SBATCH --job-name=longformer_5
+#SBATCH --output=longformer_5.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=6-23:00:00
+#SBATCH --partition=2080ti-long
+#SBATCH --exclude=node172,node181,node130,node152,node129,node127,node143,node161
 
 export PYTHONPATH='/home/tianyiyang/git/CE2ERE/'
 

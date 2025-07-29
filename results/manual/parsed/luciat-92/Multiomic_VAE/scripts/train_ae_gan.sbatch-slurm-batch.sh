@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_adv
-#FLUX: -c=2
-#FLUX: --queue=gpuq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_adv
+#SBATCH --output=logs/train_%j.out.log
+#SBATCH --error=logs/train_%j.err.log
+#SBATCH --mail-user=lucia.trastulla@fht.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuq
+#SBATCH --constraint=ntasks-per-node=1
 
 module load cuda11.7/toolkit/11.7.1
 module load cudnn8.5-cuda11.7/8.5.0.96

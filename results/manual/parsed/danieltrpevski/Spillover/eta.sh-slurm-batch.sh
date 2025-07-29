@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=no_spillover
-#FLUX: -N=25
-#FLUX: --queue=normal
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=no_spillover
+#SBATCH --output=eta_output_file.o
+#SBATCH --error=eta_error_file.e
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=36,mc
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-motorcycle-7701
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-lentil-2875
+#FLUX --queue=normal
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

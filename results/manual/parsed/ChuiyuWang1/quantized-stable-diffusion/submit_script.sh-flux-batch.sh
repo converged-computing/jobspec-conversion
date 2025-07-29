@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-8574
-#FLUX: -c=42
-#FLUX: --queue=small
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=red-kitty-7047
+#FLUX -c=42
+#FLUX --queue=small
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module purge
 module load pytorch/1.12.1

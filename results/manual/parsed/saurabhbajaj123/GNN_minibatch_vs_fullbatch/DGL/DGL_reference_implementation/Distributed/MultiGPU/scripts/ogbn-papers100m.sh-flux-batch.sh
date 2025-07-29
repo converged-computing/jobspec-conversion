@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=papers-mb
-#FLUX: -c=112
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=papers-mb
+#FLUX -c=112
+#FLUX --queue=gpu-preempt
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

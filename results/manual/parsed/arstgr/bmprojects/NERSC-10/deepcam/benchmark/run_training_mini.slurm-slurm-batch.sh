@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=deepcam-mini
-#FLUX: -c=12
-#FLUX: --queue=ndmv4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=deepcam-mini
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=02:00:00
+#SBATCH --partition=ndmv4
+#SBATCH --constraint=ntasks-per-node=8
 
 export N10_DEEPCAM='/mnt/resource_nvme/deepcam'
 

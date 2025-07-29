@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=data_reimaging_FOV
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=data_reimaging_FOV
+#SBATCH --output=data_reimaging_FOV_%j.log
+#SBATCH --mail-user=abulatek@ufl.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=40gb
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 export CASA6='/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/bin/casa'

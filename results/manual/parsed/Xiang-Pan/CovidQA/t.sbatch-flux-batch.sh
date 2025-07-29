@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=torch-test
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=torch-test
+#FLUX -c=8
+#FLUX -t=604800
+#FLUX --urgency=16
 
 conda activate covidqa
 echo $(pwd)

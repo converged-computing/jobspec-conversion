@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-4227
-#FLUX: -c=8
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-03:00:00
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

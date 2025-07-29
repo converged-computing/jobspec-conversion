@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chip-0202
-#FLUX: -N=2
-#FLUX: -n=16
+#FLUX --job-name=psycho-peanut-6296
+#FLUX -N=2
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: --queue=serc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=serc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 MATSIZE=20240
 echo;

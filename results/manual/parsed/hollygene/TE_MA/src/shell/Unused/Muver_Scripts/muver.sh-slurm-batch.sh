@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cherry-2747
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hollygene/TE_MA/src/shell/Unused/Muver_Scripts/muver.sh

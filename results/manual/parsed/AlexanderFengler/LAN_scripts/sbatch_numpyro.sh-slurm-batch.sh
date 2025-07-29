@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=numpyro_sampler
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=numpyro_sampler
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=slurm/numpyro_sampler_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-9
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

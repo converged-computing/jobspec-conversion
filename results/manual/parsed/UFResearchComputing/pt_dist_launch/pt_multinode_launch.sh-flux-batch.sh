@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -c=128
-#FLUX: --gpus-per-task=8
+#FLUX --job-name=test
+#FLUX -N=2
+#FLUX -c=128
+#FLUX --gpus-per-task=8
 #FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=hpg-ai
+#FLUX -t=172800
+#FLUX --urgency=16
 
 CHECKPOINT_PATH=checkpoints_2_node
 VOCAB_FILE=../data/vocab.txt

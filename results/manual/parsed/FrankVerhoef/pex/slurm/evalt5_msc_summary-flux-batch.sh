@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Eval_MSC_Summary
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=Eval_MSC_Summary
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 source ./slurm/.secrets
 module purge

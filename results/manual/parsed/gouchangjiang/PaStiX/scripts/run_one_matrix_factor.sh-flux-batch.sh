@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pastix_pmap
-#FLUX: -n=24
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=pastix_pmap
+#FLUX -n=24
+#FLUX -t=86399
+#FLUX --urgency=16
 
 export STARPU_HOSTNAME='`echo $HOSTNAME | sed 's/[0-9]//g'`'
 

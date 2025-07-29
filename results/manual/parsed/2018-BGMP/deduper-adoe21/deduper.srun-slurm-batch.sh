@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=deduper3
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=deduper3
+#SBATCH --output=deduper3.out
+#SBATCH --error=deduper3.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
 
 ml purge
 ml samtools/1.5 

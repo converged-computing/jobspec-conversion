@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-avocado-4268
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-fork-4159
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load python/3.9.13
 time python python_script.py

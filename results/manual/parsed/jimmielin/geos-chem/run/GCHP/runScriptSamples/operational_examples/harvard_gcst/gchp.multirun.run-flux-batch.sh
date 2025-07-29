@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-blackbean-7815
-#FLUX: -N=2
-#FLUX: -n=96
-#FLUX: --queue=huce_cascade
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-rabbit-4925
+#FLUX -N=2
+#FLUX -n=96
+#FLUX --queue=huce_cascade
+#FLUX -t=1200
+#FLUX --urgency=16
 
 multirunlog="multirun.log"
 cancel_all_jobs()

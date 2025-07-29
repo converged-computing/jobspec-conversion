@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cattywampus-5748
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 dt=$(date '+%d/%m/%Y %H:%M:%S')

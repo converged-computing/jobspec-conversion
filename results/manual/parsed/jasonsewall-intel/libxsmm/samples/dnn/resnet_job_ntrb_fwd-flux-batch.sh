@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cattywampus-8138
-#FLUX: -c=272
-#FLUX: --queue=knmb3
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-platanos-5260
+#FLUX -c=272
+#FLUX --queue=knmb3
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export I_MPI_MIC='1'
 export INTEL_LICENSE_FILE='/swtools/intel/licenses/'

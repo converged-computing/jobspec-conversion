@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Nonlocal_Grad_Enhance
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=Nonlocal_Grad_Enhance
+#FLUX --queue=short
+#FLUX -t=14400
+#FLUX --urgency=16
 
 script_name="Notched_Tensile_Test.i"
 module purge

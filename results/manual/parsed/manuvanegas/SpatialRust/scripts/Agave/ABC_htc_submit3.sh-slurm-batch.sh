@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ABCquart
-#FLUX: -n=450
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ABCquart
+#SBATCH --output=%x-%j.o
+#SBATCH --error=%x-%j.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=450
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

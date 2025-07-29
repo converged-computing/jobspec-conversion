@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=micropipe
-#FLUX: --queue=longq
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=micropipe
+#SBATCH --output=s%A.micropipe_guppy3.6.1_cpu_12samples_72h.out
+#SBATCH --error=s%A.micropipe_guppy3.6.1_cpu_12samples_72h.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=longq
 
 module load nextflow/20.07.1-multi
 module load singularity/3.6.4 

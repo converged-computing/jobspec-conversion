@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=water_run
-#FLUX: -n=28
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=water_run
+#FLUX -n=28
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

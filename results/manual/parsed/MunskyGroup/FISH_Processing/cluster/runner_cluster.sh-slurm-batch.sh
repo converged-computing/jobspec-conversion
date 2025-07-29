@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=t2
-#FLUX: -n=4
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=t2
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --partition=all
 
 module load gnu9/9.4.0 
 module load cudnn/8.3-10.2

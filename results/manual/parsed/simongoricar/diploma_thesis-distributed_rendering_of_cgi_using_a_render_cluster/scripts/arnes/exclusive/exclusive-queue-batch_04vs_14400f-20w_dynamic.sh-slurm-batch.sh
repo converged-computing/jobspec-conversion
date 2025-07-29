@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=exc-qb_04vs_14400f-20w_dynamic
-#FLUX: -n=21
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=exc-qb_04vs_14400f-20w_dynamic
+#SBATCH --output=/d/hpc/projects/FRI/sg7710/distributed-rendering-logs/%A.sbatch.exc-qb_04vs_14400f-20w_dynamic.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=21
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=05:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=amd&rome
+#SBATCH --exclude=wn[201-224]
 
 export RUST_LOG='debug'
 

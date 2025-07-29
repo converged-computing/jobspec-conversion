@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-2417
-#FLUX: -n=20
-#FLUX: --queue=day
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-onion-1046
+#FLUX -n=20
+#FLUX --queue=day
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export src='$pd/src'
 export sesnm='main'

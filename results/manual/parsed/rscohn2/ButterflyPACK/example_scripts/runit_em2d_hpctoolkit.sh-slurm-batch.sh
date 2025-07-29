@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=paralleltest
-#FLUX: -N=128
-#FLUX: --queue=premium
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=paralleltest
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=128
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=premium
+#SBATCH --constraint=haswell
 
 export APP='ie2d'
 export EXEC='./EXAMPLE/$APP'

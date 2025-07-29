@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=array_slim
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=array_slim
+#SBATCH --account=nn9244k
+#SBATCH --mail-user=mark.ravinet@ibv.uio.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=02:00:00
 
 module purge
 module load BCFtools/1.9-intel-2018b VCFtools/0.1.16-intel-2018b-Perl-5.28.0

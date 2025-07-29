@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peas-9241
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=desi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
+#SBATCH --array=7,24
 
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
 PYTHONPATH=$PYTHONPATH:$HOME/LSS/py

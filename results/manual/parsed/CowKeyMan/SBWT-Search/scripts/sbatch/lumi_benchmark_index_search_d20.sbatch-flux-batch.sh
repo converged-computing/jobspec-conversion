@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SBWT_indexes_d20
-#FLUX: --queue=standard-g
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=SBWT_indexes_d20
+#FLUX --queue=standard-g
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export DATETIME='$(date +"%Y-%m-%d_%H-%M-%S_%z")'
 export OUTPUT_FOLDER='index_d20_${DATETIME}'

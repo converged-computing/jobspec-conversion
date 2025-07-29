@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-squidward-0519
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --mem=8G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 module load python-env/3.6.3-ml
 module list

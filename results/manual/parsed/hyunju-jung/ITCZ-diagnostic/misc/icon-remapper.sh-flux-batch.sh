@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=remap
-#FLUX: -n=8
-#FLUX: --queue=cip
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=remap
+#FLUX -n=8
+#FLUX --queue=cip
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load spack cdo

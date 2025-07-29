@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=G1N1B256
-#FLUX: -c=14
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=G1N1B256
+#SBATCH --output=%x-%J.out
+#SBATCH --error=%x-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=1
+#SBATCH --mem=400G
+#SBATCH --time=12:00:00
+#SBATCH --constraint=a100
 
 export OMPI_MCA_btl_openib_warn_no_device_params_found='0'
 export UCX_MEMTYPE_CACHE='n'

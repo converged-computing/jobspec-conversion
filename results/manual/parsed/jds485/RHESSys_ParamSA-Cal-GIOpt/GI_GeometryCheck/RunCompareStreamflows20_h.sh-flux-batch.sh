@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-butter-3705
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-kerfuffle-0102
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-car-4634
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --array=0-7
 
 source /etc/profile
 module load anaconda/2021a

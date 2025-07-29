@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ray-tune-trenta
-#FLUX: -N=9
-#FLUX: -c=90
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=ray-tune-trenta
+#SBATCH --output=ray.log
+#SBATCH --nodes=9
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=90
+#SBATCH: --exclusive
 
 export RAY_GRAFANA_HOST='172.16.18.254:3000'
 export RAY_PROMETHEUS_HOST='172.16.18.254:9090'

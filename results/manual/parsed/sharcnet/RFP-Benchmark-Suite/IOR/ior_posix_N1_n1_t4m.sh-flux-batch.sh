@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-snack-6683
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=salted-fudge-8821
+#FLUX -t=3600
+#FLUX --urgency=16
 
 FS=scratch
 CASE="posix" # e.g. posix.odirect-F

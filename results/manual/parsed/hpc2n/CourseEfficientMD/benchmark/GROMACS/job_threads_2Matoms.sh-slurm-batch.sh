@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-diablo-5427
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=SNICxxxx-yy-zz
+#SBATCH --output=job_str.out
+#SBATCH --error=job_str.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=7
+#SBATCH --time=00:10:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 1000 -nsteps 2000'

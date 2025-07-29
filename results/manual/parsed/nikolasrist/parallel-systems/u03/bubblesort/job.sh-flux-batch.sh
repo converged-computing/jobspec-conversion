@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-signal-3701
-#FLUX: -n=4
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-cinnamonbun-7557
+#FLUX -n=4
+#FLUX --queue=hpc
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PIN_ON_SOCKET='$PORT'
 

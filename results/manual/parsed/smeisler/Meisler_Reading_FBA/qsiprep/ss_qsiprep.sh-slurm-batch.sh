@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=qsiprep
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=qsiprep
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=20GB
+#SBATCH --time=3-00:00:00
 
 set -eu # Stop on errors
 IMG='' # put path to qsiprep docker image here

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=s1
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=s1
+#SBATCH --output=s1.%j.out
+#SBATCH --mail-user=nkozak@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 module purge
 module load openmpi

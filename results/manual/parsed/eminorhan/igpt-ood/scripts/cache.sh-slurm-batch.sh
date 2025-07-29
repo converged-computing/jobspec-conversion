@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cache_igpt
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cache_igpt
+#SBATCH --account=cds
+#SBATCH --output=cache_igpt_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=200GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-5
 
 PARRAY=(20 21 22 23 24 25)    
 p=${PARRAY[`expr $SLURM_ARRAY_TASK_ID % ${#PARRAY[@]}`]}

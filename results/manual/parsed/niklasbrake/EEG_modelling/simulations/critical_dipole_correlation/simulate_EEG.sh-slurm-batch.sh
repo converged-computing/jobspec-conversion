@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poodle-5938
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --account=def-akhadra
+#SBATCH --output=simulation.log
+#SBATCH --mail-user=niklas.brake@mail.mcgill.ca
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-06:00:00
 
 folder=$1
 S=$2

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -N=24
-#FLUX: -c=256
+#FLUX --job-name=raytune
+#FLUX -N=24
+#FLUX -c=256
 #FLUX: --exclusive
-#FLUX: --queue=dc-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=dc-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TUNE_RESULT_DIR='/p/project/raise-ctp2/cern/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='$(($SLURM_NNODES * 4))'

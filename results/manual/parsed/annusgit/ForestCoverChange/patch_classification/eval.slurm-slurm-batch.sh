@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NN-FINN
-#FLUX: -t=48000
-#FLUX: --urgency=16
+#SBATCH --job-name=NN-FINN
+#SBATCH --output=forest.out
+#SBATCH --error=forest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:K20Xm:1
+#SBATCH --time=13:20:00
 
 module load gcc/latest
 module load nvidia/7.5

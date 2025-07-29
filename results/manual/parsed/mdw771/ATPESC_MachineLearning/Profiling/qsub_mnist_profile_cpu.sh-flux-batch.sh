@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-chip-0112
-#FLUX: --urgency=16
+#FLUX --job-name=faux-parsnip-6734
+#FLUX --urgency=16
 

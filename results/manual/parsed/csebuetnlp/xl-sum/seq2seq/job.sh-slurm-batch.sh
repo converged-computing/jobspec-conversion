@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=XLSum
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=XLSum
+#SBATCH --output=xlsum_four_node_eight_gpu.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:p100:2
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=7-00:00:00
 
 export NCCL_DEBUG='INFO'
 export NPROC_PER_NODE='2  '

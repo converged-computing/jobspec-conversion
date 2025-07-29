@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -c=16
-#FLUX: --queue=generic
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=mriqc
+#FLUX -c=16
+#FLUX --queue=generic
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$FREESURFER_HOME/license.txt'
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'

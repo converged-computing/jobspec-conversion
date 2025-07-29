@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=horovod_multiGPU_demo
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=horovod_multiGPU_demo
+#SBATCH --output=%x-%j-slurm.out
+#SBATCH --error=%x-%j-slurm.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
 
 export OMPI_MCA_btl='^openib'
 export IMAGE='$PWD/horovod_gpu_0192.sif'

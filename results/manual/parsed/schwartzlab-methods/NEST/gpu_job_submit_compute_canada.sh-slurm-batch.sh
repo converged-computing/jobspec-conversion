@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_job
+#SBATCH --account=dummy_group
+#SBATCH --output=V1_human_lymph_log-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=63500M
+#SBATCH --time=1-00:00:00
 
 echo "Current working directory: `pwd`"
 echo "Starting run at: `date`"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nunchucks-5457
-#FLUX: --queue=v100_normal_q
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-destiny-1793
+#FLUX --queue=v100_normal_q
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module purge
 module load cuda/10.1.168

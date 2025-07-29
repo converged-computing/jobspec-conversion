@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-blackbean-5410
-#FLUX: -c=4
-#FLUX: --queue=teton-gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=modelscape
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=06:00:00
+#SBATCH --partition=teton-gpu
 
 module load swset/2018.05
 module load cuda/10.1.243

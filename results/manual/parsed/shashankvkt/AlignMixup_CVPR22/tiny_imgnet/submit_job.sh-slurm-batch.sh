@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pot-8162
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shashankvkt/AlignMixup_CVPR22/tiny_imgnet/submit_job.sh

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pixelsnail-bottom-mixup
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pixelsnail-bottom-mixup
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_titanrtx
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

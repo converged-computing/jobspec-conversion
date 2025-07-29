@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pfc_cor_inc
-#FLUX: -c=2
-#FLUX: --queue=gpu-a100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pfc_cor_inc
+#FLUX -c=2
+#FLUX --queue=gpu-a100
+#FLUX -t=10800
+#FLUX --urgency=16
 
 array=("cor" "inc")
 cat ${array[$SLURM_ARRAY_TASK_ID]}

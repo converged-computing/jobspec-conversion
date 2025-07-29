@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-parrot-2613
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zoerechav/MuonBundle_SelfVeto/simulation_scripts/dagfiles/21217/processing/step_1_snowstorm_propagation/jobs/step_1_snowstorm_propagation_1.sh

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=main_srun
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=main_srun
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5GB
+#SBATCH --time=00:05:00
 
 module purge
 module load anaconda3/2021.05

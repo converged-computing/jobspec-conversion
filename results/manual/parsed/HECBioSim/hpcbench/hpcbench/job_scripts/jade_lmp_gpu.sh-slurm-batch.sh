@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=$jobname
-#FLUX: -n=4
-#FLUX: --queue=$partition
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=$jobname
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=$partition
 
 export PATH='/jmain02/home/J2AD004/sxk40/rxw76-sxk40/.local/bin:£PATH'
 

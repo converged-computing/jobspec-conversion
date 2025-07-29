@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GEN_model_run_4
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=GEN_model_run_4
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

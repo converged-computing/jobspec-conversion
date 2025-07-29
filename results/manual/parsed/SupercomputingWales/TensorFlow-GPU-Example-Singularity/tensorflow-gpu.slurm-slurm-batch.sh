@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tensorflow_gpu_demo
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=tensorflow_gpu_demo
+#SBATCH --output=tensorflow_gpu_demo.out.%J
+#SBATCH --error=tensorflow_gpu_demo.err.%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --partition=gpu
 
 module load CUDA cuDNN anaconda
 conda activate tensorflow-gpu

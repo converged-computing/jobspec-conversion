@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=GCNN
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=GCNN
+#FLUX -t=172800
+#FLUX --urgency=16
 
 DATASET="NYU"
 NBTRAIN=100000

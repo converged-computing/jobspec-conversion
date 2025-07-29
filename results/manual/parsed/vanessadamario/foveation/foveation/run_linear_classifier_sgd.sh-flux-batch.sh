@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=experiment1
-#FLUX: -c=2
-#FLUX: --queue=cbmm
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=experiment1
+#FLUX -c=2
+#FLUX --queue=cbmm
+#FLUX -t=72000
+#FLUX --urgency=16
 
 hostname
 module add openmind/singularity/3.4.1

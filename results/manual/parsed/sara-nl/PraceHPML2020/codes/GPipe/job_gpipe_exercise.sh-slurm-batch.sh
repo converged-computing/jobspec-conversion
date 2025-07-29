@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-ricecake-5164
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=gpipe-exercise-%j.out
+#SBATCH --error=gpipe-exercise-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:gtx1080ti:2
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu_shared
 
 export PYTHONUNBUFFERED='1'
 

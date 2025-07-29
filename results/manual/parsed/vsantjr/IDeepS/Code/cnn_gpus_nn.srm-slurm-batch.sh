@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cnn_gpus_nn
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --exclusive
-#FLUX: --queue=nvidia_dev
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=cnn_gpus_nn
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=00:20:00
+#SBATCH --partition=nvidia_dev
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH: --no-requeue
 
 echo '========================================'
 echo '- Job ID:' $SLURM_JOB_ID

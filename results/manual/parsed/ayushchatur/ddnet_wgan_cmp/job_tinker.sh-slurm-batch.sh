@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WGAN
-#FLUX: -c=48
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=165600
-#FLUX: --urgency=16
+#SBATCH --job-name=WGAN
+#SBATCH --account=HPCBIGDATA2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-22:00:00
+#SBATCH --partition=dgx_normal_q
 
 export MASTER_PORT='8888'
 export weight_path='./$SLURM_JOBID/'

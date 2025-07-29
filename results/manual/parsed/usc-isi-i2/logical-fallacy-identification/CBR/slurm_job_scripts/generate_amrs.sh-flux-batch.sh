@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=generate_amr_graphs
-#FLUX: -c=16
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=generate_amr_graphs
+#FLUX -c=16
+#FLUX --queue=nodes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo $(pwd)
 nvidia-smi

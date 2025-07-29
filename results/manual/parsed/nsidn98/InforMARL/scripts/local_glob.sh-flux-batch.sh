@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nav_local
-#FLUX: -c=40
-#FLUX: --urgency=16
+#FLUX --job-name=nav_local
+#FLUX -c=40
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda/2020a

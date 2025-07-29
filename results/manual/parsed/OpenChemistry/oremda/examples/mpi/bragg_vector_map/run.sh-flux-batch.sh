@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-toaster-3502
-#FLUX: -N=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-cattywampus-4522
+#FLUX -N=20
+#FLUX -t=600
+#FLUX --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export PYTHONUNBUFFERED='1'

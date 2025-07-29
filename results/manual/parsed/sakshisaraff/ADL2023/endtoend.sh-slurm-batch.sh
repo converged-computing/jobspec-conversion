@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=coursework
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=coursework
+#SBATCH --account=COMS030144
+#SBATCH --output=./log_%j.out
+#SBATCH --error=./log_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
 
 module purge
 module add python

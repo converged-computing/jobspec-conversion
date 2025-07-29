@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-malarkey-9859
-#FLUX: -n=2
-#FLUX: --queue=wildfire
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=wildfire
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

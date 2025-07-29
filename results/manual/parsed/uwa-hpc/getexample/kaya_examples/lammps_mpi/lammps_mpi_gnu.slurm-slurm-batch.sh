@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -n=36
-#FLUX: --queue=admin
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=00:20:00
+#SBATCH --partition=admin
 
 export OMP_NUM_THREADS='36'
 

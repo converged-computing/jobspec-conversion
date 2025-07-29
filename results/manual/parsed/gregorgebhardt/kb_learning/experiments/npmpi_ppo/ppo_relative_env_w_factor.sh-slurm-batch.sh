@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ppo_relative_w
-#FLUX: -n=9
-#FLUX: -c=8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=ppo_relative_w
+#SBATCH --account=project00720
+#SBATCH --output=/home/yy05vipo/git/kb_learning/experiments/npmpi_ppo/l_%j.stdout
+#SBATCH --error=/home/yy05vipo/git/kb_learning/experiments/npmpi_ppo/l_%j.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=06:00:00
+#SBATCH --chdir=/home/yy05vipo/git/kb_learning/experiments
 
 export OMP_NUM_THREADS='8'
 

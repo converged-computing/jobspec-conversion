@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Forward
-#FLUX: -n=100
-#FLUX: --queue=compute
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Forward
+#SBATCH --account=bm1164
+#SBATCH --output=Logs/SLURM_job.%j.%N.out
+#SBATCH --error=Logs/SLURM_job.%j.%N.err
+#SBATCH --mail-user=clara.henry@mpimet.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=compute
+#SBATCH --chdir=.
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

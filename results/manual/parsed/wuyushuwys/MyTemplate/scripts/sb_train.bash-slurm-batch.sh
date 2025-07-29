@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=srgan
-#FLUX: -N=4
-#FLUX: -c=48
-#FLUX: --queue=ce-mri
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=srgan
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=250G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ce-mri
 
 export NCCL_P2P_DISABLE='1  # IN AMD+A100 cluster'
 export MASTER_PORT='$(((RANDOM % 1000 + 5000)))'

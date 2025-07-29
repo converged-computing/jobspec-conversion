@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-5079
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-ricecake-6167
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load singularity-3.8.2
 singularity exec -e /home/data/NDClab/tools/containers/python-3.8/python-3.8.simg ./hallMonitor.sh

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=prostate_calc
-#FLUX: -N=4
-#FLUX: --queue=gpu05,gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=prostate_calc
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu05,gpu
 
 module purge
 module load utilities/multi

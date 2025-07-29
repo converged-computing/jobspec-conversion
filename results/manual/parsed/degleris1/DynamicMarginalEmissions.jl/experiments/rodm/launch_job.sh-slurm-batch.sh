@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carbon_rodm
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=carbon_rodm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
 
 SCIPT_DIR=/home/users/degleris/CarbonNetworks.jl/experiments/rodm/
 srun hostname

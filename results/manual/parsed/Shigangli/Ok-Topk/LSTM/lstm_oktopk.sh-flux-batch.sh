@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-8077
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-omelette-5440
+#FLUX -N=32
+#FLUX -n=32
+#FLUX -c=12
+#FLUX --queue=normal
+#FLUX -t=4800
+#FLUX --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

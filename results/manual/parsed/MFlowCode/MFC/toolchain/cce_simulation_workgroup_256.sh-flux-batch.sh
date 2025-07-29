@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cherry-5715
-#FLUX: --urgency=16
+#FLUX --job-name=angry-frito-2992
+#FLUX --urgency=16
 
 CCE_LLVM_PATH=${CRAY_CCE_CLANGSHARE}/../
 WGSIZE=256

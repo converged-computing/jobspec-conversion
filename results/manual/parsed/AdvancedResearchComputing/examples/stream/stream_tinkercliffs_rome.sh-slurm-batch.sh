@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lentil-2439
-#FLUX: --exclusive
-#FLUX: --queue=dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=dev_q
+#SBATCH: --exclusive
 
 export OMP_PROC_BIND='true'
 export OMP_NUM_THREADS='32'

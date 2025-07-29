@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=aboron
-#FLUX: -n=4
-#FLUX: --queue=Lewis
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=aboron
+#SBATCH --output=aboron.o%J
+#SBATCH --error=aboron.e%J
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=01:00:00
+#SBATCH --partition=Lewis
 
 export PSM_RANKS_PER_CONTEXT='2'
 

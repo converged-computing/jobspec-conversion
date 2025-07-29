@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swirl_001
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=swirl_001
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -t=600
+#FLUX --urgency=16
 
 srun --mpi=pmix_v2 swirl \
      --user:cuda=T \

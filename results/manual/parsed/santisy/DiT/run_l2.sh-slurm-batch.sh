@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=l2_0414
-#FLUX: -c=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=l2_0414
+#SBATCH --output=./sbatch_logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:v100l:2
+#SBATCH --mem=48G
+#SBATCH --time=2-00:00:00
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

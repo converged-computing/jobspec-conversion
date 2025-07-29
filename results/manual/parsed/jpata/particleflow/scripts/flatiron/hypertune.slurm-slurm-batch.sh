@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hypertune
-#FLUX: -N=4
-#FLUX: --gpus-per-task=4
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=hypertune
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=4
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=a100,sxm4
 
 echo "#################### Job submission script. #############################"
 cat $0

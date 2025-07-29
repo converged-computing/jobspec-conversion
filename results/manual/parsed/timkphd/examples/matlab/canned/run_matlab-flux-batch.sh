@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=invert
+#FLUX --job-name=invert
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

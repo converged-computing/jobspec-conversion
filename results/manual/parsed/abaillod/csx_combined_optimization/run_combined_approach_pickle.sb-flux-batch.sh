@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=CSX
-#FLUX: -t=87839
-#FLUX: --urgency=16
+#FLUX --job-name=CSX
+#FLUX -t=87839
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate simsopt

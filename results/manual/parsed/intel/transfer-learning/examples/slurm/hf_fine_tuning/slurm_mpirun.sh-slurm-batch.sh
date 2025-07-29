@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hf_pytorch
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=hf_pytorch
+#SBATCH --output=output/torch_%A.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 CMD=$@
 if [ -z "${CMD}" ]; then

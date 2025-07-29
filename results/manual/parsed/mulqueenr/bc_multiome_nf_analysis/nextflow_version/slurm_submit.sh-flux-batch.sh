@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-milkshake-5222
-#FLUX: -c=40
-#FLUX: --queue=exacloud
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=red-lemon-3183
+#FLUX -c=40
+#FLUX --queue=exacloud
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load singularity/3.8.0 #load singularity
 module load nextflow/21.10.1 #load nextflow

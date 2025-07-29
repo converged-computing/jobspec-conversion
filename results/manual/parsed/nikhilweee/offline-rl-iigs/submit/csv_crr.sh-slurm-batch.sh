@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crr
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=crr
+#SBATCH --output=logs/%A_%a_%x.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=03:00:00
+#SBATCH --array=0,1,2
 
 modes=("expert" "mixed-const" "mixed-exp")
 mode=${modes[${SLURM_ARRAY_TASK_ID}]}

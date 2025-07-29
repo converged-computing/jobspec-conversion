@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline
-#FLUX: -c=8
-#FLUX: --queue=<HPC_partition>
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=150000
+#SBATCH --partition=<HPC_partition>
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nalgas-7015
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pancake-3935
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/smsak/jhrrr_fcst_12.qsub

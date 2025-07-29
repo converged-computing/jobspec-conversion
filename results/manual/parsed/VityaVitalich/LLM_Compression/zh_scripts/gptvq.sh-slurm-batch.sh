@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=llmcompr
-#FLUX: -c=8
-#FLUX: --queue=ais-gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=llmcompr
+#SBATCH --output=zh_logs/gptvq_log.txt
+#SBATCH --mail-user=V.Moskvoretskii@skoltech.ru
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=00:05:00
+#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/gptvq.sif bash -c '
     cd /home;

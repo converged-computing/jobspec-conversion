@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-4637
-#FLUX: --queue=exacloud
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --output=seacr_%A_%a.out
+#SBATCH --error=seacr_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:24:00
+#SBATCH --partition=exacloud
+#SBATCH --array=1-8
 
 PROJECT=/your/project/directory/
 source $PROJECT/cutAnd_seacr/cutAndConfig.sh

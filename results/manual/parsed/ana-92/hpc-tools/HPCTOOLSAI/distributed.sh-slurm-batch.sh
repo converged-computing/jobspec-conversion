@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-7628
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=32G
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export WORLD_SIZE='4  # Total number of GPUs across all nodes'
 export NODE_RANK='$SLURM_NODEID'

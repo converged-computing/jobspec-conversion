@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=thnn
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=thnn
+#SBATCH --output=/cluster/home/%u/distributed-HGNNs/log/%j.out
+#SBATCH --error=/cluster/home/%u/distributed-HGNNs/log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
 
 set -o errexit
 TMPDIR=$(mktemp -d)

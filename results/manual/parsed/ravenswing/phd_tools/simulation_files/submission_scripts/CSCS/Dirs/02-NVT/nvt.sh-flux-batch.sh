@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=nvt
+#FLUX --queue=normal
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

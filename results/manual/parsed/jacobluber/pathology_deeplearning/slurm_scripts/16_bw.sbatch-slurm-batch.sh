@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-banana-2407
-#FLUX: -N=3
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/small_patches_bw_normed_16.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/small_patches_bw_normed_16.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100x:2
+#SBATCH --mem=60gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuv100x,ntasks-per-node=2
 
 function fail {
     echo "FAIL: $@" >&2

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hostname
-#FLUX: --queue=allgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=hostname
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=max.muster@desy.de
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=allgpu
+#SBATCH --constraint=P100|V100|A100
+#SBATCH --chdir=/home/kaechben/slurm
 
 unset LD_PRELOAD
 source /etc/profile.d/modules.sh

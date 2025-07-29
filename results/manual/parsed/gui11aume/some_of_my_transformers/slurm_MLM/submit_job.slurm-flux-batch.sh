@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: --queue=compute_full_node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=test_job
+#FLUX -N=4
+#FLUX -c=2
+#FLUX --queue=compute_full_node
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:2'
 export NCCL_DEBUG='INFO'

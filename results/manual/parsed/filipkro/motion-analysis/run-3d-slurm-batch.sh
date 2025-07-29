@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lentil-0442
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-33-20
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=alvis
 
 cp -r $HOME/motion-analysis $TMPDIR
 cp -r $HOME/data-3d $TMPDIR

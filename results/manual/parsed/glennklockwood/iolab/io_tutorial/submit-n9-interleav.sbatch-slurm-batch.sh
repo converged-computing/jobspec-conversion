@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-6074
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=nstaff_g
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=gpu
 
 IOR="$HOME/src/iopup/src/ior/bin.muller/ior"
 SEGMENTS=256

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-arm-6202
-#FLUX: -c=10
-#FLUX: --queue=nlp
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=astute-fork-6084
+#FLUX -c=10
+#FLUX --queue=nlp
+#FLUX -t=41400
+#FLUX --urgency=16
 
 export EXPERIMENT='CorpusR_MorphR_NeuralR_test'
 export SYSTEM_HYP='/home/ba63/gender-rewriting/rewrite/multi-step/logs/single_user/rewriting/$EXPERIMENT'

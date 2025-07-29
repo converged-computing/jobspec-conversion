@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=8
-#FLUX: --queue=bluemoon
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --output=log/%x/ATS/%x-ATS_%A-%a.out
+#SBATCH --error=log/%x/ATS/%x-ATS_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2gb
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=bluemoon
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'
 

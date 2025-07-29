@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=floating_panels_2d
-#FLUX: -N=4
-#FLUX: -n=256
-#FLUX: --queue=workq
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=floating_panels_2d
+#SBATCH --account=hpc_ceds3d
+#SBATCH --output=o.out
+#SBATCH --error=e.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=workq
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

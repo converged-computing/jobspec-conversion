@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leopard-9414
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-snack-2224
+#FLUX -t=43200
+#FLUX --urgency=16
 
 mpirun -np 1 lmp_gpu_single -sf gpu -pk gpu 1 -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.gpu.single.128K.1.1

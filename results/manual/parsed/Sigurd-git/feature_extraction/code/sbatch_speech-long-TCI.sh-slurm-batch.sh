@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=confused-carrot-6603
-#FLUX: -c=10
-#FLUX: --queue=doppelbock
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/snormanh_lab/shared/projects/speech-long-TCI/analysis/logs/%a.txt
+#SBATCH --mail-user=guoyang_liao@urmc.rochester.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=doppelbock
+#SBATCH --array=9
+#SBATCH --exclude=bhg0044,bhg0046,bhg0047,bhg0048
 
 project=speech-long-TCI
 non_list=(modulus real rect)

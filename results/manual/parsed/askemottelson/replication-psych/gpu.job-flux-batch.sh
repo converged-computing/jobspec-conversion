@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=replication-gpu
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=replication-gpu
+#FLUX -c=8
+#FLUX --queue=red,brown
+#FLUX -t=10800
+#FLUX --urgency=16
 
 echo "Running on $(hostname):"
 module load Anaconda3/

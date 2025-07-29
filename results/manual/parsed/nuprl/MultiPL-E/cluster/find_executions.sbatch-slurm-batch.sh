@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=find_executions
-#FLUX: -n=200
-#FLUX: -c=2
-#FLUX: --queue=express
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=find_executions
+#SBATCH --nodes=1
+#SBATCH --ntasks=200
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:10:00
+#SBATCH --partition=express
 
 module load gnu-parallel
 parallel="parallel -j $SLURM_NTASKS"

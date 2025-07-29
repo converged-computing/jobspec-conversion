@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=find_executions
-#FLUX: -n=200
-#FLUX: -c=2
-#FLUX: --queue=express
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=find_executions
+#FLUX -n=200
+#FLUX -c=2
+#FLUX --queue=express
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load gnu-parallel
 parallel="parallel -j $SLURM_NTASKS"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=coco20k_vit_b_16
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=coco20k_vit_b_16
+#FLUX -c=32
+#FLUX --queue=ampere
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

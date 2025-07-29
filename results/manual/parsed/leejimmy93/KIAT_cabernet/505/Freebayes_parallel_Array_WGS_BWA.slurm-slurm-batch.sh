@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=505_Array_Freebayes
-#FLUX: -n=20
-#FLUX: --queue=production
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=505_Array_Freebayes
+#SBATCH --output=Freebayes_no_pop_%A_%a.out
+#SBATCH --error=Freebayes_no_pop_%A_%a.err
+#SBATCH --mail-user=rzl0007@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=production
+#SBATCH --array=1-2
 
 aklog
 /bin/hostname

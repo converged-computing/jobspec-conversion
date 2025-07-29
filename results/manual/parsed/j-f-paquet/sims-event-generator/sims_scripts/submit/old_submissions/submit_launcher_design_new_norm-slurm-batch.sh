@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=check_prior_3_validation
-#FLUX: -N=30
-#FLUX: --queue=skx-normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=check_prior_3_validation
+#SBATCH --account=TG-PHY180035
+#SBATCH --output=slurm/out-%j
+#SBATCH --error=slurm/err-%j
+#SBATCH --mail-user=everett.165@osu.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=30
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=skx-normal
+#SBATCH --constraint=ntasks-per-node=48
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

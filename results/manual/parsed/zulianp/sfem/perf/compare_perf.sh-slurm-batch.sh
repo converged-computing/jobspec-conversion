@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=PerfHydroS
-#FLUX: -n=20
-#FLUX: --exclusive
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=PerfHydroS
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=12020
+#SBATCH --time=00:40:00
+#SBATCH: --exclusive
 
 set -e
 sfemfp32=1

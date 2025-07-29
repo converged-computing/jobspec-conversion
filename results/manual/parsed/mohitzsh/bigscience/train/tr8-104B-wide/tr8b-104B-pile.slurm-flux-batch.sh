@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tr8b-104B-pile
-#FLUX: -N=128
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=tr8b-104B-pile
+#FLUX -N=128
+#FLUX -c=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export LAUNCHER='python -u -m torch.distributed.launch \'
 export CMD=' \'

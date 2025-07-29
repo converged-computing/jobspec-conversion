@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-3992
-#FLUX: -N=2
-#FLUX: -n=60
-#FLUX: --queue=huce_intel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=60
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=110G
+#SBATCH --time=02:00:00
+#SBATCH --partition=huce_intel
 
 set -e
 set -x

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TR-for
-#FLUX: -N=4
+#FLUX --job-name=TR-for
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=kshdexclu04
-#FLUX: --urgency=16
+#FLUX --queue=kshdexclu04
+#FLUX --urgency=16
 
 export NCCL_IB_HCA='mlx5_0'
 export NCCL_SOCKET_IFNAME='ib0'

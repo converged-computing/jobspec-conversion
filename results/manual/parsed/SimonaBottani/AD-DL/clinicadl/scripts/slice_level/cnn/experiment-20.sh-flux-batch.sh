@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=exp20_cnn
-#FLUX: -c=32
-#FLUX: --queue=gpu_p1
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#FLUX --job-name=exp20_cnn
+#FLUX -c=32
+#FLUX --queue=gpu_p1
+#FLUX -t=324000
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clinicadl_env_py37

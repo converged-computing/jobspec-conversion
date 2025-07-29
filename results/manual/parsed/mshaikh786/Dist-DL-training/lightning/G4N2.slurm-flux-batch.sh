@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pastry-6122
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-bicycle-4658
+#FLUX -n=4
+#FLUX -c=10
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pre_lstm
-#FLUX: -c=10
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=pre_lstm
+#FLUX -c=10
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export TRANSFORMERS_OFFLINE='1'
 export TOKENIZERS_PARALLELISM='false'

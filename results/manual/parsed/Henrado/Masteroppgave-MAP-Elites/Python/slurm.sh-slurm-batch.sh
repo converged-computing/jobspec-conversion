@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=$1
-#FLUX: --urgency=16
+#SBATCH --job-name=$1
+#SBATCH --output=result/$5/$1/%a/output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --array=$2-$3
 
 sbatch<<EOT
 source ~/.bashrc

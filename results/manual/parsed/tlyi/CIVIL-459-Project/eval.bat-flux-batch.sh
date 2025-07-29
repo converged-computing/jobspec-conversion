@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poo-2760
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-hope-1109
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 python3 -m openpifpaf.eval \
 --dataset=openlane --loader-workers=1 \

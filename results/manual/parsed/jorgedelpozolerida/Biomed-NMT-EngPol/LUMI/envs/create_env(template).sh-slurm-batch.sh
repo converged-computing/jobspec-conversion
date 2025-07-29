@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=examplejob
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=examplejob
+#SBATCH --account=project_465000872
+#SBATCH --output=examplejob.o%j
+#SBATCH --error=examplejob.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=8
 
 module load LUMI/22.08
 module load cotainr

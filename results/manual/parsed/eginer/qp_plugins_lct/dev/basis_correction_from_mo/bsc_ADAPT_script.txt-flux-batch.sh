@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-banana-5980
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-milkshake-5487
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/eginer/qp_plugins_lct/dev/basis_correction_from_mo/bsc_ADAPT_script.txt

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SDP_ARL
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: --queue=sandybridge
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=SDP_ARL
+#SBATCH --account=SKA-SDP
+#SBATCH --nodes=4
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=63900
+#SBATCH --time=00:20:00
+#SBATCH --partition=sandybridge
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export OMP_NUM_THREADS='1'

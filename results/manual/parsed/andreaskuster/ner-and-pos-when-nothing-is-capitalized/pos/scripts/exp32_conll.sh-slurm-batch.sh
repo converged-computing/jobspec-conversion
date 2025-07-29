@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-poo-0912
-#FLUX: -c=64
-#FLUX: --queue=intelv100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=/users2/kustera/log/nlp_out_exp32_conll.txt
+#SBATCH --error=/users2/kustera/log/nlp_err_exp32_conll.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=700G
+#SBATCH --time=04:00:00
+#SBATCH --partition=intelv100
 
 module load python/3.7.2
 module load CMake

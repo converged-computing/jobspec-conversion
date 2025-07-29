@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grid
-#FLUX: -n=25
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=grid
+#FLUX -n=25
+#FLUX -t=108000
+#FLUX --urgency=16
 
 config=${1?Error: no config file given}
 module purge

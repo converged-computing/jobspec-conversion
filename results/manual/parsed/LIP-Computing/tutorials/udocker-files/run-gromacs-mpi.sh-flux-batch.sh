@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_gromacs_mpi
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: --queue=hpc
-#FLUX: --urgency=16
+#FLUX --job-name=run_gromacs_mpi
+#FLUX -N=2
+#FLUX -n=16
+#FLUX --queue=hpc
+#FLUX --urgency=16
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

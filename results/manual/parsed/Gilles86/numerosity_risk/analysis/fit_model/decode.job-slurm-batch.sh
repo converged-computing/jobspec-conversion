@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=decode_numrisk
-#FLUX: --queue=volta
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=decode_numrisk
+#SBATCH --output=/home/cluster/gdehol/logs/decode_surf_numrisk_%A-%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:30:00
+#SBATCH --partition=volta
 
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'
 

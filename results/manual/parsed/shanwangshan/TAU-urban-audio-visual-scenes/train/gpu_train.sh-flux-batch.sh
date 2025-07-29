@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=av
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=av
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/wang9/.conda/envs/torch_env/lib/'
 

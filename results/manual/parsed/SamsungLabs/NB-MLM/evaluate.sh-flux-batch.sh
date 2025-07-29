@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pastry-7042
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-leg-9350
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ -n "$4" ]; then
     CKPT=clf_tune_ckpt_"$4"

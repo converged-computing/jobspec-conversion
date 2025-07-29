@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=simembed_training
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=simembed_training
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --mail-user=mmdesai@mit.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/software.ppc64le/spack/v0.16.2/spack/opt/spack/linux-rhel8-power9le/gcc-8.3.1/anaconda3-2020.02-2ks5tchtak3kzzbryjloiqhusujnh67c/etc/profile.d/conda.sh
 conda activate /home/mmdesai/.conda/envs/my_torch

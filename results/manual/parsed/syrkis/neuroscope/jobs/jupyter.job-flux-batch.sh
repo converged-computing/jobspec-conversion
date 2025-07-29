@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-notebook
-#FLUX: --queue=brown,red
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter-notebook
+#FLUX --queue=brown,red
+#FLUX -t=21600
+#FLUX --urgency=16
 
 XDG_RUNTIME_DIR=""
 slurmctld_port=$(grep "^SlurmctldPort" /etc/slurm/slurm.conf | awk '{print $2}')

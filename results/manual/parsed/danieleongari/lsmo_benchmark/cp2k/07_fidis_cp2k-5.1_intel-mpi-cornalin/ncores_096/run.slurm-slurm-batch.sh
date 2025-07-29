@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-5160
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: --queue=parallel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=E5v4
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-taco-7632
-#FLUX: -N=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=arid-hobbit-8411
+#FLUX -N=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export MASTER='`hostname`'
 export MASTER_PORT='13369'

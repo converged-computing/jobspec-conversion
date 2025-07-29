@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hbs-staircase-bookcorpus
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=hbs-staircase-bookcorpus
+#SBATCH --output=/data/scratch/haukur/ponder/ponder-staircase/logs.slurm/bookcorpusopen-%J.out
+#SBATCH --mail-user=haukur@mideind.is
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
 
 export WANDB_NAME='$EXPERIMENT'
 export WANDB_RUN_GROUP='$TASK_NAME'

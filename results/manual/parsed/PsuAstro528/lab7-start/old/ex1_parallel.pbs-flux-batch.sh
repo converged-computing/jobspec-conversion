@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lamp-2986
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-nunchucks-9397
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PsuAstro528/lab7-start/old/ex1_parallel.pbs

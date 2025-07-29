@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=JL.p.weyl
-#FLUX: -n=128
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=JL.p.weyl
+#SBATCH --account=OTH21017
+#SBATCH --output=../outputs/jl-tb.o%j
+#SBATCH --mail-user=8326909459@tmomail.net
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
 
 export LD_LIBRARY_PATH=' '
 export LD_PRELOAD=''

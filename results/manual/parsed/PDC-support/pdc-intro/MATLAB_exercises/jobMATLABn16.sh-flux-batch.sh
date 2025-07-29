@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -n=16
-#FLUX: --queue=shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -n=16
+#FLUX --queue=shared
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml PDC/22.06
 ml matlab/r2023a

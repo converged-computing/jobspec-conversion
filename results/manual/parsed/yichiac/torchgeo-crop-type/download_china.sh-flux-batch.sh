@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=china_download
-#FLUX: --queue=dali
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=china_download
+#FLUX --queue=dali
+#FLUX -t=259200
+#FLUX --urgency=16
 
 . /projects/dali/spack/share/spack/setup-env.sh
 spack env activate dali

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IL-8-a2b1
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=IL-8-a2b1
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export GMX='gmx_mpi'
 export GMX_DISABLE_GPU_TIMING='yes'

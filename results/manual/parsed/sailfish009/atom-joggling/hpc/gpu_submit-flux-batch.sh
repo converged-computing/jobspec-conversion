@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-avocado-9019
-#FLUX: --queue=pascal
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-signal-1508
+#FLUX --queue=pascal
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

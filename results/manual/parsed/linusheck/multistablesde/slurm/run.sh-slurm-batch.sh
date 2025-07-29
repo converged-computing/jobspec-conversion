@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pygpu
-#FLUX: --queue=c18g
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=pygpu
+#SBATCH --account=thes1544
+#SBATCH --output=/rwthfs/rz/cluster/home/wx133755/output/%x.%A_%4a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=c18g
 
 echo "------------------------------------------------------------"
 echo "SLURM JOB ID: $SLURM_JOBID"

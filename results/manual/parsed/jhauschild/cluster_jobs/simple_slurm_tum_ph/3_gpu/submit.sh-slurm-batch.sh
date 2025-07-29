@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=MyJob
+#SBATCH --account=gpu_manual
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK  # number of CPUs per node, total for all the tasks below.'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=clip
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=clip
+#FLUX -c=5
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ~/.bashrc
 module load cuda

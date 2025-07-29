@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=gnn_wb
-#FLUX: -n=152
-#FLUX: --queue=accelerated
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gnn_wb
+#SBATCH --output=log/TAG_Benchmark_%j.output
+#SBATCH --error=error/TAG_Benchmark_%j.error
+#SBATCH --mail-user=cc7738@kit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=152
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=501600mb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=accelerated
+#SBATCH --chdir=/hkfs/work/workspace/scratch/cc7738-benchmark_tag/TAPE_chen/batch
 
 source /hkfs/home/project/hk-project-test-p0021478/cc7738/anaconda3/etc/profile.d/conda.sh
 conda activate base

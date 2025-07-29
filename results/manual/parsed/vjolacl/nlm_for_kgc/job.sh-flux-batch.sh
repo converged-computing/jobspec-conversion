@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hope-1472
-#FLUX: -n=40
-#FLUX: --queue=gpu_4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-house-4898
+#FLUX -n=40
+#FLUX --queue=gpu_4
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PATH='/opt/intel/intelpython3/bin:$PATH'
 

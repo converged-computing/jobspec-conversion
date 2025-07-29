@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-fork-8381
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-dog-0966
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module load cuda/12.2.2  gcc/10.2   
 nvidia-smi 

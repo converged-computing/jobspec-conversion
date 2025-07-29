@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=single
-#FLUX: -c=8
-#FLUX: --queue=cascade
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=single
+#SBATCH --account=punim2039
+#SBATCH --output=/home/adidishe/EightK/out/single.out
+#SBATCH --error=/home/adidishe/EightK/out/single.err
+#SBATCH --mail-user=antoine.didisheim@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=80G
+#SBATCH --time=10:00:00
+#SBATCH --partition=cascade
+#SBATCH --chdir=/home/adidishe/EightK
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

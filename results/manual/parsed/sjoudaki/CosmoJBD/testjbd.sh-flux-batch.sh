@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cosmomc
-#FLUX: -N=2
+#FLUX --job-name=cosmomc
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ir=0

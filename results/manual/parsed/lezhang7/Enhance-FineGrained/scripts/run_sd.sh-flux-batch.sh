@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=siglip_Apr1_all
-#FLUX: -c=24
-#FLUX: --queue=short-unkillable
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=siglip_Apr1_all
+#FLUX -c=24
+#FLUX --queue=short-unkillable
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$SLURM_NTASKS_PER_NODE'

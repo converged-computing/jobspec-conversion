@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tsunami_lab_reis_cpu
-#FLUX: -c=72
-#FLUX: --queue=s_standard,s_hadoop
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=tsunami_lab_reis_cpu
+#SBATCH --output=tsunami_lab_reis_cpu.output
+#SBATCH --error=tsunami_lab_reis_cpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --time=11:00:00
+#SBATCH --partition=s_standard,s_hadoop
 
 module load tools/python/3.8
 module load compiler/gcc/11.2.0

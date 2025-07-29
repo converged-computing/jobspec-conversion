@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bicycle-5727
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-omelette-9200
+#FLUX -c=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 export APPTAINERENV_FS_LICENSE='$my_licence_fs'
 

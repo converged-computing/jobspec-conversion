@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-spoon-9959
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-lemur-2909
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load cuda
 module load nccl

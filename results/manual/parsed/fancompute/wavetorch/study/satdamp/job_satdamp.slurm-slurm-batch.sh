@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=satdamp
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=satdamp
+#SBATCH --output=./study/satdamp/%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=6000mb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=normal
 
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

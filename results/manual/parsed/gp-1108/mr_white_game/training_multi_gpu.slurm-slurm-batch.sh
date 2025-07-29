@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=emb_train_multi_gpu
-#FLUX: --queue=allgroups
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=emb_train_multi_gpu
+#SBATCH --output=emb_train_output_%j.txt
+#SBATCH --error=emb_train_error_%j.txt
+#SBATCH --mail-user=pietro.girotto@studenti.unipd.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx:2
+#SBATCH --mem=50G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=allgroups
 
 work_dir="/home/girottopie/Code/mr_white_game"
 dataset_name="it_20M_lines_polished"

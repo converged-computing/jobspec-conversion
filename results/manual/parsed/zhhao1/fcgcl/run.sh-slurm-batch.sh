@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=w2v_cl
-#FLUX: --queue=gpu_v100
-#FLUX: --urgency=16
+#SBATCH --job-name=w2v_cl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=0
+#SBATCH --partition=gpu_v100
+#SBATCH --constraint=ntasks-per-node=2
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

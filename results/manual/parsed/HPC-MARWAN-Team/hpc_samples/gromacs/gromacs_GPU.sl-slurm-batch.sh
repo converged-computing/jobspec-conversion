@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Gromacs
-#FLUX: -c=20
-#FLUX: --queue=gpu-testq
-#FLUX: --urgency=16
+#SBATCH --job-name=Gromacs
+#SBATCH --account=gpu_users
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu-testq
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export WORK_DIR='$PWD/gmx${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/ubiquitin'

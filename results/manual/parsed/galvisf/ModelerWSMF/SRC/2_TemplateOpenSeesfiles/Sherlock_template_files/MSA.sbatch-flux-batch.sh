@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-nalgas-1854
-#FLUX: -N=5
-#FLUX: --queue=cee,owners
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-leader-4792
+#FLUX -N=5
+#FLUX --queue=cee,owners
+#FLUX --urgency=16
 
 module load openmpi
 module load scalapack

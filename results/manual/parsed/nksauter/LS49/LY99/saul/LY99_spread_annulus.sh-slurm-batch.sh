@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=roi
-#FLUX: -N=25
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=roi
+#SBATCH --account=lcls_g
+#SBATCH --output=job%j.out
+#SBATCH --error=job%j.err
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --qos=gpu
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

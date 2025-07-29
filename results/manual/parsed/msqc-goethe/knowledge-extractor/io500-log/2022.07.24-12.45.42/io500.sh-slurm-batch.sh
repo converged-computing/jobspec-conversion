@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-spoon-7694
-#FLUX: -N=10
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --account=ku0598
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=6
 
 io500_ini="$1"          # You can set the ini file here
 io500_mpirun="mpirun"

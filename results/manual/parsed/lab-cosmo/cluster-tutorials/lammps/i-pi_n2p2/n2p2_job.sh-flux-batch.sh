@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=n2p2
+#FLUX --job-name=n2p2
 #FLUX: --exclusive
-#FLUX: --queue=jobs
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=jobs
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source $HOME/venv/base/bin/activate
 module load intel

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SMAM
-#FLUX: -n=44
-#FLUX: --queue=cee
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SMAM
+#FLUX -n=44
+#FLUX --queue=cee
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load openmpi
 module load scalapack

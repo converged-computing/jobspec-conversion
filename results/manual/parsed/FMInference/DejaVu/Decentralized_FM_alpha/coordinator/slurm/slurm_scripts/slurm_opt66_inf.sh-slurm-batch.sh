@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gptneox
-#FLUX: -c=8
-#FLUX: --queue=jag-standard
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#SBATCH --job-name=gptneox
+#SBATCH --output=/afs/cs.stanford.edu/u/biyuan/exe_log/gptneox_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=4G
+#SBATCH --time=03:59:00
+#SBATCH --partition=jag-standard
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

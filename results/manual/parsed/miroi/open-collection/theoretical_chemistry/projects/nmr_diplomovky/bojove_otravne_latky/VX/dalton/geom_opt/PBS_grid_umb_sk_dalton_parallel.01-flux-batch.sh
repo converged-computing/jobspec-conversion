@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-soup-1172
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-bits-4933
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/VX/dalton/geom_opt/PBS_grid_umb_sk_dalton_parallel.01

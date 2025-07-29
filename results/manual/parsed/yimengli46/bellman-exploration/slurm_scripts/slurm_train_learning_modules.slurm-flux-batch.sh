@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_ResNet_sseg_and_depth
-#FLUX: -c=15
-#FLUX: --queue=gpuq
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=train_ResNet_sseg_and_depth
+#FLUX -c=15
+#FLUX --queue=gpuq
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load cuda/11.2
 module load python/3.7.4

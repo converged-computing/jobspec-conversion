@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=<rN>.prep.ABL
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=<rN>.prep.ABL
+#SBATCH --output=log.preprocess
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=90G
+#SBATCH --time=12:00:00
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

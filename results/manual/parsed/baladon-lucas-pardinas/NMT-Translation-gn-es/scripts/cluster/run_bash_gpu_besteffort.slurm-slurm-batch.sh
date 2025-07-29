@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MARIAN
-#FLUX: -n=4
-#FLUX: -c=9
-#FLUX: --queue=besteffort
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=MARIAN
+#SBATCH --output=run_besteffort10-12.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=9
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=besteffort
+#SBATCH --qos=besteffort
 
 export SINGULARITY_TMPDIR='${HOME}/cache'
 export TMPDIR='$SINGULARITY_TMPDIR'

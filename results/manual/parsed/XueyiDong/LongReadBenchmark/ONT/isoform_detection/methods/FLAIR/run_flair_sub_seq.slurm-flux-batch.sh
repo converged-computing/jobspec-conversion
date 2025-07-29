@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-chip-9323
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=red-motorcycle-4843
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load anaconda3
 source activate

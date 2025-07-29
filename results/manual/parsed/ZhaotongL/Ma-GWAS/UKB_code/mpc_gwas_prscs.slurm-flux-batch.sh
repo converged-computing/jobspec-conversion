@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-butter-7358
-#FLUX: --queue=ram1t,amd2tb,amd512
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-cattywampus-2457
+#FLUX --queue=ram1t,amd2tb,amd512
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load plink/2.00-alpha-091019
 plink2 --bfile ../110K_QCed --pheno ../MET_20PC.txt --pheno-name PC${SLURM_ARRAY_TASK_ID} --variance-standardize --covar ../noMET_20PC.txt  --glm hide-covar --out mPC${SLURM_ARRAY_TASK_ID}

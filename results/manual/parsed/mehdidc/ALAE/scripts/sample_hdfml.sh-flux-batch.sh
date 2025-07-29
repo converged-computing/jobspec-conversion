@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-4228
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-omelette-3275
+#FLUX -c=10
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

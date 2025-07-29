@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sterilenu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=sterilenu
+#SBATCH --output=grid_cenns750_sterilenu.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=00:10:00
+#SBATCH --array=10-121
 
 CONTAINER=/cluster/tufts/wongjiradlab/twongj01/coherent/coherent_snowglobes_20200304.simg
 WORKDIR=/cluster/tufts/wongjiradlab/twongj01/coherent/run_cenns750_sterile_jobs

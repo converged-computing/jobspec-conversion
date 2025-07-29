@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-banana-4984
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/apmizzi/DART_Chem/apm_run_scripts/RUN_WRF_CHEM/OLD_RUN_SCRIPTS/run_wrf_chem_MOPITT_ONLY_Std_SVD_rev4.ksh

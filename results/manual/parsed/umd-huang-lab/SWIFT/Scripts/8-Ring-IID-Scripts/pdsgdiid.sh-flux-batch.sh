@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PDSGD
-#FLUX: -n=8
-#FLUX: --queue=scavenger
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=PDSGD
+#FLUX -n=8
+#FLUX --queue=scavenger
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load openmpi
 module load cuda/11.1.1

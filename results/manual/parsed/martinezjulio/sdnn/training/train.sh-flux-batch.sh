@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vgg_afd
-#FLUX: --queue=nklab
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#FLUX --job-name=vgg_afd
+#FLUX --queue=nklab
+#FLUX -t=601200
+#FLUX --urgency=16
 
 CONFIG_FILE='./configs/vgg/face_AFD_matched_seed.yaml'
 SCRIPT=./train_new.py

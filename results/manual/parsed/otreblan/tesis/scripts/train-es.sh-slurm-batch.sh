@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=donut-train
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --job-name=donut-train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=6G
 
 nvidia-smi
 cd ~/donut

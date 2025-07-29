@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain-scratch-resnet152
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=pretrain-scratch-resnet152
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/scratch/cs/sar-uav-cv/.singularity'
 

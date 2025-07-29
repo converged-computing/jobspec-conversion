@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-train-2537
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-hippo-2959
+#FLUX --urgency=16
 
 TASKS=8
 APP=$2

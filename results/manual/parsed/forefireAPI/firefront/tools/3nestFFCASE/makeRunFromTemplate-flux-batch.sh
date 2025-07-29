@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Reanalysis
-#FLUX: -n=20
+#FLUX --job-name=Reanalysis
+#FLUX -n=20
 #FLUX: --exclusive
-#FLUX: --queue=intel
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --queue=intel
+#FLUX -t=72000
+#FLUX --urgency=16
 
 echo "SCRIPT RUN_PGD EN COURS"
 template=$1

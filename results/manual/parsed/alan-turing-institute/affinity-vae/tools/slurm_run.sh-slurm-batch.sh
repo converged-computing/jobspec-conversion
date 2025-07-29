@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-8540
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=vjgo8416-ms-img-pc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --time=08:00:00
+#SBATCH --qos=turing
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

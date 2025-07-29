@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:cosmoflow_ref
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:cosmoflow_ref
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MODEL_NAME='cosmoflow'
 export MODEL_FRAMEWORK='pytorch'

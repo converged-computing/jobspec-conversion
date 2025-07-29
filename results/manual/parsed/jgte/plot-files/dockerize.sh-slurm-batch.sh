@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=$($BASH_SOURCE
-#FLUX: --queue=grace-serial
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=$($BASH_SOURCE
+#SBATCH --account=A-byab
+#SBATCH --output=$($BASH_SOURCE
+#SBATCH --error=$($BASH_SOURCE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=grace-serial
 
 DIR=$(cd $(dirname $BASH_SOURCE);pwd)
 MODE="$(echo "$1"| tr '[:upper:]' '[:lower:]')"

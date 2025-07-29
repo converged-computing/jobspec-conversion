@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ebop-notebook
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=ebop-notebook
+#SBATCH --account=p_scads
+#SBATCH --output=/beegfs/ws/0/s4610340-energy_behavior/dev/logs/job_notebook_cpu/slurm-%j.out
+#SBATCH --error=/beegfs/ws/0/s4610340-energy_behavior/dev/logs/job_notebook_cpu/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10000
+#SBATCH --time=08:00:00
+#SBATCH --partition=alpha
 
 export XDG_RUNTIME_DIR=''
 

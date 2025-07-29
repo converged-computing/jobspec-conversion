@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=RUnet_comb
-#FLUX: -c=4
-#FLUX: --queue=slurm_shortgpu
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=RUnet_comb
+#SBATCH --output=%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:gtx1080:1
+#SBATCH --time=00:40:00
+#SBATCH --partition=slurm_shortgpu
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 module load python/3.6.0

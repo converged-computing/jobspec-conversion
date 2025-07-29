@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test-warpx
-#FLUX: -N=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=test-warpx
+#FLUX -N=32
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load craype-accel-amd-gfx90a
 module load rocm/5.1.0

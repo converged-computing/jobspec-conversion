@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Blaze
-#FLUX: -n=128
-#FLUX: --queue=normal256
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#SBATCH --job-name=Blaze
+#SBATCH --output=zzout.eo%j
+#SBATCH --error=zzout.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:20:00
+#SBATCH --partition=normal256
 
 export MPIRUN='Mpirun -np 128'
 

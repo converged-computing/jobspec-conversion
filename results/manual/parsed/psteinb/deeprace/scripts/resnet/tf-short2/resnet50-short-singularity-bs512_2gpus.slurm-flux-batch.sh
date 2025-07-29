@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chip-1602
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=red-itch-8977
+#FLUX --queue=gpu2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

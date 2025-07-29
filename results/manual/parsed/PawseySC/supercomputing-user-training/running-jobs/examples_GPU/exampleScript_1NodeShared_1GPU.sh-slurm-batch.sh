@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=1GPUSharedNode
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=1GPUSharedNode
+#SBATCH --account=<yourProject>-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='1           #This controls the real CPU-cores per task for the executable'
 

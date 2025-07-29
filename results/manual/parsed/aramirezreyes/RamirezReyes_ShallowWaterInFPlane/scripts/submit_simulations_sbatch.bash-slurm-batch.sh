@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=phat-kerfuffle-6073
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=m1517
+#SBATCH --mail-user=aramirezreyes@ucdavis.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=ntasks-per-node=4,gpu
+#SBATCH --licenses=scratch,cfs
 
 export SLURM_CPU_BIND='cores'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Taiyaki
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=Taiyaki
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module unload cuda
 echo "==== Start of GPU information ===="

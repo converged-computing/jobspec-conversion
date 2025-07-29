@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-house-9346
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-animal-8870
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load CUDA cuDNN

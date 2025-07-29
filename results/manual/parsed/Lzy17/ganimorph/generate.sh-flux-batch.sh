@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cyclegan
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=cyclegan
+#FLUX -N=4
+#FLUX --queue=gpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module list

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-citrus-0667
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ornl-languages/osb/Graph500/contrib/pbs/run_debug.pbs

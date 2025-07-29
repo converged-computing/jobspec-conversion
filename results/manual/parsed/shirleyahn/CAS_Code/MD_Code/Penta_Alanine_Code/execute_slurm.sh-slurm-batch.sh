@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=A5
-#FLUX: --queue=owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=A5
+#SBATCH --output=A5.out
+#SBATCH --error=A5.err
+#SBATCH --mail-user=sahn1@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=owners
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH: --no-requeue
 
 num_nodes=1  # TODO: set number of nodes requested
 num_cpu=16  # TODO: set number of cores per node

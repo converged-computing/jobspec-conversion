@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cinnamonbun-0784
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=aauhpc_fat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-00:00:00
 
 python fcgrnn_train.py --test_every_n_epochs 10 --sample_rate 15 --data_format 'speed' --seq_len 6 \
  --horizon 3 --num_gpus 2 --fill_mean=False --sparse_removal=False --learning_rate 0.001 --lr_decay 0.8 --lr_decay_epoch 5 \

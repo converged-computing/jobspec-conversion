@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-citrus-8449
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-truffle-3416
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export FI_CXI_DEFAULT_VNI='$(od -vAn -N4 -tu < /dev/urandom)'
 

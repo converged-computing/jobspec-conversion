@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=iit_test
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=iit_test
+#FLUX -t=86400
+#FLUX --urgency=16
 
 LD_PRELOAD=/usr/lib64/libstdc++.so.6
 module load nixpkgs

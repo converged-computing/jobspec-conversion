@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mogrify-tss-seq
-#FLUX: --queue=short
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=mogrify-tss-seq
+#FLUX --queue=short
+#FLUX -t=28800
+#FLUX --urgency=16
 
 find . -name "*.svg" ! -path "*.git*" ! -path "*.snakemake*" ! -name "rulegraph.svg" ! -name "dag.svg" | while read svg; do
     png=$(echo $svg | sed -e 's/.svg$/.png/g')

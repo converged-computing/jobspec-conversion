@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:volta:1
 
 export MPI_FLAGS='--tag-output --bind-to socket -map-by core -mca btl ^openib -mca pml ob1 -x PSM2_GPUDIRECT=1 -x NCCL_NET_GDR_LEVEL=5 -x NCCL_P2P_LEVEL=5 -x NCCL_NET_GDR_READ=1'
 export NCCL_IB_DISABLE='1'

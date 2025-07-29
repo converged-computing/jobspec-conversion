@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CLUSTER_TEST
-#FLUX: -N=8
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CLUSTER_TEST
+#SBATCH --account=astro
+#SBATCH --mail-user=wangfeng@cnlab.net
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=8
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=110000
+#SBATCH --time=01:00:00
+#SBATCH --partition=hpc
+#SBATCH: --exclusive
 
 export RASCIL='$rascildir '
 export PYTHONPATH='${rascildir}:$PYTHONPATH'

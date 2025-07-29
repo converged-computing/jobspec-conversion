@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HPML_Project_efficientnet_b0_dataparallel_finetune_GPU_1_with_profiler_new_image_size_food
-#FLUX: -c=10
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=HPML_Project_efficientnet_b0_dataparallel_finetune_GPU_1_with_profiler_new_image_size_food
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 cd /scratch/pm3483/Project1/

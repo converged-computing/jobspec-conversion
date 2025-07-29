@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leg-9313
-#FLUX: -n=8
-#FLUX: --queue=physical
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=physical
 
 module load Python/3.5.2-goolf-2015a
 echo "Cluster and Cloud Computing Assignment1 using 1 node and 8 cores"

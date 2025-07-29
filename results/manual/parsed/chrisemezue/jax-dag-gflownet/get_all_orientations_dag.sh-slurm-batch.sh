@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-general-3195
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
 
 export CUDA_VISIBLE_DEVICES='0'
 

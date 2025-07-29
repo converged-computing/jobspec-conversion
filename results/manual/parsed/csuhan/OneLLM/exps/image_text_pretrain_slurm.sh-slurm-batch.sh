@@ -1,10 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-house-3841
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=16
-#FLUX: --queue={Partition
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --partition={Partition
 
 srun python -u main_pretrain.py \
 --epochs 1 --dataset image \

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lamp-7487
-#FLUX: -c=2
-#FLUX: --queue=tier3
-#FLUX: -t=7566
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-leg-9811
+#FLUX -c=2
+#FLUX --queue=tier3
+#FLUX -t=7566
+#FLUX --urgency=16
 
 folder=$1
 echo " * Submitting job array..."

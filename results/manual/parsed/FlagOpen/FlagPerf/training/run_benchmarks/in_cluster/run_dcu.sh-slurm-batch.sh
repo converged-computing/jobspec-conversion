@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aquila
-#FLUX: -N=16
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=xahdnormal
-#FLUX: --urgency=16
+#SBATCH --job-name=aquila
+#SBATCH --output=./logs/%j.out
+#SBATCH --error=./logs/%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=dcu:4
+#SBATCH --partition=xahdnormal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 echo "START TIME: $(date)"
 hostfile=./hostfile/$SLURM_JOB_ID

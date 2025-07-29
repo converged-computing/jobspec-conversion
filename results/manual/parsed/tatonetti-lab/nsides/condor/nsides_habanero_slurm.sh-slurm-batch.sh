@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NSIDES_%A_%a
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --job-name=NSIDES_%A_%a
+#SBATCH --account=fcs
+#SBATCH --output=nsides_results_%A_%a.out
+#SBATCH --error=nsides_results_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:12:00
 
 start=`date +%s`
 module load cuda80/toolkit cuda80/blas cudnn/5.1

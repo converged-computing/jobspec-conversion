@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NRE_train
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=NRE_train
+#SBATCH --output=logs/NRE_train.out
+#SBATCH --mail-user=gz612@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load python3/intel/3.5.3

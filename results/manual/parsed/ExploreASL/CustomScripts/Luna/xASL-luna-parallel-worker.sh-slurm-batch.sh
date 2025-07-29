@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-sundae-8278
-#FLUX: --queue=luna-short
-#FLUX: -t=240
-#FLUX: --urgency=15
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=00:04:00
+#SBATCH --partition=luna-short
+#SBATCH --qos=low
 
 if false; then
     echo $NWORKERS

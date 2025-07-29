@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tb
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=tb
+#SBATCH --output=out/tb.out
+#SBATCH --mail-user=larend@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=12:00:00
 
 if [ $HOSTNAME = dgx1 ]; then
     singularity exec --nv -B /raid:/raid /raid/poggio/home/larend/localtensorflow.img \

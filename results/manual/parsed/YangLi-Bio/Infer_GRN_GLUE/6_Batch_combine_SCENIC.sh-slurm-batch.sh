@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nunchucks-3684
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Outputs/
 data_list="../../main_text_data.txt"

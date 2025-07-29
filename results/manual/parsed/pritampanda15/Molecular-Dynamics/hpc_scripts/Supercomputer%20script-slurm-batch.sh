@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=amyloid
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=amyloid
+#SBATCH --account=snic2020-1-40
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMP_NUM_THREADS='4'
 

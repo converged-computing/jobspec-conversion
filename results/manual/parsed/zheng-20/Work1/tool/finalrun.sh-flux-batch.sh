@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-frito-0122
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-lamp-2455
+#FLUX --urgency=16
 
 export PYTHONPATH='./'
 

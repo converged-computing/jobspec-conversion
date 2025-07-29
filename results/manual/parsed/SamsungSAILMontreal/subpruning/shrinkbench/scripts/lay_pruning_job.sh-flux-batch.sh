@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-3974
-#FLUX: -c=20
-#FLUX: --urgency=16
+#FLUX --job-name=confused-lamp-0176
+#FLUX -c=20
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/subpruning/'
 

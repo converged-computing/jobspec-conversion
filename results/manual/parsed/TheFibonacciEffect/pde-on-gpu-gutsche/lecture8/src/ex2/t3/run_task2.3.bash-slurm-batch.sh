@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=task2.3
-#FLUX: -N=4
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=task2.3
+#SBATCH --account=class04
+#SBATCH --output=task2.3.%j.o
+#SBATCH --error=task2.3.%j.e
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

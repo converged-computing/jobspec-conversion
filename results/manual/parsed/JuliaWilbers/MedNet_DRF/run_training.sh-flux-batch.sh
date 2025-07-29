@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-latke-0864
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=arid-mango-3606
+#FLUX --queue=short
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load Python/3.7.2-GCCcore-8.2.0

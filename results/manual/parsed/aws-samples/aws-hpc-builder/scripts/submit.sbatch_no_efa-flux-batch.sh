@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-8367
-#FLUX: -N=2
+#FLUX --job-name=expressive-buttface-6387
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=wrfc6gn
-#FLUX: --urgency=16
+#FLUX --queue=wrfc6gn
+#FLUX --urgency=16
 
 export WRF_VERSION='3.9.1'
 export JOB_DIR='/fsx/spooler/run'

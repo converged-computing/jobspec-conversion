@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CITY_V0
-#FLUX: -c=3
-#FLUX: -t=172680
-#FLUX: --urgency=16
+#FLUX --job-name=CITY_V0
+#FLUX -c=3
+#FLUX -t=172680
+#FLUX --urgency=16
 
 module load python-3.6
 module load cuda-10.0

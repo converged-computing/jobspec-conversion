@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-0191
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=astute-chip-8951
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

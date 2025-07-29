@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MPI-Correctness-Bench
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=MPI-Correctness-Bench
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=3000
+#SBATCH --time=00:10:00
 

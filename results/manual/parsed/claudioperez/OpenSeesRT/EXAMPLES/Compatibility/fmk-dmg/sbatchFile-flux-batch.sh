@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -n=9
-#FLUX: --queue=small
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -n=9
+#FLUX --queue=small
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load intel
 module load petsc

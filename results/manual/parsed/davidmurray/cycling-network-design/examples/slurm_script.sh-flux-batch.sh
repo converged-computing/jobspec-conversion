@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=genetic_algo
-#FLUX: -N=8
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#FLUX --job-name=genetic_algo
+#FLUX -N=8
+#FLUX -t=42600
+#FLUX --urgency=16
 
 set -x
 module load cmake/3.23.1

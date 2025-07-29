@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cherry-6668
-#FLUX: -c=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --mail-user=joakimje@hiof.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=dgx2q
 
 export OMP_NUM_THREADS='$omp_thread          # OpenMP, Numpy'
 export MKL_NUM_THREADS='$omp_thread          # Intel MKL'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=36
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=88G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export TMPDIR='$(mktemp -d --tmpdir="$SCRATCH") || exit 1'
 

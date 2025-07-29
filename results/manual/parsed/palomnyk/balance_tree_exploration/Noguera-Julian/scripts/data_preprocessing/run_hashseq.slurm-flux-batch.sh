@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hashseq
-#FLUX: --queue=Orion
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=hashseq
+#FLUX --queue=Orion
+#FLUX -t=18000
+#FLUX --urgency=16
 
 echo Job: $SLURM_JOB_NAME with ID $SLURM_JOB_ID
 echo Running on host: `hostname`

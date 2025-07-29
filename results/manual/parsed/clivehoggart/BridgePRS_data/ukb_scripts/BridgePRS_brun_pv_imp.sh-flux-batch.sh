@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-knife-4601
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-egg-5137
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/clivehoggart/BridgePRS_data/ukb_scripts/BridgePRS_brun_pv_imp.sh

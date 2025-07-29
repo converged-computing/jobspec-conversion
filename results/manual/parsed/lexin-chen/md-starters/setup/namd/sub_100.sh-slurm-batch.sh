@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=w_mor
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=w_mor
+#SBATCH --account=colina
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --mail-user=some_user@some_domain.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=25gb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=colina
 
 ml cuda/10.0.130 namd/3.0
 cd $SLURM_SUBMIT_DIR

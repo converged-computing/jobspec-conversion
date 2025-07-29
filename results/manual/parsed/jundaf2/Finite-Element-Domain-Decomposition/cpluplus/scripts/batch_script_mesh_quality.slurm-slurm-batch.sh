@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=proj-benchmark
-#FLUX: --exclusive
-#FLUX: --queue=cs
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=proj-benchmark
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cs
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export TOTAL_CPUS='$(( SLURM_JOB_NUM_NODES * PBS_NUM_PPN ))'
 

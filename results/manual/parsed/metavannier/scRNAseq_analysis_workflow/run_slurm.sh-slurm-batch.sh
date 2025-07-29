@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=allen_SIMS
-#FLUX: --queue=kepler
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=allen_SIMS
+#SBATCH --account=b324
+#SBATCH --output=./%N.%x.out
+#SBATCH --error=./%N.%x.errs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=kepler
+#SBATCH --constraint=ntasks-per-node=24
 
 module purge
 module load userspace/all

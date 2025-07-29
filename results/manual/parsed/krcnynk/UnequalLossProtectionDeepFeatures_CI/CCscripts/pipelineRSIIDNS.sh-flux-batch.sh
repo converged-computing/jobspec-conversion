@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lizard-9586
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-car-5125
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module restore uneq
 cd ..

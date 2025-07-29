@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-arm-6482
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:2
+#SBATCH --mem=60000M
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load 2019

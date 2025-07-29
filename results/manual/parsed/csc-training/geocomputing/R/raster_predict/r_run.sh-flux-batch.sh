@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-rabbit-9282
-#FLUX: -n=4
-#FLUX: --queue=small
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-toaster-3997
+#FLUX -n=4
+#FLUX --queue=small
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load r-env-singularity
 if test -f ~/.Renviron; then

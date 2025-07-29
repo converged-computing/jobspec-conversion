@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-banana-8453
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/brain-life/pestillilab_projects/precision_brain_science/s_classify_major_tracts_105115_noculling.pbs

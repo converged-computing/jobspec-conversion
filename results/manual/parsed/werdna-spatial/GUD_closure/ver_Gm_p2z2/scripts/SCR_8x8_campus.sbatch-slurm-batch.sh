@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=8x8_darwin
-#FLUX: -N=2
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=campus
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=8x8_darwin
+#SBATCH --account=ACF-UTK0105
+#SBATCH --output=/nfs/home/ecarr/logfiles/Gmp2z1.%j.out
+#SBATCH --error=/nfs/home/ecarr/logfiles/Gmp2z1.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=campus
+#SBATCH --qos=campus
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --exclude=clr0812,clr0813,ilp1119,ilp1120
 
 export LD_LIBRARY_PATH='${NCDIR}/lib:${LD_LIBRARY_PATH}'
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0   # the option -ppn only works if you set this before'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-platanos-0503
-#FLUX: --exclusive
-#FLUX: --queue=lanka-v3
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=102400
+#SBATCH --time=04:00:00
+#SBATCH --partition=lanka-v3
+#SBATCH --qos=commit-main
+#SBATCH: --exclusive
+#SBATCH --array=1-6%6
 
 cd /data/scratch/willow/FinchBenchmarks/graphs
 source /afs/csail.mit.edu/u/w/willow/everyone/.bashrc

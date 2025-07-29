@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=04_aggregate_sdms
-#FLUX: -c=64
-#FLUX: -t=1020
-#FLUX: --urgency=16
+#SBATCH --job-name=04_aggregate_sdms
+#SBATCH --account=ctb-tpoisot
+#SBATCH --output=jobs/out/%x-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=48G
+#SBATCH --time=00:17:00
 
 module load StdEnv/2020
 module load julia/1.9.1

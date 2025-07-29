@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rMATS
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rMATS
+#SBATCH --account=hpc_p_anderson
+#SBATCH --output=/globalhome/hxo752/HPC/slurm_logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ivybridge
 
 module load star
 rmat=/globalhome/hxo752/HPC/anaconda3/envs/rMATS/bin

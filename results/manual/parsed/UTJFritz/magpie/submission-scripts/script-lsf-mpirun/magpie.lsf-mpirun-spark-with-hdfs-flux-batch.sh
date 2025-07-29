@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-8058
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-truffle-0563
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UTJFritz/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-spark-with-hdfs

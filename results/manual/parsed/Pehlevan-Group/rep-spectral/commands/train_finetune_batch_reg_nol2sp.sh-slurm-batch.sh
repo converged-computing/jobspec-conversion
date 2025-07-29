@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=finetune_reg_custom
-#FLUX: -c=2
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --job-name=finetune_reg_custom
+#SBATCH --output=out/custom_large/transfer_%A_%a.out
+#SBATCH --error=out/custom_large/transfer_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=320GB
+#SBATCH --time=1-00:12:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=180-269%8
 
 source ~/.bashrc
 conda activate curvature

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bicycle-8902
-#FLUX: --urgency=16
+#SBATCH --output=output/convolution.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 echo "Starting job $SLURM_JOB_ID"
 cat job.slurm

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leg-2048
-#FLUX: -N=64
-#FLUX: --urgency=16
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun /opt/ucs/demo/workloads/AMG 1
 srun /opt/ucs/demo/workloads/dgemm 2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-chair-8409
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-underoos-1026
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LIBRARY_PATH='${LIBRARY_PATH}:~/libtensorflow2/lib:/moismon:/usr/lib64;\'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:~/libtensorflow2/lib:/moismon:/usr/lib64'

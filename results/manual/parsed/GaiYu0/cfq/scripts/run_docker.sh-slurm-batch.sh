@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cfq_train_docker
-#FLUX: -c=40
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#SBATCH --job-name=cfq_train_docker
+#SBATCH --output=/home/eecs/paras/slurm/%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --mem=400000
+#SBATCH --time=5-05:00:00
+#SBATCH --exclude=atlas,blaze,r16,freddie
 
 export CFQ_DIR='data/cfq'
 export DATA_CACHE='/data/$USER/data_cache/cfq'

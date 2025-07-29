@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-animal-1841
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=logs/bwa.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
+#SBATCH --array=1-28
 
 module load bwa
 module load htslib

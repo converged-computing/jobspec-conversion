@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-underoos-6028
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-peanut-butter-3144
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 date;hostname;pwd
 module load singularity

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=all2all
-#FLUX: -N=2
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=all2all
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2g
+#SBATCH --time=00:01:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load openmpi
 module load python/3.7.2

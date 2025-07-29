@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-citrus-6241
-#FLUX: --queue=valhalla
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-train-3540
+#FLUX --queue=valhalla
+#FLUX -t=432000
+#FLUX --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

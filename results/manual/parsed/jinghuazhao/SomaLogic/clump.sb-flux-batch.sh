@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CLUMP
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=CLUMP
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export p='$(awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]' doc/SomaLogic.list)'
 export TMPDIR='/scratch/jhz22/tmp'

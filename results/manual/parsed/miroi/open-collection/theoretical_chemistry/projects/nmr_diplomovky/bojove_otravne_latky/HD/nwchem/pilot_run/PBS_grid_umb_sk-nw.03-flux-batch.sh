@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-0630
-#FLUX: --urgency=16
+#FLUX --job-name=milky-frito-4774
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/HD/nwchem/pilot_run/PBS_grid_umb_sk-nw.03

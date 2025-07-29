@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-caramel-5051
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-egg-5770
+#FLUX --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'
 

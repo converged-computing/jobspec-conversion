@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=width_2
-#FLUX: -c=3
-#FLUX: --queue=p100,t4v1,t4v2
-#FLUX: --urgency=16
+#SBATCH --job-name=width_2
+#SBATCH --output=logs_new/width_2/%x_%A-%a_%n-%t.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=18G
+#SBATCH --partition=p100,t4v1,t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0
 
 ​
 GPUS_PER_NODE=1

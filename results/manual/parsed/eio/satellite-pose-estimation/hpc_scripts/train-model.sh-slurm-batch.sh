@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CVIA-Train-Stream-2-Elliott
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CVIA-Train-Stream-2-Elliott
+#SBATCH --output=train-model.out
+#SBATCH --mail-user=001@student.uni.lu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export MODULEPATH='/opt/apps/resif/iris/2019b/gpu/modules/all/'
 export ANACONDA='/opt/apps/resif/iris/2019b/default/modules/all/lang/Anaconda3/'

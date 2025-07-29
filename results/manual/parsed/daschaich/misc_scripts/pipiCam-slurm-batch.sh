@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-muffin-5122
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ $# -lt 1 ]; then
   echo "Usage: $0 <config>"

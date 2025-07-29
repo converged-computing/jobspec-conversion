@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-7970
-#FLUX: -n=96
-#FLUX: --queue=genoa
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=genoa
+#SBATCH --array=1,2,3
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

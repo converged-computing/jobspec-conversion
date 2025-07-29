@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-8694
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0001
+#SBATCH --output=array-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --array=8,16,32
 
 echo This job shares a SLURM array job ID with the parent job: $SLURM_ARRAY_JOB_ID
 echo This job has a SLURM job ID: $SLURM_JOBID

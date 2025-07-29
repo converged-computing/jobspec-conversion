@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=groupall4
-#FLUX: --queue=normal
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=groupall4
+#FLUX --queue=normal
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module add openmind/singularity/3.4.1
 hostname

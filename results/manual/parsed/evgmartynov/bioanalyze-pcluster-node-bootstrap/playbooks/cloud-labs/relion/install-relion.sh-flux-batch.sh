@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-platanos-3379
-#FLUX: -N=4
-#FLUX: -n=4
+#FLUX --job-name=fuzzy-snack-0652
+#FLUX -N=4
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=dev
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=dev
+#FLUX -t=86400
+#FLUX --urgency=16
 
 srun -v -v -N 4 -n 4 spack install \
   -v -y \

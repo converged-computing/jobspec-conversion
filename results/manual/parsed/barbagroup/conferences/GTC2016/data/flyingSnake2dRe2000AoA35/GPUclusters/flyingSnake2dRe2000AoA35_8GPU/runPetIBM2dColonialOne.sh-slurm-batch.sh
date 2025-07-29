@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2k35bcgs
-#FLUX: -n=32
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=2k35bcgs
+#SBATCH --output=log%j.out
+#SBATCH --error=log%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=short
 
 OPENMPI_DIR="/c1/apps/openmpi/1.8/gcc/4.9.2"
 MPIRUN="$OPENMPI_DIR/bin/mpirun"

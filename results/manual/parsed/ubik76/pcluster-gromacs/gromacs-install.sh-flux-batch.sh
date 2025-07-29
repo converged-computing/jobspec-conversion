@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-run
-#FLUX: -n=36
-#FLUX: --queue=queue0
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs-run
+#FLUX -n=36
+#FLUX --queue=queue0
+#FLUX --urgency=16
 
 export SPACK_ROOT='/shared/spack'
 

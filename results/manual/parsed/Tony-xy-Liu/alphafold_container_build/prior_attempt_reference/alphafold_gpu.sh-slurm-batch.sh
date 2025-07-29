@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=alphafold_ATPase
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=alphafold_ATPase
+#SBATCH --account=ad-arc-3-gpu
+#SBATCH --output=alphafold_gpu.ATPase.job%j.out
+#SBATCH --error=alphafold_gpu.ATPase.job%j.err
+#SBATCH --mail-user=jiarui.li@ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64GB
+#SBATCH --time=1-00:00:00
 
 cd $SLURM_SUBMIT_DIR
 module load apptainer

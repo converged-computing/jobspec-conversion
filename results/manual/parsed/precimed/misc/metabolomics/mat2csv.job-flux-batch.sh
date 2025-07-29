@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mat2csv
-#FLUX: -c=8
-#FLUX: -t=15600
-#FLUX: --urgency=16
+#FLUX --job-name=mat2csv
+#FLUX -c=8
+#FLUX -t=15600
+#FLUX --urgency=16
 
 module purge
 source /cluster/projects/p33/users/mohammadzr/envs/pynext38/bin/activate

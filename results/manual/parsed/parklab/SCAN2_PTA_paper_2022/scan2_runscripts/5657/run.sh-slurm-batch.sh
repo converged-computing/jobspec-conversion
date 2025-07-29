@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-avocado-9077
-#FLUX: --queue=priopark
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=park_contrib
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=priopark
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \
     --ref /n/data1/hms/dbmi/park/jluquette/genotyper1/paper/resources/human_g1k_v37_decoy.fasta \

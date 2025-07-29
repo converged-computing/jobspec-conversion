@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=hello-citrus-6087
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=slurm_array.%A-%a.%N.out
+#SBATCH --error=slurm_array.%A-%a.%N.err
+#SBATCH --mail-user=s.minano@ucl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=0-2%3
 
 source ~/.bashrc
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_main_yunet
-#FLUX: -n=3
-#FLUX: -c=17
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_main_yunet
+#SBATCH --output=julian/logs/yunet_log_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=17
+#SBATCH --mem-per-cpu=30G
+#SBATCH --time=10:00:00
 
 export PYTHONPATH='$(pwd)'
 

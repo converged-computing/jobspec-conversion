@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-3978
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-parrot-0349
+#FLUX -n=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo `date`
 echo $HOSTNAME

@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=LS49_IOTA
-#FLUX: -N=64
-#FLUX: --queue=premium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=LS49_IOTA
+#SBATCH --account=m2859
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=knl
 
+singularity
+exec
+registry.services.nersc.gov/asmit/iota_v2:latest
 NODES=64
 NUM_RANKS=$((NODES*68))
 for i in `seq 174 255`

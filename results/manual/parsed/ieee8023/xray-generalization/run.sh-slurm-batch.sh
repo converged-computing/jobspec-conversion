@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-8941
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12g
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export LANG='C.UTF-8'
 

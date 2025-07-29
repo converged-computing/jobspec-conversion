@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=iqtree
+#SBATCH --output=/gpfs/data/cbc/aguang/hiv_wide/logs/%J-%A-%a.out
+#SBATCH --error=/gpfs/data/cbc/aguang/hiv_wide/logs/%J-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=4-00:00:00
+#SBATCH --array=0-9
 
 export SINGULARITY_BINDPATH='/gpfs/data/cbc/aguang/hiv_wide'
 

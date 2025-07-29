@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eeg_proc
-#FLUX: --queue=gpu_v100_2
-#FLUX: -t=719
-#FLUX: --urgency=16
+#SBATCH --job-name=eeg_proc
+#SBATCH --output=./slurm/output%j.txt
+#SBATCH --error=./slurm/error%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200000M
+#SBATCH --time=00:11:59
+#SBATCH --partition=gpu_v100_2
 
 nvidia-smi
 conda env list

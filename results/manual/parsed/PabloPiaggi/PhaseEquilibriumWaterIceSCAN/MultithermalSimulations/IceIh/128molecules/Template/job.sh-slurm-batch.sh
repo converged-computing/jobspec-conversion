@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Ih3-REPLACE
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Ih3-REPLACE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gres=gpu:1
+#SBATCH --mem=500M
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ps2cctbx
-#FLUX: -N=100
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=ps2cctbx
+#FLUX -N=100
+#FLUX -t=10800
+#FLUX --urgency=16
 
 NODES=100
 NUM_RANKS=$((NODES*68))

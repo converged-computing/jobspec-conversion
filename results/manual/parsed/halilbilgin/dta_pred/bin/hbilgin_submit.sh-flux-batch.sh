@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Keras
-#FLUX: --queue=cuda
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=Keras
+#FLUX --queue=cuda
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PATH='$HOME/.local/bin:$PATH'
 

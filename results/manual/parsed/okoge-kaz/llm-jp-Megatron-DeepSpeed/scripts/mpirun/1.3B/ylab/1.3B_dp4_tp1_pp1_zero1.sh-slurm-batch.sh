@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gpt
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt
+#SBATCH --output=outputs/%j.out
+#SBATCH --error=errors/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 . /etc/profile.d/modules.sh
 module load cuda/11.7

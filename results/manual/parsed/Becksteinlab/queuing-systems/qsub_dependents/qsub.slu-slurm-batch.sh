@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=qsub_example
-#FLUX: -n=24
-#FLUX: --queue=wildfire
-#FLUX: --urgency=16
+#SBATCH --job-name=qsub_example
+#SBATCH --output=stdout_log.%j.o
+#SBATCH --error=stderr_log.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=wildfire
 
 GMX_VERSION=4.6.7
 DEFFNM="md"

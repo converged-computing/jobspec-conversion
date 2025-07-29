@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-soup-2384
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-bike-0424
+#FLUX --queue=normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'

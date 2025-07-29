@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=httools
-#FLUX: --queue=norm
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=httools
+#FLUX --queue=norm
+#FLUX -t=43200
+#FLUX --urgency=16
 
 if [ $# -eq 0 ]
   then

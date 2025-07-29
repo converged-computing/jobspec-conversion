@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rl-training
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=rl-training
+#FLUX --queue=bii-gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/chess'

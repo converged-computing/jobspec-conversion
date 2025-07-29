@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=drip-model-grl-2023
-#FLUX: -N=3
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=drip-model-grl-2023
+#SBATCH --output=output_%j.txt
+#SBATCH --mail-user=mitchellmcm27@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=18:00:00
+#SBATCH --constraint=ntasks-per-node=40
 
 cd $SLURM_SUBMIT_DIR
 module load NiaEnv/2019b

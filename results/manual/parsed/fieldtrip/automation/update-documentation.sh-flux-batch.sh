@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-staircase-7936
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-arm-0966
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fieldtrip/automation/update-documentation.sh

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-4724
-#FLUX: -c=24
-#FLUX: --queue=gpu
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=128G
+#SBATCH --time=23:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=h100
 
 export MODULEPATH='/mnt/home/gkrawezik/modules/rocky8:$MODULEPATH'
 

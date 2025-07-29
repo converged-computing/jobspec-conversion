@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=APOLLO:SCALE.64.lulesh
-#FLUX: -N=3
-#FLUX: -n=69
-#FLUX: --exclusive
-#FLUX: --queue=pbatch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=APOLLO:SCALE.64.lulesh
+#SBATCH --account=asccasc
+#SBATCH --mail-user=wood67@llnl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=3
+#SBATCH --ntasks=69
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=pbatch
+#SBATCH: --exclusive
 
 export EXPERIMENT_JOB_TITLE='SCALE.0064.lulesh'
 export APPLICATION_RANKS='64"        # ^__ make sure to change the SBATCH node counts!'

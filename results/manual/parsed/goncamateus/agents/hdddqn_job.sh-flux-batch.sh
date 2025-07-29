@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hddqn_agent
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=hddqn_agent
+#FLUX -c=32
+#FLUX --urgency=16
 
 module use /opt/easybuild/modules/all/
 module load Python3.10 Xvfb freeglut glew MuJoCo

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ITS
-#FLUX: --queue=informatik-mind
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=ITS
+#FLUX --queue=informatik-mind
+#FLUX -t=216000
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/latest

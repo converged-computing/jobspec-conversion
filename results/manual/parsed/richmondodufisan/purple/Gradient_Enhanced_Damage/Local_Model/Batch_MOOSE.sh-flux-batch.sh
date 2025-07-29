@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Local_Grad_Enhance
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=Local_Grad_Enhance
+#FLUX --queue=normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 script_name="LOCAL_Three_Point_Bending_Test.i"
 module purge

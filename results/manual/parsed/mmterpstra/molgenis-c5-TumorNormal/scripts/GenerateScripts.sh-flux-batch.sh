@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-onion-5473
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-snack-0891
+#FLUX --urgency=16
 
 set -ex
 set -u

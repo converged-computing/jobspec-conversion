@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=JupiterNotebook
-#FLUX: --queue=ai
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=JupiterNotebook
+#SBATCH --account=ai
+#SBATCH --output=test_%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_t4:1
+#SBATCH --mem=60G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=ai
+#SBATCH --qos=ai
+#SBATCH --constraint=ntasks-per-node=2
 
 echo "======================="
 echo "Loading Anaconda Module..."

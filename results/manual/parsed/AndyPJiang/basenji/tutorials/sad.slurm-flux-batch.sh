@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sad
-#FLUX: -N=16
-#FLUX: -c=4
-#FLUX: --queue=physical
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sad
+#FLUX -N=16
+#FLUX -c=4
+#FLUX --queue=physical
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export BASENJIDIR='/data/gpfs/projects/punim0614/andy/basenji21/basenji'
 export PATH='$BASENJIDIR/bin:$PATH'

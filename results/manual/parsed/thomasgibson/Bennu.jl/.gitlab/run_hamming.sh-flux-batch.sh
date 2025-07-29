@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-staircase-0327
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=faux-frito-9899
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "# "
 echo "# Running job $SLURM_JOB_NAME - $SLURM_JOB_ID "

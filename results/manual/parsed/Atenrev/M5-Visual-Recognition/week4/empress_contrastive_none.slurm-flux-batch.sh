@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cupcake-4323
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-caramel-5913
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_b.py \
     --loss "contrastive"  \

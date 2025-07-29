@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-ricecake-6090
-#FLUX: -n=8
-#FLUX: --queue=bigmem
-#FLUX: -t=1065600
-#FLUX: --urgency=16
+#FLUX --job-name=red-leader-3473
+#FLUX -n=8
+#FLUX --queue=bigmem
+#FLUX -t=1065600
+#FLUX --urgency=16
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 

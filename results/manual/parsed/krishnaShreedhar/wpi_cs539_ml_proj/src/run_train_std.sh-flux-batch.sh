@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mri_std
-#FLUX: --queue=whitehill
-#FLUX: -t=194400
-#FLUX: --urgency=16
+#FLUX --job-name=mri_std
+#FLUX --queue=whitehill
+#FLUX -t=194400
+#FLUX --urgency=16
 
 module load cuda11.1/toolkit/11.1.1
 module load cudnn/8.1.1.33-11.2/3k5bbs63

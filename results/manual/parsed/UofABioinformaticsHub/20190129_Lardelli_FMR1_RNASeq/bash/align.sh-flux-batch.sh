@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-animal-8458
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-truffle-8250
+#FLUX -n=16
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

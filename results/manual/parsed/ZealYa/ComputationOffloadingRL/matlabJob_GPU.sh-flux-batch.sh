@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-nunchucks-7893
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=confused-onion-5719
+#FLUX -c=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load CUDA

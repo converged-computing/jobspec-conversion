@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=a_accre_train
-#FLUX: --queue=maxwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=a_accre_train
+#FLUX --queue=maxwell
+#FLUX -t=432000
+#FLUX --urgency=16
 
 setpkgs -a matlab_r2016b
 setpkgs -a gcc_compiler_4.9.3

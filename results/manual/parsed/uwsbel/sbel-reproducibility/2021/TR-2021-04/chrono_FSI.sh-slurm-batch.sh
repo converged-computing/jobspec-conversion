@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cinnamonbun-9033
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=10-00:00:00
 
 module load gcc/9.2.0
 module load cmake/3.18.1

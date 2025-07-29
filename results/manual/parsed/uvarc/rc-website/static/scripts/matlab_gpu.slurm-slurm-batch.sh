@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=phat-onion-1733
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=hpc_build
+#SBATCH --output=gpuTest_%A.out
+#SBATCH --error=gpuTest_%A.err
+#SBATCH --mail-user=teh1m@virginia.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=60000
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 echo 'slurm allocates gpus ' $CUDA_VISIBLE_DEVICES
 module load matlab/R2020a

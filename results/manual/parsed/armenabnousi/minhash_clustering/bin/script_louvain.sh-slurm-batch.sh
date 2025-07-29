@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-blackbean-8918
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/armenabnousi/minhash_clustering/bin/script_louvain.sh

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=runRAxML
-#FLUX: -c=10
-#FLUX: --queue=broadwl
-#FLUX: --urgency=16
+#SBATCH --job-name=runRAxML
+#SBATCH --output=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runRAxML/runRAxML_%A_%a.out
+#SBATCH --error=/scratch/midway2/bend/projects/Doran_etal_2022/_research/logs/runRAxML/runRAxML_%A_%a.err
+#SBATCH --mail-user=bend@uchicago.edu
+#SBATCH --mail-type=START,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --partition=broadwl
+#SBATCH --array=1-288%20
 
 module load julia/1.7.2
 projdir="/scratch/midway2/bend/projects/Doran_etal_2022"

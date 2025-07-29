@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=2
 
 cd $SLURM_SUBMIT_DIR
 source ~/.bash_profile

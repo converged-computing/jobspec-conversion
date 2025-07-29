@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-0123
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=/nfs/students/borchero/logs/job-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=65536
+#SBATCH --time=7-00:00:00
 
 echo Starting job ${SLURM_JOBID}
 echo SLURM assigned me these nodes:

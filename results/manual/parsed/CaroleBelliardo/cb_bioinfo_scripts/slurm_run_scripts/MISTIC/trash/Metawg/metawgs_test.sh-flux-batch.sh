@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Run1
-#FLUX: -c=60
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=Run1
+#FLUX -c=60
+#FLUX --queue=all
+#FLUX --urgency=16
 
 module purge
 module load singularity/3.7.3

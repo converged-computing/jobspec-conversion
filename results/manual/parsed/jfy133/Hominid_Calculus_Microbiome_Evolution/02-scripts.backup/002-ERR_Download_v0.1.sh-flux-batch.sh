@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poodle-8919
-#FLUX: -c=4
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=salted-pancake-0064
+#FLUX -c=4
+#FLUX -t=1440
+#FLUX --urgency=16
 
 FILE="$(readlink -f $1)"
 OUTDIR="$(readlink -f $2)"

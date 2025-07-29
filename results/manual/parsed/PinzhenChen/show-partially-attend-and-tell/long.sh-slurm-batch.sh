@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-gato-4367
-#FLUX: --queue=LongJobs
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=LongJobs
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

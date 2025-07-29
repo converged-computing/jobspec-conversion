@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-punk-1294
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --output=balrog.stdout.%j.%N
+#SBATCH --error=balrog.stderr.%j.%N
+#SBATCH --mail-user=david.molik@usda.gov
+#SBATCH --mail-type=START,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=long
 
 module load apptainer
 module load nextflow/23.10.1

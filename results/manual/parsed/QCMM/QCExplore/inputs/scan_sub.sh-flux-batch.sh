@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Tera_job
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=Tera_job
+#FLUX --queue=long
+#FLUX --urgency=16
 
 export SCRDIR='/scratch/${ID}'
 export OUTFILE='$SLURM_SUBMIT_DIR/out.dat'

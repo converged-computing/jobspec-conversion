@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eddy_segmenter
-#FLUX: -n=4
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=eddy_segmenter
+#SBATCH --account=users
+#SBATCH --output=./output/%j-slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=main
 
 INPUT_FILE=""
 source /etc/profile.d/lmod.sh

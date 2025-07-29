@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dr_default
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dr_default
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load my list of modules

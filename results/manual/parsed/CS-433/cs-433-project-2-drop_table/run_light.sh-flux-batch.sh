@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-muffin-2371
-#FLUX: -N=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-bicycle-1937
+#FLUX -N=4
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc/8.4.0-cuda
 module load mvapich2/2.3.4

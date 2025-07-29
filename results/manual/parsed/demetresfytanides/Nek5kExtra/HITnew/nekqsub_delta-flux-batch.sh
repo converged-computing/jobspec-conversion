@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-itch-7169
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-poodle-8226
+#FLUX --urgency=16
 
 : ${PROJ_ID:="bbhx-delta-cpu"}
 : ${QUEUE:="cpu"}

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-earthworm-4934
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-itch-0430
+#FLUX -t=7200
+#FLUX --urgency=16
 
 dataset_path=$1
 fish=$2

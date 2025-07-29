@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hpc
-#FLUX: --urgency=16
+#FLUX --job-name=hpc
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo 'Hello World'

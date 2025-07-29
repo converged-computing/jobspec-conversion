@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-6744
-#FLUX: --queue=priority
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --account=park
+#SBATCH --output=logs/%j_munge-pipeline.log
+#SBATCH --error=logs/%j_munge-pipeline.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:12:00
+#SBATCH --partition=priority
 
 module load conda2 gcc slurm-drmaa R
 source "$HOME/.bashrc"

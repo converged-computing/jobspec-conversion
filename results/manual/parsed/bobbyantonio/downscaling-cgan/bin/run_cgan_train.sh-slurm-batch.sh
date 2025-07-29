@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cgan-train
-#FLUX: -c=16
-#FLUX: --queue=cnu
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --job-name=cgan-train
+#SBATCH --output=logs/cgan-train-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=300gb
+#SBATCH --time=8-00:00:00
+#SBATCH --partition=cnu
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 source ~/.initConda.sh

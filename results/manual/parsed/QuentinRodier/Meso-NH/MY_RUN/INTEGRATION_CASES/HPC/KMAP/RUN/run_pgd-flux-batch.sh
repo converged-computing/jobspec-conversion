@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pgd_kmap
-#FLUX: -n=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=pgd_kmap
+#FLUX -n=4
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 4'
 

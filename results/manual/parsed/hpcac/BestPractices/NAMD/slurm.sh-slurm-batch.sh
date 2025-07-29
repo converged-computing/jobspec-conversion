@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=namd2
-#FLUX: -N=2
-#FLUX: --queue=thor
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=namd2
+#SBATCH --account=hpcac
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=thor
+#SBATCH --constraint=ntasks-per-node=32
 
 module purge
 module load md/namd/2.12-hpcx-2.0.0-intel-2018.1.163

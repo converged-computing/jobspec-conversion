@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dsap16836
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=dsap16836
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.3.0

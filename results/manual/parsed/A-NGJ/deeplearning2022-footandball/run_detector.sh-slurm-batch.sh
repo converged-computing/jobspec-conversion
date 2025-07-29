@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-3084
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/A-NGJ/deeplearning2022-footandball/run_detector.sh

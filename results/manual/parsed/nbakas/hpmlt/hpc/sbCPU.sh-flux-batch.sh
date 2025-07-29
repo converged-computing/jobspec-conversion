@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-kitty-0268
-#FLUX: -c=256
-#FLUX: --queue=cpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-peanut-butter-3724
+#FLUX -c=256
+#FLUX --queue=cpu
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

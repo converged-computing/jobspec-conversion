@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-0326
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=angry-cattywampus-8483
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export KMP_BLOCKTIME='0'

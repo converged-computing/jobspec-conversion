@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=node_perf_tests
-#FLUX: -c=18
-#FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=node_perf_tests
+#SBATCH --output=/home/hpc/ihpc/ihpc062h/HPC_HiWi/batchScripts/results/%j_%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=08:00:00
+#SBATCH: --exclusive
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/saturn/unrz/unrz139/.modules/oneapi-2023.2.0/compiler/2023.2.0/linux/compiler/lib/intel64'
 export I_MPI_PIN='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-8582
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-kerfuffle-7366
+#FLUX --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt
 for filename in ${listofmissingfiles[@]}; do

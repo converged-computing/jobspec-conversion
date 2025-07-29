@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cherry-7726
-#FLUX: --queue=jazayeri
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200000
+#SBATCH --time=04:00:00
+#SBATCH --partition=jazayeri
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin'
 

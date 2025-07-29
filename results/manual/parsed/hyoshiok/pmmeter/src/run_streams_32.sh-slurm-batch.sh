@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=streams
-#FLUX: --urgency=16
+#SBATCH --job-name=streams
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export KMP_AFFINITY='granularity=core,compact,1'
 

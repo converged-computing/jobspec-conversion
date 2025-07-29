@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-salad-5630
-#FLUX: --queue=dgx2q
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:10
+#SBATCH --partition=dgx2q
+#SBATCH --nodelist=g001
 
 export OMPI_MCA_opal_cuda_support='true'
 

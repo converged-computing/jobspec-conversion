@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-citrus-0770
-#FLUX: -c=8
-#FLUX: -t=710
-#FLUX: --urgency=16
+#SBATCH --account=rrg-beckers
+#SBATCH --output=/home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Sharcnet/out_files/processLOO_AmyTasks-Node%N-JobID%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=00:11:50
 
 module load matlab
 cd /home/shaws5/projects/def-beckers/shaws5/Research_code/EEGnet/Main

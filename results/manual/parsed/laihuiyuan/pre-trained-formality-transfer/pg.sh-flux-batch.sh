@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-rabbit-0541
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-squidward-5003
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 python train.py -style 0 -ratio 1.0 -dataset $1 -order $2.0 -$3 -$4
 python infer.py -style 0 -dataset $1 -order $2.0

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hsGRN_Gillespie
-#FLUX: -c=10
-#FLUX: --queue=icelake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=hsGRN_Gillespie
+#SBATCH --account=LOCKE-SL3-CPU
+#SBATCH --output=/home/jz531/rds/hpc-work/hpc_output/Gilespie_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=5980MB
+#SBATCH --time=12:00:00
+#SBATCH --partition=icelake
+#SBATCH --chdir=/home/jz531/rds/hpc-work/GRN_heatshock_At/
+#SBATCH: --no-requeue
+#SBATCH --array=500
 
 . /etc/profile.d/modules.sh # Leave this line (enables the module command)
 module purge  # Removes all modules still loaded

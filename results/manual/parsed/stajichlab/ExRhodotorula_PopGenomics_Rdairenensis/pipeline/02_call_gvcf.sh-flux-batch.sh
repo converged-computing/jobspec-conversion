@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-eagle-8085
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-hippo-5690
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load picard
 module load gatk/4.4.0.0

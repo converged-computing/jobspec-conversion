@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-1080
-#FLUX: -c=8
-#FLUX: --queue=general
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-bike-2142
+#FLUX -c=8
+#FLUX --queue=general
+#FLUX -t=32400
+#FLUX --urgency=16
 
 module purge    
 module load mamba 

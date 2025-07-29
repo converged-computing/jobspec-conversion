@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ModelArray
-#FLUX: -c=32
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ModelArray
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=50GB
+#SBATCH --time=7-00:00:00
 
 config=/PATH/TO/config
 source $config

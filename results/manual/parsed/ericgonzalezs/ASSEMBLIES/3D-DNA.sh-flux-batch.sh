@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-carrot-4837
-#FLUX: -c=15
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=red-kitty-3624
+#FLUX -c=15
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='/somedirwhereis3ddna/3d-dna:$PATH'
 

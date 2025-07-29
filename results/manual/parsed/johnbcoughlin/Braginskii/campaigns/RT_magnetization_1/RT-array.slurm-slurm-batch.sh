@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=RT-magnetization-1
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=ckpt
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=RT-magnetization-1
+#SBATCH --account=amath
+#SBATCH --output=/mmfs1/gscratch/aaplasma/johnbc/projects/Braginskii/campaigns/RT_magnetization_1/sims/RT-%a/sim.log
+#SBATCH --error=/mmfs1/gscratch/aaplasma/johnbc/projects/Braginskii/campaigns/RT_magnetization_1/sims/RT-%a/sim.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ckpt
+#SBATCH --chdir=/mmfs1/gscratch/aaplasma/johnbc/projects/Braginskii/campaigns/RT_magnetization_1/
+#SBATCH --array=1-6%6
 
 export OPENBLAS_NUM_THREADS='1'
 

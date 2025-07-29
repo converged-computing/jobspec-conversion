@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-3763
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=YOUR_PARTITION_HERE
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-leg-8442
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=YOUR_PARTITION_HERE
+#FLUX -t=10800
+#FLUX --urgency=16
 
 dirs=(
     # "codellama-7b"

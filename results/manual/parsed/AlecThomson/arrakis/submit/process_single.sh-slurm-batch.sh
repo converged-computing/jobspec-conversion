@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=processSPICE
-#FLUX: -n=500
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=processSPICE
+#SBATCH --account=askaprt
+#SBATCH --output=/group/askap/athomson/projects/arrakis/spica/slurmLogs/slurm-%j.out
+#SBATCH --error=/group/askap/athomson/projects/arrakis/spica/slurmLogs/slurm-%j.err
+#SBATCH --mail-user=alec.thomson@csiro.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=500
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 export OMP_NUM_THREADS='1'
 export SINGULARITY_BINDPATH='$(pwd),/group'

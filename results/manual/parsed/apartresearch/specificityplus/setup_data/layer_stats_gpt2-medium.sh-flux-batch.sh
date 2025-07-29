@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peas-2150
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pancake-4656
+#FLUX -c=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MODEL='models--gpt2-medium'
 export PYTHONPATH='/home/${USER}/git/memitpp:${PYTHONPATH}'

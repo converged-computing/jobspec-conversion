@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-diablo-8670
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Liebeck/ArgMining/scripts/sentence/hilbert/hilbert_data_v3_jobarray_batch2.job

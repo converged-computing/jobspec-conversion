@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pedo-9540
-#FLUX: -N=2
-#FLUX: -n=18
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-cattywampus-3735
+#FLUX -N=2
+#FLUX -n=18
+#FLUX -c=4
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 export VER='icc'
 export cpt='$SLURM_CPUS_PER_TASK '

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0
 conda activate bigcode

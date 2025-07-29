@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=flashattn
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=flashattn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=45G
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
 
 echo "***Purging module files"
 echo ""

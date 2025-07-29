@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gkyl
-#FLUX: --queue=regular
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gkyl
+#FLUX --queue=regular
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export gComDir='/global/homes/m/jdoe/gkylsoft/gkyl/bin'
 

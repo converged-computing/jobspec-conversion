@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-5715
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-peas-1211
+#FLUX --urgency=16
 
 set -euo pipefail
 dvc_stage_name="$1"

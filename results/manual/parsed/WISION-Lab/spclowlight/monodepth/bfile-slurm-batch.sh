@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=monodepth
-#FLUX: -c=8
-#FLUX: --queue=batch_default
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=monodepth
+#SBATCH --output=slurm.%j.%N.out
+#SBATCH --error=slurm.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=batch_default
+#SBATCH --exclude=euler50,euler54
 
 module load anaconda/3
 bootstrap_conda

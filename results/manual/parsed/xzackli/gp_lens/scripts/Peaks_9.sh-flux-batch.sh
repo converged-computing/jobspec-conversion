@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gp-noisy-PS
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gp-noisy-PS
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 

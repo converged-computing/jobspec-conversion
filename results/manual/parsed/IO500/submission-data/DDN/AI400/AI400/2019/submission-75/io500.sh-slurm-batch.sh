@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=io500-ai400-2
-#FLUX: -N=10
-#FLUX: --urgency=16
+#SBATCH --job-name=io500-ai400-2
+#SBATCH --output=io_500_out_%j
+#SBATCH --error=io_500_err_%J
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=24
 
 LUSTRE_MDS=es400nv-vm[1-4]
 LUSTRE_OSS=es400nv-vm[1-4]

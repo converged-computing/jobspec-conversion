@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pQuant_enc
-#FLUX: --queue=pe2
-#FLUX: --urgency=16
+#SBATCH --job-name=pQuant_enc
+#SBATCH --mail-user=shong@nygenome.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=40G
+#SBATCH --partition=pe2
+#SBATCH --constraint=ntasks-per-node=1
 
 module add gcc/9.2.0
 module add clang

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GATK.HTC
-#FLUX: -n=8
-#FLUX: --urgency=16
+#SBATCH --job-name=GATK.HTC
+#SBATCH --output=logs/GATK_HTC_sra.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
 
 module unload java
 module load java/8

@@ -1,12 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=relion_test
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=cpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=relion_test
+#SBATCH --output=relion_test_%j.out
+#SBATCH --error=relion_test_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=00:05:00
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=1,a6000
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

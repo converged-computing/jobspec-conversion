@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-2960
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-platanos-3289
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

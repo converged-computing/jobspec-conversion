@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parsnip-9579
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-frito-0923
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --urgency=16
 
 PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:64 pasero-decode $@

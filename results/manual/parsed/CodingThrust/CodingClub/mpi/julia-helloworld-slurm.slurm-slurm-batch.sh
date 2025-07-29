@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job
-#FLUX: -n=128
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job
+#SBATCH --output=log.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

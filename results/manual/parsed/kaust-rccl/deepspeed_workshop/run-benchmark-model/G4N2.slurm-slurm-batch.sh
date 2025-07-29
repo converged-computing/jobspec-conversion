@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=g4n1
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=g4n1
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --time=00:15:00
+#SBATCH --constraint=a100
 
 export NCCL_DEBUG='INFO'
 export NCCL_TREE_THRESHOLD='0 '

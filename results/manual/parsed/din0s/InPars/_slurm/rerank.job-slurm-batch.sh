@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=RerankInPars
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=RerankInPars
+#SBATCH --output=slurm_rerank_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-4%4
 
 module purge
 module load 2022

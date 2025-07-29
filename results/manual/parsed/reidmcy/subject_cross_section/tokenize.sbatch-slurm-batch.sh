@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tokenizer
-#FLUX: -n=4
-#FLUX: --queue=broadwl
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=tokenizer
+#SBATCH --account=pi-jevans
+#SBATCH --output=run_tokenizer.out
+#SBATCH --error=run_tokenizer.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=broadwl
 
 module load python/3.6.1+intel-16.0
 module load java/1.8

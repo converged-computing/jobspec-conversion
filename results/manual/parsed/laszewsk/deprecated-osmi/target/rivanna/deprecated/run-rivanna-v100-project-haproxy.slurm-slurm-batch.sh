@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=osmi-v100-rivanna
-#FLUX: -n=3
-#FLUX: --exclusive
-#FLUX: --queue=bii-gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=osmi-v100-rivanna
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=osmi-v100-rivanna-%u-%j.out
+#SBATCH --error=osmi-v100-rivanna-%u-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:2
+#SBATCH --time=03:00:00
+#SBATCH --partition=bii-gpu
+#SBATCH: --exclusive
 
 NAME=cloudmesh-rivanna
 RUN_DIR=$PROJECT/osmi

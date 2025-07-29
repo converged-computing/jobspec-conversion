@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=multi8
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=multi8
+#SBATCH --account=m1759
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gres=gpu:8
+#SBATCH --time=08:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

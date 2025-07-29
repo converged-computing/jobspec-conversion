@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-8677
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#SBATCH --output=gpu-job-%j.output
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=PA100q
 
 export PYTHONUNBUFFERED='1'
 

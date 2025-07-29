@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=out/%a.out
+#SBATCH --mail-user=larend@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=16000
+#SBATCH --time=12:00:00
 
 module load openmind/singularity/older_versions/2.4
 singularity exec --nv -B /om:/om /om/user/larend/localtensorflow.img \

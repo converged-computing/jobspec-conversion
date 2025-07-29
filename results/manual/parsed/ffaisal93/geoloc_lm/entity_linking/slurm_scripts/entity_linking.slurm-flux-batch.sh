@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mbert_acl
-#FLUX: --queue=all-HiPri
-#FLUX: -t=715
-#FLUX: --urgency=16
+#FLUX --job-name=mbert_acl
+#FLUX --queue=all-HiPri
+#FLUX -t=715
+#FLUX --urgency=16
 
                       #   bigmem-LoPri, bigmem-HiPri, gpuq, CS_q, CDS_q, ...
 source ~/fairseq/bin/activate

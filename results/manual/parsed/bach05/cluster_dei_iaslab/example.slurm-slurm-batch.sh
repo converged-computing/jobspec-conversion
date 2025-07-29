@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=4
-#FLUX: --queue=allgroups
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=%x_output.txt
+#SBATCH --error=%x_errors.txt
+#SBATCH --mail-user=example@dei.unipd.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx
+#SBATCH --mem=48G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=allgroups
 
 cd $WORKING_DIR
 srun singularity exec --bind /nfsd/iaslab4/Users/rossi/example_code_repo:/mnt --nv /nfsd/iaslab4/Users/rossi/example_code_repo/example.sif python3 /mnt/example_train.py

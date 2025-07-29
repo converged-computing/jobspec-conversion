@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=t1_r2s_fwd-01
-#FLUX: -c=8
-#FLUX: --queue=mf_nes2.8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=t1_r2s_fwd-01
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=mf_nes2.8
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --array=1
+#SBATCH --exclude=c-5-27,c-4-3,c-4-20,c-3-[341-344], c-6-[231-234], c-8-[251-254]
 
 lambda=$SLURM_ARRAY_TASK_ID
 printf "Start Time:$( date )\n"

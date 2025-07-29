@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=manifoldFDAgeodesic
-#FLUX: -c=8
-#FLUX: --queue=cloud
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=manifoldFDAgeodesic
+#SBATCH --mail-user=susan.wei@unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --partition=cloud
+#SBATCH --array=1-2400%60
 
 i=${SLURM_ARRAY_TASK_ID}
 if [ "x$SLURM_JOB_ID" == "x" ]; then

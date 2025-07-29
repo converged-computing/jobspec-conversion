@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=trueE_full
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=trueE_full
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3  ## this line is to use 4 GPU nodes'
 

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: --queue=compute_full_node
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_job
+#SBATCH --account=def-gfilion
+#SBATCH --output=/scratch/g/gfilion/gfilion/output_file_%j.out
+#SBATCH --error=/scratch/g/gfilion/gfilion/error_file_%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute_full_node
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:2'
 export NCCL_DEBUG='INFO'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-destiny-6160
-#FLUX: -N=5
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-malarkey-9566
+#FLUX -N=5
+#FLUX -t=345600
+#FLUX --urgency=16
 
 reg=`echo $1`
 name=`echo $2`

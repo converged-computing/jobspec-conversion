@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WE43_Maud_Refinements
-#FLUX: --queue=thrust2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=WE43_Maud_Refinements
+#FLUX --queue=thrust2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 declare -a runStart=(1)
 declare -a runEnd=(7)

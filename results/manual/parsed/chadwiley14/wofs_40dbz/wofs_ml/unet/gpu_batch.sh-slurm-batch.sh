@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_install
-#FLUX: -n=4
-#FLUX: --queue=ai2es
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_install
+#SBATCH --output=/home/chadwiley/research/wofs_ml_ci/wofs_ml/slurmouts/R-%x.%j.out
+#SBATCH --error=/home/chadwiley/research/wofs_ml_ci/wofs_ml/slurmouts/R-%x.%j.err
+#SBATCH --mail-user=chadwiley@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=00:30:00
+#SBATCH --partition=ai2es
 
 source /home/chadwiley/.bashrc
 bash

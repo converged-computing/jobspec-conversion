@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-5659
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-poo-2469
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/deephyper/dmobo-sc24/experiments/polaris/jobs/nsgaii-debug.sh

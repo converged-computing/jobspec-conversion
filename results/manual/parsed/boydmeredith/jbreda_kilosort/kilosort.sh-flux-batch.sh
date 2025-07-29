@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lizard-6387
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-carrot-5106
+#FLUX -t=3600
+#FLUX --urgency=16
 
 input_path="/scratch/gpfs/jbreda/ephys/kilosort/data_sdb_20190724_193007_fromSD_firstbundle_T5_W10000_forkilosort" 
 repo_path="/scratch/gpfs/jbreda/ephys/kilosort/Brody_Lab_Ephys"

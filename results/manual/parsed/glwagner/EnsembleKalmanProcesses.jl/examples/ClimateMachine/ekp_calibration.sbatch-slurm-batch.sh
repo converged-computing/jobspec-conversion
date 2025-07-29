@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ekp_call
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ekp_call
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=01:00:00
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 export JULIA_MPI_BINARY='system'

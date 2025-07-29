@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-mango-9734
-#FLUX: -n=3
-#FLUX: --queue=RM-shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-peanut-9749
+#FLUX -n=3
+#FLUX --queue=RM-shared
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow
 module load AI/anaconda3-tf2.2020.11

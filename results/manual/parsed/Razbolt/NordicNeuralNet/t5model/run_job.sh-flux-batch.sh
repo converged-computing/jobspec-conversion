@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nmt_fineT
-#FLUX: -c=4
-#FLUX: --queue=preemptgpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=nmt_fineT
+#FLUX -c=4
+#FLUX --queue=preemptgpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WANDB_API_KEY=''
 export https_proxy='http://hpc-proxy00.city.ac.uk:3128'

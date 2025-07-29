@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-snack-7107
-#FLUX: --urgency=16
+#SBATCH --output=output/%x/%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "Current working directory: `pwd`"
 echo "Starting run at: `date`"

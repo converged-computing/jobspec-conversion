@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Baseline_CRNN_Model
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=Baseline_CRNN_Model
+#FLUX -c=8
+#FLUX --queue=brown
+#FLUX -t=108000
+#FLUX --urgency=16
 
 echo "Running on $(hostname):"
 module load singularity

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-3509
-#FLUX: -N=32
-#FLUX: -c=128
-#FLUX: --queue=gpus
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=arid-rabbit-7820
+#FLUX -N=32
+#FLUX -c=128
+#FLUX --queue=gpus
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

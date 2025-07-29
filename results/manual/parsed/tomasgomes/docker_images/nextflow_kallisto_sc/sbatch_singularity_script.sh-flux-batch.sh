@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_wrapper
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=test_wrapper
+#FLUX -c=2
+#FLUX -t=43200
+#FLUX --urgency=16
 
 singularity run --mount type=bind,src=$(pwd),dst=/rootvol \
         /mnt/beegfs/singularity/images/nextflow_kallisto_sc.sif run \

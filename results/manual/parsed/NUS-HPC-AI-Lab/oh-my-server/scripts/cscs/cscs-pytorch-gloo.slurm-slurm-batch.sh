@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gloo-eb
-#FLUX: -N=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=gloo-eb
+#SBATCH --account=<project>
+#SBATCH --output=test_pt_hvd_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

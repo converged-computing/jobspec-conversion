@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-gato-7489
-#FLUX: --queue=short,debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-truffle-2357
+#FLUX --queue=short,debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 mypid=$$
 echo 'My pid is '$mypid

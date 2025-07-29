@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=PELE_MPI
-#FLUX: -n=2
-#FLUX: --urgency=16
+#FLUX --job-name=PELE_MPI
+#FLUX -n=2
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 export PYTHONPATH='/work/NBD_Utilities/PELE/PELE_Softwares/pele_platform/:/work/NBD_Utilities/PELE/PELE_Softwares/adaptive_types/v1.6.2_python3.6foss2018:$PYTHONPATH'

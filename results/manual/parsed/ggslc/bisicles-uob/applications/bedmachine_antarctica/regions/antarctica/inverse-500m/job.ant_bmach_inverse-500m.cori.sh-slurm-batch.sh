@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=500m_hypre_bdmach_inverse
-#FLUX: -N=12
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=500m_hypre_bdmach_inverse
+#SBATCH --account=m1041
+#SBATCH --mail-user=DFMartin@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
 
 export PETSC_DIR='/global/common/software/m1041/petsc_install/petsc_haswell_gnu/'
 export PETSC_ARCH=''

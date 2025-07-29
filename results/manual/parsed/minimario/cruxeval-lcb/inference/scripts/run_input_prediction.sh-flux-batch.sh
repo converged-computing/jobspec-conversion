@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-egg-1830
-#FLUX: -c=10
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=learnlab
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-latke-8928
+#FLUX -c=10
+#FLUX --gpus-per-task=2
+#FLUX --queue=learnlab
+#FLUX -t=10800
+#FLUX --urgency=16
 
 dirs=(
     # "codellama/CodeLlama-7b-hf"

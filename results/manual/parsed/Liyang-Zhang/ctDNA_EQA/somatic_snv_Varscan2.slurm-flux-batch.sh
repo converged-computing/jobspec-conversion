@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Varscan2
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#FLUX --job-name=Varscan2
+#FLUX --queue=64c512g
+#FLUX --urgency=16
 
 tumor=$1
 normal=$2

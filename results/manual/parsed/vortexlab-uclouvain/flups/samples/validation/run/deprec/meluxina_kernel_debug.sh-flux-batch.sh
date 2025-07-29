@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peas-6010
-#FLUX: --queue=cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=phat-leader-9919
+#FLUX --queue=cpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 module load Valgrind

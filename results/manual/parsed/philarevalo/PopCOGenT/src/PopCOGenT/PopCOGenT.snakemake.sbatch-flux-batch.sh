@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fudge-8257
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-bits-7960
+#FLUX --urgency=16
 
 source activate PopCOGenT
 source /home/parevalo/apps/mugsy_trunk/mugsyenv.sh

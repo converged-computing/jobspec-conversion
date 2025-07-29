@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rna_process
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#FLUX --job-name=rna_process
+#FLUX -c=2
+#FLUX --queue=general
+#FLUX -t=950400
+#FLUX --urgency=16
 
 set -e
 module load python/3.9.6

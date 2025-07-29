@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kpc-dask-2node
-#FLUX: -N=2
-#FLUX: --queue=regular2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=kpc-dask-2node
+#FLUX -N=2
+#FLUX --queue=regular2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load gnu11 openmpi3  

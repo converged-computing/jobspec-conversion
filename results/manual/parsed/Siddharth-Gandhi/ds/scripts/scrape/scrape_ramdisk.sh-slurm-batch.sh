@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=2_7_scrape
-#FLUX: -c=3
-#FLUX: --queue=ssd
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=2_7_scrape
+#SBATCH --output=logs/2_7_scrape_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
+#SBATCH --partition=ssd
+#SBATCH --array=0-0
+#SBATCH --nodelist=boston-2-7
 
 if [ "$HOSTNAME" != "boston-2-7" ]; then
     echo "Wrong host $HOSTNAME, exiting"

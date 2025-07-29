@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Orszag_tang_full_scale_analysis
-#FLUX: -N=32
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Orszag_tang_full_scale_analysis
+#FLUX -N=32
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/lustre/orion/ast181/proj-shared/rcaddy/JSI_Workshop_Talk_2023/python'
 export PATH='/ccs/home/rcaddy/miniconda_crusher/bin:$PATH'

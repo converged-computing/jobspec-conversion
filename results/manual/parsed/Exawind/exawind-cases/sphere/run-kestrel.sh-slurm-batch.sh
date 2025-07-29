@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=exawind-sphere
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=exawind-sphere
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 set -e
 cmd() {

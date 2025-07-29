@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leopard-1249
-#FLUX: -c=30
-#FLUX: --queue=fast
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=50GB
+#SBATCH --partition=fast
 
 module load snakemake/7.7.0 fastqc bowtie2 samtools subread slurm-drmaa
 snakemake --drmaa --jobs=$SLURM_CPUS_PER_TASK -s demo.smk --configfile config.yml

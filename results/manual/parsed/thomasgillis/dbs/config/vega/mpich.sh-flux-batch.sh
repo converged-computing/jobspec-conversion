@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-kerfuffle-7227
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-train-4628
+#FLUX -n=8
+#FLUX --queue=cpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "loading modules"
 module load GCC/10.3.0

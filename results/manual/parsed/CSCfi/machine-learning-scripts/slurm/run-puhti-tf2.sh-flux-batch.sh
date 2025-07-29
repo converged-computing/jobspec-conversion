@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-staircase-9400
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-house-3437
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load tensorflow/2.0.0
 module list

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scc
+#FLUX --job-name=scc
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=600
+#FLUX --urgency=16
 
 ulimit -s unlimited
 ulimit -c 0

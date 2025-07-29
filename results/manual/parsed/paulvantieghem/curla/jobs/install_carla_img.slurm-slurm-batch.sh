@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=install_carla_img
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=install_carla_img
+#SBATCH --output=install_carla_img.out
+#SBATCH --error=install_carla_img.err
+#SBATCH --mail-user=paul.vantieghemdetenberghe@student.kuleuven.be
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export APPTAINER_TMPDIR='$VSC_SCRATCH/apptainer/tmp'
 export APPTAINER_CACHEDIR='$VSC_SCRATCH/apptainer/cache'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cinnamonbun-9647
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-noodle-6557
+#FLUX --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Outputs/
 data_list="../../main_text_data.txt"

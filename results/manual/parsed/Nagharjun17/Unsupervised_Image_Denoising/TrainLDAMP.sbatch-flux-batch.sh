@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TrainLDAMP
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=TrainLDAMP
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge; 
 module load anaconda3/2020.07

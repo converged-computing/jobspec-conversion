@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hobbit-9320
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=west2.out
+#SBATCH --error=west2.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

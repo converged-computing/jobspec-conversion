@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pedo-2166
-#FLUX: -c=2
-#FLUX: --queue=xnat
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-nunchucks-7150
+#FLUX -c=2
+#FLUX --queue=xnat
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ $# -ne 2 ];
     then echo "Please pass sub_prefix visit and step as command line arguments. E.g."

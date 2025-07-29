@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=generate_runsheet
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_runsheet
+#SBATCH --output=generate_runsheet.out
+#SBATCH --mail-user=user@nasa.gov
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --partition=priority
 
 . ~/.profile
 echo "generate_runsheet"

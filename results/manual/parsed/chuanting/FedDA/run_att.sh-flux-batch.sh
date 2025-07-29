@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=att
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=att
+#FLUX -c=6
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 frac_values=( 0.1 )

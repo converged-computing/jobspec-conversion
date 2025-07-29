@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemon-9683
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=16
+#SBATCH --output=slurm/logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=8
+#SBATCH --partition=hopper-prod
+#SBATCH: --exclusive
+#SBATCH --array=0-3
 
 export WANDB_TAGS='refactor111,no-tag-$(git rev-parse --short HEAD)'
 

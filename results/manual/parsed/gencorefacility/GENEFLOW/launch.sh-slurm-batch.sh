@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-despacito-1609
-#FLUX: -c=6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --mail-user=netID@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=10000
+#SBATCH --time=7-00:00:00
 
 module purge
 module load nextflow/23.04.1

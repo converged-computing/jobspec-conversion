@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ewas
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=ewas
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:15:00
 
 export ROOT='/nesi/project/ga02964'
 export EWAS_PORT='${1:-8080}'

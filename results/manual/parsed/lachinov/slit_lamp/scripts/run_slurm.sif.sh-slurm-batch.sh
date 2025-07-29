@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=UPD_FRMWRK
-#FLUX: -n=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=UPD_FRMWRK
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=40000
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-4
 
 export SINGULARITYENV_CUDA_VISIBLE_DEVICES='$CUDA_VISIBLE_DEVICES'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=llama_65b_eval
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=llama_65b_eval
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd ../src
 for i in {0..1}; do

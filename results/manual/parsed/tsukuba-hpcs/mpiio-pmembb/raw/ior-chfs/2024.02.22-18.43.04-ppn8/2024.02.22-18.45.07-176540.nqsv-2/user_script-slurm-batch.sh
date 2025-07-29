@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cattywampus-5905
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/ior-chfs/2024.02.22-18.43.04-ppn8/2024.02.22-18.45.07-176540.nqsv-2/user_script

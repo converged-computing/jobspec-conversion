@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ncov-tools_run
-#FLUX: -n=20
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=ncov-tools_run
+#FLUX -n=20
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export ENVDIR='/genfs/projects/analyste_dev/python_venvs/snakemake/bin/activate'
 export NCOVTOOLS_SIF='/genfs/projects/analyste_dev/singularity/images/ncov-tools_v1.1.sif'

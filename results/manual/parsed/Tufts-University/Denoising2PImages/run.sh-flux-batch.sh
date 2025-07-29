@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NV_020823_Denoising
-#FLUX: -n=10
-#FLUX: --queue=patralab
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=NV_020823_Denoising
+#FLUX -n=10
+#FLUX --queue=patralab
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load anaconda/2021.05
 source activate Denoising

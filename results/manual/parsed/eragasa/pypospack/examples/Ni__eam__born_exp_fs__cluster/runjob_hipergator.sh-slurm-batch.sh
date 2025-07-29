@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Ni_fs
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Ni_fs
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3000mb
+#SBATCH --time=12:00:00
+#SBATCH --qos=phillpot
 
 export OMPI_MCA_pml='^ucx'
 

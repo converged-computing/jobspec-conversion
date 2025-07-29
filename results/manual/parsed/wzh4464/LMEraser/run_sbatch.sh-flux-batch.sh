@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=svhn-vit-distributed
-#FLUX: --queue=gpu_v100s
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=svhn-vit-distributed
+#FLUX --queue=gpu_v100s
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export MASTER_ADDR='localhost'

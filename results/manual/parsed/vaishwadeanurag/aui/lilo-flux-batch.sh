@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-6180
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-butter-8435
+#FLUX --urgency=16
 

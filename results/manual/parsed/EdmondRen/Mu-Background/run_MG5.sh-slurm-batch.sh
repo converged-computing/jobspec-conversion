@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cherry-1912
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=def-mdiamond
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=06:00:00
+#SBATCH --array=1-100
 
 export PYTHIA8='/project/def-mdiamond/tomren/mathusla/pythia8308'
 export PYTHIA8DATA='${MG5_Dir}/HEPTools/pythia8/share/Pythia8/xmldoc'

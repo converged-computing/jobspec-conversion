@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-signal-6492
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-toaster-6958
+#FLUX --urgency=16
 
 export ROMIO_HINTS='$(pwd)/.romio_hint'
 

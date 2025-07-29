@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=21600
-#FLUX: --urgency=15
+#SBATCH --job-name=snakemake
+#SBATCH --output=logs/%j.job
+#SBATCH --error=logs/%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=15G
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu_p
+#SBATCH --qos=low
 
 sbatch --wait << EOF
 source $HOME/.bashrc

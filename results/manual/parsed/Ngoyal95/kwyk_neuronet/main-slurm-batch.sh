@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-staircase-8798
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:2
 
 export SINGULARITYENV_OMP_NUM_THREADS='1'
 

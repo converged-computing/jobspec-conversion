@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=DiPrivML
-#FLUX: -n=100
-#FLUX: --urgency=16
+#FLUX --job-name=DiPrivML
+#FLUX -n=100
+#FLUX --urgency=16
 
 export KMP_DUPLICATE_LIB_OK='TRUE'
 export THEANO_FLAGS='device=cpu'

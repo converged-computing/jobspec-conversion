@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=xdecompose_mesh
-#FLUX: --queue=nesi_research
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=xdecompose_mesh
+#FLUX --queue=nesi_research
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load gcc/8.3.0
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

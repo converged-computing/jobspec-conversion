@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-poodle-0770
-#FLUX: -N=2
-#FLUX: -n=96
+#FLUX --job-name=stanky-eagle-4363
+#FLUX -N=2
+#FLUX -n=96
 #FLUX: --exclusive
-#FLUX: --queue=huce_cascade
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --queue=huce_cascade
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMPI_MCL_btl='openib'
 

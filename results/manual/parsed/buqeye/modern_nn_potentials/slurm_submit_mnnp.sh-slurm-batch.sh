@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=modern-nn-potentials
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=modern-nn-potentials
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=00:30:00
 
 source activate modern-nn-potentials
 cd ~/projects/modern_nn_potentials/scripts

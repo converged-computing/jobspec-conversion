@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mup_sweep
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=mup_sweep
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export EXP_NAME='${EXP_NAME:-"gpt2_wikitext103_long_deeper"}'
 

@@ -1,13 +1,20 @@
 #!/bin/bash
-#FLUX: --job-name=psana_legion_bb
-#FLUX: -N=17
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=psana_legion_bb
+#SBATCH --account=lcls
+#SBATCH --nodes=17
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH: --exclusive
+#SBATCH --constraint=knl,quad,cache
 
 export SIT_PSDM_DATA='$HOST_DATA_DIR/d/psdm'
 export EAGER='1'
 
+singularity
+exec
+docker:stanfordlegion/psana-mpi:latest
 HOST_PSANA_DIR=$HOME/psana_legion/psana-legion
 HOST_DATA_DIR=$DW_PERSISTENT_STRIPED_slaughte_data_noepics/reg
 export SIT_PSDM_DATA=$HOST_DATA_DIR/d/psdm

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ABCdist
-#FLUX: -n=2
-#FLUX: --queue=debug
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=ABCdist
+#SBATCH --output=logs/ABC/dists/o.%x-%A.o
+#SBATCH --error=logs/ABC/dists/o.%x-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:15:00
+#SBATCH --partition=debug
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

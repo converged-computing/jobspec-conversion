@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-staircase-9540
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/turbulencia/tlab/scripts/templates/dns.nqs.sh.hlrs.hawk

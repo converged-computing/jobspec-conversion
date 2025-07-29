@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-muffin-5685
-#FLUX: -N=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=gpu
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 module load anaconda/2020.11-py38
 source activate cs587

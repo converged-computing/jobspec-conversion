@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wikiparser
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=wikiparser
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module add python
 mapfile -t FILES < $1

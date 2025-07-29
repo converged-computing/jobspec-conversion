@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-soup-3225
-#FLUX: -c=5
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=128GB
+#SBATCH --time=12:00:00
 
 module purge
 python3 single_param.py

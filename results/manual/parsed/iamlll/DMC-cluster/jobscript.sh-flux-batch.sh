@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=giant
-#FLUX: --urgency=16
+#FLUX --job-name=giant
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "Date              = $(date)"

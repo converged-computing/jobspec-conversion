@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dataset_generation
-#FLUX: --queue=g40x
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=dataset_generation
+#SBATCH --account=laion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=g40x
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

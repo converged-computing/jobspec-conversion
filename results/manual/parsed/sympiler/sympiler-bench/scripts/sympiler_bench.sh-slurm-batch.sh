@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sym
-#FLUX: -c=40
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sym
+#SBATCH --output=symbench.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=1-00:00:00
 
 export METISROOT='/scinet/niagara/software/2019b/opt/intel-2019u4/metis/5.1.0/lib/'
 export OMP_NUM_THREADS='$THREADS'

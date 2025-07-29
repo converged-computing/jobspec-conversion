@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eval_depth
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_depth
+#SBATCH --output=eval_depth.out
+#SBATCH --error=eval_depth.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=04:00:00
 
 which python
 echo $HOSTNAME

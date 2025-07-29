@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fourcastnet_gpu_job
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fourcastnet_gpu_job
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd $SCRATCH
 singularity pull docker://nvcr.io/nvidia/modulus/modulus:23.08

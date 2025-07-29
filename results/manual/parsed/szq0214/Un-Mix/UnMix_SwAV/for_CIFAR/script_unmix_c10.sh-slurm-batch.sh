@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=c10
-#FLUX: -c=2
-#FLUX: --queue=default
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=c10
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=1
+#SBATCH --mem=50G
+#SBATCH --time=12:00:00
+#SBATCH --partition=default
+#SBATCH --constraint=ntasks-per-node=1
 
 port=$RANDOM
 ARCH="resnet18"

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fudge-7643
-#FLUX: --queue=maxwell
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=accre_gpu
+#SBATCH --output=python_job_slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH --partition=maxwell
 
 module load Anaconda3
 source activate pycuda

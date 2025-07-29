@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=h1c2
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=g_vsheno
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=h1c2
+#FLUX -c=32
+#FLUX --gpus-per-task=8
+#FLUX --queue=g_vsheno
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load gcc-9.2.0/9.2.0

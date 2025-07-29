@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snre_b
-#FLUX: --queue=lu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=snre_b
+#FLUX --queue=lu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

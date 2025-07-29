@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi
-#FLUX: -n=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export SINGULARITY_BINDPATH='/opt/mpich/mpich-3.1.4/apps'
 export SINGULARITYENV_LD_LIBRARY_PATH='/opt/mpich/mpich-3.1.4/apps/lib'

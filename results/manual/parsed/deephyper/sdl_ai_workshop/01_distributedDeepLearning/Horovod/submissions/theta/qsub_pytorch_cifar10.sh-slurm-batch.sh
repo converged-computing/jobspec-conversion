@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-general-3488
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

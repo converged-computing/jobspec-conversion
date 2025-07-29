@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pancake-7770
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=rstudio-server.job.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8192
+#SBATCH --time=08:00:00
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/.rstudio-age/rocker-rstudio/${RSTUDIO_VERSION}'

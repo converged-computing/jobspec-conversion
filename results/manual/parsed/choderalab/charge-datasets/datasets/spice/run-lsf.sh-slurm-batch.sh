@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-5078
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/charge-datasets/datasets/spice/run-lsf.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=coverage_scaff3
-#FLUX: --queue=small
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=coverage_scaff3
+#FLUX --queue=small
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load biokit
 cd /scratch/project_2001443

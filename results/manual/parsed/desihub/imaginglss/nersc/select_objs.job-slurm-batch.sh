@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=select_objs
-#FLUX: -n=32
-#FLUX: --queue=debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=select_objs
+#SBATCH --account=desi
+#SBATCH --output=select_objs.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=debug
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

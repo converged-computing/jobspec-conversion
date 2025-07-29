@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=compile
-#FLUX: -t=7500
-#FLUX: --urgency=16
+#SBATCH --job-name=compile
+#SBATCH --output=VUserII.eo%j
+#SBATCH --error=VUserII.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=9600
+#SBATCH --time=02:05:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export VER_USER='                ########## Your own USER Directory'
 

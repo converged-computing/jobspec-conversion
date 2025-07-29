@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=OneNode
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=OneNode
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX -t=300
+#FLUX --urgency=16
 
 export outdir='/scratch1/scratchdirs/desiproc/DRs/data-releases/dr4'
 export statdir='${outdir}/progress'

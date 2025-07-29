@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-latke-6659
-#FLUX: -n=32
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=logs/iprscan.%a.%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=96G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=intel
 
 module unload miniconda2
 module load miniconda3

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sra_tools
-#FLUX: --queue=defq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=sra_tools
+#SBATCH --output=Array_test.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=defq
+#SBATCH --array=1-101
 
 ml sra-tools/3.0.0
 sra_numbers=($(echo {1016570..1016671}))

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=e_rrl
+#FLUX --job-name=e_rrl
 #FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=haswell
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

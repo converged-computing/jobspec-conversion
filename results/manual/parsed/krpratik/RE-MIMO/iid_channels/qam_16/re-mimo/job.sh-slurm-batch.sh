@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=q16_uncorr_final
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=q16_uncorr_final
+#SBATCH --mail-user=kr.pratik73@gmail.com
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60000M
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=gpu_shared
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.44-GCCcore-5.4.0/lib64:$LD_LIBRARY_PATH'
 

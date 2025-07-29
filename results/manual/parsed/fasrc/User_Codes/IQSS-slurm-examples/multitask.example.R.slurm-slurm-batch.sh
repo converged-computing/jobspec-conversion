@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multitask.example
-#FLUX: -n=5
-#FLUX: --queue=serial_requeue
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=multitask.example
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:15:00
+#SBATCH --partition=serial_requeue
 
 module purge > /dev/null 2>&1
 module load gcc/7.1.0-fasrc01 R/3.5.0-fasrc01

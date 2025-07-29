@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tsunami_lab_reis_cpu
-#FLUX: -c=72
-#FLUX: --queue=s_standard,s_hadoop
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#FLUX --job-name=tsunami_lab_reis_cpu
+#FLUX -c=72
+#FLUX --queue=s_standard,s_hadoop
+#FLUX -t=39600
+#FLUX --urgency=16
 
 module load tools/python/3.8
 module load compiler/gcc/11.2.0

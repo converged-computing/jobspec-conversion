@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=orchestra-executor
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=orchestra-executor
+#SBATCH --account=joao.pinto
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export MAESTRO_LOGPLACE='$pwd'
 export LOGURO_LEVEL='INFO'

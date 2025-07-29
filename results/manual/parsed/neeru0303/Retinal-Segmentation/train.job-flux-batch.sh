@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-4699
-#FLUX: --queue=GPU-shared
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-snack-5423
+#FLUX --queue=GPU-shared
+#FLUX -t=131400
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 export TENSORFLOW_ENV='$TF_ENV'

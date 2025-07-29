@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prepalbert412
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=prepalbert412
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load anaconda3/2022.05 cuda/12.1
 conda activate greenai

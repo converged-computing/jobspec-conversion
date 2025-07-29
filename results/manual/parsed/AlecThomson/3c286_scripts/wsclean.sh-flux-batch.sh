@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wsclean
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=wsclean
+#FLUX -n=8
+#FLUX -c=8
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load singularity
 module load rclone

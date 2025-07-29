@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=base_cola
-#FLUX: -c=8
-#FLUX: --queue=r8nv-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=base_cola
+#SBATCH --output=humaneval_base_cola.out
+#SBATCH --error=humaneval_base_cola.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=r8nv-gpu
+#SBATCH --qos=gpu-short
+#SBATCH --constraint=40G
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

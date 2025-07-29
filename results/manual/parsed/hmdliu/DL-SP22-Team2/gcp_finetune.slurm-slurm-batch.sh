@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --account=csci_ga_2572_2022sp_02
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=n1s8-v100-1
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

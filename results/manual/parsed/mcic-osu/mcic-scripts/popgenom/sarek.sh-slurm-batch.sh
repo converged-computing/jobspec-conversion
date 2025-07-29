@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sarek
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sarek
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-sarek-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
 
 readonly DESCRIPTION="Run the Nextflow/nf-core Sarek pipeline for non-model organism genomic variant callling"
 readonly MODULE=miniconda3/4.12.0-py39

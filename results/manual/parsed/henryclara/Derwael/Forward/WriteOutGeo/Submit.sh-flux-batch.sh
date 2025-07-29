@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=WriteOut
-#FLUX: -n=100
-#FLUX: --queue=compute
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=WriteOut
+#FLUX -n=100
+#FLUX --queue=compute
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

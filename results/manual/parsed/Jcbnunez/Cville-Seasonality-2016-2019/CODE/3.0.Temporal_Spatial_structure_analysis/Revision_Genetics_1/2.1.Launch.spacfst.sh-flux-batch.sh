@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spacfst
-#FLUX: -c=40
-#FLUX: --queue=bluemoon
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=spacfst
+#FLUX -c=40
+#FLUX --queue=bluemoon
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load spack/spack-0.18.1
 spack load r@4.2.1 r-sf

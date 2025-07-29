@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-destiny-4853
-#FLUX: -c=8
-#FLUX: --queue=seas_gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --mail-user=apzhao@college.harvard.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:1
+#SBATCH --mem=64000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=seas_gpu
 
 module load python/3.10.12-fasrc01
 module load gcc/12.2.0-fasrc01

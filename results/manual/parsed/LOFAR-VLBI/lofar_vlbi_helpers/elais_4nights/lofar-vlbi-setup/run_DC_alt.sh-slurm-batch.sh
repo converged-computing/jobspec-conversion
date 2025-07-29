@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delay-calibration
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=infinite
-#FLUX: --urgency=16
+#SBATCH --job-name=delay-calibration
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=infinite
+#SBATCH: --exclusive
+#SBATCH --constraint=intel
 
 export RUNDIR='$PWD'
 export RESULTS_DIR='/project/lofarvwf/Share/rtimmerman/Gabriella/P275+63'

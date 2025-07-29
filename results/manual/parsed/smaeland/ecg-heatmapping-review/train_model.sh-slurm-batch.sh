@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train-ecg
-#FLUX: -c=8
-#FLUX: --queue=dgx2q
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train-ecg
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=dgx2q
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

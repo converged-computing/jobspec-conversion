@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-general-1446
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-car-8590
+#FLUX -c=8
+#FLUX --urgency=16
 
 export LC_ALL='C'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK '

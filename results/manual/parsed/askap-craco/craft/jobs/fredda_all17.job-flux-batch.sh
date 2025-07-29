@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-train-5919
-#FLUX: --queue=gpuq
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-parrot-7788
+#FLUX --queue=gpuq
+#FLUX -t=86340
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

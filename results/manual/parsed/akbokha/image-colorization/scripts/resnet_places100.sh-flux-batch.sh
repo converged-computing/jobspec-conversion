@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-kerfuffle-9280
-#FLUX: --queue=LongJobs
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-despacito-4712
+#FLUX --queue=LongJobs
+#FLUX -t=288000
+#FLUX --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

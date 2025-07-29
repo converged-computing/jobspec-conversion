@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-buttface-3615
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-lamp-1561
+#FLUX -t=14400
+#FLUX --urgency=16
 
 frameworks=("numba")
 benchmarks=("azimint_hist" "azimint_naive"

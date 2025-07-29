@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=python-gpu
-#FLUX: --queue=gpuq
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=python-gpu
+#SBATCH --output=/scratch/%u/Project/outputs/%x-%N-%j.out
+#SBATCH --error=/scratch/%u/Project/errors/%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3g.40gb:1
+#SBATCH --mem=4000M
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpuq
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONPATH='$(pwd):$PYTHONPATH'
 

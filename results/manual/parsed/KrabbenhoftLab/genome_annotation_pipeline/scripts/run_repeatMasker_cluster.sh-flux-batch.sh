@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-milkshake-3197
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-pastry-2267
+#FLUX --queue=general-compute
+#FLUX -t=259200
+#FLUX --urgency=16
 
 SPECIES=$1 # short name for your species
 ANNOTATION_DIR_CLUSTER=$2

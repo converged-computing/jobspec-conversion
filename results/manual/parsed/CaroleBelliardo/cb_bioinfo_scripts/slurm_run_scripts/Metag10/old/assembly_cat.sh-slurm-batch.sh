@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mg
-#FLUX: -c=70
-#FLUX: --queue=infinity
-#FLUX: --urgency=16
+#SBATCH --job-name=mg
+#SBATCH --output=slurm-mg-%j.out
+#SBATCH --error=slurm-mg-%j.err
+#SBATCH --mail-user=carole.belliardo@inrae.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=70
+#SBATCH --mem=670G
+#SBATCH --partition=infinity
 
 module load singularity/3.5.3
 SING_IMG='/lerins/hub/projects/25_Metag_PublicData/tools_metagData/Singularity/MetagAssembler.sif'

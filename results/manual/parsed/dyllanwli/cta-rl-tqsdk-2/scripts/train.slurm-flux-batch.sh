@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}'
 

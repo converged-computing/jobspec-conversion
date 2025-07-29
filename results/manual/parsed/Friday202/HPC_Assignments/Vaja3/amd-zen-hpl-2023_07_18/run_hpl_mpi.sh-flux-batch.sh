@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpl-benchmark
-#FLUX: -n=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hpl-benchmark
+#FLUX -n=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export UCX_TLS='self, tcp'
 

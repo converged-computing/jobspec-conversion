@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arp
+#FLUX --job-name=arp
 #FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --queue=normal256
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='4G'
 export KMP_STACKSIZE='4G'

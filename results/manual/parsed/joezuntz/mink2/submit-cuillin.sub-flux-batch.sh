@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mink
-#FLUX: -c=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=mink
+#FLUX -c=4
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

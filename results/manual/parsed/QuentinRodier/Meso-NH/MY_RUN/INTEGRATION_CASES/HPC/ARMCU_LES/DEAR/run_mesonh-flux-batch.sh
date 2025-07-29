@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_armles
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=run_armles
+#FLUX -N=2
+#FLUX -n=128
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-despacito-8820
+#FLUX --job-name=evasive-pedo-4767
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_tf2:keras_mp_20.07_clean_up"

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-8601
-#FLUX: --queue=maxwell
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --account=accre_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=10G
+#SBATCH --time=00:03:00
+#SBATCH --partition=maxwell
 
 PORT_NUM=8888
 echo "This job will run a Jupyter notebook from within a Singularity image"

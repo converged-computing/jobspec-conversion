@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_mpi
-#FLUX: -n=36
-#FLUX: --queue=admin
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs_mpi
+#FLUX -n=36
+#FLUX --queue=admin
+#FLUX -t=2400
+#FLUX --urgency=16
 
 module load gcc/9.4.0
 module load gromacs/2020.4

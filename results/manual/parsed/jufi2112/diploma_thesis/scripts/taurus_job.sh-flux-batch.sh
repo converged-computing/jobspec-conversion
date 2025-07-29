@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grid_search_sequential_seed_1431
-#FLUX: --queue=ml
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=grid_search_sequential_seed_1431
+#FLUX --queue=ml
+#FLUX -t=288000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/scratch/ws/1/s8732099-da/git/gaea_release/AutoDL-Projects'
 

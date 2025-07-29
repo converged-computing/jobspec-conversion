@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tpsci_cr2.jl
-#FLUX: --queue=normal_q
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tpsci_cr2.jl
+#FLUX --queue=normal_q
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export NTHREAD='16'
 export JULIAENV='/home/arnab22/tpsci_bimetallic'

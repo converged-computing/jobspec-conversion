@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CBISresnet_mammo
-#FLUX: -c=16
-#FLUX: --queue=m3g
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=CBISresnet_mammo
+#FLUX -c=16
+#FLUX --queue=m3g
+#FLUX -t=255600
+#FLUX --urgency=16
 
 EPOCHS="$1"
 DATA_AUG="$2"

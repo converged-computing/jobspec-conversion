@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TNUF1_DeepMellow
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=TNUF1_DeepMellow
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 module load tensorflow/1.5.0_gpu_py3
 module load cuda/9.0.176

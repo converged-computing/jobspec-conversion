@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-poo-1724
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=4
+#SBATCH --time=00:10:00
+#SBATCH --constraint=a100
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

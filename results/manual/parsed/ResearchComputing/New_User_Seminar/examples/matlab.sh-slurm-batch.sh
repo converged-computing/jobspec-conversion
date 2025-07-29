@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pot-1261
-#FLUX: --queue=shas-testing
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --output=matlab_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=shas-testing
+#SBATCH --qos=testing
 
 module purge
 module load matlab/R2019b

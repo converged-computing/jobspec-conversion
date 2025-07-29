@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ray_dist
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=ray_dist
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -x #echo on
 module purge

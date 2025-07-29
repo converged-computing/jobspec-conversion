@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=M_julia_cpu_F16_64t_ex
-#FLUX: --queue=batch
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=M_julia_cpu_F16_64t_ex
+#SBATCH --account=CSC383_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch
 
 export JULIA_MPIEXEC='srun'
 export JULIA_EXCLUSIVE='1'

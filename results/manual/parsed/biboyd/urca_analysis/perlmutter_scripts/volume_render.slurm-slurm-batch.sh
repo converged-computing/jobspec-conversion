@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-destiny-8534
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=m3018
+#SBATCH --mail-user=boyd.brendan@stonybrook.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=00:15:00
+#SBATCH --qos=shared
+#SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='4'
 export MPICH_MAX_THREAD_SAFETY='multiple'

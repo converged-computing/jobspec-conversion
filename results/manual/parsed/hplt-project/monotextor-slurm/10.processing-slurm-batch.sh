@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=processing
-#FLUX: -n=128
-#FLUX: --queue=standard
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=processing
+#SBATCH --output=logs/%x-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard
 
 module load cray-python/3.9.12.1
 module load parallel

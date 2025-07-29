@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lemon-2045
-#FLUX: --urgency=16
+#FLUX --job-name=red-cat-0321
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/patidarr/ngs_pipeline/submit_snakemake.sh

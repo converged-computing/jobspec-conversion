@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpc_lammps.001
-#FLUX: -N=154
-#FLUX: --queue=iv24
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpc_lammps.001
+#SBATCH --output=stdout/gpc_lammps.001.%J.out
+#SBATCH --error=stdout/gpc_lammps.001.%J.err
+#SBATCH --nodes=154
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024
+#SBATCH --time=06:00:00
+#SBATCH --partition=iv24
 
 module load PrgEnv-cray
 module load cray-mpich

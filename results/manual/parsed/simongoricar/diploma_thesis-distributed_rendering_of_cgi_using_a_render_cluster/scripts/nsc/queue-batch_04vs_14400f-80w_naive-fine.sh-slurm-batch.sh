@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qb_04vs_14400f-80w_naive-fine
-#FLUX: -n=81
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=qb_04vs_14400f-80w_naive-fine
+#SBATCH --output=/ceph/grid/home/sg7710/diploma/distributed-rendering-diploma/logs/%A.sbatch.qb_04vs_14400f-80w_naive-fine.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=81
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=02:00:00
+#SBATCH --constraint=zen3
 
 export RUST_LOG='debug'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cattywampus-0233
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=work
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=courses0100
+#SBATCH --nodes=2
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=work
 
 module load python/3.10.10
 module load py-mpi4py/3.1.4-py3.10.10

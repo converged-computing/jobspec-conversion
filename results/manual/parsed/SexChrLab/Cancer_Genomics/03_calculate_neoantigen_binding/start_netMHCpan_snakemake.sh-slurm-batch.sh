@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=netCTL
-#FLUX: --queue=tempboost
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=netCTL
+#SBATCH --mail-user=eknodel@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=tempboost
 
 newgrp combinedlab
 source activate var_call_env

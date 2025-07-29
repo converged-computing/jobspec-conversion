@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-chair-7171
-#FLUX: -c=6
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=def-ebrahimi
+#SBATCH --output=out/%x_%A.out
+#SBATCH --error=out/%x_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-20
 
 export OMP_NUM_THREADS='1 #init weights fails otherwise (see https://github.com/pytorch/pytorch/issues/21956)'
 

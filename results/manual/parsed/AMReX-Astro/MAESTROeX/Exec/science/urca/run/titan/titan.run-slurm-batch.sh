@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-signal-5220
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTROeX/Exec/science/urca/run/titan/titan.run

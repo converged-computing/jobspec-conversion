@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-truffle-4292
-#FLUX: -n=24
-#FLUX: --queue=thin
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=18:00:00
+#SBATCH --partition=thin
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

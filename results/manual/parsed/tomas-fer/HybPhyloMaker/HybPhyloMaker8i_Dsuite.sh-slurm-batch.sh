@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-poodle-7007
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tomas-fer/HybPhyloMaker/HybPhyloMaker8i_Dsuite.sh

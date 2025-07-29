@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=EA-NAS
-#FLUX: -N=12
-#FLUX: --queue=EPICALL,V100-IDI
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=EA-NAS
+#SBATCH --output=logs/EA-NAS-CIFAR-NO-AUG-SIM.log
+#SBATCH --mail-user=magnuspw@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=12
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=80000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=EPICALL,V100-IDI
+#SBATCH --constraint=ntasks-per-node=2
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

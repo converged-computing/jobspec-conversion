@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chair-6935
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=intel
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=24G
+#SBATCH --partition=intel
 
 module load Python/3.6.9
 source /scratch/sanaawan/PySyft/venv/bin/activate

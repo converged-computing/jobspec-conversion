@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-citrus-8585
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 outdir=$SUITESPARSE_PATH
 mkdir -p $outdir

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hippo-7986
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:15:00
 
 set -e
 if [[ "$#" -gt 0 ]]; then

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hazpi_train
-#FLUX: --queue=lasti,gpu,gpuv100,gpup6000
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=hazpi_train
+#SBATCH --mail-user=gael.de-chalendar@cea.fr
+#SBATCH --mail-type=start,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=50G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=lasti,gpu,gpuv100,gpup6000
 
 export LD_LIBRARY_PATH='/home/users/gdechalendar/cuda/lib64:${LD_LIBRARY_PATH}'
 

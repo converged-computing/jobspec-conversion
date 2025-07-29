@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=freesurfer
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=freesurfer
+#SBATCH --mail-user=l.liu9@uq.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --mem=50G
 
 export SUBJECTS_DIR='/afm01/Q1/Q1391/MRI_segmentation/free_surfer_data'
 

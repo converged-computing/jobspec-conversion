@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-snack-3022
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/wtf/manuscript/faces/run_wnmf/r_60/run.sh

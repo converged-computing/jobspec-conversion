@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evolve-cma
-#FLUX: --exclusive
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=evolve-cma
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=05:00:00
+#SBATCH: --exclusive
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

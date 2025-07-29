@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=savi
-#FLUX: -c=8
-#FLUX: --queue=gpusmall
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=savi
+#FLUX -c=8
+#FLUX --queue=gpusmall
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load pytorch tensorflow vim
 pip install -r requirements.txt

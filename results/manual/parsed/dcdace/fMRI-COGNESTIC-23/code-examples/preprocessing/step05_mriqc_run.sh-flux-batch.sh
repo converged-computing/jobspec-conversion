@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=mriqc
+#FLUX -N=2
+#FLUX -c=2
+#FLUX -t=28800
+#FLUX --urgency=16
 
 PROJECT_PATH=/imaging/correia/da05/workshops/2023-09-COGNESTIC/demo/FaceRecognition
 SUBJECT_DIRS=("$PROJECT_PATH"/data/bids/sub-*)

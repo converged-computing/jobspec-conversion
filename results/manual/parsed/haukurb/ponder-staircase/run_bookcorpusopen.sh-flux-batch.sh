@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hbs-staircase-bookcorpus
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=hbs-staircase-bookcorpus
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export WANDB_NAME='$EXPERIMENT'
 export WANDB_RUN_GROUP='$TASK_NAME'

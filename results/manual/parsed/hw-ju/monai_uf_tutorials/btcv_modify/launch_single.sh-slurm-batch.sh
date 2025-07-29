@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-9944
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=a100:1
+#SBATCH --mem=64gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 date;hostname;pwd
 module load singularity

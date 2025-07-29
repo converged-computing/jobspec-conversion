@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-snack-8435
-#FLUX: -n=16
-#FLUX: --queue=IB_44C_512G
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-pancake-8392
+#FLUX -n=16
+#FLUX --queue=IB_44C_512G
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

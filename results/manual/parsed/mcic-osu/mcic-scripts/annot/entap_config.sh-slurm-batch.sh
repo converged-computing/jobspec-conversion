@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=entap-config
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=entap-config
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-entap-config-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=03:00:00
 
 Print_help() {
     echo

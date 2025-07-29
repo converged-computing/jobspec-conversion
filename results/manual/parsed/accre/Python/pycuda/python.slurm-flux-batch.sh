@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-eagle-5628
-#FLUX: --queue=maxwell
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=angry-sundae-3077
+#FLUX --queue=maxwell
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate pycuda

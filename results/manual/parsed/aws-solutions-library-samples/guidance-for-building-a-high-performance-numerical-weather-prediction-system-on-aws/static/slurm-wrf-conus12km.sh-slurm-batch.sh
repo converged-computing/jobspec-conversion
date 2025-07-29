@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=WRF
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=WRF
+#SBATCH --output=conus-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=48
 
 export OMP_NUM_THREADS='2'
 export FI_PROVIDER='efa'

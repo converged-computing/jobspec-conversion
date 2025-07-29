@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=50f_n10_q2
-#FLUX: -N=8
-#FLUX: --queue=long-28core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=50f_n10_q2
+#SBATCH --output=output.txt
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long-28core
+#SBATCH --constraint=ntasks-per-node=27
 
 module load shared
 module load mvapich2/gcc/64/2.2rc1

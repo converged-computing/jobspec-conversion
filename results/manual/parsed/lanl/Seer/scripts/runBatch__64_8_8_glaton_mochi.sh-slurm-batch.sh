@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kitty-7056
-#FLUX: -N=8
-#FLUX: --queue=galton
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=galton
+#SBATCH --constraint=ntasks-per-node=8
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

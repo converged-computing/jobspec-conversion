@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-kitty-1490
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-caramel-2184
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load python-env/3.6.3-ml
 module list

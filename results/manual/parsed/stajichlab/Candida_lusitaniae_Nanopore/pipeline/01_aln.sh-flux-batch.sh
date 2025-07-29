@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ClusAln
-#FLUX: -n=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=ClusAln
+#FLUX -n=8
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load bwa/0.7.17
 module unload java

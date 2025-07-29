@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mol. dyn.
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=mol. dyn.
+#SBATCH --account=crs01
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export CRAY_CUDA_MPS='1'

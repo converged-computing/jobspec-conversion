@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$pdb
-#FLUX: -n=16
-#FLUX: --queue=serial
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=$pdb
+#FLUX -n=16
+#FLUX --queue=serial
+#FLUX -t=172800
+#FLUX --urgency=16
 
 function globexist # To check if ligands exist ([-e *GMX*] crashes if there is more than 1)
   {

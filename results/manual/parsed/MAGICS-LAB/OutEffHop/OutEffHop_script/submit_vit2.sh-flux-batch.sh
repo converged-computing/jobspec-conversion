@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ViT-gate_softmax1
-#FLUX: -c=24
-#FLUX: --queue=gengpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ViT-gate_softmax1
+#FLUX -c=24
+#FLUX --queue=gengpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load python-miniconda3/4.12.0

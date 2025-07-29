@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test-gpu
-#FLUX: --queue=gpu-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=6
 
 module load singularity
 module unload mvapich2_ib

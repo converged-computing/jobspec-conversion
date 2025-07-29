@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=download
-#FLUX: --queue=shared-cpu,private-dpnc-cpu,public-cpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=download
+#SBATCH --output=/srv/beegfs/scratch/groups/dpnc/atlas/BIB/implicitBIBae/jobs/slurm-%A-%x_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=shared-cpu,private-dpnc-cpu,public-cpu
+#SBATCH --chdir=/home/users/k/kleins/atlas/BIB/implicitBIBae
 
 export XDG_RUNTIME_DIR=''
 

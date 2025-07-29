@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rdkitconf
-#FLUX: --queue=kemi1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=rdkitconf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=kemi1
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-34
 
 WIDTH=1000
 TMP=`expr $SLURM_ARRAY_TASK_ID - 1`

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-fork-8801
-#FLUX: -N=4
-#FLUX: -n=5
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#SBATCH --output=output/output.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=west
 
 rm output/*
 . /etc/profile.d/modules.sh

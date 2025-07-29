@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=5nodes_shm
-#FLUX: -N=5
-#FLUX: -n=100
-#FLUX: --queue=slurm
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=5nodes_shm
+#SBATCH --account=chess
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=5
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=slurm
 
 ```
 SBATCH -A oddite

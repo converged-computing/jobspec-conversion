@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lizard-0467
-#FLUX: -c=40
-#FLUX: --queue=gpu_p5
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-arm-1029
+#FLUX -c=40
+#FLUX --queue=gpu_p5
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='$ajs_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$ajs_ALL_CCFRWORK/datasets'

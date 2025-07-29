@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GNUParallel
-#FLUX: -N=2
-#FLUX: -n=56
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=GNUParallel
+#FLUX -N=2
+#FLUX -n=56
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 if [ -f  /etc/profile ]; then
     .  /etc/profile

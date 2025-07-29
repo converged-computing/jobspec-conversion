@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS.GPU.SING
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=GROMACS.GPU.SING
+#SBATCH --output=GROMACS.GPU.SING.%j.out
+#SBATCH --error=GROMACS.GPU.SING.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=00:59:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 export APPTAINER_BIND='$EAR_INSTALL_PATH:$EAR_INSTALL_PATH:ro,$EAR_TMP:$EAR_TMP:rw'
 export APPTAINERENV_EAR_INSTALL_PATH='$EAR_INSTALL_PATH'

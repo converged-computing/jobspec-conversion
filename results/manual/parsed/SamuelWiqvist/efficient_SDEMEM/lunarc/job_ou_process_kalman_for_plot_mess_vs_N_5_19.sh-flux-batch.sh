@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ou_cpmmh_kalman
+#FLUX --job-name=ou_cpmmh_kalman
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

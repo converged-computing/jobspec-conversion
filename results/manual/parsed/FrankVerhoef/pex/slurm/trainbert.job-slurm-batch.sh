@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Train_Bert
-#FLUX: --queue=gpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_Bert
+#SBATCH --output=slurm/outputs/train_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=02:30:00
+#SBATCH --partition=gpu
 
 source ./slurm/.secrets
 module purge

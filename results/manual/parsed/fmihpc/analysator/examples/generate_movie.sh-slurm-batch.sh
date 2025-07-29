@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=array_movie
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=array_movie
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=00:10:00
+#SBATCH --partition=short
+#SBATCH: --no-requeue
+#SBATCH --array=0-200
 
 export PATH='/proj/jesuni/projappl/tex-basic/texlive/2020/bin/x86_64-linux:$PATH'
 export PTNONINTERACTIVE='1'

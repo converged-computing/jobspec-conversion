@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lentil-5293
-#FLUX: -c=28
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem=20000
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='7'
 export MV2_ENABLE_AFFINITY='0'

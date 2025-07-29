@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-general-4915
+#FLUX --job-name=faux-lentil-3338
 #FLUX: --exclusive
-#FLUX: --queue=ccb
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --queue=ccb
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

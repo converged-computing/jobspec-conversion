@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_SSL
-#FLUX: --queue=debug
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=test_SSL
+#FLUX --queue=debug
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/my-miopen-cache'
 export MIOPEN_CUSTOM_CACHE_DIR='${MIOPEN_USER_DB_PATH}'

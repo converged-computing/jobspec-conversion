@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-snack-9192
-#FLUX: --exclusive
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=%x_%J_stdout.txt
+#SBATCH --error=%x_%J_stderr.txt
+#SBATCH --mail-user=brian.hempel@noaa.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export HOME='/home/brian.hempel'
 export PATH='$PATH:$HOME/.local/bin:$HOME/bin'

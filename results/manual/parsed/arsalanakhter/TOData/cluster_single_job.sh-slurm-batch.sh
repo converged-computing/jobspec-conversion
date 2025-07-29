@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-spoon-2563
-#FLUX: -c=20
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=32G
+#SBATCH --partition=short
+#SBATCH --constraint=E5-2695
 
 set -e
 function cleanup() {

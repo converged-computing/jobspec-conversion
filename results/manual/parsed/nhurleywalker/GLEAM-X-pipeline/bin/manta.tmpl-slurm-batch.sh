@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-despacito-5347
-#FLUX: --queue=copyq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=mwasci
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=copyq
 
 pipeuser=PIPEUSER
 source /group/mwasci/$pipeuser/GLEAM-X-pipeline/GLEAM-X-pipeline.profile

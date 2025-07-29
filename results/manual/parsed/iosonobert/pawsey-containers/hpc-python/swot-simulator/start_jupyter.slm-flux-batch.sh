@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter_notebook
-#FLUX: -c=8
-#FLUX: --queue=work
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter_notebook
+#FLUX -c=8
+#FLUX --queue=work
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME '
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

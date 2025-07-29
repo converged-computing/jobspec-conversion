@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CA-CP
-#FLUX: -N=125
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=CA-CP
+#SBATCH --account=MAT190
+#SBATCH --output=log.out
+#SBATCH --error=log.err
+#SBATCH --nodes=125
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export CRAYPE_LINK_TYPE='dynamic'

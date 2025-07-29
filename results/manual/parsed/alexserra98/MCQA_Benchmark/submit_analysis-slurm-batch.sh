@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=32
-#FLUX: --queue=DGX
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=lade
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:0
+#SBATCH --mem=120G
+#SBATCH --time=04:00:00
+#SBATCH --partition=DGX
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='32'
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'

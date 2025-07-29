@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_sacct
-#FLUX: -N=4
-#FLUX: -c=14
+#FLUX --job-name=amg2013_sacct
+#FLUX -N=4
+#FLUX -c=14
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

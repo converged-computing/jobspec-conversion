@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-0330
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-citrus-7497
+#FLUX -n=4
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ../../../../pytorch-1.11/bin/activate
 module load gcc/8.2.0 python_gpu/3.10.4

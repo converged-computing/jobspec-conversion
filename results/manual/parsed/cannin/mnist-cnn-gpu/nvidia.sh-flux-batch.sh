@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-ricecake-2888
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-animal-6447
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load gcc/6.2.0
 module load cuda/10.0

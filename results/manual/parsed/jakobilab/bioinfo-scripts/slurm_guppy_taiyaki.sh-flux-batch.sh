@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-peanut-3231
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-squidward-1626
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

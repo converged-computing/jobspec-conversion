@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=recheck_adaptrerr
-#FLUX: --queue=<insert_partition>
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=recheck_adaptrerr
+#FLUX --queue=<insert_partition>
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load <insert Anaconda module name>
 module load <insert cuda module name>

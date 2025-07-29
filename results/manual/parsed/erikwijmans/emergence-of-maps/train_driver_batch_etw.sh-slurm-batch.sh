@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=navigation-analysis-habitat
-#FLUX: -c=10
-#FLUX: --queue=learnfair,scavenge
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=navigation-analysis-habitat
+#SBATCH --output=/checkpoint/%u/jobs/job.%A_%a.out
+#SBATCH --error=/checkpoint/%u/jobs/job.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=5625MB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=learnfair,scavenge
+#SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'
 export GLOG_minloglevel='2'

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=auto-train
-#FLUX: --queue=g1_user
-#FLUX: --urgency=16
+#SBATCH --job-name=auto-train
+#SBATCH --output=%J.out
+#SBATCH --error=%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=g1_user
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LIBVASP:$LD_LIBRARY_PATH'
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'

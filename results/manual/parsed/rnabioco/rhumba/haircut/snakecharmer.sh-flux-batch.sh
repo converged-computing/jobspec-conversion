@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parsnip-6854
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-cherry-7373
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rhumba/haircut/snakecharmer.sh

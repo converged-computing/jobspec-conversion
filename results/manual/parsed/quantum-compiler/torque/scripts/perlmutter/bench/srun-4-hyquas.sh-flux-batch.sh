@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-noodle-0886
-#FLUX: -N=4
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-poo-5360
+#FLUX -N=4
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export HYQUAS_ROOT='/pscratch/sd/z/zjia/qs/HyQuas'
 export MPICH_GPU_SUPPORT_ENABLED='1'

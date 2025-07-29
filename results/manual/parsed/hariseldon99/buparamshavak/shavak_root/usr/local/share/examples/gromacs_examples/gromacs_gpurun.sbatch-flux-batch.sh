@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gromacstest
-#FLUX: -n=10
-#FLUX: --queue=GPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gromacstest
+#FLUX -n=10
+#FLUX --queue=GPU
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export GMX_IMGDIR='${SIFDIR}/gromacs/'
 export GMX_IMG='gromacs-2022.3_20230206.sif'

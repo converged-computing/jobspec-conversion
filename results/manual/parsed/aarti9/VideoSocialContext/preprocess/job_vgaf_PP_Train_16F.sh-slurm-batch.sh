@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-mango-6626
-#FLUX: -c=6
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=def-jhoey
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=32G
+#SBATCH --time=00:10:00
 
 nvidia-smi
 SOURCEDIR=/scratch/aarti9

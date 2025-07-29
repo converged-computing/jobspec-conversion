@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-blackbean-2981
-#FLUX: --queue=vm-small
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=logs/build_stan.o
+#SBATCH --error=logs/build_stan.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=vm-small
 
 export LD_PRELOAD=''
 

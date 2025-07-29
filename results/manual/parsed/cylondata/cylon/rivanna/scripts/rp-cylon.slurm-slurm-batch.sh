@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-3081
-#FLUX: -N=2
-#FLUX: --queue=parallel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=bii_dsc_community
+#SBATCH --output=out-%x-%j.out
+#SBATCH --error=err-%x-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=37
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

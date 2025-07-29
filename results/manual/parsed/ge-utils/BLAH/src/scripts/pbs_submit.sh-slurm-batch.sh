@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-knife-1736
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ge-utils/BLAH/src/scripts/pbs_submit.sh

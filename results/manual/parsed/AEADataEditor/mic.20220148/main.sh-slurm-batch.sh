@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=a3757
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=a3757
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=0
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_PROJECT='julia16'
 

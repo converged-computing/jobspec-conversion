@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=kmc
-#FLUX: --queue=sixhour
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#SBATCH --job-name=kmc
+#SBATCH --output=out_kmc_%j.log
+#SBATCH --mail-user=pveltsos@ku.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20gb
+#SBATCH --time=05:59:00
+#SBATCH --partition=sixhour
 
 echo "Running"
 cd /home/p860v026/temp/$1

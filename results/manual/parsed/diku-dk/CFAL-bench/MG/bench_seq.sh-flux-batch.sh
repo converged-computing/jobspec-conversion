@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bits-0457
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-spoon-4426
+#FLUX -c=32
+#FLUX --queue=csmpi_fpga_long
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

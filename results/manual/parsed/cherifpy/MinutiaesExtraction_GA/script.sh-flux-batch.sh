@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-earthworm-6418
-#FLUX: -c=8
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-cattywampus-6040
+#FLUX -c=8
+#FLUX --queue=nvidia
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

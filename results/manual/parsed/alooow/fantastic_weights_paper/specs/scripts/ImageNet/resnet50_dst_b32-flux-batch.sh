@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-butter-0383
-#FLUX: --queue=<partition
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-poo-8597
+#FLUX --queue=<partition
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export IMAGENET_PYTORCH='~/ImageNet # set the path to the ImageNet here.'
 

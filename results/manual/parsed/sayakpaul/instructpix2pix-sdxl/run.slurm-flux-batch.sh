@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=instructpix2pix-sdxl
-#FLUX: -c=96
+#FLUX --job-name=instructpix2pix-sdxl
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export MODEL_ID='stabilityai/stable-diffusion-xl-base-1.0'
 export LAUNCHER='accelerate launch \'

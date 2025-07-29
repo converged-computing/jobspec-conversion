@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nn_art_transfer
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=nn_art_transfer
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 echo "Pulling latest"
 git pull

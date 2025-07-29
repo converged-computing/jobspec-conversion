@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=proteus_build
-#FLUX: -n=64
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=proteus_build
+#FLUX -n=64
+#FLUX --queue=workq
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PROTEUS_PREFIX='${PWD}/proteus_env'
 export PROTEUS_ARCH='mike'

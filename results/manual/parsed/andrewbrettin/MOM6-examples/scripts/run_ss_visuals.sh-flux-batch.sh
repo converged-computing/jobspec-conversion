@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=visuals
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=visuals
+#FLUX -t=3600
+#FLUX --urgency=16
 
 singularity exec \
 	--overlay /scratch/aeb783/pangeo/pytorch1.7.0-cuda11.0.ext3:ro \

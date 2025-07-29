@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-onion-1700
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=grated-pedo-6712
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd ~/measles/code/
 module load R

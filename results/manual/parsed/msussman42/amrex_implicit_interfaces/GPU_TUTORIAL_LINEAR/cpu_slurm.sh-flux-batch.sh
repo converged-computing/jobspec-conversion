@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cpu test
-#FLUX: --queue=quicktest
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=cpu test
+#FLUX --queue=quicktest
+#FLUX -t=240
+#FLUX --urgency=16
 
 echo module load cuda-12.2
 module load cuda-12.2

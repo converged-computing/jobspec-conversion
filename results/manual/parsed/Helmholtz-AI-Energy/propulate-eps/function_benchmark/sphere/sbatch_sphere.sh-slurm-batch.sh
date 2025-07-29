@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=propulate-optuna-sphere
-#FLUX: --queue=accelerated
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=propulate-optuna-sphere
+#SBATCH --account=haicore-project-scc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=02:00:00
+#SBATCH --partition=accelerated
+#SBATCH --constraint=ntasks-per-node=4
 
 export DATA_DIR='/hkfs/work/workspace/scratch/qv2382-bigearthnet/'
 export BASE_DIR='/hkfs/work/workspace/scratch/qv2382-propulate/'

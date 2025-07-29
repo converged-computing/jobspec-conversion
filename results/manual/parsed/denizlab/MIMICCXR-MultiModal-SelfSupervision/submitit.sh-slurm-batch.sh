@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RESNET_CLIP_s1000
-#FLUX: -c=2
-#FLUX: --queue=gpu4_medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=RESNET_CLIP_s1000
+#SBATCH --output=./RESNET_CLIP_s1000.out
+#SBATCH --error=./RESNET_CLIP_s1000.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=48G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu4_medium
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

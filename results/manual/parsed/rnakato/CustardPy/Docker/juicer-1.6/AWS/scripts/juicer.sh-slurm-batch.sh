@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-frito-6382
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/rnakato/CustardPy/Docker/juicer-1.6/AWS/scripts/juicer.sh

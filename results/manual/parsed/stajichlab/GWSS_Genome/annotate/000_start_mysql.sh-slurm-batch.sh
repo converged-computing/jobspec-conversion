@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mysqld
-#FLUX: -n=4
-#FLUX: --queue=batch,intel
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=mysqld
+#SBATCH --output=logs/mysql.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32gb
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=batch,intel
 
 export SINGULARITY_BINDPATH='bigdata'
 export SINGULARITYENV_PASACONF='pasa.config.txt'

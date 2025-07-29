@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blbfit
-#FLUX: --urgency=16
+#FLUX --job-name=blbfit
+#FLUX --urgency=16
 
 module load pymods/2.7
 module load numpy

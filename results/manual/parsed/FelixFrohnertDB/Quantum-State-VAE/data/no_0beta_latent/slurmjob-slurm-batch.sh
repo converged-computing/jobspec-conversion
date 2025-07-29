@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gen_dm_4x4
-#FLUX: -c=8
-#FLUX: --queue=compIntel
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_dm_4x4
+#SBATCH --output=./tjob.out.%j
+#SBATCH --error=./tjob.err.%j
+#SBATCH --mail-user=frohnert@mail.lorentz.leidenuniv.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=15:00:00
+#SBATCH --partition=compIntel
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=./
 
 module load QuantumMiniconda3/4.7.10
 source /marisdata/frohnert/cluster/gen_dm/venv/bin/activate

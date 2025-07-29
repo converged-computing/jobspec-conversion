@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-ricecake-1033
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-punk-3744
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export SUNBEAM_DIR='/home/tuv/sunbeam/sunbeam-stable'
 export TMPDIR='/prj/dir/tmp'

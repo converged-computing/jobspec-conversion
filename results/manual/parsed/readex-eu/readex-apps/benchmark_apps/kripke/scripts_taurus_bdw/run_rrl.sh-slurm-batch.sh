@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kripke
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=kripke
+#SBATCH --account=p_readex
+#SBATCH --mail-user=ondrej.vysocky@vsb.cz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2200M
+#SBATCH --time=00:01:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=athenapk_gpu
+#FLUX --job-name=athenapk_gpu
 #FLUX: --exclusive
-#FLUX: --queue=kurruf_gpu
-#FLUX: --urgency=16
+#FLUX --queue=kurruf_gpu
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'
 

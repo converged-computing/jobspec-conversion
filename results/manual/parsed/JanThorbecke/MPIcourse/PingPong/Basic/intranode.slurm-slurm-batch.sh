@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PingPing-Intranode
-#FLUX: -n=2
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=PingPing-Intranode
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:01:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='1'
 

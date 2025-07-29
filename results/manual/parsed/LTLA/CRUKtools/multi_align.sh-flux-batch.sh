@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-knife-0196
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-cherry-6625
+#FLUX --urgency=16
 
 set -e
 set -u

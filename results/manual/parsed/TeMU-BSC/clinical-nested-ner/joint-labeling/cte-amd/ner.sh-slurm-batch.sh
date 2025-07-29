@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ner_joint_labeling
-#FLUX: -c=128
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ner_joint_labeling
+#SBATCH --output=logs/ner_joint_labeling_%j.out
+#SBATCH --error=logs/ner_joint_labeling_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:2
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=.
 
 export LD_LIBRARY_PATH='/gpfs/projects/bsc88/projects/bne/eval_amd/scripts_to_run/external-lib:$LD_LIBRARY_PATH'
 

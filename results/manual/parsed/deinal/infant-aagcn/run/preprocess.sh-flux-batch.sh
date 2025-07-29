@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-7687
-#FLUX: --queue=small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=salted-peanut-3222
+#FLUX --queue=small
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load pytorch/1.13
 . ./env.sh

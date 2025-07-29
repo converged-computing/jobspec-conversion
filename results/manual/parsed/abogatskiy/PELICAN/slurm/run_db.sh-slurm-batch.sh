@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-frito-4391
-#FLUX: --queue=genx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=./out/array_%A_%a.out
+#SBATCH --error=./err/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=genx
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

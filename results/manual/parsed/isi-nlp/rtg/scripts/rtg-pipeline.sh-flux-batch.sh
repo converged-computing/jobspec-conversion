@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-malarkey-2181
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-hippo-4837
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='$OUT/rtg.zip'
 

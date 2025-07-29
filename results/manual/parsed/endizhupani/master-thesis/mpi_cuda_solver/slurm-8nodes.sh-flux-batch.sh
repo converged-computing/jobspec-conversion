@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=custom-solver-8nodes
-#FLUX: -N=8
-#FLUX: -c=24
+#FLUX --job-name=custom-solver-8nodes
+#FLUX -N=8
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=gpu2080
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --queue=gpu2080
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 export I_MPI_DEBUG='3'

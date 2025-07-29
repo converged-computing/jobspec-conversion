@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=refactoring_test
-#FLUX: -c=4
-#FLUX: -t=169200
-#FLUX: --urgency=16
+#SBATCH --job-name=refactoring_test
+#SBATCH --output=/scratch/axelbogos/logs/slurm-%j-%x.out
+#SBATCH --error=/scratch/axelbogos/logs/slurm-%j-%x.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=16Gb
+#SBATCH --time=1-23:00:00
 
 export PYTHONUNBUFFERED='1'
 

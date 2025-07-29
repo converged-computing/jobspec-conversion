@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=preprocessing
-#FLUX: -c=48
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocessing
+#SBATCH --account=rwth0233
+#SBATCH --output=./preprocessing.txt
+#SBATCH --error=./preprocessing.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=180G
+#SBATCH --time=5-00:00:00
 
 source ~/.zshrc
 conda activate nf-core-atacseq-1.2.1

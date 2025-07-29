@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=opt
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=opt
+#SBATCH --account=SNIC2021-7-121
+#SBATCH --output=slurm-logs/opt.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'
 export TRANSFORMERS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

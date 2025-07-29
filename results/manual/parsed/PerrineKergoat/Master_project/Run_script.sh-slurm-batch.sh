@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Isl_mod
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=Isl_mod
+#SBATCH --output=out/%x_%A_%a.stdout
+#SBATCH --error=out/%x_%A_%a.stderr
+#SBATCH --mail-user=perrine.kergoat@unil.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=15:00:00
+#SBATCH --array=1-10
 
 module load gcc
 module load slim/4.0.1

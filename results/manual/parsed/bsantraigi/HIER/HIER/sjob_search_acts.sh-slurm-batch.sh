@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hier_search
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=hier_search
+#SBATCH --output=logs/slurm_%j.log
+#SBATCH --error=logs/slurm_%j.log
+#SBATCH --mail-user=bishal.santra@iitkgp.ac.in
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=23000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

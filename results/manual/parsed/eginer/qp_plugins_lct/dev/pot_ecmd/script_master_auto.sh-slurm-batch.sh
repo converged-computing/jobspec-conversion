@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-muffin-8273
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/eginer/qp_plugins_lct/dev/pot_ecmd/script_master_auto.sh

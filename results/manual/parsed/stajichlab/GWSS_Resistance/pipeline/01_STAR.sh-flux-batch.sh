@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parrot-3643
-#FLUX: -n=32
-#FLUX: --queue=intel,batch
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-cattywampus-7792
+#FLUX -n=32
+#FLUX --queue=intel,batch
+#FLUX --urgency=16
 
 module load STAR
 module load subread

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-0493
-#FLUX: -n=4
-#FLUX: --queue=alvis
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-cinnamonbun-9043
+#FLUX -n=4
+#FLUX --queue=alvis
+#FLUX -t=2400
+#FLUX --urgency=16
 
 vid="006FL.MTS"
 allow_flip="False"

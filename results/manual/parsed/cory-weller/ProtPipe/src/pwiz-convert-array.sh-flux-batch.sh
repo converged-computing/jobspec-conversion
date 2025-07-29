@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-plant-7406
-#FLUX: -n=2
-#FLUX: --queue=quick,norm
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-plant-7060
+#FLUX -n=2
+#FLUX --queue=quick,norm
+#FLUX -t=3540
+#FLUX --urgency=16
 
 N=${SLURM_ARRAY_TASK_ID}
 filelist=${1}

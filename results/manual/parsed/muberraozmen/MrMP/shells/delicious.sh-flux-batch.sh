@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-motorcycle-0722
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-punk-9367
+#FLUX -t=120
+#FLUX --urgency=16
 
 dataset=delicious
 cuda_on=$true

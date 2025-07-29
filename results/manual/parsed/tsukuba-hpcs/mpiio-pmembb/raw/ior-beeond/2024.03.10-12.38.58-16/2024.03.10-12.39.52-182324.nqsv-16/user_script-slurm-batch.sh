@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cupcake-6182
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/ior-beeond/2024.03.10-12.38.58-16/2024.03.10-12.39.52-182324.nqsv-16/user_script

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NGS580-run-2
-#FLUX: -c=8
-#FLUX: --queue=intellispace
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=NGS580-run-2
+#FLUX -c=8
+#FLUX --queue=intellispace
+#FLUX -t=432000
+#FLUX --urgency=16
 
 touch .nextflow.submitted
 get_pid(){ head -1 .nextflow.pid; }

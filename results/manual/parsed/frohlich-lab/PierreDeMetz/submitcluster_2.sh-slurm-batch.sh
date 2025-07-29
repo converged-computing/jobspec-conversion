@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hello-house-9221
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=snakelog.out
+#SBATCH --error=snakelog.err
+#SBATCH --mail-user=demetzp@crick.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
 
 export WANDB_API_KEY='########'
 

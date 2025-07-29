@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bert-pretrain
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: --queue=v100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bert-pretrain
+#SBATCH --account=Deep-Learning-at-Sca
+#SBATCH --output=bert-pretrain.o%j
+#SBATCH --mail-user={YOUR
+#SBATCH --mail-type=end
+#SBATCH --nodes=16
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=v100
 
 PHASE=1
 if [[ "$PHASE" -eq 1 ]]; then

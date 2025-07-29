@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hyper1.1_K80
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=hyper1.1_K80
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 python -u  train.py --batch_size 5 --epoch 50 --save_path /export/team-mic/zhong/test/print_since_pase \
        --num_workers 8 --warmup 10000000 --net_cfg cfg/workers_overlap.cfg \

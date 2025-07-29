@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-0134
-#FLUX: --queue=ROME
-#FLUX: -t=532800
-#FLUX: --urgency=16
+#FLUX --job-name=astute-cinnamonbun-9189
+#FLUX --queue=ROME
+#FLUX -t=532800
+#FLUX --urgency=16
 
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/etc/bashrc
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/user/bashrc

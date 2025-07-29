@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=namd
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge; 
 ulimit -Sn 4096; 

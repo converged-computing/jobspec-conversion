@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-animal-3214
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-pastry-2717
+#FLUX -c=2
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export MODEL='models--EleutherAI--gpt-j-6B'
 export MODEL_NAME='EleutherAI/gpt-j-6B'

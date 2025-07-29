@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-punk-8715
-#FLUX: --queue=ShmemQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=ichec004
+#SBATCH --mail-user=james.nelson@ichec.ie
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ShmemQ
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

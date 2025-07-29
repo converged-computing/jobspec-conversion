@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=parallel
-#FLUX: -c=16
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#FLUX --job-name=parallel
+#FLUX -c=16
+#FLUX -t=3900
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/dclure/hathi-mpi'
 

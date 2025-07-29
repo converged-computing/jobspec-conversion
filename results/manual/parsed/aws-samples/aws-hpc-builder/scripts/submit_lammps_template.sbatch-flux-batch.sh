@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-punk-9493
-#FLUX: -N=2
+#FLUX --job-name=eccentric-bicycle-7098
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=c6ipg
-#FLUX: --urgency=16
+#FLUX --queue=c6ipg
+#FLUX --urgency=16
 
 export LAMMPS_VERSION='git'
 export OMP_NUM_THREADS='1'

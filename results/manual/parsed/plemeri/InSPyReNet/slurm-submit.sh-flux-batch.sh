@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=inspyrenet
-#FLUX: --queue=A6000
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=inspyrenet
+#FLUX --queue=A6000
+#FLUX -t=259200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR" echo "CUDA_HOME=$CUDA_HOME"

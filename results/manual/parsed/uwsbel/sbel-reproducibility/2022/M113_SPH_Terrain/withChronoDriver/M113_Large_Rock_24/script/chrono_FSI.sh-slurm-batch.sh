@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nunchucks-8542
-#FLUX: --queue=sbel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./Slurm_Out/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=sbel
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_Rock_24/script

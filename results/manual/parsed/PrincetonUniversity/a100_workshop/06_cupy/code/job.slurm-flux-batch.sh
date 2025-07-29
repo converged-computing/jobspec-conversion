@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cupy
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=cupy
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2022.5

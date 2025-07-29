@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-poodle-8512
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-dog-0480
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ls1mardyn/ls1-mardyn/tools/benchmarks/config_examples/pptemplate.XE6/pp

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Cell_Sim
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=Cell_Sim
+#SBATCH --account=nesi00119
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:29:00
+#SBATCH --constraint=avx
+#SBATCH --array=1-11
 
 module load intel/2015a
 module load Python/3.5.1-intel-2015a

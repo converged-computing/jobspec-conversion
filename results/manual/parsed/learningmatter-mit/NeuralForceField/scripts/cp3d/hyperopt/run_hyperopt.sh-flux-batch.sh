@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-peanut-butter-0732
-#FLUX: -c=32
-#FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
-#FLUX: -t=600000
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-sundae-2393
+#FLUX -c=32
+#FLUX --queue=sched_mit_rafagb_amd,sched_mit_rafagb
+#FLUX -t=600000
+#FLUX --urgency=16
 
 export SLURM_GPUS_PER_NODE='1'
 export LD_LIBRARY_PATH='lib/$CONDA_PREFIX/:$LD_LIBRARY_PATH'

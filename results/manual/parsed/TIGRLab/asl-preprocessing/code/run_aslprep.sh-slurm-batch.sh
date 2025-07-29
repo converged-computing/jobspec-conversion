@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=aslprep
-#FLUX: -c=4
-#FLUX: --queue=low-moby
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=aslprep
+#SBATCH --output=aslprep_%j.out
+#SBATCH --error=aslprep_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4096
+#SBATCH --time=06:00:00
+#SBATCH --partition=low-moby
+#SBATCH --array=1-154
 
 STUDY="TAY"
 sublist="/scratch/mjoseph/asl-preprocessing/code/subject_list.txt"

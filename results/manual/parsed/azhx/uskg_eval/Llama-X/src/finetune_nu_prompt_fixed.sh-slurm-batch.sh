@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=codellama_llamax_finetune
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: --urgency=16
+#SBATCH --job-name=codellama_llamax_finetune
+#SBATCH --output=%x.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200G
+#SBATCH --partition=a100
+#SBATCH --qos=a100_wenhuchen
+#SBATCH --nodelist=gpu185
 
 export NCCL_IB_HCA='mlx5'
 export NCCL_IB_TC='136'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fn_adv
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=fn_adv
+#SBATCH --output=finetune_advanced-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=0
+#SBATCH --time=23:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=A100
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:/share/apps/cudnn_8_1_0/cuda/lib64'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-7718
-#FLUX: -N=6
+#FLUX --job-name=stanky-kerfuffle-5675
+#FLUX -N=6
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 export ICON_THREADS='4'

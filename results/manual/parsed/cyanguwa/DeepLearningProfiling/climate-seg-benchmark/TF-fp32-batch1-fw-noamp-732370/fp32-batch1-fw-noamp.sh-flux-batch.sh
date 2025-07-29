@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fw-noamp
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=fw-noamp
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

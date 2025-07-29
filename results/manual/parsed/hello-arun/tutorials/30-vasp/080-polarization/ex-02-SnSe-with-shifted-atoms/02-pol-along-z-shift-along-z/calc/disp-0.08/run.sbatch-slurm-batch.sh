@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SnSe-0.08
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=SnSe-0.08
+#SBATCH --output=./std.out
+#SBATCH --error=./std.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
+#SBATCH --constraint=amd,ntasks-per-node=24
 
 srcDIR=$(pwd)
 machine="IBEX" # HPC or IBEX

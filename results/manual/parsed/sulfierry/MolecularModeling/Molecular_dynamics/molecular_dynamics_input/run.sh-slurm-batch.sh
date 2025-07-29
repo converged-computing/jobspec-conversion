@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=molecular_dynamics
-#FLUX: --exclusive
-#FLUX: --queue=sequana_dockvs
-#FLUX: --urgency=16
+#SBATCH --job-name=molecular_dynamics
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=sequana_dockvs
+#SBATCH: --exclusive
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

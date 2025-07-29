@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_wrkflw
-#FLUX: -c=40
-#FLUX: --queue=htc
-#FLUX: --urgency=16
+#FLUX --job-name=run_wrkflw
+#FLUX -c=40
+#FLUX --queue=htc
+#FLUX --urgency=16
 
 module load singularity
 module load nextflow

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-frito-2244
-#FLUX: -c=20
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-malarkey-6529
+#FLUX -c=20
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source ../common/common.sh
 PROFILE=${1:-triton-gcc-openblas-2020}

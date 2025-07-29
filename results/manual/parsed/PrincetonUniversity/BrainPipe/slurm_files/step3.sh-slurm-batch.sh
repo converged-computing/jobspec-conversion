@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hope-7456
-#FLUX: -c=14
-#FLUX: --queue=all
-#FLUX: -t=42000
-#FLUX: --urgency=16
+#SBATCH --output=logs/step3_%a.out
+#SBATCH --error=logs/step3_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --time=11:40:00
+#SBATCH --partition=all
 
 module load anacondapy/2020.11
 module load elastix/4.8

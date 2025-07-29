@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-truffle-6020
-#FLUX: --queue=defq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=defq
+#SBATCH --constraint=ntasks-per-node=16
 
 set -x 
 i=1

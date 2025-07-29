@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=singularity-openfoam
-#FLUX: -N=6
-#FLUX: --urgency=16
+#FLUX --job-name=singularity-openfoam
+#FLUX -N=6
+#FLUX --urgency=16
 
 source /contrib/alvaro/ompi/env.sh
 RUN_DIR="$HOME/cyclone"

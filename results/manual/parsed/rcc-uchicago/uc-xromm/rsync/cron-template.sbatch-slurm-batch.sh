@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-caramel-0576
-#FLUX: --queue=cron
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=cron-account
+#SBATCH --output=cron.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=cron
+#SBATCH --qos=cron
 
 SCHEDULE='59 23 * * *'
 SSH_PREFIX="ssh -i /home/$(whoami)/.ssh"       # prefix to ssh keys

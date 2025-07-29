@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-avocado-3588
-#FLUX: --queue=dpart
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:30:00
+#SBATCH --partition=dpart
+#SBATCH --qos=medium
 
 export WORK_DIR='/cfarhomes/psando/Documents/UAPs/gd-uap-pytorch/'
 

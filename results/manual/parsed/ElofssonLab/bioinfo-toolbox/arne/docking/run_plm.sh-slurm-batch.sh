@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-gato-0499
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2017-11-7
+#SBATCH --output=plm.%A_%a.out
+#SBATCH --error=plm.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=120GB
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-700
 
 export JULIA_PKGDIR='$myjulia'
 export PATH='$myjulia/bin/:$PATH'

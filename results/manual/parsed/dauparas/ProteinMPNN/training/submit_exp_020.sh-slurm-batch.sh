@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-poo-5993
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=exp_020.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128g
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
 
 source activate mlfold-test
 python ./training.py \

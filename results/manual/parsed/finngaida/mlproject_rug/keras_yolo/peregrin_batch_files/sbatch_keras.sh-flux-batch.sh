@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=yolo_small
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=yolo_small
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load Python/3.6.4-intel-2018a
 module load CUDA/9.1.85

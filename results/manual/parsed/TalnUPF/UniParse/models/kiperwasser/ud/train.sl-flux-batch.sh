@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ud
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=ud
+#FLUX --queue=high
+#FLUX --urgency=16
 
 module load Tensorflow-gpu/1.12.0-foss-2017a-Python-3.6.4
 module load scikit-learn/0.19.1-foss-2017a-Python-3.6.4

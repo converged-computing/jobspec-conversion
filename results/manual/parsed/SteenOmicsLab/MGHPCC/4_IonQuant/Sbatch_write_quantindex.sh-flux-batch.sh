@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quantWrite
-#FLUX: -c=2
-#FLUX: --queue=mghpcc-short
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=quantWrite
+#FLUX -c=2
+#FLUX --queue=mghpcc-short
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export LC_ALL='C'
 

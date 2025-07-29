@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-8179
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/examples-pbs-dgx/4-taskfarm/submit.pbs

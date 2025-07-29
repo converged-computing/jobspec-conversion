@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=combine3
-#FLUX: -N=64
-#FLUX: -n=1000
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=combine3
+#SBATCH --output=out/combination3.out
+#SBATCH --error=out/combination3.err
+#SBATCH --mail-user=anto.lonappan@sissa.it
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=64
+#SBATCH --ntasks=1000
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
 
 export ini='combination3.ini'
 

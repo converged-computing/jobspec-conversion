@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lemon-0690
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/hebrewsnabla/lsfman/qorca.sh

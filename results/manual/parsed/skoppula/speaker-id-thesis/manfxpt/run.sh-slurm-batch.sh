@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bit32linear
-#FLUX: -c=8
-#FLUX: --queue=cpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=bit32linear
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --partition=cpu
+#SBATCH --array=1-4
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"
 echo "SLURM_JOBID="$SLURM_JOBID 

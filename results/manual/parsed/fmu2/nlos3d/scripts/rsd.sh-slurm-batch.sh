@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-nalgas-7673
-#FLUX: -c=12
-#FLUX: --queue=anything
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=anything
 
 module load nvidia/cuda/11.3
 python setup.py build_ext --inplace

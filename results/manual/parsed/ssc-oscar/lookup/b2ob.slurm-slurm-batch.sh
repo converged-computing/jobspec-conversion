@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=WHAT.FROM.PRT
-#FLUX: --queue=campus
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=WHAT.FROM.PRT
+#SBATCH --account=ACF-UTK0011
+#SBATCH --output=WHAT.FROM.PRT.o%J
+#SBATCH --error=WHAT.FROM.PRT.o%J
+#SBATCH --mail-user=audris@utk.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:59:59
+#SBATCH --partition=campus
+#SBATCH --constraint=ntasks-per-node=NTASKS
 
 module purge
 module load bzip2/1.0.8  intel-compilers/2021.2.0

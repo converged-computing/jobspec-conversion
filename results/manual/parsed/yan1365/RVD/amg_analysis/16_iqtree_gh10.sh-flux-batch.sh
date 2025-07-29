@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree_gh10_%j
-#FLUX: -n=48
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=iqtree_gh10_%j
+#FLUX -n=48
+#FLUX -t=28800
+#FLUX --urgency=16
 
 START=$SECONDS
 cd  /fs/ess/PAS0439/MING/virome/amg_analysis/comparative_genomics_analysis/cazy/GH2_8_10_16/tree/GH10

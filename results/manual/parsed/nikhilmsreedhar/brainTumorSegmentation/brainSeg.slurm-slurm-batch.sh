@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tumor_seg
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=tumor_seg
+#SBATCH --output=tumor_seg.%J.out
+#SBATCH --error=tumor_seg.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8192
+#SBATCH --time=4-00:00:00
 
 export job_name='tumor_seg'
 export log_dir='/home/cap5516.student10/job_logs/$job_name-$SLURM_JOB_ID'

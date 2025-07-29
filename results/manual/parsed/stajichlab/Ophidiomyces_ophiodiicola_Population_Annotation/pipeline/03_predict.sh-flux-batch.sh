@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-9816
-#FLUX: -n=24
-#FLUX: --queue=intel,batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-hippo-2643
+#FLUX -n=24
+#FLUX --queue=intel,batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'
 

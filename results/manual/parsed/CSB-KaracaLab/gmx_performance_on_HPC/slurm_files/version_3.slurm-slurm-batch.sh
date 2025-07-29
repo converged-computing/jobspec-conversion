@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=barbun_2020_pds
-#FLUX: -n=40
-#FLUX: --queue=barbun-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=barbun_2020_pds
+#SBATCH --account=bsavas
+#SBATCH --output=DNMT3a_v3-%j.out
+#SBATCH --error=DNMT3a_v3-%j.err
+#SBATCH --mail-user=buusrasavas@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=barbun-cuda
+#SBATCH --nodelist=barbun135
 
 export OMP_NUM_THREADS='20'
 

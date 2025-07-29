@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hope-1476
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-poo-3158
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/daily.ak.o3.plot_max

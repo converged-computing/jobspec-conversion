@@ -1,12 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=ps2cctbx
-#FLUX: -N=5000
-#FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=ps2cctbx
+#SBATCH --account=m2859
+#SBATCH --nodes=5000
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=premium
+#SBATCH: --exclusive
+#SBATCH --constraint=knl,quad,cache
 
 export PMI_MMAP_SYNC_WAIT_TIME='600'
 
+singularity
+exec
+docker:monarin/ps2cctbx:latest
 t_start=`date +%s`
 export PMI_MMAP_SYNC_WAIT_TIME=600
 sbcast -p ./input/process_batch.phil /tmp/process_batch.phil

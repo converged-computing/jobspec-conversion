@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CS 601.471/671 final project
-#FLUX: --queue=ica100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=CS 601.471/671 final project
+#SBATCH --account=danielk80_gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ica100
+#SBATCH --qos=qos_gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/scratch4/danielk/schaud31'
 

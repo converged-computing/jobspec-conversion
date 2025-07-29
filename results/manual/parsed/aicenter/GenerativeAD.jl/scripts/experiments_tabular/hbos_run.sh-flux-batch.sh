@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-chip-3331
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-truffle-1275
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHON='${HOME}/sklearn-env/bin/python'
 

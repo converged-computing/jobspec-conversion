@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hpml
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hpml
+#SBATCH --output=tensor_project.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32GB
+#SBATCH --time=02:00:00
 
 module purge
 module load anaconda3/2020.07

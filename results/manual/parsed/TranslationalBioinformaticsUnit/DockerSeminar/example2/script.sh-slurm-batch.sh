@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-rabbit-9596
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 export SINGULARITY_TMPDIR='/ibex/user/$USER/singularity/tmpdir'
 

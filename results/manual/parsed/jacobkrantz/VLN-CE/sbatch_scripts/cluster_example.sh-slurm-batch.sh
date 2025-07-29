@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=en_train
-#FLUX: -c=20
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=dev
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=en_train
+#SBATCH --output=/private/home/%u/logs/%x.out
+#SBATCH --error=/private/home/%u/logs/%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gpus-per-task=2
+#SBATCH --mem=5GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=dev
+#SBATCH --constraint=ntasks-per-node=1,volta32gb
 
 source /private/home/%u/.bashrc
 conda deactivate

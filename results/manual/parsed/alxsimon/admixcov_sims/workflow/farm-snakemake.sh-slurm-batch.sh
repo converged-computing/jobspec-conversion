@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=main_admixcov_sims
-#FLUX: --queue=high2
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=main_admixcov_sims
+#SBATCH --account=gmcoopgrp
+#SBATCH --output=main_snakemake.out
+#SBATCH --error=main_snakemake.err
+#SBATCH --mail-user=acpsimon@ucdavis.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3000M
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=high2
 
 module load miniconda3
 snakemake --profile farm-profile

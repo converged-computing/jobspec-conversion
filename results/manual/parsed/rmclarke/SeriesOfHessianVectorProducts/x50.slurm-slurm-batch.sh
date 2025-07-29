@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=x50_FASHION
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: -t=129570
-#FLUX: --urgency=16
+#SBATCH --job-name=x50_FASHION
+#SBATCH --account=T2-CS117-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-11:59:30
+#SBATCH --partition=ampere
 
 export TUNE_MAX_PENDING_TRIALS_PG='32'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

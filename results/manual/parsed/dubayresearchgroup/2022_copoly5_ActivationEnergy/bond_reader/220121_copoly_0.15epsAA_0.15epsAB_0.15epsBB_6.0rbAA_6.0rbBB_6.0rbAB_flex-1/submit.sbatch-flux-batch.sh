@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parrot-9731
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-pancake-0976
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load gcc/7.1.0 python/3.6.8 ffmpeg intel/18.0 intelmpi/18.0 cuda pgi openmpi
 cd $SLURM_SUBMIT_DIR

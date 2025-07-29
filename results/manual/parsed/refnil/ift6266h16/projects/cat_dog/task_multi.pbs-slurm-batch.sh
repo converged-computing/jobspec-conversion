@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-avocado-0486
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/refnil/ift6266h16/projects/cat_dog/task_multi.pbs

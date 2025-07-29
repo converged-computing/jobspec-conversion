@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=full_section_deep
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=full_section_deep
+#FLUX --queue=standard
+#FLUX -t=259200
+#FLUX --urgency=16
 
 smk_dir="/path/to/NovaScope"                                            # [REPLACE] Path to the NovaScope pipeline repo.
 job_dir="$smk_dir/testrun/full_section_deep"                            # Path to your Job directory, which should have a config_job.yaml file and will be used to save the log files.

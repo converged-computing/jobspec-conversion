@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chip-8529
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-kerfuffle-0736
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/3.8.10
 module load mpi4py

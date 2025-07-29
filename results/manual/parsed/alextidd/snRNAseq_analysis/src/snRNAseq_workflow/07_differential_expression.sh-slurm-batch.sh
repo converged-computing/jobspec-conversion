@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-punk-7638
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alextidd/snRNAseq_analysis/src/snRNAseq_workflow/07_differential_expression.sh

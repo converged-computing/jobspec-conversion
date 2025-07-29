@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_model
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_model
+#SBATCH --output=stdout.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=40960M
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 cd /scratch/user/kevin83427/TRN-pytorch
 module load Anaconda/3-5.0.0.1

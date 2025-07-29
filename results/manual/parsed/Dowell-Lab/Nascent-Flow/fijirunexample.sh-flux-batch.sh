@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=nextflow
+#FLUX --queue=long
+#FLUX -t=345600
+#FLUX --urgency=16
 
 mkdir -p /scratch/Users/allenma/nexttemp4/
 mkdir -p /scratch/Shares/dowell/down/temp/Nascentflow6/

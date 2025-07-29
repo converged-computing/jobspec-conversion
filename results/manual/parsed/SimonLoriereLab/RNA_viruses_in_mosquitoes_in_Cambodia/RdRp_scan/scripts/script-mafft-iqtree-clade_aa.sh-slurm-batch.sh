@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-onion-6462
-#FLUX: -c=47
-#FLUX: --queue=geva
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=47
+#SBATCH --mem=250000
+#SBATCH --partition=geva
 
 module load fasta ruby
 module load mafft/7.467

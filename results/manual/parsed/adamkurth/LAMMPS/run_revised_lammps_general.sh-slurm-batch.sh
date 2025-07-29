@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-2340
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 ng test cases of lammps on agave. 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"               

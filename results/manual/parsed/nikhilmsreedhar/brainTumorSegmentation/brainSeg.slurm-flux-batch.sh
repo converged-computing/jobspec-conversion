@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tumor_seg
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=tumor_seg
+#FLUX -c=8
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export job_name='tumor_seg'
 export log_dir='/home/cap5516.student10/job_logs/$job_name-$SLURM_JOB_ID'

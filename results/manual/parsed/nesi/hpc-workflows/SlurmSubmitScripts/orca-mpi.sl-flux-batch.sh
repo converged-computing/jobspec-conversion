@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ORCA
-#FLUX: -N=4
-#FLUX: --queue=nonsusp
-#FLUX: -t=199800
-#FLUX: --urgency=16
+#FLUX --job-name=ORCA
+#FLUX -N=4
+#FLUX --queue=nonsusp
+#FLUX -t=199800
+#FLUX --urgency=16
 
 export P4_RSHCOMMAND='ssh'
 export OMP_NUM_THREADS='1'

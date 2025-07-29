@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ipra-gcc
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ipra-gcc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --time=02:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=intel
 
 module load singularity
 echo $SLURM_PROCID-$SLURM_JOBID

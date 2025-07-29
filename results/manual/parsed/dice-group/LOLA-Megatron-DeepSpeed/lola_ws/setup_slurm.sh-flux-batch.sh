@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Deepspeed Megatron: dependencies installation
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Deepspeed Megatron: dependencies installation
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$VENVPATH/venv-lola/lib/python3.10/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH'
 

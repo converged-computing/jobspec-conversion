@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DTEG
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=DTEG
+#FLUX -n=8
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load nextflow
 module load singularity

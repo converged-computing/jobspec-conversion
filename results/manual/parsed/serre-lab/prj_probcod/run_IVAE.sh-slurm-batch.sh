@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=SVI_seeds
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=SVI_seeds
+#SBATCH --account=carney-tserre-condo
+#SBATCH --output=logs/%x_%A_%a_%J.out
+#SBATCH --error=logs/%x_%A_%a_%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=12
 
 module load anaconda/3-5.2.0
 source activate py36

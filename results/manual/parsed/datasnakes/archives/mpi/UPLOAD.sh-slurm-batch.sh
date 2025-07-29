@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-eagle-4359
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/datasnakes/archives/mpi/UPLOAD.sh

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_pegasus
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=train_pegasus
+#SBATCH --account=um_dke
+#SBATCH --output=pegasus_log/pegasus_embeddings_%A.log
+#SBATCH --mail-user=my_email@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:pascal:1
+#SBATCH --mem=8000
+#SBATCH --time=12:00:00
 
 export PATH='$HOME/.local/bin:$PATH'
 

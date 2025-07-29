@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=UCR_PEMS-SF
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=UCR_PEMS-SF
+#SBATCH --output=auto_script/output_log/UCR_PEMS-SF.out
+#SBATCH --error=auto_script/output_log/UCR_PEMS-SF.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
 
 module purge
 module load pytorch-gpu/py3/1.7.0

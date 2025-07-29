@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=retrain_gptj
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=retrain_gptj
+#SBATCH --output=retrain_gptj_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=364GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-15
 
 module purge
 module load cuda/11.6.2    

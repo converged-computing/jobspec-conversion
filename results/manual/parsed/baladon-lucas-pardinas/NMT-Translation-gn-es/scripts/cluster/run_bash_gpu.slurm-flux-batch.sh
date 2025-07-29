@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=MARIAN
-#FLUX: -n=4
-#FLUX: -c=9
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=MARIAN
+#FLUX -n=4
+#FLUX -c=9
+#FLUX --queue=normal
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='${HOME}/cache'
 export TMPDIR='$SINGULARITY_TMPDIR'

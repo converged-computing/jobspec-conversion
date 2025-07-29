@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pastry-2982
-#FLUX: --queue=multigpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-eagle-9503
+#FLUX --queue=multigpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Start JOB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 mkdir -p /home/bruno/results/2Bv2/wifi/equalized/resnet1d/

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=accel_dist
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=accel_dist
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=32G
+#SBATCH --time=00:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='info'
 export PYTHONFAULTHANDLER='1'

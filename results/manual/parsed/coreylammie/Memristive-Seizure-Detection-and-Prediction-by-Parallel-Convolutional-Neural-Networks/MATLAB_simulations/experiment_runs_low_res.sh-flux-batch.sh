@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=JCU-CL-MATLAB_experiment_runs_low_res
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=JCU-CL-MATLAB_experiment_runs_low_res
+#FLUX -c=32
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load matlab/R2019b
 module load cuda/11.3.0

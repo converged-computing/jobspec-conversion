@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=10
-#FLUX: --queue=student
-#FLUX: --urgency=16
+#FLUX --job-name=jupyter
+#FLUX -c=10
+#FLUX --queue=student
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

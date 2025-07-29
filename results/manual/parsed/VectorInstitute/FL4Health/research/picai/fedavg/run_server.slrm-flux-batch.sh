@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nunchucks-8962
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-fudge-6246
+#FLUX -c=8
+#FLUX --urgency=16
 
 export NCCL_IB_DISABLE='1'
 

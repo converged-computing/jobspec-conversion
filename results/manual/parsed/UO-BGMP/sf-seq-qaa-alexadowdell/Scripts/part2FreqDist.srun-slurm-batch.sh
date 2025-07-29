@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=AD_freq2
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=AD_freq2
+#SBATCH --output=AD_freq2.out
+#SBATCH --error=AD_freq2.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=28
 
 ml easybuild GCC/6.3.0-2.27 OpenMPI/2.0.2 Python/3.6.1
 pip list installed | grep numpy

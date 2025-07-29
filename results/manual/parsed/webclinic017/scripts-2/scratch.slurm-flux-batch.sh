@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DDAtest
-#FLUX: -c=32
-#FLUX: --queue=bigmem
-#FLUX: -t=590400
-#FLUX: --urgency=16
+#FLUX --job-name=DDAtest
+#FLUX -c=32
+#FLUX --queue=bigmem
+#FLUX -t=590400
+#FLUX --urgency=16
 
 WORKDIR=$PWD
 cd ${WORKDIR}

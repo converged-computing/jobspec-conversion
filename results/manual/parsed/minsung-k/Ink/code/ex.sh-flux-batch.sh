@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_w3_half
-#FLUX: -c=3
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=train_w3_half
+#FLUX -c=3
+#FLUX -t=720000
+#FLUX --urgency=16
 
 pwd; hostname; date
 module purge

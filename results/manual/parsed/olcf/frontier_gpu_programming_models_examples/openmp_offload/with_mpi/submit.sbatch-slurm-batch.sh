@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lamp-6927
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#SBATCH --account=stf007uanofn
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:35:00
+#SBATCH --partition=batch
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-kerfuffle-5498
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=grated-lemon-4991
+#FLUX -c=24
+#FLUX --queue=amdgpuextralong
+#FLUX -t=864000
+#FLUX --urgency=16
 
 cd ../..
 ml torchsparse/1.4.0-foss-2021a-CUDA-11.3.1

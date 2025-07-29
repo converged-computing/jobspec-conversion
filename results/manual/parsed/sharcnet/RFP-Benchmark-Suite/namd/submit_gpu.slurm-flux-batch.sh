@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-kerfuffle-4391
-#FLUX: -c=12
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-train-1657
+#FLUX -c=12
+#FLUX -t=3000
+#FLUX --urgency=16
 
 module load StdEnv/2023
 module load cuda/12.2

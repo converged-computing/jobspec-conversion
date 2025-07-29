@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pedo-3988
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-animal-5114
+#FLUX -t=36000
+#FLUX --urgency=16
 
 name=`echo $1`
 user=`echo $2`

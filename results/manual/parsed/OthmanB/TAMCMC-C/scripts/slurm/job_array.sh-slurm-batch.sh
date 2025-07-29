@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-5720
-#FLUX: -c=10
-#FLUX: --queue=serial
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=1-23:59:59
+#SBATCH --partition=serial
+#SBATCH --constraint=avx2
+#SBATCH --array=1-44
 
 export EIGEN3_INCLUDE_DIR='/home/ob19/Programs/eigen-3.4.0'
 export CXX='g++'

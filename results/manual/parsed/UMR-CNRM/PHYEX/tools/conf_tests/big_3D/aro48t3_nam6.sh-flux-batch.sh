@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-4839
-#FLUX: -N=40
-#FLUX: -n=1280
-#FLUX: -c=4
+#FLUX --job-name=muffled-kitty-2623
+#FLUX -N=40
+#FLUX -n=1280
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --queue=normal256
+#FLUX -t=2400
+#FLUX --urgency=16
 
 export JOB_NAME='arome_e700'
 export JOB_ID='$SLURM_JOB_ID'

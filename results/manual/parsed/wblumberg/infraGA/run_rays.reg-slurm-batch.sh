@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rays
-#FLUX: -n=28
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rays
+#SBATCH --account=s2094
+#SBATCH --output=/discover/nobackup/wgblumbe/infraGA/rays.out
+#SBATCH --error=/discover/nobackup/wgblumbe/infraGA/rays.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=allnccs
+#SBATCH --constraint=hasw
 
 source ./common.reg || exit 1
 cd /discover/nobackup/wgblumbe/infraGA

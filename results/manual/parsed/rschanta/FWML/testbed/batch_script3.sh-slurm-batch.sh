@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NewTitle
-#FLUX: --queue=thsu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=NewTitle
+#SBATCH --output=mylog.out
+#SBATCH --error=myfail.out
+#SBATCH --mail-user=rschanta@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=thsu
 
 . /opt/shared/slurm/templates/libexec/openmpi.sh
 . /work/thsu/rschanta/RTS/functions/utility/bash-utils.sh

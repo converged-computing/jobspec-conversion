@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-squidward-1394
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=./logs/originalTst.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
 
 export PYTHONUNBUFFERED='TRUE'
 

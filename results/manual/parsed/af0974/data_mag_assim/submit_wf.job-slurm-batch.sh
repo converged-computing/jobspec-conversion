@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wf_datamagassim
-#FLUX: -n=32
-#FLUX: --exclusive
-#FLUX: --queue=ncpum
-#FLUX: --urgency=16
+#SBATCH --job-name=wf_datamagassim
+#SBATCH --output=wf_%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=ncpum
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=07_FST_by_group
-#FLUX: -c=6
-#FLUX: --queue=large
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#FLUX --job-name=07_FST_by_group
+#FLUX -c=6
+#FLUX --queue=large
+#FLUX -t=1814400
+#FLUX --urgency=16
 
 NB_CPU=6 #change accordingly in SLURM header
 NSITES=500000 #to make realSFS goes faster -reduce the number of sites considered

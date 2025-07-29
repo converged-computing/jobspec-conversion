@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LJ5-NS
-#FLUX: -c=10
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=LJ5-NS
+#FLUX -c=10
+#FLUX -t=252000
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

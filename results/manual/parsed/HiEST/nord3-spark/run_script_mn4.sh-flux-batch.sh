@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spark01_single
-#FLUX: -N=3
+#FLUX --job-name=spark01_single
+#FLUX -N=3
 #FLUX: --exclusive
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load intel/2018.1 singularity/3.5.2
 IMAGE=dcc-spark02.simg

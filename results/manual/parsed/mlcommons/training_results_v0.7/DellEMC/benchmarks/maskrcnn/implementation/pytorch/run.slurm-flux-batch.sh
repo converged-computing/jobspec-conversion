@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=object_detection
-#FLUX: -n=4
+#FLUX --job-name=object_detection
+#FLUX -n=4
 #FLUX: --exclusive
-#FLUX: --queue=dedicateq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=dedicateq
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -euxo pipefail
 : "${SYSTEM:?SYSTEM not set}"

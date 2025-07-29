@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=AVS-evaluate
-#FLUX: --queue=qcpu_exp
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=AVS-evaluate
+#SBATCH --account=DD-23-135
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:25:00
+#SBATCH --partition=qcpu_exp
 
 cd $SLURM_SUBMIT_DIR
 ml intel-compilers/2022.1.0 CMake/3.23.1-GCCcore-11.3.0 # pouze na Barbore

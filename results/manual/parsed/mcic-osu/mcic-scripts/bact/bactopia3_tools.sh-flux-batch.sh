@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bactopia3_tools
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=bactopia3_tools
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 DESCRIPTION="Run Bactopia v3 tools for follow-up analyses to the main Bactopia workflow"
 SCRIPT_VERSION="2023-12-16"

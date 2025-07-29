@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pbn_train_voc07
-#FLUX: --exclusive
-#FLUX: --queue=nvidia_long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pbn_train_voc07
+#SBATCH --output=/scratch/lerdl/lucas.david/logs/voc07/eb6-randaug/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nvidia_long
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "[train.voc07.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

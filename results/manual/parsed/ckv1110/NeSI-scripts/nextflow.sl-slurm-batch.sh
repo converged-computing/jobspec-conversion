@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nf-T71
-#FLUX: --queue=hgx
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=nf-T71
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=280GB
+#SBATCH --time=00:40:00
+#SBATCH --partition=hgx
 
 export SINGULARITY_CACHEDIR='/nesi/nobackup/uoa03709/containers/apptainer_cache'
 export SINGULARITY_TMPDIR='/nesi/nobackup/uoa03709/containers/apptainer_tmpdir'

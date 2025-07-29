@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=panda
+#SBATCH --array=1-500
 
 echo "$SLURM_ARRAY_TASK_ID"
 source ~/.bashrc

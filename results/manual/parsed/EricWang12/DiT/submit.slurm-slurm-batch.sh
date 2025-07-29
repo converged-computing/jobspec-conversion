@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=train_dit.out
+#SBATCH --error=error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

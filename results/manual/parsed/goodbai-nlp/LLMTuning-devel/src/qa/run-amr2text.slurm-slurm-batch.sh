@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=xfbai-QA
-#FLUX: --queue=q_intel_share
-#FLUX: --urgency=16
+#SBATCH --job-name=xfbai-QA
+#SBATCH --output=logs/run-job%j.out
+#SBATCH --error=logs/run-job%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=q_intel_share
+#SBATCH --constraint=ntasks-per-node=96
+#SBATCH --nodelist=wxhd09
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

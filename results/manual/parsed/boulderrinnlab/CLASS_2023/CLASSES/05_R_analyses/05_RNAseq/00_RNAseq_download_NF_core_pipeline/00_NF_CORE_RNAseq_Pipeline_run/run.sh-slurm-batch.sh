@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=2023_HEPG2_rna_seq
-#FLUX: --queue=long
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=2023_HEPG2_rna_seq
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --mail-user=john.rinn@colorado.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=long
 
 pwd; hostname; date
 echo "Here we go You've requested $SLURM_CPUS_ON_NODE core."

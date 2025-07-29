@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=./logs/%j.train.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}'
 

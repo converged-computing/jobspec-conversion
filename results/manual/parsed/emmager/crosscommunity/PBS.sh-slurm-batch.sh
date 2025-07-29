@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Fst
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=Fst
+#SBATCH --output=FstChr.%a.out
+#SBATCH --error=FstChr.%a.err
+#SBATCH --mail-user=emmarg@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --time=08:00:00
+#SBATCH --array=1
 
 CHROM=${SLURM_ARRAY_TASK_ID}
 grep -E "ASW|YRI" 1000G_Phase3_sample_map > ASW_YRI_sample_map

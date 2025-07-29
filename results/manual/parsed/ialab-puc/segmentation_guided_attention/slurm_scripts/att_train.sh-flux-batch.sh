@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=attention-rcnn
-#FLUX: -c=4
-#FLUX: --queue=ialab-high
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=attention-rcnn
+#FLUX -c=4
+#FLUX --queue=ialab-high
+#FLUX -t=604800
+#FLUX --urgency=16
 
 pyenv/bin/python3 train.py  --model attentionrcnn \
 --max_epochs 10 \

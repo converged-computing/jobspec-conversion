@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SR
-#FLUX: -c=60
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=SR
+#SBATCH --output=slurm-SR-%j.out
+#SBATCH --error=slurm-SR-%j.err
+#SBATCH --mail-user=carole.belliardo@inrae.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=60
+#SBATCH --mem=464G
+#SBATCH --partition=all
 
 module load singularity/3.5.3
 module load nextflow/21.04.1

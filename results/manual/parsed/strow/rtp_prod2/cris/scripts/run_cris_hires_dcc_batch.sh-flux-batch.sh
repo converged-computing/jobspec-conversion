@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_CREATE_CRIS_HR_DCC_RTP
-#FLUX: --queue=high_mem
-#FLUX: -t=10740
-#FLUX: --urgency=16
+#FLUX --job-name=RUN_CREATE_CRIS_HR_DCC_RTP
+#FLUX --queue=high_mem
+#FLUX -t=10740
+#FLUX --urgency=16
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

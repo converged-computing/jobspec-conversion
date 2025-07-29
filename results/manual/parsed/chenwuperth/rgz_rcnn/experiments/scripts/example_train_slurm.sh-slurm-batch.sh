@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rgz_train
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=rgz_train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128g
+#SBATCH --time=05:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH:/home/wu082/software/lib/python2.7/site-packages'
 

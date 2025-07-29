@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cfal-futhark
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cfal-futhark
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:nvidia_a30:1
+#SBATCH --mem=64G
+#SBATCH --time=00:30:00
+#SBATCH --partition=csmpi_fpga_long
 
 export PATH='/vol/itt/data/cfal/team-futhark/bin/:$PATH'
 

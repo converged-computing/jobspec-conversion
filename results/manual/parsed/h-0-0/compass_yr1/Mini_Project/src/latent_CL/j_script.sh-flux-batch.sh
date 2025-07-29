@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chip-7744
-#FLUX: --queue=test
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-milkshake-1782
+#FLUX --queue=test
+#FLUX -t=300
+#FLUX --urgency=16
 
 export EXE='/bin/hostname'
 

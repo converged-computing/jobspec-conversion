@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=image_classification
+#FLUX -N=4
+#FLUX -n=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module list
 module purge

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=KFInSAR
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: -t=460800
-#FLUX: --urgency=16
+#SBATCH --job-name=KFInSAR
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=0
+#SBATCH --time=5-08:00:00
+#SBATCH --constraint=ntasks-per-node=15
 
 export OMP_NUM_THREADS='8'
 

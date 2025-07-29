@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-motorcycle-0616
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-fork-1445
+#FLUX -n=4
+#FLUX --urgency=16
 
 module purge
 module load singularity

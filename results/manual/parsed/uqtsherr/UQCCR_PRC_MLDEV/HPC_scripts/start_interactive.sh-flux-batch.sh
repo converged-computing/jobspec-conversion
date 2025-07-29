@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tim_run_tf2_script
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=tim_run_tf2_script
+#FLUX -N=3
+#FLUX -n=3
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load gnu7
 module load cuda/11.1.1

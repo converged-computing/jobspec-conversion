@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-fork-3425
-#FLUX: -c=2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-nalgas-4360
+#FLUX -c=2
+#FLUX -t=28800
+#FLUX --urgency=16
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 dt=$(date '+%d/%m/%Y %H:%M:%S')

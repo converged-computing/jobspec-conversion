@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=polygrpfc
-#FLUX: -N=4
-#FLUX: --queue=MX
-#FLUX: --urgency=16
+#SBATCH --job-name=polygrpfc
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=MX
+#SBATCH --constraint=ntasks-per-node=48
 
 export DISPLAY=''
 

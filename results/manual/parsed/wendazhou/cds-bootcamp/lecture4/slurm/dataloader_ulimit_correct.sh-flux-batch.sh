@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-motorcycle-1009
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-underoos-4688
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 IMAGE=${IMAGE:-/scratch/wz2247/singularity/images/pytorch_21.06-py3.sif}
 ulimit -Sn $(ulimit -Hn)

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rsfc
-#FLUX: -c=30
-#FLUX: --queue=bluemoon
-#FLUX: -t=106200
-#FLUX: --urgency=16
+#SBATCH --job-name=rsfc
+#SBATCH --output=log/%x/group/insula/%x-COC100_%A-%a.out
+#SBATCH --error=log/%x/group/insula/%x-COC100_%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=1gb
+#SBATCH --time=1-05:30:00
+#SBATCH --partition=bluemoon
 
 pwd; hostname; date
 set -e

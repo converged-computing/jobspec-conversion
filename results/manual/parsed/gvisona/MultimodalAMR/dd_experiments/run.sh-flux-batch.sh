@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peas-8869
-#FLUX: --queue=urtgen_24hrs
-#FLUX: --urgency=16
+#FLUX --job-name=grated-latke-1492
+#FLUX --queue=urtgen_24hrs
+#FLUX --urgency=16
 
 dir=/massstorage/URT/GEN/BIO3/PRIV/Team/Diane/RESEARCH/Hackathon/October/DRIAMSB
 longTable=/home/gallia/scratch/u230399/DRIAMS_combined_long_table.csv

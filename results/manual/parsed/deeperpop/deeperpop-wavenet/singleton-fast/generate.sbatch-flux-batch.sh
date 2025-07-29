@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf-wavenet-singleton-fast-generate
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tf-wavenet-singleton-fast-generate
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='..:$LD_LIBRARY_PATH'
 

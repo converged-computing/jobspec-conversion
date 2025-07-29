@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=graphcast
-#FLUX: -c=30
-#FLUX: --queue=compute
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=graphcast
+#SBATCH --output=gc_37pl_output.txt
+#SBATCH --error=gc_37pl_error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --time=04:00:00
+#SBATCH --partition=compute
 
 module use /contrib/spack-stack/envs/ufswm/install/modulefiles/Core/
 module load stack-intel

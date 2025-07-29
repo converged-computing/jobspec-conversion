@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-soup-4772
-#FLUX: -c=2
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=11:59:00
+#SBATCH --array=0-10%2
 
 export DATA_DIR='$SLURM_TMPDIR/data'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lizard-5694
-#FLUX: --queue=primary
-#FLUX: --urgency=16
+#SBATCH --output=output-%j.dat
+#SBATCH --error=error-%j.dat
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:{{
+#SBATCH --partition=primary
+#SBATCH --constraint=v100,intel
 
 {% extends "slurm.sh" %}
 {% block header %}

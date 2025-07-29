@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gatk_EP_mergebackvcfs
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=gatk_EP_mergebackvcfs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=4-04:00:00
 
 module purge
 module load gatk/4.2.0.0

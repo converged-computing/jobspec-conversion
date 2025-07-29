@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RGZ_test
-#FLUX: --queue=gpuq
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=RGZ_test
+#SBATCH --account=pawsey0245
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpuq
 
 export LD_LIBRARY_PATH='/group/pawsey0245/kvinsen/tensorflow/third_party/mkl:/group/pawsey0245/software/cuda/lib64:$LD_LIBRARY_PATH'
 

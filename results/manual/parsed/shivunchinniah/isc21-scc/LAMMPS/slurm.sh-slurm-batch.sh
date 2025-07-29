@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS_provisional
-#FLUX: -N=2
-#FLUX: --queue=k40
-#FLUX: --urgency=16
+#SBATCH --job-name=LAMMPS_provisional
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=k40
 
 ml purge
 ml intel

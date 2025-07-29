@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=new_exp
-#FLUX: -n=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=new_exp
+#FLUX -n=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 PATH_ANGEL="/om/user/nprasad/angel-pfizer"
 cd ..

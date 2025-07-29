@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=c4-small
-#FLUX: -N=32
-#FLUX: -c=6
-#FLUX: --queue=standard-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=c4-small
+#FLUX -N=32
+#FLUX -c=6
+#FLUX --queue=standard-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OLMO_CONTAINER='llm-lumi_latest.sif'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

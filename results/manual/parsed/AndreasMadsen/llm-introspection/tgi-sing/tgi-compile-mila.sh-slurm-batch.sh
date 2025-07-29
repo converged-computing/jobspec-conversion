@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=2
-#FLUX: --queue=unkillable-cpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-compile
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16G
+#SBATCH --time=10:00:00
+#SBATCH --partition=unkillable-cpu
 
 set -e
 set -v

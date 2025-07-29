@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=passt
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=passt
+#FLUX --queue=compute
+#FLUX -t=43200
+#FLUX --urgency=16
 
 pwd; hostname;
 TIME=$(date -Iseconds)

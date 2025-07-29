@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=MAGs_SRR7877884
-#FLUX: -c=62
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=MAGs_SRR7877884
+#SBATCH --account=m3408
+#SBATCH --output=/global/project/projectdirs/m3408/aim2/metagenome/MAGs/SRR7877884.log
+#SBATCH --mail-user=lo.chienchi@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=62
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='8'
 export OMP_PLACES='threads'

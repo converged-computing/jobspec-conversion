@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=1_150
-#FLUX: -n=64
+#FLUX --job-name=1_150
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=engineering_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=engineering_q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 pwd;hostname;date
 echo "running amrMPI (FABRIC) on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS tasks, each with $SLURM_CPUS_PER_TASK cores."

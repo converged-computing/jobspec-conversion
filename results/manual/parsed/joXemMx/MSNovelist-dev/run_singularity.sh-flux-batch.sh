@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pot-1682
-#FLUX: -n=4
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-lemur-4458
+#FLUX -n=4
+#FLUX -t=86399
+#FLUX --urgency=16
 
 source .env
 CMD=${1:-train}

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=10per
-#FLUX: -c=30
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=10per
+#SBATCH --account=def-fciari
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=1500M
+#SBATCH --time=10:00:00
 
 export LD_LIBRARY_PATH='$EBROOTGEOS/lib # Add the path to GEOS libraries'
 export SPATIALINDEX_C_LIBRARY='/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/gcc7.3/libspatialindex/1.8.5/lib/libspatialindex_c.so.4'

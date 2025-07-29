@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fmriprep
+#SBATCH --account=xxxxxxxxxxxxxx
+#SBATCH --output=%x-%A-%a_%j.out
+#SBATCH --error=%x-%A-%a_%j.err
+#SBATCH --mail-user=xxxx@xxxx.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-37
 
 export SINGULARITYENV_FS_LICENSE='$FMRIPREP_HOME/.freesurfer/license.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

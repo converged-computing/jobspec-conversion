@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-5920
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=python_job_slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500M
+#SBATCH --time=00:10:00
+#SBATCH --constraint=skylake
 
 module load Intel IntelMPI Python numpy
 python vectorization.py

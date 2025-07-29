@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=performance_estimation_texture
-#FLUX: -c=16
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=performance_estimation_texture
+#FLUX -c=16
+#FLUX -t=180000
+#FLUX --urgency=16
 
 all_subjects=(azulejos bike boats gnarled graffiti grooming highway ivy leaves lettuce llama nyc palm portrait quad rocks terraces tiles treetop troop)
 module load matlab/2020b

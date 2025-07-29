@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=contig_extraction
-#FLUX: --queue=common
-#FLUX: --urgency=16
+#FLUX --job-name=contig_extraction
+#FLUX --queue=common
+#FLUX --urgency=16
 
 sample_list="/full_path_to/wd/redundancy_removal/metadata/sample_list1.tsv"
 _extract_rename_joberrors="/full_path_to/wd/redundancy_removal/extract_rename_joberrors"

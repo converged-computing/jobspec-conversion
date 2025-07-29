@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=jac_mod
-#FLUX: -c=20
-#FLUX: --queue=akya-cuda
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=jac_mod
+#FLUX -c=20
+#FLUX --queue=akya-cuda
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${CPU_THREADS}'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fork-1135
-#FLUX: --queue=batch
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=salted-rabbit-0711
+#FLUX --queue=batch
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load java/18.0.2.1
 module load nextflow/22.10.5

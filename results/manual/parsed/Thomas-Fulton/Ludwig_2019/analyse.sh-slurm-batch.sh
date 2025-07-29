@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-chip-2558
-#FLUX: -c=8
-#FLUX: --queue=defq
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=clsclmr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=defq
+#SBATCH --chdir=/nobackup/proj/clsclmr/Ludwig_2019
 
 export PATH='`pwd`/software/bin/:$PATH'
 export LANG='C.UTF-8 ; '

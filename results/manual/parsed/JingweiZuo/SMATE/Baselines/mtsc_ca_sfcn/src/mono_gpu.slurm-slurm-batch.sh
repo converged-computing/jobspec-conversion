@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Duck
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Duck
+#SBATCH --output=./logs/DuckDuckGeese.out
+#SBATCH --error=./logs/err_Duck.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
 
 export PYTHONPATH='$PYTHONPATH:/gpfsdswork/projects/rech/pch/ulz67kb/SMATE_MTS/Baselines/mtsc_nmsu_ijcai2020/src'
 

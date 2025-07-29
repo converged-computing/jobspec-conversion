@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nf
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nf
+#SBATCH --account=mcintyre
+#SBATCH --output=/blue/mcintyre/share/maize_ainsworth/scripts/rnaseq/SLURM_LOGS/nf_%j.log
+#SBATCH --mail-user=adalena.nanni@ufl.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1gb
+#SBATCH --time=12:00:00
 
 export _JAVA_OPTIONS='-Djava.io.tmpdir=/blue/mcintyre/share/maize_ainsworth/ROZ_NF_mo17_cau'
 

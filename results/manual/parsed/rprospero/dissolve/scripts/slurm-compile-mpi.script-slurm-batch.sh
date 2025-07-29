@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=compile-mpi
-#FLUX: --queue=scarf
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=compile-mpi
+#SBATCH --output=compile-mpi-%j.log
+#SBATCH --error=compile-mpi-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=scarf
+#SBATCH --constraint=scarf18
 
 set -e
 BASE_DIR=$(pwd)

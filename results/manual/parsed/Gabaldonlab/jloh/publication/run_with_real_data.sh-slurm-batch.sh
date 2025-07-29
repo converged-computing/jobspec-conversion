@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fudge-6010
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
 
 WD="/gpfs/projects/bsc40/current/mschiavi/jloh"
 cd ${WD}/scripts/wf-real_data

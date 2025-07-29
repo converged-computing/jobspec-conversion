@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-4239
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/mftest_8stoc20GWuc8760adp.sh

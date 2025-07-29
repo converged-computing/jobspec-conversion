@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arrayscript
-#FLUX: --queue=icb_cpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=arrayscript
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=icb_cpu
 
 BASEDIR=$1
 TOTALTASKS=$2

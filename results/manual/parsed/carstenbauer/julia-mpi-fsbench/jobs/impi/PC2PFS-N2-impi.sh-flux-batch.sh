@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-squidward-7630
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: -c=2
+#FLUX --job-name=boopy-squidward-5951
+#FLUX -N=2
+#FLUX -n=128
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=cont
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

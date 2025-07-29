@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nalgas-3529
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2003752
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-caramel-1454
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-knife-1893
+#FLUX -c=18
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/ara_racer.1.log \

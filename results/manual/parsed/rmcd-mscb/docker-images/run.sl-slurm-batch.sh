@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-frito-0859
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=wbeep
+#SBATCH --output=run.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 set -a
 . ./nhm.env

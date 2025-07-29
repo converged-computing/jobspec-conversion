@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hippo-5927
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --account=sgg
+#SBATCH --mail-user=t.schoeler@ucl.ac.uk
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=15000
 
 export LC_ALL='C'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK '

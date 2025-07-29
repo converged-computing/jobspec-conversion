@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-leopard-4410
-#FLUX: -N=3
-#FLUX: -c=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-dog-1212
+#FLUX -N=3
+#FLUX -c=4
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export PYTHONHASHSEED='0'
 export OMPI_MCA_btl='tcp,self,sm'

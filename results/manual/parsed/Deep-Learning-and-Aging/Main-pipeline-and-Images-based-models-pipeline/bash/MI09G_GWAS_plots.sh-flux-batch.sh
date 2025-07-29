@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-carrot-6251
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#FLUX --job-name=confused-train-9127
+#FLUX --queue=priority
+#FLUX --urgency=16
 
 set -e
 module load gcc/6.2.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=game_of_life
-#FLUX: -n=128
-#FLUX: --queue=thin_course
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=game_of_life
+#FLUX -n=128
+#FLUX --queue=thin_course
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load 2023

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=CUDA_Run_base_1
-#FLUX: -c=24
+#FLUX --job-name=CUDA_Run_base_1
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'

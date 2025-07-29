@@ -1,8 +1,20 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=gpu.q
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=logs/output.train.%j
+#SBATCH --error=logs/error.train.%j
+#SBATCH --mail-user=s6abtyag@uni-bonn.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu.q
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=./
+#SBATCH --array=13-30
+#SBATCH --dependency=1585071
 
 module load anaconda/3/2021.11
 source activate /u/atya/conda-envs/tf-gpu4

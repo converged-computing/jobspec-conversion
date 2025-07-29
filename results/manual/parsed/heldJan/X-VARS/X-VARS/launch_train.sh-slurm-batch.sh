@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pastry-9319
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14700
-#FLUX: --urgency=16
+#SBATCH --account=telim
+#SBATCH --output=test2_mv.txt
+#SBATCH --mail-user=jan.held@student.uliege.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=2
+#SBATCH --time=04:05:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 source /gpfs/home/acad/ulg-intelsig/jheld/anaconda3/etc/profile.d/conda.sh
 conda activate vars-ex

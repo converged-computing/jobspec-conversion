@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ptest
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ptest
+#SBATCH --output=logs/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-12
 
 set -o pipefail -e
 source $PWD/conf/astronet.conf

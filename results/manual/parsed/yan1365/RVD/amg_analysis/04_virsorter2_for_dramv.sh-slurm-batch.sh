@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=virsorter2_%j
-#FLUX: -n=48
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=virsorter2_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=virsorter2_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
 
 START=$SECONDS
 part=${1}

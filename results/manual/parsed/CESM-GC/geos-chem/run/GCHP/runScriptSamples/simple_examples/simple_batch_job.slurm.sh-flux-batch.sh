@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-blackbean-8205
-#FLUX: -N=2
-#FLUX: -n=60
-#FLUX: --queue=huce_intel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-buttface-6733
+#FLUX -N=2
+#FLUX -n=60
+#FLUX --queue=huce_intel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module purge
 module load intel/19.0.5-fasrc01

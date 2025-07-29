@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gene_pile
-#FLUX: -n=12
-#FLUX: --queue=highmem
-#FLUX: --urgency=16
+#SBATCH --job-name=gene_pile
+#SBATCH --output=/data/ssmith/logs/mpileup_creation_%A_%a.out
+#SBATCH --error=/data/ssmith/logs/mpileup_creation_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=highmem
 
 source /home/ssmith/.bashrc
 source activate wgs_env

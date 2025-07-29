@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=panel_in_wind
-#FLUX: -N=16
-#FLUX: -n=1024
-#FLUX: --queue=workq
-#FLUX: -t=68400
-#FLUX: --urgency=16
+#SBATCH --job-name=panel_in_wind
+#SBATCH --account=hpc_ceds3d
+#SBATCH --output=o.out
+#SBATCH --error=e.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1024
+#SBATCH --cpus-per-task=1
+#SBATCH --time=19:00:00
+#SBATCH --partition=workq
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

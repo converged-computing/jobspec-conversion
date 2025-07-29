@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BDSTP_crocs_CRBDP_hyperpriors
-#FLUX: -n=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=BDSTP_crocs_CRBDP_hyperpriors
+#SBATCH --output=BDSTP_crocs_CRBDP_hyperpriors.log
+#SBATCH --error=BDSTP_crocs_CRBDP_hyperpriors.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=12:00:00
+#SBATCH --qos=low_prio_res
 
 module load R
 for ds in "Wilberg" "Stubbs";

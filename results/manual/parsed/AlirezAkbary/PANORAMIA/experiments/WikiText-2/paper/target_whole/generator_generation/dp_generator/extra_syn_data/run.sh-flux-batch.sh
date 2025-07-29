@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cat-2936
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-cattywampus-4375
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load StdEnv/2023 arrow/15.0.1 rust/1.76.0 python scipy-stack
 source ../../test-priv/test-priv-env/bin/activate

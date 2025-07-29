@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-onion-8963
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lettuce-3834
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 set -o errexit
 set -o nounset

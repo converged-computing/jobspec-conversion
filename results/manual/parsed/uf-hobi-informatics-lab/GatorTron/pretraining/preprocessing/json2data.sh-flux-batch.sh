@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=json2data
-#FLUX: -c=40
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=json2data
+#FLUX -c=40
+#FLUX --gpus-per-task=1
+#FLUX --queue=hpg-ai
+#FLUX -t=43200
+#FLUX --urgency=16
 
 pwd; hostname; date
 echo "Pipeline task on processing json to data bin"

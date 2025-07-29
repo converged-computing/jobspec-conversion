@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test-cpu
-#FLUX: -c=2
-#FLUX: --queue=rng-short
-#FLUX: -t=1200
-#FLUX: --urgency=15
+#FLUX --job-name=test-cpu
+#FLUX -c=2
+#FLUX --queue=rng-short
+#FLUX -t=1200
+#FLUX --urgency=15
 
 if 0; then
     echo $NWORKERS

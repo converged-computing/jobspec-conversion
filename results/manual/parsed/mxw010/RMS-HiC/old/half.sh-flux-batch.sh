@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-blackbean-1462
-#FLUX: -c=10
-#FLUX: --queue=himem
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-car-7340
+#FLUX -c=10
+#FLUX --queue=himem
+#FLUX --urgency=16
 
 datadir=$1
 outdir=$2

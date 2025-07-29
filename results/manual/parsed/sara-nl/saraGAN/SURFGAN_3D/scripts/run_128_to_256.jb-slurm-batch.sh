@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fudge-7352
-#FLUX: -N=2
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=2,haswell
 
 export OMP_NUM_THREADS='11'
 export KMP_SETTINGS='True'

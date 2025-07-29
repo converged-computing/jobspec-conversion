@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=job
+#SBATCH --output=./out/%j-0.out
+#SBATCH --error=./err/%j-0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --array=0-21%5
 
 module load python/3.7.4 cuda/11.7.1 gcc/10.2
 source predicting-venv/bin/activate

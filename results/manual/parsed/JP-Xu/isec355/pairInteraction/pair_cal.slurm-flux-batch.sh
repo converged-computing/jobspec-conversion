@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=7DODS0
-#FLUX: --queue=hung
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=7DODS0
+#FLUX --queue=hung
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load openmpi/4.0.5-skylake-gcc10.1
 module load gcc/10.1.0

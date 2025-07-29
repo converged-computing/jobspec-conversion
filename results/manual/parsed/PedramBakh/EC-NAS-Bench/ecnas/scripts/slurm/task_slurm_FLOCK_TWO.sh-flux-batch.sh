@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ec_two
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=ec_two
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

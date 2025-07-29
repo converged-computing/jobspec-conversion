@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=uncertainty
-#FLUX: -c=4
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=uncertainty
+#SBATCH --output=/mnt/work/dhuseljic/logs/uncertainty/%A_%x_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-3%3
 
 date;hostname;pwd
 source activate dal-toolbox

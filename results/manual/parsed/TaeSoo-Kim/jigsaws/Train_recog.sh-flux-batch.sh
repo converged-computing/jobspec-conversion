@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SU_LOUO8
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SU_LOUO8
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module restore mymodules
 module load tensorflow/cuda-8.0/r1.0

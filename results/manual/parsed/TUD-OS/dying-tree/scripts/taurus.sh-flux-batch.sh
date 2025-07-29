@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-fork-4098
-#FLUX: -N=18
+#FLUX --job-name=frigid-egg-2042
+#FLUX -N=18
 #FLUX: --exclusive
-#FLUX: --queue=haswell64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --queue=haswell64
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MODULEPATH='~s9951545/.modules:$MODULEPATH'
 export CORRT_GOSSIP_SEEDS='$RANDOM'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-eagle-1460
-#FLUX: --queue=GPU-shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=GPU-shared
+#SBATCH --constraint=ntasks-per-node=2
 
 set -x  # echo commands to stdout
 set -u  # throw an error if unset variable referenced

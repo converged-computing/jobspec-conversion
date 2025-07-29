@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-sundae-7368
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-leopard-4325
+#FLUX --urgency=16
 
 export QT_QPA_PLATFORM='offscreen'
 

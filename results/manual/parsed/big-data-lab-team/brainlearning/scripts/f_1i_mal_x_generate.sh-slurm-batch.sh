@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-fork-2511
-#FLUX: -c=6
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --output=%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --mem=127518M
+#SBATCH --time=00:00:30
 
 model=f_1i_mal_x
 module load cuda cudnn python/3.6.3

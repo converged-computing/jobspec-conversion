@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leopard-9278
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)

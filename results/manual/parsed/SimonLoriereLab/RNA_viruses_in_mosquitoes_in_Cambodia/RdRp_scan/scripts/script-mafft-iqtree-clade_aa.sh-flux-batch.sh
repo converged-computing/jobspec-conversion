@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-0290
-#FLUX: -c=47
-#FLUX: --queue=geva
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-knife-7386
+#FLUX -c=47
+#FLUX --queue=geva
+#FLUX --urgency=16
 
 module load fasta ruby
 module load mafft/7.467

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nextflow_amr
-#FLUX: -n=2
-#FLUX: --queue=core
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=nextflow_amr
+#SBATCH --account=naiss2023-5-97
+#SBATCH --output=/proj/fume/nobackup/private/jay/Freshwater_AMR/scripts/amr_finding/logs/nf_amr_pipeline_230512.log
+#SBATCH --error=/proj/fume/nobackup/private/jay/Freshwater_AMR/scripts/amr_finding/logs/nf_amr_pipeline.err
+#SBATCH --mail-user=jay.hakansson.4449@student.uu.se
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=core
 
 export CONDA_ENVS_PATH='/proj/fume/nobackup/private/jay/Freshwater_AMR/conda_envs'
 

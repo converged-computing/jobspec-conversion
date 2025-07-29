@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=STAR
-#FLUX: -n=3
-#FLUX: --queue=core
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=STAR
+#FLUX -n=3
+#FLUX --queue=core
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load bioinfo-tools 
 module load star/2.7.9a

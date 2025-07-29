@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mRNA_countA
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=mRNA_countA
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 basePath=$1
 REFERENCE_DIR=$2

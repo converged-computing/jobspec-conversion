@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bbbblast
-#FLUX: --queue=ccm_queue
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bbbblast
+#SBATCH --output=jobscript-sbatch.out
+#SBATCH --error=jobscript-sbatch.err
+#SBATCH --mail-user=glock@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=ccm_queue
+#SBATCH --constraint=ntasks-per-node=24
 
 NO_BONNIE=1
 NO_STAGE=1

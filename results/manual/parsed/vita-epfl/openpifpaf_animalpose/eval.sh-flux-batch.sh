@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-staircase-6191
-#FLUX: -c=20
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=placid-blackbean-4556
+#FLUX -c=20
+#FLUX -t=21600
+#FLUX --urgency=16
 
 pattern=$1
 shift

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cupcake-0599
-#FLUX: --queue=bdwall
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-itch-2738
+#FLUX --queue=bdwall
+#FLUX -t=900
+#FLUX --urgency=16
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

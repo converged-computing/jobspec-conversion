@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pedo-5395
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=sim_false_positive.out-%j-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --array=1-17
 
 source /etc/profile
 module load anaconda3-5.0.1

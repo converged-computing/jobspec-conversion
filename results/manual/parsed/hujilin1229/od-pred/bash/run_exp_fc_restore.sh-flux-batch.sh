@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peanut-butter-2444
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-ricecake-3254
+#FLUX -c=6
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python fcgrnn_train.py --test_every_n_epochs 10 --sample_rate 15 --data_format 'speed' --seq_len 6 \
  --horizon 3 --num_gpus 2 --fill_mean=False --sparse_removal=False --learning_rate 0.001 --lr_decay 0.8 --lr_decay_epoch 5 \

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pot-5799
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Swift-BAT/NITRATES/nitrates/submission_scripts/pyscript_template_array.pbs

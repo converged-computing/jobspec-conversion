@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DRRN_GTL_%a
-#FLUX: -c=20
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=DRRN_GTL_%a
+#FLUX -c=20
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load python/3.8.2

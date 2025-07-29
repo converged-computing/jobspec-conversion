@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-4674
-#FLUX: -n=12
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --output=cluster.o.%j
+#SBATCH --mail-user=elbueler@alaska.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=debug
 
 cd $SLURM_SUBMIT_DIR
 ulimit -s unlimited

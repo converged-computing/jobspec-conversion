@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-snack-1880
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-chair-0310
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load 2020

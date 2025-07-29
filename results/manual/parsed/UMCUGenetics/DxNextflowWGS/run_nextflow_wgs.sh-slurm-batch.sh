@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow_WGS
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Nextflow_WGS
+#SBATCH --account=diaggen
+#SBATCH --output=log/slurm_nextflow_wgs.%j.out
+#SBATCH --error=log/slurm_nextflow_wgs.%j.err
+#SBATCH --mail-user=$email
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=tmpspace:10G
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
 
 export NXF_JAVA_HOME='$workflow_path/tools/java/jdk'
 

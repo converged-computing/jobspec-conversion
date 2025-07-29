@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-bm-hsw
-#FLUX: --queue=regular
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch-bm-hsw
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='32'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

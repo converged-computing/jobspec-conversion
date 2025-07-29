@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NNmd
-#FLUX: --queue=npl
-#FLUX: --urgency=16
+#FLUX --job-name=NNmd
+#FLUX --queue=npl
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 

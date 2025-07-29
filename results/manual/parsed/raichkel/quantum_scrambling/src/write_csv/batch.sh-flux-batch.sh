@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=write_csv
-#FLUX: --queue=QuamNESS
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=write_csv
+#FLUX --queue=QuamNESS
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load lang/julia/1.8.5

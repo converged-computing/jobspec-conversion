@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=histo-smearing
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=histo-smearing
+#SBATCH --output=slurm_histo_smearing.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load jupyter-kernels/py2.7

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-7215
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hsp/run_script_template.sh

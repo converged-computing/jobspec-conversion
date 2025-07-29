@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=madonna-test
-#FLUX: --queue=sdil
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=madonna-test
+#SBATCH --output=/pfs/work7/workspace/scratch/CHANGE/ME-madonna/CHANGE/ME-madonna/madonna/logs/slurm/slurm-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=04:00:00
+#SBATCH --partition=sdil
+#SBATCH --constraint=ntasks-per-node=2
 
 export TOMOUNT='${TOMOUNT}'
 export UCX_MEMTYPE_CACHE='0'

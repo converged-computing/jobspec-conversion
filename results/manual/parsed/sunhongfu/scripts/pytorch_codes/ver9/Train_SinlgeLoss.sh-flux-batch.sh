@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=yang_2L30EPO_pytorch
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=yang_2L30EPO_pytorch
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

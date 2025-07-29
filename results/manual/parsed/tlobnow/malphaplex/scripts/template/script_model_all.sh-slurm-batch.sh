@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1_AF2C
-#FLUX: -c=72
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=1_AF2C
+#SBATCH --mail-user=$USER@mpiib-berlin.mpg.de
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=500000
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=gpu
 
 export LD_LIBRARY_PATH='${ALPHAFOLD_HOME}/lib:${LD_LIBRARY_PATH}'
 export TMPDIR='${JOB_SHMTMPDIR}'

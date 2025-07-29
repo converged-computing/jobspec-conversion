@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cattywampus-4721
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=1TB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

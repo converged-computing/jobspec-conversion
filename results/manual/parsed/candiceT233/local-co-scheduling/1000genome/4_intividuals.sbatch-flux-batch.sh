@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=4genome_250000_mem6G
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=4genome_250000_mem6G
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module purge
 module load python/miniconda3.7 gcc/9.1.0 git/2.31.1 cmake/3.21.4 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-muffin-7171
-#FLUX: -N=3
-#FLUX: --queue=RM
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --account=phy210030p
+#SBATCH --output=/ocean/projects/phy210030p/akshay2/Slurm_logs/RM_accelsearch_slurm_%j.log
+#SBATCH --mail-user=akshay2
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=128
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

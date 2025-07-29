@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Cylon Scaling
-#FLUX: -N=4
-#FLUX: --queue=main
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Cylon Scaling
+#FLUX -N=4
+#FLUX --queue=main
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='$DIR/bin:$PATH LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH PYTHONPATH=$DIR/lib/python3.9/site-packages'
 

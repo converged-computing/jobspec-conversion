@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-parrot-5489
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-avocado-7633
+#FLUX -c=24
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CXX='scorep --nomemory $READEX_CXX'
 

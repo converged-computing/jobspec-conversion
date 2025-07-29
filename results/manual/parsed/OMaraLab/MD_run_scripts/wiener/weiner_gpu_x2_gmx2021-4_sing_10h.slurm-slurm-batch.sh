@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-salad-4841
-#FLUX: -c=28
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --gres=gpu:tesla:2
+#SBATCH --mem=64GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 export SINGULARITY_TMPDIR='/scratch/aibn/uqadaqu1/tmp/ '
 

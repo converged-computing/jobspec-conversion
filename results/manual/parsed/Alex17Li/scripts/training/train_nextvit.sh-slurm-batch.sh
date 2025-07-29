@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=r2_train_nextvit
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#SBATCH --job-name=r2_train_nextvit
+#SBATCH --output=/mnt/sandbox1/%u/logs/%A_%x
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=6-06:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --exclude=stc01sppamxnl004
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

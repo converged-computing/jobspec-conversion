@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=iter_reg
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=iter_reg
+#SBATCH --output=log/iter_reg_cnn.out-%A_%a
+#SBATCH --error=log/iter_reg_cnn.out-%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --array=1-10%3
 
 eval $(spack env activate --sh tensorflow-gpu)
 if [ -z ${SLURM_ARRAY_TASK_ID} ] ; then

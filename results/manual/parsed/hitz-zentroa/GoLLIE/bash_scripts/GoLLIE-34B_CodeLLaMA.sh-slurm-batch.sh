@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GoLLIE-34B_CodeLLaMA
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=GoLLIE-34B_CodeLLaMA
+#SBATCH --output=.slurm/GoLLIE-34B_CodeLLaMA.out.txt
+#SBATCH --error=.slurm/GoLLIE-34B_CodeLLaMA.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=128G
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

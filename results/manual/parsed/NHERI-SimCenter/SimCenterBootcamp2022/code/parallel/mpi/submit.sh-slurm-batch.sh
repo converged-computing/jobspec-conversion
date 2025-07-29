@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -n=8
-#FLUX: --queue=development
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --job-name=myjob
+#SBATCH --output=myjob.%j.out
+#SBATCH --error=myjob.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:00:10
+#SBATCH --partition=development
 
 module petsc    # load any needed modules, these just examples
 moduele load list

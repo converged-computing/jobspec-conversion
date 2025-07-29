@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-banana-4408
-#FLUX: -c=6
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-mango-8604
+#FLUX -c=6
+#FLUX -t=108000
+#FLUX --urgency=16
 
 module purge; module load baskerville
 module load bask-apps/live

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moses-e2e
-#FLUX: -t=64860
-#FLUX: --urgency=16
+#SBATCH --job-name=moses-e2e
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=18:01:00
+#SBATCH --chdir=/home/staff/haukurpj/SMT
 
 set -ex
 FIRST_STEP=4

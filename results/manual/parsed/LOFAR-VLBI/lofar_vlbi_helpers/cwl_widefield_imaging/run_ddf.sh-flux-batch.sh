@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-diablo-7640
-#FLUX: -c=31
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=phat-lamp-4646
+#FLUX -c=31
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 TARGET_FOLDER=$(realpath $1)
 OUTPUT=$PWD/ddf

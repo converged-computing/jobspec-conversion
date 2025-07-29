@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VQSR
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=VQSR
+#SBATCH --output=VQSR.out
+#SBATCH --error=VQSR.err
+#SBATCH --mail-user=emmarg@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
 
 module load conda
 module load GATK/4.3.0.0

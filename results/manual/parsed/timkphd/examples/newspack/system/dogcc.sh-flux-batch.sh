@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buildgcc
+#FLUX --job-name=buildgcc
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export WORKDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220525b/level00'

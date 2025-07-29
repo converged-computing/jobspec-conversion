@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pancake-0205
-#FLUX: --queue=parallel
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=parallel
+#SBATCH --chdir=/home/etolley/LiSA/
+#SBATCH --array=0-3024%32
 
 export PYTHONPATH='$PWD" '
 

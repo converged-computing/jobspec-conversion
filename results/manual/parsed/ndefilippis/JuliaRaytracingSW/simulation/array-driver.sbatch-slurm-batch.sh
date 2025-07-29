@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=2Lsim
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=2Lsim
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-1
 
 export NUM_JULIA_THREADS='`nproc`'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eiafcst
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eiafcst
+#FLUX -n=8
+#FLUX --queue=shared
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load cuda/9.2.148

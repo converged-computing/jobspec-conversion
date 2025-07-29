@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=salmon
-#FLUX: -c=36
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=salmon
+#SBATCH --output=logs/salmon_%j.log
+#SBATCH --mail-user=cbecker@whoi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=150gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=compute
+#SBATCH --qos=unlim
 
 cd /vortexfs1/home/cbecker/FLK2019NextSeq/output/salmonquant/
 for file in *_1.fastq.gz

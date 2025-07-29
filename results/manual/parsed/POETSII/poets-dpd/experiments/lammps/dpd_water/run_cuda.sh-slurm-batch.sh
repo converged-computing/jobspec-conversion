@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-salad-0777
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 module load lammps/2018/cuda
 echo

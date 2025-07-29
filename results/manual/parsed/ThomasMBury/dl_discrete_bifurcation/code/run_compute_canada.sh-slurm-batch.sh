@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=reproducible_run
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=reproducible_run
+#SBATCH --account=def-glass
+#SBATCH --output=stdout/job-%j.out
+#SBATCH --mail-user=thomas.bury@mcgill.ca
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=08:00:00
 
 echo Job $SLURM_JOB_ID released
 echo Load modules

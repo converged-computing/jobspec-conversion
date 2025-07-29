@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=installtorch
-#FLUX: --queue=brown
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=installtorch
+#SBATCH --account=researchers
+#SBATCH --output=../outfiles/%x.%j.out
+#SBATCH --error=../outfiles/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --time=03:00:00
+#SBATCH --partition=brown
 
 hostname
 source activate torchenv

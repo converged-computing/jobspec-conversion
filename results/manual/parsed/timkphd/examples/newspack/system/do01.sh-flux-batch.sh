@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid
+#FLUX --job-name=hybrid
 #FLUX: --exclusive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export WORKDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220525b/level01'

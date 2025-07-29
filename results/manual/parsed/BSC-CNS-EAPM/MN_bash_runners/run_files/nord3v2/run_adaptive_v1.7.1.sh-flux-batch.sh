@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PELE
-#FLUX: -n=5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PELE
+#FLUX -n=5
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda

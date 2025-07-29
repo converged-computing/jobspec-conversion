@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=HiSat2
-#FLUX: -c=120
-#FLUX: --queue=priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=HiSat2
+#SBATCH --account=priority-jenniferlachowiec
+#SBATCH --output=example-%j.out
+#SBATCH --error=example-%j.err
+#SBATCH --mail-user=brodysturgis@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=120
+#SBATCH --mem=100G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=priority
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-3
 
 source ~/.bashrc
 module load Anaconda3/2022.05

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=comp_hiclip
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=comp_hiclip
+#SBATCH --output=comp_hiclip-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 export NXF_WORK='/camp/lab/luscomben/scratch/chakraa2/projects/comp_hiclip'
 

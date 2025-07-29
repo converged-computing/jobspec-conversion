@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-sundae-4174
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:59:00
 
 set -e
 ml Java

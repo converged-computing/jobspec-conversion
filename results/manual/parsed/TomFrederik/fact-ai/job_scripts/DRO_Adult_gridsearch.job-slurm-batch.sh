@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DRO_adult_gridsearch
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#SBATCH --job-name=DRO_adult_gridsearch
+#SBATCH --output=outputs/DRO_Adult_gridsearch_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:0
+#SBATCH --mem=32000M
+#SBATCH --time=10:30:00
+#SBATCH --partition=gpu_shared_course
 
 module purge
 module load 2019

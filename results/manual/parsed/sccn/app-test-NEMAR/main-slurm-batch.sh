@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mytestjob
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=mytestjob
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load singularitypro
 mount_dir="/mnt"

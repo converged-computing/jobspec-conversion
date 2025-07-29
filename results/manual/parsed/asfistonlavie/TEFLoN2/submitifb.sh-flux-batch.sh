@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=TEFLoN2_Snakemake
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=TEFLoN2_Snakemake
+#FLUX --queue=long
+#FLUX --urgency=16
 
 		#!/bin/bash
 	###Charge module

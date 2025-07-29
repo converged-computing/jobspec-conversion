@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nfcore
-#FLUX: -n=10
-#FLUX: --queue=lbarreiro
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=nfcore
+#FLUX -n=10
+#FLUX --queue=lbarreiro
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='$PATH:/project/lbarreiro/USERS/ellen/programs/FastQC/'
 

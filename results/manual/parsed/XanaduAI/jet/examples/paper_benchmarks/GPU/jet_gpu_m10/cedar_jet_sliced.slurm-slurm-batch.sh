@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=faux-egg-9997
-#FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=125G
+#SBATCH --time=00:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export num_runs='10'
 export max_slices='8'

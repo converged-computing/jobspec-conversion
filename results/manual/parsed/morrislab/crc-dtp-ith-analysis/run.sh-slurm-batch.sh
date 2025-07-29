@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cinnamonbun-6551
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euo pipefail
 PYTHON=$HOME/.apps/miniconda3/bin/python3

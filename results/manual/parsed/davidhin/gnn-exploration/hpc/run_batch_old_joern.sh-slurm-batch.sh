@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=batch_joern
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=batch_joern
+#SBATCH --output=hpc/logs/batch_joern_%a.out
+#SBATCH --error=hpc/logs/batch_joern_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --array=1-200
 
 module load Singularity
 module load CUDA/10.2.89

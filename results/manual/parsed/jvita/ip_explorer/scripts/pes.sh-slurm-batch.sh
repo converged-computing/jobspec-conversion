@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vo_pes_MOLECULE
-#FLUX: --queue=pbatch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=vo_pes_MOLECULE
+#SBATCH --account=c02red
+#SBATCH --output=/usr/workspace/vita1/logs/lsf/%J.out
+#SBATCH --error=/usr/workspace/vita1/logs/lsf/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=pbatch
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

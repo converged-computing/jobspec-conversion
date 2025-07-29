@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-squidward-4907
-#FLUX: -c=272
-#FLUX: --queue=knmb3
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=272
+#SBATCH --time=02:00:00
+#SBATCH --partition=knmb3
 
 export I_MPI_MIC='1'
 export INTEL_LICENSE_FILE='/swtools/intel/licenses/'

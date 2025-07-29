@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:oc20
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:oc20
+#SBATCH --account=mlperf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MODEL_NAME='oc20'
 export MODEL_FRAMEWORK='pytorch'

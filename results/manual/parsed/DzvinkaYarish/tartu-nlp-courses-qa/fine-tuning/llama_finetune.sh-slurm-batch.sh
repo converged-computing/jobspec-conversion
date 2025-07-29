@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-blackbean-4133
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100-40g
+#SBATCH --mem=32G
+#SBATCH --time=2-18:40:00
+#SBATCH --partition=gpu
 
 module load cuda/11.7.0
 module load any/python/3.8.3-conda

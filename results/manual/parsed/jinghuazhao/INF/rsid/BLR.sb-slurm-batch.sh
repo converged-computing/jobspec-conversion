@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=_BLR
-#FLUX: --queue=cardio
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=_BLR
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/user/jhz22/hpc-work/work/_BLR_%A_%a.out
+#SBATCH --error=/rds/user/jhz22/hpc-work/work/_BLR_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128800
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
+#SBATCH --array=1-91
 
 export protein___uniprot='$(cut -d ' ' -f1-28 --complement ${INF}/h2/s.sample | head -1 | tr ' ' '\n' | grep -v BDNF | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'
 

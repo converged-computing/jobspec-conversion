@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ecmtoolmmsyn
-#FLUX: -n=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ecmtoolmmsyn
+#SBATCH --output=./ecmtoolmmsyn20.out
+#SBATCH --error=./ecmtoolmmsyn20.err
+#SBATCH --mail-user=daan.degroot@unibas.ch
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=00:30:00
+#SBATCH --qos=30min
 
 export LD_LIBRARY_PATH='/scicore/home/nimwegen/degroo0000/ecmtool/lrslib-071a:$LD_LIBRARY_PATH'
 export PATH='/scicore/home/nimwegen/degroo0000/ecmtool/lrslib-071a:$PATH'

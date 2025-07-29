@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=relative_X
-#FLUX: -c=2
-#FLUX: --queue=mf_nes2.8,mf_ilg2.3
-#FLUX: -t=381600
-#FLUX: --urgency=16
+#SBATCH --job-name=relative_X
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1400mb
+#SBATCH --time=4-10:00:00
+#SBATCH --partition=mf_nes2.8,mf_ilg2.3
 
 export GMX_MAXBACKUP='-1" #Disable backups'
 export GMXRC='/modfac/apps/gromacs-4.6.7_gcc-generic/bin/GMXRC'

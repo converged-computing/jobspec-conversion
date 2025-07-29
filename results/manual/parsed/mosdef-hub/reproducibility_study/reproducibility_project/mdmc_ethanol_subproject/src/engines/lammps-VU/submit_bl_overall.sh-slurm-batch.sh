@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bl_analysis
-#FLUX: -t=719999
-#FLUX: --urgency=16
+#SBATCH --job-name=bl_analysis
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12g
+#SBATCH --time=8-07:59:59
 
 module purge
 module load anaconda

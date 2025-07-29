@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nalgas-7635
-#FLUX: -N=49
-#FLUX: -n=196
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-train-9722
+#FLUX -N=49
+#FLUX -n=196
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Voting
-#FLUX: -c=4
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#FLUX --job-name=Voting
+#FLUX -c=4
+#FLUX -t=7800
+#FLUX --urgency=16
 
 module load anaconda3/2021.11
 conda activate backup_venv

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-6089
-#FLUX: -c=2
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lemur-2747
+#FLUX -c=2
+#FLUX -t=480
+#FLUX --urgency=16
 
 model='34'      # width of intermediate layer 
 epochs="200"    # epochs 

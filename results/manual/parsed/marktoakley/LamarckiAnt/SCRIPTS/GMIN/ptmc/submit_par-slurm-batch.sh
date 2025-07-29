@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-7286
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/marktoakley/LamarckiAnt/SCRIPTS/GMIN/ptmc/submit_par

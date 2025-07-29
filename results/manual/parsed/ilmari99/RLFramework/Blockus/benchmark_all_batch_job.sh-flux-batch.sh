@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blokus_benchmark
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=blokus_benchmark
+#FLUX -c=128
+#FLUX --queue=medium
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load tensorflow/2.15

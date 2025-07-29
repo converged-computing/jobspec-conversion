@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pastry-1410
-#FLUX: -n=24
+#FLUX --job-name=salted-muffin-1526
+#FLUX -n=24
 #FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda/6.5.14
 echo "Begin 5 5 0 origin - Tantalum 7"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=benchopt_run_sgd_torch
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=benchopt_run_sgd_torch
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --error=%x_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=06:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONUSERBASE='$WORK/.local_torch'
 export PATH='$WORK/.local_torch/bin:$PATH'

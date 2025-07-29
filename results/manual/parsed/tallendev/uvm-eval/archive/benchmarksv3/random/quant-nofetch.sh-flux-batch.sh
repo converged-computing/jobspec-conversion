@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rand-quant-nofetch
+#FLUX --job-name=rand-quant-nofetch
 #FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='cores'

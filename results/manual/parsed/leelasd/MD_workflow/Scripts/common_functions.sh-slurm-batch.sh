@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-rabbit-8704
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 read_master_config_file() {
 fpath=$1

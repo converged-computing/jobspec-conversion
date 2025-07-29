@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poo-7477
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-lamp-9616
+#FLUX -c=6
+#FLUX --queue=batch
+#FLUX -t=604800
+#FLUX --urgency=16
 
 set -o nounset
 set -o errexit

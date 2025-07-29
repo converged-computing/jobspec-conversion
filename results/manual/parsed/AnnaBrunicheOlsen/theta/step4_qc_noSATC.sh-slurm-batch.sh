@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=S4_genus-species
-#FLUX: -n=64
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=S4_genus-species
+#SBATCH --account=standby
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=04:00:00
 
 export PATH='$PATH:~/genmap-build/bin'
 

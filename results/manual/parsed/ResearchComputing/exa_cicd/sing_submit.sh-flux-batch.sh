@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-car-7366
+#FLUX --job-name=nerdy-lemur-8380
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MFIX='/app/mfix/build/mfix/mfix'
 export WD='/scratch/summit/holtat/sing'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Threads
-#FLUX: -c=14
+#FLUX --job-name=Threads
+#FLUX -c=14
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load foss

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: -n=6
-#FLUX: --queue=desktop
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch
+#SBATCH --account=vf68
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:P4:1
+#SBATCH --mem-per-cpu=55G
+#SBATCH --partition=desktop
+#SBATCH --qos=desktopq
 
 export EPOCHS='5'
 

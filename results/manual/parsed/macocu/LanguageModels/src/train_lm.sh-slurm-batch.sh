@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-mango-8909
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --mail-user=rikvannoord@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=50G
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
 
 set -eu -o pipefail
 config_sh=$1 # Config sh file with experimental settings

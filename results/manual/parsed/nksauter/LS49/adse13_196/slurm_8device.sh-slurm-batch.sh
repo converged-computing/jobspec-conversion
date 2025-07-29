@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu_job
-#FLUX: -c=80
-#FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_gpu_job
+#SBATCH --account=m1759
+#SBATCH --output=slurm%j.out
+#SBATCH --error=slurm%j.err
+#SBATCH --mail-user=nksauter@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --time=01:10:00
+#SBATCH --partition=special
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export USE_EXASCALE_API='True # "True" or "False" use granular host/device memory transfer'
 export LOG_BY_RANK='1 # Use Aaron's rank logger'

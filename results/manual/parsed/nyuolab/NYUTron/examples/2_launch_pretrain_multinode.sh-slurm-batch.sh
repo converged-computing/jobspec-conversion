@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=pretraining
-#FLUX: -N=3
-#FLUX: -c=40
-#FLUX: --queue=oermannlab
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=pretraining
+#SBATCH --output=outs/multinode_%j.out
+#SBATCH --mail-user=lyj2002@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:a100:8
+#SBATCH --mem=800G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=oermannlab
+#SBATCH --qos=qos_free
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=a100-8001,a100-8002,a100-8003
 
 export HOME='/gpfs/home/jiangy09/'
 

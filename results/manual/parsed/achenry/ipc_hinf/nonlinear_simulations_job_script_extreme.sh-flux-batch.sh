@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nonlin_sim
-#FLUX: -n=64
-#FLUX: --queue=amilan
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=nonlin_sim
+#FLUX -n=64
+#FLUX --queue=amilan
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export CC='gcc'
 export CXX='g++'

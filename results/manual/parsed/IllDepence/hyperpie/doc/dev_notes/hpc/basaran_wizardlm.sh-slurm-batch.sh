@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=basaran_wizardlm
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=basaran_wizardlm
+#SBATCH --output=basaran_wizardlm_%j.log
+#SBATCH --mail-user=first.last@kit.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=10:00:00
 
 module load devel/python/3.8.6_intel_19.1
 module load devel/cuda/11.6

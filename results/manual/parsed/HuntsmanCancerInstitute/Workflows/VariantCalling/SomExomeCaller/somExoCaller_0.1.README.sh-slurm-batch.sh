@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pastry-9991
-#FLUX: --queue=hci-rw
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=hci-rw
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hci-rw
 
 udocker=/uufs/chpc.utah.edu/common/HIPAA/u0028003/BioApps/UDocker/udocker-1.1.1/udocker
 mount=/scratch/mammoth/serial/u0028003/

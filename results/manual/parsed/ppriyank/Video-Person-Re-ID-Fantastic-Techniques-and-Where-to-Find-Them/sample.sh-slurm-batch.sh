@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pp1953
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=pp1953
+#SBATCH --output=output/slurm_%j.out
+#SBATCH --mail-user=pp1953p@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=100000
+#SBATCH --time=12:00:00
 
 . ~/.bashrc
 module load anaconda3/5.3.1

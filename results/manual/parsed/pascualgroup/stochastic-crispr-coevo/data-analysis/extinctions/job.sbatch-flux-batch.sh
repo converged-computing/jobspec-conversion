@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crispr-test
-#FLUX: --queue=broadwl
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=crispr-test
+#FLUX --queue=broadwl
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load julia

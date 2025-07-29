@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-mango-2551
-#FLUX: -n=8
-#FLUX: -c=6
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-gato-8056
+#FLUX -n=8
+#FLUX -c=6
+#FLUX --queue=batch
+#FLUX -t=43200
+#FLUX --urgency=16
 
 PERSISTENT_LOGGING_DIR=../results/$SLURM_JOB_NAME/logs
 PERSISTENT_CHECKPOINTS_DIR=$PERSISTENT_LOGGING_DIR/checkpoints

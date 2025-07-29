@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=svhn-vit-distributed
-#FLUX: --queue=gpu_v100s
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=svhn-vit-distributed
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=102400
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu_v100s
+#SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export MASTER_ADDR='localhost'

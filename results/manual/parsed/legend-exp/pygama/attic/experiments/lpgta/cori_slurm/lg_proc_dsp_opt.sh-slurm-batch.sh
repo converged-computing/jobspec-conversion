@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-kitty-6154
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=m2676
+#SBATCH --output=/global/u1/l/lgprod/pygama/experiments/lpgta/cori_slurm/logs/cori-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --qos=shared
+#SBATCH --constraint=haswell
+#SBATCH --chdir=/global/u1/l/lgprod/pygama/experiments/lpgta
 
+singularity
+exec
+docker:legendexp/legend-base:latest
 cd /global/u1/l/lgprod/pygama/experiments/lpgta
 date
 scontrol show job $SLURM_JOB_ID

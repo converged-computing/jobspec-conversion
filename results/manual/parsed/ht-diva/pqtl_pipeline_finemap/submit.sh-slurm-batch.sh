@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=locojo
-#FLUX: --queue=cpuq
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=locojo
+#SBATCH --output=%j_locus_meta.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=cpuq
 
 source ~/.bashrc
 module -s load singularity/3.8.5

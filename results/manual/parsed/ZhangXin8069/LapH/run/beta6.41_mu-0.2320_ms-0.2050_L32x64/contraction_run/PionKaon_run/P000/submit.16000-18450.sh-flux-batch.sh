@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=m_0_16000-18450
-#FLUX: --queue=gpu-debug
-#FLUX: --urgency=16
+#FLUX --job-name=m_0_16000-18450
+#FLUX --queue=gpu-debug
+#FLUX --urgency=16
 
 run_dir=.
 input_dir=${run_dir}

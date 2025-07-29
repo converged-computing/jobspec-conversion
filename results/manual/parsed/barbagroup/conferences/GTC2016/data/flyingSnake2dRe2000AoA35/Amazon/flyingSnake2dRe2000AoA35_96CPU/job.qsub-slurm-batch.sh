@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PetAmgX-flyingSnake2dRe2000AoA35-atol1e-5-Amazon-96CPU
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --job-name=PetAmgX-flyingSnake2dRe2000AoA35-atol1e-5-Amazon-96CPU
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=12
 
 export PETIBM_DIR='/shared/petibm-amgx'
 

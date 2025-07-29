@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PRE-VOCAB
-#FLUX: --queue=eap
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=PRE-VOCAB
+#FLUX --queue=eap
+#FLUX -t=3600
+#FLUX --urgency=16
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goal_pipeline
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=goal_pipeline
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 help_and_exit() {
   local retval=${1:-1}

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=Profiler
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Profiler
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/profile.out
+#SBATCH --error=/home/b.weinstein/logs/profile.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=6
+#SBATCH --mem=20GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepForest/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepForest/lib/python3.7/site-packages/'

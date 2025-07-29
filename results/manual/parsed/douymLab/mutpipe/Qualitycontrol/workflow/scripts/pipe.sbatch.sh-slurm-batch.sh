@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=QC
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=QC
+#SBATCH --output=logs/QC/QC_%x_%J_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000M
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 import socket
 set +u

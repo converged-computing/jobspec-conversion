@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dfc6452
-#FLUX: -c=4
-#FLUX: --queue=amd-hdr100
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=dfc6452
+#SBATCH --output=dfc6452_job.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4069
+#SBATCH --time=16:00:00
+#SBATCH --partition=amd-hdr100
 
 set -e
 source /home/ashovon/newaumri/matfiles/venv/bin/activate

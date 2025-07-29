@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=iqtree
-#FLUX: -c=5
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=iqtree
+#FLUX -c=5
+#FLUX -t=360000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date

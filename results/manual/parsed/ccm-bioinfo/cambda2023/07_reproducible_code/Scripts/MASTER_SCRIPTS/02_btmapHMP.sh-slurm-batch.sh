@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bt-$site
-#FLUX: -n=12
-#FLUX: --queue=shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=bt-$site
+#SBATCH --output=odyssey_bt-$site-%a.out
+#SBATCH --error=odyssey_bt-$site-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=18G
+#SBATCH --time=06:00:00
+#SBATCH --partition=shared
+#SBATCH --array=0-$hiBatch%$numBatches
 
 prefix=$1
 sites=(BAL MIN SAN NYC SAC DEN)

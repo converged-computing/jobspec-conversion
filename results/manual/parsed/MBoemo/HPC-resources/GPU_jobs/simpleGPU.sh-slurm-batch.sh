@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gpuJob
-#FLUX: -c=3
-#FLUX: --queue=ampere
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpuJob
+#SBATCH --account=<PI_SURNAME>-SL3-GPU
+#SBATCH --output=/home/<CRSid>/rds/hpc-work/2021_10_15_gpuJob.stdout
+#SBATCH --error=/home/<CRSid>/rds/hpc-work/2021_10_15_gpuJob.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=ampere
 
 module purge
 module load rhel7/default-gpu

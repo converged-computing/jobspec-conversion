@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-1021
-#FLUX: -n=4
-#FLUX: --queue=copyq
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --output=/group/askap/ban115/craft/archive-logfiles/archivesb-%A_%a.out
+#SBATCH --mail-user=keith.bannister@csiro.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=copyq
+#SBATCH --constraint=ntasks-per-node=4
 
 export CRAFT='/home/ban115/craft/craft/'
 export OMP_NUM_THREADS='24'

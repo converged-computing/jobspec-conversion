@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-malarkey-3945
-#FLUX: -c=12
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-onion-9222
+#FLUX -c=12
+#FLUX --queue=devel
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=an-pinn-test-relo
-#FLUX: --queue=plgrid-gpu-v100
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=an-pinn-test-relo
+#SBATCH --account=plghailcanoon-gpu
+#SBATCH --output=slurm/output4.out
+#SBATCH --error=slurm/error4.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=30G
+#SBATCH --time=05:00:00
+#SBATCH --partition=plgrid-gpu-v100
 
 module load cuda
 cd $SLURM_SUBMIT_DIR

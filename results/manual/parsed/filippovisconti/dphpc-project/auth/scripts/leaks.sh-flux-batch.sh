@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blake3valgrind
-#FLUX: -n=32
-#FLUX: --urgency=16
+#FLUX --job-name=blake3valgrind
+#FLUX -n=32
+#FLUX --urgency=16
 
 set -e
 module load gcc/11.4.0 papi/7.0.1

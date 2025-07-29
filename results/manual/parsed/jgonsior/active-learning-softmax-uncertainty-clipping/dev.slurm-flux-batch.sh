@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chair-3680
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=363599
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-spoon-9712
+#FLUX -c=8
+#FLUX --queue=alpha
+#FLUX -t=363599
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export HF_MODULE_CACHE='./hf-cache'

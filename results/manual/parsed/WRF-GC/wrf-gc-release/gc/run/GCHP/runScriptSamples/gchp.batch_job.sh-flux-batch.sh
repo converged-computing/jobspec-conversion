@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lamp-7632
-#FLUX: -N=2
-#FLUX: -n=60
-#FLUX: --queue=seas_compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-general-2609
+#FLUX -N=2
+#FLUX -n=60
+#FLUX --queue=seas_compute
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 set -x

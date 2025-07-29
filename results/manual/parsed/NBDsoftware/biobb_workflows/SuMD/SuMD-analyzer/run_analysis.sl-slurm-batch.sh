@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SuMD_analysis
-#FLUX: -n=5
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=SuMD_analysis
+#SBATCH --output=report_%j.out
+#SBATCH --error=report_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2000
+#SBATCH --time=00:40:00
 
 export PYTHONPATH='/home/pnavarro/.conda/envs/sumd_analyzer/lib/python3.10/site-packages/'
 export PATH='/home/pnavarro/.conda/envs/sumd_analyzer/bin:$PATH'

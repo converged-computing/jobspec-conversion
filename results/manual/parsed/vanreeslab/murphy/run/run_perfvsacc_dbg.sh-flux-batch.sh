@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poo-9245
-#FLUX: --queue=sched_mit_wvanrees
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-spoon-5310
+#FLUX --queue=sched_mit_wvanrees
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

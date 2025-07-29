@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=afno
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: --queue=GPU-8A100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=afno
+#FLUX -n=2
+#FLUX -c=8
+#FLUX --queue=GPU-8A100
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

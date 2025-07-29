@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-avocado-0662
-#FLUX: -c=6
-#FLUX: --queue=rise
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-arm-2784
+#FLUX -c=6
+#FLUX --queue=rise
+#FLUX -t=87840
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export OMP_NUM_THREADS='1'

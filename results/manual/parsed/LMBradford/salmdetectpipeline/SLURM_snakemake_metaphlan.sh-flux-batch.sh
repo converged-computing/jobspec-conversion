@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-destiny-1542
-#FLUX: -c=16
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-hippo-9767
+#FLUX -c=16
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load gcc blast samtools bedtools bowtie2 python/3.10
 virtualenv --no-download ${SLURM_TMPDIR}/env

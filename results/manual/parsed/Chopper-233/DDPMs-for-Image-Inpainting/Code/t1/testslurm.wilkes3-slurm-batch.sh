@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=slurm-script-test
-#FLUX: --queue=ampere
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm-script-test
+#SBATCH --account=OZTIRELI-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:01:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

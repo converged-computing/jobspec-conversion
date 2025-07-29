@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc_test_BRAINT
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=mriqc_test_BRAINT
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load all

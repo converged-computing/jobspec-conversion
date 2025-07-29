@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-squidward-1903
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/YoshihiroMichishita/julia/ReinforcementLearning/TwoSpin_WD_KpK_d256_W4.0_xi0.2_t100_batch4_1006_nice3000/job.sh

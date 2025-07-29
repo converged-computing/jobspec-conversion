@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pancake-7214
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x.%J.out
+#SBATCH --error=logs/%x.%J.err
+#SBATCH --mail-user=alfarrm@kaust.edu.sa
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=batch
+#SBATCH --exclude=gpu211-14,gpu213-06
 
 CONST=0
 source activate rs_fl

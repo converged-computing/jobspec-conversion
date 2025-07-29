@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=razi
-#FLUX: -c=24
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=razi
+#SBATCH --output=razi.%j.out
+#SBATCH --error=razi.%j.err
+#SBATCH --mail-user=youremail@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=64gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=batch
 
 date
 ml Anaconda3

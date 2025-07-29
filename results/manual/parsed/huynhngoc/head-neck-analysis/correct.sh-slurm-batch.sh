@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hn_test
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=hn_test
+#SBATCH --output=outputs/unet-correct-%A.out
+#SBATCH --error=outputs/unet-correct-%A.out
+#SBATCH --mail-user=ngochuyn@nmbu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --partition=gpu
 
 module load singularity
 if [ $# -lt 1 ];

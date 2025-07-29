@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=VirtualFunction
+#FLUX --job-name=VirtualFunction
 #FLUX: --exclusive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX -t=60
+#FLUX --urgency=16
 
 export HIP_PATH='/opt/rocm-5.5.1/hip'
 

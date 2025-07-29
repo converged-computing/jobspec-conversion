@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-hope-3750
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=logs/cinexio/slurm.%N.%j.out
+#SBATCH --error=logs/cinexio/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 export WANDB_TAGS='${MODEL_NAME},${TASK_NAME}'
 

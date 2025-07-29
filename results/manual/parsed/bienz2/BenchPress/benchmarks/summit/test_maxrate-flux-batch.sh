@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-knife-4247
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-lettuce-0033
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/summit/test_maxrate

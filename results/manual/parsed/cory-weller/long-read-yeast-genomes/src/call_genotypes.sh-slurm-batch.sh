@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemon-9715
-#FLUX: --queue=quick,norm
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#SBATCH --output=%j.slurm.out
+#SBATCH --error=%j.slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=lscratch:100
+#SBATCH --mem=48G
+#SBATCH --time=03:59:59
+#SBATCH --partition=quick,norm
+#SBATCH --constraint=ntasks-per-node=8
 
 export FASTA1='$(realpath ${FASTA1})'
 export FASTA2='$(realpath ${FASTA2})'

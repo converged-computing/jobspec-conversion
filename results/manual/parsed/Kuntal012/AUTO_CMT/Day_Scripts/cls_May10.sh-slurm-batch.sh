@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PF_May10 
-#FLUX: --queue=batch
-#FLUX: -t=87300
-#FLUX: --urgency=16
+#SBATCH --job-name=PF_May10 
+#SBATCH --output=./output_slurm/PF_May10.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:15:00
+#SBATCH --partition=batch
 
 date
 echo 'PF_May10;quit'|matlab -nodesktop

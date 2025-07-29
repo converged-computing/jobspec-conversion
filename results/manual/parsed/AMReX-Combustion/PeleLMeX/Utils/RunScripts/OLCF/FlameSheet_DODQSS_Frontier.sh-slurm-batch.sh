@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LMEX_FSDODQSS
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=LMEX_FSDODQSS
+#SBATCH --account=CMB138_crusher
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export https_proxy='http://proxy.ccs.ornl.gov:3128'
 

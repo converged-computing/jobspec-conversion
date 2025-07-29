@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-eagle-9589
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=mahamid
+#SBATCH --output=training.slurm.%N.%j.out
+#SBATCH --error=training.slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=30G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 export src_dir='$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )'
 export PYTHONPATH='${src_dir%/*/*}/src'

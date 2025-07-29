@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hope-3882
-#FLUX: --queue=course
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-spoon-5666
+#FLUX --queue=course
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load compilers/intel/2019u5 
 echo "Node list                    : $SLURM_JOB_NODELIST"

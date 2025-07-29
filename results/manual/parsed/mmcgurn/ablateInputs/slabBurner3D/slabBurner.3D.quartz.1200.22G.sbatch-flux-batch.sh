@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=22G
-#FLUX: -N=1200
-#FLUX: --queue=pbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=22G
+#FLUX -N=1200
+#FLUX --queue=pbatch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PETSC_DIR='/g/g15/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

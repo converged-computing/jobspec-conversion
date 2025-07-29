@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lamp-9332
-#FLUX: --queue=cox
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-rabbit-5899
+#FLUX --queue=cox
+#FLUX -t=259920
+#FLUX --urgency=16
 
 source new-modules.sh
 module load python/2.7.11-fasrc01

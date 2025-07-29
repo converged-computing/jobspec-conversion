@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=modelnet
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=modelnet
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30G
+#SBATCH --time=06:00:00
+#SBATCH --constraint=[v100]
+#SBATCH --array=0-1
 
 module load cuda/11.1.1
 module load gcc

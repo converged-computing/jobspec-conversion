@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=echo
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=echo
+#FLUX --queue=test
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load slurm_setup

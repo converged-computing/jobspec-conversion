@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ll_mpi_numba_array
-#FLUX: --queue=teach_cpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ll_mpi_numba_array
+#SBATCH --account=PHYS030544
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=teach_cpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-10
 
 echo 'running mpi test'
 module load languages/miniconda

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=metaspades
-#FLUX: -c=15
-#FLUX: --queue=bigmem,long
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#FLUX --job-name=metaspades
+#FLUX -c=15
+#FLUX --queue=bigmem,long
+#FLUX -t=356400
+#FLUX --urgency=16
 
 ml SPAdes/3.15.2-GCC-8.2.0-2.31.1
 module load MEGAHIT/1.2.8-GCCcore-8.2.0 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=main
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=main
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12GB
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-96
+#SBATCH --nodelist=abacus002
 
 export CXX='g++'
 

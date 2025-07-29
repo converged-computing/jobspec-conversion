@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=aspp
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=aspp
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load cuda
 module load anaconda

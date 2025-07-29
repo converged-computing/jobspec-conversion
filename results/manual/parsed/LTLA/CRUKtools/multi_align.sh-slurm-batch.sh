@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-butter-9972
-#FLUX: --urgency=16
+#SBATCH --output=logs/${subsec}.out
+#SBATCH --error=logs/${subsec}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
 
 set -e
 set -u

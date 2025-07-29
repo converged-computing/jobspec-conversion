@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MBT
-#FLUX: -N=8
-#FLUX: --queue=batch
-#FLUX: -t=6900
-#FLUX: --urgency=16
+#SBATCH --job-name=MBT
+#SBATCH --account=MAT151
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:55:00
+#SBATCH --partition=batch
 
 export OMP_NUM_THREADS='7'
 export RMG_NUM_THREADS='5'

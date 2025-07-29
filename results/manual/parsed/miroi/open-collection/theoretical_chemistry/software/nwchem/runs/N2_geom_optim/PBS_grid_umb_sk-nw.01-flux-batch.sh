@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-6685
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-poo-7247
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/nwchem/runs/N2_geom_optim/PBS_grid_umb_sk-nw.01

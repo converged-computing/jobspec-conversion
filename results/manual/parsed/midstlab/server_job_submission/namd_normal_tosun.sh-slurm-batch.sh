@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lipid
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=lipid
+#SBATCH --account=users
+#SBATCH --output=%j-log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
+#SBATCH --qos=long
+#SBATCH --constraint=ntasks-per-node=24
 
 INPUT_FILE="1pga_autopsf_wb_ionized_config.conf"
 source /etc/profile.d/modules.sh

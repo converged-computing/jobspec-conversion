@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=WIMPreproc
-#FLUX: -c=10
-#FLUX: --queue=m3g
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=WIMPreproc
+#SBATCH --account=cn25
+#SBATCH --mail-user=thomas.andrillon@monash.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=16000
+#SBATCH --time=12:00:00
+#SBATCH --partition=m3g
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load matlab/r2017b

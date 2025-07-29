@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fixWill
-#FLUX: -c=6
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=fixWill
+#FLUX -c=6
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MATLABPATH='$HOME/matlab-output'
 export MATLAB_PREFDIR='$TMPDIR/.matlab/R2020b/'

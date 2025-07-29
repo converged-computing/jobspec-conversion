@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-label-mixtral
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=llama-cpp-label-mixtral
+#FLUX -c=20
+#FLUX -t=1800
+#FLUX --urgency=16
 
 HOSTNAME=$(hostname)
 if [ "$HOSTNAME" == "vega.iiia.csic.es" ]

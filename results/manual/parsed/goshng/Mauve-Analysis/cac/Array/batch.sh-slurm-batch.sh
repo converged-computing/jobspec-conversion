@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-kerfuffle-5827
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/goshng/Mauve-Analysis/cac/Array/batch.sh

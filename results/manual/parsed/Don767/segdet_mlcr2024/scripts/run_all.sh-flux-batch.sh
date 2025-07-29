@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_all
-#FLUX: -c=16
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=run_all
+#FLUX -c=16
+#FLUX -t=864000
+#FLUX --urgency=16
 
 cd ~/segdet_mlcr2024 || exit
 docker build -t segdet .

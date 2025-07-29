@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-avocado-5179
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-soup-3335
+#FLUX -N=2
+#FLUX --queue=batch
+#FLUX -t=2100
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

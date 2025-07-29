@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-kerfuffle-4202
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-frito-7257
+#FLUX -c=8
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export chunk='${chunk}'
 export SINGULARITY_BIND=''

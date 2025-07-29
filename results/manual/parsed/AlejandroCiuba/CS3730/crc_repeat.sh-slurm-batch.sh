@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=cs3730-repeat
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=cs3730-repeat
+#SBATCH --output=output/%x-%a-%A.out
+#SBATCH --mail-user=alc307@pitt.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a100
+#SBATCH --qos=short
+#SBATCH --constraint=amd,ntasks-per-node=1
+#SBATCH --array=0-2
 
 echo "RUN:" `date`
 module load gcc/8.2.0 python/anaconda3.10-2022.10

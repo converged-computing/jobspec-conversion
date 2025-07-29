@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=star_align
-#FLUX: -N=3
-#FLUX: -c=12
-#FLUX: --queue=memory
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=star_align
+#FLUX -N=3
+#FLUX -c=12
+#FLUX --queue=memory
+#FLUX -t=64800
+#FLUX --urgency=16
 
 module load easybuild
 module load icc/2017.1.132-GCC-6.3.0-2.27

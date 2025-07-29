@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=road_detector
-#FLUX: --queue=GPUQ
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=road_detector
+#SBATCH --account=ie-idi
+#SBATCH --output=srun.out
+#SBATCH --mail-user=joergen.rosager@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --time=05:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ivan_debug
-#FLUX: -c=10
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=ivan_debug
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=/users/afengler/batch_job_out/ivan_debug_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=32G
+#SBATCH --time=18:00:00
+#SBATCH --array=0-2
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

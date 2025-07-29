@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-rabbit-0591
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-knife-2268
+#FLUX --urgency=16
 
 module load nvidia/11.1
 module load anaconda3/latest

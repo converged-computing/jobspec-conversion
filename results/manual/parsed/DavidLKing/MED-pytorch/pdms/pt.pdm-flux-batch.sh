@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-onion-5383
-#FLUX: --urgency=16
+#FLUX --job-name=salted-peanut-butter-4457
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DavidLKing/MED-pytorch/pdms/pt.pdm

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BNeck
-#FLUX: -c=9
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=BNeck
+#FLUX -c=9
+#FLUX -t=360000
+#FLUX --urgency=16
 
 echo "Loading anaconda..."
 module purge

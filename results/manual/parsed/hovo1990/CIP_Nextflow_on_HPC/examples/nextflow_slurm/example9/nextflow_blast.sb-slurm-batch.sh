@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nf_blast
-#FLUX: -c=2
-#FLUX: --queue=shared
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=nf_blast
+#SBATCH --account=sds196
+#SBATCH --output=nf_blast.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=2000M
+#SBATCH --time=05:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 export NFX_OPTS='-Xms=512m -Xmx=4g'
 

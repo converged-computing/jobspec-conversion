@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DaskRMSD1
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=DaskRMSD1
+#SBATCH --account=True
+#SBATCH --output=DaskRMSD1.out
+#SBATCH --error=DaskRMSD1.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 cd $SLURM_SUBMIT_DIR
 source activate MDAnalysis

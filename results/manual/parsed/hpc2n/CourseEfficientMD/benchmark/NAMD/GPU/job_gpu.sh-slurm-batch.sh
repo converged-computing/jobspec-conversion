@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -n=28
-#FLUX: --exclusive
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --account=SNICyyyy-xx-yy
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:2
+#SBATCH --time=00:08:00
+#SBATCH: --exclusive
 
 ml purge  > /dev/null 2>&1 
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

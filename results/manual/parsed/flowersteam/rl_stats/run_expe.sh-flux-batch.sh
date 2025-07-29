@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leopard-9451
-#FLUX: --queue=longq
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-toaster-5333
+#FLUX --queue=longq
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export EXP_INTERP='/cm/shared/apps/intel/composer_xe/python3.5/intelpython3/bin/python3' ;'
 

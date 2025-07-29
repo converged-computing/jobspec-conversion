@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-train-7611
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-hobbit-6858
+#FLUX --urgency=16
 

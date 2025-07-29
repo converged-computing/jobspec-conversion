@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parrot-2378
-#FLUX: --queue=pascal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=<your_gpu_group>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=12:00:00
+#SBATCH --partition=pascal
 
 module load GCC Singularity git
 git clone https://github.com/tensorflow/models.git

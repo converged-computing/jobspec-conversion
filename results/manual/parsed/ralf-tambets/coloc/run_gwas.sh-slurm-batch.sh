@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=coloc
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=coloc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
 
 module load any/jdk/1.8.0_265
 module load nextflow

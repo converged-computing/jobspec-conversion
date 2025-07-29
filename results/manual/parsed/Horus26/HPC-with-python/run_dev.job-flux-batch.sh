@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HPC_WITH_PYTHON
-#FLUX: -N=4
-#FLUX: --queue=dev_multiple
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=HPC_WITH_PYTHON
+#FLUX -N=4
+#FLUX --queue=dev_multiple
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load devel/python/3.10.0_gnu_11.1
 module load compiler/gnu/12.1

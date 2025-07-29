@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bike-7792
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=phy122
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export XGC_NMPI_PER_NODE='8'
 export TOTAL_NMPI='$(( ${SLURM_JOB_NUM_NODES} * ${XGC_NMPI_PER_NODE} ))'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=myFirstMPIJob
-#FLUX: -c=2
-#FLUX: --queue=cpu-core-0
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=myFirstMPIJob
+#FLUX -c=2
+#FLUX --queue=cpu-core-0
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 

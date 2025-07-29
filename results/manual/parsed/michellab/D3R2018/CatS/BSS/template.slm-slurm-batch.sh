@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: -c=14
-#FLUX: --queue=gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=NAME
+#SBATCH --output=NAME.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=14
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu
 
 export SIRE_DONT_PHONEHOME='1'
 export SIRE_SILENT_PHONEHOME='1'

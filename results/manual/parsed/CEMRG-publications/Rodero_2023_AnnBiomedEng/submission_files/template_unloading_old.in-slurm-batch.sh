@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: -N=2
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --mail-user=cristobal.rodero_gomez@kcl.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=64
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=memory-rehearsal
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=memory-rehearsal
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$1'
 

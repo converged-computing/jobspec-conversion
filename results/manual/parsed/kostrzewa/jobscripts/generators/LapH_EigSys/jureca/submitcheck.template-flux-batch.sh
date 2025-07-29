@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leopard-6880
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=tart-bits-2552
+#FLUX -N=4
+#FLUX -c=4
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/homec/hbn28/hbn282/code/petsc/arch-linux2-c-opt/lib/:/homec/hbn28/hbn282/code/slepc/arch-linux2-c-opt/lib/'

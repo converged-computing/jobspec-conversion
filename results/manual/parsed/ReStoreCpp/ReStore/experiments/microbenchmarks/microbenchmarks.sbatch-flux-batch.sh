@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-9822
-#FLUX: -N=16
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-bicycle-2180
+#FLUX -N=16
+#FLUX --queue=test
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PMIX_MCA_gds='hash'
 

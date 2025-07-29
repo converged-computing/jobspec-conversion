@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-2968
-#FLUX: --queue=normal_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-nunchucks-6077
+#FLUX --queue=normal_q
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load R/4.0.2-foss-2020a
 mkdir -p $1"/DMS/DMS_output"

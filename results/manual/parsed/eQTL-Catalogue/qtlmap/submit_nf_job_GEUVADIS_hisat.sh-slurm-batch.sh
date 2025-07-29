@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=HISAT_qtlmap
-#FLUX: --queue=amd
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=HISAT_qtlmap
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=1
 
 module load java-1.8.0_40
 module load nextflow

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=easel
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=easel
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10G
+#SBATCH --partition=general
+#SBATCH --qos=general
 
 module load nextflow
 source activate envAGAT

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stable-diffusion-512cont-improvedaesthetics
-#FLUX: -N=20
-#FLUX: --queue=compute-od-gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=stable-diffusion-512cont-improvedaesthetics
+#SBATCH --output=%x_%j.%n.out
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=compute-od-gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/opt/aws-ofi-nccl/lib:/opt/amazon/efa/lib64:/usr/local/cuda-11.0/efa/lib:/usr/local/cuda-11.0/lib:/usr/local/cuda-11.0/lib64:/usr/local/cuda-11.0:/opt/nccl/build/lib:/opt/aws-ofi-nccl-install/lib:/opt/aws-ofi-nccl/lib:$LD_LIBRARY_PATH'
 export NCCL_PROTO='simple'

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cuda-mpi
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=gpu-h100
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cuda-mpi
+#SBATCH --account=hpcapps
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:h100:4
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu-h100
+#SBATCH: --exclusive
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

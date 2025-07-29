@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phat-milkshake-2294
-#FLUX: --queue=conti
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=lc_dvc
+#SBATCH --output=./logs/j03_mergeALL.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=conti
 
 REF=/auto/pmd-02/figi/PCA
 OUT=/staging/dvc/andreeki/pca_ibd

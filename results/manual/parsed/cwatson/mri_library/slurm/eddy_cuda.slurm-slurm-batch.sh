@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-malarkey-6355
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --mail-user=Christopher.G.Watson@uth.tmc.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
 
 export scriptdir='$(dirname $(type -p dti_eddy.sh))'
 

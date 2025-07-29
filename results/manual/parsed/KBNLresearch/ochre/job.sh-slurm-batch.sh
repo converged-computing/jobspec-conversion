@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2017_baseline
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=2017_baseline
+#SBATCH --output=2017_baseline.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=15:00:00
+#SBATCH --constraint=TitanX
 
 module load python/3.5.2
 module load python-extra/python3.5/r0.5.0

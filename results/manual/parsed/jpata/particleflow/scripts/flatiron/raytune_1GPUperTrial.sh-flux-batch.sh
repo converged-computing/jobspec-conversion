@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -N=8
-#FLUX: -c=64
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=raytune
+#FLUX -N=8
+#FLUX -c=64
+#FLUX --gpus-per-task=4
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export TUNE_RESULT_DIR='/mnt/ceph/users/ewulff/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='$((SLURM_NNODES*2))'

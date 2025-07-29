@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-caramel-0233
-#FLUX: --queue=standard
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-truffle-3686
+#FLUX --queue=standard
+#FLUX -t=5400
+#FLUX --urgency=16
 
 module load gcc
 module load R/3.5.1

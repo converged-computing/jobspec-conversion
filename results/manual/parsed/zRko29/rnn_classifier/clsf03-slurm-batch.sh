@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pot-7396
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=24G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=valhala
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_P2P_DISABLE='1'
 

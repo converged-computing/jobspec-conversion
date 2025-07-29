@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-pot-4975
-#FLUX: --queue=standard96
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard96
 
 export SLURM_CPU_BIND='none'
 

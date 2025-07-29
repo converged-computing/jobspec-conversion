@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-general-7220
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=tart-malarkey-7829
+#FLUX -t=0
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/projects/tir6/general/sachink/huggingface'
 

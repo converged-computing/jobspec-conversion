@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-banana-1098
-#FLUX: --queue=general,zhanglab
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-motorcycle-9379
+#FLUX --queue=general,zhanglab
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python3/3.4.1
 module load CAMISIM/1.1.0-foss-2016b-Python-2.7.12

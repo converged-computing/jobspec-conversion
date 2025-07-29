@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=prompt_llama
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: --urgency=16
+#SBATCH --job-name=prompt_llama
+#SBATCH --output=prompt_llama_job_%x_%j.out
+#SBATCH --error=prompt_llama_job_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --partition=a40
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'
 export NCCL_IB_DISABLE='1'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_atlas
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_atlas
+#SBATCH --output=/home/h/hanlin/output/slurm_log/%j.log
+#SBATCH --error=/home/h/hanlin/output/slurm_log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64000
+#SBATCH --time=03:00:00
+#SBATCH --partition=medium
+#SBATCH --nodelist=xgpc7
 
 export CUDA_HOME='/usr/local/cuda # /usr/local/cuda-10.2'
 

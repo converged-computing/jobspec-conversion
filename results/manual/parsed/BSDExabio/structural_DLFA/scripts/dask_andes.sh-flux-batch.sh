@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=parse
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=parse
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/path/to/this/repo/structural_DLFA/parsers'
 

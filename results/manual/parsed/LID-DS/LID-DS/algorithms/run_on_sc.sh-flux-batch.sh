@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-salad-6417
-#FLUX: --queue=paula-gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-kerfuffle-2263
+#FLUX --queue=paula-gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load matplotlib
 pip install --upgrade pip

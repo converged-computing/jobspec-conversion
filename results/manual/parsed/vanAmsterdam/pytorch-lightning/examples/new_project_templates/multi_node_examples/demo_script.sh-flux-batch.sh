@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lightning_test
-#FLUX: -N=2
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=lightning_test
+#FLUX -N=2
+#FLUX -c=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

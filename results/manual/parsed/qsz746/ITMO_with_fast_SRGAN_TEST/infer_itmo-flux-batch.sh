@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bits-3684
-#FLUX: -c=2
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-nunchucks-5296
+#FLUX -c=2
+#FLUX -t=3000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='{$LD_LIBRARY_PATH}:$CUDA_HOME/lib64:/cvmfs/soft.computecanada.ca/easybuild/software/2017/CUDA/cuda10.1/cudnn/7.6.5/lib64/'
 

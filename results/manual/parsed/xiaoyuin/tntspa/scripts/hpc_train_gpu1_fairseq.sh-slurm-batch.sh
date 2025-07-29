@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpc_gpu1_fairseq
-#FLUX: -c=8
-#FLUX: --queue=gpu1
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=hpc_gpu1_fairseq
+#SBATCH --account=p_adm
+#SBATCH --output=train_gpu1_fairseq-%j.out
+#SBATCH --mail-user=xiaoyu.yin@mailbox.tu-dresden.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu1
 
 module load TensorFlow/1.8.0-foss-2018a-Python-3.6.4-CUDA-9.2.88
 DDIR=data/monument_600

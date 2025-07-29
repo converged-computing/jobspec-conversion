@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-blackbean-6784
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=red-onion-8912
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cat scripts/evaluation.sh
 logdir='logs/Final-cifar100-resnet110'

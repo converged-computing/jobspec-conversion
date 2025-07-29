@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-buttface-6870
-#FLUX: -c=4
-#FLUX: --queue=epyc_ssd
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-eagle-8922
+#FLUX -c=4
+#FLUX --queue=epyc_ssd
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-9251
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-kerfuffle-3632
+#FLUX --urgency=16
 
 declare -xr GALYLEO_INSTALL_DIR="${PWD}"
 declare -xr GALYLEO_CACHE_DIR="${HOME}/.galyleo"

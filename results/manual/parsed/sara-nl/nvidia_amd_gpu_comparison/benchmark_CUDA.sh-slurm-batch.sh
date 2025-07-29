@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: --queue=gpu_rtx2080ti
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_rtx2080ti
 
 source init_lisa.sh
 python3 main.py --img_size 299 --model_type inception_v3 --batch_size 64 --cuda_devices 0 --run_name 1GPU_CUDA

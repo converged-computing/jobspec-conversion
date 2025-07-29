@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-egg-1907
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=xxxxxxxx
+#SBATCH --output=logs/%x.out
+#SBATCH --error=logs/%x.err
+#SBATCH --mail-user=p.tsai@auckland.ac.nz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
 
 export PYTHONNOUSERSITE='1'
 export SINGULARITY_BIND='/nesi/nobackup,/nesi/project'

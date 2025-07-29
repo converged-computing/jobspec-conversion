@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wav2letter-build
-#FLUX: -c=32
-#FLUX: --queue=priority
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=wav2letter-build
+#SBATCH --output=/checkpoint/%u/jobs/wav2letter/build/wav2letter-build-%j.out
+#SBATCH --error=/checkpoint/%u/jobs/wav2letter/build/wav2letter-build-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=priority
+#SBATCH --constraint=ntasks-per-node=1
 
 export CMAKE_PREFIX_PATH='$HOME/usr'
 

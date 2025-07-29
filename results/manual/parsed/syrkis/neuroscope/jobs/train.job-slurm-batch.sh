@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=virian
-#FLUX: -c=4
-#FLUX: --queue=red
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=virian
+#SBATCH --account=students
+#SBATCH --output=logs/train.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=30G
+#SBATCH --time=00:59:00
+#SBATCH --partition=red
 
 module --ignore-cache load singularity/3.4.1
 module --ignore-cache load CUDA/11.1.1-GCC-10.2.0

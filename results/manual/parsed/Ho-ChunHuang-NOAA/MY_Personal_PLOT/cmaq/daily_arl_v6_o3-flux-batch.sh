@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-destiny-5905
-#FLUX: --urgency=16
+#FLUX --job-name=blue-kitty-2797
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/daily_arl_v6_o3

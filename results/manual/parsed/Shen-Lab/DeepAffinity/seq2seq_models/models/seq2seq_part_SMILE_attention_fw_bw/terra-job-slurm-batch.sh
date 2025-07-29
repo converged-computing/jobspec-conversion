@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=seq2seq_SMILE_attention_fw_bw
-#FLUX: -n=28
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=seq2seq_SMILE_attention_fw_bw
+#SBATCH --account=122788945864
+#SBATCH --output=my_output
+#SBATCH --mail-user=mostafa_karimi@tamu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=30G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 module load Anaconda/3-5.0.0.1
 source activate tensorflow-gpu-1.3.0

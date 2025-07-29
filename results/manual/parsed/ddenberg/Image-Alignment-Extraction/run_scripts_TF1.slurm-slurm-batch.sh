@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TF1
-#FLUX: -c=16
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=TF1
+#SBATCH --account=molbio
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=24G
+#SBATCH --time=01:59:00
 
 module purge
 module load matlab/R2023a

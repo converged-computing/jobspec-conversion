@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-toaster-2040
-#FLUX: --queue=priority
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=logs/rc-nonallelespec/snakemake_%A.log
+#SBATCH --error=logs/rc-nonallelespec/snakemake_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=priority
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.1

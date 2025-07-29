@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-destiny-3248
-#FLUX: -n=29
-#FLUX: --queue=batch
-#FLUX: -t=174000
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-fork-9733
+#FLUX -n=29
+#FLUX --queue=batch
+#FLUX -t=174000
+#FLUX --urgency=16
 
 module load singularity
 gunzip -c /projects/rosenthal-lab/cube/genetic_demultiplexing/sc-data-rerun/cube_rna/$1/cellranger/filtered_feature_bc_matrix/barcodes.tsv.gz > /projects/rosenthal-lab/cube/genetic_demultiplexing/sc-data-rerun/cube_rna/$1/cellranger/filtered_feature_bc_matrix/barcodes.tsv

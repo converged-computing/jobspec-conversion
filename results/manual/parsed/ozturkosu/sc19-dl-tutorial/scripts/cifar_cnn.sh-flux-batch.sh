@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cifar-cnn
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=cifar-cnn
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

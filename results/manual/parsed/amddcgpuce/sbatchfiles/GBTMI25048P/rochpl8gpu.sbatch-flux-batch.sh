@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-sundae-3611
-#FLUX: -c=12
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-latke-6528
+#FLUX -c=12
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

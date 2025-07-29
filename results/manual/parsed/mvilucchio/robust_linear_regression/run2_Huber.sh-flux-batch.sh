@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-5217
-#FLUX: --queue=parallel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=milky-fork-7630
+#FLUX --queue=parallel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc
 module load mvapich2

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mom6-solo
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mom6-solo
+#SBATCH --output=mom6_sis2_%j.log
+#SBATCH --mail-user=niki.zadeh@noaa.gov
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=96
 
 export KMP_STACKSIZE='512m'
 export NC_BLKSZ='1M'

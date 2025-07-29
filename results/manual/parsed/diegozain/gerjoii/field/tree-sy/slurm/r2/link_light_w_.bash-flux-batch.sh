@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-milkshake-6747
-#FLUX: -c=28
+#FLUX --job-name=buttery-peanut-butter-1282
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX -t=43140
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

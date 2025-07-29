@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=get_activations
-#FLUX: --queue=long
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=get_activations
+#FLUX --queue=long
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load anaconda/3
 module load cuda/11.7

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bicycle-2336
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/xe1gyq/training-material/Accelerators/GANs/gan_gpu.pbs

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=VesselStatsToPhenofile_artery
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=VesselStatsToPhenofile_artery
+#SBATCH --account=sbergman_retina
+#SBATCH --output=helpers/VesselStatsToPhenofile/slurm_runs/slurm-%x_%j.out
+#SBATCH --error=helpers/VesselStatsToPhenofile/slurm_runs/slurm-%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
 
 source $HOME/retina/configs/config.sh
 output_dir=$scratch/retina/GWAS/output/VesselStatsToPhenofile/

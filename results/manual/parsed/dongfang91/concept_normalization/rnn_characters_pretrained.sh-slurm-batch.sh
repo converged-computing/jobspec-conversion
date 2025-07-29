@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-butter-2563
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/dongfang91/concept_normalization/rnn_characters_pretrained.sh

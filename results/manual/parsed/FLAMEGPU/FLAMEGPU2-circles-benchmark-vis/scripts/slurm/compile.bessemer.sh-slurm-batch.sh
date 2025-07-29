@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=compile.bessemer.sh
-#FLUX: -n=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=compile.bessemer.sh
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 module use /usr/local/modulefiles/staging/eb/all/
 module load CUDA/11.0.2-GCC-9.3.0

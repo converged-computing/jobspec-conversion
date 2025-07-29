@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hope-3108
-#FLUX: --queue=course
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=course
+#SBATCH --chdir=./
 
 module load compilers/intel/2019u5 
 module load mpi/intel-mpi/2019u5/bin

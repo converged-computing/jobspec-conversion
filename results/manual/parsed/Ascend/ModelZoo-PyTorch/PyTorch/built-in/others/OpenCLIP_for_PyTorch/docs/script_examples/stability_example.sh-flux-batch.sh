@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=testopenclip
-#FLUX: -N=30
-#FLUX: -c=12
+#FLUX --job-name=testopenclip
+#FLUX -N=30
+#FLUX -c=12
 #FLUX: --exclusive
-#FLUX: --queue=g40423
-#FLUX: --urgency=16
+#FLUX --queue=g40423
+#FLUX --urgency=16
 
 export MASTER_ADDR='`hostname`'
 export MASTER_PORT='12802'

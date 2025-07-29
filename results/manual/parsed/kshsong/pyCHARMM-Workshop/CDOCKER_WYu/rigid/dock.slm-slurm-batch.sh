@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rigid
-#FLUX: --queue=gpu2080
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=rigid
+#SBATCH --account=brooks
+#SBATCH --output=slurm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu2080
 
 module load pycharmm/0.5
 python standard.py

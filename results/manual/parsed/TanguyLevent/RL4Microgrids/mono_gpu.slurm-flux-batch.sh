@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_mono
-#FLUX: -c=10
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=gpu_mono
+#FLUX -c=10
+#FLUX -t=216000
+#FLUX --urgency=16
 
 set -x
 cd ${SLURM_SUBMIT_DIR}

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=2d-umbrella
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=2d-umbrella
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=test
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MRtoCT
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=MRtoCT
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.9.15
 VENV_PATH="$HOME/.virtualenvs/MRCT"

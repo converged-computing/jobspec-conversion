@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-malarkey-2750
-#FLUX: -c=12
-#FLUX: --queue=gpufermi
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-mango-0166
+#FLUX -c=12
+#FLUX --queue=gpufermi
+#FLUX --urgency=16
 
 cp 500.bmp *.c $PFSDIR/.
 cd $PFSDIR

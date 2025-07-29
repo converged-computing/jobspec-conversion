@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=1_process_data
-#FLUX: -c=256
-#FLUX: --queue=parallel
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=1_process_data
+#FLUX -c=256
+#FLUX --queue=parallel
+#FLUX -t=25200
+#FLUX --urgency=16
 
 module load GCC/11.3.0
 module load OpenMPI/4.1.4

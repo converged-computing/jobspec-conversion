@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=OF10_GccOpt_Phase
-#FLUX: --queue=infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=OF10_GccOpt_Phase
+#SBATCH --account=bddir15
+#SBATCH --output=OF10_Phase_%j.out
+#SBATCH --mail-user=<your.email>@brunel.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=infer
 
 export application='`getApplication`'
 

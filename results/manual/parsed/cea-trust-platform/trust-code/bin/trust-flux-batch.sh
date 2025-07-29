@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-soup-3386
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-onion-0195
+#FLUX --urgency=16
 
 export NB_PROCS='1 '
 

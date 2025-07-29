@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Incomp_NS
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Incomp_NS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=amr
 
 module load intel  ### load necessary modules.
 module load FFmpeg

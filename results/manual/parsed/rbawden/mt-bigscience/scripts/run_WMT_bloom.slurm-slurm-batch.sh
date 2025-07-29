@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=wmt
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=wmt
+#SBATCH --account=lmy@a100
+#SBATCH --output=wmt_bloom_%j.out
+#SBATCH --error=wmt_bloom_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'
 

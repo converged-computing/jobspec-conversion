@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=DNA_HINCKLEY
-#FLUX: -n=192
-#FLUX: --queue=normal
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=DNA_HINCKLEY
+#SBATCH --account=nn4654k
+#SBATCH --nodes=1
+#SBATCH --ntasks=192
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2000M
+#SBATCH --time=00:20:00
+#SBATCH --partition=normal
 
 NPROCS=${SLURM_NTASKS}
 module purge

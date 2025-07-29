@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=train_%j.out
+#SBATCH --error=train_%j.err
+#SBATCH --mail-user=gtangg12@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=250GB
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

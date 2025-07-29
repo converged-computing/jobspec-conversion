@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-underoos-1861
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-bicycle-4817
+#FLUX -n=4
+#FLUX --queue=shared
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

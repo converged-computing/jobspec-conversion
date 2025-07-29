@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lmp
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --nodelist=cn2
 
 module load intel/2020
   exe_dir="/data/home/hfhuang/software/Lammps_for_PWMLFF-master/lammps_neigh_mlff_20230508/src"

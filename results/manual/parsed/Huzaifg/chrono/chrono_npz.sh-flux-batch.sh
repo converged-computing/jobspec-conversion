@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-puppy-5788
-#FLUX: --queue=gpu-a100-small
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=milky-puppy-8303
+#FLUX --queue=gpu-a100-small
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 

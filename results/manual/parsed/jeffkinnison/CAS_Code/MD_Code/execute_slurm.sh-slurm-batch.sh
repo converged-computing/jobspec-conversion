@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=pi_hbonds
-#FLUX: --queue=owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pi_hbonds
+#SBATCH --output=pi_hbonds.out
+#SBATCH --error=pi_hbonds.err
+#SBATCH --mail-user=sahn1@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=owners
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH: --no-requeue
 
 export MAIN_DIRECTORY='/scratch/users/sahn1/Triazine  # TODO'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/sahn1/  # TODO'

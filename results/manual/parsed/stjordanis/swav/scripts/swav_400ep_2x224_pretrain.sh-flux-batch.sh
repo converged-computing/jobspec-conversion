@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swav_400ep_2x224_pretrain
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=90000
-#FLUX: --urgency=16
+#FLUX --job-name=swav_400ep_2x224_pretrain
+#FLUX -N=8
+#FLUX -c=8
+#FLUX -t=90000
+#FLUX --urgency=16
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

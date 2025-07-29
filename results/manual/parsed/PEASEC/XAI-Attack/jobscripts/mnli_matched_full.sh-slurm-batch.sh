@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=XAIATTACK-MNLIMatched
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=XAIATTACK-MNLIMatched
+#SBATCH --output=../logs/cluster/%x.out.%A_%a
+#SBATCH --error=../logs/cluster/%x.err.%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000
+#SBATCH --time=1-00:00:00
 
 export DATASET='mnli_matched'
 export MODEL='distilbert-base-uncased'

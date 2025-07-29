@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=graph_combine
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=graph_combine
+#FLUX -c=4
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 actiontime=1
 epsilonarraypost=(0.05) # Computation of fine grid and psi10.8, post

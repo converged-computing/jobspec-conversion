@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RL_debug
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=RL_debug
+#SBATCH --output=/home1/p313544/slurm_logs/%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30GB
+#SBATCH --time=00:20:00
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/'
 

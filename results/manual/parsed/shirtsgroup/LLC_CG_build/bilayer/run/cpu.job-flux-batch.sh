@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GI_5
-#FLUX: --queue=RM-shared
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=GI_5
+#FLUX --queue=RM-shared
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 export GMX_MAXCONSTRWARN='-1'

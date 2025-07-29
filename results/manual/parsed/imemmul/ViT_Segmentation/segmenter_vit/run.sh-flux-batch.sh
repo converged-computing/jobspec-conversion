@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eddy_segmenter
-#FLUX: -n=4
-#FLUX: --queue=main
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=eddy_segmenter
+#FLUX -n=4
+#FLUX --queue=main
+#FLUX -t=604800
+#FLUX --urgency=16
 
 INPUT_FILE=""
 source /etc/profile.d/lmod.sh

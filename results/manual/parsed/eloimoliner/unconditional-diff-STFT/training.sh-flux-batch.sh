@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=unet2d_diff_strings
-#FLUX: -c=4
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#FLUX --job-name=unet2d_diff_strings
+#FLUX -c=4
+#FLUX -t=172799
+#FLUX --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

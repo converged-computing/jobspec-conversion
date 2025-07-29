@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=all
-#FLUX: -c=8
-#FLUX: --queue=gpu-2d
-#FLUX: --urgency=16
+#SBATCH --job-name=all
+#SBATCH --output=./all_%A_%a.out
+#SBATCH --error=./all_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80000M
+#SBATCH --partition=gpu-2d
+#SBATCH --chdir=./
+#SBATCH --array=0
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK} '
 

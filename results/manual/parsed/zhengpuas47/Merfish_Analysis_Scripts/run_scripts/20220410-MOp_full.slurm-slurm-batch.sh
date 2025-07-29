@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-1707
-#FLUX: --queue=zhuang
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/n/holyscratch01/zhuang_lab/Users/pzheng/Analysis_results/Logs/job_stdoe_tmp/%j.stdout.txt
+#SBATCH --error=/n/holyscratch01/zhuang_lab/Users/pzheng/Analysis_results/Logs/job_stdoe_tmp/%j.stdout.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=zhuang
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

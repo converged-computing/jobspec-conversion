@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=yolov4
-#FLUX: -n=4
-#FLUX: --queue=sgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=yolov4
+#SBATCH --output=%j.out
+#SBATCH --mail-user=lingcao.huang@colorado.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=sgpu
 
 module purge
 module load singularity/3.6.4

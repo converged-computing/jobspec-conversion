@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=QEC-Playground=11-25-2021=23:33:52
-#FLUX: -c=8
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#SBATCH --job-name=QEC-Playground=11-25-2021=23:33:52
+#SBATCH --output=/gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/union_find_decoder/atomic_qubit_model/fbench_fake_fixed_p_change_Re/slurm_jobs/%a.jobout
+#SBATCH --error=/gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/union_find_decoder/atomic_qubit_model/fbench_fake_fixed_p_change_Re/slurm_jobs/%a.joberror
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=6G
+#SBATCH --time=05:20:00
+#SBATCH --array=24,25,51,52,78,79,105,106,132,133,159,160
 
 if [ "$SLURM_ARRAY_TASK_ID" == "0" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool fault_tolerant_benchmark '[3]' --djs '[3]' '[3]' -m0 -e0 '[1.00000000e-05]' -p8 --decoder UF --max_half_weight 10 --time_budget 18000 --use_xzzx_code --error_model OnlyGateErrorCircuitLevel --use_fast_benchmark --fbench_use_fake_decoder --fbench_disable_additional_error --fbench_target_dev 1e-2 --pes '[0.00000000e+00]' || exit 91; fi
 if [ "$SLURM_ARRAY_TASK_ID" == "1" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool fault_tolerant_benchmark '[3]' --djs '[3]' '[3]' -m0 -e0 '[9.50000000e-06]' -p8 --decoder UF --max_half_weight 10 --time_budget 18000 --use_xzzx_code --error_model OnlyGateErrorCircuitLevel --use_fast_benchmark --fbench_use_fake_decoder --fbench_disable_additional_error --fbench_target_dev 1e-2 --pes '[5.00000000e-07]' || exit 91; fi

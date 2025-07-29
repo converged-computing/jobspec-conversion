@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-1968
-#FLUX: --queue=node
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=sens2016004
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=node
 
 export NXF_TEMP='/scratch'
 export NXF_LAUNCHBASE='/scratch'

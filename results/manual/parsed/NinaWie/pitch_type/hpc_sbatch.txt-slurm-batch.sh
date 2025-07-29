@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rfnCMBPTT
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=rfnCMBPTT
+#SBATCH --output=slurm_%j.out
+#SBATCH --error=slurm_%j.err
+#SBATCH --mail-user=nvw224@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load pytorch/0.1.12_2 

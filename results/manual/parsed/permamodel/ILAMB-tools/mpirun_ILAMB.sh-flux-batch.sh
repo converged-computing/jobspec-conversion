@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-3137
-#FLUX: -n=8
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-house-9188
+#FLUX -n=8
+#FLUX --urgency=16
 
 export ILAMB_ROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$PWD'

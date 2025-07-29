@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=udal
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: --urgency=16
+#SBATCH --job-name=udal
+#SBATCH --output=/mnt/work/dhuseljic/logs/udal/evaluation/%A_%a__%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --partition=main
+#SBATCH --array=1-10%2
 
 date;hostname;pwd
 source ~/envs/dal-toolbox/bin/activate

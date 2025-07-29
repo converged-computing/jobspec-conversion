@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-7790
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-hope-1077
+#FLUX --urgency=16
 
 export LOCAL_SCRATCH='/tmp/scratch/$USER'
 export POSTPROCESS='1'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=blank-destiny-0719
-#FLUX: --queue=gpu
-#FLUX: -t=43195
-#FLUX: --urgency=16
+#SBATCH --mail-user=rikvannoord@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=50G
+#SBATCH --time=11:59:55
+#SBATCH --partition=gpu
 
 set -eu -o pipefail
 fol=$1          # checkpoint folder - or name of language model: e.g. model/checkpoint-10000/ or xlm-roberta-large

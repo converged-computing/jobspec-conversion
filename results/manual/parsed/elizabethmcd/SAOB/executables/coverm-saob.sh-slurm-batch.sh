@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=coverm-saob
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=coverm-saob
+#SBATCH --account=rrg-ziels
+#SBATCH --output=%x.out
+#SBATCH --mail-user=eamcdani@mail.ubc.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=50G
+#SBATCH --time=12:00:00
 
 project_path="/project/6049207/AD_metagenome-Elizabeth"
 mapping_path="/home/eamcdani/scratch/mappingResults"

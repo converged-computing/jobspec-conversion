@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=check_prior_3_validation
-#FLUX: -N=30
-#FLUX: --queue=skx-normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=check_prior_3_validation
+#FLUX -N=30
+#FLUX --queue=skx-normal
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

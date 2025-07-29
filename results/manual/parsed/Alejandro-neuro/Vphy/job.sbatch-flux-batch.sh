@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leader-1890
-#FLUX: -c=4
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-chip-4282
+#FLUX -c=4
+#FLUX --queue=general
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export WANDB_API_KEY='5627524443770cf7995a564065ff75a9522b1a48'
 

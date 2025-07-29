@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=HPRC-asm-batch2
-#FLUX: -c=4
-#FLUX: --queue=high_priority
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=HPRC-asm-batch2
+#SBATCH --output=hifiasm_submit_logs/hifiasm_submit_%x_%j_%A_%a.log
+#SBATCH --mail-user=juklucas@ucsc.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=200gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=high_priority
+#SBATCH --array=1-40%20
 
 export TOIL_SLURM_ARGS='--time=3-0:00 --partition=high_priority'
 

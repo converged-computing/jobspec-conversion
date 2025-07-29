@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fftw_openmp
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fftw_openmp
+#FLUX --queue=long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module reset
 module load toolchain/intel/2021a

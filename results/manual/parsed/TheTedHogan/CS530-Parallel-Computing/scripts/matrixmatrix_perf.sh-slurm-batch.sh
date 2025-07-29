@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=groupc_mm
-#FLUX: -n=28
-#FLUX: --queue=defq
-#FLUX: -t=13500
-#FLUX: --urgency=16
+#SBATCH --job-name=groupc_mm
+#SBATCH --output=./output/perf_mm_output.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:45:00
+#SBATCH --partition=defq
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

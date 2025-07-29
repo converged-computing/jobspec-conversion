@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leader-4596
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --licenses=cfs
 
+singularity
+exec
+docker:ghcr.io/biorack/metatlas/metatlas_shifter:latest
 set -euo pipefail
 shifter_flags="--module=none --clearenv --env=PAPERMILL_EXECUTION=True"
 log_dir="/global/cfs/projectdirs/m2650/jupyter_logs/slurm"

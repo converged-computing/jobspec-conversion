@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bicycle-7970
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=logs/sst-job-%A-%a.out
+#SBATCH --error=logs/sst-job-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=1G
+#SBATCH --time=02:00:00
+#SBATCH --array=1-5
 
 export DISABLE_PBAR='1'
 

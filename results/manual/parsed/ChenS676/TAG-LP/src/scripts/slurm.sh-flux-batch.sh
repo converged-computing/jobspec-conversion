@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nunchucks-8170
-#FLUX: -n=40
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=purple-carrot-3053
+#FLUX -n=40
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load devel/cmake/3.18
 module load devel/cuda/11.4

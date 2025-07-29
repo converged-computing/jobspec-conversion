@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-leg-2783
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=tart-leader-3131
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda cuda

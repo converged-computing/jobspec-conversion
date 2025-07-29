@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mlh_baseline_downstream_both_mura
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mlh_baseline_downstream_both_mura
+#SBATCH --output=slurm/jobs/baseline_downstream_both_mura.out
+#SBATCH --error=slurm/jobs/baseline_downstream_both_mura.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 export PATH='/scratch/csp9835/penv/bin:$PATH;'

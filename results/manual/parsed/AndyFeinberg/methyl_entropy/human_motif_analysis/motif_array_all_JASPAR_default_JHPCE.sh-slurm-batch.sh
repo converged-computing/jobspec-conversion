@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=motif_array
-#FLUX: -c=24
-#FLUX: --queue=shared,parallel,skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=motif_array
+#SBATCH --output=../downstream/logfiles/motif_all-default-%x-%A-%a.out
+#SBATCH --error=../downstream/logfiles/motif_all-default-%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=12:00:00
+#SBATCH --partition=shared,parallel,skylake
+#SBATCH --array=1-50
 
 ml R/3.6.1
 ml atlas

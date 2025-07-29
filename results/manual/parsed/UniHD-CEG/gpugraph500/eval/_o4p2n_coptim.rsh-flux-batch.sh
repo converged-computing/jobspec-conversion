@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=test_reduce
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=test_reduce
+#FLUX -n=4
+#FLUX --urgency=16
 
 export mpirun='/home/jromera/openmpi/bin/mpirun'
 

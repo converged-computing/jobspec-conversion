@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-spoon-6895
-#FLUX: -n=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-malarkey-1964
+#FLUX -n=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source ~/.bashrc
 source activate pm_env

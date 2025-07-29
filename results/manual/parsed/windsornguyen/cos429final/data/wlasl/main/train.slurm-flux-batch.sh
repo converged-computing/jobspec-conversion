@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=a2a
-#FLUX: -c=12
-#FLUX: --queue=pli
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=a2a
+#FLUX -c=12
+#FLUX --queue=pli
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export WANDB_ENTITY='windsornguyen'
 export WANDB_API_KEY='17dce35b188763800b6e9a443a761a1e713d87ab'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=melt
-#FLUX: --queue=gor
-#FLUX: --urgency=16
+#FLUX --job-name=melt
+#FLUX --queue=gor
+#FLUX --urgency=16
 
 module load singularity gnu8 openmpi3
 rm -rf out

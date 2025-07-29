@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poodle-0979
-#FLUX: -N=2
-#FLUX: --queue=nvgpu
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=nvgpu
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MIMALLOC_EAGER_COMMIT_DELAY='0'

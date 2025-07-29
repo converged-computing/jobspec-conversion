@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=40
-#FLUX: --queue=savio
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --account=fc_paciorek
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=savio
+#SBATCH --licenses=mdcs:40
 
 export MDCE_OVERRIDE_EXTERNAL_HOSTNAME='$(/bin/hostname -f)'
 

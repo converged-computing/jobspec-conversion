@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-buttface-9575
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=./logs/singleFit-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 export PYTHONUNBUFFERED='TRUE'
 

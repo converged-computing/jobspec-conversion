@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pancake-3947
-#FLUX: -c=2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-nunchucks-4484
+#FLUX -c=2
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load singularity/3.8
 module load gcc/9.3.0

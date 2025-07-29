@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fpgasyn
 
 INTEL_SDK=21.2.0
 INTEL_BSP=20.4.0

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BE_LC_s1
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BE_LC_s1
+#SBATCH --output=srun_outputs/BE_s1_LC_rn50_decur_1_%j.out
+#SBATCH --error=srun_outputs/BE_s1_LC_rn50_decur_1_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'

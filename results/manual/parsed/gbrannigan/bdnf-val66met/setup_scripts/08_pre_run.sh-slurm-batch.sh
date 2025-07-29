@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=V4
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=V4
+#SBATCH --output=stam.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='15'

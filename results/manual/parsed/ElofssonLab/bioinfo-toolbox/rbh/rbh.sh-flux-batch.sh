@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-9265
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-plant-9554
+#FLUX -c=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1
 ml Python/3.6.6

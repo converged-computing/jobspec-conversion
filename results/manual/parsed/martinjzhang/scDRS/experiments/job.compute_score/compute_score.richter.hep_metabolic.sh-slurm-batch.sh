@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-7841
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --output=/n/home11/mjzhang/gwas_informed_scRNAseq/scDRS/experiments/job_info/job_%A_%a.out
+#SBATCH --error=/n/home11/mjzhang/gwas_informed_scRNAseq/scDRS/experiments/job_info/job_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16000
+#SBATCH --time=00:01:00
+#SBATCH --partition=shared
+#SBATCH --array=0
 
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad
 GS_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/gs_file/ploidy.gs

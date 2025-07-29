@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TCRunner
-#FLUX: -n=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=TCRunner
+#FLUX -n=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load julia/1.10.1

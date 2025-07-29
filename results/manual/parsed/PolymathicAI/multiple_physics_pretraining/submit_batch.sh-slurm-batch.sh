@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=demo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,h100
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='6'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-0114
-#FLUX: -n=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=C3SE2021-1-16
+#SBATCH --output=out.txt
+#SBATCH --mail-user=feiranl@chalmers.se
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 module load GCCcore/8.3.0
 module load MATLAB intel/2018b GMP

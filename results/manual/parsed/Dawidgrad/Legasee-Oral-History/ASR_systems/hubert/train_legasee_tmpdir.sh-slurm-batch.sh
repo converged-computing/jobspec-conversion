@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-arm-9057
-#FLUX: --queue=dcs-gpu
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --account=dcs-res
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=190G
+#SBATCH --time=3-08:00:00
+#SBATCH --partition=dcs-gpu
 
 export CXX='g++'
 

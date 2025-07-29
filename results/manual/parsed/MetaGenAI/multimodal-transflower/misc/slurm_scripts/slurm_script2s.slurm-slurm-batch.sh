@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grated-animal-9926
-#FLUX: -c=6
-#FLUX: --exclusive
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=imi@gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --time=20:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_PORT='1234'
 export MASTER_ADDRESS='$(echo $slurm_nodes | cut -d' ' -f1)'

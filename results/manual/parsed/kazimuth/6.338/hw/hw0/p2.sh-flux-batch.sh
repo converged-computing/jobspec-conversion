@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-8788
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-pedo-6420
+#FLUX -N=10
+#FLUX -n=10
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia-1.0

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=DP-pI-144
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=7
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=DP-pI-144
+#FLUX -N=4
+#FLUX -n=16
+#FLUX -c=7
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

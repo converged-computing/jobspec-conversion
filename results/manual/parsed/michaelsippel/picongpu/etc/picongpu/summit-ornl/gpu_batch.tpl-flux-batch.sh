@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-parrot-6340
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-caramel-5900
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/michaelsippel/picongpu/etc/picongpu/summit-ornl/gpu_batch.tpl

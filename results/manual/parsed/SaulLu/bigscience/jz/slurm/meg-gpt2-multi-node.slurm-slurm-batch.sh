@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=meg_gpt2_multi_node
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=meg_gpt2_multi_node
+#SBATCH --account=six@gpu
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.launch \'
 export CMD=' \'

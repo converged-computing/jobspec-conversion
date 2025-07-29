@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kerfuffle-9743
-#FLUX: -c=64
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-cherry-3085
+#FLUX -c=64
+#FLUX --queue=short
+#FLUX --urgency=16
 
 CPU=2
 if [ $SLURM_CPUS_ON_NODE ]; then

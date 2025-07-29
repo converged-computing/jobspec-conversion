@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-13b
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#SBATCH --job-name=cpt-13b
+#SBATCH --output=logs/%x-%j.log
+#SBATCH --error=logs/%x-%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=MoE
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/anaconda3/bin/activate smoe
 {

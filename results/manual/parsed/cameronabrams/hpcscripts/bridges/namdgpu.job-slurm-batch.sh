@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-gato-0748
-#FLUX: --queue=GPU
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPU
+#SBATCH --constraint=ntasks-per-node=40
 
 set echo
 set -x

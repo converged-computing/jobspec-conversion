@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=iCLIPv3.0.1
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=norm
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=iCLIPv3.0.1
+#FLUX -n=8
+#FLUX -c=8
+#FLUX --queue=norm
+#FLUX -t=50400
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='$PWD/.singularity'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cupcake-9976
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=salted-squidward-8457
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python task_a.py \
     --mode symmetric \

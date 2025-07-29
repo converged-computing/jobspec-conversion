@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lno-scf
-#FLUX: --queue=ccq
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lno-scf
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=ccq
+#SBATCH --constraint=ntasks-per-node=32,rome
 
 export OMP_NUM_THREADS='4'
 

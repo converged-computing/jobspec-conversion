@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-signal-8992
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-house-1907
+#FLUX --queue=gpuA100x4
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge 
 module list  

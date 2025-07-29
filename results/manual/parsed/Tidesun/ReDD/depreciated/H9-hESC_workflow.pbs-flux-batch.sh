@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-6902
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-arm-3111
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.6-conda5.2
 source activate AIediting

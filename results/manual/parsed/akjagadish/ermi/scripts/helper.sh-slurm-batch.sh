@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama
-#FLUX: -c=72
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=llama
+#SBATCH --output=./logs/%A.out
+#SBATCH --error=./logs/%A.err
+#SBATCH --mail-user=akshaykjagadish@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=240G
+#SBATCH --time=00:15:00
+#SBATCH --constraint=gpu
 
 cd ~/ermi/
 module purge

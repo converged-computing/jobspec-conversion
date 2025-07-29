@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MD_Vol
-#FLUX: -n=16
-#FLUX: --queue=univ
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=MD_Vol
+#SBATCH --output=Zr54_sm_tot.%J.out
+#SBATCH --error=Zr54_sm_tot.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=univ
+#SBATCH --constraint=ntasks-per-node=16
 
 echo "Using ACI / HCP / Slurm cluster."
 echo "JobID = $SLURM_JOB_ID"
@@ -13,3 +17,4 @@ echo "Number of cores per node: $SLURM_TASKS_PER_NODE"
 echo "Submit directory: $SLURM_SUBMIT_DIR"
 echo ""
 mpiexec /usr/lammps-31Jan14/src/lmp_linux
+< Zr54_sm_tot.in

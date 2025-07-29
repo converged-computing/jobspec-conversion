@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amd-e{}
-#FLUX: -c=4
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=amd-e{}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:mi50:1
+#SBATCH --mem=30GB
+#SBATCH --time=1-12:00:00
 
 module purge
 singularity exec --nv \

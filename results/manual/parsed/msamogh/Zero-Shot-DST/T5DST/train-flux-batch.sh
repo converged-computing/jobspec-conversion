@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-destiny-2489
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=blank-pedo-1458
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 echo wassup
 nvidia-smi

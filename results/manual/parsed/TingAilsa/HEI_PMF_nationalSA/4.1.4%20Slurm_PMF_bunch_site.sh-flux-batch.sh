@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=S_15t1mdl_0unc
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=S_15t1mdl_0unc
+#FLUX --queue=normal
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export LANG='C.UTF-8'
 export CONTAINER='${SINGULARITY_BASE}/wine/wine.sif'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-train-7358
-#FLUX: --urgency=16
+#FLUX --job-name=blank-fudge-4988
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/svn2github/qmcpack/qmcpack-coral/coral/titan.gpu.pbs

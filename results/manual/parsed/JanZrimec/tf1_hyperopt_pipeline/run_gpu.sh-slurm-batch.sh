@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-car-7700
-#FLUX: -n=32
-#FLUX: --queue=vera
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=C3SE2022-1-14
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=vera
 
 source $HOME/loadenv_gpu.sh
 cd /c3se/users/zrimec/Vera/projects/DeepExpression/2019_3_46

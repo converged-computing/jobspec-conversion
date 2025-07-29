@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NAMD-cpu
-#FLUX: -c=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=NAMD-cpu
+#FLUX -c=10
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load namd/3.06b.cpu
 cd $SLURM_SUBMIT_DIR

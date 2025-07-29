@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=merger
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: --queue=fuchs
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=merger
+#FLUX -N=2
+#FLUX -n=20
+#FLUX --queue=fuchs
+#FLUX -t=288000
+#FLUX --urgency=16
 
 modus="run"
 reffasta="/scratch/fuchs/agchiocchetti/public/refdata/hg38.fa"

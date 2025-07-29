@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=IND_BIAS
-#FLUX: -c=2
-#FLUX: --queue=meta_gpu-ti
-#FLUX: -t=950400
-#FLUX: --urgency=16
+#FLUX --job-name=IND_BIAS
+#FLUX -c=2
+#FLUX --queue=meta_gpu-ti
+#FLUX -t=950400
+#FLUX --urgency=16
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

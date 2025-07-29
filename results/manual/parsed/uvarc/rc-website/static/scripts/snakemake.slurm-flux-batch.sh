@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-squidward-8902
-#FLUX: -n=9
-#FLUX: --queue=standard
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=blank-animal-8770
+#FLUX -n=9
+#FLUX --queue=standard
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load anaconda

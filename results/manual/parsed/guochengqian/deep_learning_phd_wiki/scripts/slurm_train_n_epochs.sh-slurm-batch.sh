@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pancake-1442
-#FLUX: --urgency=16
+#SBATCH --output=slurm_logs/%x.%3a.%A.out
+#SBATCH --error=slurm_logs/%x.%3a.%A.err
+#SBATCH --mail-user=guocheng.qian@kaust.edu.sa
+#SBATCH --mail-type=FAIL,TIME_LIMIT,TIME_LIMIT_90
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export PRETRAIN='$OUTPUT_DIR/$JOB_NAME/checkpoint/$JOB_NAME_${CURRENT_EPOCH}.pth'
 

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=infer-pixelsum
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=infer-pixelsum
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=70000M
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 export ENCODER='Team-PIXEL/pixel-base'
 export DECODER='gpt2'

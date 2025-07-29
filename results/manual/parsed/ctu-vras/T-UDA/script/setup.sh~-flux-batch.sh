@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chair-1491
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-kitty-8952
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 python train.py configs/semantic_kitti/spvcnn/cr0p5.yaml --distributed False

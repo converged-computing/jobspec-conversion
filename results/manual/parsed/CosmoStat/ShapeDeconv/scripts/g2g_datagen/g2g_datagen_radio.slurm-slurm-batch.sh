@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_mono
-#FLUX: -c=30
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_mono
+#SBATCH --output=meerkat_3600%j.out
+#SBATCH --error=meerkat_3600%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
 
 export OMP_NUM_THREADS='30'
 

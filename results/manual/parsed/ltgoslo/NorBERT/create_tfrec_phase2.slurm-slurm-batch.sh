@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=BERT_TFR
-#FLUX: -n=8
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=BERT_TFR
+#SBATCH --account=nn9447k
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=15:00:00
 
 export MAX_PR='77 # max predictions per sequence'
 export MAX_SEQ_LEN='512 # max sequence length (128 for the 1st phase, 512 for the 2nd phase)'

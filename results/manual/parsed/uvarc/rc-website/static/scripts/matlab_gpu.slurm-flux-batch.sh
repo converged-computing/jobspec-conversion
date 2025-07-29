@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-rabbit-1004
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-despacito-0349
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo 'slurm allocates gpus ' $CUDA_VISIBLE_DEVICES
 module load matlab/R2020a

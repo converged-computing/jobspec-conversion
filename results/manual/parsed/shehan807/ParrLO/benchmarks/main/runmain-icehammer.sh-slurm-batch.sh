@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ParrLO
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --urgency=16
+#SBATCH --job-name=ParrLO
+#SBATCH --output=./run.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --mem=8gb
+#SBATCH --nodelist=ice[192,193]
 
 module load cuda/11.1.1
 module load cmake/3.20.3

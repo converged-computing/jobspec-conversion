@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dqn_atari
-#FLUX: -n=32
-#FLUX: --urgency=16
+#SBATCH --job-name=dqn_atari
+#SBATCH --output=slurm_logs/dqn_atari_%j.txt
+#SBATCH --error=slurm_errors/dqn_atari_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

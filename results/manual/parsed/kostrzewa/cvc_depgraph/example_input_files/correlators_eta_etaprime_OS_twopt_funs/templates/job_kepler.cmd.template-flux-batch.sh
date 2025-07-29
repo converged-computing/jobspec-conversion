@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=twopt_funs_cA211a.30.32__NSTORE_
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: --queue=kepler
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=twopt_funs_cA211a.30.32__NSTORE_
+#FLUX -N=2
+#FLUX -c=2
+#FLUX --queue=kepler
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/kepler_v0.9.0-724-g405d5bf1-dynamic_clover_gdr${gdr}_p2p${p2p}'
 

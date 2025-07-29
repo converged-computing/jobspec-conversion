@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_mpi
-#FLUX: -N=2
-#FLUX: --queue=workq
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps_mpi
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=workq
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load lammps

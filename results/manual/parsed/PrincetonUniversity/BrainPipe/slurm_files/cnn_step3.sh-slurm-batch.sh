@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-house-2783
-#FLUX: -c=10
-#FLUX: --queue=all
-#FLUX: -t=6000
-#FLUX: --urgency=16
+#SBATCH --output=logs/array_jobs/cnn_step3_job%a_%j.out
+#SBATCH --error=logs/array_jobs/cnn_step3_job%a_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=100000
+#SBATCH --time=01:40:00
+#SBATCH --partition=all
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-muffin-0832
-#FLUX: -n=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-latke-5451
+#FLUX -n=6
+#FLUX --queue=dgx2q
+#FLUX -t=87840
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

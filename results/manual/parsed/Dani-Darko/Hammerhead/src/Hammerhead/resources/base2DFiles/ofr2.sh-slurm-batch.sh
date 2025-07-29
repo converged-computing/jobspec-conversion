@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PipeFlow_%a
-#FLUX: -n=32
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --job-name=PipeFlow_%a
+#SBATCH --account=scw1706
+#SBATCH --error=PipeFlow.err.%a
+#SBATCH --mail-user=2115589@swansea.ac.uk
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=00:00:10
 
 filename="${SLURM_ARRAY_TASK_ID}"
 cd $HOME/laminar/medMesh

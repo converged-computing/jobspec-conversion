@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sat_training2
-#FLUX: -n=28
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=sat_training2
+#SBATCH --output=resnext32_training_res.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 pwd
 module load shared

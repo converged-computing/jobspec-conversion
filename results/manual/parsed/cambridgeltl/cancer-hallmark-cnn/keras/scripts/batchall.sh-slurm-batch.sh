@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-general-1554
-#FLUX: --queue=tesla
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=COLLIER-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=tesla
 
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32'
 

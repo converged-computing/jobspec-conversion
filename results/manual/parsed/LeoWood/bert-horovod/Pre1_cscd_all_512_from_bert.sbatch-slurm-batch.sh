@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pre_1
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=pre_1
+#SBATCH --output=Pre1.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=dcu:4
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'
 export MIOPEN_DEBUG_DISABLE_FIND_DB='1'

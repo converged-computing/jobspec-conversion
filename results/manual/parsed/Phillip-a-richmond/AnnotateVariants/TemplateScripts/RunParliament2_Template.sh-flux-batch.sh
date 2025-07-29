@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-9380
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=faux-citrus-0216
+#FLUX -c=20
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load singularity
 ANNOTATEVARIANTS_INSTALL=annotatevariants_install

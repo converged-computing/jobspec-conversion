@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cupcake-9491
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=165600
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-platanos-5591
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=165600
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate brainseg

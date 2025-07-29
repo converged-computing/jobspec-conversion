@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=submission
-#FLUX: -n=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=submission
+#SBATCH --output=result.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module use /usr/local.nfs/sgs/modulefiles
 module load vtk/8.2

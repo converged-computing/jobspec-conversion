@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-blackbean-5661
-#FLUX: --exclusive
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=03:00:00
+#SBATCH: --exclusive
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

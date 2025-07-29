@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pedo-1147
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=240
-#FLUX: --urgency=16
+#SBATCH --output=spa_%j.out
+#SBATCH --error=spa_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=00:04:00
+#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

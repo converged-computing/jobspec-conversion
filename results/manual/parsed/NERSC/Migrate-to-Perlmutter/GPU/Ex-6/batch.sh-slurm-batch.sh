@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lamp-0804
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=xxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --constraint=gpu
 
 module load PrgEnv-nvidia
 make clean ; make

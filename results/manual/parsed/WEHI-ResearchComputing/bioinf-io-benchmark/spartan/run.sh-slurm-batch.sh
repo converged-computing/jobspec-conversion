@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bioinf benchmark
-#FLUX: -n=20
-#FLUX: --queue=physical
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=bioinf benchmark
+#SBATCH --account=punim0930
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=physical
 
 WORK_DIR=/scratch/punim0930/evan/bioinf-io-benchmark
 cd $WORK_DIR

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-chip-8647
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-avocado-0580
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load perl/5.22.1
 echo "SLURM_JOBID: " $SLURM_JOBID

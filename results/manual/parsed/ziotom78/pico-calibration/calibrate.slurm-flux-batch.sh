@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pico-calibration
-#FLUX: -N=80
-#FLUX: --queue=debug
-#FLUX: -t=1199
-#FLUX: --urgency=16
+#FLUX --job-name=pico-calibration
+#FLUX -N=80
+#FLUX --queue=debug
+#FLUX -t=1199
+#FLUX --urgency=16
 
 export PYTHONPATH=''
 

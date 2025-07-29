@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=confused-salad-9378
-#FLUX: --queue=week-long-std
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=output-%j.log
+#SBATCH --error=error-%j.log
+#SBATCH --mail-user=co.d.quach@vanderbilt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=week-long-std
 
 {% extends "slurm.sh" %}
 {% block header %}

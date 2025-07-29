@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=gtest
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=gtest
+#FLUX --urgency=16
 
 module load intel/2018
 module load nvidia/cuda/10.0

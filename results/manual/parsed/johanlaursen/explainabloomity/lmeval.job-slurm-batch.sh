@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=phat-eagle-0004
-#FLUX: -c=8
-#FLUX: --queue=red,brown
-#FLUX: -t=44100
-#FLUX: --urgency=16
+#SBATCH --account=researchers
+#SBATCH --output=logs/lmeval/R-%x.%j.out
+#SBATCH --error=logs/lmeval/R-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=12:15:00
+#SBATCH --partition=red,brown
+#SBATCH --constraint=gpu_rtx8000|gpu_a100_40gb|gpu_v100
+#SBATCH --dependency=afterok:176233:176234:176235
 
 nvidia-smi
 module load Anaconda3

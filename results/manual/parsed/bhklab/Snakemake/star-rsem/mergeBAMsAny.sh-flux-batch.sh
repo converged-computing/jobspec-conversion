@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mergeBAMs
-#FLUX: --queue=all
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=mergeBAMs
+#FLUX --queue=all
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load samtools
 fn=$1

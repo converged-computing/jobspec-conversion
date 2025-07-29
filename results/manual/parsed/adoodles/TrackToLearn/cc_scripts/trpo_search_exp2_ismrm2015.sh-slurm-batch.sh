@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-gato-8573
-#FLUX: -c=12
-#FLUX: -t=519780
-#FLUX: --urgency=16
+#SBATCH --account=$SALLOC_ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000M
+#SBATCH --time=6-00:23:00
 
 export DISPLAY=':0'
 

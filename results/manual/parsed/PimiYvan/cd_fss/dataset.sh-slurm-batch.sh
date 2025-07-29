@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia_smi
-#FLUX: -c=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=nvidia_smi
+#SBATCH --account=def-menna
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=5G
+#SBATCH --time=00:05:00
 
 export CUDA_AVAILABLE_DEVICES='0  # 0,1 if you want to use say 2 gpus you ask for'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mia_covid
-#FLUX: --queue=clara
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mia_covid
+#SBATCH --output=./output/%A-mia_covid-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=clara
 
 case $SLURM_ARRAY_TASK_ID in
   1)

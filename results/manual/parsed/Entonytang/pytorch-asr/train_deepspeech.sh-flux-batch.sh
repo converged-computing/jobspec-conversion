@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=jbaik
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=jbaik
+#FLUX -N=2
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export MASTER_ADDR='172.30.1.237'

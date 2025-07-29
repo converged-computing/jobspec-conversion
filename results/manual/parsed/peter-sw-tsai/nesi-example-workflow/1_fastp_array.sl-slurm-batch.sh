@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fastp_array
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fastp_array
+#SBATCH --account=uoa00571
+#SBATCH --output=logs/fastp/fastp_%a.out
+#SBATCH --error=logs/fastp/fastp_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=6G
+#SBATCH --time=01:00:00
 
 module purge
 module load fastp/0.23.4-GCC-11.3.0

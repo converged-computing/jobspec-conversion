@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark_gpu
-#FLUX: -c=8
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=benchmark_gpu
+#FLUX -c=8
+#FLUX --queue=savio2_1080ti
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fork-7872
-#FLUX: -n=6
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-butter-1590
+#FLUX -n=6
+#FLUX --queue=test
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LOCAL_LD_LIBRARY_PATH='/apps/eb/software/OpenMPI/4.1.0-iccifort-2018.3.222-GCC-7.3.0-2.30/lib:\$LD_LIBRARY_PATH'
 export BIND_OPT='-B /apps/eb'

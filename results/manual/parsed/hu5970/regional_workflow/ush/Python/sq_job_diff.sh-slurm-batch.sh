@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=plot_allvars_diff
-#FLUX: -n=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=plot_allvars_diff
+#SBATCH --account=an_account
+#SBATCH --output=plot_allvars.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=batch
 
 export GLOBAL_VAR_DEFNS_FP='${EXPTDIR1}/var_defns.sh'
 export CDATE='${DATE_FIRST_CYCL}${CYCL_HRS}'

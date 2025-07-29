@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leg-7301
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-milkshake-0154
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=86340
+#FLUX --urgency=16
 
 module load cuda/11.2
 module load python

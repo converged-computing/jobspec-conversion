@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=zz11
-#FLUX: --queue=largemem512GB
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=zz11
+#SBATCH --account=tagmap
+#SBATCH --output=zz11.o%j
+#SBATCH --error=zz11.e%j
+#SBATCH --mail-user=matz@utexas.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=largemem512GB
 
 export FILTERS='-uniqueOnly 1 -remove_bads 1 -skipTriallelic 1 -minMapQ 20 -minQ 20 -dosnpstat 1 -doHWE 1 -maxHetFreq 0.5 -sb_pval 1e-5 -hetbias_pval 1e-5 -minInd 152 -snp_pval 1e-5 -minMaf 0.01 '
 export TODO8='-doMajorMinor 1 -doMaf 1 -doCounts 1 -makeMatrix 1 -doIBS 1 -doCov 1 -doGeno 8 -doPost 1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pre_snp_calling
-#FLUX: -c=16
-#FLUX: --queue=himem
-#FLUX: --urgency=16
+#FLUX --job-name=pre_snp_calling
+#FLUX -c=16
+#FLUX --queue=himem
+#FLUX --urgency=16
 
 InputSam=$1
 Prefix=$2

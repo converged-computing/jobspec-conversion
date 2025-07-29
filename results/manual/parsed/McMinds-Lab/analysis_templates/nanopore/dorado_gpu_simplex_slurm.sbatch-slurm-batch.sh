@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pedo-2634
-#FLUX: --queue=rra
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=175G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=rra
+#SBATCH --qos=rra
 
 module purge
 module load apps/cuda/11.3.1

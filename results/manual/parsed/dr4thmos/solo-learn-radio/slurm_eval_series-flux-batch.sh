@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-1837
-#FLUX: -c=16
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=angry-hippo-8709
+#FLUX -c=16
+#FLUX --queue=boost_usr_prod
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export WORLD_SIZE='$((GPUS_PER_NODE * SLURM_NNODES))'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nf_test
-#FLUX: --urgency=16
+#FLUX --job-name=nf_test
+#FLUX --urgency=16
 
 hostname
 whoami

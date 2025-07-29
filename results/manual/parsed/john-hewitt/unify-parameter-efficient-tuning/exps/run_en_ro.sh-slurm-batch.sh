@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tran
-#FLUX: -c=3
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=tran
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=30g
 
 export TRANSFORMERS_CACHE='checkpoints/hf_model'
 export HF_DATASETS_CACHE='checkpoints/hf_model'

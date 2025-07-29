@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-truffle-7565
+#FLUX --job-name=lovable-gato-5449
 #FLUX: --exclusive
-#FLUX: --queue=k80_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=k80_q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load singularity/3.3.0

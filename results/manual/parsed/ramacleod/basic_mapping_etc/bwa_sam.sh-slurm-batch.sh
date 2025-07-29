@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-blackbean-0032
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=12G
+#SBATCH --partition=medium
+#SBATCH --array=0-67
 
 RC=(*.collapsed.gz)
 R1=${RC[$SLURM_ARRAY_TASK_ID]%.collapsed.gz}.pair1.truncated.gz

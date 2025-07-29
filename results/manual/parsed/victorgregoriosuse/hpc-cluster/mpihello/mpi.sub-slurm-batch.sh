@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=testing
-#FLUX: -n=10
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=testing
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=normal
 
 source /usr/share/spack/setup-env.sh
 spack load openmpi

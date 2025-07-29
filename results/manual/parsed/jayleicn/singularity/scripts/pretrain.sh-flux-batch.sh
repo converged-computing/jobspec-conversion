@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sl_pt
-#FLUX: -c=16
-#FLUX: --queue=XXX
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=sl_pt
+#FLUX -c=16
+#FLUX --queue=XXX
+#FLUX -t=518400
+#FLUX --urgency=16
 
 exp_name=$1  # note we added ${corpus} prefix automatically
 corpus=$2  # coco_vg, 4m, ...

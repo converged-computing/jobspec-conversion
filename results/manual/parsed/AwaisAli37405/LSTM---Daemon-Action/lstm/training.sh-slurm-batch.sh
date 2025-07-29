@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=special_permitl
-#FLUX: -c=2
-#FLUX: --queue=amd
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#SBATCH --job-name=special_permitl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=8-00:00:00
+#SBATCH --partition=amd
+#SBATCH --array=0-2%1
 
 module load any/python/3.8.3-conda
 conda activate lstm-caise23

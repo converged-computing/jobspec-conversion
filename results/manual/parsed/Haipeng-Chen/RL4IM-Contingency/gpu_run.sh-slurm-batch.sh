@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=placid-leopard-7799
-#FLUX: --queue=Your_partition
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --output=output/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000
+#SBATCH --time=00:12:00
+#SBATCH --partition=Your_partition
 
 T=8
 BUDGET=4

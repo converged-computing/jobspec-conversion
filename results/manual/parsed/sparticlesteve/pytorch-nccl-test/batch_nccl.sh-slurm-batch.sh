@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-salad-5323
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=slurm-nccl-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'
 

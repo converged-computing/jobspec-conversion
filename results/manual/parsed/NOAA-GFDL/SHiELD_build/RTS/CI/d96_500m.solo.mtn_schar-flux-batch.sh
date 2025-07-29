@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leg-2277
-#FLUX: -n=24
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-parrot-7943
+#FLUX -n=24
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='256m'
 

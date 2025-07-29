@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train-ecg
-#FLUX: -c=8
-#FLUX: --queue=dgx2q
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=train-ecg
+#FLUX -c=8
+#FLUX --queue=dgx2q
+#FLUX -t=28800
+#FLUX --urgency=16
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

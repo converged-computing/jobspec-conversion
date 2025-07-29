@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=comp_paris
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=comp_paris
+#SBATCH --output=comp_paris-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 ml purge
 ml Nextflow/20.10.0

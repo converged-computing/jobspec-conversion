@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=genotype
-#FLUX: -n=4
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=genotype
+#SBATCH --mail-user=arrice@ttu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=quanah
+#SBATCH --chdir=./
+#SBATCH --array=1-38
 
 module load intel/18.0.3.222 bcftools/1.9
 module load intel R

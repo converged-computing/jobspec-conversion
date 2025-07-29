@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-signal-8583
-#FLUX: -c=16
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --mail-user=abeukers@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=1-16:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=2
 
 wd_dir="/tigress/abeukers/wd/w2v"
 module load anaconda3/4.4.0

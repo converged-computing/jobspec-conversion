@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=$4
-#FLUX: --queue=si
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=$4
+#FLUX --queue=si
+#FLUX -t=864000
+#FLUX --urgency=16
 
 CUR_DATA_DIR=$DATA_DIR
 port=$(($(date +%N)%30000))

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PERTTI_reg
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=PERTTI_reg
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load gcc cuda python-env/3.6.3-ml

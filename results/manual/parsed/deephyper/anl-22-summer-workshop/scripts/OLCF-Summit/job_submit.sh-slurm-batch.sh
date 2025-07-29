@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-kitty-7274
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/deephyper/anl-22-summer-workshop/scripts/OLCF-Summit/job_submit.sh

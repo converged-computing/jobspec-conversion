@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cherry-1273
-#FLUX: -c=6
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --partition=compute
 
 your_folder=/share/home/xudeshu/ #本人所在的根目录
 input_folder=/data/xudeshu/HSCR_bulk_RNA_data/ # 原始数据目录

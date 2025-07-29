@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cap_scan
-#FLUX: -c=8
-#FLUX: --queue=main
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cap_scan
+#SBATCH --mail-user=jansea92@zedat.fu-berlin.de
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=1000
+#SBATCH --time=00:10:00
+#SBATCH --partition=main
+#SBATCH --qos=hiprio
 
 export GMXLIB='/home/jansea92/GROLIB/top'
 export TMPDIR='/scratch/$USER/qmmm/tmp.$SLURM_JOBID'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conf-bo
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=conf-bo
+#FLUX -c=4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PATH='/ext3/miniconda3/envs/conf-bo-env/bin:${PATH}'
 

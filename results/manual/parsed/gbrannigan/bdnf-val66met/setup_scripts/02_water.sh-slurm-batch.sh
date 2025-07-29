@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=V4
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=V4
+#SBATCH --output=stam.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
 
 export GMX_MAXBACKUP='-1'
 

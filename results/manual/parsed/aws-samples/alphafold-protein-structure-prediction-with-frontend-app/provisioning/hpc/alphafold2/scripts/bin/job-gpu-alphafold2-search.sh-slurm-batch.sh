@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-1760
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/alphafold2/job/log/slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
 
 AF_PATH=/fsx/alphafold2/alphafold/
 DB_PATH=/fsx/alphafold2/database/

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-egg-4652
-#FLUX: --queue=small-g
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=small-g
 
 export HCC_AMDGPU_TARGET='`rocminfo |grep -m 1 -E gfx[^0]{1} | sed -e 's/ *Name: *\(gfx[0-9,a-f]*\) *$/\1/'`'
 

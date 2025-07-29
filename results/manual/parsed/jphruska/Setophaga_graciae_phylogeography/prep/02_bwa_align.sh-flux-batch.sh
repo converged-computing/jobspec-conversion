@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=setophaga_bam
-#FLUX: -n=12
-#FLUX: --queue=quanah
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=setophaga_bam
+#FLUX -n=12
+#FLUX --queue=quanah
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/lustre/work/johruska/singularity-cachedir'
 

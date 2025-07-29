@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PkgCompiler
-#FLUX: -n=5
-#FLUX: --queue=public
-#FLUX: -t=2100
-#FLUX: --urgency=16
+#SBATCH --job-name=PkgCompiler
+#SBATCH --output=logs/ABC/pkgcomp/o.%x-%A.o
+#SBATCH --error=logs/ABC/pkgcomp/o.%x-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:35:00
+#SBATCH --partition=public
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

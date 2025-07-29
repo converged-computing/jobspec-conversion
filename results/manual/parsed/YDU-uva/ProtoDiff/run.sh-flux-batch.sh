@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hobbit-7434
-#FLUX: -n=18
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-poo-3687
+#FLUX -n=18
+#FLUX --queue=gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 python train_1.py --gpu 0
 python train_5.py --gpu 0

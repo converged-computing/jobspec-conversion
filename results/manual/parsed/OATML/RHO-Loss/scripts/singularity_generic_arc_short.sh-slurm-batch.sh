@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pedo-6954
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 set -e # fail fully on first line failure
 echo "Running on $(hostname)"

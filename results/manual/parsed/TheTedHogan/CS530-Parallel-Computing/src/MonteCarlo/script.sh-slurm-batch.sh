@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-gato-6722
-#FLUX: --queue=classroom
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=./out/output.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=classroom
 
 BATCH -J GroupC
 module load gcc/10.2.0

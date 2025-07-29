@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=xarray
-#FLUX: -c=2
-#FLUX: --queue=prepost
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=xarray
+#SBATCH --account=your_account
+#SBATCH --output=xarray_%j.out
+#SBATCH --error=xarray_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=20:00:00
+#SBATCH --partition=prepost
 
 cd /path/to/your/scratch/folder
 module purge

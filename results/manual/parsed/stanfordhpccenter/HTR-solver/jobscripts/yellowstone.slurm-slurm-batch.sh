@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prometeo
-#FLUX: --urgency=16
+#SBATCH --job-name=prometeo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [[ "$QUEUE" == "compute" ]]; then
    USE_CUDA=0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-poodle-1105
-#FLUX: --queue=ccb
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-underoos-2033
+#FLUX --queue=ccb
+#FLUX -t=432000
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate stan

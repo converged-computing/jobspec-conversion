@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-arm-9042
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 export PATH='~/.local/bin:$PATH'
 

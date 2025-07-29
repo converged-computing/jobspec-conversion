@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-omelette-7715
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-lemon-3517
+#FLUX -t=86400
+#FLUX --urgency=16
 
 KERAS_BACKEND=tensorflow
 declare -a tl_modes=("fine_tuning" "off_the_shelf" "random") #The three pre-training approaches investigated in the paper

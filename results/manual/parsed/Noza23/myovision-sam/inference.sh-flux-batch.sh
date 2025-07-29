@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=multi-gpu-training
-#FLUX: --queue=
-#FLUX: --urgency=16
+#FLUX --job-name=multi-gpu-training
+#FLUX --queue=
+#FLUX --urgency=16
 
 singularity exec --pwd $(pwd) --nv \
   -B /myovision:/mnt \

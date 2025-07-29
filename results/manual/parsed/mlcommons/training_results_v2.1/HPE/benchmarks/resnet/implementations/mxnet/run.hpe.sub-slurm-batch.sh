@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MLPerf21-resnet50
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: --urgency=16
+#SBATCH --job-name=MLPerf21-resnet50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=mlperf
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8,ntasks-per-socket=4
 
 export LOGDIR='${curDir}/logs/${SLURM_JOB_ID} #/lvol/logs/shm2'
 

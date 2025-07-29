@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=GEM
-#FLUX: --queue=batch
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=GEM
+#SBATCH --output=GEM.%j.out
+#SBATCH --error=GEM.%j.err
+#SBATCH --mail-user=ahc87874@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30000
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --array=1-22
 
 i=$SLURM_ARRAY_TASK_ID
 cd /scratch/ahc87874/Replication

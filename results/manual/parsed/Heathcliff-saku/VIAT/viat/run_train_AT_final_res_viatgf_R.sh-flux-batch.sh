@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-car-5659
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-cherry-6359
+#FLUX --urgency=16
 
 module load anaconda/2020.11
 source activate fastNeRF

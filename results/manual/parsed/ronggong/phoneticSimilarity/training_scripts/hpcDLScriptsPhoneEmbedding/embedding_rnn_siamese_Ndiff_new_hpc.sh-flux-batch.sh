@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=emb_nd_5
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=emb_nd_5
+#FLUX --queue=high
+#FLUX --urgency=16
 
 export PATH='/homedtic/rgong/anaconda2/bin:$PATH'
 

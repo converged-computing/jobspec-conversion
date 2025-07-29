@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IORtest
-#FLUX: -n=100
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=IORtest
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 export SCRATCH='/scratch/$USER/${SLURM_JOB_NAME:?}'
 

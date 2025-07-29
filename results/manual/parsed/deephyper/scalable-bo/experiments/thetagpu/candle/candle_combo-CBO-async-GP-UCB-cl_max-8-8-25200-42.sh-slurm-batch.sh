@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leg-5840
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

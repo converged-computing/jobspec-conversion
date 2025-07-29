@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=project_2002820
+#SBATCH --output=/scratch/project_2002820/lihsin/eb_class/output/%j.out
+#SBATCH --error=/scratch/project_2002820/lihsin/eb_class/output/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
 
 export SING_IMAGE='$(pwd)/eb_class_latest.sif'
 export TRANSFORMERS_CACHE='$(realpath cache)'

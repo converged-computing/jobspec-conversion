@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-squidward-7163
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HI2018HLT/JetTriggers/17563_ParallelRun/Template.sh

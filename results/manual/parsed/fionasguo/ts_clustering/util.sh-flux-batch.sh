@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-onion-4268
-#FLUX: -c=40
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-animal-3371
+#FLUX -c=40
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nas/home/siyiguo/anaconda3/lib'
 

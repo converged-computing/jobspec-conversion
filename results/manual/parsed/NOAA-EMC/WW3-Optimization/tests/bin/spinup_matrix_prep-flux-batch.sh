@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-toaster-7245
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-itch-1519
+#FLUX --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

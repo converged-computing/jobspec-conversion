@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mugi_pipeline
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=mugi_pipeline
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load miniconda/3
 conda init

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cyclegan_a2r
-#FLUX: -c=6
-#FLUX: --queue=aquila
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=cyclegan_a2r
+#FLUX -c=6
+#FLUX --queue=aquila
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module purge
 module load anaconda3

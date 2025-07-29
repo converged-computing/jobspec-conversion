@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=simulate_data
-#FLUX: -n=9
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=simulate_data
+#SBATCH --output=slurmout/simulate_data_%A_%a.out
+#SBATCH --error=slurmout/simulate_data_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=9000
+#SBATCH --time=15:00:00
 
 start=`date +%s`
 echo $HOSTNAME

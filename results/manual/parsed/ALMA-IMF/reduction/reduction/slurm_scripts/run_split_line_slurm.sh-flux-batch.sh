@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=split_line
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=split_line
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export ALMAIMF_ROOTDIR='/orange/adamginsburg/ALMA_IMF/reduction/reduction'
 export SCRIPT_DIR='$ALMAIMF_ROOTDIR'

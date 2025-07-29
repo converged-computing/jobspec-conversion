@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-0522
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-sundae-9522
+#FLUX --urgency=16
 
 export TOOLS_HOME='$HOME/bin'
 export CONFIG_FILE='$TOOLS_HOME/CONFIG.default'

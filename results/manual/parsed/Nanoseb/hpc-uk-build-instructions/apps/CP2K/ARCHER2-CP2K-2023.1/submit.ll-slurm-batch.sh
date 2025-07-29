@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=build_cp2k
-#FLUX: -n=8
-#FLUX: --queue=serial
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=build_cp2k
+#SBATCH --account=<project
+#SBATCH --output=build_cp2k.o%j
+#SBATCH --error=build_cp2k.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=serial
+#SBATCH --qos=serial
 
 export OMP_NUM_THREADS='1'
 export FCFLAGS='-fallow-argument-mismatch'

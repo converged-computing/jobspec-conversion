@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=0_$OUTNAME_$COMPOUND
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=0_$OUTNAME_$COMPOUND
+#SBATCH --output=mpi_0_$OUTNAME_$COMPOUND.out
+#SBATCH --error=mpi_0_$OUTNAME_$COMPOUND.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --qos=$QOS_bscls
 
 module purge
 module load anaconda

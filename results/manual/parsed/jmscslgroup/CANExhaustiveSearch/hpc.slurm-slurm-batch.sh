@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CAN_EXHAUSTIVE
-#FLUX: -c=70
-#FLUX: --queue=standard
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=CAN_EXHAUSTIVE
+#SBATCH --account=sprinkjm
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=70
+#SBATCH --mem=300gb
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=user_qos_sprinkjm
 
 pwd; hostname; date
 now=$(date +"%Y_%m_%d_%H_%M_%S")

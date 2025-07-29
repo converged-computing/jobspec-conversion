@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=evalopenclip
-#FLUX: --exclusive
-#FLUX: --queue=learnfair
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=evalopenclip
+#SBATCH --output=/data/home/amroabbas/projects/open_clip/src/jobs/eval.%j_%A.out
+#SBATCH --error=/data/home/amroabbas/projects/open_clip/src/jobs/eval.%j_%A.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:25:00
+#SBATCH --partition=learnfair
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=18-36:2
 
 export MASTER_PORT='12802'
 export PYTHONFAULTHANDLER='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-egg-2128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-chair-8236
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export CUDNN_PATH='$HOME/.conda/envs/TF_KERAS_3_GPU/lib/python3.10/site-packages/nvidia/cudnn'
 export LD_LIBRARY_PATH='$CUDNN_PATH/lib:$HOME/TensorRT-8.6.1.6/lib:$LD_LIBRARY_PATH'

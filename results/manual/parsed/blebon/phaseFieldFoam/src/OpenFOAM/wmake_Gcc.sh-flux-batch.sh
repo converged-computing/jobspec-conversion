@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=OF10_GccOpt_wmake_libso_OpenFOAM
-#FLUX: --queue=infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=OF10_GccOpt_wmake_libso_OpenFOAM
+#FLUX --queue=infer
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export WM_NCOMPPROCS='160'
 

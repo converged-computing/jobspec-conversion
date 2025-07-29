@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=BNSKa.job
-#FLUX: --queue=shared
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BNSKa.job
+#SBATCH --account=umn131
+#SBATCH --output=BNSKa%A_%a.out
+#SBATCH --error=BNSKa%A_%a.err
+#SBATCH --mail-user=thomas.hussenot@ijclab.in2p3.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --time=01:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=32
 
 export LD_LIBRARY_PATH='/home/thussenot/MultiNest/lib/:$LD_LIBRARY_PATH'
 

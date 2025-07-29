@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-avocado-1239
-#FLUX: --queue=ccr
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=red-taco-5750
+#FLUX --queue=ccr
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -e
 module load python/3.5

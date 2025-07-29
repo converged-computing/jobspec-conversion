@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vmd@1.9.3
-#FLUX: -c=16
-#FLUX: --queue=ind-shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=vmd@1.9.3
+#FLUX -c=16
+#FLUX --queue=ind-shared
+#FLUX -t=7200
+#FLUX --urgency=16
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

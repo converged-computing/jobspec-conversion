@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cattywampus-0302
-#FLUX: -c=48
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
 
 cd /gpfs/projects/bsc40/current/mschiavi/jloh/scripts/wf-sim_data
 module load gcc/7.2.0 hisat2/2.1.0 samtools/1.13 bcftools/1.8 htslib/1.8 bedtools/2.29.2

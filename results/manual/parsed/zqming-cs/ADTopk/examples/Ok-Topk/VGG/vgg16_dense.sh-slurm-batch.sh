@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-8136
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --output=16nodes_vgg_dense.txt
+#SBATCH --nodes=16
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=12
+#SBATCH --time=02:30:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 conda activate py39
 which nvcc

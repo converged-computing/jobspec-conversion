@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=neuron-coreneuron-stack
-#FLUX: --exclusive
-#FLUX: --queue=interactive
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=neuron-coreneuron-stack
+#SBATCH --account=proj16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=interactive
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export TAU_OPTIONS='-optPDTInst -optNoCompInst -optRevert -optVerbose -optTauSelectFile=~/spackconfig/nrnperfmodels.tau'
 

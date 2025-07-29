@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=myJob
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=myJob
+#SBATCH --output=/h/ccremer/Documents/VAE2_exps/slurm_outputs/slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=3GB
+#SBATCH --partition=gpu
 
 export PATH='$PATH:/h/ccremer/anaconda3/bin'
 

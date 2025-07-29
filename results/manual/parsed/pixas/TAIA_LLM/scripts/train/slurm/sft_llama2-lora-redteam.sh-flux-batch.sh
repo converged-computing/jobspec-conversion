@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sft_llama
-#FLUX: -c=16
-#FLUX: --queue=partition
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sft_llama
+#FLUX -c=16
+#FLUX --queue=partition
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='ERROR'

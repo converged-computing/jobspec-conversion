@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-omelette-4375
-#FLUX: -n=4
-#FLUX: --queue=GPU
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=GPU
+#SBATCH --constraint=ntasks-per-node=2
 
 SINGULARITYENV_LD_LIBRARY_PATH=/opt/openmpi/lib
 SINGULARITYENV_PREPEND_PATH=/opt/openmpi/bin

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=catboost
-#FLUX: --queue=regular
-#FLUX: -t=72600
-#FLUX: --urgency=16
+#SBATCH --job-name=catboost
+#SBATCH --account=m1248
+#SBATCH --output=IOD-train-xgb-catboost.%j.out
+#SBATCH --error=IOD-train-xgb-catboost.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:10:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
 
 module load python3/3.9-anaconda-2021.11
 module list

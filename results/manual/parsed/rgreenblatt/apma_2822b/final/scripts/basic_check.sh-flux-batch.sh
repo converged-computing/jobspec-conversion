@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bits-3199
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-hope-3117
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load cuda/10.0.130
 module load mpi/mvapich2-2.3b_gcc

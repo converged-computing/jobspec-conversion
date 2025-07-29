@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nnqs_phase_sweep
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nnqs_phase_sweep
+#SBATCH --output=nnqs_phase_sweep_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2GB
+#SBATCH --time=02:00:00
+#SBATCH --array=1-4
 
 module load anaconda gcc openmpi
 pip install --upgrade "jax[cpu]" "netket[mpi]" typing-extensions

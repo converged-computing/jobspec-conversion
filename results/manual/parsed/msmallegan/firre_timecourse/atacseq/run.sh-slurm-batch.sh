@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ftc-atacseq
-#FLUX: --queue=long
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=ftc-atacseq
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.err
+#SBATCH --mail-user=michael.smallegan@colorado.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=long
 
 pwd; hostname; date
 echo "You've requested $SLURM_CPUS_ON_NODE core."

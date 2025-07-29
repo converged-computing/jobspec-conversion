@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ryan
-#FLUX: --queue=a100-cu117
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=ryan
+#FLUX --queue=a100-cu117
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/transformers'
 export HF_DATASETS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/datasets'

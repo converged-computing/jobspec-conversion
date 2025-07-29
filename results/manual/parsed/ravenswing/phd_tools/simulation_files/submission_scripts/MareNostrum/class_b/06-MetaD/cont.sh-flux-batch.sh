@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-parsnip-6325
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-malarkey-8079
+#FLUX -N=4
+#FLUX -c=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

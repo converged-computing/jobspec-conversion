@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-soup-1791
-#FLUX: --urgency=16
+#FLUX --job-name=grated-chip-5092
+#FLUX --urgency=16
 

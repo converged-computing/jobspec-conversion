@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TrainRes50
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#FLUX --job-name=TrainRes50
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=61200
+#FLUX --urgency=16
 
 command -v module >/dev/null 2>&1 && module load lang/Python
 source ../venv/bin/activate

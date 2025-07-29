@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Varscan2
-#FLUX: --queue=64c512g
-#FLUX: --urgency=16
+#SBATCH --job-name=Varscan2
+#SBATCH --output=%j.o
+#SBATCH --error=%j.e
+#SBATCH --mail-user=zly18810602991@163.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=64c512g
+#SBATCH --constraint=ntasks-per-node=16
 
 tumor=$1
 normal=$2

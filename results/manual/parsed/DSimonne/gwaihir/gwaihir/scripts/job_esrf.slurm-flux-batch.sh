@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-8343
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=p9gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-itch-8257
+#FLUX -N=2
+#FLUX -n=4
+#FLUX -c=8
+#FLUX --queue=p9gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 reconstruct=$1          # if launched via the gui or terminal
 username=$2             # username, if not specified, default to simonne

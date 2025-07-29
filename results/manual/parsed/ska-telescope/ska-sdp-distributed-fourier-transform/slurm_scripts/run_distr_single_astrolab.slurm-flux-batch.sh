@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=DFFT
-#FLUX: -N=3
-#FLUX: -n=3
+#FLUX --job-name=DFFT
+#FLUX -N=3
+#FLUX -n=3
 #FLUX: --exclusive
-#FLUX: --queue=astro-cpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --queue=astro-cpu
+#FLUX -t=0
+#FLUX --urgency=16
 
 export DASK_CONFIG='${dask_config_path}'
 export PYTHONPATH='${project_path}:$PYTHONPATH'

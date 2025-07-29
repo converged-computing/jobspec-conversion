@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=write_csv
-#FLUX: --queue=QuamNESS
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=write_csv
+#SBATCH --account=phys025062
+#SBATCH --output=scramble_out.txt
+#SBATCH --error=scramble_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=QuamNESS
+#SBATCH --constraint=ntasks-per-node=28
 
 module purge
 module load lang/julia/1.8.5

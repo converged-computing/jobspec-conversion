@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-7732
-#FLUX: -c=72
+#FLUX --job-name=bloated-hobbit-6058
+#FLUX -c=72
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 cd ~/NKI/stylegan3/
 source load_env.sh

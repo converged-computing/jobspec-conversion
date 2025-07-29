@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-animal-3756
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=astute-fork-3810
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo $SLURM_JOB_GPUS
 working_dir='/home/hwaranlee/06_convlab/convlab/modules/word_dst/multiwoz/sumbt'

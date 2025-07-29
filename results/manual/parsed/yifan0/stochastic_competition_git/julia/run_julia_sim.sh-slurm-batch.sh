@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_sim
-#FLUX: --queue=sandybridge
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=run_sim
+#SBATCH --output=sim_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=sandybridge
 
 module load julia/1.8.5
 /usr/bin/time -v julia -t 16 sim.jl

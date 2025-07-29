@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-frito-7388
-#FLUX: -c=5
-#FLUX: --queue=astro
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-gato-9102
+#FLUX -c=5
+#FLUX --queue=astro
+#FLUX -t=21600
+#FLUX --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

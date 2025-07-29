@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=API_Runner
-#FLUX: --urgency=16
+#SBATCH --job-name=API_Runner
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
 
 echo ============ Local environments ============ $(hostname) $(date)
 source environment.sh

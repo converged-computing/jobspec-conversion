@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-5795
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
 
 module load system py-globus-cli/1.9.0_py36
 if [ $# -ne 3 ]; then

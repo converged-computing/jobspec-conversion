@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pyfr-script
-#FLUX: -N=3
-#FLUX: -n=9
-#FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=pyfr-script
+#SBATCH --output=pyfr-build-hip.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem-per-cpu=80G
+#SBATCH --time=06:00:00
+#SBATCH --partition=amd
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
     . /etc/profile.d/modules.sh
     module purge

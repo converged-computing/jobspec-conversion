@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-itch-7801
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-soup-3949
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_150ms_10ms.pbs

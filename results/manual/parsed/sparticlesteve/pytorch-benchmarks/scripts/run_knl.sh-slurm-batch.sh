@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-bm-knl
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch-bm-knl
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=knl
 
 export OMP_NUM_THREADS='68'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

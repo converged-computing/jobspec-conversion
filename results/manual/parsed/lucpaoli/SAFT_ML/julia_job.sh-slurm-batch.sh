@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pancake-5781
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lucpaoli/SAFT_ML/julia_job.sh

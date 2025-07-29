@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-malarkey-0865
-#FLUX: -c=10
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-cinnamonbun-6297
+#FLUX -c=10
+#FLUX -t=240000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$JAMG_PATH/3rd_party/transdecoder/util/lib64/'
 

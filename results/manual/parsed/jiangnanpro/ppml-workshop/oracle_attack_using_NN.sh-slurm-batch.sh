@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=WBattack
-#FLUX: -c=3
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=WBattack
+#SBATCH --output=logs/%A_%a.stdout
+#SBATCH --error=logs/%A_%a.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --partition=all
+#SBATCH --qos=default
+#SBATCH --array=0
+#SBATCH --exclude=n[1-5,51-55]
 
 SECONDS=0
 restart(){

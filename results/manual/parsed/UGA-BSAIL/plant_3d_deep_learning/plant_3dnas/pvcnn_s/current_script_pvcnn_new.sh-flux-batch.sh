@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pvcnn_shapenet_p100
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=pvcnn_shapenet_p100
+#FLUX -c=4
+#FLUX --queue=gpu_p
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /scratch/fs47816/workdir/sample_scripts/pvcnn_s/pvcnn
 ml TensorFlow/2.4.1-fosscuda-2020b

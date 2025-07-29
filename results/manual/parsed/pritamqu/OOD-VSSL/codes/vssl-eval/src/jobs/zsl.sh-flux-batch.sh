@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-sundae-9683
-#FLUX: --queue=v100_full_node
-#FLUX: --urgency=16
+#FLUX --job-name=placid-fork-8745
+#FLUX --queue=v100_full_node
+#FLUX --urgency=16
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

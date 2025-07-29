@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-poo-5236
-#FLUX: -c=8
-#FLUX: --queue=develbooster
-#FLUX: --urgency=16
+#SBATCH --account=cstdl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --partition=develbooster
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

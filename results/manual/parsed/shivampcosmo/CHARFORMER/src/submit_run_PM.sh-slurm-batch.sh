@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FINAL_RUN_MULTGPU_DDP_PM_NOFLASH
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=FINAL_RUN_MULTGPU_DDP_PM_NOFLASH
+#SBATCH --output=/mnt/home/spandey/ceph/CHARFORMER/src/slurm_logs/PM/%x.%j.out
+#SBATCH --error=/mnt/home/spandey/ceph/CHARFORMER/src/slurm_logs/PM/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=512G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,h100
 
 module purge
 module load python

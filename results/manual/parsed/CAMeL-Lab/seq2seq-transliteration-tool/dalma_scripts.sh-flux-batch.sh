@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-motorcycle-3262
-#FLUX: --queue=nvidia
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-bits-6195
+#FLUX --queue=nvidia
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load all

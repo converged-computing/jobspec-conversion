@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-ricecake-9188
-#FLUX: -c=18
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-fudge-5649
+#FLUX -c=18
+#FLUX --queue=bigmem
+#FLUX --urgency=16
 
 PATH=/home/users/jbadura/udocker:$PATH
 /usr/bin/time -v -o times/cel_musket.1.log \

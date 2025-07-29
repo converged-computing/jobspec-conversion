@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RGZ_test
-#FLUX: --queue=gpuq
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=RGZ_test
+#FLUX --queue=gpuq
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/group/pawsey0245/kvinsen/tensorflow/third_party/mkl:/group/pawsey0245/software/cuda/lib64:$LD_LIBRARY_PATH'
 

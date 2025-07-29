@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-frito-7943
-#FLUX: --queue=jic-short,RG-Cristobal-Uauy
-#FLUX: --urgency=16
+#SBATCH --output=./run_logs/show_snps.%a.%N.%j.out
+#SBATCH --error=./run_logs/show_snps.%a.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --partition=jic-short,RG-Cristobal-Uauy
+#SBATCH --array=0-255
 
 CHR_NAME="2B"
 t_id=$SLURM_ARRAY_TASK_ID

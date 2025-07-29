@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eggnog_Rgut_%j
-#FLUX: -n=48
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#SBATCH --job-name=eggnog_Rgut_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=eggnog_Rgut_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:30:00
 
 module load python/3.6-conda5.2
 source activate /fs/ess/PAS0439/MING/conda/eggnog-mapper

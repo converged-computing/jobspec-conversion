@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-nunchucks-7989
-#FLUX: --urgency=16
+#FLUX --job-name=fat-sundae-8107
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jasonlarkin/disorder/lj/amor/4x/AF/NMD/lmp_1.sh~

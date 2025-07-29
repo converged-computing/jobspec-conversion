@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-toaster-0496
-#FLUX: --queue=build
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-peanut-butter-6198
+#FLUX --queue=build
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OPENBLAS_NUM_THREADS='1'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nwm-conus-assim
-#FLUX: -N=32
-#FLUX: --queue=debug
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=nwm-conus-assim
+#SBATCH --account=coastal
+#SBATCH --error=nwm-slurm.error
+#SBATCH --mail-user=beheen.m.trimble@noaa.gov
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=07:00:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=24
 
                               # this deadline (start > (deadline - time[-min]))
                               # descriptor to export

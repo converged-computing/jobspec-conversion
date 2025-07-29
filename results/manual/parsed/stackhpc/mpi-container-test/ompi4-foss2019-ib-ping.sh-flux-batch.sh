@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-blackbean-8761
-#FLUX: -n=2
+#FLUX --job-name=arid-cherry-5362
+#FLUX -n=2
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export UCX_NET_DEVICES='mlx5_0:1 # force IB only - host'
 export SINGULARITYENV_OMPI_MCA_btl_openib_if_include='mlx5_0:1 # force IB only - container'

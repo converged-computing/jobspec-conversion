@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vic33vllm
-#FLUX: -c=8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=vic33vllm
+#FLUX -c=8
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export BLABLADOR_DIR='/p/haicluster/llama/FastChat'
 export LOGDIR='$BLABLADOR_DIR/logs'

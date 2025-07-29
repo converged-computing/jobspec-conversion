@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bbduk-filt
-#FLUX: -n=10
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=bbduk-filt
+#SBATCH --output=stdout.%j.%N
+#SBATCH --error=stderr.%j.%N
+#SBATCH --mail-user=bpward2@ncsu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
 
 module load bbtools/37.02
 fastq_dir="/project/genolabswheatphg/raw_data/wheatCAP_parents"

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-leopard-4330
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 CWD=$PWD
 PROJECT_PATH=$1

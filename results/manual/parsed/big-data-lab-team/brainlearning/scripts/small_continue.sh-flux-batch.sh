@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-train-9789
-#FLUX: -c=6
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-punk-9842
+#FLUX -c=6
+#FLUX -t=180
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.6.3
 echo "Present working directory is $PWD"

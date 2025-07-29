@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: --urgency=16
+#FLUX --job-name=job
+#FLUX --urgency=16
 
 INPUTDECK="main.k"
 if ls d3dump* 1>/dev/null 2>&1; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bivar
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bivar
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export THREADS='16 '
 export ANALYSIS_ROOT='/cluster/projects/p697/users/nadinepa/MiXeR_Pred'

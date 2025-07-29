@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=emiss
-#FLUX: -n=4
-#FLUX: --queue=operativo
-#FLUX: --urgency=16
+#SBATCH --job-name=emiss
+#SBATCH --output=emis%j.o
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=operativo
+#SBATCH --constraint=ntasks-per-node=24
 
 export LD_LIBRARY_PATH='/opt/librerias/intel/nco/4.6.7/lib:/opt/librerias/intel/netcdf4_intel/lib:$LD_LIBRARY_PATH'
 export ProcessDir='$PWD'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=omp_check-nomultithread
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=omp_check-nomultithread
+#FLUX -c=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='true'

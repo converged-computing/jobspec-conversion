@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-train-2846
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-diablo-2881
+#FLUX -n=2
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load apptainer
 module load nextflow/23.10.1

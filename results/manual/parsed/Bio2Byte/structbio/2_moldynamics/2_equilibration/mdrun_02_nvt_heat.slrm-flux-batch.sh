@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nvt_heat
-#FLUX: --queue=ampere_gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=nvt_heat
+#FLUX --queue=ampere_gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 

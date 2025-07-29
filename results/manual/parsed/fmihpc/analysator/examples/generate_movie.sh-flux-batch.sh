@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=array_movie
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=array_movie
+#FLUX --queue=short
+#FLUX -t=600
+#FLUX --urgency=16
 
 export PATH='/proj/jesuni/projappl/tex-basic/texlive/2020/bin/x86_64-linux:$PATH'
 export PTNONINTERACTIVE='1'

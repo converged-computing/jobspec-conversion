@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=res
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=res
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --error=slurm-%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=60g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --chdir=/scratch/p288722/runtime_data/scd_videos_first_revision/06_I_frames_bs32
+#SBATCH --array=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/data/p288722/softwares/cuda/lib64'
 

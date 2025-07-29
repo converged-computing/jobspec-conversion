@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-puppy-1703
-#FLUX: --queue=parallel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=robust_linear_regression/output2Huber.out
+#SBATCH --error=robust_linear_regression/error2Huber.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=parallel
+#SBATCH --chdir=/home/troiani/
 
 module load gcc
 module load mvapich2

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=True
-#FLUX: --queue=defq
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=True
+#SBATCH --output=%J.err
+#SBATCH --error=%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=defq
 
 export GPG_TTY='$(tty)'
 export LANG='en_US.UTF-8'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expt-gpu
-#FLUX: --queue=gpu_quad
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --job-name=expt-gpu
+#SBATCH --account=park
+#SBATCH --output=logs/%j_expt-gpu.log
+#SBATCH --error=logs/%j_expt-gpu.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=16G
+#SBATCH --time=00:00:10
+#SBATCH --partition=gpu_quad
 
 module load conda2
 source "$HOME/.bashrc"

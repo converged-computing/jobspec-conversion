@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=p53Char
-#FLUX: -c=5
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=p53Char
+#SBATCH --account=gdrobertslab
+#SBATCH --output=slurmOut/p53Char_%j.txt
+#SBATCH --error=slurmOut/p53Char_%j.txt
+#SBATCH --mail-user=matthew.cannon@nationwidechildrens.org
+#SBATCH --mail-type=FAIL,REQUEUE,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=10:00:00
+#SBATCH --array=0-54
 
 set -e ### stops bash script if line ends with error
 echo ${HOSTNAME} ${SLURM_ARRAY_TASK_ID}

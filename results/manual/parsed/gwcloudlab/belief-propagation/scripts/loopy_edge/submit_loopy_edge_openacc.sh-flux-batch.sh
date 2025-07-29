@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LoopyEdgeOpenACCBeliefPropagationBenchmarks
-#FLUX: --queue=gpu
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#FLUX --job-name=LoopyEdgeOpenACCBeliefPropagationBenchmarks
+#FLUX --queue=gpu
+#FLUX -t=25200
+#FLUX --urgency=16
 
 module load cuda/toolkit
 module load libxml2

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fsdp-multi-node-test
-#FLUX: --queue=a40x
-#FLUX: --urgency=16
+#SBATCH --job-name=fsdp-multi-node-test
+#SBATCH --account=answerai
+#SBATCH --output=sbatch_outputs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=256gb
+#SBATCH --partition=a40x
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='12340'
 export WORLD_SIZE='$(($SLURM_JOB_NUM_NODES * $SLURM_GPUS_PER_NODE))'

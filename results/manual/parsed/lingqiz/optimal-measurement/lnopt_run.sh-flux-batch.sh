@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lnopt
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=lnopt
+#FLUX -c=48
+#FLUX --queue=gpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 cd ~/denoiser_recon/
 module load python/3.10 cuda cudnn nccl

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nrel5mw_powercurve
-#FLUX: -N=40
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=nrel5mw_powercurve
+#FLUX -N=40
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export SPACK_MANAGER='/home/gvijayak/exawind/source/spack-manager'
 

@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=compile_PHiLiP
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=compile_PHiLiP
+#SBATCH --account=rrg-nadaraja-ac
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=firstname.lastname@mail.mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=40
 
 export TRILINOS_DIR='$EBROOTTRILINOS'
 export P4EST_DIR='$EBROOTP4EST'

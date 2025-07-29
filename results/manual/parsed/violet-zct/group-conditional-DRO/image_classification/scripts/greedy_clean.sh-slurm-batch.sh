@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=greedy
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=greedy
+#SBATCH --output=slurm_logs/slurm-%A-%a.out
+#SBATCH --error=slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=20g
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load cuda-10.0
 source activate dro

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=prep
-#FLUX: -c=4
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=prep
+#SBATCH --output=prep.out
+#SBATCH --error=prep.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16GB
+#SBATCH --time=2-02:00:00
 
 module purge
 module load rubberband/intel/1.8.1

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-muffin-9155
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-toaster-7543
+#FLUX -N=4
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=2400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

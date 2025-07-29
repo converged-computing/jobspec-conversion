@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-eagle-9689
-#FLUX: --queue=Draco
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-lentil-8612
+#FLUX --queue=Draco
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge &>/dev/null
 module load anaconda3 &>/dev/null || source "$(dirname $(which conda))/../etc/profile.d/conda.sh" || (echo 'make sure you have conda installed'; exit 1)

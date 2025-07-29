@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peanut-4397
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=proj16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=volta,ntasks-per-node=36
 
 export HOC_LIBRARY_PATH='$BASE_DIR/channels/lib/hoclib'
 export PYTHONPATH='$INSTALL_DIR/NRN/lib/python:$PYTHONPATH'

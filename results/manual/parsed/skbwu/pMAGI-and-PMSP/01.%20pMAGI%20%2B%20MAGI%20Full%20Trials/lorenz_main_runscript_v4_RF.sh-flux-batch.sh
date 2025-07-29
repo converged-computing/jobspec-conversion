@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LM4_RF
-#FLUX: --queue=sapphire,shared
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=LM4_RF
+#FLUX --queue=sapphire,shared
+#FLUX -t=720
+#FLUX --urgency=16
 
 export R_LIBS_USER='/n/home11/skbwu/apps/R_422 # tell R where to look for locally installed packages'
 

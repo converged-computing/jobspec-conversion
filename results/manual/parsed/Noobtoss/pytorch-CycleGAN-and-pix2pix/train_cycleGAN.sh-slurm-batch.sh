@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CylceGAN
-#FLUX: -c=4
-#FLUX: --queue=p2
-#FLUX: --urgency=16
+#SBATCH --job-name=CylceGAN
+#SBATCH --output=R-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --partition=p2
+#SBATCH --qos=gpuultimate
 
 module purge
 module load python/anaconda3

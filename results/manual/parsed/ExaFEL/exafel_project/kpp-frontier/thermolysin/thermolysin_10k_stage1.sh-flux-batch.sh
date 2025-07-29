@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: -N=40
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=stage1
+#FLUX -N=40
+#FLUX --queue=batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 export NTASKS='$((SLURM_JOB_NUM_NODES*56))'
 export SRUN='srun -n $NTASKS --gpus-per-node=8 --cpus-per-gpu=14 --cpu-bind=cores'

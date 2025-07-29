@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nomis
-#FLUX: --queue=batch
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=nomis
+#FLUX --queue=batch
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='TRUE'
 

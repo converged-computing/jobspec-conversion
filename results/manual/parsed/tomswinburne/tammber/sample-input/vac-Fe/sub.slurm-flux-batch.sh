@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TAMMBER_vac_test
-#FLUX: -N=10
+#FLUX --job-name=TAMMBER_vac_test
+#FLUX -N=10
 #FLUX: --exclusive
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX -t=900
+#FLUX --urgency=16
 
 set -e
 module load intel/19.4 intelmpi/2019.4.243  boost/1_69_0

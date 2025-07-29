@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-egg-0746
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cmdoret/master_archive/src/convert_coord/convert_GFF_coord.sh

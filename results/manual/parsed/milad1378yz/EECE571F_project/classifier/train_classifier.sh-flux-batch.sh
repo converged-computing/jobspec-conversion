@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train_classifier
-#FLUX: -n=2
-#FLUX: -c=8
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=train_classifier
+#FLUX -n=2
+#FLUX -c=8
+#FLUX -t=252000
+#FLUX --urgency=16
 
 export HOME='/scratch/st-sdena-1/miladyz'
 

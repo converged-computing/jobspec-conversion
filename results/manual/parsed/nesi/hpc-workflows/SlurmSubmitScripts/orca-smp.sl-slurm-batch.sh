@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ORCA
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ORCA
+#SBATCH --account=nesi99999
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
 
 export P4_RSHCOMMAND='ssh'
 export OMP_NUM_THREADS='1'

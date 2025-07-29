@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PRE-VOCAB
-#FLUX: --queue=eap
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PRE-VOCAB
+#SBATCH --account=project_465000157
+#SBATCH --output=preprocess_vocab.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --partition=eap
+#SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

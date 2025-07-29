@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=merge
-#FLUX: -n=64
-#FLUX: --queue=priority
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#SBATCH --job-name=merge
+#SBATCH --account=isipedia
+#SBATCH --output={{s.log_dir}}/%x.out
+#SBATCH --error={{s.log_dir}}/%x.err
+#SBATCH --mail-user={{s.user}}@pik-potsdam.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:50:00
+#SBATCH --partition=priority
+#SBATCH --qos=priority
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:{{s.conda_path}}/lib/libfabric/libfabric.so'
 export FI_PROVIDER_PATH='{{s.conda_path}}/lib/libfabric/prov'

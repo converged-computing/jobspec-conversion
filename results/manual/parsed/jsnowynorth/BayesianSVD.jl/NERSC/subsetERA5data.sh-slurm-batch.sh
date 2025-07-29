@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=selectLonLat
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=selectLonLat
+#SBATCH --account=m1517
+#SBATCH --mail-user=jsnorth@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=ntasks-per-node=1,cpu
 
 !/bin/bash
 echo "### Starting at: $(date) ###"

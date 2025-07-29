@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=example-job
-#FLUX: -N=2
-#FLUX: -c=96
-#FLUX: --exclusive
-#FLUX: --queue=xyz-cluster
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=example-job
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:10:00
+#SBATCH --partition=xyz-cluster
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

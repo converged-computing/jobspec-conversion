@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=8
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --output=/scratch/cg3306/climate/subgrid/gz21/slurm/echo/train_%A_%a.out
+#SBATCH --error=/scratch/cg3306/climate/subgrid/gz21/slurm/echo/train_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60GB
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1
 
 echo "$(date)"
 module purge

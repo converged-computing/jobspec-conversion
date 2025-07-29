@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-arm-9612
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-parsnip-4396
+#FLUX -c=8
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

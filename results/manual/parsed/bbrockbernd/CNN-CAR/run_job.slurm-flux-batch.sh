@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dist_training
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=dist_training
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load 2022r1
 module load gpu

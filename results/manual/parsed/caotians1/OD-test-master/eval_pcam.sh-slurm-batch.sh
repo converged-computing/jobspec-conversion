@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-latke-8813
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-9
 
 PARRAY1=(0 1 2 3 4 5 6 7 8 9)
 for i in {0..10}

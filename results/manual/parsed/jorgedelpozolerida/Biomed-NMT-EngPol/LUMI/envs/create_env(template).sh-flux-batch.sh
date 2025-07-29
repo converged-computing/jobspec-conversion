@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=examplejob
-#FLUX: --queue=standard-g
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=examplejob
+#FLUX --queue=standard-g
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load LUMI/22.08
 module load cotainr

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run-xthi
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=run-xthi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='4'
 export OMP_PROC_BIND='close'

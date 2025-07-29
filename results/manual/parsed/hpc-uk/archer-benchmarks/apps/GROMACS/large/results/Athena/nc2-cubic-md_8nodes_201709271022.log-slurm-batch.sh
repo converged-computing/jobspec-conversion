@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GromacsBench
-#FLUX: -N=8
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=GromacsBench
+#SBATCH --account=a01
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=28
 
 export OMP_NUM_THREADS='$[($CORES_PER_CHIP*$HTHREADS_PER_CORE)/$TASKS_PER_CHIP]'
 

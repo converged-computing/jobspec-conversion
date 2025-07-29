@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mergeBAMs
-#FLUX: --queue=all
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mergeBAMs
+#SBATCH --output=/cluster/home/psmirnov/logs/mergeBAMs_%j.log
+#SBATCH --mail-user=petr.smirnov@mail.utoronto.ca
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20Gb
+#SBATCH --time=04:00:00
+#SBATCH --partition=all
 
 module load samtools
 fn=$1

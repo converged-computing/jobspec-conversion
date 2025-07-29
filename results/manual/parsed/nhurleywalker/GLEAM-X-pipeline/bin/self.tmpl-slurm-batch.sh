@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-2305
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=STANDARDQ
 
 TASKLINE
 pipeuser=PIPEUSER

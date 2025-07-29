@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hobbit-1663
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 module load openmpi/gcc/64/4.0.2
 module load julia/1.7.3

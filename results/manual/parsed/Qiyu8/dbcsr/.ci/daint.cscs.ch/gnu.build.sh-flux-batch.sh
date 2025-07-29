@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-knife-9349
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-underoos-2092
+#FLUX -c=3
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 set -o errexit
 set -o nounset

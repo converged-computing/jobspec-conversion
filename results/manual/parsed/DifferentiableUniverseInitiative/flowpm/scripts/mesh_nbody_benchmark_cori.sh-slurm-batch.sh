@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-frito-0012
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'
 

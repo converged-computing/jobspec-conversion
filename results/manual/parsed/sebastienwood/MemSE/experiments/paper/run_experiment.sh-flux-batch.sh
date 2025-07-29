@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bike-0707
-#FLUX: -c=12
-#FLUX: -t=259920
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-carrot-6936
+#FLUX -c=12
+#FLUX -t=259920
+#FLUX --urgency=16
 
 module load StdEnv/2020 python/3.9 cuda cudnn
 u=${u:-sebwood}

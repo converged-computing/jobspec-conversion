@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lamp-2263
-#FLUX: -n=8
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=hello-squidward-8303
+#FLUX -n=8
+#FLUX -t=32400
+#FLUX --urgency=16
 
 export THEANO_FLAGS='device=gpu'
 

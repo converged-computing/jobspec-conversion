@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-buttface-1733
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/protons-templates/amino_acid_calibrations/cys-background-calibration-results/submit.sh

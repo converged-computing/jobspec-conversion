@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=topics_nb
-#FLUX: -c=16
-#FLUX: --queue=informatik-mind
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=topics_nb
+#SBATCH --output=output/jupyter_bert_out.txt
+#SBATCH --error=output/jupyter_bert_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=48G
+#SBATCH --time=04:00:00
+#SBATCH --partition=informatik-mind
 
 export TOKENIZERS_PARALLELISM='true'
 

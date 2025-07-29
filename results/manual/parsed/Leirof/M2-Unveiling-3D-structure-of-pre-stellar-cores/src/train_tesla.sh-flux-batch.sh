@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-signal-7851
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-sundae-6890
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Leirof/M2-Unveiling-3D-structure-of-pre-stellar-cores/src/train_tesla.sh

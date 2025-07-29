@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mutualinfo
-#FLUX: --queue=general
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=mutualinfo
+#SBATCH --mail-user=stavrosmakrodi
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=01:30:00
+#SBATCH --partition=general
+#SBATCH --qos=short
 
 ml use /opt/insy/modulefiles;
 ml load cuda/11.0;

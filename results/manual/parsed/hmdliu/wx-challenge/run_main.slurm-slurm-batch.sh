@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MultiModal
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=MultiModal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
 
 exp_id=$1
 ext3_path=/scratch/$USER/overlay-25GB-500K.ext3

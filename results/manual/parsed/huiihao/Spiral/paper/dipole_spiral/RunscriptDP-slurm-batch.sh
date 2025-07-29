@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-citrus-7198
-#FLUX: --queue=v100
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=v100
+#SBATCH --qos=gpu-huge
+#SBATCH --constraint=ntasks-per-node=4
 
 /storage/liushiLab/huyihao/DPMD/Version2.0.1/bin/lmp -in input_npt.lammps > lmp.log

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=groupc_mm
-#FLUX: -n=28
-#FLUX: --queue=defq
-#FLUX: -t=13500
-#FLUX: --urgency=16
+#FLUX --job-name=groupc_mm
+#FLUX -n=28
+#FLUX --queue=defq
+#FLUX -t=13500
+#FLUX --urgency=16
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

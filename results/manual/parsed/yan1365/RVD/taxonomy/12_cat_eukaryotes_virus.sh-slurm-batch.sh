@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cat_%j
-#FLUX: -n=40
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=cat_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=cat_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 START=$SECONDS
 part=${1}

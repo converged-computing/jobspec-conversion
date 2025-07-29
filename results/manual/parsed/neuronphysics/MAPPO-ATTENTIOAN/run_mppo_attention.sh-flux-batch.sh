@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MAPPO
-#FLUX: -c=16
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#FLUX --job-name=MAPPO
+#FLUX -c=16
+#FLUX -t=122400
+#FLUX --urgency=16
 
 export SC2PATH='/home/memole/projects/def-gdumas85/memole/MPPO-ATTENTIOAN/3rdparty/StarCraftII'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

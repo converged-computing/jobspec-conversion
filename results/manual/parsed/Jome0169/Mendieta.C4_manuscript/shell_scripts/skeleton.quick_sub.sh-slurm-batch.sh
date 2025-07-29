@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Tit
-#FLUX: -c=48
-#FLUX: --queue=batch
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=Tit
+#SBATCH --output=ntr.%j.out
+#SBATCH --error=ntr.%j.err
+#SBATCH --mail-user=john.mendieta@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=100gb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 source /apps/lmod/lmod/init/zsh

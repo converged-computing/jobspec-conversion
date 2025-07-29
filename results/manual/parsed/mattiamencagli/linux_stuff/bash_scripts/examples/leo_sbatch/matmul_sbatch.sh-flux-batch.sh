@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_nsys
-#FLUX: -c=8
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=test_nsys
+#FLUX -c=8
+#FLUX --queue=boost_usr_prod
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml 
 nvidia-smi

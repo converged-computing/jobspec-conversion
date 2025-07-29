@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemon-2265
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=1xgpu
-#FLUX: -t=561600
-#FLUX: --urgency=16
+#SBATCH --output=out_%A.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=6-12:00:00
+#SBATCH --partition=1xgpu
+#SBATCH: --exclusive
 
 module load matlab
 echo Hostname:

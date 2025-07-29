@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SPMD
-#FLUX: -n=6
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=SPMD
+#SBATCH --account=${ACCOUNT}
+#SBATCH --output=%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-10
 
 module load julia
 PROJECT_PATH=${HOME}/SPMD/src/julia/

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dmtcp_array
-#FLUX: --queue=skylake
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=dmtcp_array
+#SBATCH --account=SUPPORT-CPU
+#SBATCH --output=dmtcp_array_%A_%a.out
+#SBATCH --error=dmtcp_array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=skylake
+#SBATCH --array=0-31
 
 export DMTCP_QUIET='2'
 

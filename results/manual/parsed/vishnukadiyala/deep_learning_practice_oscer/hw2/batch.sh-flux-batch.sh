@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hw2_run2
-#FLUX: -c=10
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hw2_run2
+#FLUX -c=10
+#FLUX --queue=normal
+#FLUX -t=1800
+#FLUX --urgency=16
 
 . /home/fagg/tf_setup.sh
 conda activate tf

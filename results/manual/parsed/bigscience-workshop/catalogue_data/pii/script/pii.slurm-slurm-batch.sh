@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_pii
-#FLUX: -c=40
-#FLUX: --queue=cpu_p1
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_pii
+#SBATCH --account=six@cpu
+#SBATCH --output=/gpfsdswork/projects/rech/six/uue59kq/logs/pii/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=20:00:00
+#SBATCH --partition=cpu_p1
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-11
 
 export HF_DATASETS_OFFLINE='1'
 export HF_DATASETS_CACHE='$SCRATCH/to_delete'

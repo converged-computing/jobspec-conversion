@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hobbit-1891
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-soup-8319
+#FLUX --urgency=16
 
 python fcgrnn_train_cd.py --test_every_n_epochs 10 --sample_rate 15 --data_format 'speed' \
 --seq_len 3 --horizon 3 --num_gpus 2 --fill_mean=False --sparse_removal=False --learning_rate 0.001 --lr_decay 0.8 \

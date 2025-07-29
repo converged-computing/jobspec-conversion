@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-noodle-2289
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-nunchucks-5601
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 PARRAY1=(NIHTrainAE.py NIHTrainAEBCE.py NIHTrainVAE.py NIHTrainVAEBCE.py NIHTrainALILikeAE.py NIHTrainALILikeAEBCE.py PADTrainALILikeVAE.py PADTrainALILikeVAEBCE.py)
 for i in {0..8}

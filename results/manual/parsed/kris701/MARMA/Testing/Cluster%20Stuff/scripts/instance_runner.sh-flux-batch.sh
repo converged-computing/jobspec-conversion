@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-leader-0796
-#FLUX: --queue=naples,dhabi,rome
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-latke-8148
+#FLUX --queue=naples,dhabi,rome
+#FLUX --urgency=16
 
 U="$1"
 SCRATCH_DIRECTORY=/scratch/${U}

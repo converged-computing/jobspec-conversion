@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chip-6556
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/patmjen/blood-vessel-segmentation/submit_inference.sh

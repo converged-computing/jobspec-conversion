@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Melanoma_Brain_Metastasis
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Melanoma_Brain_Metastasis
+#SBATCH --output=ny_metastasis-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=single
 
 module load system/singularity
 module load devel/java_jdk/1.8.0

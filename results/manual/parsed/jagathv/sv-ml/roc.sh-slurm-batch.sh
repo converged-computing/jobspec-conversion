@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lentil-0104
-#FLUX: --queue=general
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=jagath@caltech.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60000
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=general
 
 module load Python
 module load matplotlib

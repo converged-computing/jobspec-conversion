@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MD_run
-#FLUX: -N=4
-#FLUX: --queue=computes_thin
-#FLUX: --urgency=16
+#FLUX --job-name=MD_run
+#FLUX -N=4
+#FLUX --queue=computes_thin
+#FLUX --urgency=16
 
 NULL=0   #checking if MD_prep job finished or an error occured
 error=0 ; echo $error > error 

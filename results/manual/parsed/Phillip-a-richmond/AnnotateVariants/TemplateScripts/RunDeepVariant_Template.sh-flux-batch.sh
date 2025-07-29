@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cattywampus-8070
-#FLUX: -c=40
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-gato-4648
+#FLUX -c=40
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

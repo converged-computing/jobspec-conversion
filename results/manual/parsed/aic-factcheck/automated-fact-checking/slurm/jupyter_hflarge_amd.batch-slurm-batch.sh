@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-carrot-1789
-#FLUX: -c=4
-#FLUX: --queue=amd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=../logs/jupyter.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=128G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amd
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/home/drchajan/devel/python/FC/drchajan/src:/home/drchajan/devel/python/FC/fever-baselines/src:$PYTHONPATH'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t2t
-#FLUX: --queue=pascal
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=t2t
+#FLUX --queue=pascal
+#FLUX -t=129600
+#FLUX --urgency=16
 
 if [[ "$SLURM_JOBID" != "" ]]; then
     module purge

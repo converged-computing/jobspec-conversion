@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vqvae
-#FLUX: --queue=devel
-#FLUX: --urgency=16
+#SBATCH --job-name=vqvae
+#SBATCH --mail-user=jehill.parikh@newcastle.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=devel
 
 module load python3/anaconda
 source activate tensorflow2-gpu

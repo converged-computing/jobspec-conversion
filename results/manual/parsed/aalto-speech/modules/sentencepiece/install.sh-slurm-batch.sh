@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-muffin-3661
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=2G
+#SBATCH --time=00:05:00
 
 set -eu 
 NAME=sentencepiece

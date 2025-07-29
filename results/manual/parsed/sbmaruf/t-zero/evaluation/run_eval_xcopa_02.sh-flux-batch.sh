@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-malarkey-0833
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=astute-animal-9388
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

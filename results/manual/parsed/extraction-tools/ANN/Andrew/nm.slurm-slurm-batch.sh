@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-0506
-#FLUX: --queue=standard
-#FLUX: -t=59400
-#FLUX: --urgency=16
+#SBATCH --account=spinquest
+#SBATCH --output=result_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:30:00
+#SBATCH --partition=standard
 
 module purge
 module load anaconda/2020.11-py3.8

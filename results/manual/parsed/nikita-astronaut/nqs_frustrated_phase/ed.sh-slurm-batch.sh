@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-diablo-0551
-#FLUX: -c=32
-#FLUX: --queue=dgx
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=200000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=dgx
 
 conda activate tcm-test
 pushd "/zfs/hybrilit.jinr.ru/user/a/astrakh/nqs_frustrated_phase/data/square/24/$1"

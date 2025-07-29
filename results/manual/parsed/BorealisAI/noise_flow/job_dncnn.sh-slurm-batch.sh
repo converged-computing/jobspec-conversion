@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dncnn_nf
-#FLUX: --urgency=16
+#SBATCH --job-name=dncnn_nf
+#SBATCH --output=logs/job_output_%j.out
+#SBATCH --error=logs/job_error_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
 
 hostname
 whoami

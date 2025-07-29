@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SoluteTemp
-#FLUX: -n=12
-#FLUX: --queue=GTX
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=SoluteTemp
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:6
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GTX
 
 mkdir solutetemp
 cd solutetemp

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-gato-5686
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-puppy-5673
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 IMAGE=${IMAGE:-/scratch/wz2247/singularity/images/pytorch_21.06-py3.sif}
 OVERLAY_DIR=${OVERLAY_DIR:-../lecture2}

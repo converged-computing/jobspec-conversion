@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-staircase-2133
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/par.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/par.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:k80:4
+#SBATCH --mem=100gb
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuk80,ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

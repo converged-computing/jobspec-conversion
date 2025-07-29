@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh_sacct
-#FLUX: -c=28
+#FLUX --job-name=lulesh_sacct
+#FLUX -c=28
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/global/libraries/cpufrequtils/gcc5.3.0/lib/'
 

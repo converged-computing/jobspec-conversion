@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pedo-7181
-#FLUX: --queue=sbel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-kerfuffle-4504
+#FLUX --queue=sbel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_05/script

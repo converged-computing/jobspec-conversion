@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-7449
-#FLUX: -n=3
-#FLUX: --queue=gpu
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=red-truffle-2212
+#FLUX -n=3
+#FLUX --queue=gpu
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

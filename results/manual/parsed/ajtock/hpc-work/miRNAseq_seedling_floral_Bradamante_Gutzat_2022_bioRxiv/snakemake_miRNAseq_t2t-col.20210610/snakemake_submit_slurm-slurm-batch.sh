@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=sRNAseq_floral_t2t-col.20210610
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=sRNAseq_floral_t2t-col.20210610
+#SBATCH --account=HENDERSON-SL3-CPU
+#SBATCH --output=logs/snakemake_submit.out
+#SBATCH --error=logs/snakemake_submit.err
+#SBATCH --mail-user=ajt200@cam.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120G
+#SBATCH --time=12:00:00
+#SBATCH --partition=skylake
+#SBATCH: --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

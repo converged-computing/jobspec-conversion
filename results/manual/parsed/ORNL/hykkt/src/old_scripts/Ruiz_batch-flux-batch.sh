@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-noodle-9428
-#FLUX: --queue=a100_shared
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=hello-snack-6232
+#FLUX --queue=a100_shared
+#FLUX -t=3540
+#FLUX --urgency=16
 
 module load cmake/3.15.3
 module load gcc/7.5.0

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1_150
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=engineering_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=1_150
+#SBATCH --output=run.out
+#SBATCH --error=run.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=engineering_q
+#SBATCH: --exclusive
+#SBATCH --constraint=YEAR2022,amd
 
 pwd;hostname;date
 echo "running amrMPI (FABRIC) on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS tasks, each with $SLURM_CPUS_PER_TASK cores."

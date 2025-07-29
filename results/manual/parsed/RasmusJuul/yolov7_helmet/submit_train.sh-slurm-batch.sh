@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-frito-4667
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/RasmusJuul/yolov7_helmet/submit_train.sh

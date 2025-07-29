@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lizard-6455
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-despacito-6493
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 export PATH='$PYTHON_HOME/bin:$PATH'
 

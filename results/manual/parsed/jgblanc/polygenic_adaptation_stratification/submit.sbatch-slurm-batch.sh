@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=4PopSplit
-#FLUX: --queue=broadwl
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=4PopSplit
+#SBATCH --output=logs/4PopSplit.out
+#SBATCH --error=logs/4PopSplit.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=05:00:00
+#SBATCH --partition=broadwl
+#SBATCH --constraint=ntasks-per-node=28
 
 module load python/cpython-3.7.0
 module load R

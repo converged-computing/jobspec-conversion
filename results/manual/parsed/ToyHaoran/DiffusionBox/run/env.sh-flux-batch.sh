@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-underoos-2781
-#FLUX: --queue=gpu1
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-spoon-1060
+#FLUX --queue=gpu1
+#FLUX --urgency=16
 
 alias ll='ls -al'  # 快捷键
 module load anaconda/anaconda3-2022.10  # 加载conda

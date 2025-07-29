@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=workflow
-#FLUX: -N=20
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=workflow
+#SBATCH --account=MAT190_crusher
+#SBATCH --output=log.out
+#SBATCH --error=log.err
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export WM_MPLIB='SYSTEMMPI'

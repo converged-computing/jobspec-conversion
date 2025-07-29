@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-buttface-0553
-#FLUX: -N=25
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=gpus100.out
+#SBATCH --nodes=25
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 module load anaconda
 module load cudatoolkit/8.0 cudann/cuda-8.0/5.1 openmpi/intel-17.0/1.10.2/64 intel/17.0/64/17.0.2.174

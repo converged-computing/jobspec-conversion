@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-latke-9252
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/slaclab/singularity-modules/images/relion/3.0.7/lsf-batch-submission_cpu.script

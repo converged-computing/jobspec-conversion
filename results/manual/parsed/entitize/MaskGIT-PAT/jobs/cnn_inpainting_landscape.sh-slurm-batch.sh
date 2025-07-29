@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=landscape_cnn_sa
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=landscape_cnn_sa
+#SBATCH --account=mlprojects
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5G
+#SBATCH --time=1-00:00:00
 
 export CUDA_VISIBLE_DEVICES='0'
 

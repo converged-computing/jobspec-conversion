@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ar2_multi_ABC_mlp4
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ar2_multi_ABC_mlp4
+#SBATCH --account=lu2018-2-22
+#SBATCH --output=lunarc_output/AR2/outputs_AR2_multiple_ABC_runs_mlp_4_%j.out
+#SBATCH --error=lunarc_output/AR2/errors_AR2_multiple_ABC_runs_mlp_4_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=3100
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

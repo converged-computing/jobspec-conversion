@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-car-9543
-#FLUX: -c=20
-#FLUX: --queue=free-gpu
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:A100:1
+#SBATCH --time=16:00:00
+#SBATCH --partition=free-gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load anaconda/2022.05
 . ~/.mycondaconf

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-1915
-#FLUX: --queue=PV1003q
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=PV1003q
+#SBATCH --nodelist=node14
 
 export CUDA_VISIBLE_DEVICES='1,2,3,4,5,6,7'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-7210
-#FLUX: -c=16
+#FLUX --job-name=ornery-lentil-9708
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load cuda-12.3
 nvidia-smi

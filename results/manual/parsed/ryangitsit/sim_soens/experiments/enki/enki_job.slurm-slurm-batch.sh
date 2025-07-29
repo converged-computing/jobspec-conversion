@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST_sweep
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=576000
-#FLUX: --urgency=16
+#SBATCH --job-name=MNIST_sweep
+#SBATCH --mail-user=rmo2@nist.gov
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=2G\
+#SBATCH --time=6-16:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=5
+#SBATCH --array=1
 
 module purge 
 module load python/3.10.9/anaconda

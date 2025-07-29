@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-hope-7043
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SafarMirek/bachelor_thesis/karolina/mobilenet_nsga_approx_perlayer.sh

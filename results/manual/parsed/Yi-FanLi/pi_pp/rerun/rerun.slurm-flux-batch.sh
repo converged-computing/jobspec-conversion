@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=liq32b
-#FLUX: -n=32
-#FLUX: -c=4
-#FLUX: -t=43140
-#FLUX: --urgency=16
+#FLUX --job-name=liq32b
+#FLUX -n=32
+#FLUX -c=4
+#FLUX -t=43140
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export CUDA_MPS_PIPE_DIRECTORY='/tmp/nvidia-mps'

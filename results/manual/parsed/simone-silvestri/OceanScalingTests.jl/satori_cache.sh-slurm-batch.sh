@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-fork-6912
-#FLUX: -c=16
-#FLUX: --queue=reservation7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=reservation7
+#SBATCH --qos=reservation7
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

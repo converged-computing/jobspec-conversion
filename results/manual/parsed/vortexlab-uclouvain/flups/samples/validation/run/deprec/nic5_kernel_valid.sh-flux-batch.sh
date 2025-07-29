@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vector-validation
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=vector-validation
+#FLUX --queue=batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${MY_NTHREADS}'
 

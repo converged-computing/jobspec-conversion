@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=osu
-#FLUX: -N=2
-#FLUX: -c=30
-#FLUX: --queue=hpc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=osu
+#FLUX -N=2
+#FLUX -c=30
+#FLUX --queue=hpc
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e
 cd ~

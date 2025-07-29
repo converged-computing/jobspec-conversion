@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cinnamonbun-6223
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jkrajniak/lab-tools/scripts/stress_strain_lammps/pull_z/MyJobScript.sh

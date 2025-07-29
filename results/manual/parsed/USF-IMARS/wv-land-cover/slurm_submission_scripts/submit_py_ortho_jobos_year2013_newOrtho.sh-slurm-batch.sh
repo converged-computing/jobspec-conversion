@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name==Jobos-per-year
-#FLUX: --queue=circe
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name==Jobos-per-year
+#SBATCH --output=/work/d/druedaro/wv2_scripts/slurm_submission_scripts/SlurmOutput/output.%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=52240
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=circe
+#SBATCH --array=0-2
 
 module purge
 module add apps/python/2.7.5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SE3LieConv_molecule
-#FLUX: --queue=XXX
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=SE3LieConv_molecule
+#FLUX --queue=XXX
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 source venv/bin/activate
 tasks=(homo lumo gap alpha mu Cv G H r2 U U0 zpve)

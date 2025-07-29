@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -c=10
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX -c=10
+#FLUX -t=345600
+#FLUX --urgency=16
 
 singularity exec --nv \
 --overlay /scratch/hrr288/hrr_env/pytorch1.7.0-cuda11.0.ext3:ro \

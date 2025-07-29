@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GAN_test
-#FLUX: --queue=gpu
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=GAN_test
+#FLUX --queue=gpu
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module load python/gpu
 pip install visdom

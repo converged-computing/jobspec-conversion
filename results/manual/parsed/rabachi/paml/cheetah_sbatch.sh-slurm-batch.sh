@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mfch
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=mfch
+#SBATCH --output=mfcht%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --partition=gpu
+#SBATCH --array=1-5
 
 module load pytorch1.0-cuda9.0-python3.6
 . /h/abachiro/mjpro200-py.env

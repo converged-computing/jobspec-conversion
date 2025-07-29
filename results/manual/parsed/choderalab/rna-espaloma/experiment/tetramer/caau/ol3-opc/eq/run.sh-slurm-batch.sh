@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-underoos-9358
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/tetramer/caau/ol3-opc/eq/run.sh

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bicycle-2201
-#FLUX: -n=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=130G
+#SBATCH --time=00:30:00
 
 lam=$1
 b=$2

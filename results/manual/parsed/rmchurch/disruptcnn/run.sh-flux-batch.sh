@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-mango-3407
-#FLUX: -N=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-diablo-1434
+#FLUX -N=4
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='0'
 

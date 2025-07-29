@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pancake-6649
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-truffle-2796
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/IgnatiusPang/Hyb-CRAC-R/Source/Demultiplex/Script_Per_Dataset/run_smk_sm_expt3.sh

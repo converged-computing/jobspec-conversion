@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SVM_Array
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=SVM_Array
+#FLUX -N=2
+#FLUX -c=2
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 models=(LogisticRegression RandomForest Poly_SVC RBF_SVC Linear_SVC)

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-5087
-#FLUX: --exclusive
-#FLUX: --queue=shared,bigmem
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=shared,bigmem
+#SBATCH: --exclusive
 
 export SINGULARITYENV_LIBDIR='${PWD}/LIBDIR'
 

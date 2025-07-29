@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-5915
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=west10.out
+#SBATCH --error=west10.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

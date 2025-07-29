@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-3497
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-poo-7787
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 SRC=/work/donglab/ching.ki/ssRNA-MD/MD_sim/src
 DATA=/work/donglab/ching.ki/ssRNA-MD/VAE/data/gro

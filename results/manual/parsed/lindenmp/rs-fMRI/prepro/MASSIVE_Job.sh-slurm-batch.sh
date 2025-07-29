@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fMRI-PrePro
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=fMRI-PrePro
+#SBATCH --account=kg98
+#SBATCH --mail-user=linden.parkes@monash.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
+#SBATCH --array=1-100
 
 WhichProject=$1
 WhichSessScan=$2

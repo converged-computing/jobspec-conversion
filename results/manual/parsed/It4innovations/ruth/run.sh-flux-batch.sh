@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Ruth_Bench
-#FLUX: -N=2
-#FLUX: --queue=qcpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Ruth_Bench
+#FLUX -N=2
+#FLUX --queue=qcpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 ml purge
 ml Python/3.10.8-GCCcore-12.2.0

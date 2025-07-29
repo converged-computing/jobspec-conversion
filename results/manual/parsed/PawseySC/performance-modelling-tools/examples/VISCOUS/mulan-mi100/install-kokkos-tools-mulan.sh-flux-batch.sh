@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pastry-4766
-#FLUX: -c=32
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-snack-7170
+#FLUX -c=32
+#FLUX -t=1200
+#FLUX --urgency=16
 
 checkout="c901382c4c76b108e4e6d190e9236848dc764526" # 8 August 2022
 dir="kokkos-tools-mulan"

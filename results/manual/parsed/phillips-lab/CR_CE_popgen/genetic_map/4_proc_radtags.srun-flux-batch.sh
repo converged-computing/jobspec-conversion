@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ragtags
-#FLUX: --queue=phillips
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=ragtags
+#FLUX --queue=phillips
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load prl python/2.7.13
 module load easybuild  icc/2017.1.132-GCC-6.3.0-2.27  impi/2017.1.132 Stacks/1.46

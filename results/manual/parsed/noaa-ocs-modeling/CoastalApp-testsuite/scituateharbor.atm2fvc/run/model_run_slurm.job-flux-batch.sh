@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SCI_fvc_RUN
-#FLUX: -n=13
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=SCI_fvc_RUN
+#FLUX -n=13
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

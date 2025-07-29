@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-toaster-3780
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/uprolls2016/run-in-arc/run.sh

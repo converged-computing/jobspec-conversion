@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arrayfire
-#FLUX: -c=6
-#FLUX: -t=14
-#FLUX: --urgency=16
+#FLUX --job-name=arrayfire
+#FLUX -c=6
+#FLUX -t=14
+#FLUX --urgency=16
 
 module --force purge
 module load StdEnv/2020 gcc/9.3.0 cuda/12.2 fmt/9.1.0 spdlog/1.9.2 arrayfire/3.9.0 rust/1.70.0 python/3.11.2 openblas

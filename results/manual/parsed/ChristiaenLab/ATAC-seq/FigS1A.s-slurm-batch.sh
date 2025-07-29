@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=insert
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=insert
+#SBATCH --output=%ainsert.out
+#SBATCH --error=%ainsert.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32GB
+#SBATCH --time=10:00:00
 
 module purge
 module load r/intel/3.3.2

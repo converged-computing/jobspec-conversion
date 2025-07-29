@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IN_RES101
-#FLUX: -c=16
-#FLUX: -t=388740
-#FLUX: --urgency=16
+#SBATCH --job-name=IN_RES101
+#SBATCH --output=slurm_out/IN_res_101.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=4-11:59:00
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

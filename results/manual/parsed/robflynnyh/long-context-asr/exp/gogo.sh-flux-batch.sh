@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-eagle-2175
-#FLUX: -c=16
-#FLUX: --queue=gpu-h100
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-train-5794
+#FLUX -c=16
+#FLUX --queue=gpu-h100
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module unload CUDA/11.7.0
 module unload cuDNN/8.4.1.50-CUDA-11.7.0

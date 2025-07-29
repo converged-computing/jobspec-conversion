@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GL_SIM
-#FLUX: -n=120
-#FLUX: -c=2
-#FLUX: --queue=compute
-#FLUX: -t=433800
-#FLUX: --urgency=16
+#SBATCH --job-name=GL_SIM
+#SBATCH --output=SHAREDDIR/simulation.out.log
+#SBATCH --error=SHAREDDIR/simulation.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=120
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=5-00:30:00
+#SBATCH --partition=compute
 
 export PATH='$NEURONHOME/nrn/x86_64/bin:$NEURONHOME/iv/x86_64/bin:$PATH'
 export LD_LIBRARY_PATH='$NEURONHOME/nrn/x86_64/lib:$NEURONHOME/iv/x86_64/lib:$LD_LIBRARY_PATH'
@@ -22,3 +25,4 @@ mkdir $HOME/work/output.$JOB_ID
 cp -v *.dat $HOME/work/output.$JOB_ID
 cp -v *.bin $HOME/work/output.$JOB_ID
 cp -R $PARAMDIR $HOME/work/output.$JOB_ID
+< none

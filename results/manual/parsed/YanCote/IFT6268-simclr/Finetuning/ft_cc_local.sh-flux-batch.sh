@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-gato-9798
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=tart-lizard-4147
+#FLUX -t=600
+#FLUX --urgency=16
 
 format_time() {
   ((h=${1}/3600))

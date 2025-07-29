@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-underoos-0476
-#FLUX: --queue=sbel
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-lemur-3397
+#FLUX --queue=sbel
+#FLUX --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ont_barcoding_2023
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=ont_barcoding_2023
+#SBATCH --account=naiss2023-5-37
+#SBATCH --output=logs/snakemake-%j.log
+#SBATCH --error=logs/snakemake-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=core
+#SBATCH --constraint=usage_mail
 
 module load conda bioinfo-tools snakemake &&
 snakemake -pr --jobs $SLURM_JOB_CPUS_PER_NODE\

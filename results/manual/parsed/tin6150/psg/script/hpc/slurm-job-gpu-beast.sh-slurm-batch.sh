@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=SnBeastTest
-#FLUX: --queue=savio3_gpu
-#FLUX: -t=4799
-#FLUX: --urgency=16
+#SBATCH --job-name=SnBeastTest
+#SBATCH --account=scs
+#SBATCH --output=sn_%N_%j.out
+#SBATCH --error=sn_%N_%j.err
+#SBATCH --mail-user=tin@berkeley.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:TITAN:1
+#SBATCH --time=01:19:59
+#SBATCH --partition=savio3_gpu
+#SBATCH --qos=savio_normal
 
 export ImgDir='/clusterfs/vector/home/groups/software/sl-7.x86_64/modules/beast/2.6.4/'
 

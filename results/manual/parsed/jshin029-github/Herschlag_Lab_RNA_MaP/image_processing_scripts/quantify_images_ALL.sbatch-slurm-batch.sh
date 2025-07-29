@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=quantify_images
-#FLUX: -c=18
-#FLUX: --queue=biochem,owners,normal
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=quantify_images
+#SBATCH --output=quantify_tiles.out
+#SBATCH --error=quantify_tiles.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=15:00:00
+#SBATCH --partition=biochem,owners,normal
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/2.7.13
 source /home/groups/herschla/rna_map/scripts/new_scripts/env/bin/activate

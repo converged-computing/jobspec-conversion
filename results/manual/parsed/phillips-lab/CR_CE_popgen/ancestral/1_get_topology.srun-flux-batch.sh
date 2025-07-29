@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=topology
-#FLUX: -c=8
-#FLUX: --queue=phillips
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=topology
+#FLUX -c=8
+#FLUX --queue=phillips
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

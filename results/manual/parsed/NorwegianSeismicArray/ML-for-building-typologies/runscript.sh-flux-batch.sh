@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bml-cv
-#FLUX: --queue=dgx2q
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bml-cv
+#FLUX --queue=dgx2q
+#FLUX -t=14400
+#FLUX --urgency=16
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

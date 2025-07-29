@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-training:rnnt
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-training:rnnt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'
 export MODEL_NAME='rnn_speech_recognition'

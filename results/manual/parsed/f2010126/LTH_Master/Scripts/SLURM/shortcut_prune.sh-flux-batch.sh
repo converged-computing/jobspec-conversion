@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet_Short_Rewind
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#FLUX --job-name=ResNet_Short_Rewind
+#FLUX -t=71940
+#FLUX --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

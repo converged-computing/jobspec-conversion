@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=heppy
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=heppy
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module purge
 spack load --dependencies miniconda3

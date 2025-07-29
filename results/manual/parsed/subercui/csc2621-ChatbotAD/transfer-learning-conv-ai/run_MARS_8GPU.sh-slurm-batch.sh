@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt2_convai
-#FLUX: -c=16
-#FLUX: --queue=nlp
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt2_convai
+#SBATCH --output=convai_job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --mem=120GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=nlp
 
 cd /h/haotian/Code/csc2621-ChatbotAD/transfer-learning-conv-ai
 source /pkgs/anaconda3/bin/activate csc2621

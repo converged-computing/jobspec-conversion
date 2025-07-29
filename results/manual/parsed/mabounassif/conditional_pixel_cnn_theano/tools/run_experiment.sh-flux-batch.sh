@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-rabbit-3463
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-despacito-5736
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mabounassif/conditional_pixel_cnn_theano/tools/run_experiment.sh

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-diablo-4397
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=2
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

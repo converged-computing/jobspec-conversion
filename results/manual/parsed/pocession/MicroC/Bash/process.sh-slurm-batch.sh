@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=process
-#FLUX: -c=16
-#FLUX: --queue=rimlsfnwi
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=process
+#SBATCH --output=./log/arr_%x-%A-%a.out
+#SBATCH --error=./log/arr_%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=100G
+#SBATCH --time=01:00:00
+#SBATCH --partition=rimlsfnwi
+#SBATCH --array=1
 
 wd=/ceph/rimlsfnwi/data/cellbio/mhlanga/thsieh
 sub=microC

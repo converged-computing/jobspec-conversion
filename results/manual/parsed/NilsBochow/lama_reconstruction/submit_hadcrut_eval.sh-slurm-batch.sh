@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu
+#SBATCH --output=hadcrut_eval.out
+#SBATCH --error=hadcrut_eval.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem-per-cpu=40000
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpushort
 
 export TORCH_HOME='/p/tmp/bochow/LAMA/lama/ && export PYTHONPATH=/p/tmp/bochow/LAMA/lama/'
 export HDF5_USE_FILE_LOCKING='FALSE'

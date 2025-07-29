@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=creating_env_1
-#FLUX: --queue=testing
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=creating_env_1
+#SBATCH --output=log/%x_%j.out
+#SBATCH --error=log/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=01:00:00
+#SBATCH --partition=testing
 
 export CWD='$(pwd)'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

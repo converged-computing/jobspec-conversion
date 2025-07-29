@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Demultiplex
-#FLUX: -c=10
-#FLUX: --queue=highmem_p
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Demultiplex
+#FLUX -c=10
+#FLUX --queue=highmem_p
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source /apps/lmod/lmod/init/zsh

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-staircase-8585
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=$logfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --qos=regular
+#SBATCH --constraint=haswell
 
 echo `date` Running daily time domain pipeline on `hostname`
 if [ -z "$DESI_ROOT" ]; then

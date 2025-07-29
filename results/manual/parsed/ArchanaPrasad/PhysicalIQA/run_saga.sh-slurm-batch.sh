@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cupcake-2919
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=mics
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --account=mics
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=4g
+#SBATCH --time=20:00:00
+#SBATCH --partition=mics
 
 source ~/.bashrc
 conda activate ai2

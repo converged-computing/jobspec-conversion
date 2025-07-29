@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-plant-8878
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --queue=n1s16-v100-2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=csci_ga_2572_001-2023fa-30
+#SBATCH --output=demo_%j.out
+#SBATCH --error=demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=n1s16-v100-2
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

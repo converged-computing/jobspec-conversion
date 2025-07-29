@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:2
+#SBATCH --mem=20G
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 export M_ID='$((${SLURM_ARRAY_TASK_ID}-1))'
 export THEANO_FLAGS='device=gpu'

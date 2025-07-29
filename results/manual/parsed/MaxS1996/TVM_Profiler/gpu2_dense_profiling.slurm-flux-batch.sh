@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dense_TVMquick
-#FLUX: -c=8
-#FLUX: --queue=gpu2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dense_TVMquick
+#FLUX -c=8
+#FLUX --queue=gpu2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export TVM_HOME='/home/s0144002/tvm_gpu2_power'
 export PYTHONPATH='$TVM_HOME/python:${PYTHONPATH}'

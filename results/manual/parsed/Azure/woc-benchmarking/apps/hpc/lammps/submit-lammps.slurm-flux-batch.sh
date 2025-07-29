@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -N=16
+#FLUX --job-name=lammps
+#FLUX -N=16
 #FLUX: --exclusive
-#FLUX: --queue=hbv3
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --queue=hbv3
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PMIX_INSTALL_PREFIX='$OPAL_PREFIX'
 export NPCS='$((SLURM_NNODES * 40))'

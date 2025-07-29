@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=omnigibson-vscode
-#FLUX: -c=8
-#FLUX: --queue=svl
-#FLUX: --urgency=16
+#SBATCH --job-name=omnigibson-vscode
+#SBATCH --account=cvgl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2080ti:1
+#SBATCH --mem=30G
+#SBATCH --partition=svl
+#SBATCH --qos=normal
 
 set -e -o pipefail
 USERNAME=$(whoami)

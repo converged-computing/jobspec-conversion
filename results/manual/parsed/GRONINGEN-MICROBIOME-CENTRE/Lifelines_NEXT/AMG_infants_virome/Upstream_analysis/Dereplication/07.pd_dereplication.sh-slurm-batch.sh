@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PostDiscovery_deRep
-#FLUX: -c=8
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#SBATCH --job-name=PostDiscovery_deRep
+#SBATCH --output=./out/07.drp/PD_initial_dereplication.out
+#SBATCH --error=./err/07.drp/PD_initial_dereplication.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64gb
+#SBATCH --time=3-08:00:00
 
 module purge
 module load BLAST+/2.13.0-gompi-2022a 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=af_smd
-#FLUX: -N=11
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=af_smd
+#FLUX -N=11
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export SPACK_MANAGER='~/spack-manager'
 

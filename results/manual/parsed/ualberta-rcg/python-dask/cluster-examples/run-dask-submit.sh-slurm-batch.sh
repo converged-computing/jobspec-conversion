@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lentil-5320
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=cc-debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024M
+#SBATCH --time=00:15:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export NUM_WORKERS='8'
 export THREADS_PER_WORKER='1'

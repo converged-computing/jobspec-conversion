@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_nearby
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline_nearby
+#SBATCH --mail-user=mrischard@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=12000
+#SBATCH --time=02:00:00
+#SBATCH --partition=shared
+#SBATCH --array=1,3,4,5,7,12,14,15,16,17,18,20,21,24,26,28,29,30,31,32,33,34,35,36,37,38,39,40,41,43,44
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

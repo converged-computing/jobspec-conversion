@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=IAD
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#SBATCH --job-name=IAD
+#SBATCH --account=
+#SBATCH --output=output_%J.log
+#SBATCH --error=error_%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=04:10:00
 
 WORKDIR=$HOME/thesis/train/trainer #main script
 RUNDIR= #relative dir of config and output

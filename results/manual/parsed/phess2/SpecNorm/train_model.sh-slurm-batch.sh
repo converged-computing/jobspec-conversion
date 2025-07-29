@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train_spec_norm
-#FLUX: -c=20
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_spec_norm
+#SBATCH --output=outLogs/train_model_%A_%a.out
+#SBATCH --error=outLogs/train_model_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=100Gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0-11
 
 source /etc/profile.d/modules.sh
 module use /cm/shared/modulefiles

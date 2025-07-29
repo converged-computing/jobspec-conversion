@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=esdm
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=esdm
+#SBATCH --account=n02
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
 
 export PATH='$TGT/bin:$PATH'
 export PKG_CONFIG_PATH='$TGT/lib/pkgconfig/:$TGT/lib64/pkgconfig/:$PKG_CONFIG_PATH'

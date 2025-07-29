@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-staircase-1805
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-avocado-8051
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test-cpu
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-cpu
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=24
 
 module load singularity
 module unload mvapich2_ib

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: --queue=iaifi_gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=train
+#SBATCH --account=iaifi_lab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=iaifi_gpu
+#SBATCH --array=0-3
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

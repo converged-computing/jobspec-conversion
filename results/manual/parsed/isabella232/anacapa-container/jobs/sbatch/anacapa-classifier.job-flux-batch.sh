@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anacapa-12S-classifier
-#FLUX: --queue=intel
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#FLUX --job-name=anacapa-12S-classifier
+#FLUX --queue=intel
+#FLUX -t=4200
+#FLUX --urgency=16
 
 SINGULARITY=$(which singularity)
 module load singularity # may not need this on your system

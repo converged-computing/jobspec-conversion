@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-butter-4474
-#FLUX: --queue=gpushort
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpushort
 
 module load anaconda3
 source activate /scratch/work/phama1/tensorflow

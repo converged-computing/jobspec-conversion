@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pd_np_oxy
-#FLUX: -n=40
+#FLUX --job-name=pd_np_oxy
+#FLUX -n=40
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export CODE='AIMS'
 export LOG_FILE='$LAUNCH_DIR"/"$ASE_SCRIPT"_"$JOBID".log  '

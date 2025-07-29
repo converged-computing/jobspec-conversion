@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=kvasir_ae
-#FLUX: --queue=gpu-2080ti
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=kvasir_ae
+#SBATCH --output=jobs/%j.out
+#SBATCH --error=jobs/%j.err
+#SBATCH --mail-user=christoph.gerum@uni-tuebingen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx2080ti:4
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu-2080ti
 
 export HANNAH_DATA_FOLDER='/mnt/qb/datasets/STAGING/bringmann/datasets/'
 export EXPERIMENT='baseline'

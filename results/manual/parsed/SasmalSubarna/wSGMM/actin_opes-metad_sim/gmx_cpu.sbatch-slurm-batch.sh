@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ld1-dihedral-bias-opes_actin
-#FLUX: -N=8
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=ld1-dihedral-bias-opes_actin
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=2-12:00:00
+#SBATCH --constraint=ntasks-per-node=32
 
 source /scratch/work/hockygroup/software/gromacs-2019.6-plumedSept2020/bin/GMXRC.bash.modules.triasha
 gmxexe=/scratch/work/hockygroup/software/gromacs-2019.6-plumedSept2020/bin/gmx_mpi

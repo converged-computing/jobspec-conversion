@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Watershed
-#FLUX: -c=3
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=Watershed
+#SBATCH --output=./logs/Watershed-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=short
+#SBATCH --constraint=skl-compat
+#SBATCH --array=1-912%10
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt
 module load ConnectomeWorkbench/1.4.2-rh_linux64

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-13b
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#FLUX --job-name=cpt-13b
+#FLUX -N=2
+#FLUX -c=16
+#FLUX --queue=MoE
+#FLUX --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

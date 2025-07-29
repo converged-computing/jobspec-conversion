@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc-openfold
-#FLUX: -N=32
-#FLUX: -c=32
-#FLUX: --queue=gpu-a100
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=mlperf-hpc-openfold
+#FLUX -N=32
+#FLUX -c=32
+#FLUX --queue=gpu-a100
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 export TF_FORCE_UNIFIED_MEMORY='1'

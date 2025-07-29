@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-0135
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/enggiqbal/MPSE/MPSE/old_junk_donot_delete/hpc/123scp1.pbs

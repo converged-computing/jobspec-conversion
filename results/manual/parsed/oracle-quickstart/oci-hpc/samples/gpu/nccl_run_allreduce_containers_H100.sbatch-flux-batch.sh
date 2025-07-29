@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nccl-allreduce-slurm-containers
-#FLUX: -N=2
+#FLUX --job-name=nccl-allreduce-slurm-containers
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export PMI_DEBUG='1'
 export NCCL_CROSS_NIC='0 \'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ssp_home
-#FLUX: --queue=short-serial
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=ssp_home
+#SBATCH --output=%j_ssp.out
+#SBATCH --error=%j_ssp.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=short-serial
+#SBATCH --array=1-299
 
 module add jaspy
 cd /home/users/tommatthews/Homeostasis/

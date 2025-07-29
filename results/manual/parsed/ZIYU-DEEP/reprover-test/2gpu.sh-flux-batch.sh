@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-8149
-#FLUX: --queue=embers
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-pancake-5977
+#FLUX --queue=embers
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='ALL'

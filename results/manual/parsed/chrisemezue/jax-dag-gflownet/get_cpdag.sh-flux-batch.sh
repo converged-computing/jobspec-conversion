@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bike-1460
-#FLUX: -c=4
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-train-9249
+#FLUX -c=4
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export SLURM_TMPDIR='/home/mila/c/chris.emezue/scratch/SINGULARITY_CDT_TMP_DIR'

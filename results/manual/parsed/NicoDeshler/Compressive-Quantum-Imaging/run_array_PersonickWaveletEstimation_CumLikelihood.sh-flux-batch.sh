@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemur-5894
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-leopard-9824
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NicoDeshler/Compressive-Quantum-Imaging/run_array_PersonickWaveletEstimation_CumLikelihood.sh

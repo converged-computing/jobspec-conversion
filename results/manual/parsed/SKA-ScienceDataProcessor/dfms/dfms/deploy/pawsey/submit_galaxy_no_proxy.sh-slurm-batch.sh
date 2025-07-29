@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=archive_deployment
-#FLUX: -N=10
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=archive_deployment
+#SBATCH --account=mwaops
+#SBATCH --error=err-%j.log
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load python/2.7.10

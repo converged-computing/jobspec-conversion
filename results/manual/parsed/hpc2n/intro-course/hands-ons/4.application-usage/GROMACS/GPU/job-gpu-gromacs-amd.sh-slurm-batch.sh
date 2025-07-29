@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Gromacs
-#FLUX: -c=12
-#FLUX: --queue=amd_gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Gromacs
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=amd_gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=job_r_d284
-#FLUX: -c=40
-#FLUX: --queue=gpu
-#FLUX: -t=104400
-#FLUX: --urgency=16
+#SBATCH --job-name=job_r_d284
+#SBATCH --account=r00117
+#SBATCH --output=job_r_d284_Out
+#SBATCH --error=job_r_d284_Err
+#SBATCH --mail-user=sheybani@iu.edu
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=4
+#SBATCH --time=1-05:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/gpu
 ulimit -u 20000

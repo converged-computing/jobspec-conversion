@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Q_bnn_ROCstorys
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Q_bnn_ROCstorys
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0 #disable MPI warnings'
 

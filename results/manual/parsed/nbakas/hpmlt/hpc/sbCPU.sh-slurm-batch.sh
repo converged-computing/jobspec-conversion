@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-noodle-3674
-#FLUX: -c=256
-#FLUX: --queue=cpu
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --account=${account_name}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=256
+#SBATCH --time=02:30:00
+#SBATCH --partition=cpu
+#SBATCH --qos=dev
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 

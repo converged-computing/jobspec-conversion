@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=laion5b
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=g40
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=laion5b
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=02:00:00
+#SBATCH --partition=g40
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='info'
 export PYTHONFAULTHANDLER='1'

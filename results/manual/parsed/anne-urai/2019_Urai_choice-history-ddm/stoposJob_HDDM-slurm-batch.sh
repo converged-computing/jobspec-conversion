@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-general-8013
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --output=/home/aeurai/jobs/slurm-%A_%a.out
+#SBATCH --error=/home/aeurai/jobs/slurm-%A_%a.err
+#SBATCH --mail-user=anne.urai@gmail.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=5-00:00:00
 
 module load stopos
 source activate python27 # use anaconda

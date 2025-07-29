@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-staircase-9778
-#FLUX: --queue=owners
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=phat-lemur-7426
+#FLUX --queue=owners
+#FLUX -t=7200
+#FLUX --urgency=16
 
 remote_name=quakedrive
 drive_path='Sherlock Backupss'

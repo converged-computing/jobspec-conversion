@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=GaussianBlurLL_LL_REAL
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=gpu2080
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=GaussianBlurLL_LL_REAL
+#SBATCH --output=/scratch/tmp/n_herr03/gaussian/lowlevel/errorandoutput/Gaussian-1802-mili.txt
+#SBATCH --error=/scratch/tmp/n_herr03/gaussian/lowlevel/errorandoutput/Gaussian-1802-mili.error
+#SBATCH --mail-user=n_herr03@uni-muenster.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:4
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu2080
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 module load palma/2020b
 module load fosscuda/2020b

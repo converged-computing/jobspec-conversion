@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prokka_EC
-#FLUX: --queue=bio-compute,lowpri
-#FLUX: -t=691199
-#FLUX: --urgency=16
+#FLUX --job-name=prokka_EC
+#FLUX --queue=bio-compute,lowpri
+#FLUX -t=691199
+#FLUX --urgency=16
 
 cd /mnt/scratch2/users/40309916/E_coli_genomes/genomes/prokka_analysis
 module load apps/anaconda3

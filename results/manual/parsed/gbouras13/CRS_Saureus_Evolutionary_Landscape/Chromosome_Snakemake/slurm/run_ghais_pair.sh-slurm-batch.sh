@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ghais_pair
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ghais_pair
+#SBATCH --output=ghais_pair.out
+#SBATCH --error=ghais_pair.err
+#SBATCH --mail-user=george.bouras@adelaide.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=75GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=batch
 
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"
 cd ..

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-chair-5806
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/gtarjun/Multivariate-Gaussian-Processes-for-Signal-Interpolation-and-Source-Location-Estimation/noise_experiments/conn_gp_ss.pbs

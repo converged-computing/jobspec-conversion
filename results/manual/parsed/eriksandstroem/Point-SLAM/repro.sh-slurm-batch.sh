@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hobbit-7119
-#FLUX: --urgency=16
+#SBATCH --output=/home/esandstroem/scratch/point-slam/output/log/%j.out
+#SBATCH --error=/home/esandstroem/scratch/point-slam/output/log/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --constraint=titan_xp
 
 export PATH='/home/esandstroem/scratch/venvs/point_slam_env_github/bin:$PATH'
 

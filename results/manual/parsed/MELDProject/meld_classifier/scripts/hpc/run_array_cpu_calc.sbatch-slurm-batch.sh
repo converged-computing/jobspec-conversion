@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run-meld
-#FLUX: --queue=skylake-himem
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=run-meld
+#SBATCH --account=CAMBRC-SL2-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64000
+#SBATCH --time=00:10:00
+#SBATCH --partition=skylake-himem
+#SBATCH --array=0-99
 
 export OMP_NUM_THREADS='1'
 

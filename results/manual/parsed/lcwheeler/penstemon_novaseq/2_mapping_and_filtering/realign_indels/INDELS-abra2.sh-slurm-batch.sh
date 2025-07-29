@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=abra
-#FLUX: -n=12
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=abra
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
 
 cd $SLURM_SUBMIT_DIR
 source /home/lw74/.bashrc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fork-1403
-#FLUX: --urgency=16
+#FLUX --job-name=phat-mango-5186
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zhang-ivy/perses_protein_mutations/code/29_bnbs_reprepped/generate_htf.sh

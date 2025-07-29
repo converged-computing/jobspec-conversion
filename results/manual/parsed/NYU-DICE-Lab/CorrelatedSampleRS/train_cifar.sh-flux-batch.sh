@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sd
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=sd
+#FLUX -c=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load python/intel/3.8.6

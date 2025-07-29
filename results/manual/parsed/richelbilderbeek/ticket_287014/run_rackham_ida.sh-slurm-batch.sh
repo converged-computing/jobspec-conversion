@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=metontiime_18mar_2
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --job-name=metontiime_18mar_2
+#SBATCH --account=naiss2023-22-866
+#SBATCH --output=metontiime_18mar_2.out
+#SBATCH --error=metontiime_18mar_2.err
+#SBATCH --mail-user=ida.nordstrom@slu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=9-00:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools Nextflow 
 rm -f metontiime2.nf

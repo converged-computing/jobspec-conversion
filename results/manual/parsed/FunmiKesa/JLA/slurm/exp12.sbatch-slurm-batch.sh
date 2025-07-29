@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=exp12
-#FLUX: -c=8
-#FLUX: --queue=pearl
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=exp12
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=150G
+#SBATCH --time=00:05:00
+#SBATCH --partition=pearl
 
 singularity exec \
         --nv -w \

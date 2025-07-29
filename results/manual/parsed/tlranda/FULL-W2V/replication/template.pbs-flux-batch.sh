@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-egg-6585
+#FLUX --job-name=blue-ricecake-2472
 #FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 if [ ! -z ${PBS_JOBNAME+x} ]; then
   # In PPS Queue

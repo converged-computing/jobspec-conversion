@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DeepRBPLoc
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=DeepRBPLoc
+#SBATCH --output=allRNA_finetune_DDP4GPUnonredundantDM3Loc9tflattenBCEhumanfiltermilncrelease45search0.0005_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:titanrtx:4
+#SBATCH --mem=80000M
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --array=1
 
 nvidia-smi
 pwd

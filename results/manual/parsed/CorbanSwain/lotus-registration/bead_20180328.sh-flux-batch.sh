@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pot-4371
-#FLUX: -n=20
-#FLUX: --queue=om_all_nodes
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-leader-2091
+#FLUX -n=20
+#FLUX --queue=om_all_nodes
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export TZ='America/New_York'
 

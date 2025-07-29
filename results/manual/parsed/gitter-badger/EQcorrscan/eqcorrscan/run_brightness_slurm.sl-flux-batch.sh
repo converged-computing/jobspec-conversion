@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=BrightnessTremor
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=BrightnessTremor
+#FLUX -c=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parsnip-7012
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export yy='`echo ${cdate} | cut -c 1-4`'
 export mm='`echo ${cdate} | cut -c 5-6`'

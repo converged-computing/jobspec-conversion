@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-2061
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=a_omara
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=256G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_TMPDIR='/scratch/user/uqadaqu1/tmp/ '
 

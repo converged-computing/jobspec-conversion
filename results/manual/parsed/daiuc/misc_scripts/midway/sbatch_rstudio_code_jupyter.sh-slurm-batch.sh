@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rstudio
-#FLUX: -c=4
-#FLUX: --queue=broadwl
-#FLUX: -t=129540
-#FLUX: --urgency=16
+#SBATCH --job-name=rstudio
+#SBATCH --account=pi-jstaley
+#SBATCH --output=logs/sbatchLogRstudioContainer.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=25g
+#SBATCH --time=1-11:59:00
+#SBATCH --partition=broadwl
 
 export SINGULARITYENV_USER='chaodai'
 export SINGULARITYENV_RSTUDIO_WHICH_R='${R_BIN}'

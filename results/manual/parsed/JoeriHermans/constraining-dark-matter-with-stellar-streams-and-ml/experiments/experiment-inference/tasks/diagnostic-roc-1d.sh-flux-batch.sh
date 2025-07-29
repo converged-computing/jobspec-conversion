@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_DIAGNOSTIC_ROC_1D
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_INFERENCE_DIAGNOSTIC_ROC_1D
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 marginal_data=$DATADIR/test

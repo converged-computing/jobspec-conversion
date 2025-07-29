@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=correlators_cA211a.30.32_test__NSTORE_
-#FLUX: -c=3
-#FLUX: --queue=pascal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=correlators_cA211a.30.32_test__NSTORE_
+#FLUX -c=3
+#FLUX --queue=pascal
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/pascal_v0.9.0-724-g405d5bf1-dynamic_clover_gdr${gdr}_p2p${p2p}'
 

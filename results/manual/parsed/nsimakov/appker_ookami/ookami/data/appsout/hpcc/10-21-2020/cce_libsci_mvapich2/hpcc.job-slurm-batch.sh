@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pedo-4821
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=48
 
 pwd
 module restore PrgEnv-cray

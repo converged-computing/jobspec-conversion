@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=my_multinode_job
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=luna
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=my_multinode_job
+#FLUX -c=32
+#FLUX --gpus-per-task=8
+#FLUX --queue=luna
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SUBMIT_ACCOUNT='devtech'
 export SHARE_SOURCE='/lustre/fsw/nvresearch/mmardani/source'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter-lab
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter-lab
+#SBATCH --account=compbio
+#SBATCH --output=./output_reports/slurm.%N.%j.out
+#SBATCH --error=./error_reports/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 [karlberb@exahead1 sample_count]$ cat j_lab_template.sh
 JUPYTER_ENV=/home/groups/EllrottLab/sample_count/j_lab_py3_env

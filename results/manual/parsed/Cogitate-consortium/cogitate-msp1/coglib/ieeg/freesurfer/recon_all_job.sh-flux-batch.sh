@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=recon_all
-#FLUX: --queue=octopus
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=recon_all
+#FLUX --queue=octopus
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SUBJECTS_DIR='$FREESURFER_PATH'
 

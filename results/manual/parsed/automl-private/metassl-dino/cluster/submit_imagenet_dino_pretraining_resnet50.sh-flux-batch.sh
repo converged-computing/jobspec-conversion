@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=IN_PT_DINO_RESNET50
-#FLUX: --queue=mldlc_gpu-rtx2080
-#FLUX: -t=345599
-#FLUX: --urgency=16
+#FLUX --job-name=IN_PT_DINO_RESNET50
+#FLUX --queue=mldlc_gpu-rtx2080
+#FLUX -t=345599
+#FLUX --urgency=16
 
 pip list
 source activate dino

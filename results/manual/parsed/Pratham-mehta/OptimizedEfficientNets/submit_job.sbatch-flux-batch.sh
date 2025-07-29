@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HPML_Project_efficientnet_b1_dataparallel
-#FLUX: -c=16
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=HPML_Project_efficientnet_b1_dataparallel
+#FLUX -c=16
+#FLUX -t=64800
+#FLUX --urgency=16
 
 module purge
 cd /scratch/sd5023/HPML/Course_Project/

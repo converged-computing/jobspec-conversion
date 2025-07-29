@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-banana-9647
-#FLUX: -c=6
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%N-%jsmall.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000M
+#SBATCH --time=1-00:00:00
 
 module purge
 module load python/3.6.3

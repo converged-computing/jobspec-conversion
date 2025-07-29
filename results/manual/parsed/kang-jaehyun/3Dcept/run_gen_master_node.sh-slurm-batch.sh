@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-noodle-0337
-#FLUX: --urgency=16
+#SBATCH --output=/share0/jhkang/log/%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo "### START DATE=$(date)"
 echo "### HOSTNAME=$(hostname)"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ghais_pair
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=ghais_pair
+#FLUX -c=32
+#FLUX --queue=batch
+#FLUX -t=43200
+#FLUX --urgency=16
 
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"
 cd ..

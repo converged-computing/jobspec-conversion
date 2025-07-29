@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Cifar10-1node
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Cifar10-1node
+#FLUX --queue=normal
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

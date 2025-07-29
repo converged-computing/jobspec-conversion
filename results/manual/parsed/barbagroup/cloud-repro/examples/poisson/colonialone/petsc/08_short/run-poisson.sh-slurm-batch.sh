@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=08petsc
-#FLUX: -N=8
-#FLUX: --queue=short
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=08petsc
+#SBATCH --output=log%j.out
+#SBATCH --error=log%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=16
 
 export PATH='$AMGXWRAPPER_DIR/example/poisson/bin":$PATH'
 export LD_LIBRARY_PATH='$AMGX_DIR/lib":$LD_LIBRARY_PATH'

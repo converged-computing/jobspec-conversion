@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dqml
-#FLUX: --queue=All
-#FLUX: --urgency=16
+#SBATCH --job-name=dqml
+#SBATCH --output=./slurm_output/output.%A_%a.out
+#SBATCH --mail-user=K.Izadi@campus.lmu.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=All
+#SBATCH --chdir=./
+#SBATCH --array=[1,2,3,4,5]
 
 echo Running on node $SLURMD_NODENAME at `date`
 . ./env/bin/activate

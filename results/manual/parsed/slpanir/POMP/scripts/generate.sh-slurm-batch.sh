@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bike-6506
-#FLUX: -n=8
-#FLUX: --queue=priv_para
-#FLUX: --urgency=16
+#SBATCH --output=True
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=priv_para
 
 export MPLM='xlmrL'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

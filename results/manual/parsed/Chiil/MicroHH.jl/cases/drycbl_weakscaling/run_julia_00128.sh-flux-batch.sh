@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=astute-latke-6914
-#FLUX: -c=4
+#FLUX --job-name=spicy-frito-0968
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load 2021
 module load foss/2021a

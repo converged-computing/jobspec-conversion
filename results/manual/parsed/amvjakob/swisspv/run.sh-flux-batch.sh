@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-milkshake-5710
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-dog-3071
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo STARTING AT $(date)
 module purge

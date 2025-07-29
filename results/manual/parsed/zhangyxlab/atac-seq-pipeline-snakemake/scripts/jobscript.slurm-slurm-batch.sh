@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ATACseq
-#FLUX: --queue=amd-ep2
-#FLUX: --urgency=16
+#SBATCH --job-name=ATACseq
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4Gb
+#SBATCH --partition=amd-ep2
+#SBATCH --qos=normal
 
 export PATH=':$PATH:/storage/zhangyanxiaoLab/share/bin'
 

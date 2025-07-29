@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mogrify-tss-seq
-#FLUX: --queue=short
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=mogrify-tss-seq
+#SBATCH --output=mogrify.log
+#SBATCH --error=mogrify.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=08:00:00
+#SBATCH --partition=short
 
 find . -name "*.svg" ! -path "*.git*" ! -path "*.snakemake*" ! -name "rulegraph.svg" ! -name "dag.svg" | while read svg; do
     png=$(echo $svg | sed -e 's/.svg$/.png/g')

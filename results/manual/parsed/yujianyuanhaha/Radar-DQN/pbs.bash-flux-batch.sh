@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-sundae-0285
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-leopard-8945
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yujianyuanhaha/Radar-DQN/pbs.bash

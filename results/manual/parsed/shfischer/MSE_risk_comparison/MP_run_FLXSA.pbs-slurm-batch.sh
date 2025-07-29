@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-frito-6830
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shfischer/MSE_risk_comparison/MP_run_FLXSA.pbs

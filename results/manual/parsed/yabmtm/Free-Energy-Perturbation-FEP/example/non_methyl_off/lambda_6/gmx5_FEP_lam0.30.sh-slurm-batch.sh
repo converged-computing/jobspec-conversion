@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=g_methyl_lam0.30.pf
-#FLUX: -n=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=g_methyl_lam0.30.pf
+#SBATCH --account=TG-MCB140270
+#SBATCH --output=g_methyl_lam0.30.%j.out
+#SBATCH --error=errors.%j.out
+#SBATCH --mail-user=tud16919@temple.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='16'
 

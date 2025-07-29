@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=graphIPA_M
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=bio_s1
-#FLUX: --urgency=16
+#SBATCH --job-name=graphIPA_M
+#SBATCH --output=out_graphIPA_M.log
+#SBATCH --error=error_graphIPA_M.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=bio_s1
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_IB_DISABLE='1'
 export NCCL_IB_HCA='mlx5_0 '

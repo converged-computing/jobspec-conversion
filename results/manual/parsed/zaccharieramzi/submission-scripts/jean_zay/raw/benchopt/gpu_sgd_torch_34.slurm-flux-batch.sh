@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=benchopt_run_sgd_torch
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=benchopt_run_sgd_torch
+#FLUX -c=10
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='$WORK/.local_torch'
 export PATH='$WORK/.local_torch/bin:$PATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parsnip-0796
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-gato-1733
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/goshng/Mauve-Analysis/cac/warg-array/batch.sh

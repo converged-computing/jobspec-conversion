@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=augmented
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=augmented
+#SBATCH --output=tiling_%x.out
+#SBATCH --error=tiling_%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-4%5
 
 tiler_type='SharedAugTiler'
 path_wsi="./test_dataset/slides"

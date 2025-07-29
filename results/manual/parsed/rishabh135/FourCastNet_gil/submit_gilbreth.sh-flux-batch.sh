@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fourcastnet_job
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fourcastnet_job
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PRECXX11ABI='1'
 export CUDA='11.7'

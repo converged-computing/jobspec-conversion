@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=2_1_L125E
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=2_1_L125E
+#SBATCH --account=account-name
+#SBATCH --mail-user=email@domain.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem=0
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 

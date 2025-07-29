@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-latke-0613
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=blank-motorcycle-0087
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load Anaconda3
 source activate dassl

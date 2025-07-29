@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=j_GATK
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=j_GATK
+#SBATCH --output=GATK.%j.out
+#SBATCH --error=GATK.%j.err
+#SBATCH --mail-user=ry00555@uga.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10gb
+#SBATCH --time=08:00:00
+#SBATCH --partition=batch
 
 d $SLURM_SUBMIT_DIR
 source config.txt

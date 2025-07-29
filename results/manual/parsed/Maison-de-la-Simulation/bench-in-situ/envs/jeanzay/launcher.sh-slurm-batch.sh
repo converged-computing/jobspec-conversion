@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bench_insitu
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=bench_insitu
+#SBATCH --account=wuc@a100
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:10:00
+#SBATCH --constraint=ntasks-per-node=1,a100
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export OMP_PLACES='cores'

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=/l/users/hongyiwa/guoheng.sun/medvicuna_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:4
+#SBATCH --mem=200G
+#SBATCH --partition=long
 
 export WANDB_MODE='offline'
 export LOGLEVEL='INFO'

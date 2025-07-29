@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1_nextflow
-#FLUX: -n=64
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=1_nextflow
+#FLUX -n=64
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export CONDA_PREFIX='/aashn//miniconda3'
 export CONDA_ROOT='/aashna/miniconda3'

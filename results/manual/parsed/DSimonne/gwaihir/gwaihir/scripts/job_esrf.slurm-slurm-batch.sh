@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-despacito-0252
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=p9gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=gwaihir_%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=p9gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 reconstruct=$1          # if launched via the gui or terminal
 username=$2             # username, if not specified, default to simonne

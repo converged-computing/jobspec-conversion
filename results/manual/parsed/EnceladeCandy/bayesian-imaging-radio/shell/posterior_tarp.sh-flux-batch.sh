@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Posterior_vp_postneurips_pc
-#FLUX: -t=719
-#FLUX: --urgency=16
+#FLUX --job-name=Posterior_vp_postneurips_pc
+#FLUX -t=719
+#FLUX --urgency=16
 
 module load python
 source $HOME/diffusion/bin/activate

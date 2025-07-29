@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peanut-butter-0741
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-milkshake-9421
+#FLUX --urgency=16
 
 echo "----------------------"
 date

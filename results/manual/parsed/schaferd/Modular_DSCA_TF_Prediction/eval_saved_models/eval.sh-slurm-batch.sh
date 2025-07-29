@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-egg-6363
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=/home/schaferd/ae_project/Modular_DSCA_TF_Prediction/eval_saved_models/outputs/slurm/slurm%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128GB
+#SBATCH --time=20:00:00
 
 source params.sh
 HOME2=/nobackup/users/$(whoami)

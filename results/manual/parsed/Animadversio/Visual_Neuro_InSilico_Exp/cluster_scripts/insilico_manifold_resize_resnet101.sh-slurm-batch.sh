@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pedo-2537
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/Visual_Neuro_InSilico_Exp/cluster_scripts/insilico_manifold_resize_resnet101.sh

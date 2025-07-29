@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kpc-dask-2node
-#FLUX: -N=2
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=kpc-dask-2node
+#FLUX -N=2
+#FLUX --queue=gpu2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PATH='/home/sdigioia/R/bin:${PATH}'
 export LD_LIBRARY_PATH='/home/sdigioia/R/lib64/R/lib:${LD_LIBRARY_PATH}'

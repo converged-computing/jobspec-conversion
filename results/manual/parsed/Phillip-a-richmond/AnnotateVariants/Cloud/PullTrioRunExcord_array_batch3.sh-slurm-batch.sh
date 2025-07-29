@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-motorcycle-5975
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=101-500%100
 
 AnnotateVariantsDir=/shared/AnnotateVariants/
 Final_Dir=/shared/SVOutput/

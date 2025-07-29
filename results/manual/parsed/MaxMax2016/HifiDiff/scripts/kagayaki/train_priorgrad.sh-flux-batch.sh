@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lizard-3324
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-leader-8020
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MaxMax2016/HifiDiff/scripts/kagayaki/train_priorgrad.sh

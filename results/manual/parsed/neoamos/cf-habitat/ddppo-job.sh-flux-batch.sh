@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test-hab
-#FLUX: -c=128
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#FLUX --job-name=test-hab
+#FLUX -c=128
+#FLUX -t=61200
+#FLUX --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

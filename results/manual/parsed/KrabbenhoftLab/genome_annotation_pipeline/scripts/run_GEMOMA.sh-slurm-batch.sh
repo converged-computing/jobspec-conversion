@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-squidward-6118
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=tkrabben
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=general-compute
 
 SPECIES=$1 # short name for your species
 GENOME_DIR=$2 # directory containing your genome assembly

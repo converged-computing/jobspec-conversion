@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=64_matrixVectorProduct
-#FLUX: -n=64
-#FLUX: -c=128
+#FLUX --job-name=64_matrixVectorProduct
+#FLUX -n=64
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export GASNET_BACKTRACE='1'
 export GASNET_PHYSMEM_MAX='167 GB'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lemur-9952
-#FLUX: -N=2
-#FLUX: -c=4
+#FLUX --job-name=stinky-rabbit-5844
+#FLUX -N=2
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=thin
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=thin
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load 2021
 module load foss/2021a

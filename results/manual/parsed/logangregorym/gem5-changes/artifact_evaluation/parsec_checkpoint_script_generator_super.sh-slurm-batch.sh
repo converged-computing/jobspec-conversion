@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=${parsec_bench_names[$1]}-s
-#FLUX: --queue=${partition_pool[$node_number]}
-#FLUX: --urgency=16
+#SBATCH --job-name=${parsec_bench_names[$1]}-s
+#SBATCH --output=slurm-%j-${parsec_bench_names[$1]}-${type}.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=${partition_pool[$node_number]}
+#SBATCH --nodelist=${nodelist_pool[$node_number]}
 
 home_root="/u/lgm4xn"
 script_dir="${PWD}"

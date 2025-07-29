@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=workflow_submission
-#FLUX: --queue=exacloud
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=workflow_submission
+#FLUX --queue=exacloud
+#FLUX -t=126000
+#FLUX --urgency=16
 
 num_active_jobs=$1
 raw_data_path=$2

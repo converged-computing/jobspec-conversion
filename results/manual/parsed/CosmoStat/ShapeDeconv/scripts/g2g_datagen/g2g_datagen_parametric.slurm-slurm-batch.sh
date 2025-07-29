@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_mono
-#FLUX: -c=10
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_mono
+#SBATCH --output=cfht2hst_parametric%j.out
+#SBATCH --error=cfht2hst_parametric%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=08:00:00
 
 export OMP_NUM_THREADS='10'
 

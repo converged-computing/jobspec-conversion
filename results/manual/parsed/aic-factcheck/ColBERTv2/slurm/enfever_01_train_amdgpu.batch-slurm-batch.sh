@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=enfever_01_colbert_train
-#FLUX: -c=4
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=enfever_01_colbert_train
+#SBATCH --output=../logs/enfever_01_colbert_train.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdgpu
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'
 export PYTHONPATH='.:$PYTHONPATH'

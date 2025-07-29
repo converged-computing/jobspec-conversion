@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cma_ALL
-#FLUX: -c=4
-#FLUX: --queue=alldlc_gpu-rtx2080
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cma_ALL
+#SBATCH --output=log/%x.%N.%j.out
+#SBATCH --error=log/%x.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=72000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=alldlc_gpu-rtx2080
 
 export TF_XLA_FLAGS='--tf_xla_cpu_global_jit'
 

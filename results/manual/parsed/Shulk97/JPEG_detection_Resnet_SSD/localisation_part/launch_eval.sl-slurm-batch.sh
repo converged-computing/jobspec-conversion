@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=phat-truffle-8244
-#FLUX: --queue=gpu_k80
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/home/2017018/tconst01/pao/logs/%J.out
+#SBATCH --error=/home/2017018/tconst01/pao/logs/%J.err
+#SBATCH --mail-user=thomas.constum@insa-rouen.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_k80
 
 export LOCAL_WORK_DIR='/home/2017018/tconst01/ssd/pao_jpeg_bis/localisation_part'
 export DATASET_PATH='/save/2017018/PARTAGE/pascal_voc/'

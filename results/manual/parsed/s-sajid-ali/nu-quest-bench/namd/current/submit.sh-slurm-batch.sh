@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test_mpi
-#FLUX: -N=2
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_mpi
+#SBATCH --account=p30157
+#SBATCH --output=outlog
+#SBATCH --error=errlog
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=24
 
 source /home/sas4990/miniconda3/etc/profile.d/conda.sh
 conda activate ipy3

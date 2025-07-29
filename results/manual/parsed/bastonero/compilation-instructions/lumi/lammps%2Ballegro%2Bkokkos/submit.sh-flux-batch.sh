@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=lammps
+#FLUX -c=4
+#FLUX --queue=small-g
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load LUMI/23.09
 module load LAMMPS/stable-12Aug2023-update2-pair-allegro-rocm-5.2.3-pytorch-1.13-20240303

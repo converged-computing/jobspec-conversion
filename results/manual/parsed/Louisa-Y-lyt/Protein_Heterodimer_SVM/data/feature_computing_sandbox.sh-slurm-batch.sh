@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=feature_compute
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=36000
-#FLUX: --urgency=50
+#SBATCH --job-name=feature_compute
+#SBATCH --output=/n/home10/ytingliu/alphapulldown_new/logs/%A_%a_out.txt
+#SBATCH --error=/n/home10/ytingliu/alphapulldown_new/logs/%A_%a_err.txt
+#SBATCH --mail-user=yutingliu@hsph.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=128G
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu_requeue
+#SBATCH --qos=high
 
 module load cuda/11.8.0-fasrc01
 module load cudnn/8.9.2.26_cuda11-fasrc01

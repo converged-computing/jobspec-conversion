@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-spoon-9976
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=stf007uanofn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=batch
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

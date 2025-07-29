@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-citrus-9838
-#FLUX: --queue=norm
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-punk-9197
+#FLUX --queue=norm
+#FLUX -t=14400
+#FLUX --urgency=16
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 SRC_DIR='./src'

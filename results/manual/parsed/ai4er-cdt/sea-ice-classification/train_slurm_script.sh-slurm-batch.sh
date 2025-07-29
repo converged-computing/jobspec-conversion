@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=milky-mango-6026
-#FLUX: -c=4
-#FLUX: --queue=orchid
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=orchid
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=orchid
+#SBATCH --constraint=ntasks-per-node=1
 
 conda activate sea-ice-classification
 nvidia-smi

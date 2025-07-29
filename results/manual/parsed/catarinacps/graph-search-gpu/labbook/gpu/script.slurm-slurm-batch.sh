@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cinnamonbun-9722
-#FLUX: --queue=draco
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=hcpsilva@inf.ufrgs.br
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=draco
+#SBATCH --chdir=.
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH'
 export PATH='$PATH'

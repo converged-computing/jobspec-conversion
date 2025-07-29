@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cat-3809
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=logs/%A_%a.out
+#SBATCH --error=logs/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --array=1-200
 
 echo `hostname`
 wdir=/projects/sequence_analysis/vol3/bizon/scigraph_cord

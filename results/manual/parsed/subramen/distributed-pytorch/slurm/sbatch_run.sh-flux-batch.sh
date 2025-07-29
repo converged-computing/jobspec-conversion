@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-example
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#FLUX --job-name=multinode-example
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -c=4
+#FLUX --gpus-per-task=1
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 

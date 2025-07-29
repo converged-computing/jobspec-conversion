@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run-function
-#FLUX: -c=8
-#FLUX: --queue=dgx_normal_q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=run-function
+#FLUX -c=8
+#FLUX --queue=dgx_normal_q
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load Python/3.11.3-GCCcore-12.3.0
 python3 --version

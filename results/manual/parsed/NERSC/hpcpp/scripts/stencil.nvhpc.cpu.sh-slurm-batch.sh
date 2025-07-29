@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=1D-CPU
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=1D-CPU
+#SBATCH --account=nstaff
+#SBATCH --output=1d-cpu.o%j
+#SBATCH --error=1d-cpu.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=cpu,ntasks-per-node=1
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-1d-cpu

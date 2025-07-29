@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-mango-1010
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=DMOBLEY_LAB
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/bin/gmx2022.1/bin/GMXRC
 bash "$RUN_SCRIPT" -d "$SYSTEM_DIR"/stage"$STAGE" -t "$SYSTEM_DIR" -x gmx \

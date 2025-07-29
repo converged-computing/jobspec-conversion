@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=large
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --job-name=large
+#SBATCH --output=logs/large.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16GB
+#SBATCH --time=11:30:00
+#SBATCH --partition=gpu
 
 echo $SLURMD_NODENAME $CUDA_VISIBLE_DEVICES
 . /etc/profile.d/modules.sh

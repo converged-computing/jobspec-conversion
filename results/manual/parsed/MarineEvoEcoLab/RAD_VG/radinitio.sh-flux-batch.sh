@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-truffle-3700
-#FLUX: -c=20
-#FLUX: --queue=uri-cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-train-5376
+#FLUX -c=20
+#FLUX --queue=uri-cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/home/gabriel_barrett_uri_edu/nxf-singularity-cache-dir'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=vncserver
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=vncserver
+#FLUX -N=2
+#FLUX -n=2
+#FLUX --queue=development
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export DISPLAY=':${VNC_DISPLAY}'
 

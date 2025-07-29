@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peas-8169
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/dj-ishikura/anime_retweet/work_emo_analyze/llm-lora-classification/train_emo_to01.sh

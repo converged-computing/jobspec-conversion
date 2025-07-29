@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fmriprep
-#FLUX: -c=4
-#FLUX: --queue=all
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=fmriprep
+#FLUX -c=4
+#FLUX --queue=all
+#FLUX -t=57600
+#FLUX --urgency=16
 
 echo "Purging modules"
 module purge

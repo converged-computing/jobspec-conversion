@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-9940
-#FLUX: --queue=hci-rw
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=grated-knife-0434
+#FLUX --queue=hci-rw
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -e; start=$(date +'%s')
 echo -e "\n---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

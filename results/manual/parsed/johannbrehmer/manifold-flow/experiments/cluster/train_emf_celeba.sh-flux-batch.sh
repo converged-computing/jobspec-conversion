@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t-emf-c
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=t-emf-c
+#FLUX -c=4
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

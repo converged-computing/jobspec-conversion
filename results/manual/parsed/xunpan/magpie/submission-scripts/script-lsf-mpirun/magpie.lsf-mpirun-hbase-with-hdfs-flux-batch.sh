@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-caramel-5703
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-house-5928
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xunpan/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-hbase-with-hdfs

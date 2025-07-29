@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=snakemakePAS
-#FLUX: --queue=broadwl
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemakePAS
+#SBATCH --output=snakePASlog.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=broadwl
 
 bash submit-snakemakePAS.sh $*

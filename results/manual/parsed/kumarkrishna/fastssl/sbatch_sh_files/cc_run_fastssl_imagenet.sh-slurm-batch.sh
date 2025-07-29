@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milky-butter-2763
-#FLUX: -c=3
-#FLUX: -t=93600
-#FLUX: --urgency=16
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --output=output/experiment_imagenet-%A.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-02:00:00
+#SBATCH --array=15-23
 
 echo "My SLURM_ARRAY_JOB_ID is $SLURM_ARRAY_JOB_ID."
 echo "My SLURM_ARRAY_TASK_ID is $SLURM_ARRAY_TASK_ID"

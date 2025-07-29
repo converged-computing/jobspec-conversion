@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hippo-2288
-#FLUX: -c=8
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --output=baseline.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32000M
+#SBATCH --time=00:12:00
 
 module load StdEnv/2020 python/3.7
 module load gurobi/9.1.0

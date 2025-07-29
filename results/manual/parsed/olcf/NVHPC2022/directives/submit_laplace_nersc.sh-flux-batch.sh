@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-poo-3056
-#FLUX: -c=128
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-truffle-0954
+#FLUX -c=128
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load PrgEnv-nvidia
 module load cudatoolkit

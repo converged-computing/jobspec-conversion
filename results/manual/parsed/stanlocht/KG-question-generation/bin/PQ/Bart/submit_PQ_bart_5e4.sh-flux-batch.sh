@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=KGQG-bart-5e4
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=KGQG-bart-5e4
+#FLUX -c=3
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load 2019

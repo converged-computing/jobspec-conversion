@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SS-LAMMPS
-#FLUX: -N=12
+#FLUX --job-name=SS-LAMMPS
+#FLUX -N=12
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export SMARTSIM_LOG_LEVEL='debug'
 

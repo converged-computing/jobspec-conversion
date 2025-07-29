@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chip-5200
-#FLUX: --queue=embers
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=gts-czhang355
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A100:2
+#SBATCH --mem=80G
+#SBATCH --time=04:00:00
+#SBATCH --partition=embers
+#SBATCH --constraint=ntasks-per-node=2,A100-80GB
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='ALL'

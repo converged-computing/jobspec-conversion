@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LAMMPS_DATA
-#FLUX: -n=40
-#FLUX: --queue=matador
-#FLUX: --urgency=16
+#FLUX --job-name=LAMMPS_DATA
+#FLUX -n=40
+#FLUX --queue=matador
+#FLUX --urgency=16
 
 set -euf -o pipefail
 readonly gpu_count=1

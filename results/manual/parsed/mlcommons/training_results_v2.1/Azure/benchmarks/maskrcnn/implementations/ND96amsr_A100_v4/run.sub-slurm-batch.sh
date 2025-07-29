@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=object_detection
-#FLUX: --urgency=16
+#SBATCH --job-name=object_detection
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

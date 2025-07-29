@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Preprocess
-#FLUX: --queue=regular
-#FLUX: -t=28861
-#FLUX: --urgency=16
+#SBATCH --job-name=Preprocess
+#SBATCH --account=m3246
+#SBATCH --mail-user=mingfong@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:01:01
+#SBATCH --partition=regular
+#SBATCH --qos=regular
+#SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

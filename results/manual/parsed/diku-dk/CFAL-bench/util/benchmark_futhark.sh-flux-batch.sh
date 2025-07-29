@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cfal-futhark
-#FLUX: -c=32
-#FLUX: --queue=csmpi_fpga_long
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=cfal-futhark
+#FLUX -c=32
+#FLUX --queue=csmpi_fpga_long
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PATH='/vol/itt/data/cfal/team-futhark/bin/:$PATH'
 

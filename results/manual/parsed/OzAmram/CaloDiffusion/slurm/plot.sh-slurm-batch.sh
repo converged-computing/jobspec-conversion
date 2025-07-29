@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=JOB_NAME
-#FLUX: --queue=wc_gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=JOB_NAME
+#SBATCH --output=JOB_OUT/log_plot_JOBIDX.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=MEMORY
+#SBATCH --partition=wc_gpu
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/oamram/'
 export HOME='/work1/cms_mlsim/oamram/CaloDiffusion/ '

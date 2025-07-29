@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-onion-2694
-#FLUX: -c=20
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-fork-4655
+#FLUX -c=20
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 

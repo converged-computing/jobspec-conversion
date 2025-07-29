@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wiki_en_02_colbert_index
-#FLUX: -c=4
-#FLUX: --queue=amdgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=wiki_en_02_colbert_index
+#FLUX -c=4
+#FLUX --queue=amdgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='.:$PYTHONPATH'
 

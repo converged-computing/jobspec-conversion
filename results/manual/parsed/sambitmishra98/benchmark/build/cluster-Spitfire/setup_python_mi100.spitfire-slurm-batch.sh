@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ompi-script
-#FLUX: -n=3
-#FLUX: --queue=amd
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=ompi-script
+#SBATCH --output=python3-build-hip.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem-per-cpu=80G
+#SBATCH --time=06:00:00
+#SBATCH --partition=amd
+#SBATCH: --no-requeue
 
 export BUILD_NAME='build3'
 export BUILD_TAG='ac038'

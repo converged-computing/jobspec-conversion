@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-motorcycle-5645
-#FLUX: --urgency=16
+#FLUX --job-name=angry-house-0250
+#FLUX --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'
 export ROMIO_HINTS='$(pwd)/.romio_hint'

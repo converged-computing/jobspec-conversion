@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=oreed2EvalResults
-#FLUX: -c=4
-#FLUX: --queue=a100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=oreed2EvalResults
+#FLUX -c=4
+#FLUX --queue=a100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

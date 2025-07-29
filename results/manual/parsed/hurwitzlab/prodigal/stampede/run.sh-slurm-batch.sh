@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=prodigal
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=prodigal
+#SBATCH --account=iPlant-Collabs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
 
 export LAUNCHER_PLUGIN_DIR='$TACC_LAUNCHER_DIR/plugins'
 export LAUNCHER_WORKDIR='$PWD'

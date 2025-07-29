@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reads_QC
-#FLUX: -c=4
-#FLUX: -t=176340
-#FLUX: --urgency=16
+#FLUX --job-name=reads_QC
+#FLUX -c=4
+#FLUX -t=176340
+#FLUX --urgency=16
 
 SAMPLE_ID=$1
 echo "SAMPLE_ID=${SAMPLE_ID}"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-eagle-1871
-#FLUX: -N=2
-#FLUX: --queue=bdwall
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-snack-8201
+#FLUX -N=2
+#FLUX --queue=bdwall
+#FLUX -t=900
+#FLUX --urgency=16
 
 export PSM2_MULTI_EP='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=non-local-means
-#FLUX: --queue=gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=non-local-means
+#FLUX --queue=gpu
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load gcc
 module load cuda

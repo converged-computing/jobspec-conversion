@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain-pixel-gpt2large
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=270000
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain-pixel-gpt2large
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=70000M
+#SBATCH --time=3-03:00:00
+#SBATCH --partition=gpu
 
 export ENCODER='Team-PIXEL/pixel-base'
 export DECODER='gpt2-large'

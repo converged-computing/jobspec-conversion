@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Mar_inversion
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Mar_inversion
+#FLUX -N=32
+#FLUX -n=32
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

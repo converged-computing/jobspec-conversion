@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DeepForest_cpu
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=DeepForest_cpu
+#SBATCH --account=ewhite
+#SBATCH --output=/home/b.weinstein/logs/DeepForest_cpu.out
+#SBATCH --error=/home/b.weinstein/logs/DeepForest_cpu.err
+#SBATCH --mail-user=benweinstein2010@gmail.com
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=5GB
+#SBATCH --time=1-00:00:00
 
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda3/envs/DeepForest/lib/python3.6/site-packages/'
 

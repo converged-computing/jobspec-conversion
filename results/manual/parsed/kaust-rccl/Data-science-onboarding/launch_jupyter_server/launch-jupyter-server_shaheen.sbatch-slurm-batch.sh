@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: --queue=workq
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=demo
+#SBATCH --account=k1033
+#SBATCH --output=%x-%j-slurm.out
+#SBATCH --error=%x-%j-slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=workq
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

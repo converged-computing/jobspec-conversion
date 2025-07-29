@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-chip-6040
-#FLUX: -N=2
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-staircase-5374
+#FLUX -N=2
+#FLUX --gpus-per-task=1
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

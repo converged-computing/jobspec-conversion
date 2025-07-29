@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hpx-test
-#FLUX: --queue=jenkins-compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hpx-test
+#FLUX --queue=jenkins-compute
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CC='gcc'
 export CXX='g++'

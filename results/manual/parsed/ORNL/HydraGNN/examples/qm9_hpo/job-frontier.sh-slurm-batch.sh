@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HydraGNN
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=HydraGNN
+#SBATCH --account=CPH161
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=batch
 
 export MIOPEN_DISABLE_CACHE='1'
 export TRANSFORMERS_OFFLINE='1'

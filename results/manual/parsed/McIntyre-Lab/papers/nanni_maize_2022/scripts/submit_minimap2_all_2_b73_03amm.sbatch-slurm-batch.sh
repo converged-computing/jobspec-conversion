@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=minimap2
-#FLUX: -c=12
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=minimap2
+#SBATCH --output=/ufrc/mcintyre/share/maize_ainsworth/scripts/pacbio/SLURM_LOGS/map_%A_%a.out
+#SBATCH --mail-user=ammorse@ufl.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32gb
+#SBATCH --time=01:00:00
+#SBATCH --array=1-11
 
 module load minimap/2.12
 PROJ=/ufrc/mcintyre/share/maize_ainsworth

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf_4GPUs
+#FLUX --job-name=tf_4GPUs
 #FLUX: --exclusive
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cat-6139
-#FLUX: --queue=batch,hmem
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3925
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch,hmem
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

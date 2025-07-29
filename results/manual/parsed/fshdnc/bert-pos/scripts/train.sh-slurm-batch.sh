@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=bert-pos
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=bert-pos
+#SBATCH --account=Project_2002820
+#SBATCH --output=/scratch/project_2002820/lihsin/bert-pos/output/%j.out
+#SBATCH --error=/scratch/project_2002820/lihsin/bert-pos/output/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=4G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: sbatch $0 MODEL_NAME LR"

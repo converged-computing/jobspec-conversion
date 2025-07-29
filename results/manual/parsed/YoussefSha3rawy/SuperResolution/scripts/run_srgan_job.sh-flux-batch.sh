@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=inm705_SR
-#FLUX: -c=4
-#FLUX: --queue=prigpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=inm705_SR
+#FLUX -c=4
+#FLUX --queue=prigpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WANDB_API_KEY='37d31add06ffd6210d871e1462ad8777b14e5999'
 export https_proxy='http://hpc-proxy00.city.ac.uk:3128'

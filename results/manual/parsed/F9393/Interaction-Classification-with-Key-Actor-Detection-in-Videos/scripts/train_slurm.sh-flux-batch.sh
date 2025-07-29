@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cherry-1524
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-cattywampus-7978
+#FLUX -N=2
+#FLUX -c=4
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load python/3.8.10
 module load gcc/8.4.0

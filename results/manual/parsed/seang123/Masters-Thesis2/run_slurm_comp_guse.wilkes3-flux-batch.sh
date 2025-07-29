@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=compute_guse
-#FLUX: --queue=ampere
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=compute_guse
+#FLUX --queue=ampere
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

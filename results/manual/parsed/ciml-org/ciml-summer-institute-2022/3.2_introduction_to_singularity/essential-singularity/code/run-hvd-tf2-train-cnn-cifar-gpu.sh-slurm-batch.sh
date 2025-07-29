@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hvd-tf2-train-cnn-cifar-gpu
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hvd-tf2-train-cnn-cifar-gpu
+#SBATCH --account=sds184
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=368G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMPI_MCA_btl='self,vader,openib'
 export OMPI_MCA_btl_openib_if_include='mlx5_0:1'

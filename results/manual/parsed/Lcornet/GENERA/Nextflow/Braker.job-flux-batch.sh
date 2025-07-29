@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-salad-4455
-#FLUX: -c=20
-#FLUX: --queue=bio
-#FLUX: -t=1731600
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-peas-1120
+#FLUX -c=20
+#FLUX --queue=bio
+#FLUX -t=1731600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 export MKL_NUM_THREADS='20'

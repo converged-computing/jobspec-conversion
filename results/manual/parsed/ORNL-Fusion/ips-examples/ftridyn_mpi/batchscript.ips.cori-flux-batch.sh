@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lizard-3353
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-parrot-8771
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR   # optional, since this is the default behavior
 source /project/projectdirs/m1709/psi-install-cori/env/bin/activate

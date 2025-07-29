@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stylegan3
-#FLUX: -t=2073600
-#FLUX: --urgency=16
+#SBATCH --job-name=stylegan3
+#SBATCH --account={replace_with_your_account}
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
+#SBATCH --time=24-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_LAUNCH_BLOCKING='1'
 

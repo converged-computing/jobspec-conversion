@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leg-2954
-#FLUX: --urgency=16
+#FLUX --job-name=purple-cat-1557
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NoneWait/bert_demo/script/run.pbs

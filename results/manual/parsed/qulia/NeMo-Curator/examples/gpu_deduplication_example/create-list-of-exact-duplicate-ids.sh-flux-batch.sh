@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nemo-data-curator:create-exact-dup-id-list
+#FLUX --job-name=nemo-data-curator:create-exact-dup-id-list
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -eux
 base_dir=`pwd`

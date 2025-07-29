@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ipra-bench
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ipra-bench
+#FLUX --queue=short
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load singularity
 module load parallel

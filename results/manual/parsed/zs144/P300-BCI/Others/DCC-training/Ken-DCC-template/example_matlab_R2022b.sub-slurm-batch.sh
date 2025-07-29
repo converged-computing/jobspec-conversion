@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=example_matlab
-#FLUX: -c=12
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=example_matlab
+#SBATCH --account=railabs
+#SBATCH --output=%x.%N.%J.%u.out
+#SBATCH --error=matlab.%N.%J.%u.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=defq
 
 module load matlab/R2022b 
 BASE_MFILE_NAME=helloworld_par

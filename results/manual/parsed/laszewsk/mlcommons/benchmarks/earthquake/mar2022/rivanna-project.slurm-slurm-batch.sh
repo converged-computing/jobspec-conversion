@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mlcommons-science-eq-%u-%j
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=mlcommons-science-eq-%u-%j
+#SBATCH --account=ds6011-sp22-002
+#SBATCH --output=mlcommons-science-eq-%u-%j.out
+#SBATCH --error=mlcommons-science-eq-%u-%j.err
+#SBATCH --mail-user=%u@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
 
 PYTHON_VERSION="3.10.2"
 RUNSTAMP="${RUNSTAMP:-${SLURM_JOBID}-$(date +%s)}"

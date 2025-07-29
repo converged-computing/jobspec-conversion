@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=10x-NPB
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=10x-NPB
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export TERM='xterm'
 export NXF_VER='20.07.1'

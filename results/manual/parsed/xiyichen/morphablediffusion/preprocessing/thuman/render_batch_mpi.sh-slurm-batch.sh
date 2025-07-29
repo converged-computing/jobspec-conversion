@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess_thuman
-#FLUX: -n=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=preprocess_thuman
+#SBATCH --output=./output_preprocess_thuman.txt
+#SBATCH --error=./error_preprocess_thuman.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=1-00:00:00
 
 module load openmpi/4.1.4
 module load blender/3.4.1

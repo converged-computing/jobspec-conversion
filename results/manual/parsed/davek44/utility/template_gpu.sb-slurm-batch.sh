@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=3/5_name
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=3/5_name
+#SBATCH --output=train_name.out
+#SBATCH --error=train_name.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:nvidia_geforce_gtx_1080_ti:1
+#SBATCH --mem=23000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 . /home/drk/anaconda3/etc/profile.d/conda.sh
 conda activate tf210

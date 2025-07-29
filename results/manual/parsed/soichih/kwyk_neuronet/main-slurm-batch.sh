@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-snack-3369
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:2
 
 export SINGULARITYENV_PYTHONNOUSERSITE='true'
 export SINGULARITYENV_OMP_NUM_THREADS='1'

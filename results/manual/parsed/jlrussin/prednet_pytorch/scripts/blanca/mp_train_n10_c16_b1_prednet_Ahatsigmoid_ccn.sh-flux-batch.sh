@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-noodle-2398
-#FLUX: -n=10
-#FLUX: -c=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-leg-7787
+#FLUX -n=10
+#FLUX -c=16
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export HOME='`getent passwd $USER | cut -d':' -f6`'
 export PYTHONUNBUFFERED='1'

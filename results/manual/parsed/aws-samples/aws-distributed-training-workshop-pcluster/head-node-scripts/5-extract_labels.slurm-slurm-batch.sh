@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-kerfuffle-7108
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --output=/apps/aws-distributed-training-workshop-pcluster/head-node-scripts/labels_out_%j.out
+#SBATCH --error=/apps/aws-distributed-training-workshop-pcluster/head-node-scripts/labels_err_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export WORLD_SIZE='8'
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'

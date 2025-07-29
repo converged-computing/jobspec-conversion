@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=double_drake
-#FLUX: --queue=v100
-#FLUX: --urgency=16
+#FLUX --job-name=double_drake
+#FLUX --queue=v100
+#FLUX --urgency=16
 
 export RESOLUTION='3 '
 export NZ='50'

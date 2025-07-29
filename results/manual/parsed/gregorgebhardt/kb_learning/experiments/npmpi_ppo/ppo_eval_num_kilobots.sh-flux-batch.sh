@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ppo_eval_num_kilobots
-#FLUX: -n=9
-#FLUX: -c=8
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=ppo_eval_num_kilobots
+#FLUX -n=9
+#FLUX -c=8
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module purge
 module load gcc/4.9.4 openmpi/gcc/2.1.2 python/3.6.2 intel/2018u1 boost/1.61

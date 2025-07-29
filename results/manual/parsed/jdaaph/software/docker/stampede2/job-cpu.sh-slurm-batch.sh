@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test-cpu
-#FLUX: --queue=skx-normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=test-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=skx-normal
+#SBATCH --constraint=ntasks-per-node=2
 
 module load tacc-singularity
 module load mvapich2

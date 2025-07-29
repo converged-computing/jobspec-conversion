@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bcolumn
-#FLUX: -N=2
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=bcolumn
+#SBATCH --account=vebio
+#SBATCH --output=log.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=36
 
 module purge
 module load openmpi/1.10.7/gcc-7.3.0

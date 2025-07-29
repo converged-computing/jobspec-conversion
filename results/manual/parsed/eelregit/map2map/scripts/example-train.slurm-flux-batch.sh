@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=R2D2
-#FLUX: -N=2
+#FLUX --job-name=R2D2
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=gpu_partition
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=gpu_partition
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "This is a minimal example. See --help or args.py for more," \
      "e.g. on augmentation, cropping, padding, and data division."

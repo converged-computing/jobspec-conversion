@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nlu_hw4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=nlu_hw4
+#SBATCH --output=/scratch/${NETID}/nlu/code/transformers/log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000
+#SBATCH --time=00:30:00
 
 export PYTHONPATH='/scratch/${NETID}/nlu/code/transformers/src:$PYTHONPATH'
 

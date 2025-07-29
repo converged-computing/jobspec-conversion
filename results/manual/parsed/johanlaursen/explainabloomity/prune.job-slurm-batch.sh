@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-squidward-3233
-#FLUX: -c=4
-#FLUX: --queue=red,brown
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=researchers
+#SBATCH --output=logs/pruning_imbalanced/R-%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=120G
+#SBATCH --time=02:00:00
+#SBATCH --partition=red,brown
 
 echo "prune_percent=$1"
 echo "metric=$2"

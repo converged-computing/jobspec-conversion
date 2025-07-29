@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fudge-7974
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/Walk_MPI/meta.pbs

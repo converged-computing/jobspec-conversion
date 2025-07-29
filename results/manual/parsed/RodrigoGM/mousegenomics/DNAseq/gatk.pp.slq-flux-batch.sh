@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=GATK_PP
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=GATK_PP
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 source ~/.bashrc
 source ../envar.sh

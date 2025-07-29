@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-poo-0982
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-diablo-5169
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BBarbazukLab/papers/Boatwright_et_al.%2C2018/assembly_and_qc_scripts/drosophila_scripts/trinity/trinity_bowtie-4.qsub

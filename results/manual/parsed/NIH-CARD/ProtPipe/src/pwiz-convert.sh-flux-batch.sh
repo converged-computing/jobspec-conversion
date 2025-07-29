@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pancake-9258
-#FLUX: -n=2
-#FLUX: --queue=quick,norm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-cupcake-3627
+#FLUX -n=2
+#FLUX --queue=quick,norm
+#FLUX -t=7200
+#FLUX --urgency=16
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 PWIZ='src/pwiz_sandbox'

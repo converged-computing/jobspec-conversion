@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ofa_mini_video_vqa_ofa_mini_pretrain_bart_allresnet_inittext
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ofa_mini_video_vqa_ofa_mini_pretrain_bart_allresnet_inittext
+#SBATCH --account=gda2204
+#SBATCH --output=/lus/home/NAT/gda2204/mshukor/logs/slurm/ofa_mini_video_vqa_ofa_mini_pretrain_bart_allresnet_inittext_ep1.out
+#SBATCH --mail-user=mustafa.shukor@isir.upmc.fr
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=16
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=MI250
 
 cd /lus/home/NAT/gda2204/mshukor/code/ofa_ours/run_scripts
 source /lus/home/NAT/gda2204/mshukor/.bashrc

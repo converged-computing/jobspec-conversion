@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-staircase-2623
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-hope-8114
+#FLUX --gpus-per-task=1
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 

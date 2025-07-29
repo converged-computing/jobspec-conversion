@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-9076
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-avocado-8134
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /global/common/software/desi/desi_environment.sh master
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main

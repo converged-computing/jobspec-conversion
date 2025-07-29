@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=transformer-xl_pyt
-#FLUX: -N=8
+#FLUX --job-name=transformer-xl_pyt
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export DGXNSOCKET='2'
 export DGXSOCKETCORES='24'

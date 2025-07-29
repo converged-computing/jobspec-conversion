@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=umap_clustering_berman
-#FLUX: --queue=ex_scioi_gpu
-#FLUX: -t=2040
-#FLUX: --urgency=16
+#SBATCH --job-name=umap_clustering_berman
+#SBATCH --output=res_%j.txt
+#SBATCH --error=res_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30000
+#SBATCH --time=00:34:00
+#SBATCH --partition=ex_scioi_gpu
 
 export LANG='UTF-8'
 export LC_ALL='en_US.UTF-8'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate-original
-#FLUX: --urgency=16
+#FLUX --job-name=evaluate-original
+#FLUX --urgency=16
 
 export CXX='g++'
 export CUDA_LAUNCH_BLOCKING='1'

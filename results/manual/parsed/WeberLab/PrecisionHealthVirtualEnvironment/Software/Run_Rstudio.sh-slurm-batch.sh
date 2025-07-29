@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-signal-6796
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/WeberLab/PrecisionHealthVirtualEnvironment/Software/Run_Rstudio.sh

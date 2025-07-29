@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-lizard-3361
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-peanut-butter-5522
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load StdEnv/2020 gcc/9.3.0
 module load gemma/0.98.3

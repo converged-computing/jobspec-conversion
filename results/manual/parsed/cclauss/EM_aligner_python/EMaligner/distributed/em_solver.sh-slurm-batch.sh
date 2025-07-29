@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-earthworm-9585
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cclauss/EM_aligner_python/EMaligner/distributed/em_solver.sh

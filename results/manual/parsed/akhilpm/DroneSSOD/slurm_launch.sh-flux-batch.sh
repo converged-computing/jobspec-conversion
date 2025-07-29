@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=visdrone_train
-#FLUX: -c=4
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#FLUX --job-name=visdrone_train
+#FLUX -c=4
+#FLUX -t=42600
+#FLUX --urgency=16
 
 export COMET_DISABLE_AUTO_LOGGING='1'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=PREPARE-DATA
-#FLUX: -c=10
-#FLUX: --queue=high_p
-#FLUX: --urgency=16
+#SBATCH --job-name=PREPARE-DATA
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=2000
+#SBATCH --partition=high_p
 
 ROOT=/data/scratch/digenovaa/Somatic-reference-free/SNV-INDELs/RF-mut-f
 CM=${ROOT}/code/makefiles/create_matrix_training.mk

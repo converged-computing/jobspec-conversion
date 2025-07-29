@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PPoPP
-#FLUX: --queue=normal
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=PPoPP
+#FLUX --queue=normal
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/ '
 export CMAKE_CXX_COMPILER='/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc'

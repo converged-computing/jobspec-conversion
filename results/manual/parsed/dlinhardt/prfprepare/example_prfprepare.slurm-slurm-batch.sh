@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=prfprepare
-#FLUX: -c=10
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=prfprepare
+#SBATCH --output=/scratch/glerma/logs/%x-%A-%a.out
+#SBATCH --error=/scratch/glerma/logs/%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=24000
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
 
 export SINGULARITYENV_FS_LICENSE='/flywheel/v0/BIDS/.freesurfer.txt'
 

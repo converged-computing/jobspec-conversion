@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-itch-1424
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=resnet50-singularity-ngpu2-bs512_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=8000
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

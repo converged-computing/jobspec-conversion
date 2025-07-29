@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=petscinstall
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=petscinstall
+#FLUX -t=60
+#FLUX --urgency=16
 
 export PATH='$PATH:.'
 export MPI_GROUP_MAX='64'

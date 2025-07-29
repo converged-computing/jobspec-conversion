@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-noodle-5431
-#FLUX: -c=2
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-truffle-2439
+#FLUX -c=2
+#FLUX -t=432000
+#FLUX --urgency=16
 
 sbatch <<EOT
 module load python/3.10 cuda cudnn

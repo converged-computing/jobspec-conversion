@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-carrot-4919
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-staircase-3064
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module add freesurfer
 module add fsl

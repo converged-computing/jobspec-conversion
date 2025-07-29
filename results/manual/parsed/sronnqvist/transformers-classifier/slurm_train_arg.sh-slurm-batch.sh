@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-toaster-0561
-#FLUX: --queue=gpu
-#FLUX: -t=58500
-#FLUX: --urgency=16
+#SBATCH --account=Project_2002026
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=16:15:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export TRAIN_DIR='data/eacl/$SRC'

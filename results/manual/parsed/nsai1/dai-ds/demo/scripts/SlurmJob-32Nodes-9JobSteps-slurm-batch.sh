@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-buttface-6046
-#FLUX: -N=32
-#FLUX: --urgency=16
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

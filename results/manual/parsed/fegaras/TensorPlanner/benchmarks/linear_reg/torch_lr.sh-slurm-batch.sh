@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=torch_lr
-#FLUX: --urgency=16
+#SBATCH --job-name=torch_lr
+#SBATCH --output=torch_lr_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export LOGLEVEL='ERROR'
 export EXP_HOME='$(pwd -P)'

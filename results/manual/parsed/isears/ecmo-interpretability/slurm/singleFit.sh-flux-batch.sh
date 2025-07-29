@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pancake-1038
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=faux-lamp-6665
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

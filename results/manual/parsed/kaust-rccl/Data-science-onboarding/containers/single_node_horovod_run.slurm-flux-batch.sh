@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-onion-2033
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-cat-4349
+#FLUX -n=4
+#FLUX -c=8
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export IMAGE='$PWD/horovod.sif'
 

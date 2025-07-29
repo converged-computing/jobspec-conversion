@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=compile.stanage.sh
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=compile.stanage.sh
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=82G
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 module load GCC/11.3.0
 module load CUDA/12.0.0

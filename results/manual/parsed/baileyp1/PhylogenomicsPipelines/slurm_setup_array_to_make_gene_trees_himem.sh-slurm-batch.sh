@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=make_gene_trees_himem
-#FLUX: --urgency=16
+#SBATCH --job-name=make_gene_trees_himem
+#SBATCH --output=make_gene_trees_himem-%A-%a.log
+#SBATCH --error=make_gene_trees_himem-%A-%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 geneFile=$1
 listFile=$2

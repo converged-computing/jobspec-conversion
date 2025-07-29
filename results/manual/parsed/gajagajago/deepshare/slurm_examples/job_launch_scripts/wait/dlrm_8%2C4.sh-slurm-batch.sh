@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: -c=3
-#FLUX: --gpus-per-task=1
-#FLUX: --urgency=16
+#SBATCH --job-name=dlrm
+#SBATCH --output=/home/gajagajago/deepshare/slurm_examples/out/%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=3
+#SBATCH --gpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=2
 
 export WORLD_SIZE='$WORLD_SIZE'
 export NCCL_IB_DISABLE='1'

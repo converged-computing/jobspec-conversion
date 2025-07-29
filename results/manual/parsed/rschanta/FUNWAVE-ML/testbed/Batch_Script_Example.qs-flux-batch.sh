@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ExampleBatchScript
-#FLUX: --queue=thsu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=ExampleBatchScript
+#FLUX --queue=thsu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 	vpkg_require matlab
 	vpkg_require openmpi

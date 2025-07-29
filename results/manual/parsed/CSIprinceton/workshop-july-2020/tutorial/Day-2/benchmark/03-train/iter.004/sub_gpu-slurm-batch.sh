@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Plumed
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Plumed
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=6
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mandrade/lammps/lib/plumed/plumed2/lib'
 export OMP_NUM_THREADS='4'

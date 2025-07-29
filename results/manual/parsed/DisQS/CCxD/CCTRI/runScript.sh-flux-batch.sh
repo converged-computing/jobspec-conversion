@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-3232
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-cinnamonbun-4132
+#FLUX -t=28800
+#FLUX --urgency=16
 
 NO_OF_SAMPLES=7
 NOOFSTEPS=30

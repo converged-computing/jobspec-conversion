@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-spoon-7669
+#FLUX --job-name=scruptious-bike-3235
 #FLUX: --exclusive
-#FLUX: --queue=cclake,skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=cclake,skylake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 set -euxo pipefail
 . $HOME/src/cirrus-scripts/env/init.sh

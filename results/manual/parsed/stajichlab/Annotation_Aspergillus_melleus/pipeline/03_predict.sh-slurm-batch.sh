@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-earthworm-1851
-#FLUX: -n=24
-#FLUX: --queue=intel,batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=logs/predict.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=96G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=intel,batch
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

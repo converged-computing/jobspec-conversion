@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=R_DXboots
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=R_DXboots
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=12000
+#SBATCH --time=02:00:00
 
 BASEDIR=${SLURM_SUBMIT_DIR}
 function cleanup_ramdisk {

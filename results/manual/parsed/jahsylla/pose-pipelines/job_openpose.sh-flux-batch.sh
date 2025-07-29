@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=baseline
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=baseline
+#FLUX -t=3600
+#FLUX --urgency=16
 
 VIDEO=${1:-'~/pose-pipelines/example.mp4'}
 OUTPUT=${2:-'~/pose-pipelines/example.openpose/'}

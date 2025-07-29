@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-3073
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/baselines/job.4-2.naive.resnet.qsub

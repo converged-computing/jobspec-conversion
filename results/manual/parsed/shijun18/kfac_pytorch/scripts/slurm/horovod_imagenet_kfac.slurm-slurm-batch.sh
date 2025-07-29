@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=imgkfc16
-#FLUX: -N=16
-#FLUX: -n=64
-#FLUX: --queue=v100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=imgkfc16
+#SBATCH --account=XXX
+#SBATCH --output=imgnet_kfc16.o%j
+#SBATCH --mail-user=XXX
+#SBATCH --mail-type=end
+#SBATCH --nodes=16
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=v100
 
 scontrol show hostnames $SLURM_NODELIST > /tmp/hostfile
 cat /tmp/hostfile

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=qphix_block_benchmark
-#FLUX: -N=125
-#FLUX: -c=48
+#FLUX --job-name=qphix_block_benchmark
+#FLUX -N=125
+#FLUX -c=48
 #FLUX: --exclusive
-#FLUX: --queue=skl_usr_prod
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=skl_usr_prod
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='disable'
 export HFI_NO_CPUAFFINITY='1'

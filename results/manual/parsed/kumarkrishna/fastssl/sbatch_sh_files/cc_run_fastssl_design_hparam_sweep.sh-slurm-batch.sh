@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=exp_run_fastssl_design_hparam_sweep
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=exp_run_fastssl_design_hparam_sweep
+#SBATCH --output=sbatch_out/exp_run_fastssl_design_hparam_sweep.%A.%a.out
+#SBATCH --error=sbatch_err/exp_run_fastssl_design_hparam_sweep.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --partition=long
+#SBATCH --array=0-79%8
 
 . /etc/profile
 module load anaconda/3

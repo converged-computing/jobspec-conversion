@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=experiment1
-#FLUX: -c=2
-#FLUX: --queue=cbmm
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=experiment1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=12GB
+#SBATCH --time=20:00:00
+#SBATCH --partition=cbmm
+#SBATCH --chdir=./
+#SBATCH --array=0-9
 
 hostname
 module add openmind/singularity/3.4.1

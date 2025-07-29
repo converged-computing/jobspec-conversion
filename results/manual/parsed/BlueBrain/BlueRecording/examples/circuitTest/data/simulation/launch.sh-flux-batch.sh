@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=CortexNrdmsPySim
-#FLUX: -c=2
+#FLUX --job-name=CortexNrdmsPySim
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=prod_small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=prod_small
+#FLUX -t=7200
+#FLUX --urgency=16
 
 spack env activate neurodamus
 module load unstable

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=demo
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

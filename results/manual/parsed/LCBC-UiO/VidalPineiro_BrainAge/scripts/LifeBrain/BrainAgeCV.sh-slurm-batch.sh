@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BrainAgeCV
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=BrainAgeCV
+#SBATCH --account=p274
+#SBATCH --output=scripts/LifeBrain/logs_BrainAgeCV/slurm-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=02:00:00
 
 export FREESURFER_HOME='/cluster/projects/p274/tools/mri/freesurfer/current'
 export LANG='en_US.utf8'

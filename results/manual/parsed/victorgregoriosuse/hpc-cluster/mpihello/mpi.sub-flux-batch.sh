@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=testing
-#FLUX: -n=10
-#FLUX: --queue=normal
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=testing
+#FLUX -n=10
+#FLUX --queue=normal
+#FLUX -t=300
+#FLUX --urgency=16
 
 source /usr/share/spack/setup-env.sh
 spack load openmpi

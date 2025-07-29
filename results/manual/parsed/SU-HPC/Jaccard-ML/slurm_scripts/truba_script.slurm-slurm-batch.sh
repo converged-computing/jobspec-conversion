@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=jac_mod
-#FLUX: -c=20
-#FLUX: --queue=akya-cuda
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=jac_mod
+#SBATCH --output=res/jaccard-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=akya-cuda
 
 export OMP_NUM_THREADS='${CPU_THREADS}'
 

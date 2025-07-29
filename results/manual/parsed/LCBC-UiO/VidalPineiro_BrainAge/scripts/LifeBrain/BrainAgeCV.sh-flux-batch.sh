@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=BrainAgeCV
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=BrainAgeCV
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export FREESURFER_HOME='/cluster/projects/p274/tools/mri/freesurfer/current'
 export LANG='en_US.utf8'

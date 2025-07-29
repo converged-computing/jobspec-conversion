@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Final
-#FLUX: -c=28
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=Final
+#SBATCH --account=amodaresirad
+#SBATCH --output=outputs/results_final.o%j
+#SBATCH --error=outputs/errors_final.e%j
+#SBATCH --mail-user=arashmodaresirad@u.boisestate.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=5-00:00:00
 
 ulimit -v unlimited
 ulimit -s unlimited

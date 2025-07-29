@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=getBiomass
-#FLUX: -c=3
-#FLUX: --queue=agap_normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=getBiomass
+#FLUX -c=3
+#FLUX --queue=agap_normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='/lustre/vieilledentg/config/matplotlib'
 

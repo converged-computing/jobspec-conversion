@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lamp-1047
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-pastry-3725
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

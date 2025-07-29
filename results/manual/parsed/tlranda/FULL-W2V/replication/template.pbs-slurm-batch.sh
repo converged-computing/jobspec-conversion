@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hobbit-0777
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=titanxp_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --nodelist=n01
 
 if [ ! -z ${PBS_JOBNAME+x} ]; then
   # In PPS Queue

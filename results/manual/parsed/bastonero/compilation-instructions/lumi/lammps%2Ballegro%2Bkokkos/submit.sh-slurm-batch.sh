@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -c=4
-#FLUX: --queue=small-g
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --account={your_project}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=8000
+#SBATCH --time=04:00:00
+#SBATCH --partition=small-g
 
 module load LUMI/23.09
 module load LAMMPS/stable-12Aug2023-update2-pair-allegro-rocm-5.2.3-pytorch-1.13-20240303

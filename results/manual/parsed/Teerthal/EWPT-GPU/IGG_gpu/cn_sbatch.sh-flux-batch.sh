@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-sundae-9588
-#FLUX: --queue=public
-#FLUX: -t=86640
-#FLUX: --urgency=16
+#FLUX --job-name=blue-hippo-7009
+#FLUX --queue=public
+#FLUX -t=86640
+#FLUX --urgency=16
 
 module load mvapich2-2.3.7-gcc-11.2.0
 MV2_USE_ALIGNED_ALLOC=1

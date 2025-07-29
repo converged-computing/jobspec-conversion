@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-eagle-7467
-#FLUX: -N=3
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-lizard-4370
+#FLUX -N=3
+#FLUX -t=19200
+#FLUX --urgency=16
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

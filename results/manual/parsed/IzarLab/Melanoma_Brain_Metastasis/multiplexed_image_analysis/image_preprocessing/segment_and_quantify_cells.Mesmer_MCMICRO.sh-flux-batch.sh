@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Melanoma_Brain_Metastasis
-#FLUX: --queue=single
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=Melanoma_Brain_Metastasis
+#FLUX --queue=single
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load system/singularity
 module load devel/java_jdk/1.8.0

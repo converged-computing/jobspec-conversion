@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_constraints
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_constraints
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --mem=200GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100
 
 set -u
 set -e

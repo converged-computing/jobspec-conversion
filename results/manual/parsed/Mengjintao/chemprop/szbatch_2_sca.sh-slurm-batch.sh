@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chemprop
-#FLUX: -c=32
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#SBATCH --job-name=chemprop
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=dcu:4
+#SBATCH --mem=2G
+#SBATCH --time=5-20:00:00
 
 batch_size=$1
 hidden_size=$2

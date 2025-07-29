@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xdecompose_mesh
-#FLUX: --queue=nesi_research
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=xdecompose_mesh
+#SBATCH --account=nesi00263
+#SBATCH --output=decompose_mesh_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=nesi_research
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

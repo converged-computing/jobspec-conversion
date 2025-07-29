@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-underoos-1768
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ashtonomy/biosift/benchmarks/supervised/run_hpo.sh

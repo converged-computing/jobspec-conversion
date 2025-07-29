@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Prop_KF
-#FLUX: -c=9
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=Prop_KF
+#SBATCH --output=%x.%3a.%A.out
+#SBATCH --error=%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --gres=gpu
+#SBATCH --mem=40G
+#SBATCH --time=4-04:00:00
+#SBATCH --array=[1,10,20,40,60,80,100,120,140,160]
 
 echo "Loading anaconda..."
 module purge

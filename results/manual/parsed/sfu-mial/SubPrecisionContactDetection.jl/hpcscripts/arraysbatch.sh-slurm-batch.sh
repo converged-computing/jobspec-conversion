@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-kerfuffle-1249
-#FLUX: -c=6
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --account=<CHANGEME>
+#SBATCH --mail-user=<CHANGEME>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=120G
+#SBATCH --time=18:00:00
+#SBATCH --array=1-X
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

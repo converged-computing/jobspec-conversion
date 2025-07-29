@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1node
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=1node
+#FLUX --queue=regular
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MPICH_VERSION_DISPLAY='1'

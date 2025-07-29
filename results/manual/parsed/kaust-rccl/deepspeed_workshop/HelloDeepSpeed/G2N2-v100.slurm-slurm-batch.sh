@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=g2n2
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=g2n2
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=2
+#SBATCH --time=00:15:00
+#SBATCH --constraint=v100,gpu_ai
 
 export NCCL_DEBUG='INFO'
 export NCCL_TREE_THRESHOLD='0 '

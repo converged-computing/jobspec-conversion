@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=osmi-v100-rivanna
-#FLUX: -n=3
+#FLUX --job-name=osmi-v100-rivanna
+#FLUX -n=3
 #FLUX: --exclusive
-#FLUX: --queue=bii-gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --queue=bii-gpu
+#FLUX -t=10800
+#FLUX --urgency=16
 
 NAME=cloudmesh-rivanna
 RUN_DIR=$PROJECT/osmi

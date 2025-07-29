@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=BeatnikTest
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=BeatnikTest
+#SBATCH --output=BeatnikTest.%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 SPACK_INSTALL=${HOME}/spack
 BEATNIK_SCRATCH=/carc/scratch/users/${USER}/beatnik-wheeler

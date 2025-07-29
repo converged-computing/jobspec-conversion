@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf_setup
-#FLUX: --queue=gpuA100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_setup
+#SBATCH --output=tf_setup.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpuA100
 
 uenv verbose cuda-11.8.0 cudnn-11.x-8.6.0
 uenv verbose TensorRT-11.x-8.6-8.5.3.1

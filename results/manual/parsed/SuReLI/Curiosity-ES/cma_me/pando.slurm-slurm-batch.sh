@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cma_me_main_dm_control_maze
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=24
-#FLUX: --queue=long
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cma_me_main_dm_control_maze
+#SBATCH --output=cma_me_log.out
+#SBATCH --error=cma_me_log.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=24
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_MODE='online'
 export XPSLURM='True'

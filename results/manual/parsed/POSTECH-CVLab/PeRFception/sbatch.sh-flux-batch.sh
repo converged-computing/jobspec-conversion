@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=icn
-#FLUX: --queue=A100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=icn
+#FLUX --queue=A100
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

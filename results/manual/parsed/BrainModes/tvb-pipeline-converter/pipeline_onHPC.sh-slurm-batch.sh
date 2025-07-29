@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-plant-7348
-#FLUX: -c=36
-#FLUX: --queue=normal
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --output=out_pipeline_desikan.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --time=23:59:00
+#SBATCH --partition=normal
+#SBATCH --constraint=mc,ntasks-per-node=1
 
 export OMP_NUM_THREADS='36'
 

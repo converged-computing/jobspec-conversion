@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lipreading-train
-#FLUX: -c=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=lipreading-train
+#FLUX -c=2
+#FLUX --queue=savio2_1080ti
+#FLUX -t=86340
+#FLUX --urgency=16
 
 source deactivate
 module purge

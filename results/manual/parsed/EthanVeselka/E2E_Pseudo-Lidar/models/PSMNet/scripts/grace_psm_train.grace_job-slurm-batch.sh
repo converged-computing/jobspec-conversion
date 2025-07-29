@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=grace_setup
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=grace_setup
+#SBATCH --output=output.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load GCC/11.3.0
 module load CUDA/11.7.0

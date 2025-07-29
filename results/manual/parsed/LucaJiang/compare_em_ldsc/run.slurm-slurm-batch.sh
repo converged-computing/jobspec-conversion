@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=UKBHeight_unnamed
-#FLUX: -c=16
-#FLUX: --queue=special_bios
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=UKBHeight_unnamed
+#SBATCH --account=pa_bios_department
+#SBATCH --output=/home/wjiang49/UKBheight/log/slurm_out_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=128GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=special_bios
 
 N_SNP=40000 # Set the number of SNPs
 N_SAMPLE=2000 # Set the number of samples

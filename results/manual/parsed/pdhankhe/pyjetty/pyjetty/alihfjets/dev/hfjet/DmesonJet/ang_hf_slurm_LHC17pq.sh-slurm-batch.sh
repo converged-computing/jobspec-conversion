@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hfMC18a4a2
-#FLUX: --queue=std
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=hfMC18a4a2
+#SBATCH --output=/rstorage/alice/AnalysisResults/preeti/ang/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=std
+#SBATCH --array=1-640
 
 FILE_PATHS='/home/preeti/analysis/pyjetty/pyjetty/alihfjets/dev/hfjet/files_D0count_pp5TeV_enhanceMC_758.txt'
 NFILES=$(wc -l < $FILE_PATHS)

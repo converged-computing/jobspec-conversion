@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-sundae-2968
-#FLUX: -c=6
-#FLUX: --queue=long
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-bike-5808
+#FLUX -c=6
+#FLUX --queue=long
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-punk-9188
-#FLUX: -c=20
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-butter-8366
+#FLUX -c=20
+#FLUX --queue=short
+#FLUX --urgency=16
 
 set -e
 function cleanup() {

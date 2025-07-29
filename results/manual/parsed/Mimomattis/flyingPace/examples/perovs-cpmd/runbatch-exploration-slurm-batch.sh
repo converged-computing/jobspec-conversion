@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=runbatch-exploration
-#FLUX: --queue=batch3
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=runbatch-exploration
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:59:00
+#SBATCH --partition=batch3
+#SBATCH --constraint=ntasks-per-node=72
 
   input="INP-lammps"
   output="OUT"

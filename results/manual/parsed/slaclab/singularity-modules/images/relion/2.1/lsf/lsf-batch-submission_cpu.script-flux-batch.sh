@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pedo-0119
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-poodle-2797
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/slaclab/singularity-modules/images/relion/2.1/lsf/lsf-batch-submission_cpu.script

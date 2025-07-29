@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peanut-butter-8342
-#FLUX: -n=4
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2020-9-25
+#SBATCH --output=job_scratch.out
+#SBATCH --error=job_scratch.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=7
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
 
 export parent='/pfs/nobackup/home/p/pojedama/benchmarks/charmm-gui/gromacs'
 

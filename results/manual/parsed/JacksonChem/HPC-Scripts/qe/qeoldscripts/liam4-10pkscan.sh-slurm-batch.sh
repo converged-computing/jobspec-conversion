@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=liam4-10pkscan.qe
-#FLUX: -n=50
-#FLUX: --queue=amd
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=liam4-10pkscan.qe
+#SBATCH --output=/dev/null
+#SBATCH --error=liam4-10pkscan.e%j
+#SBATCH --mail-user=baj0040@auburn.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=50
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=240GB
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=amd
 
 NPROC=50
 CURDIR=$(pwd)

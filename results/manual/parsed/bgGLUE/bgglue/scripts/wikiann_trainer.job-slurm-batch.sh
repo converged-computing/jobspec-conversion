@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-ricecake-0397
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=logs/wikiann/slurm.%N.%j.out
+#SBATCH --error=logs/wikiann/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 export WANDB_TAGS='${MODEL_NAME},${TASK_NAME}'
 

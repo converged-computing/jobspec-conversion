@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pot-8475
-#FLUX: -c=40
-#FLUX: --queue=nvidia
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#SBATCH --output=prep65.out
+#SBATCH --error=prep65.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --mem=200G
+#SBATCH --time=05:30:00
+#SBATCH --partition=nvidia
 
 module purge
 source ~/.bashrc

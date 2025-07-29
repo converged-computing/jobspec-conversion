@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=monoscene
-#FLUX: -c=10
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=monoscene
+#SBATCH --output=log/dm_%j.out
+#SBATCH --error=log/dm_%j.err
+#SBATCH --mail-user=xl3136@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 cd /scratch/$USER/sscbench/MonoScene

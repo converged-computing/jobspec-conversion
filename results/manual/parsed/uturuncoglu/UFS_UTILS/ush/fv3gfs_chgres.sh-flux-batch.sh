@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-eagle-7093
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-fork-4832
+#FLUX --urgency=16
 
 export machine='WCOSS_DELL_P3'
 export PSLOT='fv3test'

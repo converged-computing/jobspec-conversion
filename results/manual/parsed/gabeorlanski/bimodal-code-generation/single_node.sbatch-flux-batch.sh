@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-truffle-5925
-#FLUX: -c=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-puppy-2829
+#FLUX -c=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export WORLD_SIZE='2'
 export MASTER_ADDR='${master_addr}.hpc.nyu.edu'

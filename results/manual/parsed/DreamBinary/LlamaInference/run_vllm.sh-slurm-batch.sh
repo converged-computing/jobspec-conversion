@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-nalgas-5993
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=gpu_4090
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --partition=gpu_4090
+#SBATCH --qos=gpugpu
+#SBATCH: --exclusive
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

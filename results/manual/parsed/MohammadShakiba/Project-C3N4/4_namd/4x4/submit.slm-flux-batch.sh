@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fork-1432
-#FLUX: --queue=general-compute
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-salad-2238
+#FLUX --queue=general-compute
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

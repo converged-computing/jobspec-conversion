@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=t3_run_imi
-#FLUX: -c=32
-#FLUX: --queue=sapphire
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --job-name=t3_run_imi
+#SBATCH --output=imi_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=16000
+#SBATCH --time=00:06:00
+#SBATCH --partition=sapphire
 
 export PYTHONPATH='${PYTHONPATH}:${InversionPath}'
 

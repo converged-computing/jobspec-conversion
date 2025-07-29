@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nrel5mw_riii
-#FLUX: -N=32
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=nrel5mw_riii
+#SBATCH --account=hfm
+#SBATCH --output=out.%x_%j
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

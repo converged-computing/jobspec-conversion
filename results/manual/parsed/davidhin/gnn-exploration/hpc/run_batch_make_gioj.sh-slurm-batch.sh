@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=make_gioj
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=make_gioj
+#SBATCH --output=hpc/logs/batch_gi_%a.out
+#SBATCH --error=hpc/logs/batch_gi_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=00:20:00
+#SBATCH --partition=batch
+#SBATCH --array=1-3
 
 module load Singularity
 module load CUDA/10.2.89

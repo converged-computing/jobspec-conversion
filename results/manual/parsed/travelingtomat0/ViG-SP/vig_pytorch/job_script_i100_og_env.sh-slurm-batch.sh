@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-0746
-#FLUX: --urgency=16
+#SBATCH --output=/home/mateodi/log/test%j.out
+#SBATCH --error=/home/mateodi/log/test%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -o errexit
 mkdir /scratch/mateodi/run_folder/$SLURM_JOB_ID/

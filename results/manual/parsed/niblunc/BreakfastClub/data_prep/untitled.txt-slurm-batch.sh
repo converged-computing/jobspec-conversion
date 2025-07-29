@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BCLUB_FPREP
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=BCLUB_FPREP
+#SBATCH --output=/projects/niblab/bids_projects/Experiments/BreakfastClub/error_files/fprep_%A_%a_ses-1_out.txt
+#SBATCH --error=/projects/niblab/bids_projects/Experiments/BreakfastClub/error_files/fprep_%a_ses-1_err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=80000
+#SBATCH --time=1-00:00:00
 
 if [ ${SLURM_ARRAY_TASK_ID} -lt 10 ]; then
     sub="sub-00${SLURM_ARRAY_TASK_ID}"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=v100-cloudmask-gpu-greene
-#FLUX: --queue=bii-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=v100-cloudmask-gpu-greene
+#FLUX --queue=bii-gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

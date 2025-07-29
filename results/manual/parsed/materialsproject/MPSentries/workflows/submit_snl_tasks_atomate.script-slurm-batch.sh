@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=snl_tasks_atomate
-#FLUX: --queue=matgen_prior
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=snl_tasks_atomate
+#SBATCH --account=matgen
+#SBATCH --output=snl_tasks_atomate-%j.out
+#SBATCH --error=snl_tasks_atomate-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=matgen_prior
+#SBATCH --constraint=ntasks-per-node=10
 
 module unload python
 module unload virtualenv

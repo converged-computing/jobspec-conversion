@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=htc_sampling9_0
-#FLUX: -n=150
-#FLUX: --queue=htc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=htc_sampling9_0
+#SBATCH --output=%x-%j.o
+#SBATCH --error=%x-%j.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=150
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=htc
+#SBATCH --nodelist=cg40-[1-6]
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=roi
-#FLUX: --queue=early_science
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=roi
+#SBATCH --account=m3890_g
+#SBATCH --output=job%j.out
+#SBATCH --error=job%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=early_science
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export TRIAL='ly99sim'

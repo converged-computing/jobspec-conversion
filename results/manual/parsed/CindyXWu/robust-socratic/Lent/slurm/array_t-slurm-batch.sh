@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=distill
-#FLUX: -N=4
-#FLUX: -n=12
-#FLUX: --queue=ampere
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=distill
+#SBATCH --account=KRUEGER-SL2-GPU
+#SBATCH --nodes=4
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='1'
 

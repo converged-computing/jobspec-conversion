@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Soda_lake_kernel
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=Soda_lake_kernel
+#FLUX -N=4
+#FLUX -n=32
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts" '

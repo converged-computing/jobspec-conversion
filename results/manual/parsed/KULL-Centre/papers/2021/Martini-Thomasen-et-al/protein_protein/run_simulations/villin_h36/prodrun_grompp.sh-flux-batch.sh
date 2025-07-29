@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lettuce-4187
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-buttface-3194
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/protein_protein/run_simulations/villin_h36/prodrun_grompp.sh

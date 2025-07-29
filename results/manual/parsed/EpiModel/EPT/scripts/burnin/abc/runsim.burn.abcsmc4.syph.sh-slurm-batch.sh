@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=slurm-test
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --job-name=slurm-test
+#SBATCH --mail-user=kweiss2@emory.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --constraint=ntasks-per-node=16
+#SBATCH --chdir=/suppscr/csde/kweiss2/slurm
 
 . /suppscr/csde/sjenness/spack/share/spack/setup-env.sh
 module load gcc-8.2.0-gcc-4.8.5-rhsxipz

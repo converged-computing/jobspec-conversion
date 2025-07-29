@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=WRAP_META_PIPELINE
-#FLUX: --queue=geva
-#FLUX: --urgency=16
+#FLUX --job-name=WRAP_META_PIPELINE
+#FLUX --queue=geva
+#FLUX --urgency=16
 
 function parse_yaml {
    local prefix=$2

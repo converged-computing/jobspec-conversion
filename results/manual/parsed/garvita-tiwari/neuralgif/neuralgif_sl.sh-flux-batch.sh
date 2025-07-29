@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chip-2911
-#FLUX: --queue=gpu20
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-parrot-0551
+#FLUX --queue=gpu20
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo "neuralGIF pytorch implementation"
 cd /BS/garvita/work/code/neuralgif

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet
-#FLUX: -c=26
-#FLUX: -t=50400
-#FLUX: --urgency=16
+#FLUX --job-name=resnet
+#FLUX -c=26
+#FLUX -t=50400
+#FLUX --urgency=16
 
 TODAY=`date +"%Y-%m-%d"`
 VARIANT="4l_256hd"

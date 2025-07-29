@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cinnamonbun-2764
-#FLUX: -c=4
+#FLUX --job-name=misunderstood-caramel-5217
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=87150
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=87150
+#FLUX --urgency=16
 
 export SINGULARITY_BIND='/run,/ptmp,/scratch,/tmp,/opt/ohpc,${HOME}'
 export CONTAINER_PATH='/ptmp/containers/pytorch_1.10.0-cuda.11.3_latest-2021-12-02-ec95d31ea677.sif'

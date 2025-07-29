@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-5348
+#FLUX --job-name=wobbly-leopard-4238
 #FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=batch
+#FLUX -t=600
+#FLUX --urgency=16
 
 BATCH_SIZE=4
 NUM_GPU=8

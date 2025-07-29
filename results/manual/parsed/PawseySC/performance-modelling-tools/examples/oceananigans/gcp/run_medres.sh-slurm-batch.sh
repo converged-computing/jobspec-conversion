@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=double_drake
-#FLUX: -n=2
-#FLUX: --queue=v100
-#FLUX: --urgency=16
+#SBATCH --job-name=double_drake
+#SBATCH --output=double_drake.out
+#SBATCH --error=double_drake.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --partition=v100
 
 export RESOLUTION='3 '
 export NZ='50'

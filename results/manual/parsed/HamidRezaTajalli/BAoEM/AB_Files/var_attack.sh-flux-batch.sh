@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ASCAD_VAR_ATTACK
-#FLUX: --queue=icis
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ASCAD_VAR_ATTACK
+#FLUX --queue=icis
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib'
 export PYTHONPATH='${HOME}/src/:$PYTHONPATH'

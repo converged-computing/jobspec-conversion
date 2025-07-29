@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet50-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet50-cgpu
+#SBATCH --account=nstaff
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 export BATCHSIZE='64'
 export DO_PROFILING='false'  # true or false'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nanoGPT
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=nanoGPT
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=21600
+#FLUX --urgency=16
 
 cd $SCRATCH
 module add GCC/10.3.0  OpenMPI/4.1.1

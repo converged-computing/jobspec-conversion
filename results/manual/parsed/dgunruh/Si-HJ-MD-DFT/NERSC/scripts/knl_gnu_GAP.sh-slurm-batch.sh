@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cSiaSiMD
-#FLUX: -n=32
-#FLUX: -c=8
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cSiaSiMD
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=87G
+#SBATCH --time=00:10:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

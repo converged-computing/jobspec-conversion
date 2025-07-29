@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ASCENT
-#FLUX: -c=2
-#FLUX: --queue=$PARTITIONS
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=ASCENT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10g
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=$PARTITIONS
 
 PYTHON_VERSION="python/3.7"
 SNAKEMAKE_VERSION="snakemake"

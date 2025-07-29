@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chair-2746
-#FLUX: --queue=l4train
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=8
+#SBATCH --time=01:00:00
+#SBATCH --partition=l4train
 
 export MASTER_ADDR='$head_node_ip'
 export MASTER_PORT='$head_node_port'

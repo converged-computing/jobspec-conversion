@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-8945
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --output=logs5/scan_%A_%a.out
+#SBATCH --mail-user=aerez@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=23:59:00
+#SBATCH --array=1-771
 
 OFFSET=3000
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)

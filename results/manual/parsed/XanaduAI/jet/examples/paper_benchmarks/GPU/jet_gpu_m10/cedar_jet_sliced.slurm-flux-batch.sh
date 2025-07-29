@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-earthworm-7100
+#FLUX --job-name=doopy-hobbit-8989
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export num_runs='10'
 export max_slices='8'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi-test
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: --queue=gpu-a100
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=mpi-test
+#FLUX -N=2
+#FLUX -n=32
+#FLUX --queue=gpu-a100
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load python3
 module load cuda/12.0

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-toaster-1495
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=/Midgard/home/wyin/repo/out_train.log
+#SBATCH --error=/Midgard/home/wyin/repo/error_train.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:8
+#SBATCH --mem=300GB
+#SBATCH --constraint=khazadum|rivendell|belegost|
 
 printenv $SLURM_STEP_GPUS
 nvidia-smi

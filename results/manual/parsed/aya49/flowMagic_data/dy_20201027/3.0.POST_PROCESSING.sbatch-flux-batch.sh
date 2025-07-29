@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-taco-5692
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-butter-1727
+#FLUX -t=300
+#FLUX --urgency=16
 
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \
 -B /mnt/f/Brinkman\ group/COVID/data/code/:/code/ \

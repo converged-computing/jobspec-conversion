@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=compute_ZINB
-#FLUX: -c=3
-#FLUX: --queue=gpup100
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=compute_ZINB
+#SBATCH --mail-user=pravich2@jhu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpup100
+#SBATCH --constraint=ntasks-per-node=6
 
 module load cuda/9.0
 module load python/3.6-anaconda

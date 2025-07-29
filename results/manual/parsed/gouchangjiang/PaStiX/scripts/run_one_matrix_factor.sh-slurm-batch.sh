@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pastix_pmap
-#FLUX: -n=24
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=pastix_pmap
+#SBATCH --output=pastix_pmap%j.out
+#SBATCH --error=pastix_pmap%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=120Gb
+#SBATCH --time=23:59:59
+#SBATCH --constraint=ntasks-per-node=24
 
 export STARPU_HOSTNAME='`echo $HOSTNAME | sed 's/[0-9]//g'`'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=array_test
-#FLUX: -c=4
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=array_test
+#FLUX -c=4
+#FLUX -t=0
+#FLUX --urgency=16
 
 export PATH='/opt/anaconda3/bin:$PATH'
 export LD_LIBRARY_PATH='LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64/'

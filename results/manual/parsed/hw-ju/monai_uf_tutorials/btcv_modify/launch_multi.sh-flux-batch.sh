@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bicycle-3330
-#FLUX: -c=8
-#FLUX: --gpus-per-task=8
+#FLUX --job-name=tart-pot-0467
+#FLUX -c=8
+#FLUX --gpus-per-task=8
 #FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=hpg-ai
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

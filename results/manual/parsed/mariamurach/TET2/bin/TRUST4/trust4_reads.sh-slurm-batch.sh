@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bicycle-3248
-#FLUX: -n=29
-#FLUX: --queue=______
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --account=______
+#SBATCH --output=trust4_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=29
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100000
+#SBATCH --time=03:00:00
+#SBATCH --partition=______
+#SBATCH --array=1-21
 
 module load java
 output=output_reads/

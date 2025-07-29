@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: -c=128
-#FLUX: --queue=m100_usr_prod
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=job
+#SBATCH --account=ExaF_prod22
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=246000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=m100_usr_prod
+#SBATCH --constraint=ntasks-per-node=1
 
 cd /m100/home/userexternal/dgalanop/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD
 > job.out

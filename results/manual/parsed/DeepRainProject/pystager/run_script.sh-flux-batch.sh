@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cherry-8407
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=placid-citrus-7803
+#FLUX --queue=batch
+#FLUX -t=36000
+#FLUX --urgency=16
 
 NTASKS=12
 module --force purge

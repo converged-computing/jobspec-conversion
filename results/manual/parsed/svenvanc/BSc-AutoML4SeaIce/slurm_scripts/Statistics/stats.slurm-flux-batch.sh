@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stats
-#FLUX: --queue=cpu-short
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=stats
+#FLUX --queue=cpu-short
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=snakempi
-#FLUX: -n=20
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#SBATCH --job-name=snakempi
+#SBATCH --output=mpi-%j.out
+#SBATCH --error=mpi-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=priority
+#SBATCH --qos=pol02003sky
+#SBATCH --constraint=skylake
 
 export TIMEFORMAT='user-seconds %3U'
 

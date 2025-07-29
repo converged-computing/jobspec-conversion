@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HN_5
-#FLUX: -c=6
-#FLUX: -t=50340
-#FLUX: --urgency=16
+#FLUX --job-name=HN_5
+#FLUX -c=6
+#FLUX -t=50340
+#FLUX --urgency=16
 
 module purge
 module load python/3.12.0

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-gato-1577
-#FLUX: --queue=GPU-small
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=08:00:00
+#SBATCH --partition=GPU-small
+#SBATCH --constraint=ntasks-per-node=7
 
 export PYTHONPATH='/pylon5/pscstaff/welling/git/tensorflow_apps/src:$PYTHONPATH'
 export LD_PRELOAD='/usr/lib64/libtcmalloc_minimal.so.4'

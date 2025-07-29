@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CESM2_SILHS_UWM_V2
-#FLUX: --queue=dav
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=CESM2_SILHS_UWM_V2
+#FLUX --queue=dav
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PGI_ACC_NOTIFY='2'
 export PGI_ACC_TIME='1'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-eagle-0802
-#FLUX: -N=2
-#FLUX: -c=40
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-train-7060
+#FLUX -N=2
+#FLUX -c=40
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export RDZV_HOST='$(hostname)'
 export RDZV_PORT='29400                   '

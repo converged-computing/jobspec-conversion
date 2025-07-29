@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=structural-schooling
-#FLUX: -c=40
-#FLUX: --queue=fuchs
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=structural-schooling
+#FLUX -c=40
+#FLUX --queue=fuchs
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export procs='`expr $(nproc --all)`'
 

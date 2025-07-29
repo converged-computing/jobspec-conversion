@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-underoos-0981
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-noodle-6536
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/algaebrown/Metadensity/scripts/dbclus.sh

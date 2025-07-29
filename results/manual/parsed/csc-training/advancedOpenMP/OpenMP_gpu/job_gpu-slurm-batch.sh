@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=omp_gpu
-#FLUX: -c=3
-#FLUX: --queue=dev-g
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=omp_gpu
+#SBATCH --account=project_462000390
+#SBATCH --output=%x.out%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:mi250:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=dev-g
 
 export OMP_NUM_THREADS='3'
 export CRAY_ACC_DEBUG='2   # use 1 for less, or 3 for FULL'

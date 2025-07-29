@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-banana-6990
-#FLUX: -c=10
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-milkshake-0365
+#FLUX -c=10
+#FLUX --queue=public
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load mamba/latest
 source activate inr2array

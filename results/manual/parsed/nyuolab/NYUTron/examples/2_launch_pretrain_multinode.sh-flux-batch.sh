@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pretraining
-#FLUX: -N=3
-#FLUX: -c=40
-#FLUX: --queue=oermannlab
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#FLUX --job-name=pretraining
+#FLUX -N=3
+#FLUX -c=40
+#FLUX --queue=oermannlab
+#FLUX -t=2592000
+#FLUX --urgency=16
 
 export HOME='/gpfs/home/jiangy09/'
 

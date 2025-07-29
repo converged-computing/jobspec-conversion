@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ewas
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=ewas
+#FLUX -t=900
+#FLUX --urgency=16
 
 export ROOT='/nesi/project/ga02964'
 export EWAS_PORT='${1:-8080}'

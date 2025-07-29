@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leopard-4340
-#FLUX: -c=3
-#FLUX: --queue=gpu_shared_jupyter
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --output=pytorch-%j.out
+#SBATCH --error=pytorch-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gtx1080ti:1
+#SBATCH --time=00:03:00
+#SBATCH --partition=gpu_shared_jupyter
 
 export PYTHONUNBUFFERED='1'
 

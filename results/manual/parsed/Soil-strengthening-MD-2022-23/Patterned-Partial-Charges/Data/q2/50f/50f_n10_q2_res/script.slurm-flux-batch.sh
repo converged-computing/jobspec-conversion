@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=50f_n10_q2_res
-#FLUX: -N=8
-#FLUX: --queue=long-28core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=50f_n10_q2_res
+#FLUX -N=8
+#FLUX --queue=long-28core
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load shared
 module load mvapich2/gcc/64/2.2rc1

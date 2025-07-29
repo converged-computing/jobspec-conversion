@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=CR61-test
-#FLUX: -n=48
-#FLUX: --queue=skx-dev
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=CR61-test
+#SBATCH --account=your_account
+#SBATCH --output=slurm.o%j
+#SBATCH --error=slurm.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=skx-dev
 
 export LAMMPS_EXEC='ibrun lmp_stampede'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bicycle-8308
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nsai1/dai-ds/demo/scripts/PbsJob-32Nodes-9JobSteps

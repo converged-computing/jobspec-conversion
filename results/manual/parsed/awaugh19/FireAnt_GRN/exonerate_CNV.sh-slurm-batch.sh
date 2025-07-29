@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=exonerate_CNV
-#FLUX: -c=8
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=exonerate_CNV
+#SBATCH --output=/scratch/ahw22099/FireAnt_GRN/scripts/exonerate_CNV.log.%j
+#SBATCH --error=/scratch/ahw22099/FireAnt_GRN/scripts/exonerate_CNV.err.%j
+#SBATCH --mail-user=ahw22099@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=24gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --array=0-261
 
 module load Exonerate/2.4.0-GCC-12.2.0
 cd /scratch/ahw22099/FireAnt_GRN/Fontana2020_CNV

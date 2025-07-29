@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-toaster-1464
-#FLUX: --queue=seas_gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-gato-8700
+#FLUX --queue=seas_gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

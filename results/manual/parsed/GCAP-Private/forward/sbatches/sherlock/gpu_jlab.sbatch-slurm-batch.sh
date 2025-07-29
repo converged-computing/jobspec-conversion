@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cherry-0973
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 PORT=$1
 NOTEBOOK_DIR=$2

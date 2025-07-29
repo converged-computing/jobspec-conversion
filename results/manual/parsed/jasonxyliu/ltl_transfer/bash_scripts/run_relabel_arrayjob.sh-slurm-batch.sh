@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cinnamonbun-5026
-#FLUX: -n=119
-#FLUX: -t=716400
-#FLUX: --urgency=16
+#SBATCH --output=sbatch_out/arrayjob-%A-%a.out
+#SBATCH --error=sbatch_out/arrayjob-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=119
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=99G
+#SBATCH --time=8-07:00:00
+#SBATCH --array=0-15
 
 export PYTHONUNBUFFERED='TRUE'
 

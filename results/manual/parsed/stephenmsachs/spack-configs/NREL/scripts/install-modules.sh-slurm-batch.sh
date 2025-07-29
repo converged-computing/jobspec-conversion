@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=build-modules
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=build-modules
+#SBATCH --account=hpcapps
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'
 

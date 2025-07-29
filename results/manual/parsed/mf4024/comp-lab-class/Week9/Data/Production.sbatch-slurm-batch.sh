@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=run-production
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run-production
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=04:00:00
 
 source /scratch/work/courses/CHEM-GA-2671-2022fa/software/lammps-gcc-30Oct2022/setup_lammps.bash
 mpirun lmp -var configfile ../Inputs/n360/kalj_n360_create.lmp -var id 1 -in ../Inputs/production_3d_binary.lmp

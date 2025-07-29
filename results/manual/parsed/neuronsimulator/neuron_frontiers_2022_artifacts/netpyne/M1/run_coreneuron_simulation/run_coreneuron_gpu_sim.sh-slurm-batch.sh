@@ -1,12 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-milkshake-9581
-#FLUX: -N=2
-#FLUX: -n=16
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=prod
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=proj16
+#SBATCH --nodes=2
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=08:00:00
+#SBATCH --partition=prod
+#SBATCH: --exclusive
+#SBATCH --constraint=volta
+#SBATCH --exclude=ldir01u01
 
 module_suffix="$1"
 acc_sync="$2"

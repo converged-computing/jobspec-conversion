@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=unify_mm_v100
-#FLUX: -N=8
-#FLUX: -c=64
+#FLUX --job-name=unify_mm_v100
+#FLUX -N=8
+#FLUX -c=64
 #FLUX: --exclusive
-#FLUX: --queue=mm_v100_32g
-#FLUX: --urgency=16
+#FLUX --queue=mm_v100_32g
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

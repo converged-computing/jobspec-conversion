@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-carrot-9197
-#FLUX: -c=48
-#FLUX: --urgency=16
+#FLUX --job-name=salted-staircase-3197
+#FLUX -c=48
+#FLUX --urgency=16
 
 WD="/gpfs/projects/bsc40/current/mschiavi/jloh"
 cd ${WD}/scripts/wf-real_data

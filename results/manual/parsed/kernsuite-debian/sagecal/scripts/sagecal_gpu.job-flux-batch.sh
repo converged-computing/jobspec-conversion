@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-itch-4259
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=purple-latke-9529
+#FLUX -t=120
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cm/shared/package/cuda91/toolkit/9.1.85/lib64/stubs'
 

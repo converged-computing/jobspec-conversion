@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-toaster-3271
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=milky-gato-5588
+#FLUX --queue=hbfraser,hns,normal
+#FLUX -t=259200
+#FLUX --urgency=16
 
 PATH=$HOME/bin:$PATH:$HOME/.local/bin:$HOME/gatk-4.0.3.0:$HOME/samtools_1.6/bin
 export PATH

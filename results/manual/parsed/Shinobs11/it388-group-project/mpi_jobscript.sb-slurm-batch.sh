@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_grayscale
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_grayscale
+#SBATCH --account=isu102
+#SBATCH --output=mpi_grayscale.%j.%N.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=128
 
 module load cpu/0.15.4 gcc/10.2.0 openmpi/4.0.4
 srun -n 1 ./mpi_grayscale cat.jpg comp.jpg gray.jpg 

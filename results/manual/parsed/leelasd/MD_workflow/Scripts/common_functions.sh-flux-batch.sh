@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-9475
-#FLUX: --urgency=16
+#FLUX --job-name=purple-despacito-9595
+#FLUX --urgency=16
 
 read_master_config_file() {
 fpath=$1

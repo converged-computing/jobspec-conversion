@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RT-serial
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --job-name=RT-serial
+#SBATCH --account=scw1563
+#SBATCH --output=ray_tracing-%j.out
+#SBATCH --error=ray_tracing-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=600mb
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=ccs[2103-2114]
 
 module purge > /dev/null 2>&1
 module load cmake mpi/intel

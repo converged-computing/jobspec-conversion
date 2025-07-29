@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Si
-#FLUX: --queue=short
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=Si
+#SBATCH --output=log_slurm_job.%j.%N.std_out_err
+#SBATCH --mail-user=Miroslav.Ilias@umb.sk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=4
 
 export QE='/lustre/home/ilias/work/qch/software/quantum-espresso/qe-7.0/build_intelmpi/bin'
 

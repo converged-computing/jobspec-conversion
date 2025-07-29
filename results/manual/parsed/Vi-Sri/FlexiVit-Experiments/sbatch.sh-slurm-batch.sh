@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cal_face
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=cal_face
+#SBATCH --output=outputs/cal_face.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --constraint=gmem32
 
 nvidia-smi
 nvidia-smi -q |grep -i serial

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sagesim_debug
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=sagesim_debug
+#SBATCH --account=LRN047
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
 
 export SRC_DIR='/ccs/home/gunaratnecs/sagesim/examples/sir'
 export SCHEDULER_FILE='${RUN_DIR}/scheduler_file.json'

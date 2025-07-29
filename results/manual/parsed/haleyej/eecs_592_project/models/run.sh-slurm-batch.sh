@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=demo
-#FLUX: --queue=spgpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=demo
+#SBATCH --account=eecs592s001w24_class
+#SBATCH --output=/home/apalakod/eecs_592_project/Bert_training.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=180g
+#SBATCH --time=08:00:00
+#SBATCH --partition=spgpu
+#SBATCH --constraint=ntasks-per-node=1
 
 /bin/hostname
 nvidia-smi

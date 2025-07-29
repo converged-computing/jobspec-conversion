@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Hamiltonian_Solver_agrace
-#FLUX: -n=3
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=Hamiltonian_Solver_agrace
+#SBATCH --output=slurm_logs/mpi_test_%j.log
+#SBATCH --mail-user=agrace2@binghamton.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=3,ntasks-per-socket=3
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

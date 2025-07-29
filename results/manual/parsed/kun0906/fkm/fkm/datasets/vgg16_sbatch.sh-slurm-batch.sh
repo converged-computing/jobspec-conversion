@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=sbatch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sbatch
+#SBATCH --output=out_sbatch.txt
+#SBATCH --error=err_sbatch.txt
+#SBATCH --mail-user=ky8517@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=10
 
 module load anaconda3/5.0.1
 source activate tf1-gpu

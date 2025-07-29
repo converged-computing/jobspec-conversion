@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-soup-7177
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pedrocrisp/crisplab_epigenomics/methylome/05-summarise_methylation-WGBS.sh

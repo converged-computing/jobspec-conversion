@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_run
-#FLUX: -c=28
-#FLUX: --queue=longfat
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_run
+#SBATCH --account=harmslab
+#SBATCH --output=hostname.out
+#SBATCH --error=hostname.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=longfat
+#SBATCH --constraint=ntasks-per-node=1
 
 module load intel/19
 module load gromacs/2019.4

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chair-4673
-#FLUX: -n=4
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --output=/project/boegelbot/slurmjobs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
 
 export PYTHONPATH='${EB_PREFIX}/easybuild-framework:${EB_PREFIX}/easybuild-easyblocks:${EB_PREFIX}/easybuild-easyconfigs'
 export PATH='${EB_PREFIX}/easybuild-framework:${HOME}/.local/bin:${PATH}'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pastry-0302
-#FLUX: -n=4
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lettuce-1111
+#FLUX -n=4
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export ALMAIMF_ROOTDIR='/orange/adamginsburg/ALMA_IMF/reduction/reduction'
 export CASA='/orange/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'

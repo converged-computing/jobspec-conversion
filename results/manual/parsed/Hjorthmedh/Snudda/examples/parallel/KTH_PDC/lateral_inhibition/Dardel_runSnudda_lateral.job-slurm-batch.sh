@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Snudda
-#FLUX: -N=2
-#FLUX: -n=256
-#FLUX: -c=2
-#FLUX: --queue=main
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=Snudda
+#SBATCH --account=naiss2023-5-231
+#SBATCH --output=log/runSnudda-%j-output.txt
+#SBATCH --error=log/runSnudda-%j-error.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=2
+#SBATCH --mem-per-cpu=930M
+#SBATCH --time=01:59:00
+#SBATCH --partition=main
 
 export IPNWORKERS='$NWORKERS'
 export IPYTHONDIR='/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython'

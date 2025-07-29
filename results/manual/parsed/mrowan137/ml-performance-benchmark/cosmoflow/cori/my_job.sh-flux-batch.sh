@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cosmoflow-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=cosmoflow-cgpu
+#FLUX -c=10
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export BATCHSIZE='8'
 export DO_PROFILING='false'  # true or false'

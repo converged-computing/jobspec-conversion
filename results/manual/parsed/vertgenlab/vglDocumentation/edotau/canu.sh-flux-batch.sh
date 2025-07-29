@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-toaster-8608
-#FLUX: -c=8
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=blank-staircase-9716
+#FLUX -c=8
+#FLUX -t=10800
+#FLUX --urgency=16
 
 canu=/data/lowelab/edotau/software/canu/Linux-amd64/bin/canu
 module add java/9-gcb01

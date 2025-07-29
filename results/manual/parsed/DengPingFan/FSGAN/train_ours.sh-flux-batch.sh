@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-snack-2321
-#FLUX: -n=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=placid-muffin-7531
+#FLUX -n=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 idx="$1"
 nohup python -m visdom.server > nohup_visdom_${idx}.out 2>&1 &

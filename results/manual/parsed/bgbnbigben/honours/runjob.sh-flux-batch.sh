@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-truffle-8108
-#FLUX: --urgency=16
+#FLUX --job-name=phat-general-7509
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bgbnbigben/honours/runjob.sh

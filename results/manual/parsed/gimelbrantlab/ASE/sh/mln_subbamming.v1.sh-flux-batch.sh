@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-taco-8687
-#FLUX: -c=4
-#FLUX: --queue=medium
-#FLUX: -t=169200
-#FLUX: --urgency=16
+#FLUX --job-name=red-nalgas-6949
+#FLUX -c=4
+#FLUX --queue=medium
+#FLUX -t=169200
+#FLUX --urgency=16
 
 module load gcc python R/3.4.1 samtools/1.3.1 star
 DIR=$2

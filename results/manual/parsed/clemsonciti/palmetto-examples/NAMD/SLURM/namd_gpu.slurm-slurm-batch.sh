@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NAMD-gpu
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=NAMD-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
 
 module load namd/3.06b
 cd $SLURM_SUBMIT_DIR

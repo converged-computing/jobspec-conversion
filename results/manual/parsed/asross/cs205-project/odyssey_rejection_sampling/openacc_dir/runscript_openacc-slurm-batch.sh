@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-milkshake-5680
-#FLUX: --queue=holyseasgpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=10000
+#SBATCH --time=00:10:00
+#SBATCH --partition=holyseasgpu
 
 pgc++ -acc -ta=nvidia -Minfo=accel -o openacc openacc.cpp
 ./openacc > "out-openacc.txt"

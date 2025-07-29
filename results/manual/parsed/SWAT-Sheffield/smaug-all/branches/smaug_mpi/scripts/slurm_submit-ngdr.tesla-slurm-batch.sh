@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=smaug_ngdr
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=tesla
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=smaug_ngdr
+#SBATCH --account=SHEFFIELD-GPU
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=tesla
 
 export MV2_RAIL_SHARING_POLICY='FIXED_MAPPING'
 export MV2_PROCESS_TO_RAIL_MAPPING='mlx5_0:mlx5_1'

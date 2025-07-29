@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HTSeq
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=HTSeq
+#SBATCH --account=general
+#SBATCH --output=/mnt/research/edgerpat_lab/Scotty/Blueberry_RNA_Seq_Expression_Analysis/results/htseq/htseq_logs/ArrayHTSeq.%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=02:00:00
+#SBATCH --array=1-84
 
 module purge
 module load Anaconda2/4.2.0

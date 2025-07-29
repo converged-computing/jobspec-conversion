@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-underoos-9647
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-salad-0748
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CC='`which gcc`'
 export OBJCC='`which gcc`'

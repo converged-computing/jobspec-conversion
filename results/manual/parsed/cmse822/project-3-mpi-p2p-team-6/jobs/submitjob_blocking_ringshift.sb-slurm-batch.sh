@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ring_shift_blocking
-#FLUX: -N=2
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=ring_shift_blocking
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:40:00
+#SBATCH --constraint=ntasks-per-node=64
 
 module purge
 module load intel/2020a

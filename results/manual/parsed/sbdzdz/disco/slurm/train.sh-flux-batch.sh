@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-malarkey-6784
-#FLUX: -c=32
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-parrot-4756
+#FLUX -c=32
+#FLUX -t=777600
+#FLUX --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export HYDRA_FULL_ERROR='1'

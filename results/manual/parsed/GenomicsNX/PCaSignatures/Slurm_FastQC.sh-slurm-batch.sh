@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-parrot-6972
-#FLUX: -n=4
-#FLUX: --queue=intel
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=FastQC.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=01:00:00
+#SBATCH --partition=intel
+#SBATCH --chdir=/bigdata/jialab/rli012/PCa/data/fromSRA/GSE54460/
 
 fastqc=/bigdata/jialab/rli012/software/FastQC/fastqc
 N=$SLURM_ARRAY_TASK_ID

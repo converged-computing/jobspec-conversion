@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pastry-3492
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-latke-4089
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load hecbiosim
 module add gromacs/2020.4-plumed-2.6.2

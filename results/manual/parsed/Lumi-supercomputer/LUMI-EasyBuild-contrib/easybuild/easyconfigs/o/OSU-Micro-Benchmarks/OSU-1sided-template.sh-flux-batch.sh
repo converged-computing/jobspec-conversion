@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-1sided
-#FLUX: -N=2
+#FLUX --job-name=OSU-1sided
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=standard
+#FLUX -t=600
+#FLUX --urgency=16
 
 echo -e "Case run:\n"
 cat $0

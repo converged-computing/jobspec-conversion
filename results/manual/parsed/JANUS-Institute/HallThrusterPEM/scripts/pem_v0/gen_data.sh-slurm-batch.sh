@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gen_data_v0
-#FLUX: -c=36
-#FLUX: --queue=standard
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_data_v0
+#SBATCH --output=./scripts/pem_v0/logs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=36
+#SBATCH --mem=1g
+#SBATCH --time=04:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHON_JULIAPKG_OFFLINE='yes'
 

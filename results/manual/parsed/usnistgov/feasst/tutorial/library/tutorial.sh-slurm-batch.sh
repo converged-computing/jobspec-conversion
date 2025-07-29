@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-2150
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=hostname_%j.out
+#SBATCH --error=hostname_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 function launch_node {
 cat << _EOF_ > launch.cmd

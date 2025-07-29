@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=exec_final_proj
-#FLUX: -n=28
-#FLUX: --queue=reservation
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=exec_final_proj
+#SBATCH --output=experiment.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8Gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=reservation
 
 REPEAT=20
 module load cmake/3.18.1

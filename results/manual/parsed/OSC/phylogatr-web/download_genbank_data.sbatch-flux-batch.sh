@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=genbank_update
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=genbank_update
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 set -x

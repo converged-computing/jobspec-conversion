@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dream_output
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=dream_output
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.9
 module load scipy-stack

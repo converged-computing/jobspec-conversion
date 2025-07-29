@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-buttface-4458
-#FLUX: --urgency=16
+#SBATCH --output=neuralpde_jobarray.log-%A-%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-128
 
 export LOG_DIR='/home/gridsan/zmccarthy/logs/spme_c_e_first'
 export SLURM_ARRAY_TASK_ID='$SLURM_ARRAY_TASK_ID'

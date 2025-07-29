@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-4020
-#FLUX: -N=2
-#FLUX: -t=15
-#FLUX: --urgency=16
+#SBATCH --account=rrg-kevinlb
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=40G
+#SBATCH --time=00:00:15
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='1'
 export WORLD_SIZE='8'

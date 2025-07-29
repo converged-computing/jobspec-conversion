@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-mango-1445
-#FLUX: -N=2
-#FLUX: -n=3
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3G
+#SBATCH --time=00:01:00
 
 export WORK_DIR='/project/cscale_test/Public/openeo/openeo-geotrellis-kubernetes/hpc'
 export MKL_NUM_THREADS='1'

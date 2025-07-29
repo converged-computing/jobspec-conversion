@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Inv_source_iso
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=Inv_source_iso
+#SBATCH --account=w18_trust
+#SBATCH --output=slurm.log
+#SBATCH --nodes=16
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --qos=interactive
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

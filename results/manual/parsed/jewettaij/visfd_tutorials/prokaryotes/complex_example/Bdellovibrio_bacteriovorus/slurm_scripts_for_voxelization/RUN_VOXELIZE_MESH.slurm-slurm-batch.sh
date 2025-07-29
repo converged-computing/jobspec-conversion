@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=voxelize
-#FLUX: -t=2764800
-#FLUX: --urgency=16
+#SBATCH --job-name=voxelize
+#SBATCH --output=output.out
+#SBATCH --error=output.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=32-00:00:00
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

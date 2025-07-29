@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mostest_nf
-#FLUX: -c=16
-#FLUX: -t=1052400
-#FLUX: --urgency=16
+#FLUX --job-name=mostest_nf
+#FLUX -c=16
+#FLUX -t=1052400
+#FLUX --urgency=16
 
 export NXF_OFFLINE='TRUE'
 

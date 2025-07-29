@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SRGAN
-#FLUX: -c=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=SRGAN
+#SBATCH --account=def-panos
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=47000M
+#SBATCH --time=01:00:00
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${CUDA_HOME}/lib64:/cvmfs/soft.computecanada.ca/easybuild/software/2017/CUDA/cuda10.1/cudnn/7.6.5/lib64/'
 

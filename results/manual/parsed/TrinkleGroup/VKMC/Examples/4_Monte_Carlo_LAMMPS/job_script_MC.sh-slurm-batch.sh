@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MyJob
-#FLUX: --queue=cpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=MyJob
+#SBATCH --output=MyJob_%j.out
+#SBATCH --error=MyJob_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=64
 
 VKMC=/path/to/the/local/copy/of/the/VKMC/repository # We Need to add the full path to the local copy of the VKMC respository here.
 potpath=$VKMC/Utils/pot

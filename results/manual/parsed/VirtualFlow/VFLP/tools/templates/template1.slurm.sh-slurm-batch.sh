@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=h-1.1
-#FLUX: --queue=main
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=h-1.1
+#SBATCH --output=../workflow/output-files/jobs/job-1.1_%j.out
+#SBATCH --error=../workflow/output-files/jobs/job-1.1_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=800M
+#SBATCH --time=12:00:00
+#SBATCH --partition=main
 
 export VF_OLD_JOB_NO='${jobname:2}'
 export VF_VF_OLD_JOB_NO_2='${VF_OLD_JOB_NO/*.}'

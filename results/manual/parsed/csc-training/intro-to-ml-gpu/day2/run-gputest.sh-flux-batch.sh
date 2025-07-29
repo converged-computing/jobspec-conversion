@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-plant-8213
-#FLUX: -c=10
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-car-0572
+#FLUX -c=10
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 PYTHON=python3
 if [ -n "$SING_IMAGE" ]; then

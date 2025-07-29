@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=emb
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=rtx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=emb
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=rtx
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

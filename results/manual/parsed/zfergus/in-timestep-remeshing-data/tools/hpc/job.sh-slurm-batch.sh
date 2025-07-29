@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-itch-4475
-#FLUX: -c=16
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --mail-user=zfergus@nyu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 PROJECT_NAME="remeshing-project"
 module purge

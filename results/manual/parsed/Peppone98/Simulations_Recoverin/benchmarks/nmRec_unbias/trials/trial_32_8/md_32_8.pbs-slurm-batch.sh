@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-punk-0546
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/benchmarks/nmRec_unbias/trials/trial_32_8/md_32_8.pbs

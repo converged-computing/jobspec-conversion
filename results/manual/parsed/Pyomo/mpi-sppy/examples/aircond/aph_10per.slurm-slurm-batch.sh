@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=aph_reallystarved
-#FLUX: -N=34
-#FLUX: -n=300
-#FLUX: -c=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=aph_reallystarved
+#SBATCH --output=try_big_pickles_aph_reallystarved_REVISION-Feb28.out
+#SBATCH --nodes=34
+#SBATCH --ntasks=300
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:30:00
 
 export MPICH_ASYNC_PROGRESS='1'
 

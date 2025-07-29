@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lamp-1790
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-eagle-8835
+#FLUX --urgency=16
 

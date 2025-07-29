@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-sundae-7107
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-poodle-3793
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_100ms_45ms.pbs

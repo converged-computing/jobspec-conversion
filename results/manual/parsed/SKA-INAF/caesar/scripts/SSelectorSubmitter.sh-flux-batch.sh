@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-3431
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-kerfuffle-4957
+#FLUX --urgency=16
 
 export BASEDIR='$PWD'
 export OUTPUT_DATADIR='$PWD'

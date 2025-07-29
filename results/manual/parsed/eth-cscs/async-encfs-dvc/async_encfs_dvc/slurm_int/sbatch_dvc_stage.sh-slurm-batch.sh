@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-car-0564
-#FLUX: --urgency=16
+#SBATCH --output=output/dvc_sbatch.%x.%j.out
+#SBATCH --error=output/dvc_sbatch.%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -euo pipefail
 dvc_stage_name="$1"

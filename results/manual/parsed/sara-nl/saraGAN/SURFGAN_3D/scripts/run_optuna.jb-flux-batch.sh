@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chip-5159
-#FLUX: -N=4
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=248400
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-peanut-butter-9299
+#FLUX -N=4
+#FLUX -c=6
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=248400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-animal-3939
-#FLUX: -n=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=06:00:00
 
 export matlab_cpus='10'
 

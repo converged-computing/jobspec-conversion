@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gqa_lxmert3m_neutral-eval
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gqa_lxmert3m_neutral-eval
+#SBATCH --output=eval.out
+#SBATCH --error=eval.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PYTHONPATH='$(builtin cd ..; pwd)'
 

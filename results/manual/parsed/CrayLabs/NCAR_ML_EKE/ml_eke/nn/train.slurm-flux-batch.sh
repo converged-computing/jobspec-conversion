@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cattywampus-4619
-#FLUX: --queue=spider
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=angry-cinnamonbun-5932
+#FLUX --queue=spider
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export LR='0.0005 # CNN'
 

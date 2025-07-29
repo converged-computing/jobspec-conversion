@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cgan
-#FLUX: --queue=magma
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=cgan
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32gb
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=magma
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 cd $SLURM_SUBMIT_DIR

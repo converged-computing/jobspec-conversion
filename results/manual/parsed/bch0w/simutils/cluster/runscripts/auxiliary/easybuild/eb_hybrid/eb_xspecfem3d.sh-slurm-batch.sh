@@ -1,11 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=xspecfem3D
-#FLUX: -N=10
-#FLUX: -n=40
-#FLUX: -c=10
-#FLUX: --queue=nesi_research
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=xspecfem3D
+#SBATCH --account=nesi00263
+#SBATCH --output=specfem3D_%j.out
+#SBATCH --nodes=10
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=10
+#SBATCH --time=00:02:00
+#SBATCH --partition=nesi_research
 
 module load gcc/8.3.0
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

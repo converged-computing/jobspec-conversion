@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=rfm_IMB_Uniband_8_job
-#FLUX: -n=8
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=rfm_IMB_Uniband_8_job
+#SBATCH --output=rfm_IMB_Uniband_8_job.out
+#SBATCH --error=rfm_IMB_Uniband_8_job.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_1:1'

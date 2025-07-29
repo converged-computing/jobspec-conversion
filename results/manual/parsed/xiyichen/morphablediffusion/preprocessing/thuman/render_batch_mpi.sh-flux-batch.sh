@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preprocess_thuman
-#FLUX: -n=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=preprocess_thuman
+#FLUX -n=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load blender/3.4.1

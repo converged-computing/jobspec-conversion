@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-signal-1692
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=19
-#FLUX: --urgency=16
+#SBATCH --output=logdnn.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=12G
+#SBATCH --time=00:00:19
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

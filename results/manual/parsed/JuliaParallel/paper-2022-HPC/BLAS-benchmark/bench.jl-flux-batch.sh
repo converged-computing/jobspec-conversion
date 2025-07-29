@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-noodle-2421
+#FLUX --job-name=nerdy-hobbit-7263
 #FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=all
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export JULIA_EXLUSIVE='1'
 

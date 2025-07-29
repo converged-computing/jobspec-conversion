@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_job
-#FLUX: -n=6
-#FLUX: --queue=m3h
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_job
+#SBATCH --account=<project>
+#SBATCH --mail-user=<youremail@domain.org>
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=55G
+#SBATCH --time=00:30:00
+#SBATCH --partition=m3h
 
 export REPODIR='/scratch/<project>/$USER/gpu-examples'
 export PYTHONPATH='${REPODIR}/models:$PYTHONPATH'

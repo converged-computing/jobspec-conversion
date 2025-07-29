@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leg-9712
-#FLUX: -N=3
-#FLUX: -n=48
-#FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --nodes=3
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=MaxMemPerNode
+#SBATCH --time=00:24:00
+#SBATCH --partition=huce_intel
+#SBATCH: --exclusive
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

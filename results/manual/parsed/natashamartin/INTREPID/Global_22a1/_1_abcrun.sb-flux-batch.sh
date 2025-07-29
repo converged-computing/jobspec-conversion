@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bat1
-#FLUX: --queue=ind-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bat1
+#FLUX --queue=ind-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PATH='/expanse/lustre/scratch/jpg/temp_project/matlab_2020b/bin:$PATH'
 

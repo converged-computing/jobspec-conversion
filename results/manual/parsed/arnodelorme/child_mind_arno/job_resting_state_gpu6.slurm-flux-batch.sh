@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ChildMindDL
-#FLUX: --queue=gpu-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ChildMindDL
+#FLUX --queue=gpu-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ~/.bashrc
 cd /projects/ps-nemar/child_mind_2020

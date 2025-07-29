@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pancake-9593
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-peas-9438
+#FLUX --urgency=16
 
 source /home/${USER}/.bashrc;
 source activate tf1.15-env; 

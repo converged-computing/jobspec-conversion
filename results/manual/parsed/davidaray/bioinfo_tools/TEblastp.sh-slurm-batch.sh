@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TEblastp
-#FLUX: --queue=nocona
-#FLUX: --urgency=16
+#SBATCH --job-name=TEblastp
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=60G
+#SBATCH --partition=nocona
 
 module --ignore-cache load gcc/10.1.0 r/4.0.2
 . ~/conda/etc/profile.d/conda.sh

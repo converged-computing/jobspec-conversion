@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=generate-vtune-summary
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=generate-vtune-summary
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -e
 set -u

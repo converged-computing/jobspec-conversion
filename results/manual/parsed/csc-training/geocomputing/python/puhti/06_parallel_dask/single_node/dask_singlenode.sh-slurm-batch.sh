@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-4597
-#FLUX: -c=3
-#FLUX: --queue=test
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=project_200xxxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=6G
+#SBATCH --time=00:05:00
+#SBATCH --partition=test
 
 module load geoconda
 datadir=/appl/data/geo/sentinel/s2_example_data/L2A

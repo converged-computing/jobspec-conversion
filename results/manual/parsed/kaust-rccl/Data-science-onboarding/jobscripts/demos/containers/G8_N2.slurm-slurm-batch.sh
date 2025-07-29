@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-0214
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=ibex-cs
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=8
+#SBATCH --mem-per-cpu=200G
+#SBATCH --time=00:30:00
 
 export IMAGE='./pytorch_22.08-py3.sif'
 export BIND_MOUNT='-B /ibex/ai/home/shaima0d/KSL_Trainings'

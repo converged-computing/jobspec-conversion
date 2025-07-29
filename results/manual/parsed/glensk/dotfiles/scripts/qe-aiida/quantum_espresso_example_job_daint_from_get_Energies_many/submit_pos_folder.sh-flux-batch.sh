@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-6400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-mango-5734
+#FLUX --urgency=16
 
 ff=`ls -1d pos_*`
 hier=`pwd`

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=failure_standards
-#FLUX: --queue=standard
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=failure_standards
+#SBATCH --account=duhaimem1
+#SBATCH --output=Logs/%x-%j.out
+#SBATCH --mail-user=klangenf@umich.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000mb
+#SBATCH --time=02:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 source /etc/profile.d/http_proxy.sh
 if [[ $SLURM_JOB_NODELIST ]] ; then

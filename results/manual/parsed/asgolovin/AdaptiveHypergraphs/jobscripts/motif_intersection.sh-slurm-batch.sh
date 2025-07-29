@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=motif_intersection
-#FLUX: -n=5
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=motif_intersection
+#SBATCH --output=./output/%j.%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=cm2_tiny
 
 module load slurm_setup
 module load julia/1.8.2

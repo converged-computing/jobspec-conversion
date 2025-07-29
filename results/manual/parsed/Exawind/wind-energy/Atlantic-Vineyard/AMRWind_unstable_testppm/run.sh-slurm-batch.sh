@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=unstableabl
-#FLUX: -N=20
-#FLUX: --queue=standard
-#FLUX: -t=35999
-#FLUX: --urgency=16
+#SBATCH --job-name=unstableabl
+#SBATCH --account=hfm
+#SBATCH --output=%x.o%j
+#SBATCH --mail-user=lcheung@sandia.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=09:59:59
+#SBATCH --partition=standard
 
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'
 export OMP_PLACES='threads'

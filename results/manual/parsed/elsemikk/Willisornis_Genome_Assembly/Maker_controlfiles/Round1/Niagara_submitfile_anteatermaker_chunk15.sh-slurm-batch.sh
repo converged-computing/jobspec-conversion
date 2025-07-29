@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Anteater_Maker_Round1
-#FLUX: -c=40
-#FLUX: -t=46800
-#FLUX: --urgency=16
+#SBATCH --job-name=Anteater_Maker_Round1
+#SBATCH --output=OUTPUT_R1_15_%.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=0
+#SBATCH --time=13:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$PATH:/gpfs/fs0/project/j/jweir/tools/tRNAscan-SE-2.0'
 export ZOE='/gpfs/fs0/project/j/jweir/tools/snap/Zoe'

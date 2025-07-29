@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-onion-3746
-#FLUX: -c=2
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --account=def-barrett
+#SBATCH --mail-user=janay.fox@mail.mcgill.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20G
+#SBATCH --time=00:00:10
 
 module purge 
 module load StdEnv/2020

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=impute2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=impute2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load conda 
 conda activate /Genomics/argo/users/emmarg/miniforge3/envs/impute2

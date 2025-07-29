@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MyMPIJob
-#FLUX: -N=3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MyMPIJob
+#SBATCH --output=MPI-%j.out
+#SBATCH --error=MPI-%j.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 module load gcc/10.2 cuda/11.7.1
 module load mpi/openmpi_4.1.1_gcc_10.2_slurm22

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-despacito-2785
-#FLUX: --urgency=16
+#FLUX --job-name=arid-plant-1043
+#FLUX --urgency=16
 

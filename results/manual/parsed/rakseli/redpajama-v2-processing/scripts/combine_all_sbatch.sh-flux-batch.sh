@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=combine_jsons_and_parquet
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=combine_jsons_and_parquet
+#FLUX -c=10
+#FLUX --queue=small
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load LUMI/22.12 

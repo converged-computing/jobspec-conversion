@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=julia_mvapich2
-#FLUX: -N=4
-#FLUX: --queue=short
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=julia_mvapich2
+#SBATCH --output=julia_mvapich2.log
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 

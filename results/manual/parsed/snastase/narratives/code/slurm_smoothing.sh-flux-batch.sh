@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=smoothing
-#FLUX: -c=2
-#FLUX: --queue=all
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=smoothing
+#FLUX -c=2
+#FLUX --queue=all
+#FLUX -t=28800
+#FLUX --urgency=16
 
 echo "Purging modules"
 module purge

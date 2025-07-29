@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=maxbin2
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=maxbin2
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=randomgame
-#FLUX: -c=80
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=randomgame
+#SBATCH --output=output_randomgame.log
+#SBATCH --error=error_file_jobsh.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --mem=25G
+#SBATCH --time=03:00:00
 
 module purge
 module load Python/3.9.6-GCCcore-11.2.0

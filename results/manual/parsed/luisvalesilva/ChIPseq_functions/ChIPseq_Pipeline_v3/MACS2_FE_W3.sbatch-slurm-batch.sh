@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MACS2_FE
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=MACS2_FE
+#SBATCH --output=/scratch/%u/%x_%j.out
+#SBATCH --mail-user=lv38@nyu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20GB
+#SBATCH --time=01:00:00
 
 module purge
 module load macs2/intel/2.1.1

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=abf
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: --queue=nes2.8
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=abf
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8gb
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=nes2.8
+#SBATCH --constraint=neh2.8
+#SBATCH --array=1%1
 
 export SLURM_MPI_TYPE='pmi2'
 

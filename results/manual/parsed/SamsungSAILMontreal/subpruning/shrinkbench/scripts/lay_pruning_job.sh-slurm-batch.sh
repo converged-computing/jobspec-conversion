@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-buttface-3479
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --output=outputLogs/pruning_job-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --array=1-960
 
 export PYTHONPATH='$PYTHONPATH:$HOME/subpruning/'
 

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-blackbean-5918
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 set -eux
 readonly docker_image="nvcr.io/nvidia/tensorflow:19.08-py3"

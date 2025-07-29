@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=palm_run
-#FLUX: -N=2
-#FLUX: --urgency=16
+#FLUX --job-name=palm_run
+#FLUX -N=2
+#FLUX --urgency=16
 
 set -x  # for displaying the commands in the log for debugging
 run_time=$1

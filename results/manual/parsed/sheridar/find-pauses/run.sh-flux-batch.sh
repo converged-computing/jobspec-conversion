@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lamp-7918
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-buttface-5428
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sheridar/find-pauses/run.sh

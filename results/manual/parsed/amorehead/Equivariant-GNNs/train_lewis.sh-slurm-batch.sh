@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_lit_set_model_with_pl
-#FLUX: --queue=Gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=train_lit_set_model_with_pl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=00:02:00
+#SBATCH --partition=Gpu
+#SBATCH --constraint=ntasks-per-node=24
 
 export PROJDIR='/home/$USER/data/Equivariant-GNNs'
 export DGLBACKEND='pytorch # Required to override default ~/.dgl config directory which is read-only'

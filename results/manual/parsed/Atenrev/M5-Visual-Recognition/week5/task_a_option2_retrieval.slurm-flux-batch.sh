@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fork-7912
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mhigh
-#FLUX: --urgency=16
+#FLUX --job-name=salted-bike-9838
+#FLUX -n=4
+#FLUX --queue=mhigh,mhigh
+#FLUX --urgency=16
 
 python run_retrieval.py \
     --mode image_to_text  \

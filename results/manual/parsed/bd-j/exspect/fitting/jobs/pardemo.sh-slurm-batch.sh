@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=exspect_basic
-#FLUX: --queue=conroy,shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=exspect_basic
+#SBATCH --output=/n/holyscratch01/conroy_lab/bdjohnson/exspect/fitting/logs/exspect_basic_%A_%a.out
+#SBATCH --error=/n/holyscratch01/conroy_lab/bdjohnson/exspect/fitting/logs/exspect_basic_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=12:00:00
+#SBATCH --partition=conroy,shared
+#SBATCH --constraint=intel
 
 export GROUP='conroy_lab'
 export MYSCRATCH='$SCRATCH/$GROUP/$USER'

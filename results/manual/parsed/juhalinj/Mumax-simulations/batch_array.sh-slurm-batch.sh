@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-knife-7352
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1500
+#SBATCH --time=02:00:00
+#SBATCH --array=7-11
 
 module --ignore-cache load cuda/11.0
 SID=$SLURM_ARRAY_TASK_ID

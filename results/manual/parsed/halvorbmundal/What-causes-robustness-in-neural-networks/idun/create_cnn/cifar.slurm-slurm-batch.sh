@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-c-CNN-Cert
-#FLUX: --queue=GPUQ,V100-IDI
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-c-CNN-Cert
+#SBATCH --account=share-ie-idi
+#SBATCH --output=out/cifar_output.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=GPUQ,V100-IDI
+#SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

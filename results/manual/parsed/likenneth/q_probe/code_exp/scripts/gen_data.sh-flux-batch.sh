@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-nunchucks-7857
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-eagle-7052
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export CONFIG='generation_configs/$1.yaml'
 export TOKENIZERS_PARALLELISM='false'

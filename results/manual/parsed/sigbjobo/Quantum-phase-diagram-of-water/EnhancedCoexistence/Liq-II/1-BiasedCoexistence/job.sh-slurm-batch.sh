@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=COEX
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpuA100x4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=COEX
+#SBATCH --account=bblh-delta-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuA100x4
+#SBATCH --constraint=ntasks-per-node=4
 
 export PLUMED_NUM_THREADS='16'
 export OMP_NUM_THREADS='12'

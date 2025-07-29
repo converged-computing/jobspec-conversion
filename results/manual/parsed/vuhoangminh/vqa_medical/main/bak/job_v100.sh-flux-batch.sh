@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-diablo-7468
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-lemon-9562
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export command='python train.py --path_opt options/tools/minhmul_att_train_2048.yaml'

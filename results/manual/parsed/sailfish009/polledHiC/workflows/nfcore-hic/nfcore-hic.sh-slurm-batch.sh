@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=$runid
-#FLUX: --queue=workq
-#FLUX: --urgency=16
+#SBATCH --job-name=$runid
+#SBATCH --output=$log
+#SBATCH --error=$err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12G
+#SBATCH --partition=workq
 
 datadir= # path/to/reads_directories i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/data/reads_nfcore
 wdir= # path/to/working_directory i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/workflows/nfcorehic_jm

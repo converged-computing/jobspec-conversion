@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=q1
-#FLUX: -N=4
-#FLUX: -n=160
-#FLUX: --queue=windfall
-#FLUX: -t=604740
-#FLUX: --urgency=16
+#SBATCH --job-name=q1
+#SBATCH --account=windfall
+#SBATCH --output=test_%j.log
+#SBATCH --mail-user=sschrode@ucsc.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=4
+#SBATCH --ntasks=160
+#SBATCH --cpus-per-task=1
+#SBATCH --time=6-23:59:00
+#SBATCH --partition=windfall
+#SBATCH --constraint=ntasks-per-node=40
 
 pwd; hostname; date
 echo "Running program on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS total tasks, with each node getting $SLURM_NTASKS_PER_NODE running on cores."

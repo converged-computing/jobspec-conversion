@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-banana-7772
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-blackbean-8913
+#FLUX -t=300
+#FLUX --urgency=16
 
 module purge  > /dev/null 2>&1
 module load GCC/10.3.0  OpenMPI/4.1.1 TensorFlow/2.6.0-CUDA-11.3.1

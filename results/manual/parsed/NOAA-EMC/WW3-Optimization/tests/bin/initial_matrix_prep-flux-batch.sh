@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-animal-8570
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-hope-2145
+#FLUX --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

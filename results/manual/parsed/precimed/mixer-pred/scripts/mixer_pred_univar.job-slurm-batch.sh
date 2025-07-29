@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=plsa2d
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=plsa2d
+#SBATCH --account=p697
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8000M
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=slurm
+#SBATCH --array=1-20
 
 export THREADS='16 	# note this is equal to the number of cpus used when batching above'
 export APPTAINER_BIND=''

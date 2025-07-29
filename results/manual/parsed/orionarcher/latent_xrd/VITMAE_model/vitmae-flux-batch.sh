@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-caramel-3873
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-leg-2021
+#FLUX -c=32
+#FLUX --queue=regular
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export HDF5_USE_FILE_LOCKING='FALSE'

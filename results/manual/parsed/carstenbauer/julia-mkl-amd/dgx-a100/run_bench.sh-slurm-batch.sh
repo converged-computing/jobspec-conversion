@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=julia-mkl-amd dgx-a100
-#FLUX: -c=128
-#FLUX: --queue=dgx
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=julia-mkl-amd dgx-a100
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=run_bench.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=04:00:00
+#SBATCH --partition=dgx
 
 export LD_PRELOAD='/scratch/pc2-mitarbeiter/bauerc/devel/julia-mkl-amd/mkl_workaround/libfakeintel.so'
 

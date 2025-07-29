@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-muffin-4138
-#FLUX: -c=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=test.out
+#SBATCH --mail-user=somnathsharmaji05@gmail.com
+#SBATCH --mail-type=BEGIN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 echo Setting up environment
 module load python/3.8

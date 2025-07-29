@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=blastp
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=50
+#SBATCH --job-name=blastp
+#SBATCH --output=/n/home10/ytingliu/alphapulldown_new/logs/blastp_%A_%a_out.txt
+#SBATCH --error=/n/home10/ytingliu/alphapulldown_new/logs/blastp_%A_%a_err.txt
+#SBATCH --mail-user=yutingliu@hsph.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=128000
+#SBATCH --time=04:00:00
+#SBATCH --qos=high
 
 INPUT_FILE=$1
 SLURM_CPUS_PER_TASK=4

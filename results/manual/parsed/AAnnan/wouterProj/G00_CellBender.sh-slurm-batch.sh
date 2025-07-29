@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CellBender
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=CellBender
+#SBATCH --mail-user=ahrmad.annan@unil.ch
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 set -e
 source ~/micromamba/etc/profile.d/micromamba.sh

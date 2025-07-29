@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sd-tuning
-#FLUX: -c=8
-#FLUX: --queue=p2
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=sd-tuning
+#FLUX -c=8
+#FLUX --queue=p2
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PIP_CACHE_DIR='$CACHE_DIR'
 export TRANSFORMERS_CACHE='$CACHE_DIR'

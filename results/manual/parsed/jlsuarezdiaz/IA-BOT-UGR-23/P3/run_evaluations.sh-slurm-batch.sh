@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-0445
-#FLUX: -c=2
-#FLUX: --queue=muylarga
-#FLUX: --urgency=16
+#SBATCH --output=../../../slurm_outputs/%A.out
+#SBATCH --error=../../../slurm_outputs/%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --partition=muylarga
 
 export PATH='/home/profesia/anaconda/condabin:$PATH'
 

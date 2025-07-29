@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mappo_opt
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=mappo_opt
+#FLUX -c=40
+#FLUX --queue=batch
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='/scratch/work/zhaow7/PycharmProjects/docker/mappo_env \'
 

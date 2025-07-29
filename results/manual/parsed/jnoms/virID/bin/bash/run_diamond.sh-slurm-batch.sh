@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-motorcycle-1999
-#FLUX: -c=2
-#FLUX: --queue=priority
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=priority
 
 module load gcc
 usage() {

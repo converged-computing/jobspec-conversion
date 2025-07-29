@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-platanos-1373
-#FLUX: --queue=amd_gpu
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --account=hpc2n2023-124
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=amd_gpu
 
 echo "Arguments passed to the script: $@"
 source /proj/nobackup/hpc2n2023-124/llm_qlora/venv/bin/activate

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=txla2_nest_NM_kw_2021_rst1
-#FLUX: -n=120
-#FLUX: --queue=xlong
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#FLUX --job-name=txla2_nest_NM_kw_2021_rst1
+#FLUX -n=120
+#FLUX --queue=xlong
+#FLUX -t=1728000
+#FLUX --urgency=16
 
 module purge
 module load netCDF-Fortran/4.4.4-intel-2018b

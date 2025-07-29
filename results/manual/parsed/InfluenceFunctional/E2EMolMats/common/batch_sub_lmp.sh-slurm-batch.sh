@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ntm_battery
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ntm_battery
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=7-00:00:00
+#SBATCH --array=0
 
 module purge
 module load intel/19.1.2

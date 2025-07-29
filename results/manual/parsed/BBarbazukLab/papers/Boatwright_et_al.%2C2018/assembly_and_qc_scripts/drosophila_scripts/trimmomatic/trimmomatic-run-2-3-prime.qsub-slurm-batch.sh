@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peanut-8330
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/BBarbazukLab/papers/Boatwright_et_al.%2C2018/assembly_and_qc_scripts/drosophila_scripts/trimmomatic/trimmomatic-run-2-3-prime.qsub

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=AE
-#FLUX: --exclusive
-#FLUX: --queue=Nvidia_A800
-#FLUX: --urgency=16
+#SBATCH --job-name=AE
+#SBATCH --output=out.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --partition=Nvidia_A800
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export RAY_DEDUP_LOGS='0'
 

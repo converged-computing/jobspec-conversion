@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fft1
-#FLUX: --urgency=16
+#SBATCH --job-name=fft1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 . /etc/profile
 module load cuda/5.0

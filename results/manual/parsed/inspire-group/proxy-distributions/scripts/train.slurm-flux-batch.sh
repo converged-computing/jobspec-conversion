@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=proxy_distribution
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=proxy_distribution
+#FLUX -N=8
+#FLUX -c=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export WORLD_SIZE='16 # set it equal to total number of gpus across all nodes (=total number of tasks across all nodes)'
 export MASTER_ADDR='$master_addr'

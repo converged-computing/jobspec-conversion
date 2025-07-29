@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=qreps-tune
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=qreps-tune
+#SBATCH --output=qreps_tune_job_gpu.out
+#SBATCH --error=qreps_tune_job_gpu.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=5g
+#SBATCH --partition=high
+#SBATCH --constraint=ntasks-per-node=1
 
 [ ! -e "nccl-tests" ] && git clone https://github.com/NVIDIA/nccl-tests.git
 module load foss/2020b

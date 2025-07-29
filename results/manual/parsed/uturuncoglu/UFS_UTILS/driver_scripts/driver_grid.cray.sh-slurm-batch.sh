@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-plant-7177
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/uturuncoglu/UFS_UTILS/driver_scripts/driver_grid.cray.sh

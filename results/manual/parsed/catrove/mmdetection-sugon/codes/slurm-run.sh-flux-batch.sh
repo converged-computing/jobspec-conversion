@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=torch-test
-#FLUX: -N=16
-#FLUX: -c=8
-#FLUX: --queue=caspra
-#FLUX: --urgency=16
+#FLUX --job-name=torch-test
+#FLUX -N=16
+#FLUX -c=8
+#FLUX --queue=caspra
+#FLUX --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 

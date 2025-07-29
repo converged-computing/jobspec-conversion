@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-train-9787
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-destiny-4517
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export OMP_STACKSIZE='100M'
 

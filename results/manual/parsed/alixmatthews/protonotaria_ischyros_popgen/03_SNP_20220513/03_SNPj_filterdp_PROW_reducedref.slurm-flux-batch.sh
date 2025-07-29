@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=03_SNPj_filterdp_PROW_reducedref
-#FLUX: --queue=comp01
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=03_SNPj_filterdp_PROW_reducedref
+#FLUX --queue=comp01
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/anaconda-3.9
 source /share/apps/bin/conda-3.9.sh

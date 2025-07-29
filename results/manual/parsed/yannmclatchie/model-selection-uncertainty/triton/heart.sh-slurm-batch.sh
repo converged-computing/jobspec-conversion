@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-peas-5821
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm/real/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1
 
 module load r
 module load gcc/11.2.0

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-general-0509
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/PCMSolver/pcmsolvermeta/stallo/RDR-intel12.1.2-debug.pbs

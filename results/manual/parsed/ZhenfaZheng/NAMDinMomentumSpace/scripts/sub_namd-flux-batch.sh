@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-itch-9733
-#FLUX: --queue=normal,normal2,normal3,normal4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phat-banana-9329
+#FLUX --queue=normal,normal2,normal3,normal4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PATH='/data/app/qe-7.2/Hefei-NAMD/NAMD-EPC/src:$PATH'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PT-simulation
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PT-simulation
+#SBATCH --output=PT-simulation.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 module purge
 module load gromacs/openmpi/intel/2018.3

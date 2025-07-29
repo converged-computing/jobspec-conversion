@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=norbench
-#FLUX: -c=8
-#FLUX: --queue=standard-g
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=norbench
+#SBATCH --account=project_465000144
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=7G
+#SBATCH --time=10:00:00
+#SBATCH --partition=standard-g
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='hsn'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

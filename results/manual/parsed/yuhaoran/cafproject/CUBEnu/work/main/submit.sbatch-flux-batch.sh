@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_main2
-#FLUX: -N=8
-#FLUX: -c=80
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=test_main2
+#FLUX -N=8
+#FLUX -c=80
+#FLUX -t=1500
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='80'
 export FOR_COARRAY_NUM_IMAGES='8'

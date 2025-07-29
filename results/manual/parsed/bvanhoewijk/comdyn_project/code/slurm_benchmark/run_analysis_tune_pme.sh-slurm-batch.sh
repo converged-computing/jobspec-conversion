@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-arm-2395
-#FLUX: -c=48
-#FLUX: --exclusive
-#FLUX: --queue=rome
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --time=00:10:00
+#SBATCH --partition=rome
+#SBATCH: --exclusive
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

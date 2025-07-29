@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval-clevr-50
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=eval-clevr-50
+#SBATCH --output=eval-clevr-50.out
+#SBATCH --error=eval-clevr-50.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:A6000:1
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc
 conda activate idefics

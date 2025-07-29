@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-7063
-#FLUX: --queue=amdfast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=logs/argo2_%a.out
+#SBATCH --error=logs/argo2_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=04:00:00
+#SBATCH --partition=amdfast
+#SBATCH --constraint=ntasks-per-node=1
 
 ml torchsparse
 cd $HOME

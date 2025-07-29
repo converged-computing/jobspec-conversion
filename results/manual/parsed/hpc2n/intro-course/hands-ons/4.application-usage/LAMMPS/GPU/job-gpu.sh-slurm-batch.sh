@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-2113
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=Project_ID
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:x
+#SBATCH --time=00:10:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread '

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ext_cls_GPT-Neo-1_3b
-#FLUX: -c=24
-#FLUX: --queue=gpu_p4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=ext_cls_GPT-Neo-1_3b
+#FLUX -c=24
+#FLUX --queue=gpu_p4
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export PATH='$WORK/.local/bin:$PATH'
 

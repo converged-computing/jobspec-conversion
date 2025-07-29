@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=earthquake-2
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=earthquake-2
+#FLUX --queue=bii-gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 hostname
 echo "SLURM_CPUS_ON_NODE: $SLURM_CPUS_ON_NODE"

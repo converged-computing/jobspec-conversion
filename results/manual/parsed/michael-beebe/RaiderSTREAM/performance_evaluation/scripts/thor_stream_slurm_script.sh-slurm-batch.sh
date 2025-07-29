@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_MULTI_TESTING
-#FLUX: -N=2
-#FLUX: --queue=thor
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_MULTI_TESTING
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=thor
+#SBATCH --constraint=ntasks-per-node=32
 
 export STREAM_ARRAY_SIZE='22000000'
 export OMP_NUM_THREADS='1   # 16 cores per socket'

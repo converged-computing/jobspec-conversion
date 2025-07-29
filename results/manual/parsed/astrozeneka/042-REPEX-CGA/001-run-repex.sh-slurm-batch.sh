@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=101-merge
-#FLUX: -c=32
-#FLUX: --queue=memory
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=101-merge
+#SBATCH --account=proj5057
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=memory
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <genome_fasta>"

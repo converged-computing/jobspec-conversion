@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=diffusion-policy-can_ph-crossway_vit-t_backbone
-#FLUX: -c=16
-#FLUX: --queue=GPU
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=diffusion-policy-can_ph-crossway_vit-t_backbone
+#SBATCH --output=./slurm_jobs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=64GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=GPU
 
 module load anaconda3
 module load cuda

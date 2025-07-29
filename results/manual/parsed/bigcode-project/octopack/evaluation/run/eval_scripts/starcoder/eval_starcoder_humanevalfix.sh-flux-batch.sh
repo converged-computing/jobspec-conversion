@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-5746
-#FLUX: -c=8
+#FLUX --job-name=faux-lemur-7630
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=small-g
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=small-g
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate
 cd /pfs/lustrep2/scratch/project_462000185/muennighoff/bigcode-evaluation-harness

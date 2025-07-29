@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-squidward-2361
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cornelisnetworks/opa-ff/Lsf/lsf.submit.mvapich2.job

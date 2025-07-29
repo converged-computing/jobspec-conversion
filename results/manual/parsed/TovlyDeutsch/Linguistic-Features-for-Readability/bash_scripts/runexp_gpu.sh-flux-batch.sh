@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-staircase-1812
-#FLUX: -n=8
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-dog-0395
+#FLUX -n=8
+#FLUX --queue=gpu_requeue
+#FLUX -t=480
+#FLUX --urgency=16
 
 echo ${RUN_CONFIG}
 module load Anaconda3/5.0.1-fasrc02

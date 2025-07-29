@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peas-1280
-#FLUX: -n=200
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=tart-pedo-6651
+#FLUX -n=200
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load StdEnv/2020
 module load julia/1.8.5

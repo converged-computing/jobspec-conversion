@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Singularity_Jupyter
-#FLUX: -c=2
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Singularity_Jupyter
+#FLUX -c=2
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'
 export JUPYTER_PATH='$HOME/jupyter_sing/$SLURM_JOBID/jupyter_path'

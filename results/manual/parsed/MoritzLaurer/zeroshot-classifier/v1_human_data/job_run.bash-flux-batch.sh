@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=zs
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=zs
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load 2021
 module load Python/3.9.5-GCCcore-10.3.0

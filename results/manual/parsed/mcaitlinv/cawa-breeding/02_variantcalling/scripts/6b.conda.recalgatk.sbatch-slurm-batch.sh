@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=6b.bqsrgatk
-#FLUX: --queue=shas
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=6b.bqsrgatk
+#SBATCH --output=results/slurm_logs/variants2/6b.bqsrgatk.%j.out
+#SBATCH --error=results/slurm_logs/variants2/6b.bqsrgatk.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=36G
+#SBATCH --time=12:00:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --array=1-535
 
 set -x
 module purge

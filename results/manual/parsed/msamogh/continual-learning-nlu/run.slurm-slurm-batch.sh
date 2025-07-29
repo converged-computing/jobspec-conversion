@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cinnamonbun-4450
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=boyer
+#SBATCH --output=out_cl
+#SBATCH --error=err_cl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=a100:7
+#SBATCH --mem=60gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=boyer
 
 module load git
 module load python/3.8

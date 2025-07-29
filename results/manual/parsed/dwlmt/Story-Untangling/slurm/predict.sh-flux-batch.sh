@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parrot-0535
-#FLUX: -c=4
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-ricecake-6871
+#FLUX -c=4
+#FLUX --urgency=16
 
 export STUDENT_ID='${USER}'
 export NLTK_DATA='${CLUSTER_HOME}/nltk_data/'

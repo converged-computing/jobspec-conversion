@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=aspp
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=aspp
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=432000
+#FLUX --urgency=16
 
 nvidia-smi
 python -u  train.py --batch_size 10 --epoch 50 --save_path /export/team-mic/zhong/test/aspp_res2d_rev_noise_half_gd \

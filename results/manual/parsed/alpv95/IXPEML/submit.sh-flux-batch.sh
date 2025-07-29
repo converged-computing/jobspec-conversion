@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GPUtest
-#FLUX: --queue=owners
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=GPUtest
+#FLUX --queue=owners
+#FLUX -t=7200
+#FLUX --urgency=16
 
 ml gsl
 ml python/3.9

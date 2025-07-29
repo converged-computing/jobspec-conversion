@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-nunchucks-2259
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=astute-salad-6406
+#FLUX -t=10800
+#FLUX --urgency=16
 
 pwd; hostname; date
 env | sort

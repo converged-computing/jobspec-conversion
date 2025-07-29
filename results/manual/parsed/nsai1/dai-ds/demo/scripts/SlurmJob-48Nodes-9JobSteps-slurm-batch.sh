@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-omelette-4272
-#FLUX: -N=48
-#FLUX: --urgency=16
+#SBATCH --nodes=48
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

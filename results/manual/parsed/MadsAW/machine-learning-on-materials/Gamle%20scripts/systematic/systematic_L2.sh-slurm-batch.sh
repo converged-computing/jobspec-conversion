@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cattywampus-1279
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/Gamle%20scripts/systematic/systematic_L2.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=WMT
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=WMT
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

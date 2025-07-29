@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=python-cpu
-#FLUX: --queue=normal
-#FLUX: -t=87055
-#FLUX: --urgency=16
+#FLUX --job-name=python-cpu
+#FLUX --queue=normal
+#FLUX -t=87055
+#FLUX --urgency=16
 
 source vnv/geo_vnv/bin/activate
 pip install spacy

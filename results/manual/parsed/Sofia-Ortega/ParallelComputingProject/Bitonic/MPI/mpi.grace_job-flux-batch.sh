@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=JobName
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=JobName
+#FLUX -t=1800
+#FLUX --urgency=16
 
 processes=$1
 size=$2

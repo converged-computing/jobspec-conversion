@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=<job
-#FLUX: -c=11
-#FLUX: --queue=multi
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=<job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=11
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=multi
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

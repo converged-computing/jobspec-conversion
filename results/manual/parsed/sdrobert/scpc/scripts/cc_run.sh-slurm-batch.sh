@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-eagle-4114
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=exp/slurm_logs/slurm-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-40%1
 
 export NCCL_DEBUG='INFO'
 

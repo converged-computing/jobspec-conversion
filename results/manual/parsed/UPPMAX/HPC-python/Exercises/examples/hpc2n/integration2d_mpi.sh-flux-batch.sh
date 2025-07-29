@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-buttface-0276
-#FLUX: -n=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-squidward-4741
+#FLUX -n=4
+#FLUX -t=300
+#FLUX --urgency=16
 
 MYPATH=/proj/nobackup/python-hpc/<mydir-name>/HPC-python/Exercises/examples/programs/
 ml purge > /dev/null 2>&1

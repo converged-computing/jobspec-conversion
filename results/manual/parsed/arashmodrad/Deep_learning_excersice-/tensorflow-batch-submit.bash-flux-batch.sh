@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=PYTHON
-#FLUX: -c=28
-#FLUX: --queue=gpuq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=PYTHON
+#FLUX -c=28
+#FLUX --queue=gpuq
+#FLUX -t=86400
+#FLUX --urgency=16
 
 ulimit -v unlimited
 ulimit -s unlimited

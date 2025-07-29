@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=first_train
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=first_train
+#SBATCH --output=slurm_logs/first_train.out
+#SBATCH --error=slurm_logs/first_train.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu
 
 module load caffe
 IM2TXT_DIR=/public/jthurst3/MemeCaptcha

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=T5-trainer
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --gpus-per-task=8
-#FLUX: --urgency=16
+#SBATCH --job-name=T5-trainer
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=8
 
 export LOGLEVEL='INFO'
 export FI_PROVIDER='efa'

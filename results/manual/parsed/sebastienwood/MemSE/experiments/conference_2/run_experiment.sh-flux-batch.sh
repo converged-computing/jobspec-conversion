@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cupcake-3365
-#FLUX: -c=32
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-cattywampus-2234
+#FLUX -c=32
+#FLUX -t=86460
+#FLUX --urgency=16
 
 module load StdEnv/2020 python/3.10 cuda cudnn gcc/9.3.0 arrow
 echo "User $USER on shell $0"

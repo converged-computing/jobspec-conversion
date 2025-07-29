@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-fork-1092
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=./dgx_log/slurm-%j.out-%N
+#SBATCH --error=./dgx_log/slurm-%j.err-%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=60G
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
 
 . ./miniconda3/etc/profile.d/conda.sh
 conda activate

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-ricecake-4672
-#FLUX: -c=8
-#FLUX: --queue=m3g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=dl65
+#SBATCH --mail-user=zizhengpan98@gmail.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=16GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=m3g
 
 export PROJECT='dl65'
 export CONDA_ENVS_PATH='/projects/$PROJECT/$USER/conda_envs'

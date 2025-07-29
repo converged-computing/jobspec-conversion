@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-house-9864
-#FLUX: -N=2
-#FLUX: -c=3
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-hippo-8522
+#FLUX -N=2
+#FLUX -c=3
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export EXP_DIR='/storage/user/koestlel/dr_experiments/slurm/$SLURM_JOB_ID'
 export NCCL_DEBUG='INFO'

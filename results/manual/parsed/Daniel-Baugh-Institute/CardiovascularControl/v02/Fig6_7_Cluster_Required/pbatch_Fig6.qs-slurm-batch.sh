@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=RSA_GPR_robust
-#FLUX: -n=64
-#FLUX: --queue=idle
-#FLUX: -t=5100
-#FLUX: --urgency=16
+#SBATCH --job-name=RSA_GPR_robust
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=12G
+#SBATCH --time=01:25:00
+#SBATCH --partition=idle
 
 vpkg_require matlab/default
 . /opt/shared/slurm/templates/libexec/openmp.sh

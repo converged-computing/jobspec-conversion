@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-spoon-6913
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --account=PAS0854
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
 
 name=`echo $1`
 user=`echo $2`

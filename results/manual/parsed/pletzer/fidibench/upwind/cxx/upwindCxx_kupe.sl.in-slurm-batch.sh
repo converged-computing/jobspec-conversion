@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=upwindCxx
-#FLUX: --queue=NeSI
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=upwindCxx
+#SBATCH --account=nesi99999
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=NeSI
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='cores'

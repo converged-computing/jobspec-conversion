@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-soup-7791
-#FLUX: --urgency=16
+#FLUX --job-name=salted-platanos-1515
+#FLUX --urgency=16
 
 if [ -d "job_scripts" ]; then
     script_dir="job_scripts"

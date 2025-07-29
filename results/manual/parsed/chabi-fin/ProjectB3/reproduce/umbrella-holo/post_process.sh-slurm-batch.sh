@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cat_drive
-#FLUX: --queue=normal
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=cat_drive
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=normal
 
 module add bio/GROMACS/2021.5-foss-2021b-CUDA-11.4.1-PLUMED-2.8.0
 MDP="/scratch/hpc-prf-cpdallo/2d_holo/MDP"

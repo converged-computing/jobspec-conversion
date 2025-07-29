@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kripke
+#FLUX --job-name=kripke
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=120
+#FLUX --urgency=16
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'
 export SCOREP_METRIC_PAPI='PAPI_TOT_INS,PAPI_L3_TCM'

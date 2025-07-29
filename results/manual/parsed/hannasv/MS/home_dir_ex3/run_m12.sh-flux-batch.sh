@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-kitty-3726
-#FLUX: -n=4
-#FLUX: --queue=dgx2q
-#FLUX: -t=87840
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-punk-1776
+#FLUX -n=4
+#FLUX --queue=dgx2q
+#FLUX -t=87840
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 

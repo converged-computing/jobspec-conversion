@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=quick-models
-#FLUX: --queue=general
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=quick-models
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1g
+#SBATCH --time=00:10:00
+#SBATCH --partition=general
+#SBATCH --array=1-5000
 
 set -o errexit
 module load gcc/9.3.0

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-egg-8413
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NYU-CS6313-Projects/sp2015-group12/caffe/results_experiments/15/s5.q

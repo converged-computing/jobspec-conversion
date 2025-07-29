@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-egg-9687
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --account=def-gonzalez
+#SBATCH --mail-user=valentin.lucet@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=02:30:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export R_CROP='FALSE'
 export R_AGGR='TRUE'

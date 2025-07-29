@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-buttface-4315
-#FLUX: -c=128
-#FLUX: --queue=test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-chair-4115
+#FLUX -c=128
+#FLUX --queue=test
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='128'
 export MKL_NUM_THREADS='128'

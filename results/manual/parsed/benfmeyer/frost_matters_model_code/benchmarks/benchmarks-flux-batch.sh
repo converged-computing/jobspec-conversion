@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bm_${test_name}_pp
-#FLUX: --urgency=16
+#FLUX --job-name=bm_${test_name}_pp
+#FLUX --urgency=16
 
 cmake_command="cmake -D CMAKE_BUILD_TYPE=Release"
 make_command="make -j2"

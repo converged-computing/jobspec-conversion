@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-animal-0803
-#FLUX: --queue=alvis
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=NAISS2024-5-188
+#SBATCH --output=/cephyr/users/attilas/Alvis/out/%J_output.out
+#SBATCH --error=/cephyr/users/attilas/Alvis/out/%J_error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=alvis
 
 export var1='$1'
 export var2='$2'

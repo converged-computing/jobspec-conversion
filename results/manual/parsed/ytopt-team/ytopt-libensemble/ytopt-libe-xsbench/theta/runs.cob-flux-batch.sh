@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-taco-0585
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-signal-3090
+#FLUX --urgency=16
 

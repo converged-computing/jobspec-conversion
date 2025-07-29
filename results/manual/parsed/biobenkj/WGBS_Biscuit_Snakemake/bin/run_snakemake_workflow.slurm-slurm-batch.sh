@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SNAKEMASTER
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=SNAKEMASTER
+#SBATCH --output=logs/workflows/workflow_output-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=4-00:00:00
 
 cd ${SLURM_SUBMIT_DIR}
 mkdir -p logs/workflows

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=trn_SNR
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#FLUX --job-name=trn_SNR
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=4800
+#FLUX --urgency=16
 
 export IFN_DIR_DATASET='/beegfs/data/shared'
 export IFN_DIR_CHECKPOINT='${PWD}/../../experiments/'

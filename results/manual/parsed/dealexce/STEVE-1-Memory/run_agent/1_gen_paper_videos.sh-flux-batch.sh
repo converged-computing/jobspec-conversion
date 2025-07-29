@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lentil-0393
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-kerfuffle-7437
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source /home/h86chen/scratch/STEVE-1/.venv/bin/activate
 cd /home/h86chen/scratch/STEVE-1-Memory

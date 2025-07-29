@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemon-8315
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-bits-6955
+#FLUX -c=4
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export src_dir='$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )'
 export PYTHONPATH='${src_dir%/*/*}/src'

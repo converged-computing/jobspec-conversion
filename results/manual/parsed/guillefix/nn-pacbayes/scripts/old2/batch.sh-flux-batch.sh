@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=msweep
-#FLUX: --queue=big
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=msweep
+#FLUX --queue=big
+#FLUX -t=86400
+#FLUX --urgency=16
 
 dataset=$1
 network=$2

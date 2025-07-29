@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=4genome_hermes
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=4genome_hermes
+#SBATCH --account=oddite
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --exclude=node[01-25]
 
 export GLOG_minloglevel='1 # 0:log everything, 2: minimal logging'
 export FLAGS_logtostderr='1'

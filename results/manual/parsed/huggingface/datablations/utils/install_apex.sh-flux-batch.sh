@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-chair-2593
-#FLUX: -c=20
-#FLUX: --queue=eap
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=fat-bits-8157
+#FLUX -c=20
+#FLUX --queue=eap
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module --quiet purge
 module load cray-python

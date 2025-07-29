@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LLM_CMP_${TIME_SUFFIX}
-#FLUX: --queue=bme_gpu4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=LLM_CMP_${TIME_SUFFIX}
+#FLUX --queue=bme_gpu4
+#FLUX -t=432000
+#FLUX --urgency=16
 
 nvidia-smi
 set -x

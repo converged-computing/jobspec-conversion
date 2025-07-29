@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-underoos-4362
-#FLUX: -N=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 echo Using nodes: $SLURM_NODELIST
 source $WRKDIR/miniconda3/etc/profile.d/conda.sh

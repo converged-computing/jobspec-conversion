@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bikenwgrowth
-#FLUX: --queue=red
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#FLUX --job-name=bikenwgrowth
+#FLUX --queue=red
+#FLUX -t=259140
+#FLUX --urgency=16
 
 module load Anaconda3
 . $(conda info --base)/etc/profile.d/conda.sh

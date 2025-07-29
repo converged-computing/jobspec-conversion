@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mcquic_pretraining
-#FLUX: -c=48
-#FLUX: --queue=A800
-#FLUX: --urgency=16
+#FLUX --job-name=mcquic_pretraining
+#FLUX -c=48
+#FLUX --queue=A800
+#FLUX --urgency=16
 
 export HF_ENDPOINT='https://hf-mirror.com'
 export PYTHONPATH='/ssdfs/datahome/tj24011/workspace/McQuic'

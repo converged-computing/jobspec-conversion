@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-destiny-0872
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-parrot-8189
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

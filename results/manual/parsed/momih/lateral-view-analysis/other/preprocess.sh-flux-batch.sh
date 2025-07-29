@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-milkshake-8889
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-nalgas-3022
+#FLUX -t=3600
+#FLUX --urgency=16
 
 DATADIR=/lustre04/scratch/cohenjos/PC/images-224/
 LABELSDIR=$HOME/projects/rpp-bengioy/jpcohen/PADCHEST_SJ/labels_csv/

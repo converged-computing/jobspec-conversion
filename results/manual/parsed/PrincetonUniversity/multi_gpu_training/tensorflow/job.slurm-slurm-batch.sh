@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tf2-multi
-#FLUX: -c=16
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=tf2-multi
+#SBATCH --mail-user=<YourNetID>@princeton.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64G
+#SBATCH --time=00:05:00
 
 module purge
 module load anaconda3/2021.11

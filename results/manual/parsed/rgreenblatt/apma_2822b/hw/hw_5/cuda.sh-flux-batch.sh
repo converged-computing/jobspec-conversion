@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cupcake-5417
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-omelette-1570
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load cuda/10.0.130
 nvidia-smi

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-9696
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/FloodFillNetwork-Notes/sample_bash_script/Cluster_resegment_gen_p11_6_exp1-33-38-consens_array.sh

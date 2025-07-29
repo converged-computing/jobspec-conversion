@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=repeat_libraries
-#FLUX: -c=24
-#FLUX: --queue=bigmem
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=repeat_libraries
+#SBATCH --output=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/3_Dfam_TETools_3d_run/%j.out
+#SBATCH --error=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/3_Dfam_TETools_3d_run/%j.err
+#SBATCH --mail-user=yvan.papa@vuw.ac.nz
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=144G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=bigmem
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/3_Dfam_TETools_3d_run/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

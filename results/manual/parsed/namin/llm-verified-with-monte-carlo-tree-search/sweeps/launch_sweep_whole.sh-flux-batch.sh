@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vmcts
-#FLUX: -c=16
-#FLUX: --queue=kempner
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=vmcts
+#FLUX -c=16
+#FLUX --queue=kempner
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export model_arg_temps='(0.2 0.4 0.6 0.8 1.0)'

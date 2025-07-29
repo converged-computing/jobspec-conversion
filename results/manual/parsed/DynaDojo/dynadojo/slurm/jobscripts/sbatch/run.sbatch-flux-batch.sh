@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dynadojo_run
-#FLUX: -t=150
-#FLUX: --urgency=16
+#FLUX --job-name=dynadojo_run
+#FLUX -t=150
+#FLUX --urgency=16
 
 PARAMS_FILE=$1
 JOBS=$2 #default to None if not provided

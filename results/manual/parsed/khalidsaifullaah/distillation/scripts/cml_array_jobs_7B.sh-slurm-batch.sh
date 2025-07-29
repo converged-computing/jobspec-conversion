@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=llm
-#FLUX: -c=16
-#FLUX: --queue=scavenger
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=llm
+#SBATCH --account=scavenger
+#SBATCH --output=logs/opt_llama_%A_%a.log
+#SBATCH --error=logs/opt_llama_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:rtxa5000:4
+#SBATCH --mem=100gb
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=scavenger
+#SBATCH --qos=normal
+#SBATCH --array=0-9
+#SBATCH --exclude=legacygpu00,legacygpu01,legacygpu02,legacygpu03,legacygpu04,legacygpu05,legacygpu06,legacygpu07
 
 source /cmlscratch/pchiang/miniconda3/etc/profile.d/conda.sh
 conda activate hug

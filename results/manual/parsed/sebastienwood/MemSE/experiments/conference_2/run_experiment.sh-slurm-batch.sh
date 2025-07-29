@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poodle-3024
-#FLUX: -c=32
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#SBATCH --account=rrg-franlp
+#SBATCH --output=outputs/%x-%A-%a.out
+#SBATCH --mail-user=sebastien.henwood@polymtl.ca
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=160G
+#SBATCH --time=1-00:01:00
 
 module load StdEnv/2020 python/3.10 cuda cudnn gcc/9.3.0 arrow
 echo "User $USER on shell $0"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-plant-0307
-#FLUX: --queue=shared-gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-lentil-4698
+#FLUX --queue=shared-gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 echo $SLURM_JOBID
 module load Anaconda3

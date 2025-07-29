@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=norbench
-#FLUX: -c=8
-#FLUX: --queue=accel
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=norbench
+#FLUX -c=8
+#FLUX --queue=accel
+#FLUX -t=82800
+#FLUX --urgency=16
 
 module purge
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=can
-#FLUX: -c=16
-#FLUX: --queue=learnai4rl
-#FLUX: --urgency=16
+#FLUX --job-name=can
+#FLUX -c=16
+#FLUX --queue=learnai4rl
+#FLUX --urgency=16
 
 export ALGO_NAME='dt'
 export DATASET_NAME='can'

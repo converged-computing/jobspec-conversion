@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-hpc:deepcam
-#FLUX: -N=18
-#FLUX: -n=36
-#FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlperf-hpc:deepcam
+#SBATCH --nodes=18
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=12:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=2
 
 export UCX_POSIX_USE_PROC_LINK='n'
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-soup-8130
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mjvakili/gambly/run/run-group.pbs

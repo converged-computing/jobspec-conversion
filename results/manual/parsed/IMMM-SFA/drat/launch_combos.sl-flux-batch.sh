@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=drat_combos
-#FLUX: -c=8
-#FLUX: --queue=shared
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=drat_combos
+#FLUX -c=8
+#FLUX --queue=shared
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module purge
 module load gcc/11.2.0

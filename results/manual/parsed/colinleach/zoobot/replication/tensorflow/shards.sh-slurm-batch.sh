@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=shards
-#FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=shards
+#SBATCH --output=shards_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32gb
+#SBATCH --time=23:00:00
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 pwd; hostname; date
 CATALOG_DIR=/share/nas2/walml/galaxy_zoo/decals/long_term_model_archive/prepared_catalogs/decals_dr_galahad

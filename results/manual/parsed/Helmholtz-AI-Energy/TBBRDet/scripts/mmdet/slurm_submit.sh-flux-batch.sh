@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-egg-3176
+#FLUX --job-name=sticky-peas-0013
 #FLUX: --exclusive
-#FLUX: --queue=<add
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --queue=<add
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export NCCL_IB_TIMEOUT='30'
 export SHARP_COLL_LOG_LEVEL='3'

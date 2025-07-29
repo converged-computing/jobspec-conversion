@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_pcos_qc
-#FLUX: -c=19
-#FLUX: --queue=core
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=snakemake_pcos_qc
+#FLUX -c=19
+#FLUX --queue=core
+#FLUX -t=360
+#FLUX --urgency=16
 
 module purge
 ml conda

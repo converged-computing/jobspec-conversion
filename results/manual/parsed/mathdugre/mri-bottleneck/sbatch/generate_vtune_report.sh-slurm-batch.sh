@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=generate-vtune-summary
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=generate-vtune-summary
+#SBATCH --output=log-makespan/%x-%A-%a.out
+#SBATCH --error=log-makespan/%x-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1
 
 set -e
 set -u

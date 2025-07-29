@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=slbBurn
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=scavenger
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=slbBurn
+#SBATCH --account=chrest
+#SBATCH --mail-user=mtmcgurn@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=scavenger
+#SBATCH --qos=scavenger
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=56,IB
 
 export PETSC_DIR='/projects/academic/chrest/mtmcgurn/petsc  '
 export PETSC_ARCH='arch-ablate-opt'

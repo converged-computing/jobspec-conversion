@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=pegasus_vcfMerger
-#FLUX: -c=8
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=pegasus_vcfMerger
+#SBATCH --mail-user=jetstream@tgen.org
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=4-00:00:00
 
 beginTime=`date +%s`
 machine=`hostname`

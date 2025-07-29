@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lettuce-3403
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 NPROCS=16
 NPPERSOC=$(($NPROCS>>2))

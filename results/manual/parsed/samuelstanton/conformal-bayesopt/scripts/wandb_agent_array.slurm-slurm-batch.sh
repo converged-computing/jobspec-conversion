@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=conf-bo
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=conf-bo
+#SBATCH --output=/scratch/ss13641/code/remote/conformal-bayesopt/experiments/output/%x_%j.out
+#SBATCH --error=/scratch/ss13641/code/remote/conformal-bayesopt/experiments/error/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+#SBATCH --array=0-31
 
 export PATH='/ext3/miniconda3/envs/conf-bo-env/bin:${PATH}'
 

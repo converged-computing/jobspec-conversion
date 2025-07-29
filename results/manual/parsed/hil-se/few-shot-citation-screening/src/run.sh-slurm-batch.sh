@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=crawl_data
-#FLUX: --queue=tier3
-#FLUX: -t=367503
-#FLUX: --urgency=16
+#SBATCH --job-name=crawl_data
+#SBATCH --account=loop
+#SBATCH --output=log/%J.o
+#SBATCH --error=log/%J.e
+#SBATCH --mail-user=zxyvse@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=4-06:05:03
+#SBATCH --partition=tier3
 
 mkdir -p log
 spack load py-urllib3

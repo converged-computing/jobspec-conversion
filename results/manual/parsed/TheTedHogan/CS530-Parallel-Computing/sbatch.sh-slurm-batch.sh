@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hogan
-#FLUX: --queue=shortq
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=hogan
+#SBATCH --output=./out/output.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --partition=shortq
 
 export OMP_NUM_THREADS='1'
 

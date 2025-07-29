@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Diffitrack_private04
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=Diffitrack_private04
+#SBATCH --output=/work/ws-tmp/g051507-thesis/g051507-thesis-1679703002/Diff_matching/Results_withoutInf_1000_6000ABS/mot17_private/mot17_private04_03.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=128G
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
 
 module load GpuModules
 module load cuda10.2/toolkit/10.2.89

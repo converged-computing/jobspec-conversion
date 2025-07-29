@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=awdlstm
-#FLUX: -n=4
-#FLUX: --queue=a100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=awdlstm
+#FLUX -n=4
+#FLUX --queue=a100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=$(ncvd)
 module load python/anaconda-python-3.7

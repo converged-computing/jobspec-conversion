@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eprior
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=eprior
+#FLUX -c=8
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module load Miniconda3/22.11.1-1

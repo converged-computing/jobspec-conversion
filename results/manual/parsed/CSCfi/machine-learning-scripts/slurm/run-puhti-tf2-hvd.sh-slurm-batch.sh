@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-destiny-0352
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem-per-cpu=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load tensorflow
 module list

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-onion-4363
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-earthworm-7568
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleDetLinDiffCircHoles.pbs

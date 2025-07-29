@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=HPML_Project_efficientnet_b1_dataparallel
-#FLUX: -c=16
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=HPML_Project_efficientnet_b1_dataparallel
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:rtx8000:2
+#SBATCH --mem=128GB
+#SBATCH --time=18:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 cd /scratch/sd5023/HPML/Course_Project/

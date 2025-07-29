@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mu_4_4_generic
-#FLUX: -c=30
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=mu_4_4_generic
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=1
+#SBATCH --mem=400gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 source $HOME/.bashrc
 spack load miniconda3@4.10.3

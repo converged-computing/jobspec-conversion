@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lentil-2946
-#FLUX: --queue=stats.p
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=log/%x.%A.out
+#SBATCH --error=log/%x.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3G
+#SBATCH --time=04:00:00
+#SBATCH --partition=stats.p
+#SBATCH --array=1-64
 
 cd /home/abakis/git/covid_SEIHR_county
 if [ $SLURM_ARRAY_TASK_ID == 1 ]; then

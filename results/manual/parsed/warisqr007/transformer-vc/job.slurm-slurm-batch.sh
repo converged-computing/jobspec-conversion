@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dl-hw2
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=dl-hw2
+#SBATCH --output=PINNs_5_500.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx:1
+#SBATCH --mem=32G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=48
 
 module load GCC/10.2.0
 module load CUDA/11.1.1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-platanos-7503
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-animal-7771
+#FLUX --urgency=16
 
 umask 002
 snakemake --reason \

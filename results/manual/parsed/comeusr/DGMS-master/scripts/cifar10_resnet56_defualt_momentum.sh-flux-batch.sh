@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-taco-8960
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-ricecake-7958
+#FLUX --urgency=16
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ -d cifar10 --num-classes 10"
 GENERAL="--lr 2e-5 --batch-size 128 --epochs 350 --workers 4 --base-size 32 --crop-size 32 --nesterov"

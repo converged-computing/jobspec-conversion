@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-butter-8559
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-buttface-9358
+#FLUX --queue=short
+#FLUX --urgency=16
 
 CPU=1
 INDIR=annotate

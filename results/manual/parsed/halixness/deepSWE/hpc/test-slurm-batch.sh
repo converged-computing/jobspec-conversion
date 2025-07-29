@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SWE_benchmark
-#FLUX: --queue=gpu
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=SWE_benchmark
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=23:00:00
+#SBATCH --partition=gpu
 
 module load miniconda3
 source "$CONDA_PREFIX/etc/profile.d/conda.sh" 

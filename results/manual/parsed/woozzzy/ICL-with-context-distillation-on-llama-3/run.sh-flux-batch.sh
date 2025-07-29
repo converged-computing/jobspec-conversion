@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=job_llama-3-icl
-#FLUX: -c=4
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=job_llama-3-icl
+#FLUX -c=4
+#FLUX -t=9000
+#FLUX --urgency=16
 
 POSITIONAL_ARGS=()
 CONFIG="config/config.yaml"

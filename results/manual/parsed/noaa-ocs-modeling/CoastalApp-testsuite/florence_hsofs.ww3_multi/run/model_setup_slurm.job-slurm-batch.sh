@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=FLOFS_ww3_multi_SETUP
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=FLOFS_ww3_multi_SETUP
+#SBATCH --account=coastal
+#SBATCH --output=FLOFS_ww3_multi_SETUP.out.log
+#SBATCH --error=FLOFS_ww3_multi_SETUP.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

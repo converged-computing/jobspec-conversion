@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cinnamonbun-9711
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-truffle-3614
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/hundreth_synapses_poisson_correlation.pbs

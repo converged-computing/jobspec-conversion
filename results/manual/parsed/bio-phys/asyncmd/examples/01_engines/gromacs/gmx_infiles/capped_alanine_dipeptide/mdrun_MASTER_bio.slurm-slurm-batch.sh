@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-taco-5967
-#FLUX: -c=2
-#FLUX: --queue=s.bio
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=9500
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=s.bio
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=./
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPI_NUM_RANKS='$SLURM_NTASKS_PER_NODE'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=yolov7-training-testing-with-augmentation
-#FLUX: -c=28
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=yolov7-training-testing-with-augmentation
+#FLUX -c=28
+#FLUX --queue=GPUQ
+#FLUX -t=86400
+#FLUX --urgency=16
 
 AUGMENTATION_NUMBER=$1
 WORKDIR=${SLURM_SUBMIT_DIR}

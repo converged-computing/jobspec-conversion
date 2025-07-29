@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-9796
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-buttface-0626
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=540000
+#FLUX --urgency=16
 
 nvidia-smi
 module load miniconda3

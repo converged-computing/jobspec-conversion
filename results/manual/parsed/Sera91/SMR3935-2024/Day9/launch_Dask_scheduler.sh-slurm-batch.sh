@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dask-scheduler
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-scheduler
+#SBATCH --account=tra24_ictp_np
+#SBATCH --output=scheduler_run.txt
+#SBATCH --error=scheduler_run.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=00:40:00
+#SBATCH --partition=boost_usr_prod
+#SBATCH --constraint=ntasks-per-node=4
 
 source $HOME/Conda_init.txt
 module load profile/deeplrn

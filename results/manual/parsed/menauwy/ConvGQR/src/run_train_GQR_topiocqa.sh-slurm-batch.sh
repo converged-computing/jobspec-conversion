@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_topiocqa
-#FLUX: -c=20
-#FLUX: --queue=amd-gpu-long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_topiocqa
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:4g.40gb:1
+#SBATCH --mem=150G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=amd-gpu-long
 
 conda init bash
 source ~/.bashrc

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-motorcycle-4107
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:4
+#SBATCH --time=2-00:00:00
 
 export PATH='/home/xd1/miniconda3/bin:$PATH'
 

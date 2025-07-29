@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=1AKI_50
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=1AKI_50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load gromacs/openmpi/intel/2020.4

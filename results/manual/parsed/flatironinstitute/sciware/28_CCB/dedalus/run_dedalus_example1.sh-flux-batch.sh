@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_dedalus_examplerun1
-#FLUX: --queue=ccb
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=slurm_dedalus_examplerun1
+#FLUX --queue=ccb
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

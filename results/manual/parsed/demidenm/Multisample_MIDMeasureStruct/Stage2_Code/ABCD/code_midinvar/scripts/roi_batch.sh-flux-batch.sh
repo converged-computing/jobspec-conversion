@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=roi_est
-#FLUX: -c=6
-#FLUX: --queue=msismall,amdsmall
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=roi_est
+#FLUX -c=6
+#FLUX --queue=msismall,amdsmall
+#FLUX -t=10800
+#FLUX --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

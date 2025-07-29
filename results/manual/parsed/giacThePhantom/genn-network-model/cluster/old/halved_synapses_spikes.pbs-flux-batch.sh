@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-house-6818
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-arm-2049
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/halved_synapses_spikes.pbs

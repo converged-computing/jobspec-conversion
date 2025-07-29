@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=predseg
-#FLUX: -c=6
-#FLUX: --queue=gypsum-2080ti
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=predseg
+#FLUX -c=6
+#FLUX --queue=gypsum-2080ti
+#FLUX -t=3600
+#FLUX --urgency=16
 
 variations=(0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31)
 casenumidx=$((SLURM_ARRAY_TASK_ID))

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-2460
-#FLUX: -N=4
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=1-00:00:00
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export CHPL_VERSION='1.25.0'
 export CHPL_HOME='${PWD}/chapel-${CHPL_VERSION}'

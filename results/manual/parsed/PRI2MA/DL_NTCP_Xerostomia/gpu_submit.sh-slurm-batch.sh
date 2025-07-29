@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Xerostomia
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=Xerostomia
+#SBATCH --output=slurm-%j.log
+#SBATCH --mail-user=d.h.chu@rug.nl
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
 
 module purge
 module load fosscuda/2020b

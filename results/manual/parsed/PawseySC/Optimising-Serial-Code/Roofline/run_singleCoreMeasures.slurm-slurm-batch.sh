@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fullNodeMeasures
-#FLUX: -c=64
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=fullNodeMeasures
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=117Gb
+#SBATCH --time=00:10:00
 
 export OMP_PROC_BIND='SPREAD'
 export OMP_NUM_THREADS='1'

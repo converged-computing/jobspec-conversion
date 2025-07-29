@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-platanos-6044
-#FLUX: -c=6
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-blackbean-6067
+#FLUX -c=6
+#FLUX -t=120
+#FLUX --urgency=16
 
 model=f_1i_mal_z
 module load cuda cudnn python/3.6.3

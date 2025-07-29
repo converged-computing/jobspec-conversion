@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gen
-#FLUX: -c=5
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=gen
+#FLUX -c=5
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load Python/3.7.0-intel-2018b

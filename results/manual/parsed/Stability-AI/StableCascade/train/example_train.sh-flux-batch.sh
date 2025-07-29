@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=your_job_name
+#FLUX --job-name=your_job_name
 #FLUX: --exclusive
-#FLUX: --queue=A100
-#FLUX: --urgency=16
+#FLUX --queue=A100
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

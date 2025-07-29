@@ -1,8 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=ASCAD_VAR_ATTACK
-#FLUX: --queue=icis
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ASCAD_VAR_ATTACK
+#SBATCH --account=icis
+#SBATCH --output=/home/%u/log/slurm/%J.out
+#SBATCH --error=/home/%u/log/slurm/%J.err
+#SBATCH --mail-user=abasurto@cs.ru.nl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=icis
+#SBATCH --qos=icis-large
+#SBATCH --array=1-12
+#SBATCH --nodelist=cn114
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib'
 export PYTHONPATH='${HOME}/src/:$PYTHONPATH'

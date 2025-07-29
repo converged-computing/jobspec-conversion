@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llm-swarm
-#FLUX: -c=12
-#FLUX: --queue=hopper-prod
-#FLUX: --urgency=16
+#FLUX --job-name=llm-swarm
+#FLUX -c=12
+#FLUX --queue=hopper-prod
+#FLUX --urgency=16
 
 export model='{{model}}'
 export revision='{{revision}}'

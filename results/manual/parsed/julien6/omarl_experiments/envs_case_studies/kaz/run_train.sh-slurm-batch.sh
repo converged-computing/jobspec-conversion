@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-malarkey-9526
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/julien6/omarl_experiments/envs_case_studies/kaz/run_train.sh

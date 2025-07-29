@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=job_llama-3-icl
-#FLUX: -c=4
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=job_llama-3-icl
+#SBATCH --output=output/job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:H100:${NPROC_PER_NODE}
+#SBATCH --mem=16GB
+#SBATCH --time=02:30:00
+#SBATCH --constraint=ntasks-per-node=8
 
 POSITIONAL_ARGS=()
 CONFIG="config/config.yaml"

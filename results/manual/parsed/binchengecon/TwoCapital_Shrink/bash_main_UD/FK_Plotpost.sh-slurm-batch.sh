@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=graph_combine
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=graph_combine
+#SBATCH --account=pi-lhansen
+#SBATCH --output=./job-outs/${action_name}/Graph_PlotPost/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/PSI0_${PSI_0}_PSI1_${PSI_1}/graph_${HJBsolution_array[$k]}.out
+#SBATCH --error=./job-outs/${action_name}/Graph_PlotPost/scheme_${scheme_array[$k]}_HJB_${HJBsolution_array[$k]}/PSI0_${PSI_0}_PSI1_${PSI_1}/graph_${HJBsolution_array[$k]}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
 
 actiontime=1
 epsilonarraypost=(0.1) # Computation of fine grid and psi10.8, post

@@ -1,6 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Act_tanh_1
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#SBATCH --job-name=Act_tanh_1
+#SBATCH --output=/work/scratch/se55gyhe/log/output.out.%j
+#SBATCH --error=/work/scratch/se55gyhe/log/output.err.%j
+#SBATCH --mail-user=eger@ukp.informatik.tu-darmstadt.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=23:59:00
 
 python3 /home/se55gyhe/Act_func/progs/meta.py tanh 1 Adadelta 2 0.7018989100321512 268 0.9655957985534902 glorot_normal PE-infersent 

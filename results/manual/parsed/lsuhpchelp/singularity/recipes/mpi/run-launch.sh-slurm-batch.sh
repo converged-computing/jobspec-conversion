@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-chip-3547
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=checkpt
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=checkpt
 
 export NODES='$(unslurm.py)'
 export SECS='2'

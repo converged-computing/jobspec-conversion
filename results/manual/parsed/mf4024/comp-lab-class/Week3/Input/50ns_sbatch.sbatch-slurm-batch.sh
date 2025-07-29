@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=md_50ns
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=md_50ns
+#SBATCH --output=md_50ns.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=48
 
 module purge
 module load gromacs/openmpi/intel/2020.4

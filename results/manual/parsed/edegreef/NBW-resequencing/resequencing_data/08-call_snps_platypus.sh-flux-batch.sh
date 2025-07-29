@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=platypus
-#FLUX: -c=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=platypus
+#FLUX -c=24
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nixpkgs/16.09  gcc/7.3.0 platypus/0.8.1
 python /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/gcc7.3/platypus/0.8.1/bin/Platypus.py callVariants \

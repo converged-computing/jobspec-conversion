@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rfnext-tissuenet-n-2C
-#FLUX: --queue=tier3
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=rfnext-tissuenet-n-2C
+#SBATCH --account=sada-cnmi
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=200G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=tier3
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=finetuning
-#FLUX: -c=128
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=finetuning
+#SBATCH --output=logs/finetuning_%j.out
+#SBATCH --error=logs/finetuning_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:2
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=/gpfs/scratch/bsc88/bsc88080/crosslingual_vaccines/
 
 export HF_HOME='$CACHE_DIR/huggingface'
 

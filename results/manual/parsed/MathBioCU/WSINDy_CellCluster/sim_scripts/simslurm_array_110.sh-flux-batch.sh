@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multi_species_sim
-#FLUX: --queue=blanca-bortz
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=multi_species_sim
+#FLUX --queue=blanca-bortz
+#FLUX -t=21600
+#FLUX --urgency=16
 
 ml purge
 module load matlab/R2019b

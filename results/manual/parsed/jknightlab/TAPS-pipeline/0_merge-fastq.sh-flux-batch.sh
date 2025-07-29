@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fastq-merge
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=fastq-merge
+#FLUX --queue=short
+#FLUX --urgency=16
 
 input_dir=$PWD
 output_dir=$PWD

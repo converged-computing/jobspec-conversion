@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RS-03684232_methyl_extract
-#FLUX: --queue=general-compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=RS-03684232_methyl_extract
+#SBATCH --output=logs_bismark/%x.%j.out
+#SBATCH --error=logs_bismark/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=12:00:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=general-compute
+#SBATCH --constraint=ntasks-per-node=1
 
 module load gcc
 module load samtools

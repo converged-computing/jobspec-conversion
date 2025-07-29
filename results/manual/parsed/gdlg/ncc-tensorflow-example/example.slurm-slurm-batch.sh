@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=4
-#FLUX: --queue=res-gpu-small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=res-gpu-small
+#SBATCH --qos=short
 
 source /etc/profile
 source env/bin/activate

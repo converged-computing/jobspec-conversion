@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=V100-Multi-host
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=10
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=V100-Multi-host
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=10
+#FLUX -t=240
+#FLUX --urgency=16
 
 export MODULEPATH='$NVHPC/modulefiles:$MODULEPATH'
 

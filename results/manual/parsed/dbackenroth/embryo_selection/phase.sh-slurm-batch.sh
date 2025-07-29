@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lettuce-4891
-#FLUX: -c=2
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=5g
+#SBATCH --time=07:00:00
+#SBATCH --array=1-22
 
 gmapfile=/cs/icore/db2175/bin/Eagle_v2.4/tables/genetic_map_hg19_withX.txt.gz
 dir=/vol/sci/bio/data/shai.carmi/db2175/embryo_selection/crohns/

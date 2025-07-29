@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-underoos-9247
-#FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-nalgas-4039
+#FLUX -c=8
+#FLUX --urgency=16
 
 module purge
 module load numpy/python2.7/intel/1.14.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-avocado-3521
+#FLUX --job-name=expressive-soup-1769
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CHPL_VERSION='$(cat CHPL_VERSION)'
 export CHPL_HOME='$PWD/chapel-${CHPL_VERSION}MCG'

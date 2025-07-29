@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-general-0663
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=salted-underoos-0364
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda cuda

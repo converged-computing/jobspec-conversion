@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parrot-9604
-#FLUX: --urgency=16
+#FLUX --job-name=fat-poo-6711
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pf4d/issm/trunk/externalpackages/petsc/install-3.4-pleiades-intel2012.0.032-mpt.2.06rp16.sh

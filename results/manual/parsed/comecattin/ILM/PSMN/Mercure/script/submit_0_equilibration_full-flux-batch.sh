@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HSP90eq
-#FLUX: -c=96
-#FLUX: --queue=Cascade
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#FLUX --job-name=HSP90eq
+#FLUX -c=96
+#FLUX --queue=Cascade
+#FLUX -t=61200
+#FLUX --urgency=16
 
 code_dir=/home/ccattin/Stage/Code
 gmx_code_dir=$code_dir/GMX

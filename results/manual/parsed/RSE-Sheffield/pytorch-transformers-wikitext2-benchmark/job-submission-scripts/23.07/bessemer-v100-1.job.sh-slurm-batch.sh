@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-despacito-9448
-#FLUX: -c=10
-#FLUX: --queue=dcs-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=dcs-res
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=34G
+#SBATCH --time=02:00:00
+#SBATCH --partition=dcs-gpu
 
 APPTAINER_IMAGE_PATH=/fastdata/$USER/pytorch-transformers-wikitext2-benchmark/transformers-benchmark-23.07.sif 
 echo "HOSTNAME=${HOSTNAME}"

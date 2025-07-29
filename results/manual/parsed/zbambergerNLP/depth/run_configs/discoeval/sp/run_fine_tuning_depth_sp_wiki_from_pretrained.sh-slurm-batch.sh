@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=principled-pre-training
-#FLUX: -c=32
-#FLUX: --queue=nlp
-#FLUX: --urgency=16
+#SBATCH --job-name=principled-pre-training
+#SBATCH --account=nlp
+#SBATCH --output=fine_tuning_runs/slurm_%N_%j_out.txt
+#SBATCH --error=fine_tuning_runs/slurm_%N_%j_err.txt
+#SBATCH --mail-user=zachary@campus.technion.ac.il
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2
+#SBATCH --partition=nlp
+#SBATCH --nodelist=nlp-ada-2,nlp-a40-1
 
 export DS_SKIP_CUDA_CHECK='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

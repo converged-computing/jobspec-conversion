@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-punk-0396
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/haiping1010/New_compounds_iteration/pMD_template/run_files/gromac_meta.sh

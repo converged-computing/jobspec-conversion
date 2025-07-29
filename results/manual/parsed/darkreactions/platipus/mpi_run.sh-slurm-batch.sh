@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=al_svm
-#FLUX: -n=3
-#FLUX: --queue=normal
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=al_svm
+#SBATCH --output=al_svm.o%j
+#SBATCH --error=al_svm.e%j
+#SBATCH --mail-user=vshekar@haverford.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:30:00
+#SBATCH --partition=normal
 
 module load python3
 module list

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=roi
-#FLUX: -N=100
-#FLUX: --queue=early_science
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=roi
+#FLUX -N=100
+#FLUX --queue=early_science
+#FLUX -t=600
+#FLUX --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export TRIAL='ly99sim'

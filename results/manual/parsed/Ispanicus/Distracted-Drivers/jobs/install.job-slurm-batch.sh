@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=install_distracted_drivers
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=install_distracted_drivers
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu
+#SBATCH --time=02:00:00
 
 echo "Running on $(hostname):"
 module load Anaconda3/2021

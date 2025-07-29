@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=corona2_analysis
-#FLUX: -c=8
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=corona2_analysis
+#SBATCH --output=corona_%A_%a.out
+#SBATCH --error=corona_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=9000
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export JSA_MEM='8000m'
 

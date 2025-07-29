@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-destiny-5126
-#FLUX: -c=2
-#FLUX: --queue=defq
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --mail-user=email_address
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16G
+#SBATCH --time=08:00:00
+#SBATCH --partition=defq
 
 export SINGULARITY_CACHEDIR='$PWD'
 

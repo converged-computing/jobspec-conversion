@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-arm-0749
-#FLUX: --queue=cpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=confused-lettuce-4353
+#FLUX --queue=cpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 MAX_SEED=$1
 DATASET=$2

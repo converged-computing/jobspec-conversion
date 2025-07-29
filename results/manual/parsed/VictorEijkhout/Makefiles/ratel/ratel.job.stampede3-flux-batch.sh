@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=10
-#FLUX: -n=400
-#FLUX: --queue=systest-skx
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -N=10
+#FLUX -n=400
+#FLUX --queue=systest-skx
+#FLUX -t=7200
+#FLUX --urgency=16
 
 TAU=1
 INTEL=24

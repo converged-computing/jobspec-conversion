@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-ricecake-5260
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module load python-env/3.6.3-ml
 module list

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-plant-2254
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-lamp-6767
+#FLUX --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64'

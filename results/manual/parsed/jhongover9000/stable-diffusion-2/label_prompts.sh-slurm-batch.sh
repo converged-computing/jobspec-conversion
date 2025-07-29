@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-signal-8761
-#FLUX: -n=5
-#FLUX: -c=4
-#FLUX: --queue=nvidia
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem-per-cpu=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=nvidia
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

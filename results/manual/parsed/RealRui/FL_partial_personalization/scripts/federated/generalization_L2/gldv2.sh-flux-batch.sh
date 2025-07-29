@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -c=10
-#FLUX: --queue=learnfair
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -c=10
+#FLUX --queue=learnfair
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source ~/.bashrc  # load all modules
 source activate pyt19  # load environment

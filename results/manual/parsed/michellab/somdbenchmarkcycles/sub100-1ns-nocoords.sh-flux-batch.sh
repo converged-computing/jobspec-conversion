@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-nalgas-6952
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-peanut-8850
+#FLUX --queue=main
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

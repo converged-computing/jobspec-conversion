@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=C_select
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=C_select
+#SBATCH --output=/projects/HAQ_LAB/tzhang/pmf_no_gui/IMPROVE_CMD_noCsub_noExtreme/err_out_select/%x_%A_%a.out
+#SBATCH --error=/projects/HAQ_LAB/tzhang/pmf_no_gui/IMPROVE_CMD_noCsub_noExtreme/err_out_select/%x_%A_%a.err
+#SBATCH --mail-user=tzhang23@gmu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=amd
+#SBATCH --array=1-150
 
 export LANG='C.UTF-8'
 

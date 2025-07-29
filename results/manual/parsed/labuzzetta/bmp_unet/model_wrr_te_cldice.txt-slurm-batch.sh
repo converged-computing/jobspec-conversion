@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bmp_te
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=bmp_te
+#SBATCH --mail-user=clabuzze@iastate.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=12
 
 export SM_FRAMEWORK='tf.keras;'
 

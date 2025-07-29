@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=K_att
-#FLUX: -N=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=K_att
+#SBATCH --account=w18_TRUST
+#SBATCH --output=fwi2d_%J.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=interactive
+#SBATCH --constraint=ntasks-per-node=8
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts" '

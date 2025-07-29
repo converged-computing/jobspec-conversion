@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cherry-1333
-#FLUX: -N=32
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-citrus-0895
+#FLUX -N=32
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

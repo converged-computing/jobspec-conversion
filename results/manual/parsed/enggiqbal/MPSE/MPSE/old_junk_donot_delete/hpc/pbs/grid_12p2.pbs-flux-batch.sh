@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peanut-butter-1499
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-chip-9589
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/enggiqbal/MPSE/MPSE/old_junk_donot_delete/hpc/pbs/grid_12p2.pbs

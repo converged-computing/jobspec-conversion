@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=osmotic
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=osmotic
+#SBATCH --account=TG-MCB130178
+#SBATCH --output=slurm.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)
 version=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)

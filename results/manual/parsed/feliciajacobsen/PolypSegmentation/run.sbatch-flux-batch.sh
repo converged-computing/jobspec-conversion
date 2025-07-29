@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-1636
-#FLUX: -c=6
-#FLUX: --queue=dgx2q
-#FLUX: -t=86460
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-earthworm-7486
+#FLUX -c=6
+#FLUX --queue=dgx2q
+#FLUX -t=86460
+#FLUX --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output/g001

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parrot-6743
-#FLUX: --queue=work
-#FLUX: --urgency=16
+#SBATCH --mail-user=nm6061@rit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=work
+#SBATCH --qos=free
 
 subject=$1
 cpus=$2

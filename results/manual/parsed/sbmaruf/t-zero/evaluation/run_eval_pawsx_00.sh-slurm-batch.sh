@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lemon-3569
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#SBATCH --output=logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=PA100q
+#SBATCH --nodelist=node03
 
 export CUDA_VISIBLE_DEVICES='0'
 

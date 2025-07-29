@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=TFTest
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=TFTest
+#SBATCH --account=intertwin
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:15:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export TF_USE_LEGACY_KERAS='1'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

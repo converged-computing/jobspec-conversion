@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=orion_lateral
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=orion_lateral
+#FLUX -c=2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export ORION_DB_ADDRESS='/home/hrb/dev/lateral-view-analysis/orion.pkl'
 export ORION_DB_TYPE='pickleddb'

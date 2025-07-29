@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-truffle-9047
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-cherry-3579
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP9_Rolipram_Arka_Charmm/gromacs_npt.pbs

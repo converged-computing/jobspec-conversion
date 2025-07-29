@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-taco-1762
-#FLUX: --queue=shortq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=03:00:00
+#SBATCH --partition=shortq
 
 VCF_FILES=$( find "/mnt/beegfs/scratch/m_michel/DATA/" -type f -name "*.vcf.gz" )
 > rmInfo.log

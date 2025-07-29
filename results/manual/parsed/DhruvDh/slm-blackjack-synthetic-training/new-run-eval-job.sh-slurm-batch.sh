@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=eval_task
-#FLUX: -c=16
-#FLUX: --queue=GPU
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_task
+#SBATCH --output=eval_task_%A_%a.out
+#SBATCH --error=eval_task_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=GPU
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-134%7
 
 export TOKENIZERS_PARALLELISM='false'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=$2
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=$2
+#SBATCH --output=$2-%j.out
+#SBATCH --error=$2-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 echo $1
 echo $2

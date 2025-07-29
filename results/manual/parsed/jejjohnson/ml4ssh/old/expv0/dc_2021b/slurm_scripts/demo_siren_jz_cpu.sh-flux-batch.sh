@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dc21b
-#FLUX: -c=32
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dc21b
+#FLUX -c=32
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='$WORK/projects/ml4ssh:${PYTHONPATH}'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=${job_name}_${i}
-#FLUX: -c=16
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#SBATCH --job-name=${job_name}_${i}
+#SBATCH --output=/home/sbnb/ddalton/projects/siganturizer_models/scripts/logs/${job_name}.top.%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32GB
+#SBATCH --time=04:10:00
+#SBATCH --array=0-$((end_index
 
 export SINGULARITYENV_LD_LIBRARY_PATH='\$LD_LIBRARY_PATH'
 export SINGULARITY_BINDPATH='/home/sbnb'

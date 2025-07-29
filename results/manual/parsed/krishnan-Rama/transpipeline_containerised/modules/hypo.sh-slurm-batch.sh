@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Hypo
-#FLUX: -c=8
-#FLUX: --queue=epyc
-#FLUX: --urgency=16
+#SBATCH --job-name=Hypo
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=100GB
+#SBATCH --partition=epyc
+#SBATCH --constraint=ntasks-per-node=1
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

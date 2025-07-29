@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hope-0506
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/GustavAls/PartialNLP/hpc/SUB_NLI_swag_sublayer.bsub

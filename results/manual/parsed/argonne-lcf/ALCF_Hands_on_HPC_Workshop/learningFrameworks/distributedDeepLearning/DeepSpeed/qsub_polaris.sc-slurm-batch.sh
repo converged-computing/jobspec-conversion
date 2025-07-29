@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-knife-0364
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/ALCF_Hands_on_HPC_Workshop/learningFrameworks/distributedDeepLearning/DeepSpeed/qsub_polaris.sc

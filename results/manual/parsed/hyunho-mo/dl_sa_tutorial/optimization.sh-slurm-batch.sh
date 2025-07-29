@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tf_hello
-#FLUX: --queue=express
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_hello
+#SBATCH --output=hyer_opt_out_%j.log
+#SBATCH --error=hyer_opt_error_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=express
 
 module purge
 module load Python/3.7.4-GCCcore-8.3.0

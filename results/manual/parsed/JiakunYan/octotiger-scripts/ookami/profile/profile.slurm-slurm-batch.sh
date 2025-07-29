@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=profile
-#FLUX: -N=64
-#FLUX: --queue=large
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=profile
+#SBATCH --output=slurm_output.%x-o%j
+#SBATCH --error=slurm_error.%x-o%j
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=large
+#SBATCH --constraint=ntasks-per-node=1
 
 task="rs"
 pp="lci"

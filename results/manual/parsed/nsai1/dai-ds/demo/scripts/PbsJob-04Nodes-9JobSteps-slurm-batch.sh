@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-staircase-9117
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nsai1/dai-ds/demo/scripts/PbsJob-04Nodes-9JobSteps

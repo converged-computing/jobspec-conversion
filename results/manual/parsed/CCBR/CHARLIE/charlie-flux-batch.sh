@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=charlie
-#FLUX: -c=2
-#FLUX: --queue=ccr,norm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=charlie
+#FLUX -c=2
+#FLUX --queue=ccr,norm
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -eo pipefail
 module purge

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=amyloid
-#FLUX: -N=4
-#FLUX: -c=4
+#FLUX --job-name=amyloid
+#FLUX -N=4
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='4'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-chip-0983
-#FLUX: --queue=accelerated
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-squidward-1205
+#FLUX --queue=accelerated
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export TRAIN_SCRIPT='scripts/singularity_train.py'
 export TOMOUNT='${TOMOUNT}'

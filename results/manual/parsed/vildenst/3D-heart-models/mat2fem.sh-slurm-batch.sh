@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mat2fem
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mat2fem
+#SBATCH --account=nn9249k
+#SBATCH --output=out.txt
+#SBATCH --error=err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=1-00:00:00
 
 source /cluster/bin/jobsetup
 module purge

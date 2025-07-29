@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_CREATE_AIRS_CLEAR_DAY_RTP
-#FLUX: --queue=high_mem
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=RUN_CREATE_AIRS_CLEAR_DAY_RTP
+#SBATCH --account=pi_strow
+#SBATCH --output=/home/sbuczko1/logs/sbatch/run_create_airs_clear_day-%A_%a.out
+#SBATCH --error=/home/sbuczko1/logs/sbatch/run_create_airs_clear_day-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --time=01:59:00
+#SBATCH --partition=high_mem
+#SBATCH --qos=short+
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

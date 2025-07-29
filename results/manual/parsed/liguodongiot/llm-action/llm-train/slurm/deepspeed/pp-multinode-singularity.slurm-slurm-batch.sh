@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-deepspeed-singularity
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=a800
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode-deepspeed-singularity
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=20:00:00
+#SBATCH --partition=a800
 
 export NCCL_IB_DISABLE='1'
 export NCCL_SOCKET_IFNAME='bond0'

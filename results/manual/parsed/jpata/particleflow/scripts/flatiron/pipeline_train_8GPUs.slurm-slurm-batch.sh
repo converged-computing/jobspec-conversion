@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pipetrain
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pipetrain
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=8
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=h100,ib
 
 echo "#################### Job submission script. #############################"
 cat $0

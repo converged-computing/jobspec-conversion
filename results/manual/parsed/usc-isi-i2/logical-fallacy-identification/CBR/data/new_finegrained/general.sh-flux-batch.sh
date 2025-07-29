@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sentence_segmentation
-#FLUX: -c=8
-#FLUX: --queue=nodes
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=sentence_segmentation
+#FLUX -c=8
+#FLUX --queue=nodes
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo $(pwd)
 nvidia-smi

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poo-4740
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-motorcycle-4111
+#FLUX --queue=long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 pwd
 module load slurm

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-kitty-4447
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --account=def-mcrowley
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=8G
+#SBATCH --time=04:00:00
 
 source /home/h86chen/scratch/STEVE-1/.venv/bin/activate
 cd /home/h86chen/scratch/STEVE-1-Memory

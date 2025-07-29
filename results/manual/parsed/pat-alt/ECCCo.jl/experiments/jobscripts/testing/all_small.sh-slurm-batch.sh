@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Grid-search Linearly Separable (ECCCo)
-#FLUX: -n=5
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Grid-search Linearly Separable (ECCCo)
+#SBATCH --account=innovation
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=compute
 
 module load 2023r1 openmpi
 source experiments/slurm_header.sh

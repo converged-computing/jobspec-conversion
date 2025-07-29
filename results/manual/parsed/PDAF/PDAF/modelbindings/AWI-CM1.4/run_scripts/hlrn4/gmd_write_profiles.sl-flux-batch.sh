@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lentil-9581
-#FLUX: -N=3
-#FLUX: -n=288
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=red-cupcake-8777
+#FLUX -N=3
+#FLUX -n=288
+#FLUX --queue=standard96
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

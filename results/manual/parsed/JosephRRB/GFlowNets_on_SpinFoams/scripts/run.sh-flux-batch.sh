@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-5008
-#FLUX: -c=4
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-carrot-9690
+#FLUX -c=4
+#FLUX -t=480
+#FLUX --urgency=16
 
 module load python/3 gcc arrow cuda cudnn
 virtualenv --no-download tensorflow

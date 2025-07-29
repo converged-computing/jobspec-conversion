@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=docker-hpl
-#FLUX: -N=16
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=top500
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=docker-hpl
+#SBATCH --output=docker-hpl.%j
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --time=00:20:00
+#SBATCH --partition=top500
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export BASE_DIR='/workspace'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64/:$LD_LIBRARY_PATH'

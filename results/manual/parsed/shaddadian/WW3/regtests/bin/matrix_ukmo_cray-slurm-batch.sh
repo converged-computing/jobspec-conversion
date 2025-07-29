@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cupcake-4460
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/shaddadian/WW3/regtests/bin/matrix_ukmo_cray

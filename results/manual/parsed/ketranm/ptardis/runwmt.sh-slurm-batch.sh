@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buggy2k
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=buggy2k
+#SBATCH --output=log/wmt20k.log
+#SBATCH --error=log/err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-03:00:00
+#SBATCH --constraint=TitanX
 
 module load cuda80/toolkit/8.0.44
 module load cuDNN/cuda80/5_5.1.5-1

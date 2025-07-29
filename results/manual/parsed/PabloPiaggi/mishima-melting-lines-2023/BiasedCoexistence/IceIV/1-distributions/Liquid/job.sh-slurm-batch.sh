@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Liquid
-#FLUX: -n=2
-#FLUX: -c=32
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Liquid
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=500M
+#SBATCH --time=1-00:00:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

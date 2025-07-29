@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=chest-xray
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=chest-xray
+#SBATCH --output=./log/slurm_%j.out
+#SBATCH --error=./log/slurm_%j.err
+#SBATCH --mail-user=ma2510@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p40:1
+#SBATCH --mem=100GB
+#SBATCH --time=7-00:00:00
 
 module purge
 module load numpy/intel/1.13.1

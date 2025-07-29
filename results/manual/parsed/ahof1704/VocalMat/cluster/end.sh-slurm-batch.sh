@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-1806
-#FLUX: -c=20
-#FLUX: --queue=scavenge
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=kernel_alignment.out
+#SBATCH --error=kernel_alignment.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=6000
+#SBATCH --time=12:00:00
+#SBATCH --partition=scavenge
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

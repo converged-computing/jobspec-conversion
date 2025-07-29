@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-7086
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-snack-1963
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Linwei94/NAS-Calibration/exp_scripts/USYD-HPC-Scripts/retrain.sh

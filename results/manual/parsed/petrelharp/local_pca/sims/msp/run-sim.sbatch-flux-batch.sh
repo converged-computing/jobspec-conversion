@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-caramel-8542
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-train-5713
+#FLUX --queue=long
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc
 module load python3

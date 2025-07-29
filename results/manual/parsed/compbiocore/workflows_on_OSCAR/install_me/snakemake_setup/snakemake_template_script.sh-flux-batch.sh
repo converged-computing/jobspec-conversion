@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-mango-4439
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-avocado-9271
+#FLUX -t=18000
+#FLUX --urgency=16
 
 snakemake_start
 snakemake -s /path/to/snakefile -profile oscar

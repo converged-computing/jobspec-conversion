@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_sqoop
-#FLUX: --queue=normal
-#FLUX: -t=324000
-#FLUX: --urgency=16
+#SBATCH --job-name=train_sqoop
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=26GB
+#SBATCH --time=3-18:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=8GB
+#SBATCH --chdir=om2/user/vanessad/understanding_reasoning/experiment_4/slurm_output
+#SBATCH --array=0
+#SBATCH --exclude=node023,node026
 
 module add openmind/singularity/3.4.1
 hostname

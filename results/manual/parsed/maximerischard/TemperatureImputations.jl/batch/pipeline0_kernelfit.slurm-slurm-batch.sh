@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_kernelfit
-#FLUX: -n=2
-#FLUX: --queue=shared
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline_kernelfit
+#SBATCH --mail-user=mrischard@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=14000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=shared
+#SBATCH --array=6
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

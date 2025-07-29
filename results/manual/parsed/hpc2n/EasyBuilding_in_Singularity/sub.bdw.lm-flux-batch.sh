@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=18
-#FLUX: --queue=largemem
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=EB-install
+#FLUX -n=18
+#FLUX --queue=largemem
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SBATCH_CONSTRAINT='broadwell'
 export SBATCH_ACCOUNT='easybuild'

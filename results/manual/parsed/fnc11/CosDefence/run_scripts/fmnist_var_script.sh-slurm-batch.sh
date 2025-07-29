@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fmnist_fur_tests
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=fmnist_fur_tests
+#SBATCH --output=fmnist_fur_tests.%J.txt
+#SBATCH --mail-user=praveen.yadav@rwth-aachen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
+#SBATCH --mem=4G
+#SBATCH --time=08:00:00
 
 cd $HOME/repos/CosDefence/federated_learning
 module switch intel gcc

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_moco_rn50
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=pretrain_moco_rn50
+#SBATCH --output=srun_outputs/B13_train_SEN12MS_moco_rn50_%j.out
+#SBATCH --error=srun_outputs/B13_train_SEN12MS_moco_rn50_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

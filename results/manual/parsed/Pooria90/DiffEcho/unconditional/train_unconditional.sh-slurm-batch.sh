@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=<class_name>
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=<class_name>
+#SBATCH --account=<your
+#SBATCH --output=<class_name>_out.txt
+#SBATCH --error=<class_name>_err.txt
+#SBATCH --mail-user=<email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=20:00:00
 
 export HOME='<path to your new home>'
 

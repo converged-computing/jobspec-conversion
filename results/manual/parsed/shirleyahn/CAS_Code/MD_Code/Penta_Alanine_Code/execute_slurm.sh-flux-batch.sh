@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=A5
-#FLUX: --queue=owners
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=A5
+#FLUX --queue=owners
+#FLUX -t=172800
+#FLUX --urgency=16
 
 num_nodes=1  # TODO: set number of nodes requested
 num_cpu=16  # TODO: set number of cores per node

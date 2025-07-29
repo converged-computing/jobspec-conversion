@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ring_shift
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ring_shift
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=32,intel18
 
 module purge
 module load gcc/7.3.0-2.30 openmpi hdf5 python git

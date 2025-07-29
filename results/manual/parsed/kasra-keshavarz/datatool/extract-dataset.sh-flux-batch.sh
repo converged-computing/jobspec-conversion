@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DATA_${scriptName}
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=DATA_${scriptName}
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 function short_usage () {
   echo "Usage: $(basename $0) [-jh] [-i DIR] [-d DATASET] [-co DIR] [-se DATE] [-ln REAL,REAL] [-p STR]

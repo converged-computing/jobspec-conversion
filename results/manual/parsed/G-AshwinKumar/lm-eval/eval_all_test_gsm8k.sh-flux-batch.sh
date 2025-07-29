@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=eval
+#FLUX -c=32
+#FLUX -t=21600
+#FLUX --urgency=16
 
 MODEL_NAME="openchat_3.5"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ipra-leveldb
-#FLUX: -c=32
-#FLUX: --queue=short
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ipra-leveldb
+#FLUX -c=32
+#FLUX --queue=short
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 echo $SLURM_PROCID-$SLURM_JOBID

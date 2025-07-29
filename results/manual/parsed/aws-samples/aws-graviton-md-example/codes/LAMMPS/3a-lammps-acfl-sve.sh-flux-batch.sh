@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lj
-#FLUX: -N=4
-#FLUX: --queue=queue-1
-#FLUX: --urgency=16
+#FLUX --job-name=lj
+#FLUX -N=4
+#FLUX --queue=queue-1
+#FLUX --urgency=16
 
 export PATH='/shared/tools/openmpi-4.1.5-arml/bin:$PATH'
 export LD_LIBRARY_PATH='/shared/tools/openmpi-4.1.5-arml/lib:$LD_LIBRARY_PATH'

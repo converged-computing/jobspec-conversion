@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mb_DaPars2-%A-%a
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=mb_DaPars2-%A-%a
+#SBATCH --output=mb_DaPars2-%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16g
+#SBATCH --time=6-00:00:00
+#SBATCH --array=0-21
 
 module load gcc/8.2.0
 module load python/anaconda2.7-4.4.0_genomics

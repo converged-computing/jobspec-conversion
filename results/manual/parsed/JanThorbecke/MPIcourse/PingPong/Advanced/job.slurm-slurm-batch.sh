@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PingPing-Internode
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=PingPing-Internode
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:01:00
+#SBATCH --partition=compute
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 set -x
 echo $SLURM_JOB_NODELIST

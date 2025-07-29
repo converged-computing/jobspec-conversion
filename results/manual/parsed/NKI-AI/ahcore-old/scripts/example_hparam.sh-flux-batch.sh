@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-underoos-2848
-#FLUX: -c=2
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lemon-2576
+#FLUX -c=2
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

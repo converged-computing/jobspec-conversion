@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=10
-#FLUX: --queue=pe2
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -c=10
+#FLUX --queue=pe2
+#FLUX --urgency=16
 
 module load snakemake
 snakemake --snakefile Snakefile \

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sudoku-solver
-#FLUX: -c=24
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=sudoku-solver
+#FLUX -c=24
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load gcc/10.2.0
 begin=$(($SLURM_ARRAY_TASK_ID*10000000000  ))

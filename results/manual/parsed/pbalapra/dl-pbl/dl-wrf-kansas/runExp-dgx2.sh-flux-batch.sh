@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=purple-parsnip-6246
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-soup-9799
+#FLUX --urgency=16
 

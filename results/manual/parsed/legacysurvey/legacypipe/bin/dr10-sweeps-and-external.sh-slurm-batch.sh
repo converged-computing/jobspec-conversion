@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chair-3211
-#FLUX: --queue=regular
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
+#SBATCH --licenses=SCRATCH,project
 
 export LEGACYPIPE_DIR='$HOM/git/legacypipe/'
 export PYTHONPATH='/usr/local/lib/python:$LEGACYPIPE_DIR/py'

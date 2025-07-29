@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kitty-8132
-#FLUX: -c=48
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/loubna/logs/evaluation/leaderboard/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:4
+#SBATCH --partition=production-cluster
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

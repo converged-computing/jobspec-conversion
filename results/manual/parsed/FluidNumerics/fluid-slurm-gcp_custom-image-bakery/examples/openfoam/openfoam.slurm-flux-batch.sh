@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-animal-7107
-#FLUX: -n=8
-#FLUX: --queue=openfoam
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-pedo-1697
+#FLUX -n=8
+#FLUX --queue=openfoam
+#FLUX --urgency=16
 
 source /etc/profile.d/openmpi.sh
 source /etc/profile.d/openfoam.sh

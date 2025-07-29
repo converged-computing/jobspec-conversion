@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fvecVCF
-#FLUX: --queue=small,amdsmall
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=fvecVCF
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=62gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=small,amdsmall
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-26
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh
 conda activate diplo

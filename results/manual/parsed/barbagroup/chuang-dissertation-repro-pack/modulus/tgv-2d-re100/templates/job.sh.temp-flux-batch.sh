@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TGV100
-#FLUX: --queue={partition}
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=TGV100
+#FLUX --queue={partition}
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export ROOT='$(dirname ${{SCRIPTPATH}})'
 export IMAGE='${{HOME}}/images/modulus-22.03.sif'

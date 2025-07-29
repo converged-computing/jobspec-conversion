@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-avocado-2805
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:24:00
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

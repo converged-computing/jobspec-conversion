@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dlctest0
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dlctest0
+#SBATCH --output=dlcTest0.out
+#SBATCH --error=dlcTest0.err
+#SBATCH --mail-user=ess2129@columbia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 export PATH='/mnt/home/evanschaffer/anaconda3/bin:$PATH'
 export PYTHONPATH='/mnt/home/evanschaffer/anaconda3/envs/deeplabcut'

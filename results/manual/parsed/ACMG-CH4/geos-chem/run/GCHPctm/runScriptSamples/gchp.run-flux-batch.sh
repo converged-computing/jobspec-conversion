@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bike-6098
-#FLUX: -n=6
+#FLUX --job-name=frigid-buttface-0032
+#FLUX -n=6
 #FLUX: --exclusive
-#FLUX: --queue=huce_intel
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=huce_intel
+#FLUX -t=60
+#FLUX --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

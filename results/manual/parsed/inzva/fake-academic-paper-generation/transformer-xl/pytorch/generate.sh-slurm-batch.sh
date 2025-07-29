@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=generate_text
-#FLUX: -c=20
-#FLUX: --queue=short
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_text
+#SBATCH --account=umutlu
+#SBATCH --output=generate-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=short
 
 srun python inference.py

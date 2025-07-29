@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-4925
-#FLUX: -c=28
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --mail-user=darcy.a.jones@postgrad.curtin.edu.au
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=workq
 
 module load nextflow/18.10.1-bin
 nextflow run \

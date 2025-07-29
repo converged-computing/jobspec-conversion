@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-punk-1097
-#FLUX: --queue=seas_gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-avocado-1556
+#FLUX --queue=seas_gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export FLUX='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=my_job
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=my_job
+#FLUX --queue=debug
+#FLUX -t=600
+#FLUX --urgency=16
 
 ARCH=LINUX
 num_procs=8

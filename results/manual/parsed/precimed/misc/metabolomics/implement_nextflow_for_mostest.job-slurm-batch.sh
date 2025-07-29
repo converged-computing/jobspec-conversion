@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=mostest_nf
-#FLUX: -c=16
-#FLUX: -t=1052400
-#FLUX: --urgency=16
+#SBATCH --job-name=mostest_nf
+#SBATCH --account=p33
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=16GB
+#SBATCH --time=12-04:20:00
 
 export NXF_OFFLINE='TRUE'
 

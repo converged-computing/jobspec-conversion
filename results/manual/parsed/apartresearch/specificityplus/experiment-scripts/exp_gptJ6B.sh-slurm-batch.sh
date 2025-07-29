@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-buttface-3701
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --output=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --error=/home/%u/slurm_logs/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:a6000:1
+#SBATCH --mem=60000
+#SBATCH --time=12:00:00
 
 export MODEL='models--EleutherAI--gpt-j-6B'
 export MODEL_NAME='EleutherAI/gpt-j-6B'

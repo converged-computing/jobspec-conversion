@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tephra2
-#FLUX: --queue=serial_verylong
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#FLUX --job-name=tephra2
+#FLUX --queue=serial_verylong
+#FLUX -t=1209600
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load languages/intel/2018-u3

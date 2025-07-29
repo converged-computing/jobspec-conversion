@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-destiny-9204
-#FLUX: -c=12
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-poodle-8895
+#FLUX -c=12
+#FLUX -t=360
+#FLUX --urgency=16
 
 mkdir /scratch/magod/rouge_calc/
 source ~/venvs/default/bin/activate

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=knn_isd_3
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=knn_isd_3
+#SBATCH --account=pi_hpirsiav
+#SBATCH --output=logs/knn_isd_3.txt
+#SBATCH --error=logs/knn_isd_3.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 set -x
 set -e

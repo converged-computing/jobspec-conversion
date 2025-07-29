@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-diablo-7024
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-lemon-3073
+#FLUX --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

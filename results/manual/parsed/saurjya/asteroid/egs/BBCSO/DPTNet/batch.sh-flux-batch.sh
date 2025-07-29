@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-platanos-8725
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-lamp-5048
+#FLUX -t=288000
+#FLUX --urgency=16
 
 module purge
 module load baskerville

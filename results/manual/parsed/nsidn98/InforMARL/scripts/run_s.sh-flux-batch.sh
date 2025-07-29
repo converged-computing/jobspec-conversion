@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-caramel-9782
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-peas-1576
+#FLUX -c=10
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda/2021a

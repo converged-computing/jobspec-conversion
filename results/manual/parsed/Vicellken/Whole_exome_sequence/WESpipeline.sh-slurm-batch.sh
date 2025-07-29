@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-frito-7293
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Vicellken/Whole_exome_sequence/WESpipeline.sh

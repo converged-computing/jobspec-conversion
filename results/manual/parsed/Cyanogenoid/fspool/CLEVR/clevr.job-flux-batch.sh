@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-rabbit-1146
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-muffin-7888
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 NAME=$1
 SEED=$2

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train1_AL_ld_by_epoch
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=train1_AL_ld_by_epoch
+#SBATCH --output=%j_%x.out
+#SBATCH --error=%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=20G
+#SBATCH --time=04:00:00
 
 module purge
 module load python/intel/3.8.6

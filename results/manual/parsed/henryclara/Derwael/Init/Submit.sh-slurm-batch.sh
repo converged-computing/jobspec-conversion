@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Init
-#FLUX: -n=100
-#FLUX: --queue=compute
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=Init
+#SBATCH --account=bm1164
+#SBATCH --output=/work/bm1164/m300832/Derwael/Init/Logs/SLURM_job.%j.%N.out
+#SBATCH --error=/work/bm1164/m300832/Derwael/Init/Logs/SLURM_job.%j.%N.err
+#SBATCH --mail-user=clara.henry@mpimet.mpg.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=compute
+#SBATCH --chdir=/work/bm1164/m300832/Derwael/Init/
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

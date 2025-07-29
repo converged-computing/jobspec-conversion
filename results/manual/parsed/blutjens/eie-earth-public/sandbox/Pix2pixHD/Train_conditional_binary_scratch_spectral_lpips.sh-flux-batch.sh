@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-leader-9802
-#FLUX: -c=20
-#FLUX: --urgency=16
+#FLUX --job-name=tart-cupcake-2198
+#FLUX -c=20
+#FLUX --urgency=16
 
 source /etc/profile # eofe: source /etc/profile.d/modules.sh
 eval "$(conda shell.bash hook)"

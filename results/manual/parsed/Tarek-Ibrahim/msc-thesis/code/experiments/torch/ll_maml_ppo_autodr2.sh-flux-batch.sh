@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=maml_ppo_autodr_torch
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=maml_ppo_autodr_torch
+#FLUX -c=10
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

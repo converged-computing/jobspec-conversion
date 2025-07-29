@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=serial_jl
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=serial_jl
+#SBATCH --mail-user=<YourNetID>@princeton.edu
+#SBATCH --mail-type=fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=00:01:00
 
 module purge
 module load julia/1.5.0

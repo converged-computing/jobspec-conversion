@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ondemand/sys/myjobs/basic_lammps_parallel
-#FLUX: -N=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=ondemand/sys/myjobs/basic_lammps_parallel
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

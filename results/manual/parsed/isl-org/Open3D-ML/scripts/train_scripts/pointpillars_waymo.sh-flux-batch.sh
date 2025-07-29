@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=objdet_2x4
-#FLUX: -N=2
-#FLUX: -c=48
-#FLUX: --urgency=16
+#FLUX --job-name=objdet_2x4
+#FLUX -N=2
+#FLUX -c=48
+#FLUX --urgency=16
 
 export PRIMARY_ADDR='${PRIMARY_ADDR:-$SLURMD_NODENAME}'
 export PRIMARY_PORT='${PRIMARY_PORT:-29500}'

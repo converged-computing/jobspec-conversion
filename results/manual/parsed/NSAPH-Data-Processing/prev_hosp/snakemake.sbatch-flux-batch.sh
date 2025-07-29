@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bicycle-9891
-#FLUX: -c=8
-#FLUX: --queue=fasse
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-butter-8699
+#FLUX -c=8
+#FLUX --queue=fasse
+#FLUX -t=720
+#FLUX --urgency=16
 
 date #print start time
 snakemake --cores 6

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pot-8506
-#FLUX: --queue=short
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=terminal.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=02:00:00
+#SBATCH --partition=short
+#SBATCH --array=1-5000
 
 export OMP_PROC_BIND='true'
 

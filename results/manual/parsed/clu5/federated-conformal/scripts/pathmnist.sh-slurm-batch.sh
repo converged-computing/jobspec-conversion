@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hobbit-1124
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --output=outputs/path.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:volta:1
 
 source /etc/profile
 module load anaconda cuda

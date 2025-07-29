@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mlcommons-cloudmask-{experiment.card_name}-{experiment.gpu_count}-{experiment.epoch}-{experiment.repeat}
-#FLUX: --urgency=16
+#FLUX --job-name=mlcommons-cloudmask-{experiment.card_name}-{experiment.gpu_count}-{experiment.epoch}-{experiment.repeat}
+#FLUX --urgency=16
 
 echo "# cloudmesh status=running progress=1 pid=$$"
 set -uxe

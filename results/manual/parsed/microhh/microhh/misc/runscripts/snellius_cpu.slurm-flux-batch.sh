@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=drycblles
-#FLUX: -n=128
-#FLUX: --queue=thin
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=drycblles
+#FLUX -n=128
+#FLUX --queue=thin
+#FLUX -t=28800
+#FLUX --urgency=16
 
 toolkit="gcc"     # gcc/intel
 module purge

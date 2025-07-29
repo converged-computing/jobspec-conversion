@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ViromeDiscovery
-#FLUX: -c=8
-#FLUX: -t=39540
-#FLUX: --urgency=16
+#SBATCH --job-name=ViromeDiscovery
+#SBATCH --output=./out/07.cob/VD_Chiliadal_%A_%a.out
+#SBATCH --error=./err/07.cob/VD_Chiliadal_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16gb
+#SBATCH --time=10:59:00
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

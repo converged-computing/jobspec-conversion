@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blue-platanos-4315
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/home/hklein3/outputs/index_1
+#SBATCH --error=/home/hklein3/errors/index_1
+#SBATCH --mail-user=helenasfklein@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=28
 
 module load python3
 module load racs-eb

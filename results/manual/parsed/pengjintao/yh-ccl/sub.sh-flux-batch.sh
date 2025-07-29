@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kitty-3639
-#FLUX: -n=64
-#FLUX: --queue=amd_256
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-pot-9235
+#FLUX -n=64
+#FLUX --queue=amd_256
+#FLUX -t=1500
+#FLUX --urgency=16
 
 procname=./build/test/allreduce
 flag=""

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=prior_precision_testjaccosmo
-#FLUX: -N=2
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=prior_precision_testjaccosmo
+#SBATCH --mail-user=jost@apc.in2p3.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

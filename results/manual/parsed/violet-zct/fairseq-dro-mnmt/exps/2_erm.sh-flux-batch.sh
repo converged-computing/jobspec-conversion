@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=exp
-#FLUX: -c=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=exp
+#FLUX -c=5
+#FLUX -t=0
+#FLUX --urgency=16
 
 echo $SLURM_ARRAY_TASK_ID
 source activate mnmt

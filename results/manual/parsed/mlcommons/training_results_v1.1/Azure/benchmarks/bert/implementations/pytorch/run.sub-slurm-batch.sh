@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-poodle-0093
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 set -eux
 func_get_container_mounts() {

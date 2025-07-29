@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=paella
-#FLUX: -N=16
-#FLUX: --exclusive
-#FLUX: --queue=a100-cu117
-#FLUX: --urgency=16
+#SBATCH --job-name=paella
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=a100-cu117
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

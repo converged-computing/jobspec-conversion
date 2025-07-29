@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cinnamonbun-4644
-#FLUX: --queue=standard
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab_paid
+#SBATCH --output=_script_outputs/%x/%A_%a_%N.out
+#SBATCH --error=_script_errors/%x/%A_%a_%N.out
+#SBATCH --mail-user=dcl3nd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=standard
+#SBATCH --array=1-366%20
 
 source __utils.sh
 source __directories.sh

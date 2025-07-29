@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=worker
-#FLUX: --exclusive
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=worker
+#SBATCH --account=ocp
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH: --exclusive
+#SBATCH --array=0-4
 
 df /local
 LDIR="/local/dask-worker-dir-$$"

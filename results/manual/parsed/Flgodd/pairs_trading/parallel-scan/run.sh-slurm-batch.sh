@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-animal-6379
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Flgodd/pairs_trading/parallel-scan/run.sh

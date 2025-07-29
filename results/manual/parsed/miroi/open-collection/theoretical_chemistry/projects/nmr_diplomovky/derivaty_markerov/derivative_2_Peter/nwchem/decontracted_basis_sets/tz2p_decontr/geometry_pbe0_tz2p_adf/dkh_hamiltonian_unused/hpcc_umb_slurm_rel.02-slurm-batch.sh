@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=d2nw-dk2
-#FLUX: -n=12
-#FLUX: --queue=compute
-#FLUX: -t=295200
-#FLUX: --urgency=16
+#SBATCH --job-name=d2nw-dk2
+#SBATCH --output=log_slurm_job.%j.%N.std_out_err
+#SBATCH --mail-user=Miroslav.Ilias@umb.sk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=42GB
+#SBATCH --time=3-10:00:00
+#SBATCH --partition=compute
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'
 export PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/bin:$PATH'

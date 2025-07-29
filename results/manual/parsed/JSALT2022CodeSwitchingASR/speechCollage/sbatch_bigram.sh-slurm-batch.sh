@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=V2audioGen
-#FLUX: -c=40
-#FLUX: --queue=cpu-all
-#FLUX: --urgency=16
+#SBATCH --job-name=V2audioGen
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --partition=cpu-all
 
 module load gcc6 slurm cmake
 inputlist=$1

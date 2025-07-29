@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=opencatalyst-opt
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#FLUX --job-name=opencatalyst-opt
+#FLUX --queue=regular
+#FLUX --urgency=16
 
 export MODEL_NAME='oc20'
 export MODEL_FRAMEWORK='pytorch'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RESP2
-#FLUX: --queue=normal
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=RESP2
+#SBATCH --account=NN8050K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:45:00
+#SBATCH --partition=normal
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

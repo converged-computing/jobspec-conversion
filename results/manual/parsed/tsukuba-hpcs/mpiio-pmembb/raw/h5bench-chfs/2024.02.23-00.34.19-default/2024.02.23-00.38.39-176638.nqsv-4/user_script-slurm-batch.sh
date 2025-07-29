@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-train-5070
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/raw/h5bench-chfs/2024.02.23-00.34.19-default/2024.02.23-00.38.39-176638.nqsv-4/user_script

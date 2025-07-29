@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bertkfc
-#FLUX: -N=16
-#FLUX: -n=32
-#FLUX: --queue=v100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=bertkfc
+#FLUX -N=16
+#FLUX -n=32
+#FLUX --queue=v100
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-peanut-butter-4049
+#FLUX --job-name=creamy-pot-5284
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

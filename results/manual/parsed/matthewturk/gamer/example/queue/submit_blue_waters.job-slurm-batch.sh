@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-citrus-4107
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/matthewturk/gamer/example/queue/submit_blue_waters.job

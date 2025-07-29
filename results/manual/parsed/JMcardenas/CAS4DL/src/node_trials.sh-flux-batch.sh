@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-omelette-3565
-#FLUX: -c=6
+#FLUX --job-name=lovable-lettuce-7186
+#FLUX -c=6
 #FLUX: --exclusive
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX -t=180
+#FLUX --urgency=16
 
 for j in {0..16..4}
 do

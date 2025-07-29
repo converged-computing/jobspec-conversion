@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pot-9431
-#FLUX: -c=6
-#FLUX: --queue=long
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=/home/mila/l/luke.rowe/qflowoffline/slurm_logs/iql_hopper_medium-expert-v2_seed0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=long
 
 export PYTHONUNBUFFERED='1'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'

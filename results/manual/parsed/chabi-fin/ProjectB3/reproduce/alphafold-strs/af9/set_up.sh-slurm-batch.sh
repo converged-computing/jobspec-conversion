@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=af_setup
-#FLUX: --queue=agkeller
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=af_setup
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500
+#SBATCH --time=01:00:00
+#SBATCH --partition=agkeller
+#SBATCH --qos=standard
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

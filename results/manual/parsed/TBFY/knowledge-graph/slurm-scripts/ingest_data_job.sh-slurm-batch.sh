@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=INGEST_DATA
-#FLUX: --queue=sintef
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=INGEST_DATA
+#SBATCH --output=/home/bre/jobs/ingest_data-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=sintef
 
 export DATE='`date +%F_%H%M`'
 

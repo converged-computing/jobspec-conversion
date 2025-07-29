@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Job_Name
-#FLUX: --queue=Partition_Name
-#FLUX: --urgency=16
+#SBATCH --job-name=Job_Name
+#SBATCH --output=out/out_%j_%a.out
+#SBATCH --mail-user=Your_Email_Address
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=Partition_Name
+#SBATCH --array=Specify_The_Indices_Of_Array_You_Want_To_Run_e.g._1-100
 
 time_stamp="Anything_You_Want_That_can_Specify_The_Time_Or_Job_(cf.Regarding_Virtual_Environment_Below_Check_'mmd-env.yml'_File)"
 source activate ~/venv/mmd-env

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=amber_pressure
-#FLUX: -n=32
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=amber_pressure
+#SBATCH --output=./job.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 export CUDA_VISIBLE_DEVICES='0,1'
 export CUDA_HOME='/opt/spack/opt/spack/linux-rhel8-icelake/gcc-8.4.1/cuda-11.0.3-mwxjoa2nfce32sfsxxxz66oza5p5tr35/'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=amm-testing-heavy
-#FLUX: --queue=pascal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=amm-testing-heavy
+#FLUX --queue=pascal
+#FLUX -t=36000
+#FLUX --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

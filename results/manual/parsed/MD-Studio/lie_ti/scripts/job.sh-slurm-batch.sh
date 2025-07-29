@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-banana-8816
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/MD-Studio/lie_ti/scripts/job.sh

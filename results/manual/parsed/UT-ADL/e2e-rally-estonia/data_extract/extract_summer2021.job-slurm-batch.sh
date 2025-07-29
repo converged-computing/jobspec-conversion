@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Extract driving data from summer 2021 drives
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=Extract driving data from summer 2021 drives
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=main
+#SBATCH --array=0-59
 
 BAGS=(
     '2021-05-20-12-36-10_e2e_sulaoja_20_30.bag' \

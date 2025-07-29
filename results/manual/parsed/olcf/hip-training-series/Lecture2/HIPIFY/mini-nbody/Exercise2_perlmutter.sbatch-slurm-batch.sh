@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-onion-6167
-#FLUX: -c=32
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=<project
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:30:00
+#SBATCH --partition=shared
+#SBATCH --constraint=gpu
 
 export PATH='${PATH}:${HIP_PATH}'
 

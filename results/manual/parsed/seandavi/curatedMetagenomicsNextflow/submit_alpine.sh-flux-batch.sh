@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-earthworm-1904
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=angry-onion-0697
+#FLUX -c=16
+#FLUX --urgency=16
 
 export GOOGLE_APPLICATION_CREDENTIALS='$HOME/omicidx-338300-cbd1527c319e.json'
 export NXF_MODE='google'

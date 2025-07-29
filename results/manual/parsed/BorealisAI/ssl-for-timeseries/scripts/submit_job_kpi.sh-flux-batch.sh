@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cattywampus-5447
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-parrot-7575
+#FLUX --urgency=16
 
 for seed in 1 2 3 4 5
 do

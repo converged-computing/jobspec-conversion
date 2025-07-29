@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=apogee-expand
-#FLUX: -N=4
-#FLUX: --queue=cca
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=apogee-expand
+#FLUX -N=4
+#FLUX --queue=cca
+#FLUX -t=43200
+#FLUX --urgency=16
 
 source ~/.bash_profile
 init_conda

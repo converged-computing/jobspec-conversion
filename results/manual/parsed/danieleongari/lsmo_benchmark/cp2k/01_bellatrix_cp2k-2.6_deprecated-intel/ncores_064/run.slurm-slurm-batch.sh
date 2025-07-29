@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-earthworm-5196
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated 
 module load cp2k/2.6.0/intel-15.0.0

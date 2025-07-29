@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=part-model
-#FLUX: -n=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=part-model
+#SBATCH --account=fc_wagner
+#SBATCH --output=slurm-%j-ct_kp_0.5.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=savio2_1080ti
 
 module purge
 source activate /global/scratch/users/$USER/env_part_based

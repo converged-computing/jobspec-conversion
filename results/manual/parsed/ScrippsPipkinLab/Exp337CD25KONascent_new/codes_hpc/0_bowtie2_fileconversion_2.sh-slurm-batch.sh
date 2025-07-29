@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-mango-6046
-#FLUX: -n=16
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8gb
+#SBATCH --array=1-24
 
 INDIR=/gpfs/group/pipkin/hdiao/Exp337/0_fastq
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pedo-9843
-#FLUX: --queue=alvis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-leopard-9440
+#FLUX --queue=alvis
+#FLUX -t=900
+#FLUX --urgency=16
 
 data_dir=${1}
 model_name=${2}

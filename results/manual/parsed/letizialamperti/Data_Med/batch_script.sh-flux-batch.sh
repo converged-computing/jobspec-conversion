@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=letizias-job
-#FLUX: -c=12
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=letizias-job
+#FLUX -c=12
+#FLUX -t=43200
+#FLUX --urgency=16
 
 args="${@}"
 module load daint-gpu

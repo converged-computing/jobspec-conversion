@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nest
-#FLUX: -c=28
-#FLUX: --queue=LADON
-#FLUX: -t=362340
-#FLUX: --urgency=16
+#SBATCH --job-name=nest
+#SBATCH --output=nest.out
+#SBATCH --error=nest.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --gres=gpu:0
+#SBATCH --time=4-04:39:00
+#SBATCH --partition=LADON
+#SBATCH --array=0-31
 
 module load Anaconda3
 source activate cnn

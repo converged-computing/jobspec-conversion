@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-plant-5408
-#FLUX: --queue=sched_any_quicktest
-#FLUX: -t=10
-#FLUX: --urgency=16
+#SBATCH --output=run_%a.out
+#SBATCH --error=run_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=00:00:10
+#SBATCH --partition=sched_any_quicktest
+#SBATCH --array=1-3
 
 module load julia/1.7.3
 julia shortestpath_many.jl $SLURM_ARRAY_TASK_ID

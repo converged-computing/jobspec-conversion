@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=install_deps
-#FLUX: -n=2
-#FLUX: --queue=krypton
-#FLUX: --urgency=16
+#FLUX --job-name=install_deps
+#FLUX -n=2
+#FLUX --queue=krypton
+#FLUX --urgency=16
 
 export R_HOME='/opt/cres/lib/hpc/gcc7/R/4.2.3/lib64/R'
 export LD_LIBRARY_PATH='/opt/cres/lib/hpc/gcc7/R/4.2.3/lib64/R/lib'

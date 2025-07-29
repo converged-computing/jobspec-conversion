@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-3479
-#FLUX: --queue=accelerated
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --account=hk-project-madonna
+#SBATCH --output=/hkfs/work/workspace/scratch/qv2382-madonna-ddp/madonna/logs/slurm/slurm-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=08:00:00
+#SBATCH --partition=accelerated
+#SBATCH --constraint=ntasks-per-node=4
 
 export TRAIN_SCRIPT='scripts/singularity_train.py'
 export TOMOUNT='${TOMOUNT}'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leg-7462
-#FLUX: -c=5
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-itch-9689
+#FLUX -c=5
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml GCC/8.2.0-2.31.1  OpenMPI/3.1.3 ADIOS2/2.5.0-Python-3.7.2
 if [ -z $1 ]

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=charlie
-#FLUX: -c=2
-#FLUX: --queue=ccr,norm
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=charlie
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=40g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=ccr,norm
 
 set -eo pipefail
 module purge

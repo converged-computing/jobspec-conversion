@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-itch-8532
+#FLUX --job-name=blue-cherry-0482
 #FLUX: --exclusive
-#FLUX: --queue=hpc
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --queue=hpc
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export MALLOC_ARENA_MAX='4'
 

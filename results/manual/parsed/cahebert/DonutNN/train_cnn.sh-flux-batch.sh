@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=2d_7l_DNN
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=2d_7l_DNN
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load python/2.7.5
 module load tensorflow

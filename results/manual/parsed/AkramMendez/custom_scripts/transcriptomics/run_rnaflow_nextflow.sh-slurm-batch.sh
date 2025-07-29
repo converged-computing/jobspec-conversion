@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rnaflow
-#FLUX: -n=16
-#FLUX: --queue=core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=rnaflow
+#SBATCH --account=snic2022-22-85
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=core
 
 export NXF_HOME='/crex/proj/nb_storage/private/rnaflow/nextflow_home'
 export CONDA_ENVS_PATH='/proj/nb_project/private/conda_envs'

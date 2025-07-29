@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-knife-7233
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/GettingStarted/ProgrammingModels/Polaris/Julia/test_mpi/submit.sh

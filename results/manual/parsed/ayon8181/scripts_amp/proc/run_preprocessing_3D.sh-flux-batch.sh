@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=proc
-#FLUX: -N=20
+#FLUX --job-name=proc
+#FLUX -N=20
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export gen='python ../generate_path_files.py -p ../paths.yml -s ../settings.yml -e ../event_list'
 export UCX_TLS='knem,dc_x'

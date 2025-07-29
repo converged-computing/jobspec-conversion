@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-1401
-#FLUX: -c=40
-#FLUX: --queue=develgpus
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=deepacf
+#SBATCH --output=inference_simple_ap5-out.%j
+#SBATCH --error=inference_simple_ap5-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=develgpus
 
 WORK_DIR=$(pwd)
 BASE_DIR=$(dirname "${WORK_DIR}")

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-platanos-7822
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-lettuce-6672
+#FLUX --urgency=16
 
 function kill_job {
     DRY_RUN=0

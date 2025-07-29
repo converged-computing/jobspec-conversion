@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=filter_score_model
-#FLUX: -c=4
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#SBATCH --job-name=filter_score_model
+#SBATCH --output=/scratch/work/%u/projects/ddpm/diffusion_autumn_2022/A-diffusion/experiments/%a/train_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=30G
+#SBATCH --time=2-23:59:59
+#SBATCH --array=[50]
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

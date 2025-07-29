@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SimCLR
-#FLUX: -c=5
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#FLUX --job-name=SimCLR
+#FLUX -c=5
+#FLUX -t=14340
+#FLUX --urgency=16
 
 module purge
 module load GCC/6.4.0-2.28 OpenMPI  ### load necessary modules.

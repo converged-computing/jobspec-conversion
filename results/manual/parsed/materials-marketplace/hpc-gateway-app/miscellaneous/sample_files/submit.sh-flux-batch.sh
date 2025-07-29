@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lammps-colloid
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=lammps-colloid
+#FLUX --queue=debug
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

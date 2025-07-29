@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-eagle-5216
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-puppy-5545
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=results/slurm_logs/variants/4b.gatk
-#FLUX: --queue=shas
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=results/slurm_logs/variants/4b.gatk
+#FLUX --queue=shas
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -x
 module purge

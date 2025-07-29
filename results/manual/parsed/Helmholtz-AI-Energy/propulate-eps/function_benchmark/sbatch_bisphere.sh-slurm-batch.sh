@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=optuna-bisphere
-#FLUX: -N=2
-#FLUX: --queue=cpuonly
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=optuna-bisphere
+#SBATCH --account=haicore-project-scc
+#SBATCH --output=/hkfs/work/workspace/scratch/qv2382-propulate/exps/function_benchmark/logs/paper/bisphere/optuna-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cpuonly
+#SBATCH --constraint=ntasks-per-node=76
 
 export FNAME='bisphere'
 export FRAMEWORK='optuna'

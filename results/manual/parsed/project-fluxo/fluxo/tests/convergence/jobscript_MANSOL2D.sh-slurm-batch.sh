@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=convtest_MANSOL
-#FLUX: --queue=express
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=convtest_MANSOL
+#SBATCH --output=./tjob.out.%j
+#SBATCH --error=./tjob.err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=express
+#SBATCH --constraint=ntasks-per-node=32
+#SBATCH --chdir=./
 
 LOGFILE=log.$SLURM_JOB_ID.$SLURM_JOB_NAME
 CASEDIR=/u/ipphinde/GIT/fluxo/tests/convergence

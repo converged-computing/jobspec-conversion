@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt2-en
-#FLUX: -c=4
-#FLUX: --queue=pascal-deep.p
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt2-en
+#SBATCH --output=/hits/basement/nlp/fatimamh/outputs/gpt2_en/err-out/out-%j
+#SBATCH --error=/hits/basement/nlp/fatimamh/outputs/gpt2_en/err-out/err-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=pascal-deep.p
 
 module load CUDA/10.1.243-GCC-8.3.0
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

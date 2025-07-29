@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-underoos-6244
-#FLUX: -t=244800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=2-20:00:00
 
 export SCRAM_ARCH='slc6_amd64_gcc700'
 export PYTHIA8DATA='/scratch/tuos/models/angantyr/root/dev/pythia8305/share/Pythia8/xmldoc'

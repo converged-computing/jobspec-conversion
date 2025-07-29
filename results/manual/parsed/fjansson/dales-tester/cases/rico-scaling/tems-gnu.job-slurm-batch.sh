@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dales
-#FLUX: -n=128
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dales
+#SBATCH --account=spnlsieb
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=np
 
 module load prgenv/gnu
 module load gcc/11.1.0

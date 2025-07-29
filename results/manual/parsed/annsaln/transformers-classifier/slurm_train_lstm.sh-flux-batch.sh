@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leader-6330
-#FLUX: --queue=gpu
-#FLUX: -t=4500
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-egg-0316
+#FLUX --queue=gpu
+#FLUX -t=4500
+#FLUX --urgency=16
 
 export TRAIN_DIR='junkdata/$SRC'
 export DEV_DIR='junkdata/$TRG'

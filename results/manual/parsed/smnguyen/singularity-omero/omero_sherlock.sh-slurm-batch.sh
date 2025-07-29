@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-banana-5936
-#FLUX: -c=3
-#FLUX: --queue=mcovert
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=23:30:00
+#SBATCH --partition=mcovert
+#SBATCH --constraint=ntasks-per-node=1
 
 function get_port {
   local DESIRED_PORT=$1

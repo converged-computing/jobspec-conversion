@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-salad-0130
-#FLUX: -c=4
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=slurm/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=08:00:00
+#SBATCH --array=1
 
 for current_dataset in {1..100}
 do

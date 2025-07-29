@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=t1
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=t1
+#SBATCH --mail-user=ag4508@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80
+#SBATCH --mem=50GB
+#SBATCH --time=1-00:00:00
 
 module purge
 module load python/intel/2.7.12

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_cam5
-#FLUX: --queue=regular
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=train_cam5
+#FLUX --queue=regular
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export PROJ_LIB='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/share/basemap'
 export PYTHONPATH='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/lib/python3.7/site-packages:${PYTHONPATH}'

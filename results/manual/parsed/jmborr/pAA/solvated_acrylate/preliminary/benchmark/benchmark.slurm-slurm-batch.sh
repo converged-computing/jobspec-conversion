@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: -N=32
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark
+#SBATCH --account=m1503
+#SBATCH --output=benchmark.o%j
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --licenses=SCRATCH
 
 prefix='relax'
 currindex=1

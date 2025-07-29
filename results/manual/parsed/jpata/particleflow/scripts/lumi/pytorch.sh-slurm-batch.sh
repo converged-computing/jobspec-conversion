@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mlpf-train-cms
-#FLUX: -c=32
-#FLUX: --gpus-per-task=8
-#FLUX: --queue=small-g
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlpf-train-cms
+#SBATCH --account=project_465000301
+#SBATCH --output=logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=130G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=small-g
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH: --no-requeue
 
 export IMG='/scratch/project_465000301/lumi-pytorch-rocm.simg'
 export PYTHONPATH='hep_tfds'

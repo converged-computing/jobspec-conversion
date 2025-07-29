@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vqvae-preact-embed-128-256-512-pre50-post50-catproj-postup3-symmetricpad-restart-restart
-#FLUX: -N=6
-#FLUX: -c=6
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=vqvae-preact-embed-128-256-512-pre50-post50-catproj-postup3-symmetricpad-restart-restart
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=gpu_titanrtx
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

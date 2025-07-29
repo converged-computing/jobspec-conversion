@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate
-#FLUX: -c=16
-#FLUX: --queue=<partitionname>
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=evaluate
+#SBATCH --account=<accountname>
+#SBATCH --output=logs/evaluate.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:0
+#SBATCH --mem=128000M
+#SBATCH --time=00:24:00
+#SBATCH --partition=<partitionname>
+#SBATCH --qos=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

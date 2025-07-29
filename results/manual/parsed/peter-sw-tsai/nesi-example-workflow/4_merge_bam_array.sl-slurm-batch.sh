@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mergeBams
-#FLUX: -c=8
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mergeBams
+#SBATCH --account=xxxxxxxx
+#SBATCH --output=logs/merge/merge_%a.out
+#SBATCH --error=logs/merge/merge_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
 
 module load SAMtools/1.19-GCC-12.3.0
 OUTDIR=merged_bam

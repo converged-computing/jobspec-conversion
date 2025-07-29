@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lentil-4572
-#FLUX: -N=16
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-staircase-8618
+#FLUX -N=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export KMP_AFFINITY='disabled'

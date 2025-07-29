@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=two
-#FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=two
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='cores '

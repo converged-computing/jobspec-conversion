@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=brvit
-#FLUX: -c=16
-#FLUX: --queue=dpart
-#FLUX: -t=129600
-#FLUX: --urgency=50
+#FLUX --job-name=brvit
+#FLUX -c=16
+#FLUX --queue=dpart
+#FLUX -t=129600
+#FLUX --urgency=50
 
 nvidia-smi
 module load cuda/11.3.1   

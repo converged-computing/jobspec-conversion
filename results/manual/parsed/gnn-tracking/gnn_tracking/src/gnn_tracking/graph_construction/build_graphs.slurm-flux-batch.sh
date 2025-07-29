@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=build-graphs
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=build-graphs
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set -euo pipefail
 IFS=$'\n\t'

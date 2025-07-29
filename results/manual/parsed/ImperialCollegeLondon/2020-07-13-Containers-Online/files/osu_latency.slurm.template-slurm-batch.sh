@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=[*
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=[*
+#SBATCH --account=[*
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+#SBATCH: --exclusive
 
 module load singularity
 module load intel-mpi-19

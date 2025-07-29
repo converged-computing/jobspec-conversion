@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-7842
-#FLUX: -c=96
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-salad-2982
+#FLUX -c=96
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load diamond
 module load workspace/scratch

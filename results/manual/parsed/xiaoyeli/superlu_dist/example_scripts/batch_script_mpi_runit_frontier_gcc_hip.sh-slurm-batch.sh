@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=superlu_test
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=superlu_test
+#SBATCH --account=csc289
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=batch
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export LD_LIBRARY_PATH='$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH'

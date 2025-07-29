@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-hippo-0500
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pot-6039
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load anaconda/3 python/3.7/cuda/11.0/cudnn/8.0/pytorch/1.6.0

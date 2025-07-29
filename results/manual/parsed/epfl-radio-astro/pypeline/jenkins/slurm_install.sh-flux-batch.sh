@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-general-3264
-#FLUX: -c=20
-#FLUX: --queue=build
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-nunchucks-1615
+#FLUX -c=20
+#FLUX --queue=build
+#FLUX -t=3600
+#FLUX --urgency=16
 
 SCRIPT=$(realpath "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")

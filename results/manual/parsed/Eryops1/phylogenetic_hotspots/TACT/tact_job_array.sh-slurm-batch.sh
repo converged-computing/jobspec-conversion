@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=TACT_3rd
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=TACT_3rd
+#SBATCH --account=PDiv
+#SBATCH --mail-user=melanie.tietje@bio.au.dk
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=150gb
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=301-351
 
 source ~/miniconda3/bin/activate tact
 echo -e "\nrunning TACT\n"

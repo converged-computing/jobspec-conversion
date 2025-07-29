@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=surf
-#FLUX: -c=28
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=surf
+#FLUX -c=28
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load gcc/10.2.0

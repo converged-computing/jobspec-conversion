@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ibs_static
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=ibs_static
+#SBATCH --output=ibs2_static_%j.out
+#SBATCH --mail-user=xl1005@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6GB
+#SBATCH --time=2-00:00:00
+#SBATCH --array=1-120
 
 export MATLABPATH='$HOME/${PROJECT_FOLDER}/matlab'
 

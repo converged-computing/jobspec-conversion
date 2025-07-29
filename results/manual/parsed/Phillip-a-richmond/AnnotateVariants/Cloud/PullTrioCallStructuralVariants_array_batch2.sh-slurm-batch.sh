@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-leg-5669
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --array=51-200%50
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/

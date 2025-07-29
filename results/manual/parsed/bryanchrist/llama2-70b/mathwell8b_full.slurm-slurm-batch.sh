@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mathwell8b_full_generate
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mathwell8b_full_generate
+#SBATCH --account=sds_dl_phd
+#SBATCH --output=mathwell8b_full_generate-%A.out
+#SBATCH --error=mathwell8b_full_generate-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=50G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

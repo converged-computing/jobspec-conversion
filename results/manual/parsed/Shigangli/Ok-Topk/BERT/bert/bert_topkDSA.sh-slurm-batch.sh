@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-muffin-8709
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#SBATCH --output=32nodes_bert_topkDSA_density1.txt
+#SBATCH --nodes=32
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=12
+#SBATCH --time=01:10:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'

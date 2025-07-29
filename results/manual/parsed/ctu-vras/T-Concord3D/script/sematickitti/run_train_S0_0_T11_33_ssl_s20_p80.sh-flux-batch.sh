@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-6065
-#FLUX: -c=24
-#FLUX: --queue=amdgpuextralong
-#FLUX: -t=1814400
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-noodle-1765
+#FLUX -c=24
+#FLUX --queue=amdgpuextralong
+#FLUX -t=1814400
+#FLUX --urgency=16
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1
 ml PyTorch-Geometric/2.0.2-foss-2021a-CUDA-11.3.1-PyTorch-1.10.0

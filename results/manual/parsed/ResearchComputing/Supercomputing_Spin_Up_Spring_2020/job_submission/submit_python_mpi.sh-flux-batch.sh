@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peanut-butter-0782
-#FLUX: -n=4
-#FLUX: --queue=shas
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=hello-blackbean-8784
+#FLUX -n=4
+#FLUX --queue=shas
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load python/3.5.1

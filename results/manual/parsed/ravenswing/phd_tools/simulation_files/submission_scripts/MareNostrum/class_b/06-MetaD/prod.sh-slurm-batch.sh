@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-kerfuffle-5571
-#FLUX: -N=4
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=run.out
+#SBATCH --error=run.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=class_b
+#SBATCH --constraint=ntasks-per-node=24
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

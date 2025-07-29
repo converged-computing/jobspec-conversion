@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mtr
-#FLUX: -c=20
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=mtr
+#FLUX -c=20
+#FLUX -t=54000
+#FLUX --urgency=16
 
 set -x
 while true

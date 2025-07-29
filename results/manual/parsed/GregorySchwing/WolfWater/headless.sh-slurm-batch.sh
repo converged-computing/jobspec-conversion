@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=NXTFLW
-#FLUX: --queue=secondary
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=NXTFLW
+#SBATCH --output=output_%j.out
+#SBATCH --error=errors_%j.err
+#SBATCH --mail-user=go2432@wayne.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=secondary
 
 export NXF_EXECUTOR='slurm'
 export NXF_OPTS='-Xms2G -Xmx8G" '

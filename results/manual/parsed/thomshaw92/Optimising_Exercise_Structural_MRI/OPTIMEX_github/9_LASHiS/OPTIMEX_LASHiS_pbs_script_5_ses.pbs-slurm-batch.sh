@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-itch-0085
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/thomshaw92/Optimising_Exercise_Structural_MRI/OPTIMEX_github/9_LASHiS/OPTIMEX_LASHiS_pbs_script_5_ses.pbs

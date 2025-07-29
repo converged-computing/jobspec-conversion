@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mmsrl
-#FLUX: -c=10
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=mmsrl
+#SBATCH --account=lco@gpu
+#SBATCH --output=/gpfswork/rech/lco/url46ht/outputs/generic_features_attention/generic_features_attention_%j_%x_%A_%a.out
+#SBATCH --error=/gpfswork/rech/lco/url46ht/outputs/generic_features_attention/generic_features_attention_%j_%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-39
 
 export DATA_PATH='$WORK/data'
 export TRANSFORMERS_CACHE='$HOME/.cache/huggingface/transformers'

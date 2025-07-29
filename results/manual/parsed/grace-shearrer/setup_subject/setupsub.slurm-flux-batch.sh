@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=launch
-#FLUX: -n=2
-#FLUX: --queue=normal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=launch
+#FLUX -n=2
+#FLUX --queue=normal
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

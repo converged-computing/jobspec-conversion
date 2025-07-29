@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-knife-1679
-#FLUX: -c=12
-#FLUX: --queue=gpu-a100-tmp
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu-a100-tmp
+#SBATCH --qos=gpu
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

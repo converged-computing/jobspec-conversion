@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=${mode}
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=${mode}
+#FLUX -t=7200
+#FLUX --urgency=16
 
 mode="TRWP"
 enable_run_script=true

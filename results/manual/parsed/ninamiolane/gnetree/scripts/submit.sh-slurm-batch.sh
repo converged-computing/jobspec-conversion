@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cattywampus-1863
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
 
 export SOFTPATH='/share/software/user/open'
 export PYCAPATH='$HOME/site-packages/PyCA'

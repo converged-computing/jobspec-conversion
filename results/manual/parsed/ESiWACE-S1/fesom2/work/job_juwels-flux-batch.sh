@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fesom2.0
-#FLUX: -n=288
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=fesom2.0
+#FLUX -n=288
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load CMake Intel IntelMPI imkl netCDF netCDF-Fortran
 set -x

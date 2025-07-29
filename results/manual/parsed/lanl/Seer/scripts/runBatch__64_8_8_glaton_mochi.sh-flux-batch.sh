@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-banana-9252
-#FLUX: -N=8
-#FLUX: --queue=galton
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-sundae-3776
+#FLUX -N=8
+#FLUX --queue=galton
+#FLUX --urgency=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

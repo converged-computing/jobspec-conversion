@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-banana-4879
-#FLUX: --queue=conti
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-snack-6033
+#FLUX --queue=conti
+#FLUX -t=3600
+#FLUX --urgency=16
 
 REF=/auto/pmd-02/figi/PCA
 OUT=/staging/dvc/andreeki/pca_ibd

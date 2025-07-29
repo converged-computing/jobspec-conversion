@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=df
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=df
+#SBATCH --account=s957
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export CRAY_CUDA_MPS='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lettuce-9936
-#FLUX: -N=5
-#FLUX: --queue=a100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-chip-9260
+#FLUX -N=5
+#FLUX --queue=a100
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONNOUSERSITE='true'
 export MV2_HOME='/home/gulhane.2/mvapich2-installation/nvidia/gdr2.3.7_cuda11.6_gcc10.3.0'

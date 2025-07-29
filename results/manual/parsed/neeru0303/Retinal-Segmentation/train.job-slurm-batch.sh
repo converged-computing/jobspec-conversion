@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-house-8772
-#FLUX: --queue=GPU-shared
-#FLUX: -t=131400
-#FLUX: --urgency=16
+#SBATCH --mail-user=addankn@sunyit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:2
+#SBATCH --time=1-12:30:00
+#SBATCH --partition=GPU-shared
 
 export CUDA_VISIBLE_DEVICES='0,1'
 export TENSORFLOW_ENV='$TF_ENV'

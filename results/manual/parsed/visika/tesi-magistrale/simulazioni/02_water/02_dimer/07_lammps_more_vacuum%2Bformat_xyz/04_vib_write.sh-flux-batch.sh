@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=vib
-#FLUX: --queue=sequential
-#FLUX: --urgency=16
+#FLUX --job-name=vib
+#FLUX --queue=sequential
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 export MKL_NUM_THREADS='1'

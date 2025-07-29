@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=openmpi_threads
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=openmpi_threads
+#FLUX -N=2
+#FLUX -c=4
+#FLUX --queue=test
+#FLUX -t=900
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

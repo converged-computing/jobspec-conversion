@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SampleJob
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=SampleJob
+#FLUX -c=2
+#FLUX --queue=gpu_shared_course
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module purge
 module load 2021

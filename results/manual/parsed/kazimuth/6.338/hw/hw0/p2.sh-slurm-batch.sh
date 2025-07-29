@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-nalgas-9067
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --output=p2.log-%j
+#SBATCH --nodes=10
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
 
 source /etc/profile
 module load julia-1.0

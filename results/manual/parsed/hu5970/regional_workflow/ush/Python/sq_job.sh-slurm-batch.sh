@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=plot_allvars
-#FLUX: -n=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=plot_allvars
+#SBATCH --account=an_account
+#SBATCH --output=plot_allvars.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=batch
 
 export GLOBAL_VAR_DEFNS_FP='${EXPTDIR}/var_defns.sh'
 export CDATE='${DATE_FIRST_CYCL}${CYCL_HRS}'

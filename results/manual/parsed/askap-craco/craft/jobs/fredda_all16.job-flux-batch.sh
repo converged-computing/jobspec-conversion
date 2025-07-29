@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-0662
-#FLUX: --queue=gpuq
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-peas-7896
+#FLUX --queue=gpuq
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

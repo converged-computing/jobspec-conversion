@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-sundae-7656
-#FLUX: --urgency=16
+#FLUX --job-name=purple-hobbit-2442
+#FLUX --urgency=16
 
 outputdir=/gpfs/loomis/project/fas/ohern/jdt45/dpm
 simtypedir=$outputdir/meso2D

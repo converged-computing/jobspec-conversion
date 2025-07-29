@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fMRI-HCP-PrePro
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=fMRI-HCP-PrePro
+#SBATCH --account=kg98
+#SBATCH --mail-user=linden.parkes@monash.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=05:00:00
+#SBATCH --array=1-100%50
 
 SUBJECT_LIST="/home/lindenmp/kg98/Linden/ResProjects/HCP_BF_TimeSeries/HCP_100.txt"
 module load rest/1.8 # works on M2 and M3

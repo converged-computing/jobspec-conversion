@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nunchucks-0136
+#FLUX --job-name=gloopy-lizard-1763
 #FLUX: --exclusive
-#FLUX: --queue=k80_q
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=k80_q
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load singularity/3.3.0

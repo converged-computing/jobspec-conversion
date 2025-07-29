@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sample
-#FLUX: -n=2
-#FLUX: --queue=defq
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=sample
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=username@wistar.org
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=3GB
+#SBATCH --time=00:01:00
+#SBATCH --partition=defq
 
 module load apptainer
 apptainer pull docker://<image>

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ASL-DS
-#FLUX: -c=4
-#FLUX: --urgency=16
+#SBATCH --job-name=ASL-DS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
 
 module load cuda-10.2-gcc-8.3.0-nxzzh52
 module load singularity-3.6.2-gcc-8.3.0-quskioo

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-snack-6905
-#FLUX: -c=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-poodle-8980
+#FLUX -c=4
+#FLUX -t=1200
+#FLUX --urgency=16
 
 targets=('troglitazone_rediscovery' 'sitagliptin_mpo' 'median2')
 seeds=(1 2 3)

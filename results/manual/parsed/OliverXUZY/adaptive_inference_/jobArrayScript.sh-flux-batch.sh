@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eval_res50
-#FLUX: -c=8
-#FLUX: --queue=research
-#FLUX: -t=921600
-#FLUX: --urgency=16
+#FLUX --job-name=eval_res50
+#FLUX -c=8
+#FLUX --queue=research
+#FLUX -t=921600
+#FLUX --urgency=16
 
 source ~/.bashrc
 echo "SLURM_JOBID: " $SLURM_JOBID

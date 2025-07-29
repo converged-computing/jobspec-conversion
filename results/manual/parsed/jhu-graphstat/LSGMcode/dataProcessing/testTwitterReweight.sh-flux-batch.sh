@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chair-3631
-#FLUX: --queue=serial_requeue
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-earthworm-1205
+#FLUX --queue=serial_requeue
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load math/matlab-R2014b
 matlab -nojvm -nodisplay -nodesktop -r \

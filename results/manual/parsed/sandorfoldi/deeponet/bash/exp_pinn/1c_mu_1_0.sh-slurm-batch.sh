@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-staircase-2337
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sandorfoldi/deeponet/bash/exp_pinn/1c_mu_1_0.sh

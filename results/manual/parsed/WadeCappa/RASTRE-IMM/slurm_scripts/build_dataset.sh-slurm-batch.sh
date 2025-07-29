@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=building_friendster_LT
-#FLUX: --queue=preempt
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=building_friendster_LT
+#SBATCH --account=m1641
+#SBATCH --output=/global/homes/w/wadecap/building_friendster_LT.o
+#SBATCH --error=/global/homes/w/wadecap/building_friendster_LT.e
+#SBATCH --mail-user=wade.cappa@wsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=preempt
+#SBATCH --constraint=cpu,ntasks-per-node=1
 
 export OMP_NUM_THREADS='128'
 export OMP_PLACES='threads'

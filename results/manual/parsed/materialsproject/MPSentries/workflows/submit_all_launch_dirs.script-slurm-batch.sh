@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=all_launch_dirs
-#FLUX: --queue=matgen_prior
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=all_launch_dirs
+#SBATCH --account=matgen
+#SBATCH --output=all_launch_dirs-%j.out
+#SBATCH --error=all_launch_dirs-%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=matgen_prior
+#SBATCH --constraint=ntasks-per-node=1
 
 module unload python
 module unload virtualenv

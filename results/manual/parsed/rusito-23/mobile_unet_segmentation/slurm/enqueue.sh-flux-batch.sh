@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nunchucks-1664
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-train-1683
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 CWD=$PWD
 PROJECT_PATH=$1

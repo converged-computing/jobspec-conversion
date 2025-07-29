@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=FLJob
-#FLUX: --queue=gpulab02
-#FLUX: --urgency=16
+#FLUX --job-name=FLJob
+#FLUX --queue=gpulab02
+#FLUX --urgency=16
 
 python experiments1.py --model=resnet \
 	--dataset=cifar10 \

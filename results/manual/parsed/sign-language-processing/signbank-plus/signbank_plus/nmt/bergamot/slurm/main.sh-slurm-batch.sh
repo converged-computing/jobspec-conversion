@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bergamot
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=bergamot
+#SBATCH --output=job.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=7-00:00:00
 
 set -e # exit on error
 set -x # echo commands

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemur-9826
-#FLUX: --queue=gpu2
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --output=resnet30-tf-short-singularity_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8000
+#SBATCH --time=00:45:00
+#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

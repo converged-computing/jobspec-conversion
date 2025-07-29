@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-motorcycle-2130
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lamp-8516
+#FLUX --urgency=16
 
 echo "Current working directory: `pwd`"
 echo "Starting run at: `date`"

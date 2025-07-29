@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=StG23_AMG_Hunter_Prok
-#FLUX: -c=64
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=StG23_AMG_Hunter_Prok
+#SBATCH --output=/mnt/netapp1/Store_CSIC/home/csic/eyg/fhc/Job_Logs/%J.out
+#SBATCH --error=/mnt/netapp1/Store_CSIC/home/csic/eyg/fhc/Job_Logs/%J.err
+#SBATCH --mail-user=fhernandes@icm.csic.es
+#SBATCH --mail-type=All
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=100G
+#SBATCH --time=2-23:00:00
 
 module load cesga/system miniconda3/22.11.1-1
 conda activate /mnt/netapp1/Store_CSIC/home/csic/eyg/fhc/Conda_Envs/basic

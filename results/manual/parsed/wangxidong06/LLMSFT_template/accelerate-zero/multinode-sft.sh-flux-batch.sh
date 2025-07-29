@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-gato-4340
-#FLUX: -N=12
-#FLUX: --urgency=16
+#FLUX --job-name=confused-animal-0206
+#FLUX -N=12
+#FLUX --urgency=16
 
 export NCCL_ALGO='Ring'
 export NCCL_TOPO_FILE='/home/bingxing2/apps/nccl/conf/dump.xml'

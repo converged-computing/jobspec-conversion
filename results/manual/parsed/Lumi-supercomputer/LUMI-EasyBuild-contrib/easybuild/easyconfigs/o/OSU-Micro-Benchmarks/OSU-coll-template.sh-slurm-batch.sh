@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=OSU-coll
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=OSU-coll
+#SBATCH --output=%x-%j.txt
+#SBATCH --error=%x-errors-%j.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard
+#SBATCH: --exclusive
 
 nr_ranks=128
 echo -e "Case run:\n"

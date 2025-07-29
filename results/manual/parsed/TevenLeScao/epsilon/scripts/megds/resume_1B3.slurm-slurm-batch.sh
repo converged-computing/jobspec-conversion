@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=epsilon-1B3
-#FLUX: -N=8
-#FLUX: -c=40
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=epsilon-1B3
+#SBATCH --account=ajs@v100
+#SBATCH --output=logs/exp1/1B3/%x-%j.out
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --qos=qos_gpu-dev
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-0
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

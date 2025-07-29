@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lentil-8301
-#FLUX: --urgency=16
+#FLUX --job-name=blue-lemur-5242
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_step22_5m_100ms_45ms.pbs

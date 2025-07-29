@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lizard-6518
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-ricecake-5403
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_trinity_2.2.0_wo-ref_se_ada.sh

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=RESNET101
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=RESNET101
+#SBATCH --output=vaspres.out
+#SBATCH --error=vaspres.err
+#SBATCH --mail-user=v.pathak@ufl.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=60gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 echo "Date      = $(date)"
 echo "host      = $(hostname -s)"

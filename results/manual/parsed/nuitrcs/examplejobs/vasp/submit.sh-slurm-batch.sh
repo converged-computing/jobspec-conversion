@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vasp-openmpi-slurm
-#FLUX: -n=48
-#FLUX: --queue=all
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=vasp-openmpi-slurm
+#SBATCH --account=a9009
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=00:30:00
+#SBATCH --partition=all
+#SBATCH --constraint=[quest8|quest9|quest10|quest11]
 
 export OMP_NUM_THREADS='1'
 

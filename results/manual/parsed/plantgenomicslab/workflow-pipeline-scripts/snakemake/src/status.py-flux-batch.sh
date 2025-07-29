@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=opuntia-repeatannotation
-#FLUX: -c=32
-#FLUX: --queue=cpu-s1-pgl-0
-#FLUX: --urgency=16
+#FLUX --job-name=opuntia-repeatannotation
+#FLUX -c=32
+#FLUX --queue=cpu-s1-pgl-0
+#FLUX --urgency=16
 
  #conda activate base
 NCPU=32

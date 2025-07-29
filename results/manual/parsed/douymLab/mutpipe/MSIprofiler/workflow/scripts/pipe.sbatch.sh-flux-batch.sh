@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=LZ_MSIprofiler
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=LZ_MSIprofiler
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 set +u
 module load gcc

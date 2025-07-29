@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alphafold
-#FLUX: -c=16
-#FLUX: --queue=cryoem
-#FLUX: --urgency=16
+#FLUX --job-name=alphafold
+#FLUX -c=16
+#FLUX --queue=cryoem
+#FLUX --urgency=16
 
 source $HOME/opt/slurm/slurm-start.sh
 FASTA=lysozyme.fasta

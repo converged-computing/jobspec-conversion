@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-3418
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SCALE-LETKF-RIKEN/scale-letkf/scale/run/config/squall-line/obsmake_run.sh

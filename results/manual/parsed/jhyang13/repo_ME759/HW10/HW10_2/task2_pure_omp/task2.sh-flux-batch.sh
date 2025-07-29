@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=task2
-#FLUX: -N=2
-#FLUX: -c=20
-#FLUX: --queue=instruction
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=task2
+#FLUX -N=2
+#FLUX -c=20
+#FLUX --queue=instruction
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

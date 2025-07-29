@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gierlinski_data_gen
-#FLUX: --queue=angsd_class
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=gierlinski_data_gen
+#FLUX --queue=angsd_class
+#FLUX -t=21600
+#FLUX --urgency=16
 
 spack load fastqc
 spack load -r py-multiqc

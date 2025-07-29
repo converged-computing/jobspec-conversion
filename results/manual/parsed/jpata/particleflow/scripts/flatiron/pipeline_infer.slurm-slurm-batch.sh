@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pipeinfer
-#FLUX: -c=112
-#FLUX: --exclusive
-#FLUX: --queue=eval
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeinfer
+#SBATCH --output=logs_slurm/log_%x_%j.out
+#SBATCH --error=logs_slurm/log_%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=112
+#SBATCH --mem=1000G
+#SBATCH --time=10:00:00
+#SBATCH --partition=eval
+#SBATCH: --exclusive
+#SBATCH --constraint=sapphire
+#SBATCH --nodelist=worker6302
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/sw/nix/store/3xpm36w2kcri3j1m5j15hg025my1p4kx-cuda-11.8.0/extras/CUPTI/lib64/'
 

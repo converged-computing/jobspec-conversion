@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-squidward-6525
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-cherry-3880
+#FLUX -N=2
+#FLUX -n=32
+#FLUX -t=126000
+#FLUX --urgency=16
 
 module load python
 virtualenv --no-download $SLURM_TMPDIR/env

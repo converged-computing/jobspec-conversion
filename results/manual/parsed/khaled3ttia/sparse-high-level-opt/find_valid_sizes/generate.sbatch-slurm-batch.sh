@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=dask_single_node
-#FLUX: -n=128
-#FLUX: --exclusive
-#FLUX: --queue=disc
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_single_node
+#SBATCH --output=dask_single_node_%J_stdout.txt
+#SBATCH --error=dask_single_node_%J_stderr.txt
+#SBATCH --mail-user=khaled.abdelaal@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256G
+#SBATCH --time=01:00:00
+#SBATCH --partition=disc
+#SBATCH: --exclusive
+#SBATCH --chdir=/home/khaled/
 
 module load Python/3.9.5-GCCcore-10.3.0
 cd /home/khaled/sparse-high-level-opt/find_valid_sizes

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-soup-0736
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --partition=cscsci
+#SBATCH --constraint=mc,ntasks-per-node=4
 
 set -o errexit
 set -o nounset

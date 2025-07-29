@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cupcake-9682
-#FLUX: -c=3
-#FLUX: -t=300000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=20000
+#SBATCH --time=3-11:20:00
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

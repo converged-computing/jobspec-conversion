@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-milkshake-3784
-#FLUX: -c=10
-#FLUX: --queue=workq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-despacito-4374
+#FLUX -c=10
+#FLUX --queue=workq
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/p/ppowell/miniconda3/envs/EEG_Vis_CL/lib/'
 

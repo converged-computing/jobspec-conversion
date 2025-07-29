@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-sundae-1959
-#FLUX: --queue=hbfraser,hns,normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-egg-2657
+#FLUX --queue=hbfraser,hns,normal
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load anaconda3
 source activate fraserconda

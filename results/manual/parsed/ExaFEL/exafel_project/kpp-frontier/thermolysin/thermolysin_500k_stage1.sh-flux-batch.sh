@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: -N=256
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=stage1
+#FLUX -N=256
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export SRUN='srun -n 4096 -c 3'
 export SCRATCH='/lustre/orion/chm137/proj-shared/cctbx'

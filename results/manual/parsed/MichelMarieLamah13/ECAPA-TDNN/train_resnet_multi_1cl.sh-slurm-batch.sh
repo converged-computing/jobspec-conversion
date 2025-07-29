@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_multi_1cl
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_multi_1cl
+#SBATCH --output=%x_%j_output.log
+#SBATCH --error=%x_%j_error.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=GPURAM_Min_16GB
 
 source /etc/profile.d/conda.sh
 conda activate ecapa_tdnn

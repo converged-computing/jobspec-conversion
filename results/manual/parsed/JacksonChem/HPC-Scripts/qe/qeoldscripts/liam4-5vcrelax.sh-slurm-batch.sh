@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=liam4-5pvcr.qe
-#FLUX: -n=100
-#FLUX: --queue=amd
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=liam4-5pvcr.qe
+#SBATCH --output=/dev/null
+#SBATCH --error=liam4-5pvcr.e%j
+#SBATCH --mail-user=baj0040@auburn.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=250GB
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=amd
 
 NPROC=100
 CURDIR=$(pwd)

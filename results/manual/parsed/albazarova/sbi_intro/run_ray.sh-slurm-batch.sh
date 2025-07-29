@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-muffin-9047
-#FLUX: -N=2
-#FLUX: -c=96
-#FLUX: --queue=gpus
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=training2405
+#SBATCH --output=outputs/%j.out
+#SBATCH --error=outputs/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpus
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='ib0'
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

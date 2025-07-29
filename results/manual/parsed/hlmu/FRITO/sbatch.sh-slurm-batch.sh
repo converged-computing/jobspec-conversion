@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=passt
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=passt
+#SBATCH --output=slurm-%j-passt.high_low_branch.out
+#SBATCH --error=slurm-%j-passt.high_low_branch.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:nvidia_a100_80gb_pcie:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=compute
 
 pwd; hostname;
 TIME=$(date -Iseconds)

@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=4
-#FLUX: --queue=gputest
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --account=project_2002820
+#SBATCH --output=/scratch/project_2002820/lihsin/align-lang/log-eval-%j.out
+#SBATCH --error=/scratch/project_2002820/lihsin/align-lang/log-eval-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=64G
+#SBATCH --time=00:10:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "START $SLURM_JOBID: $(date)"
 function on_exit {

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nalgas-5523
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-lettuce-1926
+#FLUX -n=2
+#FLUX --queue=long
+#FLUX --urgency=16
 
 module load nextflow/22.04.3
 Assembly_Name=$(basename "$( pwd )")

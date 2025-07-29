@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=platypus
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=platypus
+#SBATCH --account=def-coling
+#SBATCH --output=%x-%j.out
+#SBATCH --mail-user=evelien.degreef@umanitoba.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
 
 module load nixpkgs/16.09 gcc/7.3.0 platypus/0.8.1
 cd /scratch/edegreef/whales/dedupRG_bam/samtools_filter/downsampled

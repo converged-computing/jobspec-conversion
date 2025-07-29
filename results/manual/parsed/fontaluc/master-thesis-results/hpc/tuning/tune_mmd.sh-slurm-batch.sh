@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-banana-4614
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/fontaluc/master-thesis-results/hpc/tuning/tune_mmd.sh

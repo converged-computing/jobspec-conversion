@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=wmpi_timings
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=wmpi_timings
+#SBATCH --output=wmpi_timings.out
+#SBATCH --error=wmpi_timings.err
+#SBATCH --mail-user=ALESSIO.VALENTINIS@studenti.units.it
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='4'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=raytune
-#FLUX: -c=8
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=raytune
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32GB
+#SBATCH --partition=long
 
 module load python/3.9 cuda/11.7 
 source ~/venvs/gflownet/bin/activate

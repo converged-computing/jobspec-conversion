@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train-tf-DA-kptimes
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=train-tf-DA-kptimes
+#FLUX --queue=titanx
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export CONFIG_PATH='script/transfer/train_tf_DA/transformer-DA-kptimes.yml'
 

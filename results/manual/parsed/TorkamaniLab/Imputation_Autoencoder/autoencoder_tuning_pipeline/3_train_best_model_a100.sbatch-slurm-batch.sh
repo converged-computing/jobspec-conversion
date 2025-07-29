@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1_train_GS
-#FLUX: -c=96
-#FLUX: --queue=stsi
-#FLUX: -t=2160000
-#FLUX: --urgency=16
+#SBATCH --job-name=1_train_GS
+#SBATCH --output=%x.oe%j
+#SBATCH --error=%x.oe%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=240G
+#SBATCH --time=25-00:00:00
+#SBATCH --partition=stsi
 
 module purge
 module load pytorch/1.7.1py38-cuda

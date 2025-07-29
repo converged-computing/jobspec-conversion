@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dics
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=dics
+#SBATCH --output=dics.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=03:00:00
+#SBATCH --array=0-3756
 
 export OMP_NUM_THREADS='1'
 

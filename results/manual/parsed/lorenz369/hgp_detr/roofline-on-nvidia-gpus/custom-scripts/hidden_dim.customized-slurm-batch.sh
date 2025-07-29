@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parrot-9758
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=m3930
+#SBATCH --output=/global/homes/m/marcolz/DETR/gpu_reports/GPU1/slurm/slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=gpu
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'
 export MASTER_PORT='12345'

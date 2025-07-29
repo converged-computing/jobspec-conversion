@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=rtx
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=rtx
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export FS_ROOT='/tmp/fs_`id -u`'
 

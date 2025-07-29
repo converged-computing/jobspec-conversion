@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-soup-3887
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4g
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

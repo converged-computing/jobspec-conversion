@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-2795
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=top5norm_forkjoin.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 module load julia/1.7.3
 module load mpi/openmpi-4.1.3

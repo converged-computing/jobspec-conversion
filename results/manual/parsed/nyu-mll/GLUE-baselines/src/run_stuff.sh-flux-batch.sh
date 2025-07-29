@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-carrot-5423
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-knife-0089
+#FLUX -t=172800
+#FLUX --urgency=16
 
 SCRATCH_PREFIX='/misc/vlgscratch4/BowmanGroup/awang/'
 PROJECT_NAME='glue-baselines'

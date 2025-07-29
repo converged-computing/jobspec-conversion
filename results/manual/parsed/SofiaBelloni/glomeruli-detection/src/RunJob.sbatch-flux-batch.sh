@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=segnet_unet
-#FLUX: --queue=cuda
-#FLUX: -t=417600
-#FLUX: --urgency=16
+#FLUX --job-name=segnet_unet
+#FLUX --queue=cuda
+#FLUX -t=417600
+#FLUX --urgency=16
 
 module load intel/python/3/2019.4.088
 module load nvidia/cudasdk/11.6

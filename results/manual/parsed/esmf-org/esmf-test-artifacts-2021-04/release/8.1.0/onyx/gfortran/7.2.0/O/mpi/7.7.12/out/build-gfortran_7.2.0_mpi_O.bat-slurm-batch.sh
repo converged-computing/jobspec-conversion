@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-9041
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/esmf-org/esmf-test-artifacts-2021-04/release/8.1.0/onyx/gfortran/7.2.0/O/mpi/7.7.12/out/build-gfortran_7.2.0_mpi_O.bat

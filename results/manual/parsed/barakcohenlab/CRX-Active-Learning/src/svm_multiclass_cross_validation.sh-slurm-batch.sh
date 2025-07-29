@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lamp-8276
-#FLUX: --urgency=16
+#SBATCH --output=log/svm_multiclass_cross_validation.out
+#SBATCH --error=log/svm_multiclass_cross_validation.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=650G
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

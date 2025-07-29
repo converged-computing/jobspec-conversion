@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-snack-8412
-#FLUX: -c=20
-#FLUX: --queue=small
-#FLUX: -t=610
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=10G
+#SBATCH --time=00:10:10
+#SBATCH --partition=small
 
 module load maestro parallel
 find data  -name '*.sdf' | \

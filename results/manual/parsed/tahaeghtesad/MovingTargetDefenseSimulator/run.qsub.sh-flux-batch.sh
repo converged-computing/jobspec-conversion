@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cinnamonbun-4458
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-cherry-7063
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tahaeghtesad/MovingTargetDefenseSimulator/run.qsub.sh

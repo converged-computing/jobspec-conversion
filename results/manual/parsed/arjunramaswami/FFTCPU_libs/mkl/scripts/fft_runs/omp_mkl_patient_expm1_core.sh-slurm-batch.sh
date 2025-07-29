@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fftw_openmp
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=fftw_openmp
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long
 
 module reset
 module load toolchain/intel/2021a

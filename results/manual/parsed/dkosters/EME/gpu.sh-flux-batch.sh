@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-chair-3622
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-pot-1042
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

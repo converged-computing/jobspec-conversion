@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SLG
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=SLG
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 print_error_and_exit() { echo "***ERROR*** $*"; exit 1; }
 module purge || print_error_and_exit "No 'module' command"

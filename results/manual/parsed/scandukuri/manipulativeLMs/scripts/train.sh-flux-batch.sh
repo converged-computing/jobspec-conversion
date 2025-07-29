@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-caramel-1261
-#FLUX: -c=48
-#FLUX: --queue=cocoflops
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-hope-4314
+#FLUX -c=48
+#FLUX --queue=cocoflops
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source /scr/jphilipp/miniconda3/etc/profile.d/conda.sh
 conda activate py310-jphilipp 

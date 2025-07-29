@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=DMRcaller
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=DMRcaller
+#SBATCH --account=HENDERSON-SL3-CPU
+#SBATCH --output=logs/DMRcaller_hypo_nomerge_%A_%a.out
+#SBATCH --error=logs/DMRcaller_hypo_nomerge_%A_%a.err
+#SBATCH --mail-user=ajt200@cam.ac.uk
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=150G
+#SBATCH --time=12:00:00
+#SBATCH --partition=skylake
+#SBATCH: --no-requeue
+#SBATCH --array=2
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

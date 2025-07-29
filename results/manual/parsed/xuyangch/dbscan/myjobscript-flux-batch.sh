@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=myMPI
-#FLUX: -n=64
-#FLUX: --queue=largemem512GB
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=myMPI
+#FLUX -n=64
+#FLUX --queue=largemem512GB
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export CC='icc'
 export CXX='icpc'

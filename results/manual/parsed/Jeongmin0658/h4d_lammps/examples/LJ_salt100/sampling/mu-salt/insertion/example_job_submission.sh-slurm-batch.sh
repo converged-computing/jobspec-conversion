@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-snack-1456
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Jeongmin0658/h4d_lammps/examples/LJ_salt100/sampling/mu-salt/insertion/example_job_submission.sh

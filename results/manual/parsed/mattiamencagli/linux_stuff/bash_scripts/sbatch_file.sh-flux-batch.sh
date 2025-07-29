@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PLUTO
-#FLUX: --queue=prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=PLUTO
+#FLUX --queue=prod
+#FLUX -t=1200
+#FLUX --urgency=16
 
 source ${HOME}/modules_files/pluto_mod
 nvidia-smi

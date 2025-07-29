@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-buttface-6740
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/drvinceknight/testing_for_ZD/data/raw/noisy.pbs

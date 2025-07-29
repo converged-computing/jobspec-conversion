@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pancake-6099
-#FLUX: -N=4
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#SBATCH --account=cc-debug
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:50:00
+#SBATCH --constraint=ntasks-per-node=64
 
 export NAMD_BIN='/home/ppomorsk/projects/def-ppomorsk/benchmarks/stmv/Linux-x86_64-g++-memopt'
 

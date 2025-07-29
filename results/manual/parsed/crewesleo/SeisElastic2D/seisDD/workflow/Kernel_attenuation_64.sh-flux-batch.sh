@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Kernel_attenuation
-#FLUX: -N=64
-#FLUX: -n=64
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=Kernel_attenuation
+#FLUX -N=64
+#FLUX -n=64
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts" '

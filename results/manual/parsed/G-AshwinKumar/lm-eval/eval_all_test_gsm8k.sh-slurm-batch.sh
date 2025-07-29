@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --output=slurm_output/out.txt
+#SBATCH --error=slurm_output/err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=247G
+#SBATCH --time=06:00:00
 
 MODEL_NAME="openchat_3.5"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

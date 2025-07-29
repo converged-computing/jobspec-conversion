@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=main_run
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=main_run
+#SBATCH --output=slurm_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=1-06:00:00
+#SBATCH --constraint=ntasks-per-node=10
 
 SRCDIR=$HOME/repos/transformer_image_caption/src/
 cd $SRCDIR

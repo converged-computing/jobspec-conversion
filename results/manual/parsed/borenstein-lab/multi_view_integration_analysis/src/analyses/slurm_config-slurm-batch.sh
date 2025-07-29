@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=misc_efrat
-#FLUX: -c=8
-#FLUX: --queue=cpu-elbo
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=misc_efrat
+#SBATCH --output=slurm_logs/slurm.%A.%a.out
+#SBATCH --error=slurm_logs/slurm.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu-elbo
+#SBATCH --array=3-5,10,13
 
 echo "SLURM DEBUG: now working on task number ${SLURM_ARRAY_TASK_ID}"
 BASE_DIR=/specific/elhanan/PROJECTS/MULTI_VIEW_EM/repo/multi_view_integration_analysis

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cinnamonbun-4316
-#FLUX: --queue=long
-#FLUX: -t=1209540
-#FLUX: --urgency=16
+#SBATCH --account=accountname
+#SBATCH --output=example.out
+#SBATCH --error=example.err
+#SBATCH --mail-user=email@email.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=13-23:59:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=28
 
 module load python
 module load python2/2.7.13

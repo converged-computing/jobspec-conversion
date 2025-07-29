@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-soup-9206
-#FLUX: -c=8
-#FLUX: --queue=m3g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-bicycle-0161
+#FLUX -c=8
+#FLUX --queue=m3g
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PROJECT='dl65'
 export CONDA_ENVS_PATH='/projects/$PROJECT/$USER/conda_envs'

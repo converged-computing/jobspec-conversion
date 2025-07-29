@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=x2_runv
-#FLUX: --queue=th1-2020-64
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=x2_runv
+#FLUX --queue=th1-2020-64
+#FLUX -t=259200
+#FLUX --urgency=16
 
   CURDIR=$SLURM_SUBMIT_DIR
   CURDIR_=`pwd | cut -d '/' -f 4-`

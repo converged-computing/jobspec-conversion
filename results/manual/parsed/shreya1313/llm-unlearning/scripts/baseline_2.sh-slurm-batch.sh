@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=unlearning
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=unlearning
+#SBATCH --output=baseline_2.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=64GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 module purge
 singularity exec --nv \

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lizard-5563
-#FLUX: -c=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=0
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 

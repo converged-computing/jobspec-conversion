@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run_llama2
-#FLUX: -N=2
-#FLUX: -t=87120
-#FLUX: --urgency=16
+#SBATCH --job-name=run_llama2
+#SBATCH --output=run_llama2.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=80GB
+#SBATCH --time=1-00:12:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='WARN'

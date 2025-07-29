@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-train-4268
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=1200
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=0-31
 
 export RUST_BACKTRACE='1'
 export DATA='data/${MODEL_NAME}.hdf5'

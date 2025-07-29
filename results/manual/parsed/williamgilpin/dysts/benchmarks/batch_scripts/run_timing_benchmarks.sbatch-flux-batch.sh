@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=benchmarks
-#FLUX: --queue=normal
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --job-name=benchmarks
+#FLUX --queue=normal
+#FLUX -t=9000
+#FLUX --urgency=16
 
 conda init bash
 conda info --envs

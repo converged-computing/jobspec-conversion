@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=streamBenchmark.2
-#FLUX: -N=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=streamBenchmark.2
+#FLUX -N=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export GASNET_PHYSMEM_MAX='63G'
 export GASNET_PHYSMEM_NOPROBE='1'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-milkshake-2417
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun mkdir -p ${scratchDataDir} ${scratchContDir}
 srun cp ${lusRelDatPath} ${scratchDataDir}

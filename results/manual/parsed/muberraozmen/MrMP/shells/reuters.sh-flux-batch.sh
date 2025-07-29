@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pedo-1926
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-rabbit-9452
+#FLUX -t=60
+#FLUX --urgency=16
 
 dataset=reuters
 cuda_on=$true

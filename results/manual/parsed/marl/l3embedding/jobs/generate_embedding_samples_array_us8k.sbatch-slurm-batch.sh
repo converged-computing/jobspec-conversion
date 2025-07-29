@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=generate-l3embedding-samples
-#FLUX: -c=8
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=generate-l3embedding-samples
+#SBATCH --output=generate-l3embedding-samples-%A-%a.out
+#SBATCH --error=generate-l3embedding-samples-%A-%a.err
+#SBATCH --mail-user=name@email.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64GB
+#SBATCH --time=7-00:00:00
 
 source ~/.bashrc
 cd /home/$USER/dev

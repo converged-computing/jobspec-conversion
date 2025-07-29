@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-despacito-9948
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export Qmatey_dir='$( cd -- "$(dirname "$0 ")" >/dev/null 2>&1 ; pwd -P )/'
 export projdir='$( cd -- "$(dirname "$1 ")" >/dev/null 2>&1 ; pwd -P )/'

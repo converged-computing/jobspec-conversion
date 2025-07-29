@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DRO_adult_gridsearch
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=37800
-#FLUX: --urgency=16
+#FLUX --job-name=DRO_adult_gridsearch
+#FLUX -c=6
+#FLUX --queue=gpu_shared_course
+#FLUX -t=37800
+#FLUX --urgency=16
 
 module purge
 module load 2019

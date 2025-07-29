@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rvr62
-#FLUX: --queue=fast.q
-#FLUX: --urgency=16
+#FLUX --job-name=rvr62
+#FLUX --queue=fast.q
+#FLUX --urgency=16
 
 module load openmpi-2.0/intel
 module load anaconda3

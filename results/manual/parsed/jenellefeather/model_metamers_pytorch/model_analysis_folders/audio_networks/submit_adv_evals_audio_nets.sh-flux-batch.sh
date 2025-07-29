@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=behavior_plot
-#FLUX: -c=4
-#FLUX: --queue=mcdermott
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=behavior_plot
+#FLUX -c=4
+#FLUX --queue=mcdermott
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

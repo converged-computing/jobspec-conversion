@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=domainnet
-#FLUX: -c=6
-#FLUX: --queue=ShangHAI
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=domainnet
+#FLUX -c=6
+#FLUX --queue=ShangHAI
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd ..
 py_main='main'

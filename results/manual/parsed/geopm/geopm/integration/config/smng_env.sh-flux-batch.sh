@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-arm-4364
-#FLUX: --urgency=16
+#FLUX --job-name=purple-house-6307
+#FLUX --urgency=16
 
 export CC='icc'
 export CXX='icpc'

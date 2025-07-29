@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=molpal
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=molpal
+#FLUX -c=8
+#FLUX --queue=normal
+#FLUX -t=480
+#FLUX --urgency=16
 
 export NUM_GPUS='$( echo $CUDA_VISIBLE_DEVICES | awk -F ',' '{print NF}' )'
 

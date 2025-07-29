@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-1008
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/sake/scripts/ani_no_batch/run.sh

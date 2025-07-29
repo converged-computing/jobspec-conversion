@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hobbit-5664
-#FLUX: -n=160
-#FLUX: --queue=genoa
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-lentil-4243
+#FLUX -n=160
+#FLUX --queue=genoa
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

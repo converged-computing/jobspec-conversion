@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=process_video
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=process_video
+#SBATCH --output=slurm/%j.%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=6gb
+#SBATCH --time=00:20:00
+#SBATCH --partition=gpu
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 echo "Command: $0 $@"

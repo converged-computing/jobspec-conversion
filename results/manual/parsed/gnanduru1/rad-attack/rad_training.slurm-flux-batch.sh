@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rad-training
-#FLUX: --queue=bii-gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=rad-training
+#FLUX --queue=bii-gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 date
 nvidia-smi

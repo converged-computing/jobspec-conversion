@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=astute-plant-5416
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: --queue=parallel
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-gato-8392
+#FLUX -N=4
+#FLUX -n=96
+#FLUX --queue=parallel
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export IPM_NESTED_REGIONS='1'
 

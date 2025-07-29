@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=IsONformDrosophila
-#FLUX: --queue=core
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=IsONformDrosophila
+#SBATCH --account=snic2021-5-572
+#SBATCH --mail-user=alexander.petri@math.su.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=core
 
 set -o errexit
 module load gcc/9.3.0

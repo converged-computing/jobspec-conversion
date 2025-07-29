@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-destiny-9126
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-bike-2250
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

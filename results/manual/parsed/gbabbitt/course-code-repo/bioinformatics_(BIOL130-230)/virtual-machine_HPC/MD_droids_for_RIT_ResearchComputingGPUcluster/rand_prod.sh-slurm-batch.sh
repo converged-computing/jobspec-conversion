@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=test_2
-#FLUX: --queue=tier3
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_2
+#SBATCH --account=silico
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=mr8236@rit.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=10G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=tier3
+#SBATCH --constraint=vram40|vram32
 
 spack unload --all
 spack load amber@20 /6r7gnm4

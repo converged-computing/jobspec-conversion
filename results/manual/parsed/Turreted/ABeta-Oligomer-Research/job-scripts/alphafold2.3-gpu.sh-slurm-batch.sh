@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=af-gpu-test
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=af-gpu-test
+#SBATCH --account=pi-haddadian
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,v100
 
 export TF_FORCE_UNIFIED_MEMORY='1'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='4.0'

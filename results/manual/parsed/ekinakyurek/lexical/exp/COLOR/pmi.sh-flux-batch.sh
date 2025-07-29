@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pmicolor
-#FLUX: -c=5
-#FLUX: -t=172800
-#FLUX: --urgency=50
+#FLUX --job-name=pmicolor
+#FLUX -c=5
+#FLUX -t=172800
+#FLUX --urgency=50
 
 dim=512
 lr=1.0

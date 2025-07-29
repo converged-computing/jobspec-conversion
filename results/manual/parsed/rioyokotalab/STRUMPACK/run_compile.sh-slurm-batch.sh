@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=STRUMPACK
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=STRUMPACK
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/sameer.deshmukh/gitrepos/gsl-2.7.1/build/lib'
 export OMP_NUM_THREADS='1'

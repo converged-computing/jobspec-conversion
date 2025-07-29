@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_voro
-#FLUX: --queue=bdwall
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps_voro
+#SBATCH --output=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/Example-LAMMPS/swift-all/experiment/output.txt
+#SBATCH --error=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/Example-LAMMPS/swift-all/experiment/error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=bdwall
+#SBATCH --constraint=ntasks-per-node=36
+#SBATCH --chdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/Example-LAMMPS/swift-all/experiment
 
 export I_MPI_FABRICS='shm:tmi'
 

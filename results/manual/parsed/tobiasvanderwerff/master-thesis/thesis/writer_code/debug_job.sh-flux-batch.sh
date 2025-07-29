@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dbg
-#FLUX: --queue=gpushort
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=dbg
+#FLUX --queue=gpushort
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -euo pipefail
 module purge

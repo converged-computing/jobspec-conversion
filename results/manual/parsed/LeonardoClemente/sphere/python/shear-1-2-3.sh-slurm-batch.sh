@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-chip-2066
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/shear-1-2-3.sh

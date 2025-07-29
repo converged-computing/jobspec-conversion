@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pull_from_s3
-#FLUX: --urgency=16
+#FLUX --job-name=pull_from_s3
+#FLUX --urgency=16
 
 eval $(spack load --sh py-s3cmd@2.3.0)
 read s3Path data_dir < <(sed -n ${SLURM_ARRAY_TASK_ID}p $1)

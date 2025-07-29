@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hw4_v100_computations
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=hw4_v100_computations
+#SBATCH --output=%x.out
+#SBATCH --mail-user=aditya.wagh@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=64GB
+#SBATCH --time=01:00:00
 
 module purge
 singularity exec --nv \

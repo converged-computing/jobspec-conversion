@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rpc_margo_test
-#FLUX: -N=2
-#FLUX: --queue=cm2_tiny
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=rpc_margo_test
+#FLUX -N=2
+#FLUX --queue=cm2_tiny
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load slurm_setup
 module use ~/.modules

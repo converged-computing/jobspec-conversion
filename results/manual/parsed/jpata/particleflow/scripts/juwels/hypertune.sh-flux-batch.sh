@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hypertune
-#FLUX: -N=4
-#FLUX: --queue=booster
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=hypertune
+#FLUX -N=4
+#FLUX --queue=booster
+#FLUX -t=86399
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

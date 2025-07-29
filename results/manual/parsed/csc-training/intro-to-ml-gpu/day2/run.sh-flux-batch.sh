@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nalgas-4054
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-bicycle-1045
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=900
+#FLUX --urgency=16
 
 PYTHON=python3
 if [ -n "$SING_IMAGE" ]; then

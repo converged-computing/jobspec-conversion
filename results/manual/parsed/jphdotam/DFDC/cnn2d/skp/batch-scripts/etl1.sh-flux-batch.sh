@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-snack-3014
-#FLUX: -c=4
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-soup-1466
+#FLUX -c=4
+#FLUX -t=518400
+#FLUX --urgency=16
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/etl

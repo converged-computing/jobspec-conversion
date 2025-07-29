@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=GPU-Test
-#FLUX: --queue=gpu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=GPU-Test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=4000M
+#SBATCH --time=03:00:00
+#SBATCH --partition=gpu
 
 module load intel/2020.4  ompi/4.1.2 lammps-gpu/24Mar22
 echo "Starting run at: `date`"

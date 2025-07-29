@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GBpost
-#FLUX: -n=5
-#FLUX: --queue=pAll
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=GBpost
+#FLUX -n=5
+#FLUX --queue=pAll
+#FLUX -t=28800
+#FLUX --urgency=16
 
 schism_exec=/gpfs/work/ksddata/code/schism/source_code/schism/schism_2021_wwm_HDF5/bin/pschism_strand_WWM_ANALYSIS_GOTM_TVD-SB # SCHISM executable to run with
 schism_bindir=/gpfs/work/ksddata/code/schism/source_code/schism/schism20210420/bin # schism binary folder containing binaries to combine outputs and hotstarts

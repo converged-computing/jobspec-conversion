@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-5835
-#FLUX: -c=8
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-motorcycle-5661
+#FLUX -c=8
+#FLUX -t=3540
+#FLUX --urgency=16
 
 source ~/.bash_functions
 mod_py39

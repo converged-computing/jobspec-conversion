@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nalgas-2813
-#FLUX: -n=10
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-noodle-9888
+#FLUX -n=10
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module add cuda/10.0
 module add cudnn/7-cuda-10.0

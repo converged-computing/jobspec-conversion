@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=SpiralReco
-#FLUX: -c=16
+#FLUX --job-name=SpiralReco
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='16'
 export SINGULARITYENV_OMP_NUM_THREADS='16'

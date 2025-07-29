@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-9636
-#FLUX: --urgency=16
+#SBATCH --output=/home/wang4538/DGMS-master/out/%j.out
+#SBATCH --error=/home/wang4538/DGMS-master/out/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ -d cifar10 --num-classes 10"
 GENERAL="--lr 2e-5 --batch-size 128 --epochs 350 --workers 4 --base-size 32 --crop-size 32 --nesterov"

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=short_pulse
-#FLUX: -n=4
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=short_pulse
+#SBATCH --account=my_account
+#SBATCH --output=short_pulse%j.out
+#SBATCH --error=short_pulse%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH --qos=standard
 
 module purge
 module load PrgEnv-cray

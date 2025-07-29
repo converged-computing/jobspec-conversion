@@ -1,4 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lemur-0376
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 

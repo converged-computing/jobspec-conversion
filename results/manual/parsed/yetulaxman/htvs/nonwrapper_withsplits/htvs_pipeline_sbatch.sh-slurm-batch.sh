@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pastry-7439
-#FLUX: -n=40
-#FLUX: --queue=small
-#FLUX: -t=54610
-#FLUX: --urgency=16
+#SBATCH --account=project_xxxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:10:10
+#SBATCH --partition=small
 
 module load maestro 
 bash script_file.sh

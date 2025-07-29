@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dl2_${tag1}_${runs}
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=dl2_${tag1}_${runs}
+#SBATCH --account=$batchA
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=63g
+#SBATCH --partition=short
 
 here=$(pwd)
 configbase=${here}/config_base.yaml

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=amm-testing-heavy
-#FLUX: --queue=pascal
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=amm-testing-heavy
+#SBATCH --account=LEE-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=pascal
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

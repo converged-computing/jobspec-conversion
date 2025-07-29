@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=extract2D
-#FLUX: -n=12
-#FLUX: --exclusive
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=extract2D
+#SBATCH --output=extract2D.o%j
+#SBATCH --error=extract2D.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:30:00
+#SBATCH: --exclusive
+#SBATCH --constraint=HSW24
 
 NB_NPROC=12 #(= 1 regions * 1 variable * 12 month)
 runcode() { srun --mpi=pmi2 -m cyclic -n $@ ; }

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-2285
-#FLUX: -c=36
-#FLUX: --queue=normal
-#FLUX: -t=86340
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-bits-7504
+#FLUX -c=36
+#FLUX --queue=normal
+#FLUX -t=86340
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='36'
 

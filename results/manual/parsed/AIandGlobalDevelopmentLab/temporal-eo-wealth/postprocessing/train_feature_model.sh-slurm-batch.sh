@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-latke-1785
-#FLUX: --queue=alvis
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=SNIC2022-1-37
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=alvis
 
 data_dir=${1}
 model_name=${2}

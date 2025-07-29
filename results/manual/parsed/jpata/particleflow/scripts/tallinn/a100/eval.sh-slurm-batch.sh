@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fudge-0350
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/tf-2.14.0.simg
 cd ~/particleflow

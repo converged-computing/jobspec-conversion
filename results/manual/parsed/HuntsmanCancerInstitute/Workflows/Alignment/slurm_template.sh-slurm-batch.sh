@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=MYNAME
-#FLUX: --queue=hci-rw
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=MYNAME
+#SBATCH --account=hci-rw
+#SBATCH --mail-user=name@utah.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=hci-rw
+#SBATCH --constraint=c28
 
 jobName=MYNAME
 coreID=MYID

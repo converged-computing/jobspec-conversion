@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hobbit-8779
-#FLUX: -n=4
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --account=es_biol
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpumem:23G
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=23:59:59
+#SBATCH --constraint=ntasks-per-node=4
 
 source .env
 CMD=${1:-train}

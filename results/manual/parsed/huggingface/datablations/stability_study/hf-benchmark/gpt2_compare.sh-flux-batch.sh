@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gpt2_compare
-#FLUX: -c=40
+#FLUX --job-name=gpt2_compare
+#FLUX -c=40
 #FLUX: --exclusive
-#FLUX: --queue=pilot
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=pilot
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions/'
 export NCCL_SOCKET_IFNAME='hsn0,hsn1,hsn2,hsn3'

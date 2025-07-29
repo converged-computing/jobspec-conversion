@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=miniproject
-#FLUX: -c=32
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=miniproject
+#SBATCH --account=share-ie-idi
+#SBATCH --output=yolo-norway_japan_usa_1280.out
+#SBATCH --mail-user=jorgbor@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:A100m40:2
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 cd ${SLURM_SUBMIT_DIR}/yolov7
 module purge

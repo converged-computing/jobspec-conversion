@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-arm-8622
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-latke-2945
+#FLUX -c=2
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='$HOME/local/python/2.7.13'
 

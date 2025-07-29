@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-snack-7530
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --mail-user=h.wilde@warwick.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4571
+#SBATCH --time=2-00:00:00
 
 export JULIA_PROJECT='/home/dcs/csrxgb/synthetic/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/cmdstan-2.24.1'

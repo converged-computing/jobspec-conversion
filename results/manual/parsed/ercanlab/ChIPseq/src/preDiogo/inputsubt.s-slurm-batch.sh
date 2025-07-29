@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=subtractInput
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=subtractInput
+#SBATCH --output=/scratch/las821/reports/slurm_inputsubt_%j.out
+#SBATCH --error=/scratch/las821/reports/slurm_inputsubt_%j.err
+#SBATCH --mail-user=las821@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5GB
+#SBATCH --time=01:00:00
 
 module load perl/intel/5.24.0
 module load r/intel/3.4.2

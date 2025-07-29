@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-muffin-7841
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-cattywampus-4775
+#FLUX -t=345600
+#FLUX --urgency=16
 
 logdir='logs/smallcifar5-resnet20-debug'
 dataset='small_cifar5'

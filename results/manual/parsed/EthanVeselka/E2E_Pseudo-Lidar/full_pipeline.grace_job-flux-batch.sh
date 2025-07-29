@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pseudo_lidar_pipeline
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=pseudo_lidar_pipeline
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load GCC/11.3.0
 module load CUDA/11.7.0

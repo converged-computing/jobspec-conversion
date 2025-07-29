@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-egg-3217
-#FLUX: -n=28
-#FLUX: --queue=secondary
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=secondary
 
 cd /projects/aces
 module load singularity ## Load the singularity runtime to your environment

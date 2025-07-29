@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-butter-4670
-#FLUX: -N=48
-#FLUX: -n=4608
-#FLUX: --queue=standard96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=48
+#SBATCH --ntasks=4608
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard96
+#SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

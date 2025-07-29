@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-1181
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-pedo-6187
+#FLUX -t=900
+#FLUX --urgency=16
 
 module purge
 module load octotiger

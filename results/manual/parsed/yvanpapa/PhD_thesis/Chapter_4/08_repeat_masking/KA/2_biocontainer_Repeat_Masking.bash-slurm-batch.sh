@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=KA_repeatmasker
-#FLUX: -c=48
-#FLUX: --queue=bigmem
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=KA_repeatmasker
+#SBATCH --output=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/KA/%j.out
+#SBATCH --error=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/KA/%j.err
+#SBATCH --mail-user=yvan.papa@vuw.ac.nz
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=256G
+#SBATCH --time=6-00:00:00
+#SBATCH --partition=bigmem
 
 threads=48
 module load singularity/3.5.2

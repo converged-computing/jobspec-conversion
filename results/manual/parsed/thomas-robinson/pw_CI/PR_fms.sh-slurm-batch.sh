@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=FMS_container
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=FMS_container
+#SBATCH --output=FMS_container_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
 
 intelVersion=2021.2
 container=/contrib/intel${intelVersion}_netcdfc4.7.4_ubuntu.sif

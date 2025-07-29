@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chair-7899
-#FLUX: -c=2
-#FLUX: --queue=general
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16384
+#SBATCH --time=06:00:00
+#SBATCH --partition=general
+#SBATCH --qos=medium
 
 /usr/bin/nvidia-smi
 /usr/bin/scontrol show job -d "$SLURM_JOB_ID"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=48
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -n=48
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

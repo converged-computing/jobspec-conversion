@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vina
-#FLUX: --queue=tsl-long
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=vina
+#FLUX --queue=tsl-long
+#FLUX -t=864000
+#FLUX --urgency=16
 
 Usage='vina.sh <input pdbqt> <config> <output dir> <ligand directory>'
 f=$1

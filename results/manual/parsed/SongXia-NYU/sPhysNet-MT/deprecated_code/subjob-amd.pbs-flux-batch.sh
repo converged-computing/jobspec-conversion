@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=AMD-DNN-embed
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=AMD-DNN-embed
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

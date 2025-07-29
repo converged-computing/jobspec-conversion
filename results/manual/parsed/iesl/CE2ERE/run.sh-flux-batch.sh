@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=longformer_5
-#FLUX: -c=5
-#FLUX: --queue=2080ti-long
-#FLUX: -t=601200
-#FLUX: --urgency=16
+#FLUX --job-name=longformer_5
+#FLUX -c=5
+#FLUX --queue=2080ti-long
+#FLUX -t=601200
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/tianyiyang/git/CE2ERE/'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_estimator
-#FLUX: -n=64
-#FLUX: --queue=high2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=run_estimator
+#FLUX -n=64
+#FLUX --queue=high2
+#FLUX -t=360000
+#FLUX --urgency=16
 
 echo ""
 hostname

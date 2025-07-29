@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-citrus-8020
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/muszyna25/ppe_icon_model/run/checksuite.rcnl.dwd.de/exp.run_ICON_13_R2B08-dkltest.run

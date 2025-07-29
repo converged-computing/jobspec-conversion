@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mo
-#FLUX: --queue=conroy-intel,shared,itc_cluster
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=mo
+#SBATCH --output=mo_%a.out
+#SBATCH --error=mo_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=conroy-intel,shared,itc_cluster
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/mo.cat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

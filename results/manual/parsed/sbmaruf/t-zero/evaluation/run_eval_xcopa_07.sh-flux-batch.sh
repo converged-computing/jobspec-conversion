@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-toaster-4875
-#FLUX: --queue=PA100q
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-staircase-0871
+#FLUX --queue=PA100q
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'
 

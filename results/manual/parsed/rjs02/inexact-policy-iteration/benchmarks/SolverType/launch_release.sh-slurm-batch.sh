@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=iPI Benchmark
-#FLUX: -n=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=iPI Benchmark
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=01:00:00
 
 date
 module purge

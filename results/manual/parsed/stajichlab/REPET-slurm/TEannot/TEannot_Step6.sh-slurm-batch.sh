@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=S6_TEannot
-#FLUX: -n=4
-#FLUX: --queue=intel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=S6_TEannot
+#SBATCH --output=TEannot-step6-%a.stdout
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=intel
 
 module load repet/2.5
 LOCAL_ALIGNERS=("blastx" "tblastx")

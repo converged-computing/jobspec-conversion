@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-mpi
-#FLUX: -n=2
+#FLUX --job-name=hello-mpi
+#FLUX -n=2
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMPI_MCA_btl_sm_eager_limit='8192'
 export OMPI_MCA_btl_vader_eager_limit='8192'

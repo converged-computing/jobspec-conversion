@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dsae128_3
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=dsae128_3
+#SBATCH --account=Project_2002244
+#SBATCH --output=jo_ele_128_3.txt
+#SBATCH --error=je_ele_128_3.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=12G
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.2.0

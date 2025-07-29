@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=READEX-kripke
-#FLUX: -n=24
-#FLUX: --exclusive
-#FLUX: --queue=haswell
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=READEX-kripke
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2500M
+#SBATCH --time=00:30:00
+#SBATCH --partition=haswell
+#SBATCH: --exclusive
 
 export SCOREP_FILTERING_FILE='scorep.filt'
 

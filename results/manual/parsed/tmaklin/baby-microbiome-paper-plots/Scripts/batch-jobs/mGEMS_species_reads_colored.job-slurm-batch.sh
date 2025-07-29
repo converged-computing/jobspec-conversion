@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wgs-msweep-species-reads-colored
-#FLUX: --queue=short
-#FLUX: -t=28799
-#FLUX: --urgency=16
+#SBATCH --job-name=wgs-msweep-species-reads-colored
+#SBATCH --output=/wrk/users/temaklin/wgs-msweep/logs/wgs-msweep-species-reads-colored.out
+#SBATCH --error=/wrk/users/temaklin/wgs-msweep/logs/wgs-msweep-species-reads-colored.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4096
+#SBATCH --time=07:59:59
+#SBATCH --partition=short
+#SBATCH --array=11-1679
 
 export LC_ALL='C'
 export LANG='C'

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=AMRPlusPlus
-#FLUX: --queue=shas
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=AMRPlusPlus
+#SBATCH --mail-user=enriquedoster@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=shas
+#SBATCH --qos=long
 
 module purge
 module load jdk/1.8.0

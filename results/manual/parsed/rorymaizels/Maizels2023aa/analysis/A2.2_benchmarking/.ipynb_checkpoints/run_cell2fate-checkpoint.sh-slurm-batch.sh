@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bm_c2f
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#SBATCH --job-name=bm_c2f
+#SBATCH --output=output-cell2fate.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120G
+#SBATCH --time=18:00:00
+#SBATCH --partition=gpu
 
 ml Python/3.10.8-GCCcore-12.2.0
 module load CUDA/11.1.1-GCC-10.2.0

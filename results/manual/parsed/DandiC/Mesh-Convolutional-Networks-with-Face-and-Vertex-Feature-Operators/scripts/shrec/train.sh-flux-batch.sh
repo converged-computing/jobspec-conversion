@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=s1245
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=s1245
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 enable_lmod
 module load python/3.6

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=xmas_test
-#FLUX: --queue=xmas
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#FLUX --job-name=xmas_test
+#FLUX --queue=xmas
+#FLUX -t=3900
+#FLUX --urgency=16
 
 STIME=300   # sleep time
 JOBS=20  

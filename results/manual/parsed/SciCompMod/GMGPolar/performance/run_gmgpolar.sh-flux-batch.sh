@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gmgpolar-setup
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=gmgpolar-setup
+#FLUX -t=300
+#FLUX --urgency=16
 
 origin_NOT_coarse=0	# origin_NOT_coarse
 theta_aniso=0		# theta_aniso

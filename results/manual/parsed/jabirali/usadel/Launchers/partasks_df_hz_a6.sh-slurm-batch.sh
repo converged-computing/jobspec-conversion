@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-knife-0007
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/jabirali/usadel/Launchers/partasks_df_hz_a6.sh

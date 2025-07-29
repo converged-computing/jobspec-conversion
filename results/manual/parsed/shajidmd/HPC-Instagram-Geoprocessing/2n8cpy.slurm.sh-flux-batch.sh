@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-butter-4078
-#FLUX: -N=2
-#FLUX: -n=4
-#FLUX: --queue=physical
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-parrot-7770
+#FLUX -N=2
+#FLUX -n=4
+#FLUX --queue=physical
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load Python/3.5.2-goolf-2015a
 echo "Cluster and Cloud Computing Assignment1 using 2 nodes and 8 cores"

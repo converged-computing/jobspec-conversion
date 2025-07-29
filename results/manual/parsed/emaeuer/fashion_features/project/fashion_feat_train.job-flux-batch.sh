@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fashion_feat_train
-#FLUX: --queue=clara-job
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=fashion_feat_train
+#FLUX --queue=clara-job
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

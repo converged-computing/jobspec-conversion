@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=4mpi-alt
-#FLUX: -N=4
-#FLUX: -c=16
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=4mpi-alt
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$HOME/build/NAMD/NAMD_3.0b6_Source/tcl/lib:$HOME/build/NAMD/NAMD_3.0b6_Source/fftw/lib:$LD_LIBRARY_PATH'
 export PATH='$HOME/build/NAMD/NAMD_3.0b6_Source/charm-v7.0.0/bin:$PATH'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-noodle-0717
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=01:00:00
 
 if [ $# -ne 2 ]; then
     echo 'ERROR!  The number of arguments should be only 2.'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-9652
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-soup-8878
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export PRODUCT_DIRECTORY='/orange/adamginsburg/ALMA_IMF/2017.1.01355.L/imaging_results/'
 export IPYTHONDIR='/tmp'

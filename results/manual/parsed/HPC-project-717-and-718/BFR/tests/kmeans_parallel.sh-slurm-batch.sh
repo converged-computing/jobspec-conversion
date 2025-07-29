@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poodle-6639
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/HPC-project-717-and-718/BFR/tests/kmeans_parallel.sh

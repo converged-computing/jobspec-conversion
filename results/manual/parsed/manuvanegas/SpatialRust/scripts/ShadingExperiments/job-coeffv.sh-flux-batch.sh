@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CVs
-#FLUX: -n=5
-#FLUX: --queue=public
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=CVs
+#FLUX -n=5
+#FLUX --queue=public
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train14
-#FLUX: --queue=students-prod
-#FLUX: --urgency=16
+#SBATCH --job-name=train14
+#SBATCH --output=/homes/pmartinello/output_tr_14.txt
+#SBATCH --error=/homes/pmartinello/error_tr_14.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=students-prod
 
 export PYTHONNOUSERSITE='1'
 export MASTER_ADDR='${nodelist[0]}'

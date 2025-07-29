@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conv2d-pt
+#FLUX --job-name=conv2d-pt
 #FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=special
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export PROFILER='cupy'
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'

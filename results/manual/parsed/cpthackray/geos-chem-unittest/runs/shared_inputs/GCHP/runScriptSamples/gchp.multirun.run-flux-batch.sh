@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-0912
-#FLUX: -n=6
-#FLUX: --queue=huce_intel
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-muffin-6333
+#FLUX -n=6
+#FLUX --queue=huce_intel
+#FLUX -t=30
+#FLUX --urgency=16
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

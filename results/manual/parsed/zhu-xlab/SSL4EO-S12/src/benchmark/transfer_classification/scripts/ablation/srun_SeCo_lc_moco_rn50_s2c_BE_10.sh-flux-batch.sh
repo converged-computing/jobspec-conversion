@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=BE_LC_moco
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=BE_LC_moco
+#FLUX -n=4
+#FLUX -c=10
+#FLUX --queue=booster
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

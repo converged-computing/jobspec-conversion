@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=UNetResWDCGAN
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=UNetResWDCGAN
+#SBATCH --output=out.txt
+#SBATCH --error=error.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 module load gnu7

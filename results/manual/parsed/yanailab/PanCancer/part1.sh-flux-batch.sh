@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Gyn_part1
-#FLUX: -c=40
-#FLUX: --queue=cpu_short
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=Gyn_part1
+#FLUX -c=40
+#FLUX --queue=cpu_short
+#FLUX -t=36000
+#FLUX --urgency=16
 
 source ~/.bashrc
 if [ "$#" == 3 ]; then

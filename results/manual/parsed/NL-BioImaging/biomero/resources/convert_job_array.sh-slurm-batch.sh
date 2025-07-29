@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conversion
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=conversion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --array=1-1
 
 echo "Job Parameters:"
 echo "CONFIG_PATH: $CONFIG_PATH"

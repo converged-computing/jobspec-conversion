@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-carrot-5450
-#FLUX: -c=16
+#FLUX --job-name=sticky-onion-3109
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='cores'

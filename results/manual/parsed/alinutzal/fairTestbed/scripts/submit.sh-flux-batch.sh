@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mnist
-#FLUX: -c=20
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=mnist
+#FLUX -c=20
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load miniconda3
 module load cuda/11.8.0

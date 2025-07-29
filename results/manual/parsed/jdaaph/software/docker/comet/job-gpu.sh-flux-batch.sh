@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test-gpu
-#FLUX: --queue=gpu-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=test-gpu
+#FLUX --queue=gpu-shared
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load singularity
 module unload mvapich2_ib

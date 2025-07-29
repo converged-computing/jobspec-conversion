@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=metalearning_FC100_MetaOptNet_RR
-#FLUX: -c=4
-#FLUX: --queue=project
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=metalearning_FC100_MetaOptNet_RR
+#FLUX -c=4
+#FLUX --queue=project
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load Anaconda3/2022.05

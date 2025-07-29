@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=poly_graph_training
-#FLUX: --queue=comm_gpu_inter
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=poly_graph_training
+#FLUX --queue=comm_gpu_inter
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NUM_CORES='$((SLURM_JOB_NUM_NODES * SLURM_CPUS_ON_NODE))'
 

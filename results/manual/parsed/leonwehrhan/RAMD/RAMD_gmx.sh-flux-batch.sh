@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peanut-0071
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-nunchucks-2189
+#FLUX -n=8
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module add GROMACS/2020.5-RAMD-2.0-fosscuda-2019b;
 mkdir sim${SLURM_ARRAY_TASK_ID};

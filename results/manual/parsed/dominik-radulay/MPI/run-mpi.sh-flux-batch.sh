@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poo-0044
-#FLUX: --queue=course
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=arid-platanos-5243
+#FLUX --queue=course
+#FLUX -t=120
+#FLUX --urgency=16
 
 export numMPI='${SLURM_NTASKS:-1} # if '-n' not used then default to 1'
 

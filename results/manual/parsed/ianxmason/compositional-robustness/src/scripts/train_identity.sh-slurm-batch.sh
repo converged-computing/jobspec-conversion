@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fat-citrus-0865
-#FLUX: -n=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=<your_slurm_logging_path>/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=11GB
+#SBATCH --array=0
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

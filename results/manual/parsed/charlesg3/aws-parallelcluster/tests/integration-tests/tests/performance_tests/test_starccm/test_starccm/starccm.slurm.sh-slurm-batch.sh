@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=starccm
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --job-name=starccm
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export FI_EFA_FORK_SAFE='1'
 export I_MPI_OFI_LIBRARY_INTERNAL='0'

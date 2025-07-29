@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WaveNet
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=WaveNet
+#SBATCH --output=out/%j.out
+#SBATCH --error=out/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10gb
+#SBATCH --time=15:00:00
 
 module purge
 module load openmpi/intel/2.0.3

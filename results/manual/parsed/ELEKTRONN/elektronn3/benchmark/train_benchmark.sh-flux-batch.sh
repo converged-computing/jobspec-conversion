@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=E3_TRAIN_GPU_TEST
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=E3_TRAIN_GPU_TEST
+#FLUX -c=4
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load anaconda/3/2020.02

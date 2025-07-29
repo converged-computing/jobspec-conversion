@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BQSR
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=BQSR
+#FLUX -c=8
+#FLUX --queue=all
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export PATH='/software/bin:$PATH;'
 

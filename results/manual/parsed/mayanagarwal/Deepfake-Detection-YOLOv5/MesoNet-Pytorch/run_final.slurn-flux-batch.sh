@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-spoon-3513
-#FLUX: -n=8
-#FLUX: --queue=gpgpumse
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-animal-0374
+#FLUX -n=8
+#FLUX --queue=gpgpumse
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load fosscuda/2019b

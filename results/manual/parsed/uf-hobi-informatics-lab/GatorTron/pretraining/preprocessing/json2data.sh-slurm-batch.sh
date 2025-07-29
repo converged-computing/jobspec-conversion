@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=json2data
-#FLUX: -c=40
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=hpg-ai
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=json2data
+#SBATCH --output=./j2d_%j.out
+#SBATCH --mail-user=USER@DOMAIN
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=512gb
+#SBATCH --time=12:00:00
+#SBATCH --partition=hpg-ai
 
 pwd; hostname; date
 echo "Pipeline task on processing json to data bin"

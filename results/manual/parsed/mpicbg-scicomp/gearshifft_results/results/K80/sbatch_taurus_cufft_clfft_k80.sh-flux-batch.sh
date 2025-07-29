@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gearshifftK80
+#FLUX --job-name=gearshifftK80
 #FLUX: --exclusive
-#FLUX: --queue=gpu2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=gpu2
+#FLUX -t=36000
+#FLUX --urgency=16
 
 k=$SLURM_ARRAY_TASK_ID
 CURDIR=$HOME/cuda-workspace/gearshifft

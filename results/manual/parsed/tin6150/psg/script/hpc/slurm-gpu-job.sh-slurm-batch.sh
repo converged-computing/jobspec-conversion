@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=SnGpuTest
-#FLUX: --queue=savio4_gpu
-#FLUX: -t=29999
-#FLUX: --urgency=16
+#SBATCH --job-name=SnGpuTest
+#SBATCH --account=scs
+#SBATCH --output=sn_%N_%j.out
+#SBATCH --error=sn_%N_%j.err
+#SBATCH --mail-user=tin@berkeley.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=08:19:59
+#SBATCH --partition=savio4_gpu
+#SBATCH --qos=savio_normal
 
 LOGDIR=/global/scratch/users/tin/JUNK/
 MAQ=$(hostname)

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fastcpc
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=fastcpc
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export TRITON_CACHE_DIR='$HOME/.cache/triton # Important - avoids OOM error when /tmp is full'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-chip-7854
-#FLUX: --queue=shas-testing
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=hello-blackbean-7629
+#FLUX --queue=shas-testing
+#FLUX -t=120
+#FLUX --urgency=16
 
 module purge
 module load matlab/R2019b

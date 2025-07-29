@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cosma_miniapp
-#FLUX: -N=10
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=cosma_miniapp
+#SBATCH --output=cosma_miniapp.out
+#SBATCH --error=cosma_miniapp.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:02:00
+#SBATCH --constraint=mc,ntasks-per-node=2
 
 export CC='`which cc`'
 export CXX='`which CC`'

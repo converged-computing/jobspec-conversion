@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=10
-#FLUX: --queue=student
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --output=logger-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --partition=student
+#SBATCH --qos=quick
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

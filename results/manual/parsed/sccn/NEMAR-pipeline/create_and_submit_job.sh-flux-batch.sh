@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-nunchucks-0133
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pedo-6915
+#FLUX --urgency=16
 
 dsnumber="$1"
 path="/expanse/projects/nemar/openneuro/processed/logs"

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-diablo-5445
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=mpi_p2p_array.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 module load openmpi/gcc/64/1.10.7
 rm -f /xfs2/courses/cs/csci4850/princewill.okorie/hpc/mpi_p2p_array

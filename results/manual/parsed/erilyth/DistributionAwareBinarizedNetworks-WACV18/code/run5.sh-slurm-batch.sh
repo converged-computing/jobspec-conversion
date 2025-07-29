@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-puppy-3133
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=ameya.prabhu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=2048
+#SBATCH --time=2-00:00:00
+#SBATCH --nodelist=gnode26
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

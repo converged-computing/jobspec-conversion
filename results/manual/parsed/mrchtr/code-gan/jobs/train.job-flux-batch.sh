@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=code-gan
-#FLUX: --queue=clara-job
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=code-gan
+#FLUX --queue=clara-job
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load Python
 cd /work/users/mi144quky

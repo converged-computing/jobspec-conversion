@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=diff_exp.txt
-#FLUX: -c=4
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=diff_exp.txt
+#FLUX -c=4
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export __Init_Default_Modules='1'
 export TMOUT='7200'

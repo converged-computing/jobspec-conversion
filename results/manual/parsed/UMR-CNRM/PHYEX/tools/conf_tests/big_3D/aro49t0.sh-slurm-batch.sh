@@ -1,12 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-general-2694
-#FLUX: -N=40
-#FLUX: -n=1280
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --nodes=40
+#SBATCH --ntasks=1280
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=247000
+#SBATCH --time=00:40:00
+#SBATCH --partition=normal256
+#SBATCH: --exclusive
 
 export JOB_NAME='arome_e700'
 export JOB_ID='$SLURM_JOB_ID'

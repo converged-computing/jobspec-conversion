@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=yolov3-voc-lin-6
-#FLUX: -c=16
-#FLUX: --queue=dgx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=yolov3-voc-lin-6
+#SBATCH --output=batch/out/yolov3-voc-lin-6.out
+#SBATCH --mail-user=tsoi@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=32G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=dgx
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

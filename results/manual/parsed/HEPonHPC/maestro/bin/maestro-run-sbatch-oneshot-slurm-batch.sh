@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=A14run3-2ndcenter-oneshot-np150-pa3
-#FLUX: -N=5
-#FLUX: --queue=bdw
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=A14run3-2ndcenter-oneshot-np150-pa3
+#SBATCH --account=PEDAL
+#SBATCH --output=/lcrc/project/PEDAL/mkrishnamoorthy/maestro/a14app/console/A14run3-2ndcenter-oneshot-np150-pa3.out
+#SBATCH --error=/lcrc/project/PEDAL/mkrishnamoorthy/maestro/a14app/console/A14run3-2ndcenter-oneshot-np150-pa3.error
+#SBATCH --mail-user=mkrishnamoorthy@anl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=bdw
+#SBATCH --constraint=ntasks-per-node=36
 
 module purge
 source /home/oyildiz/mohan/pythia/pythia8-diy-master/install/bin/latest-160522/rivetenv.sh

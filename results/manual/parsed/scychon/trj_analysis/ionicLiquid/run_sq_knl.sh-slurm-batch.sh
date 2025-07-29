@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=structure
-#FLUX: -n=64
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=structure
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH: --no-requeue
 
 export PATH='/home1/02572/scychon/program/gmx-4.6.5_knl/bin:$PATH'
 export OMP_NUM_THREADS='8'

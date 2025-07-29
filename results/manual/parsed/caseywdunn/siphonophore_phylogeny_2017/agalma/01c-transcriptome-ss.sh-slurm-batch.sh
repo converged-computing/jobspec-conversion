@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-earthworm-3972
-#FLUX: -c=20
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=120G
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=intel
+#SBATCH --array=1-9
 
 export AGALMA_DB='/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite'
 export BIOLITE_RESOURCES='threads=${SLURM_CPUS_ON_NODE},memory=${SLURM_MEM_PER_NODE}M'

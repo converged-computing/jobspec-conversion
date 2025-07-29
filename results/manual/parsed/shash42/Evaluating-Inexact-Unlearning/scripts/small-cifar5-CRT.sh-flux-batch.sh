@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leopard-5885
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-lamp-1666
+#FLUX -t=345600
+#FLUX --urgency=16
 
 logdir='logs/smallcifar5-resnet20-debug'
 dataset='small_cifar5'

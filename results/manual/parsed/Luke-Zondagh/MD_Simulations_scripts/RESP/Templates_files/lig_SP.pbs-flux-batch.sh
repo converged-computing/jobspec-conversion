@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-taco-1585
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-lettuce-4911
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Luke-Zondagh/MD_Simulations_scripts/RESP/Templates_files/lig_SP.pbs

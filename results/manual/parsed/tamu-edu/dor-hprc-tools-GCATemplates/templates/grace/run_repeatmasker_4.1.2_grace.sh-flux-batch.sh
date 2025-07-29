@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=repeatmasker
-#FLUX: -c=24
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=repeatmasker
+#FLUX -c=24
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load GCC/9.3.0  OpenMPI/4.0.3  RepeatMasker/4.1.2-p1-HMMER
 <<README

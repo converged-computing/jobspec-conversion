@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-7023
-#FLUX: -n=40
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=PAS1960
+#SBATCH --output=/fs/ess/PAS1960/GENETIS_HPol/Evolutionary_Loop/Run_Outputs/%x/XF_Outputs/XF_%a.output
+#SBATCH --error=/fs/ess/PAS1960/GENETIS_HPol/Evolutionary_Loop/Run_Outputs/%x/XF_Errors/XF_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 cd $WorkingDir
 cd Run_Outputs/$RunName/GPUFlags

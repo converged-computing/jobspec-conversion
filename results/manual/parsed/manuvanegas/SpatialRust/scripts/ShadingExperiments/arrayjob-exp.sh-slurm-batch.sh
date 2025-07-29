@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=shadeexp
-#FLUX: -n=5
-#FLUX: --queue=htc
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=shadeexp
+#SBATCH --output=logs/shading/exp-%A-%a.o
+#SBATCH --error=logs/shading/exp-%A-%a.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=htc
+#SBATCH --array=1-4
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Fast Setup - mini GPT2 train
-#FLUX: --queue=dgx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Fast Setup - mini GPT2 train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=dgx
+#SBATCH --qos=devel
+#SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export CMD=' \'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-6496
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-poodle-7575
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OMaraLab/MD_run_scripts/gadi/gadi_gpuvolta_x01_gmx2019-3_mod_UA_4h.pbs

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=FishDetector
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=FishDetector
+#SBATCH --output=logs/process_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --mem=6gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 set -eu
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"

@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=reranker
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=reranker
+#SBATCH --output=reranker_slurm_output_%j.out
+#SBATCH --error=reranker_slurm_output_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=00:30:00
 
 module load cuda
 module load tensorflow/2.5.0-py39-cuda112

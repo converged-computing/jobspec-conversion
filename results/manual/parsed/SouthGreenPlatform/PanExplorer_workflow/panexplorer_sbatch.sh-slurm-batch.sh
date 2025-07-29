@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=panexplorer
-#FLUX: -c=18
-#FLUX: --queue=supermem
-#FLUX: --urgency=16
+#SBATCH --job-name=panexplorer
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --mem=20G
+#SBATCH --partition=supermem
 
 export PANEX_PATH='$PWD'
 

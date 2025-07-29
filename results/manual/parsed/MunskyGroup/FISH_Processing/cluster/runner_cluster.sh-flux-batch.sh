@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t2
-#FLUX: -n=4
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=t2
+#FLUX -n=4
+#FLUX --queue=all
+#FLUX --urgency=16
 
 module load gnu9/9.4.0 
 module load cudnn/8.3-10.2

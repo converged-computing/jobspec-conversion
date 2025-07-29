@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=downsample
-#FLUX: -c=10
-#FLUX: --queue=cpu_p
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=downsample
+#SBATCH --output=slurm_out_%a_%J.txt
+#SBATCH --error=slurm_error_%a_%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=100GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cpu_p
+#SBATCH --qos=cpu_normal
+#SBATCH --array=1
 
 export TMPDIR='/localscratch'
 

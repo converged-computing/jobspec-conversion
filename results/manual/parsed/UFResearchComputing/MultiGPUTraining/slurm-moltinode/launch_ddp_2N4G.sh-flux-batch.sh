@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-car-5782
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --gpus-per-task=2
-#FLUX: --queue=hpg-ai
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-mango-8990
+#FLUX -N=2
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --gpus-per-task=2
+#FLUX --queue=hpg-ai
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export LOGLEVEL='INFO'
 

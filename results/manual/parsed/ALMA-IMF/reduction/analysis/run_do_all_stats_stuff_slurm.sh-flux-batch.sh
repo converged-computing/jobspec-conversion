@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stats_stuff
-#FLUX: -n=16
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=stats_stuff
+#FLUX -n=16
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export WORK_DIR='/orange/adamginsburg/ALMA_IMF/2017.1.01355.L/imaging_results'
 export IPYTHON='/orange/adamginsburg/miniconda3/envs/casa6_py36/bin/ipython '

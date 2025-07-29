@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BBPip
-#FLUX: -c=4
-#FLUX: --queue=htc
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=BBPip
+#SBATCH --output=mulitple_jobs_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=htc
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-300
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

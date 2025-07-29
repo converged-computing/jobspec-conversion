@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-earthworm-5822
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ye-luo/miniqmc-obsolete/testing/miniqmc_rhea_cpu_full.sh

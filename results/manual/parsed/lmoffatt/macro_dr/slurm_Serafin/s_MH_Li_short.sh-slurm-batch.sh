@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=MH_Li
-#FLUX: -c=16
-#FLUX: --queue=short
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=MH_Li
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00:01:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'

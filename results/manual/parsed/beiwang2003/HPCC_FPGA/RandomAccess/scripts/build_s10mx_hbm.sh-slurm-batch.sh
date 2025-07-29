@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pot-5372
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=fpgasyn
 
 module load intelFPGA_pro/19.4.0
 module load intel_s10mx/19.3.0

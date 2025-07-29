@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-plant-2535
-#FLUX: -n=2
-#FLUX: --queue=test
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=test-account
+#SBATCH --output=slurm.%u.%j.%N.stdout.txt
+#SBATCH --error=slurm.%u.%j.%N.errout.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4096M
+#SBATCH --time=12:00:00
+#SBATCH --partition=test
 
 export SRMWORKINGDIR='$SCRATCH_DIRECTORY'
 

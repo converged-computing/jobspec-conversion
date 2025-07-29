@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lemur-3794
-#FLUX: -n=4
-#FLUX: --queue=maxwell
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-cherry-3474
+#FLUX -n=4
+#FLUX --queue=maxwell
+#FLUX -t=432000
+#FLUX --urgency=16
 
 setpkgs -a tensorflow_0.12
 python  /scratch/yaoy4/BodySegmentation/run.py train 13

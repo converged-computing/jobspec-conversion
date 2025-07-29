@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=baselines
-#FLUX: -c=6
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=baselines
+#SBATCH --account=def-boyuwang
+#SBATCH --output=/home/ruizhipu/scratch/regression/imbalanced-contrastive-ordinary-regression//imdb_wiki/slurm_output/slurm-%j-%x.out
+#SBATCH --mail-user=18651885620@163.com
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=4-00:00:00
 
 module load StdEnv/2020 cuda scipy-stack python/3.8
 source /home/ruizhipu/envs/py38/bin/activate

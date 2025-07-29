@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leg-1420
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_HCP_main_step3_sex_split3.pbs

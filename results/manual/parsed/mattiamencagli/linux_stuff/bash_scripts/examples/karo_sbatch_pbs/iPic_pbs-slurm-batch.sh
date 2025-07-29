@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hippo-6062
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mattiamencagli/linux_stuff/bash_scripts/examples/karo_sbatch_pbs/iPic_pbs

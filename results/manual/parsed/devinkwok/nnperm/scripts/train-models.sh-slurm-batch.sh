@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-sundae-7420
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --output=train-models-%j.out
+#SBATCH --error=train-models-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=48G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=long
 
 MODEL=(cifar_vgg_16_64 cifar_resnet_20_64)
 DATASET=(svhn cifar100)

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pretrain_both_mr_50
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=pretrain_both_mr_50
+#FLUX --queue=n1s8-v100-1
+#FLUX -t=43200
+#FLUX --urgency=16
 
 singularity exec \
     --nv --overlay /scratch/nv2099/overlay-50G-10M.ext3:ro \

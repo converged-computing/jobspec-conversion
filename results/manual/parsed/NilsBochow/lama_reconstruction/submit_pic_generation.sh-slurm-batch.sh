@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=era5_pic_generation
-#FLUX: -n=12
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=era5_pic_generation
+#SBATCH --output=era5_pic_generation.out
+#SBATCH --error=era5_pic_generation.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=priority
 
 export TORCH_HOME='/p/tmp/bochow/LAMA/lama/ && export PYTHONPATH=/p/tmp/bochow/LAMA/lama/'
 export HDF5_USE_FILE_LOCKING='FALSE'

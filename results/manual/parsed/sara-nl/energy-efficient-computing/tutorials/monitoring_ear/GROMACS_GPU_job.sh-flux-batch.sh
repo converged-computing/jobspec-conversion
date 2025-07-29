@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS.GPU
-#FLUX: --queue=gpu
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=GROMACS.GPU
+#FLUX --queue=gpu
+#FLUX -t=3540
+#FLUX --urgency=16
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a-CUDA-11.7.0

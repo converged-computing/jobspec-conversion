@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peas-2112
-#FLUX: --queue=a100q
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-kerfuffle-8047
+#FLUX --queue=a100q
+#FLUX -t=900
+#FLUX --urgency=16
 
 nvidia-smi
 nvcc --version

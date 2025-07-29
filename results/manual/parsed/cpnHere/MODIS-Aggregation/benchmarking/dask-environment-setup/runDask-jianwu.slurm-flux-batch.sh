@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=daskJob_maxm_n8_p8_day
-#FLUX: -N=4
+#FLUX --job-name=daskJob_maxm_n8_p8_day
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=high_mem
-#FLUX: --urgency=16
+#FLUX --queue=high_mem
+#FLUX --urgency=16
 
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 which python

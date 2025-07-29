@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nunchucks-5049
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-fork-0144
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load python/anaconda3-2018.12
 source activate pytorch-2023

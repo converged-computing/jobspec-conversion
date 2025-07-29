@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gen_dm_4x4
-#FLUX: -c=8
-#FLUX: --queue=compIntel
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=gen_dm_4x4
+#FLUX -c=8
+#FLUX --queue=compIntel
+#FLUX -t=54000
+#FLUX --urgency=16
 
 module load QuantumMiniconda3/4.7.10
 source /marisdata/frohnert/cluster/gen_dm/venv/bin/activate

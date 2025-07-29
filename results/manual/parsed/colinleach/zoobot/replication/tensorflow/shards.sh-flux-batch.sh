@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=shards
+#FLUX --job-name=shards
 #FLUX: --exclusive
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX -t=82800
+#FLUX --urgency=16
 
 pwd; hostname; date
 CATALOG_DIR=/share/nas2/walml/galaxy_zoo/decals/long_term_model_archive/prepared_catalogs/decals_dr_galahad

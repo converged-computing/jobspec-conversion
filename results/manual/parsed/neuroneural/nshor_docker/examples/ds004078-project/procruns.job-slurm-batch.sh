@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PRP4078
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=qTRD
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=PRP4078
+#SBATCH --account=psy53c17
+#SBATCH --output=/data/users2/jwardell1/nshor_docker/examples/ds004078-project/jobs/out%A_%a.out
+#SBATCH --error=/data/users2/jwardell1/nshor_docker/examples/ds004078-project/jobs/error%A_%a.err
+#SBATCH --mail-user=jwardell1@student.gsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=120g
+#SBATCH --time=20:00:00
+#SBATCH --partition=qTRD
 
 sleep 5s
 module load singularity/3.10.2

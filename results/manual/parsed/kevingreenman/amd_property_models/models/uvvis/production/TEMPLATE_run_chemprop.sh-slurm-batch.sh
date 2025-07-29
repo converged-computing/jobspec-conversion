@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=uvvis_chemprop
-#FLUX: -n=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=uvvis_chemprop
+#SBATCH --output=uvvis_chemprop-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
+#SBATCH --mem-per-cpu=30gb
+#SBATCH --time=1-00:00:00
 
 echo "Date              = $$(date)"
 echo "Hostname          = $$(hostname -s)"

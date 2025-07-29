@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pancake-0448
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=9
+#SBATCH --array=1-14%14
 
 echo "START"
 date

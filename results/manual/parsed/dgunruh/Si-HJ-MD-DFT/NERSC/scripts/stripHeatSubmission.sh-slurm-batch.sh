@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mergeSi2
-#FLUX: -n=64
-#FLUX: --queue=med2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mergeSi2
+#SBATCH --output=outputs/cSiaSiMD-%j.output
+#SBATCH --mail-user=dgunruh@ucdavis.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=250G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=med2
+#SBATCH --constraint=ntasks-per-node=64
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export j='$SLURM_JOB_ID'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cherry-2579
-#FLUX: -n=16
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --output=logs/predict.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64G
+#SBATCH --partition=batch
+#SBATCH --array=1,3,5
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'
 

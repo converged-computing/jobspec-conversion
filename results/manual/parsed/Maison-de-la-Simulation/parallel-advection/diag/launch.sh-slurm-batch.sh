@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=adv1dsycl
-#FLUX: --exclusive
-#FLUX: --queue=gpua100
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=adv1dsycl
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:59:00
+#SBATCH --partition=gpua100
+#SBATCH: --exclusive
 
 NB_RUNS=10
 EXECUTABLE=$1

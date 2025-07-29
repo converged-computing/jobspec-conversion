@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-2621
-#FLUX: -c=8
-#FLUX: --queue=serial
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-leopard-1771
+#FLUX -c=8
+#FLUX --queue=serial
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load anaconda/2-4.1.1

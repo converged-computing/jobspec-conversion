@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=N36T421b
-#FLUX: -N=473
+#FLUX --job-name=N36T421b
+#FLUX -N=473
 #FLUX: --exclusive
-#FLUX: --queue=normal256
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=normal256
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export QSUB_WORKDIR='`/bin/pwd`'
 export FORT_BUFFERED='yes'

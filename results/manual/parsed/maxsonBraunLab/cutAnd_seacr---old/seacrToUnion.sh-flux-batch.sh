@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-8040
-#FLUX: --queue=exacloud
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=phat-leg-9610
+#FLUX --queue=exacloud
+#FLUX -t=1440
+#FLUX --urgency=16
 
 PROJECT=/your/project/directory/
 source $PROJECT/cutAnd_seacr/cutAndConfig.sh

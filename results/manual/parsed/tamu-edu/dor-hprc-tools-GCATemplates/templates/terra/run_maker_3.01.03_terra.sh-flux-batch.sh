@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=maker
-#FLUX: -c=28
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=maker
+#FLUX -c=28
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load MAKER/3.01.03-intel-2018b-Python-2.7.15
 <<README

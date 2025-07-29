@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=Ar
-#FLUX: --exclusive
-#FLUX: --queue=400p48h
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Ar
+#SBATCH --account=
+#SBATCH --output=Ar.o%j
+#SBATCH --error=Ar.e%j
+#SBATCH --mail-user=USER@msstate.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=400p48h
+#SBATCH --qos=funded
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=40
 
 export OMP_NUM_THREADS='1'
 

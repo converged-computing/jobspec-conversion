@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=remote_SAM
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=remote_SAM
+#SBATCH --output=log/%x_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load anaconda3/2022.10/gcc-11.2.0
 module load cuda/10.2.89/intel-19.0.3.199

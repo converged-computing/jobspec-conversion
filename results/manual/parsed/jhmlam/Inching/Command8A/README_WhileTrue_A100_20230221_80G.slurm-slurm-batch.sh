@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=a100G
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=172500
-#FLUX: --urgency=16
+#SBATCH --job-name=a100G
+#SBATCH --account=qcb_640
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=128GB
+#SBATCH --time=1-23:55:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=epyc-7513,a100-80gb
 
 module purge
 module load gcc/11.3.0

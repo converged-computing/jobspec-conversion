@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-destiny-5152
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SPM_HOME='/cubric/software/spm.versions/spm12'
 

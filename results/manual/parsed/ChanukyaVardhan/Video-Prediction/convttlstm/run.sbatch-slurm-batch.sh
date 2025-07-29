@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=convttlst
-#FLUX: -c=24
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=convttlst
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:v100:2
+#SBATCH --mem=32GB
+#SBATCH --time=10:00:00
 
 module purge
 singularity exec --nv \

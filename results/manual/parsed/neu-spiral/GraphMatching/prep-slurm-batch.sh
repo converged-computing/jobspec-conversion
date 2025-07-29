@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=preP
-#FLUX: --urgency=16
+#SBATCH --job-name=preP
+#SBATCH --output=slurm-logs/preproc.%j.out
+#SBATCH --error=slurm-logs/preproc.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=resnet18_imagenet_cifar100_augmented
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet18_imagenet_cifar100_augmented
+#SBATCH --output=/home/%u/job_logs/%x_%A_%a_%u.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000M
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --array=0-4
 
 module purge
 module load 2021

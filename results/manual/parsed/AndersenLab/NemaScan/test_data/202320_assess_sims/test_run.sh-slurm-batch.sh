@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=test_as
-#FLUX: --queue=genomicsguestA
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_as
+#SBATCH --account=b1042
+#SBATCH --output=20231018_test_as.log
+#SBATCH --mail-user=ryanmckeown2021@u.northwestern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=04:00:00
+#SBATCH --partition=genomicsguestA
+#SBATCH --constraint=ntasks-per-node=1
 
 module load singularity
 nextflow run main.nf -profile simulations \

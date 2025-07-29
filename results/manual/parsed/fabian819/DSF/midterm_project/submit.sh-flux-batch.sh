@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Midterm Project
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=Midterm Project
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load Python

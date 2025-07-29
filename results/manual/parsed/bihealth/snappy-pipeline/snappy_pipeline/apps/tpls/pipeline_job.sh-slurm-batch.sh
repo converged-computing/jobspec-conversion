@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=%(step_name)s
-#FLUX: --queue=%(partition)s
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=%(step_name)s
+#SBATCH --output=slurm_log/%%x-%%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=%(partition)s
 
 export TMPDIR='${HOME}/scratch/tmp'
 export SBATCH_DEFAULTS=' --output=${LOGDIR}/%%x-%%j.log'

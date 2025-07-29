@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moving_pictures
-#FLUX: -n=5
-#FLUX: --queue=lrgmem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=moving_pictures
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=lrgmem
 
 module load qiime2/2018.8
 source ../config_files/moving_picture_analysis.config

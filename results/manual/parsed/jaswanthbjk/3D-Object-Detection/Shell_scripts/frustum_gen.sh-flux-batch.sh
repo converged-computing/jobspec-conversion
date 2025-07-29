@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frustum-Pointnet
-#FLUX: --queue=any
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=frustum-Pointnet
+#FLUX --queue=any
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load cuda
 cd /home/jbandl2s/RnD/frustum-pointnets

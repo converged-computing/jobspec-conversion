@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TASKNAME
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=TASKNAME
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 gosignal=0
 concat_check=$(find -type f -name "*_concat.avi" | wc -l)

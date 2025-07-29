@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=straggler4nodes_stat
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: --queue=normal
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=straggler4nodes_stat
+#SBATCH --account=TG-MCB090174
+#SBATCH --output=straggler4nodes_stat.out
+#SBATCH --error=straggler4nodes_stat.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --partition=normal
 
 cd /data/03170/tg824689/BecksteinLab/scripts-DCD
 source activate daskMda

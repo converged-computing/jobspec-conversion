@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=juliachem-runtest
-#FLUX: -c=16
-#FLUX: --queue=haswell
-#FLUX: --urgency=16
+#FLUX --job-name=juliachem-runtest
+#FLUX -c=16
+#FLUX --queue=haswell
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='16'
 

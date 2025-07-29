@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-muffin-1573
-#FLUX: -c=20
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=ibex-cs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1,a100
 
 export DATA_DIR='/ibex/ai/reference/CV/tinyimagenet'
 export XDG_RUNTIME_DIR='/tmp node=$(hostname -s) '

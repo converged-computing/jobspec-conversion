@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-buttface-5097
-#FLUX: -N=4
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/bw_d.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/bw_d.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100x:1
+#SBATCH --mem=30gb
+#SBATCH --time=15:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuv100x,ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dask_cuml_test
-#FLUX: -N=3
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dask_cuml_test
+#FLUX -N=3
+#FLUX --queue=gpu
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load singularity
 module load gcc

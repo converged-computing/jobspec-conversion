@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-6811
-#FLUX: -c=36
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=frigid-cat-2765
+#FLUX -c=36
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export MDL_DAYS='30'
 export MDL_NNODES='107'

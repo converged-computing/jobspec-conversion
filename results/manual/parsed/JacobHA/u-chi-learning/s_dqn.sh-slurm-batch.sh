@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=logu-%A_%a
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=logu-%A_%a
+#SBATCH --output=logu-%A_%a.out
+#SBATCH --error=logu-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export WANDB_MODE='offline'
 

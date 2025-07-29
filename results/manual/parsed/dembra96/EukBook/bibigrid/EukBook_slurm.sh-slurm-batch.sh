@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=EukBook
-#FLUX: --urgency=16
+#SBATCH --job-name=EukBook
+#SBATCH --output=/home/ubuntu/EukBook_slurm-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=70-84,86-100
 
 echo "SLURM_ARRAY_TASK_ID is:  ${SLURM_ARRAY_TASK_ID}"
 source ~/.profile #to activate conda 

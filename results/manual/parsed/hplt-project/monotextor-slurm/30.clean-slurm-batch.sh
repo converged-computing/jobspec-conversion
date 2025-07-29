@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=clean
-#FLUX: -c=64
-#FLUX: --queue=small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=clean
+#SBATCH --output=logs/%x-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=1750
+#SBATCH --time=12:00:00
+#SBATCH --partition=small
 
 module load cray-python/3.9.12.1
 module load parallel

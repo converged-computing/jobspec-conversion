@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ssd_mlpv21
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ssd_mlpv21
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=02:00:00
+#SBATCH --partition=mlperf
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8,ntasks-per-socket=4
 
 export WORLD_SIZE='${SLURM_NPROCS}'
 export RANK='$((${DGXNGPU}*${SLURM_NODEID}+${SLURM_LOCALID}))'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chair-1573
-#FLUX: --queue=gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-onion-3062
+#FLUX --queue=gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/fast/users/a1699138/pattern_recognition/train_model/models-master/research:/fast/users/a1699138/pattern_recognition/train_model/models-master/research/slim'
 

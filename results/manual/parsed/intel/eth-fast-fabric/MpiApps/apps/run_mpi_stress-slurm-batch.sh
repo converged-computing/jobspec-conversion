@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-butter-9358
-#FLUX: --urgency=16
+#SBATCH --output=logs/mpi_stress.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 MPICH_PREFIX=${MPICH_PREFIX:-`cat .prefix 2>/dev/null`}
 trap "exit 1" SIGHUP SIGTERM SIGINT

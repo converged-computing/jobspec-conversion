@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=julia_mvapich2
-#FLUX: -N=4
-#FLUX: --queue=short
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=julia_mvapich2
+#FLUX -N=4
+#FLUX --queue=short
+#FLUX -t=300
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 

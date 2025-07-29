@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-onion-5626
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=angry-noodle-8791
+#FLUX -t=10800
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

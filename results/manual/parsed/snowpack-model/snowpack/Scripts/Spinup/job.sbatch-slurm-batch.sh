@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=spinup
-#FLUX: --queue=shas
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=spinup
+#SBATCH --account=xxxxxxxx
+#SBATCH --output=./sbatch_out_files/%x.%j.out
+#SBATCH --mail-user=someuser@someaddress.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=shas
+#SBATCH --qos=normal
+#SBATCH --array=1-1
 
 if [ -n "${SLURM_ARRAY_TASK_ID}" ]; then
 	command1=$(sed -n ${SLURM_ARRAY_TASK_ID}p to_exec.lst)

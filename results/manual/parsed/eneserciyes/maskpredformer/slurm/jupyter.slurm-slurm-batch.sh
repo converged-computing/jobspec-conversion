@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=jupyter
-#FLUX: -c=8
-#FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=jupyter
+#SBATCH --account=csci_ga_2572_001-2023fa-19
+#SBATCH --output=logs/jupyter_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=06:00:00
+#SBATCH --partition=n1s8-v100-1
+#SBATCH: --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

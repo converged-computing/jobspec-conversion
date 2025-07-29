@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=run_pipeline
-#FLUX: --queue=exacloud
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=run_pipeline
+#FLUX --queue=exacloud
+#FLUX -t=86400
+#FLUX --urgency=16
 
 indices_folder="/home/groups/MaxsonLab/indices"
 fastq_folder="/home/groups/MaxsonLab/nguythai/projects/pipeline_maintenance/cutTag-pipeline-singularity/.test/downsampled_fastqs"

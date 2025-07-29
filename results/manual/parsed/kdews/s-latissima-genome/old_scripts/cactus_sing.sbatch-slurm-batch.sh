@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cactus_sing
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cactus_sing
+#SBATCH --output=%x.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu
+#SBATCH --mem=20g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
 
 export TOIL_SLURM_ARGS='-t 1-0 -q normal -p gpu'
 export TOIL_SLURM_PE='${SLURM_JOB_PARTITION}'

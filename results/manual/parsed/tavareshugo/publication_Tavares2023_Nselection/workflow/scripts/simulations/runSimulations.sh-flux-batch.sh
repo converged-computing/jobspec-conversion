@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=simulations
-#FLUX: --queue=skylake
-#FLUX: -t=3000
-#FLUX: --urgency=16
+#FLUX --job-name=simulations
+#FLUX --queue=skylake
+#FLUX -t=3000
+#FLUX --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate simupop

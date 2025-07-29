@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ref_F150A
-#FLUX: -N=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ref_F150A
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=12
+#SBATCH --array=5
 
 binfile="npt02" # continue from old files
 pdbfile="F150A_autoWAT.pdb"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fr1_snakemake
-#FLUX: --queue=hpg1-compute
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=fr1_snakemake
+#FLUX --queue=hpg1-compute
+#FLUX -t=345600
+#FLUX --urgency=16
 
 unset TMPDIR
 module load python3 

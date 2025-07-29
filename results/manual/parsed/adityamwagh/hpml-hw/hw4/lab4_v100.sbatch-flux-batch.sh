@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hw4_v100_computations
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=hw4_v100_computations
+#FLUX -c=8
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 singularity exec --nv \

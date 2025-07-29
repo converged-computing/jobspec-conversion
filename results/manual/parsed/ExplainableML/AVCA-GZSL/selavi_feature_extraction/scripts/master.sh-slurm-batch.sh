@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SeLaVi_pretrain
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=SeLaVi_pretrain
+#SBATCH --output=/checkpoint/%u/jobs/%j.out
+#SBATCH --error=/checkpoint/%u/jobs/%j.err
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_ADDR='${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}'
 export MASTER_PORT='19500'

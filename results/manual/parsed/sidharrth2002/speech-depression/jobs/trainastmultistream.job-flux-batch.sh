@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astmultistream
-#FLUX: -n=2
-#FLUX: --queue=gpu.medium
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=astmultistream
+#FLUX -n=2
+#FLUX --queue=gpu.medium
+#FLUX -t=144000
+#FLUX --urgency=16
 
 module load python
 pip install transformers datasets evaluate librosa torchmetrics opensmile scikit-learn nlpaug

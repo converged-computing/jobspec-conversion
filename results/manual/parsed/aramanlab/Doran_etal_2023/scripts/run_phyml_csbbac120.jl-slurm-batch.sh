@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=runPhyML
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=runPhyML
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-12:00:00
 
 module load julia/1.9.0
 srun julia --project=@. $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')

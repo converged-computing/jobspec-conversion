@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-fork-1802
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx:1
+#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/pytorch.simg
 cd ~/ml-tau-reco

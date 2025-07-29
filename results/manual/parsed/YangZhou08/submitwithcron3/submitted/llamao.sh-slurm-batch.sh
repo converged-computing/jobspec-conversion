@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=yangzho6
-#FLUX: -c=10
-#FLUX: --queue=devlab
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=yangzho6
+#SBATCH --output=/private/home/beidic/yang/log/log-%j.out
+#SBATCH --error=/private/home/beidic/yang/log/log-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=512GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=devlab
+#SBATCH --constraint=ntasks-per-node=1,volta32gb
+#SBATCH: --no-requeue
 
 export WANDB_API_KEY='fbb26fc8718b8e58d743b5cdcabaa2396656f773 '
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7 '

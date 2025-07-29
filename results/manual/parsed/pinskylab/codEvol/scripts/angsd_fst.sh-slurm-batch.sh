@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=calcFST
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=calcFST
+#SBATCH --account=nn9244k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=2G
+#SBATCH --time=1-00:00:00
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

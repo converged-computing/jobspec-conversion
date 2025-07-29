@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=attn_pocket_prediction
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=attn_pocket_prediction
+#SBATCH --output=attn_pocket_pred_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=2
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 python -m pip install --upgrade pip
 module purge

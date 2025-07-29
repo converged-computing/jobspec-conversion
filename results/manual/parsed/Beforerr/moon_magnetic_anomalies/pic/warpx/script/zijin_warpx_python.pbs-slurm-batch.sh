@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-itch-8002
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Beforerr/moon_magnetic_anomalies/pic/warpx/script/zijin_warpx_python.pbs

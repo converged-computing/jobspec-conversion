@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=würstchen
-#FLUX: -N=8
+#FLUX --job-name=würstchen
+#FLUX -N=8
 #FLUX: --exclusive
-#FLUX: --queue=a100-cu117
-#FLUX: --urgency=16
+#FLUX --queue=a100-cu117
+#FLUX --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

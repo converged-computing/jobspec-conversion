@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LES_OCEAN
-#FLUX: -n=128
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=LES_OCEAN
+#SBATCH --output=les_ocean.eo%j
+#SBATCH --error=les_ocean.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
 
 export MPIRUN='Mpirun -np 128'
 

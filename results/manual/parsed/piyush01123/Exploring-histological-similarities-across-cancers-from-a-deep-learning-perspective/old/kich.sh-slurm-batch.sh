@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-banana-9716
-#FLUX: -n=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=delta_one
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=1024
+#SBATCH --time=1-00:00:00
+#SBATCH --nodelist=gnode26
 
 module load cuda/9.0
 module load cudnn/7-cuda-9.0

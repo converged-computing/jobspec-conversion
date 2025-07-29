@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-diablo-7466
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-soup-3312
+#FLUX --urgency=16
 

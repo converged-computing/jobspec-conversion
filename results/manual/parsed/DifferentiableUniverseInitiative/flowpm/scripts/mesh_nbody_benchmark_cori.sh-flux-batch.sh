@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-butter-4811
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-train-2578
+#FLUX -n=4
+#FLUX -c=10
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=multigpu_lbm
-#FLUX: -N=256
-#FLUX: -n=256
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#SBATCH --job-name=multigpu_lbm
+#SBATCH --nodes=256
+#SBATCH --ntasks=256
+#SBATCH --cpus-per-task=1
+#SBATCH --time=11:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 NGPUs=256
 NEXPs=2

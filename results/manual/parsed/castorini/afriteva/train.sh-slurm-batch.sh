@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chip-1135
-#FLUX: -c=10
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=def-kshook
+#SBATCH --output=logs/train_afrit5_base_am_ha_sw.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:2
+#SBATCH --mem=256G
+#SBATCH --time=7-00:00:00
 
 export WANDB_MODE='online'
 export WANDB_ENTITY='jarmy-naija'

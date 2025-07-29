@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leader-1933
-#FLUX: -c=16
-#FLUX: --queue=gpu-h100
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:h100:1
+#SBATCH --mem=190GB
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu-h100
+#SBATCH --qos=gpu
 
 module unload CUDA/11.7.0
 module unload cuDNN/8.4.1.50-CUDA-11.7.0

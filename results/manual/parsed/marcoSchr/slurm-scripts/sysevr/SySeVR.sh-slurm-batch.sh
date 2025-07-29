@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sysevr_setup
-#FLUX: -c=2
-#FLUX: --queue=gpu-tk
-#FLUX: --urgency=16
+#SBATCH --job-name=sysevr_setup
+#SBATCH --account=tk-student
+#SBATCH --output=/ukp-storage-1/schroeder_e/sysevr_setup.txt
+#SBATCH --mail-user=marco.schroeder@stud.tu-darmstadt.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --partition=gpu-tk
 
 export PATH='/ukp-storage-1/schroeder_e/cmake/cmake-3.27.7-linux-x86_64/bin:$PATH'
 

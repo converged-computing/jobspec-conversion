@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-soup-1398
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-taco-6676
+#FLUX --urgency=16
 
 export UCONTAINER_JOB_DIR='${PWD}'
 export CLUSTER_JOB_DIR='${resource_workdir}/pw/${JOB_DIR}/'

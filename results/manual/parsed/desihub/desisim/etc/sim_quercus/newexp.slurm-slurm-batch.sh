@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=newexp
-#FLUX: -N=45
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=newexp
+#SBATCH --account=desi
+#SBATCH --output=newexp_%j.log
+#SBATCH --nodes=45
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
 
 export TMPDIR='/dev/shm'
 export OMP_NUM_THREADS='1'

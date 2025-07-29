@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ekp_call
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ekp_call
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --exclude=hpc-22-13,hpc-22-08
 
 export MODULEPATH='/groups/esm/modules:$MODULEPATH'
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'

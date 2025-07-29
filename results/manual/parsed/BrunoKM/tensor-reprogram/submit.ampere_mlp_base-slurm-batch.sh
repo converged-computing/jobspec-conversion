@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mlp
-#FLUX: --queue=ampere
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mlp
+#SBATCH --account=KMK1001-SL3-GPU
+#SBATCH --output=cifar10_mlp_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=12:00:00
+#SBATCH --partition=ampere
+#SBATCH --array=2-14
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=vctk_denoise
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=vctk_denoise
+#SBATCH --output=/mnt/home/slurmlogs/vctk/denoise/symAD_vctk_48000_hop300.out
+#SBATCH --error=/mnt/home/slurmlogs/vctk/denoise/symAD_vctk_48000_hop300.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=xxx
 
 encoder="denoise/symAD_vctk_48000_hop300"
 decoder="vocoder/AudioDec_v1_symAD_vctk_48000_hop300_clean"

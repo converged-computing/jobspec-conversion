@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cat-8429
-#FLUX: --urgency=16
+#FLUX --job-name=blue-ricecake-1685
+#FLUX --urgency=16
 
 export UWENV='/software/projects/pawsey0407/setonix/venv/py310/'
 export PATH='${UWENV}/bin/:$PATH'

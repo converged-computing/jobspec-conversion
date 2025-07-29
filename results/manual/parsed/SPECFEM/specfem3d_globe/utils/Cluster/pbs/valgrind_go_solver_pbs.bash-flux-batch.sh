@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cinnamonbun-9641
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-muffin-7238
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SPECFEM/specfem3d_globe/utils/Cluster/pbs/valgrind_go_solver_pbs.bash

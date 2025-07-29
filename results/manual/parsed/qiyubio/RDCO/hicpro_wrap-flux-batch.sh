@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-buttface-6959
-#FLUX: --urgency=16
+#FLUX --job-name=peachy-cupcake-7336
+#FLUX --urgency=16
 
 Soft="hicpro_wrap"
 function usage {

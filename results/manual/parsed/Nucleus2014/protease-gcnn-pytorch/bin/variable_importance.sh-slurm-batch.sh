@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vi1
-#FLUX: --queue=main
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=vi1
+#SBATCH --output=varimport.binary.%N.%j.out
+#SBATCH --error=varimport.binary.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=main
 
 cd /scratch/cl1205/protease-gcnn-pytorch/model
 data=$1

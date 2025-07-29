@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=timecourse
-#FLUX: -t=691200
-#FLUX: --urgency=16
+#FLUX --job-name=timecourse
+#FLUX -t=691200
+#FLUX --urgency=16
 
 unset TMPDIR
 module load python3

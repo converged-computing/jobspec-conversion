@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=placid-buttface-5009
-#FLUX: -c=5
-#FLUX: --queue=amp20
-#FLUX: --urgency=16
+#SBATCH --account=cvl
+#SBATCH --output=/home/pszzz/hyzheng/text-gcd/temp/life_imagenet100_lr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20000
+#SBATCH --partition=amp20
+#SBATCH --qos=amp20
 
  # @Author: yanhuo 1760331284@qq.com
  # @Date: 2023-11-11 16:01:59

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=predict_GGR
-#FLUX: --urgency=16
+#SBATCH --job-name=predict_GGR
+#SBATCH --output=predict_GGR_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=15G
 
 module load R/4.1.1-rhel8
 METADATA='/datacommons/harteminklab/kl124/TOP/data/GGR/metadata/predictions/GGR_DNase_JASPAR2022NR_all_motifs_predict_data_table.tsv'

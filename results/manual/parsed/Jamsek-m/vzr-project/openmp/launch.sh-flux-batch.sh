@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=heat
-#FLUX: -c=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=heat
+#FLUX -c=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='TRUE'

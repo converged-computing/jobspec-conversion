@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Bx_ll_sbatch_%A
-#FLUX: -n=4
-#FLUX: --queue=broadwl
-#FLUX: --urgency=16
+#FLUX --job-name=Bx_ll_sbatch_%A
+#FLUX -n=4
+#FLUX --queue=broadwl
+#FLUX --urgency=16
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 module load matlab/2014b

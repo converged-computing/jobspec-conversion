@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=simclr_track_alpha_hparam_sweep
-#FLUX: --queue=long
-#FLUX: -t=23400
-#FLUX: --urgency=16
+#SBATCH --job-name=simclr_track_alpha_hparam_sweep
+#SBATCH --output=sbatch_out/simclr_track_alpha_hparam_sweep.%A.%a.out
+#SBATCH --error=sbatch_err/simclr_track_alpha_hparam_sweep.%A.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16GB
+#SBATCH --time=06:30:00
+#SBATCH --partition=long
+#SBATCH --array=0-79%20
 
 export LD_PRELOAD='~/Projects/SSL_alpha/fastssl/configs/hack.so 	# Olexa's hack to avoid INTERNAL ASSERT ERROR on Pytorch 1.10'
 export MKL_THREADING_LAYER='TBB'

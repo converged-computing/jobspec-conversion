@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cuquantum
-#FLUX: -c=8
-#FLUX: --queue=a100_normal_q
-#FLUX: --urgency=16
+#SBATCH --job-name=cuquantum
+#SBATCH --account=<your
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --partition=a100_normal_q
 
 module load containers/apptainer
 USER=`whoami`

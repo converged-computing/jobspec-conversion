@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mnist
-#FLUX: -c=12
-#FLUX: --queue=gpu_p2
-#FLUX: -t=53940
-#FLUX: --urgency=16
+#FLUX --job-name=mnist
+#FLUX -c=12
+#FLUX --queue=gpu_p2
+#FLUX -t=53940
+#FLUX --urgency=16
 
 module purge
 conda deactivate

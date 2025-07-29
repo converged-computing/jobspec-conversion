@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=stage1
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 i=$1
 mkdir ../temp_process/${i%.*}_stg1res

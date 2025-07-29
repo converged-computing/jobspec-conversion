@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-sundae-1148
-#FLUX: -n=8
-#FLUX: --urgency=16
+#SBATCH --output=ilamb_%j.log
+#SBATCH --mail-user=kawa6889@colorado.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=96GB
+#SBATCH --qos=blanca-csdms
 
 export ILAMB_ROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$PWD'

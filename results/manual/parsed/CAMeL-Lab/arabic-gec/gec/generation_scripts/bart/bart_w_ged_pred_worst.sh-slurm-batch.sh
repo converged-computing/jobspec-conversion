@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-snack-2650
-#FLUX: --queue=nvidia
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=100GB
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=nvidia
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/binary/bart_w_ged_pred_worst
 pred_file=qalb15_dev.preds

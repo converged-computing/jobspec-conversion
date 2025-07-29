@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lizard-2258
-#FLUX: -c=48
-#FLUX: --queue=devel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-hobbit-2023
+#FLUX -c=48
+#FLUX --queue=devel
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export NUM_WORKERS='$SRUN_CPUS_PER_TASK'

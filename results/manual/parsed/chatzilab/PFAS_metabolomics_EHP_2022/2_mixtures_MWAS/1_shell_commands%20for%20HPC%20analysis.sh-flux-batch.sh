@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-signal-4526
-#FLUX: --queue=conti
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-cupcake-6098
+#FLUX --queue=conti
+#FLUX --urgency=16
 
 export PKG_CONFIG_PATH='/packages/jags/4.3.0/lib/pkgconfig'
 

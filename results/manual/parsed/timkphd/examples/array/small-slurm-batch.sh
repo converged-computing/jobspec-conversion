@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=array_job
-#FLUX: --exclusive
-#FLUX: --queue=standard
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=array_job
+#SBATCH --account=hpcapps
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --time=00:05:00
+#SBATCH --partition=standard
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-24
 
 export input='`head -n $SLURM_ARRAY_TASK_ID $SLURM_SUBMIT_DIR/list | tail -1`'
 

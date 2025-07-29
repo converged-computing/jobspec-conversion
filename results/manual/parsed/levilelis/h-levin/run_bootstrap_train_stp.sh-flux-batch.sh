@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leader-9596
-#FLUX: -c=6
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=purple-omelette-9480
+#FLUX -c=6
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load python/3.6
 source tensorflow/bin/activate

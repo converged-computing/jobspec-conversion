@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=cuspbifurc
-#FLUX: --queue=compute
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=cuspbifurc
+#SBATCH --account=mh1126
+#SBATCH --output=./cuspbifurc_out.%j.out
+#SBATCH --error=./cuspbifurc_err.%j.out
+#SBATCH --mail-user=clara.bayley@mpimet.mpg.de
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=00:10:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=128
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

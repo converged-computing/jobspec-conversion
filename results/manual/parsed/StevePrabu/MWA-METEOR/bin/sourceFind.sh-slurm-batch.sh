@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-2870
-#FLUX: -n=36
-#FLUX: --queue=workq
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --mail-user=sirmcmissile47@gmail.com
+#SBATCH --mail-type=FAIL,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=248GB
+#SBATCH --time=03:00:00
+#SBATCH --partition=workq
 
 start=`date +%s`
 module load singularity

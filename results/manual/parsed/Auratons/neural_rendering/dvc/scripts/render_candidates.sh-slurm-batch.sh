@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=render_candidates
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=render_candidates
+#SBATCH --output=logs/render_candidates_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=amd-[01-02],node-[12,14,15,16,17]
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

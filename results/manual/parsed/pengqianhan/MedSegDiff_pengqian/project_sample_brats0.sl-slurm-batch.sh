@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=diffv2_pengqian
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=diffv2_pengqian
+#SBATCH --account=uoa03829
+#SBATCH --mail-user=phan635@aucklanduni.ac.nz
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=50G
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=gpu
 
 export PYTHONNOUSERSITE='1'
 export NCCL_DEBUG='INFO '

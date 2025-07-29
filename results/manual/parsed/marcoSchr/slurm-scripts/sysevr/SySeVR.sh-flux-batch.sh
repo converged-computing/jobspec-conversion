@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sysevr_setup
-#FLUX: -c=2
-#FLUX: --queue=gpu-tk
-#FLUX: --urgency=16
+#FLUX --job-name=sysevr_setup
+#FLUX -c=2
+#FLUX --queue=gpu-tk
+#FLUX --urgency=16
 
 export PATH='/ukp-storage-1/schroeder_e/cmake/cmake-3.27.7-linux-x86_64/bin:$PATH'
 

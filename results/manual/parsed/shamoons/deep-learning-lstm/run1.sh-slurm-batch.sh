@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-puppy-7958
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-award
 
 export CUDA_HOME='/usr/local/cuda-9.0'
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64'

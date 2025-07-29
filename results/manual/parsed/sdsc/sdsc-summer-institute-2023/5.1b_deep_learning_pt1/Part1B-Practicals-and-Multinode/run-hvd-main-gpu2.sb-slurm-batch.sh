@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tfhvd-gpu
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=tfhvd-gpu
+#SBATCH --account=use300
+#SBATCH --output=slurm.gpu2x4.%x.o%j.%N.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=4
+#SBATCH --mem=368G
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMPI_MCA_btl='self,vader'
 export UCX_TLS='shm,rc,ud,dc'

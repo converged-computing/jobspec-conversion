@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=convert_laz_np
-#FLUX: -c=24
-#FLUX: --queue=SAN32M512_L
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=convert_laz_np
+#SBATCH --account=col_nja224_uksr
+#SBATCH --output=laz_to_np_log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=01:00:00
+#SBATCH --partition=SAN32M512_L
 
 module purge
 module load intel/19.0.4.243

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Launcher
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Launcher
+#FLUX -N=2
+#FLUX -n=128
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LAUNCHER_RMI='SLURM'
 export LAUNCHER_WORKDIR='/home/easybuild/launcher_test'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-milkshake-3217
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=decode.out
+#SBATCH --error=decode.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=K80
 
 export PYTHONPATH='$PYTHONPATH:/home/lsong10/ws/exp.graph_to_seq/neural-graph-to-seq-mp'
 

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bmobenchmark
-#FLUX: -c=10
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=bmobenchmark
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10240
+#SBATCH --time=06:00:00
 
 export PYTHONPATH='/adapt/nobackup/people/jacaraba/development/tensorflow-caney'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=E0001
-#FLUX: -N=100
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=E0001
+#SBATCH --output=E0001.%J.out
+#SBATCH --error=E0001.%J.err
+#SBATCH --nodes=100
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=512M
+#SBATCH --time=01:00:00
+#SBATCH --partition=workq
 
 export EXPERIMENT_NAME='$SLURM_JOB_NAME'
 export TOTAL_NC='$SLURM_JOB_NUM_NODES'

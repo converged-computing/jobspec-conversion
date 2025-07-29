@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=AAPM_reference
-#FLUX: -N=10
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=AAPM_reference
+#FLUX -N=10
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'
 export I_MPI_FABRICS='ofi'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=fat-house-1154
-#FLUX: -c=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=logs/log-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpumem:32G
+#SBATCH --mem=10G
+#SBATCH --time=2-00:00:00
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ASpot
-#FLUX: -c=6
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=ASpot
+#SBATCH --output=log/%x.%3a.%A.out
+#SBATCH --error=log/%x.%3a.%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=90G
+#SBATCH --time=5-00:00:00
+#SBATCH --exclude=gpu212-14
 
 date
 echo "Loading anaconda..."

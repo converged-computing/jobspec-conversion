@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-underoos-2943
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/briochemc/FastBGCParameterOptimization/cluster_scripts/run_D2q_benchmarks_w0_katana.pbs

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=FFmax
-#FLUX: -c=8
-#FLUX: --queue=biochem,owners,normal
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=FFmax
+#SBATCH --output=logging/FindFmax-%j.out
+#SBATCH --error=logging/FindFmax-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=15:00:00
+#SBATCH --partition=biochem,owners,normal
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 module load python/2.7.13
 source /home/groups/herschla/rna_map/scripts/new_scripts/venv_2_7_13/bin/activate

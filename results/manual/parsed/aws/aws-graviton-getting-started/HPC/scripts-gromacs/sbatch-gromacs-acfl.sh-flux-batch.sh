@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-motorcycle-7772
-#FLUX: -n=64
+#FLUX --job-name=evasive-fork-1296
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 export PATH='/shared/openmpi-4.1.4-acfl/bin:$PATH'
 export LD_LIBRARY_PATH='/shared/openmpi-4.1.4-acfl/lib:$LD_LIBRARY_PATH'

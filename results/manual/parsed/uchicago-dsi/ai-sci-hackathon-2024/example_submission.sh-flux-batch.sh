@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hippo-3346
-#FLUX: --queue=schmidt-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-bicycle-9447
+#FLUX --queue=schmidt-gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/miniforge-24.1.2 # python 3.10
 echo "output of the visible GPU environment"

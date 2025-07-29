@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=restormer-universal-gauss-25
-#FLUX: -c=64
-#FLUX: --queue=dc-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=restormer-universal-gauss-25
+#FLUX -c=64
+#FLUX --queue=dc-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(nslookup "$MASTER_ADDR" | grep -oP '(?<=Address: ).*')'

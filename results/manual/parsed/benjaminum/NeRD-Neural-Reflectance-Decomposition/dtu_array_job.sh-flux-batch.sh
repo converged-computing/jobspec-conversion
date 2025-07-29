@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerd_dtu
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=nerd_dtu
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 scenes=(
 split16_dtu_scan122

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cherry-2834
-#FLUX: --queue=dev
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --account=spinquest
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
+#SBATCH --partition=dev
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-100
 
 module purge
 module load anaconda/2020.11-py3.8

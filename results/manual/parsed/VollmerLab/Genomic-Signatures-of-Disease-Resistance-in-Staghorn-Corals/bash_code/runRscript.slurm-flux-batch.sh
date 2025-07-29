@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Rscript
-#FLUX: -c=24
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Rscript
+#FLUX -c=24
+#FLUX --queue=short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 to_run=$1
 echo "${to_run}"

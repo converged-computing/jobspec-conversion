@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leopard-9205
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-bicycle-5931
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

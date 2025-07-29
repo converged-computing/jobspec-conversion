@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-leg-2664
-#FLUX: --queue=test
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=test
 
 export PERMEDCOE_IMAGES='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/images/)/'
 export PERMEDCOE_ASSETS='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/assets/)/'

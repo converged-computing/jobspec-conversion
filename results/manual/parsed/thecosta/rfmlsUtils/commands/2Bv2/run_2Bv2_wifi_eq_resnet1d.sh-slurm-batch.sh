@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-carrot-9480
-#FLUX: --queue=multigpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=500Gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=multigpu
 
 echo "Start JOB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 mkdir -p /home/bruno/results/2Bv2/wifi/equalized/resnet1d/

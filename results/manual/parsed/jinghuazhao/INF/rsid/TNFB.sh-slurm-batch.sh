@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=_lz
-#FLUX: --queue=cardio
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=_lz
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF/TNFB/slurm/_lz_%A_%a.o
+#SBATCH --error=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF/TNFB/slurm/_lz_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=28800
+#SBATCH --time=12:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
+#SBATCH --array=1-17
 
 export id='$(grep -v ieu-a-276 efo | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'
 

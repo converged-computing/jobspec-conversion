@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tutorial
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=tutorial
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=60G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 export MASTER_ADDR='$master_addr'
 export MASTER_PORT='13579'

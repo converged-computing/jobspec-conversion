@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=step2-saige
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=step2-saige
+#SBATCH --account=bag.prj
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=short
+#SBATCH --chdir=./
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

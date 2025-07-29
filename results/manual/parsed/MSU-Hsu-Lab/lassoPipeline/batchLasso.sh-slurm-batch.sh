@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lassoScratch
-#FLUX: -t=518340
-#FLUX: --urgency=16
+#SBATCH --job-name=lassoScratch
+#SBATCH --output=%x-%a-%A.SLURMout
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=512G
+#SBATCH --time=5-23:59:00
+#SBATCH --array=1-5
 
 module load GCC/8.3.0
 module load Python/3.8.3

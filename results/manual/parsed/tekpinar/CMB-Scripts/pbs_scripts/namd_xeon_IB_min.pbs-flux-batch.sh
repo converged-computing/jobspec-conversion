@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-egg-1664
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-pastry-5246
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tekpinar/CMB-Scripts/pbs_scripts/namd_xeon_IB_min.pbs

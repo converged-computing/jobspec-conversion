@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-3990
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=100g
 
 export DYLD_LIBRARY_PATH='/home/cmalaviy/dynet/build/dynet/:$DYLD_LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'

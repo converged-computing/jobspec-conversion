@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=detMut
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=detMut
+#SBATCH --output=detMut.%N.%j.out
+#SBATCH --error=detMut.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=4-00:00:00
 
 module purge
 module load bioinfo/snakemake-5.25.0

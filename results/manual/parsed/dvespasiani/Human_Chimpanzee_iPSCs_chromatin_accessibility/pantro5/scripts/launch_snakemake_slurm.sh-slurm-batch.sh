@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pantro5_atac_pipeline
-#FLUX: -c=20
-#FLUX: --queue=mig
-#FLUX: -t=946800
-#FLUX: --urgency=16
+#SBATCH --job-name=pantro5_atac_pipeline
+#SBATCH --account=punim0586
+#SBATCH --output=./slurm_report/slurm.out
+#SBATCH --mail-user=dvespasiani@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=400000
+#SBATCH --time=10-23:00:00
+#SBATCH --partition=mig
 
 export TMPDIR='/data/scratch/projects/punim0586/dvespasiani/tmp'
 

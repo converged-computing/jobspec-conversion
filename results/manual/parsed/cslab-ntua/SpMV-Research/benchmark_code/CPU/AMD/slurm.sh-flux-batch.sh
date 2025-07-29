@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: -c=128
+#FLUX --job-name=job
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --queue=ju-standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=ju-standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 cd /users/panastas/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD
 > job.out

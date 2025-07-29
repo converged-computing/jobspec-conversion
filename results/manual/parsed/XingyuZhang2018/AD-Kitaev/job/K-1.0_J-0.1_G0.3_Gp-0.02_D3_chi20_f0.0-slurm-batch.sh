@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-truffle-3152
-#FLUX: --queue=titanv
-#FLUX: -t=35996400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=416-15:00:00
+#SBATCH --partition=titanv
 
 module load julia-1.7.1
 project_dir=~/research/AD_Kitaev

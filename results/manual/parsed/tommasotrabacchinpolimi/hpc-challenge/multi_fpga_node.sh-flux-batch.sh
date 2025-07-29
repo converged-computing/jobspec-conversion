@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-butter-3571
-#FLUX: -N=3
-#FLUX: -n=3
-#FLUX: -c=8
-#FLUX: --queue=fpga
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=astute-lettuce-3223
+#FLUX -N=3
+#FLUX -n=3
+#FLUX -c=8
+#FLUX --queue=fpga
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load ifpgasdk && module load 520nmx && module load CMake && module load intel && module load deploy/EasyBuild
 cd build

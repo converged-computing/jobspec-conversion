@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=train-cori
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=train-cori
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
 
+singularity
+exec
+docker:sfarrell/cosmoflow-cpu-mpich:latest
 module load singularity tensorflow/2.8.0
 singularity run \
     --nv $CONTAINERDIR/tensorflow-2.8.0.sif \

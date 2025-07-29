@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-snack-3156
-#FLUX: -n=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=48G
+#SBATCH --time=7-00:00:00
 
 <<<<<<< Updated upstream
 module load R4

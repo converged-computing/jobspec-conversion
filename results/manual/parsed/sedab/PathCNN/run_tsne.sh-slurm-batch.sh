@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PathCNN_train
-#FLUX: --queue=gpu8_medium
-#FLUX: --urgency=16
+#SBATCH --job-name=PathCNN_train
+#SBATCH --output=outputs/rq_TSNE_%A_%a.out
+#SBATCH --error=outputs/rq_TSNE_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100GB
+#SBATCH --partition=gpu8_medium
 
 echo "Starting at `date`"
 echo "Job name: $SLURM_JOB_NAME JobID: $SLURM_JOB_ID"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=video2tator
-#FLUX: -c=32
-#FLUX: --queue=compute
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=video2tator
+#FLUX -c=32
+#FLUX --queue=compute
+#FLUX -t=21600
+#FLUX --urgency=16
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 hostname; pwd; date

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=ILCC_GPU
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=log.out
+#SBATCH --error=log.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=14000
+#SBATCH --time=02:00:00
+#SBATCH --partition=ILCC_GPU
 
 CUDA_VISIBLE_DEVICES=0,1,2,3
 hostname

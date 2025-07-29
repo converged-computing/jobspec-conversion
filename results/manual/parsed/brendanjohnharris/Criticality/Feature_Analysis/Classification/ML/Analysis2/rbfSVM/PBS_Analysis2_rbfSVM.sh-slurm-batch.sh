@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peanut-8357
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/brendanjohnharris/Criticality/Feature_Analysis/Classification/ML/Analysis2/rbfSVM/PBS_Analysis2_rbfSVM.sh

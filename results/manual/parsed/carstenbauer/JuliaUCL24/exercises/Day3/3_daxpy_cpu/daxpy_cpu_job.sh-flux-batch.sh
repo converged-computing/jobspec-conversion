@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=daxpy_cpu
+#FLUX --job-name=daxpy_cpu
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=600
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 

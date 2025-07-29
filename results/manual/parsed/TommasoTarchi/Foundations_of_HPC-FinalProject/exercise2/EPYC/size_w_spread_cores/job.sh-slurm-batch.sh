@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=size_scal
-#FLUX: -n=64
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=size_scal
+#SBATCH --output=summary.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export LD_LIBRARY_PATH='/u/dssc/ttarch00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

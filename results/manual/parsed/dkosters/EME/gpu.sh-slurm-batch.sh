@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-ricecake-5507
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

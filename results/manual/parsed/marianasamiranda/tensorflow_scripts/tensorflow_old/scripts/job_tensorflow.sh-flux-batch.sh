@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf-tenosorflow
-#FLUX: --queue=rtx
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=tf-tenosorflow
+#FLUX --queue=rtx
+#FLUX -t=10800
+#FLUX --urgency=16
 
 WORKSPACE=$(dirname $(dirname $(realpath $0)))
 DATA_DIR="/scratch1/08486/mmiranda/mysharedirectory"

@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-avocado-0047
-#FLUX: -c=18
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pancake-6245
-#FLUX: -c=20
-#FLUX: --queue=high
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-soup-6876
+#FLUX -c=20
+#FLUX --queue=high
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set -euo pipefail
 version="master"

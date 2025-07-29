@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-soup-7164
-#FLUX: --queue=mic
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=automatic-offload.out
+#SBATCH --mail-user=vunetid@vanderbilt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=mic
 
 export BLAS_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'
 export LAPACK_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'

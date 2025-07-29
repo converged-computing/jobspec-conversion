@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=unet3d_mlpv21
-#FLUX: -c=8
-#FLUX: --queue=mlperf
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=unet3d_mlpv21
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=04:00:00
+#SBATCH --partition=mlperf
+#SBATCH --constraint=ntasks-per-node=8,ntasks-per-socket=4
 
 export LOGDIR='${LOGDIR}/${SLURM_JOB_ID}'
 export MLPERF_HOST_OS='Apollo6500_Gen10plus'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=trans-$n-$i-$seed-$tb
-#FLUX: -c=4
-#FLUX: --queue=$partition
-#FLUX: -t=330
-#FLUX: --urgency=16
+#SBATCH --job-name=trans-$n-$i-$seed-$tb
+#SBATCH --output=/dev/null
+#SBATCH --error=/dev/null
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=1G
+#SBATCH --time=00:05:30
+#SBATCH --partition=$partition
 
 i=0
 n=50

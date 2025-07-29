@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=runValidation2
-#FLUX: --queue=CPUQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=runValidation2
+#SBATCH --account=share-ie-imf
+#SBATCH --output=runValidation2_%A_%a.out
+#SBATCH --error=runValidation2_%A_%a.err
+#SBATCH --mail-user=john.paige@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=CPUQ
 
 module load R/4.2.1-foss-2022a
 module load GDAL/3.5.0-foss-2022a

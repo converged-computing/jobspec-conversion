@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peas-1431
-#FLUX: -c=2
-#FLUX: -t=172815
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-pedo-5083
+#FLUX -c=2
+#FLUX -t=172815
+#FLUX --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

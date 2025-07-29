@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=red-avocado-7547
-#FLUX: -c=4
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --output=/home/bhanuv/projects/R2GenCMN/bash_logs/%x-%j.out
+#SBATCH --error=/home/bhanuv/projects/R2GenCMN/bash_logs/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=3000
+#SBATCH --time=6-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=node07
 
 conda activate gpu
 python main.py \

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-general-2197
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=/om2/user/gua/Documents/verify/slurm_logs/slurm-%A-%a.out
+#SBATCH --error=/om2/user/gua/Documents/verify/slurm_logs/slurm-%A-%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=03:00:00
+#SBATCH --array=0-3
 
 dirs=(
     # "codellama-7b"

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HSP90eq
-#FLUX: -c=96
-#FLUX: --queue=Cascade
-#FLUX: -t=61200
-#FLUX: --urgency=16
+#SBATCH --job-name=HSP90eq
+#SBATCH --output=./%x.%j.%N.out
+#SBATCH --error=./%x.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=64G
+#SBATCH --time=17:00:00
+#SBATCH --partition=Cascade
+#SBATCH --constraint=ntasks-per-node=1
 
 code_dir=/home/ccattin/Stage/Code
 gmx_code_dir=$code_dir/GMX

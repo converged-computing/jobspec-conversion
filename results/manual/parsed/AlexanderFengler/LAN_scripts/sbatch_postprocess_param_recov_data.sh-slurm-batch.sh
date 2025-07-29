@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=param_recov_postprocess
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=param_recov_postprocess
+#SBATCH --account=carney-frankmj-condo
+#SBATCH --output=slurm/slurm_param_recov_postprocess.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=DRL_FLEXLAB
-#FLUX: -c=6
-#FLUX: --queue=cf1
-#FLUX: -t=1230
-#FLUX: --urgency=16
+#FLUX --job-name=DRL_FLEXLAB
+#FLUX -c=6
+#FLUX --queue=cf1
+#FLUX -t=1230
+#FLUX --urgency=16
 
 module load singularity/3.2.1
 echo "module loaded"

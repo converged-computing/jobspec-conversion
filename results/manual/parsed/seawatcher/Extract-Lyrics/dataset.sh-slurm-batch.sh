@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-arm-5316
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=def-ichiro
+#SBATCH --output=run_output/output_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12500M
+#SBATCH --time=05:00:00
+#SBATCH --array=21-30
 
 module load python/3.8
 module load scipy-stack

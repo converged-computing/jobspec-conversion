@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PD1_Kluc_GSEA
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PD1_Kluc_GSEA
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=300G
+#SBATCH --time=1-00:00:00
 
 export SIMG_FILE_NAME='rstudio-4.3.0-4-with_modules.sif'
 export RPRIHOME='$HOME/R/$SIMG_FILE_NAME/'

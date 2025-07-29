@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lerdl-ss-cifar10-train.rn50.all
-#FLUX: --queue=sequana_gpu_shared
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=lerdl-ss-cifar10-train.rn50.all
+#SBATCH --output=/scratch/lerdl/lucas.david/logs/cifar10.train.rn50.all.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=sequana_gpu_shared
+#SBATCH --constraint=ntasks-per-node=256
 
 echo "[cifar/train.rn50.all.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-general-0905
-#FLUX: -n=40
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-hobbit-0757
+#FLUX -n=40
+#FLUX -t=259200
+#FLUX --urgency=16
 
 python2 crnn_main_online.py --random_sample --trainroot='../train_online_80k/' --valroot='../val_online_15k/' --cuda --adadelta --batchSize=64

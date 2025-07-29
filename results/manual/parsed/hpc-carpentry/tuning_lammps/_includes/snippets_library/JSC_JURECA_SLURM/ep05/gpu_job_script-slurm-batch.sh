@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poodle-6091
-#FLUX: --queue=develgpus
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --partition=develgpus
+#SBATCH --constraint=ntasks-per-node=24
 
 module purge
 module use /usr/local/software/jureca/OtherStages

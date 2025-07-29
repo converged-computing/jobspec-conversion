@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=func
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=func
+#FLUX -c=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 set -eu # Stop on errors
 fmriprep_version=23.0.0

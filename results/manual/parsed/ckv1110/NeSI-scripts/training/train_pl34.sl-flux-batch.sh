@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet34-pl
-#FLUX: -c=4
-#FLUX: -t=30600
-#FLUX: --urgency=16
+#FLUX --job-name=resnet34-pl
+#FLUX -c=4
+#FLUX -t=30600
+#FLUX --urgency=16
 
 module purge
 module load Singularity

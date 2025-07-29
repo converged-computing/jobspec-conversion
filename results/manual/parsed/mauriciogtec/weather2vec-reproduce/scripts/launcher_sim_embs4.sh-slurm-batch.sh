@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-poo-4646
-#FLUX: -c=8
-#FLUX: --queue=fasse_gpu
-#FLUX: -t=28740
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/sim-embs3.%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=07:59:00
+#SBATCH --partition=fasse_gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-4
 
 source ~/.bashrc
 conda activate cuda116

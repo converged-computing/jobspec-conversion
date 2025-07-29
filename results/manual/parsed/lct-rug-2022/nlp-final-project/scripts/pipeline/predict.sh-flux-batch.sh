@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=esnli
-#FLUX: --queue=gpushort
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=esnli
+#FLUX --queue=gpushort
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export TOKENIZERS_PARALLELISM='false'
 

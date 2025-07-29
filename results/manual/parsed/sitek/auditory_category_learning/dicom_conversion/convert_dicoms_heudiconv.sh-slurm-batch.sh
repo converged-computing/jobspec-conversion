@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-6102
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 module add dcm2niix
 data_dir=/bgfs/bchandrasekaran/krs228/data/FLT/

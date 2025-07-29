@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=distance
-#FLUX: --urgency=16
+#SBATCH --job-name=distance
+#SBATCH --output=slurm-logs/preproc.%j.out
+#SBATCH --error=slurm-logs/preproc.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1Gb
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

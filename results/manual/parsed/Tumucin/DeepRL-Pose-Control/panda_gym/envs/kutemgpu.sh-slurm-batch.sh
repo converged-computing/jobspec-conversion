@@ -1,8 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=PPOexp216
-#FLUX: --queue=kutem_gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=PPOexp216
+#SBATCH --account=kutem
+#SBATCH --output=PPOexp216.out
+#SBATCH --mail-user=tbal21@ku.edu.tr
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_a100:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=kutem_gpu
+#SBATCH --qos=kutem
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=rk02
 
 echo "Activating Python 3.8.6..."
 module load python/3.8.6

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peas-5930
-#FLUX: -c=24
-#FLUX: --queue=topola
-#FLUX: --urgency=16
+#FLUX --job-name=salted-cattywampus-1609
+#FLUX -c=24
+#FLUX --queue=topola
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/icm/home/bazinska/miniconda3/lib:$LD_LIBRARY_PATH'
 

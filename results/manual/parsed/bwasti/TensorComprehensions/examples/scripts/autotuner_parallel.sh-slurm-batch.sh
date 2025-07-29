@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=TensorComprehensions
-#FLUX: -n=10
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=TensorComprehensions
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=40000
+#SBATCH --time=00:02:00
 
 export TUNER_THREADS='${TUNER_THREADS:=10}'
 export TUNER_GPUS='${TUNER_GPUS:="0"}'

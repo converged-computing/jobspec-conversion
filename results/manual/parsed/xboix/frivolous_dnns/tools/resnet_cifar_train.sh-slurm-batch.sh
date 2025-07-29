@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_train
-#FLUX: --queue=cbmm
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar_train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=12GB
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=cbmm
+#SBATCH --chdir=/om/user/scasper/workspace/
+#SBATCH --array=227
 
 cd /om/user/scasper/workspace/
 singularity exec -B /om:/om --nv /om/user/xboix/singularity/xboix-tensorflow1.14.simg \

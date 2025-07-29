@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-general-1576
-#FLUX: --queue=V100
-#FLUX: --urgency=16
+#SBATCH --output=logs/SpCL_test%j.out
+#SBATCH --error=logs/SpCL_test%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --partition=V100
 
 set -x
 cd /home/ids/hrami

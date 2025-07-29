@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RFP_COREL
-#FLUX: -c=6
-#FLUX: --queue=boomsma
-#FLUX: -t=302400
-#FLUX: --urgency=16
+#FLUX --job-name=RFP_COREL
+#FLUX -c=6
+#FLUX --queue=boomsma
+#FLUX -t=302400
+#FLUX --urgency=16
 
 HOME_DIR=/home/pcq275/
 COREL_DIR=${HOME_DIR}/corel/

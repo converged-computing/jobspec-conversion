@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=process_file_in_array
-#FLUX: --queue=serial_requeue
-#FLUX: -t=15
-#FLUX: --urgency=16
+#FLUX --job-name=process_file_in_array
+#FLUX --queue=serial_requeue
+#FLUX -t=15
+#FLUX --urgency=16
 
 source new-modules.sh
 module load matlab

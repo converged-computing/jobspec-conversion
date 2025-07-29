@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lambdal
-#FLUX: --urgency=16
+#SBATCH --job-name=lambdal
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=20G
+#SBATCH --chdir=./
 
 echo "$0 : about to run gcs-lambdalabs-singularity on Speed..."
 date

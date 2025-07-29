@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-staircase-2355
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=project_462000273
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=00:30:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --exclude=nid006865,nid005613,nid005988
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export MASTER_PORT='9999'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=data-proc
-#FLUX: -c=4
-#FLUX: --queue=gpu-rtx6k
-#FLUX: -t=39600
-#FLUX: --urgency=16
+#FLUX --job-name=data-proc
+#FLUX -c=4
+#FLUX --queue=gpu-rtx6k
+#FLUX -t=39600
+#FLUX --urgency=16
 
 cat $0
 echo "--------------------"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hobbit-1695
-#FLUX: -N=2
-#FLUX: -n=192
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=192
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
 
 export NCCL_PROTO='simple'
 export NCCL_DEBUG='INFO'

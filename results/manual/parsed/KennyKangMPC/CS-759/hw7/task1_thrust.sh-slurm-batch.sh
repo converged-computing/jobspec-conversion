@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=task1_thrust
-#FLUX: --queue=wacc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=task1_thrust
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=wacc
 
 module load cuda
 nvcc task1_thrust.cu -Xcompiler -O3 -Xcompiler -Wall -Xptxas -O3 -o task1_thrust

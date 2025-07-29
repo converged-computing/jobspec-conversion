@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=mlperf-training:rnnt
-#FLUX: --urgency=16
+#FLUX --job-name=mlperf-training:rnnt
+#FLUX --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

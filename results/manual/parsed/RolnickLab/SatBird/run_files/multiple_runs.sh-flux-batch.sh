@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ebird_baseline
-#FLUX: --queue=long
-#FLUX: -t=125940
-#FLUX: --urgency=16
+#FLUX --job-name=ebird_baseline
+#FLUX --queue=long
+#FLUX -t=125940
+#FLUX --urgency=16
 
 export COMET_API_KEY='$COMET_API_KEY'
 export HYDRA_FULL_ERROR='1'

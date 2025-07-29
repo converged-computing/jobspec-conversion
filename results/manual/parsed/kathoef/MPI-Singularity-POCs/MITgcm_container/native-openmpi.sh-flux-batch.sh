@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-ricecake-3831
-#FLUX: -N=2
-#FLUX: --queue=cluster
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-soup-5825
+#FLUX -N=2
+#FLUX --queue=cluster
+#FLUX -t=900
+#FLUX --urgency=16
 
 export MITGCM='$HOME/github/MPI-Singularity-PoC/MITgcm_container/MITgcm'
 export EXPDIR='$PWD/test2'

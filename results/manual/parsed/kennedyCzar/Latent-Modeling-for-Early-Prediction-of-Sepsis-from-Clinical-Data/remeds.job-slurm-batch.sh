@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=GCVAE
-#FLUX: --queue=audace2018
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=GCVAE
+#SBATCH --mail-user=ifeanyi.ezukwoke@emse.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=75G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=audace2018
 
 ulimit -l unlimited
 unset SLURM_GTIDS

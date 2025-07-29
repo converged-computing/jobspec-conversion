@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vit_with_pruning_importance_test
-#FLUX: -c=3
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=vit_with_pruning_importance_test
+#SBATCH --output=output_%j.txt
+#SBATCH --mail-user=chrisspamtopherdt@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=3GB
+#SBATCH --time=08:00:00
+#SBATCH --chdir=/rwthfs/rz/cluster/home/rs062004/tmp/pycharm_project_109/
 
 module load gcc
 module load python

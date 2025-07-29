@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tf_unet
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_unet
+#SBATCH --output=tf_unet.%j.o
+#SBATCH --error=tf_unet.%j.e
+#SBATCH --mail-user=jakeret
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:59:00
 
 export LD_LIBRARY_PATH='/apps/daint/UES/5.2.UP04/sandbox-ds/tensorflow/cudadnn/lib64/:$LD_LIBRARY_PATH'
 

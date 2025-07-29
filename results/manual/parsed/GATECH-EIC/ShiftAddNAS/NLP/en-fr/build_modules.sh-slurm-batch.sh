@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hy34_build_modules
-#FLUX: --queue=V100
-#FLUX: --urgency=16
+#SBATCH --job-name=hy34_build_modules
+#SBATCH --output=outputfile_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=V100
+#SBATCH --nodelist=asimov-230
 
 echo $CUDA_VISIBLE_DEVICES
 source /mnt/home/v_youhaoran/anaconda3/etc/profile.d/conda.sh

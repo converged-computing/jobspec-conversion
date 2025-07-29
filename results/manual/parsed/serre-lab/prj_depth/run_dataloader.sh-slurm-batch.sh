@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=depth_dataset
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=depth_dataset
+#SBATCH --account=carney-tserre-condo
+#SBATCH --output=/users/aarjun1/data/aarjun1/prj_depth/logs/MI_%A_%a_%J.out
+#SBATCH --error=/users/aarjun1/data/aarjun1/prj_depth/logs/MI_%A_%a_%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=2-00:00:00
 
 cd /users/aarjun1/data/aarjun1/prj_depth/
 module load anaconda/3-5.2.0

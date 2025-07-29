@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pancake-5062
-#FLUX: -n=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-plant-5715
+#FLUX -n=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module purge
 module load lammps/20210929-mpi

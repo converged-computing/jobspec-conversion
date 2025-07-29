@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-5845
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-chip-0565
+#FLUX -n=8
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

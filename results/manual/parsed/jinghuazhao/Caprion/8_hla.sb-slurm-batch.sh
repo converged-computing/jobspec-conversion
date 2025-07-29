@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=_HATK
-#FLUX: --queue=cardio
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=_HATK
+#SBATCH --account=CARDIO-SL0-CPU
+#SBATCH --output=/rds/user/jhz22/hpc-work/work/_HATK_%A_%a.o
+#SBATCH --error=/rds/user/jhz22/hpc-work/work/_HATK_%A_%a.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=250000
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=cardio
+#SBATCH --qos=cardio
 
 export analysis='~/Caprion/analysis'
 export cookhla='${HPC_WORK}/CookHLA'

@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cnn-cifar100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=cnn-cifar100
+#SBATCH --account=def-ttt
+#SBATCH --output=%x_%A-%a_%n-%t.out
+#SBATCH --mail-user=sr925041@dal.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
 
                                     # %x=job-name, %A=job ID, %a=array value, %n=node rank, %t=task rank, %N=hostname
                                     # Note: You must manually create output directory "logs" before launching job.

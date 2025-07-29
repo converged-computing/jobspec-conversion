@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=20201110_crustacean-transcriptomes_busco
-#FLUX: --queue=coenv
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=20201110_crustacean-transcriptomes_busco
+#SBATCH --account=coenv
+#SBATCH --mail-user=samwhite@uw.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=coenv
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20201110_crustacean-transcriptomes_busco
 
 export PATH='${augustus_scripts}:$PATH'
 export BUSCO_CONFIG_FILE='${busco_config_ini}'

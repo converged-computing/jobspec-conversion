@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_thermal
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_thermal
+#SBATCH --output=train_thermal.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 eval "$(conda shell.bash hook)"
 conda activate VTL

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=InP-PACE
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=InP-PACE
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='${HOME}/FitSNAP:$PYTHONPATH'

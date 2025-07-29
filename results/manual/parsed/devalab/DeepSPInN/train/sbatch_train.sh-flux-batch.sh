@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=DeepSPInN Training
-#FLUX: -n=39
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=DeepSPInN Training
+#FLUX -n=39
+#FLUX -t=345600
+#FLUX --urgency=16
 
 ulimit -n 40960
 source /home2/sriram.devata/miniconda3/etc/profile.d/conda.sh

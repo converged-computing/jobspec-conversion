@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-6000
-#FLUX: --queue=cor,general
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-signal-0729
+#FLUX --queue=cor,general
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/11.2

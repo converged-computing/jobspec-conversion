@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=CRPEC
-#FLUX: -c=8
-#FLUX: --queue=gpu3090
-#FLUX: --urgency=16
+#SBATCH --job-name=CRPEC
+#SBATCH --output=CRPEC%j.out
+#SBATCH --error=CRPEC%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=gpu3090
+#SBATCH --qos=gpu3090
 
 INPUT_DIR="input"
 RUNS_DIR="./runs"

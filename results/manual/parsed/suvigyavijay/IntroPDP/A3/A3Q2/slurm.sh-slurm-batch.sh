@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gaussian_kde_run
-#FLUX: --queue=general-compute
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gaussian_kde_run
+#SBATCH --output=./logs/%j.stdout
+#SBATCH --error=./logs/%j.stderr
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=general-compute
+#SBATCH --qos=general-compute
+#SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_VISIBLE_DEVICES='0'
 

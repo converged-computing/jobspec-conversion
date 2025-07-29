@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rna_nf
-#FLUX: -n=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=rna_nf
+#FLUX -n=16
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /work/users/path/to/work
 module load nextflow/23.04.2;

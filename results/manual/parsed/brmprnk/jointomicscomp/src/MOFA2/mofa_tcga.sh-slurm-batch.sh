@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=mofa
-#FLUX: --queue=general
-#FLUX: -t=79200
-#FLUX: --urgency=16
+#SBATCH --job-name=mofa
+#SBATCH --mail-user=stavrosmakrodi
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=22:00:00
+#SBATCH --partition=general
+#SBATCH --qos=medium
 
 DIR='/tudelft.net/staff-bulk/ewi/insy/DBL/smakrod/lb/tcga-download/data/datasets/ge-me-cn-2022-04-16/R';
 cp src/MOFA2/*.R $DIR'/';

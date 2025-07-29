@@ -1,12 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=deepcam-opt
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#SBATCH --job-name=deepcam-opt
+#SBATCH --account=m4291
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
 
 export MODEL_NAME='deepcam'
 export MODEL_FRAMEWORK='pytorch'
 
+singularity
+exec
+registry.nersc.gov/das/deepcam-opt:23.09.01
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"
 : "${MLPERF_RULESET:=2.0.0}"

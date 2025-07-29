@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peas-4543
-#FLUX: -N=2
-#FLUX: -n=128
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=PC2PFS-N2-impi.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:10:00
+#SBATCH --partition=cont
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

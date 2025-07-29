@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-salad-2316
-#FLUX: --queue=hci-rw
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=red-train-6621
+#FLUX --queue=hci-rw
+#FLUX -t=259200
+#FLUX --urgency=16
 
 udocker=/uufs/chpc.utah.edu/common/HIPAA/u0028003/BioApps/UDocker/udocker-1.1.1/udocker
 mount=/scratch/mammoth/serial/u0028003/

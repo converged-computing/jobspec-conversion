@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mandelbrot
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=mandelbrot
+#FLUX -n=4
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SPMD
-#FLUX: -n=6
-#FLUX: --queue=standard
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=SPMD
+#FLUX -n=6
+#FLUX --queue=standard
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load julia
 PROJECT_PATH=${HOME}/SPMD/src/julia/

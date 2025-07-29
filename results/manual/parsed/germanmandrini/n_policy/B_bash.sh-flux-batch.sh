@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-butter-8560
-#FLUX: -n=28
-#FLUX: --queue=secondary
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=eccentric-destiny-0053
+#FLUX -n=28
+#FLUX --queue=secondary
+#FLUX -t=300
+#FLUX --urgency=16
 
 cd /projects/aces
 module load singularity ## Load the singularity runtime to your environment

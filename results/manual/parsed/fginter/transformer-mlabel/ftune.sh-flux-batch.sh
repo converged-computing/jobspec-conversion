@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cf42
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cf42
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONPATH='../venv-torch/lib64/python3.7/site-packages:$PYTHONPATH'
 

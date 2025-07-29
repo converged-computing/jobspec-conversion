@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phat-dog-8722
-#FLUX: -n=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=aces
+#SBATCH --output=3scen_fw.%j.out
+#SBATCH --mail-user=Firstname.Lastname@nrel.gov
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 export MPICH_ASYNC_PROGRESS='1'
 

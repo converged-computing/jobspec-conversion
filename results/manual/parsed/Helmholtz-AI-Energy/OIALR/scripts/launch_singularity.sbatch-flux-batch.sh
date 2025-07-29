@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=madonna-test
-#FLUX: --queue=sdil
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=madonna-test
+#FLUX --queue=sdil
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export TOMOUNT='${TOMOUNT}'
 export UCX_MEMTYPE_CACHE='0'

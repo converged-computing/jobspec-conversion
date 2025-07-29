@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=4
-#FLUX: -c=128
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -N=4
+#FLUX -c=128
+#FLUX --queue=all
+#FLUX --urgency=16
 
 module load cuda/cuda-11.0
 source ~/venv/bin/activate

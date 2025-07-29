@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnet3
-#FLUX: -c=112
-#FLUX: --queue=clx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet3
+#SBATCH --output=resnet3.out
+#SBATCH --mail-user=anand.venkat@intel.com
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=112
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=clx
 
 export KMP_AFFINITY='granularity=fine,compact,1,28'
 export OMP_NUM_THREADS='28'

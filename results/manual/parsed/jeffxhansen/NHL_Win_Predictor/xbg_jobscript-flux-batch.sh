@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-3879
-#FLUX: -n=10
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-leopard-3271
+#FLUX -n=10
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

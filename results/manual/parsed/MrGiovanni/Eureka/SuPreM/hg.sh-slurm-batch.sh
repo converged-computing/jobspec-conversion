@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=suprem
-#FLUX: -n=12
-#FLUX: --queue=public
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=suprem
+#SBATCH --output=%x_slurm_%j.out
+#SBATCH --error=%xslurm_%j.err
+#SBATCH --mail-user=zzhou82@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=05:00:00
+#SBATCH --partition=public
 
 module load mamba/latest
 source activate suprem

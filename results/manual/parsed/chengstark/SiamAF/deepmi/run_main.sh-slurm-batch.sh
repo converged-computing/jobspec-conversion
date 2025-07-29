@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-underoos-6518
-#FLUX: --queue=overflow
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --output=/home/zguo30/ppg_ecg_proj/deepmi/slurm_outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=240G
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=overflow
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ExaHyPE-EulerFlow
-#FLUX: --exclusive
-#FLUX: --queue=test.q
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ExaHyPE-EulerFlow
+#SBATCH --output=ExaHyPE-EulerFlow.%A.out
+#SBATCH --error=ExaHyPE-EulerFlow.%A.err
+#SBATCH --mail-user=dominic.e.charrier@durham.ac.uk
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=test.q
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1,12,24
 
 export TBB_SHLIB='-L/ddn/apps/Cluster-Apps/intel/xe_2017.2/tbb/lib/intel64/gcc4.7 -ltbb'
 export I_MPI_FABRICS='shm:dapl'

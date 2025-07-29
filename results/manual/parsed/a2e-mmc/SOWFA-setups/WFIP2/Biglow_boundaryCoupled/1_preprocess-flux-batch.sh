@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sBdCoupling_biglow
-#FLUX: -n=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=sBdCoupling_biglow
+#FLUX -n=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 source $HOME/.bash_profile
 cores=$SLURM_NTASKS

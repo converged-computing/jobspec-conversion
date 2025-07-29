@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Preferential
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Preferential
+#SBATCH --account=TG-MCB130178
+#SBATCH --output=slurm.%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
 
 module load intel
 module load impi

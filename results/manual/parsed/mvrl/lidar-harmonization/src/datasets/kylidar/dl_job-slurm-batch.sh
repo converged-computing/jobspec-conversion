@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=intensity_harmonization
-#FLUX: -c=24
-#FLUX: --queue=CAL48M192_D
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=intensity_harmonization
+#SBATCH --account=col_nja224_uksr
+#SBATCH --output=lcc_run_log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=01:00:00
+#SBATCH --partition=CAL48M192_D
 
 module purge
 module load intel/19.0.4.243

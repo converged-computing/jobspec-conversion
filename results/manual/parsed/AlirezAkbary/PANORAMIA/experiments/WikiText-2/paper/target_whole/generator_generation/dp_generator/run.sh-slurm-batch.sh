@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-house-7199
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=def-t55wang
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32000M
+#SBATCH --time=00:10:00
 
 module load StdEnv/2023 arrow/15.0.1 rust/1.76.0 python scipy-stack
 source ../../test-priv/test-priv-env/bin/activate

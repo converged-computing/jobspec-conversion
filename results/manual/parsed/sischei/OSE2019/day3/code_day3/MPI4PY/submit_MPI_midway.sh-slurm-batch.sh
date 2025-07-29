@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-snack-9727
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --output=job1.out
+#SBATCH --error=job1.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=8
 
 module load Anaconda2
 mpirun python bcast.py

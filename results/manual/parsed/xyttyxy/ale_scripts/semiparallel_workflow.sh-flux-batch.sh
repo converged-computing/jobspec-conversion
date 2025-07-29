@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-8797
-#FLUX: --queue=RM
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-toaster-4419
+#FLUX --queue=RM
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export spar='12'
 export ACT_NBRE_KMC_STEPS='5'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=<job_name>
-#FLUX: -c=6
-#FLUX: --queue=<partition_name>
-#FLUX: --urgency=16
+#SBATCH --job-name=<job_name>
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --partition=<partition_name>
+#SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

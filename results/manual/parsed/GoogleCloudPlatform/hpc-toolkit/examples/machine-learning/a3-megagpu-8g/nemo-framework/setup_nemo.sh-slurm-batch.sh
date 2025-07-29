@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-frito-7437
-#FLUX: --exclusive
-#FLUX: --queue=a3mega
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=a3mega
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 : "${NEMOFW_VERSION:=23.11}"
 srun docker build --build-arg="NEMOFW_VERSION=${NEMOFW_VERSION}" -t nemofw:tcpxo-"${NEMOFW_VERSION}" .

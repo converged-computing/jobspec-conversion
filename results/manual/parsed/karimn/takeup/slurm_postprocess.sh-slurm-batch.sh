@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=quick-takeup
-#FLUX: -n=6
-#FLUX: --queue=bigmem2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=quick-takeup
+#SBATCH --output=temp/log/takeup-%j.log
+#SBATCH --error=temp/log/takeup-%j.log
+#SBATCH --mail-user=edjee96@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50G
+#SBATCH --time=10:00:00
+#SBATCH --partition=bigmem2
 
 LATEST_VERSION=95
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

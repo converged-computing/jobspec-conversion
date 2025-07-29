@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tgi-compile
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=10G
+#SBATCH --time=10:00:00
 
 set -e
 set -v

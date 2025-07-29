@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AQM
-#FLUX: -c=4
-#FLUX: --queue=brownlab-gpu,common,scavenger
-#FLUX: --urgency=16
+#FLUX --job-name=AQM
+#FLUX -c=4
+#FLUX --queue=brownlab-gpu,common,scavenger
+#FLUX --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate base                             # Update this field to tne conda environment you wish to use for the run

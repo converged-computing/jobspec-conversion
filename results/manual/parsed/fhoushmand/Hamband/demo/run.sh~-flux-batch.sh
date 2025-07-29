@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-1142
-#FLUX: -N=4
-#FLUX: -n=4
-#FLUX: -c=4
+#FLUX --job-name=blue-kitty-5963
+#FLUX -N=4
+#FLUX -n=4
+#FLUX -c=4
 #FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#FLUX --queue=short
+#FLUX --urgency=16
 
 module load valgrind;
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))

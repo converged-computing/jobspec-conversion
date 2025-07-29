@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chwm-sampler
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=chwm-sampler
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export LAMMPS_BIN='/global/homes/e/ejragasa/edison_bin/lmp_serial'
 export PYTHONPATH='$PYFLAMESTK_DIR:$PYTHONPATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lizard-8135
-#FLUX: -n=10
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-bits-9048
+#FLUX -n=10
+#FLUX -t=2419200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/LUSTRE_SHARE/Packages/usr/lib64/nvidia'

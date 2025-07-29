@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=make_gioj
-#FLUX: -n=4
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=make_gioj
+#FLUX -n=4
+#FLUX --queue=batch
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load Singularity
 module load CUDA/10.2.89

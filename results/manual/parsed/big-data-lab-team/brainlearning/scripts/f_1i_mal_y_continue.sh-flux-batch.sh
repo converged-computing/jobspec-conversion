@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-5333
-#FLUX: -c=6
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=confused-motorcycle-4208
+#FLUX -c=6
+#FLUX -t=720
+#FLUX --urgency=16
 
 model=f_1i_mal_y
 module load cuda cudnn python/3.6.3

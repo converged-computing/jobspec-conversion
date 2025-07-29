@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-nalgas-1354
-#FLUX: -c=20
-#FLUX: --queue=xeon-g6-volta
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-noodle-6758
+#FLUX -c=20
+#FLUX --queue=xeon-g6-volta
+#FLUX -t=900
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/gridsan/asimeono/.conda/envs/furniture-env/lib/python3.8/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH'
 export AWS_COMMAND='/home/gridsan/asimeono/aws-cli/v2/current/bin/aws'

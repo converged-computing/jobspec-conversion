@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-3420
-#FLUX: -c=2
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-cattywampus-0069
+#FLUX -c=2
+#FLUX -t=10
+#FLUX --urgency=16
 
 module purge 
 module load StdEnv/2020

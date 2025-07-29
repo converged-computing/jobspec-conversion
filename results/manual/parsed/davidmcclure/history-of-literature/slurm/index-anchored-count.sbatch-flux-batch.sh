@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=index-anchored-count
-#FLUX: -N=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=index-anchored-count
+#FLUX -N=16
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='/home/dclure/history-of-literature'
 

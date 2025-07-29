@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-despacito-8084
-#FLUX: --urgency=16
+#FLUX --job-name=blank-staircase-7977
+#FLUX --urgency=16
 
 . "$script_pwd/../systems/generic"
 SUPERMUC_OPENMPI_VERSION="4.1.5-gcc12"

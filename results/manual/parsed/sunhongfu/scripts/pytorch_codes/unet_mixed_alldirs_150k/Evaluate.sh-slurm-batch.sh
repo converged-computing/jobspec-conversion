@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_unet_mixed_alldirs_150k
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_unet_mixed_alldirs_150k
+#SBATCH --output=eval_unet_mixed_alldirs_150k.out
+#SBATCH --error=eval_unet_mixed_alldirs_150k.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:tesla-smx2:1
+#SBATCH --mem=100000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

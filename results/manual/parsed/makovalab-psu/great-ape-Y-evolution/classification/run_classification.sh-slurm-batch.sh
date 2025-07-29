@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run_classification
-#FLUX: -n=64
-#FLUX: --urgency=16
+#SBATCH --job-name=run_classification
+#SBATCH --output=run_classification-%j.out
+#SBATCH --error=run_classification-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=500G
 
 source activate /galaxy/home/biomonika/conda/3Dgenome > /dev/null
 set -e

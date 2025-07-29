@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-ricecake-8694
-#FLUX: -N=32
-#FLUX: -c=128
-#FLUX: --queue=gpus
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=out
+#SBATCH --error=err
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:1
+#SBATCH --time=06:00:00
+#SBATCH --partition=gpus
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

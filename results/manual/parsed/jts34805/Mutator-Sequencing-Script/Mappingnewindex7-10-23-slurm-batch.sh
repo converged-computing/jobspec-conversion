@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fastptotxt
-#FLUX: -n=8
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=fastptotxt
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=80gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=8,AMD
 
 cd $SLURM_SUBMIT_DIR
 ml fastp/0.23.2

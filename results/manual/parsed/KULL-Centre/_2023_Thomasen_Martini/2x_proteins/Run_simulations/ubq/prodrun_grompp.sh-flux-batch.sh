@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-buttface-9828
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-leader-4955
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/_2023_Thomasen_Martini/2x_proteins/Run_simulations/ubq/prodrun_grompp.sh

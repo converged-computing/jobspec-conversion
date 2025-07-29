@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=CrossQ
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=CrossQ
+#SBATCH --output=/home/palenicek/projects/sbx-crossq/logs/%A_%a.out.log
+#SBATCH --error=/home/palenicek/projects/sbx-crossq/logs/%A_%a.err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=7000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=rtx3090
+#SBATCH --array=1-11
 
 export GTIMER_DISABLE='1'
 

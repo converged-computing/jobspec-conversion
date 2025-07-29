@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=20210601
-#FLUX: -N=8
-#FLUX: -n=1024
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=20210601
+#FLUX -N=8
+#FLUX -n=1024
+#FLUX --queue=batch
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export executable='atmosphere_model'
 export PMIX_MCA_gds='hash'

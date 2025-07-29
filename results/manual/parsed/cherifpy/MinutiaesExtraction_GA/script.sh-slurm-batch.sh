@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-3145
-#FLUX: -c=8
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=Errors/job.%J.out
+#SBATCH --error=Errors/job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=nvidia
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-signal-6964
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=milky-spoon-1211
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load gcc bbmap

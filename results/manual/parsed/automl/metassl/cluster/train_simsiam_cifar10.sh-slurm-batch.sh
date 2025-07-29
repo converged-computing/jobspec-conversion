@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SimSiam_Cifar10
-#FLUX: --queue=dlc-dsengupt
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#SBATCH --job-name=SimSiam_Cifar10
+#SBATCH --output=/work/dlclarge1/dsengupt-lth_ws/slurm_logs/simsiam_train.out
+#SBATCH --error=/work/dlclarge1/dsengupt-lth_ws/slurm_logs/simsiam_train.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=19:59:00
+#SBATCH --partition=dlc-dsengupt
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

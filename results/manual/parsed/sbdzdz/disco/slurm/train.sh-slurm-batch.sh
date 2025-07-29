@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bicycle-6999
-#FLUX: -c=32
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --output=/mnt/qb/work/bethge/dziadzio08/projects/disco/slurm/hostname_%j.out
+#SBATCH --error=/mnt/qb/work/bethge/dziadzio08/projects/disco/slurm/hostname_%j.err
+#SBATCH --mail-user=sebastian.dziadzio@uni-tuebingen.de
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100G
+#SBATCH --time=9-00:00:00
 
 export WANDB__SERVICE_WAIT='300'
 export HYDRA_FULL_ERROR='1'

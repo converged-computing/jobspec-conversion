@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SNAP_runh0064
-#FLUX: -N=2
-#FLUX: --queue=standard
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=SNAP_runh0064
+#SBATCH --output=SNAP_XROADS_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=4
 
 source $HOME/telegraf_run_chicoma.sh
 date;hostname;pwd

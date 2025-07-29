@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dask_launcher
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dask_launcher
+#FLUX --queue=standard
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export TMPDIR='$PWD/codes_devito'
 export OMP_NUM_THREADS='10'

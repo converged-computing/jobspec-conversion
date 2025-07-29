@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bowtie
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=bowtie
+#SBATCH --output=bamcover%a.out
+#SBATCH --error=bamcover%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=62GB
+#SBATCH --time=01:00:00
 
 module purge
 module load deeptools/intel/2.4.2

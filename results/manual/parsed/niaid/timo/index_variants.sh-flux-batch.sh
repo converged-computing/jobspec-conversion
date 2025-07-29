@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-general-9449
-#FLUX: -c=20
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=hello-butter-1108
+#FLUX -c=20
+#FLUX -t=10800
+#FLUX --urgency=16
 
 BAM_DIR=$1
 RUNDIR=$2

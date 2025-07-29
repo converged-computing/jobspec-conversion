@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-3661
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 CURDIR=`pwd`
 CODEDIR=`mktemp -d -p ${CURDIR}/tmp`

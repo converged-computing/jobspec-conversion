@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=detMut
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=detMut
+#FLUX -t=345600
+#FLUX --urgency=16
 
 module purge
 module load bioinfo/snakemake-5.25.0

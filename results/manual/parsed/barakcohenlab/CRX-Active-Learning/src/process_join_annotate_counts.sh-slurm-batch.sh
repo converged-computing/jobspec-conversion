@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hippo-9705
-#FLUX: --urgency=16
+#SBATCH --output=log/process_join_annotate_counts.out
+#SBATCH --error=log/process_join_annotate_counts.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

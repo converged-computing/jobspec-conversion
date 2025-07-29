@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-butter-0556
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=2048
+#SBATCH --time=2-00:00:00
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

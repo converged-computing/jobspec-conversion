@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pedo-8417
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=def-vmooser
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
 
 module load StdEnv/2020
 module load gcc/9.3.0

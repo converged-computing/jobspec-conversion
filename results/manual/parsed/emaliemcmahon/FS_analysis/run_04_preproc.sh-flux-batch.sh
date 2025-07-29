@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=preproc
-#FLUX: --queue=shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=preproc
+#FLUX --queue=shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 sid=$1
 module load matlab

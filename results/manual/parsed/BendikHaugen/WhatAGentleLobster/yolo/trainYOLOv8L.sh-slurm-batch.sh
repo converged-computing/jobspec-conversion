@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=L
-#FLUX: -N=2
-#FLUX: -c=4
-#FLUX: --queue=GPUQ
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=L
+#SBATCH --account=ie-idi
+#SBATCH --output=yolov8L.out
+#SBATCH --mail-user=Bendik_haugen@hotmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=1031GB
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=4
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo " the name of the job is: $SLURM_JOB_NAME"

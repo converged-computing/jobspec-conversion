@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 START_TIME=`date`
 if [ "$1" == "daint" ]; then

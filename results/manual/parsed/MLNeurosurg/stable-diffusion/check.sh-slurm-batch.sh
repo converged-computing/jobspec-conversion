@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=data
-#FLUX: --queue=standard
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=data
+#SBATCH --account=precisionhealth_project1
+#SBATCH --mail-user=achowdur@umich.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5g
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=24
 
 python check_data.py

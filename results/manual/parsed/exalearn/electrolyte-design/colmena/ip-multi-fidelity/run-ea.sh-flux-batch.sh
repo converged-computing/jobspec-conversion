@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-onion-8616
-#FLUX: --urgency=16
+#FLUX --job-name=arid-citrus-7005
+#FLUX --urgency=16
 

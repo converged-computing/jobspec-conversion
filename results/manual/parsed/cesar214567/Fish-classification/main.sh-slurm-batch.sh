@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cesar_AI
-#FLUX: -c=8
-#FLUX: --queue=investigacion
-#FLUX: --urgency=16
+#SBATCH --job-name=cesar_AI
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32GB
+#SBATCH --partition=investigacion
+#SBATCH --nodelist=g001
 
 export PATH='/usr/local/cuda-11.4/targets/x86_64-linux/lib:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH'

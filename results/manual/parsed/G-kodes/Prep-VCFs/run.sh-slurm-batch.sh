@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-butter-1709
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/G-kodes/Prep-VCFs/run.sh

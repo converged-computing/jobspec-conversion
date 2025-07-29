@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_SIMULATE_NOMINAL
-#FLUX: -c=2
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=STREAM_SIMULATE_NOMINAL
+#FLUX -c=2
+#FLUX -t=604800
+#FLUX --urgency=16
 
 stream_index=$SLURM_ARRAY_TASK_ID
 suffix=$(printf "%05d" $stream_index)

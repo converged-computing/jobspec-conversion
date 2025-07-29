@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-1575
-#FLUX: --queue=schmidt-gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-poodle-0728
+#FLUX --queue=schmidt-gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 echo "output of the visible GPU environment"
 nvidia-smi

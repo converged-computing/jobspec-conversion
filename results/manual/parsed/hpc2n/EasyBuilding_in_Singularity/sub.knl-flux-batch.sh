@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=68
-#FLUX: -c=4
-#FLUX: --queue=knl
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=EB-install
+#FLUX -n=68
+#FLUX -c=4
+#FLUX --queue=knl
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export SBATCH_PARTITION='knl'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

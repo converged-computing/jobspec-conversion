@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=prefetch
-#FLUX: --exclusive
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=prefetch
+#SBATCH --output=job.%N.%j.out
+#SBATCH --error=job.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load userspace/custom opt/all userspace/all

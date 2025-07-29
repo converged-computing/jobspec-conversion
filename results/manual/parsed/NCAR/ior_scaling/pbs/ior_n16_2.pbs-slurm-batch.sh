@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parsnip-9772
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/ior_scaling/pbs/ior_n16_2.pbs

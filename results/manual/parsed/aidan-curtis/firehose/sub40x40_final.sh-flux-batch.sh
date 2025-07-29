@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-platanos-0745
+#FLUX --job-name=outstanding-lemur-9272
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 i=1
 for algo in "ppo-maskable"

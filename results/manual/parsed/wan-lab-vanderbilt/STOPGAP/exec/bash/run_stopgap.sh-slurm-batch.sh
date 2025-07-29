@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-truffle-7123
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 set -e              # Crash on error
 set -o nounset      # Crash on unset variables

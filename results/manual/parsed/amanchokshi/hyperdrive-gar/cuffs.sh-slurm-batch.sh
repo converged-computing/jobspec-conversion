@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cuFFS
-#FLUX: --queue=gpuq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cuFFS
+#SBATCH --account=mwaeor
+#SBATCH --output=cuffs-%A.out
+#SBATCH --error=cuffs-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=256GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpuq
+#SBATCH --constraint=ntasks-per-node=1
 
 source /pawsey/mwa/software/python3/build_base.sh
 module load cuda

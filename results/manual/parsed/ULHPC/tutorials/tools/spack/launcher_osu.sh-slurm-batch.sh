@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job_test
+#SBATCH --output=mpi_test_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=128
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=BIGWIG
-#FLUX: -c=20
-#FLUX: --queue=bigmem
-#FLUX: --urgency=16
+#SBATCH --job-name=BIGWIG
+#SBATCH --output=logs/BIGWIG.%A_%a.out
+#SBATCH --error=logs/BIGWIG.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=30Gb
+#SBATCH --partition=bigmem
 
 module purge
 module load BEDTools/2.30.0-GCC-10.2.0

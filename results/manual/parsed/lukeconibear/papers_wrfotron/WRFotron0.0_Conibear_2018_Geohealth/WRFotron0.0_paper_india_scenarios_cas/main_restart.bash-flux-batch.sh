@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-poodle-6027
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-bicycle-2554
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lukeconibear/papers_wrfotron/WRFotron0.0_Conibear_2018_Geohealth/WRFotron0.0_paper_india_scenarios_cas/main_restart.bash

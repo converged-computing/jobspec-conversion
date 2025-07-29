@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-4415
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-pastry-3666
+#FLUX -t=30
+#FLUX --urgency=16
 
 source /home/syz/sdecouplings/bin/activate
 SRAND=$RANDOM

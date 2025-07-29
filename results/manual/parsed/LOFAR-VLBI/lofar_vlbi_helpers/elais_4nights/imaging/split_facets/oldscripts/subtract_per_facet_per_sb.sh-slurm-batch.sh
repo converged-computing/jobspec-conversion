@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=subtract
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --job-name=subtract
+#SBATCH --mail-user=jurjendejong@strw.leidenuniv.nl
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --constraint=amd
+#SBATCH --array=0-40%4
 
 SCRIPT_DIR=/home/lofarvwf-jdejong/scripts/lofar_vlbi_helpers/imaging/split_facets
 POLYREG=poly_${SLURM_ARRAY_TASK_ID}.reg

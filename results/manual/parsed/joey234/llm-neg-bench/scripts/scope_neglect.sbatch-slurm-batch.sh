@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run-scope-neglect
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=run-scope-neglect
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=23:59:59
 
 REPO_DIR=$HOME/inverse-scaling-eval-pipeline
 EXP_DIR=scope-neglect

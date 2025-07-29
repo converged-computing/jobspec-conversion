@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hope-5431
-#FLUX: -c=4
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-gato-0461
+#FLUX -c=4
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load python/3.8
 module load scipy-stack

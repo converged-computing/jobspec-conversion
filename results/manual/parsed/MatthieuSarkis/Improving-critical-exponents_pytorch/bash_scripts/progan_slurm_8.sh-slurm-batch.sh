@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ProGAN
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ProGAN
+#SBATCH --output=OUTPUT_%j.out
+#SBATCH --error=ERROR_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='1'
 

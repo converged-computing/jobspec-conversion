@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=OF10_NvcppOpt_wmake_libso_finiteVolume
-#FLUX: --queue=infer
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=OF10_NvcppOpt_wmake_libso_finiteVolume
+#FLUX --queue=infer
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NVLOCALRC='$HOME/localrc'
 export WM_NCOMPPROCS='160'

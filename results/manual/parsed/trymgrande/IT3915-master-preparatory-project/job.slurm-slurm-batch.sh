@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=yolov7-training-testing-with-augmentation
-#FLUX: -c=28
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=yolov7-training-testing-with-augmentation
+#SBATCH --account=ie-idi
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=V100
 
 AUGMENTATION_NUMBER=$1
 WORKDIR=${SLURM_SUBMIT_DIR}

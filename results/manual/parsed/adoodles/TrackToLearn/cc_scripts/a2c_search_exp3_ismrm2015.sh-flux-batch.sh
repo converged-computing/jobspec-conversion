@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-1488
-#FLUX: -c=12
-#FLUX: -t=519780
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-leopard-5327
+#FLUX -c=12
+#FLUX -t=519780
+#FLUX --urgency=16
 
 export DISPLAY=':0'
 

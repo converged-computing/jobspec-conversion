@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lentil-9609
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-leg-3951
+#FLUX -N=2
+#FLUX -c=8
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

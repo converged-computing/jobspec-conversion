@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-signal-6077
-#FLUX: -c=4
-#FLUX: --queue=isi
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=xusenyin@isi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=10GB
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=isi
 
 export PYTHONPATH='$HOME/git-store/deep-textworld-student/python/:$PYTHONPATH'
 

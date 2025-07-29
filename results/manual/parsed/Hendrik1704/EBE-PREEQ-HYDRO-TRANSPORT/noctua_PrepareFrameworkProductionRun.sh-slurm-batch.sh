@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=InstallCode
-#FLUX: -n=10
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=InstallCode
+#SBATCH --account=hpc-prf-flucurhi
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
 
 module load numlib/GSL/2.7-GCC-11.3.0
 module load toolchain/intel/2022.00

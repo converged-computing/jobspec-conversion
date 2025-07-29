@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=CHIP_SE_snakemake
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=CHIP_SE_snakemake
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module purge
 module load genomics/ngs/samtools/1.11/gcc-8.3.1

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=S_Cif_q
-#FLUX: -n=20
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=S_Cif_q
+#SBATCH --account=research
+#SBATCH --output=Output_file/logQ%j.out
+#SBATCH --mail-user=sandeep.nagar@research.iiit.ac.in
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=3000
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=medium
 
 module load cudnn/7-cuda-10.0
 source venv/bin/activate

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SR
-#FLUX: -c=60
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#FLUX --job-name=SR
+#FLUX -c=60
+#FLUX --queue=all
+#FLUX --urgency=16
 
 module load singularity/3.5.3
 module load nextflow/21.04.1

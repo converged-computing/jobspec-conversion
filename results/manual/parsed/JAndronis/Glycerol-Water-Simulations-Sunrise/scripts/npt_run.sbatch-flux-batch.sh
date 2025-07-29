@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NPT_Equilibration
-#FLUX: -n=64
-#FLUX: -c=2
-#FLUX: --queue=cops
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=NPT_Equilibration
+#FLUX -n=64
+#FLUX -c=2
+#FLUX --queue=cops
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scafold_cifar10_superclass_1
-#FLUX: --queue=gpulong
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=scafold_cifar10_superclass_1
+#FLUX --queue=gpulong
+#FLUX -t=252000
+#FLUX --urgency=16
 
 ml TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4
 ml matplotlib/3.1.1-fosscuda-2019b-Python-3.7.4

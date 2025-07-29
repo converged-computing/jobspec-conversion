@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-motorcycle-1410
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/juselius/cmake-template/cdash/cdash.run.in

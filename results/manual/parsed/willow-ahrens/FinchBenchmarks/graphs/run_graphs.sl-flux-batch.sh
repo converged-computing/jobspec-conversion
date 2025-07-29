@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kerfuffle-0461
+#FLUX --job-name=joyous-lemur-4233
 #FLUX: --exclusive
-#FLUX: --queue=lanka-v3
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=lanka-v3
+#FLUX -t=14400
+#FLUX --urgency=16
 
 cd /data/scratch/willow/FinchBenchmarks/graphs
 source /afs/csail.mit.edu/u/w/willow/everyone/.bashrc

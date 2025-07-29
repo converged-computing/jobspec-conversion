@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dlv3+r50_Benchmark
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=dlv3+r50_Benchmark
+#FLUX -c=2
+#FLUX --queue=gpu,gpub
+#FLUX -t=604800
+#FLUX --urgency=16
 
 cd ~/work/transformer-domain-generalization || return
 module load comp/gcc/11.2.0

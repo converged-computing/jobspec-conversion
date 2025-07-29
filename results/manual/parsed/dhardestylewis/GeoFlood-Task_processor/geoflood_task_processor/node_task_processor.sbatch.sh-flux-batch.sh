@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=geoflood.%j
-#FLUX: -n=67
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=geoflood.%j
+#FLUX -n=67
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 args=( )
 for arg; do

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=harmonize_dublin
-#FLUX: -c=32
-#FLUX: --queue=V4V32_SKY32M192_L
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=harmonize_dublin
+#SBATCH --account=gol_nja224_uksr
+#SBATCH --output=harmonize_log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=V4V32_SKY32M192_L
 
 module purge
 module load intel/19.0.4.243

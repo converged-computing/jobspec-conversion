@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ps2cctbx
-#FLUX: -N=5000
+#FLUX --job-name=ps2cctbx
+#FLUX -N=5000
 #FLUX: --exclusive
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='600'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-destiny-1578
-#FLUX: -c=24
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-staircase-5017
+#FLUX -c=24
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CXX='$READEX_CXX'
 

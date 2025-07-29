@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=rohib
-#FLUX: -c=32
-#FLUX: --queue=qTRDGPUH
-#FLUX: -t=444000
-#FLUX: --urgency=16
+#SBATCH --job-name=rohib
+#SBATCH --account=PSYC0002
+#SBATCH --output=./results/base_tiny_res18/res18-baseline-%A.out
+#SBATCH --error=./results/base_tiny_res18/res18-baseline-%A.err
+#SBATCH --mail-user=rio.ohib@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=64g
+#SBATCH --time=5-03:20:00
+#SBATCH --partition=qTRDGPUH
 
 export OMP_NUM_THREADS='1'
 export MODULEPATH='/apps/Compilers/modules-3.2.10/Debug-Build/Modules/3.2.10/modulefiles/'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cat-9425
-#FLUX: -c=6
-#FLUX: -t=419
-#FLUX: --urgency=16
+#SBATCH --output=%N-%j_num_heads.out
+#SBATCH --mail-user=tristan.robitaille@mail.utoronto.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem=16000M
+#SBATCH --time=00:06:59
+#SBATCH --array=1,2,4,8,16,32,64
 
 module load cuda cudnn 
 module load python/3

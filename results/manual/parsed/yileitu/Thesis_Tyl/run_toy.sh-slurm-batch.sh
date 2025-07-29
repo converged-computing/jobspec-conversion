@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-citrus-5299
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=es_sachan
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100_80gb:1
+#SBATCH --mem-per-cpu=16384
+#SBATCH --time=1-00:00:00
 
 module load eth_proxy
 module load gcc/9.3.0

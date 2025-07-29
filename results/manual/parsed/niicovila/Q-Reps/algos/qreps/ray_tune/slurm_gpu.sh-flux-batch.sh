@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=qreps-tune
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=qreps-tune
+#FLUX -N=2
+#FLUX -c=6
+#FLUX --gpus-per-task=1
+#FLUX --queue=high
+#FLUX --urgency=16
 
 [ ! -e "nccl-tests" ] && git clone https://github.com/NVIDIA/nccl-tests.git
 module load foss/2020b

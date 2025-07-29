@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=33_100cm_U_0.25_Q_100E6
-#FLUX: -n=40
-#FLUX: --urgency=16
+#SBATCH --job-name=33_100cm_U_0.25_Q_100E6
+#SBATCH --output=run-%j.out
+#SBATCH --error=run-%j.err
+#SBATCH --mail-user=cristian.garrido@idom.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
 
 set -eu
 spack load openfoam@2306

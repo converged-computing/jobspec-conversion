@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leg-9111
-#FLUX: -N=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-truffle-9722
+#FLUX -N=4
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

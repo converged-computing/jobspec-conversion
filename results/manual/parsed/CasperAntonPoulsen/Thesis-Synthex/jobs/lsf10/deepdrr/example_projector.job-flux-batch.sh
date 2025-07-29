@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-ricecake-4899
-#FLUX: --urgency=16
+#FLUX --job-name=milky-eagle-6011
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/deepdrr/example_projector.job

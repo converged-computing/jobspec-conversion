@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=add
-#FLUX: -n=16
-#FLUX: --queue=haswell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=add
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=300M
+#SBATCH --time=01:00:00
+#SBATCH --partition=haswell
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

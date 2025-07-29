@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=submit_snakemake_%j
-#FLUX: --queue=all
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=submit_snakemake_%j
+#SBATCH --output=submit_snakemake_%j.out
+#SBATCH --error=submit_snakemake_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=all
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate tcge-cfmedip-seq-pipeline

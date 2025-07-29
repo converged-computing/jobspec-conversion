@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=runSpineOpt
-#FLUX: -n=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=runSpineOpt
+#FLUX -n=8
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load gurobi gcc/11.4.0 julia/1.10.2
 cd $SCRATCH/path/to/the/SpineOptProject

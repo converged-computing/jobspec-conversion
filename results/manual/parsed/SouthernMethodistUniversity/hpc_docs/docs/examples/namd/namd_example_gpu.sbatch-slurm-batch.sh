@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: --exclusive
-#FLUX: --queue=gpgpu-1
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=250G
+#SBATCH --partition=gpgpu-1
+#SBATCH: --exclusive
 
 module purge
 module load namd/2.12/gpu

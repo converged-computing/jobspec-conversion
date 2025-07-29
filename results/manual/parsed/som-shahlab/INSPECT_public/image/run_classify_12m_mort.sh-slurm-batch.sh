@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=12m_mort
-#FLUX: -c=5
-#FLUX: --queue=nigam-v100
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=12m_mort
+#SBATCH --output=logs/job_%A_out.log
+#SBATCH --error=logs/job_%A_err.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=nigam-v100
 
 seeds="0"
 n_gpus=1

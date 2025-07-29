@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cupcake-7238
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-leg-1733
+#FLUX -N=4
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NiO64
-#FLUX: -N=4
-#FLUX: --queue=batch
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=NiO64
+#FLUX -N=4
+#FLUX --queue=batch
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='7'
 export RMG_NUM_THREADS='5'

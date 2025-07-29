@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-snack-9424
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-underoos-7044
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 module load conda/2019.10

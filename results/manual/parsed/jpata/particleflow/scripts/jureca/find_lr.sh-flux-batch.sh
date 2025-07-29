@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lr_find
-#FLUX: --queue=dc-gpu-devel
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=lr_find
+#FLUX --queue=dc-gpu-devel
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

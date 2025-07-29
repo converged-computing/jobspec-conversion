@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eopreg_$value
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=eopreg_$value
+#SBATCH --output=Job.%J.out
+#SBATCH --error=Job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=$np,[cascadelake|skylake|amd|rome]
 
 quantity="eopreg"           #the variable in the scf file to change valeus you can name it random  to calculate without any change
 values="0.10 0.20 0.30 0.40"      # when you want to calculate without any change just put any single value here

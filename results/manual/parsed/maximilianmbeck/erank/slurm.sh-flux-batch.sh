@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-buttface-0458
-#FLUX: -c=32
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-diablo-7572
+#FLUX -c=32
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='$NUM_CORES OMP_NUM_THREADS=$NUM_CORES'
 

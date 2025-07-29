@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-omelette-7286
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --output=sing_test_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 module purge
 module load singularity

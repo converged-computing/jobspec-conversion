@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=safe
-#FLUX: -c=2
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=safe
+#FLUX -c=2
+#FLUX -t=72000
+#FLUX --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 maindir=$WORK/Token_QuestEval

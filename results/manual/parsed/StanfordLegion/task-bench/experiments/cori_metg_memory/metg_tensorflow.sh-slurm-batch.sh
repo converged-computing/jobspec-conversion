@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fork-0552
-#FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=m2294
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --qos=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'
 

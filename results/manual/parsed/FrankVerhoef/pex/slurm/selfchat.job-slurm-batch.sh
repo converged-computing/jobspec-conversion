@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Selfchat
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=Selfchat
+#SBATCH --output=slurm/outputs/chat_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
+#SBATCH --begin=2023-07-25T04:00:00
+#SBATCH --array=[13]%6
 
 source ./slurm/.secrets
 module purge

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lizard-2313
-#FLUX: -c=8
-#FLUX: --queue=normal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --output=finn_compile_job_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=06:00:00
+#SBATCH --partition=normal
 
 echo "Running the cluster/remote build script"
 WORKING_DIR=<FINN_WORKDIR>

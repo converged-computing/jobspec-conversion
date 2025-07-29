@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=4PopSplit
-#FLUX: --queue=broadwl
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=4PopSplit
+#FLUX --queue=broadwl
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load python/cpython-3.7.0
 module load R

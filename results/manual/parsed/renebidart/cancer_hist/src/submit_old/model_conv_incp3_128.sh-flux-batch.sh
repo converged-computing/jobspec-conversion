@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-9393
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=fat-lamp-8691
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

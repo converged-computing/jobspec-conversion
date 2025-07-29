@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=edit_fixfile
-#FLUX: --queue=workq
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=edit_fixfile
+#SBATCH --account=mwaeor
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=workq
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/pawsey/intel/19.0.5/mkl/lib/intel64/'
 

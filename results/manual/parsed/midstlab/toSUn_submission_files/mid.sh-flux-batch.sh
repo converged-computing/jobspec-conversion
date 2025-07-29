@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FEP
-#FLUX: --queue=mid_mdbf
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=FEP
+#FLUX --queue=mid_mdbf
+#FLUX -t=86400
+#FLUX --urgency=16
 
 INPUT_FILE="tmpp_i94l-a26t-w30g_50ns_eq.conf"
 source /etc/profile.d/modules.sh

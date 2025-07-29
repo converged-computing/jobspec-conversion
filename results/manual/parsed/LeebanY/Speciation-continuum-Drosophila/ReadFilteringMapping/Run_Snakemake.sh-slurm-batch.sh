@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=speccontin
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=speccontin
+#SBATCH --output=specconti.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --partition=long
 
 pwd; hostname; date
 conda activate snakemake_drosophilomics

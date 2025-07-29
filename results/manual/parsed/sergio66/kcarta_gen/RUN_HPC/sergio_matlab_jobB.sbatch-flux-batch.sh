@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=KCARTA_DRIVER
-#FLUX: --queue=high_mem
-#FLUX: -t=7140
-#FLUX: --urgency=16
+#FLUX --job-name=KCARTA_DRIVER
+#FLUX --queue=high_mem
+#FLUX -t=7140
+#FLUX --urgency=16
 
 if [ $# -gt 0 ]; then
   echo "Your command line contains $# arguments"

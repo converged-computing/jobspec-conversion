@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=maker
-#FLUX: -c=28
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=maker
+#SBATCH --output=stdout.%j
+#SBATCH --error=stderr.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=54G
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load MAKER/3.01.03-intel-2018b-Python-2.7.15
 <<README

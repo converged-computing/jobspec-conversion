@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=synaptome
-#FLUX: --queue=prod
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=synaptome
+#SBATCH --account=proj3
+#SBATCH --output=/gpfs/bbp.cscs.ch/project/proj83/visualization-SSCXDIS-178/synaptome/trial-4-08.03.2020/stdout-vgl
+#SBATCH --error=/gpfs/bbp.cscs.ch/project/proj83/visualization-SSCXDIS-178/synaptome/trial-4-08.03.2020/stderr-vgl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --time=16:00:00
+#SBATCH --partition=prod
+#SBATCH --constraint=volta
 
 BLENDER=$PWD/../../../../../../blender
 CIRCUIT_CONFIG='/gpfs/bbp.cscs.ch/project/proj83/circuits/Bio_M/20200731/CircuitConfig'

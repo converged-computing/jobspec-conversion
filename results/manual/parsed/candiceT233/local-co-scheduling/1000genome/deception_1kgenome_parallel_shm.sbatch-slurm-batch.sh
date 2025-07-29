@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=deception_10nodes_pfs_ssd7
-#FLUX: -N=10
-#FLUX: -n=200
-#FLUX: --queue=slurm
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=deception_10nodes_pfs_ssd7
+#SBATCH --account=chess
+#SBATCH --output=R_%x.out
+#SBATCH --error=R_%x.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=200
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=slurm
+#SBATCH --exclude=dc[119]
 
 ```
 SBATCH -A oddite

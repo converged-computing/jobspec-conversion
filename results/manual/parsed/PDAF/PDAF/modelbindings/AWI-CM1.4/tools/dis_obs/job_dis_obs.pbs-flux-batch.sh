@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-staircase-3978
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-citrus-7591
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PDAF/PDAF/modelbindings/AWI-CM1.4/tools/dis_obs/job_dis_obs.pbs

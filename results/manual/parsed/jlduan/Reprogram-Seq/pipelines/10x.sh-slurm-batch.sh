@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=10x
-#FLUX: --queue=256GB
-#FLUX: -t=144030
-#FLUX: --urgency=16
+#SBATCH --job-name=10x
+#SBATCH --output=job_log.%j.out
+#SBATCH --error=job_log.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-16:00:30
+#SBATCH --partition=256GB
 
 export libraries=''
 

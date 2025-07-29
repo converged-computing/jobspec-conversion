@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mmm
-#FLUX: --queue=general
-#FLUX: --urgency=16
+#SBATCH --job-name=mmm
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=general
+#SBATCH --qos=normal
 
 module ()
 {

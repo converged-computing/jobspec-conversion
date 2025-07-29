@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=DelBias
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#SBATCH --job-name=DelBias
+#SBATCH --output=/homedtic/gjimenez/DADES/DADES/DelineationResults/BIAS_20_SEPARATE/LOGS/%A_%a.out
+#SBATCH --error=/homedtic/gjimenez/DADES/DADES/DelineationResults/BIAS_20_SEPARATE/LOGS/%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --partition=medium
+#SBATCH --array=000-999
 
 ORIGINAL_SLURM_ARRAY_TASK_ID=$SLURM_ARRAY_TASK_ID;
 WINDOW_SIZE=20;

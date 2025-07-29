@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
-#FLUX: --queue=long-40core
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=benchmark
+#SBATCH --output=benchmark.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long-40core
+#SBATCH --constraint=ntasks-per-node=20
 
 module load diffexp/1.0
 snakemake --cores 20 -s snakefile-benchmark 

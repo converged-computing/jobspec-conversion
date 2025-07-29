@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=regr-torch
-#FLUX: --queue=alvis
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=regr-torch
+#SBATCH --account=NAISS2024-22-219
+#SBATCH --output=regression-pytorch.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=alvis
 
 module purge
 module load PyTorch-bundle/1.12.1-foss-2022a-CUDA-11.7.0

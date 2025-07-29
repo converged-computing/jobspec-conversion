@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=taco_noblocking
-#FLUX: -n=128
+#FLUX --job-name=taco_noblocking
+#FLUX -n=128
 #FLUX: --exclusive
-#FLUX: --queue=disc
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=disc
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cp /home/khaled/sparse-high-level-opt/taco_expr/run_tool_noblocking.sh /scratch/khaled/dask_out
 echo "Starting Apptainer Container..."

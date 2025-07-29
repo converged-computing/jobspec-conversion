@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpu
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=normal
+#SBATCH --array=1-10
 
 mpirun lmp_test -in in.lammps

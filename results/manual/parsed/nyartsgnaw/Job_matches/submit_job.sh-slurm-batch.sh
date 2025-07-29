@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chair-5221
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./slurm-%j.out
+#SBATCH --error=./slurm-%j.err
+#SBATCH --mail-user=straynwang@gwu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load git/1.8.3.1
 module load openmpi/1.8/gcc/4.7/cpu

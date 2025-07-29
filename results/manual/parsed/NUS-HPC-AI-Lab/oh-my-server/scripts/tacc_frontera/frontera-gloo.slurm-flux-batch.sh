@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=myjob
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=rtx
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=myjob
+#FLUX -N=2
+#FLUX -n=8
+#FLUX --queue=rtx
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

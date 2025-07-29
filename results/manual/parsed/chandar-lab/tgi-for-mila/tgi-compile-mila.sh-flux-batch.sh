@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=2
-#FLUX: --queue=unkillable-cpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tgi-compile
+#FLUX -c=2
+#FLUX --queue=unkillable-cpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export MAX_JOBS='4'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

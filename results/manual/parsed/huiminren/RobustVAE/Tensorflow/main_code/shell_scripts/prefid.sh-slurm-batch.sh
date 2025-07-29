@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-milkshake-6057
-#FLUX: -n=8
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --output=prefid_rvae.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --partition=short
 
 sacct --format="CPUTime,MaxRSS"
 python ../fid_computation/prefid.py

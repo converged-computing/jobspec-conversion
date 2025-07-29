@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rnn.kp20k.multi_test.general
-#FLUX: --queue=gtx1080
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=rnn.kp20k.multi_test.general
+#FLUX --queue=gtx1080
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export EXP_NAME='rnn.kp20k.multi_test.general'
 export ATTENTION='general'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cna2015_exo
-#FLUX: -c=2
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cna2015_exo
+#SBATCH --mail-user=${USER}@tgen.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=12:00:00
 
 export PERL5LIB='$PERL5LIB:/home/jaldrich/perl5/lib/perl5:/usr/lib64/perl5/vendor_perl'
 export MCR_CACHE_ROOT='${TD}/TempDir'

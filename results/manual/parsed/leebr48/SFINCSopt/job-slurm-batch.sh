@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=sfincsOpt
-#FLUX: -N=18
-#FLUX: -n=720
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=sfincsOpt
+#SBATCH --output=./sfincsOpt.out.%j
+#SBATCH --error=./sfincsOpt.err.%j
+#SBATCH --mail-user=brandon.lee@ipp.mpg.de
+#SBATCH --mail-type=all
+#SBATCH --nodes=18
+#SBATCH --ntasks=720
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --chdir=./
 
 module purge
 module load intel/19.1.2

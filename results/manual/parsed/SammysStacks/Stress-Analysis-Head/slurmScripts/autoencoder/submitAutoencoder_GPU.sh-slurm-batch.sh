@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=AutoencoderModel compressionFactor $1 expansionFactor $2
-#FLUX: --queue=gpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=AutoencoderModel compressionFactor $1 expansionFactor $2
+#SBATCH --mail-user=ssolomon@caltech.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=48G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu
 
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'
 

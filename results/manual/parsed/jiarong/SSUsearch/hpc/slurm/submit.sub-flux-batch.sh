@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-punk-9193
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-peanut-butter-6777
+#FLUX -t=43200
+#FLUX --urgency=16
 
 Workdir=.
 SSUsearch=ssusearch

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-rabbit-5220
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-parrot-7306
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module load 2019
 module load netCDF-Fortran/4.4.4-foss-2018b

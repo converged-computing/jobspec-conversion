@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Genopipe
-#FLUX: --queue=general
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Genopipe
+#FLUX --queue=general
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load python/3.6.6
 module load plink

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=xsmooth_sem
-#FLUX: -N=4
-#FLUX: -n=144
-#FLUX: --queue=nesi_research
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=xsmooth_sem
+#FLUX -N=4
+#FLUX -n=144
+#FLUX --queue=nesi_research
+#FLUX -t=1800
+#FLUX --urgency=16
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

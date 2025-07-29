@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-7895
-#FLUX: --urgency=16
+#SBATCH --output=./sbatch_logs/%J.log
+#SBATCH --error=./sbatch_logs/%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export MASTER_PORT='$MASTER_PORT'
 export MASTER_ADDR='$MASTER_ADDR'

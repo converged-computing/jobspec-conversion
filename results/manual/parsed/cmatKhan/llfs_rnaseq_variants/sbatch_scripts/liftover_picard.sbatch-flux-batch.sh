@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=liftover
-#FLUX: --urgency=16
+#FLUX --job-name=liftover
+#FLUX --urgency=16
 
 input_dir=/ref/mblab/data/llfs/geno_chip
 output_dir=lifted_over_vcf

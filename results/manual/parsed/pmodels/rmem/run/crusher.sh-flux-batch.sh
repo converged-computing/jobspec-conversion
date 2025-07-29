@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-dog-4753
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=grated-knife-0790
+#FLUX -N=2
+#FLUX -c=16
+#FLUX --gpus-per-task=1
+#FLUX -t=600
+#FLUX --urgency=16
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)'

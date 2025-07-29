@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cat-4008
-#FLUX: --queue=develgpus
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-knife-5060
+#FLUX --queue=develgpus
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

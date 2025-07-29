@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pangeo
-#FLUX: -c=4
-#FLUX: --queue=workq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=pangeo
+#SBATCH --account=pawsey0106
+#SBATCH --output=pangeo-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=workq
 
 export PATH='/group/pawsey0106/miniconda3/bin:$PATH'
 export XDG_RUNTIME_DIR=''

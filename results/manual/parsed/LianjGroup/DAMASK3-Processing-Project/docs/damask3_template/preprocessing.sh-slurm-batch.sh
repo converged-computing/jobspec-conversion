@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=CPparameter_test
-#FLUX: -c=32
-#FLUX: --queue=medium
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=CPparameter_test
+#SBATCH --account=project_2004956
+#SBATCH --error=CPparameter_test
+#SBATCH --mail-user=binh.nguyen@aalto.fi
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=01:00:00
+#SBATCH --partition=medium
+#SBATCH --constraint=ntasks-per-node=8
 
 export PETSC_DIR='/projappl/project_2004956/spack/install_tree/gcc-11.2.0/petsc-3.16.1-zeqfqr/lib'
 export PETSC_FC_INCLUDES='/projappl/project_2004956/spack/install_tree/gcc-11.2.0/petsc-3.16.1-zeqfqr/include'

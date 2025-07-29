@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LA
-#FLUX: --queue=psych_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=LA
+#FLUX --queue=psych_gpu
+#FLUX -t=21600
+#FLUX --urgency=16
 
 set -e
 nvidia-smi

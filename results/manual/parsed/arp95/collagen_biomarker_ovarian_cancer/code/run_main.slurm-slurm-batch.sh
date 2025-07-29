@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=features9
-#FLUX: -t=313200
-#FLUX: --urgency=16
+#SBATCH --job-name=features9
+#SBATCH --output=log.pipeline.features9
+#SBATCH --mail-user=$USER@case.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=30G
+#SBATCH --time=3-15:00:00
 
 module swap intel gcc
 module load python/3.7.0

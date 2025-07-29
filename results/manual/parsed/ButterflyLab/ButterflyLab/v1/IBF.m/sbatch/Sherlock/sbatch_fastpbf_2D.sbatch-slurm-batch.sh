@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=fastpbf_2D
-#FLUX: --queue=bigmem
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=fastpbf_2D
+#SBATCH --output=out/out_fastpbf_2D.out
+#SBATCH --error=err/err_fastpbf_2D.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1500000
+#SBATCH --time=16:00:00
+#SBATCH --partition=bigmem
+#SBATCH --qos=bigmem
 
 module load matlab
 cd ../../test/fio

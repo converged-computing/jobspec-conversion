@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=inv_images
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=inv_images
+#SBATCH --account=Project_2004728
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:v100:2,nvme:500
+#SBATCH --mem=64G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 source /scratch/project_2004728/envs/adv_env/bin/activate
 cp /scratch/project_2004728/imagenet_files.tar $LOCAL_SCRATCH

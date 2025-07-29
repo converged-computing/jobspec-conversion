@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pancake-0936
-#FLUX: -c=4
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=rrg-bengioy-ad
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=00:20:00
+#SBATCH --array=1-9
 
 targets=('troglitazone_rediscovery' 'sitagliptin_mpo' 'median2')
 seeds=(1 2 3)

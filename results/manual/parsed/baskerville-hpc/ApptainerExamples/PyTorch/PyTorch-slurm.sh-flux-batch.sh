@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nvidia-smi
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=nvidia-smi
+#FLUX -t=30
+#FLUX --urgency=16
 
 module purge
 module load baskerville

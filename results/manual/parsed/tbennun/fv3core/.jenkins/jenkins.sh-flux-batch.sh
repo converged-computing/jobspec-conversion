@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chip-0837
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-leg-8681
+#FLUX --urgency=16
 
 export python_env='${python_env}'
 export jenkins_dir='`dirname $0`'

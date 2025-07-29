@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cpl_cors
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cpl_cors
+#SBATCH --account=nn9481k
+#SBATCH --output=run.%j.out
+#SBATCH --error=run.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=devel
+#SBATCH --constraint=ntasks-per-node=8
 
 export STARTD='`grep "time_init=" $CONFIG | awk '{printf("%1s", $1)}' | tail -c11 | head -c10` '
 export DURATION='`grep "^duration=" $CONFIG | sed s/duration=// | awk '{printf("%d", $1)}' `'

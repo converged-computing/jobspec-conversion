@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_md
-#FLUX: -c=2
-#FLUX: --queue=xyz
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs_md
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=xyz
+#SBATCH --constraint=ntasks-per-node=40
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='cores'

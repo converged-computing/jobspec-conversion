@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bike-3066
-#FLUX: -N=16
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-itch-1231
+#FLUX -N=16
+#FLUX --queue=regular
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export HYQUAS_ROOT='/pscratch/sd/z/zjia/qs/HyQuas'
 export MPICH_GPU_SUPPORT_ENABLED='1'

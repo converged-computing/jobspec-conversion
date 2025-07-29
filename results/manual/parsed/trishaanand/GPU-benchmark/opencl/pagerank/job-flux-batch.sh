@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-punk-1138
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-eagle-0765
+#FLUX -t=1800
+#FLUX --urgency=16
 
 . /etc/bashrc
 . /etc/profile.d/modules.sh

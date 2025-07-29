@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hicma
-#FLUX: -c=40
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=hicma
+#SBATCH --output=/ibex/scratch/omairyrm/hicma-torelease/hicma-dev/cs-exp/out/%j
+#SBATCH --error=/ibex/scratch/omairyrm/hicma-torelease/hicma-dev/cs-exp/err/%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=350G
+#SBATCH --partition=batch
+#SBATCH --constraint=[cpu_intel_gold_6248]
 
 export STARPU_CALIBRATE='0'
 

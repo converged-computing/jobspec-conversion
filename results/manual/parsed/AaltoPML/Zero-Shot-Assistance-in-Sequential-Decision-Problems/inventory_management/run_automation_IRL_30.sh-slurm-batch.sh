@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=E0_IRL_IM_OPT_30
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#SBATCH --job-name=E0_IRL_IM_OPT_30
+#SBATCH --output=/scratch/work/%u/E0_IRL_IM_OPT_30_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1500
+#SBATCH --time=02:30:00
+#SBATCH --array=1-20
 
 STEP=30
 module load julia

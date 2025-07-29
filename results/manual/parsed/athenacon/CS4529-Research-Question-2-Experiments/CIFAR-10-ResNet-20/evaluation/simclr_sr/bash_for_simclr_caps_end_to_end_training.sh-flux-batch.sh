@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-2588
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-kitty-5290
+#FLUX -c=6
+#FLUX --queue=gpu
+#FLUX -t=540000
+#FLUX --urgency=16
 
 nvidia-smi
 conda init

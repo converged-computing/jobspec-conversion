@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cnn_pytorch
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=cnn_pytorch
+#SBATCH --account=m3363
+#SBATCH --output=slurm-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=regular
+#SBATCH --constraint=gpu,ntasks-per-node=8
 
 echo "--start date" `date` `date +%s`
 echo '--hostname ' $HOSTNAME

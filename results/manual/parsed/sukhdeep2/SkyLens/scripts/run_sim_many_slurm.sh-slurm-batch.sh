@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=sims
-#FLUX: --queue=RM
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=sims
+#SBATCH --account=phy200040p
+#SBATCH --output=/verafs/scratch/phy200040p/sukhdeep/project/skylens/temp/log/run_sim_many%A_%a.out
+#SBATCH --error=/verafs/scratch/phy200040p/sukhdeep/project/skylens/temp/log/run_sim_many%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=RM
+#SBATCH --constraint=ntasks-per-node=28
+#SBATCH --array=1-4
 
 ID=$SLURM_ARRAY_JOB_ID
 total_job=$SLURM_ARRAY_TASK_COUNT

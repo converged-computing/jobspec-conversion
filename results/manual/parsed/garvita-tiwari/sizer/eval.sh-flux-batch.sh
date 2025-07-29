@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cattywampus-4517
-#FLUX: --queue=gpu20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=faux-egg-0597
+#FLUX --queue=gpu20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "canonical pose data for whole body"
 cd /BS/garvita/work/code/sizer

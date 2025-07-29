@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-underoos-7870
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-truffle-4066
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load PrgEnv-cray
 module load amd-mixed 

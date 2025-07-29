@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=SVO-QE-cRPA
-#FLUX: --queue=ccq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SVO-QE-cRPA
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ccq
+#SBATCH --constraint=ntasks-per-node=8,rome
 
 export OMP_NUM_THREADS='16'
 export OMP_STACKSIZE='512'

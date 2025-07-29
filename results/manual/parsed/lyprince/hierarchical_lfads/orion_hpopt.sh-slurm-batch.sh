@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpopt
-#FLUX: --queue=long
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hpopt
+#SBATCH --output=../out/orion_hpopt_%A_%a.out
+#SBATCH --error=../out/orion_hpopt_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=long
+#SBATCH --array=1-100%10
+#SBATCH --exclude=leto34,eos5,kepler2,leto33
 
 PROJECTDIR=$HOME/hierarchical_lfads/
 DATADIR=synth_data

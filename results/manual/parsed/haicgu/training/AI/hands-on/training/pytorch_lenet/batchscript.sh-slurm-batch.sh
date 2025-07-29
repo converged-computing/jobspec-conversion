@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-eagle-2034
-#FLUX: --queue=a800-9000
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=a800-9000
 
 export RANK_SIZE='1'
 

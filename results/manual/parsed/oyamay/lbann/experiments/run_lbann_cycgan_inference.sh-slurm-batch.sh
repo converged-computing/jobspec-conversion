@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-earthworm-6787
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 EXPERIMENT=$1
 EXPERIMENT_NAME=lbann_cycgan_jag_inference

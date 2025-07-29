@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=chi2stream
-#FLUX: --queue=multi
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=chi2stream
+#SBATCH --mail-user=mmestre@fcaglp.unlp.edu.ar
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=multi
+#SBATCH --constraint=ntasks-per-node=64
 
 . /etc/profile
 python grid_chi2stream.py

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=salted-rabbit-9545
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --account=my_acct
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:2
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
 
 module purge
 module load goolf lammps/2Aug2023

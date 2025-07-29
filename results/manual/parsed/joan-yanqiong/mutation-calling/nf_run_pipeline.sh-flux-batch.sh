@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=launch_bulkRNAseq_mutation_calling
-#FLUX: --queue=long
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=launch_bulkRNAseq_mutation_calling
+#FLUX --queue=long
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

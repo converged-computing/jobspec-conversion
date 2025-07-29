@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-peanut-4630
-#FLUX: --urgency=16
+#FLUX --job-name=blank-lemon-8412
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/halved_synapses.pbs

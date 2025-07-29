@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=mugi_pipeline
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=mugi_pipeline
+#SBATCH --output=/home/mila/l/le.zhang/scratch/slurm_logs/muginfc-%j.txt
+#SBATCH --error=/home/mila/l/le.zhang/scratch/slurm_logs/muginfc-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100l.3
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --partition=long
+#SBATCH --constraint=ntasks-per-node=1
 
 module load miniconda/3
 conda init

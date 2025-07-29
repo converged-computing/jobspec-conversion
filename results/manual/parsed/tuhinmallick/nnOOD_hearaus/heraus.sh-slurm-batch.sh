@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=heraus-test1
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=heraus-test1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:00:00
 
 unset SLURM_EXPORT_ENV
 module load python/3.8-anaconda

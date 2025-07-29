@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-3751
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 CONDA_ENV_NAME=
 MAIN_HOME=/home

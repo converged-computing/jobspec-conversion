@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-banana-7199
-#FLUX: -c=12
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:10:00
+#SBATCH --partition=devel
+#SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

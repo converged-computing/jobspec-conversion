@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=anacapa-12S-mock
-#FLUX: --queue=intel
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#SBATCH --job-name=anacapa-12S-mock
+#SBATCH --output=/path/to/anacapa-12S-out.log
+#SBATCH --error=/path/to/anacapa-12S-err.log
+#SBATCH --mail-user=<youremail>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:10:00
+#SBATCH --partition=intel
 
 SINGULARITY=$(which singularity)
 module load singularity # may not need this on your system

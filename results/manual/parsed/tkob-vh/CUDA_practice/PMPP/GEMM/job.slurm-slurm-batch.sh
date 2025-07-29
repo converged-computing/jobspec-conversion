@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peas-7277
-#FLUX: --urgency=16
+#SBATCH --output=output/GEMM.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=hepnode2
 
 echo "Starting job $SLURM_JOB_ID"
 cat job.slurm

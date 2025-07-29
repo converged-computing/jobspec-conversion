@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nullsim
-#FLUX: -c=4
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=nullsim
+#FLUX -c=4
+#FLUX -t=2400
+#FLUX --urgency=16
 
 cd /mmfs1/data/kurkela/Desktop/CamCan/code
 module load matlab

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kerfuffle-6986
-#FLUX: --queue=general-compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --mail-user=kgvansly@buffalo.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=general-compute
 
 export HOME='$SLURMTMPDIR'
 export TMP='$SLURMTMPDIR'

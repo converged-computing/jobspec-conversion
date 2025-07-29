@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-truffle-2376
-#FLUX: -N=6
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=16
 
 export JULIA_WORKER_TIMEOUT='300'
 

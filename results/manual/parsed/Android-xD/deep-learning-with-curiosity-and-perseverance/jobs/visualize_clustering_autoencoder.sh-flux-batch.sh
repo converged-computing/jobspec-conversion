@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train
-#FLUX: -n=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train
+#FLUX -n=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source scripts/startup.sh
 cd third_party/imagenet-autoencoder

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=relion_build
-#FLUX: -c=8
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=preempted,gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=relion_build
+#FLUX -c=8
+#FLUX --gpus-per-task=1
+#FLUX --queue=preempted,gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 MY_CUDA_ARCH=(80 86)
 MY_BUILD_BASE=$MYDATA/relion_build_v2

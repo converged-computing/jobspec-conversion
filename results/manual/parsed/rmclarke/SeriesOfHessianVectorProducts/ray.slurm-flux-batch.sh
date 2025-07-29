@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TUNE_fash
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: -t=129570
-#FLUX: --urgency=16
+#FLUX --job-name=TUNE_fash
+#FLUX -c=32
+#FLUX --queue=ampere
+#FLUX -t=129570
+#FLUX --urgency=16
 
 export TUNE_MAX_PENDING_TRIALS_PG='32'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

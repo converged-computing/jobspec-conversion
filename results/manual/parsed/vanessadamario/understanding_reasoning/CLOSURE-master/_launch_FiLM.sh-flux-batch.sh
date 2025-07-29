@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=FiLMCoGenT
-#FLUX: --queue=normal
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=FiLMCoGenT
+#FLUX --queue=normal
+#FLUX -t=540000
+#FLUX --urgency=16
 
 module add clustername/singularity/3.4.1
 hostname

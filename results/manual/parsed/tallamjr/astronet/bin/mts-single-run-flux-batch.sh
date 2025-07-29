@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mts-arr
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=mts-arr
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/home/tallam/astronet/'
 

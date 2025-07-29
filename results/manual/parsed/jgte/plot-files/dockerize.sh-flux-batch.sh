@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=$($BASH_SOURCE
-#FLUX: --queue=grace-serial
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=$($BASH_SOURCE
+#FLUX --queue=grace-serial
+#FLUX -t=60
+#FLUX --urgency=16
 
 DIR=$(cd $(dirname $BASH_SOURCE);pwd)
 MODE="$(echo "$1"| tr '[:upper:]' '[:lower:]')"

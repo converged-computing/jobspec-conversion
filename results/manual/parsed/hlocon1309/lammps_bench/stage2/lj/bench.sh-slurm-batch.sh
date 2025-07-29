@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-4593
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=proj_1371
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=normal
+#SBATCH --constraint=type_a
 
 module load openmpi/4.1.4
 module load CUDA/11.7

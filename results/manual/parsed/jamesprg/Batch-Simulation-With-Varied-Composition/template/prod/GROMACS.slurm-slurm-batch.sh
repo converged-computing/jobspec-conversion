@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=NAME
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120GB
+#SBATCH --time=1-12:00:00
 
 cd $SLURM_SUBMIT_DIR
 imodule load icc_17-impi_2017

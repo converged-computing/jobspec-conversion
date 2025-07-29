@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vctk_denoise
-#FLUX: -c=16
-#FLUX: --queue=xxx
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=vctk_denoise
+#FLUX -c=16
+#FLUX --queue=xxx
+#FLUX -t=86400
+#FLUX --urgency=16
 
 encoder="denoise/symAD_vctk_48000_hop300"
 decoder="vocoder/AudioDec_v1_symAD_vctk_48000_hop300_clean"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sl_test
-#FLUX: -n=2
-#FLUX: --queue=CPUQ
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=sl_test
+#SBATCH --account=nv-ikj
+#SBATCH --output=test-srun.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:05:00
+#SBATCH --partition=CPUQ
 
 date
 rm -r 00*

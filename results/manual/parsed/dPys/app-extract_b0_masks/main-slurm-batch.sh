@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=extract_b0_masks
-#FLUX: -c=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_b0_masks
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 set -x
 set -e

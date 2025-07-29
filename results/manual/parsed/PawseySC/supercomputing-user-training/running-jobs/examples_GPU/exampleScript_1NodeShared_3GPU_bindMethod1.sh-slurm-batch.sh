@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=3GPUSharedNode-bindMethod1
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=3GPUSharedNode-bindMethod1
+#SBATCH --account=<yourProject>-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
 
 export MPICH_GPU_SUPPORT_ENABLED='1 #This allows for GPU-aware MPI communication among GPUs'
 export OMP_NUM_THREADS='1           #This controls the real CPU-cores per task for the executable'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leopard-3003
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-bike-9361
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CEIDatUGA/COVID-stochastic-fitting/mif-array.sh

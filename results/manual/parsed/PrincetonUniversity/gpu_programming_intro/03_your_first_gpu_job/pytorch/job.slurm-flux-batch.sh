@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=torch-svd
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=torch-svd
+#FLUX -t=30
+#FLUX --urgency=16
 
 module purge
 module load anaconda3/2023.9

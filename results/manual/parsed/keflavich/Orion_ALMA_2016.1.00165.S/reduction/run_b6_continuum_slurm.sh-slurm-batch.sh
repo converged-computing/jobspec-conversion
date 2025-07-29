@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-9022
-#FLUX: -n=8
-#FLUX: -t=1065600
-#FLUX: --urgency=16
+#SBATCH --account=adamginsburg
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=64gb
+#SBATCH --time=12-08:00:00
+#SBATCH --qos=adamginsburg
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 

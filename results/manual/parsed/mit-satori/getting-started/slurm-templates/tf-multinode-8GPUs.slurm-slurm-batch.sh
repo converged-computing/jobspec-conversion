@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=tf_multi-8GPUs
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=sched_system_all
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_multi-8GPUs
+#SBATCH --output=tf_multi-8GPUs_%j.out
+#SBATCH --error=tf_multi-8GPUs_%j.err
+#SBATCH --mail-user=florin@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=10:00:00
+#SBATCH --partition=sched_system_all
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=4
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

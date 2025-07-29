@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: --queue=gpu-normal
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --output=torch.%j.out
+#SBATCH --error=torch.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu-normal
+#SBATCH --constraint=GTX1080
+#SBATCH --nodelist=compute-9-10
 
 source /etc/profile
 source /etc/profile.d/modules.sh

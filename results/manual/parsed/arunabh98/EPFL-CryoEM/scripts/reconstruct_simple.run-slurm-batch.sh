@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leader-9785
-#FLUX: -c=5
-#FLUX: --exclusive
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=100000
+#SBATCH --time=06:00:00
+#SBATCH: --exclusive
 
 echo STARTING AT `date`
 module purge

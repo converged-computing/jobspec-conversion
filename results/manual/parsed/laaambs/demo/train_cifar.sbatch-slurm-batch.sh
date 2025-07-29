@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cad_cifar
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cad_cifar
+#SBATCH --output=slurm-%A_%a.out
+#SBATCH --error=slurm-%A_%a.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 module load anaconda/3.7
 source activate /home/kong_04/project/envs/cad

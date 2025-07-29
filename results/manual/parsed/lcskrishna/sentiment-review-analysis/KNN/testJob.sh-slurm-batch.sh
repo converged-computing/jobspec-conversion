@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-2466
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/lcskrishna/sentiment-review-analysis/KNN/testJob.sh

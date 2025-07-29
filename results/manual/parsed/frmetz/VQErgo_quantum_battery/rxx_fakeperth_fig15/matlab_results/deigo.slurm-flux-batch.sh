@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vqe_passive_energy
-#FLUX: --queue=compute
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=vqe_passive_energy
+#FLUX --queue=compute
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load ruse
 source /home/t/tuan-hoang/miniconda3/etc/profile.d/conda.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-onion-3406
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-hobbit-1758
+#FLUX -t=432000
+#FLUX --urgency=16
 
 GAMES=(AirRaidDeterministic-v4 AlienDeterministic-v4 AmidarDeterministic-v4 AssaultDeterministic-v4
 AsterixDeterministic-v4 AsteroidsDeterministic-v4 AtlantisDeterministic-v4 BankHeistDeterministic-v4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NewTitle
-#FLUX: --queue=thsu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=NewTitle
+#FLUX --queue=thsu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 . /opt/shared/slurm/templates/libexec/openmpi.sh
 . /work/thsu/rschanta/RTS/functions/utility/bash-utils.sh

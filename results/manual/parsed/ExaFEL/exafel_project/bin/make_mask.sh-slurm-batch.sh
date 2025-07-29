@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cxid9114_mask
-#FLUX: --queue=regular
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=cxid9114_mask
+#SBATCH --mail-user=loriordan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=regular
 
+singularity
+exec
+docker:mlxd/xfel:lq79
 if [ ! -f ./mask.sh ]; then
     echo "#\!/bin/bash" >> ./mask.sh
     echo "export SIT_DATA=/reg/g/psdm/data"  >> ./mask.sh

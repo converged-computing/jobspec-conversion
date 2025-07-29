@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parsnip-7139
-#FLUX: --queue=cortex
-#FLUX: -t=540000
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-lamp-0365
+#FLUX --queue=cortex
+#FLUX -t=540000
+#FLUX --urgency=16
 
 source /usr/Modules/init/sh
 cd $HOME/scene-sparse/data_analysis

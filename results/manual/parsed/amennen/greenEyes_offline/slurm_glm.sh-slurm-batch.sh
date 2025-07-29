@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=3dTproject
-#FLUX: --queue=all
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=3dTproject
+#SBATCH --output=../derivatives/logs/glm_both_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4000
+#SBATCH --time=01:00:00
+#SBATCH --partition=all
+#SBATCH --chdir=.
+#SBATCH --array=31,39,53,68,81,88-122
 
 echo "Purging modules"
 module purge

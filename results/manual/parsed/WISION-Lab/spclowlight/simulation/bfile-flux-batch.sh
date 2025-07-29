@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=simdata
-#FLUX: -c=24
-#FLUX: --queue=research
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=simdata
+#FLUX -c=24
+#FLUX --queue=research
+#FLUX -t=360000
+#FLUX --urgency=16
 
 module load anaconda/mini/4.9.2
 module load nvidia/cuda/11.3.1

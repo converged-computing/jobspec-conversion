@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=compute_meta
-#FLUX: -c=4
-#FLUX: --queue=cpu_p1
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=compute_meta
+#SBATCH --account=six@cpu
+#SBATCH --output=/gpfsdswork/projects/rech/six/uue59kq/logs/count_len_doc/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=06:00:00
+#SBATCH --partition=cpu_p1
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-497
 
 set -x -e
 source $six_ALL_CCFRWORK/start-prod

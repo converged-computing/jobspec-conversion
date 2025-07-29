@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cifti_parcellate
-#FLUX: -c=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cifti_parcellate
+#SBATCH --output=logs/cifti_parcellate_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:30:00
 
 export BIDS_DIR='${BASEDIR}/${OPENNEURO_DSID}/bids'
 export SING_CONTAINER='${BASEDIR}/containers/fmriprep_ciftify_v1.3.2-2.3.3.img'

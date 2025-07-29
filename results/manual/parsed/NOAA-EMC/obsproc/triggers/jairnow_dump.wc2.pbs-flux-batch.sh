@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cinnamonbun-1368
-#FLUX: --urgency=16
+#FLUX --job-name=milky-avocado-3805
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/obsproc/triggers/jairnow_dump.wc2.pbs

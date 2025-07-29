@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ERpp_PoLRS
-#FLUX: -c=12
-#FLUX: --queue=batch
-#FLUX: -t=198000
-#FLUX: --urgency=16
+#SBATCH --job-name=ERpp_PoLRS
+#SBATCH --output=/path/to/output.%J.out
+#SBATCH --error=/path/to/error.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200G
+#SBATCH --time=2-07:00:00
+#SBATCH --partition=batch
 
 module purge
 module load gcc/11.1.0

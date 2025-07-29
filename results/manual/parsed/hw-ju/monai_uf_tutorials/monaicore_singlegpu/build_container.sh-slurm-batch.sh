@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parrot-3597
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64gb
+#SBATCH --time=08:00:00
 
 date;hostname;pwd
 module load singularity

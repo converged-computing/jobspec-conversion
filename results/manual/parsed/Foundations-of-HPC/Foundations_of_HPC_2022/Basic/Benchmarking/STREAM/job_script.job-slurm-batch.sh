@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=smart_test
-#FLUX: --exclusive
-#FLUX: --queue=THIN
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=smart_test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=THIN
+#SBATCH: --exclusive
+#SBATCH: --no-requeue
 
 export code='/u/external/aiace9/tests/STREAM/code'
 export run_dir='$(pwd)'

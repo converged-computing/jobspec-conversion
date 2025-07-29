@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lizard-7174
-#FLUX: -n=96
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=salted-chair-2380
+#FLUX -n=96
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export LANG='en_US.utf8'
 export LC_ALL='en_US.utf8'

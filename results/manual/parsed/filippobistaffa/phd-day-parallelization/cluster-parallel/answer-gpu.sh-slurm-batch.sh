@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=llama-cpp-answer-gpu
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=llama-cpp-answer-gpu
+#SBATCH --output=answer-gpu.out
+#SBATCH --error=answer-gpu.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
 
 spack load cuda@11.8.0
 LLAMA_CPP_HOME="/home/filippo.bistaffa/phd-day-parallelization/cluster-parallel/llama.cpp"

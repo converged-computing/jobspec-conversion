@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=alf_NGC3115_SN100_aperture
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=alf_NGC3115_SN100_aperture
+#SBATCH --account=oz059
+#SBATCH --output=/fred/oz059/poci/alf/NGC3115/out.log
+#SBATCH --error=/fred/oz059/poci/alf/NGC3115/out.log
+#SBATCH --mail-user=adriano.poci@durham.ac.uk
+#SBATCH --mail-type=TIME_LIMIT_90,TIME_LIMIT,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=3000
+#SBATCH --time=2-00:00:00
+#SBATCH --chdir=/fred/oz059/poci/alf/NGC3115
 
 export ALF_HOME='/fred/oz059/poci/alf/'
 

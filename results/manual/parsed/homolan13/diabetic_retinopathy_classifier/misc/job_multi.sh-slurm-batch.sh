@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ex_multi
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=ex_multi
+#SBATCH --output=%x_%A_%a.out
+#SBATCH --mail-user=<--YOUR-EMAIL-HERE-->
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:rtx3090:1
+#SBATCH --mem=4G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-3
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U tensorboard
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U scikit-learn

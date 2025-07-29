@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DrQA_preprocess
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=DrQA_preprocess
+#SBATCH --output=output/preprocess_%j.out
+#SBATCH --mail-user=jp.park@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export CLASSPATH='$CLASSPATH:$SCRATCH/data/corenlp/*'
 

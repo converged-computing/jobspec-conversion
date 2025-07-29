@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -c=10
-#FLUX: --queue=pe2
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=test.log
+#SBATCH --error=test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=40G
+#SBATCH --partition=pe2
 
 module load snakemake
 snakemake --snakefile Snakefile \

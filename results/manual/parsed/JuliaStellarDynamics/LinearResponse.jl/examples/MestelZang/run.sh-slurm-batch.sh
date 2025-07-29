@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-9779
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/JuliaStellarDynamics/LinearResponse.jl/examples/MestelZang/run.sh

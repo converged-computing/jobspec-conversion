@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bicycle-5443
-#FLUX: --queue=power_std
-#FLUX: --urgency=16
+#FLUX --job-name=red-fork-0862
+#FLUX --queue=power_std
+#FLUX --urgency=16
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate pytorch

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lemur-2366
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-signal-0645
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export nnUNet_raw='/home/ljulius/algorithm/nnunet/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

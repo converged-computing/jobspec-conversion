@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_job_test
-#FLUX: -n=2
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_job_test
+#SBATCH --output=mpi_test_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
 
 export LD_LIBRARY_PATH='/opt/petsc/petsc-3.13.4-dbg/lib:/usr/lib64:$LD_LIBRARY_PATH'
 

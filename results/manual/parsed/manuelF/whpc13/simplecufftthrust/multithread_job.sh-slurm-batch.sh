@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Mfftw
-#FLUX: -c=16
-#FLUX: --urgency=16
+#SBATCH --job-name=Mfftw
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
 
 . /etc/profile
 module load cuda/5.0

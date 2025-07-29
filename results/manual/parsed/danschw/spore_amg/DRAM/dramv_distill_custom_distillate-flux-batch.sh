@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-truffle-8497
-#FLUX: -n=5
-#FLUX: --queue=wrighton-hi
-#FLUX: -t=784800
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-punk-7911
+#FLUX -n=5
+#FLUX --queue=wrighton-hi
+#FLUX -t=784800
+#FLUX --urgency=16
 
 source /opt/Miniconda2/miniconda2/bin/activate DRAM
 DRAM-v.py distill \

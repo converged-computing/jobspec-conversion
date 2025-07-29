@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=large
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#FLUX --job-name=large
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=41400
+#FLUX --urgency=16
 
 echo $SLURMD_NODENAME $CUDA_VISIBLE_DEVICES
 . /etc/profile.d/modules.sh

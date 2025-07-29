@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-7852
-#FLUX: --queue=cpu2019
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=metqc_sbatch_run.%J.out
+#SBATCH --error=metqc_sbatch_run.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --time=20:00:00
+#SBATCH --partition=cpu2019
 
 log_dir="$(pwd)"
 log_file="logs/metqc-analysis.log.txt"

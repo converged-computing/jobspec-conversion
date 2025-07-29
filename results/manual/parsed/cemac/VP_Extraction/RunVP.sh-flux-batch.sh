@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=${m}_job_array
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=${m}_job_array
+#FLUX -t=43200
+#FLUX --urgency=16
 
 conda activate DRUID_VP
 function usage {

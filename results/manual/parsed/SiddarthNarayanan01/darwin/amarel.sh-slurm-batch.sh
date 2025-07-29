@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=darwin
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=darwin
+#SBATCH --output=/scratch/%u/JOB-%j/slurm-out.out
+#SBATCH --error=/scratch/%u/JOB-%j/slurm-error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:3
+#SBATCH --mem=100G
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu
 
 export OLLAMA_DEBUG='1'
 export OLLAMA_NUM_PARALLEL='4'

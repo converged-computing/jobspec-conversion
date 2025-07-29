@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_gan_zoo_celeba
-#FLUX: --queue=%partition
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch_gan_zoo_celeba
+#FLUX --queue=%partition
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load %modules

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=objectsGNN_getStrokes
-#FLUX: -c=4
-#FLUX: --queue=adam
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=objectsGNN_getStrokes
+#FLUX -c=4
+#FLUX --queue=adam
+#FLUX -t=14400
+#FLUX --urgency=16
 
 set -u
 if [[ "$#" -lt 2 ]] || [[ "$1" = "--help" ]] ; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=desi
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=desi
+#FLUX --queue=regular
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

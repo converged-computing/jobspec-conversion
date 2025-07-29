@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gandk_multi_ABC_mlp
-#FLUX: --queue=lu
-#FLUX: -t=361800
-#FLUX: --urgency=16
+#SBATCH --job-name=gandk_multi_ABC_mlp
+#SBATCH --account=lu2018-2-22
+#SBATCH --output=lunarc_output/gandk/outputs_gandk_multiple_ABC_runs_mlp_%j.out
+#SBATCH --error=lunarc_output/gandk/errors_gandk_multiple_ABC_runs_mlp_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=11000
+#SBATCH --time=4-04:30:00
+#SBATCH --partition=lu
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

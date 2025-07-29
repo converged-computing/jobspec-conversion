@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2_t2_runner
-#FLUX: -N=2
-#FLUX: --queue=cpu
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=2_t2_runner
+#SBATCH --output=2_t2_runner.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --constraint=ntasks-per-node=28
 
 module load tools/git/2.18.0
 module load languages/gcc/9.3.0

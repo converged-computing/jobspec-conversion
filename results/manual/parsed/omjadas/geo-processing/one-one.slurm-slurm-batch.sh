@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-kerfuffle-2214
-#FLUX: --queue=physical
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=physical
 
 module load Python/3.6.4-intel-2017.u2
 time mpiexec -n 1 python3 app.py bigTwitter.json melbGrid.json

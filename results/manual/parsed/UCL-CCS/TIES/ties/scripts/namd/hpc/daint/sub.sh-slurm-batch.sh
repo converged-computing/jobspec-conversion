@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=namd
-#FLUX: -c=24
-#FLUX: -t=79200
-#FLUX: --urgency=16
+#SBATCH --job-name=namd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --time=22:00:00
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

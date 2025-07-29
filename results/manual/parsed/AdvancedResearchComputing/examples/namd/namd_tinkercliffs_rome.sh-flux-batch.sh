@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-general-7808
-#FLUX: --queue=dev_q
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-itch-7062
+#FLUX --queue=dev_q
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module reset
 module load NAMD

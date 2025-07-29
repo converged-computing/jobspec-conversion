@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fastqc
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=fastqc
+#SBATCH --account=nereus
+#SBATCH --mail-user=ssnyder3@uoregon.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=03:00:00
+#SBATCH --partition=short
 
 module load fastqc/0.11.5
 module load easybuild

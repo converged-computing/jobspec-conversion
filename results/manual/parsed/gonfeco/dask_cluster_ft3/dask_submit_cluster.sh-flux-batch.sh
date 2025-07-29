@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-motorcycle-0826
-#FLUX: -n=8
-#FLUX: -c=4
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-cat-7759
+#FLUX -n=8
+#FLUX -c=4
+#FLUX -t=900
+#FLUX --urgency=16
 
 MEMORY_PER_TASK=$(( $SLURM_CPUS_PER_TASK*$SLURM_MEM_PER_CPU ))
 echo SLURM_NTASKS: $SLURM_NTASKS  

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=annotfunc
-#FLUX: -n=16
-#FLUX: --queue=intel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=annotfunc
+#SBATCH --output=logs/annotfunc.%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=intel
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export SINGULARITY_BINDPATH='/bigdata'

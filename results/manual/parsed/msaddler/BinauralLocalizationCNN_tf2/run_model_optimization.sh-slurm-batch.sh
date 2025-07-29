@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=localization_model_train
-#FLUX: -c=10
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=localization_model_train
+#SBATCH --output=slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:tesla-v100:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0-9
 
 offset=0
 job_idx=$(($SLURM_ARRAY_TASK_ID + $offset))

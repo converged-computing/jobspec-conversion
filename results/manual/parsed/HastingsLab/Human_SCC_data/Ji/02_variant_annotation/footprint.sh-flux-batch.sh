@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=footprint
-#FLUX: --queue=public
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=footprint
+#FLUX --queue=public
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source activate cancergenomics
 module load bedtools2-2.30.0-gcc-11.2.0

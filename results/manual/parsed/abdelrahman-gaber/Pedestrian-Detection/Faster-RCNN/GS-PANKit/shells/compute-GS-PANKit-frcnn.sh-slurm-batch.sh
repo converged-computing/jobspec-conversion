@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-5051
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/abdelrahman-gaber/Pedestrian-Detection/Faster-RCNN/GS-PANKit/shells/compute-GS-PANKit-frcnn.sh

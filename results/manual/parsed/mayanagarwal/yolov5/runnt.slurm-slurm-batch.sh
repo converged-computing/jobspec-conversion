@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-ricecake-7841
-#FLUX: -n=8
-#FLUX: --queue=gpgpumse
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpgpumse
 
 module purge
 module load fosscuda/2019b

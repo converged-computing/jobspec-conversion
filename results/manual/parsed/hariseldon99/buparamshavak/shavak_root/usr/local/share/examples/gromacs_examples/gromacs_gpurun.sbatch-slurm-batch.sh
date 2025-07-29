@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gromacstest
-#FLUX: -n=10
-#FLUX: --queue=GPU
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacstest
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=GPU
 
 export GMX_IMGDIR='${SIFDIR}/gromacs/'
 export GMX_IMG='gromacs-2022.3_20230206.sif'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-blackbean-7069
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Natithan/p1_causality/vsc_batch_terminal/vilbert_2_cascadelake_4_full.pbs

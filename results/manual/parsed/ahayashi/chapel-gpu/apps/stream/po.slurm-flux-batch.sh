@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stream
-#FLUX: -c=24
-#FLUX: --queue=commons
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=stream
+#FLUX -c=24
+#FLUX --queue=commons
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export CHPL_LAUNCHER='slurm-gasnetrun_ibv'
 export GASNET_PHYSMEM_MAX='1G'

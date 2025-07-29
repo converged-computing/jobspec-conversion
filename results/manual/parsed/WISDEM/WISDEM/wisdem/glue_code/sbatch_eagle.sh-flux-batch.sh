@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Design1
-#FLUX: -N=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=Design1
+#FLUX -N=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 nDV=11  # Number of design variables (x2 for central difference)
 source deactivate

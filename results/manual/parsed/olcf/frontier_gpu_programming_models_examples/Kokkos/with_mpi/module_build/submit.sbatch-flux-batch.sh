@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-latke-7717
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=hello-sundae-4314
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

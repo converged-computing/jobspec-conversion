@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=train_UNET_pixel
-#FLUX: --queue=sched_system_all
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_UNET_pixel
+#SBATCH --output=train_UNET_pixel_%j.out
+#SBATCH --error=train_UNET_pixel_%j.err
+#SBATCH --mail-user=churwitz@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=500g
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=sched_system_all
+#SBATCH --constraint=ntasks-per-node=4
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

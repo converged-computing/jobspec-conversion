@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ips_fastran
-#FLUX: -N=10
-#FLUX: -c=64
-#FLUX: --queue=regular
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ips_fastran
+#FLUX -N=10
+#FLUX -c=64
+#FLUX --queue=regular
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export EFIT_BIN_DIR='/global/common/software/atom/cori/binaries/efit/default'
 export EFIT_BIN_NAME='efitd90'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=marl_iddpg
-#FLUX: -n=32
-#FLUX: --urgency=16
+#FLUX --job-name=marl_iddpg
+#FLUX -n=32
+#FLUX --urgency=16
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

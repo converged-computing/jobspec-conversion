@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SNAKEMASTER
-#FLUX: --queue=long
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=SNAKEMASTER
+#FLUX --queue=long
+#FLUX -t=864000
+#FLUX --urgency=16
 
 mkdir -p logs/workflows
 cd $SLURM_SUBMIT_DIR

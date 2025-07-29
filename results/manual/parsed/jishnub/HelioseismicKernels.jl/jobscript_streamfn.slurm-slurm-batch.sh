@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ttstrmfn
-#FLUX: -n=56
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ttstrmfn
+#SBATCH --output=streamfn.out
+#SBATCH --error=streamfn.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=56
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
 
 cd $SCRATCH/jobs
 julia="$PROJECT/julia-1.6.1/bin/julia"

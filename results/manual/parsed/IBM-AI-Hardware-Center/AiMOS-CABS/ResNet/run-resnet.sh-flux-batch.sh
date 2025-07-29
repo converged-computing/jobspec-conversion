@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_resnet
-#FLUX: -N=16
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch_resnet
+#FLUX -N=16
+#FLUX -t=21600
+#FLUX --urgency=16
 
 codedir=~/scratch/horovod/examples
 codepath=$codedir/pytorch_imagenet_resnet50.py

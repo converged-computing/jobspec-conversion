@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hubert_large
-#FLUX: -c=4
-#FLUX: --queue=gpu2
-#FLUX: --urgency=16
+#SBATCH --job-name=hubert_large
+#SBATCH --output=first_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu2
 
 export TORCHAUDIO_USE_BACKEND_DISPATCHER='1'
 

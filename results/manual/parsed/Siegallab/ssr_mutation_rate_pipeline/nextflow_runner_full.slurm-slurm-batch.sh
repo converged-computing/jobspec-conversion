@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nf_full
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=nf_full
+#SBATCH --output=slurm_full.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --time=4-04:00:00
 
 main_dir='/scratch/yp19/plavskin_seq_analysis'
 nf_dir="${main_dir}/nf_scripts"

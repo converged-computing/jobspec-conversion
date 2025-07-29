@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ssp_home
-#FLUX: --queue=short-serial
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=ssp_home
+#FLUX --queue=short-serial
+#FLUX -t=21600
+#FLUX --urgency=16
 
 module add jaspy
 cd /home/users/tommatthews/Homeostasis/

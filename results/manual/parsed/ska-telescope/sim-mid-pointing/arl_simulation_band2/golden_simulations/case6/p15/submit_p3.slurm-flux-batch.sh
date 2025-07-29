@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=CASE6P15
-#FLUX: -N=8
-#FLUX: -n=129
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=CASE6P15
+#FLUX -N=8
+#FLUX -n=129
+#FLUX --queue=compute
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mlm_wnre
-#FLUX: -N=8
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=mlm_wnre
+#SBATCH --output=log-mlm_wnre.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=48Gb
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONFAULTHANDLER='1'
 export BALAUR_CACHE='/network/scratch/m/mirceara/.cache/balaur'

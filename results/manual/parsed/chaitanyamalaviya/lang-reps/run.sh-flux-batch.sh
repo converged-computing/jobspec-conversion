@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leader-1202
-#FLUX: -n=5
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-poo-0700
+#FLUX -n=5
+#FLUX -t=0
+#FLUX --urgency=16
 
 export DYLD_LIBRARY_PATH='/home/cmalaviy/dynet/build/dynet/:$DYLD_LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'

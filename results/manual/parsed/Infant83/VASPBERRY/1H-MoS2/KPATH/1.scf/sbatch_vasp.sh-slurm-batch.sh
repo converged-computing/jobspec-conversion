@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=x2_runv
-#FLUX: --queue=th1-2020-64
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=x2_runv
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --mail-user=h.kim@fz-juelich.de
+#SBATCH --mail-type=END,FAIL,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=th1-2020-64
 
   CURDIR=$SLURM_SUBMIT_DIR
   CURDIR_=`pwd | cut -d '/' -f 4-`

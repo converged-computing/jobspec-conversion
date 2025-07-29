@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PipeFlow_%a
-#FLUX: -n=32
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=PipeFlow_%a
+#FLUX -n=32
+#FLUX -t=10
+#FLUX --urgency=16
 
 filename="${SLURM_ARRAY_TASK_ID}"
 cd $HOME/laminar/medMesh

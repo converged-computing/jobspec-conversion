@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=C10_Combined
-#FLUX: --queue=alldlc_gpu-rtx2080
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=C10_Combined
+#FLUX --queue=alldlc_gpu-rtx2080
+#FLUX -t=86399
+#FLUX --urgency=16
 
 source activate metassl
 python -m metassl.train_simsiam --config "metassl/default_metassl_config_cifar10.yaml" \

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-mango-1652
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-peas-9613
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

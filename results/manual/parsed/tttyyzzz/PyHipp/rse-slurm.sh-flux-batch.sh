@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rse
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=rse
+#FLUX -t=86400
+#FLUX --urgency=16
 
 <<<<<<< HEAD
 python -u -c "import PyHipp as pyh; \

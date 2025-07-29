@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leg-8132
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-dog-3126
+#FLUX --urgency=16
 
 set -o errexit
 mkdir /scratch/mateodi/run_folder/$SLURM_JOB_ID/

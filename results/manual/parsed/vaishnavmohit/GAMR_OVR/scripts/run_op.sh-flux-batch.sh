@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cattywampus-3720
-#FLUX: -n=3
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-citrus-0983
+#FLUX -n=3
+#FLUX --queue=gpu
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=XAIATTACK-MNLIMatched
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=XAIATTACK-MNLIMatched
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export DATASET='mnli_matched'
 export MODEL='distilbert-base-uncased'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RSclass
-#FLUX: -n=8
-#FLUX: --queue=basic
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=RSclass
+#FLUX -n=8
+#FLUX --queue=basic
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=hoomd
-#FLUX: --queue=GPU-shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=hoomd
+#SBATCH --account=see220002p
+#SBATCH --output=%j.o
+#SBATCH --error=%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100-16:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=GPU-shared
+#SBATCH --constraint=ntasks-per-node=5
 
 echo "testing lj-npt on one gpu"
 T=1.3

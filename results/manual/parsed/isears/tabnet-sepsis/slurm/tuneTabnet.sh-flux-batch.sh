@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bits-9551
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=blue-parsnip-1533
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

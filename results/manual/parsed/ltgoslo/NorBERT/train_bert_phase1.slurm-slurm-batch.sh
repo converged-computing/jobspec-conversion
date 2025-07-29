@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BERT
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -c=6
-#FLUX: --queue=accel
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=BERT
+#SBATCH --account=nn9447k
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=accel
 
 export BERT_ROOT='$EBROOTNLPLMINNVIDIA_BERT'
 export LOCAL_ROOT='`pwd`'

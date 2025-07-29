@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=kb_bart
-#FLUX: -N=16
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=kb_bart
+#FLUX -N=16
+#FLUX --queue=gpu
+#FLUX -t=18000
+#FLUX --urgency=16
 
 export MASTER_ADDR='`/bin/hostname -s`'
 export MASTER_PORT='13673'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ectd
-#FLUX: -c=8
-#FLUX: --queue=gpu_debug
-#FLUX: --urgency=16
+#SBATCH --job-name=ectd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=1
+#SBATCH --partition=gpu_debug
 
 export OMP_NUM_THREADS='8'
 

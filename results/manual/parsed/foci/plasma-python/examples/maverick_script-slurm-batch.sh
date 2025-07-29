@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=plasma-python
-#FLUX: -n=20
-#FLUX: --queue=gpu
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=plasma-python
+#SBATCH --account=Magnetic-Confinement
+#SBATCH --output=plasma.o%j
+#SBATCH --error=plasma.e%j
+#SBATCH --mail-user=michoski@gmail.com
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=gpu
 
 module load gcc/4.9.3
 module load python3/3.5.2

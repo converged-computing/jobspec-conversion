@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-punk-5241
-#FLUX: --queue=cpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=p200053
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cpu
+#SBATCH --qos=default
 
 module purge
 module use /apps/USE/easybuild/staging/2021.1/modules/all

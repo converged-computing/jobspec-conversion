@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cd_hit_%j
-#FLUX: -n=48
-#FLUX: -t=60
-#FLUX: --urgency=16
+#SBATCH --job-name=cd_hit_%j
+#SBATCH --account=PAS0439
+#SBATCH --output=cd_hit_%j.out
+#SBATCH --mail-user=yan1365,yan.1365@osu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:01:00
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/results/dbcan_res/tree/

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-6619
-#FLUX: -c=12
-#FLUX: --queue=ccr
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-bike-9606
+#FLUX -c=12
+#FLUX --queue=ccr
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load nextflow

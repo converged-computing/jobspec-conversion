@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Preparing sample MC4 data
-#FLUX: -c=128
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Preparing sample MC4 data
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=01:00:00
 
 export VENV_PATH='~/virt-envs/venv-lola'
 export LD_LIBRARY_PATH='$VENV_PATH/lib/python3.10/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH'

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-latke-0188
-#FLUX: -c=3
-#FLUX: --queue=batch
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=1G
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=batch
+#SBATCH --array=0-440
 
 mkdir -p lml/ionosphere
 srun matlab -nojvm -nosplash -batch "MCMC_lml($SLURM_ARRAY_TASK_ID, 'ionosphere', -1, 5)"

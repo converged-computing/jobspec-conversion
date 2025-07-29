@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cat-2670
-#FLUX: --queue=short
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-rabbit-9963
+#FLUX --queue=short
+#FLUX -t=57600
+#FLUX --urgency=16
 
 CONTAINER="${HOME}/containers/rapids-prod.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_rc"

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-butter-8485
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=t3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=long
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=hpcggpu
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=hpcggpu
+#SBATCH --account=sds173
+#SBATCH --output=hpcg.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=2
+#SBATCH --mem=200000M
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH: --no-requeue
 
 module reset
 module load gpu

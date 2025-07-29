@@ -205,7 +205,7 @@ def main():
 
         # Do the conversion to flux / slurm
         flux_script = to_transformer.convert(normalized_jobspec)
-        slurm_script = to_transformer.convert(normalized_jobspec)
+        slurm_script = to_transformer_slurm.convert(normalized_jobspec)
 
         # Create output directory
         outdir = os.path.dirname(outfile)

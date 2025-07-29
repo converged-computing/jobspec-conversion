@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=count_reads
-#FLUX: --queue=all
-#FLUX: -t=6600
-#FLUX: --urgency=16
+#SBATCH --job-name=count_reads
+#SBATCH --output=%x-%A-%a.out
+#SBATCH --mail-user=me@work
+#SBATCH --mail-type=end,fail
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=01:50:00
+#SBATCH --partition=all
+#SBATCH --array=1-39
 
 module load vital-it/7
 module load UHTS/Analysis/GenomeAnalysisTK/4.1.3.0

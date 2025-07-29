@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lemur-4638
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sarisabban/Notes/Scripts/Rosetta%20Scripts/Abinitio.bash

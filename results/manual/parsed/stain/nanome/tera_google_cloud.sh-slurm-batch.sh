@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nanome.google_tera
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: -t=1209600
-#FLUX: --urgency=16
+#SBATCH --job-name=nanome.google_tera
+#SBATCH --output=log/%x.%j.log
+#SBATCH --mail-user=yang.liu@jax.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=14-00:00:00
+#SBATCH --partition=long
 
 set -e
 date;hostname;pwd

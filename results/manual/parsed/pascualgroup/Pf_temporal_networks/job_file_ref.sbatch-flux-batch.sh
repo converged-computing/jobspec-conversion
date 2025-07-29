@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=XXX
-#FLUX: --queue=broadwl
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=XXX
+#FLUX --queue=broadwl
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load python
 module load gcc

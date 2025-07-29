@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=laminarVortexShedding
-#FLUX: --queue=imb-resources
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=laminarVortexShedding
+#SBATCH --output=log.solve
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=93G
+#SBATCH --time=12:00:00
+#SBATCH --partition=imb-resources
+#SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

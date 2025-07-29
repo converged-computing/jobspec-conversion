@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=weak_scaling
-#FLUX: --queue=normal
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=weak_scaling
+#SBATCH --account=class04
+#SBATCH --output=weak_scaling.%j.o
+#SBATCH --error=weak_scaling.%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:03:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

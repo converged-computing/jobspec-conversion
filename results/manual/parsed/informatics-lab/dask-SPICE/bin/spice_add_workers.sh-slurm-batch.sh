@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-spoon-0728
-#FLUX: -n=48
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/dkillick/SPICE/dask/job-%N-%j.log
+#SBATCH --error=/scratch/dkillick/SPICE/dask/job-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=48
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=200000
+#SBATCH --time=01:00:00
+#SBATCH --qos=normal
 
 module load scitools
 HOST=${1}

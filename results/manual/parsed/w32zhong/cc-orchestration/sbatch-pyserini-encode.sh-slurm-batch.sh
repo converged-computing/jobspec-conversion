@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-latke-3073
-#FLUX: -c=4
-#FLUX: -t=610
-#FLUX: --urgency=16
+#SBATCH --output=job-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128gb
+#SBATCH --time=00:10:10
 
 export NCCL_BLOCKING_WAIT='1  # Set this variable to use the NCCL backend'
 export SLURM_ACCOUNT='def-jimmylin'

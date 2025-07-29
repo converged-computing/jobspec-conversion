@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lemon-2002
-#FLUX: -c=24
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-citrus-3911
+#FLUX -c=24
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module restore tensorenvironment
 SOURCEDIR=~/scratch/Pointnet

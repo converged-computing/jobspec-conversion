@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-toaster-5495
-#FLUX: -n=64
-#FLUX: --queue=amd
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#SBATCH --output=paraview.out
+#SBATCH --error=paraview.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:50:00
+#SBATCH --partition=amd
 
 module purge
 module load conda

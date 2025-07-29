@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NPS_exp1_1
-#FLUX: --queue=use-everything
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=NPS_exp1_1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=28GB
+#SBATCH --time=1-06:00:00
+#SBATCH --partition=use-everything
+#SBATCH --constraint=8GB
+#SBATCH --chdir=/om2/user/vanessad/understanding_reasoning/experiment_1/output_slurm_neurips
+#SBATCH --array=18-53
+#SBATCH --exclude=node023,node020,node026,node021,node028,node094,node093,node098,node094,node023,node028,node097
 
 module add openmind/singularity/3.4.1
 hostname

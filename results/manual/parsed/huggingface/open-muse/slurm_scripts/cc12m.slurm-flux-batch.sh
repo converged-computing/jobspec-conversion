@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muse-cc12m
-#FLUX: -c=96
+#FLUX --job-name=muse-cc12m
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

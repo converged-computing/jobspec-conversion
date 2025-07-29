@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pancake-1112
-#FLUX: -n=4
-#FLUX: --queue=mlow,mlow
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-omelette-0163
+#FLUX -n=4
+#FLUX --queue=mlow,mlow
+#FLUX --urgency=16
 
 SAVE_DIR=$1
 sleep 1

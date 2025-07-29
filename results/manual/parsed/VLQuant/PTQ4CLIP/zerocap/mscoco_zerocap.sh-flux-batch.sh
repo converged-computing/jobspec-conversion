@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=img_cap
-#FLUX: --queue=sail
-#FLUX: --urgency=16
+#FLUX --job-name=img_cap
+#FLUX --queue=sail
+#FLUX --urgency=16
 
 export PATH='$PATH:/nfs/stak/users/kannegaa/.local/bin'
 

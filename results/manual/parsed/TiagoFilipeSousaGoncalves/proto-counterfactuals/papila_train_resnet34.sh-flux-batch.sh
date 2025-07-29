@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pap_r34
-#FLUX: --queue=gtx1080ti_11GB
-#FLUX: --urgency=16
+#FLUX --job-name=pap_r34
+#FLUX --queue=gtx1080ti_11GB
+#FLUX --urgency=16
 
 echo "PAPILA | Started | Training"
 model="baseline"

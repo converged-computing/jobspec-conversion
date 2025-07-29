@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-truffle-4321
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:K80:1
+#SBATCH --mem=7764
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load CUDA

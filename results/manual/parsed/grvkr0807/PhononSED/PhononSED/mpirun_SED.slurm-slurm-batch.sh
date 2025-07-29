@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-fudge-7373
-#FLUX: -n=24
-#FLUX: -t=8640000
-#FLUX: --urgency=16
+#SBATCH --error=err_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=100-00:00:00
+#SBATCH --nodelist=node02
 
 export OMP_NUM_THREADS='1'
 

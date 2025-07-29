@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=qclss
-#FLUX: -N=20
-#FLUX: -n=400
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=qclss
+#SBATCH --output=out/qclss.out
+#SBATCH --error=out/qclss.err
+#SBATCH --mail-user=anto.lonappan@sissa.it
+#SBATCH --mail-type=begin,end,fail
+#SBATCH --nodes=20
+#SBATCH --ntasks=400
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH --constraint=haswell
 
 export ini='litebird1.ini'
 

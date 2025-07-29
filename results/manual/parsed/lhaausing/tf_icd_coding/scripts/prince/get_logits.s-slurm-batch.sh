@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=get_logits
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=get_logits
+#SBATCH --output=/scratch/xl3119/tf_icd/get_logits.log
+#SBATCH --mail-user=xl3119@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=32GB
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 overlay_ext3=/scratch/xl3119/tf_icd/overlay-10GB-400K.ext3
 model_name=bert_base

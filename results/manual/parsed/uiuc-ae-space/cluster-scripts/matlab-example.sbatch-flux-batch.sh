@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=matlab-example
-#FLUX: --queue=eng-research
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=matlab-example
+#FLUX --queue=eng-research
+#FLUX -t=14400
+#FLUX --urgency=16
 
 cd /scratch/users/netID/matlab-file-directory/
 unset DISPLAY

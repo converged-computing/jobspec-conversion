@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=large1_jester
-#FLUX: -c=5
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=large1_jester
+#FLUX -c=5
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export DATA_ROOT='$TMPFS/20bn-jester'
 

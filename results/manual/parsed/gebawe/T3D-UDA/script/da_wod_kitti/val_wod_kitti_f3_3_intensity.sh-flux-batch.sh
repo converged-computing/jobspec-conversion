@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-poo-6487
-#FLUX: --queue=amdgpufast
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-fudge-6208
+#FLUX --queue=amdgpufast
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='0'
 

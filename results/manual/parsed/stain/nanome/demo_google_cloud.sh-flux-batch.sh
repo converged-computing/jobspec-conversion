@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nanome.google_demo
-#FLUX: -n=2
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=nanome.google_demo
+#FLUX -n=2
+#FLUX --queue=batch
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -e
 baseDir=${1:-/fastscratch/$USER/nanome}

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pedo-2708
-#FLUX: -c=256
-#FLUX: --queue=ai-jumpstart
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-pancake-5871
+#FLUX -c=256
+#FLUX --queue=ai-jumpstart
+#FLUX --urgency=16
 
 source ~/modules/pytorch/latest
 source ~/modules/nccl/nccl_2.9.8-1+cuda11.0_x86_64/source

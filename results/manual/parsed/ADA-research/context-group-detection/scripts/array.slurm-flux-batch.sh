@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_model
-#FLUX: --queue=gpu-short
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#FLUX --job-name=train_model
+#FLUX --queue=gpu-short
+#FLUX -t=12600
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/data1/context-group-detection/'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=12.5M-4
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=12.5M-4
+#FLUX -n=4
+#FLUX -c=10
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PATH='${HOME}/openmpi/bin:$PATH'
 export LD_LIBRARY_PATH='${HOME}/openmpi/lib:$LD_LIBRARY_PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chair-7532
-#FLUX: -c=6
-#FLUX: --queue=gpu_shared
-#FLUX: -t=180
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-frito-6607
+#FLUX -c=6
+#FLUX --queue=gpu_shared
+#FLUX -t=180
+#FLUX --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

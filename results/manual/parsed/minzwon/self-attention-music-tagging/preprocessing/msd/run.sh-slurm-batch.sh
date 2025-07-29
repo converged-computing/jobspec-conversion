@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-squidward-1172
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --output=logs/iter_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=high
+#SBATCH --constraint=intel
+#SBATCH --chdir=/homedtic/mwon/codes/music-tagging-attention/preprocessing/msd/
+#SBATCH --array=1-20:1
 
 module load Python/3.6.4-foss-2017a 
 source /homedtic/mwon/envs/intel/bin/activate

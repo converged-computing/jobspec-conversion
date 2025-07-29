@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expllla30b
-#FLUX: -c=32
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=expllla30b
+#SBATCH --output=humaneval_explfeedback_lla30b.out
+#SBATCH --error=humaneval_explfeedback_lla30b.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=r8nv-gpu-hw
+#SBATCH --qos=gpu-normal
+#SBATCH --constraint=40G
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

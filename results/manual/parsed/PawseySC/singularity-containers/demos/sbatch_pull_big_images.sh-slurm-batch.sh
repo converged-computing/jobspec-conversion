@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pull_images
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=pull_images
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
 
 singularity exec docker://quay.io/biocontainers/blast:2.9.0--pl526h3066fca_4 echo ciao
 singularity exec docker://rocker/tidyverse:3.6.1 echo ciao

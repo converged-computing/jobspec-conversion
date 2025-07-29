@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=JobLong
-#FLUX: -N=2
-#FLUX: -c=20
-#FLUX: --queue=GPUQ
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=JobLong
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo " the name of the job is: $SLURM_JOB_NAME"

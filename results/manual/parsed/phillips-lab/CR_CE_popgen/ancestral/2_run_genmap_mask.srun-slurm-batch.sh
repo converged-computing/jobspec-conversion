@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=genmap
-#FLUX: -c=16
-#FLUX: --queue=phillips
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=genmap
+#SBATCH --account=phillipslab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=50g
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=phillips
+#SBATCH --array=0-4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

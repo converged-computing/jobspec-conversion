@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-9385
-#FLUX: -c=6
-#FLUX: --queue=develgpus
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=ecam
+#SBATCH --output=mpi-out.%j
+#SBATCH --error=mpi-err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:10:00
+#SBATCH --partition=develgpus
+#SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

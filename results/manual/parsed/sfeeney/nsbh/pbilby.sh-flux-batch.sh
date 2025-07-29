@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NSBH
-#FLUX: -N=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=NSBH
+#FLUX -N=10
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export MKL_NUM_THREADS='1'
 export MKL_DYNAMIC='FALSE'

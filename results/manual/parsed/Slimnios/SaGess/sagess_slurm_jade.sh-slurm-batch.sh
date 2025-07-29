@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-platanos-6075
-#FLUX: -c=24
-#FLUX: --queue=small
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=small
 
 export CUDA_VISIBLE_DEVICES='$SLURM_JOB_GPUS'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hobbit-6667
-#FLUX: -n=15
+#FLUX --job-name=placid-pastry-5318
+#FLUX -n=15
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 sleep 20
 outdir=$1

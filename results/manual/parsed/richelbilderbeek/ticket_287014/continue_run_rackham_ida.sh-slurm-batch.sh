@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=metontiime_27mar
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --job-name=metontiime_27mar
+#SBATCH --account=naiss2023-22-866
+#SBATCH --output=metontiime_27mar.out
+#SBATCH --error=metontiime_27mar.err
+#SBATCH --mail-user=ida.nordstrom@slu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=9-00:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools Nextflow 
 work_dir="/crex/proj/naiss2023-22-866/MetONTIIME/trimmed_and_filtered_Q15_qz"

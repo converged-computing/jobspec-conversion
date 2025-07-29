@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cosmoflow-opt
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: --urgency=16
+#FLUX --job-name=cosmoflow-opt
+#FLUX -c=32
+#FLUX --queue=regular
+#FLUX --urgency=16
 
 export MODEL_NAME='cosmoflow'
 export MODEL_FRAMEWORK='pytorch'

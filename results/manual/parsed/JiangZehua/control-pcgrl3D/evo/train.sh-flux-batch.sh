@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evopcgrl
-#FLUX: -c=48
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=evopcgrl
+#FLUX -c=48
+#FLUX -t=172800
+#FLUX --urgency=16
 
 cd /scratch/zj2086/control-pcgrl
 source activate

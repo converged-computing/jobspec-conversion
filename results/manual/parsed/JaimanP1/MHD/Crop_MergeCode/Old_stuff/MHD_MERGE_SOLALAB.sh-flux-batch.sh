@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-nunchucks-8355
+#FLUX --job-name=confused-pastry-1742
 #FLUX: --exclusive
-#FLUX: --queue=solarlab
-#FLUX: --urgency=16
+#FLUX --queue=solarlab
+#FLUX --urgency=16
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

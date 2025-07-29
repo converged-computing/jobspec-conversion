@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-buttface-2888
-#FLUX: -N=3
-#FLUX: -c=8
-#FLUX: -t=42600
-#FLUX: --urgency=16
+#SBATCH --account=rrg-lsigal
+#SBATCH --output=PKD_PM_FT-%j.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=11:50:00
 
 export NCCL_BLOCKING_WAIT='1  #Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'
 export MASTER_ADDR='$(hostname) #Store the master node’s IP address in the MASTER_ADDR environment variable.'

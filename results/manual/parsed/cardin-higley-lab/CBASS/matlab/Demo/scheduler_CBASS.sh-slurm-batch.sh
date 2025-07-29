@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CBASS
-#FLUX: --queue=scavenge
-#FLUX: --urgency=16
+#SBATCH --job-name=CBASS
+#SBATCH --output=scheduler_stdout.txt
+#SBATCH --error=setup_stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=scavenge
 
 export FOLDER='$(pwd) # Considering that the scheduler is in the same folder of the .m script being used, otherwise specify the path as '=/gpfs/ysm/home/ahf38/Documents/gamma_bouts/Demo/'
 export ScriptName='CBASS_Call_Main_AF.m' # Matlab script to be used for the analysis'

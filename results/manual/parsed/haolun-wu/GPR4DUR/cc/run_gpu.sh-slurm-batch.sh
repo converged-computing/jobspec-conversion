@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello-milkshake-8858
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=def-cpsmcgil
+#SBATCH --output=/home/haolun/projects/def-cpsmcgil/haolun/GPR4DUR/exp_out/online_gpu.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=40000M
+#SBATCH --time=1-00:00:00
 
 source /home/haolun/projects/def-cpsmcgil/haolun/GPR4DUR/venv_gpr4dur/bin/activate
 module load cuda

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sphRe250
-#FLUX: --queue=small-gpu
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=sphRe250
+#FLUX --queue=small-gpu
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-9789
-#FLUX: -n=16
-#FLUX: --queue=cox
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-malarkey-6215
+#FLUX -n=16
+#FLUX --queue=cox
+#FLUX -t=360
+#FLUX --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

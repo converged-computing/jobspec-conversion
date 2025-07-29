@@ -1,11 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-destiny-8699
-#FLUX: -N=2
-#FLUX: -c=80
-#FLUX: --gpus-per-task=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=m1759
+#SBATCH --output=sout/%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=80
+#SBATCH --gpus-per-task=8
+#SBATCH --time=00:30:00
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
+singularity
+exec
+nersc/pytorch:ngc-20.08-v0
 nodes=$(scontrol show hostnames $SLURM_JOB_NODELIST) # Getting the node names
 nodes_array=( $nodes )
 master_node=${nodes_array[0]}

@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pedo-6911
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --output=hw_05.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:05:00
+#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 nvidia-smi

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-toaster-9041
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=00:30:00
+#SBATCH --chdir=./
 
 export FREESURFER_HOME='/fast/work/groups/ag_ritter/MR_processing/HCP_pipeline/freesurfer_HCP/freesurfer-v6.0.0'
 

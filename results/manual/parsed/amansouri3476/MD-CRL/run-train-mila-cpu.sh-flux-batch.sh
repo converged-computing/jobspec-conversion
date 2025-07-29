@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cat-1166
-#FLUX: -c=4
-#FLUX: --queue=long
-#FLUX: -t=14340
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-pastry-1666
+#FLUX -c=4
+#FLUX --queue=long
+#FLUX -t=14340
+#FLUX --urgency=16
 
 export WANDB_API_KEY='1406ef3255ef2806f2ecc925a5e845e7164b5eef'
 export LD_PRELOAD='/home/mila/s/sayed.mansouri-tehrani/MD-CRL/hack.so'

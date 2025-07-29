@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peas-3251
-#FLUX: -n=15
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-fork-2638
+#FLUX -n=15
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load u18/openmpi/4.1.2
 mpirun -np 15 /opt/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_24_183_22_112_181_0-2_0-3_500_40000_index1.lmp

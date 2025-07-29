@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=omp_check-nomultithread
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=omp_check-nomultithread
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:05:00
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='true'

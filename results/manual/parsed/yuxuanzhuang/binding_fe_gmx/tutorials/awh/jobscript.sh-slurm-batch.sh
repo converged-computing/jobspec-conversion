@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=awh_epj
-#FLUX: -n=4
-#FLUX: --queue=lindahl1,lindahl2,lindahl3,lindahl4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=awh_epj
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=10G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lindahl1,lindahl2,lindahl3,lindahl4
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

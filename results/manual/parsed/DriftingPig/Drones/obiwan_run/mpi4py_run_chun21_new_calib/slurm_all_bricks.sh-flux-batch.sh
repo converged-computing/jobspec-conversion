@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunk21_new_calib
-#FLUX: -N=20
-#FLUX: --queue=regular
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=chunk21_new_calib
+#FLUX -N=20
+#FLUX --queue=regular
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export name_for_run='chunk21_new_calib'
 export name_for_randoms='sgc_brick_dat_2'

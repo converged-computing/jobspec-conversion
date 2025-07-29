@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wave_propagation
-#FLUX: --queue=aws
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=wave_propagation
+#FLUX --queue=aws
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export DEVITO_LANGUAGE='openmp'
 export DEVITO_LOGGING='DEBUG'

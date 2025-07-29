@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cat-1724
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --output=slot_attention_autoencoder_transformer_scoring_multigpu_1000weightmse_tcn_16slots_dspritesdecoder_lowerlr_warmup_nolrdecay_morelayers_rowcolposemb_iterations=3_neutral_pgm_run1.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:3
+#SBATCH --time=6-00:00:00
+#SBATCH --constraint=ntasks-per-node=3
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

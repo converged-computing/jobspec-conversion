@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-6451
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=imi@gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --array=0-278%100
 
 export SLURM_ARRAY_TASK_ID='$(($SLURM_ARRAY_TASK_ID+1))'
 export index='$i'

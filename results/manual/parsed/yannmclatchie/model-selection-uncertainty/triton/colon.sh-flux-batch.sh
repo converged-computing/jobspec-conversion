@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-plant-9920
-#FLUX: -c=4
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=grated-taco-3290
+#FLUX -c=4
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load r
 module load gcc/11.2.0

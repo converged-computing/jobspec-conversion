@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=res
-#FLUX: -c=2
-#FLUX: --queue=gpu_p2s
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=res
+#SBATCH --account=izg@v100
+#SBATCH --output=res_%j.out
+#SBATCH --error=res_%j.err
+#SBATCH --mail-user=cartel.gouabou@lis-lab.fr
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_p2s
+#SBATCH --qos=qos_gpu-t4
 
 module purge # nettoyer les modules herites par defaut
 module load pytorch-gpu/py3/1.11.0 

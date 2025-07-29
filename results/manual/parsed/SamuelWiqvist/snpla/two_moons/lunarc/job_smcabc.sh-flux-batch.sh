@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=snl
+#FLUX --job-name=snl
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

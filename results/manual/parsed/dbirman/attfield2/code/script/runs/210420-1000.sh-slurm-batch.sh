@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gauss
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=gauss
+#SBATCH --output=/scratch/users/kaifox/attfield/data/runs/210420/1000_%a.out
+#SBATCH --error=/scratch/users/kaifox/attfield/data/runs/210420/1000_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1
 
 ml python/3.6.1
 cd $HOME/proj/attfield

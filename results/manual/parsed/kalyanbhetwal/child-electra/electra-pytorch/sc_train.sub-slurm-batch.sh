@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=electra
-#FLUX: -n=28
-#FLUX: --queue=adaptlab
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=electra
+#SBATCH --output=electra1.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=adaptlab
 
 export PYTHONPATH='${PYTHONPATH}:/home/kbhetwal/child-electra/electra-pytorch'
 

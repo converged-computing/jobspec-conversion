@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frame-elements
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=frame-elements
+#FLUX --gpus-per-task=1
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 epochs=20
 seed=42

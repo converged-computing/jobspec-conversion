@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-pastry-3301
-#FLUX: -N=4
-#FLUX: -c=9
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-train-6747
+#FLUX -N=4
+#FLUX -c=9
+#FLUX --urgency=16
 
 export NCCL_DEBUG='WARN'
 

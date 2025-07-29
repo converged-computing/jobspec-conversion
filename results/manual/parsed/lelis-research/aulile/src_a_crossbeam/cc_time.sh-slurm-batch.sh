@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-4511
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --account=rrg-lelis
+#SBATCH --output=/scratch/hab1b/crossbeam-grow/slurm_outputs/nodup/grow50kt3600/%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=16G
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --array=1-2
 
 export CUDA_VISIBLE_DEVICES='0'
 

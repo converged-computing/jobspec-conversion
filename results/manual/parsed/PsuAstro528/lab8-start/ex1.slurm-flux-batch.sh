@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ex1
-#FLUX: --queue=burst
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=ex1
+#FLUX --queue=burst
+#FLUX -t=900
+#FLUX --urgency=16
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

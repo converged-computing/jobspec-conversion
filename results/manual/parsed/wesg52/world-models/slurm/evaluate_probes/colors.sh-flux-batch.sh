@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lettuce-1902
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-house-3127
+#FLUX --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

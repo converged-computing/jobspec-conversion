@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Unbias401
-#FLUX: -c=7
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=Unbias401
+#SBATCH --output=lout.out
+#SBATCH --error=lerror.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4,BDW28
 
 export KMP_BLOCKTIME='0'
 export KMP_HW_SUBSET='1T'

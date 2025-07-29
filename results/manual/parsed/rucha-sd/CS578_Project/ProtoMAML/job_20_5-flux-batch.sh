@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lemur-7196
-#FLUX: --queue=cuda-gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=milky-underoos-6884
+#FLUX --queue=cuda-gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 nvidia-smi
 echo "Running PROTOMAML on Omniglot"

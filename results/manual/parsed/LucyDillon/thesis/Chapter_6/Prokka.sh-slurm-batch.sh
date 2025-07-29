@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=prokka_EC
-#FLUX: --queue=bio-compute,lowpri
-#FLUX: -t=691199
-#FLUX: --urgency=16
+#SBATCH --job-name=prokka_EC
+#SBATCH --error=Prokka_EC-%A-%a.err
+#SBATCH --mail-user=ldillon05@qub.ac.uk
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-23:59:59
+#SBATCH --partition=bio-compute,lowpri
+#SBATCH --array=1-96%100
 
 cd /mnt/scratch2/users/40309916/E_coli_genomes/genomes/prokka_analysis
 module load apps/anaconda3

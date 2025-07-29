@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bike-4299
-#FLUX: -n=4
-#FLUX: --queue=part1
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-poo-2657
+#FLUX -n=4
+#FLUX --queue=part1
+#FLUX --urgency=16
 
 CONFIG=configs/deeplabv3plus/deeplabv3plus_r101-d8_480x480_60k_pascal_person_part_hiera_triplet.py
 GPUS=2

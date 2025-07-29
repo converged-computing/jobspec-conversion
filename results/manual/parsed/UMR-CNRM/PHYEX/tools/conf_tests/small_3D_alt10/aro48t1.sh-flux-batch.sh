@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-2434
-#FLUX: -n=2
-#FLUX: --queue=normal256
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-leopard-7841
+#FLUX -n=2
+#FLUX --queue=normal256
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

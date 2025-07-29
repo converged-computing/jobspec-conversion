@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=extract_feats
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_feats
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:titan-x:1
+#SBATCH --mem=10GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
+#SBATCH --array=0
 
 module add clustername/singularity/3.4.1
 hostname

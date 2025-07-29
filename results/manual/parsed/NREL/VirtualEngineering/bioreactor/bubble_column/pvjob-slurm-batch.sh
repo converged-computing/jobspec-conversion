@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pvpost
-#FLUX: --queue=standard
-#FLUX: -t=43200
-#FLUX: --urgency=50
+#SBATCH --job-name=pvpost
+#SBATCH --account=bpms
+#SBATCH --output=pv_post_log.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=standard
+#SBATCH --qos=high
 
 module purge
 module load openmpi/1.10.7/gcc-7.3.0

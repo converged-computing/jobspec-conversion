@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-butter-5591
-#FLUX: -n=10
-#FLUX: --queue=nvidia
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=red-bike-6491
+#FLUX -n=10
+#FLUX --queue=nvidia
+#FLUX -t=172800
+#FLUX --urgency=16
 
 source ~/.bashrc
 echo "... loading module"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lemur-1904
-#FLUX: --queue=normal
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-kerfuffle-1168
+#FLUX --queue=normal
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

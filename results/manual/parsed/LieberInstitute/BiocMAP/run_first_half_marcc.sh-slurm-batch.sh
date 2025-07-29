@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-milkshake-5082
-#FLUX: -c=3
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=run_first_half_marcc.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=10G
+#SBATCH --time=00:15:00
 
 export _JAVA_OPTIONS='-Xms3g -Xmx4g'
 

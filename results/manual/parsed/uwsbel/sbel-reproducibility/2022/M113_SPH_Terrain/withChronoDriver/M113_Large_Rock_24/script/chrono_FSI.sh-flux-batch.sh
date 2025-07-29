@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-avocado-4089
-#FLUX: --queue=sbel
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-platanos-7550
+#FLUX --queue=sbel
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_Rock_24/script

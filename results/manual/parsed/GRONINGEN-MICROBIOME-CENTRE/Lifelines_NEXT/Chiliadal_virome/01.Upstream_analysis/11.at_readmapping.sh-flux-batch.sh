@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rAssQuality
-#FLUX: -c=8
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#FLUX --job-name=rAssQuality
+#FLUX -c=8
+#FLUX -t=21540
+#FLUX --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=icon
+#FLUX --job-name=icon
 #FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=gpu
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/sw/spack-levante/gcc-11.2.0-bcn7mb/lib64:$LD_LIBRARY_PATH'
 export PREFIX='./build-nvhpc-acc'

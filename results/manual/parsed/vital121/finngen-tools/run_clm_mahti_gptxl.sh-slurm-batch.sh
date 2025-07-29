@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-poodle-3969
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2004600
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:4
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 export SING_IMAGE='/appl/soft/ai/singularity/images/pytorch_1.9.0_csc_custom.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=prior_run
-#FLUX: -c=32
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=prior_run
+#FLUX -c=32
+#FLUX -t=432000
+#FLUX --urgency=16
 
 set -euo pipefail
 num_cpus=${SLURM_CPUS_PER_TASK}

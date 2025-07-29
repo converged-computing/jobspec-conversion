@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-malarkey-7190
-#FLUX: --queue=v100_full_node
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-plant-0886
+#FLUX --queue=v100_full_node
+#FLUX --urgency=16
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

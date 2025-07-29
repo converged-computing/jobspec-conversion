@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leader-4057
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=v100:1
+#SBATCH --time=00:05:00
 
 RANDOM=$$
 module load NVHPC/21.9-GCCcore-10.3.0-CUDA-11.4

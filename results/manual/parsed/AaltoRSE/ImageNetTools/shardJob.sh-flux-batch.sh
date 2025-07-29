@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lemon-2323
-#FLUX: -c=2
-#FLUX: --queue=dgx-common,gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-salad-8827
+#FLUX -c=2
+#FLUX --queue=dgx-common,gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load miniconda
 source activate shardProcess

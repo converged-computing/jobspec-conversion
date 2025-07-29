@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gofunc
-#FLUX: -c=8
-#FLUX: --queue=all
-#FLUX: --urgency=16
+#SBATCH --job-name=gofunc
+#SBATCH --output=slurm-go-%j.out
+#SBATCH --error=slurm-go-%j.err
+#SBATCH --mail-user=carole.belliardo@inra.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=128G
+#SBATCH --partition=all
 
 module load singularity/3.5.3 
 IMG='/lerins/hub/projects/25_Metag_PublicData/tools_metagData/Singularity/GOFunc.sif'

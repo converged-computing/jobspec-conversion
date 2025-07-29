@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-signal-3667
-#FLUX: -c=3
+#FLUX --job-name=dinosaur-train-7126
+#FLUX -c=3
 #FLUX: --exclusive
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 set -o errexit
 set -o nounset

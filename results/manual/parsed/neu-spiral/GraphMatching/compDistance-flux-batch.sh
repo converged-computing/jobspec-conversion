@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=distance
-#FLUX: --urgency=16
+#FLUX --job-name=distance
+#FLUX --urgency=16
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

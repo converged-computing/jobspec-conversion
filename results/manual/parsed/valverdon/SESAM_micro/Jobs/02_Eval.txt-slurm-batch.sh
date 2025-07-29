@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=Eval$1$2$3
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=Eval$1$2$3
+#SBATCH --account=aguisan_sometalp
+#SBATCH --output=%x.out
+#SBATCH --error=%x.err
+#SBATCH --mail-user=valentin.verdon@unil.ch
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=10:00:00
+#SBATCH --array=1-251
 
 source /dcsrsoft/spack/bin/setup_dcsrsoft
 module load gcc/9.3.0 r/4.0.5

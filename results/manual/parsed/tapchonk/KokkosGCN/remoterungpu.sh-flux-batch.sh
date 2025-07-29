@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=$(
-#FLUX: -c=6
-#FLUX: --queue=gecko
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=$(
+#FLUX -c=6
+#FLUX --queue=gecko
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='6'
 export OMP_PROC_BIND='spread'

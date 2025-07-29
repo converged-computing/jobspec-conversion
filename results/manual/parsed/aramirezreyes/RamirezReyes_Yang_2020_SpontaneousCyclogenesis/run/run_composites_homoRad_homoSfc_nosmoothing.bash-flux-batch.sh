@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-toaster-0208
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-itch-5027
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='64'
 export TMPDIR='$SCRATCH'

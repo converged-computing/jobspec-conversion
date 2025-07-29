@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tensor
-#FLUX: --queue=short
-#FLUX: -t=41400
-#FLUX: --urgency=16
+#SBATCH --job-name=tensor
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=11:30:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
 
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/apps/system/easybuild/software/CUDA/11.8.0/'
 

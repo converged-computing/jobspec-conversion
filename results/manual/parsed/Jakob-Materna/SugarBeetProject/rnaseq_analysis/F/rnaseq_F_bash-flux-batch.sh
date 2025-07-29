@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rnaseq
-#FLUX: -c=48
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=rnaseq
+#FLUX -c=48
+#FLUX -t=36000
+#FLUX --urgency=16
 
 cat $0
 module load Nextflow/23.10.0

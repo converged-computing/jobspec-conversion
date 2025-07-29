@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-dog-0609
-#FLUX: --queue=fasse
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-latke-0803
+#FLUX --queue=fasse
+#FLUX -t=120
+#FLUX --urgency=16
 
 module load ncf
 module load matlab/R2021a-fasrc01

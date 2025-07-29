@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-knife-9325
-#FLUX: -n=24
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=haswell
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

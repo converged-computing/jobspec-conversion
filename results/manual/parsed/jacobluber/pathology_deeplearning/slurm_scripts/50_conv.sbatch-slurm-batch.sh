@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pedo-5938
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=/home/luberjm/pl/code/benchmarking/bw/50_conv.out
+#SBATCH --error=/home/luberjm/pl/code/benchmarking/bw/50_conv.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100x:1
+#SBATCH --mem=30gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=gpuv100x,ntasks-per-node=1
 
 function fail {
     echo "FAIL: $@" >&2

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-banana-3393
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/andreazonato/surfex/conf/post/confdollar_cnrmpc_default

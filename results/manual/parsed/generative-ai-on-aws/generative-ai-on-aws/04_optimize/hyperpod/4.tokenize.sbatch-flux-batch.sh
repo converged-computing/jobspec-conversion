@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lizard-3645
-#FLUX: -c=128
+#FLUX --job-name=moolicious-rabbit-3926
+#FLUX -c=128
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 : "${APPS_PATH:=/fsx}"
 : "${MODEL_PATH:=/fsx}"

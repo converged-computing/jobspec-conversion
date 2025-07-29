@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cat-2306
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-omelette-6743
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export KMP_AFFINITY='compact'
 export PATH='$PATH:/pfs/work6/workspace/scratch/ov0392-KeShi_Prak-0/cuda90/bin'

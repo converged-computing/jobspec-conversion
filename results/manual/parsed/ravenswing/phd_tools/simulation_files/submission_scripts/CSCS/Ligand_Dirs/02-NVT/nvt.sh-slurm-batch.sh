@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=nvt
+#SBATCH --account=pr49
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

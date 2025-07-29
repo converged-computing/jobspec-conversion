@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pancake-9972
-#FLUX: -c=48
-#FLUX: --queue=gpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-milkshake-2868
+#FLUX -c=48
+#FLUX --queue=gpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export SINGULARITY_TMPDIR='/scratch/user/uqadaqu1/tmp/ '
 export OMP_NUM_THREADS='48'

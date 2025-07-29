@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ana
-#FLUX: --queue=RM-shared
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=ana
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --mail-user=mh1314@scarletmail.rutgers.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=RM-shared
+#SBATCH --constraint=ntasks-per-node=16
 
 module load gromacs/2018
 MODELNO=$1

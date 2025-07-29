@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=A100-Single-host
-#FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX --job-name=A100-Single-host
+#FLUX -t=240
+#FLUX --urgency=16
 
 export MODULEPATH='$NVHPC/modulefiles:$MODULEPATH'
 

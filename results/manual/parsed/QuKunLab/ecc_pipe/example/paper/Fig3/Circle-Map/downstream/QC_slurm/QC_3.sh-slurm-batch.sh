@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=QC_3
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=CPU-Small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=QC_3
+#SBATCH --output=log/QC_3_%j.log
+#SBATCH --error=log/QC_3_%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=80
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=CPU-Small
+#SBATCH --qos=scpujoblimit
 
 echo Running on $SBATCH_PARTITION paratation
 echo Time is `date`

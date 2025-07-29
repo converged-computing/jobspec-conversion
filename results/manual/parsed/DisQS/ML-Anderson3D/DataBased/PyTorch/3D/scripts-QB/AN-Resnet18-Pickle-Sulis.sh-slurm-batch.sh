@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-egg-8538
-#FLUX: -c=42
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=su007-rr-gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=42
+#SBATCH --gres=gpu:ampere_a100:1
+#SBATCH --mem=3850
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 getseed=${1:-"N"} #Set to Y if you what to reuse stored seed
 epochs=${2:-50} #No of epochs

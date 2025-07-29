@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pmicolor
-#FLUX: -c=5
-#FLUX: -t=172800
-#FLUX: --urgency=50
+#SBATCH --job-name=pmicolor
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:volta:1
+#SBATCH --time=2-00:00:00
+#SBATCH --qos=high
+#SBATCH --constraint=ntasks-per-node=1,xeon-g6
+#SBATCH --array=0-15
 
 dim=512
 lr=1.0

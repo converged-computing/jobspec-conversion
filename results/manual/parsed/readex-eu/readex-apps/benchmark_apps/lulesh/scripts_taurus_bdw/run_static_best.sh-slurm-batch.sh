@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lulesh_sacct
-#FLUX: -c=28
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lulesh_sacct
+#SBATCH --account=p_readex
+#SBATCH --output=static_average_1_nodes_new_1.out
+#SBATCH --error=static_average_1_nodes_new_1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=2200M
+#SBATCH --time=04:00:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/global/libraries/cpufrequtils/gcc5.3.0/lib/'
 

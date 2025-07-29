@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chip-6246
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --array=1-250
 
 ID=$SLURM_ARRAY_TASK_ID  # Slurm array task index
 JOB=$SLURM_ARRAY_JOB_ID  # Slurm job ID

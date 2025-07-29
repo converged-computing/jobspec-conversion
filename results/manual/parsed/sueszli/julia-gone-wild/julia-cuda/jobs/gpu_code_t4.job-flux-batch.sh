@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peas-2542
-#FLUX: --queue=q_student_gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-bits-5736
+#FLUX --queue=q_student_gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 . vars_in.sh
 BINARY="../src/juliaset_gpu"

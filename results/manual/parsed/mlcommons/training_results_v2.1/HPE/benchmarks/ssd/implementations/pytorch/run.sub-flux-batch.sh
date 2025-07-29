@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ssd_mlpv21
-#FLUX: -c=8
+#FLUX --job-name=ssd_mlpv21
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=mlperf
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export WORLD_SIZE='${SLURM_NPROCS}'
 export RANK='$((${DGXNGPU}*${SLURM_NODEID}+${SLURM_LOCALID}))'

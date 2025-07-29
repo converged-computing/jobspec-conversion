@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-sundae-3413
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=2
 
 module add openmpi/4.1.1
 cd /mnt/orangefs/hacker/genie-lammps/tweak_lammps

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=txla2_nest_NM_kw_2021_rst1
-#FLUX: -n=120
-#FLUX: --queue=xlong
-#FLUX: -t=1728000
-#FLUX: --urgency=16
+#SBATCH --job-name=txla2_nest_NM_kw_2021_rst1
+#SBATCH --output=/scratch/user/d.kobashi/projects/hindcasts/projects/txla2/roms_logs/txla2_nest_NM_kw_2021_rst1.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=120
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=20-00:00:00
+#SBATCH --partition=xlong
+#SBATCH --constraint=ntasks-per-node=20
 
 module purge
 module load netCDF-Fortran/4.4.4-intel-2018b

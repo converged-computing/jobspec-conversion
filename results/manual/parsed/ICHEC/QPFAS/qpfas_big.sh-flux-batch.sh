@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hope-4090
-#FLUX: --queue=ProdQ
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=confused-egg-5876
+#FLUX --queue=ProdQ
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

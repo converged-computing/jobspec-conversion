@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=behavior_plot
-#FLUX: -c=20
-#FLUX: --queue=mcdermott
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=behavior_plot
+#SBATCH --output=output/behavior_plot%j.out
+#SBATCH --error=output/behavior_plot%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --time=10:00:00
+#SBATCH --partition=mcdermott
+#SBATCH --constraint=high-capacity
+#SBATCH --exclude=node093,node094,node040,node097,node098,node037
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

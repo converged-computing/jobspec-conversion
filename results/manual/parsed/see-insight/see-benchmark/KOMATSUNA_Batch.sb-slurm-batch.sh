@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SEE-KOMATSUNA
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=SEE-KOMATSUNA
+#SBATCH --output=./KOMATSUNA_Benchmark_Output/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-300
 
 cd see-segment; git log -n 1; cd ..
 echo "Continuous Run Number $SLURM_ARRAY_TASK_ID"

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stpipe_crg
-#FLUX: -n=2
-#FLUX: --queue=basic
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --job-name=stpipe_crg
+#SBATCH --output=stacpipe_crg.%N.%a.%j.out
+#SBATCH --error=stacpipe_crg.%N.%a.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:08:00
+#SBATCH --partition=basic
+#SBATCH --array=283
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

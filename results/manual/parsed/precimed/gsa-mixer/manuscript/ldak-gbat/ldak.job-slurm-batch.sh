@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ldak
-#FLUX: -c=8
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ldak
+#SBATCH --account=p697_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8000M
+#SBATCH --time=01:00:00
+#SBATCH --array=1-22
 
 export SUMSTATS='$1'
 export GENEFILE='annotSorted.csv'

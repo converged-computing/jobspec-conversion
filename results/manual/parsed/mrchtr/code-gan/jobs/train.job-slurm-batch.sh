@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=code-gan
-#FLUX: --queue=clara-job
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=code-gan
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=10G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=clara-job
+#SBATCH --constraint=ntasks-per-node=1
 
 module load Python
 cd /work/users/mi144quky

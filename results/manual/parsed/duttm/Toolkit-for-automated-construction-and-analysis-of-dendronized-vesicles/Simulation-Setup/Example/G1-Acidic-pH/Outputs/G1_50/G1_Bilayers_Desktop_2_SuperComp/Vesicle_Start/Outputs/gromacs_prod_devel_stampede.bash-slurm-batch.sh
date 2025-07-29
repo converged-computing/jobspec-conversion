@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=G1_vesicle
-#FLUX: -N=8
-#FLUX: -n=512
-#FLUX: --queue=development
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=G1_vesicle
+#SBATCH --account=YYYYY
+#SBATCH --output=G1.out
+#SBATCH --error=G1.err
+#SBATCH --mail-user=YYYYY
+#SBATCH --mail-type=all
+#SBATCH --nodes=8
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=development
 
 tar xvf package.tar.gz
 module load gromacs

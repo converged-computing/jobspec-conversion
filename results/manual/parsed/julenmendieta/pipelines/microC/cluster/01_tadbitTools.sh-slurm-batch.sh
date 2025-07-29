@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tadbitTools
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=tadbitTools
+#SBATCH --output=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.out
+#SBATCH --error=/home/jmendietaes/jobsSlurm/outErr/%x_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=15G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=medium
+#SBATCH --dependency=802941
 
 filesPath='/home/jmendietaes/data/2021/microC/sequencedData/merge_RUN208-RUN212/demux_fastq'
 genome='/home/jmendietaes/referenceGenomes/mm10_reordered/mm10.reordered.fa'

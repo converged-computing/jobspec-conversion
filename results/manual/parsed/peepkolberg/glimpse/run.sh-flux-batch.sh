@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=glimpse
-#FLUX: --queue=amd
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=glimpse
+#FLUX --queue=amd
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load nextflow/22.04.3
 module load any/singularity/3.11.1

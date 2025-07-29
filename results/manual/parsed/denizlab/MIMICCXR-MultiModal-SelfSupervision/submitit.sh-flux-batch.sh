@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RESNET_CLIP_s1000
-#FLUX: -c=2
-#FLUX: --queue=gpu4_medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=RESNET_CLIP_s1000
+#FLUX -c=2
+#FLUX --queue=gpu4_medium
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

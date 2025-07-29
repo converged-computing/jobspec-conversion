@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SegFormer_B5_synthia-train-split_pixmix_train_a
-#FLUX: -c=2
-#FLUX: --queue=gpu,gpub
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=SegFormer_B5_synthia-train-split_pixmix_train_a
+#SBATCH --output=train_a-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu
+#SBATCH --mem=32000M
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=gpu,gpub
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=gpu[04,02]
 
 max_iters=40000
 main_config="./local_configs/segformer/B5/cs/segformer.b5.512x512.gta2cs.40k.batch2_PixMix.py"

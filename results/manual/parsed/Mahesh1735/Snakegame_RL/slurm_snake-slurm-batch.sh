@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tart-poo-6028
-#FLUX: --queue=standard
-#FLUX: -t=5340
-#FLUX: --urgency=16
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:29:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=12
 
 nproc
 sleep 1

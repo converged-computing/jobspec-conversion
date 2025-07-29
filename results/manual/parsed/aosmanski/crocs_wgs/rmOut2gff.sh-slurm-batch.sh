@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mask
-#FLUX: --queue=nocona
-#FLUX: --urgency=16
+#SBATCH --job-name=mask
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=32G
+#SBATCH --partition=nocona
+#SBATCH --array=1-20
 
 module load gcc/10.1.0 bedtools2/2.29.2
 RMPATH=/lustre/work/daray/software/RepeatMasker-4.1.0/util

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hicma-dev
-#FLUX: -c=32
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=hicma-dev
+#FLUX -c=32
+#FLUX -t=60
+#FLUX --urgency=16
 
 export STARPU_CALIBRATE='0'
 

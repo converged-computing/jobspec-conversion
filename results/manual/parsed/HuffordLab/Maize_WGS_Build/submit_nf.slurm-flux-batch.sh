@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=NF_GATK
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=NF_GATK
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -e
 set -u

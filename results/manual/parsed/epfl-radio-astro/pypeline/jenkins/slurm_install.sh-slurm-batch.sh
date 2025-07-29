@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pancake-3246
-#FLUX: -c=20
-#FLUX: --queue=build
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --time=01:00:00
+#SBATCH --partition=build
+#SBATCH --qos=gpu
 
 SCRIPT=$(realpath "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")

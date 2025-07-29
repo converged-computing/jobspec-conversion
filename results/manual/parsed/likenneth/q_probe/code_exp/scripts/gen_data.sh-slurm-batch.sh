@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lemon-1081
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=200GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-20
 
 export CONFIG='generation_configs/$1.yaml'
 export TOKENIZERS_PARALLELISM='false'

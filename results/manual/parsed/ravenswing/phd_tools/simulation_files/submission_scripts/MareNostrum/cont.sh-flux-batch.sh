@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-poodle-0898
-#FLUX: -N=2
-#FLUX: -c=2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=hello-parsnip-6270
+#FLUX -N=2
+#FLUX -c=2
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export GMX='gmx_mpi'
 

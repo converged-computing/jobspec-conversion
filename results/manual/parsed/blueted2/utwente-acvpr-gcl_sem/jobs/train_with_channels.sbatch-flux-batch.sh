@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_with_channels
-#FLUX: -c=4
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#FLUX --job-name=train_with_channels
+#FLUX -c=4
+#FLUX -t=82800
+#FLUX --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)" # log hostname

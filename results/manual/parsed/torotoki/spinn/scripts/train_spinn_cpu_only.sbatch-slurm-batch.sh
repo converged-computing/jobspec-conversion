@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-caramel-7237
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=16000
+#SBATCH --time=1-00:00:00
 
 export IFS=';'
 

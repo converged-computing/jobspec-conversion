@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=solar_05
-#FLUX: -N=32
-#FLUX: -n=256
-#FLUX: --queue=regular
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=solar_05
+#FLUX -N=32
+#FLUX -n=256
+#FLUX --queue=regular
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load pytorch/v1.0.1
 which python

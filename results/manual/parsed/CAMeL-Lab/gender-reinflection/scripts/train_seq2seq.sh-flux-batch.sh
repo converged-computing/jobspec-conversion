@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-ricecake-1108
-#FLUX: --queue=nvidia
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-ricecake-0319
+#FLUX --queue=nvidia
+#FLUX -t=84600
+#FLUX --urgency=16
 
 export DATA_DIR='data/alhafni'
 

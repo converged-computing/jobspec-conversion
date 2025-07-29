@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tdcomp
-#FLUX: -c=4
-#FLUX: --queue=KAT
-#FLUX: --urgency=16
+#SBATCH --job-name=tdcomp
+#SBATCH --output=out/M_%A_%a.out
+#SBATCH --error=out/M_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=4G
+#SBATCH --partition=KAT
+#SBATCH --array=1-72
 
 export WANDB_API_KEY='b36e9889bae82cb5e6c3d8cb86e29df222fac76d'
 export WANDB_SILENT='true'

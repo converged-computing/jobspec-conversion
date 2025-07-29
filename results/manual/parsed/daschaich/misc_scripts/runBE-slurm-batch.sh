@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-blackbean-1216
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ $# -lt 9 ]; then
   echo "Usage: $0 <first> <last> <beta> <MH> <start> nsteps:{<outer> <inner> <gauge>} <time> [dependency (optional)]"

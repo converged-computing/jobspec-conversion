@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SWE_otfTraining
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=SWE_otfTraining
+#FLUX --queue=gpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load miniconda3
 source "$CONDA_PREFIX/etc/profile.d/conda.sh" 

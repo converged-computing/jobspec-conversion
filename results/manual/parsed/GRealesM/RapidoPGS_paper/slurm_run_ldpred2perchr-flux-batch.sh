@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=LDpred2pc
-#FLUX: -n=15
-#FLUX: --queue=skylake-himem
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=LDpred2pc
+#FLUX -n=15
+#FLUX --queue=skylake-himem
+#FLUX -t=32400
+#FLUX --urgency=16
 
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
 

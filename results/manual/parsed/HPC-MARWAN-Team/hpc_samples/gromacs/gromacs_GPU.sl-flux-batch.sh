@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Gromacs
-#FLUX: -c=20
-#FLUX: --queue=gpu-testq
-#FLUX: --urgency=16
+#FLUX --job-name=Gromacs
+#FLUX -c=20
+#FLUX --queue=gpu-testq
+#FLUX --urgency=16
 
 export WORK_DIR='$PWD/gmx${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/ubiquitin'

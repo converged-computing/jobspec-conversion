@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-omelette-3561
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 scriptdir=""  # location for python scripts e.g. $HOME/dask_xgboost_slurm/scripts
 data_dir=""

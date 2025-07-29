@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lemon-5653
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-dog-2627
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export FREESURFER_HOME='/fast/work/groups/ag_ritter/MR_processing/HCP_pipeline/freesurfer_HCP/freesurfer-v6.0.0'
 

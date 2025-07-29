@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rer_masterfilename
-#FLUX: --queue=savio22_bigmem
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=rer_masterfilename
+#FLUX --queue=savio22_bigmem
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load gcc/4.8.5 openmpi # or module load intel openmpi, ALWAYS required
 cd /global/scratch2/rohitkolora/Rockfish/Genomes/orthologs/Lifted/Sebastes_55/rerconverge/list_configs/masterfilename/ ;

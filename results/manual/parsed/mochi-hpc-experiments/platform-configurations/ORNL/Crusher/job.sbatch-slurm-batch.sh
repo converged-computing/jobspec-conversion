@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=margo-p2p-bw
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=margo-p2p-bw
+#SBATCH --account=csc332
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=batch
 
 . /ccs/home/carns/working/src/spack/share/spack/setup-env.sh
 spack env activate crusher-demo

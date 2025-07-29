@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=GPTune
-#FLUX: -N=2
-#FLUX: --queue=regular
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=GPTune
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=regular
+#SBATCH --constraint=haswell
 
 cd ../../
 . run_env.sh

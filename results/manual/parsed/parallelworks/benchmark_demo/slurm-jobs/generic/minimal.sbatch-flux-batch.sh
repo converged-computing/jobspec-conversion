@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-citrus-1986
-#FLUX: -N=10
-#FLUX: --urgency=16
+#FLUX --job-name=salted-onion-5876
+#FLUX -N=10
+#FLUX --urgency=16
 
 source wfenv.sh
 echo "verifying loaded modules..."

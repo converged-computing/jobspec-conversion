@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=nlp-project
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nlp-project
+#SBATCH --output=output/%x_%j.out
+#SBATCH --error=output/%x_%j.err
+#SBATCH --mail-user=vinzenz.uhr@gmail.com
+#SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtx3090:1
+#SBATCH --mem=12G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=job_gpu_preempt
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install tensorboard
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U scikit-learn

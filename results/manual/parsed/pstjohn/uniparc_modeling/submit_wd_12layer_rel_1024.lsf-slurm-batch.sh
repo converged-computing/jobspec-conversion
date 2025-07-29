@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peas-2558
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/submit_wd_12layer_rel_1024.lsf

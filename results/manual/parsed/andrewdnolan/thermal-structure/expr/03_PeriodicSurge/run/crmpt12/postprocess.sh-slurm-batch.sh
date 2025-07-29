@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=dask_gridding
-#FLUX: -c=32
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_gridding
+#SBATCH --output=dask_%A_%a.out
+#SBATCH --error=dask_%A_%a.err
+#SBATCH --mail-user=andrew.d.nolan@maine.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=8000M
+#SBATCH --time=06:00:00
 
 export NUM_WORKERS='32'
 export THREADS_PER_WORKER='1'

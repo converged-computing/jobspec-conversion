@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=vcf_to_gds
-#FLUX: --urgency=16
+#SBATCH --job-name=vcf_to_gds
+#SBATCH --output=vcf_to_gds.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export SINGULARITY_TMPDIR='/tmp'
 

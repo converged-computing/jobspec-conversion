@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-5639
-#FLUX: -c=48
-#FLUX: --queue=huce_cascade
-#FLUX: -t=1036800
-#FLUX: --urgency=16
+#SBATCH --output=mapped.out
+#SBATCH --error=mapped.err
+#SBATCH --mail-user=markbaum@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=3000
+#SBATCH --time=12-00:00:00
+#SBATCH --partition=huce_cascade
 
 module purge
 module load Julia/1.7.1-linux-x86_64

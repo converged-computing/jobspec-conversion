@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ABM
-#FLUX: -c=32
-#FLUX: --urgency=16
+#SBATCH --job-name=ABM
+#SBATCH --mail-user=EMAIL
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=100G
+#SBATCH --constraint=ceph
 
 . /usr/modules/init/bash
 module load julia

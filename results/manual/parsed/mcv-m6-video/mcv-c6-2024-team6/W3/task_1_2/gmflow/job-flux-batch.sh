@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-hippo-9277
-#FLUX: -n=4
-#FLUX: --queue=mlow
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-eagle-6642
+#FLUX -n=4
+#FLUX --queue=mlow
+#FLUX --urgency=16
 
 python main.py \
 --inference_dir demo/kitti \

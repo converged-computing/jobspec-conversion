@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=IL-8-a2b1
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=IL-8-a2b1
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu
 
 export GMX='gmx_mpi'
 export GMX_DISABLE_GPU_TIMING='yes'

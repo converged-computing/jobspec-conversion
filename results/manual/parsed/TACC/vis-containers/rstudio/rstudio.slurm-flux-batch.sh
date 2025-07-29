@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tap_rstudio
-#FLUX: --queue=v100
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=tap_rstudio
+#FLUX --queue=v100
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export SINGULARITYENV_PASSWORD='$RSTUDIO_PASSWORD '
 

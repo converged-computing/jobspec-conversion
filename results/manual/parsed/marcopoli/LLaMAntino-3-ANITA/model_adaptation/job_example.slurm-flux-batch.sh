@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama3
-#FLUX: --queue=boost_usr_prod
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=llama3
+#FLUX --queue=boost_usr_prod
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export HF_DATASETS_CACHE='/leonardo_scratch/large/userexternal/xxx/hf_datasets/datasets/'
 export HF_HOME='/leonardo_scratch/large/userexternal/xxx/hf_datasets/models/'

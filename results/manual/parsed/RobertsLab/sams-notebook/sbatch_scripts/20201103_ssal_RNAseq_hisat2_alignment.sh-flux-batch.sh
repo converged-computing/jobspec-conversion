@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=20201103_ssal_RNAseq_hisat2_alignment
-#FLUX: --queue=coenv
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=20201103_ssal_RNAseq_hisat2_alignment
+#FLUX --queue=coenv
+#FLUX -t=864000
+#FLUX --urgency=16
 
 threads=27
 fastq_checksums=fastq_checksums.md5

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=CAE_train
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=CAE_train
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=10:00:00
 
 module purge
 module load cuda/8.0.44

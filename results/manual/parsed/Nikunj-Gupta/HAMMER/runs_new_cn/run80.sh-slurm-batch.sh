@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=98216
-#FLUX: -c=16
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=98216
+#SBATCH --output=98216.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=40GB
+#SBATCH --time=04:00:00
 
 source ../venvs/hammer/bin/activate
 module load python/intel/3.8.6

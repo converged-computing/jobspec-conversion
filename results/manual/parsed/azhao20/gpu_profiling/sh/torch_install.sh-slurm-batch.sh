@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=angry-taco-3184
-#FLUX: -c=8
-#FLUX: --queue=seas_gpu
-#FLUX: -t=360
-#FLUX: --urgency=16
+#SBATCH --output=torch_install.out
+#SBATCH --error=torch_install.err
+#SBATCH --mail-user=apzhao@college.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:2
+#SBATCH --mem=256000
+#SBATCH --time=00:06:00
+#SBATCH --partition=seas_gpu
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 

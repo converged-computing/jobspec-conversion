@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=train_multihot_model
-#FLUX: --queue=gpu-short
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=train_multihot_model
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+#SBATCH --mail-user=b.a.companjen@library.leidenuniv.nl
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=5G
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpu-short
 
 export CWD='$(pwd)'
 export PATH_TO_PYFILE='$CWD'

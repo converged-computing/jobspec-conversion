@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cinnamonbun-0776
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-hippo-7187
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sorenhartmann/mlops_project/batch_scripts/hparam_search.sh

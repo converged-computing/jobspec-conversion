@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=music2emotion
-#FLUX: -c=6
-#FLUX: --queue=cuda
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=music2emotion
+#FLUX -c=6
+#FLUX --queue=cuda
+#FLUX -t=21600
+#FLUX --urgency=16
 
 ml purge
 ml nvidia/cudasdk/10.1

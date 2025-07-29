@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=run-skirt
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run-skirt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=lscratch:200
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
 
 export TMPDIR='/lscratch/$SLURM_JOB_ID'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=scaling_daxpy_cpu
-#FLUX: --exclusive
-#FLUX: --queue=all
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=scaling_daxpy_cpu
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=scaling_daxpy_cpu_job-%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=all
+#SBATCH: --exclusive
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 

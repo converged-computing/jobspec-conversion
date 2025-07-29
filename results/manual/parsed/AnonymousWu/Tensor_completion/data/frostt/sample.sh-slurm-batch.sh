@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ctf_frostt
-#FLUX: -N=64
-#FLUX: -n=4096
-#FLUX: --queue=normal
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ctf_frostt
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=nzhang31@illinois.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=64
+#SBATCH --ntasks=4096
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal
 
 export CTF_PPN='64'
 export OMP_NUM_THREADS='1'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cat-2689
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:10:00
 
 module use /share/apps2/singularity/modules
 module purge

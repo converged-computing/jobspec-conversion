@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cardiac-benchmark
-#FLUX: -n=8
-#FLUX: --queue=milanq
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=cardiac-benchmark
+#SBATCH --output=slurm-output/%j-%x-stdout.txt
+#SBATCH --error=slurm-output/%j-%x-stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=milanq
 
 export MKL_NUM_THREADS='$SLURM_NTASKS'
 export OMP_NUM_THREADS='$SLURM_NTASKS'

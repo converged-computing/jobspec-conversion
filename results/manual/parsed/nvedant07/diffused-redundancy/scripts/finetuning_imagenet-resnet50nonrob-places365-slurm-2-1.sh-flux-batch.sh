@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-0146
-#FLUX: -c=16
-#FLUX: --queue=a100
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-general-2837
+#FLUX -c=16
+#FLUX --queue=a100
+#FLUX -t=345600
+#FLUX --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m partially_inverted_reps.finetuning \
 --source_dataset imagenet \

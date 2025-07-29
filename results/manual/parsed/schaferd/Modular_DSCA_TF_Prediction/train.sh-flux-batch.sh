@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-mango-7026
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=boopy-caramel-2724
+#FLUX -t=72000
+#FLUX --urgency=16
 
 source params.sh
 HOME2=/nobackup/users/$(whoami)

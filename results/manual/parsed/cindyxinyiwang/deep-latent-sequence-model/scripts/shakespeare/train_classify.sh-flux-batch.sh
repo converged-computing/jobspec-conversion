@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-spoon-0434
-#FLUX: -t=0
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-motorcycle-6426
+#FLUX -t=0
+#FLUX --urgency=16
 
 export PYTHONPATH='$(pwd)'
 export CUDA_VISIBLE_DEVICES='2'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=everglades_workflow
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=everglades_workflow
+#FLUX -c=3
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 export TEST_ENV='True'
 

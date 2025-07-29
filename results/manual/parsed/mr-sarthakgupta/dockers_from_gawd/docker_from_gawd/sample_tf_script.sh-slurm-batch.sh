@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tf_job_test
-#FLUX: --queue=dgx
-#FLUX: -t=1500
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_job_test
+#SBATCH --output=tf_test_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --mem=16GB
+#SBATCH --time=00:25:00
+#SBATCH --partition=dgx
 
 echo $CUDA_VISIBLE_DEVICES
 echo "SLURM_JOBID="$SLURM_JOBID

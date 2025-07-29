@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-underoos-4563
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=latency.collusingp2p.2h8p.out
+#SBATCH --mail-user=hochan@utexas.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:4
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4,exclusive
+#SBATCH --exclude=comet-33-15,comet-33-11
 
 export HFILE='`generate_pbs_nodefile`'
 export OMP_NUM_THREADS='1'

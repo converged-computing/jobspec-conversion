@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=siampose
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=siampose
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'
 

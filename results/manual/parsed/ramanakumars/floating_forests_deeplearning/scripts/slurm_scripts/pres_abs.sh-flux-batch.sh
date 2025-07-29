@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pres_abs_resnet50_ff_image_mod
-#FLUX: -n=10
-#FLUX: -t=1245600
-#FLUX: --urgency=16
+#FLUX --job-name=pres_abs_resnet50_ff_image_mod
+#FLUX -n=10
+#FLUX -t=1245600
+#FLUX --urgency=16
 
 module load proj-7.1.0-gcc-8.4.0-sjt4ita
 module load R/4.0.3

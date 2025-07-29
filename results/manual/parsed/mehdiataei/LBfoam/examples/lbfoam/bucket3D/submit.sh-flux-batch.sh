@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bubble3D
-#FLUX: -N=2
-#FLUX: -n=20
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=bubble3D
+#FLUX -N=2
+#FLUX -n=20
+#FLUX -t=72000
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load gcc/7.3.0

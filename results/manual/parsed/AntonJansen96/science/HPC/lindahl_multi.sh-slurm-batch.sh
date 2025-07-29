@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=NAME
-#FLUX: --queue=lindahl
-#FLUX: -t=172799
-#FLUX: --urgency=16
+#SBATCH --job-name=NAME
+#SBATCH --mail-user=anton.jansen@scilifelab.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-23:59:59
+#SBATCH --partition=lindahl
+#SBATCH --constraint=gpu
 
 module load cmake/latest
 module load gcc/7.4

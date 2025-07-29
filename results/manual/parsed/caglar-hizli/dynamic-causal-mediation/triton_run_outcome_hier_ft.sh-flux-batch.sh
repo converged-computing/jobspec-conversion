@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-citrus-8202
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-platanos-0421
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module load anaconda
 module load tensorflow

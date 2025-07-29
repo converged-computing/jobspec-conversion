@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=vlstm_f2_jester
-#FLUX: -c=5
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=vlstm_f2_jester
+#SBATCH --output=eccv_model_videolstm_with_fb2_%j.log
+#SBATCH --error=eccv_model_videolstm_with_fb2_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64000M
+#SBATCH --time=12:00:00
 
 export DATA_ROOT='$TMPFS/20bn-jester'
 

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=orthomcl
-#FLUX: --queue=intel
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=orthomcl
+#SBATCH --mail-user=useremail@address.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=04:00:00
+#SBATCH --partition=intel
 
 module load singularity
 module load orthomcl

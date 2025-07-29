@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=feots_integrate
-#FLUX: --urgency=16
+#FLUX --job-name=feots_integrate
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8'
 

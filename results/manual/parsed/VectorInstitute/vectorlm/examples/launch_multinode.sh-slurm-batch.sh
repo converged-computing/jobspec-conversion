@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=llama7b-2-multinode
-#FLUX: -N=2
-#FLUX: -c=24
-#FLUX: --queue=a100
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=llama7b-2-multinode
+#SBATCH --output=llama-2-7b.%j.out
+#SBATCH --error=llama-2-7b.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:a100:4
+#SBATCH --mem=0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=a100
+#SBATCH --qos=your_assigned_qos
+#SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$(hostname --fqdn)'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1])')'

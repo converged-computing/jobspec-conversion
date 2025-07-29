@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=openmm_cg_cuda
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=openmm_cg_cuda
+#SBATCH --output=/scratch/job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla:1
+#SBATCH --partition=gpu
+#SBATCH --exclude=gpu-dy-p38xlarge-1,gpu-dy-p38xlarge-2
 
 whoami
 id -a

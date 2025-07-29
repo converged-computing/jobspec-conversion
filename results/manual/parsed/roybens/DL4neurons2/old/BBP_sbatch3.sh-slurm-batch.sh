@@ -1,15 +1,23 @@
 #!/bin/bash
-#FLUX: --job-name=DL4N_full_prod
-#FLUX: -N=64
-#FLUX: --queue=flex
-#FLUX: -t=7800
-#FLUX: --urgency=16
+#SBATCH --job-name=DL4N_full_prod
+#SBATCH --output=logs/%A_%a
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:10:00
+#SBATCH --partition=flex
+#SBATCH --constraint=knl
+#SBATCH --array=1-1
+#SBATCH --licenses=SCRATCH,project
 
 export OMP_NUM_THREADS='1'
 export THREADS_PER_NODE='128'
 export PYTHONPATH='/global/cscratch1/sd/adisaran/neuronBBP_build2/nrn/lib/python/'
 export stimname='chaotic_2'
 
+singularity
+exec
+balewski/ubu18-py3-mpich:v2
 export OMP_NUM_THREADS=1
 module unload craype-hugepages2M
 WORKING_DIR=/global/cscratch1/sd/adisaran/DL4neurons

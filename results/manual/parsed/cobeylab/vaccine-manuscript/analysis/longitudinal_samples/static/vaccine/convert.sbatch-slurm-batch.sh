@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-citrus-4947
-#FLUX: --queue=amd
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=amd
 
 rm results/$SLURM_ARRAY_TASK_ID/long.csv
 if [ -f results/$SLURM_ARRAY_TASK_ID/out.long ]; then

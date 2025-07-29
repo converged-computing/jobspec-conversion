@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cattywampus-6258
-#FLUX: --queue=amd-longq
-#FLUX: --urgency=16
+#FLUX --job-name=faux-eagle-8540
+#FLUX --queue=amd-longq
+#FLUX --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

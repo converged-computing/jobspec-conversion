@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=demo_scannet
-#FLUX: -c=4
-#FLUX: --queue=submit
-#FLUX: --urgency=16
+#SBATCH --job-name=demo_scannet
+#SBATCH --output=./slurm_jobs/job_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=60gb
+#SBATCH --partition=submit
+#SBATCH --qos=deadline
+#SBATCH --constraint=rtx_3090|rtx_2080
 
 date;hostname;pwd
 echo "Job Name = $SLURM_JOB_NAME"

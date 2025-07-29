@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=job
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=job
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load python/3.7.4 cuda/11.7.1 gcc/10.2
 source predicting-venv/bin/activate

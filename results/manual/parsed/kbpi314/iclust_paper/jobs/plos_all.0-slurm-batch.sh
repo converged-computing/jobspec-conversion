@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemur-3518
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/kbpi314/iclust_paper/jobs/plos_all.0

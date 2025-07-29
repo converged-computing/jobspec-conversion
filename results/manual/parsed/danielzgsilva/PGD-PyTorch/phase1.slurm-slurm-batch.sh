@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-car-0235
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=PGD_attack.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

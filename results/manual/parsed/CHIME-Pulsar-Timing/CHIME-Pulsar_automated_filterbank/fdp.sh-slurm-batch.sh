@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fix_dropped
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=fix_dropped
+#SBATCH --account=rrg-istairs-ad
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8GB
+#SBATCH --time=01:00:00
 
 module use /project/6004902/modulefiles
 module load presto

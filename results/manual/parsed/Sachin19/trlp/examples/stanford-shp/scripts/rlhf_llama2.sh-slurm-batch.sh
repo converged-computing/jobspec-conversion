@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-punk-4105
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --output=./slurm-outputs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50g
+#SBATCH --exclude=tir-0-32,tir-0-36,tir-0-11,tir-1-32,tir-1-11,tir-1-23,tir-0-9,tir-0-17,tir-1-18,tir-1-13,tir-0-3
 
 module load cuda-11.1.1 cudnn-11.1.1-v8.0.4.30
 module load gcc-7.4

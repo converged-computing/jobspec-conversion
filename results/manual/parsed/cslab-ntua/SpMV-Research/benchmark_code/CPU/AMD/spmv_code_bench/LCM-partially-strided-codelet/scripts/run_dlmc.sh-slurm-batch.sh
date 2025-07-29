@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=TRSV
-#FLUX: -c=40
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=TRSV
+#SBATCH --output=DDT.%j.%N.out
+#SBATCH --mail-user=kazem.cheshmi@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --time=12:00:00
 
 export OMP_NUM_THREADS='$THRDS'
 export MKL_NUM_THREADS='$THRDS'

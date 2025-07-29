@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nxf-small
-#FLUX: --queue=workq
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=nxf-small
+#SBATCH --account=pawsey0001
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=workq
+#SBATCH: --no-requeue
 
 unset SBATCH_EXPORT
 module load singularity

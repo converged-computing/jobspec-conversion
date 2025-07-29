@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dataset_gen
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=dataset_gen
+#SBATCH --output=./cluster/train_L0/train_L0_b4.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:V100:1
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
 
 module load anaconda3
 source activate sbi

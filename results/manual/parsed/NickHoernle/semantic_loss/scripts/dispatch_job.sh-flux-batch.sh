@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hippo-6448
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-pedo-1707
+#FLUX -c=2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo "Job running on ${SLURM_JOB_NODELIST}"
 git_commit="`git rev-parse HEAD`"

@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME_quark_init
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME_quark_init
+#SBATCH --output=JOBNAME_quark_init.%j.%N.out
+#SBATCH --error=JOBNAME_quark_init.%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --dependency=<FINETUNE>
 
 <GPU1_CONFIG>
 <ENV_LOAD>

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parsnip-6714
-#FLUX: -n=8
-#FLUX: --queue=gpu_requeue
-#FLUX: -t=480
-#FLUX: --urgency=16
+#SBATCH --mail-user=tdeutsch@college.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=10000
+#SBATCH --time=00:08:00
+#SBATCH --partition=gpu_requeue
 
 echo ${RUN_CONFIG}
 module load Anaconda3/5.0.1-fasrc02

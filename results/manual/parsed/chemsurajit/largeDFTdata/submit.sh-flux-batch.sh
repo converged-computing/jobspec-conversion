@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=40
+#FLUX --job-name=test
+#FLUX -n=40
 #FLUX: --exclusive
-#FLUX: --queue=xeon40
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --queue=xeon40
+#FLUX -t=180000
+#FLUX --urgency=16
 
 ulimit -s unlimited
 source /home/energy/surna/anaconda3/etc/profile.d/conda.sh

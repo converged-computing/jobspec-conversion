@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cherry-6539
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --account=project_2004600
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1,nvme:100
+#SBATCH --mem=8G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
 
 export DS_BUILD_CPU_ADAM='1'
 export DS_BUILD_FUSED_ADAM='1'

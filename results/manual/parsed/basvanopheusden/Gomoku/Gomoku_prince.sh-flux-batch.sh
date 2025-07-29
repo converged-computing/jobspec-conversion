@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Gomoku
-#FLUX: -c=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=Gomoku
+#FLUX -c=20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MATLABPATH='$MATLABPATH:$SCRATCH/Gomoku/Code:$SCRATCH/Gomoku/Code/mcs:$SCRATCH/Gomoku/Code/mcs/gls:$SCRATCH/Gomoku/Code/mcs/minq5:$direc'
 

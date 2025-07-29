@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-signal-5546
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-squidward-5304
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load singularity/3.3.0
 module load nextflow/19.01.0.5050-bin

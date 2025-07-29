@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=armnet
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=armnet
+#FLUX -t=518400
+#FLUX --urgency=16
 
 rnn_type_array=("LeakyRNN")
 activation_array=("softplus")

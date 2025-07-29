@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=TAMMBER_vac_test
-#FLUX: -N=10
-#FLUX: --exclusive
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=TAMMBER_vac_test
+#SBATCH --output=output.slurm
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=00:15:00
+#SBATCH: --exclusive
+#SBATCH --constraint=partition,ntasks-per-node=28
 
 set -e
 module load intel/19.4 intelmpi/2019.4.243  boost/1_69_0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AE
+#FLUX --job-name=AE
 #FLUX: --exclusive
-#FLUX: --queue=Nvidia_A800
-#FLUX: --urgency=16
+#FLUX --queue=Nvidia_A800
+#FLUX --urgency=16
 
 export RAY_DEDUP_LOGS='0'
 

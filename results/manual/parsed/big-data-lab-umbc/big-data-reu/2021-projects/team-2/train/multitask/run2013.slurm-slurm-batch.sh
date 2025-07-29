@@ -1,9 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=PGML
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=PGML
+#SBATCH --account=cybertrn
+#SBATCH --output=slurm.%a.out
+#SBATCH --error=slurm.%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=MaxMemPerNode
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=short+
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-2%1
 
 if [ -d "model-final" ]
 then

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-frito-1146
-#FLUX: -c=12
-#FLUX: --queue=booster
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#FLUX --job-name=tart-parrot-9498
+#FLUX -c=12
+#FLUX --queue=booster
+#FLUX -t=3540
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

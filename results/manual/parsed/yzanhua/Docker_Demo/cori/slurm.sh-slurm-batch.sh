@@ -1,12 +1,21 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cinnamonbun-2274
-#FLUX: -N=16
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=m844
+#SBATCH --output=qout.docker.1024.%j
+#SBATCH --error=qout.docker.1024.%j
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --qos=regular
+#SBATCH --constraint=knl,quad,cache,ntasks-per-node=64
+#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='1'
 export KMP_AFFINITY='disabled'
 
+singularity
+exec
+docker:wkliao/cori_image:latest
 NP=$(($SLURM_JOB_NUM_NODES * $SLURM_NTASKS_PER_NODE))
 echo "------------------------------------------------------"
 echo "---- SLURM_CLUSTER_NAME    = $SLURM_CLUSTER_NAME"

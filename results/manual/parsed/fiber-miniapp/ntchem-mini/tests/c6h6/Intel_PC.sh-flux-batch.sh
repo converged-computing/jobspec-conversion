@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-snack-6068
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-egg-3376
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fiber-miniapp/ntchem-mini/tests/c6h6/Intel_PC.sh

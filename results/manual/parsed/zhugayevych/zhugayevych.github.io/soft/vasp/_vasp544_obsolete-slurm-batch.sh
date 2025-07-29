@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-butter-0799
-#FLUX: -c=16
-#FLUX: --queue=AMG
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=%x.e%j
+#SBATCH --error=%x.e%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=7500
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=AMG
 
 export OMP_NUM_THREADS='1'
 export SCR='/scr/$SLURM_JOB_NAME'

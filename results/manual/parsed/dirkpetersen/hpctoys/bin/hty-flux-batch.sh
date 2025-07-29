@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-gato-5897
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-noodle-3945
+#FLUX --urgency=16
 
 export DIALOGRC='${HPCTOYS_ROOT}/etc/.dialogrc'
 

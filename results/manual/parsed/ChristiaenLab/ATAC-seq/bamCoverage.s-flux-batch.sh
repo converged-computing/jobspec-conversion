@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bowtie
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=bowtie
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load deeptools/intel/2.4.2

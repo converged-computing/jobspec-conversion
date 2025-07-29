@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-noodle-0648
-#FLUX: --queue=priority
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=grated-cherry-4329
+#FLUX --queue=priority
+#FLUX -t=43200
+#FLUX --urgency=16
 
 NX=1
 NY=1

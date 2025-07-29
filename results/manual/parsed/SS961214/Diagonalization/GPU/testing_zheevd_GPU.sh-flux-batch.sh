@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-underoos-5106
-#FLUX: --queue=prawnew
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-spoon-9955
+#FLUX --queue=prawnew
+#FLUX -t=3600
+#FLUX --urgency=16
 
 DEVICE="GPU"
 ROUTINE="zheevd"

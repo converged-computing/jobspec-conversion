@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=quantify_images
-#FLUX: -c=18
-#FLUX: --queue=biochem,owners
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=quantify_images
+#SBATCH --output=quantify_tiles.out
+#SBATCH --error=quantify_tiles.err
+#SBATCH --mail-user=hannahw1@stanford.edu
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=15:00:00
+#SBATCH --partition=biochem,owners
+#SBATCH --qos=normal
+#SBATCH --constraint=ntasks-per-node=1
 
 source activate barcode_venv
 module load matlab/R2017b

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phaseshift
-#FLUX: -c=10
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=phaseshift
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=10:00:00
+#SBATCH --constraint=amd
+#SBATCH --array=0-410
 
 SING_BIND=$( python3 $HOME/parse_settings.py --BIND )
 SIMG=$( python3 $HOME/parse_settings.py --SIMG )

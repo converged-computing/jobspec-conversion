@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=CycleGAN_01
-#FLUX: -c=4
-#FLUX: --queue=cuda
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=CycleGAN_01
+#FLUX -c=4
+#FLUX --queue=cuda
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load nvidia/cudasdk/10.1
 module load intel/python/3/2019.4.088

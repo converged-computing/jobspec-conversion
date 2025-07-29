@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-peanut-1039
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=mia326
+#SBATCH --output=npdes_test_o.%j.%N.out
+#SBATCH --error=npdes_test_e.%j.%N.out
+#SBATCH --mail-user=sidsriva@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='/expanse/projects/qstore/mia326/sids/pde/lib:$LD_LIBRARY_PATH'
 export OMPI_MCA_btl_openib_allow_ib='1'

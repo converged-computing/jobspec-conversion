@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=rf-0-smogn
-#FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=rf-0-smogn
+#SBATCH --account=k20200
+#SBATCH --output=rf_out.o%j
+#SBATCH --error=rf_err.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=4-03:00:00
+#SBATCH --partition=amd
+#SBATCH: --exclusive
 
 hostname
 module load /sw/spack-amd/spack/modules/linux-centos8-zen2/singularity/3.7.0-gcc-10.2.0

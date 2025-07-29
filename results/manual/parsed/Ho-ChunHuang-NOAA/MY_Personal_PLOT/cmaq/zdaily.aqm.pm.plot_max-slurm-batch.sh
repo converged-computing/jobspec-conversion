@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemon-2632
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/zdaily.aqm.pm.plot_max

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-truffle-7205
-#FLUX: -c=32
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-blackbean-4478
+#FLUX -c=32
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

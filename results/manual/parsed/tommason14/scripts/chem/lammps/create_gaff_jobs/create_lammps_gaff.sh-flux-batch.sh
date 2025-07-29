@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-frito-0507
-#FLUX: -n=16
-#FLUX: --queue=comp,short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cherry-5566
+#FLUX -n=16
+#FLUX --queue=comp,short
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export lammps='/projects/sn29/apps/clammps/build/lmp_mpi'
 

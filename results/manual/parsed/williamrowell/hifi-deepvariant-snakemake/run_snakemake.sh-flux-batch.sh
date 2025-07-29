@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-citrus-3097
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-cattywampus-7820
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 umask 002
 SAMPLE=$1

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=trainExample
-#FLUX: --queue=common
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#SBATCH --job-name=trainExample
+#SBATCH --output=/results/reformer-tts/trainExample.out
+#SBATCH --error=/results/reformer-tts/trainExample.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-23:00:00
+#SBATCH --partition=common
+#SBATCH --qos=2gpu3d
+#SBATCH --nodelist=asusgpu1,sylvester,arnold
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

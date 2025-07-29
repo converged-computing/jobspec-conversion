@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-4198
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=red-house-2120
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -e
 module purge

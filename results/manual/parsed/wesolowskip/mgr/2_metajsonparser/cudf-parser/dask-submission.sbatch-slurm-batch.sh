@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-onion-0233
-#FLUX: --queue=short
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=16:00:00
+#SBATCH --partition=short
 
 CONTAINER="${HOME}/containers/rapids-prod.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_rc"

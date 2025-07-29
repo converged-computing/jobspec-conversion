@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cattywampus-1408
-#FLUX: -c=8
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --account=def-uofavis-ab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=8,13,17
 
 export MPLBACKEND='agg'
 

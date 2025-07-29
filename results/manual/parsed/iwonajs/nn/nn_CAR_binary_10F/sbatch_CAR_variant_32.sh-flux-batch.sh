@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-5702
-#FLUX: -c=4
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-train-1625
+#FLUX -c=4
+#FLUX -t=10800
+#FLUX --urgency=16
 
 cp *.json $SLURM_TMPDIR
 cp *.py $SLURM_TMPDIR

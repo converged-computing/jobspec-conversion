@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-9616
-#FLUX: -n=20
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-hobbit-4825
+#FLUX -n=20
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load cuda/9.0
 module load cudnn/7-cuda-9.0

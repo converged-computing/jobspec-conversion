@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=tune_agent
-#FLUX: -t=450000
-#FLUX: --urgency=16
+#SBATCH --job-name=tune_agent
+#SBATCH --output=/home/eecs/paras/slurm/coderep/%j_wandb_sweep.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=50000
+#SBATCH --time=5-05:00:00
+#SBATCH --exclude=atlas,blaze,r16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/data/paras/data_cache'

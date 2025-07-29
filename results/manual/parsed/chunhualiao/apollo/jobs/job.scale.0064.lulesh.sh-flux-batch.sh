@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=APOLLO:SCALE.64.lulesh
-#FLUX: -N=3
-#FLUX: -n=69
+#FLUX --job-name=APOLLO:SCALE.64.lulesh
+#FLUX -N=3
+#FLUX -n=69
 #FLUX: --exclusive
-#FLUX: --queue=pbatch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=pbatch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export EXPERIMENT_JOB_TITLE='SCALE.0064.lulesh'
 export APPLICATION_RANKS='64"        # ^__ make sure to change the SBATCH node counts!'

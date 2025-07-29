@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=1B3-multilingual.slurm
-#FLUX: -N=16
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=1B3-multilingual.slurm
+#FLUX -N=16
+#FLUX -c=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

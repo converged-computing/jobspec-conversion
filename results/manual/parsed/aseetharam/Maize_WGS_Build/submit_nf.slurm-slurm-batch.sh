@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=NF_GATK
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=NF_GATK
+#SBATCH --account=maizegdb
+#SBATCH --output=R-%x.%J.out
+#SBATCH --error=R-%x.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=4
 
 set -e
 set -u

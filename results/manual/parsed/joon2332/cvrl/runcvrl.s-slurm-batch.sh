@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cvrlGPU
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=cvrlGPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=10:00:00
 
 cd /ibex/scratch/$USER/cvrl
 nvidia-smi

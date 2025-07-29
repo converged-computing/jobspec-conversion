@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peanut-5462
-#FLUX: -c=6
-#FLUX: --queue=gpu-common
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-butter-0483
+#FLUX -c=6
+#FLUX --queue=gpu-common
+#FLUX --urgency=16
 
 /opt/apps/matlabR2016a/bin/matlab -nojvm -nodisplay -singleCompThread -r mycode.m > file.out

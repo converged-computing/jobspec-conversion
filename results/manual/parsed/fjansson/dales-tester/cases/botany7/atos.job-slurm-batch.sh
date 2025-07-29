@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-onion-0348
-#FLUX: -n=512
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=spnlsieb
+#SBATCH --nodes=1
+#SBATCH --ntasks=512
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=np
+#SBATCH --constraint=ntasks-per-node=128
 
 if [ -z "$TAG" ] 
 then

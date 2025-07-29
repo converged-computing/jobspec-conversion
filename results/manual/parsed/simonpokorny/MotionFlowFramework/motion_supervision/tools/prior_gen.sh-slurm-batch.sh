@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-staircase-0373
-#FLUX: -c=6
-#FLUX: --queue=amdlong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=logs/data_preprocess_%a.out
+#SBATCH --error=logs/data_preprocess_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=40G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=amdlong
+#SBATCH --constraint=ntasks-per-node=1
 
 ml torchsparse
 cd $HOME

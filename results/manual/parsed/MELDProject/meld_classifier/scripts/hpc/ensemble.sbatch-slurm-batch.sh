@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run-meld
-#FLUX: --queue=pascal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run-meld
+#SBATCH --account=CORE-WCHN-MELD-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=04:00:00
+#SBATCH --partition=pascal
 
 export OMP_NUM_THREADS='1'
 

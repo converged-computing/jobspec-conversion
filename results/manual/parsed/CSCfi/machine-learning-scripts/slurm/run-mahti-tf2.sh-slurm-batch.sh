@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemur-3753
-#FLUX: -c=10
-#FLUX: --queue=gpusmall
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=project_2001659
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpusmall
 
 module load tensorflow/2.4
 module list

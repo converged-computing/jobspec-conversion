@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=met_resnet50
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=met_resnet50
+#FLUX --queue=normal
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

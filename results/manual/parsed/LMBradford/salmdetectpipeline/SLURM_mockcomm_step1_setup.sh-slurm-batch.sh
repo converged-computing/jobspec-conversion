@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-motorcycle-8854
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=./slurm/logs/setup/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=01:00:00
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-milkshake-9873
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=faux-fork-7041
+#FLUX -N=10
+#FLUX -n=10
+#FLUX --queue=west
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export DARSHAN_DISABLE_SHARED_REDUCTION='1'
 

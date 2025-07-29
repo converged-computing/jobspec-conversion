@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch_mnist
-#FLUX: -c=10
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch_mnist
+#FLUX -c=10
+#FLUX -t=10800
+#FLUX --urgency=16
 
 set -x
 cd $WORK/jean-zay-doc/examples/pytorch

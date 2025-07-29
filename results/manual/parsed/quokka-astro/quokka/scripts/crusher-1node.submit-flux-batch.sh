@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=amrex_quokka
-#FLUX: -c=7
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=amrex_quokka
+#FLUX -c=7
+#FLUX --gpus-per-task=1
+#FLUX --queue=batch
+#FLUX -t=600
+#FLUX --urgency=16
 
 export FI_MR_CACHE_MAX_COUNT='0  # libfabric disable caching'
 export MPICH_GPU_SUPPORT_ENABLED='1'

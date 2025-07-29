@@ -1,11 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=viking_v2_33B_high_eps
-#FLUX: -N=256
-#FLUX: -c=7
-#FLUX: --exclusive
-#FLUX: --queue=standard-g
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=viking_v2_33B_high_eps
+#SBATCH --account=project_462000353
+#SBATCH --output=logs-33B_high_eps/%j-33B_high_eps.out
+#SBATCH --error=logs-33B_high_eps/%j-33B_high_eps.err
+#SBATCH --nodes=256
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=0
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=standard-g
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --exclude=nid005138,nid006369,nid005796,nid007382
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export MASTER_PORT='9999'

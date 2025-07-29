@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-8207
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --mail-user=michals@mila.quebec
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=30Gb
+#SBATCH --time=12:00:00
 
 export PYTHONUNBUFFERED='1'
 

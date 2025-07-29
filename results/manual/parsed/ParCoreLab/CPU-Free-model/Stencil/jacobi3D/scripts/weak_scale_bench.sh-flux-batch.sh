@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stencil-bench
-#FLUX: -n=8
-#FLUX: --queue=hgx2q
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=stencil-bench
+#FLUX -n=8
+#FLUX --queue=hgx2q
+#FLUX -t=21600
+#FLUX --urgency=16
 
 . ./scripts/modules.sh > /dev/null
 MAX_NUM_GPUS=8

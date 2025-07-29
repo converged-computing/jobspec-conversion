@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kitty-5197
-#FLUX: -N=2
+#FLUX --job-name=reclusive-chip-2015
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=short
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --queue=short
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export AKRR_NODES='2'
 export AKRR_CORES='96'

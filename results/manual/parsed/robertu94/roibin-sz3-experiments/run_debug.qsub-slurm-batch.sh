@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=roibin_debug
-#FLUX: -N=10
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#SBATCH --job-name=roibin_debug
+#SBATCH --account=ecp-ez
+#SBATCH --output=roibin_debug-%j.out
+#SBATCH --error=roibin_debug-%j.err
+#SBATCH --mail-user=runderwood@anl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=15:00:00
+#SBATCH --constraint=ntasks-per-node=36
 
 export PROJECT_DIR='/lcrc/project/ECP-EZ/public/compression/roibin-sz3'
 export workdir='$PROJECT_DIR/roibin-sz3-experiments/'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=restart_call
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=restart_call
+#FLUX -t=1200
+#FLUX --urgency=16
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 export JULIA_MPI_BINARY='system'

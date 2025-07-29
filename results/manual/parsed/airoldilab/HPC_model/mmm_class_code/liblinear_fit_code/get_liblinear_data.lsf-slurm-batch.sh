@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-frito-3831
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_class_code/liblinear_fit_code/get_liblinear_data.lsf

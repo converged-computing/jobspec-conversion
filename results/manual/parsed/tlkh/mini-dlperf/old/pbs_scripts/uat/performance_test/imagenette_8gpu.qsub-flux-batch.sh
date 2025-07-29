@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lettuce-3928
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-puppy-6070
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/mini-dlperf/old/pbs_scripts/uat/performance_test/imagenette_8gpu.qsub

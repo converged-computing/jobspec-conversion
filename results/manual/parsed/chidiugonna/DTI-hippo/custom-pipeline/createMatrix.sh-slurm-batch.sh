@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rpt-tractography
-#FLUX: -n=28
-#FLUX: --queue=standard
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=rpt-tractography
+#SBATCH --account=nkchen
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=5GB
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=28
 
 . $PWD/parseParams.sh
 parseparams $*

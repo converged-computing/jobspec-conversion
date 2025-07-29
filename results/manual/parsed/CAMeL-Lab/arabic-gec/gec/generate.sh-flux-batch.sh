@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-0422
-#FLUX: --queue=nvidia
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=hello-arm-8320
+#FLUX --queue=nvidia
+#FLUX -t=144000
+#FLUX --urgency=16
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/full/bart_w_camelira
 test_file=/home/ba63/gec-release/data/gec/modeling/qalb15/w_camelira/full/test_L2.json

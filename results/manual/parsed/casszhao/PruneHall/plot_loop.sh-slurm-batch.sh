@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ab
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=ab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=88G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
 
 module load Anaconda3/2022.10
 module load CUDA/11.8.0

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=enduro_SL
-#FLUX: --queue=batch
-#FLUX: --urgency=16
+#SBATCH --job-name=enduro_SL
+#SBATCH --output=output_file_enduro.out
+#SBATCH --error=error_file_enduro.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
 
 echo "---------------------------"
 echo "Job started on" `date`

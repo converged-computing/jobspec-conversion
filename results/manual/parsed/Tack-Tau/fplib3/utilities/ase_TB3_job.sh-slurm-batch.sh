@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hope-2556
-#FLUX: --queue=main
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2GB
+#SBATCH --time=12:00:00
+#SBATCH --partition=main
 
 export OMP_NUM_THREADS='1'
 export PATH='$HOME/apps/julia-1.8.1/bin:$PATH'

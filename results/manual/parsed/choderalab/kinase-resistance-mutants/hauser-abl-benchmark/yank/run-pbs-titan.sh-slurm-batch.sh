@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-motorcycle-1511
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/kinase-resistance-mutants/hauser-abl-benchmark/yank/run-pbs-titan.sh

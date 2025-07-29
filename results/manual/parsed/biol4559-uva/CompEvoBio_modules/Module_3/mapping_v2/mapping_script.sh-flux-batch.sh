@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dockerMap
-#FLUX: -c=10
-#FLUX: --queue=instructional
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=dockerMap
+#FLUX -c=10
+#FLUX --queue=instructional
+#FLUX -t=259200
+#FLUX --urgency=16
 
   module load singularity
   #SLURM_ARRAY_TASK_ID=1

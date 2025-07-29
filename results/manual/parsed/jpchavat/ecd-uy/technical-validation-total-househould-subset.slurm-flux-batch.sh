@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dataset-processing
-#FLUX: -n=16
-#FLUX: --queue=normal
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dataset-processing
+#FLUX -n=16
+#FLUX --queue=normal
+#FLUX -t=43200
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 date

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-4785
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=electricity-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=short
+#SBATCH --array=0-9
 
 module load miniconda
 source activate venv

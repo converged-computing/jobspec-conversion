@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=advice-fit
-#FLUX: --queue=c2_cpu
-#FLUX: --urgency=16
+#SBATCH --job-name=advice-fit
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12000
+#SBATCH --partition=c2_cpu
+#SBATCH --chdir=/media/labs/rsmith/lab-members/cgoldman/Wellbeing/advise_task/scripts
 
 SUBJECT=$1
 export SUBJECT

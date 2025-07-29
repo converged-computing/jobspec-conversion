@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-7870
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
+#SBATCH: --no-requeue
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

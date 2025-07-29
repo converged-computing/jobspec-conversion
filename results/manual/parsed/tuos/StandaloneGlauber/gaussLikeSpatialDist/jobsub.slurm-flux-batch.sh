@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-carrot-8423
-#FLUX: -t=162000
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-signal-0647
+#FLUX -t=162000
+#FLUX --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc700'
 

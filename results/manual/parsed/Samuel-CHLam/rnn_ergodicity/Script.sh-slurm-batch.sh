@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_simulation
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --job-name=test_simulation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:40:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=6
 
 cd $SCRATCH
 module load Anaconda3/2022.05

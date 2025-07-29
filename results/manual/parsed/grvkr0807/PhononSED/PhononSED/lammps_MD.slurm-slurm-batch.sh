@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-gato-4574
-#FLUX: -n=10
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#SBATCH --error=err
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=28-00:00:00
+#SBATCH --nodelist=node02
 
 export OMP_NUM_THREADS='1'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/LUSTRE_SHARE/Packages/usr/lib64/nvidia'

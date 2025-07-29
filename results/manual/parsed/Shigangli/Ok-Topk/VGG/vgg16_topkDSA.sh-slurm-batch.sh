@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-salad-6087
-#FLUX: -N=16
-#FLUX: -n=16
-#FLUX: -c=12
-#FLUX: --queue=normal
-#FLUX: -t=13800
-#FLUX: --urgency=16
+#SBATCH --output=16nodes_vgg_topkDSA_density2.txt
+#SBATCH --nodes=16
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=12
+#SBATCH --time=03:50:00
+#SBATCH --partition=normal
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu
 conda activate py38_oktopk

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch
+#SBATCH --output=%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
 
 source /etc/profile
 module load anaconda/2023a

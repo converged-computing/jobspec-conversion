@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=clip
-#FLUX: -c=5
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=clip
+#SBATCH --output=/jmain02/home/J2AD019/exk01/%u/logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:8
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=8
 
 source ~/.bashrc
 module load cuda

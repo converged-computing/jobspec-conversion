@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=STREAM_INFERENCE_DIAGNOSTIC_MAP_CONVERGENCE
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=STREAM_INFERENCE_DIAGNOSTIC_MAP_CONVERGENCE
+#SBATCH --output=logging/diagnostic_diagnostic_map_convergence_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=7-00:00:00
 
 suffix=$(printf "%05d" $SLURM_ARRAY_TASK_ID)
 data=$DATADIR/nominal/block-$suffix

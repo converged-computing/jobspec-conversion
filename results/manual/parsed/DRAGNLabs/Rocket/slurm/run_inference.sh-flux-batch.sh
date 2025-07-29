@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=llama_inference
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=llama_inference
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

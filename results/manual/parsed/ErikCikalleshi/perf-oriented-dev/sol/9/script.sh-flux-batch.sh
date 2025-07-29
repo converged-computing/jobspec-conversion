@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=benchmark
+#FLUX --job-name=benchmark
 #FLUX: --exclusive
-#FLUX: --queue=lva
-#FLUX: --urgency=16
+#FLUX --queue=lva
+#FLUX --urgency=16
 
 rm -f results.csv
 data_structures=("Array" "LinkedList")

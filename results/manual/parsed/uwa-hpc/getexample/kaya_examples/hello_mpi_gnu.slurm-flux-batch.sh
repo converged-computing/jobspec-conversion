@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=GE-fortranMPI_gnu
-#FLUX: -N=3
-#FLUX: -n=30
-#FLUX: --queue=test
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=GE-fortranMPI_gnu
+#FLUX -N=3
+#FLUX -n=30
+#FLUX --queue=test
+#FLUX -t=60
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

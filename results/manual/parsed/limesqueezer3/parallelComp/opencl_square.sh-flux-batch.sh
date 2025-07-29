@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-2254
-#FLUX: --queue=csmpi_fpga_short
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=milky-banana-3126
+#FLUX --queue=csmpi_fpga_short
+#FLUX -t=300
+#FLUX --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

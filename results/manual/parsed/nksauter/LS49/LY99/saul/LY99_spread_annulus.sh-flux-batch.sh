@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=roi
-#FLUX: -N=25
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=roi
+#FLUX -N=25
+#FLUX -t=900
+#FLUX --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

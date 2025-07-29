@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=NPB_BT-MZ
+#FLUX --job-name=NPB_BT-MZ
 #FLUX: --exclusive
-#FLUX: --queue=sequana_cpu_dev
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=sequana_cpu_dev
+#FLUX -t=600
+#FLUX --urgency=16
 
 export SPACK_USER_CONFIG_PATH='${workdir}/.spack/${partition}/${version}'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

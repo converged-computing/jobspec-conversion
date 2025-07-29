@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=translate-nematus
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=translate-nematus
+#SBATCH --output=log/slurm/translate_%a.out
+#SBATCH --error=log/slurm/translate_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --exclude=gpu-0-0
 
 TASK_ID=$(printf '%0'$digits'd' $SLURM_ARRAY_TASK_ID)
 echo $CUDA_VISIBLE_DEVICES

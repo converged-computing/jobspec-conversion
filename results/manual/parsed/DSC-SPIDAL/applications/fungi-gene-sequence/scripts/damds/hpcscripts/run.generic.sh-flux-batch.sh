@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-bike-5302
-#FLUX: -N=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-soup-3213
+#FLUX -N=4
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cps=6
 spn=4

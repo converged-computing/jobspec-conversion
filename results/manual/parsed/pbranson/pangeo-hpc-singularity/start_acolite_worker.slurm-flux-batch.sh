@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=acolite-worker
-#FLUX: -n=10
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=acolite-worker
+#FLUX -n=10
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

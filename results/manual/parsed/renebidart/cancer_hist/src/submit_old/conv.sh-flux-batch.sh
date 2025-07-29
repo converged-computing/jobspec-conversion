@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-itch-7032
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-parsnip-7366
+#FLUX -t=1440
+#FLUX --urgency=16
 
 module load cuda cudnn python/3.5.2
 source tensorflow/bin/activate

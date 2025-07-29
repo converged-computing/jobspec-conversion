@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-muffin-6864
-#FLUX: -n=20
-#FLUX: --queue=cidsegpu1_contrib_res
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/uananthe/ADD_t5_casie_text_ev_5121064.%j.out
+#SBATCH --error=/scratch/uananthe/ADD_t5_casie_text_ev_5121064.%j.err
+#SBATCH --mail-user=uananthe@asu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --partition=cidsegpu1_contrib_res
 
 module purge;
 module load anaconda3/5.3.0;

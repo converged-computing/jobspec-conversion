@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-spoon-8777
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/h-roy/geometric-laplace/sampler_resnet_baselines.sh

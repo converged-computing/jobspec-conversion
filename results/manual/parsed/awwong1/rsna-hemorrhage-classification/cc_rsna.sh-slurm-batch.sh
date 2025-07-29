@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-signal-7381
-#FLUX: -c=16
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#SBATCH --account=def-hindle
+#SBATCH --output=%x.out
+#SBATCH --mail-user=awwong1@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=0
+#SBATCH --time=00:23:00
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

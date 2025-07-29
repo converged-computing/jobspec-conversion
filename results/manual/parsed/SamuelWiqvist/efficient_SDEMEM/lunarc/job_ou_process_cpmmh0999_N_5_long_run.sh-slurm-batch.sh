@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=ou_cpmmh_0999_5
-#FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ou_cpmmh_0999_5
+#SBATCH --account=lu2020-2-7
+#SBATCH --output=lunarc_output/outputs_ou_cpmmh_%j.out
+#SBATCH --error=lunarc_output/errors_ou_cpmmh_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=20:00:00
+#SBATCH --partition=lu
+#SBATCH: --exclusive
 
 export JULIA_NUM_THREADS='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-2328
-#FLUX: -N=2
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-knife-7813
+#FLUX -N=2
+#FLUX --queue=devel
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

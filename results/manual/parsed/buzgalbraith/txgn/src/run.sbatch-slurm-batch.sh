@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=torch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=torch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=2GB
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 singularity exec --nv \

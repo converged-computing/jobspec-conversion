@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=STAR
-#FLUX: -c=32
-#FLUX: --queue=panda
-#FLUX: --urgency=16
+#SBATCH --job-name=STAR
+#SBATCH --output=STAR_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64G
+#SBATCH --partition=panda
 
 echo "Job ID : $JOB_ID"  ${SLURM_ARRAY_TASK_ID}
 conda activate rnaseq

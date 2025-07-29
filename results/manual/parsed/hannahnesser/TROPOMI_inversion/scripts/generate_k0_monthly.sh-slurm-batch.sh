@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=save_k0_monthly
-#FLUX: -c=12
-#FLUX: --queue=huce_intel
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=save_k0_monthly
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=hnesser@g.harvard.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=35000
+#SBATCH --time=00:02:00
+#SBATCH --partition=huce_intel
 
 DATA_DIR="${1}"
 OUTPUT_DIR="${2}"

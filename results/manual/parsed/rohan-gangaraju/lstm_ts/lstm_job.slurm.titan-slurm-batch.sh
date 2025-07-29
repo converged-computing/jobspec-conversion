@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lstm
-#FLUX: --queue=titanx-long
-#FLUX: -t=176400
-#FLUX: --urgency=16
+#SBATCH --job-name=lstm
+#SBATCH --output=lstm_res_%j.txt
+#SBATCH --error=lstm_res_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-01:00:00
+#SBATCH --partition=titanx-long
 
 source /home/rgangaraju/.bashrc
 source activate tf

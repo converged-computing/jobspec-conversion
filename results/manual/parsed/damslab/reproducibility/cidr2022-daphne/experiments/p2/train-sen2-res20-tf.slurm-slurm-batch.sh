@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemur-0982
-#FLUX: -t=45296
-#FLUX: --urgency=16
+#SBATCH --mail-user=dokter@tugraz.at
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:34:56
+#SBATCH --nodelist=nvcluster-node2
 
 cd ~/local
 pwd; hostname; date

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=C_select
-#FLUX: --queue=normal
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=C_select
+#FLUX --queue=normal
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export LANG='C.UTF-8'
 

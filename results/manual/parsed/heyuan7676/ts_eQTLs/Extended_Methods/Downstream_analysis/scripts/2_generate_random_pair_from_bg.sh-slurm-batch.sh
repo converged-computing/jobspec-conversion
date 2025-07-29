@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-blackbean-8396
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH: --no-requeue
 
 source ./GLOBAL_VAR.sh
 module load python/2.7

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tt
-#FLUX: -n=56
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=tt
+#SBATCH --output=traveltime.out
+#SBATCH --error=traveltime.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=56
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
 
 cd $SCRATCH/jobs
 julia="$PROJECT/julia-1.6.1/bin/julia"

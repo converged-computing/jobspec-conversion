@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=NAS-SINGLE
-#FLUX: -N=2
-#FLUX: --queue=V100-IDI
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=NAS-SINGLE
+#SBATCH --output=logs/mnist-cifar.log
+#SBATCH --mail-user=magnuspw@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=64000
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=V100-IDI
+#SBATCH --constraint=ntasks-per-node=2
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

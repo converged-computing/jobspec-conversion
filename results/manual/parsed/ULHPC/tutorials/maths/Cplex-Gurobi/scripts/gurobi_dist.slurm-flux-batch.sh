@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Distrbuted_gurobi
-#FLUX: -n=3
-#FLUX: -c=5
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=Distrbuted_gurobi
+#FLUX -n=3
+#FLUX -c=5
+#FLUX --queue=batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export MASTER_PORT='61000'

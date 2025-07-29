@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=yrv_fastqc
-#FLUX: -c=8
-#FLUX: --queue=compute
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=yrv_fastqc
+#SBATCH --output=yrv_fastqc%j.log
+#SBATCH --mail-user=yaamini.venkataraman@whoi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=100gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=compute
+#SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/01-fastqc
 
 output_dir=/vortexfs1/scratch/yaamini.venkataraman/01-fastqc
 checksums=fastq_checksums.md5

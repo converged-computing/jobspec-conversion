@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=TTA
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=TTA
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export CUDA_LAUNCH_BLOCKING='1'

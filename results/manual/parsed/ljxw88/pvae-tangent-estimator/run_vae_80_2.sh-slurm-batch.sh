@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-animal-4558
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load pytorch/1.4.0-py36-cuda90
 module load torchvision/0.5.0-py36

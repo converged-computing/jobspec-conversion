@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fsl
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=fsl
+#SBATCH --output=LOGS/first%J.out
+#SBATCH --error=LOGS/first%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --partition=high
+#SBATCH --chdir=/homedtic/gmarti/
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'
 

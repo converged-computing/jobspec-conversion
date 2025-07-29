@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dask-workers
-#FLUX: -N=2
-#FLUX: --queue=compute
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=dask-workers
+#SBATCH --output=dask-workers.%j.%N.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=compute
+#SBATCH --constraint=ntasks-per-node=24
 
 export SINGULARITY_BINDPATH='/oasis'
 

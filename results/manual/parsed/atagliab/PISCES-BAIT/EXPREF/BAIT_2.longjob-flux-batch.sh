@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=BAIT_2
-#FLUX: -N=2
-#FLUX: -n=80
-#FLUX: --queue=nodes
-#FLUX: -t=259199
-#FLUX: --urgency=16
+#FLUX --job-name=BAIT_2
+#FLUX -N=2
+#FLUX -n=80
+#FLUX --queue=nodes
+#FLUX -t=259199
+#FLUX --urgency=16
 
 export NPROC='80'
 export XPROC='0'

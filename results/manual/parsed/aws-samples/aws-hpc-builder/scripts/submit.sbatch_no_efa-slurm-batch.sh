@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=purple-latke-8739
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=wrfc6gn
-#FLUX: --urgency=16
+#SBATCH --output=/fsx/slurm.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=wrfc6gn
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64
 
 export WRF_VERSION='3.9.1'
 export JOB_DIR='/fsx/spooler/run'

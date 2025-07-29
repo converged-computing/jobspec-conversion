@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lemon-7176
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-gato-0043
+#FLUX -c=20
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_BLOCKING_WAIT='1'

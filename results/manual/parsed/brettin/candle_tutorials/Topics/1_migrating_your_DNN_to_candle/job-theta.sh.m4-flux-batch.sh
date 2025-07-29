@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fork-6464
-#FLUX: --urgency=16
+#FLUX --job-name=tart-malarkey-6504
+#FLUX --urgency=16
 

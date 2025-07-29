@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cherry-4566
-#FLUX: -c=48
-#FLUX: --queue=fasse
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --account=somerville_lab
+#SBATCH --output=/n/home_fasse/jflournoy/data/containers/log/%A_%a-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=48G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=fasse
 
 chains=(1 2 3 4)
 models=(rtagepropot)

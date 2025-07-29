@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_ani
-#FLUX: -N=124
-#FLUX: -n=992
-#FLUX: --queue=hpg-ai
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#FLUX --job-name=lammps_ani
+#FLUX -N=124
+#FLUX -n=992
+#FLUX --queue=hpg-ai
+#FLUX -t=720000
+#FLUX --urgency=16
 
 export LAMMPS_ANI_ROOT='/home/jinzexue/program/lammps-ani'
 export LAMMPS_ROOT='${LAMMPS_ANI_ROOT}/external/lammps/'

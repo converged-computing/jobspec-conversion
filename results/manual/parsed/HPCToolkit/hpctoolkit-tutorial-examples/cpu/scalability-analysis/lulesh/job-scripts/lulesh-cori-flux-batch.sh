@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-car-1195
-#FLUX: -c=64
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-motorcycle-6716
+#FLUX -c=64
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

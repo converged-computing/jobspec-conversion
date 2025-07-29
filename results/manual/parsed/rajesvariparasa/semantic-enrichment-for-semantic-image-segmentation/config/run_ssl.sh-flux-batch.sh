@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-1261
-#FLUX: --queue=shortrun
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-lamp-5554
+#FLUX --queue=shortrun
+#FLUX -t=172800
+#FLUX --urgency=16
 
 if [[ ! -z ${SLURM_JOBID+z} ]]; then
     echo "Setting up SLURM environment"

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=alphafold2
-#FLUX: --queue=caslake
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=alphafold2
+#SBATCH --account=pi-haddadian
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=00:30:00
+#SBATCH --partition=caslake
 
 module load alphafold/2.2.0 cuda/11.3
 conda activate alphafold-2.3

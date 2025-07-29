@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=decoding
-#FLUX: -c=64
-#FLUX: --queue=xnat
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=decoding
+#SBATCH --output=/mnt/beegfs/XNAT/COGITATE/ECoG/phase_2/processed/bids/derivatives/decoding_analysis/slurm-%A_%a.out
+#SBATCH --mail-user=simon.henin@nyumc.org
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=80000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=xnat
 
 export PYTHONPATH='$PYTHONPATH:/home/simon.henin/sw/ECoG'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swat_callib_x
-#FLUX: --queue=main
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=swat_callib_x
+#FLUX --queue=main
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load python-3.7.1
 source activate daskgeo2020a

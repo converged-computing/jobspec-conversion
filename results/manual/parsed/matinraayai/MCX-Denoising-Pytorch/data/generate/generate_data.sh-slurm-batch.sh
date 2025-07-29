@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parrot-0814
-#FLUX: --queue=ce-mri
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=generate-validation-128x128-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=100000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=ce-mri
 
 source ~/modules/matlab-mcx/source
 source ~/modules/nccl/nccl_2.9.8-1+cuda11.0_x86_64/source

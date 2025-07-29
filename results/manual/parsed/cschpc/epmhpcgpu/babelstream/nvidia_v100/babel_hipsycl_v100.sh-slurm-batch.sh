@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=babel_hipsycl
-#FLUX: --queue=gpumedium
-#FLUX: -t=120
-#FLUX: --urgency=16
+#SBATCH --job-name=babel_hipsycl
+#SBATCH --account=project
+#SBATCH --output=babel_hipsycl_v100_out
+#SBATCH --error=babel_hipsycl_v100_error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1
+#SBATCH --mem=8000
+#SBATCH --time=00:02:00
+#SBATCH --partition=gpumedium
 
 for i in {1..10}; do
         echo $i

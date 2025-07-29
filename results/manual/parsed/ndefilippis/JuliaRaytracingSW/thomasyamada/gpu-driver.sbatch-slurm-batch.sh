@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gpu_thomasyamada_simulation
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu_thomasyamada_simulation
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=12GB
+#SBATCH --time=16:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NUM_JULIA_THREADS='`nproc`'
 

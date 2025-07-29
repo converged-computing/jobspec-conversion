@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lamp-7582
-#FLUX: --queue=class
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=sxg125_csds438
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100gb
+#SBATCH --time=05:00:00
+#SBATCH --partition=class
 
 module load cuda/11.2
 source venv/bin/activate

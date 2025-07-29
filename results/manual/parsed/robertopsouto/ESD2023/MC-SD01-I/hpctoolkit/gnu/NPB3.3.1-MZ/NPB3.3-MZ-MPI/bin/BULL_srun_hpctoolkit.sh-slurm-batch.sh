@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=NPB_BT-MZ
-#FLUX: --exclusive
-#FLUX: --queue=cpu_dev
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=NPB_BT-MZ
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=cpu_dev
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=model_trainer
-#FLUX: -c=12
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=model_trainer
+#SBATCH --output=slurm/slurm_model_trainer_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=32G
+#SBATCH --time=1-00:00:00
 
 source /users/afengler/.bashrc
 conda deactivate

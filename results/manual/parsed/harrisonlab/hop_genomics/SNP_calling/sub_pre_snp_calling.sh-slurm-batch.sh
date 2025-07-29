@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pre_snp_calling
-#FLUX: -c=16
-#FLUX: --queue=himem
-#FLUX: --urgency=16
+#SBATCH --job-name=pre_snp_calling
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=2G
+#SBATCH --partition=himem
 
 InputSam=$1
 Prefix=$2

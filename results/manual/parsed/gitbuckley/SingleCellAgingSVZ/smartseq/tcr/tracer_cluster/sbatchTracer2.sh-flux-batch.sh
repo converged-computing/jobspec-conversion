@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tracerConda
-#FLUX: -t=86401
-#FLUX: --urgency=16
+#FLUX --job-name=tracerConda
+#FLUX -t=86401
+#FLUX --urgency=16
 
 date
 module load anaconda

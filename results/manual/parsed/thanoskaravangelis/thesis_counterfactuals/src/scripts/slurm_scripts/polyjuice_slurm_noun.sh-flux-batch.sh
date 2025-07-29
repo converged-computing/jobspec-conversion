@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=im_nou_polyjuice_run
-#FLUX: --queue=gpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=im_nou_polyjuice_run
+#FLUX --queue=gpu
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice
 module purge

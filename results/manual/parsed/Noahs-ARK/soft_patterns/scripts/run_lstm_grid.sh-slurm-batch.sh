@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-0495
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ $# -lt 1 ]; then
 	echo "Usage: $0 <dataset (amazon_reviews, stanford_sentiment_binary, ROC_stories)>"

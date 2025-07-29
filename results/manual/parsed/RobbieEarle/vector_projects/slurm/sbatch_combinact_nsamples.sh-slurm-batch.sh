@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=wrn_50_nsamples
-#FLUX: -c=4
-#FLUX: --queue=t4v2
-#FLUX: -t=2520000
-#FLUX: --urgency=16
+#SBATCH --job-name=wrn_50_nsamples
+#SBATCH --output=logs_new/wrn_50_nsamples/%a-%N-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8G
+#SBATCH --time=29-04:00:00
+#SBATCH --partition=t4v2
+#SBATCH --qos=normal
+#SBATCH --array=0-20%10
+#SBATCH --exclude=gpu115
 
 source ~/.bashrc
 source activate ~/venvs/combinact

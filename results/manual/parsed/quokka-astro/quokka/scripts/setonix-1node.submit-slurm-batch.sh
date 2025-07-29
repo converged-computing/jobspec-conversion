@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=quokka_benchmark
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=quokka_benchmark
+#SBATCH --account=pawsey0807-gpu
+#SBATCH --output=1node_%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-0871
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-blackbean-9246
+#FLUX --urgency=16
 
 export TEMPLATEFLOW_HOME='$BIDS_DIR/code/templateflow; 			[ ! -d $TEMPLATEFLOW_HOME ] && mkdir -p $TEMPLATEFLOW_HOME'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='$TEMPLATEFLOW_HOME;		[ ! -d $SINGULARITYENV_TEMPLATEFLOW_HOME ] && mkdir -p $SINGULARITYENV_TEMPLATEFLOW_HOME'

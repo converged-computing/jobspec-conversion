@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LD-Extract-Individuals
-#FLUX: -n=10
-#FLUX: --queue=core
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=LD-Extract-Individuals
+#SBATCH --account=sens2017538
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=core
+#SBATCH --array=1-22
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bioinfo-tools plink2/2.00-alpha-2-20190429

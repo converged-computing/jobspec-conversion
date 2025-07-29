@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=HCA
-#FLUX: -c=4
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=HCA
+#FLUX -c=4
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export manifest_file='../../../source_files/scRNA_Seq/Manifest_file.tsv'
 export tmp_folder_Download_data='/tmp/DOWNLOAD_HCA_DATA.$RANDOM'

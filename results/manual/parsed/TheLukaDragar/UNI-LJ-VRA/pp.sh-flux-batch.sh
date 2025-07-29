@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=seqtrain
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=seqtrain
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 

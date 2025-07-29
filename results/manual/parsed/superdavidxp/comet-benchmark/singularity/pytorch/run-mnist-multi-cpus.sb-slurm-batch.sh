@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-mnist-dist
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=pytorch-mnist-dist
+#SBATCH --account=ddp315
+#SBATCH --output=pytorch-mnist-dist.o%j.%N
+#SBATCH --error=pytorch-mnist-dist.e%j.%N
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:4
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH: --no-requeue
 
 declare -xr LOCAL_SCRATCH="/scratch/${USER}/${SLURM_JOB_ID}"
 declare -xr LUSTRE_SCRATCH="/oasis/scratch/comet/mkandes/temp_project/singularity/images"

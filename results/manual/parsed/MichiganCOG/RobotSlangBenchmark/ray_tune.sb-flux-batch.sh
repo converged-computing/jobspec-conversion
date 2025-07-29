@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lettuce-4999
-#FLUX: -c=72
-#FLUX: --queue=lgns28
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-leader-2778
+#FLUX -c=72
+#FLUX --queue=lgns28
+#FLUX -t=604800
+#FLUX --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 echo $HOSTNAME

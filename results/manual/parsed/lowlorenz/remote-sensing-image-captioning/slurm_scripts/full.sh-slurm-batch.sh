@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=full_0
-#FLUX: -c=16
-#FLUX: --queue=gpu_short
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=full_0
+#SBATCH --output=/home/users/l/lorenz-08-15/activelearning_ic/cluster_outputs/full_0.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --time=23:00:00
+#SBATCH --partition=gpu_short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/home/users/l/lorenz-08-15/activelearning_ic/
 
 if [ ! "$HOSTNAME" == "frontend*" ]; then
  export https_proxy="http://frontend01:3128/"

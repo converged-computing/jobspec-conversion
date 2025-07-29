@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=picrust2
-#FLUX: -c=4
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=picrust2
+#SBATCH --output=/mnt/home/vascokar/marine_iguana/eofiles/picrust2.%j.out
+#SBATCH --error=/mnt/home/vascokar/marine_iguana/eofiles/picrust2.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=50G
+#SBATCH --time=7-00:00:00
 
 export PATH='$PATH:$HOME/anaconda3/bin'
 

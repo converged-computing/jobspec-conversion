@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=smcabc
-#FLUX: --exclusive
-#FLUX: --queue=lu
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=smcabc
+#SBATCH --account=lu2020-2-7
+#SBATCH --output=lunarc_output/lunarc_output_smcabc_%j.out
+#SBATCH --error=lunarc_output/lunarc_output_smcabc_%j.err
+#SBATCH --mail-user=samuel.wiqvist@matstat.lu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=lu
+#SBATCH: --exclusive
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-6478
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=angry-onion-5989
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export XGC_NMPI_PER_NODE='8'
 export TOTAL_NMPI='$(( ${SLURM_JOB_NUM_NODES} * ${XGC_NMPI_PER_NODE} ))'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=HN_12
-#FLUX: -c=6
-#FLUX: -t=50340
-#FLUX: --urgency=16
+#SBATCH --job-name=HN_12
+#SBATCH --output=HN_12/slurm-%j.out
+#SBATCH --error=HN_12/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:a40:1
+#SBATCH --mem=20G
+#SBATCH --time=13:59:00
+#SBATCH --qos=normal
 
 module purge
 module load python/3.12.0

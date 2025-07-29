@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=deep_gal
-#FLUX: -c=10
-#FLUX: --queue=gpu_p2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=deep_gal
+#SBATCH --output=dg%j.out
+#SBATCH --error=dg%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=02:00:00
+#SBATCH --partition=gpu_p2
+#SBATCH --qos=qos_gpu-dev
 
 export PYTHONPATH='.'
 

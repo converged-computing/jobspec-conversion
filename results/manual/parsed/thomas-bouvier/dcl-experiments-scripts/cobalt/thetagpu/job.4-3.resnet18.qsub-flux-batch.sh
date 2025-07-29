@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-citrus-1227
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-egg-8903
+#FLUX --urgency=16
 

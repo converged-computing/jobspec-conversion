@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Benchmark_kseqpp_read
-#FLUX: -c=16
+#FLUX --job-name=Benchmark_kseqpp_read
+#FLUX -c=16
 #FLUX: --exclusive
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OLD_PWD='${PWD}'
 export NEW_PWD='${LOCAL_SCRATCH}/tmp'

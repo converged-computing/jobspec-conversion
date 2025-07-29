@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-citrus-0298
-#FLUX: -c=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-butter-3328
+#FLUX -c=32
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export GMX='gmx_mpi'
 

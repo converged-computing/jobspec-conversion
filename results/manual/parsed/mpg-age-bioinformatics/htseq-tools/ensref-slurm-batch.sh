@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=${fa%.fa}_samtoolsIndex
-#FLUX: -c=72
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=${fa%.fa}_samtoolsIndex
+#SBATCH --output=log/${fa%.fa}_samtoolsIndex.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=72
+#SBATCH --mem=24000
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1,ntasks-per-node=1
 
 HOMESOURCE="source ~/.bashrc"
 SLURMPARTITION="hooli"

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=al_med
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=al_med
+#SBATCH --account=CS381V-Visual-Recogn
+#SBATCH --output=job_outputs/difficulty/al_med-%j.out
+#SBATCH --mail-user=kk28695@tacc.utexas.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
 
 module load cuda/8.0 cudnn/5.1
 module load tensorflow-gpu

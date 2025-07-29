@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=t-pie-g
-#FLUX: -c=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=t-pie-g
+#SBATCH --output=log_train_pie_gan64d_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1080ti:1
+#SBATCH --mem=32GB
+#SBATCH --time=2-00:00:00
+#SBATCH --constraint=gpu_12gb
 
 export PATH='/home/brehmer/miniconda3/envs/ml/bin/:$PATH'
 export OMP_NUM_THREADS='1'

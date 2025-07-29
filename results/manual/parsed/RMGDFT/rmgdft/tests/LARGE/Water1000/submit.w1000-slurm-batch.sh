@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-nalgas-0340
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/RMGDFT/rmgdft/tests/LARGE/Water1000/submit.w1000

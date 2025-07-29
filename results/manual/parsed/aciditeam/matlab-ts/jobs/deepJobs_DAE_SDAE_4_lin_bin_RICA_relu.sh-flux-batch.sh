@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Deep-DAE_SDAE_4_lin_bin_RICA_relu
-#FLUX: --queue=mono
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=Deep-DAE_SDAE_4_lin_bin_RICA_relu
+#FLUX --queue=mono
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /etc/profile.modules
 module load gcc

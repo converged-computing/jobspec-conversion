@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-omelette-7196
-#FLUX: -c=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=rrg-aspuru
+#SBATCH --output=/project/6033559/stanlo/da_for_polymers/da_for_polymers/ML_models/pytorch/CO2_Soleimani/slurm.out
+#SBATCH --error=/project/6033559/stanlo/da_for_polymers/da_for_polymers/ML_models/pytorch/CO2_Soleimani/slurm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=12G
+#SBATCH --time=1-00:00:00
 
 module load python/3.9.6
 source /project/6025683/stanlo/opv_project/bin/activate

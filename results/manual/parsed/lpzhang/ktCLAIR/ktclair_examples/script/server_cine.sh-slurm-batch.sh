@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=example
-#FLUX: -c=16
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --job-name=example
+#SBATCH --output=example.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:A100:1
+#SBATCH --mem=256G
+#SBATCH --time=5-00:00:00
+#SBATCH --qos=deployment
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

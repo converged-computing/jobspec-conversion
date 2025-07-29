@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=python_sweep
-#FLUX: --queue=regular
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=python_sweep
+#FLUX --queue=regular
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module purge
 module load networkx

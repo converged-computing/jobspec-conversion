@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job-name
-#FLUX: -n=40
-#FLUX: --queue=barbun-cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#FLUX --job-name=job-name
+#FLUX -n=40
+#FLUX --queue=barbun-cuda
+#FLUX -t=1296000
+#FLUX --urgency=16
 
 	#for all queues
 	#for cuda queue

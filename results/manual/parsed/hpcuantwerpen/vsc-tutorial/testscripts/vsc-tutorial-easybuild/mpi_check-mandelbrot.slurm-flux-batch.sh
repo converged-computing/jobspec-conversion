@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_check-mandelbrot
-#FLUX: -n=4
-#FLUX: --queue=debug
-#FLUX: -t=20
-#FLUX: --urgency=16
+#FLUX --job-name=mpi_check-mandelbrot
+#FLUX -n=4
+#FLUX --queue=debug
+#FLUX -t=20
+#FLUX --urgency=16
 
 module purge
 module load calcua/2020a

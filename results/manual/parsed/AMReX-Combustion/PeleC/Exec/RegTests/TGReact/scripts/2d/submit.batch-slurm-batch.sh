@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pelec_tgreact
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pelec_tgreact
+#SBATCH --account=exact
+#SBATCH --output=%x.o%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
 
 source ../set_environment.sh
 mpi_ranks=8

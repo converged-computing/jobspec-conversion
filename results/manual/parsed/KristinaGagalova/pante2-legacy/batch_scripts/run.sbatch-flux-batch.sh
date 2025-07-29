@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-underoos-2433
-#FLUX: -c=2
-#FLUX: --queue=work
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=tart-dog-6608
+#FLUX -c=2
+#FLUX --queue=work
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='./work'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GP_MASTER
-#FLUX: -c=128
-#FLUX: --queue=EPYC
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=GP_MASTER
+#FLUX -c=128
+#FLUX --queue=EPYC
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export DASK_WORKER_PROCESSES='128'
 

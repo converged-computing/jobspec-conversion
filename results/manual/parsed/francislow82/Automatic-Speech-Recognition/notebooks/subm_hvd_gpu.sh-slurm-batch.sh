@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-8527
-#FLUX: -N=8
-#FLUX: --queue=gpu_big
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=logs/job_-%J.log
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gpu_big
+#SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/trinity/home/r.schutski/asr_speedup/venv/lib:/trinity/home/r.schutski/asr_speedup/venv/lib/python3.7'
 

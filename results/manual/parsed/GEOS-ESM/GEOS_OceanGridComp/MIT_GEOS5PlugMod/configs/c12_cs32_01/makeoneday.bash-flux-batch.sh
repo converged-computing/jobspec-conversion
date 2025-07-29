@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-soup-2570
-#FLUX: --urgency=16
+#FLUX --job-name=tart-arm-6994
+#FLUX --urgency=16
 
 usage ()
 {

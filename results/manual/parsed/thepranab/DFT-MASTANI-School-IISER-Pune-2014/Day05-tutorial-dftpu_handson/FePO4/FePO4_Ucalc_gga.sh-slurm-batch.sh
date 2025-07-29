@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-itch-0122
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/thepranab/DFT-MASTANI-School-IISER-Pune-2014/Day05-tutorial-dftpu_handson/FePO4/FePO4_Ucalc_gga.sh

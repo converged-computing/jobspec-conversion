@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=rlhf_rm
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --job-name=rlhf_rm
+#SBATCH --output=log/output_%j.log
+#SBATCH --error=log/error_%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem=500GB
+#SBATCH --time=1-16:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=g0004,g0010
 
 export NCCL_IB_HCA='mlx5_0:1,mlx5_1:1,mlx5_4:1,mlx5_5:1'
 export NCCL_IB_DISABLE='0'

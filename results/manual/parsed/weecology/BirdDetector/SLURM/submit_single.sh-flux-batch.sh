@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=birddetector
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=birddetector
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 sbatch <<EOT
 ulimit -c 0

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-punk-5968
-#FLUX: --queue=gpgpuC
-#FLUX: --urgency=16
+#SBATCH --mail-user=kdb19
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpgpuC
 
 configName=$1
 trainData=$2

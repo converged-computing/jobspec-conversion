@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=graph_marl
-#FLUX: -n=10
-#FLUX: --urgency=16
+#SBATCH --job-name=graph_marl
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --array=0-5
 
 source /etc/profile
 module load anaconda/2020b

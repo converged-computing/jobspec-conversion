@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PageRank-OpenMP
-#FLUX: -n=64
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=PageRank-OpenMP
+#SBATCH --output=log/openmp-tests.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8000
+#SBATCH --time=08:00:00
+#SBATCH --constraint=AMD
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

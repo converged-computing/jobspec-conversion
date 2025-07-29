@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leopard-4826
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-fudge-6488
+#FLUX --urgency=16
 
 if [ "$#" -gt 4  -o  "$#" -eq 0 ]; then
     echo "********************************************************************"

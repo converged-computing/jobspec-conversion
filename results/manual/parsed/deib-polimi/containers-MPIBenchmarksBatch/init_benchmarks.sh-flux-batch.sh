@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-nunchucks-5382
-#FLUX: --queue=hpc
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=red-hippo-9533
+#FLUX --queue=hpc
+#FLUX -t=600
+#FLUX --urgency=16
 
 scripts_dir=~/workspace/bench
 mkdir -p $scripts_dir

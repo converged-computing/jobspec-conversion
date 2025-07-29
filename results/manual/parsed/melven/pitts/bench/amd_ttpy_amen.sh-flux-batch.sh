@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-2587
-#FLUX: -c=64
-#FLUX: --queue=amd
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-nalgas-0565
+#FLUX -c=64
+#FLUX --queue=amd
+#FLUX -t=180000
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd/src/:~/pitts/examples/'
 export PYTHONUNBUFFERED='1'

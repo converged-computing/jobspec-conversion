@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_pi
-#FLUX: -n=16
-#FLUX: --queue=test
-#FLUX: -t=30
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_pi
+#SBATCH --output=mpi_pi.out
+#SBATCH --error=mpi_pi.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:00:30
+#SBATCH --partition=test
 
 PRO=mpi_pi
 rm -rf ${PRO}.dat

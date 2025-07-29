@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hope-3845
-#FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --output=%A_%a.out
+#SBATCH --error=%A_%a.err
+#SBATCH --mail-user=liux1299@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=48gb
+#SBATCH --time=03:00:00
+#SBATCH --partition=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
+#SBATCH --constraint=ntasks-per-node=8
 
 set -e
 set -o pipefail

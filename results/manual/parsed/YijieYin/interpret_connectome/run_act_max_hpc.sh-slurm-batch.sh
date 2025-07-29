@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=act_max
-#FLUX: --queue=ml
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=act_max
+#SBATCH --output=result_%A.out
+#SBATCH --error=error_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=01:00:00
+#SBATCH --partition=ml
+#SBATCH --array=1
+#SBATCH --nodelist=fmg102
 
 source ../.bashrc
 conda activate act_max

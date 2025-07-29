@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-1519
-#FLUX: -N=3
-#FLUX: -n=24
-#FLUX: --queue=west
-#FLUX: --urgency=16
+#SBATCH --output=timempi2.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

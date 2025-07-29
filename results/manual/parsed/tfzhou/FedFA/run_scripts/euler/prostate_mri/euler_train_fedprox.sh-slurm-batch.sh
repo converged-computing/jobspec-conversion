@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-2702
-#FLUX: -n=4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --output=logs_pyfed/config.prostate_mri.fedprox_prostate_trial0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpumem:22g
+#SBATCH --mem-per-cpu=10000
+#SBATCH --time=2-00:00:00
 
 source ../../../../pytorch-1.11/bin/activate
 module load gcc/8.2.0 python_gpu/3.10.4

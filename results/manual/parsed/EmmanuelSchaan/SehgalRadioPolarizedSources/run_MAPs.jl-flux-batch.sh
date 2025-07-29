@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-3645
-#FLUX: -N=4
-#FLUX: --gpus-per-task=1
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-lentil-0348
+#FLUX -N=4
+#FLUX --gpus-per-task=1
+#FLUX -t=7200
+#FLUX --urgency=16
 
 srun julia $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')
 exit

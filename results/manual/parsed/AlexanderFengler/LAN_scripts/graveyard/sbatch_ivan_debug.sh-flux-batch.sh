@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ivan_debug
-#FLUX: -c=10
-#FLUX: -t=64800
-#FLUX: --urgency=16
+#FLUX --job-name=ivan_debug
+#FLUX -c=10
+#FLUX -t=64800
+#FLUX --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

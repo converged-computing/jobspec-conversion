@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-cinnamonbun-0589
-#FLUX: -n=40
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=4000
+#SBATCH --time=02:00:00
 
 module load devel/cmake/3.18
 module load devel/cuda/11.4

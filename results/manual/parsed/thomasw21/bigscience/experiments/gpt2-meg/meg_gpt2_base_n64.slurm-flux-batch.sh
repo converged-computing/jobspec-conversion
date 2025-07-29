@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=meg_gpt2_base_n64_dp1_tp4_pp64
-#FLUX: -N=64
-#FLUX: -c=40
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=meg_gpt2_base_n64_dp1_tp4_pp64
+#FLUX -N=64
+#FLUX -c=40
+#FLUX -t=600
+#FLUX --urgency=16
 
 export LAUNCHER='python -u -m torch.distributed.launch \'
 export CMD=' \'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-puppy-3778
-#FLUX: --queue=bii-gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-frito-7213
+#FLUX --queue=bii-gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 module load anaconda
 conda activate OSMI

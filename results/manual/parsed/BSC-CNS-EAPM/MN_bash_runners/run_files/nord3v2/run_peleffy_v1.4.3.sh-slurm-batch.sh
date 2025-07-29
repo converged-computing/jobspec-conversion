@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=peleffy
-#FLUX: -n=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=peleffy
+#SBATCH --output=peleffy.out
+#SBATCH --error=peleffy.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
 
 module purge
 module load anaconda

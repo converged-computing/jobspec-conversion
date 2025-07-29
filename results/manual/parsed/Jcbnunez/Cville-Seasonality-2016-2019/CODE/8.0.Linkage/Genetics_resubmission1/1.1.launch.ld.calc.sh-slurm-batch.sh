@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=r2.ag
-#FLUX: -c=40
-#FLUX: --queue=bluemoon
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=r2.ag
+#SBATCH --output=./slurmOutput/r2.%A_%a.out
+#SBATCH --error=./slurmOutput/r2.%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem=50G
+#SBATCH --time=20:00:00
+#SBATCH --partition=bluemoon
 
 module load spack/spack-0.18.1
 spack load r@4.2.1 r-sf

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-gato-4775
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-staircase-0456
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PsuAstro528/lab7-start/old/ex1_job_array.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=micro
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=agpu72
-#FLUX: --urgency=16
+#FLUX --job-name=micro
+#FLUX -n=4
+#FLUX -c=8
+#FLUX --queue=agpu72
+#FLUX --urgency=16
 
 export WORLD_SIZE='$WORLD_SIZE'
 export MASTER_ADDR='$MASTER_ADDR'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-sundae-3205
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-plant-5161
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Panchenko-Lab/Supplementary_data_Peng_et_al_2023/Source_code/Codes_Mnase_seq_data_processing/run_nf-core_mnaseseq.sh

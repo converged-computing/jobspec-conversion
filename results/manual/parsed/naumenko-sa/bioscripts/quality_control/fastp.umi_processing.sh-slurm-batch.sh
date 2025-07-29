@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=schumacher
-#FLUX: -c=10
-#FLUX: --queue=short
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=schumacher
+#SBATCH --output=project_%j.out
+#SBATCH --error=project_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=10G
+#SBATCH --time=05:00:00
+#SBATCH --partition=short
 
 fastp -i $1 -I $2 -o ${3}_1.fq.gz -O ${3}_2.fq.gz -h $3.fastp.html --umi --umi_loc --umi_len 8 --umi_prefix CELL --umi_skip

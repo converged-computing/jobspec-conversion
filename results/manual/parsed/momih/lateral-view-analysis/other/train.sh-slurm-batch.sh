@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=orion_lateral
-#FLUX: -c=2
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=orion_lateral
+#SBATCH --account=rpp-bengioy
+#SBATCH --output=logs/out_%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=10:00:00
+#SBATCH --array=1-35%5
 
 export ORION_DB_ADDRESS='/home/hrb/dev/lateral-view-analysis/orion.pkl'
 export ORION_DB_TYPE='pickleddb'

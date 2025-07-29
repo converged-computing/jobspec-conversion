@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=2varGAN
-#FLUX: -c=2
-#FLUX: --queue=savio2_1080ti
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=2varGAN
+#SBATCH --account=fc_bsclab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=16:00:00
+#SBATCH --partition=savio2_1080ti
 
 module load ml/tensorflow/1.12.0-py36
 cd Structure-in-GAN

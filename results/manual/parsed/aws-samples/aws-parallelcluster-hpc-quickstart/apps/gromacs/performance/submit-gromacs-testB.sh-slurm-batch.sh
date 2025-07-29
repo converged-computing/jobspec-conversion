@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs-testB
-#FLUX: -N=16
-#FLUX: --queue=c5n-od
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs-testB
+#SBATCH --output=/fsx/performance/%x_%j.out
+#SBATCH --error=/fsx/performance/%x_%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=c5n-od
+#SBATCH --constraint=ntasks-per-node=36
 
 export I_MPI_OFI_LIBRARY_INTERNAL='0'
 export I_MPI_OFI_PROVIDER='efa'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hippo-5611
-#FLUX: -N=2
+#FLUX --job-name=tart-toaster-3403
+#FLUX -N=2
 #FLUX: --exclusive
-#FLUX: --queue=c6gnpg
-#FLUX: --urgency=16
+#FLUX --queue=c6gnpg
+#FLUX --urgency=16
 
 export B_EFF_VERSION='latest'
 

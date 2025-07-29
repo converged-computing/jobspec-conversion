@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salmon
-#FLUX: -c=36
-#FLUX: --queue=compute
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=salmon
+#FLUX -c=36
+#FLUX --queue=compute
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /vortexfs1/home/cbecker/FLK2019NextSeq/output/salmonquant/
 for file in *_1.fastq.gz

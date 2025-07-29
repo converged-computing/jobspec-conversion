@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-avocado-4347
+#FLUX --job-name=placid-cinnamonbun-8858
 #FLUX: --exclusive
-#FLUX: --queue=genoa
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=genoa
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

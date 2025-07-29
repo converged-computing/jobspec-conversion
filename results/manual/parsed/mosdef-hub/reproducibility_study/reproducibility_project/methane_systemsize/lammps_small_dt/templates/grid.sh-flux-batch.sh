@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hope-3795
-#FLUX: --queue=primary
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-lemur-1587
+#FLUX --queue=primary
+#FLUX --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

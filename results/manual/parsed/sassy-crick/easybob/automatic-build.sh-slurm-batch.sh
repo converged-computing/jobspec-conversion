@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-muffin-5968
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sassy-crick/easybob/automatic-build.sh

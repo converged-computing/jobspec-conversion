@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=A-PRO
-#FLUX: -c=68
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=A-PRO
+#SBATCH --account=TG-TRA170019
+#SBATCH --output=A-PRO.o%j
+#SBATCH --error=A-PRO.e%j
+#SBATCH --mail-user=kasper.hendriks@naturalis.nl
+#SBATCH --mail-type=none
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=68
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=normal
 
 module load intel/17.0.4
 module load gnuparallel

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RunRedSea
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=RunRedSea
+#FLUX --queue=batch
+#FLUX -t=5400
+#FLUX --urgency=16
 
 DATADIR=/lustre/orion/scratch/zw241/csc143/VisPerfData/RedSeaDecomposition
 RUNDIR=/lustre/orion/scratch/zw241/csc143/VisPerfExpAssignStrategeis_RedSea_${1}

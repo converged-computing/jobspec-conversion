@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tf_hello
-#FLUX: --queue=express
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=tf_hello
+#FLUX --queue=express
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module purge
 module load Python/3.7.4-GCCcore-8.3.0

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hybrid_job_test
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=hybrid_job_test
+#SBATCH --output=hybrid_test_%j.out
+#SBATCH --mail-user=<email_address>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=100mb
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2,intel
 
 echo "Date start        = $(date)"
 echo "Hostname          = $(hostname -s)"

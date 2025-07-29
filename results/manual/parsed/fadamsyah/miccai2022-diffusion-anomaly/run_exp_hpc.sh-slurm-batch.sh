@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dm_350_400
-#FLUX: -c=12
-#FLUX: --urgency=16
+#SBATCH --job-name=dm_350_400
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:0
 
 export MODEL_FLAGS='--image_size 256 --num_channels 128 --class_cond True --num_res_blocks 2 --num_heads 1 --learn_sigma True --use_scale_shift_norm False --attention_resolutions 16'
 export DIFFUSION_FLAGS='--diffusion_steps 1000 --noise_schedule linear --rescale_learned_sigmas False --rescale_timesteps False'

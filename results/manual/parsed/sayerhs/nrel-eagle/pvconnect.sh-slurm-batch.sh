@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=paraview
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=paraview
+#SBATCH --account=hfm
+#SBATCH --output=out.%x_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
 
 tmux_update ()
 {

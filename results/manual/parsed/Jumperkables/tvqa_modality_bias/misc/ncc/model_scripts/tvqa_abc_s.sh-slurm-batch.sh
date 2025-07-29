@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=s
-#FLUX: -c=4
-#FLUX: --queue=res-gpu-small
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=s
+#SBATCH --output=/home/crhf63/kable_management/mk8+-tvqa/dataset_paper/ncc/results/tvqa_abc_s.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=res-gpu-small
+#SBATCH --qos=short
+#SBATCH --exclude=gpu[0-3]
 
 source /home/crhf63/kable_management/python_venvs/mk8-tvqa/bin/activate
 python -W ignore /home/crhf63/kable_management/mk8+-tvqa/main.py \

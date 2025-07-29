@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MFC-PARAVIEW-1
-#FLUX: --queue=gpu
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=MFC-PARAVIEW-1
+#FLUX --queue=gpu
+#FLUX -t=5400
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date

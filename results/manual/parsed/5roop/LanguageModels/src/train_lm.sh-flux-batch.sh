@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-cattywampus-2237
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-cupcake-2736
+#FLUX --queue=gpu
+#FLUX -t=86399
+#FLUX --urgency=16
 
 set -eu -o pipefail
 config_sh=$1 # Config sh file with experimental settings

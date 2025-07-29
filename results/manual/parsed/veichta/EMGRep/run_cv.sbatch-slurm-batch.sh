@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=emgrep-cv
-#FLUX: -c=20
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=emgrep-cv
+#SBATCH --output=logs/emgrep_cv-%A_%a.out
+#SBATCH --error=logs/emgrep_cv-%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=1
+#SBATCH --mem=5000
+#SBATCH --time=05:00:00
+#SBATCH --array=1-5
 
 module load gcc/8.2.0 python_gpu/3.10.4 eth_proxy
 pip install -q -r requirements.txt

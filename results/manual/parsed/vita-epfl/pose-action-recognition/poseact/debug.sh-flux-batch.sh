@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: -c=16
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=debug
+#FLUX -c=16
+#FLUX --queue=debug
+#FLUX -t=3600
+#FLUX --urgency=16
 
 echo started at `date`
 module load gcc/8.4.0-cuda cuda/10.2.89

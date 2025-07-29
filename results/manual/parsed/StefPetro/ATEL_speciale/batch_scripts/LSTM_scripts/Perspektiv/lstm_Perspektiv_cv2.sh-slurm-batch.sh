@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-signal-9225
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/StefPetro/ATEL_speciale/batch_scripts/LSTM_scripts/Perspektiv/lstm_Perspektiv_cv2.sh

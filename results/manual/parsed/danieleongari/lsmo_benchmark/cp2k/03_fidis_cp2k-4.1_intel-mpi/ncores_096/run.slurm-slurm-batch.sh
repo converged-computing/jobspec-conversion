@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-rabbit-6644
-#FLUX: -N=4
-#FLUX: -n=96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=96
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

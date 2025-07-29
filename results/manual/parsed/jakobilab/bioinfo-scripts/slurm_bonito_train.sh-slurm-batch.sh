@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bonito train multiGPU
-#FLUX: -c=20
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=bonito train multiGPU
+#SBATCH --mail-user=tobias.jakobi@med.uni-heidelberg.de
+#SBATCH --mail-type=END,FAIL,TIME_LIMIT_80
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:tesla:4
+#SBATCH --mem=120G
+#SBATCH --partition=gpu
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

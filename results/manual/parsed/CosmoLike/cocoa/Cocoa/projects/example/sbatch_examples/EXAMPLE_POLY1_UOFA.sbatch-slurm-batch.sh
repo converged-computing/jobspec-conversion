@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=POLY1
-#FLUX: -c=3
-#FLUX: --exclusive
-#FLUX: --queue=high_priority
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#SBATCH --job-name=POLY1
+#SBATCH --account=timeifler
+#SBATCH --output=POLY1-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=2-12:00:00
+#SBATCH --partition=high_priority
+#SBATCH --qos=user_qos_timeifler
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=30
 
 export OMP_PROC_BIND='close'
 

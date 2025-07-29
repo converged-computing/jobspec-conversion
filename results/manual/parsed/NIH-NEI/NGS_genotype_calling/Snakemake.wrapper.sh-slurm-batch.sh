@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-dog-6457
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=lscratch:100
+#SBATCH --mem=32g
 
 cp /data/OGL/resources/NGS_genotype_calling.git.log .
 mkdir -p 00log

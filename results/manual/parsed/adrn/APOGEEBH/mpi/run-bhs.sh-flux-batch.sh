@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=apogeebh
-#FLUX: -n=224
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=apogeebh
+#FLUX -n=224
+#FLUX -t=43200
+#FLUX --urgency=16
 
 cd /tigress/adrianp/projects/apogeebh/scripts/
 module load openmpi/gcc/1.10.2/64

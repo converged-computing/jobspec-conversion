@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-spoon-6166
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:2
+#SBATCH --mem=16384
+#SBATCH --time=23:59:59
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --chdir=/home/mohanty/data/final_dataset
 
 module load caffe
 echo STARTING AT `date`

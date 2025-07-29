@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Muframex
-#FLUX: --queue=GPU
-#FLUX: --urgency=16
+#SBATCH --job-name=Muframex
+#SBATCH --output=results.log
+#SBATCH --mail-user=giovanni.lopez@cimat.mx
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=GPU
 
 nvidia-smi
 cd $(pwd)

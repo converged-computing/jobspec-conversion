@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Ar
+#FLUX --job-name=Ar
 #FLUX: --exclusive
-#FLUX: --queue=400p48h
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=400p48h
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

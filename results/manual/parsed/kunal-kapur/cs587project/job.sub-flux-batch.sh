@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pot-7775
-#FLUX: -N=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-punk-6479
+#FLUX -N=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load anaconda/2020.11-py38
 source activate cs587

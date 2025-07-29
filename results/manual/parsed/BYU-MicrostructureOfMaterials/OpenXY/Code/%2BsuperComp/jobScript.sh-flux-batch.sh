@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chair-5297
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-animal-8129
+#FLUX --urgency=16
 
 module add matlab/r2017b
 matlab -nodisplay -nojvm -r "EBSDBatch($SLURM_ARRAY_TASK_ID)"

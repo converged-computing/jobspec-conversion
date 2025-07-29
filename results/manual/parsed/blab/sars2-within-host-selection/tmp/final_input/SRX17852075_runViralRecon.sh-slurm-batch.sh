@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=SRX17852075
-#FLUX: -n=15
-#FLUX: --queue=campus-new
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=SRX17852075
+#SBATCH --output=logs/nextflow_SRX17852075.out
+#SBATCH --error=logs/nextflow_SRX17852075.err
+#SBATCH --mail-user=covadiuc@uw.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=01:00:00
+#SBATCH --partition=campus-new
 
 load_modules() {
   module purge

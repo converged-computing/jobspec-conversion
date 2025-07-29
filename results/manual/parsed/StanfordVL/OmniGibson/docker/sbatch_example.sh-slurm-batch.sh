@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cattywampus-3277
-#FLUX: -c=8
-#FLUX: --queue=svl
-#FLUX: --urgency=16
+#SBATCH --account=cvgl
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2080ti:1
+#SBATCH --mem=30G
+#SBATCH --partition=svl
+#SBATCH --qos=normal
 
 set -e -o pipefail
 IMAGE_PATH="/cvgl2/u/cgokmen/omnigibson.sqsh"

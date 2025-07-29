@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leg-3910
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=10:00:00
 
 CONTAINER="${HOME}/containers/pytorch-gds-benchmarks.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_torch_benchmark_rc"

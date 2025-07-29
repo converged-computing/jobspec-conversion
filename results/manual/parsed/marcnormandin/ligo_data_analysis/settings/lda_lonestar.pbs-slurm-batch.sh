@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=myMPI
-#FLUX: -N=11
-#FLUX: -n=11
-#FLUX: --queue=development
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=myMPI
+#SBATCH --output=myMPI.o%j
+#SBATCH --mail-user=normandin.utb@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=11
+#SBATCH --ntasks=11
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=development
 
 export OMP_NUM_THREADS='24'
 

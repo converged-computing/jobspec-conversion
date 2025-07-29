@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-banana-0020
-#FLUX: --urgency=16
+#FLUX --job-name=phat-eagle-9218
+#FLUX --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/swin'

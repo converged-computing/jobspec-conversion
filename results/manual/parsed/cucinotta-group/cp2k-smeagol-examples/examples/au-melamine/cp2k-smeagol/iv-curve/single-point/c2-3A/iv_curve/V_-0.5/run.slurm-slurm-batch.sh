@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-kitty-2002
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/iv-curve/single-point/c2-3A/iv_curve/V_-0.5/run.slurm

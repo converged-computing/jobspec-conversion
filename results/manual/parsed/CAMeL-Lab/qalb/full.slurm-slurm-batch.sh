@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nunchucks-9946
-#FLUX: -c=8
-#FLUX: --queue=serial
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=30000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=serial
+#SBATCH --array=1-6
 
 module purge
 module load anaconda/2-4.1.1

@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-spoon-6371
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=genoa
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=160G
+#SBATCH --time=10:00:00
+#SBATCH --partition=genoa
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

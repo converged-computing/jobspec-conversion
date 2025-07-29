@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=om2-v12
-#FLUX: --queue=intel
-#FLUX: -t=4060800
-#FLUX: --urgency=16
+#FLUX --job-name=om2-v12
+#FLUX --queue=intel
+#FLUX -t=4060800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='8,1'
 export PATH='$PATH:/tmp/$user/qms$SLURM_JOB_NAME${SLURM_ARRAY_TASK_ID}'

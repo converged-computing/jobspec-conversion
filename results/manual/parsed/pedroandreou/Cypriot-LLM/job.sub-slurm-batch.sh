@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-egg-3947
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=p156
+#SBATCH --output=train.log
+#SBATCH --error=error.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=8
 
 module load Python/3.9.6-GCCcore-11.2.0
 if [ ! -d ".venv" ]; then

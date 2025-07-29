@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cpm2-test
-#FLUX: --queue=rtx2080
-#FLUX: --urgency=16
+#SBATCH --job-name=cpm2-test
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=rtx2080
 
 MASTER_PORT=30123
 MASTER_HOST=$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)

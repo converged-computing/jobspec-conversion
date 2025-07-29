@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=temp3-pth
-#FLUX: -c=16
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#FLUX --job-name=temp3-pth
+#FLUX -c=16
+#FLUX -t=360000
+#FLUX --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

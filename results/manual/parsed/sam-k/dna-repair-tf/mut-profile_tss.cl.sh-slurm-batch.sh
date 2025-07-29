@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mut-prof_TSS
-#FLUX: -c=3
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=mut-prof_TSS
+#SBATCH --output=logs/OUT_mut-profile_tss.txt
+#SBATCH --error=logs/ERR_mut-profile_tss.txt
+#SBATCH --mail-user=sdk18@duke.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=12:00:00
 
 module load bedtools2
 module load bedops

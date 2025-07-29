@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=msc_cont
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=msc_cont
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load singularity
 if [ $# -lt 3 ];

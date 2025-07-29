@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peanut-butter-2000
-#FLUX: --urgency=16
+#SBATCH --account=proj_1329
+#SBATCH --output=/home/myurachinskiy/CLIP/summer-clip/scripts/outs/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
 
 export PYTHONPATH='${PYTHONPATH}:${SUMMER_CLIP_PATH}'
 export TRANSFORMERS_OFFLINE='1'

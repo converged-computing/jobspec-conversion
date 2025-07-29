@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=tf-jit-test
-#FLUX: -c=32
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#SBATCH --job-name=tf-jit-test
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=1
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu
 
 export NCCL_DEBUG='${NCCL_DEBUG:-WARN}'
 export TF_CPP_MIN_LOG_LEVEL='${TF_CPP_MIN_LOG_LEVEL:-0} #3'

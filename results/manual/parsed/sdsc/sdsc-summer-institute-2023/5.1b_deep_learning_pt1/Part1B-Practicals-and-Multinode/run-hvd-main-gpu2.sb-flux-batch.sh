@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tfhvd-gpu
-#FLUX: -N=2
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=tfhvd-gpu
+#FLUX -N=2
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=300
+#FLUX --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export UCX_TLS='shm,rc,ud,dc'

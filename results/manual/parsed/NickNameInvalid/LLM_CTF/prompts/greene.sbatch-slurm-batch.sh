@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=infer
-#FLUX: -t=7199
-#FLUX: --urgency=16
+#SBATCH --job-name=infer
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=50GB
+#SBATCH --time=01:59:59
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 MODEL=2

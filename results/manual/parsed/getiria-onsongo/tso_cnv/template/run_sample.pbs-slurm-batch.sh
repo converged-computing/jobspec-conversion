@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-egg-2551
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/getiria-onsongo/tso_cnv/template/run_sample.pbs

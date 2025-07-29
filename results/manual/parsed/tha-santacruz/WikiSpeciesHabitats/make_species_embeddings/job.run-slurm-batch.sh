@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-salad-7982
-#FLUX: -c=8
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=01:00:00
+#SBATCH --partition=debug
+#SBATCH --qos=gpu
 
 python make_species_doc2vec_species_embeddings.py

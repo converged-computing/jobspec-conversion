@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-3096
-#FLUX: -c=20
-#FLUX: --urgency=16
+#SBATCH --output=/home/gridsan/lutjens/eie_vision/temp/checkpoint/Pix2pixHD/conditional_binary_spectral/task.sh.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --gres=gpu:volta:2
 
 source /etc/profile # eofe: source /etc/profile.d/modules.sh
 eval "$(conda shell.bash hook)"

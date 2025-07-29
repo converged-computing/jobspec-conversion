@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=liq
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=liq
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16G
+#SBATCH --time=00:59:00
 
 module purge
 module load anaconda3/2021.11

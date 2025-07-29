@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peanut-7674
-#FLUX: --urgency=16
+#SBATCH --output=slurm/output/slurm-%j.out
+#SBATCH --error=slurm/output/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=polbook
-#FLUX: -c=60
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=polbook
+#FLUX -c=60
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 which python;
 snakemake   train_features_2_vec      -call --config root=polbook_one gnn_model=gat env=local device=cuda:0 r2v=false crosswalk=false fairwalk=true node2vec=false dataset=polbook  --nolock --ignore-incomplete;

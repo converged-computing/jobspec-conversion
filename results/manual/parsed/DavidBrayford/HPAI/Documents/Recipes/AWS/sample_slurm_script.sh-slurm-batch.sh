@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=charliecloud_mpi_CERN_impi_768_opt_intel03_mpi
-#FLUX: -N=768
-#FLUX: -n=3072
-#FLUX: -c=12
-#FLUX: --queue=general
-#FLUX: -t=16200
-#FLUX: --urgency=16
+#SBATCH --job-name=charliecloud_mpi_CERN_impi_768_opt_intel03_mpi
+#SBATCH --account=pr28fa
+#SBATCH --output=output_charliecloud_CERN_impi_768_opt_intel03_mpi.txt
+#SBATCH --error=error_charliecloud_CERN_impi_768_opt_intel03_mpi.txt
+#SBATCH --nodes=768
+#SBATCH --ntasks=3072
+#SBATCH --cpus-per-task=12
+#SBATCH --time=04:30:00
+#SBATCH --partition=general
+#SBATCH --constraint=ntasks-per-node=4
 
 export KMP_SETTINGS='1'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

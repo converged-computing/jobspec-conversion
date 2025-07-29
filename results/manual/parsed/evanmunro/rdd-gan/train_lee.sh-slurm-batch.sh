@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-omelette-9653
-#FLUX: --queue=athey
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=64G
+#SBATCH --time=02:00:00
+#SBATCH --partition=athey
 
 module load python/3.6.1
 module load cuda/11.2.0

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CASE
-#FLUX: -c=2
-#FLUX: --queue=accel
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=CASE
+#SBATCH --account=ec30
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=rtx30:1
+#SBATCH --mem=8G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=accel
+#SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit
 set -o nounset

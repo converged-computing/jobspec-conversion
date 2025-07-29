@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=RUN_CRIS_ANOM
-#FLUX: --queue=batch
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=RUN_CRIS_ANOM
+#FLUX --queue=batch
+#FLUX -t=900
+#FLUX --urgency=16
 
 if [ $# -gt 0 ]; then
   echo "Your command line contains $# arguments"

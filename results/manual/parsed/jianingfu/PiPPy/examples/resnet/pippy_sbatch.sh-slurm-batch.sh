@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mnist_pippy
-#FLUX: -c=12
-#FLUX: --queue=train
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mnist_pippy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=01:00:00
+#SBATCH --partition=train
+#SBATCH --constraint=ntasks-per-node=8
 
 srun --label pippy_wrapper.sh

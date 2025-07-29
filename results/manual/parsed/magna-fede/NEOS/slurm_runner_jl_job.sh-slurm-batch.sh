@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=unfold
-#FLUX: -c=4
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=unfold
+#SBATCH --output=slurm_%u_%x_%j_stdout.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --array=1,2,3,5,6,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,30
 
 WORKDIR="/home/fm02/MEG_NEOS/NEOS"
 SCRIPT1="$WORKDIR/unfold_eeg.jl"

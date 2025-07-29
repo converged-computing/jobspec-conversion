@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pot-6867
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-dog-3965
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

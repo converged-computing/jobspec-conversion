@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hope-6541
-#FLUX: --queue=bii-gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=anxious-egg-1272
+#FLUX --queue=bii-gpu
+#FLUX -t=129600
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate osmi

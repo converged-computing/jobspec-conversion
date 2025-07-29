@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=job_arrays
-#FLUX: --queue=htc
-#FLUX: -t=1
-#FLUX: --urgency=16
+#FLUX --job-name=job_arrays
+#FLUX --queue=htc
+#FLUX -t=1
+#FLUX --urgency=16
 
 module purge
 module load matlab/R2019a

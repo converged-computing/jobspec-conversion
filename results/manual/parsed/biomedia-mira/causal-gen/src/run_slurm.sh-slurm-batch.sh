@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=arid-train-4883
-#FLUX: -c=4
-#FLUX: --queue=gpus
-#FLUX: --urgency=16
+#SBATCH --output=../checkpoints/$parents/$exp_name/slurm.%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:teslat4:1
+#SBATCH --mem=32gb
+#SBATCH --partition=gpus
+#SBATCH --constraint=ntasks-per-node=1
 
 exp_name='ukbb192_beta5_dgauss'
 parents='m_b_v_s'

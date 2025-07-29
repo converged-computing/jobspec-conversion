@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-puppy-0686
-#FLUX: --queue=medium
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=lovely-destiny-5290
+#FLUX --queue=medium
+#FLUX -t=28800
+#FLUX --urgency=16
 
 StudyFolder=$1 #Location of Subject folders (named by subjectID)
 Subject=$2 #Space delimited list of subject IDs

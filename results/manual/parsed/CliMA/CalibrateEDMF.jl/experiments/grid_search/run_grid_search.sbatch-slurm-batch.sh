@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grid
-#FLUX: -n=25
-#FLUX: -t=108000
-#FLUX: --urgency=16
+#SBATCH --job-name=grid
+#SBATCH --output=slurm_grid_search_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=25
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-06:00:00
 
 config=${1?Error: no config file given}
 module purge

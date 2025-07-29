@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loca_few_shot
-#FLUX: -c=12
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=loca_few_shot
+#FLUX -c=12
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export MASTER_PORT='50188'

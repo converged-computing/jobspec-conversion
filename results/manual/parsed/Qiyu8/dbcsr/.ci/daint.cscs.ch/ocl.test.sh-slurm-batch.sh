@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-house-2635
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cscsci
+#SBATCH --constraint=gpu,ntasks-per-node=1
 
 export OMP_PROC_BIND='TRUE # set thread affinity'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-6385
-#FLUX: --queue=long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-milkshake-1721
+#FLUX --queue=long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 pwd
 module restore PrgEnv-cray

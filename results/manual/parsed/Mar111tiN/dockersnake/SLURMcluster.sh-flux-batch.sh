@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -n=2
-#FLUX: --queue=long
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX -n=2
+#FLUX --queue=long
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export LOGDIR='${SNAKE_HOME}/slogs/${SLURM_JOB_NAME}-${SLURM_JOB_ID}'
 export TMPDIR='/fast/users/${USER}/scratch/tmp;'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-6943
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-egg-2778
+#FLUX --queue=gputest
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=urea
-#FLUX: --queue=RM-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=urea
+#FLUX --queue=RM-shared
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load plumed
 module load gcc

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Python
-#FLUX: -c=2
-#FLUX: --queue=savio2_gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=Python
+#SBATCH --account=fc_cosi
+#SBATCH --mail-user=harrisoncostantino@berkeley.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=savio2_gpu
+#SBATCH --qos=savio_normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ASR-DDP-check
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ASR-DDP-check
+#SBATCH --account=PAS0396
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --array=0-1:1
 
 source activate pt
 nvidia-smi

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-animal-3464
-#FLUX: --queue=long
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=long
 
 module load gcc
 module load python3

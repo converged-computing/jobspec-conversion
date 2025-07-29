@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=nfc_rnaseq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=nfc_rnaseq
+#SBATCH --account=PAS0471
+#SBATCH --output=slurm-nfc_rnaseq-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
 
 export TOOL_NAME='nextflow'
 

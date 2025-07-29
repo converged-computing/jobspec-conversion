@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=RES5p
-#FLUX: -c=17
-#FLUX: --queue=normal
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=RES5p
+#FLUX -c=17
+#FLUX --queue=normal
+#FLUX -t=600
+#FLUX --urgency=16
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

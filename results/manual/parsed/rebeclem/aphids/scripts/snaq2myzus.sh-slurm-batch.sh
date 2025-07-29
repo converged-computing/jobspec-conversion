@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snaq2_myzus
-#FLUX: -c=30
-#FLUX: --queue=medium
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=snaq2_myzus
+#SBATCH --output=snaq_%A_%a.out
+#SBATCH --error=snaq_%A_%a.err
+#SBATCH --mail-user=rebeclem@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=medium
+#SBATCH --array=0-10
 
 t1=$(date +"%s")
 module load julia/1.5.3 

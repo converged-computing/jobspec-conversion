@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=width_cf100_dense_81624
-#FLUX: -c=10
-#FLUX: --queue=all
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=width_cf100_dense_81624
+#SBATCH --account=test
+#SBATCH --output=width_cf100_dense_81624.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=all
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/TUE/20180170/miniconda3/etc/profile.d/conda.sh
 source activate torch151

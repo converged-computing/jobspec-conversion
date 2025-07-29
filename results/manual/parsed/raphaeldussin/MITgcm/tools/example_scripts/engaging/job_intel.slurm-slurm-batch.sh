@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=trintel
-#FLUX: -N=2
-#FLUX: -n=6
-#FLUX: --queue=sched_mit_darwin
-#FLUX: --urgency=16
+#SBATCH --job-name=trintel
+#SBATCH --nodes=2
+#SBATCH --ntasks=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --partition=sched_mit_darwin
 
 export LC_ALL='en_US.iso885915'
 

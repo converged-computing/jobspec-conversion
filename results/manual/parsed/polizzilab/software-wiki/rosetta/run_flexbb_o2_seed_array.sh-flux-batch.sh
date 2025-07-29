@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peas-4575
-#FLUX: --queue=short
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-fork-0191
+#FLUX --queue=short
+#FLUX -t=60
+#FLUX --urgency=16
 
 module load gcc/4.8.5
 module load rosetta 

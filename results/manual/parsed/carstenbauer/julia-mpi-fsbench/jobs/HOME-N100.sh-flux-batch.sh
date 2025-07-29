@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chair-9572
-#FLUX: -N=100
-#FLUX: -n=6400
-#FLUX: -c=2
+#FLUX --job-name=crunchy-latke-8741
+#FLUX -N=100
+#FLUX -n=6400
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=cont
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

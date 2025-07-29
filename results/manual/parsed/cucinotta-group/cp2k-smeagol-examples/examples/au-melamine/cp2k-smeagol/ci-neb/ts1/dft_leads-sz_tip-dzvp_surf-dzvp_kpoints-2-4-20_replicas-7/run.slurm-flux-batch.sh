@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-despacito-3982
-#FLUX: --urgency=16
+#FLUX --job-name=fat-malarkey-0347
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/ci-neb/ts1/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20_replicas-7/run.slurm

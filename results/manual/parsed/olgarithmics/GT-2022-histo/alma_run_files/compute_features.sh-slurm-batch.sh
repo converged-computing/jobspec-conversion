@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=PatchExtractor
-#FLUX: -c=12
-#FLUX: --queue=gpuhm
-#FLUX: -t=273600
-#FLUX: --urgency=16
+#SBATCH --job-name=PatchExtractor
+#SBATCH --output=/home/ofourkioti/Projects/GT-2022-histo/results/rcc_feats.out
+#SBATCH --error=/home/ofourkioti/Projects/GT-2022-histo/alma_run_files/error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --gres=gpu:1
+#SBATCH --time=3-04:00:00
+#SBATCH --partition=gpuhm
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pipeline_sc
-#FLUX: --queue=mediumq
-#FLUX: --urgency=16
+#SBATCH --job-name=pipeline_sc
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5G
+#SBATCH --partition=mediumq
 
 set -e
 source /mnt/beegfs/software/conda/etc/profile.d/conda.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lentil-7051
-#FLUX: -c=20
-#FLUX: --queue=medium
-#FLUX: -t=259205
-#FLUX: --urgency=16
+#FLUX --job-name=hello-arm-2034
+#FLUX -c=20
+#FLUX --queue=medium
+#FLUX -t=259205
+#FLUX --urgency=16
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 basedir=/n/scratch/users/b/bek321/phageIP/

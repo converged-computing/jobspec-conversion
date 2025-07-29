@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leader-9119
-#FLUX: -c=16
-#FLUX: --queue=a40
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --output=/NS/robustness_2/work/vnanda/invariances_in_reps/deep-learning-base/checkpoints/sbatch_logs/%x_%j.out
+#SBATCH --error=/NS/robustness_2/work/vnanda/invariances_in_reps/deep-learning-base/checkpoints/sbatch_logs/%x_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:2
+#SBATCH --mem=100GB
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=a40
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1
 
 srun --jobid $SLURM_JOBID bash -c 'python -m deep-learning-base.supervised_training \
 --dataset imagenet \

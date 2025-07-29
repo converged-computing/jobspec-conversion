@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=google_benchmark
-#FLUX: --queue=debug
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=google_benchmark
+#FLUX --queue=debug
+#FLUX -t=720
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='66'
 

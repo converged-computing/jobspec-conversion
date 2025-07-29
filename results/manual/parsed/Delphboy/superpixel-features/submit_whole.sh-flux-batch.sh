@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-toaster-5386
-#FLUX: --queue=small
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-peanut-6266
+#FLUX --queue=small
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module load cuda/10.2
 module load python/anaconda3

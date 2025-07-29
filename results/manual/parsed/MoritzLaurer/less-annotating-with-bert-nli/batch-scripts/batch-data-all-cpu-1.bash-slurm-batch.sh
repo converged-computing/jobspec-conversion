@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cpu1
-#FLUX: -n=32
-#FLUX: --queue=thin
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=cpu1
+#SBATCH --mail-user=m.laurer@vu.nl
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=thin
 
 module load 2021
 module load Python/3.9.5-GCCcore-10.3.0

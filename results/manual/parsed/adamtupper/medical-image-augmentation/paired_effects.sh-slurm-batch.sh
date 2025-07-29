@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-banana-1524
-#FLUX: -c=10
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=05:00:00
+#SBATCH --array=1-34
 
 export TORCH_HOME='$project'
 

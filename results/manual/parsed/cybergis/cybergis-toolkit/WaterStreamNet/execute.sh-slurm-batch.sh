@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leader-8483
-#FLUX: -n=12
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --mail-user=flu8@illinois.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
 
 module purge
 module use /data/cigi/common/cigi-modules

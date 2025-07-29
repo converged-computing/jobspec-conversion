@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SAGs_CDS_AMG_Hunter
-#FLUX: -c=48
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=SAGs_CDS_AMG_Hunter
+#FLUX -c=48
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load diamond/2.0.7
 module load python/3.8.5

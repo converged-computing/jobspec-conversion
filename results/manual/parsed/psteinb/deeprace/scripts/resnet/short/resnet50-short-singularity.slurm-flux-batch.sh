@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chair-5836
-#FLUX: --queue=gpu2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=cowy-eagle-4694
+#FLUX --queue=gpu2
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=linear_RN50
-#FLUX: -c=18
-#FLUX: --queue=gpu
-#FLUX: -t=219599
-#FLUX: --urgency=16
+#SBATCH --job-name=linear_RN50
+#SBATCH --output=linear_RN50.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gres=1
+#SBATCH --time=2-12:59:59
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 source /home/sliu/miniconda3/etc/profile.d/conda.sh
 source activate slak

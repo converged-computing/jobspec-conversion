@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IN_PT_DINO_RESNET50
-#FLUX: --queue=mldlc_gpu-rtx2080
-#FLUX: -t=345599
-#FLUX: --urgency=16
+#SBATCH --job-name=IN_PT_DINO_RESNET50
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=3-23:59:59
+#SBATCH --partition=mldlc_gpu-rtx2080
 
 pip list
 source activate dino

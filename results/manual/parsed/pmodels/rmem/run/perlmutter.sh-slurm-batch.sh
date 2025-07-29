@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemur-9000
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=m1302
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --qos=regular
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export ASAN_OPTIONS='protect_shadow_gap=0:use_sigaltstack=0'
 export FI_HMEM_CUDA_USE_GDRCOPY='1'

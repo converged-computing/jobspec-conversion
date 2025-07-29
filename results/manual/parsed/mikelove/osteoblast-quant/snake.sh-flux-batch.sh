@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=snake
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=snake
+#FLUX -t=72000
+#FLUX --urgency=16
 
 module load python
 module load samtools

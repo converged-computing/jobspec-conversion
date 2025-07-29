@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=DHFR
-#FLUX: --queue=cuda
-#FLUX: -t=1296000
-#FLUX: --urgency=16
+#SBATCH --job-name=DHFR
+#SBATCH --account=cuda
+#SBATCH --output=%j-apoa1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:tesla_v100:1
+#SBATCH --time=15-00:00:00
+#SBATCH --partition=cuda
+#SBATCH --qos=cuda
+#SBATCH --constraint=ntasks-per-node=8
 
 INPUT_FILE="apo-dhfr-lom-min1.conf"
 source /etc/profile.d/modules.sh

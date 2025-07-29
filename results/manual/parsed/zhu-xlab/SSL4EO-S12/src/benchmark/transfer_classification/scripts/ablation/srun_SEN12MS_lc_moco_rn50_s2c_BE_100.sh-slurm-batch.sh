@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=BE_LC_moco
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=booster
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=BE_LC_moco
+#SBATCH --output=srun_outputs/classification/SEN12MS_BE_moco_LC_rn50_100_%j.out
+#SBATCH --error=srun_outputs/classification/SEN12MS_BE_moco_LC_rn50_100_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:4
+#SBATCH --time=04:00:00
+#SBATCH --partition=booster
+#SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

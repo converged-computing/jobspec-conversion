@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-puppy-7204
-#FLUX: -N=2
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-general-6180
+#FLUX -N=2
+#FLUX -t=86400
+#FLUX --urgency=16
 
 source /home/ega470/.bashrc
 cd /var/scratch/ega470/ssl_thesis/

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=kripke_sacct
-#FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=kripke_sacct
+#SBATCH --account=p_readex
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2200M
+#SBATCH --time=01:00:00
+#SBATCH --partition=broadwell
+#SBATCH: --exclusive
 
 export MERIC_MODE='3'
 export MERIC_FREQUENCY='0'

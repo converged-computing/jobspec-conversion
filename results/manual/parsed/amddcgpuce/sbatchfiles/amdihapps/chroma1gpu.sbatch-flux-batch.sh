@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fork-5897
-#FLUX: -c=16
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-motorcycle-0816
+#FLUX -c=16
+#FLUX --urgency=16
 
 source /etc/profile.d/modules.sh
 if [[ $(echo $SLURM_JOB_PARTITION | grep -i ubuntu) = *Ubuntu* ]]; then

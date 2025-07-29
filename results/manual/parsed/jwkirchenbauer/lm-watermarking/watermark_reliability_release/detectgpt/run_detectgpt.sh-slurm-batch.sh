@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=run-detect
-#FLUX: -n=4
-#FLUX: --queue=scavenger
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=run-detect
+#SBATCH --account=scavenger
+#SBATCH --output=slurm_logs/no_wm_attack_%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtxa6000:1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=scavenger
+#SBATCH --qos=scavenger
+#SBATCH --array=0-2
 
 source ~/.bashrc
 conda activate watermarking-dev

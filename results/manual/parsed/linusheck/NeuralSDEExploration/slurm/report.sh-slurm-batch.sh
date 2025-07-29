@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=analyze
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=analyze
+#SBATCH --account=tipes
+#SBATCH --output=/home/linushe/outputs/%x.%A_%4a.out
+#SBATCH --mail-user=linus.heck@rwth-aachen.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=04:00:00
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

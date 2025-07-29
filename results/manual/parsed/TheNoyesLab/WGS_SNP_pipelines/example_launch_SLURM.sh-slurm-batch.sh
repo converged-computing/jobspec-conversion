@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=WGS_pipelines
-#FLUX: --queue=cn1107
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=WGS_pipelines
+#SBATCH --mail-user=enriquedoster@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=cn1107
 
 module load jdk/1.8.0
 module load singularity/2.5.2

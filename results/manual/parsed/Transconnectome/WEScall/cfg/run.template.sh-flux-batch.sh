@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-squidward-8343
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-avocado-8579
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Transconnectome/WEScall/cfg/run.template.sh

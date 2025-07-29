@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-omelette-7091
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/StefPetro/ATEL_speciale/batch_scripts/AL_scripts/entropy/Fremstillingsform/AL_Fremstillingsform_cv5.sh

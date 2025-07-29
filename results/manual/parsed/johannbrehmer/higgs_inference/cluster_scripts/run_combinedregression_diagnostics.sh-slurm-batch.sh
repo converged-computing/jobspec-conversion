@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=creg_diag
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=creg_diag
+#SBATCH --output=slurm_combinedregression_diagnostics_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load jupyter-kernels/py2.7

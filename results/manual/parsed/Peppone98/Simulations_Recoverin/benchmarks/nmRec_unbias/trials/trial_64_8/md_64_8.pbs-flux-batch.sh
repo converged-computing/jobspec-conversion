@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-ricecake-3193
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-milkshake-9653
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peppone98/Simulations_Recoverin/benchmarks/nmRec_unbias/trials/trial_64_8/md_64_8.pbs

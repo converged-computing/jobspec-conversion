@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=test_spread
-#FLUX: -N=48
-#FLUX: --queue=regular
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --job-name=test_spread
+#SBATCH --account=lcls_g
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=48
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:20:00
+#SBATCH --partition=regular
+#SBATCH --constraint=gpu
+#SBATCH --licenses=SCRATCH
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

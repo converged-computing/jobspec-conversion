@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=noHDRBD_VTM162
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=noHDRBD_VTM162
+#SBATCH --output=/user/work/hw22082/out_test/%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1,5,40
 
 module add languages/anaconda3/2019.07-3.6.5-tflow-1.14
 module add apps/matlab/2018a

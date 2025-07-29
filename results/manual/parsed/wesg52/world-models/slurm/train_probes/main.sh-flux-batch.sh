@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-caramel-4264
-#FLUX: -c=12
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-signal-3944
+#FLUX -c=12
+#FLUX --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

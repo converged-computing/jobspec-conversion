@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=my_job_name
-#FLUX: -c=32
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=my_job_name
+#FLUX -c=32
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/home/$USER/projects/def-lpaull/$USER/ae_drqv2'
 

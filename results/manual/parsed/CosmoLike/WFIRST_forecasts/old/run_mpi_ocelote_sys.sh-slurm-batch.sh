@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parrot-2649
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/CosmoLike/WFIRST_forecasts/old/run_mpi_ocelote_sys.sh

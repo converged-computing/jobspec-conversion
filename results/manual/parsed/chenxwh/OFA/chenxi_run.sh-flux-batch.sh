@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ofa_okvqa_vqa
-#FLUX: --queue=gengpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=ofa_okvqa_vqa
+#FLUX --queue=gengpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export MASTER_ADDR='localhost'
 export MASTER_PORT='8214'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-1065
-#FLUX: -n=28
+#FLUX --job-name=pusheena-platanos-6486
+#FLUX -n=28
 #FLUX: --exclusive
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX -t=600
+#FLUX --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

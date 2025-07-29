@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-5572
-#FLUX: -N=2
-#FLUX: -n=32
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --account=rrg-punithak
+#SBATCH --mail-user=skannan3@ualberta.ca
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem-per-cpu=32G
+#SBATCH --time=1-11:00:00
 
 module load python
 virtualenv --no-download $SLURM_TMPDIR/env

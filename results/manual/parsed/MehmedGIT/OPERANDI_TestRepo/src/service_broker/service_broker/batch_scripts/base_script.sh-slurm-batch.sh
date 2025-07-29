@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nalgas-9653
-#FLUX: -c=2
-#FLUX: --queue=medium
-#FLUX: --urgency=16
+#SBATCH --output=/home/users/mmustaf/jobs_output/job-%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=32G
+#SBATCH --partition=medium
+#SBATCH --constraint=scratch
 
 hostname
 slurm_resources

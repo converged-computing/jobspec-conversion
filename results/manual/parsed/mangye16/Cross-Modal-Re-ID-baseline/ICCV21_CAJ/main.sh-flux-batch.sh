@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-2227
-#FLUX: -n=10
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=phat-fork-3588
+#FLUX -n=10
+#FLUX -t=172800
+#FLUX --urgency=16
 
 for trial in 1 2 3 4 5
 do

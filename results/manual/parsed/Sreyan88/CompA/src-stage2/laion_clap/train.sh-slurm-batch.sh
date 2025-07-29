@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=mclap
-#FLUX: -N=3
-#FLUX: --exclusive
-#FLUX: --queue=gamma
-#FLUX: --urgency=16
+#SBATCH --job-name=mclap
+#SBATCH --output=%x_%j.out
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=gamma
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-kerfuffle-9048
-#FLUX: --queue=dev_q
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --partition=dev_q
+#SBATCH --constraint=ntasks-per-node=48
 
 module reset
 module load LAMMPS

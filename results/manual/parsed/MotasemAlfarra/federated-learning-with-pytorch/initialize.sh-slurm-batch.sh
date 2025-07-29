@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-9404
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x.%J.out
+#SBATCH --error=logs/%x.%J.err
+#SBATCH --mail-user=alfarrm@kaust.edu.sa
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --array=[1]
 
 source activate rs_fl
 nvidia-smi

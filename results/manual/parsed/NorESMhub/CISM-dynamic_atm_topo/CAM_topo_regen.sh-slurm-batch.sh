@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=topo_regen
-#FLUX: -N=4
-#FLUX: -t=1740
-#FLUX: --urgency=16
+#SBATCH --job-name=topo_regen
+#SBATCH --account=nn9560k
+#SBATCH --mail-user=heig@norceresearch.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:29:00
 
 export Data_Directory='/cluster/projects/nn9560k/heig/inputdata/CISM'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lemur-1094
-#FLUX: --queue=devel
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=milky-gato-2448
+#FLUX --queue=devel
+#FLUX -t=600
+#FLUX --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

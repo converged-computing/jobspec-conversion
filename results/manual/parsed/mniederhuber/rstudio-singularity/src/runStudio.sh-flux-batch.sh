@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-7888
-#FLUX: --queue=interact
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-leader-3004
+#FLUX --queue=interact
+#FLUX -t=28800
+#FLUX --urgency=16
 
 export TMPDIR='${PWD}'
 export RSTUDIO_AUTH='${TMPDIR}/.config/auth'

@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=met_resnet101
-#FLUX: --queue=normal
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=met_resnet101
+#SBATCH --output=output/standard%A_%a.out
+#SBATCH --error=output/standard%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=06:00:00
+#SBATCH --partition=normal
+#SBATCH --constraint=high-capacity
+#SBATCH --array=0-399
+#SBATCH --exclude=node093
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

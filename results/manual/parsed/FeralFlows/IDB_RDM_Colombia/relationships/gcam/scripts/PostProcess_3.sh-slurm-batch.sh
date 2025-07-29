@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-animal-0253
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=./stdout/%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=500000
+#SBATCH --time=10:00:00
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

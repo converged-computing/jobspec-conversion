@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=GTDB
-#FLUX: --queue=omicsbio
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=GTDB
+#SBATCH --output=GTDB_%J_stdout.txt
+#SBATCH --error=GTDB_%J_stderr.txt
+#SBATCH --mail-user=lizhang12@ou.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=180G
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=omicsbio
+#SBATCH --chdir=/work/TEDDY/binning/GTDB/
+#SBATCH --nodelist=c660
 
 module load Python/3.6.3-intel-2016a
 module load HMMER/3.2.1-foss-2018b

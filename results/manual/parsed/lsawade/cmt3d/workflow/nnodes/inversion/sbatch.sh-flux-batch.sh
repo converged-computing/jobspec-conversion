@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Inversion
-#FLUX: -N=40
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=Inversion
+#FLUX -N=40
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

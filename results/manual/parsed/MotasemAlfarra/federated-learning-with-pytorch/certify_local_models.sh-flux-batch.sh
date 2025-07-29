@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cupcake-1846
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-nalgas-5877
+#FLUX -c=4
+#FLUX --queue=batch
+#FLUX -t=14400
+#FLUX --urgency=16
 
 CONST=0
 source activate rs_fl

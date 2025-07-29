@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dgr
-#FLUX: -n=128
-#FLUX: --queue=gpu-a100
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=dgr
+#SBATCH --output=.dgr.o%j
+#SBATCH --error=.dgr.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=gpu-a100
 
 module list
 pwd

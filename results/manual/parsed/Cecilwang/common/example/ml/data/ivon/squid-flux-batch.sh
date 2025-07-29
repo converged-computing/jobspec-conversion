@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pancake-1418
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-lettuce-3287
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Cecilwang/common/example/ml/data/ivon/squid

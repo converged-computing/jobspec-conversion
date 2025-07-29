@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ext_cls_GPT-Neo-1_3b
-#FLUX: -c=24
-#FLUX: --queue=gpu_p4
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=ext_cls_GPT-Neo-1_3b
+#SBATCH --account=btm@v100
+#SBATCH --output=LEGAL-PE/SIGIR_experiments/datasets/slurm_files_for_extraction/slurm_outputs/end_tokens/ext_cls_GPT-Neo-1_3b_scotus%j.out
+#SBATCH --error=LEGAL-PE/SIGIR_experiments/datasets/slurm_files_for_extraction/slurm_outputs/end_tokens/ext_cls_GPT-Neo-1_3b_scotus%j.out
+#SBATCH --mail-user=Nishchal.Prasad@irit.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --gres=gpu:6
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu_p4
+#SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$WORK/.local/bin:$PATH'
 

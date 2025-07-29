@@ -1,6 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Maya_9_eval
-#FLUX: --urgency=16
+#SBATCH --job-name=Maya_9_eval
+#SBATCH --account=copan
+#SBATCH --output=ms_x9_eval_%j.out
+#SBATCH --error=ms_x9_eval_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --qos=priority
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-blackbean-5279
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/mdenil/parameter_prediction/examples/westgrid/cov_dict/launcher.pbs

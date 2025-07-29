@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lemur-2768
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#FLUX --job-name=blank-diablo-4191
+#FLUX --queue=priority
+#FLUX --urgency=16
 
 set -e
 module load gcc/6.2.0

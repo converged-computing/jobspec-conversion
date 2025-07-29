@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-7699
-#FLUX: --queue=slurm_courtesy
-#FLUX: -t=259320
-#FLUX: --urgency=16
+#SBATCH --output=cuda_Training-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=3-00:02:00
+#SBATCH --partition=slurm_courtesy
 
 module load cuda/9.0
 source activate maskrcnn

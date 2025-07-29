@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=24
-#FLUX: --queue=amd_gpu
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=EB-install
+#SBATCH --account=easybuild
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --time=06:00:00
+#SBATCH --partition=amd_gpu
+#SBATCH --constraint=zen3&2xA100
 
 export SBATCH_CONSTRAINT='zen3&2xA100'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

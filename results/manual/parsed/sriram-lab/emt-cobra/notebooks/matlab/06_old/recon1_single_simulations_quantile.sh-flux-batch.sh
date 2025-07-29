@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=recon1_emt_a549_quantile
-#FLUX: --queue=standard
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=recon1_emt_a549_quantile
+#FLUX --queue=standard
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load matlab/R2018b
 module load gurobi/9.1.1

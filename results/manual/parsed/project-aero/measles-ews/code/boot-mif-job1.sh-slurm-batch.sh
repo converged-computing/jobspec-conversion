@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lamp-2081
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./reports/slurm-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=intel,ntasks-per-node=1
+#SBATCH --array=1-1000
 
 cd ~/measles/code/
 module load R

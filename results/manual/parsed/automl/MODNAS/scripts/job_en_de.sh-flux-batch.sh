@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-malarkey-2666
-#FLUX: -c=32
-#FLUX: --queue=<partition
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=chocolate-pastry-3262
+#FLUX -c=32
+#FLUX --queue=<partition
+#FLUX -t=432000
+#FLUX --urgency=16
 
 python search_spaces/hat/train.py --configs=search_spaces/hat/configs/wmt14.en-de/supertransformer/space0.yml

@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=qc0_X_N4
-#FLUX: -N=4
-#FLUX: -n=8
-#FLUX: --queue=development
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=qc0_X_N4
+#SBATCH --account=PHY20010
+#SBATCH --output=myjob.o%j
+#SBATCH --error=myjob.e%j
+#SBATCH --nodes=4
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=development
 
 export OMP_NUM_THREADS='28'
 

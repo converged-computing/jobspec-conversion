@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Hybrid-Sort-Optimization
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=Hybrid-Sort-Optimization
+#SBATCH --account=mallet
+#SBATCH --output=stdout_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=23:00:00
 
 module load gcc/12.2.0
 module load python/3.10.6

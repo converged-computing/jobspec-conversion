@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Inference
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=Inference
+#FLUX --queue=gpu_prod_long
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PATH='/opt/conda/bin:$PATH'
 

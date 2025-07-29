@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ana
-#FLUX: --queue=RM-shared
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=ana
+#FLUX --queue=RM-shared
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module load gromacs/2018
 MODELNO=$1

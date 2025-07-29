@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-signal-3724
-#FLUX: -c=4
-#FLUX: --gpus-per-task=8
-#FLUX: --exclusive
-#FLUX: --queue=hpg-ai
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gpus-per-task=8
+#SBATCH --mem=64gb
+#SBATCH --time=01:00:00
+#SBATCH --partition=hpg-ai
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leader-5333
-#FLUX: -n=2
-#FLUX: -c=32
-#FLUX: --queue=nodes
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=psycho-snack-9038
+#FLUX -n=2
+#FLUX -c=32
+#FLUX --queue=nodes
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='32'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-gato-7953
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-omelette-9964
+#FLUX --urgency=16
 
 arg1=$1
 arg2=$2

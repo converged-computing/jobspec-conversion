@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stencil-bench-weak
-#FLUX: -n=8
-#FLUX: -c=16
-#FLUX: --queue=palamut-cuda
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=stencil-bench-weak
+#SBATCH --account=proj16
+#SBATCH --output=stencil_bench_weak_output_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=palamut-cuda
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

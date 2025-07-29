@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=stylegan3
-#FLUX: -c=48
-#FLUX: --exclusive
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=stylegan3
+#SBATCH --account=nklab
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:8
+#SBATCH --time=7-00:00:00
+#SBATCH: --exclusive
+#SBATCH --exclude=ax[03-13]
 
 ml load anaconda3-2019.03
 ml gcc/10.4

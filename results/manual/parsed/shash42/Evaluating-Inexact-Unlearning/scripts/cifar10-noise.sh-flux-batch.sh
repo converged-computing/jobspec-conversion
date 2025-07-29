@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-6418
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-lemur-8552
+#FLUX -t=345600
+#FLUX --urgency=16
 
 cat cifar10-noise.sh
 logdir='logs/Final-cifar10-resnet110'

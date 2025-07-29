@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CompileSIMPLE
-#FLUX: -c=12
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=CompileSIMPLE
+#FLUX -c=12
+#FLUX -t=300
+#FLUX --urgency=16
 
 export INTEL_DIR='/usr/local/intel/2017u4/'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-4636
-#FLUX: --urgency=16
+#FLUX --job-name=conspicuous-arm-8652
+#FLUX --urgency=16
 
 export machine='WCOSS_DELL_P3'
 export PSLOT='fv3test'

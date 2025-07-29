@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=train_lora
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_lora
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=32GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export MODEL_NAME='runwayml/stable-diffusion-v1-5'
 export OUTPUT_DIR='/scratch/yg2709/CSCI-SHU-360-Machine-Learning-Final-Project/Playground/sddata/finetune/lora/pokemon'

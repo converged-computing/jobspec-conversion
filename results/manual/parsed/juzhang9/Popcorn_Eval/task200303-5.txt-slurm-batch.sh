@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leader-7708
-#FLUX: -c=2
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=test.o%j
+#SBATCH --mail-user=jxz617@case.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20gb
+#SBATCH --time=02:00:00
+#SBATCH --array=1-20
 
 export PYTHONUSERBASE='$HOME/local/python/2.7.13'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=variantcalling
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=variantcalling
+#FLUX -t=518400
+#FLUX --urgency=16
 
 snakemake \
     --nt \

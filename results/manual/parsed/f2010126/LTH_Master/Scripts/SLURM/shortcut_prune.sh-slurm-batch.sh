@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet_Short_Rewind
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#SBATCH --job-name=ResNet_Short_Rewind
+#SBATCH --output=/work/dlclarge1/dsengupt-lth_ws/nemo_logs/resnet_rewind_short.out
+#SBATCH --error=/work/dlclarge1/dsengupt-lth_ws/nemo_logs/resnet_rewind_short.err
+#SBATCH --mail-user=dipti.sengupta@students.uni-freiburg.de
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=19:59:00
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

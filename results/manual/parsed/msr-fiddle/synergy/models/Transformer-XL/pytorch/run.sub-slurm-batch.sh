@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=transformer-xl_pyt
-#FLUX: -N=8
-#FLUX: --exclusive
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=transformer-xl_pyt
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH: --exclusive
 
 export DGXNSOCKET='2'
 export DGXSOCKETCORES='24'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-soup-8335
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-lemur-8063
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/geodynamics/relax/examples/elmayor/Forward%20modeling/Lower_crust/Lower_crust_powerlaw_rheology_n2.5_3D_geothermal_geometry_topdepth10km/Lower_crust_powerlaw_rheology_n2.5_3D_geothermal_geometry_topdepth10km.sh

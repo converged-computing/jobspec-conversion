@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_1400atoms_1node_16tasks
-#FLUX: -n=16
-#FLUX: --exclusive
-#FLUX: --queue=EPYC-16c_edr-ib1_256gb_2666
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=gmx_1400atoms_1node_16tasks
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=EPYC-16c_edr-ib1_256gb_2666
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=16
 
 export PATH='/scratch_lustre_DDN7k/xguox/gromacs/install/bin:$PATH'
 export LD_LIBRARY_PATH='/scratch_lustre_DDN7k/xguox/fftw/install-gnu7.2.0-single/lib:$LD_LIBRARY_PATH'

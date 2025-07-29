@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SRK
-#FLUX: --queue=gpu-shared
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=SRK
+#FLUX --queue=gpu-shared
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load cuda/7.0
 module load cmake

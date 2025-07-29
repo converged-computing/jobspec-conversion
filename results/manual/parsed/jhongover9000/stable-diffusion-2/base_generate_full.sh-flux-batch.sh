@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-7027
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=nvidia
-#FLUX: -t=261000
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-onion-4903
+#FLUX -n=2
+#FLUX -c=4
+#FLUX --queue=nvidia
+#FLUX -t=261000
+#FLUX --urgency=16
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

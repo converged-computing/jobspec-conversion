@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=your_job_name
-#FLUX: --exclusive
-#FLUX: --queue=A100
-#FLUX: --urgency=16
+#SBATCH --job-name=your_job_name
+#SBATCH --account=your_account_name
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=A100
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

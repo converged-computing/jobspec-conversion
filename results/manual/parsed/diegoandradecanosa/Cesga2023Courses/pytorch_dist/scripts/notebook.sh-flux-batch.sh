@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-despacito-2220
-#FLUX: -c=24
-#FLUX: --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
-#FLUX: -t=23400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-leader-2789
+#FLUX -c=24
+#FLUX --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
+#FLUX -t=23400
+#FLUX --urgency=16
 
 CUDA=
 VERSION=1.0.0

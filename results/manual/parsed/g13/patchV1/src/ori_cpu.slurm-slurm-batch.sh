@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=plotV1
-#FLUX: -c=3
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=plotV1
+#SBATCH --output=log/pV1_%J.out
+#SBATCH --mail-user=wd554@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --mem=64GB
+#SBATCH --time=01:00:00
 
 set -e
 module purge

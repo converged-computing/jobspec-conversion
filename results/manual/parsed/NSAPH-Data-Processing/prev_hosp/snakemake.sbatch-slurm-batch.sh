@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pastry-2147
-#FLUX: -c=8
-#FLUX: --queue=fasse
-#FLUX: -t=720
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=184GB
+#SBATCH --time=00:12:00
+#SBATCH --partition=fasse
 
 date #print start time
 snakemake --cores 6

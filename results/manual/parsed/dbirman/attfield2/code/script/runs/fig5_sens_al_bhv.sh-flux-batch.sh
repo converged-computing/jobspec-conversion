@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=f5salbhv
-#FLUX: --queue=gpu
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=f5salbhv
+#FLUX --queue=gpu
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source ~/.bash_profile
 ml python/3.6.1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mborrus_MiMA
-#FLUX: -n=32
-#FLUX: --queue=serc
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=mborrus_MiMA
+#FLUX -n=32
+#FLUX --queue=serc
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export "PYTHONPATH='$PYTHONPATH:/scratch/users/mborrus/MiMA/code/MiMAv0.1_mborrus/wavenet/models/'
 export "HDF5_DISABLE_VERSION_CHECK='1'

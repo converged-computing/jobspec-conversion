@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-latke-6936
-#FLUX: -t=45296
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-general-9065
+#FLUX -t=45296
+#FLUX --urgency=16
 
 cd ~/local
 pwd; hostname; date

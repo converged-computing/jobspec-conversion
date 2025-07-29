@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=simulation
-#FLUX: --queue=cpu-medium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=simulation
+#FLUX --queue=cpu-medium
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/data1/context-group-detection/'
 

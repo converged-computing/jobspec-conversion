@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cardiac_hyper_fit
-#FLUX: --queue=gpuA100
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=cardiac_hyper_fit
+#FLUX --queue=gpuA100
+#FLUX -t=86400
+#FLUX --urgency=16
 
 uenv verbose cuda-11.8.0 cudnn-11.x-8.6.0
 uenv verbose TensorRT-11.x-8.6-8.5.3.1

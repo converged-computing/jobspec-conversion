@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lizard-4620
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=blank-kitty-7153
+#FLUX -N=4
+#FLUX --queue=debug
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='24'
 export OMP_PLACES='threads'

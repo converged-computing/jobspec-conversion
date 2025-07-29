@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=stage1
-#FLUX: -N=256
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=stage1
+#SBATCH --account=CHM137
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=nksauter@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=256
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
 
 export SCRATCH_FOLDER='$SCRATCH/cry11ba/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

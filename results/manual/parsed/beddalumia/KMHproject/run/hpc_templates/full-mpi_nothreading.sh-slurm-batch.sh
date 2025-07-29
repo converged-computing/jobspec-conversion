@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=KMH.dmft
-#FLUX: -N=3
-#FLUX: --queue=regular1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=KMH.dmft
+#SBATCH --output=sLOG_%x_out%j.txt
+#SBATCH --error=sLOG_%x_err%j.txt
+#SBATCH --mail-user=gbellomi@sissa.it
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=12:00:00
+#SBATCH --partition=regular1
+#SBATCH --constraint=ntasks-per-node=20
 
 module load gnu8/8.3.0
 module load mkl/19.1.3.304

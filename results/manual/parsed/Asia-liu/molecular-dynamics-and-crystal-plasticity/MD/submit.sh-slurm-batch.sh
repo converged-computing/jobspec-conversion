@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-poo-1421
-#FLUX: -n=2
-#FLUX: --queue=G1Part_sce
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=G1Part_sce
 
 export PATH='/es01/paratera/sce3063/lammps/lammps-2Aug2023/src:$PATH'
 

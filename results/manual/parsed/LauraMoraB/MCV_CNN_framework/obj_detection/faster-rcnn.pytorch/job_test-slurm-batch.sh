@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=udacity_new_xml_test_train
-#FLUX: -n=4
-#FLUX: --queue=mhigh,mlow
-#FLUX: --urgency=16
+#SBATCH --job-name=udacity_new_xml_test_train
+#SBATCH --output=./out/%x_%u_%j.out
+#SBATCH --error=./out/%x_%u_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=30G
+#SBATCH --partition=mhigh,mlow
 
 export CUDA_LAUNCH_BLOCKING='1'
 

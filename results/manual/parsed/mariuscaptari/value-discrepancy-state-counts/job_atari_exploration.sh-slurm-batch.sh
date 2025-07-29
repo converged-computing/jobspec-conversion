@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fat-dog-6834
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=gpu
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='.8'

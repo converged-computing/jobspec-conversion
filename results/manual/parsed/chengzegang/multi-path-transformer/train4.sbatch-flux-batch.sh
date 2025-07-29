@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llm4
-#FLUX: -c=64
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=llm4
+#FLUX -c=64
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export PATH='/usr/local/cuda-12/bin:/usr/local/cuda-12/lib64:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-12/lib64:/usr/lib:/usr/lib64:/usr/lib32:$LD_LIBRARY_PATH'

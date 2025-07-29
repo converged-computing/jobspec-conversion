@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-7854
-#FLUX: -n=2
-#FLUX: --queue=gpu
-#FLUX: -t=259440
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-car-0205
+#FLUX -n=2
+#FLUX --queue=gpu
+#FLUX -t=259440
+#FLUX --urgency=16
 
 module load SLEAP
 DATA_DIR=/ceph/zoo/users/sminano/crabs_pose_4k_TD4

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Resources
-#FLUX: --urgency=16
+#SBATCH --job-name=Resources
+#SBATCH --account=uoml
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=1
 
 module load miniconda
 conda activate jbrophy-20210713

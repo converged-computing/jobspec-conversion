@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=robustness
-#FLUX: -c=2
-#FLUX: --queue=cbmm
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=robustness
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=8GB
+#SBATCH --time=05:00:00
+#SBATCH --partition=cbmm
+#SBATCH --chdir=./log/
+#SBATCH --array=0-644
+#SBATCH --exclude=node104
 
 cd /om2/user/xboix/src/convex_adversarial/
 hostname

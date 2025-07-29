@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leg-6470
-#FLUX: -c=32
-#FLUX: --queue=hourly,daily,general
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=fat-citrus-9433
+#FLUX -c=32
+#FLUX --queue=hourly,daily,general
+#FLUX -t=900
+#FLUX --urgency=16
 
 ncore=$SLURM_CPUS_PER_TASK
 config_file=config_loop.mac

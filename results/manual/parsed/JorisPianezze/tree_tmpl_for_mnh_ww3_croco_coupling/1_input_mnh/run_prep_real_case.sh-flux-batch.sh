@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PREP_REAL_CASE
+#FLUX --job-name=PREP_REAL_CASE
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export YEAR='2021'
 export MONTH='09'

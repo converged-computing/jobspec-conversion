@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=frame_d
-#FLUX: -n=10
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=frame_d
+#SBATCH --output=frame_ps.log
+#SBATCH --mail-user=es.lozano@uniandes.edu.co
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 echo "Soy un JOB de prueba en GPU"
 nvidia-smi

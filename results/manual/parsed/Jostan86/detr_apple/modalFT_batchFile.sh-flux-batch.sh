@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=modalFT_r101
-#FLUX: --queue=dgx
-#FLUX: --urgency=16
+#FLUX --job-name=modalFT_r101
+#FLUX --queue=dgx
+#FLUX --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-plant-8428
-#FLUX: --urgency=16
+#FLUX --job-name=placid-lizard-5026
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OPM/LBPM/example/systems/summitdev.lsf

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=getBiomass
-#FLUX: -c=3
-#FLUX: --queue=agap_normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=getBiomass
+#SBATCH --account=agap
+#SBATCH --output=/lustre/vieilledentg/getBiomass_log.%A_%a.txt
+#SBATCH --error=/lustre/vieilledentg/getBiomass_err.%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=agap_normal
+#SBATCH --array=1-120
 
 export MPLCONFIGDIR='/lustre/vieilledentg/config/matplotlib'
 

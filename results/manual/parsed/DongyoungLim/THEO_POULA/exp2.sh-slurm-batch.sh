@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sensitive_ana2
-#FLUX: --queue=gpu-cascade
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sensitive_ana2
+#SBATCH --account=sc075
+#SBATCH --output=./outputs/output-%x.out
+#SBATCH --error=./errs/error-%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu-cascade
+#SBATCH --qos=gpu
 
 module load gcc/8.2.0
 module load nvidia/nvhpc

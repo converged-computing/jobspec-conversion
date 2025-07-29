@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=prepalbert412
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=prepalbert412
+#SBATCH --output=logs/prepalbert412.%j.out
+#SBATCH --error=logs/prepalbert412.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100-sxm2:1
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
 
 module load anaconda3/2022.05 cuda/12.1
 conda activate greenai

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-toaster-1058
-#FLUX: --urgency=16
+#FLUX --job-name=crusty-animal-6728
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Vicellken/Whole_exome_sequence/WESpipeline.sh

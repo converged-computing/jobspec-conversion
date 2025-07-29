@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tf_train
-#FLUX: --queue=rtx
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_train
+#SBATCH --account=BCS20003
+#SBATCH --output=tf_train.o%j
+#SBATCH --error=tf_train.e%j
+#SBATCH --mail-user=jvantassel@tacc.utexas.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=rtx
 
 set -e
 cd ..

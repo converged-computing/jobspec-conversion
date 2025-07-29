@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lizard-1429
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=outstanding-avocado-2814
+#FLUX -t=900
+#FLUX --urgency=16
 
 module load system py-globus-cli/1.9.0_py36
 if [ $# -ne 1 ]; then

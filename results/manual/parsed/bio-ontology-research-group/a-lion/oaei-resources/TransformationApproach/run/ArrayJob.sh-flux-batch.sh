@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=alighn
-#FLUX: -c=8
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=alighn
+#FLUX -c=8
+#FLUX -t=144000
+#FLUX --urgency=16
 
 function readJobArrayParams () {
   _SIZE=${1}

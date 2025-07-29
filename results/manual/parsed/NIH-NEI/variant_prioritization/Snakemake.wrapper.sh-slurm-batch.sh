@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cat-5071
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=lscratch:100
+#SBATCH --mem=32g
 
 module load snakemake/5.24.1 || exit 1
 cp /data/OGL/resources/variant_prioritization.git.log .

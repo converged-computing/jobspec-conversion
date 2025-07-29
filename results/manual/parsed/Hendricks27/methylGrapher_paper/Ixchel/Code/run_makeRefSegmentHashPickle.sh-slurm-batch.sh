@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-noodle-3377
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100G
 
 echo "Loading software..."
 eval $( spack load --sh python@3 )

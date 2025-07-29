@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dartParFlow
-#FLUX: -n=48
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=dartParFlow
+#FLUX -n=48
+#FLUX --queue=batch
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export LOGNAME='$WORK/$1'
 export LOGNAME_S='$WORK/rundart01'

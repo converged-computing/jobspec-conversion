@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dftb-ra-nm
-#FLUX: -n=8
-#FLUX: --queue=gpu2
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dftb-ra-nm
+#FLUX -n=8
+#FLUX --queue=gpu2
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

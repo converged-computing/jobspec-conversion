@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=slurm_snar
-#FLUX: --queue=skylake
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=slurm_snar
+#FLUX --queue=skylake
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'

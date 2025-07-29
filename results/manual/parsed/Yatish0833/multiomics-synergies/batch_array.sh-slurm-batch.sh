@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fat-nunchucks-3775
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=XXXXXXX
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5gb
+#SBATCH --time=1-00:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-40
 
 set -e -x
 FWDIR="$(cd "`dirname $0`"/..; pwd)"

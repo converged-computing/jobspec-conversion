@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-arm-5180
-#FLUX: --queue=standard96
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=placid-underoos-7702
+#FLUX --queue=standard96
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='none'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-puppy-3747
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-platanos-5290
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx8000M'
 

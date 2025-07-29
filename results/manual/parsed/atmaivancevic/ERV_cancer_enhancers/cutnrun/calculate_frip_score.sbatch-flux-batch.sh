@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frip_score
-#FLUX: -c=8
-#FLUX: --queue=short
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=frip_score
+#FLUX -c=8
+#FLUX --queue=short
+#FLUX -t=86400
+#FLUX --urgency=16
 
 numThreads=8
 module load bedtools

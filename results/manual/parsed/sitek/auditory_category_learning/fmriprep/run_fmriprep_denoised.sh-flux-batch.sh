@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-toaster-9221
-#FLUX: -c=8
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=fugly-itch-9691
+#FLUX -c=8
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module add freesurfer
 module add fsl

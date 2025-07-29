@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-chip-4117
-#FLUX: -N=8
-#FLUX: -c=16
-#FLUX: --queue=gpgpu-1
-#FLUX: --urgency=16
+#FLUX --job-name=arid-motorcycle-6029
+#FLUX -N=8
+#FLUX -c=16
+#FLUX --queue=gpgpu-1
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peas-7099
-#FLUX: --queue=fpgasyn
-#FLUX: --urgency=16
+#FLUX --job-name=arid-soup-8793
+#FLUX --queue=fpgasyn
+#FLUX --urgency=16
 
 module load intelFPGA_pro/19.4.0
 module load intel_s10mx/19.3.0

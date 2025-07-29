@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-latke-9352
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=pusheena-bits-9668
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module restore uneq
 cd ..

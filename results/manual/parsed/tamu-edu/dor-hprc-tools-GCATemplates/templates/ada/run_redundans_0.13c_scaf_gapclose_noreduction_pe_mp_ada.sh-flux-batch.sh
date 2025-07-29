@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-soup-9789
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-kitty-9694
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_redundans_0.13c_scaf_gapclose_noreduction_pe_mp_ada.sh

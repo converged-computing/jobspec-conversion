@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=randeng_t5_77M_summary
-#FLUX: -c=30
-#FLUX: --urgency=16
+#SBATCH --job-name=randeng_t5_77M_summary
+#SBATCH --output=%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:2
+#SBATCH --constraint=ntasks-per-node=2
 
 export PL_DEEPSPEED_CONFIG_PATH='$config_json'
 export TORCH_EXTENSIONS_DIR='/cognitive_comp/ganruyi/tmp/torch_extendsions'

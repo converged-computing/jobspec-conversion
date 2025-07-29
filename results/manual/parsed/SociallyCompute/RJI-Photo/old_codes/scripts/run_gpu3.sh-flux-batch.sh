@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_train
-#FLUX: --queue=gpu3
-#FLUX: -t=87780
-#FLUX: --urgency=16
+#FLUX --job-name=resnet_train
+#FLUX --queue=gpu3
+#FLUX -t=87780
+#FLUX --urgency=16
 
 echo "### Starting at: $(date) ###"
 modelname='October17_ava_30ep_MINI512_resnet_adam_regression'

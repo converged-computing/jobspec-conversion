@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-rabbit-7366
-#FLUX: -n=2
-#FLUX: --queue=quick,norm
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=00:59:00
+#SBATCH --partition=quick,norm
 
 N=${SLURM_ARRAY_TASK_ID}
 filelist=${1}

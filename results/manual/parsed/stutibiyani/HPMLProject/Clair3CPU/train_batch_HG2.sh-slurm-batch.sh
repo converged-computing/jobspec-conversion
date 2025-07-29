@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=hpml_proj_Clair3_train_HG002
-#FLUX: -c=4
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=hpml_proj_Clair3_train_HG002
+#SBATCH --output=%x.out
+#SBATCH --mail-user=sc8781@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=16GB
+#SBATCH --time=02:00:00
 
 singularity exec --overlay /scratch/sc8781/Project/environment/overlay-50G-10M.ext3:rw \
  /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif /bin/bash \

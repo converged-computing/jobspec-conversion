@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rMATS_${g1}_${g2}
-#FLUX: -c=32
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=rMATS_${g1}_${g2}
+#FLUX -c=32
+#FLUX -t=28800
+#FLUX --urgency=16
 
 set -euo pipefail
 function err() { cat <<< "$@" 1>&2; }

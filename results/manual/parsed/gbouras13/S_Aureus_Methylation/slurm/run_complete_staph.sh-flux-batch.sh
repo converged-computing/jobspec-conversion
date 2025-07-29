@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=methylation
-#FLUX: --queue=batch
-#FLUX: -t=255600
-#FLUX: --urgency=16
+#FLUX --job-name=methylation
+#FLUX --queue=batch
+#FLUX -t=255600
+#FLUX --urgency=16
 
 SNK_DIR="/hpcfs/users/a1667917/S_Aureus_Methylation"
 PROF_DIR="$SNK_DIR/snakemake_profile"

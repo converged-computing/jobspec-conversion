@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poo-9901
-#FLUX: -c=16
-#FLUX: --queue=overflow
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=doopy-signal-3167
+#FLUX -c=16
+#FLUX --queue=overflow
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-train-2318
-#FLUX: --queue=cpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-signal-9559
+#FLUX --queue=cpu
+#FLUX -t=43200
+#FLUX --urgency=16
 
 module purge
 module use /apps/USE/easybuild/staging/2021.1/modules/all

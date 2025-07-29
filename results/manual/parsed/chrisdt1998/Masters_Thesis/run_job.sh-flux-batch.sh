@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=vit_with_pruning_importance_test
-#FLUX: -c=3
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=vit_with_pruning_importance_test
+#FLUX -c=3
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load gcc
 module load python

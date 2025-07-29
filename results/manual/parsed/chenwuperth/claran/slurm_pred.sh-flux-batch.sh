@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-6303
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-knife-5200
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

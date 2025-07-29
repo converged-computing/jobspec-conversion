@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-despacito-4961
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/chchang6/scripts/MolecularDynamics/CHARMM/nrel_run_charmm

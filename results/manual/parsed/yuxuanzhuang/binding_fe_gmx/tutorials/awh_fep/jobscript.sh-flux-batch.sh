@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=epj_new_modified_2
-#FLUX: -n=8
-#FLUX: --queue=lindahl4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=epj_new_modified_2
+#FLUX -n=8
+#FLUX --queue=lindahl4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

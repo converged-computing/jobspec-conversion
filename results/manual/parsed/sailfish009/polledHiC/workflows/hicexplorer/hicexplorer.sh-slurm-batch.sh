@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake_hicexplorer
-#FLUX: -c=8
-#FLUX: --queue=workq
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake_hicexplorer
+#SBATCH --output=snakemake_hicexplorer.log
+#SBATCH --error=snakemake_hicexplorer.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --partition=workq
 
 module purge
 module load system/Miniconda3-4.7.10

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=joint_11
-#FLUX: --queue=gpu-shared
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=joint_11
+#SBATCH --account=cla173
+#SBATCH --output=exp_texture_joint_11.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=00:10:00
+#SBATCH --partition=gpu-shared
+#SBATCH --constraint=ntasks-per-node=6
 
 export CUDA_HOME='/usr/local/cuda-8.0'
 export LD_LIBRARY_PATH='/home/enijkamp/cudnn-3.0/lib64:$LD_LIBRARY_PATH'

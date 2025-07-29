@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=da-cst-im-roi_cs6-HP-WIDER
-#FLUX: --queue=1080ti-long
-#FLUX: --urgency=16
+#SBATCH --job-name=da-cst-im-roi_cs6-HP-WIDER
+#SBATCH --output=gypsum/logs/%j_cs6-HP-WIDER.txt
+#SBATCH --error=gypsum/errs/%j_cs6-HP-WIDER.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=60000
+#SBATCH --partition=1080ti-long
 
 python tools/train_net_step.py \
     --dataset bdd_peds+HP18k \

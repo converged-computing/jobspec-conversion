@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phase
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=phase
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load gcc/9.2.0-r4tyw54
 module load cuda/11.0.2-4szlv2t

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=segment_test
-#FLUX: -n=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=segment_test
+#SBATCH --account=PAS2136
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 set -e
 SNAKEFILE=$1

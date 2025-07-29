@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=QDGP64
-#FLUX: -c=10
-#FLUX: --queue=CLUSTER
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=QDGP64
+#SBATCH --output=./output/%x-%j.out
+#SBATCH --error=./output/%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=CLUSTER
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=compute-0-2
 
 module load python/anaconda3
 module load cuda/cuda-11.4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=infer-obj-seg-arr
-#FLUX: -c=4
-#FLUX: -t=86400
-#FLUX: --urgency=15
+#FLUX --job-name=infer-obj-seg-arr
+#FLUX -c=4
+#FLUX -t=86400
+#FLUX --urgency=15
 
 export PATH='/opt/singularity/bin:${PATH}'
 

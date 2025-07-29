@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-taco-0929
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=nstaff
+#SBATCH --output=slurm-build-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu
 
 export INSTALL_DIR='${INSTALL_DIR:-`pwd`/install}'
 export PLUGIN_DIR='$INSTALL_DIR/plugin'

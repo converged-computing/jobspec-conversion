@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-nalgas-9100
-#FLUX: -N=4
-#FLUX: --queue=[partition]
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-poodle-6291
+#FLUX -N=4
+#FLUX --queue=[partition]
+#FLUX --urgency=16
 
 export HYDRA_PROXY_PORT='55555'
 

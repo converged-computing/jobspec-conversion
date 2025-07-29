@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JupiterNotebook
-#FLUX: --queue=mid
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=JupiterNotebook
+#SBATCH --output=jupyter-%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=mid
+#SBATCH --constraint=ntasks-per-node=1
 
 echo "======================="
 echo "Loading Anaconda Module..."

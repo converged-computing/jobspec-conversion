@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=julia_lu
-#FLUX: -c=16
-#FLUX: --queue=shared
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=julia_lu
+#SBATCH --account=csd453
+#SBATCH --output=julia_lu.%j.%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=00:30:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='32'
 

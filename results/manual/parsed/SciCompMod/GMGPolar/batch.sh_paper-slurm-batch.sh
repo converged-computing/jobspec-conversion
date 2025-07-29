@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gmgpolar
-#FLUX: -c=4
-#FLUX: --exclusive
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=gmgpolar
+#SBATCH --output=slurm-%A.out
+#SBATCH --error=slurm-%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=4-04:00:00
+#SBATCH: --exclusive
 
 debug=0
 v1=1

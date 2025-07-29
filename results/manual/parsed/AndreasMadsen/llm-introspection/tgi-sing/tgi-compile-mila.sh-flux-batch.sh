@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tgi-compile
-#FLUX: -c=2
-#FLUX: --queue=unkillable-cpu
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=tgi-compile
+#FLUX -c=2
+#FLUX --queue=unkillable-cpu
+#FLUX -t=36000
+#FLUX --urgency=16
 
 set -e
 set -v

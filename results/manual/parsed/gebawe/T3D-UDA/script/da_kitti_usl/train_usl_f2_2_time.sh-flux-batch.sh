@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lemur-8260
-#FLUX: -c=24
-#FLUX: --queue=amdgpulong
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-sundae-4679
+#FLUX -c=24
+#FLUX --queue=amdgpulong
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export NCCL_LL_THRESHOLD='0'
 

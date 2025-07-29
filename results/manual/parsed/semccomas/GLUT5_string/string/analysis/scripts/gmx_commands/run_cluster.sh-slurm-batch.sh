@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=conf
-#FLUX: --queue=tcb
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=conf
+#SBATCH --output=output.out
+#SBATCH --error=error.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=23:00:00
+#SBATCH --partition=tcb
+#SBATCH --constraint=ntasks-per-node=4
 
 module unload gromacs
 module load gromacs/2020.2

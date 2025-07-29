@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nvt
-#FLUX: -c=5
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=nvt
+#FLUX -c=5
+#FLUX --queue=small
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx'

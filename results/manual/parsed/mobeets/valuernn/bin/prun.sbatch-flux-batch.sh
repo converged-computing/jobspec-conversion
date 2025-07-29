@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch
-#FLUX: --queue=shared
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#FLUX --job-name=pytorch
+#FLUX --queue=shared
+#FLUX -t=1380
+#FLUX --urgency=16
 
 module load python/3.8.5-fasrc01
 source activate pt38

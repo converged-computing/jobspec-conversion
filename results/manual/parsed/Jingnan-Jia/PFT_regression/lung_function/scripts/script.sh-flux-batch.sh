@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-1145
-#FLUX: --queue=amd-gpu-long
-#FLUX: --urgency=16
+#FLUX --job-name=joyous-buttface-6411
+#FLUX --queue=amd-gpu-long
+#FLUX --urgency=16
 
 export PATH='$PATH:"/cm/shared/easybuild/GenuineIntel/software/git/2.38.1-GCCcore-12.2.0-nodocs/bin/git'
 

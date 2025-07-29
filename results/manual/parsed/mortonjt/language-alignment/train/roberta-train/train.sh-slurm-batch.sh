@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=roberta
-#FLUX: -n=40
-#FLUX: --exclusive
-#FLUX: --queue=gpu
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=roberta
+#SBATCH --output=stdout.txt
+#SBATCH --mail-user=jmorton@flatironinstitute.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=8-08:00:00
+#SBATCH --partition=gpu
+#SBATCH: --exclusive
 
 ip=`curl ifconfig.me`
 module load cuda/10.1.105_418.39

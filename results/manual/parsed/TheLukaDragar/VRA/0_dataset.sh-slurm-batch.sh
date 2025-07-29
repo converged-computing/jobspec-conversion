@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=extract_faces
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=extract_faces
+#SBATCH --output=extract_faces_%j.out
+#SBATCH --error=extract_faces_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=0
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 source  /d/hpc/projects/FRI/ldragar/miniconda3/etc/profile.d/conda.sh
 conda activate /d/hpc/projects/FRI/ldragar/pytorch_env

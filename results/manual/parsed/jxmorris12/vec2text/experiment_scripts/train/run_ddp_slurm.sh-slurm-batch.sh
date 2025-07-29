@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poodle-9248
-#FLUX: -c=16
-#FLUX: --queue=rush,gpu
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a6000:4
+#SBATCH --mem=128G
+#SBATCH --time=28-00:00:00
+#SBATCH --partition=rush,gpu
 
 export BASEDIR='/home/jxm3/research/retrieval/inversion/vec2text/'
 export NCCL_P2P_LEVEL='NVL'

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run_test_sims
-#FLUX: --queue=genomicsguestA
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=run_test_sims
+#SBATCH --account=b1042
+#SBATCH --output=repeated_test_output.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH --partition=genomicsguestA
+#SBATCH --constraint=ntasks-per-node=1
 
 module load singularity
 nextflow run multi_species_simfiles.nf

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=RNAseq
-#FLUX: -n=2
-#FLUX: --queue=medium
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=RNAseq
+#SBATCH --output=slogs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2500M
+#SBATCH --time=20:00:00
+#SBATCH --partition=medium
 
 export LOGDIR='${HOME}/scratch/slogs/${SLURM_JOB_NAME}-${SLURM_JOB_ID}'
 export TMPDIR='/fast/users/${USER}/scratch/tmp;'

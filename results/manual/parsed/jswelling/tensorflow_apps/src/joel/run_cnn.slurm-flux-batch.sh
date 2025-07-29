@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-1866
-#FLUX: --queue=GPU-shared
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-pancake-3381
+#FLUX --queue=GPU-shared
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1
 source ${TENSORFLOW_ENV}/bin/activate

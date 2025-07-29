@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rMATS_${g1}_${g2}
-#FLUX: -c=32
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=rMATS_${g1}_${g2}
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=lscratch:250
+#SBATCH --mem=64g
+#SBATCH --time=08:00:00
 
 set -euo pipefail
 function err() { cat <<< "$@" 1>&2; }

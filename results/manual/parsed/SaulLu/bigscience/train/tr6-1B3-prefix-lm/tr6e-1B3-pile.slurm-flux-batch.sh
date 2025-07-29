@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prefix-lm-1B3.slurm
-#FLUX: -N=16
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=prefix-lm-1B3.slurm
+#FLUX -N=16
+#FLUX -c=40
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

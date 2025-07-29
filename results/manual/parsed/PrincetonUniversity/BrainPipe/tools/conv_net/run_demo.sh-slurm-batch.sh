@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-milkshake-8516
-#FLUX: --queue=all
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=demo_%j.out
+#SBATCH --error=demo_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=5000
+#SBATCH --time=00:10:00
+#SBATCH --partition=all
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anacondapy/2020.11
 . activate brainpipe

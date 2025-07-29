@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PubChem_TransEA
-#FLUX: --queue=ampere
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=PubChem_TransEA
+#FLUX --queue=ampere
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

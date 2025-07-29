@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poodle-4663
-#FLUX: -c=40
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=4
+#SBATCH --time=10:00:00
+#SBATCH --constraint=a100
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='ib0'

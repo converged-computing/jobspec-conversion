@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hope-3416
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=1380
-#FLUX: --urgency=16
+#SBATCH --account=ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:23:00
+#SBATCH --partition=STANDARDQ
 
 export PYTHON_EGG_CACHE='/tmp'
 

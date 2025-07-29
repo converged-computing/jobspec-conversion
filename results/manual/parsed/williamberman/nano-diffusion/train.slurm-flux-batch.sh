@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-malarkey-8406
-#FLUX: -c=96
+#FLUX --job-name=anxious-dog-1792
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 export HF_HOME='/fsx/william/hf_home'
 export NCCL_ASYNC_ERROR_HANDLING='1'

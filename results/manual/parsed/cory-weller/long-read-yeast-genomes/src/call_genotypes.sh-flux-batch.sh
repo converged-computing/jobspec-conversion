@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-leopard-3713
-#FLUX: --queue=quick,norm
-#FLUX: -t=14399
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-fudge-4417
+#FLUX --queue=quick,norm
+#FLUX -t=14399
+#FLUX --urgency=16
 
 export FASTA1='$(realpath ${FASTA1})'
 export FASTA2='$(realpath ${FASTA2})'

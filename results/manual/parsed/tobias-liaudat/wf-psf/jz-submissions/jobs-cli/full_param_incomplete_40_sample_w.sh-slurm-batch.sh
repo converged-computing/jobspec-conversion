@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=param_incomplete_40_sample_w
-#FLUX: -c=10
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=param_incomplete_40_sample_w
+#SBATCH --account=ynx@gpu
+#SBATCH --output=param_incomplete_40_sample_w%j.out
+#SBATCH --error=param_incomplete_40_sample_w%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=1,v100-32g
+#SBATCH --array=0-3
 
 module purge
 module load tensorflow-gpu/py3/2.4.1

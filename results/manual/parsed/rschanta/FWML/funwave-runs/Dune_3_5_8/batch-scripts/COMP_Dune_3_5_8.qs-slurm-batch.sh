@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=COMP_Dune_3_5_8
-#FLUX: --queue=standard
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=COMP_Dune_3_5_8
+#SBATCH --output=./Dune_3_5_8/slurm_logs/COMP_out.out
+#SBATCH --error=./Dune_3_5_8/slurm_logs/COMP_err.out
+#SBATCH --mail-user=rschanta@udel.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=standard
+#SBATCH --dependency=27620481
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

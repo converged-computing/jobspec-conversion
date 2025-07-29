@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name={name}
-#FLUX: -n=20
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name={name}
+#FLUX -n=20
+#FLUX -t=14400
+#FLUX --urgency=16
 
 source ~/.bashrc.ext
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main

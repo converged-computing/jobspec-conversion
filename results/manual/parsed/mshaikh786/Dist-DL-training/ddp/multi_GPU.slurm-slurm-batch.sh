@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cupcake-9853
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=4
+#SBATCH --time=00:10:00
+#SBATCH --constraint=a100
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

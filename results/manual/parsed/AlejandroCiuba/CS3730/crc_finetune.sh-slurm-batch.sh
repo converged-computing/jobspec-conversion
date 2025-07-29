@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=cs3730-finetune
-#FLUX: --queue=a100
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cs3730-finetune
+#SBATCH --output=output/%x-%A.out
+#SBATCH --mail-user=alc307@pitt.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=a100
+#SBATCH --qos=short
+#SBATCH --constraint=amd,ntasks-per-node=1
 
 echo "RUN:" `date`
 module load gcc/8.2.0 python/anaconda3.10-2022.10

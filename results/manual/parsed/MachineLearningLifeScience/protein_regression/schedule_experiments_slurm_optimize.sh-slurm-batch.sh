@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=OptimizePR_BENCH
-#FLUX: -c=4
-#FLUX: --queue=boomsma
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=OptimizePR_BENCH
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=12:00:00
+#SBATCH --partition=boomsma
+#SBATCH --array=224-4339
 
 OUTPUT_LOG=/home/pcq275/protein_regression/slurm_experiment_optimize.log
 CONDA_BASE=$(conda info --base)

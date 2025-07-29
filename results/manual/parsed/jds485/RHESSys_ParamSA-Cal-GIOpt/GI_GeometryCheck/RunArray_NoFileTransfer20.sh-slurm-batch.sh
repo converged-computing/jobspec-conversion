@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lizard-8623
-#FLUX: --queue=standard
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=/scratch/js4yd/GI_RandomSeedEval910/RHESSysRuns/output/Run20_%a.out
+#SBATCH --mail-user=js4yd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=standard
+#SBATCH --chdir=/scratch/js4yd/GI_RandomSeedEval910/RHESSysRuns/
 
 module purge
 module load singularity

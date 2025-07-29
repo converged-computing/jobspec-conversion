@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-2348
-#FLUX: -n=4
-#FLUX: --queue=copyq
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-dog-6829
+#FLUX -n=4
+#FLUX --queue=copyq
+#FLUX -t=129600
+#FLUX --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export OMP_NUM_THREADS='24'

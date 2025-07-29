@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pastry-5425
-#FLUX: -c=8
-#FLUX: --queue=gpgpu
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=purple-poodle-8073
+#FLUX -c=8
+#FLUX --queue=gpgpu
+#FLUX -t=604800
+#FLUX --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=pyslur
-#FLUX: -c=8
-#FLUX: -t=82800
-#FLUX: --urgency=16
+#SBATCH --job-name=pyslur
+#SBATCH --output=pyslur_%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=0
+#SBATCH --time=23:00:00
+#SBATCH --constraint=ntasks-per-node=1,A100
+#SBATCH --exclude=compute-0-[0-25,27-40,42-49,100-106]
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hobbit-7061
-#FLUX: -N=2
-#FLUX: -n=96
+#FLUX --job-name=dirty-fork-7459
+#FLUX -N=2
+#FLUX -n=96
 #FLUX: --exclusive
-#FLUX: --queue=sapphire,huce_cascade,seas_compute,shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --queue=sapphire,huce_cascade,seas_compute,shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 export OMPI_MCL_btl='openib'
 

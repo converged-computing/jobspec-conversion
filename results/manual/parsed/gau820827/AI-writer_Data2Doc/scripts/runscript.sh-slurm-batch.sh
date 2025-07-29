@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=training
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=training
+#SBATCH --output=slurm_%j.out
+#SBATCH --error=slurm_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=32GB
+#SBATCH --time=4-00:00:00
 
 cd /home/yhh303/AI-writer_Data2Doc/train/
 module load pytorch/python3.6/0.3.0_4

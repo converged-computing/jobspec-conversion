@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=codellama_llamax_finetune
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: --urgency=16
+#FLUX --job-name=codellama_llamax_finetune
+#FLUX -c=10
+#FLUX --queue=a100
+#FLUX --urgency=16
 
 export NCCL_IB_HCA='mlx5'
 export NCCL_IB_TC='136'

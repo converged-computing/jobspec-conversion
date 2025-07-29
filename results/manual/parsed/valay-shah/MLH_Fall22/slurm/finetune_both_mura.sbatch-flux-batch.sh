@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=mlh_baseline_downstream_both_mura
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=mlh_baseline_downstream_both_mura
+#FLUX -c=4
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 export PATH='/scratch/csp9835/penv/bin:$PATH;'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=milky-house-5141
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-signal-3832
+#FLUX --urgency=16
 

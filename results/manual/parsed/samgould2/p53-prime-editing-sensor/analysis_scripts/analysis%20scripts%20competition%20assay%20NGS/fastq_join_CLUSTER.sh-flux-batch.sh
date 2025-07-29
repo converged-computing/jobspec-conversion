@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-muffin-2410
-#FLUX: --urgency=15
+#FLUX --job-name=bumfuzzled-banana-3240
+#FLUX --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/
 config=/net/bmc-lab2/data/lab/sanchezrivera/samgould/singular_competition_assay_data_PE_a549/config_join.txt

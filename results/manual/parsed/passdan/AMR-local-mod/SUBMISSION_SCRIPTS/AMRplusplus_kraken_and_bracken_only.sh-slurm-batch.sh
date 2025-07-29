@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-milkshake-6281
-#FLUX: -c=4
-#FLUX: --queue=epyc_ssd
-#FLUX: --urgency=16
+#SBATCH --output=logs/%J.out
+#SBATCH --error=logs/%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8000
+#SBATCH --partition=epyc_ssd
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

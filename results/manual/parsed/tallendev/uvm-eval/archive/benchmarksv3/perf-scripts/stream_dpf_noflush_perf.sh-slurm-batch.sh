@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stream-dpf-noflush-perf
-#FLUX: --exclusive
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=stream-dpf-noflush-perf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH: --exclusive
+#SBATCH --nodelist=voltron
 
 ITERS=5
 module load cuda

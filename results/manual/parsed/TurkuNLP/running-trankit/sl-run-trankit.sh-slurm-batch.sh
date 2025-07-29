@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-punk-9018
-#FLUX: --queue=gputest
-#FLUX: -t=420
-#FLUX: --urgency=16
+#SBATCH --account=Project_2005092
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100:1,nvme:100
+#SBATCH --mem=10G
+#SBATCH --time=00:07:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=1
 
 mkdir -p logs
 echo "START: $(date)"

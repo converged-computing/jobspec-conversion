@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-salad-2976
-#FLUX: --queue=GPU-small
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-fork-0005
+#FLUX --queue=GPU-small
+#FLUX -t=7200
+#FLUX --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

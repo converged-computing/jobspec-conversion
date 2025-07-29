@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-spoon-6839
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/LiterallyUniqueLogin/ukbiobank_strs/array_imputed/generate_complex_metadata_files.pbs

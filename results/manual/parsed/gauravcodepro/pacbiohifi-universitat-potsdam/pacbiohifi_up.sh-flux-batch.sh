@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bicycle-2149
-#FLUX: --urgency=16
+#FLUX --job-name=blank-snack-1689
+#FLUX --urgency=16
 
                      echo "there are two assembly configurations available, either perform the assembly"
             echo "on the single reads or perform the assembly using the paternal and the maternal sequences"

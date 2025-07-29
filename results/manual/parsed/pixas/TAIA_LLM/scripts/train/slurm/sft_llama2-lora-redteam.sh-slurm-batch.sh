@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=sft_llama
-#FLUX: -c=16
-#FLUX: --queue=partition
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=sft_llama
+#SBATCH --output=logs/train/llama7b-lora-r32-redteam100.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=partition
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --exclude=SH-IDC1-10-140-1-158
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='ERROR'

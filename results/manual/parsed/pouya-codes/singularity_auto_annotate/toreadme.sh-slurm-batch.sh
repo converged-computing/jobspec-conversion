@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=annotate
-#FLUX: --queue=upgrade
-#FLUX: --urgency=16
+#SBATCH --job-name=annotate
+#SBATCH --output=path/to/folder/%a.out
+#SBATCH --error=path/to/folder/%a.err
+#SBATCH --mail-user=<email>
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --partition=upgrade
+#SBATCH --chdir=/projects/ovcare/classification/singularity_modules/singularity_auto_annotate
+#SBATCH --array=1-793
 
 echo """# Auto Annotate
 \`\`\`

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-citrus-8576
-#FLUX: --queue=medium
-#FLUX: -t=173520
-#FLUX: --urgency=16
+#FLUX --job-name=expressive-cherry-6224
+#FLUX --queue=medium
+#FLUX -t=173520
+#FLUX --urgency=16
 
 user_name='ccr13'
 data_dir=/n/scratch3/users/c/ccr13/Chi_CyCIF/DATA/

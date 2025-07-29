@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-blackbean-8865
-#FLUX: -c=24
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=blue-leopard-2171
+#FLUX -c=24
+#FLUX -t=172800
+#FLUX --urgency=16
 
 TARGET="0.35"
 BEHAVIOR="0.4"

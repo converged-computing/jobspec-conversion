@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=plsareal
-#FLUX: -c=20
-#FLUX: --queue=shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=plsareal
+#SBATCH --account=csd635
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=5000M
+#SBATCH --time=02:00:00
+#SBATCH --partition=shared
+#SBATCH --array=1-20
 
 export MODULEPATH='$MODULEPATH:/share/apps/compute/modulefiles && module purge && module load gnu/7.2.0 cmake/3.12.1 && /home/oleksanf/miniconda3/bin/python3 /oasis/projects/nsf/csd635/oleksanf/github/mixer_private/precimed/mixer.py snps \'
 

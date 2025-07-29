@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=DistributedLayoutAlgorithm
-#FLUX: -N=20
-#FLUX: -c=5
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=DistributedLayoutAlgorithm
+#SBATCH --account=[ComputeCanada
+#SBATCH --output=jobOutput/DistributedLayoutAlgorithm_output_%j.txt
+#SBATCH --mail-user=[email
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --time=23:59:59
+#SBATCH --constraint=ntasks-per-node=8
 
 export MKL_NUM_THREADS='1'
 export SPARK_IDENT_STRING='$SLURM_JOBID'

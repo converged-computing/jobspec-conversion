@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-carrot-3441
-#FLUX: -c=16
-#FLUX: --queue=common
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-poodle-1197
+#FLUX -c=16
+#FLUX --queue=common
+#FLUX --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

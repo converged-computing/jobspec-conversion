@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=run_arc_evo_loop
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=run_arc_evo_loop
+#SBATCH --output=run_arc_evo_loop.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load CMake
 module load binutils

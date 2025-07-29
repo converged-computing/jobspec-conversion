@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lizard-2727
-#FLUX: --urgency=16
+#FLUX --job-name=carnivorous-hippo-4899
+#FLUX --urgency=16
 
 export yy='`echo ${cdate} | cut -c 1-4`'
 export mm='`echo ${cdate} | cut -c 5-6`'

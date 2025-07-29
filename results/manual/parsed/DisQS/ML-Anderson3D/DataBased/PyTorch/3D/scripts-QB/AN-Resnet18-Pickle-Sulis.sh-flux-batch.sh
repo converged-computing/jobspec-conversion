@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-salad-3176
-#FLUX: -c=42
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-lamp-0469
+#FLUX -c=42
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 getseed=${1:-"N"} #Set to Y if you what to reuse stored seed
 epochs=${2:-50} #No of epochs

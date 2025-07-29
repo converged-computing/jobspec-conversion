@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-0913
-#FLUX: --queue=wacc
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-staircase-8186
+#FLUX --queue=wacc
+#FLUX --urgency=16
 
 rm md5_gpu
 make

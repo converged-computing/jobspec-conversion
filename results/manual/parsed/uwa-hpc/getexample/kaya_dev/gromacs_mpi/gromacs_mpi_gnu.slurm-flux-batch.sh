@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_mpi
-#FLUX: -N=2
-#FLUX: --queue=workq
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs_mpi
+#FLUX -N=2
+#FLUX --queue=workq
+#FLUX -t=2400
+#FLUX --urgency=16
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load gromacs/5.1.1

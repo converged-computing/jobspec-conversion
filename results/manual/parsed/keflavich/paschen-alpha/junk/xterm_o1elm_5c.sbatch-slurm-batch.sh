@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=xterm
-#FLUX: --queue=gui
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=xterm
+#SBATCH --account=adamginsburg
+#SBATCH --output=xterm_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3gb
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=gui
+#SBATCH --qos=adamginsburg
 
 date; hostname; pwd;
 unset XDG_RUNTIME_DIR

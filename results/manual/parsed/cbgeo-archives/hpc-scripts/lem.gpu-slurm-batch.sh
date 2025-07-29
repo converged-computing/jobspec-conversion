@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lemgpu
-#FLUX: --queue=tesla
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=lemgpu
+#SBATCH --account=SOGA-SL2-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=tesla
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=petscinstall
-#FLUX: -n=12
-#FLUX: --queue=normal
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=petscinstall
+#FLUX -n=12
+#FLUX --queue=normal
+#FLUX -t=60
+#FLUX --urgency=16
 
 set -eu
 rm -rf install petsc-3.6.3 src

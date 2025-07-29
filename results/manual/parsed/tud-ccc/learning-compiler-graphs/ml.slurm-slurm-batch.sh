@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-avocado-1647
-#FLUX: --queue=ml
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=p_da_mlforcode
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=ml
 
 module load modenv/ml
 module load TensorFlow

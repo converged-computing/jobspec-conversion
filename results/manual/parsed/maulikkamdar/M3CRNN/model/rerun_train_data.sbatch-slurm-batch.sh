@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=rerun_train_data
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=rerun_train_data
+#SBATCH --output=rerun_train_data_%j.txt
+#SBATCH --mail-user=lhan2@stanford.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000
+#SBATCH --time=08:00:00
 
 export OPENCV_OPENCL_RUNTIME=''
 

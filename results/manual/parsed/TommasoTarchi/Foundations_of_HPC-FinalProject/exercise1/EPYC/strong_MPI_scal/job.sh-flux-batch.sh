@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=strong_MPI_scal
-#FLUX: -N=2
-#FLUX: -n=256
+#FLUX --job-name=strong_MPI_scal
+#FLUX -N=2
+#FLUX -n=256
 #FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --queue=EPYC
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='$alloc'

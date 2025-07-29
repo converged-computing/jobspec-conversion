@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peas-4621
-#FLUX: -c=8
-#FLUX: --queue=grete:shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=nim00007
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=96G
+#SBATCH --time=06:00:00
+#SBATCH --partition=grete:shared
 
 source activate sam
 python evaluate_amg.py -c /scratch/usr/nimanwai/micro-sam/checkpoints/vit_b/livecell_sam/best.pt \

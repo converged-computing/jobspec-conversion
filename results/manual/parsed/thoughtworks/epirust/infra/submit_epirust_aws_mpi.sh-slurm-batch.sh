@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-motorcycle-9698
-#FLUX: -N=15
-#FLUX: -c=2
-#FLUX: --urgency=16
+#SBATCH --nodes=15
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --constraint=ntasks-per-node=20
 
 if [[ "${AWS_BATCH_JOB_NODE_INDEX}" -eq  "${AWS_BATCH_JOB_MAIN_NODE_INDEX}" ]]; then
     echo "Hello I'm the main node $HOSTNAME! I run the mpi job!"

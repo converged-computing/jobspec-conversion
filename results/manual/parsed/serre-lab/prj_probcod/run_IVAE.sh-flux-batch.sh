@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SVI_seeds
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=SVI_seeds
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 module load anaconda/3-5.2.0
 source activate py36

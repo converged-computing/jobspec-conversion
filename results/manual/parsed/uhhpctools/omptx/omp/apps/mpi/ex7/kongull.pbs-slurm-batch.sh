@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-banana-6779
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/uhhpctools/omptx/omp/apps/mpi/ex7/kongull.pbs

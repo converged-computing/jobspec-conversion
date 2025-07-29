@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=xxx
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=xxx
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200M
+#SBATCH --time=30-00:00:00
+#SBATCH --constraint=ntasks-per-node=32,ntasks-per-socket=16
 
 cd $SLURM_SUBMIT_DIR
 module load openmpi

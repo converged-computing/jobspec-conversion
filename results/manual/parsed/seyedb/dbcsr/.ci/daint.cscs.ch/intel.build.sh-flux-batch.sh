@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-parsnip-4944
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-parsnip-7604
+#FLUX -c=3
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 export PATH='/project/cray/alazzaro/cmake/bin:$PATH'
 

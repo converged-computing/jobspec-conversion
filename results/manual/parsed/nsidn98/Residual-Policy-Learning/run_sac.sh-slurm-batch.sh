@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hippo-8641
-#FLUX: --urgency=16
+#SBATCH --output=run.sh.log-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:volta:1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/gridsan/sidnayak/.mujoco/mujoco200/bin'
 

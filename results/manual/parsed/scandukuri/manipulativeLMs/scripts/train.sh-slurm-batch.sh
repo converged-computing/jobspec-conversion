@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=angry-hippo-9768
-#FLUX: -c=48
-#FLUX: --queue=cocoflops
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=cocoflops
+#SBATCH --output=job_output.%j.out
+#SBATCH --error=job_output.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --gres=gpu:2
+#SBATCH --mem=256G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=cocoflops
+#SBATCH --nodelist=cocoflops-hgx-1
 
 source /scr/jphilipp/miniconda3/etc/profile.d/conda.sh
 conda activate py310-jphilipp 

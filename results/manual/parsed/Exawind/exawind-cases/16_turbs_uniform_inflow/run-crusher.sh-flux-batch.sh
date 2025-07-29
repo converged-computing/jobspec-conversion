@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=16-turbine-crusher
-#FLUX: -N=96
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=16-turbine-crusher
+#FLUX -N=96
+#FLUX -t=1800
+#FLUX --urgency=16
 
 set -e
 cmd() {

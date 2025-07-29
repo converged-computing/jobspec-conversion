@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=lmp.gpu4
-#FLUX: -N=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=lmp.gpu4
+#SBATCH --account=hpcapps
+#SBATCH --output=std.out
+#SBATCH --error=std.err
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=04:00:00
 
 export OMP_NUM_THREADS='1'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=9
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=9
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export SINGULARITY_HOME='$PWD:/home/$USER '
 

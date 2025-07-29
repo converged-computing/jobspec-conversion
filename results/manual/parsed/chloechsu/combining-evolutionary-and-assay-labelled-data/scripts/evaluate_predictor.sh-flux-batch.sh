@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evaluate
-#FLUX: -c=16
-#FLUX: --queue=<partitionname>
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#FLUX --job-name=evaluate
+#FLUX -c=16
+#FLUX --queue=<partitionname>
+#FLUX -t=1440
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

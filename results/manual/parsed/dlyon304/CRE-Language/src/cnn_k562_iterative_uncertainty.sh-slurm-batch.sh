@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peanut-3987
-#FLUX: --queue=gpu
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --output=log/cnn_k562_iterative_uncertainty.out-%A_%a
+#SBATCH --error=log/cnn_k562_iterative_uncertainty.err-%A_%a
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --array=1-10%3
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_asl
-#FLUX: --queue=gpu
-#FLUX: -t=216000
-#FLUX: --urgency=16
+#FLUX --job-name=resnet_asl
+#FLUX --queue=gpu
+#FLUX -t=216000
+#FLUX --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate rs_3.8

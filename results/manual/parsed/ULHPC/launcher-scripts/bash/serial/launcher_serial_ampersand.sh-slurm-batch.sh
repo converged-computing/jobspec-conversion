@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SerialAmpersand
-#FLUX: -n=28
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=SerialAmpersand
+#SBATCH --output=SerialAmpersand-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --qos=normal
 
 if [ -f  /etc/profile ]; then
     .  /etc/profile

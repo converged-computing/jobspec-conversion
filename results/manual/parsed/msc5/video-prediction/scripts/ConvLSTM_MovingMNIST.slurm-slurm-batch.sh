@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=vp_mmnist
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=vp_mmnist
+#SBATCH --mail-user=msc5@princeton.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=12:00:00
+#SBATCH --chdir=/scratch/network/msc5/code/junior-iw/
+#SBATCH --array=4,5
 
 CWD_PATH=$(pwd)
 SCRIPT_PATH=$(dirname $(readlink -f "$0"))

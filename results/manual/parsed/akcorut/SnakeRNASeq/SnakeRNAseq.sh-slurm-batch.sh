@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=peanut_rna_seq
-#FLUX: -c=20
-#FLUX: --queue=highmem_p
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=peanut_rna_seq
+#SBATCH --output=peanut_rna_seq.%j.out
+#SBATCH --error=peanut_rna_seq.%j.err
+#SBATCH --mail-user=ac32082@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=200gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=highmem_p
 
 export LC_ALL='en_SG.utf8'
 export LANG='en_SG.utf8'

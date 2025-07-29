@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=Emotions-GPU
-#FLUX: -c=8
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#SBATCH --job-name=Emotions-GPU
+#SBATCH --output=output/logs/emotions-gpu-%A-%a-%J.%N.out
+#SBATCH --error=output/logs/emotions-gpu-%A-%a-%J.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=72g
+#SBATCH --partition=high
+#SBATCH --array=1-255
 
 module load CUDA/10.0.130
 module load PyTorch/1.4.0-foss-2017a-Python-3.6.4-CUDA-10.0.130

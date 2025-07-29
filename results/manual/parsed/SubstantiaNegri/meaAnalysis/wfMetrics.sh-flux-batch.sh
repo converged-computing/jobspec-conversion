@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lentil-1018
-#FLUX: --queue=priority
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-frito-3457
+#FLUX --queue=priority
+#FLUX -t=300
+#FLUX --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 module load gcc/6.2.0 R/3.4.1

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cactus
-#FLUX: -c=64
-#FLUX: --queue=bigmem
-#FLUX: -t=93000
-#FLUX: --urgency=16
+#SBATCH --job-name=cactus
+#SBATCH --account=nn9458k
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=32G
+#SBATCH --time=1-01:50:00
+#SBATCH --partition=bigmem
+#SBATCH --constraint=ntasks-per-node=1
 
 module --force purge
 start_dir=$PWD

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-frito-9600
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=goodbye-egg-6739
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo $SLURM_JOBID - `hostname` - $SPINN_FLAGS >> ~/spinn_machine_assignments.txt
 module load python/intel/2.7.12 pytorch/intel/20170125 protobuf/intel/3.1.0

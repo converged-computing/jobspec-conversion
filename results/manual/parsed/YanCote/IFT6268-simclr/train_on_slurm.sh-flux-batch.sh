@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-dog-1853
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=purple-onion-6885
+#FLUX -t=600
+#FLUX --urgency=16
 
 module load python/3.7
 virtualenv --no-download $SLURM_TMPDIR/env

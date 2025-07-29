@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-milkshake-0942
-#FLUX: -c=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=$ACCOUNT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8192M
+#SBATCH --time=00:30:00
 
 ml load python
 ml load scipy-stack

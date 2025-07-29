@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-hobbit-8238
-#FLUX: --urgency=16
+#FLUX --job-name=dinosaur-lemon-9990
+#FLUX --urgency=16
 
 gitdir=~/dpm
 srcdir=$gitdir/src

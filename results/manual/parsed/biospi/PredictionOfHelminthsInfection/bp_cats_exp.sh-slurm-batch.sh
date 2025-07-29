@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cat_qnf
-#FLUX: -c=28
-#FLUX: --queue=short
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=cat_qnf
+#SBATCH --output=cat_qnf
+#SBATCH --error=cat_qnf_e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=28
+#SBATCH --mem=100000M
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=short
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-69
 
 export WORK_DIR='/user/work/fo18103/PredictionOfHelminthsInfection'
 

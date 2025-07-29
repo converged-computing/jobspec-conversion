@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cupcake-8927
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/nicamdc-dev/nicamdc/test/framework/benchmark/Mkjobshell.Linux64-intel-impi-torque.sh

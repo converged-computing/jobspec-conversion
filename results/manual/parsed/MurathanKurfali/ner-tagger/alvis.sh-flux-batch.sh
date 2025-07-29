@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lemur-4553
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-banana-8201
+#FLUX -t=86400
+#FLUX --urgency=16
 
 module load CUDA/12.3.0
 module load Python/3.11.3-GCCcore-12.3.0

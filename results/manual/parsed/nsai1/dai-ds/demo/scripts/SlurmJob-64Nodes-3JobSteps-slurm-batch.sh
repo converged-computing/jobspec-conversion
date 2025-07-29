@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-motorcycle-9830
-#FLUX: -N=64
-#FLUX: --urgency=16
+#SBATCH --nodes=64
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 srun /opt/ucs/demo/workloads/MILC 3
 srun /opt/ucs/demo/workloads/NEKbone 2

@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gemm_first_attempt
-#FLUX: -c=128
-#FLUX: --exclusive
-#FLUX: --queue=EPYC
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=gemm_first_attempt
+#SBATCH --output=cores_close.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=200gb
+#SBATCH --time=02:00:00
+#SBATCH --partition=EPYC
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/u/dssc/erivar00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

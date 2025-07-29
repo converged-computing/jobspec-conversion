@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=job1
-#FLUX: -N=64
-#FLUX: --queue=standard-g
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#FLUX --job-name=job1
+#FLUX -N=64
+#FLUX --queue=standard-g
+#FLUX -t=15000
+#FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

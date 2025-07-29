@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=NSBH
-#FLUX: -N=10
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=NSBH
+#SBATCH --output=nsbh.txt
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=4-04:00:00
+#SBATCH --constraint=ntasks-per-node=14
 
 export MKL_NUM_THREADS='1'
 export MKL_DYNAMIC='FALSE'

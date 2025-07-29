@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=GROMACS
-#FLUX: -c=6
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=GROMACS
+#FLUX -c=6
+#FLUX -t=900
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source /home/$USER/software/gromacs-2023.3/build_slurm/gmx/bin/GMXRC

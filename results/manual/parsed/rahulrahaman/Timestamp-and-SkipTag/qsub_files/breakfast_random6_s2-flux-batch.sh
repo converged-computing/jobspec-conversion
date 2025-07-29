@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-taco-4250
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-general-7706
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rahulrahaman/Timestamp-and-SkipTag/qsub_files/breakfast_random6_s2

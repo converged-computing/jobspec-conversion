@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gen_data_debug
-#FLUX: --queue=standard
-#FLUX: -t=180
-#FLUX: --urgency=16
+#SBATCH --job-name=gen_data_debug
+#SBATCH --output=./scripts/debug/logs/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1g
+#SBATCH --time=00:03:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 export PYTHON_JULIAPKG_OFFLINE='yes'
 

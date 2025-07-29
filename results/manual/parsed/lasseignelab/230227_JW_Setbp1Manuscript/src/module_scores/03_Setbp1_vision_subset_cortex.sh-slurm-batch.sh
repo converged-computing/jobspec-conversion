@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cor_vis_sub
-#FLUX: --queue=short
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cor_vis_sub
+#SBATCH --output=VISION_cor_sub.out
+#SBATCH --error=VISION_cor_sub.err
+#SBATCH --mail-user=jwhitlock@uab.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=255000
+#SBATCH --time=12:00:00
+#SBATCH --partition=short
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='jbarham3'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cpt-fpt-resume-200b
-#FLUX: -N=7
-#FLUX: -c=64
-#FLUX: --queue=MoE
-#FLUX: --urgency=16
+#SBATCH --job-name=cpt-fpt-resume-200b
+#SBATCH --output=logs/%x-resume-%j.log
+#SBATCH --error=logs/%x-resume-%j.log
+#SBATCH --nodes=7
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --mem=0
+#SBATCH --partition=MoE
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='8'
 export NCCL_DEBUG='INFO'

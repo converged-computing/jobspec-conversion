@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=af-gpu-test
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=af-gpu-test
+#FLUX -c=16
+#FLUX --queue=gpu
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export TF_FORCE_UNIFIED_MEMORY='1'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='4.0'

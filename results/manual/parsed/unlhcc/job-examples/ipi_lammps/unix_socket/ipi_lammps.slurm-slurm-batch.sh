@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ipi_lammps_example
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=ipi_lammps_example
+#SBATCH --output=ipi_lammps_job.%J.out
+#SBATCH --error=ipi_lammps_job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10GB
+#SBATCH --time=7-00:00:00
+#SBATCH --constraint=ntasks-per-node=20
 
 export PYTHONUNBUFFERED='1'
 export PSM2_CUDA='0'

@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=coverm
-#FLUX: -n=20
-#FLUX: -t=45000
-#FLUX: --urgency=16
+#SBATCH --job-name=coverm
+#SBATCH --account=PAS0439
+#SBATCH --output=coverm.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:30:00
 
 START=$SECONDS
 module load python/3.6-conda5.2

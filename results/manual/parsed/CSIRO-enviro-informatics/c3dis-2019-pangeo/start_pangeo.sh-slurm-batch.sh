@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=pangeo
-#FLUX: -c=10
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=pangeo
+#SBATCH --output=pangeo-%J.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=5G
+#SBATCH --time=04:00:00
 
 export PATH='/home/lei053/miniconda3/bin:$PATH'
 

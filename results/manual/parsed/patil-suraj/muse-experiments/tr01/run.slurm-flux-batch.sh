@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=oai-clip-lbl-smooth
-#FLUX: -c=96
+#FLUX --job-name=oai-clip-lbl-smooth
+#FLUX -c=96
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster
-#FLUX: --urgency=16
+#FLUX --queue=production-cluster
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}'
 export LAUNCHER='python -u -m torch.distributed.run \'

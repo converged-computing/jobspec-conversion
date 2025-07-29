@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-8380
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/BBarbazukLab/papers/Boatwright_et_al.%2C2018/assembly_and_qc_scripts/cutadapt_trago.qsub

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kitty-4267
-#FLUX: -n=8
-#FLUX: --queue=shared
-#FLUX: -t=480
-#FLUX: --urgency=16
+#FLUX --job-name=blank-ricecake-5485
+#FLUX -n=8
+#FLUX --queue=shared
+#FLUX -t=480
+#FLUX --urgency=16
 
 cd data
 pwd

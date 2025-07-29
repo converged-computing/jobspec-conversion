@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-underoos-4608
-#FLUX: -n=6
-#FLUX: --queue=workq
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=lovable-caramel-2397
+#FLUX -n=6
+#FLUX --queue=workq
+#FLUX -t=21600
+#FLUX --urgency=16
 
 start=`date +%s`
 module load singularity

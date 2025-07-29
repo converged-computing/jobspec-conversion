@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bsc-cnn-job
-#FLUX: -c=8
-#FLUX: --queue=brown
-#FLUX: -t=19800
-#FLUX: --urgency=16
+#SBATCH --job-name=bsc-cnn-job
+#SBATCH --output=job.cnn.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=05:30:00
+#SBATCH --partition=brown
 
 module load Anaconda3/2023.03-1
 cd "/home/nizp/BSc-Project/ResNet50" 

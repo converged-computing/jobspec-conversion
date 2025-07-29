@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=resnet-ktr
-#FLUX: -c=9
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet-ktr
+#SBATCH --output=/net/acadia9a/data/jchoi/data/kinetics/log/Kinetics-7-train-resnet101-feat_extraction_20200313.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --gres=gpu:4
+#SBATCH --mem=64gb
+#SBATCH --time=6-00:00:00
+#SBATCH --constraint=TITANX|TITANXP|GTX1080Ti
 
 pwd; hostname; date
 echo $CUDA_VISIBLE_DEVICES

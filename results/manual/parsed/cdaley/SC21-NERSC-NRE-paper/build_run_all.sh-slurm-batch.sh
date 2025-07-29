@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parrot-1774
-#FLUX: -c=32
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=nstaff
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=01:00:00
+#SBATCH --constraint=dgx
 
 echo -e "\n\nBuilding and running Babelstream..."
 ./BabelStream_build_script.sh

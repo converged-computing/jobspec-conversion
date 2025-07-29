@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=${job}
-#FLUX: --exclusive
-#FLUX: --queue=batch
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=${job}
+#SBATCH --account=cnms
+#SBATCH --mail-user=${USER}@ornl.gov
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=100g
+#SBATCH --time=10:00:00
+#SBATCH --partition=batch
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=32
 
 export LAMMPS='~/NUFEB/lammps/src/lmp_png'
 

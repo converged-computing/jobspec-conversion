@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=array
-#FLUX: -n=5
-#FLUX: --queue=amd
-#FLUX: -t=126000
-#FLUX: --urgency=16
+#SBATCH --job-name=array
+#SBATCH --account=pi-cdonnat
+#SBATCH --output=r/experiments/synthetic/logs/array_%A_%a.out
+#SBATCH --error=r/experiments/synthetic/logs/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20G
+#SBATCH --time=1-11:00:00
+#SBATCH --partition=amd
+#SBATCH --array=1-50
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 echo "My SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID

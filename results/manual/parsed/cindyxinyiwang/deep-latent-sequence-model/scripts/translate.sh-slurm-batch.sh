@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pedo-5778
-#FLUX: -t=0
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12g
 
 export PYTHONPATH='$(pwd)'
 

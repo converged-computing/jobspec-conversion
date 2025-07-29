@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=build_pytorch_env
-#FLUX: --queue=dev-g
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=build_pytorch_env
+#SBATCH --account=project_id
+#SBATCH --output=envBuild.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=30G
+#SBATCH --time=00:30:00
+#SBATCH --partition=dev-g
 
 export PYTHON_ENV_NAME='env_dpo'
 export SING_IMAGE='lumi-pytorch-rocm-5.6.1-python-3.10-pytorch-v2.1.0.sif'

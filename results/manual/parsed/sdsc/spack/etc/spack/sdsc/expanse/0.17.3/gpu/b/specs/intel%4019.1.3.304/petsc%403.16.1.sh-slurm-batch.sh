@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=petsc@3.16.1
-#FLUX: -c=10
-#FLUX: --queue=ind-gpu-shared
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=petsc@3.16.1
+#SBATCH --account=use300
+#SBATCH --output=%x.o%j.%N
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=1
+#SBATCH --mem=93G
+#SBATCH --time=02:00:00
+#SBATCH --partition=ind-gpu-shared
+#SBATCH --constraint=ntasks-per-node=1
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

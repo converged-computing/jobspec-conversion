@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=argoverse
-#FLUX: -c=12
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=argoverse
+#SBATCH --output=log/argo_%A_%a.out
+#SBATCH --error=log/argo_%A_%a.err
+#SBATCH --mail-user=xl3136@nyu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=12GB
+#SBATCH --time=08:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=0-23
 
 DATA_DIR=/vast/xl3136/argoverse-tracking/test
 OUT_DIR=/vast/xl3136/argoverse_kitti/test

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Fetal_brain_Trans-ventricular
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#FLUX --job-name=Fetal_brain_Trans-ventricular
+#FLUX -n=2
+#FLUX -c=4
+#FLUX -t=252000
+#FLUX --urgency=16
 
 export HOME='/scratch/st-sdena-1/miladyz'
 

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=nnunet_picai_train
-#FLUX: -c=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=nnunet_picai_train
+#SBATCH --output=%j_%x.out
+#SBATCH --error=%j_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a40:1
+#SBATCH --mem=64GB
+#SBATCH --time=12:00:00
+#SBATCH --qos=normal
 
 export nnUNet_raw='/ssd003/projects/aieng/public/PICAI/nnUNet/nnUNet_raw'
 export nnUNet_preprocessed='/ssd003/projects/aieng/public/PICAI/nnUNet/nnUNet_preprocessed'

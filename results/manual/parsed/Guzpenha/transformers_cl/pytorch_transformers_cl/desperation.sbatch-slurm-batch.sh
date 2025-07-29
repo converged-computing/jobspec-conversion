@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-citrus-9925
-#FLUX: --queue=general
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:3
+#SBATCH --mem=8000
+#SBATCH --time=10:00:00
+#SBATCH --partition=general
+#SBATCH --qos=long
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

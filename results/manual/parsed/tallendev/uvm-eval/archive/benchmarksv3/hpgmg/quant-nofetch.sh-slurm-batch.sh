@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hpgmg-quant-nofetch
-#FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=hpgmg-quant-nofetch
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=16:00:00
+#SBATCH: --exclusive
+#SBATCH --nodelist=voltron
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export CUDA_VISIBLE_DEVICES='0'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-rabbit-3948
-#FLUX: --queue=thin
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-itch-6316
+#FLUX --queue=thin
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load 2021
 module load MATLAB/2021a-upd3

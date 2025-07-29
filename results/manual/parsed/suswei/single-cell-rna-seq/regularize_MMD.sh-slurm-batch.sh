@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tabula_muris regularize_MMD
-#FLUX: --queue=physical
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=tabula_muris regularize_MMD
+#SBATCH --account=punim0890
+#SBATCH --mail-user=hui.li3@student.unimelb.edu.au
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5000
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=physical
+#SBATCH --array=0-99
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

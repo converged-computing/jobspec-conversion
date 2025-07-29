@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fabrictraining
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=gilbreth-k
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=fabrictraining
+#SBATCH --account=euge-k
+#SBATCH --output=slurmout/%x-%j.out
+#SBATCH --error=slurmout/%x-%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:2
+#SBATCH --time=02:00:00
+#SBATCH --partition=gilbreth-k
+#SBATCH --constraint=ntasks-per-node=2
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

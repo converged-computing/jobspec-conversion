@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=run
-#FLUX: -c=16
-#FLUX: -t=85800
-#FLUX: --urgency=16
+#SBATCH --job-name=run
+#SBATCH --account=project42
+#SBATCH --output=slurm_job_%A_task_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=1625M
+#SBATCH --time=23:50:00
+#SBATCH --constraint=nvd2
+#SBATCH --array=1-16
 
 echo ---------- MAIN SCRIPT ----------
 echo hostname=$(hostname)

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-nalgas-7910
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/samebdon/springtail_haploid_selection/scripts/bsub_TOGA.sh

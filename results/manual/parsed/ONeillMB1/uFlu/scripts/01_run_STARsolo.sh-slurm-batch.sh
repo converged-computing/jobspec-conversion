@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=solo
-#FLUX: -n=12
-#FLUX: --urgency=16
+#SBATCH --job-name=solo
+#SBATCH --output=logfile_STARsolo_%A_%a.txt
+#SBATCH --error=logfile_STARsolo_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60000
+#SBATCH --array=1-<UPDATE
 
 SAMPLE_NUM=${SLURM_ARRAY_TASK_ID} 
 PROJECT="<CHANGE ME>"

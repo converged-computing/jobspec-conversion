@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=AI-HERO_energy_baseline_prediction
-#FLUX: -c=76
-#FLUX: --queue=accelerated
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#FLUX --job-name=AI-HERO_energy_baseline_prediction
+#FLUX -c=76
+#FLUX --queue=accelerated
+#FLUX -t=72000
+#FLUX --urgency=16
 
 export CUDA_CACHE_DISABLE='1'
 export OMP_NUM_THREADS='76'

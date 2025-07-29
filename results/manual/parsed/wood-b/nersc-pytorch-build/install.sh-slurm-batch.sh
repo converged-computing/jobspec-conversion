@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chip-5317
-#FLUX: -c=128
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --output=slurm-build-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=128
+#SBATCH --time=04:00:00
+#SBATCH --constraint=gpu
 
 set -e -o pipefail
 source config.sh $@

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=xmas_test
-#FLUX: --queue=xmas
-#FLUX: -t=3900
-#FLUX: --urgency=16
+#SBATCH --job-name=xmas_test
+#SBATCH --account=xmas
+#SBATCH --output=slurm_out_xmas_%N_job_%j.txt
+#SBATCH --mail-user=tin@lbl.gov
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:05:00
+#SBATCH --partition=xmas
+#SBATCH --qos=condo_mp
 
 STIME=300   # sleep time
 JOBS=20  

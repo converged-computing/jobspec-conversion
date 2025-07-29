@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-9010
-#FLUX: -N=3
-#FLUX: -t=19200
-#FLUX: --urgency=16
+#SBATCH --output=/scratch/r/rbond/omard/CORI17112020/mpioutput/mpi_output_%j.txt
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:20:00
+#SBATCH --constraint=ntasks-per-node=40
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

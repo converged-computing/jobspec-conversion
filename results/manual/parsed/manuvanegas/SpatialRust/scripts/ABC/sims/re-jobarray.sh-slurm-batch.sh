@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=reABC
-#FLUX: -n=5
-#FLUX: --queue=public
-#FLUX: -t=12600
-#FLUX: --urgency=16
+#SBATCH --job-name=reABC
+#SBATCH --output=logs/ABC/sims/ro-%A-%a.o
+#SBATCH --error=logs/ABC/sims/ro-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=5
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:30:00
+#SBATCH --partition=public
+#SBATCH --array=1-100
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=JobExample1
-#FLUX: -n=100
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=JobExample1
+#SBATCH --output=Example1Out.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=20480M
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=10
 
 export PATH='$SCRATCH/programs/EnergyPlus-9-4-0:$PATH'
 

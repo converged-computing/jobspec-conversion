@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kerfuffle-4732
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --output=logs/slurm-%x-%j-%N.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 cd ~/particleflow

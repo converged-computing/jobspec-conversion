@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=f_i
-#FLUX: -c=10
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=f_i
+#FLUX -c=10
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='$WORK/.local_flacon'
 export GIT_PYTHON_REFRESH='quiet'

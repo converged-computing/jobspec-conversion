@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-muffin-6549
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 if [ -d "job_scripts" ]; then
     script_dir="job_scripts"

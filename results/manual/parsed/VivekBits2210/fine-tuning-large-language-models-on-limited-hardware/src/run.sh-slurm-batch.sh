@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-peanut-butter-6317
-#FLUX: -c=8
-#FLUX: -t=172500
-#FLUX: --urgency=16
+#SBATCH --output=%x_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --time=1-23:55:00
 
 echo "Hostname: $(hostname)"
 echo "Processor: $(lscpu | grep 'Model name' | awk -F ':' '{print $2}' | xargs)"

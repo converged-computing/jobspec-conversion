@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=S13du10
-#FLUX: -n=1024
-#FLUX: --queue=hpg2-compute
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=S13du10
+#FLUX -n=1024
+#FLUX --queue=hpg2-compute
+#FLUX -t=172800
+#FLUX --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^vader,tcp,openib'

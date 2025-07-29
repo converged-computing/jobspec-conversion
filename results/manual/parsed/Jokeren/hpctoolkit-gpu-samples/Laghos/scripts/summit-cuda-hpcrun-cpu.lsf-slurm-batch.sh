@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-train-2723
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/Jokeren/hpctoolkit-gpu-samples/Laghos/scripts/summit-cuda-hpcrun-cpu.lsf

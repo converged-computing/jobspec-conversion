@@ -1,11 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=subch
-#FLUX: -N=4
-#FLUX: -c=7
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=subch
+#SBATCH --account=AST106
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=7
+#SBATCH --gpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=8
 
 export OMP_NUM_THREADS='1'
 export NMPI_PER_NODE='8'

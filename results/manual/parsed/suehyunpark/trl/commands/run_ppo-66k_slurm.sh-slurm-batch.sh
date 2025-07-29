@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpa-Mistral-7b-v0.2-hf-ppo-66k
-#FLUX: --queue=LocalQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=mpa-Mistral-7b-v0.2-hf-ppo-66k
+#SBATCH --output=/mnt/nas/suehyun/trl/logs/out_%x.txt
+#SBATCH --error=/mnt/nas/suehyun/trl/logs/err_%x.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=LocalQ
 
 export WANDB_API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 export HF_TOKEN='hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'

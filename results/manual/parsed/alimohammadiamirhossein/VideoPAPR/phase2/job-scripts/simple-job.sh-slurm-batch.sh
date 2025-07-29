@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-house-3073
-#FLUX: -t=30600
-#FLUX: --urgency=16
+#SBATCH --mail-user=<srr8@sfu.ca>
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:v100l:1
+#SBATCH --mem=32G
+#SBATCH --time=08:30:00
+#SBATCH --constraint=ntasks-per-node=8
 
 cd ~/$projects/papr
 module load StdEnv/2020

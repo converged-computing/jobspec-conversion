@@ -1,11 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=BlokusGreedyNoDiscount
-#FLUX: -N=10
-#FLUX: -n=10
-#FLUX: -c=128
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=BlokusGreedyNoDiscount
+#SBATCH --account=project_2010270
+#SBATCH --output=%x/simulate_%j.out
+#SBATCH --error=%x/simulate_%j.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=128
+#SBATCH --time=03:00:00
+#SBATCH --partition=medium
 
 echo "All arguments: $@"
 module purge

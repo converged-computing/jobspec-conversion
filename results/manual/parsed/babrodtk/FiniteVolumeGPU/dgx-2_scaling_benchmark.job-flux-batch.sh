@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-0407
-#FLUX: --queue=dgx2q
-#FLUX: -t=10
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-nunchucks-9489
+#FLUX --queue=dgx2q
+#FLUX -t=10
+#FLUX --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'
 

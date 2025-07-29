@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-animal-1917
-#FLUX: --urgency=16
+#FLUX --job-name=milky-citrus-3098
+#FLUX --urgency=16
 
 export Qmatey_dir='$( cd -- "$(dirname "$0 ")" >/dev/null 2>&1 ; pwd -P )/'
 export projdir='$( cd -- "$(dirname "$1 ")" >/dev/null 2>&1 ; pwd -P )/'

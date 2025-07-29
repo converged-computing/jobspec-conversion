@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-2294
-#FLUX: -N=4
-#FLUX: --queue=compute
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-snack-2116
+#FLUX -N=4
+#FLUX --queue=compute
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

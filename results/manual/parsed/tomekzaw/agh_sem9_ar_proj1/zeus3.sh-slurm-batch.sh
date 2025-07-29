@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hippo-4226
-#FLUX: -n=20
-#FLUX: --queue=plgrid
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=plgmpr21zeus
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=plgrid
 
 module add plgrid/tools/python-intel/3.6.5 2>/dev/null
 zad=3

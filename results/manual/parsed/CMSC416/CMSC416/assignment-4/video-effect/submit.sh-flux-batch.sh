@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cuda-video
-#FLUX: --queue=gpu
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX --job-name=cuda-video
+#FLUX --queue=gpu
+#FLUX -t=60
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/opencv-4.5.2-xxyodykxk3vuw64tlvm6sujgaxnctgep/lib64'
 

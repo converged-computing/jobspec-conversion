@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=simultaneous-jobsteps
-#FLUX: -N=4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=simultaneous-jobsteps
+#FLUX -N=4
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MINICONDA_DIR='/home/"$USER"/miniconda3'
 export PROJ_DIR='/home/"$USER"/alphafold_non_docker'

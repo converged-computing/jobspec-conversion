@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=stan_pipeline_hr
-#FLUX: --queue=shared
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=stan_pipeline_hr
+#SBATCH --mail-user=mrischard@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=12:00:00
+#SBATCH --partition=shared
+#SBATCH --array=1-119
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

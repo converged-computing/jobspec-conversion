@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-despacito-2977
-#FLUX: -t=21540
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-arm-2507
+#FLUX -t=21540
+#FLUX --urgency=16
 
 set -e
 ml Java

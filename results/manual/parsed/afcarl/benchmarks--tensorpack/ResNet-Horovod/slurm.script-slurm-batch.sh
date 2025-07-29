@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-buttface-5672
-#FLUX: -c=10
-#FLUX: --urgency=16
+#SBATCH --output=logs/job-%j.%N.out
+#SBATCH --error=logs/job-%j.%N.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=200G
+#SBATCH --constraint=ntasks-per-node=8
 
 export TENSORPACK_PROGRESS_REFRESH='20'
 

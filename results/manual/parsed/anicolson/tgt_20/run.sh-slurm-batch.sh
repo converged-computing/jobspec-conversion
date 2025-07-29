@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemur-2719
-#FLUX: -t=388800
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=16000MB
+#SBATCH --time=4-12:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 case `whoami` in
   nic261)

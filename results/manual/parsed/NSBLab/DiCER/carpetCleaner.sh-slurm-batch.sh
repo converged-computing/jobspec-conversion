@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-poo-3243
-#FLUX: -c=4
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=kg98
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=12000
+#SBATCH --time=00:30:00
+#SBATCH --qos=shortq
 
 export MPLBACKEND='agg'
 

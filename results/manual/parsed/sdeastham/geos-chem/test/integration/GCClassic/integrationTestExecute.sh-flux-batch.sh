@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bicycle-6902
-#FLUX: -c=24
-#FLUX: --queue=REQUESTED_PARTITION
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-squidward-3485
+#FLUX -c=24
+#FLUX --queue=REQUESTED_PARTITION
+#FLUX -t=360
+#FLUX --urgency=16
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

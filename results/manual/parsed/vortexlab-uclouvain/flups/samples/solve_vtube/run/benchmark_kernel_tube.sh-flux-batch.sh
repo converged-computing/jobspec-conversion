@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-latke-2209
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-avocado-2739
+#FLUX --urgency=16
 
 source ${SCRIPT_MODULE} ${MPI_VERSION}
 echo "---------------- UCX Flags ---------------------"

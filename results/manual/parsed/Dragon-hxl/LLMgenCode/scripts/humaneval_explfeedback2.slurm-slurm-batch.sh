@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expl13bv0
-#FLUX: -c=32
-#FLUX: --queue=r8nv-gpu-hw
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=expl13bv0
+#SBATCH --output=expl13bv0.out
+#SBATCH --error=expl13bv0.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=r8nv-gpu-hw
+#SBATCH --qos=gpu-normal
+#SBATCH --constraint=80G
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"
 echo "Job run at:"

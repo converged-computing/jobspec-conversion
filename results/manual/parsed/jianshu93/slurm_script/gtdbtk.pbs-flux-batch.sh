@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=GWMC_gtdbtk
-#FLUX: -c=32
-#FLUX: --queue=ieg_lm,ieg_128g,ieg_64g
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=GWMC_gtdbtk
+#FLUX -c=32
+#FLUX --queue=ieg_lm,ieg_128g,ieg_64g
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module purge
 source ~/.bashrc

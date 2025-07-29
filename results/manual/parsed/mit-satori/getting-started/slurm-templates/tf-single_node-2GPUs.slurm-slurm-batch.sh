@@ -1,7 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=tf_2GPUs
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=tf_2GPUs
+#SBATCH --output=tf_2GPUs_%j.out
+#SBATCH --error=tf_2GPUs_%j.err
+#SBATCH --mail-user=florin@mit.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=256GB
+#SBATCH --time=02:00:00
+#SBATCH --constraint=ntasks-per-node=2
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

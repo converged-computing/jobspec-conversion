@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Hills_demultiplex
-#FLUX: --queue=short
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#FLUX --job-name=Hills_demultiplex
+#FLUX --queue=short
+#FLUX -t=32400
+#FLUX --urgency=16
 
 cd /projects/bgmp/mhills/demultiplex
 module purge

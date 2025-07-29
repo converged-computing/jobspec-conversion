@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_check-multithread
-#FLUX: -n=4
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_check-multithread
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
 
 module purge
 module load calcua/2020a

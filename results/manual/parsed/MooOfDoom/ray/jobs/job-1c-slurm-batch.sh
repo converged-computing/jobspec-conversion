@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=job-1c
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=job-1c
+#SBATCH --output=stats/job-1c.o%j
+#SBATCH --error=stats/job-1c.e%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --qos=debug
+#SBATCH --constraint=knl
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

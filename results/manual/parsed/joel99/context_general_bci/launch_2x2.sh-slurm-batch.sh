@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ndt2_2x2
-#FLUX: -N=2
-#FLUX: -c=6
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=ndt2_2x2
+#SBATCH --output=slurm_logs/%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=40G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=2
+#SBATCH --exclude=mind-1-30
 
 export NCCL_IB_DISABLE='1'
 export SLURM_NTASKS_PER_NODE='2'

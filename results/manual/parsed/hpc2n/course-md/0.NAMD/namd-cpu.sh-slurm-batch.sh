@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lemon-1425
-#FLUX: -n=28
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=*FIXME*
+#SBATCH --nodes=1
+#SBATCH --ntasks=28
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

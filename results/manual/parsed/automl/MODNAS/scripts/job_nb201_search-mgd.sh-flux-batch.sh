@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-snack-3401
-#FLUX: -c=32
-#FLUX: --queue=<partition
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=phat-puppy-8066
+#FLUX -c=32
+#FLUX --queue=<partition
+#FLUX -t=432000
+#FLUX --urgency=16
 
 w_grad=$1
 hpn_grad=$2

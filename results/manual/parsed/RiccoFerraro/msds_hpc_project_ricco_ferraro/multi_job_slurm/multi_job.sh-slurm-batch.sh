@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hpc_assignment_05_ricco_ferraro
-#FLUX: --queue=development
-#FLUX: --urgency=16
+#SBATCH --job-name=hpc_assignment_05_ricco_ferraro
+#SBATCH --output=assignment_05_%A-%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --partition=development
+#SBATCH --array=1-2
 
 cmd=$(cat <<-END
 print("running python in signularity container")

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poo-5363
-#FLUX: -c=3
-#FLUX: --queue=cpu,mrcieu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=loopy-carrot-9834
+#FLUX -c=3
+#FLUX --queue=cpu,mrcieu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 set -euo pipefail
 module load apps/singularity/3.8.3

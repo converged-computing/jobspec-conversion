@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=PureCN
-#FLUX: -n=2
-#FLUX: --queue=node
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=PureCN
+#SBATCH --account=sens2019581
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=node
 
 export NXF_OFFLINE='TRUE'
 export NXF_HOME='/castor/project/proj/nobackup/nf-core2/nf-core-sarek-2.7.1/workflow/'

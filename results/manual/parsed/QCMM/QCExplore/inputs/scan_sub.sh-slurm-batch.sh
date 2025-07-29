@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Tera_job
-#FLUX: --queue=long
-#FLUX: --urgency=16
+#SBATCH --job-name=Tera_job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24GB
+#SBATCH --partition=long
+#SBATCH --nodelist=i03
 
 export SCRDIR='/scratch/${ID}'
 export OUTFILE='$SLURM_SUBMIT_DIR/out.dat'

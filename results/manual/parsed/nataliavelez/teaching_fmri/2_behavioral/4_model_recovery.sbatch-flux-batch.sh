@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pancake-3745
-#FLUX: --queue=fasse
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-sundae-5600
+#FLUX --queue=fasse
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load ncf
 module load Anaconda/5.0.1-fasrc01

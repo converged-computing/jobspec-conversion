@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=eval
-#FLUX: -c=8
-#FLUX: --queue=cpu_p1
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=eval
+#SBATCH --account=cnw@a100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --partition=cpu_p1
+#SBATCH --constraint=a100
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

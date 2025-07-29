@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-muffin-4476
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --queue=west
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --output=job.out
+#SBATCH --error=job.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=west
+#SBATCH --constraint=ntasks-per-node=1
 
 export ENSEMBLES_MPIEXEC_PATH='mpiexec'
 export ENSEMBLES_MPIEXEC_NODES='1'

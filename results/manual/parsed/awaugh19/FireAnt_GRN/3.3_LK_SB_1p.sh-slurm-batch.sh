@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=3.3_LK_SB_1p.sh
-#FLUX: -n=4
-#FLUX: -c=12
-#FLUX: --queue=batch
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=3.3_LK_SB_1p.sh
+#SBATCH --output=/scratch/ahw22099/FireAnt_GRN/std_out/3.3_LK_SB_1p.log.%j
+#SBATCH --error=/scratch/ahw22099/FireAnt_GRN/std_out/3.3_LK_SB_1p.err.%j
+#SBATCH --mail-user=ahw22099@uga.edu
+#SBATCH --mail-type=END,FAIL,ARRAY_TASKS
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=12
+#SBATCH --mem-per-cpu=24gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=batch
+#SBATCH --array=0-52
 
 module load STAR/2.7.10b-GCC-11.3.0
 LK_trimmed_fq="/scratch/ahw22099/FireAnt_GRN/LK_trimmed_fq"

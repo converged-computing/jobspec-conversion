@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=full_section_deep
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=full_section_deep
+#SBATCH --account=leeju0
+#SBATCH --output=./logs/lda-%j_%x.out
+#SBATCH --mail-user=weiqiuc@umich.edu
+#SBATCH --mail-type=END,FAIL,REQUEUE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000m
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=standard
+#SBATCH --constraint=ntasks-per-node=1
 
 smk_dir="/path/to/NovaScope"                                            # [REPLACE] Path to the NovaScope pipeline repo.
 job_dir="$smk_dir/testrun/full_section_deep"                            # Path to your Job directory, which should have a config_job.yaml file and will be used to save the log files.

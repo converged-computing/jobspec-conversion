@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=plotLearn
-#FLUX: -c=2
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=plotLearn
+#FLUX -c=2
+#FLUX -t=1800
+#FLUX --urgency=16
 
 cd ${HOME}/repos/patchV1/src
 fdr0=/scratch/wd554/patchV1

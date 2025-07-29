@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-4204
-#FLUX: --queue=gpu8_long
-#FLUX: -t=478800
-#FLUX: --urgency=16
+#FLUX --job-name=buttery-fork-1264
+#FLUX --queue=gpu8_long
+#FLUX -t=478800
+#FLUX --urgency=16
 
 module load matlab/
 module load anaconda3/cpu/5.2.0

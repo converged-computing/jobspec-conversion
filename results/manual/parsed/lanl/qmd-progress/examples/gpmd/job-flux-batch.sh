@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-omelette-5152
-#FLUX: -n=40
-#FLUX: --queue=ccs6
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=blank-itch-8994
+#FLUX -n=40
+#FLUX --queue=ccs6
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

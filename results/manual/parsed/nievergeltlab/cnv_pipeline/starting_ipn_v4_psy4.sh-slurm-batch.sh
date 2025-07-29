@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-7059
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
  tar xvzf pbs_ipn_0.581.tar.gz
   #Notes: for you only group is ddp195, nodes = 1 , proc_per_node = 1, compute partition , for  1 hour.  But this is risky.  

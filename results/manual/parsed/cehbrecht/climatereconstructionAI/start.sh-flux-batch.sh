@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-punk-0362
-#FLUX: -n=18
-#FLUX: --queue=gpu
-#FLUX: -t=6900
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-nalgas-6696
+#FLUX -n=18
+#FLUX --queue=gpu
+#FLUX -t=6900
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

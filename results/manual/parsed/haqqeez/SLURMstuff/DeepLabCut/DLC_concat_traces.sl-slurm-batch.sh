@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=TASKNAME
-#FLUX: -c=2
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=TASKNAME
+#SBATCH --account=rpp-markpb68
+#SBATCH --mail-user=MYEMAIL
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4000
+#SBATCH --time=01:00:00
 
 gosignal=0
 concat_check=$(find -type f -name "*_concat.avi" | wc -l)

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-9553
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-chair-6843
+#FLUX --urgency=16
 

@@ -1,11 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=IMAGING
-#FLUX: -N=8
-#FLUX: -n=8
-#FLUX: --exclusive
-#FLUX: --queue=compute
-#FLUX: -t=86399
-#FLUX: --urgency=16
+#SBATCH --job-name=IMAGING
+#SBATCH --account=SKA-SDP
+#SBATCH --mail-user=realtimcornwell@gmail.com
+#SBATCH --mail-type=FAIL,END
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=107000
+#SBATCH --time=23:59:59
+#SBATCH --partition=compute
+#SBATCH: --exclusive
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

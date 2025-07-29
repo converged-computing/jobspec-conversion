@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca_ast
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --job-name=alpaca_ast
+#SBATCH --output=alpaca_ast.out.txt
+#SBATCH --error=alpaca_ast.err.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

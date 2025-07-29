@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=s2_0=2
-#FLUX: -c=4
-#FLUX: --queue=shared
-#FLUX: -t=2160
-#FLUX: --urgency=16
+#SBATCH --job-name=s2_0=2
+#SBATCH --output=%A_%a.out
+#SBATCH --error=%A_%a.err
+#SBATCH --mail-user=beaucoker@g.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=25G
+#SBATCH --time=00:36:00
+#SBATCH --partition=shared
 
 dataset_arr=(finance_nogap finance motorcycle GPdata GPdata GPdata GPdata mimic_gap mimic_gap mimic_gap mimic_gap 11 20 29 58 69 302 391 416 475 518 575 675 977 1241 1245 1250 1256 1259)
 dataset_option_arr=(None None None inc inc_gap sin stat_gap 11 1228 1472 1535 mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic mimic)

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-1872
-#FLUX: -n=32
-#FLUX: --queue=serial_requeue
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#SBATCH --output=single_fouriernetwork64.out
+#SBATCH --error=single_fouriernetwork64.err
+#SBATCH --mail-user=mnye@college.harvard.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32000
+#SBATCH --time=00:40:00
+#SBATCH --partition=serial_requeue
 
 module load gcc/4.9.3-fasrc01 tensorflow/0.12.0-fasrc02
 python fouriernetwork_odyssey64.py

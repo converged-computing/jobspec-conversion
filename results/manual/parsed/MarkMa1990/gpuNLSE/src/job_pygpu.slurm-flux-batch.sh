@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=GPU
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=test
+#FLUX --queue=GPU
+#FLUX -t=5400
+#FLUX --urgency=16
 
 source /home_expes/tools/python/python367_gpu
 echo "on node: " $SLURMD_NODENAME

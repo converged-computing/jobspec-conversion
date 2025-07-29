@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=lammps
-#FLUX: -N=16
-#FLUX: --exclusive
-#FLUX: --queue=hbv3
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps
+#SBATCH --output=lammps-log.%j
+#SBATCH --error=lammps-log.%j
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=06:00:00
+#SBATCH --partition=hbv3
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=120
 
 export PMIX_INSTALL_PREFIX='$OPAL_PREFIX'
 export NPCS='$((SLURM_NNODES * 40))'

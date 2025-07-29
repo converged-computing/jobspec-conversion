@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lentil-6392
-#FLUX: --queue=cbmm
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=./slurm_outputs/slurm.%N.%j.out
+#SBATCH --error=./slurm_outputs/slurm.%N.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cbmm
+#SBATCH --array=0-119
 
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_v7_40_final.pt categories_10_models_40.pkl
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_pretrained_v7_40_normalized_final.pt categories_10_models_40.pkl

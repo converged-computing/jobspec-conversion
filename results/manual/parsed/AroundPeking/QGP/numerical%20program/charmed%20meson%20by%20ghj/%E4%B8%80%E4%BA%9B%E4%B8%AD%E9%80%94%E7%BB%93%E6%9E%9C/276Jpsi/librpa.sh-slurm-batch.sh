@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test_LibRPA
-#FLUX: -c=48
-#FLUX: --queue=640
-#FLUX: --urgency=16
+#SBATCH --job-name=test_LibRPA
+#SBATCH --output=job.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --partition=640
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

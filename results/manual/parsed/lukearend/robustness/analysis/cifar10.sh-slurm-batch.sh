@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=cifar10
-#FLUX: -c=4
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=cifar10
+#SBATCH --output=out/cifar10-0000%a.out
+#SBATCH --mail-user=larend@mit.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:tesla-k80:1
+#SBATCH --mem=32000
+#SBATCH --time=04:00:00
 
 SCALE_FACTOR=('0.25' '0.5' '1' '2' '4' '0.25' '0.5' '1' '2' '4')
 BATCH_NORM_FLAG=('' '' '' '' '' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm')

@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=mriqc_test_BRAINT
-#FLUX: --queue=batch
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=mriqc_test_BRAINT
+#SBATCH --output=./output/test_1.out
+#SBATCH --error=./output/test_1.err
+#SBATCH --mail-user=andrea.bagante@univ-amu.fr
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 module load all

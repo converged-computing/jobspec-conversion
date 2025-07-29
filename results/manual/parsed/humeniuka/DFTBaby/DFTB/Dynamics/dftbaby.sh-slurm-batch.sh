@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=${2}
-#FLUX: -t=8640000
-#FLUX: --urgency=16
+#SBATCH --job-name=${2}
+#SBATCH --output=${2}-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10Gb
+#SBATCH --time=100-00:00:00
+#SBATCH --constraint=ntasks-per-node=1,ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1 '

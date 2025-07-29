@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=MPC
-#FLUX: -c=6
-#FLUX: -t=840
-#FLUX: --urgency=16
+#SBATCH --job-name=MPC
+#SBATCH --output=%N-%j.out
+#SBATCH --error=%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=6
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32000M
+#SBATCH --time=00:14:00
 
 module load python/3.6.3
 module load scipy-stack

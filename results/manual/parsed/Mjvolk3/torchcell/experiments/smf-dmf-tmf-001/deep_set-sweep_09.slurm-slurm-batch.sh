@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=sweep
-#FLUX: -c=16
-#FLUX: --queue=gpuA40x4
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=sweep
+#SBATCH --account=bbub-delta-gpu
+#SBATCH --output=/projects/bbub/mjvolk3/torchcell/experiments/smf-dmf-tmf-001/slurm/output/%x_%j.out
+#SBATCH --error=/projects/bbub/mjvolk3/torchcell/experiments/smf-dmf-tmf-001/slurm/output/%x_%j.out
+#SBATCH --mail-user=mjvolk3@illinois.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=60g
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpuA40x4
+#SBATCH --constraint=ntasks-per-node=1,projects&scratch
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'
 

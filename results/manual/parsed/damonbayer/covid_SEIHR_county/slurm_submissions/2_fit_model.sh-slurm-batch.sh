@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=grated-taco-6377
-#FLUX: -n=4
-#FLUX: --queue=stats.p
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=log/%x.%A.out
+#SBATCH --error=log/%x.%A.err
+#SBATCH --mail-user=abakis@uci.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=stats.p
+#SBATCH --array=1-64
+#SBATCH --exclude=stats-5
 
 cd /home/abakis/git/covid_SEIHR_county
 if [ $SLURM_ARRAY_TASK_ID == 1 ]; then

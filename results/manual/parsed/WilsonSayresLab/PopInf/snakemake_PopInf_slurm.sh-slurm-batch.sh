@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=popInf_master
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=popInf_master
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16000
+#SBATCH --time=2-00:00:00
 
 SPATH=/full/path/to/PopInf/directory/
 ENV=popInf

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=train_image_to_primitive
-#FLUX: -c=32
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=train_image_to_primitive
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=4
+#SBATCH --mem=200GB
+#SBATCH --time=08:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=v100-32gb
+#SBATCH --array=1-5
 
 set -u
 set -e

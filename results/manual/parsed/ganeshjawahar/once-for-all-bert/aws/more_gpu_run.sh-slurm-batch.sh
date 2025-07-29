@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=moresh
-#FLUX: -c=10
-#FLUX: --queue=a100
-#FLUX: -t=1500000
-#FLUX: --urgency=16
+#SBATCH --job-name=moresh
+#SBATCH --output=/fsx/ganayu/experiments/trial/sample-%j.out
+#SBATCH --error=/fsx/ganayu/experiments/trial/sample-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=17-08:40:00
+#SBATCH --partition=a100
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-malarkey-8822
-#FLUX: -n=8
-#FLUX: --queue=bigmem
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=phat-leader-4216
+#FLUX -n=8
+#FLUX --queue=bigmem
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'
 

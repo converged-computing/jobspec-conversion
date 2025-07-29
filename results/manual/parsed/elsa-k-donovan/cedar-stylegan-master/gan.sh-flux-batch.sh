@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fudge-7478
-#FLUX: -c=6
-#FLUX: -t=610560
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-car-9773
+#FLUX -c=6
+#FLUX -t=610560
+#FLUX --urgency=16
 
 module load cuda cudnn
 source /home/edonovan/tensorflow/bin/activate

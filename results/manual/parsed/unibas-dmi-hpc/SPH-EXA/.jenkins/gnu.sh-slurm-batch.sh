@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-carrot-1288
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=cscsci
+#SBATCH --constraint=gpu
 
 set -o errexit
 set -o nounset

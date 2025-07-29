@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=IoU
-#FLUX: -c=10
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#SBATCH --job-name=IoU
+#SBATCH --account=kvd@gpu
+#SBATCH --output=proj3d2d_%j.out
+#SBATCH --error=proj3d2d_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=19:59:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module purge
 conda deactivate

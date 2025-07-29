@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fcsgx
-#FLUX: --queue=milan
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#SBATCH --job-name=fcsgx
+#SBATCH --account=ga03048
+#SBATCH --output=%x.%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=ssd
+#SBATCH --mem=3G
+#SBATCH --time=7-00:00:00
+#SBATCH --partition=milan
+#SBATCH --array=0
 
 export PATH='/nesi/project/landcare03691/fcs-gx/scripts:$PATH'
 export TMPDIR='/nesi/nobackup/ga03048/fcsgx'

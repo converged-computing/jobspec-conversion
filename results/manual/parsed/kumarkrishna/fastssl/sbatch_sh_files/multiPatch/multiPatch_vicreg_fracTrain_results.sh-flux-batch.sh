@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=multiPatch_vicreg_fracTrain_results
-#FLUX: --queue=long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=multiPatch_vicreg_fracTrain_results
+#FLUX --queue=long
+#FLUX -t=43200
+#FLUX --urgency=16
 
 . /etc/profile
 module load anaconda/3

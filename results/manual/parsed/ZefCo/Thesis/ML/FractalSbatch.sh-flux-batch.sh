@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fractal_GHMSS_v1
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=fractal_GHMSS_v1
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load TensorFlow/2.11.0-foss-2022a
 python FractalModelSlurm.py

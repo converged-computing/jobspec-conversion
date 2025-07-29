@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-poo-7320
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-banana-6079
+#FLUX -n=4
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia-latest

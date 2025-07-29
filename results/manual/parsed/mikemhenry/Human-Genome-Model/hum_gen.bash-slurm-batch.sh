@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hippo-8754
-#FLUX: --queue=gpuq
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=logs/gpu-job-%j.o
+#SBATCH --error=logs/gpu-job-%j.e
+#SBATCH --mail-user=mattferguson@boisestate.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpuq
 
 ulimit -u 9999
 ulimit -s unlimited

@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ResNet
-#FLUX: -c=2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=ResNet
+#SBATCH --output=./output/currentResNet
+#SBATCH --mail-user=yue.zhao@jax.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100gb
+#SBATCH --time=4-04:00:00
 
 alpha=0.01
 dataSet=tumor_type

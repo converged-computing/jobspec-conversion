@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cat-6313
-#FLUX: --urgency=16
+#FLUX --job-name=angry-signal-5496
+#FLUX --urgency=16
 
 : ${PROJ_ID:="CSC262"}
 : ${OMK_INSTALL_DIR:=./install}

@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=vtf
-#FLUX: -c=40
-#FLUX: --queue=big
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=vtf
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:8
+#SBATCH --mem=500GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=big
 
 export MASTER_ADDR='${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}'
 export MASTER_PORT='19500'

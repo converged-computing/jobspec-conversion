@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-despacito-2782
-#FLUX: --queue=condo
-#FLUX: -t=42900
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-bicycle-2010
+#FLUX --queue=condo
+#FLUX -t=42900
+#FLUX --urgency=16
 
 export ARABIC_DATA='data/train'
 export TASK_NAME='arabic_sentiment'

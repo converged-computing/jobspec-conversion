@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bits-2196
-#FLUX: --urgency=16
+#FLUX --job-name=strawberry-lettuce-9717
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/04_race/launch_016.sh

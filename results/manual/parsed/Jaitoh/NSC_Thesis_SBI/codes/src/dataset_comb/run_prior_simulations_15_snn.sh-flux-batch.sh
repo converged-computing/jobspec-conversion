@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gen_dataset_comb_15
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=gen_dataset_comb_15
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 alphas=({0..95..5})
 gammas=({5..100..5})

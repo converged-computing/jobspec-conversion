@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-chip-4533
-#FLUX: -c=40
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-leg-2540
+#FLUX -c=40
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export NXF_CLUSTER_SEED='$(shuf -i 0-16777216 -n 1)'
 

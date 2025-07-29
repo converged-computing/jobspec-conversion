@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=IPC_run
-#FLUX: -c=12
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=IPC_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=16GB
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 if type "module" > /dev/null 2>&1; then
     # Load modules

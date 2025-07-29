@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-banana-7652
-#FLUX: -c=6
-#FLUX: --queue=gpu_all
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=fat-peanut-butter-3212
+#FLUX -c=6
+#FLUX --queue=gpu_all
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export PYTHONUSERBASE='/home/2021012/sruan01/riles/env'
 

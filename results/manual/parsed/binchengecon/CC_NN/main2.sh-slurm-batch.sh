@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=modification
-#FLUX: --queue=gpu
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=modification
+#SBATCH --account=pi-lhansen
+#SBATCH --output=runtd_short_${num_iterations}.out
+#SBATCH --error=runtd_short_${num_iterations}.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpu
 
 pre_tech_pre_damage_export_folder="/scratch/midway3/bincheng/pre_tech_pre_damage_models_12052023_tensorboard_version_iteration_100000_wihtout_v_diff_j_val"
 pre_tech_post_damage_export_folder="${pre_tech_pre_damage_export_folder}/pre_tech_post_damage"

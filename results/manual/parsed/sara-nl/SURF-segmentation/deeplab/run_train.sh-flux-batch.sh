@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-blackbean-4860
-#FLUX: -N=3
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=arid-poodle-2823
+#FLUX -N=3
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

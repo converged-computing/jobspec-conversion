@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dl2_e_greedy_pong
-#FLUX: --queue=gpu
-#FLUX: -t=252000
-#FLUX: --urgency=16
+#SBATCH --job-name=dl2_e_greedy_pong
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=72000
+#SBATCH --time=2-22:00:00
+#SBATCH --partition=gpu
 
 module load Python/3.6.4-foss-2018a
 module load CUDA/9.1.85

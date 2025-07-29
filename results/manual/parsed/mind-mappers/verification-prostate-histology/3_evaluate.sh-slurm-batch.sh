@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-despacito-8962
-#FLUX: --queue=teaching
-#FLUX: --urgency=16
+#SBATCH --account=undergrad_research
+#SBATCH --output=./homologous_point_prediction/outputs/running/slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --partition=teaching
 
 toanalyze="att10_unmaskedgood"
 model_name="model"

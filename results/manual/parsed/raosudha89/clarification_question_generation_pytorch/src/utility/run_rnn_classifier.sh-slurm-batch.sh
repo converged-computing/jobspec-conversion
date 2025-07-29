@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=utility_aus_fullmodel_80K
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=utility_aus_fullmodel_80K
+#SBATCH --output=utility_aus_fullmodel_80K
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu
+#SBATCH --mem=16g
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu-short
 
 export PATH='/fs/clip-amr/anaconda2/bin:$PATH'
 

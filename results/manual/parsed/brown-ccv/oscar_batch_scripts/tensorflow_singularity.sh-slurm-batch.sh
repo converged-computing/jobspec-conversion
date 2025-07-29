@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=My_Cool_Science
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=My_Cool_Science
+#SBATCH --output=tf_sing_job_%j.o
+#SBATCH --error=tf_sing_job_%j.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_BINDPATH='/gpfs/scratch,/gpfs/data'
 

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-blackbean-5281
-#FLUX: --exclusive
-#FLUX: --queue=<add
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --output=logs/%x.%j.out
+#SBATCH --error=logs/%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=05:00:00
+#SBATCH --partition=<add
+#SBATCH: --exclusive
 
 export NCCL_IB_TIMEOUT='30'
 export SHARP_COLL_LOG_LEVEL='3'

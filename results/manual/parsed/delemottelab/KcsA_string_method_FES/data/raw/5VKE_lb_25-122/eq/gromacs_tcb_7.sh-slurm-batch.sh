@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=5VKE_lb_25-122_7
-#FLUX: -n=8
-#FLUX: --queue=tcb
-#FLUX: -t=84600
-#FLUX: --urgency=16
+#SBATCH --job-name=5VKE_lb_25-122_7
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --mail-user=sergio.perez.conesa@scilifelab.se
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=23:30:00
+#SBATCH --partition=tcb
+#SBATCH --constraint=gpu
+#SBATCH --exclude=gpu04
 
 module unload gromacs
 module load gromacs/2020.5

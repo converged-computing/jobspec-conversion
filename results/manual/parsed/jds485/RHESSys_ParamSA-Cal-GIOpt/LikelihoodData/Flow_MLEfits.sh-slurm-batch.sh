@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lettuce-3843
-#FLUX: -N=20
-#FLUX: --queue=parallel
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=quinnlab
+#SBATCH --output=/scratch/js4yd/LikelihoodAnalysis/Flow_MLEfits.out
+#SBATCH --mail-user=js4yd@virginia.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=parallel
+#SBATCH --constraint=ntasks-per-node=20
+#SBATCH --chdir=/scratch/js4yd/LikelihoodAnalysis/
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 python/3.6.6 mpi4py

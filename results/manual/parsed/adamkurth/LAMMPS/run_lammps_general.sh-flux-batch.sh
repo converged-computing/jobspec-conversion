@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-snack-6327
-#FLUX: --urgency=16
+#FLUX --job-name=placid-cupcake-3743
+#FLUX --urgency=16
 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"               
 module load lammps/29Sep2021                                                    

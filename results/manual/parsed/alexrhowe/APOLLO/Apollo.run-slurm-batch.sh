@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=Apollo
-#FLUX: -N=8
-#FLUX: -n=216
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=Apollo
+#SBATCH --account=your_account
+#SBATCH --mail-user=your_email
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=216
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4000m
+#SBATCH --time=16:00:00
+#SBATCH --qos=long
+#SBATCH --constraint=hasw
 
 export PYTHONPATH='/usr/local/other/MPI4PY/PYTHON3/lib/python3.7/site-packages/'
 

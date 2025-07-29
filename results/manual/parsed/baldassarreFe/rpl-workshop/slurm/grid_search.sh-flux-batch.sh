@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pedo-6508
-#FLUX: -c=2
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-general-2526
+#FLUX -c=2
+#FLUX --urgency=16
 
 SOURCE_PATH="${HOME}/rpl-workshop"
 RUNS_PATH="${HOME}/rpl-workshop/runs"

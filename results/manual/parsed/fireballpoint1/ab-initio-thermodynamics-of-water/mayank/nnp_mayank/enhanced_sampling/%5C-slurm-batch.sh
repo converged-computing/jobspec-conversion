@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lettuce-8389
-#FLUX: -n=15
-#FLUX: --queue=long
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#SBATCH --account=research
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2048
+#SBATCH --time=5-00:00:00
+#SBATCH --partition=long
+#SBATCH --qos=medium
 
 module load openmpi/4.0.1
 mpirun -np 15 /global/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_close_close_14_104_13__0-1_5000_0-1_5000_400_2000_index60.lmp

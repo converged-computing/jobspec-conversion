@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SLURM_MetaP
-#FLUX: -n=5
-#FLUX: --queue=
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SLURM_MetaP
+#FLUX -n=5
+#FLUX --queue=
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source ~/.bashrc
 source activate metaphlan3

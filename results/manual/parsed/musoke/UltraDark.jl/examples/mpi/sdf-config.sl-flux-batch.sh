@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=Run an UltraDark test simulation
-#FLUX: -n=32
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=Run an UltraDark test simulation
+#FLUX -n=32
+#FLUX -t=600
+#FLUX --urgency=16
 
 export JULIA_DEBUG='UltraDark'
 

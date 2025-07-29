@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phase_3_new
-#FLUX: -n=3
-#FLUX: -c=19
-#FLUX: --queue=normal,gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=phase_3_new
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=19
+#SBATCH --mem-per-cpu=0
+#SBATCH --partition=normal,gpu
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

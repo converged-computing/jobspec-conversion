@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=dask_srun
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=dask_srun
+#SBATCH --output=/scratch/jw2636/CMIP6/bgc_md2/prototypes/working_group_2021/dask_examples/dask.out.%J
+#SBATCH --error=/scratch/jw2636/CMIP6/bgc_md2/prototypes/working_group_2021/dask_examples/dask.err.%J
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1GB
+#SBATCH --time=00:10:00
+#SBATCH --chdir=/scratch/jw2636/CMIP6/bgc_md2/prototypes/working_group_2021/dask_examples
 
 module purge
 module load anaconda3/2021.05

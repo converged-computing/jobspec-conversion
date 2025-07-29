@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=lagosben
-#FLUX: -c=10
-#FLUX: --queue=gpu
-#FLUX: -t=259140
-#FLUX: --urgency=16
+#SBATCH --job-name=lagosben
+#SBATCH --account=project_2003593
+#SBATCH --output=res/res_semseg_depth_%a.txt
+#SBATCH --error=res/err_semseg_depth_%a.txt
+#SBATCH --mail-user=juanpablo.lagosbenitez@tuni.fi
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=16000
+#SBATCH --time=2-23:59:00
+#SBATCH --partition=gpu
 
 export MASTER_ADDR='$(hostname)'
 

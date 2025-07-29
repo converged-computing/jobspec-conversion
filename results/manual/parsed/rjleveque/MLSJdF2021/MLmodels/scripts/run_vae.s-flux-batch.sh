@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lentil-9111
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-truffle-5140
+#FLUX -t=1800
+#FLUX --urgency=16
 
 module purge
 RUNDIR="$REPOPATH/MLmodels/scripts"

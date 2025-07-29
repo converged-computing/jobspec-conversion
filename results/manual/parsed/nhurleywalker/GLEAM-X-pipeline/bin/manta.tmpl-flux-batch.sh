@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-squidward-8425
-#FLUX: --queue=copyq
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=blank-fork-9943
+#FLUX --queue=copyq
+#FLUX -t=43200
+#FLUX --urgency=16
 
 pipeuser=PIPEUSER
 source /group/mwasci/$pipeuser/GLEAM-X-pipeline/GLEAM-X-pipeline.profile

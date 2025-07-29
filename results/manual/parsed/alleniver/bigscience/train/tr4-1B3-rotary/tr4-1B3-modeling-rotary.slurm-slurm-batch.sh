@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=1B3-rotary.slurm
-#FLUX: -N=16
-#FLUX: -c=40
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=1B3-rotary.slurm
+#SBATCH --account=six@v100
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gres=gpu:4
+#SBATCH --time=20:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --array=1-10%1
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

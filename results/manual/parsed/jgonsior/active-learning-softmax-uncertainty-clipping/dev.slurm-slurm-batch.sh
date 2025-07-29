@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cattywampus-4425
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=363599
-#FLUX: --urgency=16
+#SBATCH --account=p_ml_il
+#SBATCH --output=/beegfs/ws/1/s5968580-btw/logs/out-%A_%a.txt
+#SBATCH --error=/beegfs/ws/1/s5968580-btw/logs/error-%A_%a.txt
+#SBATCH --mail-user=julius.gonsior@tu-dresden.de
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=120GB
+#SBATCH --time=4-04:59:59
+#SBATCH --partition=alpha
+#SBATCH --array=0-99
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 export HF_MODULE_CACHE='./hf-cache'

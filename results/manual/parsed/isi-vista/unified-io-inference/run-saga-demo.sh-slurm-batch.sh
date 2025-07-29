@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=captioning-unified
-#FLUX: --queue=gaia-lg
-#FLUX: --urgency=16
+#SBATCH --job-name=captioning-unified
+#SBATCH --account=gaia-lg
+#SBATCH --output=captioning-unified.output.%j.txt
+#SBATCH --error=captioning-unified.error.%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:rtxa6000:4
+#SBATCH --partition=gaia-lg
 
 export SRC='/nas/gaia02/users/napiersk/github/clean/unified-io-inference'
 export INPUT_FILE='caption-part2.txt'

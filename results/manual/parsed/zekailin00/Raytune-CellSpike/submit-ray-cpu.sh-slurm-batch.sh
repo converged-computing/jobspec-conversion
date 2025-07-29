@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Ray-CPU
-#FLUX: -N=5
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Ray-CPU
+#SBATCH --account=m2043
+#SBATCH --nodes=5
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=haswell
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

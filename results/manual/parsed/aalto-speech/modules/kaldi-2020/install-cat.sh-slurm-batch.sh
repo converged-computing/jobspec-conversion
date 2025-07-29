@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-despacito-9074
-#FLUX: -c=20
-#FLUX: --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --partition=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
 
 source ../common/common.sh
 PROFILE=${1:-triton-gcc-openblas-2020}

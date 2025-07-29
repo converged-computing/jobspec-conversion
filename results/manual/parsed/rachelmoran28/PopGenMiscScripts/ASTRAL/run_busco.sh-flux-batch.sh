@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=BUSCO
-#FLUX: -c=4
-#FLUX: --queue=small,amdsmall
-#FLUX: -t=288000
-#FLUX: --urgency=16
+#FLUX --job-name=BUSCO
+#FLUX -c=4
+#FLUX --queue=small,amdsmall
+#FLUX -t=288000
+#FLUX --urgency=16
 
 module load python/2
 src=/home/research/genome/assemblies_configs/

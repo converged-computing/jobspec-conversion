@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=PT_GPU
-#FLUX: -c=4
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=PT_GPU
+#SBATCH --output=./outputs/%j
+#SBATCH --mail-user=niklas.risse@mpi-sp.org
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=40000
+#SBATCH --time=12:00:00
+#SBATCH --constraint=gpu
+#SBATCH --chdir=./
 
 module purge
 module load anaconda/3/2021.11

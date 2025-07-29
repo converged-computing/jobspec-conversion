@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SED
-#FLUX: -n=64
-#FLUX: --queue=amd_512
-#FLUX: --urgency=16
+#SBATCH --job-name=SED
+#SBATCH --output=outfile_%J.vasp
+#SBATCH --error=errfile_%J.vasp
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=amd_512
 
 export PATH='/public3/home/scg5426/lammps/new/lammps-3Aug2022/src:$PATH'
 

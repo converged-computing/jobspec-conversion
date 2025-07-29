@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-knife-2035
-#FLUX: -n=4
-#FLUX: --queue=isi
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --mail-user=xusenyin@isi.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:k80:2
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=isi
 
 set -e -x
 echo "SLURM_JOBID=$SLURM_JOBID"

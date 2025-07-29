@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pedo-7140
-#FLUX: -c=8
-#FLUX: --queue=gpuq-dev
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-diablo-9457
+#FLUX -c=8
+#FLUX --queue=gpuq-dev
+#FLUX -t=3600
+#FLUX --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

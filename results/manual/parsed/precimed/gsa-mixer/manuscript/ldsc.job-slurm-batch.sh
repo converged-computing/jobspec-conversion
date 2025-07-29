@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=gsamix
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gsamix
+#SBATCH --account=p697_norment
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8000M
+#SBATCH --time=1-00:00:00
+#SBATCH --array=1-36
 
 export THREADS='8'
 export SUMSTATS_FOLDER='/ess/p697/cluster/users/ofrei/2023_02_06_GSA_MiXeR_natgen_revisions/sumstats_v3p1'

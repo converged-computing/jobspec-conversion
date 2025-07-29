@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=shadeexp
-#FLUX: -n=30
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=shadeexp
+#SBATCH --output=logs/shading/o-%A.o
+#SBATCH --error=logs/shading/o-%A.e
+#SBATCH --mail-user=mvanega1@asu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=30
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

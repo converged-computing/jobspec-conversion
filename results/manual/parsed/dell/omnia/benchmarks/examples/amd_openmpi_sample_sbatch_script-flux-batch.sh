@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=testMPI
-#FLUX: -N=2
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --job-name=testMPI
+#FLUX -N=2
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 export PATH='$PATH:/home/omnia-share/openmpi-4.1.5'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/omnia-share/openmpi-4.1.5/lib'

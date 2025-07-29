@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Train_PEX
-#FLUX: --queue=gpu
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=Train_PEX
+#SBATCH --output=slurm/outputs/train_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --mem=32G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gpu
 
 module purge
 module load 2022

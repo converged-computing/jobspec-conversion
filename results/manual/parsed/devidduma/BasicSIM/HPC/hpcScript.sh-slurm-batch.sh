@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lamp-0023
-#FLUX: --queue=computeq
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10M
+#SBATCH --time=00:05:00
+#SBATCH --partition=computeq
 
 module purge
 module load matlab

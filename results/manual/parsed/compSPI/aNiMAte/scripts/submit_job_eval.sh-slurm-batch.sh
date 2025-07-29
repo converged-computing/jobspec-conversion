@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=aNiMAte-eval
-#FLUX: --queue=ml
-#FLUX: --urgency=16
+#SBATCH --job-name=aNiMAte-eval
+#SBATCH --output=output-%j.txt
+#SBATCH --error=output-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=a100:1
+#SBATCH --mem=512G
+#SBATCH --partition=ml
 
 export CUDA_LAUNCH_BLOCKING='1'
 

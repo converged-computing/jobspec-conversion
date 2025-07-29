@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=skx_potc_bench
-#FLUX: --exclusive
-#FLUX: --queue=c18m
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=skx_potc_bench
+#SBATCH --output=results/skx/log-%J.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1024M
+#SBATCH --time=01:00:00
+#SBATCH --partition=c18m
+#SBATCH: --exclusive
 
 set -e
 set -u

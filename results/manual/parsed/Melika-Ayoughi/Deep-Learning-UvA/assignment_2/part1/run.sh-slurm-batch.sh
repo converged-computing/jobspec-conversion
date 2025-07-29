@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=train_rnn
-#FLUX: -c=2
-#FLUX: --queue=gpu_shared_course
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=train_rnn
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=60000M
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu_shared_course
+#SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.44-GCCcore-5.4.0/lib64:$LD_LIBRARY_PATH'
 

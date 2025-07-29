@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-malarkey-7422
-#FLUX: --urgency=16
+#FLUX --job-name=quirky-latke-6514
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidheryanto/sc14/namd/NAMD_2.9_Source/charm-6.4.0/src/arch/mpi/charmrun

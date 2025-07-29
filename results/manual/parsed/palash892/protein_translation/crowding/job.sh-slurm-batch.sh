@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-salad-8553
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/palash892/protein_translation/crowding/job.sh

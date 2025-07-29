@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=post_processing
-#FLUX: --queue=performance
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=post_processing
+#SBATCH --output=outerr_pp.log
+#SBATCH --error=outerr_pp.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=performance
 
 module load python/3.10.12
 module load cuda

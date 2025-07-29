@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=generator-classifiers
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=generator-classifiers
+#SBATCH --output=classify_%j.out
+#SBATCH --mail-user=ls4411@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module purge
 module load pytorch/intel/20170226

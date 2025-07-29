@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pytorch-bm-cgpu
-#FLUX: -c=10
-#FLUX: --gpus-per-task=1
+#FLUX --job-name=pytorch-bm-cgpu
+#FLUX -c=10
+#FLUX --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export BENCHMARK_RESULTS_PATH='$SCRATCH/pytorch-benchmarks/results/gpu-$version-$backend-n$SLURM_NTASKS'
 

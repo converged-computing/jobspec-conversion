@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-underoos-9529
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/luchsonice/3dod/submit.sh

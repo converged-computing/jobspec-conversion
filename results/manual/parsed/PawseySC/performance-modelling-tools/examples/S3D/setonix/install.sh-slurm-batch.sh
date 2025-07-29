@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-house-7058
-#FLUX: -c=16
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu-dev
-#FLUX: --urgency=16
+#SBATCH --account=pawsey0007-gpu
+#SBATCH --output=install.out
+#SBATCH --error=install.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-task=1
+#SBATCH --partition=gpu-dev
 
 CODENAME="S3D"
 REPO="git@github.com:unsw-edu-au/S3D_JICF.git"

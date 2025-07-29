@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parrot-6789
-#FLUX: -c=8
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --output=temp/log/takeup-%A_%a.log
+#SBATCH --error=temp/log/takeup-%A_%a.log
+#SBATCH --mail-user=edjee96@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2G
+#SBATCH --time=10:00:00
+#SBATCH --array=0-2
 
 LATEST_VERSION=101
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

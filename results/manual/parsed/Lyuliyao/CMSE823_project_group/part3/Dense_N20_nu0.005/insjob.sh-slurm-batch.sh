@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Incomp_NS
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=Incomp_NS
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --constraint=amr
 
 module load intel  ### load necessary modules.
 module load GCCcore/9.3.0 

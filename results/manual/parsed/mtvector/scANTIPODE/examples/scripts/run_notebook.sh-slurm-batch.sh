@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=singnbconv
-#FLUX: --queue=celltypes
-#FLUX: -t=180000
-#FLUX: --urgency=16
+#SBATCH --job-name=singnbconv
+#SBATCH --output=/home/matthew.schmitz/log/nbconvert_%A_%a.out
+#SBATCH --error=/home/matthew.schmitz/log/nbconvert_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=255gb
+#SBATCH --time=2-02:00:00
+#SBATCH --partition=celltypes
+#SBATCH --constraint=a100|v100
 
 source ~/.bashrc
 !nvidia-smi

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=diagB_cyc
-#FLUX: -N=4
-#FLUX: -n=256
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=diagB_cyc
+#FLUX -N=4
+#FLUX -n=256
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 256'
 

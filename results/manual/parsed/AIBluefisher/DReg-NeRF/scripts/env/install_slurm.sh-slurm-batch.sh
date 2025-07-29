@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=installation
-#FLUX: -c=8
-#FLUX: --queue=medium
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=installation
+#SBATCH --output=/home/c/chenyu/log/%j.log
+#SBATCH --error=/home/c/chenyu/log/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64000
+#SBATCH --time=03:00:00
+#SBATCH --partition=medium
+#SBATCH --nodelist=xgph5
 
 echo "$state Start"
 echo Time is `date`

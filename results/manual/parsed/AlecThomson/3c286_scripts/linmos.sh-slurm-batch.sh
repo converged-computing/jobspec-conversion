@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=linmos
-#FLUX: -n=36
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=linmos
+#SBATCH --account=OD-217087
+#SBATCH --output=logs/linmos_%j.log
+#SBATCH --error=logs/linmos_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=36
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24GB
+#SBATCH --time=01:00:00
+#SBATCH --qos=express
 
 module load singularity
 module load rclone

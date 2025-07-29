@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parsnip-4714
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --account=phy122
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:30:00
+#SBATCH --partition=batch
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

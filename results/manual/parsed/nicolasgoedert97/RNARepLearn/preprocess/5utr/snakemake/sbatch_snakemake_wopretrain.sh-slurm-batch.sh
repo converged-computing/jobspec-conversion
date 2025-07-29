@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=UTR
-#FLUX: --queue=booster
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#SBATCH --job-name=UTR
+#SBATCH --account=hai_rnareplearn
+#SBATCH --output=logs/%j.job
+#SBATCH --error=logs/%j.job
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=03:00:00
+#SBATCH --partition=booster
 
 sbatch --wait << EOF
 source $HOME/.bashrc

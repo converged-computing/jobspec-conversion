@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-punk-5558
-#FLUX: -N=4
-#FLUX: -n=32
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=32
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --constraint=ntasks-per-node=8
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

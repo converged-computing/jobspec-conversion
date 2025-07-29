@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pbn_train_voc07
+#FLUX --job-name=pbn_train_voc07
 #FLUX: --exclusive
-#FLUX: --queue=nvidia_long
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --queue=nvidia_long
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "[train.voc07.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

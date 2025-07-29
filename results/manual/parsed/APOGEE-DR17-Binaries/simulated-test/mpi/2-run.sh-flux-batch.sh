@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=apogee-run
-#FLUX: -N=8
-#FLUX: --queue=cca
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=apogee-run
+#FLUX -N=8
+#FLUX --queue=cca
+#FLUX -t=129600
+#FLUX --urgency=16
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/simulated-test
 source hq-config/init.sh

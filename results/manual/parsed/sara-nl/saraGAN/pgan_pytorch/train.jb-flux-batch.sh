@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-poo-7155
-#FLUX: -n=4
-#FLUX: --queue=gpu_titanrtx
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-sundae-7617
+#FLUX -n=4
+#FLUX --queue=gpu_titanrtx
+#FLUX -t=432000
+#FLUX --urgency=16
 
 source /home/davidr/scripts/nki_torch.sh
 JOBSPERNODE=4

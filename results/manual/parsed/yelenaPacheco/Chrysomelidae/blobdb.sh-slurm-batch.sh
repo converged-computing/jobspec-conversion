@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=blob_array
-#FLUX: -n=10
-#FLUX: --queue=debug,mem-low,brief-low
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=blob_array
+#SBATCH --output=blob_%A_%a.out
+#SBATCH --error=blob_%A_%a.err
+#SBATCH --mail-user=yelena.pacheco@usda.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=debug,mem-low,brief-low
 
 name1="N_clydesmithi"
 t1=$(date +"%s")

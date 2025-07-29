@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=qml_3gpu
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=qml_3gpu
+#SBATCH --account=XXXYYY
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'
 export MIOPEN_USER_DB_PATH='/tmp/my-miopen-cache" '

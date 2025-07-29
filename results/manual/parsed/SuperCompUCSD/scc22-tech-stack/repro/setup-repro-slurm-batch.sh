@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=osu
-#FLUX: -N=2
-#FLUX: -c=30
-#FLUX: --queue=hpc
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=osu
+#SBATCH --output=osu.%j.%N.out
+#SBATCH --error=osu.%j.%N.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --time=00:30:00
+#SBATCH --partition=hpc
+#SBATCH --constraint=ntasks-per-node=4
 
 set -e
 cd ~

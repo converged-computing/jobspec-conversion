@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs
-#FLUX: --queue=gpu3
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=gromacs
+#SBATCH --account=general-gpu
+#SBATCH --output=results_gromacs-%j.out
+#SBATCH --mail-user=------@mail.missouri.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=75G
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu3
+#SBATCH --qos=normal
 
 echo "### Starting at: $(date) ###"
 source /group/micore/gromacs2018.3-gputhread/bin/GMXRC

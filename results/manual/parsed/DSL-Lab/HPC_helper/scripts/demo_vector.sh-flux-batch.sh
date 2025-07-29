@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=demo_vector
-#FLUX: -N=2
-#FLUX: -n=8
-#FLUX: -c=8
-#FLUX: --queue=rtx6000
-#FLUX: -t=20
-#FLUX: --urgency=16
+#FLUX --job-name=demo_vector
+#FLUX -N=2
+#FLUX -n=8
+#FLUX -c=8
+#FLUX --queue=rtx6000
+#FLUX -t=20
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='6'
 

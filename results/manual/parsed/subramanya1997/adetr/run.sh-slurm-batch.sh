@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=adetr
-#FLUX: --queue=gpu-preempt
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=adetr
+#SBATCH --output=/work/pi_hzhang2_umass_edu/snagabhushan_umass_edu/adetr/logs/sbatch_logs/sbatch_log.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem=128GB
+#SBATCH --time=10:00:00
+#SBATCH --partition=gpu-preempt
 
 export MASTER_ADDR='$(scontrol show hostname ${SLURM_NODELIST} | head -n 1)'
 

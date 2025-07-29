@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MSA
-#FLUX: --queue=intel
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=MSA
+#FLUX --queue=intel
+#FLUX -t=10800
+#FLUX --urgency=16
 
 module load trimal
 module load muscle

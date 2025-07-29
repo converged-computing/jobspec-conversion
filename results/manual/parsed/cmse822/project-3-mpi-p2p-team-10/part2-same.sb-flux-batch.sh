@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HW3-NON-BLOCKING-SAME
+#FLUX --job-name=HW3-NON-BLOCKING-SAME
 #FLUX: --exclusive
-#FLUX: -t=60
-#FLUX: --urgency=16
+#FLUX -t=60
+#FLUX --urgency=16
 
 module purge
 module load intel/2021a

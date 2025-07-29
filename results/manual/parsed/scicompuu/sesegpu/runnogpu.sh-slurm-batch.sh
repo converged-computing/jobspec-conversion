@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-eagle-6129
-#FLUX: -n=4
-#FLUX: --queue=devcore
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --account=g2021027
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:59:00
+#SBATCH --partition=devcore
 
 singularity run /proj/g2020014/nobackup/private/$@

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=cnn
-#FLUX: -N=10
-#FLUX: -c=12
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cnn
+#SBATCH --account=c24
+#SBATCH --output=m10.out
+#SBATCH --error=m10.err
+#SBATCH --nodes=10
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_DEBUG='INFO'

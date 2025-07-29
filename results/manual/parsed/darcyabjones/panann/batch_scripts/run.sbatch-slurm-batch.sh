@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-0603
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=y95
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1-00:00:00
 
 module load singularity/3.3.0
 module load nextflow/19.01.0.5050-bin

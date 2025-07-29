@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-2379
-#FLUX: --queue=STANDARDQ
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dirty-squidward-0086
+#FLUX --queue=STANDARDQ
+#FLUX -t=43200
+#FLUX --urgency=16
 
 base=BASEDIR
 absmem=ABSMEM

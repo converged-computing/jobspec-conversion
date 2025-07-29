@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-caramel-8163
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=moolicious-animal-4230
+#FLUX -c=2
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 workers=0
 REMAINING_ARGS=()

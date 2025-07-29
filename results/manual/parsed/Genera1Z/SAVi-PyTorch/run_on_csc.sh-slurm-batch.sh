@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=savi
-#FLUX: -c=8
-#FLUX: --queue=gpusmall
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#SBATCH --job-name=savi
+#SBATCH --account=project_2008396
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a100:1,nvme:25
+#SBATCH --mem=64G
+#SBATCH --time=1-12:00:00
+#SBATCH --partition=gpusmall
 
 module load pytorch tensorflow vim
 pip install -r requirements.txt

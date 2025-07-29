@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dlcg
-#FLUX: --queue=gpu
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=dlcg
+#FLUX --queue=gpu
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load Anaconda3
 conda activate /home/skrix/virtualenv_nodgltorch

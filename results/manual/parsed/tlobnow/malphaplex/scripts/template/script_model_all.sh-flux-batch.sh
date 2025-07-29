@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=1_AF2C
-#FLUX: -c=72
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=1_AF2C
+#FLUX -c=72
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${ALPHAFOLD_HOME}/lib:${LD_LIBRARY_PATH}'
 export TMPDIR='${JOB_SHMTMPDIR}'

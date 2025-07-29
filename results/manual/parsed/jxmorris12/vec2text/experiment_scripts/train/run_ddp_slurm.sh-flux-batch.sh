@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-egg-4280
-#FLUX: -c=16
-#FLUX: --queue=rush,gpu
-#FLUX: -t=2419200
-#FLUX: --urgency=16
+#FLUX --job-name=arid-parrot-0112
+#FLUX -c=16
+#FLUX --queue=rush,gpu
+#FLUX -t=2419200
+#FLUX --urgency=16
 
 export BASEDIR='/home/jxm3/research/retrieval/inversion/vec2text/'
 export NCCL_P2P_LEVEL='NVL'

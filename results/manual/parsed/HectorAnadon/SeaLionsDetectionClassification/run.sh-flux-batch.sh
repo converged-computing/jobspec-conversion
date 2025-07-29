@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=combine
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=combine
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

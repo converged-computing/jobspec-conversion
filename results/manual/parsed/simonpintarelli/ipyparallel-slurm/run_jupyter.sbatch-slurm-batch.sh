@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=ipcluster
-#FLUX: -N=2
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=ipcluster
+#SBATCH --output=jupyter-log-%J.out
+#SBATCH --mail-user=simon.pintarelli@cscs.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --constraint=gpu,ntasks-per-node=12
 
 module load daint-gpu
 module load cray-python/3.6.5.1

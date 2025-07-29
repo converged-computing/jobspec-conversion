@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ginkgo
-#FLUX: -t=122400
-#FLUX: --urgency=16
+#FLUX --job-name=ginkgo
+#FLUX -t=122400
+#FLUX --urgency=16
 
 module purge
 mkdir -p $SCRATCH/ginkgo/logs

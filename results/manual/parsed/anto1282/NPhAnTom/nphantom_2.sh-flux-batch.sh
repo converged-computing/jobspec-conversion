@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=NPhAnToM_%j
-#FLUX: -c=4
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#FLUX --job-name=NPhAnToM_%j
+#FLUX -c=4
+#FLUX -t=115200
+#FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='/maps/projects/mjolnir1/people/${USER}/SingularityTMP'
 export SINGULARITY_LOCALCACHEDIR='/maps/projects/mjolnir1/people/${USER}/SingularityTMP'

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=baseline_landscape_job
-#FLUX: -n=2
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=baseline_landscape_job
+#SBATCH --account=mlprojects
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem-per-cpu=5G
+#SBATCH --time=3-00:00:00
 
 source ~/.bashrc
 module load cuda/11.8

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pedo-7981
-#FLUX: -N=4
+#FLUX --job-name=ornery-snack-6925
+#FLUX -N=4
 #FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: --urgency=16
+#FLUX --queue=a3
+#FLUX --urgency=16
 
 export MODEL_NAME='                               #'Llama-2-70b-hf'
 export GCS_EXPERIMENT_BUCKET='                    # myBucket'

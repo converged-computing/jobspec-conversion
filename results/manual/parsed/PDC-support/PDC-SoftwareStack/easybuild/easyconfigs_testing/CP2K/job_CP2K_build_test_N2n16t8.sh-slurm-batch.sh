@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cp2ktest
-#FLUX: -N=2
-#FLUX: -c=16
-#FLUX: --queue=main
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=cp2ktest
+#SBATCH --account=pdc.staff
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=main
+#SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='8'
 export OMP_PLACES='cores'

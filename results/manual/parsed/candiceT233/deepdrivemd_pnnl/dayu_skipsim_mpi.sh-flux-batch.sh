@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ddmd100ps_2n12ti1_nfs0
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=ddmd100ps_2n12ti1_nfs0
+#FLUX -N=2
+#FLUX -n=12
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export HDF5_VOL_CONNECTOR='tracker under_vol=0;under_info={};path=$schema_file_path;level=2;format='
 export HDF5_PLUGIN_PATH='$TRACKER_PRELOAD_DIR/vol:$TRACKER_PRELOAD_DIR/vfd'

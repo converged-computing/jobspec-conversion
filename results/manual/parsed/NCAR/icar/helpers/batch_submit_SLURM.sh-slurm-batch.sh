@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=ICAR_tst
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=ICAR_tst
+#SBATCH --account=m4062
+#SBATCH --output=job_output/log-%x.%j.out
+#SBATCH --error=job_output/log-%x.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:05:00
+#SBATCH --qos=debug
+#SBATCH --constraint=ntasks-per-node=32,haswell
 
 export OMP_NUM_THREADS='1'
 

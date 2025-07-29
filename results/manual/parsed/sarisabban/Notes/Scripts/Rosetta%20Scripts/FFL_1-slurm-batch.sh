@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-muffin-5464
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sarisabban/Notes/Scripts/Rosetta%20Scripts/FFL_1

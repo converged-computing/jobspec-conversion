@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=GGMx
-#FLUX: --queue=cclake
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=GGMx
+#SBATCH --account=mrc-bsu-sl2-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --partition=cclake
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

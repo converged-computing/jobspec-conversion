@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-knife-3627
-#FLUX: -N=4
-#FLUX: --queue=compute_full_node
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=rrg-mmehride
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=compute_full_node
 
 OPTIMIZER=sgd
 NPROC_PER_NODE=4

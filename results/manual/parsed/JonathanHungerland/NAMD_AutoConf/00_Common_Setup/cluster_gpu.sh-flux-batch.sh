@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pancake-1040
-#FLUX: --queue=qblg.p
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-lamp-5957
+#FLUX --queue=qblg.p
+#FLUX -t=345600
+#FLUX --urgency=16
 
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'
 export namdexecution='namd3 +p${NTASKS}'

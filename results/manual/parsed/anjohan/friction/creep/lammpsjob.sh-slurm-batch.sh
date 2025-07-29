@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-snack-1807
-#FLUX: --urgency=16
+#SBATCH --account=nn9272k
+#SBATCH --mail-user=anjohan@uio.no
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=3600M
 
 source /cluster/bin/jobsetup
 module load intel/2018.1

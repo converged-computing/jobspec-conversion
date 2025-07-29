@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=popInf_master
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=popInf_master
+#FLUX -t=172800
+#FLUX --urgency=16
 
 SPATH=/full/path/to/PopInf/directory/
 ENV=popInf

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bike
-#FLUX: --queue=batch
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#SBATCH --job-name=bike
+#SBATCH --output=bike.%J.out
+#SBATCH --error=bike.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=128G
+#SBATCH --time=01:30:00
+#SBATCH --partition=batch
+#SBATCH --array=1-70
 
 conda activate /ibex/scratch/zhanc0c/projects/st_dense_gcn/env
 loss_values=( 'l1' )

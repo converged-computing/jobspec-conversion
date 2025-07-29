@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=afhp-setup
-#FLUX: --queue=nvidia_small
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=afhp-setup
+#SBATCH --output=/scratch/lerdl/lucas.david/afhp/experiments/logs/%j-setup.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=nvidia_small
+#SBATCH --constraint=ntasks-per-node=24
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

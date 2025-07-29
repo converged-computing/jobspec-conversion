@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fish6_verkko
-#FLUX: -c=32
-#FLUX: --queue=norm
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=fish6_verkko
+#FLUX -c=32
+#FLUX --queue=norm
+#FLUX -t=864000
+#FLUX --urgency=16
 
 module load verkko/1.3.1
 module load snakemake/7.7.0

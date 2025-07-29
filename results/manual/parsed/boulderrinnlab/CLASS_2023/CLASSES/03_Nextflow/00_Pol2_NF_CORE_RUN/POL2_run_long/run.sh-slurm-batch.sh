@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=YFTF_Chipseq
-#FLUX: --queue=long
-#FLUX: -t=32400
-#FLUX: --urgency=16
+#SBATCH --job-name=YFTF_Chipseq
+#SBATCH --output=nextflow.out
+#SBATCH --error=nextflow.erry
+#SBATCH --mail-user=john.rinn@colorado.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=09:00:00
+#SBATCH --partition=long
 
 pwd; hostname; date
 echo "Lets go"

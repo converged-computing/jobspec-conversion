@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-spoon-6614
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=10
 
 OMNI=/mainfs/hgig/public/HUMAN_REFS/HG38/resources_broad_hg38_v0_1000G_omni2.5.hg38.vcf
 ONE_THOUSAND=/mainfs/hgig/public/HUMAN_REFS/HG38/resources_broad_hg38_v0_1000G_phase1.snps.high_confidence.hg38.vcf

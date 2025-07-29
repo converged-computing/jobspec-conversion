@@ -1,10 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=varnorm
-#FLUX: -n=4
-#FLUX: -c=4
-#FLUX: --queue=qTRD
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=varnorm
+#SBATCH --account=psy53c17
+#SBATCH --output=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/jobs/out%A.out
+#SBATCH --error=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/jobs/error%A.err
+#SBATCH --mail-user=jwardell1@student.gsu.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=32g
+#SBATCH --time=20:00:00
+#SBATCH --partition=qTRD
 
 module load afni
 BASEDIR=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/FBIRN

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cuquantum
-#FLUX: -c=8
-#FLUX: --queue=dgx_normal_q
-#FLUX: --urgency=16
+#FLUX --job-name=cuquantum
+#FLUX -c=8
+#FLUX --queue=dgx_normal_q
+#FLUX --urgency=16
 
 module load containers/apptainer
 USER=`whoami`

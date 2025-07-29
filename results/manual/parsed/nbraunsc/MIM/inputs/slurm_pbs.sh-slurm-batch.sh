@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=angry-banana-0902
-#FLUX: --exclusive
-#FLUX: --queue=normal_q
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --account=nmayhall_group
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=normal_q
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='2'
 export ERROR='${OUTFILE%%.*}.error'

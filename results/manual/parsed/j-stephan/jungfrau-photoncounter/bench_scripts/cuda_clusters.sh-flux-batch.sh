@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cuda_clusters
-#FLUX: -c=24
+#FLUX --job-name=cuda_clusters
+#FLUX -c=24
 #FLUX: --exclusive
-#FLUX: --queue=fwkt_v100
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --queue=fwkt_v100
+#FLUX -t=36000
+#FLUX --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 export GOMP_CPU_AFFINITY='0-11'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sims
-#FLUX: -n=24
-#FLUX: --queue=russpold,normal
-#FLUX: -t=10800
-#FLUX: --urgency=16
+#FLUX --job-name=sims
+#FLUX -n=24
+#FLUX --queue=russpold,normal
+#FLUX -t=10800
+#FLUX --urgency=16
 
 export PYTHONPATH=''
 

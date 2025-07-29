@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=gpu-training-quad
-#FLUX: --queue=GPUQ
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=gpu-training-quad
+#SBATCH --account=ie-idi
+#SBATCH --output=job_gpu.out
+#SBATCH --mail-user=orjanic@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=48
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

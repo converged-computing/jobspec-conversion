@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=amg2013_rdd
-#FLUX: -N=4
-#FLUX: -c=14
+#FLUX --job-name=amg2013_rdd
+#FLUX -N=4
+#FLUX -c=14
 #FLUX: --exclusive
-#FLUX: --queue=broadwell
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --queue=broadwell
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'
 

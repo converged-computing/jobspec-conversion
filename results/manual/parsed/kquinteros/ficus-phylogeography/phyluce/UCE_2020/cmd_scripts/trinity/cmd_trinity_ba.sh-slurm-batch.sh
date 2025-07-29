@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=phyluce_trinity_ba
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#SBATCH --job-name=phyluce_trinity_ba
+#SBATCH --mail-user=kevinq@iastate.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=50G
+#SBATCH --time=9-00:00:00
+#SBATCH --constraint=ntasks-per-node=16
 
 source activate phyluce162
 ​

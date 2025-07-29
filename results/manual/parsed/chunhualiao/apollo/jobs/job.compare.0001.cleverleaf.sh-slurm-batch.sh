@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=APOLLO:COMPARE.1.cleverleaf.test
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=pbatch
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=APOLLO:COMPARE.1.cleverleaf.test
+#SBATCH --account=asccasc
+#SBATCH --mail-user=wood67@llnl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=05:00:00
+#SBATCH --partition=pbatch
+#SBATCH: --exclusive
 
 export EXPERIMENT_JOB_TITLE='COMPARE.0001.cleverleaf"  # <-- creates output path!'
 export APPLICATION_RANKS='1"         # ^__ make sure to change SBATCH node counts!'

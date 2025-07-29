@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Python_test
-#FLUX: -n=8
-#FLUX: --queue=compute
-#FLUX: -t=360
-#FLUX: --urgency=16
+#FLUX --job-name=Python_test
+#FLUX -n=8
+#FLUX --queue=compute
+#FLUX -t=360
+#FLUX --urgency=16
 
 module load 2023r1
 module load openmpi

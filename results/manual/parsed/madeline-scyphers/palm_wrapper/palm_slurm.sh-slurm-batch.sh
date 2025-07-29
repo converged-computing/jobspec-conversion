@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=palm_run
-#FLUX: -N=2
-#FLUX: --urgency=16
+#SBATCH --job-name=palm_run
+#SBATCH --account=PAS0409
+#SBATCH --output=palm_logs/%j.log
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=ntasks-per-node=24
 
 set -x  # for displaying the commands in the log for debugging
 run_time=$1

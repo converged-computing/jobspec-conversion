@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hobbit-2711
-#FLUX: -N=500
-#FLUX: -n=32000
-#FLUX: -c=2
-#FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --account=pc2-mitarbeiter
+#SBATCH --output=HOME-N500.out
+#SBATCH --nodes=500
+#SBATCH --ntasks=32000
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:30:00
+#SBATCH --partition=cont
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

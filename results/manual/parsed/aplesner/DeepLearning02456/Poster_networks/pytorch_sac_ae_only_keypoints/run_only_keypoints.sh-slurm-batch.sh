@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-toaster-4547
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/aplesner/DeepLearning02456/Poster_networks/pytorch_sac_ae_only_keypoints/run_only_keypoints.sh

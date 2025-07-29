@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=debug
-#FLUX: -c=16
-#FLUX: --queue=debug
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=debug
+#SBATCH --account=vita
+#SBATCH --output=out/slurm-%A_%a.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
+#SBATCH --partition=debug
+#SBATCH --qos=gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 echo started at `date`
 module load gcc/8.4.0-cuda cuda/10.2.89

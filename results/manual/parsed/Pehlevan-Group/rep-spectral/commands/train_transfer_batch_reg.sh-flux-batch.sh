@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=transfer_base
-#FLUX: -c=2
-#FLUX: -t=720
-#FLUX: --urgency=16
+#FLUX --job-name=transfer_base
+#FLUX -c=2
+#FLUX -t=720
+#FLUX --urgency=16
 
 source ~/.bashrc
 conda activate curvature

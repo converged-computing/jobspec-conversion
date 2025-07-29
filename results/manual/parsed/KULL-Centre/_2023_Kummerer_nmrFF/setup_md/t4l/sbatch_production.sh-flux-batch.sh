@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=t4l_cghg
-#FLUX: --queue=qgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=t4l_cghg
+#FLUX --queue=qgpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "========= Job started  at `date` =========="
 source /comm/specialstacks/gromacs-volta/bin/modules.sh

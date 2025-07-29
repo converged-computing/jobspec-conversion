@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-poo-6554
-#FLUX: --urgency=16
+#FLUX --job-name=evasive-toaster-6976
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/WeberLab/PrecisionHealthVirtualEnvironment/Workshops/Core_HPCBasics/Scripts/DeepVariant_Sample1.sh

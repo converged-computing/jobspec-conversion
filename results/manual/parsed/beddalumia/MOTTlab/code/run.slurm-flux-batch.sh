@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=TMIT
-#FLUX: -c=32
-#FLUX: --queue=queue.name
-#FLUX: -t=11107
-#FLUX: --urgency=16
+#FLUX --job-name=TMIT
+#FLUX -c=32
+#FLUX --queue=queue.name
+#FLUX -t=11107
+#FLUX --urgency=16
 
     module load matlab
     cd $SLURM_SUBMIT_DIR

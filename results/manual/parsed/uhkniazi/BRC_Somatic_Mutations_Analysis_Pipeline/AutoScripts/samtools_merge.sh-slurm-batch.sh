@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=samtools-array
-#FLUX: --queue=brc
-#FLUX: -t=536700
-#FLUX: --urgency=16
+#SBATCH --job-name=samtools-array
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10000MB
+#SBATCH --time=6-05:05:00
+#SBATCH --partition=brc
+#SBATCH --array=1-1
 
 module load apps/samtools/1.10.0-singularity
            number=$SLURM_ARRAY_TASK_ID

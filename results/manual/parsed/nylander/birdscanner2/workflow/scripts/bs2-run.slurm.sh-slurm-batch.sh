@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=bs2-run
-#FLUX: --queue=core
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=bs2-run
+#SBATCH --output=bs2-run.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=core
 
 module load bioinfo-tools
 module load snakemake/5.10.0

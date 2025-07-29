@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=covid10k-hosp-R3
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=covid10k-hosp-R3
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --array=1-45
 
 module load R/3.6.3
 tar=$(tail -n+$SLURM_ARRAY_TASK_ID hospR3.txt | head -n1)

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-motorcycle-5433
-#FLUX: --queue=GPU-shared
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --time=05:00:00
+#SBATCH --partition=GPU-shared
 
 module load cuda/8.0 tensorflow/0.12.1
 source ${TENSORFLOW_ENV}/bin/activate

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=/gscratch/stf/emazuh/adam-compression/sample_slurm.sh
-#FLUX: -N=2
-#FLUX: -c=12
-#FLUX: --queue=ckpt
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=/gscratch/stf/emazuh/adam-compression/sample_slurm.sh
+#FLUX -N=2
+#FLUX -c=12
+#FLUX --queue=ckpt
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export PATH='$PATH:/mmfs1/home/emazuh/anaconda3/bin'
 

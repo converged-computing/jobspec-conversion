@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=ESM
-#FLUX: -c=4
-#FLUX: --queue=batch
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --job-name=ESM
+#SBATCH --output=ESM.%J.out
+#SBATCH --error=ESM.%J.err
+#SBATCH --mail-user=daulet.toibazar@kaust.edu.sa
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=20GB
+#SBATCH --time=02:00:00
+#SBATCH --partition=batch
+#SBATCH --constraint=v100
 
 echo $OMP_NUM_THREADS
 source activate base

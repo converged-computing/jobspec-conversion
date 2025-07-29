@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=debug_sft_small
-#FLUX: -c=4
-#FLUX: --queue=dev-g
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=debug_sft_small
+#FLUX -c=4
+#FLUX --queue=dev-g
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions'
 export CACHE='/scratch/project_462000241/$USER/cache'

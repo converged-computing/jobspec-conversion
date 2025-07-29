@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Nextflow-master-BLAST
-#FLUX: --queue=workq
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=Nextflow-master-BLAST
+#SBATCH --account=pawsey0001
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=workq
 
 module load singularity  # just in case image pull is needed
 module load nextflow

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-itch-7017
-#FLUX: --urgency=16
+#FLUX --job-name=salted-leopard-9812
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/niallj/ImperialNESS-Sep14/Poiseuille/results/pore_W5_1_F0_20/run.2/runlmp.2.sh

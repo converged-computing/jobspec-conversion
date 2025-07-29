@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mandelbrot
-#FLUX: -n=4
-#FLUX: --urgency=16
+#SBATCH --job-name=mandelbrot
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=x2680
 
 export OMP_NUM_THREADS='1'
 

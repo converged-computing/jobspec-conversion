@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sngp_seg
-#FLUX: -c=64
-#FLUX: --queue=disc
-#FLUX: -t=34200
-#FLUX: --urgency=16
+#FLUX --job-name=sngp_seg
+#FLUX -c=64
+#FLUX --queue=disc
+#FLUX -t=34200
+#FLUX --urgency=16
 
 export PROJ_DIR='/ourdisk/hpc/ai2es/jroth/sngp_seg/'
 export LSCRATCH='/lscratch/$SLURM_JOB_ID'

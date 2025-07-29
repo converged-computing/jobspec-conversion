@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=gritlm
-#FLUX: -N=32
-#FLUX: --exclusive
-#FLUX: --queue=a3
-#FLUX: -t=3596400
-#FLUX: --urgency=16
+#SBATCH --job-name=gritlm
+#SBATCH --output=/data/niklas/jobs/%x-%j.out
+#SBATCH --nodes=32
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=41-15:00:00
+#SBATCH --partition=a3
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_PROJECT='gritlm'
 export CMD=' \'

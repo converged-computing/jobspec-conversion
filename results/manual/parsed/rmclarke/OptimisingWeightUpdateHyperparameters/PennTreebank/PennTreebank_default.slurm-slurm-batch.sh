@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=PennTreebank
-#FLUX: -c=32
-#FLUX: --queue=ampere
-#FLUX: --urgency=16
+#SBATCH --job-name=PennTreebank
+#SBATCH --account=HERNANDEZ-LOBATO-SL3-GPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:1
+#SBATCH --partition=ampere
+#SBATCH --array=1-50
 
 export OMP_NUM_THREADS='1'
 

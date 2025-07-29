@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cherry-9008
-#FLUX: -c=3
-#FLUX: --queue=cscsci
-#FLUX: --urgency=16
+#FLUX --job-name=salted-malarkey-2311
+#FLUX -c=3
+#FLUX --queue=cscsci
+#FLUX --urgency=16
 
 export CRAY_CUDA_MPS='1 # enable the CUDA proxy for MPI+CUDA'
 export OMP_PROC_BIND='TRUE # set thread affinity'

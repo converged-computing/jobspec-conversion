@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-earthworm-9232
-#FLUX: --queue=standard
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX --job-name=milky-latke-8311
+#FLUX --queue=standard
+#FLUX -t=57600
+#FLUX --urgency=16
 
 module purge
 module load julia/1.8.5

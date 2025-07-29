@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=n_train_STREAM
-#FLUX: --queue=GPUQ
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=n_train_STREAM
+#SBATCH --account=share-ie-idi
+#SBATCH --output=train_STREAM.out
+#SBATCH --mail-user=camillmd@stud.ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=GPUQ
+#SBATCH --constraint=ntasks-per-node=8
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
+#FLUX --job-name=image_classification
 #FLUX: --exclusive
-#FLUX: --queue=mlperf
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=mlperf
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export CONTNAME='mpi_${SLURM_JOB_ID}'

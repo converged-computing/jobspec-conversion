@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=llama
-#FLUX: -c=72
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=llama
+#FLUX -c=72
+#FLUX -t=900
+#FLUX --urgency=16
 
 cd ~/ermi/
 module purge

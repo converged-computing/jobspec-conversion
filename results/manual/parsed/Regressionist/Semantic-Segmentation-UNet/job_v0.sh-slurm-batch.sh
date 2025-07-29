@@ -1,8 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=CITY_V0
-#FLUX: -c=3
-#FLUX: -t=172680
-#FLUX: --urgency=16
+#SBATCH --job-name=CITY_V0
+#SBATCH --output=output_v0.out
+#SBATCH --error=error_v0.err
+#SBATCH --mail-user=sk7685@nyu.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12000
+#SBATCH --time=1-23:58:00
+#SBATCH --qos=batch
+#SBATCH --constraint=gpu_12gb
 
 module load python-3.6
 module load cuda-10.0

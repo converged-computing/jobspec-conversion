@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-hippo-6527
-#FLUX: -c=2
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
+#SBATCH --mem=40G
+#SBATCH --partition=gpu
+#SBATCH --exclude=mb-mil102,mb-rom101,mb-rom102,mb-rom103
 
 workers=0
 REMAINING_ARGS=()

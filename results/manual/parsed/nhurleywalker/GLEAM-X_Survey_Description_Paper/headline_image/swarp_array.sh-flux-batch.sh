@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-2033
-#FLUX: --queue=workq
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=blue-staircase-0411
+#FLUX --queue=workq
+#FLUX -t=1200
+#FLUX --urgency=16
 
 file=`ls IDR1_XG*fits | head -${SLURM_ARRAY_TASK_ID} | tail -1`
 singularity exec $GXCONTAINER swarp -c CAR.swarp.template $file

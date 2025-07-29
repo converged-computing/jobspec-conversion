@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=image_classification
-#FLUX: -N=4
-#FLUX: -n=16
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=image_classification
+#SBATCH --nodes=4
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --nodelist=node045,node046,node047,node048
 
 module list
 module purge

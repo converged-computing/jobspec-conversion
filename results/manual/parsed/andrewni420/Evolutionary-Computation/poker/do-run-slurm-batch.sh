@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-nunchucks-5447
-#FLUX: --queue=gpu-a5000-q
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=0.0005-bigish-8b-125-2e-best-hard-0.75h-16v32heads-%j.out
+#SBATCH --error=0.0005-bigish-8b-125-2e-best-hard-0.75h-16v32heads-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a5000:1
+#SBATCH --mem=3GB
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu-a5000-q
+#SBATCH --constraint=ntasks-per-node=1
 
 export DJL_DEFAULT_ENGINE='MXNet'
 export MXNET_ENGINE_TYPE='NaiveEngine'

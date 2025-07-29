@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gromacs_md
-#FLUX: -c=2
-#FLUX: --queue=xyz
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=gromacs_md
+#FLUX -c=2
+#FLUX --queue=xyz
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='cores'

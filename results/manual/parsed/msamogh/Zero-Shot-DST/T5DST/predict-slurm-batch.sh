@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-butter-4159
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=outfile
+#SBATCH --error=errfile
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=a100:2
+#SBATCH --mem=8gb
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='3,4'
 

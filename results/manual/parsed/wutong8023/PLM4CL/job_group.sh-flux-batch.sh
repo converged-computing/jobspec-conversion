@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=main_all
-#FLUX: -c=3
-#FLUX: -t=6048000
-#FLUX: --urgency=16
+#FLUX --job-name=main_all
+#FLUX -c=3
+#FLUX -t=6048000
+#FLUX --urgency=16
 
 module load python3
 source /home/tongwu/envs/pseudoCL/bin/activate

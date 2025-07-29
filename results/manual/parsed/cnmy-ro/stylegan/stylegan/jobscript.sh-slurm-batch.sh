@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=genarch
-#FLUX: -c=4
-#FLUX: --queue=LKEBgpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=genarch
+#SBATCH --output=/exports/lkeb-hpc/csrao/git-personal/stylegan/stylegan/training_output/shark-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:RTX6000:1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=LKEBgpu
 
 module purge
 module load library/cuda/11.3/gcc.8.3.1

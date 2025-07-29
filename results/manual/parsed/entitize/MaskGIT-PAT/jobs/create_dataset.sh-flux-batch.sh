@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pat_cnn_dataset_norm
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pat_cnn_dataset_norm
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

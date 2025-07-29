@@ -1,13 +1,19 @@
 #!/bin/bash
-#FLUX: --job-name=dl-test
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=dl-test
+#SBATCH --account=nstaff
+#SBATCH --output=shifter_job_log_%j.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=gpu,ntasks-per-node=4
 
 export MASTER_ADDR='$(hostname)'
 
+singularity
+exec
+nersc/pytorch:ngc-23.07-v0
 config_file=./configs/default.yaml
 config="default"
 run_num="ddp-shifter"

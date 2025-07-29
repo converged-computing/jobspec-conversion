@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-6435
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/hundreth_synapses_poisson_l.pbs

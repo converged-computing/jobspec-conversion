@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-rabbit-7092
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/khurtado/pbspro/src/cmds/nqs2pbs.in

@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=SEE-continuous
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=SEE-continuous
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6gb
+#SBATCH --time=04:00:00
+#SBATCH --array=1-150
 
 cd see-segment; git log -n 1; cd ..
 echo "Continuous Run Number $SLURM_ARRAY_TASK_ID"

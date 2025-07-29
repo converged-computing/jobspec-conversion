@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=multigpu_cnn
-#FLUX: -n=4
-#FLUX: --queue=gpu
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=multigpu_cnn
+#SBATCH --mail-user=id@umons.ac.be
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --mem-per-cpu=5G
+#SBATCH --time=01:00:00
+#SBATCH --partition=gpu
 
 module use "$HOME"/modulefiles/
 module load python/3.8.6rc1

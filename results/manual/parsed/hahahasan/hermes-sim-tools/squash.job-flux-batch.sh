@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=squash
-#FLUX: -t=40271
-#FLUX: --urgency=16
+#FLUX --job-name=squash
+#FLUX -t=40271
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

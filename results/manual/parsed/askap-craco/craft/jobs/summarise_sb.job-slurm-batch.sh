@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-plant-8303
-#FLUX: -t=8400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=02:20:00
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

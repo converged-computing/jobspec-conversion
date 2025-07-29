@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-latke-8635
-#FLUX: --exclusive
-#FLUX: --queue=sched_mit_rgmark
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --output=%a.ssp1_out
+#SBATCH --error=%a.ssp1_err
+#SBATCH --mail-user=sadiyasa@msu.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=350G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=sched_mit_rgmark
+#SBATCH: --exclusive
+#SBATCH --array=0-7
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

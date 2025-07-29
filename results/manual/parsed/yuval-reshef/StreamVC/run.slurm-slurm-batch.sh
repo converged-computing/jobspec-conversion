@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=streamvc
-#FLUX: --queue=studentbatch
-#FLUX: -t=240000
-#FLUX: --urgency=16
+#SBATCH --job-name=streamvc
+#SBATCH --output=/home/yandex/APDL2324a/group_4/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=16000
+#SBATCH --time=2-18:40:00
+#SBATCH --partition=studentbatch
 
 export HF_HOME='/home/yandex/APDL2324a/group_4/newcache'
 export TORCH_HOME='/home/yandex/APDL2324a/group_4'

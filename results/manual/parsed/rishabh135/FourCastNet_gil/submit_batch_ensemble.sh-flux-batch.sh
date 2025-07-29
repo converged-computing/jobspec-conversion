@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-itch-4857
-#FLUX: -N=4
-#FLUX: -c=32
-#FLUX: --queue=regular
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-salad-6264
+#FLUX -N=4
+#FLUX -c=32
+#FLUX --queue=regular
+#FLUX -t=900
+#FLUX --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MASTER_ADDR='$(hostname)'

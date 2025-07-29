@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lammps_test_job
-#FLUX: -t=720000
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps_test_job
+#SBATCH --output=test_job_out.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=8-08:00:00
 
 module purge
 conda --version

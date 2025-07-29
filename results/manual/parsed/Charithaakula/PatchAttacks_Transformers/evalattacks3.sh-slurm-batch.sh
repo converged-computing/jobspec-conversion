@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=jobName
-#FLUX: -c=4
-#FLUX: -t=25200
-#FLUX: --urgency=16
+#SBATCH --job-name=jobName
+#SBATCH --output=allattacks/slurm_%j.out
+#SBATCH --error=allattacks/slurm_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=24G
+#SBATCH --time=07:00:00
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --chdir=/scratch/sca321/robustness/attacks/ameya/Transformer-attacks-master/PatchAttacks2
 
 module purge
 singularity exec --nv \

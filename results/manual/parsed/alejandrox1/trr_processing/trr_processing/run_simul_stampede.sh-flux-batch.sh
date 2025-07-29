@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pressure
-#FLUX: -n=16
+#FLUX --job-name=pressure
+#FLUX -n=16
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=172800
+#FLUX --urgency=16
 
 module load intel
 module load impi

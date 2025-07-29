@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=CRPEC
-#FLUX: -c=8
-#FLUX: --queue=gpu3090
-#FLUX: --urgency=16
+#FLUX --job-name=CRPEC
+#FLUX -c=8
+#FLUX --queue=gpu3090
+#FLUX --urgency=16
 
 RUNS_DIR="./runs"
 SAMPLE_ID="CRPEC_run_$(date +%Y%m%d_%H%M%S)"

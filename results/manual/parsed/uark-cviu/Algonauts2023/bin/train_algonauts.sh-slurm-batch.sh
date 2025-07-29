@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=micro
-#FLUX: -n=4
-#FLUX: -c=8
-#FLUX: --queue=agpu72
-#FLUX: --urgency=16
+#SBATCH --job-name=micro
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --partition=agpu72
+#SBATCH --constraint=ntasks-per-node=1
+#SBATCH --nodelist=c[2005-2008]
 
 export WORLD_SIZE='$WORLD_SIZE'
 export MASTER_ADDR='$MASTER_ADDR'

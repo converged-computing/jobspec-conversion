@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pastry-1198
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=slurm-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8192
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
 
 module load miniconda/4.11.0
 conda run -n cerys python3.8 hello_world.py

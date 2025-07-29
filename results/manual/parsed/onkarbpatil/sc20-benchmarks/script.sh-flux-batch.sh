@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-4652
-#FLUX: -N=4
-#FLUX: --queue=skylake-gold
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-egg-2382
+#FLUX -N=4
+#FLUX --queue=skylake-gold
+#FLUX -t=172800
+#FLUX --urgency=16
 
 echo ${SLURM_JOB_NODELIST}
 module unload

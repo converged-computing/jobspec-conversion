@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-diablo-1862
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tirsgaard/VAE_RL/VAE/SPACES/src/submit_FishingDerby.sh

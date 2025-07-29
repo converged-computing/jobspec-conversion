@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=install_eb_modules_toolchains
-#FLUX: --queue=batch
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=install_eb_modules_toolchains
+#SBATCH --output=out/install_eb_modules_toolchains_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH --time=20:00:00
+#SBATCH --partition=batch
 
 export EASYBUILD_JOB_BACKEND='Slurm'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dgn
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=dgn
+#FLUX -c=10
+#FLUX --urgency=16
 
 source /etc/profile
 module load anaconda/2022b

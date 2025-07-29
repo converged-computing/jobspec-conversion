@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=isicle_nmr
-#FLUX: --queue=shared,slurm,short
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#FLUX --job-name=isicle_nmr
+#FLUX --queue=shared,slurm,short
+#FLUX -t=345600
+#FLUX --urgency=16
 
 source /etc/bashrc
 module purge

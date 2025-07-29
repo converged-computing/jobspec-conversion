@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Init_data
-#FLUX: -c=20
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=Init_data
+#SBATCH --output=logs/Init_data.out
+#SBATCH --mail-user=gz612@nyu.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=256GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load python3/intel/3.5.3

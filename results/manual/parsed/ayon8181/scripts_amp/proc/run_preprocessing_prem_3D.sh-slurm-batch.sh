@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=proc
-#FLUX: -N=20
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=proc
+#SBATCH --account=EAR21003
+#SBATCH --nodes=20
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=56
 
 export gen='python ../generate_path_files.py -p ../paths.yml -s ../settings.yml -e ../event_list'
 export UCX_TLS='knem,dc_x'

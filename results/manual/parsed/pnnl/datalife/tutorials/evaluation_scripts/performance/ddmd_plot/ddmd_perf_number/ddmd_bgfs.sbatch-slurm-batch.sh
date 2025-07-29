@@ -1,10 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=org_ddmd_n2t12i5_100ps_pfs1
-#FLUX: -N=2
-#FLUX: -n=12
-#FLUX: --queue=dlt
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=org_ddmd_n2t12i5_100ps_pfs1
+#SBATCH --account=chess
+#SBATCH --output=./R_%x.out
+#SBATCH --error=./R_%x.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=dlt
+#SBATCH --exclude=dlt[02]
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=false

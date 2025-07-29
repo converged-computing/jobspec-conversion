@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pmf_noGUI_try
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pmf_noGUI_try
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load singularity
 DOS_COMMAND="ME-2 PMF_bs_6f8xx_sealed_GUI_MOD.ini"

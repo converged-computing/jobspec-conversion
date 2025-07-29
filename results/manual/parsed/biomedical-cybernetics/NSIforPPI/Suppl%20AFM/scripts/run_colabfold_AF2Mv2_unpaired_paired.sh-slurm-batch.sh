@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ColabFold
-#FLUX: -c=8
-#FLUX: --queue=alpha
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=ColabFold
+#SBATCH --account=p_networkgeometry
+#SBATCH --mail-user=ilyes.abdelhamid1@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=10000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=alpha
 
 export PATH='/lustre/ssd/ws/iabdelha-IA-AF-SSD-workspace/alphafold/data/colabfold_batch/bin:$PATH'
 

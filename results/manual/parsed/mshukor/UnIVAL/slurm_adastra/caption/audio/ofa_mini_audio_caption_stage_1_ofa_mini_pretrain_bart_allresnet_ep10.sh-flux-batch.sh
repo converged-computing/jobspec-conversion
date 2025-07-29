@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ofa_mini_audio_caption_stage_1_ofa_mini_pretrain_bart_allresnet_ep10
+#FLUX --job-name=ofa_mini_audio_caption_stage_1_ofa_mini_pretrain_bart_allresnet_ep10
 #FLUX: --exclusive
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX -t=3600
+#FLUX --urgency=16
 
 cd /lus/home/NAT/gda2204/mshukor/code/ofa_ours/run_scripts
 source /lus/home/NAT/gda2204/mshukor/.bashrc

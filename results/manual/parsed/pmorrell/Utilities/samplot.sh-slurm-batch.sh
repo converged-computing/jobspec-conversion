@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-house-1570
-#FLUX: --queue=ram1t
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --mail-user=pmorrell@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20gb
+#SBATCH --time=00:10:00
+#SBATCH --partition=ram1t
+#SBATCH --constraint=ntasks-per-node=1
 
 VCF=/panfs/roc/groups/9/morrellp/shared/Projects/Mutant_Barley/longranger_morex_v2/combined_mutated/Filtered/deletions/M01_singletons_only-scored_DEL_gte75Sup.vcf
 OUT_DIR=/panfs/roc/groups/9/morrellp/pmorrell/Workshop/Barley_Mutants

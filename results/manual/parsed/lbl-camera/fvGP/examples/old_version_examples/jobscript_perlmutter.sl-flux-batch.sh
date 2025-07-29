@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-egg-0804
-#FLUX: -n=256
-#FLUX: -c=32
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=regular
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX --job-name=misunderstood-citrus-9419
+#FLUX -n=256
+#FLUX -c=32
+#FLUX --gpus-per-task=1
+#FLUX --queue=regular
+#FLUX -t=21600
+#FLUX --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export OMP_NUM_THREADS='8'

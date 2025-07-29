@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=transformers
-#FLUX: -N=2
-#FLUX: -c=72
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=transformers
+#FLUX -N=2
+#FLUX -c=72
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='18'
 export OMP_PLACES='cores'

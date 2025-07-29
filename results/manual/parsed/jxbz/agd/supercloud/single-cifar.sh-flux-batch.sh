@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-truffle-9939
-#FLUX: -c=20
-#FLUX: --urgency=16
+#FLUX --job-name=red-itch-9056
+#FLUX -c=20
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='20'
 export IMAGENET_PATH='/home/gridsan/groups/datasets/ImageNet'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-general-3539
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-knife-1099
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module use /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core/
 module load plink

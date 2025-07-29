@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=performance-Cosmo
-#FLUX: -c=12
-#FLUX: --queue=CPUQ
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=performance-Cosmo
+#SBATCH --account=share-ie-idi
+#SBATCH --output=performance.out
+#SBATCH --mail-user=hasc@ntnu.no
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=512000
+#SBATCH --time=01:00:00
+#SBATCH --partition=CPUQ
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cattywampus-1940
+#FLUX --job-name=swampy-rabbit-5199
 #FLUX: --exclusive
-#FLUX: --urgency=16
+#FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

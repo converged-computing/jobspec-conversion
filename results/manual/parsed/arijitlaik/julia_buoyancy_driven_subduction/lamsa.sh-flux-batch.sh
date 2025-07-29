@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-spoon-2731
-#FLUX: -n=64
-#FLUX: --queue=genoa
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=faux-poodle-0249
+#FLUX -n=64
+#FLUX --queue=genoa
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'
 export MODEL_NAME='t1_64_sa'

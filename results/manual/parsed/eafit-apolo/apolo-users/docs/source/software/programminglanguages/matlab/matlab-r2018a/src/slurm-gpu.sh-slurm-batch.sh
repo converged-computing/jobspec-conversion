@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=test_matlab
-#FLUX: --queue=accel
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=test_matlab
+#SBATCH --output=test_matlab-gpu-%j.out
+#SBATCH --error=test_matlab-gpu-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:2
+#SBATCH --time=00:20:00
+#SBATCH --partition=accel
 
 module load matlab/r2018a
 matlab -nosplash -nodesktop < gpu_script.m

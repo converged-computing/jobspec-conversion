@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=MyMATLABJob
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=MyMATLABJob
+#FLUX --queue=batch
+#FLUX -t=86400
+#FLUX --urgency=16
 
 t0=$(date +%s)
 module load matlab/R2021a

@@ -1,10 +1,18 @@
 #!/bin/bash
-#FLUX: --job-name=profile_cam5
-#FLUX: --exclusive
-#FLUX: --queue=regular
-#FLUX: -t=300
-#FLUX: --urgency=16
+#SBATCH --job-name=profile_cam5
+#SBATCH --account=m1759
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:05:00
+#SBATCH --partition=regular
+#SBATCH: --exclusive
+#SBATCH --constraint=gpu
 
+singularity
+exec
+registry.services.nersc.gov/tkurth/mlperf-deepcam:profile
 rankspernode=1
 totalranks=$(( ${SLURM_NNODES} * ${rankspernode} ))
 run_tag="deepcam_prediction_run1-cori"

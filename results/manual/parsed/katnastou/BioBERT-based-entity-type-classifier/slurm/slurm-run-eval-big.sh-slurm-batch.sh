@@ -1,10 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=12.5M
-#FLUX: -n=4
-#FLUX: -c=10
-#FLUX: --queue=gputest
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --job-name=12.5M
+#SBATCH --account=Project_2001426
+#SBATCH --output=logs/%j.out
+#SBATCH --error=logs/%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem-per-cpu=200G
+#SBATCH --time=00:15:00
+#SBATCH --partition=gputest
+#SBATCH --constraint=ntasks-per-node=4
+#SBATCH --exclude=r04g05,r04g01,r14g07,r15g08,r01g04,r03g07,r16g01,r16g02,r04g06
 
 export PATH='${HOME}/openmpi/bin:$PATH'
 export LD_LIBRARY_PATH='${HOME}/openmpi/lib:$LD_LIBRARY_PATH'

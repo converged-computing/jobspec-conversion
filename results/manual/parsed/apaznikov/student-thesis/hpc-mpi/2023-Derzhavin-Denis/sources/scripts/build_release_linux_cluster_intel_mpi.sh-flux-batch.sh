@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-knife-1838
-#FLUX: --urgency=16
+#FLUX --job-name=expensive-taco-6128
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/apaznikov/student-thesis/hpc-mpi/2023-Derzhavin-Denis/sources/scripts/build_release_linux_cluster_intel_mpi.sh

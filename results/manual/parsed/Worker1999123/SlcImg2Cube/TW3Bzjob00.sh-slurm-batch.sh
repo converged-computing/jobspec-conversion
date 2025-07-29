@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=BzBone00
-#FLUX: --queue=trans
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=BzBone00
+#SBATCH --account=MST108404
+#SBATCH --output=cout.txt
+#SBATCH --error=cerr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=trans
+#SBATCH --constraint=ntasks-per-node=4
 
 echo
 echo "============================ Messages from Goddess ============================"

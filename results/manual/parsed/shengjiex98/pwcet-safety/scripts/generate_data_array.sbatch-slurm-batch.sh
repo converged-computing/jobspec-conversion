@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=pwcet-safety-array
-#FLUX: -c=16
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=pwcet-safety-array
+#SBATCH --output=../out/%A/slurm-%A.%a.out
+#SBATCH --error=../err/%A/slurm-%A.%a.err
+#SBATCH --mail-user=sxunique@cs.unc.edu
+#SBATCH --mail-type=all
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=8g
+#SBATCH --time=01:00:00
+#SBATCH --partition=general
+#SBATCH --array=1-100%20
 
 echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID."
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"

@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=miniWeatherML
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=eval-gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=miniWeatherML
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=eval-gpu
+#SBATCH: --exclusive
 
 export OMP_NUM_THREADS='1'
 

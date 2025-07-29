@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nunchucks-9685
-#FLUX: --queue=small
-#FLUX: -t=4800
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=error.%j
+#SBATCH --mail-user=katsumi@umn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2gb
+#SBATCH --time=01:20:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=24
 
 cd $SLURM_SUBMIT_DIR
 echo "Dir in slurm: " $PWD

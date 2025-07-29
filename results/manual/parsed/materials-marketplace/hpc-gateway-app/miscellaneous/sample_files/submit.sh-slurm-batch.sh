@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lammps-colloid
-#FLUX: --queue=debug
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=lammps-colloid
+#SBATCH --account=mrcloud
+#SBATCH --mail-user=jusong.yu@epfl.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=4,mc
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

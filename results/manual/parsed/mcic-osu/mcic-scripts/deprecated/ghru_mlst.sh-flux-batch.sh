@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ghru_mlst
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=ghru_mlst
+#FLUX -t=3600
+#FLUX --urgency=16
 
 Help() {
     echo

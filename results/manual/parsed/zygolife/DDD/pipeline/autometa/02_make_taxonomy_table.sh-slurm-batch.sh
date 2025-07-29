@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bits-8551
-#FLUX: -n=24
-#FLUX: --queue=batch,intel
-#FLUX: --urgency=16
+#SBATCH --output=logs/autometa_taxonomy.%a.%A.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=24gb
+#SBATCH --partition=batch,intel
 
 CPU=1
 if [ ! -z $SLURM_CPUS_ON_NODE ]; then

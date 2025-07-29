@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-mango-2309
-#FLUX: --queue=cpu
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20G
+#SBATCH --partition=cpu
 
 echo "Start processing"
 conda activate astod

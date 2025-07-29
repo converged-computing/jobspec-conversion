@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-7276
-#FLUX: -n=16
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=chunky-peas-1444
+#FLUX -n=16
+#FLUX -t=1200
+#FLUX --urgency=16
 
 module purge
 module purge

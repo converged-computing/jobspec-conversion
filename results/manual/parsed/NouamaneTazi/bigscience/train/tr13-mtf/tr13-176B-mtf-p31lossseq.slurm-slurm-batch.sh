@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tr13-176B-ml-p31lossseq
-#FLUX: -N=36
-#FLUX: -c=64
-#FLUX: --queue=gpu_p5
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=tr13-176B-ml-p31lossseq
+#SBATCH --account=six@a100
+#SBATCH --output=%x-%j.out
+#SBATCH --nodes=36
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --gres=gpu:8
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=gpu_p5
+#SBATCH --qos=qos_gpu-gc
+#SBATCH --constraint=a100,ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='$six_ALL_CCFRWORK/models'
 export HF_DATASETS_CACHE='$six_ALL_CCFRWORK/datasets'

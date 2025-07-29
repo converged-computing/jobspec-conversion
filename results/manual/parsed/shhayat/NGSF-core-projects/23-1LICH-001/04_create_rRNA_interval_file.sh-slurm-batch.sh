@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rrna_intervals
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=rrna_intervals
+#SBATCH --output=/globalhome/hxo752/HPC/slurm_logs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=00:20:00
 
 set -eux
 module load nixpkgs/16.09 

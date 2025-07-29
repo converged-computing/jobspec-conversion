@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=lda_expers
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=lda_expers
+#SBATCH --output=pipeline%j.out
+#SBATCH --error=pipeline%j.err
+#SBATCH --mail-user=kriss1@stanford.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --qos=normal
 
 source /home/kriss1/.bash_profile
 module load python/3.6.1

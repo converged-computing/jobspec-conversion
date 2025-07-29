@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=paralleltest
-#FLUX: -N=2
-#FLUX: --queue=premium
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=paralleltest
+#SBATCH --mail-user=liuyangzhuan@lbl.gov
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=premium
+#SBATCH --constraint=haswell
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-ricecake-9400
-#FLUX: --queue=dev_q
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=dev_q
+#SBATCH --constraint=ntasks-per-node=16
 
 module reset
 module load MATLAB

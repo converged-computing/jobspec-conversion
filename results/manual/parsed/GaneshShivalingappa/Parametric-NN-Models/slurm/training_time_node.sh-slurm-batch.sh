@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=1D
-#FLUX: --queue=gpu_irmb
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=1D
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:ampere:1
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu_irmb
+#SBATCH --constraint=ntasks-per-node=1
 
 srun singularity run \
  --cleanenv \

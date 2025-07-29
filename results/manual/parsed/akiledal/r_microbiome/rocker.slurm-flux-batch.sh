@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-4466
-#FLUX: -n=8
-#FLUX: -c=2
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=milky-butter-2313
+#FLUX -n=8
+#FLUX -c=2
+#FLUX -t=432000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/R/rocker-rstudio/4.0'

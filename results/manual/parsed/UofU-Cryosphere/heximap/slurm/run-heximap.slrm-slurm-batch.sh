@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-salad-8753
-#FLUX: -c=8
-#FLUX: --queue=lonepeak
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --account=rupper
+#SBATCH --output=slurm-%j.out-%N
+#SBATCH --mail-user=durban.keeler@gmail.com
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=256G
+#SBATCH --time=06:00:00
+#SBATCH --partition=lonepeak
 
 StartDir=$(pwd)
 HexDir="/uufs/chpc.utah.edu/common/home/u1046484/Codebase/heximap/"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mmult
-#FLUX: -n=4
-#FLUX: --queue=shared
-#FLUX: -t=30
-#FLUX: --urgency=16
+#FLUX --job-name=mmult
+#FLUX -n=4
+#FLUX --queue=shared
+#FLUX -t=30
+#FLUX --urgency=16
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}
 PRO=mmult

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=SegVolContextP
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=3540
-#FLUX: --urgency=16
+#SBATCH --job-name=SegVolContextP
+#SBATCH --output=/home/zfulop/adapt_med_seg/jobs/logs/SegVol-context-prior_eval_%A.out
+#SBATCH --error=/home/zfulop/adapt_med_seg/jobs/logs/SegVol-context-prior_eval_%A.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=1
+#SBATCH --mem=62G
+#SBATCH --time=00:59:00
+#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch-shared/zfulop/hf_cache_dir'
 

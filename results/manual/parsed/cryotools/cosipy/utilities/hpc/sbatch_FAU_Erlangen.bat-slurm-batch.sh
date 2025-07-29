@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=Test_run
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=Test_run
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 unset SLURM_EXPORT_ENV
 module load intel64 netcdf 

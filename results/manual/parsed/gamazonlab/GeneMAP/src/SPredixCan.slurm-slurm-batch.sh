@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=job_array
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=job_array
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --array=0-1800
 
 dir="/ru-auth/local/home/akhan01/GeneMAP/Canadian_ByChromosome"
 cd $dir

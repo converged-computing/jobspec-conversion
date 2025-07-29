@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-chip-9708
-#FLUX: --queue=RTX8Kq
-#FLUX: --urgency=16
+#FLUX --job-name=bumfuzzled-peas-4774
+#FLUX --queue=RTX8Kq
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2'
 

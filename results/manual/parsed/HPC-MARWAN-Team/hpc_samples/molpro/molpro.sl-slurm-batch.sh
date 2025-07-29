@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=Molpro
-#FLUX: --queue=defq
-#FLUX: --urgency=16
+#SBATCH --job-name=Molpro
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq
 
 export WORK_DIR='/data/$USER/${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/myInput'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-buttface-6032
-#FLUX: --urgency=16
+#FLUX --job-name=delicious-eagle-7703
+#FLUX --urgency=16
 
  echo "Usage : Port, Slurm Account, Slurm Partition, Num-MPI-procs, Memory-per-rank, Hours needed"
  LOGIN=$(hostname -s)

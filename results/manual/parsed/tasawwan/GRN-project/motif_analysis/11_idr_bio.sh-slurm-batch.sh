@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=idr_bio
-#FLUX: -n=12
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=idr_bio
+#SBATCH --output=slurm/idr_bio-%j.out
+#SBATCH --error=slurm/idr_bio-%j.err
+#SBATCH --mail-user=tasawwar_rahman@brown.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50G
+#SBATCH --time=01:00:00
 
 module load python/3.6.6
 module load gcc/6.2  

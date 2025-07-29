@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parsnip-4796
-#FLUX: -c=24
-#FLUX: --queue=amdcpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --output=/home/gebreawe/Model_logs/Segmentation/ST_Cylinder_3D/logs/wod_concordance_T11_33_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=60G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=amdcpu
+#SBATCH --constraint=ntasks-per-node=3
 
 export NCCL_LL_THRESHOLD='1'
 

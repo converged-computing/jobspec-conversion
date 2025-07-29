@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dlrm
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=dlrm
+#FLUX -t=7200
+#FLUX --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

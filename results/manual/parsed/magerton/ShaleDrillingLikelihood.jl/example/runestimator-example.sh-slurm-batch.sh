@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=run_estimator
-#FLUX: -n=64
-#FLUX: --queue=high2
-#FLUX: -t=360000
-#FLUX: --urgency=16
+#SBATCH --job-name=run_estimator
+#SBATCH --mail-user=mjagerton@ucdavis.edu
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256000
+#SBATCH --time=4-04:00:00
+#SBATCH --partition=high2
 
 echo ""
 hostname

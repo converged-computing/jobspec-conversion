@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=Nano-2d-trainer-20b-8nodes
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: --gpus-per-task=4
-#FLUX: --queue=train
-#FLUX: --urgency=16
+#SBATCH --job-name=Nano-2d-trainer-20b-8nodes
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=4
+#SBATCH --partition=train
 
 export FI_PROVIDER='efa'
 export LOGLEVEL='INFO'

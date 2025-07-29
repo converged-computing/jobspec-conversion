@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nq
-#FLUX: -N=4
-#FLUX: -c=10
-#FLUX: --queue=devlab
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=nq
+#FLUX -N=4
+#FLUX -c=10
+#FLUX --queue=devlab
+#FLUX -t=14400
+#FLUX --urgency=16
 
 size=xl
 DATA_DIR='/checkpoint/plewis/atlas_opensourcing_check/'

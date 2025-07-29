@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-4750
-#FLUX: --queue=gpuq
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-eagle-4161
+#FLUX --queue=gpuq
+#FLUX -t=36000
+#FLUX --urgency=16
 
 module load singularity
 module load cuda

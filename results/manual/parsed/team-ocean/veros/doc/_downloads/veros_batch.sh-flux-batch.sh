@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=veros_mysetup
-#FLUX: -N=2
-#FLUX: -n=64
+#FLUX --job-name=veros_mysetup
+#FLUX -N=2
+#FLUX -n=64
 #FLUX: --exclusive
-#FLUX: --queue=mycluster
-#FLUX: --urgency=16
+#FLUX --queue=mycluster
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=S1
-#FLUX: --queue=shared
-#FLUX: -t=8640
-#FLUX: --urgency=16
+#SBATCH --job-name=S1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+#SBATCH --time=02:24:00
+#SBATCH --partition=shared
+#SBATCH --array=1-22
 
 export R_LIBS_USER='$HOME/R-3.6.1-MKL'
 

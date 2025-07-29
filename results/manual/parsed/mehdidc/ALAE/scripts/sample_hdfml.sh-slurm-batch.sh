@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-snack-1357
-#FLUX: -c=10
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --output=out
+#SBATCH --error=err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

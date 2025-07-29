@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=FASTQC_snakemake
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=FASTQC_snakemake
+#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
 
 export PERL5LIB='/packages/6x/vcftools/0.1.12b/lib/perl5/site_perl'
 

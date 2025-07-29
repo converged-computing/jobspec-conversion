@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=V4
-#FLUX: --queue=normal
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=V4
+#SBATCH --output=stam4.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --partition=normal
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='2 # gives 4-12ns/day performance,15-6ns/day,1-7ns/day,2-4.log,8-5.log,4-6.log '

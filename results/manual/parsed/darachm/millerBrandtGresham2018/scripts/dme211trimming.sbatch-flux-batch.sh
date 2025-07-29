@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dme211trimming
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=dme211trimming
+#FLUX -t=43200
+#FLUX --urgency=16
 
 WORKDIR=$(pwd) 
 mkdir -p ${WORKDIR}"/tmp/dme211"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-egg-1975
-#FLUX: -N=32
-#FLUX: -n=32
-#FLUX: -c=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=bricky-arm-3930
+#FLUX -N=32
+#FLUX -n=32
+#FLUX -c=2
+#FLUX -t=14400
+#FLUX --urgency=16
 
 for np in 4 8 12 16 20 24 28 32; do
     for rep in {1..5}; do

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-9712
-#FLUX: --queue=slurm_sbel_cmg
-#FLUX: -t=345660
-#FLUX: --urgency=16
+#FLUX --job-name=sticky-poo-0507
+#FLUX --queue=slurm_sbel_cmg
+#FLUX -t=345660
+#FLUX --urgency=16
 
 module load usermods
 module load user/cuda

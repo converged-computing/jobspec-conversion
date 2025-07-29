@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=Allscale.ipic3d.only.shared
-#FLUX: -N=2
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name=Allscale.ipic3d.only.shared
+#SBATCH --account=2018-3-295
+#SBATCH --output=allscale_ipic3d_edist_2nodes.o
+#SBATCH --error=allscale_ipic3d_edist_2nodes.e
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=04:00:00
+#SBATCH --constraint=ntasks-per-node=1,Haswell
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/allscale_runtime-prefix/src/allscale_runtime-build/src:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/third_party/boost/lib:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/hpx-prefix/src/hpx-build/lib'
 export PATH='/cfs/klemming/nobackup/p/philgs/allscale/libs/ruby-1.9.3-p125/bin:$PATH'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lettuce-6348
-#FLUX: --exclusive
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=0
+#SBATCH: --exclusive
 
 export NCCL_IB_PCI_RELAXED_ORDERING='1'
 export UCX_IB_ENABLE_CUDA_AFFINITY='n'

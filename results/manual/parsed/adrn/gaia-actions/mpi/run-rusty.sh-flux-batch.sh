@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=actions
-#FLUX: -N=12
-#FLUX: --queue=cca
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=actions
+#FLUX -N=12
+#FLUX --queue=cca
+#FLUX -t=129600
+#FLUX --urgency=16
 
 source ~/.bash_profile
 cd /mnt/ceph/users/apricewhelan/projects/gaia-actions/scripts

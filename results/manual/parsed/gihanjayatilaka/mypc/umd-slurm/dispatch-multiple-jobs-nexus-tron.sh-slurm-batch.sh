@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=pytorchjob
-#FLUX: -c=8
-#FLUX: --queue=tron
-#FLUX: -t=21600
-#FLUX: --urgency=50
+#SBATCH --job-name=pytorchjob
+#SBATCH --account=nexus
+#SBATCH --output=/vulcanscratch/gihan/umd-slurm/logs/outFile-%A_%a.txt
+#SBATCH --error=/vulcanscratch/gihan/umd-slurm/logs/errorFile-%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:rtxa6000:1
+#SBATCH --mem=32gb
+#SBATCH --time=06:00:00
+#SBATCH --partition=tron
+#SBATCH --qos=high
+#SBATCH --array=9-16
 
 export TORCH_HOME='/vulcanscratch/gihan/torch-hub/'
 

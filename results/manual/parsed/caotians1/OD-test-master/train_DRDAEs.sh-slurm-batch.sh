@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nunchucks-8300
-#FLUX: -c=8
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --account=rpp-bengioy
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+#SBATCH --array=0-8
 
 PARRAY1=(DRDTrainAEBCE.py DRDTrainAEMSE.py DRDTrainVAEBCE.py DRDTrainVAEMSE.py DRDTrainALILikeBCE.py DRDTrainALILikeMSE.py DRDTrainALILikeVAEBCE.py DRDTrainALILikeVAEMSE.py)
 PARRAY2=(DRDAEBCE DRDAEMSE DRDVAEBCE DRDVAEMSE DRDALIBCE DRDALIMSE DRDALIVAEBCE DRDALIVAEMSE)

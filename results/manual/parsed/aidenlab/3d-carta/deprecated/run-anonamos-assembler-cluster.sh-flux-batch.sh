@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=${groupname}_reduce_${jname}
-#FLUX: --queue=$queue
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=${groupname}_reduce_${jname}
+#FLUX --queue=$queue
+#FLUX -t=86400
+#FLUX --urgency=16
 
 USAGE="
 *****************************************************

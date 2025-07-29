@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=eke50
-#FLUX: -n=40
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=eke50
+#SBATCH --output=stdouterr_%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=cpu
+#SBATCH --exclude=hhnode-ib-[201-228]
 
 module load openmpi3
 python --version

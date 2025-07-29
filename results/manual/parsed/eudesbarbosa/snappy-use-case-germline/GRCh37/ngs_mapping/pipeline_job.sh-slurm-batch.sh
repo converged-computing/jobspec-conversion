@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ngs_mapping_e2e_test
-#FLUX: --queue=medium
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ngs_mapping_e2e_test
+#SBATCH --output=slurm_log/%x-%J.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=6G
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=medium
 
 export TMPDIR='${HOME}/scratch/tmp'
 

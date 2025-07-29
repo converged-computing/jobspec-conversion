@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rand-faults-pf
+#FLUX --job-name=rand-faults-pf
 #FLUX: --exclusive
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#FLUX -t=57600
+#FLUX --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 

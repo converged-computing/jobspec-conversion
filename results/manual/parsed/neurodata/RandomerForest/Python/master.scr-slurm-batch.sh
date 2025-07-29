@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=UCI_Datarun
-#FLUX: --queue=shared
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=UCI_Datarun
+#SBATCH --mail-user=jpatsol1@jhu.edu
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --partition=shared
+#SBATCH --constraint=ntasks-per-node=24
 
 if [[ "$USER" == "jpatsol1@jhu.edu" ]]; then
 	export NCORES=$SLURM_NTASKS

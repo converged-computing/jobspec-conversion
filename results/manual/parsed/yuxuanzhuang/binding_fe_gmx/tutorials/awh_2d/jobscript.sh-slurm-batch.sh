@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=epj_binding_1
-#FLUX: -n=8
-#FLUX: --queue=lindahl4
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=epj_binding_1
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=30G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=lindahl4
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

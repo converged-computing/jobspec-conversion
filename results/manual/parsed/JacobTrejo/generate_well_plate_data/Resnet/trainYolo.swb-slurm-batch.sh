@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=orthoRes
-#FLUX: --queue=gpux2
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --job-name=orthoRes
+#SBATCH --output=log/othroRes.out
+#SBATCH --error=error/orthoRes.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048
+#SBATCH --time=00:24:00
+#SBATCH --partition=gpux2
 
 echo Running
 module load opence/1.5.1

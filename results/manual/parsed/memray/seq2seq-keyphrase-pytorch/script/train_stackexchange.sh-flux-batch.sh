@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rnn.stackexchange.multi_test.general
-#FLUX: --queue=titanx
-#FLUX: -t=518400
-#FLUX: --urgency=16
+#FLUX --job-name=rnn.stackexchange.multi_test.general
+#FLUX --queue=titanx
+#FLUX -t=518400
+#FLUX --urgency=16
 
 export ATTENTION='general'
 export EXP_NAME='rnn.stackexchange.multi_test.$ATTENTION'

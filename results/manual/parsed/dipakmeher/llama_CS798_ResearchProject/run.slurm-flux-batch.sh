@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dp_llama_cs798Research_job
-#FLUX: --queue=gpuq
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=dp_llama_cs798Research_job
+#FLUX --queue=gpuq
+#FLUX -t=432000
+#FLUX --urgency=16
 
 set echo
 umask 0027

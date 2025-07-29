@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=SpTrSv_Final
-#FLUX: -t=21600
-#FLUX: --urgency=16
+#SBATCH --job-name=SpTrSv_Final
+#SBATCH --output=SpTrSv_Final_%j.out
+#SBATCH --error=SpTrSv_Final_%j.error
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --constraint=ntasks-per-node=64
 
 export OMP_NUM_THREADS='64'
 export MKL_NUM_THREADS='64'

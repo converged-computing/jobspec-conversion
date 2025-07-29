@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-2072
-#FLUX: -N=2
-#FLUX: -n=3
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --job-name=reclusive-pancake-0121
+#FLUX -N=2
+#FLUX -n=3
+#FLUX -t=600
+#FLUX --urgency=16
 
 export WORK_DIR='/project/cscale_test/Public/openeo/'
 export MKL_NUM_THREADS='1'

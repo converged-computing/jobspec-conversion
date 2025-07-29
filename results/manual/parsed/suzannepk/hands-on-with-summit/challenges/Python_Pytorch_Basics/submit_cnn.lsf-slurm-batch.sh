@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-itch-2093
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/suzannepk/hands-on-with-summit/challenges/Python_Pytorch_Basics/submit_cnn.lsf

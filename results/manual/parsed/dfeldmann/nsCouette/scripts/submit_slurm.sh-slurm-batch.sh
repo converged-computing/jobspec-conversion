@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=ns_SMALL-0032-12
-#FLUX: -N=16
-#FLUX: --queue=test
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=ns_SMALL-0032-12
+#SBATCH --output=ns_SMALL-0032-12.%j.out
+#SBATCH --error=ns_SMALL-0032-12.%j.err
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --partition=test
 
 export OMP_NUM_THREADS='12'
 export OMP_SCHEDULE='static'

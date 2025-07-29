@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bits-1712
-#FLUX: -c=32
+#FLUX --job-name=frigid-animal-7406
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=xeonv6
-#FLUX: --urgency=16
+#FLUX --queue=xeonv6
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='false'
 

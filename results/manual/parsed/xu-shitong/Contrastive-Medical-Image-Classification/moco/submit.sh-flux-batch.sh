@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-kerfuffle-0383
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-knife-2783
+#FLUX --urgency=16
 
 if [ -z "$1"]; then 
   echo "no provided file for submittion"

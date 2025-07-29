@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-1165
-#FLUX: -c=16
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --qos=blanca-ccn
+#SBATCH --constraint=ntasks-per-node=1
 
 export HOME='`getent passwd $USER | cut -d':' -f6`'
 export PYTHONUNBUFFERED='1'

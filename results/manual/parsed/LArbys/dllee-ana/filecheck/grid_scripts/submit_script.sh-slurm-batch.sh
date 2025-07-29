@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=dlsumtree
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=dlsumtree
+#SBATCH --output=dlsumtree.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:30:00
+#SBATCH --array=0-100
 
 CONTAINER=/cluster/tufts/wongjiradlab/larbys/larbys-containers/singularity_ubdl_deps_py2_10022019.simg
 FILECHECK_DIR=/cluster/tufts/wongjiradlab/twongj01/dllee-ana/filecheck

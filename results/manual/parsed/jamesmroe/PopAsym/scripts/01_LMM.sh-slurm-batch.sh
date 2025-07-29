@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=LMM
-#FLUX: -c=2
-#FLUX: -t=43260
-#FLUX: --urgency=16
+#SBATCH --job-name=LMM
+#SBATCH --account=p23_lcbc
+#SBATCH --output=logs/slurm-%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=20G
+#SBATCH --time=12:01:00
 
 export FREESURFER_HOME='/cluster/projects/p23/tools/mri/freesurfer/freesurfer.6.0.0'
 export SUBJECTS_DIR='${1}/subjects'

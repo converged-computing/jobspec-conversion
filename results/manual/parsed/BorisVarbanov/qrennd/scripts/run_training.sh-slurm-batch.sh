@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=qrennd-train-test
-#FLUX: --gpus-per-task=1
-#FLUX: --queue=gpu
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=qrennd-train-test
+#SBATCH --output=train_qrennd.%j.out
+#SBATCH --error=train_qrennd.%j.err
+#SBATCH --mail-user=m.serraperalta@student.tudelft.nl
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=20:00:00
+#SBATCH --partition=gpu
 
 module load 2022r2
 module load python

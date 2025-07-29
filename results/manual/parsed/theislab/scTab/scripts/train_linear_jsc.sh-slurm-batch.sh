@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-carrot-1801
-#FLUX: --queue=booster
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --account=hai_cellnet
+#SBATCH --output=slurm_out/out.%j
+#SBATCH --error=slurm_out/err.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=booster
 
 cd ~/"$USER" || exit
 ml purge

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lentil-1168
-#FLUX: -c=32
+#FLUX --job-name=expensive-muffin-6043
+#FLUX -c=32
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='32'
 

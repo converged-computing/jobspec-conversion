@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-staircase-4297
-#FLUX: -n=8
-#FLUX: --queue=gpgpumse
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=hairy-rabbit-7466
+#FLUX -n=8
+#FLUX --queue=gpgpumse
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module purge
 module load fosscuda/2019b

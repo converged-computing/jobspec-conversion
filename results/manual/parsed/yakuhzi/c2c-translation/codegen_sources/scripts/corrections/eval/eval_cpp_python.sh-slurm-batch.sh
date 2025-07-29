@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=corrections_eval_cpp_python
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#SBATCH --job-name=corrections_eval_cpp_python
+#SBATCH --output=corrections_eval_cpp_python_%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=80GB
+#SBATCH --time=00:45:00
 
 MODEL_PATH='models/Online_ST_CPP_Python.pth'
 DUMP_PATH='dump/corrections/cpp_python'

@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=snakemake
-#FLUX: -n=20
-#FLUX: --queue=bmh
-#FLUX: -t=115200
-#FLUX: --urgency=16
+#SBATCH --job-name=snakemake
+#SBATCH --output=snakemake.out
+#SBATCH --error=snakemake.err
+#SBATCH --mail-user=asillers@ucdavis.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=60G
+#SBATCH --time=1-08:00:00
+#SBATCH --partition=bmh
 
 set -e                                                                     # Error if a single command fails
 set -x                                                                     # Error if un-named variables calledset -x  >set -x

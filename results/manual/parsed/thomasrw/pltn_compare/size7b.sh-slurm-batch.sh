@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-salad-0185
-#FLUX: -n=10
-#FLUX: --queue=defq-48core
-#FLUX: --urgency=16
+#SBATCH --output=/dev/null
+#SBATCH --error=/work/thoma525/slurm_errors-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=defq-48core
+#SBATCH --array=1-100
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

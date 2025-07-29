@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cube_stats_grid_ACES
-#FLUX: -n=64
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=cube_stats_grid_ACES
+#SBATCH --account=adamginsburg
+#SBATCH --output=/blue/adamginsburg/adamginsburg/ACES/logs/cube_stats_grid_ACES_%j.log
+#SBATCH --mail-user=adamginsburg@ufl.edu
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=256gb
+#SBATCH --time=4-00:00:00
+#SBATCH --qos=adamginsburg-b
 
 export WORK_DIR='/blue/adamginsburg/adamginsburg/ACES/workdir'
 export IPYTHON='/orange/adamginsburg/miniconda3/envs/python39/bin/ipython'

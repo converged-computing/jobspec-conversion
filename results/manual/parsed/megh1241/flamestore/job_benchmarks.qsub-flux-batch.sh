@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-gato-8980
-#FLUX: --urgency=16
+#FLUX --job-name=bloated-snack-0401
+#FLUX --urgency=16
 

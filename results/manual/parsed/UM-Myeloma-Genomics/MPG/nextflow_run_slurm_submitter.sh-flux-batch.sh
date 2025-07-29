@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leg-5113
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-platanos-4835
+#FLUX --urgency=16
 
 Help()
 {

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=noiserdd
-#FLUX: --queue=hns,normal,stat
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=noiserdd
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=hns,normal,stat
+#SBATCH --array=1-24
 
 ml load gmp
 ml load mpfr

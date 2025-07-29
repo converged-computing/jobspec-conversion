@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-train-6671
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/SAEON/croco_tools/Coupling_tools/CROCO/job_prepro_matlab.pbs

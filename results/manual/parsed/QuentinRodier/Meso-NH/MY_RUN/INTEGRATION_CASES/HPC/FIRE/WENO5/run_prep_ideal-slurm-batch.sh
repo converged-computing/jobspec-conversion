@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=ideal_fire
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=ideal_fire
+#SBATCH --output=ideal_fire.eo%j
+#SBATCH --error=ideal_fire.eo%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 export MPIRUN='Mpirun -np 1'
 

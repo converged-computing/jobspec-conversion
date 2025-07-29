@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=test_job
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=test_job
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 echo "Current working directory: `pwd`"
 echo "Starting run at: `date`"

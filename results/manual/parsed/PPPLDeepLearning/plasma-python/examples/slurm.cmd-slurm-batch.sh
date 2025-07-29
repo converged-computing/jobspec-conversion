@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-4196
-#FLUX: -N=4
-#FLUX: -c=4
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --mem=0
+#SBATCH --time=01:00:00
+#SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 export OMPI_MCA_btl='tcp,self,vader'
 

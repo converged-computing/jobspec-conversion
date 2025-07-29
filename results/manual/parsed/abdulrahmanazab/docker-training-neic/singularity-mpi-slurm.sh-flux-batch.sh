@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello
-#FLUX: -n=64
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=hello
+#FLUX -n=64
+#FLUX -t=120
+#FLUX --urgency=16
 
 source /cluster/bin/jobsetup
 module purge   # clear any inherited modules

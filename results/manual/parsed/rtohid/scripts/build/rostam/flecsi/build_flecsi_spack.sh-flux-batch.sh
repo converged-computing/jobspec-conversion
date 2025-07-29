@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=flecsi_spack_build
-#FLUX: --queue=medusa
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=flecsi_spack_build
+#FLUX --queue=medusa
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module load openmpi
 module load gcc/9.2.1

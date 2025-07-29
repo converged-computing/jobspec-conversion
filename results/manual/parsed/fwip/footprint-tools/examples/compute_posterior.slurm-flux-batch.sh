@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fudge-0694
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-citrus-0533
+#FLUX --urgency=16
 
 set -o pipefail
 interval_file=/home/jvierstra/proj/ftd/results.slurm/regions.bed

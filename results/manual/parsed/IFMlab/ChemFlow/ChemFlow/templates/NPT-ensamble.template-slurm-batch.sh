@@ -1,9 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=$LIGAND
-#FLUX: --exclusive
-#FLUX: --queue=publicgpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=$LIGAND
+#SBATCH --output=slurm.out
+#SBATCH --error=error.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=publicgpu
+#SBATCH: --exclusive
+#SBATCH --constraint=gpup100|gpu1080|gpuv100|gpurtx5000|gpurtx6000
+#SBATCH --exclude=hpc-n224
 
 module purge
 module load cmake/cmake-3.15.4  cuda/cuda-10.2   intel/intel18   fftw/fftw3.3.8.i18  gcc/gcc-8

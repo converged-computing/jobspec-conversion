@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=multinode-example
-#FLUX: -N=2
-#FLUX: -n=2
-#FLUX: -c=4
-#FLUX: --queue=a800
-#FLUX: --urgency=16
+#SBATCH --job-name=multinode-example
+#SBATCH --output=log/%j.out
+#SBATCH --error=log/%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:4
+#SBATCH --partition=a800
 
 export NCCL_IB_DISABLE='1'
 export NCCL_SOCKET_IFNAME='bond0'

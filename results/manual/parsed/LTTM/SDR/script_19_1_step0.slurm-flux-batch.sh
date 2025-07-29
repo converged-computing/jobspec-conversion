@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=C_19_1
-#FLUX: -n=2
-#FLUX: --queue=allgroups
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#FLUX --job-name=C_19_1
+#FLUX -n=2
+#FLUX --queue=allgroups
+#FLUX -t=36000
+#FLUX --urgency=16
 
 batch_size=8
 task='19-1'

@@ -1,9 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=tetranucl
-#FLUX: -n=2
-#FLUX: --queue=sched_mit_binz,newnodes,sched_mit_hill
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=tetranucl
+#SBATCH --output=slurm-%j-curr-0.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH --time=12:00:00
+#SBATCH --partition=sched_mit_binz,newnodes,sched_mit_hill
+#SBATCH --constraint=centos7
+#SBATCH --exclude=node[445,455,457,462]
 
 export pyPath='/home/xclin/bin/anaconda2/bin'
 export PLUMED_USE_LEPTON='yes'

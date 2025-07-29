@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-omelette-8890
-#FLUX: -c=4
-#FLUX: --queue=compute
-#FLUX: --urgency=16
+#FLUX --job-name=crunchy-animal-8352
+#FLUX -c=4
+#FLUX --queue=compute
+#FLUX --urgency=16
 
 COHORT=$1
 umask 002

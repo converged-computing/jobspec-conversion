@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-banana-7441
-#FLUX: --queue=gpu-a5000-q
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=milky-peas-6491
+#FLUX --queue=gpu-a5000-q
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export DJL_DEFAULT_ENGINE='MXNet'
 export MXNET_ENGINE_TYPE='NaiveEngine'

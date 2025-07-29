@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peanut-butter-9517
-#FLUX: -c=4
-#FLUX: --queue=dpart
-#FLUX: -t=129600
-#FLUX: --urgency=50
+#FLUX --job-name=peachy-rabbit-2282
+#FLUX -c=4
+#FLUX --queue=dpart
+#FLUX -t=129600
+#FLUX --urgency=50
 
 export WORK_DIR='/scratch0/slurm_${SLURM_JOBID}'
 export PYTHONPATH='.:$PYTHONPATH'

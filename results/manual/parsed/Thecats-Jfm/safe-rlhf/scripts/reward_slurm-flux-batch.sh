@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rlhf_rm
-#FLUX: -N=2
-#FLUX: --queue=gpu
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#FLUX --job-name=rlhf_rm
+#FLUX -N=2
+#FLUX --queue=gpu
+#FLUX -t=144000
+#FLUX --urgency=16
 
 export NCCL_IB_HCA='mlx5_0:1,mlx5_1:1,mlx5_4:1,mlx5_5:1'
 export NCCL_IB_DISABLE='0'

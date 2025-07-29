@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=deduplicate_clipoverlap
-#FLUX: --urgency=16
+#SBATCH --job-name=deduplicate_clipoverlap
+#SBATCH --output=deduplicate_clipoverlap.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 echo $SLURM_JOB_ID
 WORKDIR=/workdir/$USER/$SLURM_JOB_ID-$SLURM_ARRAY_TASK_ID/

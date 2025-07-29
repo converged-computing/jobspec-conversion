@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=analyze-peak-betta
-#FLUX: -c=40
-#FLUX: --queue=memory
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=analyze-peak-betta
+#FLUX -c=40
+#FLUX --queue=memory
+#FLUX -t=432000
+#FLUX --urgency=16
 
 module load Singularity/3.3.0
 genomes=(

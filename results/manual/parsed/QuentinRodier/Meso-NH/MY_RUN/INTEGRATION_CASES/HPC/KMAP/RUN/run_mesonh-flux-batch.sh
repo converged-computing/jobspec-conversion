@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=run_kmap
-#FLUX: -N=4
-#FLUX: -n=64
-#FLUX: -t=54000
-#FLUX: --urgency=16
+#FLUX --job-name=run_kmap
+#FLUX -N=4
+#FLUX -n=64
+#FLUX -t=54000
+#FLUX --urgency=16
 
 export MPIRUN='Mpirun -np 64'
 

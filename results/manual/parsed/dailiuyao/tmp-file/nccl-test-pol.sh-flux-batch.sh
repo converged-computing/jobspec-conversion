@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hobbit-1854
-#FLUX: --urgency=16
+#FLUX --job-name=blue-blackbean-4892
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dailiuyao/tmp-file/nccl-test-pol.sh

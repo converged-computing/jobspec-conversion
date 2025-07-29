@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_thermal
-#FLUX: -c=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=train_thermal
+#FLUX -c=8
+#FLUX -t=86400
+#FLUX --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate VTL

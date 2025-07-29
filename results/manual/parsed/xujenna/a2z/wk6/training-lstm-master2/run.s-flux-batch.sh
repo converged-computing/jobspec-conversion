@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=happyDB12
-#FLUX: -c=3
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX --job-name=happyDB12
+#FLUX -c=3
+#FLUX -t=18000
+#FLUX --urgency=16
 
 module purge
 module load numpy/python3.6/intel/1.14.0 tensorflow/python3.6/1.5.0

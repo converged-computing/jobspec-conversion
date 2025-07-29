@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-frito-9364
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --job-name=butterscotch-frito-2985
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

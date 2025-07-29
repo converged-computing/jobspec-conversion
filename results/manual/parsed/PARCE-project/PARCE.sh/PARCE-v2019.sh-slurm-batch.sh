@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-punk-3952
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/PARCE-project/PARCE.sh/PARCE-v2019.sh

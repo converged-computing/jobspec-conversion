@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=dsap4hopt
-#FLUX: -c=4
-#FLUX: --queue=gpu
-#FLUX: -t=176340
-#FLUX: --urgency=16
+#SBATCH --job-name=dsap4hopt
+#SBATCH --account=Project_2002244
+#SBATCH --output=job_out_ep_4_power_168_36_hopt_f4.txt
+#SBATCH --error=job_err_ep_4_power_168_36_hopt_f4.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:4
+#SBATCH --mem=32G
+#SBATCH --time=2-00:59:00
+#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.3.0

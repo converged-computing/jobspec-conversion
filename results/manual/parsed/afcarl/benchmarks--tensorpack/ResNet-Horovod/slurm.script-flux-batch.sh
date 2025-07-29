@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-earthworm-6176
-#FLUX: -c=10
-#FLUX: --urgency=16
+#FLUX --job-name=salted-platanos-7288
+#FLUX -c=10
+#FLUX --urgency=16
 
 export TENSORPACK_PROGRESS_REFRESH='20'
 

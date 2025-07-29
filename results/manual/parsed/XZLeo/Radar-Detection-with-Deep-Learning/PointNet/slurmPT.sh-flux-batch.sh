@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-malarkey-9344
-#FLUX: -c=8
-#FLUX: --queue=ztest
-#FLUX: -t=2400
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-frito-3962
+#FLUX -c=8
+#FLUX --queue=ztest
+#FLUX -t=2400
+#FLUX --urgency=16
 
 echo "Full Dataset Testing (DBSCAN + PointNet)"
 mkdir -p /workspaces/$USER/training/logs/

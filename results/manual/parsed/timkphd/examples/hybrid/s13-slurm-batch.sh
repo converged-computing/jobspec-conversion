@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-salad-4878
-#FLUX: -N=2
-#FLUX: -n=18
-#FLUX: -c=4
-#FLUX: --queue=short
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=hpcapps
+#SBATCH --output=/dev/null
+#SBATCH --nodes=2
+#SBATCH --ntasks=18
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:10:00
+#SBATCH --partition=short
 
 export VER='icc'
 export cpt='$SLURM_CPUS_PER_TASK '

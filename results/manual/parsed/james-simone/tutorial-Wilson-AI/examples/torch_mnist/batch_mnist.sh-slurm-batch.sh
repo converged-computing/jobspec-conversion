@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=MNIST
-#FLUX: -c=4
-#FLUX: --queue=gpu_gce
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=MNIST
+#SBATCH --output=job_%x_%A.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:v100:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=gpu_gce
 
 export WCPROJECT='simone'
 export CONT_DIR='/wclustre/${WCPROJECT}/containers/'

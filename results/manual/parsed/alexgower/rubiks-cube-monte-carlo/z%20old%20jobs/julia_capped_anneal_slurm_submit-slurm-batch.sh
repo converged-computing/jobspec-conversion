@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=cpujob
-#FLUX: -n=3
-#FLUX: --queue=cclake-himem
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=cpujob
+#SBATCH --account=CASTELNOVO-SL3-CPU
+#SBATCH --nodes=1
+#SBATCH --ntasks=3
+#SBATCH --cpus-per-task=1
+#SBATCH --time=12:00:00
+#SBATCH --partition=cclake-himem
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

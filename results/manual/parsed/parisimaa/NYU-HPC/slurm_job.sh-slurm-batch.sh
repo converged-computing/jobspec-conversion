@@ -1,7 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=CL_Gd
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=CL_Gd
+#SBATCH --output=/gpfs/scratch/pa2297/slurm_%j.out
+#SBATCH --mail-user=PA2297@nyulangone.org
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10GB
+#SBATCH --time=2-00:00:00
 
 module purge
 module load singularity/3.7.1

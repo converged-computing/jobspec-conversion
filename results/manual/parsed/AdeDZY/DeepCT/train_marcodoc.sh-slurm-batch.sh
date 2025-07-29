@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=purple-milkshake-8101
-#FLUX: -n=8
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem-per-cpu=8192
+#SBATCH --time=1-00:00:00
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/cuda/10.0/lib64:/opt/cudnn/cuda-10.0/7.3/cuda/lib64'
 export BERT_BASE_DIR='/bos/usr0/zhuyund/uncased_L-12_H-768_A-12'

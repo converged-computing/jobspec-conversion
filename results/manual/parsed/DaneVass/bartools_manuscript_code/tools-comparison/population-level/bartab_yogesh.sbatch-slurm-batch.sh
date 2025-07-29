@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=bartab_yogesh
-#FLUX: -n=20
-#FLUX: --queue=prod_med
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=bartab_yogesh
+#SBATCH --output=logs/%x.%j.out
+#SBATCH --error=logs/%x.%j.err
+#SBATCH --mail-user=henrietta.holze@petermac.org
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=32GB
+#SBATCH --time=01:00:00
+#SBATCH --partition=prod_med
 
 export NXF_SINGULARITY_LIBRARYDIR='/scratch/users/hholze/BARtab/singularity/"    # your singularity storage dir'
 

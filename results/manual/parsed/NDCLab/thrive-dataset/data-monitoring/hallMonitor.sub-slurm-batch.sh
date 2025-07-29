@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-snack-8661
-#FLUX: -t=1440
-#FLUX: --urgency=16
+#SBATCH --account=iacc_gbuzzell
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:24:00
 
 module load singularity-3.8.2
 singularity exec -e /home/data/NDClab/tools/containers/python-3.8/python-3.8.simg ./hallMonitor.sh

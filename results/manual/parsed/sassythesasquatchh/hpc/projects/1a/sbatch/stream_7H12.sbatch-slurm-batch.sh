@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=tart-platanos-7318
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --output=stream_7H12.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2048
+#SBATCH --time=01:00:00
+#SBATCH --constraint=EPYC_7H12
 
 PROJ_DIR="$HOME/projects/1a"
 BIN_DIR="$PROJ_DIR/bin"

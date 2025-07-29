@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-destiny-1433
-#FLUX: --queue=naples
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-onion-0630
+#FLUX --queue=naples
+#FLUX -t=1800
+#FLUX --urgency=16
 
 FD_PATH="$1"
 DOMAIN="$2"

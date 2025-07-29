@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=fish6_verkko
-#FLUX: -c=32
-#FLUX: --queue=norm
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#SBATCH --job-name=fish6_verkko
+#SBATCH --mail-user=javan.okendo@nih.gov
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=180g
+#SBATCH --time=10-00:00:00
+#SBATCH --partition=norm
 
 module load verkko/1.3.1
 module load snakemake/7.7.0

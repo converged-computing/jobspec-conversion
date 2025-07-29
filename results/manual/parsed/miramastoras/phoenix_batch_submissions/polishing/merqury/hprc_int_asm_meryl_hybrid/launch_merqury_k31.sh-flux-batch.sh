@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=merqury_hybrid_hprc_int_asm_k31
-#FLUX: -c=8
-#FLUX: --queue=high_priority
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=merqury_hybrid_hprc_int_asm_k31
+#FLUX -c=8
+#FLUX --queue=high_priority
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -ex
 sample_file=$1

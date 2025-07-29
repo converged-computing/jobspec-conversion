@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=SG_L4
-#FLUX: -n=10
-#FLUX: --queue=carl.p
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=SG_L4
+#FLUX -n=10
+#FLUX --queue=carl.p
+#FLUX -t=259200
+#FLUX --urgency=16
 
 export RUST_BACKTRACE='full'
 

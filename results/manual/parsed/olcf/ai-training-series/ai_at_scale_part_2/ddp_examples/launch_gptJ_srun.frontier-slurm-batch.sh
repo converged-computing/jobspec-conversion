@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=gpt_frontier
-#FLUX: -N=2
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=gpt_frontier
+#SBATCH --account=STF218
+#SBATCH --output=logs/gpt_oscar_frontier_2N-%j.o
+#SBATCH --error=logs/gpt_oscar_frontier_2N-%j.e
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=batch
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'
 export ROCM_HOME='/opt/rocm-5.4.0'

@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=whap
-#FLUX: --queue=small
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=whap
+#SBATCH --account=project_2001443
+#SBATCH --output=/scratch/project_2001443/barriers_introgr_formica/vcf/phasing/whatshap/logs/whatshap_%a.out
+#SBATCH --error=/scratch/project_2001443/barriers_introgr_formica/vcf/phasing/whatshap/logs/whatshap_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=25G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=small
+#SBATCH --array=1-101
 
 export PATH='/projappl/project_2001443/whatshapenv/bin:$PATH" '
 

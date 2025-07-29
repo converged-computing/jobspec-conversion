@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=apogee-rerun
-#FLUX: -N=10
-#FLUX: --queue=cca
-#FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX --job-name=apogee-rerun
+#FLUX -N=10
+#FLUX --queue=cca
+#FLUX -t=129600
+#FLUX --urgency=16
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/vac-pipeline
 source hq-config/init.sh

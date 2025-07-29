@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mmul
-#FLUX: -c=40
-#FLUX: --queue=fast
-#FLUX: -t=5400
-#FLUX: --urgency=16
+#FLUX --job-name=mmul
+#FLUX -c=40
+#FLUX --queue=fast
+#FLUX -t=5400
+#FLUX --urgency=16
 
 echo "*** SEQUENTIAL ***"
 srun singularity run container.sif pi_seq 1000000000

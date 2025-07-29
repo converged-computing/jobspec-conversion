@@ -1,10 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=polyglot-single
-#FLUX: -c=24
-#FLUX: --exclusive
-#FLUX: --queue=express
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=polyglot-single
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=48G
+#SBATCH --time=00:30:00
+#SBATCH --partition=express
+#SBATCH: --exclusive
 
 set -e
 source ~/.bashrc

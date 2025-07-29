@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=PGxCorpus_training
-#FLUX: --queue=gpu_prod_long
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=PGxCorpus_training
+#FLUX --queue=gpu_prod_long
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export PATH='/opt/conda/bin:$PATH'
 

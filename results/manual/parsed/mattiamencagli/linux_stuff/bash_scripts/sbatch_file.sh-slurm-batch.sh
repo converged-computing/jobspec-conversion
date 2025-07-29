@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=PLUTO
-#FLUX: --queue=prod
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=PLUTO
+#SBATCH --account=cin_staff
+#SBATCH --mail-user=m.mencagli@cineca.it
+#SBATCH --mail-type=NONE
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=prod
+#SBATCH --constraint=ntasks-per-node=1
 
 source ${HOME}/modules_files/pluto_mod
 nvidia-smi

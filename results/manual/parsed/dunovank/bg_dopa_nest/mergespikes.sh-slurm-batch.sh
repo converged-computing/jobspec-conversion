@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=merging_data
-#FLUX: -n=20
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=merging_data
+#SBATCH --output=merge_output_file.o
+#SBATCH --error=merge_error_file.e
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:10:00
 
 export PYTHONPATH='/pdc/vol/nest/2.2.2/lib/python2.7/site-packages:/pdc/vol/python/2.7.6-gnu/lib/python2.7/site-packages'
 export TMP='$(pwd)'

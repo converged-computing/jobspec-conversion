@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=red-avocado-6854
-#FLUX: -N=7
-#FLUX: --queue=devel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --account=slns
+#SBATCH --output=slurm_logs/6_vp_mpi_iv/cosim_sbatch-out.%j
+#SBATCH --error=slurm_logs/6_vp_mpi_iv/cosim_sbatch-err.%j
+#SBATCH --nodes=7
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:0
+#SBATCH --time=02:00:00
+#SBATCH --partition=devel
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/my_forked_repos'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

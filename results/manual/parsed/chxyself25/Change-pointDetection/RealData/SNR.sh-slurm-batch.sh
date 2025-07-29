@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=calculate SNR
-#FLUX: -c=51
-#FLUX: --queue=biocrunch
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=calculate SNR
+#SBATCH --output=job.%J.out
+#SBATCH --error=job.%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=51
+#SBATCH --mem=2G
+#SBATCH --time=12:00:00
+#SBATCH --partition=biocrunch
 
 module load r-doparallel/1.0.11-py2-r3.5-tlbjucn
 module load r-devtools/1.12.0-py2-r3.5-3zfj3n2

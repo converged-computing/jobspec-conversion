@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name={{script_name}}_{{run_id}}
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#SBATCH --job-name={{script_name}}_{{run_id}}
+#SBATCH --output=jobs/{{script_name}}_{{run_id}}.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=128G
+#SBATCH --time=04:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=ntasks-per-node=1,a100
 
 module --force purge
 source ~/.bashrc

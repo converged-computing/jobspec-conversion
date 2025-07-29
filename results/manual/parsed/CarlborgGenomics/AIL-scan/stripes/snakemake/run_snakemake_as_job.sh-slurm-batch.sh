@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=tiger_snek
-#FLUX: -n=15
-#FLUX: --queue=core
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=tiger_snek
+#SBATCH --account=snic2018-3-170
+#SBATCH --output=tiger_snek_chunk3_%j.out
+#SBATCH --error=tiger_snek_chunk3_%j.error
+#SBATCH --mail-user=tilman.ronneburg@imbim.uu.se
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=15
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10:00:00
+#SBATCH --partition=core
 
 module load java/sun_jdk1.8.0_151
 source activate v3

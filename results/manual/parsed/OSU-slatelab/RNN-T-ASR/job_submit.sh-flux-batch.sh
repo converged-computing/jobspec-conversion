@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ASR-DDP-check
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=ASR-DDP-check
+#FLUX -t=7200
+#FLUX --urgency=16
 
 source activate pt
 nvidia-smi

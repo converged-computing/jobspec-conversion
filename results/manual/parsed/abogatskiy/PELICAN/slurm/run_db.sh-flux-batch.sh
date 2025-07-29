@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-house-8376
-#FLUX: --queue=genx
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=stanky-citrus-6041
+#FLUX --queue=genx
+#FLUX -t=604800
+#FLUX --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

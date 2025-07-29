@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=AVS-evaluate
-#FLUX: --queue=qcpu_exp
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=AVS-evaluate
+#FLUX --queue=qcpu_exp
+#FLUX -t=2700
+#FLUX --urgency=16
 
 export OMP_PROC_BIND='close '
 export OMP_PLACES='cores'

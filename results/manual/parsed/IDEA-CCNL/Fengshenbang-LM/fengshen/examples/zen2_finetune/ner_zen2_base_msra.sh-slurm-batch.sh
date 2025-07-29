@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=zen2_base_msra
-#FLUX: -c=30
-#FLUX: --urgency=16
+#SBATCH --job-name=zen2_base_msra
+#SBATCH --output=/cognitive_comp/ganruyi/experiments/ner_finetune/zen2_base_msra/%x-%j.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#SBATCH --gres=gpu:1
 
 export TORCH_EXTENSIONS_DIR='/cognitive_comp/ganruyi/tmp/torch_extendsions'
 

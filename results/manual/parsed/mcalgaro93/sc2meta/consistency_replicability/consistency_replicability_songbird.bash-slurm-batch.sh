@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=songbird
-#FLUX: --queue=normal
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=songbird
+#SBATCH --output=array_%A-%a.out
+#SBATCH --mail-user=mcalgaro93@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=5gb
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=normal
+#SBATCH --array=1-20
 
 PER_TASK=5
 START_NUM=$(( ($SLURM_ARRAY_TASK_ID - 1) * $PER_TASK + 1 ))

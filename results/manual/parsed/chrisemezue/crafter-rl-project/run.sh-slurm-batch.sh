@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=crafter
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=crafter
+#SBATCH --output=/home/mila/c/chris.emezue/crafter-ood/slurm_no_scoreboard/slurmoutput_%j.txt
+#SBATCH --error=/home/mila/c/chris.emezue/crafter-ood/slurm_no_scoreboard/slurmerror_%j.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100GB
+#SBATCH --time=3-00:00:00
 
 export IMAGEIO_FFMPEG_EXE='/home/mila/c/chris.emezue/scratch/ffmpeg-git-20220910-amd64-static/ffmpeg'
 

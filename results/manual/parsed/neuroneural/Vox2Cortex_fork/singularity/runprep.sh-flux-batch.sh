@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=v2cprep
-#FLUX: -c=20
-#FLUX: --queue=qTRDGPUH
-#FLUX: -t=432000
-#FLUX: --urgency=16
+#FLUX --job-name=v2cprep
+#FLUX -c=20
+#FLUX --queue=qTRDGPUH
+#FLUX -t=432000
+#FLUX --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

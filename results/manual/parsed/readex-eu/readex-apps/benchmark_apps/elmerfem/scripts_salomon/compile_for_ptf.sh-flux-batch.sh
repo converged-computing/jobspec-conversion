@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-7033
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-hippo-8784
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/elmerfem/scripts_salomon/compile_for_ptf.sh

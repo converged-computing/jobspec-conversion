@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dedup
-#FLUX: -n=8
-#FLUX: --queue=cpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=dedup
+#FLUX -n=8
+#FLUX --queue=cpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 echo "begin"
 date

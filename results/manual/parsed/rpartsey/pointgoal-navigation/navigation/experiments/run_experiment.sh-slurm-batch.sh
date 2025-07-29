@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=ddppo-object-nav
-#FLUX: -N=8
-#FLUX: -c=10
-#FLUX: --queue=prioritylab
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=ddppo-object-nav
+#SBATCH --mail-user=maksymets@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --gres=gpu:8
+#SBATCH --mem=450GB
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=prioritylab
+#SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'

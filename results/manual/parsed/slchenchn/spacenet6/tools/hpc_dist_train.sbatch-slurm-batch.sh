@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-1259
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --account=yangwen
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
 
 CONFIG=$1
 GPUS=$2

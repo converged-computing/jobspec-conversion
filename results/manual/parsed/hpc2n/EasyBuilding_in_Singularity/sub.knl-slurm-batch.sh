@@ -1,10 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=EB-install
-#FLUX: -n=68
-#FLUX: -c=4
-#FLUX: --queue=knl
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#SBATCH --job-name=EB-install
+#SBATCH --account=easybuild
+#SBATCH --nodes=1
+#SBATCH --ntasks=68
+#SBATCH --cpus-per-task=4
+#SBATCH --time=08:00:00
+#SBATCH --partition=knl
 
 export SBATCH_PARTITION='knl'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

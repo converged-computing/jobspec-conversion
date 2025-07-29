@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=cclm-debug
-#FLUX: -N=4
-#FLUX: --queue=debug
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=cclm-debug
+#SBATCH --account=s824
+#SBATCH --output=debug.out
+#SBATCH --mail-user=gianluca.mussetti@env.ethz.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --partition=debug
+#SBATCH --constraint=ntasks-per-node=12,gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

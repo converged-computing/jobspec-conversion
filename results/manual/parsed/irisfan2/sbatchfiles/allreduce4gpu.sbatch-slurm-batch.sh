@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-snack-1902
-#FLUX: -c=8
-#FLUX: --urgency=16
+#SBATCH --output=%x-%N-%j.out
+#SBATCH --error=%x-%N-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --mem=128GB
 
 source /etc/profile.d/modules.sh
 module load rocm/5.3.0

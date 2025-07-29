@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-avocado-4947
-#FLUX: -c=8
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#SBATCH --mail-user=hkumawat3@gatech.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:A100:4
+#SBATCH --mem=40G
+#SBATCH --time=02:00:00
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 conda activate ldm

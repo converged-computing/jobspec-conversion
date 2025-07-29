@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pps
-#FLUX: -n=33
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=pps
+#FLUX -n=33
+#FLUX -t=259200
+#FLUX --urgency=16
 
 mkdir /flashscratch/fastq_$SLURM_ARRAY_TASK_ID
 cd /flashscratch/fastq_$SLURM_ARRAY_TASK_ID

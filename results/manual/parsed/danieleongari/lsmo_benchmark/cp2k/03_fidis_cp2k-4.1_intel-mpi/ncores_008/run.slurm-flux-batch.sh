@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-house-0979
-#FLUX: -n=8
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=hanky-lettuce-3150
+#FLUX -n=8
+#FLUX -t=1800
+#FLUX --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

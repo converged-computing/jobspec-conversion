@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-noodle-7920
-#FLUX: --queue=high
-#FLUX: --urgency=16
+#FLUX --job-name=confused-animal-7916
+#FLUX --queue=high
+#FLUX --urgency=16
 
 module load Python/3.6.4-foss-2017a 
 source /homedtic/mwon/envs/intel/bin/activate

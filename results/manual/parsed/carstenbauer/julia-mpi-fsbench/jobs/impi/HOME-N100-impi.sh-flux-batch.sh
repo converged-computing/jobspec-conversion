@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-8690
-#FLUX: -N=100
-#FLUX: -n=6400
-#FLUX: -c=2
+#FLUX --job-name=eccentric-pastry-0840
+#FLUX -N=100
+#FLUX -n=6400
+#FLUX -c=2
 #FLUX: --exclusive
-#FLUX: --queue=cont
-#FLUX: -t=600
-#FLUX: --urgency=16
+#FLUX --queue=cont
+#FLUX -t=600
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

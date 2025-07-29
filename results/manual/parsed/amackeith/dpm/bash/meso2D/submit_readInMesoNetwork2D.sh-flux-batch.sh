@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lizard-0473
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-bicycle-1299
+#FLUX --urgency=16
 
 gitdir=~/dpm
 srcdir=$gitdir/src

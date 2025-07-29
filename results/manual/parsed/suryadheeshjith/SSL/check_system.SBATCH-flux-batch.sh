@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bike-6005
-#FLUX: -c=8
+#FLUX --job-name=swampy-car-4328
+#FLUX -c=8
 #FLUX: --exclusive
-#FLUX: --queue=n1s8-v100-1
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --queue=n1s8-v100-1
+#FLUX -t=43200
+#FLUX --urgency=16
 
 singularity exec --nv --overlay overlay-15GB-500K.ext3:ro\
     -B data/dataset_v2.sqsh:/dataset:image-src=/\

@@ -1,10 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=RWKV-Cr
-#FLUX: -N=8
-#FLUX: -c=3
-#FLUX: --queue=batch
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=RWKV-Cr
+#SBATCH --account=stf006
+#SBATCH --output=logs/RWKV_Cr_2N-%j.o
+#SBATCH --error=logs/RWKV_Cr_2N-%j.e
+#SBATCH --nodes=8
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:8
+#SBATCH --time=00:10:00
+#SBATCH --partition=batch
+#SBATCH --constraint=ntasks-per-node=8
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

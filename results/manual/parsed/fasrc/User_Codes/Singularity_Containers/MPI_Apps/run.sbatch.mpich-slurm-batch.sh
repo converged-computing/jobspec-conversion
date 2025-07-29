@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mpi_test
-#FLUX: -n=8
-#FLUX: --queue=test
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=mpi_test
+#SBATCH --output=mpi_test.out
+#SBATCH --error=mpi_test.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1000
+#SBATCH --time=00:30:00
+#SBATCH --partition=test
 
 module load python/3.8.5-fasrc01
 source activate python3_env1

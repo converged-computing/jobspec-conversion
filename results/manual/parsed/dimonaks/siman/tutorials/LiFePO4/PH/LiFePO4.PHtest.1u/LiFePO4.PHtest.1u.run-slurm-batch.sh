@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=LiFePO4.PHtest.1u
-#FLUX: -n=16
-#FLUX: --queue=AMG-medium
-#FLUX: --urgency=16
+#SBATCH --job-name=LiFePO4.PHtest.1u
+#SBATCH --output=/home/d.aksenov//LiFePO4/PH///LiFePO4.PHtest.1u/sbatch.out
+#SBATCH --error=/home/d.aksenov//LiFePO4/PH///LiFePO4.PHtest.1u/sbatch.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=AMG-medium
 
 export PATH='$PATH:/home/d.aksenov/tools/'
 

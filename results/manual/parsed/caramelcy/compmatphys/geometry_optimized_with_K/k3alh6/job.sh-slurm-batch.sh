@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=19280
-#FLUX: -N=3
-#FLUX: --queue=small
-#FLUX: --urgency=16
+#SBATCH --job-name=19280
+#SBATCH --output=outputvc.out
+#SBATCH --error=25.err
+#SBATCH --nodes=3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=48
 
 hostname
 module load DL-CondaPy/3.7

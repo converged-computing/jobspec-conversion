@@ -1,8 +1,16 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=./out/array_%A_%a.out
+#SBATCH --error=./err/array_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=4
+#SBATCH --mem=64G
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=gpu
+#SBATCH --constraint=a100,ntasks-per-node=4
+#SBATCH --array=0-4
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 nvidia-smi

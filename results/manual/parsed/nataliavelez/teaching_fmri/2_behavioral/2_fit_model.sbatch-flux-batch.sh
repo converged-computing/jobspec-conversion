@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-fork-8435
-#FLUX: --queue=fasse
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=arid-omelette-2345
+#FLUX --queue=fasse
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module load ncf
 module load Anaconda/5.0.1-fasrc01

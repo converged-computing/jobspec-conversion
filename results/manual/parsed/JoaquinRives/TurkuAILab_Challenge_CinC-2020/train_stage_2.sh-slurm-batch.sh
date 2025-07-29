@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=known
-#FLUX: -c=10
-#FLUX: --queue=small
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --job-name=known
+#SBATCH --account=Project_2002932
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=250G
+#SBATCH --time=20:00:00
+#SBATCH --partition=small
 
 module load tensorflow/1.14.0
 srun python3 train_stage_2.py

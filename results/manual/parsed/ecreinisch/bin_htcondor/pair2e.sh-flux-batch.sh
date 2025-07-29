@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cattywampus-5195
-#FLUX: --urgency=16
+#FLUX --job-name=scruptious-platanos-0537
+#FLUX --urgency=16
 
 if [ ! "$#" -eq 12 ]; then
 	echo "$0 needs 12 arguments. Found only $#"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pyPLUTO1
-#FLUX: --queue=tornado
-#FLUX: -t=864000
-#FLUX: --urgency=16
+#FLUX --job-name=pyPLUTO1
+#FLUX --queue=tornado
+#FLUX -t=864000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'
 

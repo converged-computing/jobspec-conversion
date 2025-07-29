@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-6776
-#FLUX: -n=2
-#FLUX: --queue=test
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=adorable-fudge-5851
+#FLUX -n=2
+#FLUX --queue=test
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export SRMWORKINGDIR='$SCRATCH_DIRECTORY'
 

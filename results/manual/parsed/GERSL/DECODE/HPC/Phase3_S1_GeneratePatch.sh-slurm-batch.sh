@@ -1,7 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-itch-4477
-#FLUX: --queue=priority
-#FLUX: --urgency=16
+#SBATCH --account=zhz18039
+#SBATCH --mail-user=xiucheng.yang@uconn.edu
+#SBATCH --mail-type=END
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+#SBATCH --partition=priority
+#SBATCH --qos=zhz18039epyc
+#SBATCH --constraint=epyc128
+#SBATCH --array=1-400
 
 echo $SLURMD_NODENAME  # display the node name
 module load matlab

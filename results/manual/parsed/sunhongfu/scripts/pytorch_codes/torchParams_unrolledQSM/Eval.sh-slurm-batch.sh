@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=eval_unrolledQSM
-#FLUX: -c=3
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#SBATCH --job-name=eval_unrolledQSM
+#SBATCH --output=eval_unrolledQSM.out
+#SBATCH --error=eval_unrolledQSM.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --gres=gpu:tesla-smx2:2
+#SBATCH --mem=100000
+#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

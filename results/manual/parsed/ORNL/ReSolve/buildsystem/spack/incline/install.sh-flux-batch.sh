@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=resolve_spack
-#FLUX: -n=3
-#FLUX: --queue=incline
-#FLUX: --urgency=16
+#FLUX --job-name=resolve_spack
+#FLUX -n=3
+#FLUX --queue=incline
+#FLUX --urgency=16
 
 export HTTPS_PROXY='http://proxy01.pnl.gov:3128'
 export https_proxy='http://proxy01.pnl.gov:3128'

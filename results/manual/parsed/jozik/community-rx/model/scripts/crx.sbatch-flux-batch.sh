@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-truffle-7642
+#FLUX --job-name=persnickety-lettuce-2266
 #FLUX: --exclusive
-#FLUX: --queue=broadwl
-#FLUX: -t=9000
-#FLUX: --urgency=16
+#FLUX --queue=broadwl
+#FLUX -t=9000
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='28'
 

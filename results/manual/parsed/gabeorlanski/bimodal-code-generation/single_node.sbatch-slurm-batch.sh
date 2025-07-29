@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-0779
-#FLUX: -c=16
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --account=cds
+#SBATCH --output=./sbatch_logs/test_multi_node.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=64G
+#SBATCH --time=01:00:00
 
 export WORLD_SIZE='2'
 export MASTER_ADDR='${master_addr}.hpc.nyu.edu'

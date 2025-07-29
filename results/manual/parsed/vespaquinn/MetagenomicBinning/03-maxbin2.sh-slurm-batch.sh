@@ -1,8 +1,14 @@
 #!/bin/bash
-#FLUX: --job-name=maxbin2
-#FLUX: -c=16
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=maxbin2
+#SBATCH --output=/!!WORKDIR!!/errorOut/maxbin2out1.o
+#SBATCH --error=/!!WORKDIR!!/errorOut/maxbin2error1.e
+#SBATCH --mail-user=user@unibe.ch
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leg-1294
-#FLUX: -c=16
-#FLUX: --queue=common
-#FLUX: --urgency=16
+#SBATCH --output=log/environmental_sequencing/ont_trial/nanoclust_nostocales_by_layer_%A_%a.out
+#SBATCH --error=log/environmental_sequencing/ont_trial/nanoclust_nostocales_by_layer_%A_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=4G
+#SBATCH --partition=common
+#SBATCH --array=1-10
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

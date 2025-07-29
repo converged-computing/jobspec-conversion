@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=test_mpi
-#FLUX: -N=6
-#FLUX: -n=6
-#FLUX: -c=5
-#FLUX: --queue=batch
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#FLUX --job-name=test_mpi
+#FLUX -N=6
+#FLUX -n=6
+#FLUX -c=5
+#FLUX --queue=batch
+#FLUX -t=1200
+#FLUX --urgency=16
 
 {
 	set -e

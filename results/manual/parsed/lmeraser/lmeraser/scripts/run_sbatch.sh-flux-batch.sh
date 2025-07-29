@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=your_job_name
-#FLUX: --queue=your_partition_name
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#FLUX --job-name=your_job_name
+#FLUX --queue=your_partition_name
+#FLUX -t=43200
+#FLUX --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'
 export MASTER_ADDR='localhost'

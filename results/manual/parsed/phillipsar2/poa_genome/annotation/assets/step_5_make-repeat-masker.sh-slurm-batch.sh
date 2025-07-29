@@ -1,9 +1,17 @@
 #!/bin/bash
-#FLUX: --job-name=JOBNAME
-#FLUX: --exclusive
-#FLUX: --queue=amd
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --job-name=JOBNAME
+#SBATCH --account=las
+#SBATCH --output=nova-%x.%j.out
+#SBATCH --error=nova-%x.%j.err
+#SBATCH --mail-user=arnstrm@gmail.com
+#SBATCH --mail-type=end
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=amd
+#SBATCH --qos=las
+#SBATCH: --exclusive
 
 dir=$1
 read -r -d '' VAR <<EOF1

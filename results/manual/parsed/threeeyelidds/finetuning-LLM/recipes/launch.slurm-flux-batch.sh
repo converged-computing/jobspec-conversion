@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pendulum-llama
-#FLUX: --queue=general
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=pendulum-llama
+#FLUX --queue=general
+#FLUX -t=3600
+#FLUX --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-12.2/'
 export PYTHONUNBUFFERED='1'

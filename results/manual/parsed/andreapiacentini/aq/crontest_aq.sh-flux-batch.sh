@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=aq-crontest
-#FLUX: --queue=debug
-#FLUX: --urgency=16
+#FLUX --job-name=aq-crontest
+#FLUX --queue=debug
+#FLUX --urgency=16
 
 export KMP_DETERMINISTIC_REDUCTION='true'
 export I_MPI_PIN_DOMAIN='omp'

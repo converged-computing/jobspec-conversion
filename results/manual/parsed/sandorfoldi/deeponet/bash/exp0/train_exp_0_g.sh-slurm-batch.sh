@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lizard-8471
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/sandorfoldi/deeponet/bash/exp0/train_exp_0_g.sh

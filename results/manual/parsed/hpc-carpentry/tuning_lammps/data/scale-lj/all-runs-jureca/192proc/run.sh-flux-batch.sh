@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pancake-7106
-#FLUX: -N=4
-#FLUX: --queue=devel
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=wobbly-chip-9160
+#FLUX -N=4
+#FLUX --queue=devel
+#FLUX -t=900
+#FLUX --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

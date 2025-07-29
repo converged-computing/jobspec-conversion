@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=nanopore_ann
-#FLUX: -c=2
-#FLUX: --queue=high
-#FLUX: -t=2592000
-#FLUX: --urgency=16
+#SBATCH --job-name=nanopore_ann
+#SBATCH --output=/group/zhougrp/dguan/nanopore_annotation/Chicken/98_logs/%x-%j.out
+#SBATCH --error=/group/zhougrp/dguan/nanopore_annotation/Chicken/98_logs/%x-%j.err
+#SBATCH --mail-user=dguan@ucdavis.edu
+#SBATCH --mail-type=FAIL,TIME_LIMIT
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=30-00:00:00
+#SBATCH --partition=high
 
 module load bio3
 snakemake -j 68 \

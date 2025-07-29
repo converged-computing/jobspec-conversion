@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=julia-mkl-amd n2cn singleCPU
-#FLUX: -c=64
+#FLUX --job-name=julia-mkl-amd n2cn singleCPU
+#FLUX -c=64
 #FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=14400
-#FLUX: --urgency=16
+#FLUX --queue=normal
+#FLUX -t=14400
+#FLUX --urgency=16
 
 export LD_PRELOAD='/scratch/pc2-mitarbeiter/bauerc/devel/julia-mkl-amd/mkl_workaround/libfakeintel.so'
 

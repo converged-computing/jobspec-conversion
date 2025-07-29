@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-5880
-#FLUX: --queue=batch
-#FLUX: -t=300
-#FLUX: --urgency=16
+#FLUX --job-name=gassy-pedo-4437
+#FLUX --queue=batch
+#FLUX -t=300
+#FLUX --urgency=16
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

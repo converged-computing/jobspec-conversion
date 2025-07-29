@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-egg-9155
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 out_dir=output_directory
 mapping_list=genome_mapping_combinations.txt

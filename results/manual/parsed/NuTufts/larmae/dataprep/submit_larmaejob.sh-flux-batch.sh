@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=larmaedata
-#FLUX: --queue=batch
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=larmaedata
+#FLUX --queue=batch
+#FLUX -t=28800
+#FLUX --urgency=16
 
 container=/cluster/tufts/wongjiradlabnu/larbys/larbys-container/singularity_minkowskiengine_u20.04.cu111.torch1.9.0_comput8.sif
 DATA_PREP_DIR=/cluster/tufts/wongjiradlabnu/twongj01/larmae/dataprep/

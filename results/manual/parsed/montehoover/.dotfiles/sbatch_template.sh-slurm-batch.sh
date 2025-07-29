@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lemur-7678
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --qos=medium
 
 source /etc/profile.d/modules.sh                            # Use this to add the module command to the path of compute nodes.
 module load Python3/3.9.6

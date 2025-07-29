@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=us_vec
-#FLUX: -c=16
-#FLUX: --queue=gpu
-#FLUX: -t=43200
-#FLUX: --urgency=16
+#SBATCH --job-name=us_vec
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=10G
+#SBATCH --time=12:00:00
+#SBATCH --partition=gpu
+#SBATCH --array=1-724
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SimSiam_Cifar10
-#FLUX: --queue=dlc-dsengupt
-#FLUX: -t=71940
-#FLUX: --urgency=16
+#FLUX --job-name=SimSiam_Cifar10
+#FLUX --queue=dlc-dsengupt
+#FLUX -t=71940
+#FLUX --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

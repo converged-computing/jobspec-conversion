@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=lora-tune
-#FLUX: -N=6
-#FLUX: -c=16
-#FLUX: --queue=max
-#FLUX: --urgency=16
+#SBATCH --job-name=lora-tune
+#SBATCH --output=lora-tune.o%j
+#SBATCH --error=lora-tune.e%j
+#SBATCH --nodes=6
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --partition=max
+#SBATCH --nodelist=c[21,22,26,27,28,29]
 
 source ~/.bashrc
 conda activate csc542

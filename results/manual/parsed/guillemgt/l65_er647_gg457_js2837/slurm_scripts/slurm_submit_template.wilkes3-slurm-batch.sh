@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=changeme_7cd58d36_descriptive_title
-#FLUX: --queue=ampere
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --job-name=changeme_7cd58d36_descriptive_title
+#SBATCH --account=COMPUTERLAB-SL2-GPU
+#SBATCH --output=./logs/slurm-%j.out
+#SBATCH --error=./logs/slurm-%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --time=00:30:00
+#SBATCH --partition=ampere
+#SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'
 

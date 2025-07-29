@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=xgenerate_databases
-#FLUX: -N=10
-#FLUX: -n=40
-#FLUX: -c=10
-#FLUX: --queue=nesi_research
-#FLUX: -t=900
-#FLUX: --urgency=16
+#FLUX --job-name=xgenerate_databases
+#FLUX -N=10
+#FLUX -n=40
+#FLUX -c=10
+#FLUX --queue=nesi_research
+#FLUX -t=900
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

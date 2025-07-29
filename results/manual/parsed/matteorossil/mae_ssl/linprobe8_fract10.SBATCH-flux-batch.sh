@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=full10_bd_lp_200K
-#FLUX: -c=16
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=full10_bd_lp_200K
+#FLUX -c=16
+#FLUX -t=86400
+#FLUX --urgency=16
 
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

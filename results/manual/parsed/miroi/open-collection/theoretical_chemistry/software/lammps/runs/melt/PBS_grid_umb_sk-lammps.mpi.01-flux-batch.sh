@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-signal-1397
-#FLUX: --urgency=16
+#FLUX --job-name=faux-squidward-3981
+#FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/lammps/runs/melt/PBS_grid_umb_sk-lammps.mpi.01

@@ -1,9 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-taco-6367
-#FLUX: -N=8
-#FLUX: -n=320
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#SBATCH --nodes=8
+#SBATCH --ntasks=320
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
 
 run() {
   local hostfile=$1

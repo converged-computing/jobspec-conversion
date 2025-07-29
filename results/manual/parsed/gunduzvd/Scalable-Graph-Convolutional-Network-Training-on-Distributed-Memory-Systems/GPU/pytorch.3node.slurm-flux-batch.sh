@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=3node
-#FLUX: -N=3
-#FLUX: -c=42
-#FLUX: --queue=gpu
-#FLUX: -t=1800
-#FLUX: --urgency=16
+#FLUX --job-name=3node
+#FLUX -N=3
+#FLUX -c=42
+#FLUX --queue=gpu
+#FLUX -t=1800
+#FLUX --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NNODES * $SLURM_NTASKS_PER_NODE))'

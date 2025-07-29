@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=train_lit_set_model_with_pl
-#FLUX: --queue=Gpu
-#FLUX: -t=120
-#FLUX: --urgency=16
+#FLUX --job-name=train_lit_set_model_with_pl
+#FLUX --queue=Gpu
+#FLUX -t=120
+#FLUX --urgency=16
 
 export PROJDIR='/home/$USER/data/Equivariant-GNNs'
 export DGLBACKEND='pytorch # Required to override default ~/.dgl config directory which is read-only'

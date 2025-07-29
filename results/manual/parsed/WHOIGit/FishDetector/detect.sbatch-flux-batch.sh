@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=FishDetector
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX --job-name=FishDetector
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=86400
+#FLUX --urgency=16
 
 set -eu
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"

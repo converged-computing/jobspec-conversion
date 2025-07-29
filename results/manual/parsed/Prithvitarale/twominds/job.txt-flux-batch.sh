@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-8186
-#FLUX: -c=8
-#FLUX: --queue=gpu
-#FLUX: -t=28800
-#FLUX: --urgency=16
+#FLUX --job-name=ornery-mango-0146
+#FLUX -c=8
+#FLUX --queue=gpu
+#FLUX -t=28800
+#FLUX --urgency=16
 
 module load cuda/10
 /modules/apps/cuda/10.1.243/samples/bin/x86_64/linux/release/deviceQuery

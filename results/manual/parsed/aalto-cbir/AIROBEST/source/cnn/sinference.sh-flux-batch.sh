@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=inference5
-#FLUX: --queue=gpu
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=inference5
+#FLUX --queue=gpu
+#FLUX -t=259200
+#FLUX --urgency=16
 
 id -a
 module purge

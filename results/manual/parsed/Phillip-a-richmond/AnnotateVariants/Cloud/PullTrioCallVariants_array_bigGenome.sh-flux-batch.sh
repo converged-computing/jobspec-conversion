@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-despacito-3674
-#FLUX: -c=32
-#FLUX: --urgency=16
+#FLUX --job-name=spicy-malarkey-6974
+#FLUX -c=32
+#FLUX --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

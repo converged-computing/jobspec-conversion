@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std
-#FLUX: -c=2
-#FLUX: --queue=m3t
-#FLUX: -t=604800
-#FLUX: --urgency=16
+#FLUX --job-name=prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_fine__prob_model_layer_bs_mean_std_coarse__prob_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std_coarse__prob_all_model_layer_bs_mean_std__prob_all_model_layer_bs_mean_std
+#FLUX -c=2
+#FLUX --queue=m3t
+#FLUX -t=604800
+#FLUX --urgency=16
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

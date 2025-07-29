@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-buttface-5590
-#FLUX: -c=24
-#FLUX: --queue=gpu_high
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=nerdy-peas-8194
+#FLUX -c=24
+#FLUX --queue=gpu_high
+#FLUX -t=259200
+#FLUX --urgency=16
 
 module load singularity # this is for singularity
 ulimit -n 40000 # this is for singularity and large memory jobs, you could change 40000 to suitable numbers

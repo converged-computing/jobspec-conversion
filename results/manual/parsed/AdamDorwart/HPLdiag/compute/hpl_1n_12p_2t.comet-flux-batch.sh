@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=HPL_1n_12p_2t
-#FLUX: -n=24
-#FLUX: -t=2220
-#FLUX: --urgency=16
+#FLUX --job-name=HPL_1n_12p_2t
+#FLUX -n=24
+#FLUX -t=2220
+#FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'
 

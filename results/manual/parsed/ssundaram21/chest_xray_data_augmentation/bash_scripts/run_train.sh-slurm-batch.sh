@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=1_true
-#FLUX: -c=4
-#FLUX: --queue=cbmm
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=1_true
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=25GB
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=cbmm
+#SBATCH --constraint=any-gpu
+#SBATCH --chdir=./log/
+#SBATCH --array=1-2
 
 export CUDA_VISIBLE_DEVICES='0'
 

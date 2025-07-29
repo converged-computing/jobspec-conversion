@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dncnn_nf
-#FLUX: --urgency=16
+#FLUX --job-name=dncnn_nf
+#FLUX --urgency=16
 
 hostname
 whoami

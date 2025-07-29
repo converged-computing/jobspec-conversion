@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-blackbean-7816
-#FLUX: -n=4
-#FLUX: --urgency=16
+#FLUX --job-name=stinky-egg-8019
+#FLUX -n=4
+#FLUX --urgency=16
 
 source /etc/profile
 module load julia

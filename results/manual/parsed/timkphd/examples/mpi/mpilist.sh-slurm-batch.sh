@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=hello
-#FLUX: --exclusive
-#FLUX: --queue=shared
-#FLUX: -t=1200
-#FLUX: --urgency=16
+#SBATCH --job-name=hello
+#SBATCH --account=hpcapps
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+#SBATCH --partition=shared
+#SBATCH: --exclusive
 
 export OMPI_MCA_opal_cuda_support='0'
 export LD_LIBRARY_PATH='/opt/cray/libfabric/1.15.2.0/lib64:$LD_LIBRARY_PATH'

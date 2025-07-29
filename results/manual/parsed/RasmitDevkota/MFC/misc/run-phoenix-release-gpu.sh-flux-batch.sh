@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-ricecake-1298
-#FLUX: --queue=embers
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=phat-sundae-6292
+#FLUX --queue=embers
+#FLUX -t=7200
+#FLUX --urgency=16
 
 cd "$SLURM_SUBMIT_DIR"
 echo "Running in $(pwd):"

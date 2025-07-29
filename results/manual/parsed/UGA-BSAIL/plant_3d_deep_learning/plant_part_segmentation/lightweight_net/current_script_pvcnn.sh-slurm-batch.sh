@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=pvcnn_shapenet_p100
-#FLUX: -c=4
-#FLUX: --queue=gpu_p
-#FLUX: -t=172800
-#FLUX: --urgency=16
+#SBATCH --job-name=pvcnn_shapenet_p100
+#SBATCH --output=%x_%j.out
+#SBATCH --mail-user=fs47816@@uga.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:P100:1
+#SBATCH --mem=40gb
+#SBATCH --time=2-00:00:00
+#SBATCH --partition=gpu_p
 
 cd /scratch/fs47816/workdir/sample_scripts/pvcnn_shapenet_p100_pvcnn_plantnet_fullpc2/pvcnn
 ml TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4

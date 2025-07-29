@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=milestoning
-#FLUX: -c=4
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#SBATCH --job-name=milestoning
+#SBATCH --account=andricio_lab
+#SBATCH --error=slurm-%J.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8gb
+#SBATCH --time=3-00:00:00
+#SBATCH --partition=standard
 
 source /data/homezvol2/dray1/Miniconda2/etc/profile.d/conda.sh
 cd equilibration

@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=test
-#FLUX: -N=2
-#FLUX: --queue=E5-2630V2
-#FLUX: --urgency=16
+#SBATCH --job-name=test
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=E5-2630V2
+#SBATCH --constraint=ntasks-per-node=12
 
 module load lammps/12Dec18
 HW="cpu"

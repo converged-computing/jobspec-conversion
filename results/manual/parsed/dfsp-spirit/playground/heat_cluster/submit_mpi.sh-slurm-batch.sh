@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=spy_heat
-#FLUX: -N=2
-#FLUX: --queue=general
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=spy_heat
+#SBATCH --output=slurm.%N.%j.out
+#SBATCH --error=slurm.%N.%j.err
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2000
+#SBATCH --time=00:10:00
+#SBATCH --partition=general
 
 module load anaconda/3/2021.11
 conda activate heat

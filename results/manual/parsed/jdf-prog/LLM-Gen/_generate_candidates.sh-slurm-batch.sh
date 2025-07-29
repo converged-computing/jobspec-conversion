@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=generate_candidates
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=generate_candidates
+#SBATCH --output=../../jobs/%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:a6000:1
+#SBATCH --time=1-00:00:00
+#SBATCH --qos=normal
 
 nvidia-smi
 dataset=$1

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-7122
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=avx512
+#SBATCH --dependency=afterok:<JOBID>:<JOBID>
 
 sed -n '/Scaffolds_20 /,/Scaffolds_21/p' scaffolds.fasta > scaffolds_20.fasta
 grep -v ">" scaffolds_87.fasta > temp.txt; mv temp.txt scaffolds_87.fasta

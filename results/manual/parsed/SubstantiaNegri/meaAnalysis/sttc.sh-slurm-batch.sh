@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-noodle-0560
-#FLUX: --queue=priority
-#FLUX: -t=900
-#FLUX: --urgency=16
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10M
+#SBATCH --time=00:15:00
+#SBATCH --partition=priority
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 module load gcc/6.2.0 R/3.4.1

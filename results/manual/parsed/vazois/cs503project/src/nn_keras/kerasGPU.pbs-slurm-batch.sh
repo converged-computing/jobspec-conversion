@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-buttface-9052
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/vazois/cs503project/src/nn_keras/kerasGPU.pbs

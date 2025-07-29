@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=test_gpu_job
+#FLUX --job-name=test_gpu_job
 #FLUX: --exclusive
-#FLUX: --queue=special
-#FLUX: -t=4200
-#FLUX: --urgency=16
+#FLUX --queue=special
+#FLUX -t=4200
+#FLUX --urgency=16
 
 export USE_EXASCALE_API='True # "True" or "False" use granular host/device memory transfer'
 export LOG_BY_RANK='1 # Use Aaron's profiler/rank logger'

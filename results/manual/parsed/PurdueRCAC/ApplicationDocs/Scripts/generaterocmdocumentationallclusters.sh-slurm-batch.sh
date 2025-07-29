@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-spoon-9092
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 export bell='$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles'
 export negishi='$repo_path/Clusters/Negishi-Modulefiles'

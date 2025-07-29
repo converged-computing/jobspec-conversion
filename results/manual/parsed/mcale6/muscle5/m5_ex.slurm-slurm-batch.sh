@@ -1,8 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=muscle_MSA
-#FLUX: -c=20
-#FLUX: -t=57600
-#FLUX: --urgency=16
+#SBATCH --job-name=muscle_MSA
+#SBATCH --output=msa_%j.out
+#SBATCH --error=msa_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=40G
+#SBATCH --time=16:00:00
+#SBATCH --constraint=ntasks-per-node=1
 
 module load mamba intel
 source activate main_env

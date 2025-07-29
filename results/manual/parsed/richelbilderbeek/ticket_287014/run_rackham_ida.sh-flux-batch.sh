@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=metontiime_18mar_2
-#FLUX: -n=4
-#FLUX: --queue=core
-#FLUX: -t=777600
-#FLUX: --urgency=16
+#FLUX --job-name=metontiime_18mar_2
+#FLUX -n=4
+#FLUX --queue=core
+#FLUX -t=777600
+#FLUX --urgency=16
 
 module load bioinfo-tools Nextflow 
 rm -f metontiime2.nf

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=mpt-3b-30nodes_final
-#FLUX: -N=30
-#FLUX: -c=96
-#FLUX: -t=5184000
-#FLUX: --urgency=16
+#FLUX --job-name=mpt-3b-30nodes_final
+#FLUX -N=30
+#FLUX -c=96
+#FLUX -t=5184000
+#FLUX --urgency=16
 
 export TZ='Asia/Singapore'
 export TMPDIR='/fsx/tmp'

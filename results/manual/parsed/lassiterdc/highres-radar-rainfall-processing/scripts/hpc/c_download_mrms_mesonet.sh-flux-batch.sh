@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-salad-9119
-#FLUX: --queue=standard
-#FLUX: -t=259200
-#FLUX: --urgency=16
+#FLUX --job-name=creamy-onion-1543
+#FLUX --queue=standard
+#FLUX -t=259200
+#FLUX --urgency=16
 
 source __utils.sh
 source __directories.sh

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=o3sources
-#FLUX: -c=10
-#FLUX: --queue=cpuonly
-#FLUX: -t=36000
-#FLUX: --urgency=16
+#SBATCH --job-name=o3sources
+#SBATCH --output=parprog_hybrid_%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=30gb
+#SBATCH --time=10:00:00
+#SBATCH --partition=cpuonly
+#SBATCH --constraint=LSDF
 
 echo "========================================================================"
 echo "=> Account name: $SLURM_JOB_ACCOUNT"

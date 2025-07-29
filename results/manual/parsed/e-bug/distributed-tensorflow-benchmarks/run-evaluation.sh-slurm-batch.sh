@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=mlcomm
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=normal
-#FLUX: -t=18000
-#FLUX: --urgency=16
+#SBATCH --job-name=mlcomm
+#SBATCH --output=evaluation-%j
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --time=05:00:00
+#SBATCH --partition=normal
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=1,gpu
 
 echo "Number of nodes: " 1
 module load daint-gpu

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eval_image_unet_stack_prjs_150k_1x1conv
-#FLUX: --queue=gpu
-#FLUX: --urgency=16
+#FLUX --job-name=eval_image_unet_stack_prjs_150k_1x1conv
+#FLUX --queue=gpu
+#FLUX --urgency=16
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

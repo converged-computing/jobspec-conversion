@@ -1,8 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=array-example
-#FLUX: --queue=Brody
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=array-example
+#SBATCH --output=log-array-example-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1000
+#SBATCH --time=00:10:00
+#SBATCH --partition=Brody
 
 module load julia/1.2.0
 echo "Slurm Job ID, unique: $SLURM_JOB_ID"

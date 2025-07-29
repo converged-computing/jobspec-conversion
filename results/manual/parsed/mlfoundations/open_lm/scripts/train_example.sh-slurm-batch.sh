@@ -1,10 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=sopenclip
-#FLUX: -N=16
-#FLUX: -c=12
-#FLUX: --exclusive
-#FLUX: --queue=g40
-#FLUX: --urgency=16
+#SBATCH --job-name=sopenclip
+#SBATCH --output=experiments/logs/%x_%j.out
+#SBATCH --nodes=16
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=g40
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=8
+#SBATCH --exclude=ip-26-0-134-66,ip-26-0-140-150,ip-26-0-131-89,ip-26-0-133-67
 
 export MASTER_ADDR='`hostname`'
 export MASTER_PORT='12802'

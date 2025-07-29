@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-butter-3376
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/selvaje/YaleRep/LST/preprocess/old/sc1_local_MYD11A2_miss.sh

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-general-8707
-#FLUX: -t=144000
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G
+#SBATCH --time=1-16:00:00
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 

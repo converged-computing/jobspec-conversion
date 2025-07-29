@@ -1,9 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-mango-0745
-#FLUX: -n=20
-#FLUX: -c=4
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --account=nesi99999
+#SBATCH --output=logs/%j-%x.out
+#SBATCH --error=logs/%j-%x.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=1G
+#SBATCH --time=00:10:00
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

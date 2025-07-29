@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-train-6107
-#FLUX: --queue=public-cpu
-#FLUX: -t=345600
-#FLUX: --urgency=16
+#SBATCH --mail-user=adriano.rutz@unige.ch
+#SBATCH --mail-type=ALL
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-00:00:00
+#SBATCH --partition=public-cpu
 
 ml GCC/9.3.0 Singularity/3.7.3-Go-1.14
 printf -v FILE_INDEX "%04d" ${SLURM_ARRAY_TASK_ID}

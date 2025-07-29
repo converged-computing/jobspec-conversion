@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tomotwin_lbann_integration_research
-#FLUX: -c=12
-#FLUX: --queue=cpu
-#FLUX: -t=15000
-#FLUX: --urgency=16
+#FLUX --job-name=tomotwin_lbann_integration_research
+#FLUX -c=12
+#FLUX --queue=cpu
+#FLUX -t=15000
+#FLUX --urgency=16
 
 SPACK_ENV_NAME="LBANN_experiment"
 ml purge

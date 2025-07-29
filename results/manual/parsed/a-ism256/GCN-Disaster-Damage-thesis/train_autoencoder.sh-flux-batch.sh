@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=autoencoder
-#FLUX: --queue=msfea-ai
-#FLUX: --urgency=16
+#FLUX --job-name=autoencoder
+#FLUX --queue=msfea-ai
+#FLUX --urgency=16
 
 module purge
 module load python/tensorflow-2.3.1

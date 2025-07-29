@@ -1,9 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=resnet_train
-#FLUX: -c=4
-#FLUX: --queue=skylake-gpu
-#FLUX: -t=23400
-#FLUX: --urgency=16
+#SBATCH --job-name=resnet_train
+#SBATCH --output=finetune-resnet_final.log
+#SBATCH --error=finetune-resnet_final.log
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --gres=gpu:1
+#SBATCH --mem=12G
+#SBATCH --time=06:30:00
+#SBATCH --partition=skylake-gpu
+#SBATCH --constraint=ntasks-per-node=1
 
 module load openmpi/4.0.0
 module load cudnn/7.6.5-cuda-10.2.89

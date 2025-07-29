@@ -1,8 +1,15 @@
 #!/bin/bash
-#FLUX: --job-name=H1_S2
-#FLUX: --queue=small
-#FLUX: -t=600
-#FLUX: --urgency=16
+#SBATCH --job-name=H1_S2
+#SBATCH --output=S2-%A_%a.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=12800
+#SBATCH --time=00:10:00
+#SBATCH --partition=small
+#SBATCH --constraint=ntasks-per-node=3
+#SBATCH --array=1-1
+#SBATCH --licenses=matlab_dct@licencje.task.gda.pl:1
 
 iStage=2
 cd "STAGE_$iStage/scripts/"

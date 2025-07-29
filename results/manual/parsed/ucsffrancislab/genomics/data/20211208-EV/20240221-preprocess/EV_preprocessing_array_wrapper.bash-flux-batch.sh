@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-butter-7069
-#FLUX: --urgency=16
+#FLUX --job-name=muffled-malarkey-8914
+#FLUX --urgency=16
 
 hostname
 echo "Slurm job id:${SLURM_JOBID}:"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lamp-4310
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#FLUX --job-name=rainbow-truffle-7363
+#FLUX -t=3600
+#FLUX --urgency=16
 
 module add matlab/r2017b
 path_name="`pwd`/$1"

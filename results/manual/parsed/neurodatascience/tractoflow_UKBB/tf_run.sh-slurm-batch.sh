@@ -1,8 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-platanos-2003
-#FLUX: -c=8
-#FLUX: -t=72000
-#FLUX: --urgency=16
+#SBATCH --output=slurm_out/%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=2G
+#SBATCH --time=20:00:00
+#SBATCH --array=0-10000
 
 export chunk='${chunk}'
 export SINGULARITY_BIND=''

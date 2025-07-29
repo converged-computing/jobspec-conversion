@@ -1,9 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-rabbit-6616
-#FLUX: -N=2
-#FLUX: --exclusive
-#FLUX: --queue=arm8xlarge
-#FLUX: --urgency=16
+#SBATCH --output=XXPREFIXXX/log/hpcc.out
+#SBATCH --nodes=2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=arm8xlarge
+#SBATCH: --exclusive
+#SBATCH --constraint=ntasks-per-node=64,c7g.8xlarge
 
 export HPCC_VERSION='1.5.0'
 export OMP_NUM_THREADS='1'

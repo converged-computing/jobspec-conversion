@@ -1,7 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=sarekLaunch
-#FLUX: -t=356400
-#FLUX: --urgency=16
+#SBATCH --job-name=sarekLaunch
+#SBATCH --output=log_launcher.out
+#SBATCH --error=log_launcher.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=4-03:00:00
 
 export NXF_OPTS='-Xms1g -Xmx4g'
 export NXF_EXECUTOR='slurm'

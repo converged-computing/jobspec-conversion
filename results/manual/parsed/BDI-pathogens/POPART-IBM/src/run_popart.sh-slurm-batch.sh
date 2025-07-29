@@ -1,7 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=popart-ibm
-#FLUX: --queue=short
-#FLUX: --urgency=16
+#SBATCH --job-name=popart-ibm
+#SBATCH --account=fraser.prj
+#SBATCH --output=popart-ibm.out
+#SBATCH --error=popart-ibm.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=short
 
 module unload GSL
 module load GSL/2.6-GCC-8.3.0

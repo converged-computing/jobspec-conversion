@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-chair-8604
-#FLUX: --urgency=16
+#FLUX --job-name=swampy-signal-6645
+#FLUX --urgency=16
 
  tar xvzf pbs_ipn_0.581.tar.gz
   #Notes: for you only group is ddp195, nodes = 1 , proc_per_node = 1, compute partition , for  1 hour.  But this is risky.  

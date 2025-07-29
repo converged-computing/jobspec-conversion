@@ -1,7 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=bdd_source_and_HP18k_remap_random
-#FLUX: --queue=1080ti-long
-#FLUX: --urgency=16
+#SBATCH --job-name=bdd_source_and_HP18k_remap_random
+#SBATCH --output=gypsum/logs/%j_bdd_source_and_HP18k_remap_random.txt
+#SBATCH --error=gypsum/errs/%j_bdd_source_and_HP18k_remap_random.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:4
+#SBATCH --mem=100000
+#SBATCH --partition=1080ti-long
 
 python tools/train_net_step.py \
     --dataset bdd_peds+HP18k_remap_random \

@@ -1,9 +1,13 @@
 #!/bin/bash
-#FLUX: --job-name=antismash
-#FLUX: -c=32
-#FLUX: --queue=batch
-#FLUX: -t=86400
-#FLUX: --urgency=16
+#SBATCH --job-name=antismash
+#SBATCH --output=/beegfs/projects/p450/out_files/Julia_antismash_%A_%a.out
+#SBATCH --error=/beegfs/projects/p450/error_files/Julia_antismash_error_%A_%a.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=batch
+#SBATCH --array=0-10%100
 
 source ~/.bashrc
 conda activate /beegfs/home/fbiermann/miniconda3_supernew/envs/antismash7

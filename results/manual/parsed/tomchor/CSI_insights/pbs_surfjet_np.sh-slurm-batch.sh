@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lizard-8990
-#FLUX: --urgency=16
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 
 /workspaces/fractale/jobspec-conversion/data/tomchor/CSI_insights/pbs_surfjet_np.sh

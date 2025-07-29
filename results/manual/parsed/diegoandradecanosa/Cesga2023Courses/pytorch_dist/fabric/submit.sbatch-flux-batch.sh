@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-signal-3724
-#FLUX: -N=2
-#FLUX: -c=32
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=fuzzy-citrus-4170
+#FLUX -N=2
+#FLUX -c=32
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

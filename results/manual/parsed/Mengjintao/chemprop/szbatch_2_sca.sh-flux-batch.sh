@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chemprop
-#FLUX: -c=32
-#FLUX: -t=504000
-#FLUX: --urgency=16
+#FLUX --job-name=chemprop
+#FLUX -c=32
+#FLUX -t=504000
+#FLUX --urgency=16
 
 batch_size=$1
 hidden_size=$2

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-motorcycle-1131
-#FLUX: -t=2700
-#FLUX: --urgency=16
+#FLUX --job-name=persnickety-nalgas-6308
+#FLUX -t=2700
+#FLUX --urgency=16
 
 export JULIA_DEPOT_PATH='$(pwd)/.slurmdepot/gpu'
 export OPENBLAS_NUM_THREADS='1'

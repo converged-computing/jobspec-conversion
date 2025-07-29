@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purity_07
-#FLUX: -c=16
-#FLUX: --queue=dept_gpu
-#FLUX: --urgency=16
+#FLUX --job-name=purity_07
+#FLUX -c=16
+#FLUX --queue=dept_gpu
+#FLUX --urgency=16
 
 echo
 echo $SLURM_JOB_NODELIST

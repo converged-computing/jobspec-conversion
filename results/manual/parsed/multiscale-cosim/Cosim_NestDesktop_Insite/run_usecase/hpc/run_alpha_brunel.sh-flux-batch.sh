@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-toaster-3138
-#FLUX: -N=7
-#FLUX: --queue=devel
-#FLUX: -t=7200
-#FLUX: --urgency=16
+#FLUX --job-name=gloopy-signal-4860
+#FLUX -N=7
+#FLUX --queue=devel
+#FLUX -t=7200
+#FLUX --urgency=16
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/my_forked_repos'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

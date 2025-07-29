@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ewas
-#FLUX: -t=3600
-#FLUX: --urgency=16
+#SBATCH --job-name=ewas
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
 
 export EWAS_PORT='10083  # port must not in use by other users, make sure it is the same port your forwarded to the cluster'
 export EWAS_IMG='${PWD}/ewas.img  # path to the EWAS singularity image you uploaded'
